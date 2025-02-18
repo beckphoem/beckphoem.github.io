@@ -275,3 +275,171 @@ To create a variable, you must specify the type and assign it a value:
 ```
 type variableName = value
 ```
+
+Where type is one of Java's types (such as `int` or `String`), and variableName is the name of the variable (such as ***x*** or **name**). The equal sign is used to assign values to the variable.
+
+To create a variable that should store text, look at the following example:
+
+### Example
+
+Create a variable called **name** of type `String` and assign it the value "John".
+
+Then we use `println()` to print the **name** variable:
+
+```java
+String name = "John";
+System.out.println(name);
+```
+
+To create a variable that should store a number, look at the following example:
+
+### Example 
+Create a variable called **myNum** of type `int` and assign it the value **15**:
+
+```java
+int myNum = 15;
+System.out.println(myNum);
+```
+
+You can also declare a variable without assigning the value, and assign the value later:
+
+### Example
+
+```java
+int myNum;
+myNum = 15;
+System.out.println(myNum);
+```
+
+Note that if you assign a new value to an existing variable, it will overwrite the previous value:
+
+### Final Variables
+
+If you don't want others (or yourself) to overwrite existing values, use the `final` keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only);:
+
+### Example
+
+```java
+final int myNum = 15;
+myNum = 20; // will generate an error: connot assign a value to a final variable
+```
+
+## Other Types
+
+A demonstration of how to declare variables of other types:
+
+### Example
+
+```java
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter =  'D';
+boolean myBool = true;
+String myText = "Hello";
+```
+
+## Variable Print Variables
+
+### Display Variables
+
+The `println()` method is often used to display variables. 
+
+To combine both text and a variable, use the `+` character:
+
+#### Example
+
+```java
+String name = "John";
+System.out.println("Hello" + name);
+```
+
+You can also use the `+` character to add a variable to another variable:
+
+### Example:
+
+```java
+String firstName = "John ";
+String lastName = "Doe";
+String fullName = firstName + lastName;
+System.out.println(fullname);
+```
+
+for numeric values, the `+` character works as a mathematical operator (notice that we use `int` (integer) variable here) :
+
+### Example:
+```java
+int x = 5;
+int y = 6;
+System.out.println(x + y); // Print the value of x + y
+```
+
+from the example, you can expect:
+
+x stores the value 5
+
+y stores the value 6
+
+Then we use the `println()` method to display the value of x + y, which is 11.
+
+
+### Declare Many Variables
+
+To declare more than one variable of the **same types** you can use a comma-separated list:
+
+#### Example
+
+Instead of writing:
+
+```java
+int x = 5;
+int y = 6;
+int z = 50;
+System.out.println(x + y + z);
+```
+
+#### One Value ot Multiple Variables
+
+You can also assign the **same value** to multiple variables in one line;
+
+#### Example
+
+```java
+int x, y, z;
+x = y = z = 50;
+System.out.println(x + y + z);
+```
+
+### Java Identifiers
+
+All Java variables must be identified with unique names
+
+These unique names are called identifiers.
+
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, total Volume).
+
+**Note**: It is recommmended to use descriptive names in order to create understandable and maintainable code:
+
+#### Example
+
+```java
+//Good
+int minutesPerHour = 60;
+
+// Ok, but not so easy to understand what m actually is
+int m = 60;
+```
+
+The general rules for naming variables are:
+
+Names can contain letters, digits, underscores, and dollar signs
+
+Names must begin with a letter
+
+Names should start with a lowercase letter, and cannot contain whitespace.
+
+Name can also begin with $ and _
+
+Name are case-sensitive ("myVar" and "myvar" are diffrent variables);
+
+Reserved words (like Java keyword, such as `int` and `boolean`) cannot be used as names. 
+
