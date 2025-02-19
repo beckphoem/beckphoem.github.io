@@ -482,3 +482,205 @@ area = length * width;
 System.out.println("Length is: " + length);
 System.out.println("Width is: " + width);
 System.out.println("Area of the rectangle is : " + area);
+```
+
+## Data Types
+
+### Java Data Types
+
+As explained in the previous chapter, a variable in Java must be a specified data type:
+
+```java
+int myNum = 5; 
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool =  true;
+String myText = "Hello";
+```
+
+Data types are divided into two groups:
+
+Primitive data types - includes `byte`, `short`, `int`, `long`, `float`, `double`, `boolean` and `char` Non-promitive data type - such as `String`, Arrays and Classes (you will learn more about these in a later chapter)
+
+#### Primitive Data Types
+
+A primitive data type specifies the type of a variable and the kind of values it can hold.
+
+There are eight primitive data types in Java:
+
+|Data Type | Description|
+|---|---|
+|`byte`| Stores whole numbers from -128 to 127|
+|`short`| Stores whole numbers from -32,768 to 32,767|
+|`int`| Stores whole numbers from -2,147,483,648 to 2,147,483,647|
+|`long`| Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|`float`| Stores fractional numbers. Sufficient for storing 6 to 7 decimal degits.|
+|`double`| Stores fractional numbers. Sufficient for storing 15 to 16 decimal digits|
+|`boolean`| Stores true or false values|
+|`char`| Stores a single character/letter or ASCII values|
+
+### Java Numbers
+
+#### Numbers
+
+Primitive number types are divided into two groups:
+
+Integer types stores whole numbers, positive or negative (such as 123 or -456), without decimals. Valid types are `byte`, `short`, `int`, and `long`. Which type you should use, depends on the numeric value.
+
+Floating point types represents numbers with a fractional part, containing one or more decimals. There are two types: `float` and `double`.
+
+> Even though there are many numeric types in Java, the most used for numbers are `int` (for whole numbers) and `double` (for floating point numbers). However, we will describe them all as you continue to read.
+
+#### Integer Types
+
+***Byte***
+The `byte` data type con store whole numbers from -128 to 127. This can be used instead of `int` or other integer types to save memory when you are certain that the value will be within -128 and 127:
+
+```java
+byte myNum = 100;
+System.out.println(myNum);
+```
+
+***Short***
+
+The `short` data type can store whole numbers from -32768 to 32767:
+
+```java
+short myNum = 5000;
+System.out.println(myNum);
+```
+
+#### Int
+
+The `int` data type can store whole numbers from -21447483648 to 2147483647. In general, and in our tutorial, the `int` data type is the preferred data type when we create variables with a numeric value. 
+
+```java
+int myNum = 100000;
+System.out.println(myNum);
+```
+
+#### Long
+The `long` data type can store whole numbers from -9223372036854775808 to 9223372036854775807. This is used when int is not large enough to store the value. Note that you should end the value with an "L":
+
+```java
+long myNum = 1500000000000l;
+System.out.println(myNum);
+```
+
+#### Floating Point Types.
+
+You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
+
+The `float` and `double` data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles:
+
+#### Float Example:
+
+```java
+float myNum = 5.75f;
+System.out.println(myNum);
+```
+
+#### Double Example
+
+```java
+double myNum = 19.99d;
+System.out.println(myNum);
+```
+
+> use `float` or `double`?
+
+> The **precision** of a floating point vlaue indicates how many digits the value can have after the decimal point. The precision of `float` is only six or seven decimal digits, while `doule` variables have a precision of about 16 digits. Therefore it is safer to use `double` for most calculations.
+
+
+#### Scientific Numbers
+
+A floating point number can also be a scientific nuuumber with an "e" to indicate the power of 10:
+
+```java
+float f1 = 35e3f;
+double d1 = 12E4d;
+System.out.println(f1);
+System.out.println(d1);
+```
+
+### Boolean Types
+
+Very often in programming, you will need a data type that can only have one of two values, like:
+
+Yes/no
+On/ off
+True/False
+
+For this, Java has a `boolean` data type, which can only take the values `true` or `false`:
+
+```java
+boolean isJavaFun = true;
+boolean isFishTasty = false;
+System.out.println(isJavaFun);
+System.out.println(isFishTasty);
+```
+
+### Characters
+
+The `char` data type is used to store a **single** character. The character must be surrounded by single quotes, like 'A' or 'c':
+
+```java
+char myGrade = 'B';
+System.out.println(myGrade);
+```
+Alternatively, if you are familar with ASCII values, you can use those to display certain characters:
+
+```java
+char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+System.out.println(myVar1);
+System.out.println(myVar2);
+System.out.println(myVar3);
+```
+
+**Tip**: A list of all ASCII values can be found in our ASCII Table Reference.
+
+### Strings
+
+The `string` data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+
+```java
+String greeting = "Hello World";
+String.out.println(greeting);
+```
+
+> The String type is so much used and integrated in Java, that some call it " the special ninth type".
+
+> A String in Java is actually a non-primitive data type, because it refers to an object. The String object has methods that are used to perform certain operations on strings. Don't worry if you don't understand the term "object" just yet. We will learn more about strings and objects in a later chapter. 
+
+### Real-life Example
+
+Here's a real-life example of using different data types, to calculate and output the total cost of a number of items:
+
+#### Example
+
+```java
+// Create variables of different data types
+
+int items = 50;
+float costPerItem = 9.99f;
+float totalCost = items * costPerItem;
+char currency = '$';
+
+//Print variables
+
+System.out.println("Number of items: " + items);
+System.out.println("Cost per item: " + costPerItem + currency);
+System.out.println("Total cost = " + totalCost + currency);
+```
+
+### Non-Primitive Data Types
+
+Non-primitive data types are called reference types because they refer to objects.
+
+The main differences between primitive and non-primitive data tyeps are:
+
+- Primitive types in Java are predefiend and built into the language, while non-primitive types are created by the programmer (except for `String`)
+- Non-primitive types can be used to call methods to perform certain operations, whereas primitive types cannot.
+
+- Examples of non-primitive types are Strings, Arrays, Classes etc. You will learn more about these in a later chapter. 
+
