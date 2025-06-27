@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Tiếng Anh</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column; /* Allow content to stack vertically */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+            padding: 20px;
+        }
+
+        .flashcard-container {
+            perspective: 1000px; /* For 3D flip effect */
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .flashcard {
+            width: 100%;
+            height: 300px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+        }
+
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid #e0e0e0;
+        }
+
+        .flashcard-front {
+            z-index: 2;
+            transform: rotateY(0deg);
+        }
+
+        .flashcard-back {
+            transform: rotateY(180deg);
+        }
+
+        .navigation-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 24px;
+            width: 100%;
+            max-width: 600px; /* Wider to accommodate new button */
+            flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+        }
+
+        .nav-button, .flip-button, .shuffle-button, .speech-toggle-button {
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            border: none;
+            outline: none;
+            background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            white-space: nowrap; /* Prevent text wrapping inside buttons */
+        }
+
+        .nav-button:hover, .flip-button:hover, .shuffle-button:hover, .speech-toggle-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+        }
+
+        .nav-button:active, .flip-button:active, .shuffle-button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+        }
+
+        .nav-button:disabled, .speech-toggle-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            background-image: linear-gradient(135deg, #aab8c2 0%, #bccad3 100%);
+            box-shadow: none;
+        }
+
+        .definition {
+            font-size: 1.25rem; /* 20px */
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        .example {
+            font-size: 0.95rem; /* 16px */
+            color: #666;
+            font-style: italic;
+            margin-top: 12px; /* Added margin for spacing */
+        }
+
+        .word {
+            font-size: 2.25rem; /* 36px */
+            font-weight: 700;
+            color: #4a90e2;
+            margin-bottom: 8px;
+        }
+
+        .phonetic {
+            font-size: 1.25rem; /* 20px */
+            color: #555;
+            font-weight: 400;
+        }
+
+        .card-number {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 0.875rem;
+            color: #888;
+        }
+
+        #speechStatus {
+            margin-top: 15px;
+            font-size: 1rem;
+            color: #555;
+            text-align: center;
+            min-height: 20px; /* Ensure space for status messages */
+        }
+
+        @media (max-width: 600px) {
+            .flashcard {
+                height: 250px;
+            }
+            .definition {
+                font-size: 1.1rem;
+            }
+            .example {
+                font-size: 0.85rem;
+            }
+            .word {
+                font-size: 2rem;
+            }
+            .phonetic {
+                font-size: 1.1rem;
+            }
+            .nav-button, .flip-button, .shuffle-button, .speech-toggle-button {
+                padding: 10px 18px; /* Slightly smaller padding for small screens */
+                font-size: 14px;
+                flex-grow: 1; /* Allow buttons to grow to fill space */
+                margin: 5px; /* Add margin for better spacing when wrapping */
+            }
+            .navigation-buttons {
+                flex-direction: column; /* Stack buttons vertically on small screens */
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body class="flex flex-col">
+    <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">Flashcard Tiếng Anh</h1>
+
+    <div class="flashcard-container">
+        <div id="flashcard" class="flashcard">
+            <div class="flashcard-face flashcard-front rounded-xl shadow-lg">
+                <span id="card-number-front" class="card-number">1/20</span>
+                <p id="definition" class="definition"></p>
+            </div>
+            <div class="flashcard-face flashcard-back rounded-xl shadow-lg">
+                <span id="card-number-back" class="card-number">1/20</span>
+                <p id="word" class="word"></p>
+                <p id="phonetic" class="phonetic"></p>
+                <p id="example" class="example"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation-buttons">
+        <button id="prevBtn" class="nav-button">Thẻ trước</button>
+        <button id="flipBtn" class="flip-button">Lật thẻ</button>
+        <button id="nextBtn" class="nav-button">Thẻ sau</button>
+        <button id="shuffleBtn" class="shuffle-button">Trộn thẻ</button>
+        <button id="speechToggleBtn" class="speech-toggle-button">Bật nhận diện giọng nói</button> <!-- New speech button -->
+    </div>
+    <div id="speechStatus" class="text-center"></div> <!-- Status message for speech recognition -->
+
+    <script>
+        // Dữ liệu flashcard
+        const flashcards = [
+            {
+                definition: "tin đồn (thông tin chưa chắc chắn, lan truyền).",
+                example: '"When George was just a boy, the rumor was that his parents died in a car accident". "He told mean rumors about the other kids".',
+                word: "rumor",
+                phonetic: "/ˈruːmər/"
+            },
+            {
+                definition: "bên cạnh, cùng với.",
+                example: '"He was sent to live alongside other children without parents".',
+                word: "alongside",
+                phonetic: "/əˈlɔːŋsaɪd/"
+            },
+            {
+                definition: "giúp đỡ ai đó.",
+                example: '"There were kind people to assist George and help him go forward with his life".',
+                word: "assist",
+                phonetic: "/əˈsɪst/"
+            },
+            {
+                definition: "bi quan (luôn nghĩ điều xấu sẽ xảy ra).",
+                example: '"However, he was a pessimistic and mean little boy".',
+                word: "pessimistic",
+                phonetic: "/ˌpesɪˈmɪstɪk/"
+            },
+            {
+                definition: "rất tức giận và sốc.",
+                example: '"George was often outraged".',
+                word: "outraged",
+                phonetic: "/ˈaʊtreɪdʒd/"
+            },
+            {
+                definition: "đập vỡ thành nhiều mảnh; đánh mạnh.",
+                example: '"He smashed furniture and even slapped other boys".',
+                word: "smash",
+                phonetic: "/smæʃ/"
+            },
+            {
+                definition: "tát (đánh bằng bàn tay mở).",
+                example: '"He smashed furniture and even slapped other boys".',
+                word: "slap",
+                phonetic: "/slæp/"
+            },
+            {
+                definition: "không tuân theo, chống lại; thách thức.",
+                example: '"He defied anyone who tried to help him, and soon it was difficult for them to forgive him".',
+                word: "defy",
+                phonetic: "/dɪˈfaɪ/"
+            },
+            {
+                definition: "tha thứ (không còn giận ai đó vì điều họ đã làm).",
+                example: '"He defied anyone who tried to help him, and soon it was difficult for them to forgive him".',
+                word: "forgive",
+                phonetic: "/fərˈɡɪv/"
+            },
+            {
+                definition: "trưng bày, thể hiện ra.",
+                example: '"But George did display a love for one thing".',
+                word: "display",
+                phonetic: "/dɪˈspleɪ/"
+            },
+            {
+                definition: "trong khi đó, ngược lại (dùng để so sánh hai điều khác nhau).",
+                example: '"Whereas he was lazy in school and liked neither the subjects nor the teachers, he was lively and happy when he played baseball".',
+                word: "whereas",
+                phonetic: "/ˌwerˈæz/"
+            },
+            {
+                definition: "chủ đề (để nói hoặc học); người hoặc vật được nói đến.",
+                example: '"Whereas he was lazy in school and liked neither the subjects nor the teachers, he was lively and happy when he played baseball".',
+                word: "subject",
+                phonetic: "/ˈsʌbdʒɪkt/"
+            },
+            {
+                definition: "cũng không (dùng sau 'neither' hoặc câu phủ định).",
+                example: '"Whereas he was lazy in school and liked neither the subjects nor the teachers, he was lively and happy when he played baseball".',
+                word: "nor",
+                phonetic: "/nɔːr/"
+            },
+            {
+                definition: "sống động, đầy năng lượng.",
+                example: '"Whereas he was lazy in school and liked neither the subjects nor the teachers, he was lively and happy when he played baseball".',
+                word: "lively",
+                phonetic: "/ˈlaɪvli/"
+            },
+            {
+                definition: "hiệu quả (làm việc tốt mà không tốn nhiều thời gian hay năng lượng).",
+                example: '"He was a very efficient hitter".',
+                word: "efficient",
+                phonetic: "/ɪˈfɪʃnt/"
+            },
+            {
+                definition: "uy nghiêm, tráng lệ, hùng vĩ.",
+                example: '"The teacher thought that George looked majestic when he played".',
+                word: "majestic",
+                phonetic: "/məˈdʒestɪk/"
+            },
+            {
+                definition: "làn gió nhẹ.",
+                example: '"When George hit the ball, it flew through the breeze as if it would never come down".',
+                word: "breeze",
+                phonetic: "/briːz/"
+            },
+            {
+                definition: "sự thèm ăn; mong muốn mạnh mẽ.",
+                example: '"His appetite was huge".',
+                word: "appetite",
+                phonetic: "/ˈæpɪtaɪt/"
+            },
+            {
+                definition: "yếu ớt, không có sức mạnh.",
+                example: '"Soon the other boys and even the teachers looked small and feeble next to him".',
+                word: "feeble",
+                phonetic: "/ˈfiːbl/"
+            },
+            {
+                definition: "tiền lương (trả theo giờ hoặc tuần).",
+                example: '"When George got his first job as a baseball player, he gave most of his wages to the people who had helped him as a boy".',
+                word: "wage",
+                phonetic: "/weɪdʒ/"
+            }
+        ];
+
+        let currentCardIndex = 0;
+        const flashcardElement = document.getElementById('flashcard');
+        const definitionElement = document.getElementById('definition');
+        const exampleElement = document.getElementById('example');
+        const wordElement = document.getElementById('word');
+        const phoneticElement = document.getElementById('phonetic');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const flipBtn = document.getElementById('flipBtn');
+        const shuffleBtn = document.getElementById('shuffleBtn');
+        const speechToggleBtn = document.getElementById('speechToggleBtn'); // Get the new speech button
+        const speechStatus = document.getElementById('speechStatus');     // Get the status display area
+        const cardNumberFront = document.getElementById('card-number-front');
+        // FIX: Corrected assignment for cardNumberBack
+        const cardNumberBack = document.getElementById('card-number-back');
+
+        let speechRecognition;
+        let isListening = false;
+
+        // Function to update card content
+        function updateCardContent() {
+            const card = flashcards[currentCardIndex];
+            definitionElement.textContent = card.definition;
+            wordElement.textContent = card.word;
+            phoneticElement.textContent = card.phonetic;
+            exampleElement.textContent = card.example;
+            cardNumberFront.textContent = `${currentCardIndex + 1}/${flashcards.length}`;
+            cardNumberBack.textContent = `${currentCardIndex + 1}/${flashcards.length}`;
+
+            // Disable/enable navigation buttons
+            prevBtn.disabled = currentCardIndex === 0;
+            nextBtn.disabled = currentCardIndex === flashcards.length - 1;
+
+            // Handle speech recognition state when card content changes
+            if (isListening && speechRecognition) {
+                speechRecognition.stop(); // Stop current listening
+                if (!flashcardElement.classList.contains('flipped')) { // If card is on front, restart listening for new word
+                    speechRecognition.start();
+                    speechStatus.textContent = "Đang nghe từ mới...";
+                } else { // If card is flipped, don't auto-start, just update status
+                    speechStatus.textContent = "Nhận diện giọng nói đã tạm dừng (thẻ đang lật).";
+                }
+            } else if (speechRecognition) {
+                speechStatus.textContent = ""; // Clear status if not listening
+            }
+        }
+
+        // Fisher-Yates shuffle algorithm
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+            }
+        }
+
+        // Initialize Speech Recognition
+        // NOTE: Speech recognition requires microphone permission and a secure context (HTTPS).
+        // If you see a "not-allowed" error, please ensure your browser has permission and the page is served over HTTPS.
+        if ('webkitSpeechRecognition' in window) {
+            speechRecognition = new webkitSpeechRecognition();
+            speechRecognition.continuous = false; // Listen for a single utterance, then stop
+            speechRecognition.interimResults = false; // Only return final results
+            speechRecognition.lang = 'en-US'; // Set language to English (US)
+
+            // Event handler for when a speech result is received
+            speechRecognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript.toLowerCase().trim();
+                const currentEnglishWord = flashcards[currentCardIndex].word.toLowerCase().trim();
+
+                console.log(`Recognized: "${transcript}", Expected: "${currentEnglishWord}"`);
+
+                // If the card is already flipped, we don't need to do anything on speech
+                if (flashcardElement.classList.contains('flipped')) {
+                    speechStatus.textContent = "Đã lật thẻ. Nhấn 'Bật nhận diện' để nói từ khác.";
+                    // If we want to allow re-speaking on flipped card, uncomment next line
+                    // if (isListening) speechRecognition.start(); // Restart if continuous
+                    return;
+                }
+
+                if (transcript === currentEnglishWord) {
+                    flashcardElement.classList.add('flipped');
+                    speechStatus.textContent = "Chính xác! Đã lật thẻ.";
+                    // Stop listening after correct recognition for this card
+                    if (isListening) speechRecognition.stop();
+                    // Keep isListening true, so if user navigates, it can restart
+                } else {
+                    speechStatus.textContent = `Sai rồi. Bạn nói: "${transcript}". Hãy thử lại.`;
+                    // Restart listening if we want continuous attempts for the same card
+                    if (isListening) speechRecognition.start();
+                }
+            };
+
+            // Event handler for when speech recognition starts
+            speechRecognition.onstart = () => {
+                speechStatus.textContent = "Đang nghe... Hãy đọc từ tiếng Anh.";
+            };
+
+            // Event handler for when speech recognition ends
+            speechRecognition.onend = () => {
+                // Only change button text if not intentionally stopped by user
+                if (isListening && !flashcardElement.classList.contains('flipped')) {
+                    speechStatus.textContent = "Ngừng nghe. Nhấn 'Bật nhận diện giọng nói' để bắt đầu lại.";
+                } else if (!isListening) {
+                    speechStatus.textContent = "Nhận diện giọng nói đã dừng.";
+                }
+            };
+
+            // Event handler for errors
+            speechRecognition.onerror = (event) => {
+                console.error('Speech recognition error:', event.error);
+                let errorMessage = `Lỗi nhận diện giọng nói: ${event.error}. Vui lòng thử lại.`;
+
+                if (event.error === 'not-allowed') {
+                    errorMessage = "Lỗi: Không được phép truy cập microphone. Vui lòng cấp quyền truy cập microphone cho trang này trong cài đặt trình duyệt (thường cần HTTPS).";
+                } else if (event.error === 'network') {
+                    errorMessage = "Lỗi mạng: Kiểm tra kết nối internet của bạn.";
+                } else if (event.error === 'no-speech') {
+                    errorMessage = "Không phát hiện giọng nói. Hãy nói to và rõ hơn.";
+                } else if (event.error === 'aborted') {
+                    errorMessage = "Nhận diện giọng nói đã bị hủy.";
+                }
+
+                speechStatus.textContent = errorMessage;
+                isListening = false;
+                speechToggleBtn.textContent = "Bật nhận diện giọng nói";
+            };
+
+            // Toggle speech recognition on button click
+            speechToggleBtn.addEventListener('click', () => {
+                if (isListening) {
+                    speechRecognition.stop();
+                    isListening = false;
+                    speechToggleBtn.textContent = "Bật nhận diện giọng nói";
+                    speechStatus.textContent = "Nhận diện giọng nói đã dừng.";
+                } else {
+                    // Ensure the card is on the front side before starting speech recognition
+                    if (flashcardElement.classList.contains('flipped')) {
+                        flashcardElement.classList.remove('flipped');
+                    }
+                    try {
+                        speechRecognition.start();
+                        isListening = true;
+                        speechToggleBtn.textContent = "Dừng nhận diện";
+                    } catch (e) {
+                        console.error("Error starting speech recognition:", e);
+                        speechStatus.textContent = "Không thể bắt đầu nhận diện giọng nói. Có thể microphone đang được sử dụng hoặc quyền truy cập bị từ chối.";
+                        isListening = false;
+                        speechToggleBtn.textContent = "Bật nhận diện giọng nói";
+                    }
+                }
+            });
+
+        } else {
+            speechToggleBtn.disabled = true;
+            speechToggleBtn.textContent = "Trình duyệt không hỗ trợ nhận diện giọng nói.";
+            speechStatus.textContent = "Tính năng nhận diện giọng nói không khả dụng trên trình duyệt của bạn. Vui lòng sử dụng Chrome.";
+        }
+
+
+        // Lật thẻ bằng cách click vào nút "Lật thẻ"
+        flipBtn.addEventListener('click', () => {
+            flashcardElement.classList.toggle('flipped');
+            // If speech is active and card gets flipped manually, stop speech
+            if (isListening && flashcardElement.classList.contains('flipped')) {
+                speechRecognition.stop();
+                speechStatus.textContent = "Đã lật thẻ bằng tay. Nhận diện giọng nói tạm dừng.";
+                // Do not set isListening to false here if we want it to auto-restart on next card.
+                // Instead, the onend will handle the status message.
+            }
+        });
+
+        // Lật thẻ bằng cách click vào chính thẻ flashcard
+        flashcardElement.addEventListener('click', (event) => {
+            // Ngăn chặn sự kiện click từ các nút điều hướng lan truyền lên thẻ
+            if (event.target.closest('.nav-button') || event.target.closest('.flip-button') || event.target.closest('.shuffle-button') || event.target.closest('.speech-toggle-button')) {
+                return;
+            }
+            flashcardElement.classList.toggle('flipped');
+            // If speech is active and card gets flipped manually, stop speech
+            if (isListening && flashcardElement.classList.contains('flipped')) {
+                speechRecognition.stop();
+                speechStatus.textContent = "Đã lật thẻ bằng tay. Nhận diện giọng nói tạm dừng.";
+            }
+        });
+
+        // Chuyển sang thẻ trước
+        prevBtn.addEventListener('click', () => {
+            if (currentCardIndex > 0) {
+                currentCardIndex--;
+                flashcardElement.classList.remove('flipped'); // Đảm bảo thẻ quay về mặt trước
+                updateCardContent();
+            }
+        });
+
+        // Chuyển sang thẻ sau
+        nextBtn.addEventListener('click', () => {
+            if (currentCardIndex < flashcards.length - 1) {
+                currentCardIndex++;
+                flashcardElement.classList.remove('flipped'); // Đảm bảo thẻ quay về mặt trước
+                updateCardContent();
+            }
+        });
+
+        // Trộn thẻ
+        shuffleBtn.addEventListener('click', () => {
+            shuffleArray(flashcards); // Trộn mảng flashcards
+            currentCardIndex = 0; // Đặt lại về thẻ đầu tiên sau khi trộn
+            flashcardElement.classList.remove('flipped'); // Đảm bảo thẻ quay về mặt trước
+            updateCardContent(); // Cập nhật nội dung thẻ
+        });
+
+        // Add keyboard navigation
+        document.addEventListener('keydown', (event) => {
+            switch (event.key) {
+                case 'ArrowLeft': // Left arrow key
+                    prevBtn.click();
+                    break;
+                case 'ArrowRight': // Right arrow key
+                    nextBtn.click();
+                    break;
+                case 'ArrowUp': // Up arrow key
+                case 'ArrowDown': // Down arrow key
+                    flashcardElement.click(); // Simulate a click on the card to flip it
+                    break;
+                // 's' key for shuffle is currently commented out in HTML button,
+                // if re-enabled, consider adding here.
+            }
+        });
+
+        // Initialize the first card when the page loads
+        document.addEventListener('DOMContentLoaded', updateCardContent);
+    </script>
+</body>
+</html>
