@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Học Từ Vựng</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+        .card-container {
+            perspective: 1000px;
+        }
+        .card {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .card.is-flipped {
+            transform: rotateY(180deg);
+        }
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 1rem;
+        }
+        .card-front {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+        }
+        .card-back {
+            background-color: #f0f9ff;
+            transform: rotateY(180deg);
+            border: 1px solid #bae6fd;
+        }
+        .mic-icon.listening {
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.7; }
+            50% { transform: scale(1.2); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.7; }
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 flex flex-col items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-2xl mx-auto">
+        <h1 class="text-3xl md:text-4xl font-bold text-center text-slate-700 mb-6">Flashcard Tiếng Anh</h1>
+
+        <!-- Card Container -->
+        <div id="card-container" class="card-container w-full h-80 mb-6">
+            <div id="card" class="card">
+                <!-- Front of the Card (Vietnamese) -->
+                <div class="card-face card-front shadow-lg">
+                    <p id="vietnamese-def" class="text-2xl md:text-3xl font-semibold text-slate-700"></p>
+                </div>
+                <!-- Back of the Card (English) -->
+                <div class="card-face card-back shadow-lg">
+                    <h2 id="english-word" class="text-4xl font-bold text-sky-700 mb-2"></h2>
+                    <p id="phonetic" class="text-xl text-slate-500 mb-4"></p>
+                    <p id="example" class="text-lg text-slate-600"></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Progress and Status -->
+        <div class="flex justify-between items-center w-full mb-4">
+             <div class="flex items-center space-x-2">
+                <div id="mic-icon">
+                    <svg class="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+                </div>
+                <span id="speech-status" class="text-sm text-slate-500">Nhấn phím cách hoặc lật thẻ để bắt đầu nhận dạng giọng nói.</span>
+            </div>
+            <p id="progress" class="text-lg font-medium text-slate-600"></p>
+        </div>
+
+
+        <!-- Controls -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+            <button id="prev-btn" class="p-4 bg-white text-slate-700 font-semibold rounded-lg shadow-md hover:bg-slate-50 transition-colors flex items-center justify-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                Trước
+            </button>
+            <button id="next-btn" class="p-4 bg-white text-slate-700 font-semibold rounded-lg shadow-md hover:bg-slate-50 transition-colors flex items-center justify-center">
+                Sau
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+            <button id="flip-btn" class="p-4 bg-sky-500 text-white font-semibold rounded-lg shadow-md hover:bg-sky-600 transition-colors flex items-center justify-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h5M20 20v-5h-5"></path></svg>
+                Lật Thẻ
+            </button>
+            <button id="shuffle-btn" class="p-4 bg-white text-slate-700 font-semibold rounded-lg shadow-md hover:bg-slate-50 transition-colors flex items-center justify-center">
+                 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                Trộn
+            </button>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="text-center text-slate-500 p-4 bg-white/70 rounded-lg">
+            <p class="font-bold mb-2">Hướng dẫn:</p>
+            <p><kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">←</kbd> / <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">→</kbd>: Chuyển thẻ</p>
+            <p><kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">↑</kbd> / <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">↓</kbd> / <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg">Space</kbd>: Lật thẻ</p>
+            <p>Đọc to từ tiếng Anh ở mặt trước để thẻ tự động lật.</p>
+        </div>
+
+    </div>
+
+    <script>
+        const cardsData = [
+            {
+                english: 'animate',
+                phonetic: '/ˈæn.ə.meɪt/',
+                vietnamese: 'có sự sống, sống động.',
+                example: 'She is drawing animate characters.'
+            },
+            {
+                english: 'classify',
+                phonetic: '/ˈklæs.ə.faɪ/',
+                vietnamese: 'phân loại (sắp xếp thành các nhóm dựa trên đặc điểm chung).',
+                example: 'He classifies the books by genre.'
+            },
+            {
+                english: 'concede',
+                phonetic: '/kənˈsiːd/',
+                vietnamese: 'thừa nhận (rằng điều gì đó là đúng); nhượng bộ.',
+                example: 'He conceded that he was wrong.'
+            },
+            {
+                english: 'concept',
+                phonetic: '/ˈkɒn.sept/',
+                vietnamese: 'khái niệm, ý tưởng (một ý tưởng trừu tượng hoặc chung chung).',
+                example: 'It is a difficult concept to understand.'
+            },
+            {
+                english: 'construct',
+                phonetic: '/kənˈstrʌkt/',
+                vietnamese: 'xây dựng, lắp ráp.',
+                example: 'They will construct a new bridge.'
+            },
+            {
+                english: 'decade',
+                phonetic: '/ˈdek.eɪd/',
+                vietnamese: 'thập kỷ (khoảng thời gian mười năm).',
+                example: 'A lot has changed in the last decade.'
+            },
+            {
+                english: 'diagram',
+                phonetic: '/ˈdaɪ.ə.ɡræm/',
+                vietnamese: 'sơ đồ, biểu đồ (hình vẽ giải thích).',
+                example: 'The diagram explains how the machine works.'
+            },
+            {
+                english: 'ferry',
+                phonetic: '/ˈfer.i/',
+                vietnamese: 'phà (thuyền chở người và xe).',
+                example: 'We took the ferry across the river.'
+            },
+            {
+                english: 'handy',
+                phonetic: '/ˈhæn.di/',
+                vietnamese: 'tiện dụng, hữu ích; khéo tay.',
+                example: 'This multi-tool is very handy.'
+            },
+            {
+                english: 'isolate',
+                phonetic: '/ˈaɪ.sə.leɪt/',
+                vietnamese: 'cô lập, cách ly.',
+                example: 'They had to isolate the patient to prevent the disease from spreading.'
+            },
+            {
+                english: 'longing',
+                phonetic: '/ˈlɒŋ.ɪŋ/',
+                vietnamese: 'nỗi khao khát, mong muốn mãnh liệt.',
+                example: 'He felt a longing for his homeland.'
+            },
+            {
+                english: 'numerous',
+                phonetic: '/ˈnjuː.mə.rəs/',
+                vietnamese: 'nhiều, số lượng lớn.',
+                example: 'There are numerous stars in the sky.'
+            },
+            {
+                english: 'particle',
+                phonetic: '/ˈpɑːr.t̬ə.kəl/',
+                vietnamese: 'hạt nhỏ (một phần rất nhỏ của vật chất).',
+                example: 'Dust particles floated in the sunbeam.'
+            },
+            {
+                english: 'plea',
+                phonetic: '/pliː/',
+                vietnamese: 'lời cầu xin, lời khẩn khoản.',
+                example: 'He made a desperate plea for help.'
+            },
+            {
+                english: 'refrain',
+                phonetic: '/rɪˈfreɪn/',
+                vietnamese: 'kiềm chế, nhịn (không làm điều gì đó).',
+                example: 'Please refrain from smoking in this area.'
+            },
+            {
+                english: 'review',
+                phonetic: '/rɪˈvjuː/',
+                vietnamese: 'bài đánh giá; sự xem xét lại.',
+                example: 'He wrote a review of the new movie.'
+            },
+            {
+                english: 'sophisticated',
+                phonetic: '/səˈfɪs.tə.keɪ.t̬ɪd/',
+                vietnamese: 'tinh vi, phức tạp; sành điệu.',
+                example: 'This is a very sophisticated piece of equipment.'
+            },
+            {
+                english: 'surrender',
+                phonetic: '/səˈren.dɚ/',
+                vietnamese: 'đầu hàng; từ bỏ.',
+                example: 'The army was forced to surrender.'
+            },
+            {
+                english: 'upright',
+                phonetic: '/ˈʌp.raɪt/',
+                vietnamese: 'thẳng đứng; chính trực, trung thực.',
+                example: 'Please sit in an upright position.'
+            },
+            {
+                english: 'worthwhile',
+                phonetic: '/ˌwɝːθˈwaɪl/',
+                vietnamese: 'đáng giá, bõ công.',
+                example: 'Volunteering for the charity was a worthwhile experience.'
+            }
+        ];
+
+        let currentCardIndex = 0;
+        let shuffledCards = [...cardsData];
+        let isFlipped = false;
+        
+        // Speech Recognition Setup
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        let recognition;
+        let isListening = false;
+        
+        // DOM Elements
+        const cardElement = document.getElementById('card');
+        const vietnameseDef = document.getElementById('vietnamese-def');
+        const englishWord = document.getElementById('english-word');
+        const phonetic = document.getElementById('phonetic');
+        const example = document.getElementById('example');
+        const progress = document.getElementById('progress');
+        const flipBtn = document.getElementById('flip-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const prevBtn = document.getElementById('prev-btn');
+        const shuffleBtn = document.getElementById('shuffle-btn');
+        const speechStatus = document.getElementById('speech-status');
+        const micIcon = document.getElementById('mic-icon');
+        
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function displayCard(index) {
+            if (index >= 0 && index < shuffledCards.length) {
+                const cardData = shuffledCards[index];
+                vietnameseDef.textContent = `"${cardData.vietnamese}"`;
+                englishWord.textContent = cardData.english;
+                phonetic.textContent = cardData.phonetic;
+                example.textContent = cardData.example;
+                progress.textContent = `${index + 1} / ${shuffledCards.length}`;
+                
+                if (isFlipped) {
+                    flipCard(true); // Flip back to front without animation
+                }
+                
+                // Automatically start listening when a new card is shown
+                setTimeout(startRecognition, 100); 
+            }
+        }
+        
+        function flipCard(forceToFront = false) {
+            if (forceToFront) {
+                 cardElement.style.transition = 'none';
+                 cardElement.classList.remove('is-flipped');
+                 isFlipped = false;
+                 // Restore transition after a moment
+                 setTimeout(() => { cardElement.style.transition = 'transform 0.6s'; }, 50);
+            } else {
+                isFlipped = !isFlipped;
+                cardElement.classList.toggle('is-flipped', isFlipped);
+            }
+            
+            // Handle speech recognition based on flip state
+            if (isFlipped) {
+                stopRecognition();
+            } else {
+                startRecognition();
+            }
+        }
+
+        function nextCard() {
+            currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
+            displayCard(currentCardIndex);
+        }
+
+        function prevCard() {
+            currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
+            displayCard(currentCardIndex);
+        }
+
+        function shuffleAndReset() {
+            shuffleArray(shuffledCards);
+            currentCardIndex = 0;
+            displayCard(currentCardIndex);
+        }
+
+        // Speech Recognition Functions
+        function setupRecognition() {
+            if (SpeechRecognition) {
+                recognition = new SpeechRecognition();
+                recognition.lang = 'en-US';
+                recognition.interimResults = false;
+                recognition.maxAlternatives = 1;
+
+                recognition.onstart = () => {
+                    isListening = true;
+                    speechStatus.textContent = 'Đang lắng nghe...';
+                    micIcon.classList.add('listening', 'text-red-500');
+                };
+
+                recognition.onresult = (event) => {
+                    const speechResult = event.results[0][0].transcript.trim().toLowerCase();
+                    const correctWord = shuffledCards[currentCardIndex].english.toLowerCase();
+
+                    if (speechResult === correctWord) {
+                        speechStatus.textContent = `Chính xác! "${shuffledCards[currentCardIndex].english}"`;
+                        if (!isFlipped) {
+                           setTimeout(() => flipCard(), 300);
+                        }
+                    } else {
+                        speechStatus.textContent = `Thử lại! Bạn đã nói: "${speechResult}"`;
+                    }
+                };
+
+                recognition.onend = () => {
+                    isListening = false;
+                    micIcon.classList.remove('listening', 'text-red-500');
+                     if (!isFlipped) {
+                        speechStatus.textContent = 'Nhận dạng giọng nói đã dừng. Lật lại thẻ để thử.';
+                    }
+                };
+                
+                recognition.onerror = (event) => {
+                    console.error('Speech recognition error', event.error);
+                    speechStatus.textContent = 'Lỗi nhận dạng giọng nói.';
+                    isListening = false;
+                    micIcon.classList.remove('listening', 'text-red-500');
+                };
+                
+            } else {
+                speechStatus.textContent = 'Trình duyệt không hỗ trợ nhận dạng giọng nói.';
+                micIcon.classList.add('hidden');
+            }
+        }
+
+        function startRecognition() {
+            if (recognition && !isListening && !isFlipped) {
+                try {
+                    recognition.start();
+                } catch(e) {
+                    console.error("Recognition already started.", e);
+                }
+            }
+        }
+
+        function stopRecognition() {
+            if (recognition && isListening) {
+                recognition.stop();
+            }
+        }
+
+        // Event Listeners
+        flipBtn.addEventListener('click', () => flipCard());
+        nextBtn.addEventListener('click', nextCard);
+        prevBtn.addEventListener('click', prevCard);
+        shuffleBtn.addEventListener('click', shuffleAndReset);
+        
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowRight':
+                    nextCard();
+                    break;
+                case 'ArrowLeft':
+                    prevCard();
+                    break;
+                case 'ArrowUp':
+                case 'ArrowDown':
+                case ' ': // Space bar
+                    e.preventDefault(); // Prevent page scroll
+                    flipCard();
+                    break;
+            }
+        });
+
+        // Initial Load
+        window.onload = () => {
+            shuffleAndReset();
+            setupRecognition();
+        };
+
+    </script>
+</body>
+</html>
