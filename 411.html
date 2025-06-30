@@ -3,547 +3,451 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ứng Dụng Flashcard Tiếng Anh</title>
-    <!-- Tải Tailwind CSS -->
+    <title>Ứng dụng Flashcard</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f0f2f5; /* Màu nền nhẹ nhàng */
+            background-color: #f0f4f8; /* Light blue-gray background */
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            padding: 20px;
-            box-sizing: border-box;
+            overflow: hidden; /* Prevent scrollbar from layout shifts */
         }
-
         .flashcard-container {
-            width: 100%;
-            max-width: 600px; /* Chiều rộng tối đa cho flashcard */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
+            perspective: 1000px;
+            width: 90%;
+            max-width: 600px;
+            height: 350px; /* Fixed height for consistent card size */
+            margin: 20px;
         }
-
         .flashcard {
-            background-color: #ffffff;
-            border-radius: 12px; /* Góc bo tròn */
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Hiệu ứng đổ bóng mềm mại */
             width: 100%;
-            min-height: 250px; /* Chiều cao tối thiểu của thẻ */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-            text-align: center;
-            cursor: pointer;
-            transition: transform 0.4s ease-in-out; /* Hiệu ứng lật mượt mà */
-            position: relative; /* Cho nội dung bên trong */
-            transform-style: preserve-3d; /* Để hiệu ứng 3D hoạt động */
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+            border-radius: 1rem; /* Rounded corners */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Soft shadow */
         }
-
         .flashcard.flipped {
             transform: rotateY(180deg);
         }
-
-        .flashcard-inner {
+        .flashcard-face {
+            position: absolute;
             width: 100%;
             height: 100%;
-            position: absolute;
-            backface-visibility: hidden; /* Ẩn mặt sau khi không nhìn thấy */
+            backface-visibility: hidden;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 2rem;
+            text-align: center;
+            background-color: #ffffff; /* White background for cards */
+            border-radius: 1rem;
+            color: #2d3748; /* Dark gray text */
         }
-
         .flashcard-front {
             z-index: 2;
-            transform: rotateY(0deg);
         }
-
         .flashcard-back {
             transform: rotateY(180deg);
+            background-color: #e2e8f0; /* Light gray for back */
         }
-
-        .flashcard h2 {
+        .flashcard-text {
             font-size: 1.8rem;
-            font-weight: bold;
-            color: #2d3748; /* Màu chữ đậm */
-            margin-bottom: 15px;
+            font-weight: 600;
+            color: #3182ce; /* Blue for front text */
+            margin-bottom: 1rem;
         }
-
-        .flashcard p {
+        .flashcard-back .flashcard-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2b6cb0; /* Darker blue for back English word */
+        }
+        .flashcard-phonetic {
             font-size: 1.1rem;
-            color: #4a5568; /* Màu chữ trung tính */
-            line-height: 1.6;
+            font-style: italic;
+            color: #4a5568; /* Gray for phonetic */
+            margin-bottom: 0.8rem;
         }
-
-        .flashcard ul {
-            list-style: none;
-            padding: 0;
-            margin-top: 15px;
+        .flashcard-example {
+            font-size: 0.95rem;
+            color: #4a5568; /* Gray for examples */
             text-align: left;
             width: 100%;
-            max-width: 400px;
+            margin-top: 0.5rem;
+            max-height: 100px; /* Limit example height */
+            overflow-y: auto; /* Scroll for long examples */
+            line-height: 1.4;
         }
-
-        .flashcard ul li {
-            margin-bottom: 8px;
-            color: #6c757d;
+        .flashcard-example strong {
+            color: #2b6cb0;
         }
-
         .controls {
             display: flex;
-            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap; /* Allow controls to wrap on smaller screens */
             justify-content: center;
-            gap: 15px; /* Khoảng cách giữa các nút */
-            margin-top: 20px;
         }
-
         .control-button {
-            background-color: #4299e1; /* Màu xanh dương nhạt */
+            background-color: #4299e1; /* Blue button */
             color: white;
-            padding: 12px 25px;
-            border-radius: 8px; /* Góc bo tròn cho nút */
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.75rem;
+            border: none;
+            cursor: pointer;
             font-size: 1rem;
             font-weight: 600;
-            cursor: pointer;
             transition: background-color 0.3s ease, transform 0.2s ease;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border: none;
-            outline: none;
         }
-
         .control-button:hover {
-            background-color: #3182ce; /* Màu xanh đậm hơn khi hover */
-            transform: translateY(-2px); /* Nâng nhẹ nút lên */
+            background-color: #3182ce; /* Darker blue on hover */
+            transform: translateY(-2px);
         }
-
         .control-button:active {
-            transform: translateY(0); /* Nhấn xuống khi click */
+            transform: translateY(0);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-
-        .keyboard-info {
-            font-size: 0.9rem;
-            color: #718096; /* Màu chữ xám */
-            margin-top: 20px;
+        .card-counter {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #4a5568;
+            margin-top: 1rem;
+            width: 100%;
             text-align: center;
         }
 
-        @media (max-width: 640px) {
-            .flashcard {
-                padding: 20px;
-                min-height: 200px;
-            }
-            .flashcard h2 {
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .flashcard-text {
                 font-size: 1.5rem;
             }
-            .flashcard p {
-                font-size: 1rem;
+            .flashcard-back .flashcard-text {
+                font-size: 1.2rem;
+            }
+            .flashcard-phonetic, .flashcard-example {
+                font-size: 0.9rem;
+            }
+            .flashcard-face {
+                padding: 1.5rem;
+            }
+            .flashcard-container {
+                height: 300px;
+            }
+            .controls {
+                gap: 0.8rem;
+                flex-direction: column; /* Stack buttons vertically on small screens */
+                width: 80%; /* Limit width of button column */
             }
             .control-button {
-                padding: 10px 20px;
-                font-size: 0.9rem;
+                width: 100%; /* Make buttons full width */
             }
         }
     </style>
 </head>
-<body class="selection:bg-blue-200">
-    <div class="flashcard-container">
-        <h1 class="text-3xl font-extrabold text-gray-800 mb-6">Flashcard Tiếng Anh</h1>
-        <div id="flashcard" class="flashcard" onclick="toggleAnswer()">
-            <div id="flashcard-front" class="flashcard-inner flashcard-front">
-                <p id="definition" class="text-xl font-semibold text-gray-700"></p>
-            </div>
-            <div id="flashcard-back" class="flashcard-inner flashcard-back hidden">
-                <h2 id="vocabulary" class="text-2xl font-bold text-gray-800"></h2>
-                <p id="partOfSpeech" class="text-lg text-gray-600 mb-2"></p>
-                <p id="pronunciation" class="text-md text-gray-500 italic mb-4"></p>
-                <ul id="examples" class="text-left"></ul>
+<body>
+    <div class="flex flex-col items-center">
+        <div class="flashcard-container">
+            <div id="flashcard" class="flashcard" onclick="flipCard()">
+                <div id="flashcard-front" class="flashcard-face flashcard-front">
+                    <p class="flashcard-text"></p>
+                </div>
+                <div id="flashcard-back" class="flashcard-face flashcard-back">
+                    <p class="flashcard-text"></p>
+                    <p class="flashcard-phonetic"></p>
+                    <div class="flashcard-example"></div>
+                </div>
             </div>
         </div>
+
+        <div class="card-counter" id="card-counter">Thẻ 1 / 20</div>
 
         <div class="controls">
-            <button id="prevBtn" class="control-button">Thẻ Trước (←)</button>
-            <button id="showAnswerBtn" class="control-button">Hiện/Ẩn Đáp Án (Space)</button>
-            <button id="nextBtn" class="control-button">Thẻ Tiếp (→)</button>
-            <button id="shuffleBtn" class="control-button">Trộn Thẻ (↓)</button>
-        </div>
-
-        <div class="keyboard-info">
-            <p>Sử dụng các phím điều hướng để di chuyển và phím Space để xem/ẩn đáp án.</p>
-            <p>Phím ↓ để trộn thẻ.</p>
+            <button id="prev-btn" class="control-button">Trước đó (←)</button>
+            <button id="shuffle-btn" class="control-button">Trộn</button>
+            <button id="next-btn" class="control-button">Tiếp theo (→)</button>
         </div>
     </div>
 
     <script>
-        // Dữ liệu Flashcard
-        const flashcardsData = [
+        // Mảng chứa dữ liệu flashcard
+        let flashcards = [
             {
-                definition: "liên minh, sự liên kết giữa các nhóm hoặc quốc gia.",
-                vocabulary: "alliance",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'liên minh, sự liên kết giữa các nhóm hoặc quốc gia',
+                english: 'alliance',
+                phonetic: '/əˈlaɪəns/',
                 examples: [
-                    "They formed an alliance.",
-                    "The countries have made an alliance.",
-                    "An alliance can be for peace."
+                    'Ví dụ từ định nghĩa: They formed an alliance. The countries have made an alliance.',
+                    'Ví dụ từ câu chuyện: In 1940, armed German troops entered Paris. When this happened, some French people formed a secret alliance. It was called the French Resistance.'
                 ]
             },
             {
-                definition: "tiếng vỗ tay (để thể hiện sự tán thành).",
-                vocabulary: "applause",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'tiếng vỗ tay để thể hiện sự tán thành',
+                english: 'applause',
+                phonetic: '/əˈplɔːz/',
                 examples: [
-                    "The audience gave applause.",
-                    "She is listening to the applause.",
-                    "Applause shows approval."
+                    'Ví dụ từ định nghĩa: The audience gave applause. Applause shows approval.',
+                    'Ví dụ từ câu chuyện: She enchanted them with her singing and dancing and got lots of applause.'
                 ]
             },
             {
-                definition: "có vũ trang (mang theo vũ khí).",
-                vocabulary: "armed",
-                partOfSpeech: "adj",
-                pronunciation: "",
+                vietnamese: 'có vũ trang, mang theo vũ khí',
+                english: 'armed',
+                phonetic: '/ɑːrmd/',
                 examples: [
-                    "The guards are armed.",
-                    "He was armed with a gun.",
-                    "We were facing armed men.",
-                    "In 1940, armed German troops entered Paris."
+                    'Ví dụ từ định nghĩa: The guards are armed. He was armed with a gun.',
+                    'Ví dụ từ câu chuyện: In 1940, armed German troops entered Paris.'
                 ]
             },
             {
-                definition: "có thẩm quyền, đáng tin cậy (được tôn trọng vì kiến thức hoặc vị trí).",
-                vocabulary: "authoritative",
-                partOfSpeech: "adj",
-                pronunciation: "",
+                vietnamese: 'có thẩm quyền, đáng tin cậy',
+                english: 'authoritative',
+                phonetic: '/ɔːˈθɒrɪtətɪv/',
                 examples: [
-                    "He has an authoritative voice.",
-                    "She is an authoritative source.",
-                    "You should listen to authoritative advice.",
-                    "Baker sorted the details and gave authoritative reports to the Resistance."
+                    'Ví dụ từ định nghĩa: She is an authoritative source. He gave an authoritative answer.',
+                    'Ví dụ từ câu chuyện: Baker sorted the details and gave authoritative reports to the Resistance.'
                 ]
             },
             {
-                definition: "buổi lễ, nghi thức (một sự kiện trang trọng cho một dịp đặc biệt).",
-                vocabulary: "ceremony",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'buổi lễ, nghi thức trang trọng',
+                english: 'ceremony',
+                phonetic: '/ˈserəməni/',
                 examples: [
-                    "They held a ceremony.",
-                    "She is attending a ceremony.",
-                    "I am going to the wedding ceremony.",
-                    "When she died, the army had a special ceremony to thank her again for her bravery."
+                    'Ví dụ từ định nghĩa: They held a ceremony. She is attending a ceremony.',
+                    'Ví dụ từ câu chuyện: When she died, the army had a special ceremony to thank her again for her bravery.'
                 ]
             },
             {
-                definition: "văn hóa (tập quán, nghệ thuật, lối sống của một nhóm người).",
-                vocabulary: "culture",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'văn hóa, tập quán, nghệ thuật, lối sống của một nhóm người',
+                english: 'culture',
+                phonetic: '/ˈkʌltʃər/',
                 examples: [
-                    "We are learning about a new culture.",
-                    "She is studying Japanese culture.",
-                    "Culture includes traditions.",
-                    "Josephine Baker was a big part of the new jazz genre and culture."
+                    'Ví dụ từ định nghĩa: We are learning about a new culture. You should respect other cultures.',
+                    'Ví dụ từ câu chuyện: She was a big part of the new jazz genre and culture and had a diverse group of fans.'
                 ]
             },
             {
-                definition: "sự phòng thủ, sự bảo vệ (hành động bảo vệ khỏi bị tấn công).",
-                vocabulary: "defense",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'sự phòng thủ, sự bảo vệ khỏi bị tấn công',
+                english: 'defense',
+                phonetic: '/dɪˈfens/',
                 examples: [
-                    "They built a strong defense.",
-                    "She is playing defense.",
-                    "You will need a good defense.",
-                    "The French Resistance group worked for the defense of France."
+                    'Ví dụ từ định nghĩa: They built a strong defense. Defense is important.',
+                    'Ví dụ từ câu chuyện: The group worked for the defense of France.'
                 ]
             },
             {
-                definition: "chi tiết (một phần nhỏ của cái gì đó lớn hơn).",
-                vocabulary: "detail",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'chi tiết, một phần nhỏ của cái gì đó lớn hơn',
+                english: 'detail',
+                phonetic: '/ˈdiːteɪl/',
                 examples: [
-                    "Pay attention to the details.",
-                    "She is explaining the details.",
-                    "A detail can be small but important.",
-                    "Baker listened for details about the war and wrote them down."
+                    'Ví dụ từ định nghĩa: Pay attention to the details. A detail can be small but important.',
+                    'Ví dụ từ câu chuyện: She listened for details about the war and wrote them down. Baker sorted the details and gave authoritative reports to the Resistance.'
                 ]
             },
             {
-                definition: "đa dạng (gồm nhiều loại khác nhau).",
-                vocabulary: "diverse",
-                partOfSpeech: "adj",
-                pronunciation: "",
+                vietnamese: 'đa dạng, gồm nhiều loại khác nhau',
+                english: 'diverse',
+                phonetic: '/daɪˈvɜːrs/',
                 examples: [
-                    "The group is diverse.",
-                    "She has diverse interests.",
-                    "You should appreciate diverse perspectives.",
-                    "Josephine Baker had a diverse group of fans."
+                    'Ví dụ từ định nghĩa: The group is diverse. She has diverse interests.',
+                    'Ví dụ từ câu chuyện: She was a big part of the new jazz genre and culture and had a diverse group of fans.'
                 ]
             },
             {
-                definition: "làm say mê, làm mê hoặc (làm ai đó cảm thấy rất vui hoặc thích thú).",
-                vocabulary: "enchant",
-                partOfSpeech: "v",
-                pronunciation: "",
+                vietnamese: 'làm say mê, làm mê hoặc',
+                english: 'enchant',
+                phonetic: '/ɪnˈtʃænt/',
                 examples: [
-                    "The music enchants me.",
-                    "He was enchanted by her beauty.",
-                    "You will be enchanted by the place.",
-                    "She enchanted them with her singing and dancing."
+                    'Ví dụ từ định nghĩa: The music enchants me. He was enchanted by her beauty.',
+                    'Ví dụ từ câu chuyện: She enchanted them with her singing and dancing and got lots of applause.'
                 ]
             },
             {
-                definition: "trang bị (cung cấp thiết bị cần thiết).",
-                vocabulary: "equip",
-                partOfSpeech: "v",
-                pronunciation: "",
+                vietnamese: 'trang bị, cung cấp thiết bị cần thiết',
+                english: 'equip',
+                phonetic: '/ɪˈkwɪp/',
                 examples: [
-                    "They equip the soldiers.",
-                    "He was equipped with the right tools.",
-                    "You will be equipped for the task.",
-                    "Baker was always equipped with a small notebook at these concerts."
+                    'Ví dụ từ định nghĩa: They equip the soldiers. You will be equipped for the task.',
+                    'Ví dụ từ câu chuyện: But Baker was always equipped with a small notebook at these concerts.'
                 ]
             },
             {
-                definition: "ngoại lệ (một trường hợp không tuân theo quy tắc chung).",
-                vocabulary: "exception",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'ngoại lệ, trường hợp không tuân theo quy tắc chung',
+                english: 'exception',
+                phonetic: '/ɪkˈsepʃən/',
                 examples: [
-                    "There is an exception to the rule.",
-                    "She is an exception.",
-                    "I would make an exception for you.",
-                    "Josephine Baker was an exception; she did not only care about herself despite being famous."
+                    'Ví dụ từ định nghĩa: There is an exception to the rule. She is an exception.',
+                    'Ví dụ từ câu chuyện: Sometimes famous people are vain. They only care about themselves. But Josephine Baker was an exception.'
                 ]
             },
             {
-                definition: "thể loại (một loại nghệ thuật, âm nhạc, văn học, v.v.).",
-                vocabulary: "genre",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'thể loại nghệ thuật, âm nhạc, văn học, v.v.',
+                english: 'genre',
+                phonetic: '/ˈʒɑːnrə/',
                 examples: [
-                    "What is your favorite genre?.",
-                    "He likes the horror genre.",
-                    "A genre has specific characteristics.",
-                    "Josephine Baker was a big part of the new jazz genre."
+                    'Ví dụ từ định nghĩa: What is your favorite genre? He likes the horror genre.',
+                    'Ví dụ từ câu chuyện: She was a big part of the new jazz genre and culture and had a diverse group of fans.'
                 ]
             },
             {
-                definition: "tác động, ảnh hưởng (ảnh hưởng mạnh mẽ đến cái gì đó).",
-                vocabulary: "impact",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'tác động, ảnh hưởng mạnh mẽ',
+                english: 'impact',
+                phonetic: '/ˈɪmpækt/',
                 examples: [
-                    "It had a big impact.",
-                    "She is studying the environmental impact.",
-                    "You should think about the impact of your actions.",
-                    "Baker had a big impact on the Resistance’s work."
+                    'Ví dụ từ định nghĩa: It had a big impact. An impact can be strong.',
+                    'Ví dụ từ câu chuyện: Baker had a big impact on the Resistance’s work.'
                 ]
             },
             {
-                definition: "dụ dỗ, lôi kéo (thuyết phục ai đó làm điều gì đó bằng cách hứa hẹn điều gì đó tốt đẹp).",
-                vocabulary: "lure",
-                partOfSpeech: "v",
-                pronunciation: "",
+                vietnamese: 'dụ dỗ, lôi kéo bằng cách hứa hẹn điều tốt đẹp',
+                english: 'lure',
+                phonetic: '/lʊər/',
                 examples: [
-                    "He tries to lure her.",
-                    "They have lured him into a trap.",
-                    "You will lure them with food.",
-                    "Baker lured them in, promising an entertaining show."
+                    'Ví dụ từ định nghĩa: He tries to lure her. He was lured by the promise of money.',
+                    'Ví dụ từ câu chuyện: She lured them in, promising an entertaining show.'
                 ]
             },
             {
-                definition: "chướng ngại vật (một thứ ngăn cản bạn tiến lên hoặc đạt được mục tiêu).",
-                vocabulary: "obstacle",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'chướng ngại vật, thứ ngăn cản tiến lên hoặc đạt mục tiêu',
+                english: 'obstacle',
+                phonetic: '/ˈɒbstəkl/',
                 examples: [
-                    "He faced an obstacle.",
-                    "She is overcoming an obstacle.",
-                    "An obstacle can be physical or mental.",
-                    "Some thought Baker’s fame would be an obstacle."
+                    'Ví dụ từ định nghĩa: He faced an obstacle. You will encounter obstacles.',
+                    'Ví dụ từ câu chuyện: Some thought Baker’s fame would be an obstacle.'
                 ]
             },
             {
-                definition: "nơi trú ẩn, chỗ ở (nơi an toàn khỏi nguy hiểm hoặc thời tiết xấu).",
-                vocabulary: "shelter",
-                partOfSpeech: "n",
-                pronunciation: "",
+                vietnamese: 'nơi trú ẩn, chỗ ở an toàn',
+                english: 'shelter',
+                phonetic: '/ˈʃeltər/',
                 examples: [
-                    "They found shelter.",
-                    "She is looking for shelter.",
-                    "A shelter protects you.",
-                    "Baker's second job was to provide shelter to Resistance members."
+                    'Ví dụ từ định nghĩa: They found shelter. He took shelter from the rain.',
+                    'Ví dụ từ câu chuyện: The second was to provide shelter and supply goods to Resistance members.'
                 ]
             },
             {
-                definition: "phân loại, sắp xếp (đặt mọi thứ vào đúng thứ tự hoặc nhóm).",
-                vocabulary: "sort",
-                partOfSpeech: "v",
-                pronunciation: "",
+                vietnamese: 'phân loại, sắp xếp',
+                english: 'sort',
+                phonetic: '/sɔːrt/',
                 examples: [
-                    "He sorts the mail.",
-                    "She is sorting the clothes.",
-                    "You should sort them before putting them away.",
-                    "Baker sorted the details and gave authoritative reports to the Resistance."
+                    'Ví dụ từ định nghĩa: He sorts the mail. You will sort the books.',
+                    'Ví dụ từ câu chuyện: Baker sorted the details and gave authoritative reports to the Resistance.'
                 ]
             },
             {
-                definition: "cung cấp (cho ai đó cái họ cần).",
-                vocabulary: "supply",
-                partOfSpeech: "v",
-                pronunciation: "",
+                vietnamese: 'cung cấp những gì cần thiết',
+                english: 'supply',
+                phonetic: '/səˈplaɪ/',
                 examples: [
-                    "They supply food.",
-                    "He supplied us with water.",
-                    "You should supply what is needed.",
-                    "Baker's second job was to supply goods to Resistance members."
+                    'Ví dụ từ định nghĩa: They supply food. You will supply the information.',
+                    'Ví dụ từ câu chuyện: The second was to provide shelter and supply goods to Resistance members.'
                 ]
             },
             {
-                definition: "vô ích, không có kết quả; kiêu ngạo, tự phụ (quá quan tâm đến vẻ ngoài của mình).",
-                vocabulary: "vain",
-                partOfSpeech: "adj",
-                pronunciation: "",
+                vietnamese: 'vô ích, không có kết quả; kiêu ngạo, tự phụ',
+                english: 'vain',
+                phonetic: '/veɪn/',
                 examples: [
-                    "It was a vain attempt.",
-                    "She is very vain.",
-                    "He made a vain attempt to fix it.",
-                    "Sometimes famous people are vain, meaning they only care about themselves."
+                    'Ví dụ từ định nghĩa: It was a vain attempt. She is very vain.',
+                    'Ví dụ từ câu chuyện: Sometimes famous people are vain. They only care about themselves.'
                 ]
             }
         ];
 
         let currentCardIndex = 0;
-        let isAnswerShown = false;
-        let flashcards = [...flashcardsData]; // Tạo bản sao để có thể trộn
+        let isFlipped = false;
 
-        // Lấy các phần tử DOM
         const flashcardElement = document.getElementById('flashcard');
-        const definitionElement = document.getElementById('definition');
-        const vocabularyElement = document.getElementById('vocabulary');
-        const partOfSpeechElement = document.getElementById('partOfSpeech');
-        const pronunciationElement = document.getElementById('pronunciation');
-        const examplesElement = document.getElementById('examples');
-        const frontElement = document.getElementById('flashcard-front');
-        const backElement = document.getElementById('flashcard-back');
+        const frontTextElement = document.querySelector('#flashcard-front .flashcard-text');
+        const backTextElement = document.querySelector('#flashcard-back .flashcard-text');
+        const backPhoneticElement = document.querySelector('#flashcard-back .flashcard-phonetic');
+        const backExampleElement = document.querySelector('#flashcard-back .flashcard-example');
+        const cardCounterElement = document.getElementById('card-counter');
+        const prevButton = document.getElementById('prev-btn');
+        const nextButton = document.getElementById('next-btn');
+        const shuffleButton = document.getElementById('shuffle-btn');
 
-        const prevBtn = document.getElementById('prevBtn');
-        const showAnswerBtn = document.getElementById('showAnswerBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        const shuffleBtn = document.getElementById('shuffleBtn');
-
-        /**
-         * Hiển thị nội dung của thẻ flashcard hiện tại.
-         * Cập nhật cả mặt trước (định nghĩa) và mặt sau (từ vựng, ví dụ).
-         */
+        // Hàm hiển thị thẻ hiện tại
         function displayCard() {
-            const card = flashcards[currentCardIndex];
+            const currentCard = flashcards[currentCardIndex];
 
-            // Cập nhật mặt trước (định nghĩa tiếng Việt)
-            definitionElement.textContent = card.definition;
+            // Cập nhật mặt trước
+            frontTextElement.textContent = currentCard.vietnamese;
 
-            // Cập nhật mặt sau (từ vựng, phiên âm, ví dụ)
-            vocabularyElement.textContent = card.vocabulary;
-            partOfSpeechElement.textContent = `(${card.partOfSpeech})`;
-            pronunciationElement.textContent = card.pronunciation ? `Phiên âm: ${card.pronunciation}` : "Phiên âm: (Chưa cung cấp)";
+            // Cập nhật mặt sau
+            backTextElement.textContent = currentCard.english;
+            backPhoneticElement.textContent = currentCard.phonetic;
+            backExampleElement.innerHTML = currentCard.examples.map(ex => `<p>${ex}</p>`).join('');
 
-            examplesElement.innerHTML = ''; // Xóa các ví dụ cũ
-            card.examples.forEach(example => {
-                const li = document.createElement('li');
-                li.textContent = `- ${example}`;
-                examplesElement.appendChild(li);
-            });
-
-            // Ẩn/hiện mặt trước/sau dựa trên trạng thái `isAnswerShown`
-            if (isAnswerShown) {
-                frontElement.classList.add('hidden');
-                backElement.classList.remove('hidden');
-                flashcardElement.classList.add('flipped');
-            } else {
-                frontElement.classList.remove('hidden');
-                backElement.classList.add('hidden');
+            // Đảm bảo thẻ ở trạng thái mặt trước khi hiển thị thẻ mới
+            if (isFlipped) {
                 flashcardElement.classList.remove('flipped');
+                isFlipped = false;
             }
+
+            // Cập nhật bộ đếm thẻ
+            cardCounterElement.textContent = `Thẻ ${currentCardIndex + 1} / ${flashcards.length}`;
         }
 
-        /**
-         * Chuyển đổi giữa mặt trước và mặt sau của thẻ.
-         */
-        function toggleAnswer() {
-            isAnswerShown = !isAnswerShown;
-            displayCard();
+        // Hàm lật thẻ
+        function flipCard() {
+            flashcardElement.classList.toggle('flipped');
+            isFlipped = !isFlipped;
         }
 
-        /**
-         * Chuyển đến thẻ flashcard tiếp theo.
-         * Quay lại thẻ đầu tiên nếu đã ở thẻ cuối cùng.
-         */
+        // Hàm chuyển đến thẻ tiếp theo
         function nextCard() {
             currentCardIndex = (currentCardIndex + 1) % flashcards.length;
-            isAnswerShown = false; // Đảm bảo ẩn đáp án khi chuyển thẻ
             displayCard();
         }
 
-        /**
-         * Chuyển đến thẻ flashcard trước đó.
-         * Chuyển đến thẻ cuối cùng nếu đã ở thẻ đầu tiên.
-         */
+        // Hàm chuyển đến thẻ trước đó
         function prevCard() {
             currentCardIndex = (currentCardIndex - 1 + flashcards.length) % flashcards.length;
-            isAnswerShown = false; // Đảm bảo ẩn đáp án khi chuyển thẻ
             displayCard();
         }
 
-        /**
-         * Trộn ngẫu nhiên thứ tự các thẻ flashcard.
-         * Sử dụng thuật toán Fisher-Yates shuffle.
-         */
+        // Hàm trộn các thẻ
         function shuffleCards() {
             for (let i = flashcards.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [flashcards[i], flashcards[j]] = [flashcards[j], flashcards[i]]; // Hoán đổi vị trí
+                [flashcards[i], flashcards[j]] = [flashcards[j], flashcards[i]];
             }
             currentCardIndex = 0; // Đặt lại về thẻ đầu tiên sau khi trộn
-            isAnswerShown = false; // Ẩn đáp án
             displayCard();
         }
 
-        // Gán các sự kiện cho nút bấm
-        prevBtn.addEventListener('click', prevCard);
-        showAnswerBtn.addEventListener('click', toggleAnswer);
-        nextBtn.addEventListener('click', nextCard);
-        shuffleBtn.addEventListener('click', shuffleCards);
-
-        // Gán các sự kiện cho phím điều hướng
-        document.addEventListener('keydown', (event) => {
+        // Xử lý sự kiện nhấn phím điều hướng
+        function handleKeyPress(event) {
             switch (event.key) {
-                case 'ArrowLeft': // Phím mũi tên trái
-                    prevCard();
-                    break;
-                case 'ArrowRight': // Phím mũi tên phải
+                case 'ArrowRight': // Mũi tên phải cho thẻ tiếp theo
                     nextCard();
                     break;
-                case ' ': // Phím Spacebar
-                    event.preventDefault(); // Ngăn chặn cuộn trang khi nhấn Space
-                    toggleAnswer();
+                case 'ArrowLeft':  // Mũi tên trái cho thẻ trước đó
+                    prevCard();
                     break;
-                case 'ArrowDown': // Phím mũi tên xuống
-                    shuffleCards();
+                case 'ArrowUp':    // Mũi tên lên để lật thẻ
+                case 'ArrowDown':  // Mũi tên xuống để lật thẻ
+                    flipCard();
                     break;
             }
-        });
+        }
+
+        // Gán sự kiện cho các nút
+        prevButton.addEventListener('click', prevCard);
+        nextButton.addEventListener('click', nextCard);
+        shuffleButton.addEventListener('click', shuffleCards);
+
+        // Gán sự kiện cho phím điều hướng
+        document.addEventListener('keydown', handleKeyPress);
 
         // Hiển thị thẻ đầu tiên khi tải trang
         document.addEventListener('DOMContentLoaded', displayCard);
