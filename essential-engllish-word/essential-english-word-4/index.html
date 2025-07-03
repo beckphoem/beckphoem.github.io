@@ -26,12 +26,17 @@
             transform: translateY(-3px); /* Slight lift on hover */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
         }
+        /* Flex container for links to space them out */
+        .chapter-links {
+            display: flex;
+            gap: 1rem; /* Space between links */
+        }
     </style>
 </head>
 <body class="flex items-center justify-center min-h-screen p-4">
     <div class="container mx-auto bg-white p-8 rounded-lg shadow-xl">
         <h1 class="text-4xl font-extrabold text-center text-gray-800 mb-8">
-            ESSENTIALA ENGLISH WORD 4 
+            Tên Cuốn Sách Tuyệt Vời
         </h1>
 
         <p class="text-lg text-gray-600 text-center mb-10">
@@ -77,20 +82,24 @@
                 chapterTitles.forEach((title, index) => {
                     const li = document.createElement('li');
                     li.className = 'chapter-item p-4 rounded-md shadow-md flex items-center justify-between';
-                    // Calculate the file name for the link (e.g., 401.html, 402.html, ...)
-                    const fileName = `4${String(100 + index + 1).slice(1)}.html`;
+
+                    // Calculate the file name for the chapter link (e.g., 401.html, 402.html, ...)
+                    const chapterFileName = `4${String(100 + index + 1).slice(1)}.html`;
+                    // Calculate the file name for the flashcard link (e.g., 401-flashcard.html, ...)
+                    const flashcardFileName = `4${String(100 + index + 1).slice(1)}-flashcard.html`;
+
                     li.innerHTML = `
                         <span class="text-xl font-semibold text-gray-700">Unit ${index + 1}: ${title}</span>
-                        <a href="${fileName}" class="text-blue-600 hover:text-blue-800 font-medium ml-4">Đọc</a>
+                        <div class="chapter-links">
+                            <a href="${chapterFileName}" class="text-blue-600 hover:text-blue-800 font-medium">Đọc</a>
+                            <a href="${flashcardFileName}" class="text-purple-600 hover:text-purple-800 font-medium">Flashcard</a>
+                        </div>
                     `;
                     chapterList.appendChild(li);
                 });
             </script>
         </ol>
 
-        <div class="mt-10 text-center text-gray-500 text-sm">
-            <p>&copy; 2025 Tác giả của cuốn sách. Mọi quyền được bảo lưu.</p>
-        </div>
     </div>
 </body>
 </html>
