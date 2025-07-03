@@ -3,48 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EEW-414</title>
+    <title>Lỗi 414: URI quá dài</title>
     <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
     <style>
+        /* GitHub Markdown CSS */
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            margin: 0;
+            background-color: #f6f8fa; /* Nền giống GitHub */
+            color: #24292e; /* Màu chữ chính */
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+
+        .header {
+            background-color: #24292e; /* Màu nền header giống GitHub */
+            color: #f6f8fa;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.5em;
+            font-weight: 600; /* Đậm hơn */
+        }
+        .menu-button {
+            background-color: #2ea44f; /* Màu xanh của GitHub */
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 6px; /* Bo góc nhẹ */
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .menu-button:hover {
+            background-color: #2c974b;
+        }
+
+        .wrapper {
+            display: flex;
+            margin: 20px auto;
+            max-width: 1280px; /* Chiều rộng lớn hơn */
+            gap: 30px; /* Khoảng cách lớn hơn */
+            padding: 0 30px;
+        }
+
+        .markdown-body { /* Đổi từ .container sang .markdown-body */
+            flex: 3;
             background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 45px; /* Padding lớn hơn */
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(27, 31, 35, 0.1); /* Shadow nhẹ nhàng */
+            border: 1px solid #e1e4e8; /* Viền nhẹ */
         }
-        h1, h2, h3 {
-            color: #d9534f; /* Màu đỏ cho tiêu đề lỗi */
+
+        /* --- GitHub Markdown Styles --- */
+        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            line-height: 1.25;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #eaecef; /* Đường kẻ dưới tiêu đề */
+            color: #24292e; /* Đảm bảo màu chữ chính */
         }
-        pre {
-            background-color: #eee;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
+        .markdown-body h1 { font-size: 2em; }
+        .markdown-body h2 { font-size: 1.5em; }
+        .markdown-body h3 { font-size: 1.25em; }
+        .markdown-body h4 { font-size: 1em; }
+        .markdown-body h5 { font-size: 0.875em; }
+        .markdown-body h6 { font-size: 0.85em; color: #6a737d; }
+
+        .markdown-body p {
+            margin-top: 0;
+            margin-bottom: 16px;
         }
-        code {
-            font-family: "Courier New", Courier, monospace;
+
+        .markdown-body ul, .markdown-body ol {
+            padding-left: 2em;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .markdown-body li + li {
+            margin-top: 0.25em;
+        }
+
+        .markdown-body blockquote {
+            padding: 0 1em;
+            color: #6a737d;
+            border-left: 0.25em solid #dfe2e5;
+            margin: 0 0 16px;
+        }
+
+        .markdown-body code {
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            background-color: rgba(27,31,35,0.05);
+            border-radius: 3px;
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+        }
+
+        .markdown-body pre {
+            word-wrap: normal;
+            margin-bottom: 16px;
+        }
+
+        .markdown-body pre > code {
+            padding: 16px;
+            overflow: auto;
+            line-height: 1.45;
+            background-color: #f6f8fa; /* Nền code block */
+            border-radius: 6px;
+            font-size: 0.85em;
+            display: block; /* Để code block chiếm toàn bộ chiều rộng */
+            color: #24292e;
+        }
+
+        .markdown-body a {
+            color: #0366d6; /* Màu xanh liên kết */
+            text-decoration: none;
+        }
+        .markdown-body a:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-body table {
+            display: block;
+            width: 100%;
+            overflow: auto;
+            margin-bottom: 16px;
+            border-collapse: collapse; /* Đảm bảo các đường viền liền mạch */
+        }
+        .markdown-body table th {
+            font-weight: 600;
+            background-color: #f6f8fa; /* Nền tiêu đề bảng */
+        }
+        .markdown-body table th, .markdown-body table td {
+            padding: 6px 13px;
+            border: 1px solid #dfe2e5; /* Viền ô */
+        }
+        .markdown-body table tr {
+            background-color: #fff;
+            border-top: 1px solid #c6cbd1;
+        }
+        .markdown-body table tr:nth-child(2n) { /* Hàng chẵn */
+            background-color: #f6f8fa;
+        }
+
+        .markdown-body hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: #e1e4e8;
+            border: 0;
+        }
+
+        /* --- End GitHub Markdown Styles --- */
+
+        /* Styling cho menu outline khi nó là popup */
+        .outline-menu {
+            position: fixed;
+            top: 0;
+            right: -300px;
+            width: 300px;
+            height: 100%;
+            background: #fff;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+            transition: right 0.3s ease-in-out;
+            z-index: 1100;
+            padding-top: 60px;
+            overflow-y: auto;
+            border-left: 1px solid #e1e4e8; /* Thêm viền nhẹ */
+        }
+        .outline-menu.open {
+            right: 0;
+        }
+        .outline-menu h3 {
+            margin-top: 0;
+            padding: 20px;
+            color: #24292e; /* Màu chữ giống GitHub */
+            border-bottom: 1px solid #eaecef;
+            font-size: 1.25em;
+            font-weight: 600;
+        }
+        .outline-menu ul {
+            list-style: none;
+            padding: 0 20px;
+            margin: 0;
+        }
+        .outline-menu ul li {
+            margin-bottom: 8px;
+        }
+        .outline-menu ul li a {
+            text-decoration: none;
+            color: #0366d6; /* Màu xanh liên kết giống GitHub */
+            display: block;
+            padding: 4px 0;
+            font-size: 0.9em;
+        }
+        .outline-menu ul li a:hover {
+            text-decoration: underline;
+            color: #0366d6;
+        }
+        /* Cấp độ thụt lề cho tiêu đề */
+        .outline-menu ul li.level-1 { /* H1 thường không thụt lề */ }
+        .outline-menu ul li.level-2 { margin-left: 15px; }
+        .outline-menu ul li.level-3 { margin-left: 30px; }
+        .outline-menu ul li.level-4 { margin-left: 45px; }
+        .outline-menu ul li.level-5 { margin-left: 60px; }
+        .outline-menu ul li.level-6 { margin-left: 75px; }
+
+
+        .close-button {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #586069; /* Màu xám đậm */
+            font-weight: bold;
+        }
+
+        /* Overlay khi menu mở */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1050;
+            display: none;
+        }
+        .overlay.active {
+            display: block;
+        }
+
+        /* Media queries cho màn hình nhỏ hơn */
+        @media (max-width: 992px) { /* Điều chỉnh breakpoint */
+            .wrapper {
+                flex-direction: column;
+                margin: 10px auto;
+                padding: 0 15px;
+            }
+            .markdown-body {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 1.2em;
+            }
+        }
+        /* CSS để ngăn cuộn body khi menu mở (tốt nhất nên ở cuối CSS) */
+        body.no-scroll {
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div id="markdown-content">Đang tải nội dung...</div>
+    <div class="header">
+        <h>ESSENTIAL ENGLISH WORDS 4.14 - THE BROTHERS AND THE BREADS</h>
+        <button id="open-outline-btn" class="menu-button">Mục lục</button>
     </div>
 
+    <div class="overlay" id="overlay"></div>
+
+    <div class="outline-menu" id="markdown-outline-menu">
+        <button class="close-button" id="close-outline-btn">&times;</button>
+        <h3>Mục lục</h3>
+        <ul id="outline-list">
+            </ul>
+    </div>
+
+    <div class="wrapper">
+        <div class="markdown-body" id="markdown-content">Đang tải nội dung...</div> </div>
+
     <script>
-        // Khởi tạo Markdown-it
         const md = window.markdownit();
 
-        // Hàm để tải nội dung từ tệp Markdown
+        // Hàm để tạo ID thân thiện từ văn bản
+        function slugify(text) {
+            return text.toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .toLowerCase()
+                .trim()
+                .replace(/\s+/g, '-')
+                .replace(/[^\w-]+/g, '')
+                .replace(/--+/g, '-');
+        }
+
+        // Các phần tử DOM cần thao tác
+        const openOutlineBtn = document.getElementById('open-outline-btn');
+        const closeOutlineBtn = document.getElementById('close-outline-btn');
+        const outlineMenu = document.getElementById('markdown-outline-menu');
+        const overlay = document.getElementById('overlay');
+        const markdownContentDiv = document.getElementById('markdown-content'); // Giữ nguyên ID này
+        const outlineList = document.getElementById('outline-list');
+
+        // Hàm mở/đóng menu
+        function toggleOutlineMenu() {
+            outlineMenu.classList.toggle('open');
+            overlay.classList.toggle('active');
+            document.body.classList.toggle('no-scroll');
+        }
+
+        // Xử lý sự kiện click cho nút mở
+        openOutlineBtn.addEventListener('click', toggleOutlineMenu);
+
+        // Xử lý sự kiện click cho nút đóng
+        closeOutlineBtn.addEventListener('click', toggleOutlineMenu);
+
+        // Xử lý sự kiện click vào overlay để đóng menu
+        overlay.addEventListener('click', toggleOutlineMenu);
+
+        // Hàm để tải và hiển thị nội dung Markdown, sau đó tạo outline
         async function loadMarkdownFile(filePath) {
             try {
                 const response = await fetch(filePath);
@@ -52,18 +333,44 @@
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const markdownText = await response.text();
-                // Chuyển đổi Markdown sang HTML và hiển thị
-                document.getElementById('markdown-content').innerHTML = md.render(markdownText);
+                const renderedHtml = md.render(markdownText);
+                markdownContentDiv.innerHTML = renderedHtml;
+
+                // --- Bắt đầu tạo Outline ---
+                const headings = markdownContentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6');
+                outlineList.innerHTML = ''; // Xóa outline cũ nếu có
+
+                headings.forEach(heading => {
+                    const level = parseInt(heading.tagName.substring(1));
+                    const text = heading.textContent;
+                    const id = slugify(text);
+
+                    heading.id = id; // Gán ID cho tiêu đề trong nội dung
+
+                    const listItem = document.createElement('li');
+                    listItem.classList.add(`level-${level}`);
+
+                    const anchor = document.createElement('a');
+                    anchor.href = `#${id}`;
+                    anchor.textContent = text;
+                    anchor.addEventListener('click', (event) => {
+                        toggleOutlineMenu(); // Đóng menu khi nhấp vào một mục trong outline
+                    });
+
+                    listItem.appendChild(anchor);
+                    outlineList.appendChild(listItem);
+                });
+
             } catch (error) {
                 console.error('Không thể tải hoặc chuyển đổi tệp Markdown:', error);
-                document.getElementById('markdown-content').innerHTML = `
+                markdownContentDiv.innerHTML = `
                     <p style="color: red;">Không thể tải nội dung lỗi 414. Vui lòng thử lại sau.</p>
                     <p>Chi tiết lỗi: ${error.message}</p>
                 `;
             }
         }
 
-        // Gọi hàm tải tệp Markdown khi trang được tải
+        // Khi tải trang xong
         document.addEventListener('DOMContentLoaded', () => {
             loadMarkdownFile('eew-4-14.md');
         });
