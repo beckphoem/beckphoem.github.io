@@ -583,6 +583,25 @@
             }
         }
 
+        // Xử lý sự kiện cuộn để ẩn/hiện header
+        window.addEventListener('scroll', () => {
+            // Không ẩn header nếu menu đang mở
+            if (outlineMenu.classList.contains('open')) {
+                lastScrollY = window.scrollY; // Cập nhật vị trí cuộn mà không ẩn header
+                return;
+            }
+
+            if (window.scrollY > lastScrollY && window.scrollY > header.offsetHeight) {
+                // Cuộn xuống và đã vượt qua chiều cao của header
+                header.classList.add('hide');
+            } else if (window.scrollY < lastScrollY) {
+                // Cuộn lên
+                header.classList.remove('hide');
+            }
+            lastScrollY = window.scrollY; // Cập nhật vị trí cuộn hiện tại
+        });
+
+
         // Khi tải trang xong
         document.addEventListener('DOMContentLoaded', () => {
             loadMarkdownFile('eew-4-14.md');
