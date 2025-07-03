@@ -11,10 +11,13 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f0f2f5; /* Light gray background */
+            /* Remove flex centering from body */
         }
         /* Ensure the main container is centered and has max width */
         .container {
             max-width: 800px;
+            /* Add margin top to account for fixed header */
+            margin-top: 80px; /* Adjust based on header height */
         }
         /* Style for chapter list items */
         .chapter-item {
@@ -31,12 +34,56 @@
             display: flex;
             gap: 1rem; /* Space between links */
         }
+
+        /* Basic header styling */
+        .app-header {
+            background-color: #24292e; /* Dark background like GitHub header */
+            color: #f6f8fa; /* Light text color */
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            position: fixed; /* Make header fixed at the top */
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000; /* Ensure it's above other content */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Back button styling */
+        .header-back-button {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+        .header-back-button:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .header-back-button .arrow {
+            margin-right: 5px;
+            font-size: 1.3em;
+            line-height: 1;
+        }
+
     </style>
 </head>
-<body class="flex items-center justify-center min-h-screen p-4">
+<body class=""> <!-- Removed flex centering classes -->
+
+    <header class="app-header">
+        <a href="../index.html" class="header-back-button">
+            <span class="arrow">&larr;</span> Quay lại
+        </a>
+    </header>
+
     <div class="container mx-auto bg-white p-8 rounded-lg shadow-xl">
         <h1 class="text-4xl font-extrabold text-center text-gray-800 mb-8">
-            Tên Cuốn Sách Tuyệt Vời
+            ESSTENTIAL ENGLISH WORD 4
         </h1>
 
         <p class="text-lg text-gray-600 text-center mb-10">
