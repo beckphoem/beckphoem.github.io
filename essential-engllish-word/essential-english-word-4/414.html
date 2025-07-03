@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EEW-4-14</title>
+    <title>414</title>
     <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
     <style>
         /* GitHub Markdown CSS - Base Styles */
@@ -249,9 +249,9 @@
             display: block;
         }
 
-        /* Responsive Design - Media Queries */
+        /* Responsive Design for iPhone & Mobile Devices */
 
-        /* Tablets and smaller laptops (e.g., up to 1024px) */
+        /* Tablets and smaller laptops (e.g., max-width 1024px) */
         @media (max-width: 1024px) {
             .wrapper {
                 margin: 15px auto;
@@ -277,24 +277,25 @@
             }
         }
 
-        /* Phones (e.g., up to 768px) */
+        /* General Mobile Phones (e.g., max-width 768px - covers most iPhones in portrait) */
         @media (max-width: 768px) {
             .wrapper {
                 flex-direction: column; /* Stack content vertically */
-                margin: 10px auto;
-                padding: 0 10px;
+                margin: 0; /* Loại bỏ margin để tràn viền */
+                padding: 0; /* Loại bỏ padding */
             }
             .markdown-body {
-                padding: 20px;
+                padding: 20px; /* Padding cho nội dung */
                 border-radius: 0; /* Loại bỏ bo góc trên điện thoại để tràn viền */
                 box-shadow: none; /* Loại bỏ shadow */
                 border: none; /* Loại bỏ border */
+                min-height: calc(100vh - 60px); /* Đảm bảo nội dung chiếm gần hết chiều cao màn hình */
             }
             body {
                 font-size: 0.95em; /* Giảm nhẹ font chữ cơ bản */
             }
             .header {
-                padding: 10px;
+                padding: 10px 15px; /* Điều chỉnh padding header */
             }
             .header h1 {
                 font-size: 1.1em;
@@ -335,8 +336,8 @@
             .outline-menu ul li.level-6 { margin-left: 50px; }
         }
 
-        /* Smallest Phones (e.g., up to 480px) */
-        @media (max-width: 480px) {
+        /* Specific for iPhone SE, iPhone 6/7/8, X/XS/XR/11/12/13/14/15 in portrait (max-width 414px / 390px / 375px) */
+        @media (max-width: 414px) {
             .markdown-body {
                 padding: 15px;
             }
@@ -356,6 +357,31 @@
                 font-size: 0.85em;
             }
         }
+
+        /* Landscape orientation for smaller phones (e.g., iPhone SE/6/7/8 Plus landscape) */
+        @media (max-width: 823px) and (min-width: 667px) and (orientation: landscape) {
+            .wrapper {
+                flex-direction: row; /* Có thể xem xét lại bố cục 2 cột cho cảnh quan */
+                padding: 0 30px;
+            }
+            .markdown-body {
+                padding: 30px;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px rgba(27, 31, 35, 0.1);
+                border: 1px solid #e1e4e8;
+            }
+            .outline-menu {
+                width: 250px;
+                right: -250px;
+            }
+            .outline-menu.open {
+                right: 0;
+            }
+            .header h1 {
+                font-size: 1.3em;
+            }
+        }
+
 
         /* CSS để ngăn cuộn body khi menu mở */
         body.no-scroll {
