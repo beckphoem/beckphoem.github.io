@@ -3,94 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh sách Chương Sách</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Trưng Bày Dự Án</title>
+    <!-- Tải Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Custom font for better aesthetics */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f0f2f5; /* Light gray background */
+            background-color: #f0f2f5; /* Màu nền nhẹ nhàng */
         }
-        /* Ensure the main container is centered and has max width */
-        .container {
-            max-width: 800px;
+        .project-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
-        /* Style for chapter list items */
-        .chapter-item {
-            background-color: #ffffff; /* White background for each chapter */
-            border-left: 5px solid #3b82f6; /* Blue left border */
-            transition: transform 0.2s ease-in-out;
-        }
-        .chapter-item:hover {
-            transform: translateY(-3px); /* Slight lift on hover */
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
-<body class="flex items-center justify-center min-h-screen p-4">
-    <div class="container mx-auto bg-white p-8 rounded-lg shadow-xl">
-        <h1 class="text-4xl font-extrabold text-center text-gray-800 mb-8">
-            Tên Cuốn Sách Tuyệt Vời
-        </h1>
+<body class="antialiased text-gray-800">
+    <div class="min-h-screen flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
+        <!-- Tiêu đề -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold text-gray-900 mb-4 rounded-lg p-2">
+                Các Dự Án Của Tôi
+            </h1>
+            <p class="text-xl text-gray-600">
+                Khám phá bộ sưu tập các dự án mà tôi đã thực hiện.
+            </p>
+        </header>
 
-        <p class="text-lg text-gray-600 text-center mb-10">
-            Dưới đây là danh sách các chương của cuốn sách.
-        </p>
+        <!-- Lưới dự án -->
+        <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
+            <!-- Dự án 1 -->
+            <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/A78BFA/ffffff?text=Dự+án+1" alt="Hình ảnh Dự án 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Dự án Phát triển Web</h2>
+                    <p class="text-gray-700 text-base leading-relaxed mb-4">
+                        Một ứng dụng web tương tác được xây dựng bằng React và Node.js, tập trung vào trải nghiệm người dùng mượt mà và hiệu suất cao.
+                    </p>
+                    <a href="#" class="inline-block bg-purple-600 text-white px-5 py-2 rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50 transition duration-300">
+                        Xem chi tiết
+                    </a>
+                </div>
+            </div>
 
-        <ol class="space-y-4">
-            <!-- Loop to generate chapters from the provided list -->
-            <script>
-                const chapterTitles = [
-                    "The History of Chocolate",
-                    "Monkey Island",
-                    "The Young Man and the Old Man",
-                    "The Tricky Fox",
-                    "The Magic Computer",
-                    "Jack Frost and the Pudding",
-                    "The Architect's Plan",
-                    "Janie and the Music Player",
-                    "Growing to be Great",
-                    "Anton's Great Discovery",
-                    "How a Singer Helped Win the War",
-                    "The Sun and the North Wind",
-                    "The Big Race",
-                    "The Brothers and the Bread",
-                    "Laika, the Space Dog",
-                    "Gwen's New Friends",
-                    "Kara Goes Camping",
-                    "The School Play",
-                    "Isaac's First Plane Trip",
-                    "The Betrayal",
-                    "The Teller and the Thieves",
-                    "The Scribe's Warning",
-                    "How the Dinosaurs Really Died",
-                    "The Traveler and the Innkeeper",
-                    "Gilbert and the Lizard",
-                    "The Forest People",
-                    "a Dying Forest",
-                    "Thucydides and the Plague of Athens",
-                    "The Solar Car Race",
-                    "The Heirs"
-                ];
-                const chapterList = document.querySelector('ol');
-                chapterTitles.forEach((title, index) => {
-                    const li = document.createElement('li');
-                    li.className = 'chapter-item p-4 rounded-md shadow-md flex items-center justify-between';
-                    // Calculate the file name for the link (e.g., 401.html, 402.html, ...)
-                    const fileName = `4${String(100 + index + 1).slice(1)}.html`;
-                    li.innerHTML = `
-                        <span class="text-xl font-semibold text-gray-700">Unit ${index + 1}: ${title}</span>
-                        <a href="${fileName}" class="text-blue-600 hover:text-blue-800 font-medium ml-4">Đọc</a>
-                    `;
-                    chapterList.appendChild(li);
-                });
-            </script>
-        </ol>
+            <!-- Dự án 2 -->
+            <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/60A5FA/ffffff?text=Dự+án+2" alt="Hình ảnh Dự án 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Hệ thống Quản lý Dữ liệu</h2>
+                    <p class="text-gray-700 text-base leading-relaxed mb-4">
+                        Thiết kế và triển khai một hệ thống quản lý dữ liệu mạnh mẽ với cơ sở dữ liệu SQL và giao diện người dùng dựa trên Python.
+                    </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300">
+                        Xem chi tiết
+                    </a>
+                </div>
+            </div>
 
-        <div class="mt-10 text-center text-gray-500 text-sm">
-            <p>&copy; 2025 Tác giả của cuốn sách. Mọi quyền được bảo lưu.</p>
-        </div>
+            <!-- Dự án 3 -->
+            <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/34D399/ffffff?text=Dự+án+3" alt="Hình ảnh Dự án 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Ứng dụng Di động</h2>
+                    <p class="text-gray-700 text-base leading-relaxed mb-4">
+                        Một ứng dụng di động đa nền tảng được phát triển với Flutter, cung cấp các tính năng độc đáo cho người dùng.
+                    </p>
+                    <a href="#" class="inline-block bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 transition duration-300">
+                        Xem chi tiết
+                    </a>
+                </div>
+            </div>
+
+            <!-- Dự án 4 -->
+            <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/FCD34D/ffffff?text=Dự+án+4" alt="Hình ảnh Dự án 4" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">essential english 4</h2>
+                    <p class="text-gray-700 text-base leading-relaxed mb-4">
+                    </p>
+                    <a href="" class="inline-block bg-yellow-600 text-white px-5 py-2 rounded-lg hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50 transition duration-300">
+                        Xem chi tiết
+                    </a>
+                </div>
+            </div>
+
+            <!-- Dự án 5 -->
+            <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/FB7185/ffffff?text=Dự+án+5" alt="Hình ảnh Dự án 5" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Trò chơi Đơn giản</h2>
+                    <p class="text-gray-700 text-base leading-relaxed mb-4">
+                        Một trò chơi dựa trên trình duyệt được phát triển bằng JavaScript thuần túy, có lối chơi hấp dẫn và đồ họa đơn giản.
+                    </p>
+                    <a href="#" class="inline-block bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 transition duration-300">
+                        Xem chi tiết
+                    </a>
+                </div>
+            </div>
+
+            <!-- Dự án 6 -->
+            <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+                <img src="https://placehold.co/600x400/818CF8/ffffff?text=Dự+án+6" alt="Hình ảnh Dự án 6" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Dự án Học máy</h2>
+                    <p class="text-gray-700 text-base leading-relaxed mb-4">
+                        Xây dựng một mô hình học máy để phân loại dữ liệu, sử dụng các thư viện như TensorFlow và Scikit-learn.
+                    </p>
+                    <a href="#" class="inline-block bg-indigo-600 text-white px-5 py-2 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50 transition duration-300">
+                        Xem chi tiết
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Chân trang -->
+        <footer class="mt-12 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Trưng Bày Dự Án. Mọi quyền được bảo lưu.</p>
+        </footer>
     </div>
 </body>
 </html>

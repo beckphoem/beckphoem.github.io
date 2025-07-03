@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách Chương Sách</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for better aesthetics */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+        /* Ensure the main container is centered and has max width */
+        .container {
+            max-width: 800px;
+        }
+        /* Style for chapter list items */
+        .chapter-item {
+            background-color: #ffffff; /* White background for each chapter */
+            border-left: 5px solid #3b82f6; /* Blue left border */
+            transition: transform 0.2s ease-in-out;
+        }
+        .chapter-item:hover {
+            transform: translateY(-3px); /* Slight lift on hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+    <div class="container mx-auto bg-white p-8 rounded-lg shadow-xl">
+        <h1 class="text-4xl font-extrabold text-center text-gray-800 mb-8">
+            Tên Cuốn Sách Tuyệt Vời
+        </h1>
+
+        <p class="text-lg text-gray-600 text-center mb-10">
+            Dưới đây là danh sách các chương của cuốn sách.
+        </p>
+
+        <ol class="space-y-4">
+            <!-- Loop to generate chapters from the provided list -->
+            <script>
+                const chapterTitles = [
+                    "The History of Chocolate",
+                    "Monkey Island",
+                    "The Young Man and the Old Man",
+                    "The Tricky Fox",
+                    "The Magic Computer",
+                    "Jack Frost and the Pudding",
+                    "The Architect's Plan",
+                    "Janie and the Music Player",
+                    "Growing to be Great",
+                    "Anton's Great Discovery",
+                    "How a Singer Helped Win the War",
+                    "The Sun and the North Wind",
+                    "The Big Race",
+                    "The Brothers and the Bread",
+                    "Laika, the Space Dog",
+                    "Gwen's New Friends",
+                    "Kara Goes Camping",
+                    "The School Play",
+                    "Isaac's First Plane Trip",
+                    "The Betrayal",
+                    "The Teller and the Thieves",
+                    "The Scribe's Warning",
+                    "How the Dinosaurs Really Died",
+                    "The Traveler and the Innkeeper",
+                    "Gilbert and the Lizard",
+                    "The Forest People",
+                    "a Dying Forest",
+                    "Thucydides and the Plague of Athens",
+                    "The Solar Car Race",
+                    "The Heirs"
+                ];
+                const chapterList = document.querySelector('ol');
+                chapterTitles.forEach((title, index) => {
+                    const li = document.createElement('li');
+                    li.className = 'chapter-item p-4 rounded-md shadow-md flex items-center justify-between';
+                    // Calculate the file name for the link (e.g., 401.html, 402.html, ...)
+                    const fileName = `4${String(100 + index + 1).slice(1)}.html`;
+                    li.innerHTML = `
+                        <span class="text-xl font-semibold text-gray-700">Unit ${index + 1}: ${title}</span>
+                        <a href="${fileName}" class="text-blue-600 hover:text-blue-800 font-medium ml-4">Đọc</a>
+                    `;
+                    chapterList.appendChild(li);
+                });
+            </script>
+        </ol>
+
+        <div class="mt-10 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 Tác giả của cuốn sách. Mọi quyền được bảo lưu.</p>
+        </div>
+    </div>
+</body>
+</html>
