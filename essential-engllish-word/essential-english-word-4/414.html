@@ -38,11 +38,21 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            position: sticky;
+            position: sticky; /* Giữ sticky để nó ở trên cùng ban đầu */
             top: 0;
             z-index: 1000;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            /* Thêm transition cho hiệu ứng ẩn/hiện mượt mà */
+            transition: transform 0.3s ease-in-out;
+            width: 100%; /* Đảm bảo header chiếm toàn bộ chiều rộng */
+            box-sizing: border-box; /* Bao gồm padding và border trong width */
         }
+
+        /* CSS để ẩn header */
+        .header.hide {
+            transform: translateY(-100%); /* Di chuyển header lên trên để ẩn */
+        }
+
 
         /* Vùng chứa tiêu đề và nút back */
         .header-left {
@@ -100,6 +110,8 @@
             max-width: 1280px;
             gap: 30px;
             padding: 0 30px;
+            /* Thêm padding-top để nội dung không bị che bởi header */
+            padding-top: 70px; /* Điều chỉnh giá trị này nếu chiều cao header thay đổi */
         }
 
         .markdown-body {
@@ -313,6 +325,7 @@
                 margin: 15px auto;
                 padding: 0 20px;
                 gap: 20px;
+                padding-top: 70px; /* Điều chỉnh padding-top cho responsive */
             }
             .markdown-body {
                 padding: 30px;
@@ -348,6 +361,7 @@
                 flex-direction: column;
                 margin: 0;
                 padding: 0;
+                padding-top: 60px; /* Điều chỉnh padding-top cho responsive */
             }
             .markdown-body {
                 padding: 20px;
@@ -441,6 +455,7 @@
             .wrapper {
                 flex-direction: row;
                 padding: 0 30px;
+                padding-top: 70px; /* Điều chỉnh padding-top cho responsive */
             }
             .markdown-body {
                 padding: 30px;
@@ -521,12 +536,23 @@
         const overlay = document.getElementById('overlay');
         const markdownContentDiv = document.getElementById('markdown-content');
         const outlineList = document.getElementById('outline-list');
+        const header = document.querySelector('.header'); // Lấy tham chiếu đến header
+
+        let lastScrollY = 0; // Khởi tạo biến theo dõi vị trí cuộn trước đó
+        let scrollTimeout; // Biến để lưu trữ timeout
 
         // Hàm mở/đóng menu
         function toggleOutlineMenu() {
             outlineMenu.classList.toggle('open');
             overlay.classList.toggle('active');
             document.body.classList.toggle('no-scroll');
+            // Khi mở/đóng menu, đảm bảo header hiển thị
+            if (outlineMenu.classList.contains('open')) {
+                 header.classList.remove('hide');
+            } else {
+                 // Sau khi đóng menu, kiểm tra lại vị trí cuộn để ẩn nếu cần
+                 checkScrollDirection();
+            }
         }
 
         // Xử lý sự kiện click cho nút mở
@@ -583,11 +609,11 @@
             }
         }
 
-        // Xử lý sự kiện cuộn để ẩn/hiện header
-        window.addEventListener('scroll', () => {
-            // Không ẩn header nếu menu đang mở
+        // Hàm kiểm tra hướng cuộn và ẩn/hiện header
+        function checkScrollDirection() {
+             // Không ẩn header nếu menu đang mở
             if (outlineMenu.classList.contains('open')) {
-                lastScrollY = window.scrollY; // Cập nhật vị trí cuộn mà không ẩn header
+                lastScrollY = window.scrollY;
                 return;
             }
 
@@ -598,13 +624,29 @@
                 // Cuộn lên
                 header.classList.remove('hide');
             }
-            lastScrollY = window.scrollY; // Cập nhật vị trí cuộn hiện tại
+            lastScrollY = window.scrollY;
+        }
+
+        // Xử lý sự kiện cuộn
+        window.addEventListener('scroll', () => {
+            // Xóa timeout trước đó nếu có
+            clearTimeout(scrollTimeout);
+
+            // Luôn hiển thị header khi bắt đầu cuộn
+            header.classList.remove('hide');
+
+            // Đặt timeout để kiểm tra hướng cuộn sau khi dừng cuộn
+            scrollTimeout = setTimeout(() => {
+                checkScrollDirection();
+            }, 100); // Thời gian chờ sau khi dừng cuộn (ms)
         });
 
 
         // Khi tải trang xong
         document.addEventListener('DOMContentLoaded', () => {
             loadMarkdownFile('eew-4-14.md');
+            // Đảm bảo header hiển thị khi trang tải xong
+            header.classList.remove('hide');
         });
     </script>
 
