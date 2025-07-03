@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>414</title>
+    <title>EEW 414 </title>
     <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
     <style>
         /* GitHub Markdown CSS - Base Styles */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-family: -apple-system, BlinkMacMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             line-height: 1.6;
             margin: 0;
             background-color: #f6f8fa;
@@ -167,6 +167,14 @@
             border: 0;
         }
 
+        /* Hình ảnh tự động điều chỉnh kích thước */
+        .markdown-body img {
+            max-width: 100%; /* Giới hạn chiều rộng tối đa của ảnh */
+            height: auto; /* Tự động điều chỉnh chiều cao để giữ tỉ lệ */
+            display: block; /* Để loại bỏ khoảng trắng dưới ảnh (do inline-block) */
+            margin: 0 auto; /* Căn giữa ảnh nếu muốn */
+        }
+
         /* --- End GitHub Markdown Styles (Core) --- */
 
         /* Outline Menu Styles */
@@ -175,14 +183,17 @@
             top: 0;
             right: -300px;
             width: 300px;
-            height: 100%;
+            /* Điều chỉnh chiều cao cho mục lục */
+            height: calc(100vh - 60px); /* 100vh trừ đi khoảng trống cho header */
+            max-height: 75vh; /* Giới hạn tối đa là 3/4 màn hình */
+            margin-top: 60px; /* Đặt menu bên dưới header */
             background: #fff;
             box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
             transition: right 0.3s ease-in-out;
             z-index: 1100;
-            padding-top: 60px;
-            overflow-y: auto;
+            overflow-y: auto; /* Cho phép cuộn nếu nội dung dài hơn 3/4 màn hình */
             border-left: 1px solid #e1e4e8;
+            border-bottom-left-radius: 6px; /* Bo góc dưới bên trái */
         }
         .outline-menu.open {
             right: 0;
@@ -220,7 +231,6 @@
         .outline-menu ul li.level-4 { margin-left: 45px; }
         .outline-menu ul li.level-5 { margin-left: 60px; }
         .outline-menu ul li.level-6 { margin-left: 75px; }
-
 
         .close-button {
             position: absolute;
@@ -271,6 +281,9 @@
             .outline-menu {
                 width: 280px; /* Slightly smaller menu */
                 right: -280px;
+                /* Chiều cao vẫn 3/4 màn hình */
+                height: calc(100vh - 60px);
+                max-height: 75vh;
             }
             .outline-menu.open {
                 right: 0;
@@ -315,6 +328,11 @@
                 width: 100%; /* Menu chiếm toàn bộ chiều rộng */
                 right: -100%; /* Ẩn toàn bộ */
                 padding-top: 50px; /* Adjust padding for close button */
+                /* Chiều cao cho menu trên di động */
+                height: calc(100vh - 50px); /* 100vh trừ đi khoảng trống cho header của menu */
+                max-height: 75vh; /* Giới hạn tối đa là 3/4 màn hình */
+                margin-top: 0; /* Không cần margin-top khi width 100% */
+                border-bottom-left-radius: 0; /* Không bo góc khi menu full width */
             }
             .outline-menu.open {
                 right: 0;
@@ -373,6 +391,11 @@
             .outline-menu {
                 width: 250px;
                 right: -250px;
+                /* Chiều cao cho menu ở chế độ ngang */
+                height: calc(100vh - 60px);
+                max-height: 75vh;
+                margin-top: 60px;
+                border-bottom-left-radius: 6px; /* Bo góc lại */
             }
             .outline-menu.open {
                 right: 0;
@@ -382,7 +405,6 @@
             }
         }
 
-
         /* CSS để ngăn cuộn body khi menu mở */
         body.no-scroll {
             overflow: hidden;
@@ -391,7 +413,7 @@
 </head>
 <body>
     <div class="header">
-        <h1></h1>
+        <h1>Lỗi 414: URI quá dài</h1>
         <button id="open-outline-btn" class="menu-button">Mục lục</button>
     </div>
 
