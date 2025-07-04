@@ -240,11 +240,10 @@
         .outline-menu {
             position: fixed;
             top: 0;
-            right: -300px;
-            width: 300px;
-            height: calc(100vh - 60px);
-            max-height: 75vh;
-            margin-top: 60px;
+            right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+            width: 75%; /* Chiều rộng 3/4 màn hình */
+            height: 100vh; /* Chiều cao đầy đủ màn hình */
+            margin-top: 0; /* Bỏ margin-top */
             background: #fff;
             box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
             transition: right 0.3s ease-in-out;
@@ -338,10 +337,10 @@
                 font-size: 0.85em;
             }
             .outline-menu {
-                width: 280px;
-                right: -280px;
-                height: calc(100vh - 60px);
-                max-height: 75vh;
+                width: 75%; /* Chiều rộng 3/4 màn hình */
+                right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+                height: 100vh; /* Chiều cao đầy đủ màn hình */
+                margin-top: 0; /* Bỏ margin-top */
             }
             .outline-menu.open {
                 right: 0;
@@ -391,12 +390,11 @@
                 padding: 10px;
             }
             .outline-menu {
-                width: 100%;
-                right: -100%;
-                padding-top: 50px;
-                height: calc(100vh - 50px);
-                max-height: 75vh;
-                margin-top: 0;
+                width: 75%; /* Chiều rộng 3/4 màn hình */
+                right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+                padding-top: 0; /* Bỏ padding-top */
+                height: 100vh; /* Chiều cao đầy đủ màn hình */
+                margin-top: 0; /* Bỏ margin-top */
                 border-bottom-left-radius: 0;
             }
             .outline-menu.open {
@@ -428,6 +426,42 @@
             }
         }
 
+        /* Landscape orientation for smaller phones (e.g., iPhone SE/6/7/8 Plus landscape) */
+        @media (max-width: 823px) and (min-width: 667px) and (orientation: landscape) {
+            .wrapper {
+                flex-direction: row;
+                padding: 0 30px;
+                padding-top: 70px; /* Điều chỉnh padding-top cho responsive */
+            }
+            .markdown-body {
+                padding: 30px;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px rgba(27, 31, 35, 0.1);
+                border: 1px solid #e1e4e8;
+            }
+            .outline-menu {
+                width: 75%; /* Chiều rộng 3/4 màn hình */
+                right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+                height: 100vh; /* Chiều cao đầy đủ màn hình */
+                margin-top: 0; /* Bỏ margin-top */
+                border-bottom-left-radius: 6px;
+            }
+            .outline-menu.open {
+                right: 0;
+            }
+            .header h1 {
+                font-size: 1.3em;
+            }
+            /* Đảm bảo nút back vẫn hiển thị tốt trong landscape */
+            .back-button {
+                font-size: 1.1em;
+                padding: 4px 8px;
+            }
+            .back-button .arrow {
+                font-size: 1.3em;
+            }
+        }
+
         /* Specific for iPhone SE, iPhone 6/7/8, X/XS/XR/11/12/13/14/15 in portrait (max-width 414px / 390px / 375px) */
         @media (max-width: 414px) {
             .markdown-body {
@@ -447,43 +481,6 @@
             }
             .outline-menu ul li a {
                 font-size: 0.85em;
-            }
-        }
-
-        /* Landscape orientation for smaller phones (e.g., iPhone SE/6/7/8 Plus landscape) */
-        @media (max-width: 823px) and (min-width: 667px) and (orientation: landscape) {
-            .wrapper {
-                flex-direction: row;
-                padding: 0 30px;
-                padding-top: 70px; /* Điều chỉnh padding-top cho responsive */
-            }
-            .markdown-body {
-                padding: 30px;
-                border-radius: 6px;
-                box-shadow: 0 1px 3px rgba(27, 31, 35, 0.1);
-                border: 1px solid #e1e4e8;
-            }
-            .outline-menu {
-                width: 250px;
-                right: -250px;
-                height: calc(100vh - 60px);
-                max-height: 75vh;
-                margin-top: 60px;
-                border-bottom-left-radius: 6px;
-            }
-            .outline-menu.open {
-                right: 0;
-            }
-            .header h1 {
-                font-size: 1.3em;
-            }
-            /* Đảm bảo nút back vẫn hiển thị tốt trong landscape */
-            .back-button {
-                font-size: 1.1em;
-                padding: 4px 8px;
-            }
-            .back-button .arrow {
-                font-size: 1.3em;
             }
         }
 
