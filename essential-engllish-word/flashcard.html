@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+    <!-- Link Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for flashcard flip effect */
+        .flashcard-container {
+            width: 350px;
+            height: 450px;
+            perspective: 1000px; /* Needed for 3D flip effect */
+            margin: 20px auto;
+        }
+
+        .flashcard {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Hide the back face during the flip */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .flashcard-front {
+            background-color: #fff;
+            color: #333;
+        }
+
+        .flashcard-back {
+            background-color: #4CAF50; /* Green background for the back */
+            color: white;
+            transform: rotateY(180deg); /* Initially rotated to be hidden */
+        }
+
+        .flashcard-back .word {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .flashcard-back .phonetic {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .flashcard-back .example {
+            font-size: 1em;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .control-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .control-button:hover {
+            opacity: 0.9;
+        }
+
+        #prevBtn, #nextBtn {
+            background-color: #007bff; /* Blue */
+            color: white;
+        }
+
+        #flipBtn {
+            background-color: #ffc107; /* Yellow */
+            color: #333;
+        }
+
+        #shuffleBtn {
+            background-color: #17a2b8; /* Cyan */
+            color: white;
+        }
+
+         .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.7);
+            z-index: 10;
+        }
+         .back-button:hover {
+             background-color: rgba(255, 255, 255, 1);
+         }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4 font-sans">
+
+    <a href="417.html" class="back-button">&larr; Quay lại bài học</a>
+
+    <div class="flashcard-container">
+        <div id="flashcard" class="flashcard">
+            <div id="flashcardFront" class="flashcard-face flashcard-front">
+                <!-- Question will be loaded here -->
+                Đang tải...
+            </div>
+            <div id="flashcardBack" class="flashcard-face flashcard-back">
+                <div class="word" id="word"></div>
+                <div class="phonetic" id="phonetic"></div>
+                <div class="example" id="example"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="prevBtn" class="control-button">Trước</button>
+        <button id="flipBtn" class="control-button">Lật</button>
+        <button id="nextBtn" class="control-button">Tiếp</button>
+        <button id="shuffleBtn" class="control-button">Trộn thẻ</button>
+    </div>
+
+    <script>
+        let flashcardsData = [];
+        let currentCardIndex = 0;
+        let isFlipped = false;
+        let shuffledCards = [];
+
+        // Lấy các phần tử DOM
+        const flashcardElement = document.getElementById('flashcard');
+        const flashcardFront = document.getElementById('flashcardFront');
+        const flashcardBack = document.getElementById('flashcardBack');
+        const wordEl = document.getElementById('word');
+        const phoneticEl = document.getElementById('phonetic');
+        const exampleEl = document.getElementById('example');
+        const prevBtn = document.getElementById('prevBtn');
+        const flipBtn = document.getElementById('flipBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const shuffleBtn = document.getElementById('shuffleBtn');
+
+        // Hàm tải dữ liệu từ JSON
+        async function loadFlashcardsData(filePath) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                flashcardsData = await response.json();
+                shuffledCards = [...flashcardsData]; // Tạo bản sao để trộn
+                shuffleCards(); // Trộn thẻ lần đầu
+                displayCard(); // Hiển thị thẻ đầu tiên
+            } catch (error) {
+                console.error('Không thể tải dữ liệu flashcard:', error);
+                flashcardFront.textContent = 'Lỗi tải dữ liệu.';
+            }
+        }
+
+        // Hàm hiển thị thẻ hiện tại
+        function displayCard() {
+            if (shuffledCards.length === 0) {
+                flashcardFront.textContent = 'Không có thẻ nào để hiển thị.';
+                flashcardBack.innerHTML = '';
+                return;
+            }
+
+            const card = shuffledCards[currentCardIndex];
+            flashcardFront.innerHTML = card.question; // Use innerHTML to render potential bold text
+            wordEl.textContent = card.answer;
+            phoneticEl.textContent = card.ipa;
+            exampleEl.innerHTML = card.example; // Use innerHTML for example sentence
+
+            // Đảm bảo thẻ luôn ở mặt trước khi chuyển sang thẻ mới
+            if (isFlipped) {
+                flashcardElement.classList.remove('flipped');
+                isFlipped = false;
+            }
+        }
+
+        // Hàm lật thẻ
+        function flipCard() {
+            flashcardElement.classList.toggle('flipped');
+            isFlipped = !isFlipped;
+        }
+
+        // Hàm chuyển đến thẻ tiếp theo
+        function nextCard() {
+            currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
+            displayCard();
+        }
+
+        // Hàm chuyển đến thẻ trước đó
+        function prevCard() {
+            currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
+            displayCard();
+        }
+
+        // Hàm trộn thẻ (Fisher-Yates shuffle algorithm)
+        function shuffleCards() {
+            for (let i = shuffledCards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+            }
+            currentCardIndex = 0; // Reset về thẻ đầu tiên sau khi trộn
+            displayCard();
+        }
+
+        // Gắn sự kiện cho các nút
+        flipBtn.addEventListener('click', flipCard);
+        nextBtn.addEventListener('click', nextCard);
+        prevBtn.addEventListener('click', prevCard);
+        shuffleBtn.addEventListener('click', shuffleCards);
+
+        // Xử lý sự kiện bàn phím
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                nextCard();
+            } else if (e.key === 'ArrowLeft') {
+                prevCard();
+            } else if (e.key === ' ' || e.key === 'Spacebar') { // Spacebar
+                e.preventDefault(); // Ngăn chặn cuộn trang khi nhấn Space
+                flipCard();
+            }
+        });
+
+        // Xử lý sự kiện vuốt và chạm trên điện thoại
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let touchStartTime = 0; // Track touch start time for tap detection
+        const minSwipeDistance = 50; // Khoảng cách vuốt tối thiểu để kích hoạt
+        const tapThreshold = 200; // Thời gian tối đa cho một lần chạm (ms)
+
+        flashcardElement.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            touchStartTime = new Date().getTime(); // Ghi lại thời gian bắt đầu chạm
+            touchEndX = touchStartX; // Reset touchEndX in case touchmove doesn't fire
+        });
+
+        flashcardElement.addEventListener('touchmove', (e) => {
+            touchEndX = e.touches[0].clientX; // Cập nhật vị trí kết thúc khi di chuyển
+        });
+
+        flashcardElement.addEventListener('touchend', (e) => {
+            const touchEndTime = new Date().getTime(); // Ghi lại thời gian kết thúc chạm
+            const touchDuration = touchEndTime - touchStartTime;
+            const distance = touchEndX - touchStartX;
+
+            // Kiểm tra xem đó là chạm (tap) hay vuốt (swipe)
+            if (touchDuration < tapThreshold && Math.abs(distance) < minSwipeDistance) {
+                // Nếu là chạm (thời gian ngắn và di chuyển ít)
+                flipCard();
+            } else if (distance > minSwipeDistance) {
+                // Vuốt sang phải (trước đó)
+                prevCard();
+            } else if (distance < -minSwipeDistance) {
+                // Vuốt sang trái (tiếp theo)
+                nextCard();
+            }
+
+            // Reset touch coordinates and time
+            touchStartX = 0;
+            touchEndX = 0;
+            touchStartTime = 0;
+        });
+
+
+        // Khởi tạo ứng dụng khi tải trang
+        document.addEventListener('DOMContentLoaded', () => {
+            // Tải dữ liệu từ file JSON tương ứng (ví dụ: 417-flashcard.json)
+            // Đường dẫn này cần được điều chỉnh tùy thuộc vào cấu trúc thư mục của bạn
+            loadFlashcardsData('./essential-english-word-4/417-flashcard.json');
+        });
+    </script>
+</body>
+</html>

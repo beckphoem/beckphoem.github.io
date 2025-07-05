@@ -1,0 +1,126 @@
+Dưới đây là tệp JSON chứa thông tin flashcard theo yêu cầu của bạn. Lưu ý rằng phần phiên âm IPA không được cung cấp trong các nguồn đã cho, nên trường `ipa` sẽ để trống [i].
+
+```json
+[
+  {
+    "question": "Nền văn minh, xã hội văn minh",
+    "answer": "civilization",
+    "ipa": "/ˌsɪvəlɪˈzeɪʃən/",
+    "example": "She felt so far from **civilization**."
+  },
+  {
+    "question": "Tiện lợi, thuận tiện",
+    "answer": "convenient",
+    "ipa": "/kənˈviːniənt/",
+    "example": "She missed her **convenient** life in the city."
+  },
+  {
+    "question": "Hang (động vật), sào huyệt, phòng riêng (thường là phòng đọc sách hoặc giải trí)",
+    "answer": "den",
+    "ipa": "/dɛn/",
+    "example": "“Look,” he said, “that’s a fox’s **den**."
+  },
+  {
+    "question": "Sương, hạt sương",
+    "answer": "dew",
+    "ipa": "/duː/ or /djuː/",
+    "example": "The grass was covered with **dew** , and it gleamed in the sunlight."
+  },
+  {
+    "question": "Quyết liệt, mạnh mẽ, nghiêm trọng (thường chỉ sự thay đổi hoặc biện pháp)",
+    "answer": "drastic",
+    "ipa": "/ˈdræstɪk/",
+    "example": "It was a **drastic** change from the previous day’s weather."
+  },
+  {
+    "question": "Thoát ra, đi ra, rời khỏi",
+    "answer": "exit",
+    "ipa": "/ˈɛɡzɪt/",
+    "example": "She felt sad while they **exited** the park."
+  },
+  {
+    "question": "Đàn (chim, cừu), đám đông",
+    "answer": "flock",
+    "ipa": "/flɒk/",
+    "example": "The reeds swayed in the wind, and a **flock** of birds flew above."
+  },
+  {
+    "question": "Gấp, gập lại",
+    "answer": "fold",
+    "ipa": "/foʊld/",
+    "example": "They **folded** their sleeping bags and put them in a box."
+  },
+  {
+    "question": "Nắp, vung (nồi, hộp)",
+    "answer": "lid",
+    "ipa": "/lɪd/",
+    "example": "Tracy closed the **lid** and told Kara, “Today will be fun, I promise!”."
+  },
+  {
+    "question": "Hiện ra lờ mờ, lù lù hiện ra (thường là vật lớn, đáng sợ hoặc quan trọng sắp xảy ra)",
+    "answer": "loom",
+    "ipa": "/luːm/",
+    "example": "As the day went on, mighty clouds soon **loomed** in the distance."
+  },
+  {
+    "question": "Hùng mạnh, to lớn, vĩ đại",
+    "answer": "mighty",
+    "ipa": "/ˈmaɪti/",
+    "example": "As the day went on, **mighty** clouds soon loomed in the distance."
+  },
+  {
+    "question": "Nấm",
+    "answer": "mushroom",
+    "ipa": "/ˈmʌʃruːm/ or /ˈmʌʃrʊm/",
+    "example": "Do you see that bunch of **mushrooms** next to it."
+  },
+  {
+    "question": "Bản địa, thổ dân, bẩm sinh",
+    "answer": "native",
+    "ipa": "/ˈneɪtɪv/",
+    "example": "Tracy’s father, Mr. Grieves, showed them the **native** plants and animals."
+  },
+  {
+    "question": "Chất độc, thuốc độc",
+    "answer": "poison",
+    "ipa": "/ˈpɔɪzən/",
+    "example": "They contain **poison**."
+  },
+  {
+    "question": "Cây sậy, cây lau",
+    "answer": "reed",
+    "ipa": "/riːd/",
+    "example": "The **reeds** swayed in the wind, and a flock of birds flew above."
+  },
+  {
+    "question": "Che chắn, bảo vệ",
+    "answer": "shield",
+    "ipa": "/ʃiːld/",
+    "example": "They used an umbrella to **shield** them from the rain."
+  },
+  {
+    "question": "Có bão, giông bão, dữ dội (thường chỉ thời tiết hoặc mối quan hệ)",
+    "answer": "stormy",
+    "ipa": "/ˈstɔːrmi/",
+    "example": "“It looks like **stormy** weather,” said Tracy."
+  },
+  {
+    "question": "Đung đưa, lắc lư, lung lay, ảnh hưởng",
+    "answer": "sway",
+    "ipa": "/sweɪ/",
+    "example": "The reeds **swayed** in the wind, and a flock of birds flew above."
+  },
+  {
+    "question": "Đô thị, thành thị",
+    "answer": "urban",
+    "ipa": "/ˈɜːrbən/",
+    "example": "She was used to an **urban** lifestyle."
+  },
+  {
+    "question": "Lội qua (nước, bùn), lội bộ",
+    "answer": "wade",
+    "ipa": "/weɪd/",
+    "example": "Kara and Tracy **waded** into the water."
+  }
+]
+```

@@ -497,7 +497,11 @@
                 <span class="arrow">&larr;</span> Quay lại
             </a>
         </div>
-        <button id="open-outline-btn" class="menu-button">Mục lục</button>
+        <!-- Thêm nút Flashcard -->
+        <div class="header-right">
+            <button id="open-flashcard-btn" class="menu-button">Flashcard</button>
+            <button id="open-outline-btn" class="menu-button">Mục lục</button>
+        </div>
     </div>
 
     <div class="overlay" id="overlay"></div>
@@ -534,6 +538,7 @@
         const markdownContentDiv = document.getElementById('markdown-content');
         const outlineList = document.getElementById('outline-list');
         const header = document.querySelector('.header'); // Lấy tham chiếu đến header
+        const openFlashcardBtn = document.getElementById('open-flashcard-btn'); // Lấy nút Flashcard
 
         let lastScrollY = 0; // Khởi tạo biến theo dõi vị trí cuộn trước đó
         let scrollTimeout; // Biến để lưu trữ timeout
@@ -552,14 +557,19 @@
             }
         }
 
-        // Xử lý sự kiện click cho nút mở
+        // Xử lý sự kiện click cho nút mở mục lục
         openOutlineBtn.addEventListener('click', toggleOutlineMenu);
 
-        // Xử lý sự kiện click cho nút đóng
+        // Xử lý sự kiện click cho nút đóng mục lục
         closeOutlineBtn.addEventListener('click', toggleOutlineMenu);
 
         // Xử lý sự kiện click vào overlay để đóng menu
         overlay.addEventListener('click', toggleOutlineMenu);
+
+        // Xử lý sự kiện click cho nút Flashcard
+        openFlashcardBtn.addEventListener('click', () => {
+            window.location.href = '417-flashcard.html'; // Chuyển hướng đến trang flashcard
+        });
 
         // Hàm để tải và hiển thị nội dung Markdown, sau đó tạo outline
         async function loadMarkdownFile(filePath) {
