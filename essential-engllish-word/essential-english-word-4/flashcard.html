@@ -173,7 +173,7 @@
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4 font-sans">
 
-    <a href="417.html" class="back-button">&larr; Quay lại bài học</a>
+    <a id="backButton" href="chapter.html" class="back-button">&larr; Quay lại bài học</a>
 
     <div class="flashcard-container">
         <div id="flashcard" class="flashcard">
@@ -230,6 +230,7 @@
         const flipBtn = document.getElementById('flipBtn');
         const nextBtn = document.getElementById('nextBtn');
         const shuffleBtn = document.getElementById('shuffleBtn');
+        const backButton = document.getElementById('backButton'); // Get the back button
 
 
         // Hàm tải dữ liệu từ JSON
@@ -527,6 +528,22 @@
                  // Assuming the JSON files are in the same directory as flashcard.html
                  const jsonFilePath = `./${jsonFileName}`;
                  loadFlashcardsData(jsonFilePath);
+
+                 // Extract chapter number from the JSON file name (e.g., "418-flashcard.json" -> 18)
+                 const match = jsonFileName.match(/^4(\d+)-flashcard\.json$/);
+                 if (match && match[1]) {
+                     const chapterNumber = parseInt(match[1], 10);
+                     // Construct the URL for the corresponding chapter.html page
+                     const chapterUrl = `chapter.html?chapter=${chapterNumber}`;
+                     // Set the href of the back button
+                     backButton.href = chapterUrl;
+                 } else {
+                     console.error("Could not extract chapter number from JSON file name:", jsonFileName);
+                     // Fallback: Link to the main index page if chapter number cannot be determined
+                     backButton.href = "index.html";
+                 }
+
+
             } else {
                  console.error("No JSON file specified in URL parameter.");
                  flashcardFront.textContent = 'Lỗi: Không tìm thấy dữ liệu flashcard.';
@@ -536,6 +553,8 @@
                  nextBtn.disabled = true;
                  shuffleBtn.disabled = true;
                  speechBtn.disabled = true;
+                 // Fallback: Link to the main index page if no JSON file is specified
+                 backButton.href = "index.html";
             }
         });
     </script>
