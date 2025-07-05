@@ -283,7 +283,7 @@
         let shuffledCards = [...flashcardsData]; // Bắt đầu với một bản sao để trộn
 
         // Lấy các phần tử DOM
-        const flashcard = document.getElementById('flashcard');
+        const flashcardElement = document.getElementById('flashcard'); // Renamed to avoid conflict
         const flashcardFront = document.getElementById('flashcardFront');
         const flashcardBack = document.getElementById('flashcardBack');
         const wordEl = document.getElementById('word');
@@ -304,14 +304,14 @@
 
             // Đảm bảo thẻ luôn ở mặt trước khi chuyển sang thẻ mới
             if (isFlipped) {
-                flashcard.classList.remove('flipped');
+                flashcardElement.classList.remove('flipped');
                 isFlipped = false;
             }
         }
 
         // Hàm lật thẻ
         function flipCard() {
-            flashcard.classList.toggle('flipped');
+            flashcardElement.classList.toggle('flipped');
             isFlipped = !isFlipped;
         }
 
@@ -355,32 +355,46 @@
             }
         });
 
-        // Xử lý sự kiện vuốt trên điện thoại
+        // Xử lý sự kiện vuốt và chạm trên điện thoại
         let touchStartX = 0;
         let touchEndX = 0;
+        let touchStartTime = 0; // Track touch start time for tap detection
         const minSwipeDistance = 50; // Khoảng cách vuốt tối thiểu để kích hoạt
+        const tapThreshold = 200; // Thời gian tối đa cho một lần chạm (ms)
 
-        flashcard.addEventListener('touchstart', (e) => {
+        flashcardElement.addEventListener('touchstart', (e) => {
             touchStartX = e.touches[0].clientX;
+            touchStartTime = new Date().getTime(); // Ghi lại thời gian bắt đầu chạm
+            touchEndX = touchStartX; // Reset touchEndX in case touchmove doesn't fire
         });
 
-        flashcard.addEventListener('touchmove', (e) => {
-            touchEndX = e.touches[0].clientX;
+        flashcardElement.addEventListener('touchmove', (e) => {
+            touchEndX = e.touches[0].clientX; // Cập nhật vị trí kết thúc khi di chuyển
         });
 
-        flashcard.addEventListener('touchend', () => {
+        flashcardElement.addEventListener('touchend', (e) => {
+            const touchEndTime = new Date().getTime(); // Ghi lại thời gian kết thúc chạm
+            const touchDuration = touchEndTime - touchStartTime;
             const distance = touchEndX - touchStartX;
-            if (distance > minSwipeDistance) {
+
+            // Kiểm tra xem đó là chạm (tap) hay vuốt (swipe)
+            if (touchDuration < tapThreshold && Math.abs(distance) < minSwipeDistance) {
+                // Nếu là chạm (thời gian ngắn và di chuyển ít)
+                flipCard();
+            } else if (distance > minSwipeDistance) {
                 // Vuốt sang phải (trước đó)
                 prevCard();
             } else if (distance < -minSwipeDistance) {
                 // Vuốt sang trái (tiếp theo)
                 nextCard();
             }
-            // Reset touch coordinates
+
+            // Reset touch coordinates and time
             touchStartX = 0;
             touchEndX = 0;
+            touchStartTime = 0;
         });
+
 
         // Khởi tạo ứng dụng khi tải trang
         document.addEventListener('DOMContentLoaded', () => {
