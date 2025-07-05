@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>415</title>
+    <title>eew-4</title>
     <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
     <style>
         /* GitHub Markdown CSS - Base Styles */
@@ -496,8 +496,13 @@
             <a href="index.html" class="back-button">
                 <span class="arrow">&larr;</span> Quay lại
             </a>
+            <h1>Essential English Word 4</h1> <!-- Default title, will be updated by JS -->
         </div>
-        <button id="open-outline-btn" class="menu-button">Mục lục</button>
+        <!-- Thêm nút Flashcard -->
+        <div class="header-right">
+            <button id="open-flashcard-btn" class="menu-button">Flashcard</button>
+            <button id="open-outline-btn" class="menu-button">Mục lục</button>
+        </div>
     </div>
 
     <div class="overlay" id="overlay"></div>
@@ -534,6 +539,7 @@
         const markdownContentDiv = document.getElementById('markdown-content');
         const outlineList = document.getElementById('outline-list');
         const header = document.querySelector('.header'); // Lấy tham chiếu đến header
+        const openFlashcardBtn = document.getElementById('open-flashcard-btn'); // Lấy nút Flashcard
 
         let lastScrollY = 0; // Khởi tạo biến theo dõi vị trí cuộn trước đó
         let scrollTimeout; // Biến để lưu trữ timeout
@@ -552,10 +558,10 @@
             }
         }
 
-        // Xử lý sự kiện click cho nút mở
+        // Xử lý sự kiện click cho nút mở mục lục
         openOutlineBtn.addEventListener('click', toggleOutlineMenu);
 
-        // Xử lý sự kiện click cho nút đóng
+        // Xử lý sự kiện click cho nút đóng mục lục
         closeOutlineBtn.addEventListener('click', toggleOutlineMenu);
 
         // Xử lý sự kiện click vào overlay để đóng menu
@@ -566,6 +572,10 @@
             try {
                 const response = await fetch(filePath);
                 if (!response.ok) {
+                    // Check if it's a 404 error specifically
+                    if (response.status === 404) {
+                         throw new Error(`File not found: ${filePath}`);
+                    }
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const markdownText = await response.text();
@@ -600,9 +610,12 @@
             } catch (error) {
                 console.error('Không thể tải hoặc chuyển đổi tệp Markdown:', error);
                 markdownContentDiv.innerHTML = `
-                    <p style="color: red;">Không thể tải nội dung lỗi 414. Vui lòng thử lại sau.</p>
+                    <p style="color: red;">Không thể tải nội dung chương.</p>
                     <p>Chi tiết lỗi: ${error.message}</p>
                 `;
+                 // Disable buttons if data fails to load
+                 openFlashcardBtn.disabled = true;
+                 openOutlineBtn.disabled = true;
             }
         }
 
@@ -641,14 +654,54 @@
 
         // Khi tải trang xong
         document.addEventListener('DOMContentLoaded', () => {
-            loadMarkdownFile('eew-4-15.md');
+            // Get the chapter number from the URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const chapterNumber = urlParams.get('chapter');
+
+            if (chapterNumber) {
+                 // Construct the markdown file path based on the chapter number
+                 // Assuming the files are named eew-4-1.md, eew-4-2.md, ..., eew-4-30.md
+                 const markdownFilePath = `eew-4-${chapterNumber}.md`;
+                 loadMarkdownFile(markdownFilePath);
+
+                 // Update the page title based on the chapter number
+                 document.title = `Essential English Word 4 - Chapter ${chapterNumber}`;
+
+                 // Update the header title
+                 const headerTitle = document.querySelector('.header h1');
+                 if (headerTitle) {
+                     headerTitle.textContent = `Chapter ${chapterNumber}`;
+                 }
+
+                 // Update the Flashcard button link to point to the correct JSON file
+                 // Assuming JSON files are named 401-flashcard.json, 402-flashcard.json, etc.
+                 // Need to format chapterNumber to be 01, 02, ..., 30
+                 const formattedChapterNumber = String(chapterNumber).padStart(2, '0');
+                 const flashcardJsonFileName = `4${formattedChapterNumber}-flashcard.json`;
+                 openFlashcardBtn.addEventListener('click', () => {
+                     window.location.href = `flashcard.html?json=${flashcardJsonFileName}`;
+                 });
+
+
+            } else {
+                 console.error("No chapter specified in URL parameter.");
+                 markdownContentDiv.innerHTML = `
+                     <p style="color: red;">Lỗi: Không tìm thấy thông tin chương.</p>
+                     <p>Vui lòng quay lại trang chủ và chọn một chương.</p>
+                 `;
+                 // Disable buttons if no chapter is loaded
+                 openFlashcardBtn.disabled = true;
+                 openOutlineBtn.disabled = true;
+            }
+
             // Đảm bảo header hiển thị khi trang tải xong
             header.classList.remove('hide');
         });
     </script>
 
+    <!-- Video Container - You might want to update the video source based on the chapter -->
     <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=BIggg_DeioE&list=PLuvQK_JBZi5YeO3CSJa6EiNsmRCG2o26l&index=55" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=BIggg_DeioE&list=PLuvQK_JBZi5YeO3CSJa6EiNsmRCG2o26l&index=57" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </body>
 </html>
