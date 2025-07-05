@@ -117,6 +117,13 @@
              background-color: #28a745; /* Green when listening */
          }
 
+        #recognizedText {
+            margin-top: 15px;
+            font-size: 1.1em;
+            color: #555;
+            min-height: 1.5em; /* Reserve space to prevent layout shifts */
+        }
+
 
          .back-button {
             position: absolute;
@@ -190,6 +197,10 @@
         <button id="speechBtn" class="control-button">Nói đáp án</button>
     </div>
 
+    <div id="recognizedText" class="text-center">
+        <!-- Recognized text will appear here -->
+    </div>
+
     <script>
         let flashcardsData = [];
         let currentCardIndex = 0;
@@ -206,6 +217,7 @@
         // Speech Recognition variables
         let recognition = null;
         const speechBtn = document.getElementById('speechBtn');
+        const recognizedTextEl = document.getElementById('recognizedText'); // New element for recognized text
 
         // Lấy các phần tử DOM
         const flashcardElement = document.getElementById('flashcard');
@@ -254,6 +266,7 @@
                 nextBtn.disabled = true;
                 shuffleBtn.disabled = true;
                 speechBtn.disabled = true;
+                recognizedTextEl.textContent = ''; // Clear recognized text
                 return;
             }
 
@@ -269,7 +282,10 @@
                 isFlipped = false;
             }
 
-            // Stop any ongoing speech recognition and potentially restart
+            // Clear recognized text when a new card is displayed
+            recognizedTextEl.textContent = '';
+
+            // Stop any ongoing speech recognition
             stopSpeechRecognition();
             // Optionally start speech recognition automatically when a new card is shown
             // startSpeechRecognition(); // Uncomment if you want it to start automatically
@@ -305,6 +321,13 @@
             displayCard();
         }
 
+        // Helper function to clean text (remove punctuation and convert to lowercase)
+        function cleanText(text) {
+            // Remove common punctuation marks and convert to lowercase
+            // This regex keeps letters, numbers, and spaces. Adjust if needed.
+            return text.toLowerCase().replace(/[.,!?;:]/g, '').trim();
+        }
+
         // --- Speech Recognition Functions ---
 
         // Check for browser compatibility
@@ -321,15 +344,23 @@
             recognition.onstart = () => {
                 speechBtn.textContent = "Đang nghe...";
                 speechBtn.classList.add('listening');
+                recognizedTextEl.textContent = '...'; // Indicate listening
             };
 
             recognition.onresult = (event) => {
-                const transcript = event.results[0][0].transcript.trim().toLowerCase();
-                const correctAnswer = shuffledCards[currentCardIndex].answer.trim().toLowerCase();
-                console.log(`Nghe được: "${transcript}", Đáp án: "${correctAnswer}"`);
+                const transcript = event.results[0][0].transcript.trim(); // Get the recognized text
+                recognizedTextEl.textContent = `Bạn nói: "${transcript}"`; // Display the recognized text
 
-                if (transcript === correctAnswer) {
+                const correctAnswer = shuffledCards[currentCardIndex].answer.trim();
+                const cleanedRecognized = cleanText(transcript); // Clean recognized text
+                const cleanedAnswer = cleanText(correctAnswer); // Clean correct answer
+
+                console.log(`Nghe được (cleaned): "${cleanedRecognized}", Đáp án (cleaned): "${cleanedAnswer}"`);
+
+                // Compare cleaned versions
+                if (cleanedRecognized === cleanedAnswer) {
                     console.log("Đáp án đúng!");
+                    recognizedTextEl.textContent += " - Đúng!"; // Add feedback
                     if (!isFlipped) { // Only flip if not already flipped
                         flipCard();
                     }
@@ -337,7 +368,7 @@
                     // setTimeout(nextCard, 1500); // Move after 1.5 seconds
                 } else {
                     console.log("Đáp án sai.");
-                    // Provide feedback to the user?
+                    recognizedTextEl.textContent += " - Sai."; // Add feedback
                 }
             };
 
@@ -345,11 +376,14 @@
                 console.error('Speech recognition error:', event.error);
                  if (event.error === 'no-speech') {
                     console.log('Không nhận diện được giọng nói.');
-                    // You might want to inform the user or restart
+                    recognizedTextEl.textContent = 'Không nhận diện được giọng nói.';
                  } else if (event.error === 'not-allowed') {
                      console.error('Quyền truy cập microphone bị từ chối.');
+                     recognizedTextEl.textContent = 'Quyền truy cập microphone bị từ chối.';
                      speechBtn.disabled = true;
                      speechBtn.textContent = "Mic blocked";
+                 } else {
+                     recognizedTextEl.textContent = `Lỗi nhận diện giọng nói: ${event.error}`;
                  }
                 speechBtn.textContent = "Nói đáp án";
                 speechBtn.classList.remove('listening');
@@ -357,6 +391,7 @@
 
             recognition.onend = () => {
                 console.log('Speech recognition ended.');
+                // recognizedTextEl.textContent = ''; // Clear text when ended, or keep the last result?
                 speechBtn.textContent = "Nói đáp án";
                 speechBtn.classList.remove('listening');
             };
@@ -365,6 +400,7 @@
             function startSpeechRecognition() {
                  if (recognition && !speechBtn.classList.contains('listening')) {
                      try {
+                         recognizedTextEl.textContent = ''; // Clear previous text before starting
                          recognition.start();
                      } catch (e) {
                          console.error("Error starting speech recognition:", e);
@@ -448,9 +484,25 @@
 
         // Khởi tạo ứng dụng khi tải trang
         document.addEventListener('DOMContentLoaded', () => {
-            // Tải dữ liệu từ file JSON tương ứng (ví dụ: 417-flashcard.json)
-            // Đường dẫn này cần được điều chỉnh tùy thuộc vào cấu trúc thư mục của bạn
-            loadFlashcardsData('./417-flashcard.json'); // Assuming JSON is in the same directory or relative path
+            // Get the JSON file name from the URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const jsonFileName = urlParams.get('json');
+
+            if (jsonFileName) {
+                 // Construct the path to the JSON file
+                 // Assuming the JSON files are in the same directory as flashcard.html
+                 const jsonFilePath = `./${jsonFileName}`;
+                 loadFlashcardsData(jsonFilePath);
+            } else {
+                 console.error("No JSON file specified in URL parameter.");
+                 flashcardFront.textContent = 'Lỗi: Không tìm thấy dữ liệu flashcard.';
+                 // Disable controls
+                 prevBtn.disabled = true;
+                 flipBtn.disabled = true;
+                 nextBtn.disabled = true;
+                 shuffleBtn.disabled = true;
+                 speechBtn.disabled = true;
+            }
         });
     </script>
 </body>
