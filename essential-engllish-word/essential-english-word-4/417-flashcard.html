@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng Dụng Flashcard</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .flashcard-container {
+            width: 100%;
+            max-width: 500px;
+            perspective: 1000px; /* For 3D flip effect */
+        }
+        .flashcard {
+            width: 100%;
+            height: 300px; /* Fixed height for flashcard */
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            border-radius: 1rem; /* Rounded corners */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 1rem;
+            background-color: #ffffff;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .flashcard-front {
+            background-color: #e0f7fa; /* Light blue for front */
+            color: #263238;
+        }
+        .flashcard-back {
+            background-color: #ffe0b2; /* Light orange for back */
+            color: #3e2723;
+            transform: rotateY(180deg);
+        }
+        .flashcard-front h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .flashcard-back h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .flashcard-back p {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        .flashcard-back .example {
+            font-style: italic;
+            color: #546e7a;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        .controls {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        .control-button {
+            background-color: #4a90e2;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 0.75rem;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .control-button:hover {
+            background-color: #357ABD;
+            transform: translateY(-2px);
+        }
+        .control-button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .control-button i {
+            margin-right: 8px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 640px) {
+            .flashcard {
+                height: 250px; /* Slightly smaller height on mobile */
+            }
+            .flashcard-front h2 {
+                font-size: 2rem;
+            }
+            .flashcard-back h2 {
+                font-size: 1.5rem;
+            }
+            .flashcard-back p {
+                font-size: 1rem;
+            }
+            .flashcard-back .example {
+                font-size: 0.9rem;
+            }
+            .control-button {
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+            .control-button i {
+                margin-right: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flex flex-col items-center p-4 w-full">
+        <h1 class="text-3xl font-extrabold text-gray-800 mb-8">Flashcard Học Từ Vựng</h1>
+
+        <div class="flashcard-container mb-8">
+            <div id="flashcard" class="flashcard">
+                <div class="flashcard-face flashcard-front" id="flashcard-front">
+                    <h2 class="text-gray-900">Nghĩa tiếng Việt</h2>
+                </div>
+                <div class="flashcard-face flashcard-back" id="flashcard-back">
+                    <h2 class="text-gray-900">Từ vựng</h2>
+                    <p class="text-gray-700 pronunciation"></p>
+                    <p class="text-gray-700 example"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prevBtn" class="control-button">
+                <i class="fas fa-arrow-left"></i> Trước
+            </button>
+            <button id="shuffleBtn" class="control-button bg-purple-600 hover:bg-purple-700">
+                <i class="fas fa-random"></i> Trộn
+            </button>
+            <button id="nextBtn" class="control-button">
+                Sau <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const flashcardsData = [
+            {
+                vietnamese: "Hoàn toàn, tổng cộng.",
+                vocabulary: "altogether",
+                pronunciation: "/ˌɔːltəˈɡeðər/",
+                example: "She altogether forgets about the time when she is reading."
+            },
+            {
+                vietnamese: "Buộc, ràng buộc, gắn kết.",
+                vocabulary: "bind",
+                pronunciation: "/baɪnd/",
+                example: "The rules bind us to the agreement."
+            },
+            {
+                vietnamese: "Vết bầm tím (trên da), vết thâm (trên trái cây).",
+                vocabulary: "bruise",
+                pronunciation: "/bruːz/",
+                example: "She has a nasty bruise on her arm from the fall."
+            },
+            {
+                vietnamese: "Phong tục, tập quán, thói quen.",
+                vocabulary: "custom",
+                pronunciation: "/ˈkʌstəm/",
+                example: "It is the custom to exchange gifts during the holidays."
+            },
+            {
+                vietnamese: "Không vâng lời, bất tuân.",
+                vocabulary: "disobedient",
+                pronunciation: "/ˌdɪsəˈbiːdiənt/",
+                example: "The child is often disobedient."
+            },
+            {
+                vietnamese: "Dự đoán, thấy trước.",
+                vocabulary: "foresee",
+                pronunciation: "/fɔːrˈsiː/",
+                example: "She can foresee potential problems."
+            },
+            {
+                vietnamese: "Nhìn thoáng qua, thoáng thấy.",
+                vocabulary: "glimpse",
+                pronunciation: "/ɡlɪmps/",
+                example: "I often glimpse deer in the woods."
+            },
+            {
+                vietnamese: "Vành, vòng (đặc biệt là trong bóng rổ hoặc thể dục nhịp điệu).",
+                vocabulary: "hoop",
+                pronunciation: "/huːp/",
+                example: "He shoots the ball through the hoop."
+            },
+            {
+                vietnamese: "Sự không may, vận rủi, tai họa.",
+                vocabulary: "misfortune",
+                pronunciation: "/ˌmɪsˈfɔːrtʃuːn/",
+                example: "Misfortune often strikes when you least expect it."
+            },
+            {
+                vietnamese: "Tiêu cực, phủ định, âm tính.",
+                vocabulary: "negative",
+                pronunciation: "/ˈneɡətɪv/",
+                example: "He always has a negative attitude."
+            },
+            {
+                vietnamese: "Mỗi, trên mỗi.",
+                vocabulary: "per",
+                pronunciation: "/pɜːr/",
+                example: "The cost is ten dollars per person."
+            },
+            {
+                vietnamese: "Cầu xin, van nài, biện hộ (trước tòa).",
+                vocabulary: "plead",
+                pronunciation: "/pliːd/",
+                example: "She pleads with him to stay."
+            },
+            {
+                vietnamese: "Xé, làm rách, rạch.",
+                vocabulary: "rip",
+                pronunciation: "/rɪp/",
+                example: "I accidentally ripped the paper."
+            },
+            {
+                vietnamese: "Vì lợi ích của, vì mục đích. (Thường dùng trong cụm 'for the sake of').",
+                vocabulary: "sake",
+                pronunciation: "/seɪk/",
+                example: "We do it for the sake of peace."
+            },
+            {
+                vietnamese: "Cạo, nạo, làm trầy xước.",
+                vocabulary: "scrape",
+                pronunciation: "/skreɪp/",
+                example: "I scraped my elbow when I fell."
+            },
+            {
+                vietnamese: "Nguồn, nguồn gốc.",
+                vocabulary: "source",
+                pronunciation: "/sɔːrs/",
+                example: "The sun is the primary source of energy."
+            },
+            {
+                vietnamese: "Nghiêm khắc, cứng rắn, nghiêm nghị.",
+                vocabulary: "stern",
+                pronunciation: "/stɜːrn/",
+                example: "The teacher has a stern look."
+            },
+            {
+                vietnamese: "Khâu, may, khâu vết thương.",
+                vocabulary: "stitch",
+                pronunciation: "/stɪtʃ/",
+                example: "She stitches the fabric by hand."
+            },
+            {
+                vietnamese: "Tiếng va đập mạnh, tiếng đập (tim).",
+                vocabulary: "thump",
+                pronunciation: "/θʌmp/",
+                example: "The heavy book lands with a thump."
+            },
+            {
+                vietnamese: "Mãnh liệt, kịch liệt, dữ dội (thường chỉ cảm xúc hoặc cách thể hiện).",
+                vocabulary: "vehement",
+                pronunciation: "/ˈviːəmənt/",
+                example: "She is vehement in her opposition."
+            }
+        ];
+
+        let currentCardIndex = 0;
+        let isFlipped = false;
+        let shuffledCards = [...flashcardsData]; // Create a copy for shuffling
+
+        const flashcardElement = document.getElementById('flashcard');
+        const flashcardFront = document.getElementById('flashcard-front');
+        const flashcardBack = document.getElementById('flashcard-back');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const shuffleBtn = document.getElementById('shuffleBtn');
+
+        // Function to display the current flashcard
+        function displayCard() {
+            const card = shuffledCards[currentCardIndex];
+            flashcardFront.querySelector('h2').textContent = card.vietnamese;
+            flashcardBack.querySelector('h2').textContent = card.vocabulary;
+            flashcardBack.querySelector('.pronunciation').textContent = card.pronunciation;
+            flashcardBack.querySelector('.example').textContent = `Ví dụ: ${card.example}`;
+
+            // Ensure card is always on the front side when a new card is displayed
+            if (isFlipped) {
+                flashcardElement.classList.remove('flipped');
+                isFlipped = false;
+            }
+        }
+
+        // Function to flip the flashcard
+        function flipCard() {
+            flashcardElement.classList.toggle('flipped');
+            isFlipped = !isFlipped;
+        }
+
+        // Function to go to the next card
+        function nextCard() {
+            currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
+            displayCard();
+        }
+
+        // Function to go to the previous card
+        function prevCard() {
+            currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
+            displayCard();
+        }
+
+        // Fisher-Yates (Knuth) shuffle algorithm
+        function shuffleArray(array) {
+            let currentIndex = array.length, randomIndex;
+            // While there remain elements to shuffle.
+            while (currentIndex !== 0) {
+                // Pick a remaining element.
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+                // And swap it with the current element.
+                [array[currentIndex], array[randomIndex]] = [
+                    array[randomIndex], array[currentIndex]];
+            }
+            return array;
+        }
+
+        // Event listeners for buttons
+        flashcardElement.addEventListener('click', flipCard);
+        prevBtn.addEventListener('click', prevCard);
+        nextBtn.addEventListener('click', nextCard);
+        shuffleBtn.addEventListener('click', () => {
+            shuffledCards = shuffleArray([...flashcardsData]); // Shuffle a fresh copy
+            currentCardIndex = 0; // Reset to the first card after shuffling
+            displayCard();
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowRight') {
+                nextCard();
+            } else if (event.key === 'ArrowLeft') {
+                prevCard();
+            } else if (event.key === ' ') { // Spacebar
+                event.preventDefault(); // Prevent scrolling
+                flipCard();
+            }
+        });
+
+        // Touch swipe functionality
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        flashcardElement.addEventListener('touchstart', (event) => {
+            touchStartX = event.changedTouches[0].screenX;
+        });
+
+        flashcardElement.addEventListener('touchend', (event) => {
+            touchEndX = event.changedTouches[0].screenX;
+            handleGesture();
+        });
+
+        function handleGesture() {
+            const swipeThreshold = 50; // Minimum distance for a swipe
+
+            if (touchEndX < touchStartX - swipeThreshold) {
+                // Swiped left (next card)
+                nextCard();
+            } else if (touchEndX > touchStartX + swipeThreshold) {
+                // Swiped right (previous card)
+                prevCard();
+            }
+            // If not a swipe, it's a tap, so flip the card (already handled by click listener)
+        }
+
+        // Initial display of the first card
+        displayCard();
+    </script>
+</body>
+</html>

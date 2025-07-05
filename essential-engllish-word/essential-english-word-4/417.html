@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>417</title>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
+    <style>
+        /* GitHub Markdown CSS - Base Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f6f8fa;
+            color: #24292e;
+        }
+
+        .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* Tỷ lệ khung hình 16:9 (thường dùng cho YouTube) */
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 16px; /* Khoảng cách bên dưới video */
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .header {
+            background-color: #24292e;
+            color: #f6f8fa;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky; /* Giữ sticky để nó ở trên cùng ban đầu */
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            /* Thêm transition cho hiệu ứng ẩn/hiện mượt mà */
+            transition: transform 0.3s ease-in-out;
+            width: 100%; /* Đảm bảo header chiếm toàn bộ chiều rộng */
+            box-sizing: border-box; /* Bao gồm padding và border trong width */
+        }
+
+        /* CSS để ẩn header */
+        .header.hide {
+            transform: translateY(-100%); /* Di chuyển header lên trên để ẩn */
+        }
+
+
+        /* Vùng chứa tiêu đề và nút back */
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px; /* Khoảng cách giữa nút back và tiêu đề */
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+        /* Nút Back */
+        .back-button {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 5px 10px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+            display: flex; /* Để căn giữa nội dung */
+            align-items: center;
+            font-weight: 600;
+        }
+        .back-button:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .back-button .arrow {
+            margin-right: 5px;
+            font-size: 1.5em; /* Kích thước mũi tên */
+            line-height: 1;
+        }
+
+
+        .menu-button {
+            background-color: #2ea44f;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .menu-button:hover {
+            background-color: #2c974b;
+        }
+
+        .wrapper {
+            display: flex;
+            margin: 20px auto;
+            max-width: 1280px;
+            gap: 30px;
+            padding: 0 30px;
+            /* Thêm padding-top để nội dung không bị che bởi header */
+            padding-top: 70px; /* Điều chỉnh giá trị này nếu chiều cao header thay đổi */
+        }
+
+        .markdown-body {
+            flex: 3;
+            background: #fff;
+            padding: 45px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(27, 31, 35, 0.1);
+            border: 1px solid #e1e4e8;
+        }
+
+        /* --- GitHub Markdown Styles (Core) --- */
+        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            line-height: 1.25;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #eaecef;
+            color: #24292e;
+        }
+        .markdown-body h1 { font-size: 2em; }
+        .markdown-body h2 { font-size: 1.5em; }
+        .markdown-body h3 { font-size: 1.25em; }
+        .markdown-body h4 { font-size: 1em; }
+        .markdown-body h5 { font-size: 0.875em; }
+        .markdown-body h6 { font-size: 0.85em; color: #6a737d; }
+
+        .markdown-body p {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .markdown-body ul, .markdown-body ol {
+            padding-left: 2em;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .markdown-body li + li {
+            margin-top: 0.25em;
+        }
+
+        .markdown-body blockquote {
+            padding: 0 1em;
+            color: #6a737d;
+            border-left: 0.25em solid #dfe2e5;
+            margin: 0 0 16px;
+        }
+
+        .markdown-body code {
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            background-color: rgba(27,31,35,0.05);
+            border-radius: 3px;
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+        }
+
+        .markdown-body pre {
+            word-wrap: normal;
+            margin-bottom: 16px;
+        }
+
+        .markdown-body pre > code {
+            padding: 16px;
+            overflow: auto;
+            line-height: 1.45;
+            background-color: #f6f8fa;
+            border-radius: 6px;
+            font-size: 0.85em;
+            display: block;
+            color: #24292e;
+        }
+
+        .markdown-body a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .markdown-body a:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-body table {
+            display: block;
+            width: 100%;
+            overflow: auto;
+            margin-bottom: 16px;
+            border-collapse: collapse;
+        }
+        .markdown-body table th {
+            font-weight: 600;
+            background-color: #f6f8fa;
+        }
+        .markdown-body table th, .markdown-body table td {
+            padding: 6px 13px;
+            border: 1px solid #dfe2e5;
+        }
+        .markdown-body table tr {
+            background-color: #fff;
+            border-top: 1px solid #c6cbd1;
+        }
+        .markdown-body table tr:nth-child(2n) {
+            background-color: #f6f8fa;
+        }
+
+        .markdown-body hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: #e1e4e8;
+            border: 0;
+        }
+
+        /* Hình ảnh tự động điều chỉnh kích thước */
+        .markdown-body img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* --- End GitHub Markdown Styles (Core) --- */
+
+        /* Outline Menu Styles */
+        .outline-menu {
+            position: fixed;
+            top: 0;
+            right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+            width: 75%; /* Chiều rộng 3/4 màn hình */
+            height: 100vh; /* Chiều cao đầy đủ màn hình */
+            margin-top: 0; /* Bỏ margin-top */
+            background: #fff;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+            transition: right 0.3s ease-in-out;
+            z-index: 1100;
+            overflow-y: auto;
+            border-left: 1px solid #e1e4e8;
+            border-bottom-left-radius: 6px;
+        }
+        .outline-menu.open {
+            right: 0;
+        }
+        .outline-menu h3 {
+            margin-top: 0;
+            padding: 20px;
+            color: #24292e;
+            border-bottom: 1px solid #eaecef;
+            font-size: 1.25em;
+            font-weight: 600;
+        }
+        .outline-menu ul {
+            list-style: none;
+            padding: 0 20px;
+            margin: 0;
+        }
+        .outline-menu ul li {
+            margin-bottom: 8px;
+        }
+        .outline-menu ul li a {
+            text-decoration: none;
+            color: #0366d6;
+            display: block;
+            padding: 4px 0;
+            font-size: 0.9em;
+        }
+        .outline-menu ul li a:hover {
+            text-decoration: underline;
+            color: #0366d6;
+        }
+        .outline-menu ul li.level-1 { /* H1 thường không thụt lề */ }
+        .outline-menu ul li.level-2 { margin-left: 15px; }
+        .outline-menu ul li.level-3 { margin-left: 30px; }
+        .outline-menu ul li.level-4 { margin-left: 45px; }
+        .outline-menu ul li.level-5 { margin-left: 60px; }
+        .outline-menu ul li.level-6 { margin-left: 75px; }
+
+        .close-button {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #586069;
+            font-weight: bold;
+        }
+
+        /* Overlay when menu is open */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1050;
+            display: none;
+        }
+        .overlay.active {
+            display: block;
+        }
+
+        /* Responsive Design for iPhone & Mobile Devices */
+
+        /* Tablets and smaller laptops (e.g., max-width 1024px) */
+        @media (max-width: 1024px) {
+            .wrapper {
+                margin: 15px auto;
+                padding: 0 20px;
+                gap: 20px;
+                padding-top: 70px; /* Điều chỉnh padding-top cho responsive */
+            }
+            .markdown-body {
+                padding: 30px;
+            }
+            .header h1 {
+                font-size: 1.4em;
+            }
+            .menu-button {
+                padding: 7px 12px;
+                font-size: 0.85em;
+            }
+            .outline-menu {
+                width: 75%; /* Chiều rộng 3/4 màn hình */
+                right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+                height: 100vh; /* Chiều cao đầy đủ màn hình */
+                margin-top: 0; /* Bỏ margin-top */
+            }
+            .outline-menu.open {
+                right: 0;
+            }
+            .back-button {
+                font-size: 1.1em; /* Nhỏ hơn một chút trên tablet */
+                padding: 4px 8px;
+            }
+            .back-button .arrow {
+                font-size: 1.3em;
+            }
+        }
+
+        /* General Mobile Phones (e.g., max-width 768px - covers most iPhones in portrait) */
+        @media (max-width: 768px) {
+            .wrapper {
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                padding-top: 60px; /* Điều chỉnh padding-top cho responsive */
+            }
+            .markdown-body {
+                padding: 20px;
+                border-radius: 0;
+                box-shadow: none;
+                border: none;
+                min-height: calc(100vh - 60px);
+            }
+            body {
+                font-size: 0.95em;
+            }
+            .header {
+                padding: 10px 15px;
+            }
+            .header h1 {
+                font-size: 1.1em;
+            }
+            .menu-button {
+                padding: 6px 10px;
+                font-size: 0.8em;
+            }
+            .markdown-body h1 { font-size: 1.8em; }
+            .markdown-body h2 { font-size: 1.4em; }
+            .markdown-body h3 { font-size: 1.1em; }
+
+            .markdown-body pre > code {
+                padding: 10px;
+            }
+            .outline-menu {
+                width: 75%; /* Chiều rộng 3/4 màn hình */
+                right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+                padding-top: 0; /* Bỏ padding-top */
+                height: 100vh; /* Chiều cao đầy đủ màn hình */
+                margin-top: 0; /* Bỏ margin-top */
+                border-bottom-left-radius: 0;
+            }
+            .outline-menu.open {
+                right: 0;
+            }
+            .close-button {
+                top: 10px;
+                right: 15px;
+            }
+            .outline-menu h3 {
+                padding: 15px;
+            }
+            .outline-menu ul {
+                padding: 0 15px;
+            }
+            .outline-menu ul li.level-2 { margin-left: 10px; }
+            .outline-menu ul li.level-3 { margin-left: 20px; }
+            .outline-menu ul li.level-4 { margin-left: 30px; }
+            .outline-menu ul li.level-5 { margin-left: 40px; }
+            .outline-menu ul li.level-6 { margin-left: 50px; }
+
+            /* Nút Back trên điện thoại */
+            .back-button {
+                font-size: 1em; /* Kích thước nhỏ hơn nữa trên điện thoại */
+                padding: 3px 6px;
+            }
+            .back-button .arrow {
+                font-size: 1.2em;
+            }
+        }
+
+        /* Landscape orientation for smaller phones (e.g., iPhone SE/6/7/8 Plus landscape) */
+        @media (max-width: 823px) and (min-width: 667px) and (orientation: landscape) {
+            .wrapper {
+                flex-direction: row;
+                padding: 0 30px;
+                padding-top: 70px; /* Điều chỉnh padding-top cho responsive */
+            }
+            .markdown-body {
+                padding: 30px;
+                border-radius: 6px;
+                box-shadow: 0 1px 3px rgba(27, 31, 35, 0.1);
+                border: 1px solid #e1e4e8;
+            }
+            .outline-menu {
+                width: 75%; /* Chiều rộng 3/4 màn hình */
+                right: -75%; /* Ẩn menu bằng cách di chuyển sang phải 75% */
+                height: 100vh; /* Chiều cao đầy đủ màn hình */
+                margin-top: 0; /* Bỏ margin-top */
+                border-bottom-left-radius: 6px;
+            }
+            .outline-menu.open {
+                right: 0;
+            }
+            .header h1 {
+                font-size: 1.3em;
+            }
+            /* Đảm bảo nút back vẫn hiển thị tốt trong landscape */
+            .back-button {
+                font-size: 1.1em;
+                padding: 4px 8px;
+            }
+            .back-button .arrow {
+                font-size: 1.3em;
+            }
+        }
+
+        /* Specific for iPhone SE, iPhone 6/7/8, X/XS/XR/11/12/13/14/15 in portrait (max-width 414px / 390px / 375px) */
+        @media (max-width: 414px) {
+            .markdown-body {
+                padding: 15px;
+            }
+            .markdown-body h1 { font-size: 1.6em; }
+            .markdown-body h2 { font-size: 1.3em; }
+            .markdown-body h3 { font-size: 1em; }
+            .markdown-body p, .markdown-body ul, .markdown-body ol {
+                font-size: 0.9em;
+            }
+            .markdown-body code {
+                font-size: 80%;
+            }
+            .markdown-body pre > code {
+                font-size: 0.8em;
+            }
+            .outline-menu ul li a {
+                font-size: 0.85em;
+            }
+        }
+
+        /* CSS để ngăn cuộn body khi menu mở */
+        body.no-scroll {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <a href="index.html" class="back-button">
+                <span class="arrow">&larr;</span> Quay lại
+            </a>
+        </div>
+        <button id="open-outline-btn" class="menu-button">Mục lục</button>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="outline-menu" id="markdown-outline-menu">
+        <button class="close-button" id="close-outline-btn">&times;</button>
+        <h3>Mục lục</h3>
+        <ul id="outline-list">
+            </ul>
+    </div>
+
+    <div class="wrapper">
+        <div class="markdown-body" id="markdown-content">Đang tải nội dung...</div>
+    </div>
+
+    <script>
+        const md = window.markdownit();
+
+        // Hàm để tạo ID thân thiện từ văn bản
+        function slugify(text) {
+            return text.toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .toLowerCase()
+                .trim()
+                .replace(/\s+/g, '-')
+                .replace(/[^\w-]+/g, '')
+                .replace(/--+/g, '-');
+        }
+
+        // Các phần tử DOM cần thao tác
+        const openOutlineBtn = document.getElementById('open-outline-btn');
+        const closeOutlineBtn = document.getElementById('close-outline-btn');
+        const outlineMenu = document.getElementById('markdown-outline-menu');
+        const overlay = document.getElementById('overlay');
+        const markdownContentDiv = document.getElementById('markdown-content');
+        const outlineList = document.getElementById('outline-list');
+        const header = document.querySelector('.header'); // Lấy tham chiếu đến header
+
+        let lastScrollY = 0; // Khởi tạo biến theo dõi vị trí cuộn trước đó
+        let scrollTimeout; // Biến để lưu trữ timeout
+
+        // Hàm mở/đóng menu
+        function toggleOutlineMenu() {
+            outlineMenu.classList.toggle('open');
+            overlay.classList.toggle('active');
+            document.body.classList.toggle('no-scroll');
+            // Khi mở/đóng menu, đảm bảo header hiển thị
+            if (outlineMenu.classList.contains('open')) {
+                 header.classList.remove('hide');
+            } else {
+                 // Sau khi đóng menu, kiểm tra lại vị trí cuộn để ẩn nếu cần
+                 checkScrollDirection();
+            }
+        }
+
+        // Xử lý sự kiện click cho nút mở
+        openOutlineBtn.addEventListener('click', toggleOutlineMenu);
+
+        // Xử lý sự kiện click cho nút đóng
+        closeOutlineBtn.addEventListener('click', toggleOutlineMenu);
+
+        // Xử lý sự kiện click vào overlay để đóng menu
+        overlay.addEventListener('click', toggleOutlineMenu);
+
+        // Hàm để tải và hiển thị nội dung Markdown, sau đó tạo outline
+        async function loadMarkdownFile(filePath) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const markdownText = await response.text();
+                const renderedHtml = md.render(markdownText);
+                markdownContentDiv.innerHTML = renderedHtml;
+
+                // --- Bắt đầu tạo Outline ---
+                const headings = markdownContentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6');
+                outlineList.innerHTML = ''; // Xóa outline cũ nếu có
+
+                headings.forEach(heading => {
+                    const level = parseInt(heading.tagName.substring(1));
+                    const text = heading.textContent;
+                    const id = slugify(text);
+
+                    heading.id = id; // Gán ID cho tiêu đề trong nội dung
+
+                    const listItem = document.createElement('li');
+                    listItem.classList.add(`level-${level}`);
+
+                    const anchor = document.createElement('a');
+                    anchor.href = `#${id}`;
+                    anchor.textContent = text;
+                    anchor.addEventListener('click', (event) => {
+                        toggleOutlineMenu(); // Đóng menu khi nhấp vào một mục trong outline
+                    });
+
+                    listItem.appendChild(anchor);
+                    outlineList.appendChild(listItem);
+                });
+
+            } catch (error) {
+                console.error('Không thể tải hoặc chuyển đổi tệp Markdown:', error);
+                markdownContentDiv.innerHTML = `
+                    <p style="color: red;">Không thể tải nội dung lỗi 414. Vui lòng thử lại sau.</p>
+                    <p>Chi tiết lỗi: ${error.message}</p>
+                `;
+            }
+        }
+
+        // Hàm kiểm tra hướng cuộn và ẩn/hiện header
+        function checkScrollDirection() {
+             // Không ẩn header nếu menu đang mở
+            if (outlineMenu.classList.contains('open')) {
+                lastScrollY = window.scrollY;
+                return;
+            }
+
+            if (window.scrollY > lastScrollY && window.scrollY > header.offsetHeight) {
+                // Cuộn xuống và đã vượt qua chiều cao của header
+                header.classList.add('hide');
+            } else if (window.scrollY < lastScrollY) {
+                // Cuộn lên
+                header.classList.remove('hide');
+            }
+            lastScrollY = window.scrollY;
+        }
+
+        // Xử lý sự kiện cuộn
+        window.addEventListener('scroll', () => {
+            // Xóa timeout trước đó nếu có
+            clearTimeout(scrollTimeout);
+
+            // Luôn hiển thị header khi bắt đầu cuộn
+            header.classList.remove('hide');
+
+            // Đặt timeout để kiểm tra hướng cuộn sau khi dừng cuộn
+            scrollTimeout = setTimeout(() => {
+                checkScrollDirection();
+            }, 100); // Thời gian chờ sau khi dừng cuộn (ms)
+        });
+
+
+        // Khi tải trang xong
+        document.addEventListener('DOMContentLoaded', () => {
+            loadMarkdownFile('eew-4-17.md');
+            // Đảm bảo header hiển thị khi trang tải xong
+            header.classList.remove('hide');
+        });
+    </script>
+
+    <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=BIggg_DeioE&list=PLuvQK_JBZi5YeO3CSJa6EiNsmRCG2o26l&index=57" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
