@@ -41,11 +41,14 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: center;
+            word-break: break-word; /* Prevent long words from overflowing */
         }
 
         .flashcard-front {
             background-color: #fff;
             color: #333;
+            font-size: 1.5em;
+            font-weight: bold;
         }
 
         .flashcard-back {
@@ -106,6 +109,15 @@
             color: white;
         }
 
+        #speechBtn {
+            background-color: #dc3545; /* Red */
+            color: white;
+        }
+         #speechBtn.listening {
+             background-color: #28a745; /* Green when listening */
+         }
+
+
          .back-button {
             position: absolute;
             top: 10px;
@@ -121,6 +133,35 @@
          .back-button:hover {
              background-color: rgba(255, 255, 255, 1);
          }
+
+         /* Responsive adjustments */
+        @media (max-width: 400px) {
+            .flashcard-container {
+                width: 95%; /* Adjust width for smaller screens */
+                height: 400px; /* Adjust height */
+            }
+            .flashcard-front {
+                font-size: 1.3em;
+            }
+            .flashcard-back .word {
+                font-size: 1.6em;
+            }
+            .flashcard-back .phonetic {
+                font-size: 1em;
+            }
+            .flashcard-back .example {
+                font-size: 0.9em;
+            }
+            .controls {
+                gap: 10px;
+                flex-wrap: wrap; /* Allow buttons to wrap */
+                justify-content: space-around;
+            }
+            .control-button {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4 font-sans">
@@ -146,6 +187,7 @@
         <button id="flipBtn" class="control-button">Lật</button>
         <button id="nextBtn" class="control-button">Tiếp</button>
         <button id="shuffleBtn" class="control-button">Trộn thẻ</button>
+        <button id="speechBtn" class="control-button">Nói đáp án</button>
     </div>
 
     <script>
@@ -153,6 +195,17 @@
         let currentCardIndex = 0;
         let isFlipped = false;
         let shuffledCards = [];
+
+        // Touch variables for swipe/tap
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let touchStartTime = 0;
+        const minSwipeDistance = 50; // Minimum swipe distance in pixels
+        const tapThreshold = 200; // Maximum time for a tap in milliseconds
+
+        // Speech Recognition variables
+        let recognition = null;
+        const speechBtn = document.getElementById('speechBtn');
 
         // Lấy các phần tử DOM
         const flashcardElement = document.getElementById('flashcard');
@@ -165,6 +218,7 @@
         const flipBtn = document.getElementById('flipBtn');
         const nextBtn = document.getElementById('nextBtn');
         const shuffleBtn = document.getElementById('shuffleBtn');
+
 
         // Hàm tải dữ liệu từ JSON
         async function loadFlashcardsData(filePath) {
@@ -180,6 +234,12 @@
             } catch (error) {
                 console.error('Không thể tải dữ liệu flashcard:', error);
                 flashcardFront.textContent = 'Lỗi tải dữ liệu.';
+                // Disable controls if data fails to load
+                prevBtn.disabled = true;
+                flipBtn.disabled = true;
+                nextBtn.disabled = true;
+                shuffleBtn.disabled = true;
+                speechBtn.disabled = true;
             }
         }
 
@@ -188,6 +248,12 @@
             if (shuffledCards.length === 0) {
                 flashcardFront.textContent = 'Không có thẻ nào để hiển thị.';
                 flashcardBack.innerHTML = '';
+                // Disable controls
+                prevBtn.disabled = true;
+                flipBtn.disabled = true;
+                nextBtn.disabled = true;
+                shuffleBtn.disabled = true;
+                speechBtn.disabled = true;
                 return;
             }
 
@@ -202,12 +268,19 @@
                 flashcardElement.classList.remove('flipped');
                 isFlipped = false;
             }
+
+            // Stop any ongoing speech recognition and potentially restart
+            stopSpeechRecognition();
+            // Optionally start speech recognition automatically when a new card is shown
+            // startSpeechRecognition(); // Uncomment if you want it to start automatically
         }
 
         // Hàm lật thẻ
         function flipCard() {
             flashcardElement.classList.toggle('flipped');
             isFlipped = !isFlipped;
+            // Stop speech recognition when flipping manually
+            stopSpeechRecognition();
         }
 
         // Hàm chuyển đến thẻ tiếp theo
@@ -232,7 +305,95 @@
             displayCard();
         }
 
-        // Gắn sự kiện cho các nút
+        // --- Speech Recognition Functions ---
+
+        // Check for browser compatibility
+        if (!('webkitSpeechRecognition' in window)) {
+            console.warn("Speech Recognition not supported in this browser.");
+            speechBtn.disabled = true;
+            speechBtn.textContent = "SR not supported";
+        } else {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false; // Listen for a single phrase
+            recognition.interimResults = false; // Only return final results
+            recognition.lang = 'en-US'; // Set language to English (US)
+
+            recognition.onstart = () => {
+                speechBtn.textContent = "Đang nghe...";
+                speechBtn.classList.add('listening');
+            };
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript.trim().toLowerCase();
+                const correctAnswer = shuffledCards[currentCardIndex].answer.trim().toLowerCase();
+                console.log(`Nghe được: "${transcript}", Đáp án: "${correctAnswer}"`);
+
+                if (transcript === correctAnswer) {
+                    console.log("Đáp án đúng!");
+                    if (!isFlipped) { // Only flip if not already flipped
+                        flipCard();
+                    }
+                    // Optionally move to the next card after a correct answer
+                    // setTimeout(nextCard, 1500); // Move after 1.5 seconds
+                } else {
+                    console.log("Đáp án sai.");
+                    // Provide feedback to the user?
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error:', event.error);
+                 if (event.error === 'no-speech') {
+                    console.log('Không nhận diện được giọng nói.');
+                    // You might want to inform the user or restart
+                 } else if (event.error === 'not-allowed') {
+                     console.error('Quyền truy cập microphone bị từ chối.');
+                     speechBtn.disabled = true;
+                     speechBtn.textContent = "Mic blocked";
+                 }
+                speechBtn.textContent = "Nói đáp án";
+                speechBtn.classList.remove('listening');
+            };
+
+            recognition.onend = () => {
+                console.log('Speech recognition ended.');
+                speechBtn.textContent = "Nói đáp án";
+                speechBtn.classList.remove('listening');
+            };
+
+            // Function to start recognition
+            function startSpeechRecognition() {
+                 if (recognition && !speechBtn.classList.contains('listening')) {
+                     try {
+                         recognition.start();
+                     } catch (e) {
+                         console.error("Error starting speech recognition:", e);
+                         // Handle cases where start is called while already listening
+                     }
+                 }
+            }
+
+            // Function to stop recognition
+            function stopSpeechRecognition() {
+                 if (recognition && speechBtn.classList.contains('listening')) {
+                     recognition.stop();
+                 }
+            }
+
+            // Event listener for the speech button
+            speechBtn.addEventListener('click', () => {
+                if (speechBtn.classList.contains('listening')) {
+                    stopSpeechRecognition();
+                } else {
+                    startSpeechRecognition();
+                }
+            });
+        }
+
+
+        // --- Event Listeners ---
+
+        // Gắn sự kiện cho các nút điều khiển
         flipBtn.addEventListener('click', flipCard);
         nextBtn.addEventListener('click', nextCard);
         prevBtn.addEventListener('click', prevCard);
@@ -250,13 +411,7 @@
             }
         });
 
-        // Xử lý sự kiện vuốt và chạm trên điện thoại
-        let touchStartX = 0;
-        let touchEndX = 0;
-        let touchStartTime = 0; // Track touch start time for tap detection
-        const minSwipeDistance = 50; // Khoảng cách vuốt tối thiểu để kích hoạt
-        const tapThreshold = 200; // Thời gian tối đa cho một lần chạm (ms)
-
+        // Xử lý sự kiện vuốt và chạm trên điện thoại (trên flashcard element)
         flashcardElement.addEventListener('touchstart', (e) => {
             touchStartX = e.touches[0].clientX;
             touchStartTime = new Date().getTime(); // Ghi lại thời gian bắt đầu chạm
@@ -272,15 +427,15 @@
             const touchDuration = touchEndTime - touchStartTime;
             const distance = touchEndX - touchStartX;
 
-            // Kiểm tra xem đó là chạm (tap) hay vuốt (swipe)
+            // Determine if it was a tap or a swipe
             if (touchDuration < tapThreshold && Math.abs(distance) < minSwipeDistance) {
-                // Nếu là chạm (thời gian ngắn và di chuyển ít)
+                // It's a tap (short duration and minimal movement)
                 flipCard();
             } else if (distance > minSwipeDistance) {
-                // Vuốt sang phải (trước đó)
+                // Swipe right (previous card)
                 prevCard();
             } else if (distance < -minSwipeDistance) {
-                // Vuốt sang trái (tiếp theo)
+                // Swipe left (next card)
                 nextCard();
             }
 
@@ -295,7 +450,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             // Tải dữ liệu từ file JSON tương ứng (ví dụ: 417-flashcard.json)
             // Đường dẫn này cần được điều chỉnh tùy thuộc vào cấu trúc thư mục của bạn
-            loadFlashcardsData('./essential-english-word-4/417-flashcard.json');
+            loadFlashcardsData('./417-flashcard.json'); // Assuming JSON is in the same directory or relative path
         });
     </script>
 </body>

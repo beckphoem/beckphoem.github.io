@@ -568,7 +568,8 @@
 
         // Xử lý sự kiện click cho nút Flashcard
         openFlashcardBtn.addEventListener('click', () => {
-            window.location.href = '417-flashcard.html'; // Chuyển hướng đến trang flashcard
+            // Chuyển hướng đến trang flashcard.html và truyền tên file JSON qua URL parameter
+            window.location.href = 'flashcard.html?json=417-flashcard.json';
         });
 
         // Hàm để tải và hiển thị nội dung Markdown, sau đó tạo outline

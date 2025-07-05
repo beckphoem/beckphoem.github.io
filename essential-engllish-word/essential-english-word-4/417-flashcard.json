@@ -1,6 +1,3 @@
-Dưới đây là tệp JSON chứa thông tin flashcard theo yêu cầu của bạn. Lưu ý rằng phần phiên âm IPA không được cung cấp trong các nguồn đã cho, nên trường `ipa` sẽ để trống [i].
-
-```json
 [
   {
     "question": "Nền văn minh, xã hội văn minh",
@@ -123,4 +120,3 @@ Dưới đây là tệp JSON chứa thông tin flashcard theo yêu cầu của b
     "example": "Kara and Tracy **waded** into the water."
   }
 ]
-```
