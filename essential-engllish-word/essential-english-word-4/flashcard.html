@@ -270,17 +270,16 @@
                 return;
             }
 
+            // Update content
             const card = shuffledCards[currentCardIndex];
             flashcardFront.innerHTML = card.question; // Use innerHTML to render potential bold text
             wordEl.textContent = card.answer;
             phoneticEl.textContent = card.ipa;
             exampleEl.innerHTML = card.example; // Use innerHTML for example sentence
 
-            // Đảm bảo thẻ luôn ở mặt trước khi chuyển sang thẻ mới
-            if (isFlipped) {
-                flashcardElement.classList.remove('flipped');
-                isFlipped = false;
-            }
+            // Ensure the card is showing the front
+            flashcardElement.classList.remove('flipped');
+            isFlipped = false;
 
             // Clear recognized text when a new card is displayed
             recognizedTextEl.textContent = '';
@@ -301,24 +300,59 @@
 
         // Hàm chuyển đến thẻ tiếp theo
         function nextCard() {
-            currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
-            displayCard();
+            // If the card is flipped, flip it back first, then move to the next card
+            if (isFlipped) {
+                flipCard(); // Flip back
+                // Wait for the flip animation to complete before changing content
+                setTimeout(() => {
+                    currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
+                    displayCard();
+                }, 300); // Adjust timeout duration to match CSS transition (0.6s / 2 = 0.3s)
+            } else {
+                // If not flipped, just move to the next card
+                currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
+                displayCard();
+            }
         }
 
         // Hàm chuyển đến thẻ trước đó
         function prevCard() {
-            currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
-            displayCard();
+             // If the card is flipped, flip it back first, then move to the previous card
+            if (isFlipped) {
+                flipCard(); // Flip back
+                 // Wait for the flip animation to complete before changing content
+                setTimeout(() => {
+                    currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
+                    displayCard();
+                }, 300); // Adjust timeout duration
+            } else {
+                // If not flipped, just move to the previous card
+                currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
+                displayCard();
+            }
         }
 
         // Hàm trộn thẻ (Fisher-Yates shuffle algorithm)
         function shuffleCards() {
-            for (let i = shuffledCards.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+            // Flip back before shuffling and displaying the first card
+            if (isFlipped) {
+                flipCard();
+                setTimeout(() => {
+                    for (let i = shuffledCards.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+                    }
+                    currentCardIndex = 0; // Reset về thẻ đầu tiên sau khi trộn
+                    displayCard();
+                }, 300); // Adjust timeout duration
+            } else {
+                 for (let i = shuffledCards.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+                }
+                currentCardIndex = 0; // Reset về thẻ đầu tiên sau khi trộn
+                displayCard();
             }
-            currentCardIndex = 0; // Reset về thẻ đầu tiên sau khi trộn
-            displayCard();
         }
 
         // Helper function to clean text (remove punctuation and convert to lowercase)
