@@ -6,8 +6,14 @@
     <title>Flashcard</title>
     <!-- Link Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Optional: Font Awesome for icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
     <style>
         /* Custom styles for flashcard flip effect */
+        body {
+            font-family: sans-serif; /* Ensure a default font */
+        }
+
         .flashcard-container {
             width: 350px;
             height: 450px;
@@ -76,7 +82,7 @@
 
         .controls {
             display: flex;
-            justify-content: center;
+            justify-content: center; /* Center the remaining buttons */
             gap: 15px;
             margin-top: 20px;
         }
@@ -94,27 +100,51 @@
             opacity: 0.9;
         }
 
-        #prevBtn, #nextBtn {
-            background-color: #007bff; /* Blue */
-            color: white;
-        }
+        /* Removed styles for prevBtn, nextBtn */
 
         #flipBtn {
+            display: none; /* Hide the flip button */
             background-color: #ffc107; /* Yellow */
             color: #333;
         }
 
+        /* Style for icon buttons */
+        .icon-button {
+            width: 70px; /* Circular button size - Increased */
+            height: 70px; /* Circular button size - Increased */
+            border-radius: 50%; /* Make it circular */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            font-size: 2.5em; /* Icon size - Increased */
+        }
+
+        .icon-button:hover {
+             transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        /* Specific styles for shuffle button */
         #shuffleBtn {
             background-color: #17a2b8; /* Cyan */
             color: white;
+            position: fixed; /* Fixed position */
+            bottom: 20px; /* 20px from bottom */
+            right: 20px; /* 20px from right */
+            z-index: 100; /* Ensure it's above other content */
         }
 
+        /* Specific styles for speech button */
         #speechBtn {
-            background-color: #dc3545; /* Red */
-            color: white;
+            background-color: #ccc; /* Grey when not listening */
+            color: #333;
         }
          #speechBtn.listening {
              background-color: #28a745; /* Green when listening */
+             color: white;
          }
 
         #recognizedText {
@@ -123,7 +153,6 @@
             color: #555;
             min-height: 1.5em; /* Reserve space to prevent layout shifts */
         }
-
 
          .back-button {
             position: absolute;
@@ -140,6 +169,15 @@
          .back-button:hover {
              background-color: rgba(255, 255, 255, 1);
          }
+
+        /* Card number display */
+        #cardNumber {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+            text-align: center;
+        }
+
 
          /* Responsive adjustments */
         @media (max-width: 400px) {
@@ -168,6 +206,18 @@
                 padding: 8px 15px;
                 font-size: 0.9em;
             }
+             .icon-button {
+                 width: 60px; /* Adjusted for smaller screens */
+                 height: 60px; /* Adjusted for smaller screens */
+                 font-size: 2em; /* Adjusted for smaller screens */
+             }
+             #shuffleBtn {
+                 bottom: 15px;
+                 right: 15px;
+             }
+             #cardNumber {
+                 font-size: 0.9em;
+             }
         }
     </style>
 </head>
@@ -190,16 +240,22 @@
     </div>
 
     <div class="controls">
-        <button id="prevBtn" class="control-button">Trước</button>
+        <!-- Removed Prev and Next buttons -->
         <button id="flipBtn" class="control-button">Lật</button>
-        <button id="nextBtn" class="control-button">Tiếp</button>
-        <button id="shuffleBtn" class="control-button">Trộn thẻ</button>
-        <button id="speechBtn" class="control-button">Nói đáp án</button>
+        <button id="speechBtn" class="icon-button"><span class="fas fa-microphone">&#x1F399;</span></button> <!-- Microphone icon -->
+    </div>
+
+    <div id="cardNumber" class="text-center">
+        <!-- Card number will be displayed here -->
     </div>
 
     <div id="recognizedText" class="text-center">
         <!-- Recognized text will appear here -->
     </div>
+
+    <!-- Shuffle button as a fixed icon -->
+    <button id="shuffleBtn" class="icon-button"><span class="fas fa-random">&#x21C6;</span></button> <!-- Shuffle icon -->
+
 
     <script>
         let flashcardsData = [];
@@ -226,11 +282,11 @@
         const wordEl = document.getElementById('word');
         const phoneticEl = document.getElementById('phonetic');
         const exampleEl = document.getElementById('example');
-        const prevBtn = document.getElementById('prevBtn');
+        // Removed prevBtn, nextBtn
         const flipBtn = document.getElementById('flipBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        const shuffleBtn = document.getElementById('shuffleBtn');
+        const shuffleBtn = document.getElementById('shuffleBtn'); // Get the shuffle icon button
         const backButton = document.getElementById('backButton'); // Get the back button
+        const cardNumberEl = document.getElementById('cardNumber'); // Get the card number element
 
 
         // Hàm tải dữ liệu từ JSON
@@ -248,9 +304,9 @@
                 console.error('Không thể tải dữ liệu flashcard:', error);
                 flashcardFront.textContent = 'Lỗi tải dữ liệu.';
                 // Disable controls if data fails to load
-                prevBtn.disabled = true;
+                // prevBtn.disabled = true; // Removed
+                // nextBtn.disabled = true; // Removed
                 flipBtn.disabled = true;
-                nextBtn.disabled = true;
                 shuffleBtn.disabled = true;
                 speechBtn.disabled = true;
             }
@@ -261,10 +317,11 @@
             if (shuffledCards.length === 0) {
                 flashcardFront.textContent = 'Không có thẻ nào để hiển thị.';
                 flashcardBack.innerHTML = '';
+                cardNumberEl.textContent = ''; // Clear card number
                 // Disable controls
-                prevBtn.disabled = true;
+                // prevBtn.disabled = true; // Removed
+                // nextBtn.disabled = true; // Removed
                 flipBtn.disabled = true;
-                nextBtn.disabled = true;
                 shuffleBtn.disabled = true;
                 speechBtn.disabled = true;
                 recognizedTextEl.textContent = ''; // Clear recognized text
@@ -277,6 +334,9 @@
             wordEl.textContent = card.answer;
             phoneticEl.textContent = card.ipa;
             exampleEl.innerHTML = card.example; // Use innerHTML for example sentence
+
+            // Update card number display
+            cardNumberEl.textContent = `${currentCardIndex + 1}/${shuffledCards.length}`;
 
             // Ensure the card is showing the front
             flashcardElement.classList.remove('flipped');
@@ -369,7 +429,12 @@
         if (!('webkitSpeechRecognition' in window)) {
             console.warn("Speech Recognition not supported in this browser.");
             speechBtn.disabled = true;
-            speechBtn.textContent = "SR not supported";
+            speechBtn.innerHTML = "&#x1F399; <br> SR not supported"; // Indicate not supported
+            speechBtn.style.fontSize = "0.8em"; // Make text smaller
+            speechBtn.style.height = "auto"; // Adjust height
+            speechBtn.style.width = "auto"; // Adjust width
+            speechBtn.style.padding = "5px"; // Add padding
+            speechBtn.style.borderRadius = "5px"; // Make it a rounded rectangle
         } else {
             recognition = new webkitSpeechRecognition();
             recognition.continuous = false; // Listen for a single phrase
@@ -377,7 +442,6 @@
             recognition.lang = 'en-US'; // Set language to English (US)
 
             recognition.onstart = () => {
-                speechBtn.textContent = "Đang nghe...";
                 speechBtn.classList.add('listening');
                 recognizedTextEl.textContent = '...'; // Indicate listening
             };
@@ -416,18 +480,21 @@
                      console.error('Quyền truy cập microphone bị từ chối.');
                      recognizedTextEl.textContent = 'Quyền truy cập microphone bị từ chối.';
                      speechBtn.disabled = true;
-                     speechBtn.textContent = "Mic blocked";
+                     speechBtn.innerHTML = "&#x1F399; <br> Mic blocked"; // Indicate blocked
+                     speechBtn.style.fontSize = "0.8em"; // Make text smaller
+                     speechBtn.style.height = "auto"; // Adjust height
+                     speechBtn.style.width = "auto"; // Adjust width
+                     speechBtn.style.padding = "5px"; // Add padding
+                     speechBtn.style.borderRadius = "5px"; // Make it a rounded rectangle
                  } else {
                      recognizedTextEl.textContent = `Lỗi nhận diện giọng nói: ${event.error}`;
                  }
-                speechBtn.textContent = "Nói đáp án";
                 speechBtn.classList.remove('listening');
             };
 
             recognition.onend = () => {
                 console.log('Speech recognition ended.');
                 // recognizedTextEl.textContent = ''; // Clear text when ended, or keep the last result?
-                speechBtn.textContent = "Nói đáp án";
                 speechBtn.classList.remove('listening');
             };
 
@@ -466,11 +533,9 @@
 
         // Gắn sự kiện cho các nút điều khiển
         flipBtn.addEventListener('click', flipCard);
-        nextBtn.addEventListener('click', nextCard);
-        prevBtn.addEventListener('click', prevCard);
-        shuffleBtn.addEventListener('click', shuffleCards);
+        shuffleBtn.addEventListener('click', shuffleCards); // Event listener for the shuffle icon button
 
-        // Xử lý sự kiện bàn phím
+        // Xử lý sự kiện bàn phím (Prev/Next using arrows, Flip using Space)
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowRight') {
                 nextCard();
@@ -547,10 +612,11 @@
             } else {
                  console.error("No JSON file specified in URL parameter.");
                  flashcardFront.textContent = 'Lỗi: Không tìm thấy dữ liệu flashcard.';
+                 cardNumberEl.textContent = ''; // Clear card number
                  // Disable controls
-                 prevBtn.disabled = true;
+                 // prevBtn.disabled = true; // Removed
+                 // nextBtn.disabled = true; // Removed
                  flipBtn.disabled = true;
-                 nextBtn.disabled = true;
                  shuffleBtn.disabled = true;
                  speechBtn.disabled = true;
                  // Fallback: Link to the main index page if no JSON file is specified
