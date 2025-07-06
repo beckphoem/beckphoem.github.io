@@ -40,14 +40,15 @@
             height: 100%;
             backface-visibility: hidden; /* Hide the back face during the flip */
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            flex-direction: column; /* Arrange content vertically */
+            align-items: center; /* Center items horizontally */
+            justify-content: center; /* Center items vertically */
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: center;
             word-break: break-word; /* Prevent long words from overflowing */
+            overflow: hidden; /* Hide overflowing content, especially images */
         }
 
         .flashcard-front {
@@ -55,30 +56,57 @@
             color: #333;
             font-size: 1.5em;
             font-weight: bold;
+            /* Centering is handled by .flashcard-face */
         }
 
         .flashcard-back {
             background-color: #4CAF50; /* Green background for the back */
             color: white;
             transform: rotateY(180deg); /* Initially rotated to be hidden */
+            /* Flex properties are handled by .flashcard-face */
+            /* justify-content: flex-start; /* Align items to the top on the back */ /* Removed to center content */
+            padding-top: 10px; /* Add some padding at the top */
         }
 
         .flashcard-back .word {
             font-size: 1.8em;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 5px; /* Reduced margin */
         }
 
         .flashcard-back .phonetic {
             font-size: 1.1em;
-            margin-bottom: 15px;
+            margin-bottom: 10px; /* Reduced margin */
         }
 
         .flashcard-back .example {
             font-size: 1em;
             font-style: italic;
             opacity: 0.9;
+            margin-bottom: 10px; /* Added margin */
+            flex-grow: 0; /* Don't grow */
+            flex-shrink: 0; /* Don't shrink */
         }
+
+        .flashcard-image {
+            max-width: 90%; /* Limit image width */
+            max-height: 60%; /* Limit image height to leave space for text */
+            object-fit: contain; /* Contain the image within the bounds */
+            margin-top: 10px; /* Add margin above image */
+            margin-bottom: 10px; /* Add margin below image */
+            /* Ensure image doesn't take up excessive space */
+            flex-shrink: 0;
+        }
+
+        /* Style for the question text container on the front */
+        .question-text {
+             flex-grow: 1; /* Allow question text to take available space */
+             display: flex; /* Use flexbox to center text within its container */
+             align-items: center;
+             justify-content: center;
+             width: 100%; /* Ensure it takes full width */
+        }
+
 
         .controls {
             display: flex;
@@ -218,6 +246,9 @@
              #cardNumber {
                  font-size: 0.9em;
              }
+             .flashcard-image {
+                 max-height: 50%; /* Further limit image height on small screens */
+             }
         }
     </style>
 </head>
@@ -228,7 +259,7 @@
     <div class="flashcard-container">
         <div id="flashcard" class="flashcard">
             <div id="flashcardFront" class="flashcard-face flashcard-front">
-                <!-- Question will be loaded here -->
+                <!-- Question and Image will be loaded here by JavaScript -->
                 Đang tải...
             </div>
             <div id="flashcardBack" class="flashcard-face flashcard-back">
@@ -288,6 +319,12 @@
         const backButton = document.getElementById('backButton'); // Get the back button
         const cardNumberEl = document.getElementById('cardNumber'); // Get the card number element
 
+        // Create the image element once
+        const flashcardImageEl = document.createElement('img');
+        flashcardImageEl.className = 'flashcard-image';
+        flashcardImageEl.alt = 'Illustration';
+        flashcardImageEl.style.display = 'none'; // Initially hidden
+
 
         // Hàm tải dữ liệu từ JSON
         async function loadFlashcardsData(filePath) {
@@ -309,6 +346,9 @@
                 flipBtn.disabled = true;
                 shuffleBtn.disabled = true;
                 speechBtn.disabled = true;
+                recognizedTextEl.textContent = ''; // Clear recognized text
+                flashcardImageEl.src = ''; // Clear image source
+                flashcardImageEl.style.display = 'none'; // Hide image
             }
         }
 
@@ -325,15 +365,38 @@
                 shuffleBtn.disabled = true;
                 speechBtn.disabled = true;
                 recognizedTextEl.textContent = ''; // Clear recognized text
+                flashcardImageEl.src = ''; // Clear image source
+                flashcardImageEl.style.display = 'none'; // Hide image
                 return;
             }
 
             // Update content
             const card = shuffledCards[currentCardIndex];
-            flashcardFront.innerHTML = card.question; // Use innerHTML to render potential bold text
+            // Clear previous content in the front face before adding new
+            flashcardFront.innerHTML = ''; // Clear existing content
+
+            // Add the question text container
+            const questionElement = document.createElement('div');
+            questionElement.innerHTML = card.question; // Use innerHTML to render potential bold text
+            questionElement.className = 'question-text'; // Use the new class for centering text
+            flashcardFront.appendChild(questionElement);
+
+            // Update image source and display
+            if (card.images) {
+                flashcardImageEl.src = card.images;
+                flashcardImageEl.style.display = 'block'; // Show image
+                flashcardFront.appendChild(flashcardImageEl); // Append image to the front face
+            } else {
+                flashcardImageEl.src = ''; // Clear source
+                flashcardImageEl.style.display = 'none'; // Hide image if no source
+            }
+
+
+            // Update back face content
             wordEl.textContent = card.answer;
             phoneticEl.textContent = card.ipa;
             exampleEl.innerHTML = card.example; // Use innerHTML for example sentence
+
 
             // Update card number display
             cardNumberEl.textContent = `${currentCardIndex + 1}/${shuffledCards.length}`;
@@ -401,7 +464,7 @@
                 setTimeout(() => {
                     for (let i = shuffledCards.length - 1; i > 0; i--) {
                         const j = Math.floor(Math.random() * (i + 1));
-                        [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+                        [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledcards[i]];
                     }
                     currentCardIndex = 0; // Reset về thẻ đầu tiên sau khi trộn
                     displayCard();
