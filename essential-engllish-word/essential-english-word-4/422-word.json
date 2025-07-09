@@ -3,6 +3,7 @@
     "word": "charity",
     "ipa": "/ˈtʃærəti/",
     "meaning": "sự giúp đỡ, lòng từ thiện",
+    "image": "./eew-4-22/1.jpg",
     "example": [
       {
         "sentence": "I give charity every month.",
@@ -70,6 +71,7 @@
     "word": "commerce",
     "ipa": "/ˈkɒmɜːrs/",
     "meaning": "thương mại, buôn bán",
+    "image": "./eew-4-22/2.jpg",
     "example": [
       {
         "sentence": "Commerce increases every year.",
@@ -137,6 +139,7 @@
     "word": "condemn",
     "ipa": "/kənˈdɛm/",
     "meaning": "kết án, kết tội",
+    "image": "./eew-4-22/3.jpg",
     "example": [
       {
         "sentence": "I condemn violence.",
@@ -161,7 +164,7 @@
       {
         "sentence": "We were condemning the actions.",
         "meaning-example": "Chúng tôi đang lên án những hành động.",
-        "ipa-example": "/wi wər kənˈdɛmɪŋ ði ˈækʧənz/"
+        "ipa-example": "/wi wɜːr kənˈdɛmɪŋ ði ˈækʧənz/"
       },
       {
         "sentence": "They had condemned the policy.",
@@ -204,6 +207,7 @@
     "word": "cozy",
     "ipa": "/ˈkoʊzi/",
     "meaning": "ấm cúng",
+    "image": "./eew-4-22/4.jpg",
     "example": [
       {
         "sentence": "The room feels cozy.",
@@ -263,7 +267,7 @@
       {
         "sentence": "I want a cozy blanket.",
         "meaning-example": "Tôi muốn một cái chăn ấm cúng.",
-        "ipa-example": "/aɪ wɒnt ə ˈkoʊzi ˈblæŋkɪt/"
+        "ipa-example": "/aɪ wɒnt tu ˈkoʊzi ˈblæŋkɪt/"
       }
     ]
   },
@@ -271,6 +275,7 @@
     "word": "deplete",
     "ipa": "/dɪˈpliːt/",
     "meaning": "làm cạn kiệt",
+    "image": "./eew-4-22/5.jpg",
     "example": [
       {
         "sentence": "Factories deplete resources.",
@@ -280,7 +285,7 @@
       {
         "sentence": "Pollution is depleting the ozone layer.",
         "meaning-example": "Ô nhiễm đang làm cạn kiệt tầng ozone.",
-        "ipa-example": "/pəˈluːʃən ɪz dɪˈpliːtɪŋ ði ˈoʊzoʊn ˈleɪər/"
+        "ipa-example": "/pəˈluːʃən ɪz dɪˈpliːtɪŋ ðə ˈoʊzoʊn ˈleɪər/"
       },
       {
         "sentence": "We have depleted our supplies.",
@@ -338,6 +343,7 @@
     "word": "economy",
     "ipa": "/ɪˈkɒnəmi/",
     "meaning": "nền kinh tế",
+    "image": "./eew-4-22/6.jpg",
     "example": [
       {
         "sentence": "The economy grows fast.",
@@ -405,6 +411,7 @@
     "word": "empire",
     "ipa": "/ˈɛmpaɪər/",
     "meaning": "đế chế",
+    "image": "./eew-4-22/7.jpg",
     "example": [
       {
         "sentence": "The empire rules many lands.",
@@ -472,6 +479,7 @@
     "word": "goods",
     "ipa": "/ɡʊdz/",
     "meaning": "hàng hóa",
+    "image": "./eew-4-22/8.jpg",
     "example": [
       {
         "sentence": "The store sells goods.",
@@ -539,6 +547,7 @@
     "word": "heed",
     "ipa": "/hiːd/",
     "meaning": "chú ý, lắng nghe",
+    "image": "./eew-4-22/9.jpg",
     "example": [
       {
         "sentence": "I heed advice.",
@@ -606,6 +615,7 @@
     "word": "hitchhike",
     "ipa": "/ˈhɪtʃˌhaɪk/",
     "meaning": "đi nhờ xe",
+    "image": "./eew-4-22/10.jpg",
     "example": [
       {
         "sentence": "I hitchhike to school.",
@@ -673,6 +683,7 @@
     "word": "mock",
     "ipa": "/mɒk/",
     "meaning": "chế nhạo",
+    "image": "./eew-4-22/11.jpg",
     "example": [
       {
         "sentence": "They mock his accent.",
@@ -740,6 +751,7 @@
     "word": "neutral",
     "ipa": "/ˈnjuːtrəl/",
     "meaning": "trung lập",
+    "image": "./eew-4-22/12.jpg",
     "example": [
       {
         "sentence": "I stay neutral in arguments.",
@@ -807,6 +819,7 @@
     "word": "persecute",
     "ipa": "/ˈpɜːrsɪkjuːt/",
     "meaning": "đàn áp, ngược đãi",
+    "image": "./eew-4-22/13.jpg",
     "example": [
       {
         "sentence": "They persecute minorities.",
@@ -874,6 +887,7 @@
     "word": "pity",
     "ipa": "/ˈpɪti/",
     "meaning": "lòng thương hại",
+    "image": "./eew-4-22/14.jpg",
     "example": [
       {
         "sentence": "I feel pity for him.",
@@ -941,6 +955,7 @@
     "word": "reduce",
     "ipa": "/rɪˈdjuːs/",
     "meaning": "giảm bớt",
+    "image": "./eew-4-22/15.jpg",
     "example": [
       {
         "sentence": "I reduce waste.",
@@ -1008,6 +1023,7 @@
     "word": "scribe",
     "ipa": "/skraɪb/",
     "meaning": "người chép sách, thư lại",
+    "image": "./eew-4-22/16.jpg",
     "example": [
       {
         "sentence": "The scribe writes daily.",
@@ -1075,6 +1091,7 @@
     "word": "temper",
     "ipa": "/ˈtɛmpər/",
     "meaning": "tính khí, cơn giận",
+    "image": "./eew-4-22/17.jpg",
     "example": [
       {
         "sentence": "He loses his temper easily.",
@@ -1142,6 +1159,7 @@
     "word": "throne",
     "ipa": "/θroʊn/",
     "meaning": "ngai vàng",
+    "image": "./eew-4-22/18.jpg",
     "example": [
       {
         "sentence": "The king sits on the throne.",
@@ -1209,6 +1227,7 @@
     "word": "unity",
     "ipa": "/ˈjuːnəti/",
     "meaning": "sự đoàn kết",
+    "image": "./eew-4-22/19.jpg",
     "example": [
       {
         "sentence": "Unity brings strength.",
@@ -1276,6 +1295,7 @@
     "word": "victor",
     "ipa": "/ˈvɪktər/",
     "meaning": "người chiến thắng",
+    "image": "./eew-4-22/20.jpg",
     "example": [
       {
         "sentence": "The victor claims the prize.",

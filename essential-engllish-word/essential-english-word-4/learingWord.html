@@ -96,6 +96,13 @@
             color: #0366d6;
             margin-bottom: 15px;
         }
+        .word-image { /* Style for the image */
+            max-width: 100%; /* Ensure image fits within the card */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below image */
+            margin: 0 auto 20px auto; /* Center image and add bottom margin */
+            border-radius: 4px; /* Optional: add rounded corners */
+        }
         .examples h3 {
             font-size: 1.2em;
             font-weight: 600;
@@ -267,6 +274,8 @@
                 <div id="word" class="word"></div>
                 <div id="pronunciation" class="pronunciation"></div>
                 <div id="meaning" class="meaning"></div>
+                <!-- Image will be inserted here -->
+                <img id="word-image" class="word-image hidden" src="" alt="Word illustration">
                 <div class="examples">
                     <h3>Ví dụ:</h3>
                     <div id="examples-list">
@@ -319,6 +328,9 @@
         const examplesListElement = document.getElementById('examples-list');
         const nextExampleBtn = document.getElementById('next-example-btn');
 
+        // Get the image element
+        const wordImageElement = document.getElementById('word-image');
+
         const startSpeechBtn = document.getElementById('start-speech-btn');
         const stopSpeechBtn = document.getElementById('stop-speech-btn');
         const nextWordBtn = document.getElementById('next-word-btn');
@@ -354,9 +366,9 @@
              const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
              recognition = new SpeechRecognition();
              recognition.continuous = false; // Stop after a single utterance
-             recognition.lang = 'en-US'; // Set language to English
+             recognition.lang = 'en-GB'; // Set language to British English
              recognition.interimResults = false; // Only return final results
-             recognition.maxAlternatives = 1; // Get only the most likely result
+             recognition.maxAlternatives = 1;
 
              recognition.onstart = () => {
                  transcriptionElement.textContent = 'Đang lắng nghe...';
@@ -507,6 +519,16 @@
                 // Use 'ipa' field for pronunciation
                 pronunciationElement.textContent = word.ipa || 'N/A'; // Display N/A if no ipa
                 meaningElement.textContent = word.meaning || 'N/A'; // Display N/A if no meaning
+
+                // Display the image if available
+                if (word.image) {
+                    wordImageElement.src = word.image;
+                    wordImageElement.classList.remove('hidden'); // Show the image
+                } else {
+                    wordImageElement.src = ''; // Clear the src
+                    wordImageElement.classList.add('hidden'); // Hide the image if no source
+                }
+
 
                 // Reset examples display
                 examplesListElement.innerHTML = '';
