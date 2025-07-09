@@ -502,7 +502,7 @@
             recognition = new webkitSpeechRecognition();
             recognition.continuous = false; // Listen for a single phrase
             recognition.interimResults = false; // Only return final results
-            recognition.lang = 'en-GB'; // Set language to British English
+            recognition.lang = 'en-US'; // Set language to ENGLISH US
 
             recognition.onstart = () => {
                 speechBtn.classList.add('listening');
