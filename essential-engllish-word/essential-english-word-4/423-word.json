@@ -1,0 +1,1382 @@
+[
+  {
+    "word": "accurate",
+    "ipa": "/ˈækjərət/",
+    "meaning": "chính xác",
+    "image": "./eew-4-23/1.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "This information is accurate.",
+        "meaning-example": "Thông tin này chính xác.",
+        "ipa-example": "/ðɪs ˌɪnfərˈmeɪʃən ɪz ˈækjərət/"
+      },
+      {
+        "sentence": "She is being accurate with her measurements.",
+        "meaning-example": "Cô ấy đang đo lường chính xác.",
+        "ipa-example": "/ʃi ɪz ˈbiːɪŋ ˈækjərət wɪð hɜːr ˈmɛʒərmənts/"
+      },
+      {
+        "sentence": "They have been accurate in their predictions.",
+        "meaning-example": "Họ đã chính xác trong các dự đoán của mình.",
+        "ipa-example": "/ðeɪ hæv bɪn ˈækjərət ɪn ðɛər prɪˈdɪkʃənz/"
+      },
+      {
+        "sentence": "His report was accurate.",
+        "meaning-example": "Báo cáo của anh ấy chính xác.",
+        "ipa-example": "/hɪz rɪˈpɔːrt wəz ˈækjərət/"
+      },
+      {
+        "sentence": "The data was being accurate when we checked.",
+        "meaning-example": "Dữ liệu đã chính xác khi chúng tôi kiểm tra.",
+        "ipa-example": "/ðə ˈdeɪtə wəz ˈbiːɪŋ ˈækjərət wɛn wi ʧɛkt/"
+      },
+      {
+        "sentence": "She had been accurate before the error.",
+        "meaning-example": "Cô ấy đã chính xác trước khi xảy ra lỗi.",
+        "ipa-example": "/ʃi hæd bɪn ˈækjərət bɪˈfɔːr ðɪ ˈɛrər/"
+      },
+      {
+        "sentence": "The forecast will be accurate.",
+        "meaning-example": "Dự báo sẽ chính xác.",
+        "ipa-example": "/ðə ˈfɔːrkæst wɪl bi ˈækjərət/"
+      },
+      {
+        "sentence": "The results will be being accurate by tomorrow.",
+        "meaning-example": "Kết quả sẽ chính xác vào ngày mai.",
+        "ipa-example": "/ðə rɪˈzʌlts wɪl bi ˈbiːɪŋ ˈækjərət baɪ təˈmɒroʊ/"
+      },
+      {
+        "sentence": "The report will have been accurate by the deadline.",
+        "meaning-example": "Báo cáo sẽ đã chính xác vào hạn chót.",
+        "ipa-example": "/ðə rɪˈpɔːrt wɪl hæv bɪn ˈækjərət baɪ ðə ˈdɛdlaɪn/"
+      },
+      {
+        "sentence": "If the data is accurate, we can proceed.",
+        "meaning-example": "Nếu dữ liệu chính xác, chúng ta có thể tiếp tục.",
+        "ipa-example": "/ɪf ðə ˈdeɪtə ɪz ˈækjərət, wi kæn prəˈsiːd/"
+      },
+      {
+        "sentence": "Being accurate is important in science.",
+        "meaning-example": "Chính xác là quan trọng trong khoa học.",
+        "ipa-example": "/ˈbiːɪŋ ˈækjərət ɪz ɪmˈpɔːrtənt ɪn ˈsaɪəns/"
+      },
+      {
+        "sentence": "I want to be accurate.",
+        "meaning-example": "Tôi muốn chính xác.",
+        "ipa-example": "/aɪ wɒnt tu bi ˈækjərət/"
+      }
+    ]
+  },
+  {
+    "word": "analyze",
+    "ipa": "/ˈænəlaɪz/",
+    "meaning": "phân tích",
+    "image": "./eew-4-23/2.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Scientists analyze data.",
+        "meaning-example": "Các nhà khoa học phân tích dữ liệu.",
+        "ipa-example": "/ˈsaɪəntɪsts ˈænəlaɪz ˈdeɪtə/"
+      },
+      {
+        "sentence": "She is analyzing the results now.",
+        "meaning-example": "Cô ấy đang phân tích kết quả bây giờ.",
+        "ipa-example": "/ʃi ɪz ˈænəlaɪzɪŋ ðə rɪˈzʌlts naʊ/"
+      },
+      {
+        "sentence": "They have analyzed the samples.",
+        "meaning-example": "Họ đã phân tích các mẫu.",
+        "ipa-example": "/ðeɪ hæv ˈænəlaɪzd ðə ˈsæmplz/"
+      },
+      {
+        "sentence": "He analyzed the report yesterday.",
+        "meaning-example": "Anh ấy đã phân tích báo cáo hôm qua.",
+        "ipa-example": "/hi ˈænəlaɪzd ðə rɪˈpɔːrt ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "We were analyzing the feedback.",
+        "meaning-example": "Chúng tôi đang phân tích phản hồi.",
+        "ipa-example": "/wi wɜːr ˈænəlaɪzɪŋ ðə ˈfiːdbæk/"
+      },
+      {
+        "sentence": "She had analyzed the evidence before.",
+        "meaning-example": "Cô ấy đã phân tích bằng chứng trước đây.",
+        "ipa-example": "/ʃi hæd ˈænəlaɪzd ði ˈɛvɪdəns bɪˈfɔːr/"
+      },
+      {
+        "sentence": "I will analyze the data tomorrow.",
+        "meaning-example": "Tôi sẽ phân tích dữ liệu vào ngày mai.",
+        "ipa-example": "/aɪ wɪl ˈænəlaɪz ðə ˈdeɪtə təˈmɒroʊ/"
+      },
+      {
+        "sentence": "They will be analyzing the trends next week.",
+        "meaning-example": "Họ sẽ đang phân tích các xu hướng vào tuần tới.",
+        "ipa-example": "/ðeɪ wɪl bi ˈænəlaɪzɪŋ ðə trɛndz nɛkst wiːk/"
+      },
+      {
+        "sentence": "He will have analyzed all the data by then.",
+        "meaning-example": "Anh ấy sẽ đã phân tích tất cả dữ liệu vào lúc đó.",
+        "ipa-example": "/hi wɪl hæv ˈænəlaɪzd ɔːl ðə ˈdeɪtə baɪ ðɛn/"
+      },
+      {
+        "sentence": "If you analyze carefully, you find errors.",
+        "meaning-example": "Nếu bạn phân tích cẩn thận, bạn sẽ tìm thấy lỗi.",
+        "ipa-example": "/ɪf ju ˈænəlaɪz ˈkɛrfəli, ju faɪnd ˈɛrərz/"
+      },
+      {
+        "sentence": "Analyzing information takes time.",
+        "meaning-example": "Phân tích thông tin cần thời gian.",
+        "ipa-example": "/ˈænəlaɪzɪŋ ˌɪnfərˈmeɪʃən teɪks taɪm/"
+      },
+      {
+        "sentence": "I want to analyze the situation.",
+        "meaning-example": "Tôi muốn phân tích tình hình.",
+        "ipa-example": "/aɪ wɒnt tu ˈænəlaɪz ðə ˌsɪʧuˈeɪʃən/"
+      }
+    ]
+  },
+  {
+    "word": "asteroid",
+    "ipa": "/ˈæstərɔɪd/",
+    "meaning": "tiểu hành tinh",
+    "image": "./eew-4-23/3.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "An asteroid orbits the sun.",
+        "meaning-example": "Một tiểu hành tinh quay quanh mặt trời.",
+        "ipa-example": "/ən ˈæstərɔɪd ˈɔːrbɪts ðə sʌn/"
+      },
+      {
+        "sentence": "Scientists are tracking an asteroid.",
+        "meaning-example": "Các nhà khoa học đang theo dõi một tiểu hành tinh.",
+        "ipa-example": "/ˈsaɪəntɪsts ɑːr ˈtrækɪŋ ən ˈæstərɔɪd/"
+      },
+      {
+        "sentence": "They have discovered a new asteroid.",
+        "meaning-example": "Họ đã phát hiện một tiểu hành tinh mới.",
+        "ipa-example": "/ðeɪ hæv dɪˈskʌvərd ə njuː ˈæstərɔɪd/"
+      },
+      {
+        "sentence": "An asteroid hit the Earth long ago.",
+        "meaning-example": "Một tiểu hành tinh đã va vào Trái đất từ rất lâu rồi.",
+        "ipa-example": "/ən ˈæstərɔɪd hɪt ðɪ ɜːrθ lɒŋ əˈɡoʊ/"
+      },
+      {
+        "sentence": "Scientists were studying an asteroid.",
+        "meaning-example": "Các nhà khoa học đang nghiên cứu một tiểu hành tinh.",
+        "ipa-example": "/ˈsaɪəntɪsts wɜːr ˈstʌdiɪŋ ən ˈæstərɔɪd/"
+      },
+      {
+        "sentence": "They had identified the asteroid.",
+        "meaning-example": "Họ đã nhận dạng được tiểu hành tinh.",
+        "ipa-example": "/ðeɪ hæd aɪˈdɛntɪfaɪd ðɪ ˈæstərɔɪd/"
+      },
+      {
+        "sentence": "We will observe the asteroid.",
+        "meaning-example": "Chúng tôi sẽ quan sát tiểu hành tinh.",
+        "ipa-example": "/wi wɪl əbˈzɜːrv ðɪ ˈæstərɔɪd/"
+      },
+      {
+        "sentence": "They will be studying the asteroid next year.",
+        "meaning-example": "Họ sẽ đang nghiên cứu tiểu hành tinh vào năm tới.",
+        "ipa-example": "/ðeɪ wɪl bi ˈstʌdiɪŋ ðɪ ˈæstərɔɪd nɛkst jɪər/"
+      },
+      {
+        "sentence": "Scientists will have mapped the asteroid by 2030.",
+        "meaning-example": "Các nhà khoa học sẽ đã lập bản đồ tiểu hành tinh vào năm 2030.",
+        "ipa-example": "/ˈsaɪəntɪsts wɪl hæv mæpt ðɪ ˈæstərɔɪd baɪ ˈtwɛnti ˈθɜːrti/"
+      },
+      {
+        "sentence": "If an asteroid comes close, it is dangerous.",
+        "meaning-example": "Nếu một tiểu hành tinh đến gần, nó rất nguy hiểm.",
+        "ipa-example": "/ɪf ən ˈæstərɔɪd kʌmz kloʊs, ɪt ɪz ˈdeɪndʒərəs/"
+      },
+      {
+        "sentence": "Studying asteroids is fascinating.",
+        "meaning-example": "Nghiên cứu tiểu hành tinh rất hấp dẫn.",
+        "ipa-example": "/ˈstʌdiɪŋ ˈæstərɔɪdz ɪz ˈfæsɪneɪtɪŋ/"
+      },
+      {
+        "sentence": "I want to learn about asteroids.",
+        "meaning-example": "Tôi muốn tìm hiểu về các tiểu hành tinh.",
+        "ipa-example": "/aɪ wɒnt tu lɜːrn əˈbaʊt ˈæstərɔɪdz/"
+      }
+    ]
+  },
+  {
+    "word": "controversy",
+    "ipa": "/ˈkɒntrəvɜːrsi/",
+    "meaning": "tranh cãi",
+    "image": "./eew-4-23/4.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The topic causes controversy.",
+        "meaning-example": "Chủ đề này gây ra tranh cãi.",
+        "ipa-example": "/ðə ˈtɒpɪk ˈkɔːzɪz ˈkɒntrəvɜːrsi/"
+      },
+      {
+        "sentence": "A controversy is developing.",
+        "meaning-example": "Một cuộc tranh cãi đang phát triển.",
+        "ipa-example": "/ə ˈkɒntrəvɜːrsi ɪz dɪˈvɛləpɪŋ/"
+      },
+      {
+        "sentence": "There has been much controversy.",
+        "meaning-example": "Đã có nhiều tranh cãi.",
+        "ipa-example": "/ðɛər hæz bɪn mʌʧ ˈkɒntrəvɜːrsi/"
+      },
+      {
+        "sentence": "The decision caused controversy.",
+        "meaning-example": "Quyết định đã gây ra tranh cãi.",
+        "ipa-example": "/ðə dɪˈsɪʒən kɔːzd ˈkɒntrəvɜːrsi/"
+      },
+      {
+        "sentence": "A controversy was brewing.",
+        "meaning-example": "Một cuộc tranh cãi đang nảy sinh.",
+        "ipa-example": "/ə ˈkɒntrəvɜːrsi wəz ˈbruːɪŋ/"
+      },
+      {
+        "sentence": "They had avoided controversy before.",
+        "meaning-example": "Họ đã tránh tranh cãi trước đây.",
+        "ipa-example": "/ðeɪ hæd əˈvɔɪdɪd ˈkɒntrəvɜːrsi bɪˈfɔːr/"
+      },
+      {
+        "sentence": "The issue will create controversy.",
+        "meaning-example": "Vấn đề này sẽ tạo ra tranh cãi.",
+        "ipa-example": "/ðɪ ˈɪʃuː wɪl kriˈeɪt ˈkɒntrəvɜːrsi/"
+      },
+      {
+        "sentence": "A controversy will be developing.",
+        "meaning-example": "Một cuộc tranh cãi sẽ đang phát triển.",
+        "ipa-example": "/ə ˈkɒntrəvɜːrsi wɪl bi dɪˈvɛləpɪŋ/"
+      },
+      {
+        "sentence": "The matter will have caused controversy by then.",
+        "meaning-example": "Vấn đề sẽ đã gây ra tranh cãi vào lúc đó.",
+        "ipa-example": "/ðə ˈmætər wɪl hæv kɔːzd ˈkɒntrəvɜːrsi baɪ ðɛn/"
+      },
+      {
+        "sentence": "If there is controversy, we discuss it.",
+        "meaning-example": "Nếu có tranh cãi, chúng tôi sẽ thảo luận.",
+        "ipa-example": "/ɪf ðɛər ɪz ˈkɒntrəvɜːrsi, wi dɪˈskʌs ɪt/"
+      },
+      {
+        "sentence": "Avoiding controversy is difficult.",
+        "meaning-example": "Tránh tranh cãi rất khó.",
+        "ipa-example": "/əˈvɔɪdɪŋ ˈkɒntrəvɜːrsi ɪz ˈdɪfɪkəlt/"
+      },
+      {
+        "sentence": "I want to understand the controversy.",
+        "meaning-example": "Tôi muốn hiểu cuộc tranh cãi.",
+        "ipa-example": "/aɪ wɒnt tu ˌʌndərˈstænd ðə ˈkɒntrəvɜːrsi/"
+      }
+    ]
+  },
+  {
+    "word": "evolve",
+    "ipa": "/ɪˈvɒlv/",
+    "meaning": "tiến hóa",
+    "image": "./eew-4-23/5.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Species evolve over time.",
+        "meaning-example": "Các loài tiến hóa theo thời gian.",
+        "ipa-example": "/ˈspiːʃiːz ɪˈvɒlv ˈoʊvər taɪm/"
+      },
+      {
+        "sentence": "The technology is evolving rapidly.",
+        "meaning-example": "Công nghệ đang tiến hóa nhanh chóng.",
+        "ipa-example": "/ðə tɛkˈnɒlədʒi ɪz ɪˈvɒlvɪŋ ˈræpɪdli/"
+      },
+      {
+        "sentence": "Humans have evolved from apes.",
+        "meaning-example": "Loài người đã tiến hóa từ vượn.",
+        "ipa-example": "/ˈhjuːmənz hæv ɪˈvɒlvd frɒm eɪps/"
+      },
+      {
+        "sentence": "Life evolved on Earth.",
+        "meaning-example": "Sự sống đã tiến hóa trên Trái đất.",
+        "ipa-example": "/laɪf ɪˈvɒlvd ɒn ɜːrθ/"
+      },
+      {
+        "sentence": "The organisms were evolving slowly.",
+        "meaning-example": "Các sinh vật đang tiến hóa chậm chạp.",
+        "ipa-example": "/ði ˈɔːrɡənɪzəmz wɜːr ɪˈvɒlvɪŋ ˈsloʊli/"
+      },
+      {
+        "sentence": "They had evolved unique traits.",
+        "meaning-example": "Họ đã tiến hóa những đặc điểm độc đáo.",
+        "ipa-example": "/ðeɪ hæd ɪˈvɒlvd juːˈniːk treɪts/"
+      },
+      {
+        "sentence": "The system will evolve further.",
+        "meaning-example": "Hệ thống sẽ tiến hóa hơn nữa.",
+        "ipa-example": "/ðə ˈsɪstəm wɪl ɪˈvɒlv ˈfɜːrðər/"
+      },
+      {
+        "sentence": "The software will be evolving next year.",
+        "meaning-example": "Phần mềm sẽ đang tiến hóa vào năm tới.",
+        "ipa-example": "/ðə ˈsɒftwɛər wɪl bi ɪˈvɒlvɪŋ nɛkst jɪər/"
+      },
+      {
+        "sentence": "The species will have evolved by then.",
+        "meaning-example": "Loài này sẽ đã tiến hóa vào lúc đó.",
+        "ipa-example": "/ðə ˈspiːʃiːz wɪl hæv ɪˈvɒlvd baɪ ðɛn/"
+      },
+      {
+        "sentence": "If organisms evolve, they adapt.",
+        "meaning-example": "Nếu sinh vật tiến hóa, chúng sẽ thích nghi.",
+        "ipa-example": "/ɪf ˈɔːrɡənɪzəmz ɪˈvɒlv, ðeɪ əˈdæpt/"
+      },
+      {
+        "sentence": "Evolving is a natural process.",
+        "meaning-example": "Tiến hóa là một quá trình tự nhiên.",
+        "ipa-example": "/ɪˈvɒlvɪŋ ɪz ə ˈnæʧərəl ˈprɒsɛs/"
+      },
+      {
+        "sentence": "I want to see how things evolve.",
+        "meaning-example": "Tôi muốn xem mọi thứ tiến hóa như thế nào.",
+        "ipa-example": "/aɪ wɒnt tu siː haʊ θɪŋz ɪˈvɒlv/"
+      }
+    ]
+  },
+  {
+    "word": "factor",
+    "ipa": "/ˈfæktər/",
+    "meaning": "yếu tố",
+    "image": "./eew-4-23/6.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "This is a key factor.",
+        "meaning-example": "Đây là một yếu tố then chốt.",
+        "ipa-example": "/ðɪs ɪz ə kiː ˈfæktər/"
+      },
+      {
+        "sentence": "The weather is being a factor.",
+        "meaning-example": "Thời tiết đang là một yếu tố.",
+        "ipa-example": "/ðə ˈwɛðər ɪz ˈbiːɪŋ ə ˈfæktər/"
+      },
+      {
+        "sentence": "Several factors have influenced the outcome.",
+        "meaning-example": "Một vài yếu tố đã ảnh hưởng đến kết quả.",
+        "ipa-example": "/ˈsɛvrəl ˈfæktərz hæv ˈɪnfluənst ði ˈaʊtkʌm/"
+      },
+      {
+        "sentence": "Cost was a major factor.",
+        "meaning-example": "Chi phí là một yếu tố chính.",
+        "ipa-example": "/kɒst wəz ə ˈmeɪdʒər ˈfæktər/"
+      },
+      {
+        "sentence": "The environment was being a factor.",
+        "meaning-example": "Môi trường đang là một yếu tố.",
+        "ipa-example": "/ði ɪnˈvaɪrənmənt wəz ˈbiːɪŋ ə ˈfæktər/"
+      },
+      {
+        "sentence": "They had considered all factors.",
+        "meaning-example": "Họ đã xem xét tất cả các yếu tố.",
+        "ipa-example": "/ðeɪ hæd kənˈsɪdərd ɔːl ˈfæktərz/"
+      },
+      {
+        "sentence": "Health will be a factor.",
+        "meaning-example": "Sức khỏe sẽ là một yếu tố.",
+        "ipa-example": "/hɛlθ wɪl bi ə ˈfæktər/"
+      },
+      {
+        "sentence": "The economy will be being a factor.",
+        "meaning-example": "Nền kinh tế sẽ đang là một yếu tố.",
+        "ipa-example": "/ði ɪˈkɒnəmi wɪl bi ˈbiːɪŋ ə ˈfæktər/"
+      },
+      {
+        "sentence": "All factors will have been considered.",
+        "meaning-example": "Tất cả các yếu tố sẽ đã được xem xét.",
+        "ipa-example": "/ɔːl ˈfæktərz wɪl hæv bɪn kənˈsɪdərd/"
+      },
+      {
+        "sentence": "If a factor changes, the result changes.",
+        "meaning-example": "Nếu một yếu tố thay đổi, kết quả sẽ thay đổi.",
+        "ipa-example": "/ɪf ə ˈfæktər ˈʧeɪndʒɪz, ðə rɪˈzʌlt ˈʧeɪndʒɪz/"
+      },
+      {
+        "sentence": "Considering all factors is wise.",
+        "meaning-example": "Xem xét tất cả các yếu tố là khôn ngoan.",
+        "ipa-example": "/kənˈsɪdərɪŋ ɔːl ˈfæktərz ɪz waɪz/"
+      },
+      {
+        "sentence": "I want to understand every factor.",
+        "meaning-example": "Tôi muốn hiểu mọi yếu tố.",
+        "ipa-example": "/aɪ wɒnt tu ˌʌndərˈstænd ˈɛvri ˈfæktər/"
+      }
+    ]
+  },
+  {
+    "word": "genetic",
+    "ipa": "/dʒɪˈnɛtɪk/",
+    "meaning": "di truyền",
+    "image": "./eew-4-23/7.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "This is a genetic trait.",
+        "meaning-example": "Đây là một đặc điểm di truyền.",
+        "ipa-example": "/ðɪs ɪz ə dʒɪˈnɛtɪk treɪt/"
+      },
+      {
+        "sentence": "Scientists are studying genetic codes.",
+        "meaning-example": "Các nhà khoa học đang nghiên cứu mã di truyền.",
+        "ipa-example": "/ˈsaɪəntɪsts ɑːr ˈstʌdiɪŋ dʒɪˈnɛtɪk koʊdz/"
+      },
+      {
+        "sentence": "They have found genetic links.",
+        "meaning-example": "Họ đã tìm thấy các liên kết di truyền.",
+        "ipa-example": "/ðeɪ hæv faʊnd dʒɪˈnɛtɪk lɪŋks/"
+      },
+      {
+        "sentence": "The research involved genetic analysis.",
+        "meaning-example": "Nghiên cứu liên quan đến phân tích di truyền.",
+        "ipa-example": "/ðə rɪˈsɜːrʧ ɪnˈvɒlvd dʒɪˈnɛtɪk əˈnæləsɪs/"
+      },
+      {
+        "sentence": "They were examining genetic variations.",
+        "meaning-example": "Họ đang kiểm tra các biến thể di truyền.",
+        "ipa-example": "/ðeɪ wɜːr ɪɡˈzæmɪnɪŋ dʒɪˈnɛtɪk ˌvɛəriˈeɪʃənz/"
+      },
+      {
+        "sentence": "She had studied genetic diseases.",
+        "meaning-example": "Cô ấy đã nghiên cứu các bệnh di truyền.",
+        "ipa-example": "/ʃi hæd ˈstʌdiːd dʒɪˈnɛtɪk dɪˈziːzɪz/"
+      },
+      {
+        "sentence": "We will use genetic engineering.",
+        "meaning-example": "Chúng tôi sẽ sử dụng kỹ thuật di truyền.",
+        "ipa-example": "/wi wɪl juːz dʒɪˈnɛtɪk ˌɛndʒɪˈnɪərɪŋ/"
+      },
+      {
+        "sentence": "They will be studying genetic mutations.",
+        "meaning-example": "Họ sẽ đang nghiên cứu các đột biến di truyền.",
+        "ipa-example": "/ðeɪ wɪl bi ˈstʌdiɪŋ dʒɪˈnɛtɪk mjuːˈteɪʃənz/"
+      },
+      {
+        "sentence": "The genetic map will have been completed.",
+        "meaning-example": "Bản đồ di truyền sẽ đã được hoàn thành.",
+        "ipa-example": "/ðə dʒɪˈnɛtɪk mæp wɪl hæv bɪn kəmˈpliːtɪd/"
+      },
+      {
+        "sentence": "If it is genetic, it is inherited.",
+        "meaning-example": "Nếu nó là di truyền, nó được thừa hưởng.",
+        "ipa-example": "/ɪf ɪt ɪz dʒɪˈnɛtɪk, ɪt ɪz ɪnˈhɛrɪtɪd/"
+      },
+      {
+        "sentence": "Studying genetic material is complex.",
+        "meaning-example": "Nghiên cứu vật liệu di truyền rất phức tạp.",
+        "ipa-example": "/ˈstʌdiɪŋ dʒɪˈnɛtɪk məˈtɪəriəl ɪz ˈkɒmplɛks/"
+      },
+      {
+        "sentence": "I want to learn about genetic science.",
+        "meaning-example": "Tôi muốn tìm hiểu về khoa học di truyền.",
+        "ipa-example": "/aɪ wɒnt tu lɜːrn əˈbaʊt dʒɪˈnɛtɪk ˈsaɪəns/"
+      }
+    ]
+  },
+  {
+    "word": "genome",
+    "ipa": "/ˈdʒiːnoʊm/",
+    "meaning": "bộ gen",
+    "image": "./eew-4-23/8.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The human genome is vast.",
+        "meaning-example": "Bộ gen người rất rộng lớn.",
+        "ipa-example": "/ðə ˈhjuːmən ˈdʒiːnoʊm ɪz væst/"
+      },
+      {
+        "sentence": "Scientists are sequencing a genome.",
+        "meaning-example": "Các nhà khoa học đang giải trình tự bộ gen.",
+        "ipa-example": "/ˈsaɪəntɪsts ɑːr ˈsiːkwənsɪŋ ə ˈdʒiːnoʊm/"
+      },
+      {
+        "sentence": "They have mapped the genome.",
+        "meaning-example": "Họ đã lập bản đồ bộ gen.",
+        "ipa-example": "/ðeɪ hæv mæpt ðə ˈdʒiːnoʊm/"
+      },
+      {
+        "sentence": "He studied the plant genome.",
+        "meaning-example": "Anh ấy đã nghiên cứu bộ gen thực vật.",
+        "ipa-example": "/hi ˈstʌdiːd ðə plɑːnt ˈdʒiːnoʊm/"
+      },
+      {
+        "sentence": "We were analyzing the genome data.",
+        "meaning-example": "Chúng tôi đang phân tích dữ liệu bộ gen.",
+        "ipa-example": "/wi wɜːr ˈænəlaɪzɪŋ ðə ˈdʒiːnoʊm ˈdeɪtə/"
+      },
+      {
+        "sentence": "She had sequenced the genome before.",
+        "meaning-example": "Cô ấy đã giải trình tự bộ gen trước đây.",
+        "ipa-example": "/ʃi hæd ˈsiːkwənst ðə ˈdʒiːnoʊm bɪˈfɔːr/"
+      },
+      {
+        "sentence": "They will sequence the genome.",
+        "meaning-example": "Họ sẽ giải trình tự bộ gen.",
+        "ipa-example": "/ðeɪ wɪl ˈsiːkwəns ðə ˈdʒiːnoʊm/"
+      },
+      {
+        "sentence": "Scientists will be mapping the genome next year.",
+        "meaning-example": "Các nhà khoa học sẽ đang lập bản đồ bộ gen vào năm tới.",
+        "ipa-example": "/ˈsaɪəntɪsts wɪl bi ˈmæpɪŋ ðə ˈdʒiːnoʊm nɛkst jɪər/"
+      },
+      {
+        "sentence": "The genome project will have finished.",
+        "meaning-example": "Dự án bộ gen sẽ đã hoàn thành.",
+        "ipa-example": "/ðə ˈdʒiːnoʊm ˈprɒdʒɛkt wɪl hæv ˈfɪnɪʃt/"
+      },
+      {
+        "sentence": "If the genome is known, we understand more.",
+        "meaning-example": "Nếu bộ gen được biết, chúng ta sẽ hiểu rõ hơn.",
+        "ipa-example": "/ɪf ðə ˈdʒiːnoʊm ɪz noʊn, wi ˌʌndərˈstænd mɔːr/"
+      },
+      {
+        "sentence": "Sequencing a genome is a big task.",
+        "meaning-example": "Giải trình tự bộ gen là một nhiệm vụ lớn.",
+        "ipa-example": "/ˈsiːkwənsɪŋ ə ˈdʒiːnoʊm ɪz ə bɪɡ tɑːsk/"
+      },
+      {
+        "sentence": "I want to study the genome.",
+        "meaning-example": "Tôi muốn nghiên cứu bộ gen.",
+        "ipa-example": "/aɪ wɒnt tu ˈstʌdi ðə ˈdʒiːnoʊm/"
+      }
+    ]
+  },
+  {
+    "word": "identical",
+    "ipa": "/aɪˈdɛntɪkəl/",
+    "meaning": "giống hệt",
+    "image": "./eew-4-23/9.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "These two are identical.",
+        "meaning-example": "Hai cái này giống hệt nhau.",
+        "ipa-example": "/ðiz tuː ɑːr aɪˈdɛntɪkəl/"
+      },
+      {
+        "sentence": "They are making identical copies.",
+        "meaning-example": "Họ đang tạo ra các bản sao giống hệt.",
+        "ipa-example": "/ðeɪ ɑːr ˈmeɪkɪŋ aɪˈdɛntɪkəl ˈkɒpiz/"
+      },
+      {
+        "sentence": "We have found identical twins.",
+        "meaning-example": "Chúng tôi đã tìm thấy cặp song sinh giống hệt.",
+        "ipa-example": "/wi hæv faʊnd aɪˈdɛntɪkəl twɪnz/"
+      },
+      {
+        "sentence": "The results were identical.",
+        "meaning-example": "Kết quả giống hệt nhau.",
+        "ipa-example": "/ðə rɪˈzʌlts wɜːr aɪˈdɛntɪkəl/"
+      },
+      {
+        "sentence": "They were creating identical patterns.",
+        "meaning-example": "Họ đang tạo ra các mẫu giống hệt.",
+        "ipa-example": "/ðeɪ wɜːr kriˈeɪtɪŋ aɪˈdɛntɪkəl ˈpætərnz/"
+      },
+      {
+        "sentence": "She had made them identical.",
+        "meaning-example": "Cô ấy đã làm cho chúng giống hệt nhau.",
+        "ipa-example": "/ʃi hæd meɪd ðɛm aɪˈdɛntɪkəl/"
+      },
+      {
+        "sentence": "The new version will be identical.",
+        "meaning-example": "Phiên bản mới sẽ giống hệt.",
+        "ipa-example": "/ðə njuː ˈvɜːrʒən wɪl bi aɪˈdɛntɪkəl/"
+      },
+      {
+        "sentence": "They will be making identical parts.",
+        "meaning-example": "Họ sẽ đang làm các bộ phận giống hệt.",
+        "ipa-example": "/ðeɪ wɪl bi ˈmeɪkɪŋ aɪˈdɛntɪkəl pɑːrts/"
+      },
+      {
+        "sentence": "The copies will have been identical.",
+        "meaning-example": "Các bản sao sẽ đã giống hệt.",
+        "ipa-example": "/ðə ˈkɒpiz wɪl hæv bɪn aɪˈdɛntɪkəl/"
+      },
+      {
+        "sentence": "If they are identical, you can't tell them apart.",
+        "meaning-example": "Nếu chúng giống hệt, bạn không thể phân biệt được.",
+        "ipa-example": "/ɪf ðeɪ ɑːr aɪˈdɛntɪkəl, ju kænt tɛl ðɛm əˈpɑːrt/"
+      },
+      {
+        "sentence": "Making things identical is hard.",
+        "meaning-example": "Làm cho mọi thứ giống hệt rất khó.",
+        "ipa-example": "/ˈmeɪkɪŋ θɪŋz aɪˈdɛntɪkəl ɪz hɑːrd/"
+      },
+      {
+        "sentence": "I want to find an identical match.",
+        "meaning-example": "Tôi muốn tìm một cái giống hệt.",
+        "ipa-example": "/aɪ wɒnt tu faɪnd ən aɪˈdɛntɪkəl mæʧ/"
+      }
+    ]
+  },
+  {
+    "word": "intellectual",
+    "ipa": "/ˌɪntəˈlɛktʃuəl/",
+    "meaning": "trí thức",
+    "image": "./eew-4-23/10.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "He is an intellectual.",
+        "meaning-example": "Anh ấy là một trí thức.",
+        "ipa-example": "/hi ɪz ən ˌɪntəˈlɛktʃuəl/"
+      },
+      {
+        "sentence": "She is becoming an intellectual.",
+        "meaning-example": "Cô ấy đang trở thành một trí thức.",
+        "ipa-example": "/ʃi ɪz bɪˈkʌmɪŋ ən ˌɪntəˈlɛktʃuəl/"
+      },
+      {
+        "sentence": "They have been intellectuals for years.",
+        "meaning-example": "Họ đã là những trí thức trong nhiều năm.",
+        "ipa-example": "/ðeɪ hæv bɪn ˌɪntəˈlɛktʃuəlz fɔːr jɪərz/"
+      },
+      {
+        "sentence": "He was a respected intellectual.",
+        "meaning-example": "Ông ấy là một trí thức được kính trọng.",
+        "ipa-example": "/hi wəz ə rɪˈspɛktɪd ˌɪntəˈlɛktʃuəl/"
+      },
+      {
+        "sentence": "They were being intellectuals.",
+        "meaning-example": "Họ đã là những trí thức.",
+        "ipa-example": "/ðeɪ wɜːr ˈbiːɪŋ ˌɪntəˈlɛktʃuəlz/"
+      },
+      {
+        "sentence": "She had become an intellectual.",
+        "meaning-example": "Cô ấy đã trở thành một trí thức.",
+        "ipa-example": "/ʃi hæd bɪˈkʌm ən ˌɪntəˈlɛktʃuəl/"
+      },
+      {
+        "sentence": "He will be an intellectual leader.",
+        "meaning-example": "Anh ấy sẽ là một nhà lãnh đạo trí thức.",
+        "ipa-example": "/hi wɪl bi ən ˌɪntəˈlɛktʃuəl ˈliːdər/"
+      },
+      {
+        "sentence": "They will be becoming intellectuals.",
+        "meaning-example": "Họ sẽ đang trở thành những trí thức.",
+        "ipa-example": "/ðeɪ wɪl bi bɪˈkʌmɪŋ ˌɪntəˈlɛktʃuəlz/"
+      },
+      {
+        "sentence": "She will have become a leading intellectual.",
+        "meaning-example": "Cô ấy sẽ đã trở thành một trí thức hàng đầu.",
+        "ipa-example": "/ʃi wɪl hæv bɪˈkʌm ə ˈliːdɪŋ ˌɪntəˈlɛktʃuəl/"
+      },
+      {
+        "sentence": "If you are an intellectual, you think deeply.",
+        "meaning-example": "Nếu bạn là một trí thức, bạn suy nghĩ sâu sắc.",
+        "ipa-example": "/ɪf ju ɑːr ən ˌɪntəˈlɛktʃuəl, ju θɪŋk ˈdiːpli/"
+      },
+      {
+        "sentence": "Being an intellectual requires study.",
+        "meaning-example": "Trở thành một trí thức đòi hỏi học tập.",
+        "ipa-example": "/ˈbiːɪŋ ən ˌɪntəˈlɛktʃuəl rɪˈkwaɪərz ˈstʌdi/"
+      },
+      {
+        "sentence": "I want to be an intellectual.",
+        "meaning-example": "Tôi muốn trở thành một trí thức.",
+        "ipa-example": "/aɪ wɒnt tu bi ən ˌɪntəˈlɛktʃuəl/"
+      }
+    ]
+  },
+  {
+    "word": "majority",
+    "ipa": "/məˈdʒɒrəti/",
+    "meaning": "đa số",
+    "image": "./eew-4-23/11.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The majority agrees.",
+        "meaning-example": "Đa số đồng ý.",
+        "ipa-example": "/ðə məˈdʒɒrəti əˈɡriːz/"
+      },
+      {
+        "sentence": "The majority is voting now.",
+        "meaning-example": "Đa số đang bỏ phiếu bây giờ.",
+        "ipa-example": "/ðə məˈdʒɒrəti ɪz ˈvoʊtɪŋ naʊ/"
+      },
+      {
+        "sentence": "The majority has decided.",
+        "meaning-example": "Đa số đã quyết định.",
+        "ipa-example": "/ðə məˈdʒɒrəti hæz dɪˈsaɪdɪd/"
+      },
+      {
+        "sentence": "The majority voted yes.",
+        "meaning-example": "Đa số đã bỏ phiếu đồng ý.",
+        "ipa-example": "/ðə məˈdʒɒrəti ˈvoʊtɪd jɛs/"
+      },
+      {
+        "sentence": "The majority was supporting the idea.",
+        "meaning-example": "Đa số đã ủng hộ ý tưởng.",
+        "ipa-example": "/ðə məˈdʒɒrəti wəz səˈpɔːrtɪŋ ði aɪˈdɪə/"
+      },
+      {
+        "sentence": "The majority had left.",
+        "meaning-example": "Đa số đã rời đi.",
+        "ipa-example": "/ðə məˈdʒɒrəti hæd lɛft/"
+      },
+      {
+        "sentence": "The majority will win.",
+        "meaning-example": "Đa số sẽ thắng.",
+        "ipa-example": "/ðə məˈdʒɒrəti wɪl wɪn/"
+      },
+      {
+        "sentence": "The majority will be voting tomorrow.",
+        "meaning-example": "Đa số sẽ đang bỏ phiếu vào ngày mai.",
+        "ipa-example": "/ðə məˈdʒɒrəti wɪl bi ˈvoʊtɪŋ təˈmɒroʊ/"
+      },
+      {
+        "sentence": "The majority will have arrived by noon.",
+        "meaning-example": "Đa số sẽ đã đến trước buổi trưa.",
+        "ipa-example": "/ðə məˈdʒɒrəti wɪl hæv əˈraɪvd baɪ nuːn/"
+      },
+      {
+        "sentence": "If the majority votes, the decision is made.",
+        "meaning-example": "Nếu đa số bỏ phiếu, quyết định sẽ được đưa ra.",
+        "ipa-example": "/ɪf ðə məˈdʒɒrəti ˈvoʊts, ðə dɪˈsɪʒən ɪz meɪd/"
+      },
+      {
+        "sentence": "Representing the majority is important.",
+        "meaning-example": "Đại diện cho đa số là quan trọng.",
+        "ipa-example": "/ˌrɛprɪˈzɛntɪŋ ðə məˈdʒɒrəti ɪz ɪmˈpɔːrtənt/"
+      },
+      {
+        "sentence": "I want to be part of the majority.",
+        "meaning-example": "Tôi muốn là một phần của đa số.",
+        "ipa-example": "/aɪ wɒnt tu bi pɑːrt əv ðə məˈdʒɒrəti/"
+      }
+    ]
+  },
+  {
+    "word": "mammal",
+    "ipa": "/ˈmæməl/",
+    "meaning": "động vật có vú",
+    "image": "./eew-4-23/12.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A dog is a mammal.",
+        "meaning-example": "Chó là một loài động vật có vú.",
+        "ipa-example": "/ə dɒɡ ɪz ə ˈmæməl/"
+      },
+      {
+        "sentence": "Scientists are studying a new mammal species.",
+        "meaning-example": "Các nhà khoa học đang nghiên cứu một loài động vật có vú mới.",
+        "ipa-example": "/ˈsaɪəntɪsts ɑːr ˈstʌdiɪŋ ə njuː ˈmæməl ˈspiːʃiːz/"
+      },
+      {
+        "sentence": "They have discovered a rare mammal.",
+        "meaning-example": "Họ đã phát hiện một loài động vật có vú quý hiếm.",
+        "ipa-example": "/ðeɪ hæv dɪˈskʌvərd ə rɛər ˈmæməl/"
+      },
+      {
+        "sentence": "We saw a large mammal yesterday.",
+        "meaning-example": "Chúng tôi đã thấy một loài động vật có vú lớn hôm qua.",
+        "ipa-example": "/wi sɔː ə lɑːrdʒ ˈmæməl ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "They were observing the mammals.",
+        "meaning-example": "Họ đang quan sát các loài động vật có vú.",
+        "ipa-example": "/ðeɪ wɜːr əbˈzɜːrvɪŋ ðə ˈmæməlz/"
+      },
+      {
+        "sentence": "She had studied marine mammals.",
+        "meaning-example": "Cô ấy đã nghiên cứu các loài động vật có vú biển.",
+        "ipa-example": "/ʃi hæd ˈstʌdiːd məˈriːn ˈmæməlz/"
+      },
+      {
+        "sentence": "We will see many mammals on the trip.",
+        "meaning-example": "Chúng tôi sẽ thấy nhiều loài động vật có vú trong chuyến đi.",
+        "ipa-example": "/wi wɪl siː ˈmɛni ˈmæməlz ɒn ðə trɪp/"
+      },
+      {
+        "sentence": "They will be tracking the mammal migration.",
+        "meaning-example": "Họ sẽ đang theo dõi sự di cư của động vật có vú.",
+        "ipa-example": "/ðeɪ wɪl bi ˈtrækɪŋ ðə ˈmæməl maɪˈɡreɪʃən/"
+      },
+      {
+        "sentence": "The mammal population will have increased.",
+        "meaning-example": "Số lượng động vật có vú sẽ đã tăng lên.",
+        "ipa-example": "/ðə ˈmæməl ˌpɒpjʊˈleɪʃən wɪl hæv ɪnˈkriːst/"
+      },
+      {
+        "sentence": "If it is a mammal, it has fur.",
+        "meaning-example": "Nếu nó là động vật có vú, nó có lông.",
+        "ipa-example": "/ɪf ɪt ɪz ə ˈmæməl, ɪt hæz fɜːr/"
+      },
+      {
+        "sentence": "Studying mammals is interesting.",
+        "meaning-example": "Nghiên cứu động vật có vú rất thú vị.",
+        "ipa-example": "/ˈstʌdiɪŋ ˈmæməlz ɪz ˈɪntrəstɪŋ/"
+      },
+      {
+        "sentence": "I want to see a wild mammal.",
+        "meaning-example": "Tôi muốn thấy một loài động vật có vú hoang dã.",
+        "ipa-example": "/aɪ wɒnt tu siː ə waɪld ˈmæməl/"
+      }
+    ]
+  },
+  {
+    "word": "multiply",
+    "ipa": "/ˈmʌltɪplaɪ/",
+    "meaning": "nhân lên, sinh sôi nảy nở",
+    "image": "./eew-4-23/13.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Rabbits multiply fast.",
+        "meaning-example": "Thỏ sinh sôi nhanh.",
+        "ipa-example": "/ˈræbɪts ˈmʌltɪplaɪ fæst/"
+      },
+      {
+        "sentence": "The bacteria are multiplying.",
+        "meaning-example": "Vi khuẩn đang nhân lên.",
+        "ipa-example": "/ðə bækˈtɪəriə ɑːr ˈmʌltɪplaɪɪŋ/"
+      },
+      {
+        "sentence": "They have multiplied their efforts.",
+        "meaning-example": "Họ đã nhân đôi nỗ lực của mình.",
+        "ipa-example": "/ðeɪ hæv ˈmʌltɪplaɪd ðɛər ˈɛfərts/"
+      },
+      {
+        "sentence": "The cells multiplied rapidly.",
+        "meaning-example": "Các tế bào nhân lên nhanh chóng.",
+        "ipa-example": "/ðə sɛlz ˈmʌltɪplaɪd ˈræpɪdli/"
+      },
+      {
+        "sentence": "The numbers were multiplying.",
+        "meaning-example": "Các con số đang nhân lên.",
+        "ipa-example": "/ðə ˈnʌmbərz wɜːr ˈmʌltɪplaɪɪŋ/"
+      },
+      {
+        "sentence": "The population had multiplied.",
+        "meaning-example": "Dân số đã nhân lên.",
+        "ipa-example": "/ðə ˌpɒpjʊˈleɪʃən hæd ˈmʌltɪplaɪd/"
+      },
+      {
+        "sentence": "The plants will multiply.",
+        "meaning-example": "Các loài cây sẽ sinh sôi.",
+        "ipa-example": "/ðə plɑːnts wɪl ˈmʌltɪplaɪ/"
+      },
+      {
+        "sentence": "The insects will be multiplying soon.",
+        "meaning-example": "Côn trùng sẽ sớm sinh sôi.",
+        "ipa-example": "/ði ˈɪnsɛkts wɪl bi ˈmʌltɪplaɪɪŋ suːn/"
+      },
+      {
+        "sentence": "The value will have multiplied by then.",
+        "meaning-example": "Giá trị sẽ đã nhân lên vào lúc đó.",
+        "ipa-example": "/ðə ˈvæljuː wɪl hæv ˈmʌltɪplaɪd baɪ ðɛn/"
+      },
+      {
+        "sentence": "If you multiply two by two, you get four.",
+        "meaning-example": "Nếu bạn nhân hai với hai, bạn sẽ được bốn.",
+        "ipa-example": "/ɪf ju ˈmʌltɪplaɪ tuː baɪ tuː, ju ɡɛt fɔːr/"
+      },
+      {
+        "sentence": "Multiplying numbers is easy.",
+        "meaning-example": "Nhân số rất dễ.",
+        "ipa-example": "/ˈmʌltɪplaɪɪŋ ˈnʌmbərz ɪz ˈiːzi/"
+      },
+      {
+        "sentence": "I want to multiply my savings.",
+        "meaning-example": "Tôi muốn nhân số tiền tiết kiệm của mình lên.",
+        "ipa-example": "/aɪ wɒnt tu ˈmʌltɪplaɪ maɪ ˈseɪvɪŋz/"
+      }
+    ]
+  },
+  {
+    "word": "offspring",
+    "ipa": "/ˈɒfsprɪŋ/",
+    "meaning": "con cái, hậu duệ",
+    "image": "./eew-4-23/14.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The animal produces offspring.",
+        "meaning-example": "Con vật sinh ra con cái.",
+        "ipa-example": "/ði ˈænɪməl prəˈdjuːsɪz ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "She is raising her offspring.",
+        "meaning-example": "Cô ấy đang nuôi con cái của mình.",
+        "ipa-example": "/ʃi ɪz ˈreɪzɪŋ hɜːr ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "They have produced many offspring.",
+        "meaning-example": "Họ đã sinh ra nhiều con cái.",
+        "ipa-example": "/ðeɪ hæv prəˈdjuːst ˈmɛni ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "The plant produced offspring.",
+        "meaning-example": "Cây đã sinh ra con.",
+        "ipa-example": "/ðə plɑːnt prəˈdjuːst ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "The birds were feeding their offspring.",
+        "meaning-example": "Những con chim đang cho con của chúng ăn.",
+        "ipa-example": "/ðə bɜːrdz wɜːr ˈfiːdɪŋ ðɛər ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "She had protected her offspring.",
+        "meaning-example": "Cô ấy đã bảo vệ con cái của mình.",
+        "ipa-example": "/ʃi hæd prəˈtɛktɪd hɜːr ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "The fish will produce offspring.",
+        "meaning-example": "Cá sẽ sinh sản.",
+        "ipa-example": "/ðə fɪʃ wɪl prəˈdjuːs ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "They will be raising their offspring.",
+        "meaning-example": "Họ sẽ đang nuôi con cái của mình.",
+        "ipa-example": "/ðeɪ wɪl bi ˈreɪzɪŋ ðɛər ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "The species will have produced offspring.",
+        "meaning-example": "Loài này sẽ đã sinh sản.",
+        "ipa-example": "/ðə ˈspiːʃiːz wɪl hæv prəˈdjuːst ˈɒfsprɪŋ/"
+      },
+      {
+        "sentence": "If an animal has offspring, it reproduces.",
+        "meaning-example": "Nếu một con vật có con cái, nó sẽ sinh sản.",
+        "ipa-example": "/ɪf ən ˈænɪməl hæz ˈɒfsprɪŋ, ɪt ˌriːprəˈdjuːsɪz/"
+      },
+      {
+        "sentence": "Raising offspring takes effort.",
+        "meaning-example": "Nuôi con cái cần nỗ lực.",
+        "ipa-example": "/ˈreɪzɪŋ ˈɒfsprɪŋ teɪks ˈɛfərt/"
+      },
+      {
+        "sentence": "I want to see the offspring.",
+        "meaning-example": "Tôi muốn xem con cái.",
+        "ipa-example": "/aɪ wɒnt tu siː ði ˈɒfsprɪŋ/"
+      }
+    ]
+  },
+  {
+    "word": "pesticide",
+    "ipa": "/ˈpɛstɪsaɪd/",
+    "meaning": "thuốc trừ sâu",
+    "image": "./eew-4-23/15.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Farmers use pesticides.",
+        "meaning-example": "Nông dân sử dụng thuốc trừ sâu.",
+        "ipa-example": "/ˈfɑːrmərz juːz ˈpɛstɪsaɪdz/"
+      },
+      {
+        "sentence": "They are applying pesticide now.",
+        "meaning-example": "Họ đang phun thuốc trừ sâu bây giờ.",
+        "ipa-example": "/ðeɪ ɑːr əˈplaɪɪŋ ˈpɛstɪsaɪd naʊ/"
+      },
+      {
+        "sentence": "We have used pesticides before.",
+        "meaning-example": "Chúng tôi đã sử dụng thuốc trừ sâu trước đây.",
+        "ipa-example": "/wi hæv juːzd ˈpɛstɪsaɪdz bɪˈfɔːr/"
+      },
+      {
+        "sentence": "He sprayed pesticide yesterday.",
+        "meaning-example": "Anh ấy đã phun thuốc trừ sâu hôm qua.",
+        "ipa-example": "/hi spreɪd ˈpɛstɪsaɪd ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "They were using pesticide when I arrived.",
+        "meaning-example": "Họ đang sử dụng thuốc trừ sâu khi tôi đến.",
+        "ipa-example": "/ðeɪ wɜːr ˈjuːzɪŋ ˈpɛstɪsaɪd wɛn aɪ əˈraɪvd/"
+      },
+      {
+        "sentence": "She had applied pesticide earlier.",
+        "meaning-example": "Cô ấy đã phun thuốc trừ sâu sớm hơn.",
+        "ipa-example": "/ʃi hæd əˈplaɪd ˈpɛstɪsaɪd ˈɜːrliər/"
+      },
+      {
+        "sentence": "We will buy pesticide tomorrow.",
+        "meaning-example": "Chúng tôi sẽ mua thuốc trừ sâu vào ngày mai.",
+        "ipa-example": "/wi wɪl baɪ ˈpɛstɪsaɪd təˈmɒroʊ/"
+      },
+      {
+        "sentence": "They will be using pesticide next week.",
+        "meaning-example": "Họ sẽ đang sử dụng thuốc trừ sâu vào tuần tới.",
+        "ipa-example": "/ðeɪ wɪl bi ˈjuːzɪŋ ˈpɛstɪsaɪd nɛkst wiːk/"
+      },
+      {
+        "sentence": "The crops will have been treated with pesticide.",
+        "meaning-example": "Cây trồng sẽ đã được xử lý bằng thuốc trừ sâu.",
+        "ipa-example": "/ðə krɒps wɪl hæv bɪn ˈtriːtɪd wɪð ˈpɛstɪsaɪd/"
+      },
+      {
+        "sentence": "If you use pesticide, be careful.",
+        "meaning-example": "Nếu bạn sử dụng thuốc trừ sâu, hãy cẩn thận.",
+        "ipa-example": "/ɪf ju juːz ˈpɛstɪsaɪd, bi ˈkɛrfəl/"
+      },
+      {
+        "sentence": "Using pesticide can be harmful.",
+        "meaning-example": "Sử dụng thuốc trừ sâu có thể gây hại.",
+        "ipa-example": "/ˈjuːzɪŋ ˈpɛstɪsaɪd kæn bi ˈhɑːrmfəl/"
+      },
+      {
+        "sentence": "I want to avoid pesticide.",
+        "meaning-example": "Tôi muốn tránh thuốc trừ sâu.",
+        "ipa-example": "/aɪ wɒnt tu əˈvɔɪd ˈpɛstɪsaɪd/"
+      }
+    ]
+  },
+  {
+    "word": "regulate",
+    "ipa": "/ˈrɛɡjʊleɪt/",
+    "meaning": "điều chỉnh",
+    "image": "./eew-4-23/16.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The government regulates industries.",
+        "meaning-example": "Chính phủ điều chỉnh các ngành công nghiệp.",
+        "ipa-example": "/ðə ˈɡʌvərnmənt ˈrɛɡjʊleɪts ˈɪndəstriz/"
+      },
+      {
+        "sentence": "She is regulating the temperature.",
+        "meaning-example": "Cô ấy đang điều chỉnh nhiệt độ.",
+        "ipa-example": "/ʃi ɪz ˈrɛɡjʊleɪtɪŋ ðə ˈtɛmprəʧər/"
+      },
+      {
+        "sentence": "They have regulated the market.",
+        "meaning-example": "Họ đã điều chỉnh thị trường.",
+        "ipa-example": "/ðeɪ hæv ˈrɛɡjʊleɪtɪd ðə ˈmɑːrkɪt/"
+      },
+      {
+        "sentence": "He regulated the flow of traffic.",
+        "meaning-example": "Anh ấy đã điều chỉnh luồng giao thông.",
+        "ipa-example": "/hi ˈrɛɡjʊleɪtɪd ðə floʊ əv ˈtræfɪk/"
+      },
+      {
+        "sentence": "We were regulating the pressure.",
+        "meaning-example": "Chúng tôi đang điều chỉnh áp suất.",
+        "ipa-example": "/wi wɜːr ˈrɛɡjʊleɪtɪŋ ðə ˈprɛʃər/"
+      },
+      {
+        "sentence": "She had regulated the system.",
+        "meaning-example": "Cô ấy đã điều chỉnh hệ thống.",
+        "ipa-example": "/ʃi hæd ˈrɛɡjʊleɪtɪd ðə ˈsɪstəm/"
+      },
+      {
+        "sentence": "The new law will regulate pollution.",
+        "meaning-example": "Luật mới sẽ điều chỉnh ô nhiễm.",
+        "ipa-example": "/ðə njuː lɔː wɪl ˈrɛɡjʊleɪt pəˈluːʃən/"
+      },
+      {
+        "sentence": "They will be regulating the process.",
+        "meaning-example": "Họ sẽ đang điều chỉnh quy trình.",
+        "ipa-example": "/ðeɪ wɪl bi ˈrɛɡjʊleɪtɪŋ ðə ˈprɒsɛs/"
+      },
+      {
+        "sentence": "The rules will have regulated the activity.",
+        "meaning-example": "Các quy tắc sẽ đã điều chỉnh hoạt động.",
+        "ipa-example": "/ðə ruːlz wɪl hæv ˈrɛɡjʊleɪtɪd ði ækˈtɪvɪti/"
+      },
+      {
+        "sentence": "If you regulate the speed, it is safer.",
+        "meaning-example": "Nếu bạn điều chỉnh tốc độ, nó sẽ an toàn hơn.",
+        "ipa-example": "/ɪf ju ˈrɛɡjʊleɪt ðə spiːd, ɪt ɪz ˈseɪfər/"
+      },
+      {
+        "sentence": "Regulating emissions is important.",
+        "meaning-example": "Điều chỉnh khí thải là quan trọng.",
+        "ipa-example": "/ˈrɛɡjʊleɪtɪŋ ɪˈmɪʃənz ɪz ɪmˈpɔːrtənt/"
+      },
+      {
+        "sentence": "I want to regulate my sleep schedule.",
+        "meaning-example": "Tôi muốn điều chỉnh lịch ngủ của mình.",
+        "ipa-example": "/aɪ wɒnt tu ˈrɛɡjʊleɪt maɪ sliːp ˈʃɛdjuːl/"
+      }
+    ]
+  },
+  {
+    "word": "reinforce",
+    "ipa": "/ˌriːɪnˈfɔːrs/",
+    "meaning": "củng cố",
+    "image": "./eew-4-23/17.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The evidence reinforces the theory.",
+        "meaning-example": "Bằng chứng củng cố lý thuyết.",
+        "ipa-example": "/ðɪ ˈɛvɪdəns ˌriːɪnˈfɔːrsɪz ðə ˈθɪəri/"
+      },
+      {
+        "sentence": "They are reinforcing the structure.",
+        "meaning-example": "Họ đang củng cố cấu trúc.",
+        "ipa-example": "/ðeɪ ɑːr ˌriːɪnˈfɔːrsɪŋ ðə ˈstrʌkʧər/"
+      },
+      {
+        "sentence": "She has reinforced her argument.",
+        "meaning-example": "Cô ấy đã củng cố lập luận của mình.",
+        "ipa-example": "/ʃi hæz ˌriːɪnˈfɔːrst hɜːr ˈɑːrɡjʊmənt/"
+      },
+      {
+        "sentence": "He reinforced the wall.",
+        "meaning-example": "Anh ấy đã củng cố bức tường.",
+        "ipa-example": "/hi ˌriːɪnˈfɔːrst ðə wɔːl/"
+      },
+      {
+        "sentence": "We were reinforcing the idea.",
+        "meaning-example": "Chúng tôi đang củng cố ý tưởng.",
+        "ipa-example": "/wi wɜːr ˌriːɪnˈfɔːrsɪŋ ði aɪˈdɪə/"
+      },
+      {
+        "sentence": "They had reinforced their position.",
+        "meaning-example": "Họ đã củng cố vị trí của mình.",
+        "ipa-example": "/ðeɪ hæd ˌriːɪnˈfɔːrst ðɛər pəˈzɪʃən/"
+      },
+      {
+        "sentence": "This will reinforce the message.",
+        "meaning-example": "Điều này sẽ củng cố thông điệp.",
+        "ipa-example": "/ðɪs wɪl ˌriːɪnˈfɔːrs ðə ˈmɛsɪdʒ/"
+      },
+      {
+        "sentence": "They will be reinforcing the bridge.",
+        "meaning-example": "Họ sẽ đang củng cố cây cầu.",
+        "ipa-example": "/ðeɪ wɪl bi ˌriːɪnˈfɔːrsɪŋ ðə brɪdʒ/"
+      },
+      {
+        "sentence": "The point will have been reinforced.",
+        "meaning-example": "Điểm này sẽ đã được củng cố.",
+        "ipa-example": "/ðə pɔɪnt wɪl hæv bɪn ˌriːɪnˈfɔːrst/"
+      },
+      {
+        "sentence": "If you reinforce the support, it is stronger.",
+        "meaning-example": "Nếu bạn củng cố sự hỗ trợ, nó sẽ mạnh mẽ hơn.",
+        "ipa-example": "/ɪf ju ˌriːɪnˈfɔːrs ðə səˈpɔːrt, ɪt ɪz ˈstrɔːŋər/"
+      },
+      {
+        "sentence": "Reinforcing good habits is beneficial.",
+        "meaning-example": "Củng cố thói quen tốt rất có lợi.",
+        "ipa-example": "/ˌriːɪnˈfɔːrsɪŋ ɡʊd ˈhæbɪts ɪz ˌbɛnɪˈfɪʃəl/"
+      },
+      {
+        "sentence": "I want to reinforce my understanding.",
+        "meaning-example": "Tôi muốn củng cố sự hiểu biết của mình.",
+        "ipa-example": "/aɪ wɒnt tu ˌriːɪnˈfɔːrs maɪ ˌʌndərˈstændɪŋ/"
+      }
+    ]
+  },
+  {
+    "word": "stricken",
+    "ipa": "/ˈstrɪkən/",
+    "meaning": "bị ảnh hưởng nặng nề (bởi bệnh tật)",
+    "image": "./eew-4-23/18.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "He is often stricken with colds.",
+        "meaning-example": "Anh ấy thường bị cảm lạnh nặng.",
+        "ipa-example": "/hi ɪz ˈɒfən ˈstrɪkən wɪð koʊldz/"
+      },
+      {
+        "sentence": "The area is being stricken by drought.",
+        "meaning-example": "Khu vực đang bị ảnh hưởng nặng nề bởi hạn hán.",
+        "ipa-example": "/ði ˈɛəriə ɪz ˈbiːɪŋ ˈstrɪkən baɪ draʊt/"
+      },
+      {
+        "sentence": "They have been stricken by misfortune.",
+        "meaning-example": "Họ đã bị ảnh hưởng nặng nề bởi bất hạnh.",
+        "ipa-example": "/ðeɪ hæv bɪn ˈstrɪkən baɪ mɪsˈfɔːrʧən/"
+      },
+      {
+        "sentence": "She was stricken with grief.",
+        "meaning-example": "Cô ấy bị ảnh hưởng nặng nề bởi nỗi đau.",
+        "ipa-example": "/ʃi wəz ˈstrɪkən wɪð ɡriːf/"
+      },
+      {
+        "sentence": "The region was being stricken by famine.",
+        "meaning-example": "Khu vực đang bị ảnh hưởng nặng nề bởi nạn đói.",
+        "ipa-example": "/ðə ˈriːdʒən wəz ˈbiːɪŋ ˈstrɪkən baɪ ˈfæmɪn/"
+      },
+      {
+        "sentence": "He had been stricken by illness before.",
+        "meaning-example": "Anh ấy đã từng bị ảnh hưởng nặng nề bởi bệnh tật trước đây.",
+        "ipa-example": "/hi hæd bɪn ˈstrɪkən baɪ ˈɪlnəs bɪˈfɔːr/"
+      },
+      {
+        "sentence": "They will be stricken by the news.",
+        "meaning-example": "Họ sẽ bị ảnh hưởng nặng nề bởi tin tức.",
+        "ipa-example": "/ðeɪ wɪl bi ˈstrɪkən baɪ ðə njuːz/"
+      },
+      {
+        "sentence": "The population will be being stricken by the virus.",
+        "meaning-example": "Dân số sẽ đang bị ảnh hưởng nặng nề bởi virus.",
+        "ipa-example": "/ðə ˌpɒpjʊˈleɪʃən wɪl bi ˈbiːɪŋ ˈstrɪkən baɪ ðə ˈvaɪrəs/"
+      },
+      {
+        "sentence": "The city will have been stricken by the storm.",
+        "meaning-example": "Thành phố sẽ đã bị ảnh hưởng nặng nề bởi cơn bão.",
+        "ipa-example": "/ðə ˈsɪti wɪl hæv bɪn ˈstrɪkən baɪ ðə stɔːrm/"
+      },
+      {
+        "sentence": "If you are stricken, you need help.",
+        "meaning-example": "Nếu bạn bị ảnh hưởng nặng nề, bạn cần giúp đỡ.",
+        "ipa-example": "/ɪf ju ɑːr ˈstrɪkən, ju niːd hɛlp/"
+      },
+      {
+        "sentence": "Being stricken by poverty is hard.",
+        "meaning-example": "Bị ảnh hưởng nặng nề bởi nghèo đói rất khó khăn.",
+        "ipa-example": "/ˈbiːɪŋ ˈstrɪkən baɪ ˈpɒvərti ɪz hɑːrd/"
+      },
+      {
+        "sentence": "I want to avoid being stricken by illness.",
+        "meaning-example": "Tôi muốn tránh bị ảnh hưởng nặng nề bởi bệnh tật.",
+        "ipa-example": "/aɪ wɒnt tu əˈvɔɪd ˈbiːɪŋ ˈstrɪkən baɪ ˈɪlnəs/"
+      }
+    ]
+  },
+  {
+    "word": "vast",
+    "ipa": "/væst/",
+    "meaning": "rộng lớn, đông đảo",
+    "image": "./eew-4-23/19.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The ocean is vast.",
+        "meaning-example": "Đại dương rất rộng lớn.",
+        "ipa-example": "/ði ˈoʊʃən ɪz væst/"
+      },
+      {
+        "sentence": "They are exploring a vast area.",
+        "meaning-example": "Họ đang khám phá một khu vực rộng lớn.",
+        "ipa-example": "/ðeɪ ɑːr ɪkˈsplɔːrɪŋ ə væst ˈɛəriə/"
+      },
+      {
+        "sentence": "We have seen vast landscapes.",
+        "meaning-example": "Chúng tôi đã thấy những cảnh quan rộng lớn.",
+        "ipa-example": "/wi hæv siːn væst ˈlænskeɪps/"
+      },
+      {
+        "sentence": "The desert was vast.",
+        "meaning-example": "Sa mạc rất rộng lớn.",
+        "ipa-example": "/ðə ˈdɛzərt wəz væst/"
+      },
+      {
+        "sentence": "They were crossing a vast plain.",
+        "meaning-example": "Họ đang băng qua một đồng bằng rộng lớn.",
+        "ipa-example": "/ðeɪ wɜːr ˈkrɒsɪŋ ə væst pleɪn/"
+      },
+      {
+        "sentence": "She had traveled across a vast distance.",
+        "meaning-example": "Cô ấy đã đi qua một khoảng cách rất xa.",
+        "ipa-example": "/ʃi hæd ˈtrævəld əˈkrɒs ə væst ˈdɪstəns/"
+      },
+      {
+        "sentence": "The universe will seem vast.",
+        "meaning-example": "Vũ trụ sẽ có vẻ rộng lớn.",
+        "ipa-example": "/ðə ˈjuːnɪvɜːrs wɪl siːm væst/"
+      },
+      {
+        "sentence": "They will be exploring a vast territory.",
+        "meaning-example": "Họ sẽ đang khám phá một lãnh thổ rộng lớn.",
+        "ipa-example": "/ðeɪ wɪl bi ɪkˈsplɔːrɪŋ ə væst ˈtɛrɪtɔːri/"
+      },
+      {
+        "sentence": "A vast amount of data will have been collected.",
+        "meaning-example": "Một lượng lớn dữ liệu sẽ đã được thu thập.",
+        "ipa-example": "/ə væst əˈmaʊnt əv ˈdeɪtə wɪl hæv bɪn kəˈlɛktɪd/"
+      },
+      {
+        "sentence": "If it is vast, it is huge.",
+        "meaning-example": "Nếu nó rộng lớn, nó rất lớn.",
+        "ipa-example": "/ɪf ɪt ɪz væst, ɪt ɪz hjuːdʒ/"
+      },
+      {
+        "sentence": "Exploring vast spaces is exciting.",
+        "meaning-example": "Khám phá không gian rộng lớn rất thú vị.",
+        "ipa-example": "/ɪkˈsplɔːrɪŋ væst ˈspeɪsɪz ɪz ɪkˈsaɪtɪŋ/"
+      },
+      {
+        "sentence": "I want to see a vast forest.",
+        "meaning-example": "Tôi muốn thấy một khu rừng rộng lớn.",
+        "ipa-example": "/aɪ wɒnt tu siː ə væst ˈfɒrɪst/"
+      }
+    ]
+  },
+  {
+    "word": "vegetarian",
+    "ipa": "/ˌvɛdʒɪˈtɛəriən/",
+    "meaning": "người ăn chay",
+    "image": "./eew-4-23/20.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "She is a vegetarian.",
+        "meaning-example": "Cô ấy là người ăn chay.",
+        "ipa-example": "/ʃi ɪz ə ˌvɛdʒɪˈtɛəriən/"
+      },
+      {
+        "sentence": "He is becoming a vegetarian.",
+        "meaning-example": "Anh ấy đang trở thành người ăn chay.",
+        "ipa-example": "/hi ɪz bɪˈkʌmɪŋ ə ˌvɛdʒɪˈtɛəriən/"
+      },
+      {
+        "sentence": "They have been vegetarians for years.",
+        "meaning-example": "Họ đã là người ăn chay trong nhiều năm.",
+        "ipa-example": "/ðeɪ hæv bɪn ˌvɛdʒɪˈtɛəriənz fɔːr jɪərz/"
+      },
+      {
+        "sentence": "I was a vegetarian last year.",
+        "meaning-example": "Tôi đã là người ăn chay vào năm ngoái.",
+        "ipa-example": "/aɪ wəz ə ˌvɛdʒɪˈtɛəriən lɑːst jɪər/"
+      },
+      {
+        "sentence": "We were being vegetarians.",
+        "meaning-example": "Chúng tôi đã là người ăn chay.",
+        "ipa-example": "/wi wɜːr ˈbiːɪŋ ˌvɛdʒɪˈtɛəriənz/"
+      },
+      {
+        "sentence": "She had been a vegetarian before.",
+        "meaning-example": "Cô ấy đã là người ăn chay trước đây.",
+        "ipa-example": "/ʃi hæd bɪn ə ˌvɛdʒɪˈtɛəriən bɪˈfɔːr/"
+      },
+      {
+        "sentence": "He will be a vegetarian.",
+        "meaning-example": "Anh ấy sẽ là người ăn chay.",
+        "ipa-example": "/hi wɪl bi ə ˌvɛdʒɪˈtɛəriən/"
+      },
+      {
+        "sentence": "They will be becoming vegetarians.",
+        "meaning-example": "Họ sẽ đang trở thành người ăn chay.",
+        "ipa-example": "/ðeɪ wɪl bi bɪˈkʌmɪŋ ˌvɛdʒɪˈtɛəriənz/"
+      },
+      {
+        "sentence": "She will have been a vegetarian for a decade.",
+        "meaning-example": "Cô ấy sẽ đã là người ăn chay trong một thập kỷ.",
+        "ipa-example": "/ʃi wɪl hæv bɪn ə ˌvɛdʒɪˈtɛəriən fɔːr ə ˈdɛkeɪd/"
+      },
+      {
+        "sentence": "If you are a vegetarian, you don't eat meat.",
+        "meaning-example": "Nếu bạn là người ăn chay, bạn không ăn thịt.",
+        "ipa-example": "/ɪf ju ɑːr ə ˌvɛdʒɪˈtɛəriən, ju doʊnt iːt miːt/"
+      },
+      {
+        "sentence": "Being a vegetarian has benefits.",
+        "meaning-example": "Ăn chay có lợi ích.",
+        "ipa-example": "/ˈbiːɪŋ ə ˌvɛdʒɪˈtɛəriən hæz ˈbɛnɪfɪts/"
+      },
+      {
+        "sentence": "I want to try being a vegetarian.",
+        "meaning-example": "Tôi muốn thử ăn chay.",
+        "ipa-example": "/aɪ wɒnt tu traɪ ˈbiːɪŋ ə ˌvɛdʒɪˈtɛəriən/"
+      }
+    ]
+  }
+]
