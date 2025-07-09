@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Từ Vựng - EEW 4</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding-top: 60px; /* Adjust based on header height */
+        }
+        .header {
+            background-color: #24292e;
+            color: #f6f8fa;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .back-button {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+        .back-button:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .back-button .arrow {
+            margin-right: 5px;
+            font-size: 1.3em;
+            line-height: 1;
+        }
+        .header-title { /* Added class for title */
+             flex-grow: 1; /* Allow title to take available space */
+             text-align: center; /* Center the title */
+             margin: 0 10px; /* Add some margin */
+        }
+        .list-button { /* Style for the new list button */
+            background-color: #007bff; /* Blue */
+            color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border: none; /* Remove default button border */
+        }
+        .list-button:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .word-card {
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .word {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #24292e;
+            margin-bottom: 5px;
+        }
+        .pronunciation {
+            font-size: 1.2em;
+            color: #586069;
+            margin-bottom: 15px;
+        }
+        .meaning {
+            font-size: 1.1em;
+            color: #0366d6;
+            margin-bottom: 15px;
+        }
+        .examples h3 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 5px;
+        }
+        .example-sentence {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+            font-style: italic;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .control-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: 600;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .start-speech-button {
+            background-color: #28a745; /* Green */
+            color: white;
+        }
+        .start-speech-button:hover {
+            background-color: #218838;
+        }
+         .stop-speech-button {
+            background-color: #dc3545; /* Red */
+            color: white;
+        }
+        .stop-speech-button:hover {
+            background-color: #c82333;
+        }
+        .next-button {
+            background-color: #007bff; /* Blue */
+            color: white;
+        }
+        .next-button:hover {
+            background-color: #0056b3;
+        }
+         .prev-button { /* Style for the new Previous button */
+            background-color: #6c757d; /* Gray */
+            color: white;
+        }
+        .prev-button:hover {
+            background-color: #5a6268;
+        }
+        .feedback {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+        .feedback.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .feedback.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .transcription {
+            margin-top: 15px;
+            text-align: center;
+            font-style: italic;
+            color: #586069;
+        }
+        .loading {
+            text-align: center;
+            font-size: 1.2em;
+            color: #586069;
+        }
+
+        /* Styles for the Word List Menu */
+        .word-list-menu {
+            position: fixed;
+            top: 60px; /* Below the header */
+            right: 0;
+            width: 33.33%; /* Approximately 1/3 of the screen width */
+            height: calc(100% - 60px); /* Full height minus header */
+            background-color: #ffffff;
+            border-left: 1px solid #e1e4e8;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* Make it scrollable */
+            z-index: 999; /* Below header, above main content */
+            padding: 20px;
+            box-sizing: border-box; /* Include padding in width */
+        }
+        .word-list-menu h3 {
+            font-size: 1.3em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #24292e;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 10px;
+        }
+        .word-list-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .word-list-menu li {
+            margin-bottom: 10px;
+        }
+        .word-list-menu li a {
+            display: block;
+            padding: 8px 10px;
+            background-color: #f6f8fa;
+            border: 1px solid #e1e4e8;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #0366d6;
+            font-size: 1em;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+        }
+        .word-list-menu li a:hover {
+            background-color: #e9ecef;
+            border-color: #007bff;
+        }
+         .word-list-menu li a.active { /* Style for the currently displayed word */
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+            font-weight: 600;
+        }
+        .word-list-close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #586069;
+        }
+         .word-list-close-btn:hover {
+            color: #24292e;
+         }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="back-button">
+            <span class="arrow">&larr;</span> Quay lại
+        </a>
+        <h1 id="chapter-title" class="header-title text-xl font-semibold">Học Từ Vựng</h1> <!-- Added header-title class -->
+        <button id="list-words-btn" class="list-button">Danh sách từ</button> <!-- Added List Words Button -->
+    </header>
+
+    <div class="container">
+        <div id="loading" class="loading">Đang tải từ vựng...</div>
+        <div id="word-learning-area" class="hidden">
+            <div class="word-card">
+                <div id="word" class="word"></div>
+                <div id="pronunciation" class="pronunciation"></div>
+                <div id="meaning" class="meaning"></div>
+                <div class="examples">
+                    <h3>Ví dụ:</h3>
+                    <div id="examples-list">
+                        <!-- Examples will be loaded here -->
+                    </div>
+                    <button id="next-example-btn" class="control-button next-button mt-4">Ví dụ tiếp theo</button>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="prev-word-btn" class="control-button prev-button">Từ trước</button> <!-- Previous button -->
+                <button id="start-speech-btn" class="control-button start-speech-button">Bắt đầu nói</button>
+                <button id="stop-speech-btn" class="control-button stop-speech-button hidden">Dừng nói</button>
+                <button id="next-word-btn" class="control-button next-button">Từ tiếp theo</button> <!-- Removed hidden class -->
+            </div>
+
+            <div id="transcription" class="transcription"></div>
+            <div id="feedback" class="feedback hidden"></div>
+        </div>
+         <div id="completion-message" class="hidden text-center text-xl font-semibold text-green-700">
+            Chúc mừng! Bạn đã hoàn thành chương này.
+        </div>
+         <div id="error-message" class="hidden text-center text-xl font-semibold text-red-700">
+            Không thể tải từ vựng cho chương này. Vui lòng kiểm tra lại.
+        </div>
+    </div>
+
+    <!-- Word List Menu -->
+    <div id="word-list-menu" class="word-list-menu hidden">
+        <button id="word-list-close-btn" class="word-list-close-btn">&times;</button>
+        <h3>Danh sách từ</h3>
+        <ul id="word-list">
+            <!-- Word list items will be loaded here -->
+        </ul>
+    </div>
+
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const chapterNumber = urlParams.get('chapter');
+        const chapterTitleElement = document.getElementById('chapter-title');
+        const loadingElement = document.getElementById('loading');
+        const wordLearningArea = document.getElementById('word-learning-area');
+        const completionMessage = document.getElementById('completion-message');
+        const errorMessage = document.getElementById('error-message');
+
+        const wordElement = document.getElementById('word');
+        const pronunciationElement = document.getElementById('pronunciation');
+        const meaningElement = document.getElementById('meaning');
+        const examplesListElement = document.getElementById('examples-list');
+        const nextExampleBtn = document.getElementById('next-example-btn');
+
+        const startSpeechBtn = document.getElementById('start-speech-btn');
+        const stopSpeechBtn = document.getElementById('stop-speech-btn');
+        const nextWordBtn = document.getElementById('next-word-btn');
+        const prevWordBtn = document.getElementById('prev-word-btn'); // Get the new previous button
+        const transcriptionElement = document.getElementById('transcription');
+        const feedbackElement = document.getElementById('feedback');
+
+        // New elements for word list menu
+        const listWordsBtn = document.getElementById('list-words-btn');
+        const wordListMenu = document.getElementById('word-list-menu');
+        const wordListElement = document.getElementById('word-list');
+        const wordListCloseBtn = document.getElementById('word-list-close-btn');
+
+
+        let vocabularyData = [];
+        let currentWordIndex = 0;
+        let currentExampleIndex = 0;
+        let recognition; // Variable to hold the SpeechRecognition object
+
+        // Check for Web Speech API support
+        if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+            errorMessage.textContent = "Trình duyệt của bạn không hỗ trợ API nhận dạng giọng nói.";
+            errorMessage.classList.remove('hidden');
+            loadingElement.classList.add('hidden');
+            // Disable all buttons
+            startSpeechBtn.disabled = true;
+            nextExampleBtn.disabled = true;
+            nextWordBtn.disabled = true;
+            prevWordBtn.disabled = true; // Disable previous button too
+            listWordsBtn.disabled = true; // Disable list button
+        } else {
+             // Initialize SpeechRecognition
+             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+             recognition = new SpeechRecognition();
+             recognition.continuous = false; // Stop after a single utterance
+             recognition.lang = 'en-US'; // Set language to English
+             recognition.interimResults = false; // Only return final results
+             recognition.maxAlternatives = 1; // Get only the most likely result
+
+             recognition.onstart = () => {
+                 transcriptionElement.textContent = 'Đang lắng nghe...';
+                 feedbackElement.classList.add('hidden');
+                 startSpeechBtn.classList.add('hidden');
+                 stopSpeechBtn.classList.remove('hidden');
+                 // Disable navigation buttons while listening
+                 nextWordBtn.disabled = true;
+                 prevWordBtn.disabled = true;
+                 nextExampleBtn.disabled = true;
+                 listWordsBtn.disabled = true; // Disable list button while listening
+             };
+
+             recognition.onresult = (event) => {
+                 const transcript = event.results[0][0].transcript;
+                 transcriptionElement.textContent = `Bạn nói: "${transcript}"`;
+                 checkTranscription(transcript);
+             };
+
+             recognition.onerror = (event) => {
+                 transcriptionElement.textContent = `Lỗi nhận dạng giọng nói: ${event.error}`;
+                 feedbackElement.classList.add('hidden');
+                 startSpeechBtn.classList.remove('hidden');
+                 stopSpeechBtn.classList.add('hidden');
+                 // Re-enable navigation buttons after error
+                 updateNavigationButtons();
+                 nextExampleBtn.disabled = false;
+                 listWordsBtn.disabled = false; // Re-enable list button
+             };
+
+             recognition.onend = () => {
+                 // Only hide stop button if it wasn't hidden by onerror
+                 if (!startSpeechBtn.classList.contains('hidden')) {
+                     stopSpeechBtn.classList.add('hidden');
+                 }
+                 // Re-enable navigation buttons after recognition ends
+                 updateNavigationButtons();
+                 nextExampleBtn.disabled = false;
+                 listWordsBtn.disabled = false; // Re-enable list button
+             };
+
+             startSpeechBtn.addEventListener('click', () => {
+                 feedbackElement.classList.add('hidden');
+                 transcriptionElement.textContent = ''; // Clear previous transcription
+                 try {
+                     recognition.start();
+                 } catch (e) {
+                     console.error("Speech recognition start error:", e);
+                     transcriptionElement.textContent = 'Không thể bắt đầu nhận dạng giọng nói. Vui lòng thử lại.';
+                     startSpeechBtn.classList.remove('hidden');
+                     stopSpeechBtn.classList.add('hidden');
+                     // Re-enable navigation buttons on error
+                     updateNavigationButtons();
+                     nextExampleBtn.disabled = false;
+                     listWordsBtn.disabled = false; // Re-enable list button
+                 }
+             });
+
+             stopSpeechBtn.addEventListener('click', () => {
+                 recognition.stop();
+                 startSpeechBtn.classList.remove('hidden');
+                 stopSpeechBtn.classList.add('hidden');
+                 // Re-enable navigation buttons after stopping
+                 updateNavigationButtons();
+                 nextExampleBtn.disabled = false;
+                 listWordsBtn.disabled = false; // Re-enable list button
+             });
+        }
+
+
+        // Function to load vocabulary data
+        async function loadVocabulary(chapter) {
+            if (!chapter) {
+                errorMessage.textContent = "Không tìm thấy thông tin chương trong URL.";
+                errorMessage.classList.remove('hidden');
+                loadingElement.classList.add('hidden');
+                listWordsBtn.disabled = true; // Disable list button if no chapter
+                return;
+            }
+
+            // Format chapter number to be 2 digits (e.g., 1 -> 01, 10 -> 10)
+            const formattedChapter = String(chapter).padStart(2, '0');
+            const jsonFileName = `4${formattedChapter}-word.json`;
+            const filePath = `./${jsonFileName}`; // Assuming JSON files are in the same directory
+
+            chapterTitleElement.textContent = `Học Từ Vựng Chương ${chapter}`;
+
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    if (response.status === 404) {
+                         throw new Error(`File not found: ${filePath}`);
+                    }
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                vocabularyData = await response.json();
+
+                if (vocabularyData.length === 0) {
+                    errorMessage.textContent = "Không có từ vựng nào trong chương này.";
+                    errorMessage.classList.remove('hidden');
+                    loadingElement.classList.add('hidden');
+                    listWordsBtn.disabled = true; // Disable list button if no words
+                    return;
+                }
+
+                loadingElement.classList.add('hidden');
+                wordLearningArea.classList.remove('hidden');
+                displayWord(currentWordIndex);
+                populateWordListMenu(); // Populate the word list menu after loading
+
+            } catch (error) {
+                console.error('Error loading vocabulary data:', error);
+                errorMessage.textContent = `Không thể tải từ vựng: ${error.message}`;
+                errorMessage.classList.remove('hidden');
+                loadingElement.classList.add('hidden');
+                listWordsBtn.disabled = true; // Disable list button on error
+            }
+        }
+
+        // Function to populate the word list menu
+        function populateWordListMenu() {
+            wordListElement.innerHTML = ''; // Clear existing list
+            vocabularyData.forEach((word, index) => {
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                link.href = '#'; // Prevent default link behavior
+                link.textContent = word.word;
+                link.dataset.index = index; // Store the index
+                link.addEventListener('click', (e) => {
+                    e.preventDefault(); // Prevent page jump
+                    const clickedIndex = parseInt(e.target.dataset.index, 10);
+                    if (!isNaN(clickedIndex)) {
+                        currentWordIndex = clickedIndex;
+                        displayWord(currentWordIndex);
+                        wordListMenu.classList.add('hidden'); // Hide the menu after selection
+                    }
+                });
+                listItem.appendChild(link);
+                wordListElement.appendChild(listItem);
+            });
+        }
+
+        // Function to display the current word
+        function displayWord(index) {
+            if (index >= 0 && index < vocabularyData.length) {
+                const word = vocabularyData[index];
+                wordElement.textContent = word.word;
+                // Use 'ipa' field for pronunciation
+                pronunciationElement.textContent = word.ipa || 'N/A'; // Display N/A if no ipa
+                meaningElement.textContent = word.meaning || 'N/A'; // Display N/A if no meaning
+
+                // Reset examples display
+                examplesListElement.innerHTML = '';
+                currentExampleIndex = 0;
+                // Use 'example' field for examples
+                if (word.example && word.example.length > 0) {
+                    displayExample(currentExampleIndex);
+                    nextExampleBtn.classList.remove('hidden');
+                    nextExampleBtn.disabled = false; // Enable example button
+                } else {
+                    examplesListElement.innerHTML = '<p>Không có ví dụ.</p>';
+                    nextExampleBtn.classList.add('hidden');
+                    nextExampleBtn.disabled = true; // Disable example button
+                }
+
+                // Reset feedback and transcription
+                feedbackElement.classList.add('hidden');
+                transcriptionElement.textContent = '';
+
+                // Show speech button, hide stop button
+                startSpeechBtn.classList.remove('hidden');
+                stopSpeechBtn.classList.add('hidden');
+
+                // Update navigation button states
+                updateNavigationButtons();
+
+                // Highlight the current word in the list menu
+                highlightCurrentWordInList(index);
+
+            } else {
+                // End of vocabulary list
+                wordLearningArea.classList.add('hidden');
+                completionMessage.classList.remove('hidden');
+                 // Hide navigation buttons at the end
+                 prevWordBtn.classList.add('hidden');
+                 nextWordBtn.classList.add('hidden');
+                 listWordsBtn.classList.add('hidden'); // Hide list button at the end
+            }
+        }
+
+        // Function to highlight the current word in the list menu
+        function highlightCurrentWordInList(index) {
+            const listItems = wordListElement.querySelectorAll('li a');
+            listItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            const currentItem = wordListElement.querySelector(`li a[data-index="${index}"]`);
+            if (currentItem) {
+                currentItem.classList.add('active');
+                // Optional: Scroll the list to make the active item visible
+                currentItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }
+
+
+        // Function to display the current example
+        function displayExample(index) {
+             const word = vocabularyData[currentWordIndex];
+             // Use 'example' field for examples
+             if (word.example && index >= 0 && index < word.example.length) {
+                 examplesListElement.innerHTML = `<div class="example-sentence">${word.example[index]}</div>`;
+                 if (index === word.example.length - 1) {
+                     nextExampleBtn.textContent = 'Hoàn thành ví dụ';
+                 } else {
+                     nextExampleBtn.textContent = 'Ví dụ tiếp theo';
+                 }
+             }
+        }
+
+        // Function to check transcription against the word
+        function checkTranscription(transcript) {
+            const targetWord = vocabularyData[currentWordIndex].word;
+            // Simple case-insensitive comparison
+            if (transcript.trim().toLowerCase() === targetWord.trim().toLowerCase()) {
+                feedbackElement.textContent = 'Chính xác!';
+                feedbackElement.className = 'feedback correct'; // Apply correct class
+                // nextWordBtn.classList.remove('hidden'); // Keep next button visible for browsing
+                startSpeechBtn.classList.remove('hidden'); // Show speech button again for the next word
+                stopSpeechBtn.classList.add('hidden'); // Hide stop button
+                // Re-enable navigation buttons after correct answer
+                updateNavigationButtons();
+            } else {
+                feedbackElement.textContent = `Chưa chính xác. Thử lại. (Đáp án: "${targetWord}")`;
+                feedbackElement.className = 'feedback incorrect'; // Apply incorrect class
+                 startSpeechBtn.classList.remove('hidden'); // Show speech button again
+                 stopSpeechBtn.classList.add('hidden'); // Hide stop button
+                 // Re-enable navigation buttons after incorrect answer
+                 updateNavigationButtons();
+            }
+            feedbackElement.classList.remove('hidden');
+        }
+
+        // Function to update the state of Previous and Next buttons
+        function updateNavigationButtons() {
+            // Enable/Disable Previous button
+            prevWordBtn.disabled = currentWordIndex === 0;
+
+            // Enable/Disable Next button
+            nextWordBtn.disabled = currentWordIndex === vocabularyData.length - 1;
+
+            // Ensure they are visible unless the whole learning area is hidden (end of list)
+            if (!wordLearningArea.classList.contains('hidden')) {
+                 prevWordBtn.classList.remove('hidden');
+                 nextWordBtn.classList.remove('hidden');
+                 listWordsBtn.classList.remove('hidden'); // Ensure list button is visible
+            }
+        }
+
+
+        // Event listener for next example button
+        nextExampleBtn.addEventListener('click', () => {
+            currentExampleIndex++;
+            const word = vocabularyData[currentWordIndex];
+            // Use 'example' field for examples
+            if (word.example && currentExampleIndex < word.example.length) {
+                displayExample(currentExampleIndex);
+            } else {
+                // All examples shown
+                examplesListElement.innerHTML += '<p class="text-sm text-gray-600 mt-2">Đã hết ví dụ.</p>';
+                nextExampleBtn.classList.add('hidden');
+            }
+        });
+
+        // Event listener for next word button (General Navigation)
+        nextWordBtn.addEventListener('click', () => {
+            if (currentWordIndex < vocabularyData.length - 1) {
+                currentWordIndex++;
+                displayWord(currentWordIndex);
+            }
+        });
+
+        // Event listener for previous word button (General Navigation)
+        prevWordBtn.addEventListener('click', () => {
+            if (currentWordIndex > 0) {
+                currentWordIndex--;
+                displayWord(currentWordIndex);
+            }
+        });
+
+        // Event listener for the List Words button
+        listWordsBtn.addEventListener('click', () => {
+            wordListMenu.classList.toggle('hidden'); // Toggle visibility
+        });
+
+        // Event listener for the Close button in the word list menu
+        wordListCloseBtn.addEventListener('click', () => {
+            wordListMenu.classList.add('hidden'); // Hide the menu
+        });
+
+
+        // Load vocabulary when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            loadVocabulary(chapterNumber);
+        });
+
+    </script>
+</body>
+</html>
