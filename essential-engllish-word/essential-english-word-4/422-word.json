@@ -4,18 +4,66 @@
     "ipa": "/ˈtʃærəti/",
     "meaning": "sự giúp đỡ, lòng từ thiện",
     "example": [
-      "I give charity every month.",
-      "She is giving charity now.",
-      "They have given charity before.",
-      "He gave charity yesterday.",
-      "We were giving charity when you called.",
-      "I had given charity before I left.",
-      "She will give charity tomorrow.",
-      "They will be giving charity at noon.",
-      "He will have given charity by then.",
-      "If I give charity, I feel happy.",
-      "Giving charity is important.",
-      "I want to give charity."
+      {
+        "sentence": "I give charity every month.",
+        "meaning-example": "Tôi làm từ thiện hàng tháng.",
+        "ipa-example": "/aɪ ɡɪv ˈtʃærəti ˈɛvri mʌnθ/"
+      },
+      {
+        "sentence": "She is giving charity now.",
+        "meaning-example": "Cô ấy đang làm từ thiện bây giờ.",
+        "ipa-example": "/ʃi ɪz ˈɡɪvɪŋ ˈtʃærəti naʊ/"
+      },
+      {
+        "sentence": "They have given charity before.",
+        "meaning-example": "Họ đã làm từ thiện trước đây.",
+        "ipa-example": "/ðeɪ həv ˈɡɪvən ˈtʃærəti bɪˈfɔːr/"
+      },
+      {
+        "sentence": "He gave charity yesterday.",
+        "meaning-example": "Anh ấy đã làm từ thiện hôm qua.",
+        "ipa-example": "/hi ɡeɪv ˈtʃærəti ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "We were giving charity when you called.",
+        "meaning-example": "Chúng tôi đang làm từ thiện khi bạn gọi.",
+        "ipa-example": "/wi wər ˈɡɪvɪŋ ˈtʃærəti wɛn ju kɔːld/"
+      },
+      {
+        "sentence": "I had given charity before I left.",
+        "meaning-example": "Tôi đã làm từ thiện trước khi tôi rời đi.",
+        "ipa-example": "/aɪ həd ˈɡɪvən ˈtʃærəti bɪˈfɔːr aɪ lɛft/"
+      },
+      {
+        "sentence": "She will give charity tomorrow.",
+        "meaning-example": "Cô ấy sẽ làm từ thiện ngày mai.",
+        "ipa-example": "/ʃi wɪl ɡɪv ˈtʃærəti təˈmɒroʊ/"
+      },
+      {
+        "sentence": "They will be giving charity at noon.",
+        "meaning-example": "Họ sẽ đang làm từ thiện vào buổi trưa.",
+        "ipa-example": "/ðeɪ wɪl bi ˈɡɪvɪŋ ˈtʃærəti ət nuːn/"
+      },
+      {
+        "sentence": "He will have given charity by then.",
+        "meaning-example": "Anh ấy sẽ đã làm từ thiện vào lúc đó.",
+        "ipa-example": "/hi wɪl həv ˈɡɪvən ˈtʃærəti baɪ ðɛn/"
+      },
+      {
+        "sentence": "If I give charity, I feel happy.",
+        "meaning-example": "Nếu tôi làm từ thiện, tôi cảm thấy hạnh phúc.",
+        "ipa-example": "/ɪf aɪ ɡɪv ˈtʃærəti, aɪ fiːl ˈhæpi/"
+      },
+      {
+        "sentence": "Giving charity is important.",
+        "meaning-example": "Làm từ thiện rất quan trọng.",
+        "ipa-example": "/ˈɡɪvɪŋ ˈtʃærəti ɪz ɪmˈpɔːrtənt/"
+      },
+      {
+        "sentence": "I want to give charity.",
+        "meaning-example": "Tôi muốn làm từ thiện.",
+        "ipa-example": "/aɪ wɒnt tu ɡɪv ˈtʃærəti/"
+      }
     ]
   },
   {
@@ -23,18 +71,66 @@
     "ipa": "/ˈkɒmɜːrs/",
     "meaning": "thương mại, buôn bán",
     "example": [
-      "Commerce increases every year.",
-      "Commerce is growing rapidly.",
-      "Commerce has changed a lot.",
-      "Commerce declined last year.",
-      "Commerce was booming in 2020.",
-      "Commerce had improved before the crisis.",
-      "Commerce will expand soon.",
-      "Commerce will be changing next year.",
-      "Commerce will have doubled by 2030.",
-      "If commerce grows, jobs increase.",
-      "Commerce helps the economy.",
-      "I want to study commerce."
+      {
+        "sentence": "Commerce increases every year.",
+        "meaning-example": "Thương mại tăng trưởng hàng năm.",
+        "ipa-example": "/kəmɜːrs ɪnˈkriːsɪz ˈɛvri jɪr/"
+      },
+      {
+        "sentence": "Commerce is growing rapidly.",
+        "meaning-example": "Thương mại đang phát triển nhanh chóng.",
+        "ipa-example": "/ˈkɒmɜːrs ɪz ˈɡroʊɪŋ ˈræpɪdli/"
+      },
+      {
+        "sentence": "Commerce has changed a lot.",
+        "meaning-example": "Thương mại đã thay đổi rất nhiều.",
+        "ipa-example": "/ˈkɒmɜːrs hæz ʧeɪndʒd ə lɒt/"
+      },
+      {
+        "sentence": "Commerce declined last year.",
+        "meaning-example": "Thương mại đã giảm sút vào năm ngoái.",
+        "ipa-example": "/ˈkɒmɜːrs dɪˈklaɪnd lɑːst jɪr/"
+      },
+      {
+        "sentence": "Commerce was booming in 2020.",
+        "meaning-example": "Thương mại bùng nổ vào năm 2020.",
+        "ipa-example": "/ˈkɒmɜːrs wəz ˈbuːmɪŋ ɪn ˈtwɛnti ˈtwɛnti/"
+      },
+      {
+        "sentence": "Commerce had improved before the crisis.",
+        "meaning-example": "Thương mại đã được cải thiện trước khủng hoảng.",
+        "ipa-example": "/ˈkɒmɜːrs hæd ɪmˈpruːvd bɪˈfɔːr ðə ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "Commerce will expand soon.",
+        "meaning-example": "Thương mại sẽ mở rộng sớm.",
+        "ipa-example": "/ˈkɒmɜːrs wɪl ɪkˈspænd suːn/"
+      },
+      {
+        "sentence": "Commerce will be changing next year.",
+        "meaning-example": "Thương mại sẽ thay đổi vào năm tới.",
+        "ipa-example": "/ˈkɒmɜːrs wɪl bi ˈʧeɪndʒɪŋ nɛkst jɪr/"
+      },
+      {
+        "sentence": "Commerce will have doubled by 2030.",
+        "meaning-example": "Thương mại sẽ tăng gấp đôi vào năm 2030.",
+        "ipa-example": "/ˈkɒmɜːrs wɪl hæv ˈdʌbld baɪ ˈtwɛnti ˈθɜːrti/"
+      },
+      {
+        "sentence": "If commerce grows, jobs increase.",
+        "meaning-example": "Nếu thương mại phát triển, việc làm sẽ tăng lên.",
+        "ipa-example": "/ɪf ˈkɒmɜːrs ɡroʊz, ʤɒbz ɪnˈkriːs/"
+      },
+      {
+        "sentence": "Commerce helps the economy.",
+        "meaning-example": "Thương mại giúp đỡ nền kinh tế.",
+        "ipa-example": "/ˈkɒmɜːrs hɛlps ði ɪˈkɒnəmi/"
+      },
+      {
+        "sentence": "I want to study commerce.",
+        "meaning-example": "Tôi muốn học về thương mại.",
+        "ipa-example": "/aɪ wɒnt tu ˈstʌdi ˈkɒmɜːrs/"
+      }
     ]
   },
   {
@@ -42,18 +138,66 @@
     "ipa": "/kənˈdɛm/",
     "meaning": "kết án, kết tội",
     "example": [
-      "I condemn violence.",
-      "She is condemning the act.",
-      "They have condemned the plan.",
-      "He condemned the decision.",
-      "We were condemning the actions.",
-      "They had condemned the policy.",
-      "The judge will condemn the criminal.",
-      "People will be condemning the event.",
-      "He will have condemned the act by then.",
-      "If you condemn, you show disapproval.",
-      "Condemning injustice is right.",
-      "I want to condemn corruption."
+      {
+        "sentence": "I condemn violence.",
+        "meaning-example": "Tôi lên án bạo lực.",
+        "ipa-example": "/aɪ kənˈdɛm ˈvaɪələns/"
+      },
+      {
+        "sentence": "She is condemning the act.",
+        "meaning-example": "Cô ấy đang lên án hành động.",
+        "ipa-example": "/ʃi ɪz kənˈdɛmɪŋ ði ækt/"
+      },
+      {
+        "sentence": "They have condemned the plan.",
+        "meaning-example": "Họ đã lên án kế hoạch.",
+        "ipa-example": "/ðeɪ hæv kənˈdɛməd ðə plæn/"
+      },
+      {
+        "sentence": "He condemned the decision.",
+        "meaning-example": "Anh ấy đã lên án quyết định.",
+        "ipa-example": "/hi kənˈdɛməd ðə dɪˈsɪʒən/"
+      },
+      {
+        "sentence": "We were condemning the actions.",
+        "meaning-example": "Chúng tôi đang lên án những hành động.",
+        "ipa-example": "/wi wər kənˈdɛmɪŋ ði ˈækʧənz/"
+      },
+      {
+        "sentence": "They had condemned the policy.",
+        "meaning-example": "Họ đã lên án chính sách.",
+        "ipa-example": "/ðeɪ hæd kənˈdɛməd ðə ˈpɒlɪsi/"
+      },
+      {
+        "sentence": "The judge will condemn the criminal.",
+        "meaning-example": "Thẩm phán sẽ kết án kẻ phạm tội.",
+        "ipa-example": "/ðə ʤʌdʒ wɪl kənˈdɛm ðə ˈkrɪmɪnəl/"
+      },
+      {
+        "sentence": "People will be condemning the event.",
+        "meaning-example": "Mọi người sẽ lên án sự kiện.",
+        "ipa-example": "/ˈpiːpl wɪl bi kənˈdɛmɪŋ ði ɪˈvɛnt/"
+      },
+      {
+        "sentence": "He will have condemned the act by then.",
+        "meaning-example": "Anh ấy sẽ đã lên án hành động vào thời điểm đó.",
+        "ipa-example": "/hi wɪl hæv kənˈdɛməd ði ækt baɪ ðɛn/"
+      },
+      {
+        "sentence": "If you condemn, you show disapproval.",
+        "meaning-example": "Nếu bạn lên án, bạn thể hiện sự không đồng tình.",
+        "ipa-example": "/ɪf ju kənˈdɛm, ju ʃoʊ ˌdɪsəˈpruːvəl/"
+      },
+      {
+        "sentence": "Condemning injustice is right.",
+        "meaning-example": "Lên án bất công là đúng.",
+        "ipa-example": "/kənˈdɛmɪŋ ɪnˈdʤʌstɪs ɪz raɪt/"
+      },
+      {
+        "sentence": "I want to condemn corruption.",
+        "meaning-example": "Tôi muốn lên án tham nhũng.",
+        "ipa-example": "/aɪ wɒnt tu kənˈdɛm kəˈrʌpʃən/"
+      }
     ]
   },
   {
@@ -61,18 +205,66 @@
     "ipa": "/ˈkoʊzi/",
     "meaning": "ấm cúng",
     "example": [
-      "The room feels cozy.",
-      "She is making the house cozy.",
-      "We have kept the place cozy.",
-      "The cabin looked cozy.",
-      "They were feeling cozy inside.",
-      "She had made the room cozy.",
-      "The house will be cozy in winter.",
-      "We will be feeling cozy tonight.",
-      "The place will have become cozy.",
-      "If it’s cozy, I’ll stay longer.",
-      "Making a home cozy is fun.",
-      "I want a cozy blanket."
+      {
+        "sentence": "The room feels cozy.",
+        "meaning-example": "Căn phòng cảm thấy ấm cúng.",
+        "ipa-example": "/ðə ruːm fiːlz ˈkoʊzi/"
+      },
+      {
+        "sentence": "She is making the house cozy.",
+        "meaning-example": "Cô ấy đang làm cho ngôi nhà ấm cúng.",
+        "ipa-example": "/ʃi ɪz ˈmeɪkɪŋ ðə haʊs ˈkoʊzi/"
+      },
+      {
+        "sentence": "We have kept the place cozy.",
+        "meaning-example": "Chúng tôi đã giữ cho nơi này ấm cúng.",
+        "ipa-example": "/wi hæv kɛpt ðə pleɪs ˈkoʊzi/"
+      },
+      {
+        "sentence": "The cabin looked cozy.",
+        "meaning-example": "Căn nhà gỗ trông có vẻ ấm cúng.",
+        "ipa-example": "/ðə ˈkæbɪn lʊkt ˈkoʊzi/"
+      },
+      {
+        "sentence": "They were feeling cozy inside.",
+        "meaning-example": "Họ cảm thấy ấm cúng bên trong.",
+        "ipa-example": "/ðeɪ wɜːr ˈfiːlɪŋ ˈkoʊzi ɪnˈsaɪd/"
+      },
+      {
+        "sentence": "She had made the room cozy.",
+        "meaning-example": "Cô ấy đã làm cho căn phòng ấm cúng.",
+        "ipa-example": "/ʃi hæd meɪd ðə ruːm ˈkoʊzi/"
+      },
+      {
+        "sentence": "The house will be cozy in winter.",
+        "meaning-example": "Ngôi nhà sẽ ấm cúng vào mùa đông.",
+        "ipa-example": "/ðə haʊs wɪl bi ˈkoʊzi ɪn ˈwɪntər/"
+      },
+      {
+        "sentence": "We will be feeling cozy tonight.",
+        "meaning-example": "Chúng tôi sẽ cảm thấy ấm cúng tối nay.",
+        "ipa-example": "/wi wɪl bi ˈfiːlɪŋ ˈkoʊzi təˈnaɪt/"
+      },
+      {
+        "sentence": "The place will have become cozy.",
+        "meaning-example": "Nơi này sẽ trở nên ấm cúng.",
+        "ipa-example": "/ðə pleɪs wɪl hæv bɪˈkʌm ˈkoʊzi/"
+      },
+      {
+        "sentence": "If it’s cozy, I’ll stay longer.",
+        "meaning-example": "Nếu nó ấm cúng, tôi sẽ ở lại lâu hơn.",
+        "ipa-example": "/ɪf ɪts ˈkoʊzi, aɪl steɪ ˈlɔːŋɡər/"
+      },
+      {
+        "sentence": "Making a home cozy is fun.",
+        "meaning-example": "Làm cho ngôi nhà ấm cúng thật thú vị.",
+        "ipa-example": "/ˈmeɪkɪŋ ə hoʊm ˈkoʊzi ɪz fʌn/"
+      },
+      {
+        "sentence": "I want a cozy blanket.",
+        "meaning-example": "Tôi muốn một cái chăn ấm cúng.",
+        "ipa-example": "/aɪ wɒnt ə ˈkoʊzi ˈblæŋkɪt/"
+      }
     ]
   },
   {
@@ -80,18 +272,66 @@
     "ipa": "/dɪˈpliːt/",
     "meaning": "làm cạn kiệt",
     "example": [
-      "Factories deplete resources.",
-      "Pollution is depleting the ozone layer.",
-      "We have depleted our supplies.",
-      "They depleted the stock.",
-      "The workers were depleting the fuel.",
-      "He had depleted his savings.",
-      "The project will deplete funds.",
-      "They will be depleting the reserves.",
-      "We will have depleted the water.",
-      "If you deplete energy, you get tired.",
-      "Depleting forests is dangerous.",
-      "I want to deplete my workload."
+      {
+        "sentence": "Factories deplete resources.",
+        "meaning-example": "Các nhà máy làm cạn kiệt tài nguyên.",
+        "ipa-example": "/ˈfæktəriz dɪˈpliːt rɪˈsɔːrsɪz/"
+      },
+      {
+        "sentence": "Pollution is depleting the ozone layer.",
+        "meaning-example": "Ô nhiễm đang làm cạn kiệt tầng ozone.",
+        "ipa-example": "/pəˈluːʃən ɪz dɪˈpliːtɪŋ ði ˈoʊzoʊn ˈleɪər/"
+      },
+      {
+        "sentence": "We have depleted our supplies.",
+        "meaning-example": "Chúng tôi đã làm cạn kiệt nguồn cung cấp.",
+        "ipa-example": "/wi hæv dɪˈpliːtɪd aʊər səˈplaɪz/"
+      },
+      {
+        "sentence": "They depleted the stock.",
+        "meaning-example": "Họ đã làm cạn kiệt hàng tồn kho.",
+        "ipa-example": "/ðeɪ dɪˈpliːtɪd ðə stɒk/"
+      },
+      {
+        "sentence": "The workers were depleting the fuel.",
+        "meaning-example": "Công nhân đang làm cạn kiệt nhiên liệu.",
+        "ipa-example": "/ðə ˈwɜːrkərz wɜːr dɪˈpliːtɪŋ ðə fjuːəl/"
+      },
+      {
+        "sentence": "He had depleted his savings.",
+        "meaning-example": "Anh ấy đã làm cạn kiệt tiết kiệm của mình.",
+        "ipa-example": "/hi hæd dɪˈpliːtɪd hɪz ˈseɪvɪŋz/"
+      },
+      {
+        "sentence": "The project will deplete funds.",
+        "meaning-example": "Dự án sẽ làm cạn kiệt quỹ.",
+        "ipa-example": "/ðə ˈprɒdʒɛkt wɪl dɪˈpliːt fʌndz/"
+      },
+      {
+        "sentence": "They will be depleting the reserves.",
+        "meaning-example": "Họ sẽ đang làm cạn kiệt dự trữ.",
+        "ipa-example": "/ðeɪ wɪl bi dɪˈpliːtɪŋ ðə rɪˈzɜːrvz/"
+      },
+      {
+        "sentence": "We will have depleted the water.",
+        "meaning-example": "Chúng tôi sẽ đã làm cạn kiệt nước.",
+        "ipa-example": "/wi wɪl hæv dɪˈpliːtɪd ðə ˈwɔːtər/"
+      },
+      {
+        "sentence": "If you deplete energy, you get tired.",
+        "meaning-example": "Nếu bạn làm cạn kiệt năng lượng, bạn sẽ mệt mỏi.",
+        "ipa-example": "/ɪf ju dɪˈpliːt ˈɛnərdʒi, ju ɡɛt taɪərd/"
+      },
+      {
+        "sentence": "Depleting forests is dangerous.",
+        "meaning-example": "Làm cạn kiệt rừng là nguy hiểm.",
+        "ipa-example": "/dɪˈpliːtɪŋ ˈfɔːrɪsts ɪz ˈdeɪndʒərəs/"
+      },
+      {
+        "sentence": "I want to deplete my workload.",
+        "meaning-example": "Tôi muốn làm cạn kiệt khối lượng công việc của mình.",
+        "ipa-example": "/aɪ wɒnt tu dɪˈpliːt maɪ ˈwɜːrkloʊd/"
+      }
     ]
   },
   {
@@ -99,18 +339,66 @@
     "ipa": "/ɪˈkɒnəmi/",
     "meaning": "nền kinh tế",
     "example": [
-      "The economy grows fast.",
-      "The economy is improving.",
-      "The economy has changed.",
-      "The economy declined last year.",
-      "The economy was booming.",
-      "The economy had recovered.",
-      "The economy will expand.",
-      "The economy will be growing.",
-      "The economy will have improved.",
-      "If the economy grows, people benefit.",
-      "Improving the economy is vital.",
-      "I want to study the economy."
+      {
+        "sentence": "The economy grows fast.",
+        "meaning-example": "Nền kinh tế phát triển nhanh.",
+        "ipa-example": "/ði ɪˈkɒnəmi ɡroʊz fæst/"
+      },
+      {
+        "sentence": "The economy is improving.",
+        "meaning-example": "Nền kinh tế đang cải thiện.",
+        "ipa-example": "/ði ɪˈkɒnəmi ɪz ɪmˈpruːvɪŋ/"
+      },
+      {
+        "sentence": "The economy has changed.",
+        "meaning-example": "Nền kinh tế đã thay đổi.",
+        "ipa-example": "/ði ɪˈkɒnəmi hæz ʧeɪndʒd/"
+      },
+      {
+        "sentence": "The economy declined last year.",
+        "meaning-example": "Nền kinh tế đã suy giảm vào năm ngoái.",
+        "ipa-example": "/ði ɪˈkɒnəmi dɪˈklaɪnd lɑːst jɪr/"
+      },
+      {
+        "sentence": "The economy was booming.",
+        "meaning-example": "Nền kinh tế đang bùng nổ.",
+        "ipa-example": "/ði ɪˈkɒnəmi wəz ˈbuːmɪŋ/"
+      },
+      {
+        "sentence": "The economy had recovered.",
+        "meaning-example": "Nền kinh tế đã phục hồi.",
+        "ipa-example": "/ði ɪˈkɒnəmi hæd rɪˈkʌvərd/"
+      },
+      {
+        "sentence": "The economy will expand.",
+        "meaning-example": "Nền kinh tế sẽ mở rộng.",
+        "ipa-example": "/ði ɪˈkɒnəmi wɪl ɪkˈspænd/"
+      },
+      {
+        "sentence": "The economy will be growing.",
+        "meaning-example": "Nền kinh tế sẽ đang phát triển.",
+        "ipa-example": "/ði ɪˈkɒnəmi wɪl bi ˈɡroʊɪŋ/"
+      },
+      {
+        "sentence": "The economy will have improved.",
+        "meaning-example": "Nền kinh tế sẽ đã được cải thiện.",
+        "ipa-example": "/ði ɪˈkɒnəmi wɪl hæv ɪmˈpruːvd/"
+      },
+      {
+        "sentence": "If the economy grows, people benefit.",
+        "meaning-example": "Nếu nền kinh tế phát triển, mọi người sẽ được lợi.",
+        "ipa-example": "/ɪf ði ɪˈkɒnəmi ɡroʊz, ˈpiːpl ˈbɛnɪfɪt/"
+      },
+      {
+        "sentence": "Improving the economy is vital.",
+        "meaning-example": "Cải thiện nền kinh tế là rất quan trọng.",
+        "ipa-example": "/ɪmˈpruːvɪŋ ði ɪˈkɒnəmi ɪz ˈvaɪtəl/"
+      },
+      {
+        "sentence": "I want to study the economy.",
+        "meaning-example": "Tôi muốn học về nền kinh tế.",
+        "ipa-example": "/aɪ wɒnt tu ˈstʌdi ði ɪˈkɒnəmi/"
+      }
     ]
   },
   {
@@ -118,18 +406,66 @@
     "ipa": "/ˈɛmpaɪər/",
     "meaning": "đế chế",
     "example": [
-      "The empire rules many lands.",
-      "The empire is expanding.",
-      "The empire has fallen.",
-      "The empire conquered new lands.",
-      "The empire was growing.",
-      "The empire had collapsed.",
-      "The empire will rise again.",
-      "The empire will be expanding.",
-      "The empire will have changed.",
-      "If the empire grows, it gets stronger.",
-      "Building an empire takes time.",
-      "I want to visit an ancient empire."
+      {
+        "sentence": "The empire rules many lands.",
+        "meaning-example": "Đế chế cai trị nhiều vùng đất.",
+        "ipa-example": "/ði ˈɛmpaɪər ruːlz ˈmɛni lændz/"
+      },
+      {
+        "sentence": "The empire is expanding.",
+        "meaning-example": "Đế chế đang mở rộng.",
+        "ipa-example": "/ði ˈɛmpaɪər ɪz ɪkˈspændɪŋ/"
+      },
+      {
+        "sentence": "The empire has fallen.",
+        "meaning-example": "Đế chế đã sụp đổ.",
+        "ipa-example": "/ði ˈɛmpaɪər hæz ˈfɔːlən/"
+      },
+      {
+        "sentence": "The empire conquered new lands.",
+        "meaning-example": "Đế chế đã chinh phục những vùng đất mới.",
+        "ipa-example": "/ði ˈɛmpaɪər ˈkɒŋkərd njuː lændz/"
+      },
+      {
+        "sentence": "The empire was growing.",
+        "meaning-example": "Đế chế đã phát triển.",
+        "ipa-example": "/ði ˈɛmpaɪər wəz ˈɡroʊɪŋ/"
+      },
+      {
+        "sentence": "The empire had collapsed.",
+        "meaning-example": "Đế chế đã sụp đổ.",
+        "ipa-example": "/ði ˈɛmpaɪər hæd kəˈlæpst/"
+      },
+      {
+        "sentence": "The empire will rise again.",
+        "meaning-example": "Đế chế sẽ trỗi dậy một lần nữa.",
+        "ipa-example": "/ði ˈɛmpaɪər wɪl raɪz əˈɡɛn/"
+      },
+      {
+        "sentence": "The empire will be expanding.",
+        "meaning-example": "Đế chế sẽ đang mở rộng.",
+        "ipa-example": "/ði ˈɛmpaɪər wɪl bi ɪkˈspændɪŋ/"
+      },
+      {
+        "sentence": "The empire will have changed.",
+        "meaning-example": "Đế chế sẽ đã thay đổi.",
+        "ipa-example": "/ði ˈɛmpaɪər wɪl hæv ʧeɪndʒd/"
+      },
+      {
+        "sentence": "If the empire grows, it gets stronger.",
+        "meaning-example": "Nếu đế chế phát triển, nó sẽ trở nên mạnh mẽ hơn.",
+        "ipa-example": "/ɪf ði ˈɛmpaɪər ɡroʊz, ɪt ɡɛts ˈstrɔːŋər/"
+      },
+      {
+        "sentence": "Building an empire takes time.",
+        "meaning-example": "Xây dựng một đế chế cần thời gian.",
+        "ipa-example": "/ˈbɪldɪŋ ən ˈɛmpaɪər teɪks taɪm/"
+      },
+      {
+        "sentence": "I want to visit an ancient empire.",
+        "meaning-example": "Tôi muốn thăm một đế chế cổ đại.",
+        "ipa-example": "/aɪ wɒnt tu ˈvɪzɪt ən ˈeɪnʧənt ˈɛmpaɪər/"
+      }
     ]
   },
   {
@@ -137,18 +473,66 @@
     "ipa": "/ɡʊdz/",
     "meaning": "hàng hóa",
     "example": [
-      "The store sells goods.",
-      "They are buying goods.",
-      "We have received the goods.",
-      "He sold the goods yesterday.",
-      "They were delivering goods.",
-      "We had shipped the goods.",
-      "The company will import goods.",
-      "They will be exporting goods.",
-      "We will have received the goods.",
-      "If goods are cheap, people buy more.",
-      "Selling goods is profitable.",
-      "I want to order goods online."
+      {
+        "sentence": "The store sells goods.",
+        "meaning-example": "Cửa hàng bán hàng hóa.",
+        "ipa-example": "/ðə stɔːr sɛlz ɡʊdz/"
+      },
+      {
+        "sentence": "They are buying goods.",
+        "meaning-example": "Họ đang mua hàng hóa.",
+        "ipa-example": "/ðeɪ ɑːr ˈbaɪɪŋ ɡʊdz/"
+      },
+      {
+        "sentence": "We have received the goods.",
+        "meaning-example": "Chúng tôi đã nhận hàng hóa.",
+        "ipa-example": "/wi hæv rɪˈsiːvd ðə ɡʊdz/"
+      },
+      {
+        "sentence": "He sold the goods yesterday.",
+        "meaning-example": "Anh ấy đã bán hàng hóa hôm qua.",
+        "ipa-example": "/hi soʊld ðə ɡʊdz ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "They were delivering goods.",
+        "meaning-example": "Họ đã giao hàng hóa.",
+        "ipa-example": "/ðeɪ wɜːr dɪˈlɪvərɪŋ ɡʊdz/"
+      },
+      {
+        "sentence": "We had shipped the goods.",
+        "meaning-example": "Chúng tôi đã gửi hàng hóa.",
+        "ipa-example": "/wi hæd ʃɪpt ðə ɡʊdz/"
+      },
+      {
+        "sentence": "The company will import goods.",
+        "meaning-example": "Công ty sẽ nhập khẩu hàng hóa.",
+        "ipa-example": "/ðə ˈkʌmpəni wɪl ɪmˈpɔːrt ɡʊdz/"
+      },
+      {
+        "sentence": "They will be exporting goods.",
+        "meaning-example": "Họ sẽ xuất khẩu hàng hóa.",
+        "ipa-example": "/ðeɪ wɪl bi ɪkˈspɔːrtɪŋ ɡʊdz/"
+      },
+      {
+        "sentence": "We will have received the goods.",
+        "meaning-example": "Chúng tôi sẽ đã nhận hàng hóa.",
+        "ipa-example": "/wi wɪl hæv rɪˈsiːvd ðə ɡʊdz/"
+      },
+      {
+        "sentence": "If goods are cheap, people buy more.",
+        "meaning-example": "Nếu hàng hóa rẻ, mọi người sẽ mua nhiều hơn.",
+        "ipa-example": "/ɪf ɡʊdz ɑːr ʧiːp, ˈpiːpl baɪ mɔːr/"
+      },
+      {
+        "sentence": "Selling goods is profitable.",
+        "meaning-example": "Bán hàng hóa thì có lợi nhuận.",
+        "ipa-example": "/ˈsɛlɪŋ ɡʊdz ɪz ˈprɒfɪtəbl/"
+      },
+      {
+        "sentence": "I want to order goods online.",
+        "meaning-example": "Tôi muốn đặt hàng hóa trực tuyến.",
+        "ipa-example": "/aɪ wɒnt tu ˈɔːrdər ɡʊdz ˈɒnlaɪn/"
+      }
     ]
   },
   {
@@ -156,18 +540,66 @@
     "ipa": "/hiːd/",
     "meaning": "chú ý, lắng nghe",
     "example": [
-      "I heed advice.",
-      "She is heeding the warning.",
-      "They have heeded the rules.",
-      "He heeded the teacher’s words.",
-      "We were heeding the instructions.",
-      "She had heeded the signs.",
-      "I will heed your suggestion.",
-      "They will be heeding the advice.",
-      "He will have heeded the warning.",
-      "If you heed, you avoid mistakes.",
-      "Heeding advice is wise.",
-      "I want to heed your words."
+      {
+        "sentence": "I heed advice.",
+        "meaning-example": "Tôi chú ý đến lời khuyên.",
+        "ipa-example": "/aɪ hiːd ədˈvaɪs/"
+      },
+      {
+        "sentence": "She is heeding the warning.",
+        "meaning-example": "Cô ấy đang chú ý đến cảnh báo.",
+        "ipa-example": "/ʃi ɪz ˈhiːdɪŋ ðə ˈwɔːrnɪŋ/"
+      },
+      {
+        "sentence": "They have heeded the rules.",
+        "meaning-example": "Họ đã chú ý đến các quy tắc.",
+        "ipa-example": "/ðeɪ hæv ˈhiːdɪd ðə ruːlz/"
+      },
+      {
+        "sentence": "He heeded the teacher’s words.",
+        "meaning-example": "Anh ấy đã chú ý đến lời nói của giáo viên.",
+        "ipa-example": "/hi ˈhiːdɪd ðə ˈtiːʧərz wɜːrdz/"
+      },
+      {
+        "sentence": "We were heeding the instructions.",
+        "meaning-example": "Chúng tôi đã chú ý đến các hướng dẫn.",
+        "ipa-example": "/wi wɜːr ˈhiːdɪŋ ði ɪnˈstrʌkʃənz/"
+      },
+      {
+        "sentence": "She had heeded the signs.",
+        "meaning-example": "Cô ấy đã chú ý đến các dấu hiệu.",
+        "ipa-example": "/ʃi hæd ˈhiːdɪd ðə saɪnz/"
+      },
+      {
+        "sentence": "I will heed your suggestion.",
+        "meaning-example": "Tôi sẽ chú ý đến gợi ý của bạn.",
+        "ipa-example": "/aɪ wɪl hiːd jʊər səˈdʒɛstʃən/"
+      },
+      {
+        "sentence": "They will be heeding the advice.",
+        "meaning-example": "Họ sẽ đang chú ý đến lời khuyên.",
+        "ipa-example": "/ðeɪ wɪl bi ˈhiːdɪŋ ði ədˈvaɪs/"
+      },
+      {
+        "sentence": "He will have heeded the warning.",
+        "meaning-example": "Anh ấy sẽ đã chú ý đến cảnh báo.",
+        "ipa-example": "/hi wɪl hæv ˈhiːdɪd ðə ˈwɔːrnɪŋ/"
+      },
+      {
+        "sentence": "If you heed, you avoid mistakes.",
+        "meaning-example": "Nếu bạn chú ý, bạn sẽ tránh được sai lầm.",
+        "ipa-example": "/ɪf ju hiːd, ju əˈvɔɪd mɪsˈteɪks/"
+      },
+      {
+        "sentence": "Heeding advice is wise.",
+        "meaning-example": "Chú ý đến lời khuyên là khôn ngoan.",
+        "ipa-example": "/ˈhiːdɪŋ ədˈvaɪs ɪz waɪz/"
+      },
+      {
+        "sentence": "I want to heed your words.",
+        "meaning-example": "Tôi muốn chú ý đến lời nói của bạn.",
+        "ipa-example": "/aɪ wɒnt tu hiːd jʊər wɜːrdz/"
+      }
     ]
   },
   {
@@ -175,18 +607,66 @@
     "ipa": "/ˈhɪtʃˌhaɪk/",
     "meaning": "đi nhờ xe",
     "example": [
-      "I hitchhike to school.",
-      "She is hitchhiking now.",
-      "They have hitchhiked before.",
-      "He hitchhiked last summer.",
-      "We were hitchhiking together.",
-      "She had hitchhiked to Paris.",
-      "I will hitchhike tomorrow.",
-      "They will be hitchhiking soon.",
-      "He will have hitchhiked by noon.",
-      "If you hitchhike, be careful.",
-      "Hitchhiking is adventurous.",
-      "I want to hitchhike across the country."
+      {
+        "sentence": "I hitchhike to school.",
+        "meaning-example": "Tôi đi nhờ xe đến trường.",
+        "ipa-example": "/aɪ ˈhɪtʃhaɪk tu skuːl/"
+      },
+      {
+        "sentence": "She is hitchhiking now.",
+        "meaning-example": "Cô ấy đang đi nhờ xe.",
+        "ipa-example": "/ʃi ɪz ˈhɪtʃhaɪkɪŋ naʊ/"
+      },
+      {
+        "sentence": "They have hitchhiked before.",
+        "meaning-example": "Họ đã từng đi nhờ xe.",
+        "ipa-example": "/ðeɪ hæv ˈhɪtʃhaɪkt bɪˈfɔːr/"
+      },
+      {
+        "sentence": "He hitchhiked last summer.",
+        "meaning-example": "Anh ấy đã đi nhờ xe vào mùa hè năm ngoái.",
+        "ipa-example": "/hi ˈhɪtʃhaɪkt lɑːst ˈsʌmər/"
+      },
+      {
+        "sentence": "We were hitchhiking together.",
+        "meaning-example": "Chúng tôi đã cùng nhau đi nhờ xe.",
+        "ipa-example": "/wi wɜːr ˈhɪtʃhaɪkɪŋ təˈɡɛðər/"
+      },
+      {
+        "sentence": "She had hitchhiked to Paris.",
+        "meaning-example": "Cô ấy đã đi nhờ xe đến Paris.",
+        "ipa-example": "/ʃi hæd ˈhɪtʃhaɪkt tu ˈpærɪs/"
+      },
+      {
+        "sentence": "I will hitchhike tomorrow.",
+        "meaning-example": "Tôi sẽ đi nhờ xe vào ngày mai.",
+        "ipa-example": "/aɪ wɪl ˈhɪtʃhaɪk təˈmɒroʊ/"
+      },
+      {
+        "sentence": "They will be hitchhiking soon.",
+        "meaning-example": "Họ sẽ sớm đi nhờ xe.",
+        "ipa-example": "/ðeɪ wɪl bi ˈhɪtʃhaɪkɪŋ suːn/"
+      },
+      {
+        "sentence": "He will have hitchhiked by noon.",
+        "meaning-example": "Anh ấy sẽ đã đi nhờ xe trước buổi trưa.",
+        "ipa-example": "/hi wɪl hæv ˈhɪtʃhaɪkt baɪ nuːn/"
+      },
+      {
+        "sentence": "If you hitchhike, be careful.",
+        "meaning-example": "Nếu bạn đi nhờ xe, hãy cẩn thận.",
+        "ipa-example": "/ɪf ju ˈhɪtʃhaɪk, bi ˈkɛrfəl/"
+      },
+      {
+        "sentence": "Hitchhiking is adventurous.",
+        "meaning-example": "Đi nhờ xe thật mạo hiểm.",
+        "ipa-example": "/ˈhɪtʃhaɪkɪŋ ɪz ædˈvɛnʧərəs/"
+      },
+      {
+        "sentence": "I want to hitchhike across the country.",
+        "meaning-example": "Tôi muốn đi nhờ xe xuyên quốc gia.",
+        "ipa-example": "/aɪ wɒnt tu ˈhɪtʃhaɪk əˈkrɔːs ðə ˈkʌntri/"
+      }
     ]
   },
   {
@@ -194,18 +674,66 @@
     "ipa": "/mɒk/",
     "meaning": "chế nhạo",
     "example": [
-      "They mock his accent.",
-      "She is mocking me.",
-      "He has mocked my idea.",
-      "They mocked the plan.",
-      "We were mocking the movie.",
-      "She had mocked his speech.",
-      "I will not mock you.",
-      "They will be mocking the show.",
-      "He will have mocked the answer.",
-      "If you mock, people feel bad.",
-      "Mocking others is rude.",
-      "I want to mock the test."
+      {
+        "sentence": "They mock his accent.",
+        "meaning-example": "Họ chế nhạo giọng điệu của anh ấy.",
+        "ipa-example": "/ðeɪ mɒk hɪz ˈæksɛnt/"
+      },
+      {
+        "sentence": "She is mocking me.",
+        "meaning-example": "Cô ấy đang chế nhạo tôi.",
+        "ipa-example": "/ʃi ɪz ˈmɒkɪŋ miː/"
+      },
+      {
+        "sentence": "He has mocked my idea.",
+        "meaning-example": "Anh ấy đã chế nhạo ý tưởng của tôi.",
+        "ipa-example": "/hi hæz mɒkt maɪ aɪˈdɪə/"
+      },
+      {
+        "sentence": "They mocked the plan.",
+        "meaning-example": "Họ đã chế nhạo kế hoạch.",
+        "ipa-example": "/ðeɪ mɒkt ðə plæn/"
+      },
+      {
+        "sentence": "We were mocking the movie.",
+        "meaning-example": "Chúng tôi đã chế nhạo bộ phim.",
+        "ipa-example": "/wi wɜːr ˈmɒkɪŋ ðə ˈmuːvi/"
+      },
+      {
+        "sentence": "She had mocked his speech.",
+        "meaning-example": "Cô ấy đã chế nhạo bài phát biểu của anh ấy.",
+        "ipa-example": "/ʃi hæd mɒkt hɪz spiːʧ/"
+      },
+      {
+        "sentence": "I will not mock you.",
+        "meaning-example": "Tôi sẽ không chế nhạo bạn.",
+        "ipa-example": "/aɪ wɪl nɒt mɒk juː/"
+      },
+      {
+        "sentence": "They will be mocking the show.",
+        "meaning-example": "Họ sẽ đang chế nhạo chương trình.",
+        "ipa-example": "/ðeɪ wɪl bi ˈmɒkɪŋ ðə ʃoʊ/"
+      },
+      {
+        "sentence": "He will have mocked the answer.",
+        "meaning-example": "Anh ấy sẽ đã chế nhạo câu trả lời.",
+        "ipa-example": "/hi wɪl hæv mɒkt ði ˈænsər/"
+      },
+      {
+        "sentence": "If you mock, people feel bad.",
+        "meaning-example": "Nếu bạn chế nhạo, mọi người sẽ cảm thấy tồi tệ.",
+        "ipa-example": "/ɪf ju mɒk, ˈpiːpl fiːl bæd/"
+      },
+      {
+        "sentence": "Mocking others is rude.",
+        "meaning-example": "Chế nhạo người khác thì thô lỗ.",
+        "ipa-example": "/ˈmɒkɪŋ ˈʌðərz ɪz ruːd/"
+      },
+      {
+        "sentence": "I want to mock the test.",
+        "meaning-example": "Tôi muốn chế nhạo bài kiểm tra.",
+        "ipa-example": "/aɪ wɒnt tu mɒk ðə tɛst/"
+      }
     ]
   },
   {
@@ -213,18 +741,66 @@
     "ipa": "/ˈnjuːtrəl/",
     "meaning": "trung lập",
     "example": [
-      "I stay neutral in arguments.",
-      "She is remaining neutral.",
-      "They have been neutral.",
-      "He stayed neutral yesterday.",
-      "We were being neutral.",
-      "She had remained neutral.",
-      "I will stay neutral.",
-      "They will be remaining neutral.",
-      "He will have stayed neutral.",
-      "If you are neutral, you avoid conflict.",
-      "Being neutral is sometimes wise.",
-      "I want to remain neutral."
+      {
+        "sentence": "I stay neutral in arguments.",
+        "meaning-example": "Tôi giữ lập trường trung lập trong các cuộc tranh luận.",
+        "ipa-example": "/aɪ steɪ ˈnjuːtrəl ɪn ˈɑːrɡjʊmənts/"
+      },
+      {
+        "sentence": "She is remaining neutral.",
+        "meaning-example": "Cô ấy đang giữ lập trường trung lập.",
+        "ipa-example": "/ʃi ɪz rɪˈmeɪnɪŋ ˈnjuːtrəl/"
+      },
+      {
+        "sentence": "They have been neutral.",
+        "meaning-example": "Họ đã giữ lập trường trung lập.",
+        "ipa-example": "/ðeɪ hæv bɪn ˈnjuːtrəl/"
+      },
+      {
+        "sentence": "He stayed neutral yesterday.",
+        "meaning-example": "Anh ấy đã giữ lập trường trung lập hôm qua.",
+        "ipa-example": "/hi steɪd ˈnjuːtrəl ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "We were being neutral.",
+        "meaning-example": "Chúng tôi đã giữ lập trường trung lập.",
+        "ipa-example": "/wi wɜːr biːɪŋ ˈnjuːtrəl/"
+      },
+      {
+        "sentence": "She had remained neutral.",
+        "meaning-example": "Cô ấy đã giữ lập trường trung lập.",
+        "ipa-example": "/ʃi hæd rɪˈmeɪnd ˈnjuːtrəl/"
+      },
+      {
+        "sentence": "I will stay neutral.",
+        "meaning-example": "Tôi sẽ giữ lập trường trung lập.",
+        "ipa-example": "/aɪ wɪl steɪ ˈnjuːtrəl/"
+      },
+      {
+        "sentence": "They will be remaining neutral.",
+        "meaning-example": "Họ sẽ đang giữ lập trường trung lập.",
+        "ipa-example": "/ðeɪ wɪl bi rɪˈmeɪnɪŋ ˈnjuːtrəl/"
+      },
+      {
+        "sentence": "He will have stayed neutral.",
+        "meaning-example": "Anh ấy sẽ đã giữ lập trường trung lập.",
+        "ipa-example": "/hi wɪl hæv steɪd ˈnjuːtrəl/"
+      },
+      {
+        "sentence": "If you are neutral, you avoid conflict.",
+        "meaning-example": "Nếu bạn trung lập, bạn sẽ tránh được xung đột.",
+        "ipa-example": "/ɪf ju ɑːr ˈnjuːtrəl, ju əˈvɔɪd ˈkɒnflɪkt/"
+      },
+      {
+        "sentence": "Being neutral is sometimes wise.",
+        "meaning-example": "Đôi khi trung lập là khôn ngoan.",
+        "ipa-example": "/ˈbiːɪŋ ˈnjuːtrəl ɪz ˈsʌmtaɪmz waɪz/"
+      },
+      {
+        "sentence": "I want to remain neutral.",
+        "meaning-example": "Tôi muốn giữ lập trường trung lập.",
+        "ipa-example": "/aɪ wɒnt tu rɪˈmeɪn ˈnjuːtrəl/"
+      }
     ]
   },
   {
@@ -232,18 +808,66 @@
     "ipa": "/ˈpɜːrsɪkjuːt/",
     "meaning": "đàn áp, ngược đãi",
     "example": [
-      "They persecute minorities.",
-      "He is persecuting the group.",
-      "She has persecuted others.",
-      "They persecuted the villagers.",
-      "We were persecuting no one.",
-      "He had persecuted the rebels.",
-      "The regime will persecute dissenters.",
-      "They will be persecuting people.",
-      "He will have persecuted many.",
-      "If you persecute, you cause harm.",
-      "Persecuting is wrong.",
-      "I want to stop persecution."
+      {
+        "sentence": "They persecute minorities.",
+        "meaning-example": "Họ đàn áp các nhóm thiểu số.",
+        "ipa-example": "/ðeɪ ˈpɜːrsɪkjuːt maɪˈnɔːrɪtiz/"
+      },
+      {
+        "sentence": "He is persecuting the group.",
+        "meaning-example": "Anh ấy đang đàn áp nhóm này.",
+        "ipa-example": "/hi ɪz ˈpɜːrsɪkjuːtɪŋ ðə ɡruːp/"
+      },
+      {
+        "sentence": "She has persecuted others.",
+        "meaning-example": "Cô ấy đã ngược đãi những người khác.",
+        "ipa-example": "/ʃi hæz ˈpɜːrsɪkjuːtɪd ˈʌðərz/"
+      },
+      {
+        "sentence": "They persecuted the villagers.",
+        "meaning-example": "Họ đã đàn áp những người dân làng.",
+        "ipa-example": "/ðeɪ ˈpɜːrsɪkjuːtɪd ðə ˈvɪlɪdʒərz/"
+      },
+      {
+        "sentence": "We were persecuting no one.",
+        "meaning-example": "Chúng tôi không đàn áp ai cả.",
+        "ipa-example": "/wi wɜːr ˈpɜːrsɪkjuːtɪŋ noʊ wʌn/"
+      },
+      {
+        "sentence": "He had persecuted the rebels.",
+        "meaning-example": "Anh ấy đã đàn áp những kẻ nổi loạn.",
+        "ipa-example": "/hi hæd ˈpɜːrsɪkjuːtɪd ðə ˈrɛbəlz/"
+      },
+      {
+        "sentence": "The regime will persecute dissenters.",
+        "meaning-example": "Chế độ sẽ đàn áp những người bất đồng.",
+        "ipa-example": "/ðə rɪˈʤiːm wɪl ˈpɜːrsɪkjuːt dɪˈsɛntərz/"
+      },
+      {
+        "sentence": "They will be persecuting people.",
+        "meaning-example": "Họ sẽ đang đàn áp mọi người.",
+        "ipa-example": "/ðeɪ wɪl bi ˈpɜːrsɪkjuːtɪŋ ˈpiːpl/"
+      },
+      {
+        "sentence": "He will have persecuted many.",
+        "meaning-example": "Anh ấy sẽ đã đàn áp nhiều người.",
+        "ipa-example": "/hi wɪl hæv ˈpɜːrsɪkjuːtɪd ˈmɛni/"
+      },
+      {
+        "sentence": "If you persecute, you cause harm.",
+        "meaning-example": "Nếu bạn đàn áp, bạn gây hại.",
+        "ipa-example": "/ɪf ju ˈpɜːrsɪkjuːt, ju kɔːz hɑːrm/"
+      },
+      {
+        "sentence": "Persecuting is wrong.",
+        "meaning-example": "Đàn áp là sai trái.",
+        "ipa-example": "/ˈpɜːrsɪkjuːtɪŋ ɪz rɔːŋ/"
+      },
+      {
+        "sentence": "I want to stop persecution.",
+        "meaning-example": "Tôi muốn ngừng đàn áp.",
+        "ipa-example": "/aɪ wɒnt tu stɒp ˌpɜːrsɪˈkjuːʃən/"
+      }
     ]
   },
   {
@@ -251,18 +875,66 @@
     "ipa": "/ˈpɪti/",
     "meaning": "lòng thương hại",
     "example": [
-      "I feel pity for him.",
-      "She is showing pity.",
-      "They have felt pity.",
-      "He showed pity yesterday.",
-      "We were feeling pity.",
-      "She had shown pity before.",
-      "I will feel pity.",
-      "They will be showing pity.",
-      "He will have felt pity.",
-      "If you feel pity, you help.",
-      "Showing pity is kind.",
-      "I want to express pity."
+      {
+        "sentence": "I feel pity for him.",
+        "meaning-example": "Tôi cảm thấy thương hại cho anh ấy.",
+        "ipa-example": "/aɪ fiːl ˈpɪti fɔːr hɪm/"
+      },
+      {
+        "sentence": "She is showing pity.",
+        "meaning-example": "Cô ấy đang thể hiện lòng thương hại.",
+        "ipa-example": "/ʃi ɪz ˈʃoʊɪŋ ˈpɪti/"
+      },
+      {
+        "sentence": "They have felt pity.",
+        "meaning-example": "Họ đã cảm thấy thương hại.",
+        "ipa-example": "/ðeɪ hæv fɛlt ˈpɪti/"
+      },
+      {
+        "sentence": "He showed pity yesterday.",
+        "meaning-example": "Anh ấy đã thể hiện lòng thương hại hôm qua.",
+        "ipa-example": "/hi ʃoʊd ˈpɪti ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "We were feeling pity.",
+        "meaning-example": "Chúng tôi đã cảm thấy thương hại.",
+        "ipa-example": "/wi wɜːr ˈfiːlɪŋ ˈpɪti/"
+      },
+      {
+        "sentence": "She had shown pity before.",
+        "meaning-example": "Cô ấy đã thể hiện lòng thương hại trước đây.",
+        "ipa-example": "/ʃi hæd ʃoʊn ˈpɪti bɪˈfɔːr/"
+      },
+      {
+        "sentence": "I will feel pity.",
+        "meaning-example": "Tôi sẽ cảm thấy thương hại.",
+        "ipa-example": "/aɪ wɪl fiːl ˈpɪti/"
+      },
+      {
+        "sentence": "They will be showing pity.",
+        "meaning-example": "Họ sẽ đang thể hiện lòng thương hại.",
+        "ipa-example": "/ðeɪ wɪl bi ˈʃoʊɪŋ ˈpɪti/"
+      },
+      {
+        "sentence": "He will have felt pity.",
+        "meaning-example": "Anh ấy sẽ đã cảm thấy thương hại.",
+        "ipa-example": "/hi wɪl hæv fɛlt ˈpɪti/"
+      },
+      {
+        "sentence": "If you feel pity, you help.",
+        "meaning-example": "Nếu bạn cảm thấy thương hại, bạn sẽ giúp đỡ.",
+        "ipa-example": "/ɪf ju fiːl ˈpɪti, ju hɛlp/"
+      },
+      {
+        "sentence": "Showing pity is kind.",
+        "meaning-example": "Thể hiện lòng thương hại là tốt bụng.",
+        "ipa-example": "/ˈʃoʊɪŋ ˈpɪti ɪz kaɪnd/"
+      },
+      {
+        "sentence": "I want to express pity.",
+        "meaning-example": "Tôi muốn bày tỏ lòng thương hại.",
+        "ipa-example": "/aɪ wɒnt tu ɪkˈsprɛs ˈpɪti/"
+      }
     ]
   },
   {
@@ -270,18 +942,66 @@
     "ipa": "/rɪˈdjuːs/",
     "meaning": "giảm bớt",
     "example": [
-      "I reduce waste.",
-      "She is reducing costs.",
-      "They have reduced prices.",
-      "He reduced the speed.",
-      "We were reducing expenses.",
-      "She had reduced her weight.",
-      "I will reduce sugar intake.",
-      "They will be reducing pollution.",
-      "He will have reduced the risk.",
-      "If you reduce, you save.",
-      "Reducing stress is important.",
-      "I want to reduce noise."
+      {
+        "sentence": "I reduce waste.",
+        "meaning-example": "Tôi giảm thiểu chất thải.",
+        "ipa-example": "/aɪ rɪˈdjuːs weɪst/"
+      },
+      {
+        "sentence": "She is reducing costs.",
+        "meaning-example": "Cô ấy đang giảm chi phí.",
+        "ipa-example": "/ʃi ɪz rɪˈdjuːsɪŋ kɒsts/"
+      },
+      {
+        "sentence": "They have reduced prices.",
+        "meaning-example": "Họ đã giảm giá.",
+        "ipa-example": "/ðeɪ hæv rɪˈdjuːst ˈpraɪsɪz/"
+      },
+      {
+        "sentence": "He reduced the speed.",
+        "meaning-example": "Anh ấy đã giảm tốc độ.",
+        "ipa-example": "/hi rɪˈdjuːst ðə spiːd/"
+      },
+      {
+        "sentence": "We were reducing expenses.",
+        "meaning-example": "Chúng tôi đã giảm bớt chi phí.",
+        "ipa-example": "/wi wɜːr rɪˈdjuːsɪŋ ɪkˈspɛnsɪz/"
+      },
+      {
+        "sentence": "She had reduced her weight.",
+        "meaning-example": "Cô ấy đã giảm cân.",
+        "ipa-example": "/ʃi hæd rɪˈdjuːst hɜːr weɪt/"
+      },
+      {
+        "sentence": "I will reduce sugar intake.",
+        "meaning-example": "Tôi sẽ giảm lượng đường tiêu thụ.",
+        "ipa-example": "/aɪ wɪl rɪˈdjuːs ˈʃʊɡər ˈɪnteɪk/"
+      },
+      {
+        "sentence": "They will be reducing pollution.",
+        "meaning-example": "Họ sẽ đang giảm ô nhiễm.",
+        "ipa-example": "/ðeɪ wɪl bi rɪˈdjuːsɪŋ pəˈluːʃən/"
+      },
+      {
+        "sentence": "He will have reduced the risk.",
+        "meaning-example": "Anh ấy sẽ đã giảm thiểu rủi ro.",
+        "ipa-example": "/hi wɪl hæv rɪˈdjuːst ðə rɪsk/"
+      },
+      {
+        "sentence": "If you reduce, you save.",
+        "meaning-example": "Nếu bạn giảm bớt, bạn sẽ tiết kiệm.",
+        "ipa-example": "/ɪf ju rɪˈdjuːs, ju seɪv/"
+      },
+      {
+        "sentence": "Reducing stress is important.",
+        "meaning-example": "Giảm bớt căng thẳng là quan trọng.",
+        "ipa-example": "/rɪˈdjuːsɪŋ strɛs ɪz ɪmˈpɔːrtənt/"
+      },
+      {
+        "sentence": "I want to reduce noise.",
+        "meaning-example": "Tôi muốn giảm tiếng ồn.",
+        "ipa-example": "/aɪ wɒnt tu rɪˈdjuːs nɔɪz/"
+      }
     ]
   },
   {
@@ -289,18 +1009,66 @@
     "ipa": "/skraɪb/",
     "meaning": "người chép sách, thư lại",
     "example": [
-      "The scribe writes daily.",
-      "He is working as a scribe.",
-      "They have hired a scribe.",
-      "She became a scribe.",
-      "We were training a scribe.",
-      "He had worked as a scribe.",
-      "I will become a scribe.",
-      "They will be hiring a scribe.",
-      "She will have finished as a scribe.",
-      "If you are a scribe, you write.",
-      "Being a scribe is interesting.",
-      "I want to be a scribe."
+      {
+        "sentence": "The scribe writes daily.",
+        "meaning-example": "Người chép sách viết hàng ngày.",
+        "ipa-example": "/ðə skraɪb raɪts ˈdeɪli/"
+      },
+      {
+        "sentence": "He is working as a scribe.",
+        "meaning-example": "Anh ấy đang làm việc như một thư lại.",
+        "ipa-example": "/hi ɪz ˈwɜːrkɪŋ æz ə skraɪb/"
+      },
+      {
+        "sentence": "They have hired a scribe.",
+        "meaning-example": "Họ đã thuê một thư lại.",
+        "ipa-example": "/ðeɪ hæv haɪərd ə skraɪb/"
+      },
+      {
+        "sentence": "She became a scribe.",
+        "meaning-example": "Cô ấy đã trở thành một thư lại.",
+        "ipa-example": "/ʃi bɪˈkeɪm ə skraɪb/"
+      },
+      {
+        "sentence": "We were training a scribe.",
+        "meaning-example": "Chúng tôi đã đào tạo một thư lại.",
+        "ipa-example": "/wi wɜːr ˈtreɪnɪŋ ə skraɪb/"
+      },
+      {
+        "sentence": "He had worked as a scribe.",
+        "meaning-example": "Anh ấy đã làm việc như một thư lại.",
+        "ipa-example": "/hi hæd wɜːrkt æz ə skraɪb/"
+      },
+      {
+        "sentence": "I will become a scribe.",
+        "meaning-example": "Tôi sẽ trở thành một thư lại.",
+        "ipa-example": "/aɪ wɪl bɪˈkʌm ə skraɪb/"
+      },
+      {
+        "sentence": "They will be hiring a scribe.",
+        "meaning-example": "Họ sẽ đang thuê một thư lại.",
+        "ipa-example": "/ðeɪ wɪl bi ˈhaɪərɪŋ ə skraɪb/"
+      },
+      {
+        "sentence": "She will have finished as a scribe.",
+        "meaning-example": "Cô ấy sẽ đã hoàn thành vai trò thư lại.",
+        "ipa-example": "/ʃi wɪl hæv ˈfɪnɪʃt æz ə skraɪb/"
+      },
+      {
+        "sentence": "If you are a scribe, you write.",
+        "meaning-example": "Nếu bạn là một thư lại, bạn viết.",
+        "ipa-example": "/ɪf ju ɑːr ə skraɪb, ju raɪt/"
+      },
+      {
+        "sentence": "Being a scribe is interesting.",
+        "meaning-example": "Làm thư lại thì thú vị.",
+        "ipa-example": "/ˈbiːɪŋ ə skraɪb ɪz ˈɪntrəstɪŋ/"
+      },
+      {
+        "sentence": "I want to be a scribe.",
+        "meaning-example": "Tôi muốn trở thành một thư lại.",
+        "ipa-example": "/aɪ wɒnt tu bi ə skraɪb/"
+      }
     ]
   },
   {
@@ -308,18 +1076,66 @@
     "ipa": "/ˈtɛmpər/",
     "meaning": "tính khí, cơn giận",
     "example": [
-      "He loses his temper easily.",
-      "She is controlling her temper.",
-      "They have shown bad temper.",
-      "He lost his temper yesterday.",
-      "We were watching his temper.",
-      "She had lost her temper before.",
-      "I will keep my temper.",
-      "They will be testing his temper.",
-      "He will have lost his temper.",
-      "If you lose temper, calm down.",
-      "Controlling temper is good.",
-      "I want to improve my temper."
+      {
+        "sentence": "He loses his temper easily.",
+        "meaning-example": "Anh ấy dễ dàng mất bình tĩnh.",
+        "ipa-example": "/hi ˈluːzɪz hɪz ˈtɛmpər ˈiːzɪli/"
+      },
+      {
+        "sentence": "She is controlling her temper.",
+        "meaning-example": "Cô ấy đang kiểm soát cơn giận của mình.",
+        "ipa-example": "/ʃi ɪz kənˈtroʊlɪŋ hɜːr ˈtɛmpər/"
+      },
+      {
+        "sentence": "They have shown bad temper.",
+        "meaning-example": "Họ đã thể hiện tính khí xấu.",
+        "ipa-example": "/ðeɪ hæv ʃoʊn bæd ˈtɛmpər/"
+      },
+      {
+        "sentence": "He lost his temper yesterday.",
+        "meaning-example": "Anh ấy đã mất bình tĩnh hôm qua.",
+        "ipa-example": "/hi lɒst hɪz ˈtɛmpər ˈjɛstərdeɪ/"
+      },
+      {
+        "sentence": "We were watching his temper.",
+        "meaning-example": "Chúng tôi đã theo dõi cơn giận của anh ấy.",
+        "ipa-example": "/wi wɜːr ˈwɒtʃɪŋ hɪz ˈtɛmpər/"
+      },
+      {
+        "sentence": "She had lost her temper before.",
+        "meaning-example": "Cô ấy đã mất bình tĩnh trước đây.",
+        "ipa-example": "/ʃi hæd lɒst hɜːr ˈtɛmpər bɪˈfɔːr/"
+      },
+      {
+        "sentence": "I will keep my temper.",
+        "meaning-example": "Tôi sẽ giữ bình tĩnh.",
+        "ipa-example": "/aɪ wɪl kiːp maɪ ˈtɛmpər/"
+      },
+      {
+        "sentence": "They will be testing his temper.",
+        "meaning-example": "Họ sẽ kiểm tra tính khí của anh ấy.",
+        "ipa-example": "/ðeɪ wɪl bi ˈtɛstɪŋ hɪz ˈtɛmpər/"
+      },
+      {
+        "sentence": "He will have lost his temper.",
+        "meaning-example": "Anh ấy sẽ đã mất bình tĩnh.",
+        "ipa-example": "/hi wɪl hæv lɒst hɪz ˈtɛmpər/"
+      },
+      {
+        "sentence": "If you lose temper, calm down.",
+        "meaning-example": "Nếu bạn mất bình tĩnh, hãy bình tĩnh lại.",
+        "ipa-example": "/ɪf ju luːz ˈtɛmpər, kɑːm daʊn/"
+      },
+      {
+        "sentence": "Controlling temper is good.",
+        "meaning-example": "Kiểm soát cơn giận là tốt.",
+        "ipa-example": "/kənˈtroʊlɪŋ ˈtɛmpər ɪz ɡʊd/"
+      },
+      {
+        "sentence": "I want to improve my temper.",
+        "meaning-example": "Tôi muốn cải thiện tính khí của mình.",
+        "ipa-example": "/aɪ wɒnt tu ɪmˈpruːv maɪ ˈtɛmpər/"
+      }
     ]
   },
   {
@@ -327,18 +1143,66 @@
     "ipa": "/θroʊn/",
     "meaning": "ngai vàng",
     "example": [
-      "The king sits on the throne.",
-      "She is approaching the throne.",
-      "They have claimed the throne.",
-      "He took the throne.",
-      "We were guarding the throne.",
-      "She had reached the throne.",
-      "I will see the throne.",
-      "They will be building a throne.",
-      "He will have inherited the throne.",
-      "If you sit on the throne, you rule.",
-      "Protecting the throne is vital.",
-      "I want to see the throne."
+      {
+        "sentence": "The king sits on the throne.",
+        "meaning-example": "Nhà vua ngồi trên ngai vàng.",
+        "ipa-example": "/ðə kɪŋ sɪts ɒn ðə θroʊn/"
+      },
+      {
+        "sentence": "She is approaching the throne.",
+        "meaning-example": "Cô ấy đang tiếp cận ngai vàng.",
+        "ipa-example": "/ʃi ɪz əˈproʊʧɪŋ ðə θroʊn/"
+      },
+      {
+        "sentence": "They have claimed the throne.",
+        "meaning-example": "Họ đã chiếm lấy ngai vàng.",
+        "ipa-example": "/ðeɪ hæv kleɪmd ðə θroʊn/"
+      },
+      {
+        "sentence": "He took the throne.",
+        "meaning-example": "Ông ấy đã lên ngôi.",
+        "ipa-example": "/hi tʊk ðə θroʊn/"
+      },
+      {
+        "sentence": "We were guarding the throne.",
+        "meaning-example": "Chúng tôi đã canh gác ngai vàng.",
+        "ipa-example": "/wi wɜːr ˈɡɑːrdɪŋ ðə θroʊn/"
+      },
+      {
+        "sentence": "She had reached the throne.",
+        "meaning-example": "Cô ấy đã đến được ngai vàng.",
+        "ipa-example": "/ʃi hæd riːtʃt ðə θroʊn/"
+      },
+      {
+        "sentence": "I will see the throne.",
+        "meaning-example": "Tôi sẽ thấy ngai vàng.",
+        "ipa-example": "/aɪ wɪl siː ðə θroʊn/"
+      },
+      {
+        "sentence": "They will be building a throne.",
+        "meaning-example": "Họ sẽ đang xây dựng một ngai vàng.",
+        "ipa-example": "/ðeɪ wɪl bi ˈbɪldɪŋ ə θroʊn/"
+      },
+      {
+        "sentence": "He will have inherited the throne.",
+        "meaning-example": "Ông ấy sẽ đã thừa kế ngai vàng.",
+        "ipa-example": "/hi wɪl hæv ɪnˈhɪrɪtɪd ðə θroʊn/"
+      },
+      {
+        "sentence": "If you sit on the throne, you rule.",
+        "meaning-example": "Nếu bạn ngồi trên ngai vàng, bạn sẽ cai trị.",
+        "ipa-example": "/ɪf ju sɪt ɒn ðə θroʊn, ju ruːl/"
+      },
+      {
+        "sentence": "Protecting the throne is vital.",
+        "meaning-example": "Bảo vệ ngai vàng là rất quan trọng.",
+        "ipa-example": "/prəˈtɛktɪŋ ðə θroʊn ɪz ˈvaɪtəl/"
+      },
+      {
+        "sentence": "I want to see the throne.",
+        "meaning-example": "Tôi muốn thấy ngai vàng.",
+        "ipa-example": "/aɪ wɒnt tu siː ðə θroʊn/"
+      }
     ]
   },
   {
@@ -346,18 +1210,66 @@
     "ipa": "/ˈjuːnəti/",
     "meaning": "sự đoàn kết",
     "example": [
-      "Unity brings strength.",
-      "We are seeking unity.",
-      "They have achieved unity.",
-      "The team showed unity.",
-      "We were building unity.",
-      "They had lost unity.",
-      "We will promote unity.",
-      "They will be seeking unity.",
-      "We will have achieved unity.",
-      "If there is unity, we succeed.",
-      "Building unity is important.",
-      "I want to see unity."
+      {
+        "sentence": "Unity brings strength.",
+        "meaning-example": "Đoàn kết mang lại sức mạnh.",
+        "ipa-example": "/ˈjuːnəti brɪŋz strɛŋθ/"
+      },
+      {
+        "sentence": "We are seeking unity.",
+        "meaning-example": "Chúng tôi đang tìm kiếm sự đoàn kết.",
+        "ipa-example": "/wi ɑːr ˈsiːkɪŋ ˈjuːnəti/"
+      },
+      {
+        "sentence": "They have achieved unity.",
+        "meaning-example": "Họ đã đạt được sự đoàn kết.",
+        "ipa-example": "/ðeɪ hæv əˈʧiːvd ˈjuːnəti/"
+      },
+      {
+        "sentence": "The team showed unity.",
+        "meaning-example": "Đội bóng đã thể hiện sự đoàn kết.",
+        "ipa-example": "/ðə tiːm ʃoʊd ˈjuːnəti/"
+      },
+      {
+        "sentence": "We were building unity.",
+        "meaning-example": "Chúng tôi đã xây dựng sự đoàn kết.",
+        "ipa-example": "/wi wɜːr ˈbɪldɪŋ ˈjuːnəti/"
+      },
+      {
+        "sentence": "They had lost unity.",
+        "meaning-example": "Họ đã mất đi sự đoàn kết.",
+        "ipa-example": "/ðeɪ hæd lɒst ˈjuːnəti/"
+      },
+      {
+        "sentence": "We will promote unity.",
+        "meaning-example": "Chúng tôi sẽ thúc đẩy sự đoàn kết.",
+        "ipa-example": "/wi wɪl prəˈmoʊt ˈjuːnəti/"
+      },
+      {
+        "sentence": "They will be seeking unity.",
+        "meaning-example": "Họ sẽ đang tìm kiếm sự đoàn kết.",
+        "ipa-example": "/ðeɪ wɪl bi ˈsiːkɪŋ ˈjuːnəti/"
+      },
+      {
+        "sentence": "We will have achieved unity.",
+        "meaning-example": "Chúng tôi sẽ đã đạt được sự đoàn kết.",
+        "ipa-example": "/wi wɪl hæv əˈʧiːvd ˈjuːnəti/"
+      },
+      {
+        "sentence": "If there is unity, we succeed.",
+        "meaning-example": "Nếu có sự đoàn kết, chúng ta sẽ thành công.",
+        "ipa-example": "/ɪf ðɛr ɪz ˈjuːnəti, wi səkˈsiːd/"
+      },
+      {
+        "sentence": "Building unity is important.",
+        "meaning-example": "Xây dựng sự đoàn kết là quan trọng.",
+        "ipa-example": "/ˈbɪldɪŋ ˈjuːnəti ɪz ɪmˈpɔːrtənt/"
+      },
+      {
+        "sentence": "I want to see unity.",
+        "meaning-example": "Tôi muốn thấy sự đoàn kết.",
+        "ipa-example": "/aɪ wɒnt tu siː ˈjuːnəti/"
+      }
     ]
   },
   {
@@ -365,18 +1277,66 @@
     "ipa": "/ˈvɪktər/",
     "meaning": "người chiến thắng",
     "example": [
-      "The victor claims the prize.",
-      "She is becoming the victor.",
-      "They have been victors before.",
-      "He became the victor.",
-      "We were cheering the victor.",
-      "She had been the victor.",
-      "I will be the victor.",
-      "They will be naming the victor.",
-      "He will have become the victor.",
-      "If you are the victor, you celebrate.",
-      "Being a victor feels great.",
-      "I want to be the victor."
+      {
+        "sentence": "The victor claims the prize.",
+        "meaning-example": "Người chiến thắng nhận giải thưởng.",
+        "ipa-example": "/ðə ˈvɪktər kleɪmz ðə praɪz/"
+      },
+      {
+        "sentence": "She is becoming the victor.",
+        "meaning-example": "Cô ấy đang trở thành người chiến thắng.",
+        "ipa-example": "/ʃi ɪz bɪˈkʌmɪŋ ðə ˈvɪktər/"
+      },
+      {
+        "sentence": "They have been victors before.",
+        "meaning-example": "Họ đã từng là những người chiến thắng.",
+        "ipa-example": "/ðeɪ hæv bɪn ˈvɪktərz bɪˈfɔːr/"
+      },
+      {
+        "sentence": "He became the victor.",
+        "meaning-example": "Ông ấy đã trở thành người chiến thắng.",
+        "ipa-example": "/hi bɪˈkeɪm ðə ˈvɪktər/"
+      },
+      {
+        "sentence": "We were cheering the victor.",
+        "meaning-example": "Chúng tôi đã cổ vũ cho người chiến thắng.",
+        "ipa-example": "/wi wɜːr ˈʧɪərɪŋ ðə ˈvɪktər/"
+      },
+      {
+        "sentence": "She had been the victor.",
+        "meaning-example": "Cô ấy đã từng là người chiến thắng.",
+        "ipa-example": "/ʃi hæd bɪn ðə ˈvɪktər/"
+      },
+      {
+        "sentence": "I will be the victor.",
+        "meaning-example": "Tôi sẽ là người chiến thắng.",
+        "ipa-example": "/aɪ wɪl bi ðə ˈvɪktər/"
+      },
+      {
+        "sentence": "They will be naming the victor.",
+        "meaning-example": "Họ sẽ công bố tên người chiến thắng.",
+        "ipa-example": "/ðeɪ wɪl bi ˈneɪmɪŋ ðə ˈvɪktər/"
+      },
+      {
+        "sentence": "He will have become the victor.",
+        "meaning-example": "Ông ấy sẽ đã trở thành người chiến thắng.",
+        "ipa-example": "/hi wɪl hæv bɪˈkʌm ðə ˈvɪktər/"
+      },
+      {
+        "sentence": "If you are the victor, you celebrate.",
+        "meaning-example": "Nếu bạn là người chiến thắng, bạn ăn mừng.",
+        "ipa-example": "/ɪf ju ɑːr ðə ˈvɪktər, ju ˈsɛlɪbreɪt/"
+      },
+      {
+        "sentence": "Being a victor feels great.",
+        "meaning-example": "Là một người chiến thắng thật tuyệt vời.",
+        "ipa-example": "/ˈbiːɪŋ ə ˈvɪktər fiːlz ɡreɪt/"
+      },
+      {
+        "sentence": "I want to be the victor.",
+        "meaning-example": "Tôi muốn trở thành người chiến thắng.",
+        "ipa-example": "/aɪ wɒnt tu bi ðə ˈvɪktər/"
+      }
     ]
   }
 ]

@@ -567,7 +567,14 @@
              const word = vocabularyData[currentWordIndex];
              // Use 'example' field for examples
              if (word.example && index >= 0 && index < word.example.length) {
-                 examplesListElement.innerHTML = `<div class="example-sentence">${word.example[index]}</div>`;
+                 const currentExample = word.example[index]; // Get the example object
+                 // Display the sentence, meaning, and ipa for the example
+                 examplesListElement.innerHTML = `
+                    <div class="example-sentence">${currentExample.sentence || 'N/A'}</div>
+                    <div class="example-ipa text-gray-500 text-xs mt-1">${currentExample['ipa-example'] || 'N/A'}</div> <!-- Hiển thị IPA ngay dưới câu -->
+                    <div class="example-meaning text-gray-700 text-sm mt-1">${currentExample['meaning-example'] || 'N/A'}</div> <!-- Hiển thị nghĩa dưới IPA -->
+                 `;
+
                  if (index === word.example.length - 1) {
                      nextExampleBtn.textContent = 'Hoàn thành ví dụ';
                  } else {
@@ -578,25 +585,64 @@
 
         // Function to check transcription against the word
         function checkTranscription(transcript) {
-            const targetWord = vocabularyData[currentWordIndex].word;
+            // Get the current word data
+            const currentWordData = vocabularyData[currentWordIndex];
+            // Get the current example object
+            const currentExample = currentWordData.example ? currentWordData.example[currentExampleIndex] : null;
+
+            if (!currentExample || !currentExample.sentence) { // Check if example object and sentence exist
+                feedbackElement.textContent = 'Không có ví dụ để so sánh.';
+                feedbackElement.className = 'feedback incorrect';
+                feedbackElement.classList.remove('hidden');
+                startSpeechBtn.classList.remove('hidden');
+                stopSpeechBtn.classList.add('hidden');
+                updateNavigationButtons();
+                return; // Exit if no example or sentence
+            }
+
+            // Get the target example sentence from the object
+            const targetExampleSentence = currentExample.sentence;
+
             // Simple case-insensitive comparison
-            if (transcript.trim().toLowerCase() === targetWord.trim().toLowerCase()) {
+            // Remove punctuation and extra spaces for a more flexible comparison
+            const cleanTranscript = transcript.trim().toLowerCase().replace(/[.,!?;:]/g, '').replace(/\s+/g, ' ');
+            const cleanTargetExample = targetExampleSentence.trim().toLowerCase().replace(/[.,!?;:]/g, '').replace(/\s+/g, ' ');
+
+
+            if (cleanTranscript === cleanTargetExample) {
                 feedbackElement.textContent = 'Chính xác!';
                 feedbackElement.className = 'feedback correct'; // Apply correct class
-                // nextWordBtn.classList.remove('hidden'); // Keep next button visible for browsing
-                startSpeechBtn.classList.remove('hidden'); // Show speech button again for the next word
+                feedbackElement.classList.remove('hidden'); // Ensure feedback is visible
+
+                // --- Thêm logic chuyển ví dụ tại đây ---
+                currentExampleIndex++; // Tăng chỉ số ví dụ
+                if (currentWordData.example && currentExampleIndex < currentWordData.example.length) {
+                    // Nếu còn ví dụ, hiển thị ví dụ tiếp theo
+                    displayExample(currentExampleIndex);
+                    // Có thể thêm thông báo nhỏ hoặc hiệu ứng chuyển tiếp ở đây nếu muốn
+                } else {
+                    // Nếu đã hết ví dụ cho từ này
+                    examplesListElement.innerHTML += '<p class="text-sm text-gray-600 mt-2">Đã hết ví dụ cho từ này.</p>';
+                    nextExampleBtn.classList.add('hidden'); // Ẩn nút ví dụ tiếp theo
+                    // Có thể thêm thông báo hoặc hiệu ứng khi hoàn thành tất cả ví dụ của từ
+                }
+                // --- Kết thúc logic chuyển ví dụ ---
+
+
+                startSpeechBtn.classList.remove('hidden'); // Show speech button again for the next example/word
                 stopSpeechBtn.classList.add('hidden'); // Hide stop button
                 // Re-enable navigation buttons after correct answer
                 updateNavigationButtons();
             } else {
-                feedbackElement.textContent = `Chưa chính xác. Thử lại. (Đáp án: "${targetWord}")`;
+                feedbackElement.textContent = `Chưa chính xác. Thử lại. (Đáp án: "${targetExampleSentence}")`; // Show the full example sentence
                 feedbackElement.className = 'feedback incorrect'; // Apply incorrect class
+                feedbackElement.classList.remove('hidden'); // Ensure feedback is visible
                  startSpeechBtn.classList.remove('hidden'); // Show speech button again
                  stopSpeechBtn.classList.add('hidden'); // Hide stop button
                  // Re-enable navigation buttons after incorrect answer
                  updateNavigationButtons();
             }
-            feedbackElement.classList.remove('hidden');
+            // feedbackElement.classList.remove('hidden'); // Moved inside if/else for clarity
         }
 
         // Function to update the state of Previous and Next buttons
