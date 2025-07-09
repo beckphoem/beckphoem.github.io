@@ -4,6 +4,7 @@
     "ipa": "/ˈtʃærəti/",
     "meaning": "sự giúp đỡ, lòng từ thiện",
     "image": "./eew-4-22/1.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "I give charity every month.",
@@ -72,6 +73,7 @@
     "ipa": "/ˈkɒmɜːrs/",
     "meaning": "thương mại, buôn bán",
     "image": "./eew-4-22/2.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "Commerce increases every year.",
@@ -140,6 +142,7 @@
     "ipa": "/kənˈdɛm/",
     "meaning": "kết án, kết tội",
     "image": "./eew-4-22/3.jpg",
+    "classes": "v",
     "example": [
       {
         "sentence": "I condemn violence.",
@@ -149,7 +152,7 @@
       {
         "sentence": "She is condemning the act.",
         "meaning-example": "Cô ấy đang lên án hành động.",
-        "ipa-example": "/ʃi ɪz kənˈdɛmɪŋ ði ækt/"
+        "ipa-example": "/ʃi ɪz kənˈdɛmɪŋ ðə ækt/"
       },
       {
         "sentence": "They have condemned the plan.",
@@ -179,12 +182,12 @@
       {
         "sentence": "People will be condemning the event.",
         "meaning-example": "Mọi người sẽ lên án sự kiện.",
-        "ipa-example": "/ˈpiːpl wɪl bi kənˈdɛmɪŋ ði ɪˈvɛnt/"
+        "ipa-example": "/ˈpiːpl wɪl bi kənˈdɛmɪŋ ðə ɪˈvɛnt/"
       },
       {
         "sentence": "He will have condemned the act by then.",
         "meaning-example": "Anh ấy sẽ đã lên án hành động vào thời điểm đó.",
-        "ipa-example": "/hi wɪl hæv kənˈdɛməd ði ækt baɪ ðɛn/"
+        "ipa-example": "/hi wɪl hæv kənˈdɛməd ðə ækt baɪ ðɛn/"
       },
       {
         "sentence": "If you condemn, you show disapproval.",
@@ -208,6 +211,7 @@
     "ipa": "/ˈkoʊzi/",
     "meaning": "ấm cúng",
     "image": "./eew-4-22/4.jpg",
+    "classes": "adj",
     "example": [
       {
         "sentence": "The room feels cozy.",
@@ -276,6 +280,7 @@
     "ipa": "/dɪˈpliːt/",
     "meaning": "làm cạn kiệt",
     "image": "./eew-4-22/5.jpg",
+    "classes": "v",
     "example": [
       {
         "sentence": "Factories deplete resources.",
@@ -344,6 +349,7 @@
     "ipa": "/ɪˈkɒnəmi/",
     "meaning": "nền kinh tế",
     "image": "./eew-4-22/6.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "The economy grows fast.",
@@ -393,17 +399,17 @@
       {
         "sentence": "If the economy grows, people benefit.",
         "meaning-example": "Nếu nền kinh tế phát triển, mọi người sẽ được lợi.",
-        "ipa-example": "/ɪf ði ɪˈkɒnəmi ɡroʊz, ˈpiːpl ˈbɛnɪfɪt/"
+        "ipa-example": "/ɪf ðɪ ɪˈkɒnəmi ɡroʊz, ˈpiːpl ˈbɛnɪfɪt/"
       },
       {
         "sentence": "Improving the economy is vital.",
         "meaning-example": "Cải thiện nền kinh tế là rất quan trọng.",
-        "ipa-example": "/ɪmˈpruːvɪŋ ði ɪˈkɒnəmi ɪz ˈvaɪtəl/"
+        "ipa-example": "/ɪmˈpruːvɪŋ ðɪ ɪˈkɒnəmi ɪz ˈvaɪtəl/"
       },
       {
         "sentence": "I want to study the economy.",
         "meaning-example": "Tôi muốn học về nền kinh tế.",
-        "ipa-example": "/aɪ wɒnt tu ˈstʌdi ði ɪˈkɒnəmi/"
+        "ipa-example": "/aɪ wɒnt tu ˈstʌdi ðɪ ɪˈkɒnəmi/"
       }
     ]
   },
@@ -412,56 +418,57 @@
     "ipa": "/ˈɛmpaɪər/",
     "meaning": "đế chế",
     "image": "./eew-4-22/7.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "The empire rules many lands.",
         "meaning-example": "Đế chế cai trị nhiều vùng đất.",
-        "ipa-example": "/ði ˈɛmpaɪər ruːlz ˈmɛni lændz/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər ruːlz ˈmɛni lændz/"
       },
       {
         "sentence": "The empire is expanding.",
         "meaning-example": "Đế chế đang mở rộng.",
-        "ipa-example": "/ði ˈɛmpaɪər ɪz ɪkˈspændɪŋ/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər ɪz ɪkˈspændɪŋ/"
       },
       {
         "sentence": "The empire has fallen.",
         "meaning-example": "Đế chế đã sụp đổ.",
-        "ipa-example": "/ði ˈɛmpaɪər hæz ˈfɔːlən/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər hæz ˈfɔːlən/"
       },
       {
         "sentence": "The empire conquered new lands.",
         "meaning-example": "Đế chế đã chinh phục những vùng đất mới.",
-        "ipa-example": "/ði ˈɛmpaɪər ˈkɒŋkərd njuː lændz/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər ˈkɒŋkərd njuː lændz/"
       },
       {
         "sentence": "The empire was growing.",
         "meaning-example": "Đế chế đã phát triển.",
-        "ipa-example": "/ði ˈɛmpaɪər wəz ˈɡroʊɪŋ/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər wəz ˈɡroʊɪŋ/"
       },
       {
         "sentence": "The empire had collapsed.",
         "meaning-example": "Đế chế đã sụp đổ.",
-        "ipa-example": "/ði ˈɛmpaɪər hæd kəˈlæpst/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər hæd kəˈlæpst/"
       },
       {
         "sentence": "The empire will rise again.",
         "meaning-example": "Đế chế sẽ trỗi dậy một lần nữa.",
-        "ipa-example": "/ði ˈɛmpaɪər wɪl raɪz əˈɡɛn/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər wɪl raɪz əˈɡɛn/"
       },
       {
         "sentence": "The empire will be expanding.",
         "meaning-example": "Đế chế sẽ đang mở rộng.",
-        "ipa-example": "/ði ˈɛmpaɪər wɪl bi ɪkˈspændɪŋ/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər wɪl bi ɪkˈspændɪŋ/"
       },
       {
         "sentence": "The empire will have changed.",
         "meaning-example": "Đế chế sẽ đã thay đổi.",
-        "ipa-example": "/ði ˈɛmpaɪər wɪl hæv ʧeɪndʒd/"
+        "ipa-example": "/ðɪ ˈɛmpaɪər wɪl hæv ʧeɪndʒd/"
       },
       {
         "sentence": "If the empire grows, it gets stronger.",
         "meaning-example": "Nếu đế chế phát triển, nó sẽ trở nên mạnh mẽ hơn.",
-        "ipa-example": "/ɪf ði ˈɛmpaɪər ɡroʊz, ɪt ɡɛts ˈstrɔːŋər/"
+        "ipa-example": "/ɪf ðɪ ˈɛmpaɪər ɡroʊz, ɪt ɡɛts ˈstrɔːŋər/"
       },
       {
         "sentence": "Building an empire takes time.",
@@ -480,6 +487,7 @@
     "ipa": "/ɡʊdz/",
     "meaning": "hàng hóa",
     "image": "./eew-4-22/8.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "The store sells goods.",
@@ -548,6 +556,7 @@
     "ipa": "/hiːd/",
     "meaning": "chú ý, lắng nghe",
     "image": "./eew-4-22/9.jpg",
+    "classes": "v",
     "example": [
       {
         "sentence": "I heed advice.",
@@ -587,7 +596,7 @@
       {
         "sentence": "They will be heeding the advice.",
         "meaning-example": "Họ sẽ đang chú ý đến lời khuyên.",
-        "ipa-example": "/ðeɪ wɪl bi ˈhiːdɪŋ ði ədˈvaɪs/"
+        "ipa-example": "/ðeɪ wɪl bi ˈhiːdɪŋ ðə ədˈvaɪs/"
       },
       {
         "sentence": "He will have heeded the warning.",
@@ -616,6 +625,7 @@
     "ipa": "/ˈhɪtʃˌhaɪk/",
     "meaning": "đi nhờ xe",
     "image": "./eew-4-22/10.jpg",
+    "classes": "v",
     "example": [
       {
         "sentence": "I hitchhike to school.",
@@ -684,6 +694,7 @@
     "ipa": "/mɒk/",
     "meaning": "chế nhạo",
     "image": "./eew-4-22/11.jpg",
+    "classes": "v",
     "example": [
       {
         "sentence": "They mock his accent.",
@@ -752,6 +763,7 @@
     "ipa": "/ˈnjuːtrəl/",
     "meaning": "trung lập",
     "image": "./eew-4-22/12.jpg",
+    "classes": "adj",
     "example": [
       {
         "sentence": "I stay neutral in arguments.",
@@ -820,6 +832,7 @@
     "ipa": "/ˈpɜːrsɪkjuːt/",
     "meaning": "đàn áp, ngược đãi",
     "image": "./eew-4-22/13.jpg",
+    "classes": "v",
     "example": [
       {
         "sentence": "They persecute minorities.",
@@ -888,6 +901,7 @@
     "ipa": "/ˈpɪti/",
     "meaning": "lòng thương hại",
     "image": "./eew-4-22/14.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "I feel pity for him.",
@@ -956,6 +970,7 @@
     "ipa": "/rɪˈdjuːs/",
     "meaning": "giảm bớt",
     "image": "./eew-4-22/15.jpg",
+    "classes": "v",
     "example": [
       {
         "sentence": "I reduce waste.",
@@ -1024,6 +1039,7 @@
     "ipa": "/skraɪb/",
     "meaning": "người chép sách, thư lại",
     "image": "./eew-4-22/16.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "The scribe writes daily.",
@@ -1092,6 +1108,7 @@
     "ipa": "/ˈtɛmpər/",
     "meaning": "tính khí, cơn giận",
     "image": "./eew-4-22/17.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "He loses his temper easily.",
@@ -1160,6 +1177,7 @@
     "ipa": "/θroʊn/",
     "meaning": "ngai vàng",
     "image": "./eew-4-22/18.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "The king sits on the throne.",
@@ -1228,6 +1246,7 @@
     "ipa": "/ˈjuːnəti/",
     "meaning": "sự đoàn kết",
     "image": "./eew-4-22/19.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "Unity brings strength.",
@@ -1296,6 +1315,7 @@
     "ipa": "/ˈvɪktər/",
     "meaning": "người chiến thắng",
     "image": "./eew-4-22/20.jpg",
+    "classes": "n",
     "example": [
       {
         "sentence": "The victor claims the prize.",

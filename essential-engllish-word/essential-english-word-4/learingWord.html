@@ -96,6 +96,13 @@
             color: #0366d6;
             margin-bottom: 15px;
         }
+        /* Added style for word class */
+        .word-class {
+            font-size: 0.9em;
+            color: #586069; /* Or a different color */
+            font-style: italic;
+            margin-bottom: 10px; /* Add some space below */
+        }
         .word-image { /* Style for the image */
             max-width: 100%; /* Ensure image fits within the card */
             height: auto; /* Maintain aspect ratio */
@@ -274,6 +281,8 @@
                 <div id="word" class="word"></div>
                 <div id="pronunciation" class="pronunciation"></div>
                 <div id="meaning" class="meaning"></div>
+                <!-- Added element for word class -->
+                <div id="word-class" class="word-class"></div>
                 <!-- Image will be inserted here -->
                 <img id="word-image" class="word-image hidden" src="" alt="Word illustration">
                 <div class="examples">
@@ -330,6 +339,9 @@
 
         // Get the image element
         const wordImageElement = document.getElementById('word-image');
+
+        // Get the word class element (Added)
+        const wordClassElement = document.getElementById('word-class');
 
         const startSpeechBtn = document.getElementById('start-speech-btn');
         const stopSpeechBtn = document.getElementById('stop-speech-btn');
@@ -520,6 +532,9 @@
                 pronunciationElement.textContent = word.ipa || 'N/A'; // Display N/A if no ipa
                 meaningElement.textContent = word.meaning || 'N/A'; // Display N/A if no meaning
 
+                // Display the word class (Added)
+                wordClassElement.textContent = word.classes ? `(${word.classes})` : ''; // Display class in parentheses, or empty if none
+
                 // Display the image if available
                 if (word.image) {
                     wordImageElement.src = word.image;
@@ -627,8 +642,9 @@
 
             // Simple case-insensitive comparison
             // Remove punctuation and extra spaces for a more flexible comparison
-            const cleanTranscript = transcript.trim().toLowerCase().replace(/[.,!?;:]/g, '').replace(/\s+/g, ' ');
-            const cleanTargetExample = targetExampleSentence.trim().toLowerCase().replace(/[.,!?;:]/g, '').replace(/\s+/g, ' ');
+            // Updated regex to include ' and "
+            const cleanTranscript = transcript.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
+            const cleanTargetExample = targetExampleSentence.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
 
 
             if (cleanTranscript === cleanTargetExample) {
