@@ -279,6 +279,7 @@
         <div id="word-learning-area" class="hidden">
             <div class="word-card">
                 <div id="word" class="word"></div>
+                <div id="word-index" class="text-sm text-gray-500 mb-2"></div> <!-- Added element for word index -->
                 <div id="pronunciation" class="pronunciation"></div>
                 <div id="meaning" class="meaning"></div>
                 <!-- Added element for word class -->
@@ -286,7 +287,7 @@
                 <!-- Image will be inserted here -->
                 <img id="word-image" class="word-image hidden" src="" alt="Word illustration">
                 <div class="examples">
-                    <h3>Ví dụ:</h3>
+                    <h3>Ví dụ: <span id="example-index" class="text-sm text-gray-500"></span></h3> <!-- Added element for example index -->
                     <div id="examples-list">
                         <!-- Examples will be loaded here -->
                     </div>
@@ -343,6 +344,11 @@
         // Get the word class element (Added)
         const wordClassElement = document.getElementById('word-class');
 
+        // Get the index elements (Added)
+        const wordIndexElement = document.getElementById('word-index');
+        const exampleIndexElement = document.getElementById('example-index');
+
+
         const startSpeechBtn = document.getElementById('start-speech-btn');
         const stopSpeechBtn = document.getElementById('stop-speech-btn');
         const nextWordBtn = document.getElementById('next-word-btn');
@@ -367,12 +373,12 @@
             errorMessage.textContent = "Trình duyệt của bạn không hỗ trợ API nhận dạng giọng nói.";
             errorMessage.classList.remove('hidden');
             loadingElement.classList.add('hidden');
-            // Disable all buttons
+            // Disable all buttons if API is not supported
             startSpeechBtn.disabled = true;
             nextExampleBtn.disabled = true;
             nextWordBtn.disabled = true;
-            prevWordBtn.disabled = true; // Disable previous button too
-            listWordsBtn.disabled = true; // Disable list button
+            prevWordBtn.disabled = true;
+            listWordsBtn.disabled = true;
         } else {
              // Initialize SpeechRecognition
              const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -387,11 +393,7 @@
                  feedbackElement.classList.add('hidden');
                  startSpeechBtn.classList.add('hidden');
                  stopSpeechBtn.classList.remove('hidden');
-                 // Disable navigation buttons while listening
-                 nextWordBtn.disabled = true;
-                 prevWordBtn.disabled = true;
-                 nextExampleBtn.disabled = true;
-                 listWordsBtn.disabled = true; // Disable list button while listening
+                 // Navigation buttons are NOT disabled while listening anymore due to looping
              };
 
              recognition.onresult = (event) => {
@@ -405,10 +407,7 @@
                  feedbackElement.classList.add('hidden');
                  startSpeechBtn.classList.remove('hidden');
                  stopSpeechBtn.classList.add('hidden');
-                 // Re-enable navigation buttons after error
-                 updateNavigationButtons();
-                 nextExampleBtn.disabled = false;
-                 listWordsBtn.disabled = false; // Re-enable list button
+                 // Navigation buttons are NOT re-enabled here anymore
              };
 
              recognition.onend = () => {
@@ -416,10 +415,7 @@
                  if (!startSpeechBtn.classList.contains('hidden')) {
                      stopSpeechBtn.classList.add('hidden');
                  }
-                 // Re-enable navigation buttons after recognition ends
-                 updateNavigationButtons();
-                 nextExampleBtn.disabled = false;
-                 listWordsBtn.disabled = false; // Re-enable list button
+                 // Navigation buttons are NOT re-enabled here anymore
              };
 
              startSpeechBtn.addEventListener('click', () => {
@@ -432,10 +428,7 @@
                      transcriptionElement.textContent = 'Không thể bắt đầu nhận dạng giọng nói. Vui lòng thử lại.';
                      startSpeechBtn.classList.remove('hidden');
                      stopSpeechBtn.classList.add('hidden');
-                     // Re-enable navigation buttons on error
-                     updateNavigationButtons();
-                     nextExampleBtn.disabled = false;
-                     listWordsBtn.disabled = false; // Re-enable list button
+                     // Navigation buttons are NOT re-enabled here anymore
                  }
              });
 
@@ -443,10 +436,7 @@
                  recognition.stop();
                  startSpeechBtn.classList.remove('hidden');
                  stopSpeechBtn.classList.add('hidden');
-                 // Re-enable navigation buttons after stopping
-                 updateNavigationButtons();
-                 nextExampleBtn.disabled = false;
-                 listWordsBtn.disabled = false; // Re-enable list button
+                 // Navigation buttons are NOT re-enabled here anymore
              });
         }
 
@@ -488,7 +478,7 @@
 
                 loadingElement.classList.add('hidden');
                 wordLearningArea.classList.remove('hidden');
-                displayWord(currentWordIndex);
+                displayWord(currentWordIndex); // Display the first word (index 0)
                 populateWordListMenu(); // Populate the word list menu after loading
 
             } catch (error) {
@@ -513,75 +503,13 @@
                     e.preventDefault(); // Prevent page jump
                     const clickedIndex = parseInt(e.target.dataset.index, 10);
                     if (!isNaN(clickedIndex)) {
-                        currentWordIndex = clickedIndex;
-                        displayWord(currentWordIndex);
+                        displayWord(clickedIndex); // Use displayWord directly
                         wordListMenu.classList.add('hidden'); // Hide the menu after selection
                     }
                 });
                 listItem.appendChild(link);
                 wordListElement.appendChild(listItem);
             });
-        }
-
-        // Function to display the current word
-        function displayWord(index) {
-            if (index >= 0 && index < vocabularyData.length) {
-                const word = vocabularyData[index];
-                wordElement.textContent = word.word;
-                // Use 'ipa' field for pronunciation
-                pronunciationElement.textContent = word.ipa || 'N/A'; // Display N/A if no ipa
-                meaningElement.textContent = word.meaning || 'N/A'; // Display N/A if no meaning
-
-                // Display the word class (Added)
-                wordClassElement.textContent = word.classes ? `(${word.classes})` : ''; // Display class in parentheses, or empty if none
-
-                // Display the image if available
-                if (word.image) {
-                    wordImageElement.src = word.image;
-                    wordImageElement.classList.remove('hidden'); // Show the image
-                } else {
-                    wordImageElement.src = ''; // Clear the src
-                    wordImageElement.classList.add('hidden'); // Hide the image if no source
-                }
-
-
-                // Reset examples display
-                examplesListElement.innerHTML = '';
-                currentExampleIndex = 0;
-                // Use 'example' field for examples
-                if (word.example && word.example.length > 0) {
-                    displayExample(currentExampleIndex);
-                    nextExampleBtn.classList.remove('hidden');
-                    nextExampleBtn.disabled = false; // Enable example button
-                } else {
-                    examplesListElement.innerHTML = '<p>Không có ví dụ.</p>';
-                    nextExampleBtn.classList.add('hidden');
-                    nextExampleBtn.disabled = true; // Disable example button
-                }
-
-                // Reset feedback and transcription
-                feedbackElement.classList.add('hidden');
-                transcriptionElement.textContent = '';
-
-                // Show speech button, hide stop button
-                startSpeechBtn.classList.remove('hidden');
-                stopSpeechBtn.classList.add('hidden');
-
-                // Update navigation button states
-                updateNavigationButtons();
-
-                // Highlight the current word in the list menu
-                highlightCurrentWordInList(index);
-
-            } else {
-                // End of vocabulary list
-                wordLearningArea.classList.add('hidden');
-                completionMessage.classList.remove('hidden');
-                 // Hide navigation buttons at the end
-                 prevWordBtn.classList.add('hidden');
-                 nextWordBtn.classList.add('hidden');
-                 listWordsBtn.classList.add('hidden'); // Hide list button at the end
-            }
         }
 
         // Function to highlight the current word in the list menu
@@ -598,136 +526,156 @@
             }
         }
 
+        // Function to display the previous example (called by ArrowUp)
+        function displayPreviousExample() {
+             const word = vocabularyData[currentWordIndex];
+             if (!word.example || word.example.length === 0) {
+                 return; // No examples to navigate
+             }
 
-        // Function to display the current example
+             // Calculate previous index with loop
+             let prevIndex = currentExampleIndex - 1;
+             if (prevIndex < 0) {
+                 prevIndex = word.example.length - 1; // Loop back to the last example
+             }
+             displayExample(prevIndex);
+        }
+
+
+        // Function to display the current word
+        function displayWord(index) {
+            if (index < 0 || index >= vocabularyData.length) {
+                console.error("Invalid word index:", index);
+                return; // Prevent displaying invalid index
+            }
+
+            currentWordIndex = index; // Update current index
+
+            const word = vocabularyData[currentWordIndex];
+
+            // Display word index (1-based)
+            wordIndexElement.textContent = `Từ ${currentWordIndex + 1}/${vocabularyData.length}`;
+
+            wordElement.textContent = word.word;
+            pronunciationElement.textContent = word.ipa || 'N/A';
+            meaningElement.textContent = word.meaning || 'N/A';
+            wordClassElement.textContent = word.classes ? `(${word.classes})` : '';
+
+            if (word.image) {
+                wordImageElement.src = word.image;
+                wordImageElement.classList.remove('hidden');
+            } else {
+                wordImageElement.src = '';
+                wordImageElement.classList.add('hidden');
+            }
+
+            // Reset examples display and index, then display the first example
+            examplesListElement.innerHTML = '';
+            currentExampleIndex = 0; // Reset example index when changing word
+
+            if (word.example && word.example.length > 0) {
+                displayExample(currentExampleIndex); // Display the first example
+                nextExampleBtn.classList.remove('hidden');
+            } else {
+                examplesListElement.innerHTML = '<p>Không có ví dụ.</p>';
+                exampleIndexElement.textContent = ''; // Clear example index if no examples
+                nextExampleBtn.classList.add('hidden');
+            }
+
+            // Reset feedback and transcription
+            feedbackElement.classList.add('hidden');
+            transcriptionElement.textContent = '';
+
+            // Show speech button, hide stop button
+            startSpeechBtn.classList.remove('hidden');
+            stopSpeechBtn.classList.add('hidden');
+
+            // Highlight the current word in the list menu
+            highlightCurrentWordInList(currentWordIndex);
+
+            // Ensure learning area is visible and completion/error messages are hidden
+            wordLearningArea.classList.remove('hidden');
+            completionMessage.classList.add('hidden');
+            errorMessage.classList.add('hidden');
+
+            // Ensure navigation buttons are visible (they are no longer hidden at the end)
+            prevWordBtn.classList.remove('hidden');
+            nextWordBtn.classList.remove('hidden');
+            listWordsBtn.classList.remove('hidden');
+        }
+
+        // Function to display a specific example by index
         function displayExample(index) {
              const word = vocabularyData[currentWordIndex];
-             // Use 'example' field for examples
-             if (word.example && index >= 0 && index < word.example.length) {
-                 const currentExample = word.example[index]; // Get the example object
-                 // Display the sentence, meaning, and ipa for the example
-                 examplesListElement.innerHTML = `
-                    <div class="example-sentence">${currentExample.sentence || 'N/A'}</div>
-                    <div class="example-ipa text-gray-500 text-xs mt-1">${currentExample['ipa-example'] || 'N/A'}</div> <!-- Hiển thị IPA ngay dưới câu -->
-                    <div class="example-meaning text-gray-700 text-sm mt-1">${currentExample['meaning-example'] || 'N/A'}</div> <!-- Hiển thị nghĩa dưới IPA -->
-                 `;
-
-                 if (index === word.example.length - 1) {
-                     nextExampleBtn.textContent = 'Hoàn thành ví dụ';
-                 } else {
-                     nextExampleBtn.textContent = 'Ví dụ tiếp theo';
-                 }
+             if (!word.example || word.example.length === 0) {
+                 examplesListElement.innerHTML = '<p>Không có ví dụ.</p>';
+                 exampleIndexElement.textContent = '';
+                 nextExampleBtn.classList.add('hidden');
+                 return;
              }
-        }
 
-        // Function to check transcription against the word
-        function checkTranscription(transcript) {
-            // Get the current word data
-            const currentWordData = vocabularyData[currentWordIndex];
-            // Get the current example object
-            const currentExample = currentWordData.example ? currentWordData.example[currentExampleIndex] : null;
+             if (index < 0 || index >= word.example.length) {
+                 console.error("Invalid example index:", index);
+                 return; // Prevent displaying invalid index
+             }
 
-            if (!currentExample || !currentExample.sentence) { // Check if example object and sentence exist
-                feedbackElement.textContent = 'Không có ví dụ để so sánh.';
-                feedbackElement.className = 'feedback incorrect';
-                feedbackElement.classList.remove('hidden');
-                startSpeechBtn.classList.remove('hidden');
-                stopSpeechBtn.classList.add('hidden');
-                updateNavigationButtons();
-                return; // Exit if no example or sentence
-            }
+             currentExampleIndex = index; // Update current index
 
-            // Get the target example sentence from the object
-            const targetExampleSentence = currentExample.sentence;
+             const currentExample = word.example[currentExampleIndex]; // Get the example object
 
-            // Simple case-insensitive comparison
-            // Remove punctuation and extra spaces for a more flexible comparison
-            // Updated regex to include ' and "
-            const cleanTranscript = transcript.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
-            const cleanTargetExample = targetExampleSentence.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
+             // Display example index (1-based)
+             exampleIndexElement.textContent = `(${currentExampleIndex + 1}/${word.example.length})`;
 
+             // Display the sentence, meaning, and ipa for the example
+             examplesListElement.innerHTML = `
+                <div class="example-sentence">${currentExample.sentence || 'N/A'}</div>
+                <div class="example-ipa text-gray-500 text-xs mt-1">${currentExample['ipa-example'] || 'N/A'}</div> <!-- Hiển thị IPA ngay dưới câu -->
+                <div class="example-meaning text-gray-700 text-sm mt-1">${currentExample['meaning-example'] || 'N/A'}</div> <!-- Hiển thị nghĩa dưới IPA -->
+             `;
 
-            if (cleanTranscript === cleanTargetExample) {
-                feedbackElement.textContent = 'Chính xác!';
-                feedbackElement.className = 'feedback correct'; // Apply correct class
-                feedbackElement.classList.remove('hidden'); // Ensure feedback is visible
+             // Update next example button text
+             if (currentExampleIndex === word.example.length - 1) {
+                 nextExampleBtn.textContent = 'Ví dụ tiếp theo (quay lại đầu)';
+             } else {
+                 nextExampleBtn.textContent = 'Ví dụ tiếp theo';
+             }
 
-                // --- Thêm logic chuyển ví dụ tại đây ---
-                currentExampleIndex++; // Tăng chỉ số ví dụ
-                if (currentWordData.example && currentExampleIndex < currentWordData.example.length) {
-                    // Nếu còn ví dụ, hiển thị ví dụ tiếp theo
-                    displayExample(currentExampleIndex);
-                    // Có thể thêm thông báo nhỏ hoặc hiệu ứng chuyển tiếp ở đây nếu muốn
-                } else {
-                    // Nếu đã hết ví dụ cho từ này
-                    examplesListElement.innerHTML += '<p class="text-sm text-gray-600 mt-2">Đã hết ví dụ cho từ này.</p>';
-                    nextExampleBtn.classList.add('hidden'); // Ẩn nút ví dụ tiếp theo
-                    // Có thể thêm thông báo hoặc hiệu ứng khi hoàn thành tất cả ví dụ của từ
-                }
-                // --- Kết thúc logic chuyển ví dụ ---
-
-
-                startSpeechBtn.classList.remove('hidden'); // Show speech button again for the next example/word
-                stopSpeechBtn.classList.add('hidden'); // Hide stop button
-                // Re-enable navigation buttons after correct answer
-                updateNavigationButtons();
-            } else {
-                feedbackElement.textContent = `Chưa chính xác. Thử lại. (Đáp án: "${targetExampleSentence}")`; // Show the full example sentence
-                feedbackElement.className = 'feedback incorrect'; // Apply incorrect class
-                feedbackElement.classList.remove('hidden'); // Ensure feedback is visible
-                 startSpeechBtn.classList.remove('hidden'); // Show speech button again
-                 stopSpeechBtn.classList.add('hidden'); // Hide stop button
-                 // Re-enable navigation buttons after incorrect answer
-                 updateNavigationButtons();
-            }
-            // feedbackElement.classList.remove('hidden'); // Moved inside if/else for clarity
-        }
-
-        // Function to update the state of Previous and Next buttons
-        function updateNavigationButtons() {
-            // Enable/Disable Previous button
-            prevWordBtn.disabled = currentWordIndex === 0;
-
-            // Enable/Disable Next button
-            nextWordBtn.disabled = currentWordIndex === vocabularyData.length - 1;
-
-            // Ensure they are visible unless the whole learning area is hidden (end of list)
-            if (!wordLearningArea.classList.contains('hidden')) {
-                 prevWordBtn.classList.remove('hidden');
-                 nextWordBtn.classList.remove('hidden');
-                 listWordsBtn.classList.remove('hidden'); // Ensure list button is visible
-            }
+             // Ensure next example button is visible (if there are examples)
+             nextExampleBtn.classList.remove('hidden');
         }
 
 
         // Event listener for next example button
         nextExampleBtn.addEventListener('click', () => {
-            currentExampleIndex++;
             const word = vocabularyData[currentWordIndex];
-            // Use 'example' field for examples
-            if (word.example && currentExampleIndex < word.example.length) {
-                displayExample(currentExampleIndex);
-            } else {
-                // All examples shown
-                examplesListElement.innerHTML += '<p class="text-sm text-gray-600 mt-2">Đã hết ví dụ.</p>';
-                nextExampleBtn.classList.add('hidden');
+            if (word.example && word.example.length > 0) {
+                 // Calculate next index with loop
+                 let nextIndex = currentExampleIndex + 1;
+                 if (nextIndex >= word.example.length) {
+                     nextIndex = 0; // Loop back to the first example
+                 }
+                 displayExample(nextIndex);
             }
         });
 
         // Event listener for next word button (General Navigation)
         nextWordBtn.addEventListener('click', () => {
-            if (currentWordIndex < vocabularyData.length - 1) {
-                currentWordIndex++;
-                displayWord(currentWordIndex);
+            // Calculate next index with loop
+            let nextIndex = currentWordIndex + 1;
+            if (nextIndex >= vocabularyData.length) {
+                nextIndex = 0; // Loop back to the first word
             }
+            displayWord(nextIndex);
         });
 
         // Event listener for previous word button (General Navigation)
         prevWordBtn.addEventListener('click', () => {
-            if (currentWordIndex > 0) {
-                currentWordIndex--;
-                displayWord(currentWordIndex);
+            // Calculate previous index with loop
+            let prevIndex = currentWordIndex - 1;
+            if (prevIndex < 0) {
+                prevIndex = vocabularyData.length - 1; // Loop back to the last word
             }
+            displayWord(prevIndex);
         });
 
         // Event listener for the List Words button
@@ -746,14 +694,107 @@
             loadVocabulary(chapterNumber);
         });
 
-        // Add keydown listener for space bar
+        // Add keydown listener for space bar and arrow keys
         document.addEventListener('keydown', (event) => {
-            // Check if the pressed key is the space bar and if the start speech button is visible and not disabled
-            if (event.code === 'Space' && !startSpeechBtn.classList.contains('hidden') && !startSpeechBtn.disabled) {
+            // Check if the word list menu is open. If so, prevent navigation keys from interfering.
+            if (!wordListMenu.classList.contains('hidden')) {
+                 // Allow Escape key to close the menu
+                 if (event.code === 'Escape') {
+                     wordListCloseBtn.click();
+                 }
+                 // Prevent other keys from affecting the main content while menu is open
+                 return;
+            }
+
+            // Check if the word learning area is visible
+            if (wordLearningArea.classList.contains('hidden')) {
+                // Do nothing if the learning area is not visible (e.g., loading, error, completion)
+                return;
+            }
+
+            // Handle Space key (toggle speech)
+            if (event.code === 'Space') {
                 event.preventDefault(); // Prevent the default space bar action (scrolling)
-                startSpeechBtn.click(); // Trigger the click event on the start speech button
+                // Check if the stop speech button is visible and not disabled
+                if (!stopSpeechBtn.classList.contains('hidden') && !stopSpeechBtn.disabled) {
+                    stopSpeechBtn.click(); // Trigger the click event on the stop speech button
+                }
+                // Otherwise, check if the start speech button is visible and not disabled
+                else if (!startSpeechBtn.classList.contains('hidden') && !startSpeechBtn.disabled) {
+                    startSpeechBtn.click(); // Trigger the click event on the start speech button
+                }
+            }
+
+            // Handle Arrow Keys
+            if (event.code === 'ArrowRight') {
+                event.preventDefault(); // Prevent default scroll/navigation
+                nextWordBtn.click(); // Trigger next word
+            } else if (event.code === 'ArrowLeft') {
+                event.preventDefault(); // Prevent default scroll/navigation
+                prevWordBtn.click(); // Trigger previous word
+            } else if (event.code === 'ArrowUp') { // Changed from ArrowDown
+                event.preventDefault(); // Prevent default scroll/navigation
+                // Trigger next example logic (same as nextExampleBtn click)
+                nextExampleBtn.click();
+            } else if (event.code === 'ArrowDown') { // Changed from ArrowUp
+                event.preventDefault(); // Prevent default scroll/navigation
+                // Trigger previous example logic
+                displayPreviousExample();
             }
         });
+
+        // Function to check transcription against the word
+        function checkTranscription(transcript) {
+            const currentWordData = vocabularyData[currentWordIndex];
+            const currentExample = currentWordData.example ? currentWordData.example[currentExampleIndex] : null;
+
+            if (!currentExample || !currentExample.sentence) {
+                feedbackElement.textContent = 'Không có ví dụ để so sánh.';
+                feedbackElement.className = 'feedback incorrect';
+                feedbackElement.classList.remove('hidden');
+                startSpeechBtn.classList.remove('hidden');
+                stopSpeechBtn.classList.add('hidden');
+                return;
+            }
+
+            const targetExampleSentence = currentExample.sentence;
+
+            const cleanTranscript = transcript.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
+            const cleanTargetExample = targetExampleSentence.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
+
+            if (cleanTranscript === cleanTargetExample) {
+                feedbackElement.textContent = 'Chính xác!';
+                feedbackElement.className = 'feedback correct';
+                feedbackElement.classList.remove('hidden');
+
+                // --- Logic chuyển ví dụ tại đây ---
+                const word = vocabularyData[currentWordIndex];
+                if (word.example && word.example.length > 0) {
+                    // Calculate next index with loop
+                    let nextExample = currentExampleIndex + 1;
+                    if (nextExample >= word.example.length) {
+                        nextExample = 0; // Loop back to the first example
+                    }
+                    // Display the next example (or loop back)
+                    displayExample(nextExample);
+                } else {
+                    // Should not happen if we checked for examples earlier
+                    examplesListElement.innerHTML += '<p class="text-sm text-gray-600 mt-2">Đã hết ví dụ cho từ này.</p>';
+                    nextExampleBtn.classList.add('hidden');
+                }
+                // --- Kết thúc logic chuyển ví dụ ---
+
+                startSpeechBtn.classList.remove('hidden');
+                stopSpeechBtn.classList.add('hidden');
+            } else {
+                feedbackElement.textContent = `Chưa chính xác. Thử lại. (Đáp án: "${targetExampleSentence}")`;
+                feedbackElement.className = 'feedback incorrect';
+                feedbackElement.classList.remove('hidden');
+                startSpeechBtn.classList.remove('hidden');
+                stopSpeechBtn.classList.add('hidden');
+            }
+        }
+
 
     </script>
 </body>
