@@ -746,6 +746,15 @@
             loadVocabulary(chapterNumber);
         });
 
+        // Add keydown listener for space bar
+        document.addEventListener('keydown', (event) => {
+            // Check if the pressed key is the space bar and if the start speech button is visible and not disabled
+            if (event.code === 'Space' && !startSpeechBtn.classList.contains('hidden') && !startSpeechBtn.disabled) {
+                event.preventDefault(); // Prevent the default space bar action (scrolling)
+                startSpeechBtn.click(); // Trigger the click event on the start speech button
+            }
+        });
+
     </script>
 </body>
 </html>
