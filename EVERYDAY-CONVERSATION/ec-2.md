@@ -21,7 +21,7 @@
 
  **Fine, thanks — and you?**
 
-**JANE:** Just fine. **Where are you off to?**
+ Just fine. **Where are you off to?**
 
 **To the library.** I've got a history exam next week and need to start studying. Ugh.
 
