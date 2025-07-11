@@ -1,6 +1,7 @@
 # Dialogue 1-2: Informal Greetings and Farewells
 
 <!-- Image of two people talking -->
+![text](ec-2/1.png)
 
 **JANE:** Hi, Helen! **How's it going?**
 
