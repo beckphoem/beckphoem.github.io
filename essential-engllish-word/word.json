@@ -1,0 +1,14 @@
+{
+    "word": "word",
+    "ipa": "/ipa of word/",
+    "meaning": "nghĩa tiếng việt",
+    "image": "link hình ảnh",
+    "classes": "class of word ",
+    "example": [
+      {
+        "sentence": "the sentense of example",
+        "meaning-example": "nghĩa tiếng việt của câu",
+        "ipa-example": "ipa của câu"
+      }
+	]
+}

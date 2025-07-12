@@ -1,0 +1,1382 @@
+[
+  {
+    "word": "assumption",
+    "ipa": "/əˈsʌmpʃən/",
+    "meaning": "một niềm tin được chấp nhận là đúng hoặc chắc chắn sẽ xảy ra mà không có bằng chứng.",
+    "image": "./eew-4-26/1.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "That's a big assumption to make.",
+        "meaning-example": "Đó là một giả định lớn.",
+        "ipa-example": "/ðæts ə bɪɡ əˈsʌmpʃən tu meɪk/"
+      },
+      {
+        "sentence": "My assumption was wrong.",
+        "meaning-example": "Giả định của tôi đã sai.",
+        "ipa-example": "/maɪ əˈsʌmpʃən wəz rɔːŋ/"
+      },
+      {
+        "sentence": "We should not make assumptions about others.",
+        "meaning-example": "Chúng ta không nên đưa ra giả định về người khác.",
+        "ipa-example": "/wi ʃʊd nɑːt meɪk əˈsʌmpʃənz əˈbaʊt ˈʌðərz/"
+      },
+      {
+        "sentence": "His assumption proved to be false.",
+        "meaning-example": "Giả định của anh ấy hóa ra là sai.",
+        "ipa-example": "/hɪz əˈsʌmpʃən pruːvd tu bi fɔːls/"
+      },
+      {
+        "sentence": "The plan was based on a faulty assumption.",
+        "meaning-example": "Kế hoạch dựa trên một giả định sai lầm.",
+        "ipa-example": "/ðə plæn wəz beɪst ɑːn ə ˈfɔːlti əˈsʌmpʃən/"
+      },
+      {
+        "sentence": "It's a common assumption that cats hate water.",
+        "meaning-example": "Đó là một giả định phổ biến rằng mèo ghét nước.",
+        "ipa-example": "/ɪts ə ˈkɑːmən əˈsʌmpʃən ðæt kæts heɪt ˈwɔːtər/"
+      },
+      {
+        "sentence": "Don't jump to conclusions based on assumptions.",
+        "meaning-example": "Đừng vội kết luận dựa trên giả định.",
+        "ipa-example": "/doʊnt dʒʌmp tu kənˈkluːʒənz beɪst ɑːn əˈsʌmpʃənz/"
+      },
+      {
+        "sentence": "Her assumption about the weather was correct.",
+        "meaning-example": "Giả định của cô ấy về thời tiết là đúng.",
+        "ipa-example": "/hər əˈsʌmpʃən əˈbaʊt ðə ˈwɛðər wəz kəˈrɛkt/"
+      },
+      {
+        "sentence": "We need to question our assumptions.",
+        "meaning-example": "Chúng ta cần đặt câu hỏi về những giả định của mình.",
+        "ipa-example": "/wi niːd tu ˈkwɛstʃən aʊər əˈsʌmpʃənz/"
+      },
+      {
+        "sentence": "The project failed due to an incorrect assumption.",
+        "meaning-example": "Dự án thất bại do một giả định không chính xác.",
+        "ipa-example": "/ðə ˈprɑːdʒɛkt feɪld duː tu ən ˌɪnkəˈrɛkt əˈsʌmpʃən/"
+      },
+      {
+        "sentence": "Making assumptions can lead to misunderstandings.",
+        "meaning-example": "Đưa ra giả định có thể dẫn đến hiểu lầm.",
+        "ipa-example": "/ˈmeɪkɪŋ əˈsʌmpʃənz kæn liːd tu ˌmɪsˌʌndərˈstændɪŋz/"
+      },
+      {
+        "sentence": "What is your assumption about the outcome?",
+        "meaning-example": "Giả định của bạn về kết quả là gì?",
+        "ipa-example": "/wɑːt ɪz jʊər əˈsʌmpʃən əˈbaʊt ðə ˈaʊtkʌm/"
+      }
+    ]
+  },
+  {
+    "word": "barley",
+    "ipa": "/ˈbɑːrli/",
+    "meaning": "một loại ngũ cốc dùng làm thức ăn và làm bia, rượu whisky.",
+    "image": "./eew-4-26/2.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Barley is a healthy grain.",
+        "meaning-example": "Lúa mạch là một loại ngũ cốc tốt cho sức khỏe.",
+        "ipa-example": "/ˈbɑːrli ɪz ə ˈhɛlθi ɡreɪn/"
+      },
+      {
+        "sentence": "We had barley soup for dinner.",
+        "meaning-example": "Chúng tôi đã ăn súp lúa mạch cho bữa tối.",
+        "ipa-example": "/wi hæd ˈbɑːrli suːp fər ˈdɪnər/"
+      },
+      {
+        "sentence": "Barley is used to make beer.",
+        "meaning-example": "Lúa mạch được dùng để làm bia.",
+        "ipa-example": "/ˈbɑːrli ɪz juːzd tu meɪk bɪr/"
+      },
+      {
+        "sentence": "The field was full of barley.",
+        "meaning-example": "Cánh đồng đầy lúa mạch.",
+        "ipa-example": "/ðə fiːld wəz fʊl əv ˈbɑːrli/"
+      },
+      {
+        "sentence": "Barley bread is very nutritious.",
+        "meaning-example": "Bánh mì lúa mạch rất bổ dưỡng.",
+        "ipa-example": "/ˈbɑːrli brɛd ɪz ˈvɛri nuːˈtrɪʃəs/"
+      },
+      {
+        "sentence": "Animals eat barley.",
+        "meaning-example": "Động vật ăn lúa mạch.",
+        "ipa-example": "/ˈænɪməlz iːt ˈbɑːrli/"
+      },
+      {
+        "sentence": "Barley is grown in many countries.",
+        "meaning-example": "Lúa mạch được trồng ở nhiều quốc gia.",
+        "ipa-example": "/ˈbɑːrli ɪz ɡroʊn ɪn ˈmɛni ˈkʌntriz/"
+      },
+      {
+        "sentence": "She added barley to the stew.",
+        "meaning-example": "Cô ấy đã thêm lúa mạch vào món hầm.",
+        "ipa-example": "/ʃi ˈædɪd ˈbɑːrli tu ðə stuː/"
+      },
+      {
+        "sentence": "Barley has a nutty flavor.",
+        "meaning-example": "Lúa mạch có vị bùi.",
+        "ipa-example": "/ˈbɑːrli hæz ə ˈnʌti ˈfleɪvər/"
+      },
+      {
+        "sentence": "You can buy barley at the store.",
+        "meaning-example": "Bạn có thể mua lúa mạch ở cửa hàng.",
+        "ipa-example": "/ju kæn baɪ ˈbɑːrli ət ðə stɔːr/"
+      },
+      {
+        "sentence": "The recipe calls for pearl barley.",
+        "meaning-example": "Công thức yêu cầu lúa mạch ngọc trai.",
+        "ipa-example": "/ðə ˈrɛsəpi kɔːlz fər pɜːrl ˈbɑːrli/"
+      },
+      {
+        "sentence": "Barley is a type of cereal grain.",
+        "meaning-example": "Lúa mạch là một loại ngũ cốc.",
+        "ipa-example": "/ˈbɑːrli ɪz ə taɪp əv ˈsɪriəl ɡreɪn/"
+      }
+    ]
+  },
+  {
+    "word": "beast",
+    "ipa": "/biːst/",
+    "meaning": "một con vật, đặc biệt là con vật lớn hoặc nguy hiểm.",
+    "image": "./eew-4-26/3.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The lion is a powerful beast.",
+        "meaning-example": "Sư tử là một con thú mạnh mẽ.",
+        "ipa-example": "/ðə ˈlaɪən ɪz ə ˈpaʊərfəl biːst/"
+      },
+      {
+        "sentence": "He fought the wild beast.",
+        "meaning-example": "Anh ấy đã chiến đấu với con thú hoang.",
+        "ipa-example": "/hi fɔːt ðə waɪld biːst/"
+      },
+      {
+        "sentence": "The forest is home to many beasts.",
+        "meaning-example": "Khu rừng là nhà của nhiều loài thú.",
+        "ipa-example": "/ðə ˈfɔːrɪst ɪz hoʊm tu ˈmɛni biːsts/"
+      },
+      {
+        "sentence": "A mythical beast was in the story.",
+        "meaning-example": "Một con thú thần thoại có trong câu chuyện.",
+        "ipa-example": "/ə ˈmɪθɪkəl biːst wəz ɪn ðə ˈstɔːri/"
+      },
+      {
+        "sentence": "The beast roared loudly.",
+        "meaning-example": "Con thú gầm lên dữ dội.",
+        "ipa-example": "/ðə biːst rɔːrd ˈlaʊdli/"
+      },
+      {
+        "sentence": "She was afraid of the beast.",
+        "meaning-example": "Cô ấy sợ con thú.",
+        "ipa-example": "/ʃi wəz əˈfreɪd əv ðə biːst/"
+      },
+      {
+        "sentence": "The hunter tracked the beast.",
+        "meaning-example": "Người thợ săn đã theo dấu con thú.",
+        "ipa-example": "/ðə ˈhʌntər trækt ðə biːst/"
+      },
+      {
+        "sentence": "It was a terrifying beast.",
+        "meaning-example": "Đó là một con thú đáng sợ.",
+        "ipa-example": "/ɪt wəz ə ˈtɛrəfaɪɪŋ biːst/"
+      },
+      {
+        "sentence": "The beast emerged from the cave.",
+        "meaning-example": "Con thú xuất hiện từ hang động.",
+        "ipa-example": "/ðə biːst ɪˈmɜːrdʒd frɑːm ðə keɪv/"
+      },
+      {
+        "sentence": "He treated her like a beast.",
+        "meaning-example": "Anh ấy đối xử với cô ấy như một con thú.",
+        "ipa-example": "/hi ˈtriːtɪd hər laɪk ə biːst/"
+      },
+      {
+        "sentence": "The beast had sharp claws.",
+        "meaning-example": "Con thú có móng vuốt sắc nhọn.",
+        "ipa-example": "/ðə biːst hæd ʃɑːrp klɔːz/"
+      },
+      {
+        "sentence": "They captured the beast.",
+        "meaning-example": "Họ đã bắt được con thú.",
+        "ipa-example": "/ðeɪ ˈkæptʃərd ðə biːst/"
+      }
+    ]
+  },
+  {
+    "word": "colonel",
+    "ipa": "/ˈkɜːrnəl/",
+    "meaning": "cấp bậc sĩ quan trong quân đội, không quân hoặc thủy quân lục chiến.",
+    "image": "./eew-4-26/4.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Colonel Smith gave the order.",
+        "meaning-example": "Đại tá Smith đã ra lệnh.",
+        "ipa-example": "/ˈkɜːrnəl smɪθ ɡeɪv ðə ˈɔːrdər/"
+      },
+      {
+        "sentence": "He was promoted to colonel.",
+        "meaning-example": "Anh ấy được thăng cấp đại tá.",
+        "ipa-example": "/hi wəz prəˈmoʊtɪd tu ˈkɜːrnəl/"
+      },
+      {
+        "sentence": "The colonel wore his uniform.",
+        "meaning-example": "Vị đại tá mặc quân phục của mình.",
+        "ipa-example": "/ðə ˈkɜːrnəl wɔːr hɪz ˈjuːnɪfɔːrm/"
+      },
+      {
+        "sentence": "She met the colonel at the base.",
+        "meaning-example": "Cô ấy gặp vị đại tá ở căn cứ.",
+        "ipa-example": "/ʃi mɛt ðə ˈkɜːrnəl ət ðə beɪs/"
+      },
+      {
+        "sentence": "The colonel commanded the regiment.",
+        "meaning-example": "Vị đại tá chỉ huy trung đoàn.",
+        "ipa-example": "/ðə ˈkɜːrnəl kəˈmændɪd ðə ˈrɛdʒɪmənt/"
+      },
+      {
+        "sentence": "He retired as a colonel.",
+        "meaning-example": "Ông ấy nghỉ hưu với cấp bậc đại tá.",
+        "ipa-example": "/hi rɪˈtaɪərd əz ə ˈkɜːrnəl/"
+      },
+      {
+        "sentence": "The colonel inspected the troops.",
+        "meaning-example": "Vị đại tá kiểm tra quân đội.",
+        "ipa-example": "/ðə ˈkɜːrnəl ɪnˈspɛktɪd ðə truːps/"
+      },
+      {
+        "sentence": "She spoke to the colonel about her concerns.",
+        "meaning-example": "Cô ấy nói chuyện với vị đại tá về những lo ngại của mình.",
+        "ipa-example": "/ʃi spoʊk tu ðə ˈkɜːrnəl əˈbaʊt hər kənˈsɜːrnz/"
+      },
+      {
+        "sentence": "The colonel had served for many years.",
+        "meaning-example": "Vị đại tá đã phục vụ nhiều năm.",
+        "ipa-example": "/ðə ˈkɜːrnəl hæd sɜːrvd fər ˈmɛni jɪrz/"
+      },
+      {
+        "sentence": "He is a decorated colonel.",
+        "meaning-example": "Ông ấy là một đại tá được trao thưởng.",
+        "ipa-example": "/hi ɪz ə ˈdɛkəreɪtɪd ˈkɜːrnəl/"
+      },
+      {
+        "sentence": "The colonel arrived by helicopter.",
+        "meaning-example": "Vị đại tá đến bằng trực thăng.",
+        "ipa-example": "/ðə ˈkɜːrnəl əˈraɪvd baɪ ˈhɛlɪkɑːptər/"
+      },
+      {
+        "sentence": "The colonel's office was on the second floor.",
+        "meaning-example": "Văn phòng của vị đại tá ở tầng hai.",
+        "ipa-example": "/ðə ˈkɜːrnəlz ˈɔːfɪs wəz ɑːn ðə ˈsɛkənd flɔːr/"
+      }
+    ]
+  },
+  {
+    "word": "contagious",
+    "ipa": "/kənˈteɪdʒəs/",
+    "meaning": "(của bệnh) lây lan từ người này sang người khác hoặc sinh vật khác bằng cách tiếp xúc trực tiếp hoặc gián tiếp.",
+    "image": "./eew-4-26/5.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The flu is very contagious.",
+        "meaning-example": "Bệnh cúm rất dễ lây.",
+        "ipa-example": "/ðə fluː ɪz ˈvɛri kənˈteɪdʒəs/"
+      },
+      {
+        "sentence": "Wash your hands to avoid contagious diseases.",
+        "meaning-example": "Rửa tay để tránh các bệnh truyền nhiễm.",
+        "ipa-example": "/wɑːʃ jʊər hændz tu əˈvɔɪd kənˈteɪdʒəs dɪˈziːzɪz/"
+      },
+      {
+        "sentence": "His laughter was contagious.",
+        "meaning-example": "Tiếng cười của anh ấy rất dễ lây.",
+        "ipa-example": "/hɪz ˈlæftər wəz kənˈteɪdʒəs/"
+      },
+      {
+        "sentence": "The virus is highly contagious.",
+        "meaning-example": "Virus có khả năng lây nhiễm cao.",
+        "ipa-example": "/ðə ˈvaɪrəs ɪz ˈhaɪli kənˈteɪdʒəs/"
+      },
+      {
+        "sentence": "Stay home if you have a contagious illness.",
+        "meaning-example": "Hãy ở nhà nếu bạn bị bệnh truyền nhiễm.",
+        "ipa-example": "/steɪ hoʊm ɪf ju hæv ə kənˈteɪdʒəs ˈɪlnəs/"
+      },
+      {
+        "sentence": "Measles is a contagious disease.",
+        "meaning-example": "Bệnh sởi là một bệnh truyền nhiễm.",
+        "ipa-example": "/ˈmiːzəlz ɪz ə kənˈteɪdʒəs dɪˈziːz/"
+      },
+      {
+        "sentence": "The doctor warned about the contagious nature of the infection.",
+        "meaning-example": "Bác sĩ cảnh báo về tính chất lây nhiễm của bệnh.",
+        "ipa-example": "/ðə ˈdɑːktər wɔːrnd əˈbaʊt ðə kənˈteɪdʒəs ˈneɪtʃər əv ði ɪnˈfɛkʃən/"
+      },
+      {
+        "sentence": "Her enthusiasm was contagious.",
+        "meaning-example": "Sự nhiệt tình của cô ấy rất dễ lây.",
+        "ipa-example": "/hər ɪnˈθuːziˌæzəm wəz kənˈteɪdʒəs/"
+      },
+      {
+        "sentence": "The rash might be contagious.",
+        "meaning-example": "Phát ban có thể lây nhiễm.",
+        "ipa-example": "/ðə ræʃ maɪt bi kənˈteɪdʒəs/"
+      },
+      {
+        "sentence": "Avoid contact with contagious people.",
+        "meaning-example": "Tránh tiếp xúc với người bị bệnh truyền nhiễm.",
+        "ipa-example": "/əˈvɔɪd ˈkɑːntækt wɪθ kənˈteɪdʒəs ˈpiːpəl/"
+      },
+      {
+        "sentence": "The disease spread quickly because it was contagious.",
+        "meaning-example": "Bệnh lây lan nhanh chóng vì nó dễ lây.",
+        "ipa-example": "/ðə dɪˈziːz sprɛd ˈkwɪkli bɪˈkɔːz ɪt wəz kənˈteɪdʒəs/"
+      },
+      {
+        "sentence": "Is this cold contagious?",
+        "meaning-example": "Cảm lạnh này có lây không?",
+        "ipa-example": "/ɪz ðɪs koʊld kənˈteɪdʒəs/"
+      }
+    ]
+  },
+  {
+    "word": "corpse",
+    "ipa": "/kɔːrps/",
+    "meaning": "xác chết, đặc biệt là của con người.",
+    "image": "./eew-4-26/6.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The police found the corpse.",
+        "meaning-example": "Cảnh sát tìm thấy xác chết.",
+        "ipa-example": "/ðə pəˈliːs faʊnd ðə kɔːrps/"
+      },
+      {
+        "sentence": "The corpse was taken to the morgue.",
+        "meaning-example": "Xác chết được đưa đến nhà xác.",
+        "ipa-example": "/ðə kɔːrps wəz ˈteɪkən tu ðə mɔːrɡ/"
+      },
+      {
+        "sentence": "They identified the corpse.",
+        "meaning-example": "Họ đã nhận dạng xác chết.",
+        "ipa-example": "/ðeɪ aɪˈdɛntɪfaɪd ðə kɔːrps/"
+      },
+      {
+        "sentence": "The corpse lay on the ground.",
+        "meaning-example": "Xác chết nằm trên mặt đất.",
+        "ipa-example": "/ðə kɔːrps leɪ ɑːn ðə ɡraʊnd/"
+      },
+      {
+        "sentence": "The smell of the corpse was strong.",
+        "meaning-example": "Mùi của xác chết rất nồng.",
+        "ipa-example": "/ðə smɛl əv ðə kɔːrps wəz strɔːŋ/"
+      },
+      {
+        "sentence": "He looked like a walking corpse.",
+        "meaning-example": "Anh ấy trông như một xác chết biết đi.",
+        "ipa-example": "/hi lʊkt laɪk ə ˈwɔːkɪŋ kɔːrps/"
+      },
+      {
+        "sentence": "The ancient tomb contained many corpses.",
+        "meaning-example": "Ngôi mộ cổ chứa nhiều xác chết.",
+        "ipa-example": "/ði ˈeɪnʃənt tuːm kənˈteɪnd ˈmɛni ˈkɔːrpsɪz/"
+      },
+      {
+        "sentence": "The forensic team examined the corpse.",
+        "meaning-example": "Đội pháp y đã khám nghiệm xác chết.",
+        "ipa-example": "/ðə fəˈrɛnsɪk tiːm ɪɡˈzæmɪnd ðə kɔːrps/"
+      },
+      {
+        "sentence": "The battle left many corpses.",
+        "meaning-example": "Trận chiến để lại nhiều xác chết.",
+        "ipa-example": "/ðə ˈbætl lɛft ˈmɛni ˈkɔːrpsɪz/"
+      },
+      {
+        "sentence": "They covered the corpse with a sheet.",
+        "meaning-example": "Họ phủ xác chết bằng một tấm khăn.",
+        "ipa-example": "/ðeɪ ˈkʌvərd ðə kɔːrps wɪθ ə ʃiːt/"
+      },
+      {
+        "sentence": "The corpse showed signs of injury.",
+        "meaning-example": "Xác chết có dấu hiệu bị thương.",
+        "ipa-example": "/ðə kɔːrps ʃoʊd saɪnz əv ˈɪndʒəri/"
+      },
+      {
+        "sentence": "The movie showed a reanimated corpse.",
+        "meaning-example": "Bộ phim chiếu một xác chết được hồi sinh.",
+        "ipa-example": "/ðə ˈmuːvi ʃoʊd ə riˈænɪmeɪtɪd kɔːrps/"
+      }
+    ]
+  },
+  {
+    "word": "crisis",
+    "ipa": "/ˈkraɪsɪs/",
+    "meaning": "thời điểm khó khăn, rắc rối hoặc nguy hiểm tột độ.",
+    "image": "./eew-4-26/7.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The country is facing an economic crisis.",
+        "meaning-example": "Đất nước đang đối mặt với một cuộc khủng hoảng kinh tế.",
+        "ipa-example": "/ðə ˈkʌntri ɪz ˈfeɪsɪŋ ən ˌɛkəˈnɑːmɪk ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "She handled the crisis calmly.",
+        "meaning-example": "Cô ấy xử lý cuộc khủng hoảng một cách bình tĩnh.",
+        "ipa-example": "/ʃi ˈhændəld ðə ˈkraɪsɪs ˈkɑːmli/"
+      },
+      {
+        "sentence": "It was a moment of crisis.",
+        "meaning-example": "Đó là một khoảnh khắc khủng hoảng.",
+        "ipa-example": "/ɪt wəz ə ˈmoʊmənt əv ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "They need help during this crisis.",
+        "meaning-example": "Họ cần giúp đỡ trong cuộc khủng hoảng này.",
+        "ipa-example": "/ðeɪ niːd hɛlp ˈdʊrɪŋ ðɪs ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "The company is in a financial crisis.",
+        "meaning-example": "Công ty đang trong khủng hoảng tài chính.",
+        "ipa-example": "/ðə ˈkʌmpəni ɪz ɪn ə faɪˈnænʃəl ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "He had a personal crisis.",
+        "meaning-example": "Anh ấy đã trải qua một cuộc khủng hoảng cá nhân.",
+        "ipa-example": "/hi hæd ə ˈpɜːrsənəl ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "The government is trying to resolve the crisis.",
+        "meaning-example": "Chính phủ đang cố gắng giải quyết cuộc khủng hoảng.",
+        "ipa-example": "/ðə ˈɡʌvərnmənt ɪz ˈtraɪɪŋ tu rɪˈzɑːlv ðə ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "The crisis affected everyone.",
+        "meaning-example": "Cuộc khủng hoảng ảnh hưởng đến mọi người.",
+        "ipa-example": "/ðə ˈkraɪsɪs əˈfɛktɪd ˈɛvriwʌn/"
+      },
+      {
+        "sentence": "They managed to overcome the crisis.",
+        "meaning-example": "Họ đã vượt qua được cuộc khủng hoảng.",
+        "ipa-example": "/ðeɪ ˈmænɪdʒd tu ˌoʊvərˈkʌm ðə ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "The environmental crisis is serious.",
+        "meaning-example": "Cuộc khủng hoảng môi trường rất nghiêm trọng.",
+        "ipa-example": "/ði ɪnˌvaɪrənˈmɛntəl ˈkraɪsɪs ɪz ˈsɪriəs/"
+      },
+      {
+        "sentence": "We need a plan to deal with the crisis.",
+        "meaning-example": "Chúng ta cần một kế hoạch để đối phó với cuộc khủng hoảng.",
+        "ipa-example": "/wi niːd ə plæn tu diːl wɪθ ðə ˈkraɪsɪs/"
+      },
+      {
+        "sentence": "The crisis brought people together.",
+        "meaning-example": "Cuộc khủng hoảng đã đưa mọi người lại gần nhau.",
+        "ipa-example": "/ðə ˈkraɪsɪs brɔːt ˈpiːpəl təˈɡɛðər/"
+      }
+    ]
+  },
+  {
+    "word": "cure",
+    "ipa": "/kjʊr/",
+    "meaning": "làm giảm (một người hoặc động vật) các triệu chứng của bệnh hoặc tình trạng.",
+    "image": "./eew-4-26/8.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Can this medicine cure the disease?",
+        "meaning-example": "Thuốc này có thể chữa khỏi bệnh không?",
+        "ipa-example": "/kæn ðɪs ˈmɛdɪsɪn kjʊr ðə dɪˈziːz/"
+      },
+      {
+        "sentence": "Doctors are working to find a cure.",
+        "meaning-example": "Các bác sĩ đang làm việc để tìm ra cách chữa trị.",
+        "ipa-example": "/ˈdɑːktərz ər ˈwɜːrkɪŋ tu faɪnd ə kjʊr/"
+      },
+      {
+        "sentence": "Rest and fluids can help cure a cold.",
+        "meaning-example": "Nghỉ ngơi và uống nhiều nước có thể giúp chữa khỏi cảm lạnh.",
+        "ipa-example": "/rɛst ənd ˈfluːɪdz kæn hɛlp kjʊr ə koʊld/"
+      },
+      {
+        "sentence": "There is no known way to cure this condition.",
+        "meaning-example": "Không có cách nào được biết để chữa khỏi tình trạng này.",
+        "ipa-example": "/ðɛr ɪz noʊ noʊn weɪ tu kjʊr ðɪs kənˈdɪʃən/"
+      },
+      {
+        "sentence": "The treatment aims to cure the patient.",
+        "meaning-example": "Việc điều trị nhằm mục đích chữa khỏi cho bệnh nhân.",
+        "ipa-example": "/ðə ˈtriːtmənt eɪmz tu kjʊr ðə ˈpeɪʃənt/"
+      },
+      {
+        "sentence": "She hopes the therapy will cure her pain.",
+        "meaning-example": "Cô ấy hy vọng liệu pháp sẽ chữa khỏi cơn đau của mình.",
+        "ipa-example": "/ʃi hoʊps ðə ˈθɛrəpi wɪl kjʊr hər peɪn/"
+      },
+      {
+        "sentence": "They are researching ways to cure cancer.",
+        "meaning-example": "Họ đang nghiên cứu các cách để chữa ung thư.",
+        "ipa-example": "/ðeɪ ər rɪˈsɜːrtʃɪŋ weɪz tu kjʊr ˈkænsər/"
+      },
+      {
+        "sentence": "Time can cure many things.",
+        "meaning-example": "Thời gian có thể chữa lành nhiều thứ.",
+        "ipa-example": "/taɪm kæn kjʊr ˈmɛni θɪŋz/"
+      },
+      {
+        "sentence": "The doctor said he could cure her.",
+        "meaning-example": "Bác sĩ nói rằng ông ấy có thể chữa khỏi cho cô ấy.",
+        "ipa-example": "/ðə ˈdɑːktər sɛd hi kʊd kjʊr hər/"
+      },
+      {
+        "sentence": "Is there a cure for the common cold?",
+        "meaning-example": "Có cách chữa trị cảm lạnh thông thường không?",
+        "ipa-example": "/ɪz ðɛr ə kjʊr fər ðə ˈkɑːmən koʊld/"
+      },
+      {
+        "sentence": "The new drug might cure the infection.",
+        "meaning-example": "Thuốc mới có thể chữa khỏi nhiễm trùng.",
+        "ipa-example": "/ðə nuː drʌɡ maɪt kjʊr ði ɪnˈfɛkʃən/"
+      },
+      {
+        "sentence": "He was cured after the operation.",
+        "meaning-example": "Anh ấy đã được chữa khỏi sau ca phẫu thuật.",
+        "ipa-example": "/hi wəz kjʊrd ˈæftər ði ˌɑːpəˈreɪʃən/"
+      }
+    ]
+  },
+  {
+    "word": "deformed",
+    "ipa": "/dɪˈfɔːrmd/",
+    "meaning": "(của một người hoặc bộ phận cơ thể) không có hình dạng hoặc hình thức bình thường hoặc tự nhiên.",
+    "image": "./eew-4-26/9.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The accident left his hand deformed.",
+        "meaning-example": "Vụ tai nạn khiến tay anh ấy bị biến dạng.",
+        "ipa-example": "/ðə ˈæksɪdənt lɛft hɪz hænd dɪˈfɔːrmd/"
+      },
+      {
+        "sentence": "The plant grew in a deformed shape.",
+        "meaning-example": "Cây mọc với hình dạng biến dạng.",
+        "ipa-example": "/ðə plænt ɡruː ɪn ə dɪˈfɔːrmd ʃeɪp/"
+      },
+      {
+        "sentence": "Some animals are born deformed.",
+        "meaning-example": "Một số động vật sinh ra đã bị dị tật.",
+        "ipa-example": "/sʌm ˈænɪməlz ər bɔːrn dɪˈfɔːrmd/"
+      },
+      {
+        "sentence": "The old building was deformed by the earthquake.",
+        "meaning-example": "Tòa nhà cũ bị biến dạng do động đất.",
+        "ipa-example": "/ði oʊld ˈbɪldɪŋ wəz dɪˈfɔːrmd baɪ ði ˈɜːrθkweɪk/"
+      },
+      {
+        "sentence": "He had a slightly deformed ear.",
+        "meaning-example": "Anh ấy có một tai hơi biến dạng.",
+        "ipa-example": "/hi hæd ə ˈslaɪtli dɪˈfɔːrmd ɪr/"
+      },
+      {
+        "sentence": "The artist created a deformed figure.",
+        "meaning-example": "Nghệ sĩ đã tạo ra một hình tượng biến dạng.",
+        "ipa-example": "/ði ˈɑːrtɪst kriˈeɪtɪd ə dɪˈfɔːrmd ˈfɪɡjər/"
+      },
+      {
+        "sentence": "The tree's branches were deformed.",
+        "meaning-example": "Các cành cây bị biến dạng.",
+        "ipa-example": "/ðə triːz ˈbræntʃɪz wər dɪˈfɔːrmd/"
+      },
+      {
+        "sentence": "She felt self-conscious about her deformed foot.",
+        "meaning-example": "Cô ấy cảm thấy tự ti về bàn chân bị dị tật của mình.",
+        "ipa-example": "/ʃi fɛlt sɛlfˈkɑːnʃəs əˈbaʊt hər dɪˈfɔːrmd fʊt/"
+      },
+      {
+        "sentence": "The metal was deformed by the heat.",
+        "meaning-example": "Kim loại bị biến dạng do nhiệt.",
+        "ipa-example": "/ðə ˈmɛtl wəz dɪˈfɔːrmd baɪ ðə hiːt/"
+      },
+      {
+        "sentence": "The creature had a deformed face.",
+        "meaning-example": "Sinh vật đó có khuôn mặt biến dạng.",
+        "ipa-example": "/ðə ˈkriːtʃər hæd ə dɪˈfɔːrmd feɪs/"
+      },
+      {
+        "sentence": "The fruit was small and deformed.",
+        "meaning-example": "Quả nhỏ và bị biến dạng.",
+        "ipa-example": "/ðə fruːt wəz smɔːl ənd dɪˈfɔːrmd/"
+      },
+      {
+        "sentence": "He was not afraid of the deformed people.",
+        "meaning-example": "Anh ấy không sợ những người bị dị tật.",
+        "ipa-example": "/hi wəz nɑːt əˈfreɪd əv ðə dɪˈfɔːrmd ˈpiːpəl/"
+      }
+    ]
+  },
+  {
+    "word": "discriminate",
+    "ipa": "/dɪˈskrɪmɪneɪt/",
+    "meaning": "tạo ra sự phân biệt đối xử không công bằng hoặc thành kiến trong cách đối xử với các nhóm người hoặc sự vật khác nhau, đặc biệt dựa trên chủng tộc, tuổi tác, giới tính, v.v.",
+    "image": "./eew-4-26/10.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "It is illegal to discriminate based on race.",
+        "meaning-example": "Phân biệt đối xử dựa trên chủng tộc là bất hợp pháp.",
+        "ipa-example": "/ɪt ɪz ɪˈliːɡəl tu dɪˈskrɪmɪneɪt beɪst ɑːn reɪs/"
+      },
+      {
+        "sentence": "Employers should not discriminate against older workers.",
+        "meaning-example": "Người sử dụng lao động không nên phân biệt đối xử với người lao động lớn tuổi.",
+        "ipa-example": "/ɪmˈplɔɪərz ʃʊd nɑːt dɪˈskrɪmɪneɪt əˈɡɛnst ˈoʊldər ˈwɜːrkərz/"
+      },
+      {
+        "sentence": "We must fight to end discrimination.",
+        "meaning-example": "Chúng ta phải đấu tranh để chấm dứt phân biệt đối xử.",
+        "ipa-example": "/wi mʌst faɪt tu ɛnd dɪˌskrɪmɪˈneɪʃən/"
+      },
+      {
+        "sentence": "The law protects people from being discriminated against.",
+        "meaning-example": "Luật pháp bảo vệ mọi người khỏi bị phân biệt đối xử.",
+        "ipa-example": "/ðə lɔː prəˈtɛkts ˈpiːpəl frɑːm ˈbiːɪŋ dɪˈskrɪmɪneɪtɪd əˈɡɛnst/"
+      },
+      {
+        "sentence": "She felt discriminated against because of her accent.",
+        "meaning-example": "Cô ấy cảm thấy bị phân biệt đối xử vì giọng nói của mình.",
+        "ipa-example": "/ʃi fɛlt dɪˈskrɪmɪneɪtɪd əˈɡɛnst bɪˈkɔːz əv hər ˈæksɛnt/"
+      },
+      {
+        "sentence": "Do not discriminate against anyone.",
+        "meaning-example": "Đừng phân biệt đối xử với bất kỳ ai.",
+        "ipa-example": "/du nɑːt dɪˈskrɪmɪneɪt əˈɡɛnst ˈɛniwʌn/"
+      },
+      {
+        "sentence": "The policy was designed to prevent discrimination.",
+        "meaning-example": "Chính sách được thiết kế để ngăn chặn phân biệt đối xử.",
+        "ipa-example": "/ðə ˈpɑːləsi wəz dɪˈzaɪnd tu prɪˈvɛnt dɪˌskrɪmɪˈneɪʃən/"
+      },
+      {
+        "sentence": "They were accused of discriminating against women.",
+        "meaning-example": "Họ bị buộc tội phân biệt đối xử với phụ nữ.",
+        "ipa-example": "/ðeɪ wər əˈkjuːzd əv dɪˈskrɪmɪneɪtɪŋ əˈɡɛnst ˈwɪmɪn/"
+      },
+      {
+        "sentence": "It's important to teach children not to discriminate.",
+        "meaning-example": "Điều quan trọng là dạy trẻ em không phân biệt đối xử.",
+        "ipa-example": "/ɪts ɪmˈpɔːrtənt tu tiːtʃ ˈtʃɪldrən nɑːt tu dɪˈskrɪmɪneɪt/"
+      },
+      {
+        "sentence": "The company does not discriminate in hiring.",
+        "meaning-example": "Công ty không phân biệt đối xử trong tuyển dụng.",
+        "ipa-example": "/ðə ˈkʌmpəni dʌz nɑːt dɪˈskrɪmɪneɪt ɪn ˈhaɪrɪŋ/"
+      },
+      {
+        "sentence": "Discrimination is a serious problem.",
+        "meaning-example": "Phân biệt đối xử là một vấn đề nghiêm trọng.",
+        "ipa-example": "/dɪˌskrɪmɪˈneɪʃən ɪz ə ˈsɪriəs ˈprɑːbləm/"
+      },
+      {
+        "sentence": "He learned not to discriminate against people from different cultures.",
+        "meaning-example": "Anh ấy học cách không phân biệt đối xử với những người từ các nền văn hóa khác nhau.",
+        "ipa-example": "/hi lɜːrnd nɑːt tu dɪˈskrɪmɪneɪt əˈɡɛnst ˈpiːpəl frɑːm ˈdɪfrənt ˈkʌltʃərz/"
+      }
+    ]
+  },
+  {
+    "word": "embassy",
+    "ipa": "/ˈɛmbəsi/",
+    "meaning": "trụ sở hoặc văn phòng chính thức của một đại sứ.",
+    "image": "./eew-4-26/11.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The American embassy is in the capital city.",
+        "meaning-example": "Đại sứ quán Mỹ ở thủ đô.",
+        "ipa-example": "/ði əˈmɛrɪkən ˈɛmbəsi ɪz ɪn ðə ˈkæpɪtəl ˈsɪti/"
+      },
+      {
+        "sentence": "He went to the embassy to get a visa.",
+        "meaning-example": "Anh ấy đến đại sứ quán để xin visa.",
+        "ipa-example": "/hi wɛnt tu ði ˈɛmbəsi tu ɡɛt ə ˈviːzə/"
+      },
+      {
+        "sentence": "The embassy is a secure building.",
+        "meaning-example": "Đại sứ quán là một tòa nhà an ninh.",
+        "ipa-example": "/ði ˈɛmbəsi ɪz ə sɪˈkjʊr ˈbɪldɪŋ/"
+      },
+      {
+        "sentence": "She works at the British embassy.",
+        "meaning-example": "Cô ấy làm việc tại đại sứ quán Anh.",
+        "ipa-example": "/ʃi wɜːrks ət ðə ˈbrɪtɪʃ ˈɛmbəsi/"
+      },
+      {
+        "sentence": "The ambassador lives at the embassy.",
+        "meaning-example": "Đại sứ sống tại đại sứ quán.",
+        "ipa-example": "/ði æmˈbæsədər lɪvz ət ði ˈɛmbəsi/"
+      },
+      {
+        "sentence": "They sought help from their embassy.",
+        "meaning-example": "Họ tìm kiếm sự giúp đỡ từ đại sứ quán của họ.",
+        "ipa-example": "/ðeɪ sɔːt hɛlp frɑːm ðɛr ˈɛmbəsi/"
+      },
+      {
+        "sentence": "The embassy provides services to citizens abroad.",
+        "meaning-example": "Đại sứ quán cung cấp dịch vụ cho công dân ở nước ngoài.",
+        "ipa-example": "/ði ˈɛmbəsi prəˈvaɪdz ˈsɜːrvɪsɪz tu ˈsɪtɪzənz əˈbrɔːd/"
+      },
+      {
+        "sentence": "There was a protest outside the embassy.",
+        "meaning-example": "Có một cuộc biểu tình bên ngoài đại sứ quán.",
+        "ipa-example": "/ðɛr wəz ə ˈproʊtɛst ˌaʊtˈsaɪd ði ˈɛmbəsi/"
+      },
+      {
+        "sentence": "He reported the incident to the embassy.",
+        "meaning-example": "Anh ấy đã báo cáo vụ việc cho đại sứ quán.",
+        "ipa-example": "/hi rɪˈpɔːrtɪd ði ˈɪnsɪdənt tu ði ˈɛmbəsi/"
+      },
+      {
+        "sentence": "The embassy is located downtown.",
+        "meaning-example": "Đại sứ quán nằm ở trung tâm thành phố.",
+        "ipa-example": "/ði ˈɛmbəsi ɪz ˈloʊkeɪtɪd ˈdaʊnˌtaʊn/"
+      },
+      {
+        "sentence": "Security was tight around the embassy.",
+        "meaning-example": "An ninh được thắt chặt xung quanh đại sứ quán.",
+        "ipa-example": "/sɪˈkjʊrəti wəz taɪt əˈraʊnd ði ˈɛmbəsi/"
+      },
+      {
+        "sentence": "She visited the French embassy.",
+        "meaning-example": "Cô ấy đã thăm đại sứ quán Pháp.",
+        "ipa-example": "/ʃi ˈvɪzɪtɪd ðə frɛntʃ ˈɛmbəsi/"
+      }
+    ]
+  },
+  {
+    "word": "extinguish",
+    "ipa": "/ɪkˈstɪŋɡwɪʃ/",
+    "meaning": "dập tắt (lửa hoặc ánh sáng).",
+    "image": "./eew-4-26/12.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The firefighters worked to extinguish the blaze.",
+        "meaning-example": "Lính cứu hỏa đã làm việc để dập tắt đám cháy.",
+        "ipa-example": "/ðə ˈfaɪərˌfaɪtərz wɜːrkt tu ɪkˈstɪŋɡwɪʃ ðə bleɪz/"
+      },
+      {
+        "sentence": "He used water to extinguish the campfire.",
+        "meaning-example": "Anh ấy dùng nước để dập tắt lửa trại.",
+        "ipa-example": "/hi juːzd ˈwɔːtər tu ɪkˈstɪŋɡwɪʃ ðə ˈkæmpfaɪər/"
+      },
+      {
+        "sentence": "Please extinguish your cigarette.",
+        "meaning-example": "Vui lòng dập tắt thuốc lá của bạn.",
+        "ipa-example": "/pliːz ɪkˈstɪŋɡwɪʃ jʊər ˌsɪɡəˈrɛt/"
+      },
+      {
+        "sentence": "The rain helped extinguish the forest fire.",
+        "meaning-example": "Cơn mưa đã giúp dập tắt đám cháy rừng.",
+        "ipa-example": "/ðə reɪn hɛlpt ɪkˈstɪŋɡwɪʃ ðə ˈfɔːrɪst ˈfaɪər/"
+      },
+      {
+        "sentence": "They couldn't extinguish the burning car.",
+        "meaning-example": "Họ không thể dập tắt chiếc xe đang cháy.",
+        "ipa-example": "/ðeɪ ˈkʊdənt ɪkˈstɪŋɡwɪʃ ðə ˈbɜːrnɪŋ kɑːr/"
+      },
+      {
+        "sentence": "The candle was extinguished by the wind.",
+        "meaning-example": "Ngọn nến bị gió thổi tắt.",
+        "ipa-example": "/ðə ˈkændəl wəz ɪkˈstɪŋɡwɪʃt baɪ ðə wɪnd/"
+      },
+      {
+        "sentence": "He tried to extinguish the flames with a blanket.",
+        "meaning-example": "Anh ấy cố gắng dập tắt ngọn lửa bằng một tấm chăn.",
+        "ipa-example": "/hi traɪd tu ɪkˈstɪŋɡwɪʃ ðə fleɪmz wɪθ ə ˈblæŋkɪt/"
+      },
+      {
+        "sentence": "The fire was difficult to extinguish.",
+        "meaning-example": "Đám cháy rất khó dập tắt.",
+        "ipa-example": "/ðə ˈfaɪər wəz ˈdɪfɪkəlt tu ɪkˈstɪŋɡwɪʃ/"
+      },
+      {
+        "sentence": "They used a special foam to extinguish the fire.",
+        "meaning-example": "Họ đã sử dụng một loại bọt đặc biệt để dập tắt đám cháy.",
+        "ipa-example": "/ðeɪ juːzd ə ˈspɛʃəl foʊm tu ɪkˈstɪŋɡwɪʃ ðə ˈfaɪər/"
+      },
+      {
+        "sentence": "The light was extinguished.",
+        "meaning-example": "Ánh sáng đã tắt.",
+        "ipa-example": "/ðə laɪt wəz ɪkˈstɪŋɡwɪʃt/"
+      },
+      {
+        "sentence": "The fire extinguisher is used to extinguish fires.",
+        "meaning-example": "Bình chữa cháy được dùng để dập tắt lửa.",
+        "ipa-example": "/ðə ˈfaɪər ɪkˈstɪŋɡwɪʃər ɪz juːzd tu ɪkˈstɪŋɡwɪʃ ˈfaɪərz/"
+      },
+      {
+        "sentence": "She watched the fire slowly extinguish.",
+        "meaning-example": "Cô ấy nhìn ngọn lửa từ từ tắt.",
+        "ipa-example": "/ʃi wɑːtʃt ðə ˈfaɪər ˈsloʊli ɪkˈstɪŋɡwɪʃ/"
+      }
+    ]
+  },
+  {
+    "word": "flint",
+    "ipa": "/flɪnt/",
+    "meaning": "một loại đá cứng màu xám tạo ra tia lửa khi va chạm với thép.",
+    "image": "./eew-4-26/13.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Early humans used flint to make tools.",
+        "meaning-example": "Người tiền sử đã dùng đá lửa để làm công cụ.",
+        "ipa-example": "/ˈɜːrli ˈhjuːmənz juːzd flɪnt tu meɪk tuːlz/"
+      },
+      {
+        "sentence": "He struck the flint to make a spark.",
+        "meaning-example": "Anh ấy đập đá lửa để tạo ra tia lửa.",
+        "ipa-example": "/hi strʌk ðə flɪnt tu meɪk ə spɑːrk/"
+      },
+      {
+        "sentence": "The lighter uses a piece of flint.",
+        "meaning-example": "Chiếc bật lửa sử dụng một mảnh đá lửa.",
+        "ipa-example": "/ðə ˈlaɪtər ˈjuːzɪz ə piːs əv flɪnt/"
+      },
+      {
+        "sentence": "Flint is a type of rock.",
+        "meaning-example": "Đá lửa là một loại đá.",
+        "ipa-example": "/flɪnt ɪz ə taɪp əv rɑːk/"
+      },
+      {
+        "sentence": "They found ancient flint tools.",
+        "meaning-example": "Họ tìm thấy các công cụ đá lửa cổ xưa.",
+        "ipa-example": "/ðeɪ faʊnd ˈeɪnʃənt flɪnt tuːlz/"
+      },
+      {
+        "sentence": "Flint was important for starting fires.",
+        "meaning-example": "Đá lửa quan trọng để bắt đầu lửa.",
+        "ipa-example": "/flɪnt wəz ɪmˈpɔːrtənt fər ˈstɑːrtɪŋ ˈfaɪərz/"
+      },
+      {
+        "sentence": "The arrowheads were made of flint.",
+        "meaning-example": "Đầu mũi tên được làm bằng đá lửa.",
+        "ipa-example": "/ði ˈæroʊˌhɛdz wər meɪd əv flɪnt/"
+      },
+      {
+        "sentence": "He carried a flint and steel.",
+        "meaning-example": "Anh ấy mang theo đá lửa và thép.",
+        "ipa-example": "/hi ˈkærid ə flɪnt ənd stiːl/"
+      },
+      {
+        "sentence": "The soil contained pieces of flint.",
+        "meaning-example": "Đất chứa các mảnh đá lửa.",
+        "ipa-example": "/ðə sɔɪl kənˈteɪnd ˈpiːsɪz əv flɪnt/"
+      },
+      {
+        "sentence": "Flint is very hard.",
+        "meaning-example": "Đá lửa rất cứng.",
+        "ipa-example": "/flɪnt ɪz ˈvɛri hɑːrd/"
+      },
+      {
+        "sentence": "They chipped the flint into shape.",
+        "meaning-example": "Họ đẽo đá lửa thành hình.",
+        "ipa-example": "/ðeɪ tʃɪpt ðə flɪnt ˈɪntu ʃeɪp/"
+      },
+      {
+        "sentence": "The spark from the flint ignited the tinder.",
+        "meaning-example": "Tia lửa từ đá lửa đã đốt cháy bùi nhùi.",
+        "ipa-example": "/ðə spɑːrk frɑːm ðə flɪnt ɪɡˈnaɪtɪd ðə ˈtɪndər/"
+      }
+    ]
+  },
+  {
+    "word": "harass",
+    "ipa": "/ˈhærəs/",
+    "meaning": "gây áp lực hoặc đe dọa một cách hung hăng.",
+    "image": "./eew-4-26/14.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Do not harass your coworkers.",
+        "meaning-example": "Đừng quấy rối đồng nghiệp của bạn.",
+        "ipa-example": "/du nɑːt ˈhærəs jʊər ˈkoʊˌwɜːrkərz/"
+      },
+      {
+        "sentence": "She reported him for harassing her.",
+        "meaning-example": "Cô ấy báo cáo anh ta vì đã quấy rối cô ấy.",
+        "ipa-example": "/ʃi rɪˈpɔːrtɪd hɪm fər ˈhærəsɪŋ hər/"
+      },
+      {
+        "sentence": "The police warned him to stop harassing his neighbor.",
+        "meaning-example": "Cảnh sát cảnh báo anh ta ngừng quấy rối hàng xóm.",
+        "ipa-example": "/ðə pəˈliːs wɔːrnd hɪm tu stɑːp ˈhærəsɪŋ hɪz ˈneɪbər/"
+      },
+      {
+        "sentence": "He felt harassed by the constant calls.",
+        "meaning-example": "Anh ấy cảm thấy bị quấy rối bởi những cuộc gọi liên tục.",
+        "ipa-example": "/hi fɛlt ˈhærəst baɪ ðə ˈkɑːnstənt kɔːlz/"
+      },
+      {
+        "sentence": "They were accused of harassing the protesters.",
+        "meaning-example": "Họ bị buộc tội quấy rối những người biểu tình.",
+        "ipa-example": "/ðeɪ wər əˈkjuːzd əv ˈhærəsɪŋ ðə prəˈtɛstərz/"
+      },
+      {
+        "sentence": "It is illegal to harass someone.",
+        "meaning-example": "Quấy rối người khác là bất hợp pháp.",
+        "ipa-example": "/ɪt ɪz ɪˈliːɡəl tu ˈhærəs ˈsʌmwʌn/"
+      },
+      {
+        "sentence": "The company has a policy against harassment.",
+        "meaning-example": "Công ty có chính sách chống quấy rối.",
+        "ipa-example": "/ðə ˈkʌmpəni hæz ə ˈpɑːləsi əˈɡɛnst ˈhærəsmənt/"
+      },
+      {
+        "sentence": "He would often harass her with unwanted attention.",
+        "meaning-example": "Anh ấy thường quấy rối cô ấy bằng sự chú ý không mong muốn.",
+        "ipa-example": "/hi wʊd ˈɔːfən ˈhærəs hər wɪθ ʌnˈwɑːntɪd əˈtɛnʃən/"
+      },
+      {
+        "sentence": "The birds were harassing the cat.",
+        "meaning-example": "Những con chim đang quấy rối con mèo.",
+        "ipa-example": "/ðə bɜːrdz wər ˈhærəsɪŋ ðə kæt/"
+      },
+      {
+        "sentence": "She felt unsafe because he kept harassing her.",
+        "meaning-example": "Cô ấy cảm thấy không an toàn vì anh ta liên tục quấy rối cô ấy.",
+        "ipa-example": "/ʃi fɛlt ʌnˈseɪf bɪˈkɔːz hi kɛpt ˈhærəsɪŋ hər/"
+      },
+      {
+        "sentence": "The online trolls continued to harass the user.",
+        "meaning-example": "Những kẻ troll trực tuyến tiếp tục quấy rối người dùng.",
+        "ipa-example": "/ði ˈɑːnˌlaɪn troʊlz kənˈtɪnjuːd tu ˈhærəs ðə ˈjuːzər/"
+      },
+      {
+        "sentence": "They were told not to harass the wildlife.",
+        "meaning-example": "Họ được yêu cầu không quấy rối động vật hoang dã.",
+        "ipa-example": "/ðeɪ wər toʊld nɑːt tu ˈhærəs ðə ˈwaɪldlaɪf/"
+      }
+    ]
+  },
+  {
+    "word": "integrate",
+    "ipa": "/ˈɪntɪɡreɪt/",
+    "meaning": "kết hợp (một thứ) với thứ khác để chúng trở thành một thể thống nhất; (của một người hoặc nhóm) kết hợp với một xã hội hoặc nhóm khác.",
+    "image": "./eew-4-26/15.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "It's important to integrate new students into the class.",
+        "meaning-example": "Điều quan trọng là hòa nhập học sinh mới vào lớp.",
+        "ipa-example": "/ɪts ɪmˈpɔːrtənt tu ˈɪntɪɡreɪt nuː ˈstuːdənts ˈɪntu ðə klæs/"
+      },
+      {
+        "sentence": "She found it hard to integrate into the new culture.",
+        "meaning-example": "Cô ấy thấy khó hòa nhập vào nền văn hóa mới.",
+        "ipa-example": "/ʃi faʊnd ɪt hɑːrd tu ˈɪntɪɡreɪt ˈɪntu ðə nuː ˈkʌltʃər/"
+      },
+      {
+        "sentence": "The goal is to integrate the two systems.",
+        "meaning-example": "Mục tiêu là tích hợp hai hệ thống.",
+        "ipa-example": "/ðə ɡoʊl ɪz tu ˈɪntɪɡreɪt ðə tuː ˈsɪstəmz/"
+      },
+      {
+        "sentence": "He quickly integrated into the team.",
+        "meaning-example": "Anh ấy nhanh chóng hòa nhập vào đội.",
+        "ipa-example": "/hi ˈkwɪkli ˈɪntɪɡreɪtɪd ˈɪntu ðə tiːm/"
+      },
+      {
+        "sentence": "The school helps children with disabilities integrate.",
+        "meaning-example": "Trường học giúp trẻ em khuyết tật hòa nhập.",
+        "ipa-example": "/ðə skuːl hɛlps ˈtʃɪldrən wɪθ ˌdɪsəˈbɪlətiz ˈɪntɪɡreɪt/"
+      },
+      {
+        "sentence": "They are working to integrate the refugees into society.",
+        "meaning-example": "Họ đang làm việc để hòa nhập người tị nạn vào xã hội.",
+        "ipa-example": "/ðeɪ ər ˈwɜːrkɪŋ tu ˈɪntɪɡreɪt ðə ˌrɛfjuˈdʒiːz ˈɪntu səˈsaɪəti/"
+      },
+      {
+        "sentence": "The software can integrate with other programs.",
+        "meaning-example": "Phần mềm có thể tích hợp với các chương trình khác.",
+        "ipa-example": "/ðə ˈsɔːftˌwɛr kæn ˈɪntɪɡreɪt wɪθ ˈʌðər ˈproʊɡræmz/"
+      },
+      {
+        "sentence": "It takes time to fully integrate.",
+        "meaning-example": "Mất thời gian để hòa nhập hoàn toàn.",
+        "ipa-example": "/ɪt teɪks taɪm tu ˈfʊli ˈɪntɪɡreɪt/"
+      },
+      {
+        "sentence": "The company is trying to integrate its different departments.",
+        "meaning-example": "Công ty đang cố gắng tích hợp các bộ phận khác nhau của mình.",
+        "ipa-example": "/ðə ˈkʌmpəni ɪz ˈtraɪɪŋ tu ˈɪntɪɡreɪt ɪts ˈdɪfrənt dɪˈpɑːrtmənts/"
+      },
+      {
+        "sentence": "She felt welcomed and was able to integrate easily.",
+        "meaning-example": "Cô ấy cảm thấy được chào đón và có thể hòa nhập dễ dàng.",
+        "ipa-example": "/ʃi fɛlt ˈwɛlkəmd ənd wəz ˈeɪbəl tu ˈɪntɪɡreɪt ˈiːzɪli/"
+      },
+      {
+        "sentence": "The new features integrate seamlessly.",
+        "meaning-example": "Các tính năng mới tích hợp liền mạch.",
+        "ipa-example": "/ðə nuː ˈfiːtʃərz ˈɪntɪɡreɪt ˈsiːmləsli/"
+      },
+      {
+        "sentence": "They need to integrate the new technology.",
+        "meaning-example": "Họ cần tích hợp công nghệ mới.",
+        "ipa-example": "/ðeɪ niːd tu ˈɪntɪɡreɪt ðə nuː tɛkˈnɑːlədʒi/"
+      }
+    ]
+  },
+  {
+    "word": "miniature",
+    "ipa": "/ˈmɪnətʃər/",
+    "meaning": "(của một bản sao của thứ gì đó) nhỏ hơn nhiều so với bình thường, đặc biệt là một bản sao.",
+    "image": "./eew-4-26/16.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "He collects miniature cars.",
+        "meaning-example": "Anh ấy sưu tập ô tô mô hình.",
+        "ipa-example": "/hi kəˈlɛkts ˈmɪnətʃər kɑːrz/"
+      },
+      {
+        "sentence": "She painted a miniature portrait.",
+        "meaning-example": "Cô ấy vẽ một bức chân dung thu nhỏ.",
+        "ipa-example": "/ʃi ˈpeɪntɪd ə ˈmɪnətʃər ˈpɔːrtrɪt/"
+      },
+      {
+        "sentence": "The garden had miniature trees.",
+        "meaning-example": "Khu vườn có những cây cảnh.",
+        "ipa-example": "/ðə ˈɡɑːrdən hæd ˈmɪnətʃər triːz/"
+      },
+      {
+        "sentence": "It was a miniature version of the real thing.",
+        "meaning-example": "Đó là một phiên bản thu nhỏ của vật thật.",
+        "ipa-example": "/ɪt wəz ə ˈmɪnətʃər ˈvɜːrʒən əv ðə riːəl θɪŋ/"
+      },
+      {
+        "sentence": "They lived in a miniature house.",
+        "meaning-example": "Họ sống trong một ngôi nhà nhỏ.",
+        "ipa-example": "/ðeɪ lɪvd ɪn ə ˈmɪnətʃər haʊs/"
+      },
+      {
+        "sentence": "He built a miniature railway.",
+        "meaning-example": "Anh ấy xây dựng một tuyến đường sắt mô hình.",
+        "ipa-example": "/hi bɪlt ə ˈmɪnətʃər ˈreɪlweɪ/"
+      },
+      {
+        "sentence": "The museum displayed miniature furniture.",
+        "meaning-example": "Bảo tàng trưng bày đồ nội thất thu nhỏ.",
+        "ipa-example": "/ðə mjuˈziːəm dɪˈspleɪd ˈmɪnətʃər ˈfɜːrnɪtʃər/"
+      },
+      {
+        "sentence": "She bought a miniature poodle.",
+        "meaning-example": "Cô ấy mua một con chó poodle nhỏ.",
+        "ipa-example": "/ʃi bɔːt ə ˈmɪnətʃər ˈpuːdəl/"
+      },
+      {
+        "sentence": "The artist specialized in miniature paintings.",
+        "meaning-example": "Nghệ sĩ chuyên về tranh thu nhỏ.",
+        "ipa-example": "/ði ˈɑːrtɪst ˈspɛʃəlaɪzd ɪn ˈmɪnətʃər ˈpeɪntɪŋz/"
+      },
+      {
+        "sentence": "It looked like a miniature forest.",
+        "meaning-example": "Nó trông giống như một khu rừng thu nhỏ.",
+        "ipa-example": "/ɪt lʊkt laɪk ə ˈmɪnətʃər ˈfɔːrɪst/"
+      },
+      {
+        "sentence": "The set included miniature tools.",
+        "meaning-example": "Bộ dụng cụ bao gồm các công cụ thu nhỏ.",
+        "ipa-example": "/ðə sɛt ɪnˈkluːdɪd ˈmɪnətʃər tuːlz/"
+      },
+      {
+        "sentence": "He had a collection of miniature bottles.",
+        "meaning-example": "Anh ấy có một bộ sưu tập chai nhỏ.",
+        "ipa-example": "/hi hæd ə kəˈlɛkʃən əv ˈmɪnətʃər ˈbɑːtəlz/"
+      }
+    ]
+  },
+  {
+    "word": "nutrition",
+    "ipa": "/nuːˈtrɪʃən/",
+    "meaning": "quá trình cung cấp hoặc thu nhận thức ăn cần thiết cho sức khỏe và sự phát triển.",
+    "image": "./eew-4-26/17.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Good nutrition is essential for health.",
+        "meaning-example": "Dinh dưỡng tốt là cần thiết cho sức khỏe.",
+        "ipa-example": "/ɡʊd nuːˈtrɪʃən ɪz ɪˈsɛnʃəl fər hɛlθ/"
+      },
+      {
+        "sentence": "She studies nutrition at university.",
+        "meaning-example": "Cô ấy học dinh dưỡng ở trường đại học.",
+        "ipa-example": "/ʃi ˈstʌdiz nuːˈtrɪʃən ət ˌjuːnɪˈvɜːrsəti/"
+      },
+      {
+        "sentence": "The food provides excellent nutrition.",
+        "meaning-example": "Thức ăn cung cấp dinh dưỡng tuyệt vời.",
+        "ipa-example": "/ðə fuːd prəˈvaɪdz ˈɛksələnt nuːˈtrɪʃən/"
+      },
+      {
+        "sentence": "Children need proper nutrition to grow.",
+        "meaning-example": "Trẻ em cần dinh dưỡng hợp lý để phát triển.",
+        "ipa-example": "/ˈtʃɪldrən niːd ˈprɑːpər nuːˈtrɪʃən tu ɡroʊ/"
+      },
+      {
+        "sentence": "He is interested in sports nutrition.",
+        "meaning-example": "Anh ấy quan tâm đến dinh dưỡng thể thao.",
+        "ipa-example": "/hi ɪz ˈɪntrəstɪd ɪn spɔːrts nuːˈtrɪʃən/"
+      },
+      {
+        "sentence": "Read the nutrition label on the food.",
+        "meaning-example": "Đọc nhãn dinh dưỡng trên thực phẩm.",
+        "ipa-example": "/riːd ðə nuːˈtrɪʃən ˈleɪbəl ɑːn ðə fuːd/"
+      },
+      {
+        "sentence": "Lack of nutrition can cause health problems.",
+        "meaning-example": "Thiếu dinh dưỡng có thể gây ra các vấn đề sức khỏe.",
+        "ipa-example": "/læk əv nuːˈtrɪʃən kæn kɔːz hɛlθ ˈprɑːbləmz/"
+      },
+      {
+        "sentence": "The soil provides nutrition for the plants.",
+        "meaning-example": "Đất cung cấp dinh dưỡng cho cây trồng.",
+        "ipa-example": "/ðə sɔɪl prəˈvaɪdz nuːˈtrɪʃən fər ðə plænts/"
+      },
+      {
+        "sentence": "She gave him advice on nutrition.",
+        "meaning-example": "Cô ấy cho anh ấy lời khuyên về dinh dưỡng.",
+        "ipa-example": "/ʃi ɡeɪv hɪm ədˈvaɪs ɑːn nuːˈtrɪʃən/"
+      },
+      {
+        "sentence": "Eating a balanced diet ensures good nutrition.",
+        "meaning-example": "Ăn một chế độ ăn cân bằng đảm bảo dinh dưỡng tốt.",
+        "ipa-example": "/ˈiːtɪŋ ə ˈbælənsɪd ˈdaɪət ɪnˈʃʊrz ɡʊd nuːˈtrɪʃən/"
+      },
+      {
+        "sentence": "The book is about nutrition for athletes.",
+        "meaning-example": "Cuốn sách nói về dinh dưỡng cho vận động viên.",
+        "ipa-example": "/ðə bʊk ɪz əˈbaʊt nuːˈtrɪʃən fər ˈæθliːts/"
+      },
+      {
+        "sentence": "They discussed the importance of nutrition.",
+        "meaning-example": "Họ đã thảo luận về tầm quan trọng của dinh dưỡng.",
+        "ipa-example": "/ðeɪ dɪˈskʌst ði ɪmˈpɔːrtəns əv nuːˈtrɪʃən/"
+      }
+    ]
+  },
+  {
+    "word": "promptly",
+    "ipa": "/ˈprɑːmptli/",
+    "meaning": "với ít hoặc không có sự chậm trễ; ngay lập tức.",
+    "image": "./eew-4-26/18.jpg",
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "Please reply promptly.",
+        "meaning-example": "Vui lòng trả lời ngay.",
+        "ipa-example": "/pliːz rɪˈplaɪ ˈprɑːmptli/"
+      },
+      {
+        "sentence": "She arrived promptly at 9 o'clock.",
+        "meaning-example": "Cô ấy đến đúng 9 giờ.",
+        "ipa-example": "/ʃi əˈraɪvd ˈprɑːmptli ət naɪn əˈklɑːk/"
+      },
+      {
+        "sentence": "He paid the bill promptly.",
+        "meaning-example": "Anh ấy thanh toán hóa đơn ngay lập tức.",
+        "ipa-example": "/hi peɪd ðə bɪl ˈprɑːmptli/"
+      },
+      {
+        "sentence": "The doctor saw the patient promptly.",
+        "meaning-example": "Bác sĩ khám cho bệnh nhân ngay.",
+        "ipa-example": "/ðə ˈdɑːktər sɔː ðə ˈpeɪʃənt ˈprɑːmptli/"
+      },
+      {
+        "sentence": "The train departed promptly on time.",
+        "meaning-example": "Chuyến tàu khởi hành đúng giờ.",
+        "ipa-example": "/ðə treɪn dɪˈpɑːrtɪd ˈprɑːmptli ɑːn taɪm/"
+      },
+      {
+        "sentence": "She answered the question promptly.",
+        "meaning-example": "Cô ấy trả lời câu hỏi ngay lập tức.",
+        "ipa-example": "/ʃi ˈænsərd ðə ˈkwɛstʃən ˈprɑːmptli/"
+      },
+      {
+        "sentence": "The issue was dealt with promptly.",
+        "meaning-example": "Vấn đề đã được giải quyết nhanh chóng.",
+        "ipa-example": "/ði ˈɪʃuː wəz dɛlt wɪθ ˈprɑːmptli/"
+      },
+      {
+        "sentence": "He reacted promptly to the danger.",
+        "meaning-example": "Anh ấy phản ứng nhanh chóng với nguy hiểm.",
+        "ipa-example": "/hi riˈæktɪd ˈprɑːmptli tu ðə ˈdeɪndʒər/"
+      },
+      {
+        "sentence": "The delivery arrived promptly.",
+        "meaning-example": "Hàng được giao đúng giờ.",
+        "ipa-example": "/ðə dɪˈlɪvəri əˈraɪvd ˈprɑːmptli/"
+      },
+      {
+        "sentence": "Please complete the task promptly.",
+        "meaning-example": "Vui lòng hoàn thành nhiệm vụ ngay.",
+        "ipa-example": "/pliːz kəmˈpliːt ðə tæsk ˈprɑːmptli/"
+      },
+      {
+        "sentence": "The meeting started promptly.",
+        "meaning-example": "Cuộc họp bắt đầu đúng giờ.",
+        "ipa-example": "/ðə ˈmiːtɪŋ ˈstɑːrtɪd ˈprɑːmptli/"
+      },
+      {
+        "sentence": "She responded promptly to the email.",
+        "meaning-example": "Cô ấy trả lời email ngay lập tức.",
+        "ipa-example": "/ʃi rɪˈspɑːndɪd ˈprɑːmptli tu ði ˈiːmeɪl/"
+      }
+    ]
+  },
+  {
+    "word": "technician",
+    "ipa": "/tɛkˈnɪʃən/",
+    "meaning": "người được thuê để trông coi thiết bị kỹ thuật hoặc làm công việc thực hành trong phòng thí nghiệm hoặc hỗ trợ một loại công việc thực hành cụ thể.",
+    "image": "./eew-4-26/19.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The computer technician fixed my laptop.",
+        "meaning-example": "Kỹ thuật viên máy tính đã sửa máy tính xách tay của tôi.",
+        "ipa-example": "/ðə kəmˈpjuːtər tɛkˈnɪʃən fɪkst maɪ ˈlæptɑːp/"
+      },
+      {
+        "sentence": "He works as a lab technician.",
+        "meaning-example": "Anh ấy làm kỹ thuật viên phòng thí nghiệm.",
+        "ipa-example": "/hi wɜːrks əz ə læb tɛkˈnɪʃən/"
+      },
+      {
+        "sentence": "The sound technician set up the equipment.",
+        "meaning-example": "Kỹ thuật viên âm thanh đã thiết lập thiết bị.",
+        "ipa-example": "/ðə saʊnd tɛkˈnɪʃən sɛt ʌp ði ɪˈkwɪpmənt/"
+      },
+      {
+        "sentence": "She called a repair technician.",
+        "meaning-example": "Cô ấy gọi một kỹ thuật viên sửa chữa.",
+        "ipa-example": "/ʃi kɔːld ə rɪˈpɛr tɛkˈnɪʃən/"
+      },
+      {
+        "sentence": "The theater needs a lighting technician.",
+        "meaning-example": "Nhà hát cần một kỹ thuật viên ánh sáng.",
+        "ipa-example": "/ðə ˈθiːətər niːdz ə ˈlaɪtɪŋ tɛkˈnɪʃən/"
+      },
+      {
+        "sentence": "He is a skilled technician.",
+        "meaning-example": "Anh ấy là một kỹ thuật viên lành nghề.",
+        "ipa-example": "/hi ɪz ə skɪld tɛkˈnɪʃən/"
+      },
+      {
+        "sentence": "The technician checked the machine.",
+        "meaning-example": "Kỹ thuật viên kiểm tra máy.",
+        "ipa-example": "/ðə tɛkˈnɪʃən tʃɛkt ðə məˈʃiːn/"
+      },
+      {
+        "sentence": "She trained to be a medical technician.",
+        "meaning-example": "Cô ấy được đào tạo để trở thành kỹ thuật viên y tế.",
+        "ipa-example": "/ʃi treɪnd tu bi ə ˈmɛdɪkəl tɛkˈnɪʃən/"
+      },
+      {
+        "sentence": "The car needs to be checked by a technician.",
+        "meaning-example": "Xe cần được kiểm tra bởi một kỹ thuật viên.",
+        "ipa-example": "/ðə kɑːr niːdz tu bi tʃɛkt baɪ ə tɛkˈnɪʃən/"
+      },
+      {
+        "sentence": "The technician explained the problem.",
+        "meaning-example": "Kỹ thuật viên giải thích vấn đề.",
+        "ipa-example": "/ðə tɛkˈnɪʃən ɪkˈspleɪnd ðə ˈprɑːbləm/"
+      },
+      {
+        "sentence": "He is an expert technician.",
+        "meaning-example": "Anh ấy là một kỹ thuật viên chuyên nghiệp.",
+        "ipa-example": "/hi ɪz ən ˈɛkspɜːrt tɛkˈnɪʃən/"
+      },
+      {
+        "sentence": "The company hired a new technician.",
+        "meaning-example": "Công ty đã thuê một kỹ thuật viên mới.",
+        "ipa-example": "/ðə ˈkʌmpəni haɪərd ə nuː tɛkˈnɪʃən/"
+      }
+    ]
+  },
+  {
+    "word": "tropics",
+    "ipa": "/ˈtrɑːpɪks/",
+    "meaning": "khu vực giữa Chí tuyến Bắc và Chí tuyến Nam, đặc trưng bởi khí hậu nóng.",
+    "image": "./eew-4-26/20.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The tropics have a warm climate.",
+        "meaning-example": "Vùng nhiệt đới có khí hậu ấm áp.",
+        "ipa-example": "/ðə ˈtrɑːpɪks hæv ə wɔːrm ˈklaɪmət/"
+      },
+      {
+        "sentence": "Many exotic plants grow in the tropics.",
+        "meaning-example": "Nhiều loài thực vật kỳ lạ mọc ở vùng nhiệt đới.",
+        "ipa-example": "/ˈmɛni ɪɡˈzɑːtɪk plænts ɡroʊ ɪn ðə ˈtrɑːpɪks/"
+      },
+      {
+        "sentence": "They are planning a trip to the tropics.",
+        "meaning-example": "Họ đang lên kế hoạch cho một chuyến đi đến vùng nhiệt đới.",
+        "ipa-example": "/ðeɪ ər ˈplænɪŋ ə trɪp tu ðə ˈtrɑːpɪks/"
+      },
+      {
+        "sentence": "The rainforest is located in the tropics.",
+        "meaning-example": "Rừng mưa nhiệt đới nằm ở vùng nhiệt đới.",
+        "ipa-example": "/ðə ˈreɪnˌfɔːrɪst ɪz ˈloʊkeɪtɪd ɪn ðə ˈtrɑːpɪks/"
+      },
+      {
+        "sentence": "Life in the tropics can be challenging.",
+        "meaning-example": "Cuộc sống ở vùng nhiệt đới có thể khó khăn.",
+        "ipa-example": "/laɪf ɪn ðə ˈtrɑːpɪks kæn bi ˈtʃælɪndʒɪŋ/"
+      },
+      {
+        "sentence": "He prefers the heat of the tropics.",
+        "meaning-example": "Anh ấy thích cái nóng của vùng nhiệt đới.",
+        "ipa-example": "/hi prɪˈfɜːrz ðə hiːt əv ðə ˈtrɑːpɪks/"
+      },
+      {
+        "sentence": "The storm formed in the tropics.",
+        "meaning-example": "Cơn bão hình thành ở vùng nhiệt đới.",
+        "ipa-example": "/ðə stɔːrm fɔːrmd ɪn ðə ˈtrɑːpɪks/"
+      },
+      {
+        "sentence": "The tropics are known for their biodiversity.",
+        "meaning-example": "Vùng nhiệt đới nổi tiếng về đa dạng sinh học.",
+        "ipa-example": "/ðə ˈtrɑːpɪks ər noʊn fər ðɛr ˌbaɪoʊdaɪˈvɜːrsəti/"
+      },
+      {
+        "sentence": "She loves visiting tropical islands.",
+        "meaning-example": "Cô ấy thích thăm các hòn đảo nhiệt đới.",
+        "ipa-example": "/ʃi lʌvz ˈvɪzɪtɪŋ ˈtrɑːpɪkəl ˈaɪləndz/"
+      },
+      {
+        "sentence": "The map shows the tropics clearly.",
+        "meaning-example": "Bản đồ hiển thị rõ ràng vùng nhiệt đới.",
+        "ipa-example": "/ðə mæp ʃoʊz ðə ˈtrɑːpɪks ˈklɪrli/"
+      },
+      {
+        "sentence": "The humidity is high in the tropics.",
+        "meaning-example": "Độ ẩm cao ở vùng nhiệt đới.",
+        "ipa-example": "/ðə hjuːˈmɪdəti ɪz haɪ ɪn ðə ˈtrɑːpɪks/"
+      },
+      {
+        "sentence": "They studied the wildlife of the tropics.",
+        "meaning-example": "Họ nghiên cứu động vật hoang dã của vùng nhiệt đới.",
+        "ipa-example": "/ðeɪ ˈstʌdid ðə ˈwaɪldlaɪf əv ðə ˈtrɑːpɪks/"
+      }
+    ]
+  }
+]
