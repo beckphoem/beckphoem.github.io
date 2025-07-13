@@ -1,0 +1,1382 @@
+[
+  {
+    "word": "beneficial",
+    "ipa": "/ˌbɛnɪˈfɪʃəl/",
+    "meaning": "có lợi; tốt.",
+    "image": "./eew-4-27/1.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Exercise is beneficial for your health.",
+        "meaning-example": "Tập thể dục có lợi cho sức khỏe của bạn.",
+        "ipa-example": "/ˈɛksərsaɪz ɪz ˌbɛnɪˈfɪʃəl fər jʊər hɛlθ/"
+      },
+      {
+        "sentence": "Reading is beneficial for the mind.",
+        "meaning-example": "Đọc sách có lợi cho trí óc.",
+        "ipa-example": "/ˈriːdɪŋ ɪz ˌbɛnɪˈfɪʃəl fər ðə maɪnd/"
+      },
+      {
+        "sentence": "This new policy is beneficial to the company.",
+        "meaning-example": "Chính sách mới này có lợi cho công ty.",
+        "ipa-example": "/ðɪs nuː ˈpɑːləsi ɪz ˌbɛnɪˈfɪʃəl tu ðə ˈkʌmpəni/"
+      },
+      {
+        "sentence": "Sunlight can be beneficial in moderation.",
+        "meaning-example": "Ánh nắng mặt trời có thể có lợi nếu điều độ.",
+        "ipa-example": "/ˈsʌnˌlaɪt kæn bi ˌbɛnɪˈfɪʃəl ɪn ˌmɑːdəˈreɪʃən/"
+      },
+      {
+        "sentence": "Learning a new language is beneficial.",
+        "meaning-example": "Học một ngôn ngữ mới rất có lợi.",
+        "ipa-example": "/ˈlɜːrnɪŋ ə nuː ˈlæŋɡwɪdʒ ɪz ˌbɛnɪˈfɪʃəl/"
+      },
+      {
+        "sentence": "The rain was beneficial for the crops.",
+        "meaning-example": "Cơn mưa có lợi cho cây trồng.",
+        "ipa-example": "/ðə reɪn wəz ˌbɛnɪˈfɪʃəl fər ðə krɑːps/"
+      },
+      {
+        "sentence": "It's beneficial to save money.",
+        "meaning-example": "Tiết kiệm tiền rất có lợi.",
+        "ipa-example": "/ɪts ˌbɛnɪˈfɪʃəl tu seɪv ˈmʌni/"
+      },
+      {
+        "sentence": "This program is mutually beneficial.",
+        "meaning-example": "Chương trình này cùng có lợi.",
+        "ipa-example": "/ðɪs ˈproʊɡræm ɪz ˈmjuːtʃuəli ˌbɛnɪˈfɪʃəl/"
+      },
+      {
+        "sentence": "The changes were beneficial to everyone.",
+        "meaning-example": "Những thay đổi có lợi cho mọi người.",
+        "ipa-example": "/ðə ˈtʃeɪndʒɪz wər ˌbɛnɪˈfɪʃəl tu ˈɛvriwʌn/"
+      },
+      {
+        "sentence": "Eating vegetables is very beneficial.",
+        "meaning-example": "Ăn rau rất có lợi.",
+        "ipa-example": "/ˈiːtɪŋ ˈvɛdʒtəbəlz ɪz ˈvɛri ˌbɛnɪˈfɪʃəl/"
+      },
+      {
+        "sentence": "The advice he gave was beneficial.",
+        "meaning-example": "Lời khuyên anh ấy đưa ra rất có lợi.",
+        "ipa-example": "/ðə ədˈvaɪs hi ɡeɪv wəz ˌbɛnɪˈfɪʃəl/"
+      },
+      {
+        "sentence": "It's beneficial to get enough sleep.",
+        "meaning-example": "Ngủ đủ giấc rất có lợi.",
+        "ipa-example": "/ɪts ˌbɛnɪˈfɪʃəl tu ɡɛt ɪˈnʌf sliːp/"
+      }
+    ]
+  },
+  {
+    "word": "birthplace",
+    "ipa": "/ˈbɜːrθpleɪs/",
+    "meaning": "nơi một người hoặc một thứ gì đó bắt đầu tồn tại.",
+    "image": "./eew-4-27/2.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "This city is his birthplace.",
+        "meaning-example": "Thành phố này là nơi sinh của anh ấy.",
+        "ipa-example": "/ðɪs ˈsɪti ɪz hɪz ˈbɜːrθpleɪs/"
+      },
+      {
+        "sentence": "The small village is the birthplace of the artist.",
+        "meaning-example": "Ngôi làng nhỏ là nơi sinh của nghệ sĩ.",
+        "ipa-example": "/ðə smɔːl ˈvɪlɪdʒ ɪz ðə ˈbɜːrθpleɪs əv ði ˈɑːrtɪst/"
+      },
+      {
+        "sentence": "This region is considered the birthplace of democracy.",
+        "meaning-example": "Vùng này được coi là cái nôi của nền dân chủ.",
+        "ipa-example": "/ðɪs ˈriːdʒən ɪz kənˈsɪdərd ðə ˈbɜːrθpleɪs əv dɪˈmɑːkrəsi/"
+      },
+      {
+        "sentence": "The cafe is the birthplace of many ideas.",
+        "meaning-example": "Quán cà phê là nơi khai sinh ra nhiều ý tưởng.",
+        "ipa-example": "/ðə ˈkæfeɪ ɪz ðə ˈbɜːrθpleɪs əv ˈmɛni aɪˈdiːəz/"
+      },
+      {
+        "sentence": "This house is my mother's birthplace.",
+        "meaning-example": "Ngôi nhà này là nơi sinh của mẹ tôi.",
+        "ipa-example": "/ðɪs haʊs ɪz maɪ ˈmʌðərz ˈbɜːrθpleɪs/"
+      },
+      {
+        "sentence": "The river's birthplace is high in the mountains.",
+        "meaning-example": "Nơi bắt nguồn của con sông nằm trên núi cao.",
+        "ipa-example": "/ðə ˈrɪvərz ˈbɜːrθpleɪs ɪz haɪ ɪn ðə ˈmaʊntənz/"
+      },
+      {
+        "sentence": "This country is the birthplace of jazz music.",
+        "meaning-example": "Đất nước này là nơi khai sinh ra nhạc jazz.",
+        "ipa-example": "/ðɪs ˈkʌntri ɪz ðə ˈbɜːrθpleɪs əv dʒæz ˈmjuːzɪk/"
+      },
+      {
+        "sentence": "They visited the birthplace of the famous writer.",
+        "meaning-example": "Họ đã thăm nơi sinh của nhà văn nổi tiếng.",
+        "ipa-example": "/ðeɪ ˈvɪzɪtɪd ðə ˈbɜːrθpleɪs əv ðə ˈfeɪməs ˈraɪtər/"
+      },
+      {
+        "sentence": "The company's birthplace was a small garage.",
+        "meaning-example": "Nơi khai sinh của công ty là một gara nhỏ.",
+        "ipa-example": "/ðə ˈkʌmpəniz ˈbɜːrθpleɪs wəz ə smɔːl ɡəˈrɑːʒ/"
+      },
+      {
+        "sentence": "This forest is the birthplace of rare animals.",
+        "meaning-example": "Khu rừng này là nơi sinh sống của các loài động vật quý hiếm.",
+        "ipa-example": "/ðɪs ˈfɔːrɪst ɪz ðə ˈbɜːrθpleɪs əv rɛr ˈænɪməlz/"
+      },
+      {
+        "sentence": "The island is the birthplace of a unique culture.",
+        "meaning-example": "Hòn đảo là nơi khai sinh ra một nền văn hóa độc đáo.",
+        "ipa-example": "/ðə ˈaɪlənd ɪz ðə ˈbɜːrθpleɪs əv ə juːˈniːk ˈkʌltʃər/"
+      },
+      {
+        "sentence": "He returned to his birthplace after many years.",
+        "meaning-example": "Anh ấy trở về quê hương sau nhiều năm.",
+        "ipa-example": "/hi rɪˈtɜːrnd tu hɪz ˈbɜːrθpleɪs ˈæftər ˈmɛni jɪrz/"
+      }
+    ]
+  },
+  {
+    "word": "capacity",
+    "ipa": "/kəˈpæsəti/",
+    "meaning": "khả năng chứa hoặc chứa đựng thứ gì đó; khả năng làm điều gì đó.",
+    "image": "./eew-4-27/3.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The room has a seating capacity of 100 people.",
+        "meaning-example": "Phòng có sức chứa 100 người.",
+        "ipa-example": "/ðə ruːm hæz ə ˈsiːtɪŋ kəˈpæsəti əv wʌn ˈhʌndrəd ˈpiːpəl/"
+      },
+      {
+        "sentence": "The battery has a large capacity.",
+        "meaning-example": "Pin có dung lượng lớn.",
+        "ipa-example": "/ðə ˈbætəri hæz ə lɑːrdʒ kəˈpæsəti/"
+      },
+      {
+        "sentence": "He has a great capacity for learning.",
+        "meaning-example": "Anh ấy có khả năng học hỏi tuyệt vời.",
+        "ipa-example": "/hi hæz ə ɡreɪt kəˈpæsəti fər ˈlɜːrnɪŋ/"
+      },
+      {
+        "sentence": "The stadium was filled to capacity.",
+        "meaning-example": "Sân vận động đã đầy kín chỗ.",
+        "ipa-example": "/ðə ˈsteɪdiəm wəz fɪld tu kəˈpæsəti/"
+      },
+      {
+        "sentence": "The factory is operating at full capacity.",
+        "meaning-example": "Nhà máy đang hoạt động hết công suất.",
+        "ipa-example": "/ðə ˈfæktəri ɪz ˈɑːpəreɪtɪŋ ət fʊl kəˈpæsəti/"
+      },
+      {
+        "sentence": "She has a remarkable capacity for empathy.",
+        "meaning-example": "Cô ấy có khả năng đồng cảm đáng nể.",
+        "ipa-example": "/ʃi hæz ə rɪˈmɑːrkəbəl kəˈpæsəti fər ˈɛmpəθi/"
+      },
+      {
+        "sentence": "The hard drive has a storage capacity of 1 terabyte.",
+        "meaning-example": "Ổ cứng có dung lượng lưu trữ 1 terabyte.",
+        "ipa-example": "/ðə hɑːrd draɪv hæz ə ˈstɔːrɪdʒ kəˈpæsəti əv wʌn ˈtɛrəˌbaɪt/"
+      },
+      {
+        "sentence": "The human brain has an enormous capacity.",
+        "meaning-example": "Bộ não con người có khả năng khổng lồ.",
+        "ipa-example": "/ðə ˈhjuːmən breɪn hæz ən ɪˈnɔːrməs kəˈpæsəti/"
+      },
+      {
+        "sentence": "The truck has a loading capacity of 5 tons.",
+        "meaning-example": "Xe tải có tải trọng 5 tấn.",
+        "ipa-example": "/ðə trʌk hæz ə ˈloʊdɪŋ kəˈpæsəti əv faɪv tʌnz/"
+      },
+      {
+        "sentence": "He showed a great capacity for leadership.",
+        "meaning-example": "Anh ấy thể hiện khả năng lãnh đạo tuyệt vời.",
+        "ipa-example": "/hi ʃoʊd ə ɡreɪt kəˈpæsəti fər ˈliːdərʃɪp/"
+      },
+      {
+        "sentence": "The theater has a capacity of 500 seats.",
+        "meaning-example": "Nhà hát có sức chứa 500 chỗ ngồi.",
+        "ipa-example": "/ðə ˈθiːətər hæz ə kəˈpæsəti əv faɪv ˈhʌndrəd siːts/"
+      },
+      {
+        "sentence": "The new system increased our production capacity.",
+        "meaning-example": "Hệ thống mới đã tăng năng lực sản xuất của chúng tôi.",
+        "ipa-example": "/ðə nuː ˈsɪstəm ɪnˈkriːst aʊər prəˈdʌkʃən kəˈpæsəti/"
+      }
+    ]
+  },
+  {
+    "word": "comparative",
+    "ipa": "/kəmˈpærətɪv/",
+    "meaning": "được đo hoặc đánh giá bằng cách so sánh với thứ khác.",
+    "image": "./eew-4-26/4.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "We made a comparative study of the two methods.",
+        "meaning-example": "Chúng tôi đã thực hiện một nghiên cứu so sánh hai phương pháp.",
+        "ipa-example": "/wi meɪd ə kəmˈpærətɪv ˈstʌdi əv ðə tuː ˈmɛθədz/"
+      },
+      {
+        "sentence": "The cost was low in comparative terms.",
+        "meaning-example": "Chi phí thấp xét về mặt so sánh.",
+        "ipa-example": "/ðə kɔːst wəz loʊ ɪn kəmˈpærətɪv tɜːrmz/"
+      },
+      {
+        "sentence": "She has a comparative advantage in this area.",
+        "meaning-example": "Cô ấy có lợi thế so sánh trong lĩnh vực này.",
+        "ipa-example": "/ʃi hæz ə kəmˈpærətɪv ədˈvæntɪdʒ ɪn ðɪs ˈɛriə/"
+      },
+      {
+        "sentence": "They discussed the comparative merits of each option.",
+        "meaning-example": "Họ đã thảo luận về những ưu điểm so sánh của từng lựa chọn.",
+        "ipa-example": "/ðeɪ dɪˈskʌst ðə kəmˈpærətɪv ˈmɛrɪts əv iːtʃ ˈɑːpʃən/"
+      },
+      {
+        "sentence": "The results showed a comparative improvement.",
+        "meaning-example": "Kết quả cho thấy sự cải thiện tương đối.",
+        "ipa-example": "/ðə rɪˈzʌlts ʃoʊd ə kəmˈpærətɪv ɪmˈpruːvmənt/"
+      },
+      {
+        "sentence": "This is a comparative analysis of the data.",
+        "meaning-example": "Đây là phân tích so sánh dữ liệu.",
+        "ipa-example": "/ðɪs ɪz ə kəmˈpærətɪv əˈnæləsɪs əv ðə ˈdeɪtə/"
+      },
+      {
+        "sentence": "His speed is comparative to a professional runner.",
+        "meaning-example": "Tốc độ của anh ấy tương đương với một vận động viên chuyên nghiệp.",
+        "ipa-example": "/hɪz spiːd ɪz kəmˈpærətɪv tu ə prəˈfɛʃənəl ˈrʌnər/"
+      },
+      {
+        "sentence": "We looked at the comparative performance of the teams.",
+        "meaning-example": "Chúng tôi đã xem xét hiệu suất so sánh của các đội.",
+        "ipa-example": "/wi lʊkt ət ðə kəmˈpærətɪv pərˈfɔːrməns əv ðə tiːmz/"
+      },
+      {
+        "sentence": "The report provides a comparative overview.",
+        "meaning-example": "Báo cáo cung cấp một cái nhìn tổng quan so sánh.",
+        "ipa-example": "/ðə rɪˈpɔːrt prəˈvaɪdz ə kəmˈpærətɪv ˈoʊvərˌvjuː/"
+      },
+      {
+        "sentence": "The two products have comparative features.",
+        "meaning-example": "Hai sản phẩm có các tính năng tương đương.",
+        "ipa-example": "/ðə tuː ˈprɑːdʌkts hæv kəmˈpærətɪv ˈfiːtʃərz/"
+      },
+      {
+        "sentence": "There was a comparative increase in sales.",
+        "meaning-example": "Có sự gia tăng tương đối về doanh số.",
+        "ipa-example": "/ðɛr wəz ə kəmˈpærətɪv ɪnˈkriːs ɪn seɪlz/"
+      },
+      {
+        "sentence": "The test measures comparative ability.",
+        "meaning-example": "Bài kiểm tra đo lường khả năng so sánh.",
+        "ipa-example": "/ðə tɛst ˈmɛʒərz kəmˈpærətɪv əˈbɪləti/"
+      }
+    ]
+  },
+  {
+    "word": "comprehensive",
+    "ipa": "/ˌkɑːmprɪˈhɛnsɪv/",
+    "meaning": "bao gồm hoặc bao quát tất cả hoặc hầu hết các khía cạnh của thứ gì đó.",
+    "image": "./eew-4-27/5.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The book provides a comprehensive guide to the subject.",
+        "meaning-example": "Cuốn sách cung cấp một hướng dẫn toàn diện về chủ đề này.",
+        "ipa-example": "/ðə bʊk prəˈvaɪdz ə ˌkɑːmprɪˈhɛnsɪv ɡaɪd tu ðə ˈsʌbdʒɪkt/"
+      },
+      {
+        "sentence": "We need a comprehensive plan.",
+        "meaning-example": "Chúng ta cần một kế hoạch toàn diện.",
+        "ipa-example": "/wi niːd ə ˌkɑːmprɪˈhɛnsɪv plæn/"
+      },
+      {
+        "sentence": "The report was very comprehensive.",
+        "meaning-example": "Báo cáo rất toàn diện.",
+        "ipa-example": "/ðə rɪˈpɔːrt wəz ˈvɛri ˌkɑːmprɪˈhɛnsɪv/"
+      },
+      {
+        "sentence": "She received a comprehensive education.",
+        "meaning-example": "Cô ấy đã nhận được một nền giáo dục toàn diện.",
+        "ipa-example": "/ʃi rɪˈsiːvd ə ˌkɑːmprɪˈhɛnsɪv ˌɛdʒuˈkeɪʃən/"
+      },
+      {
+        "sentence": "The insurance policy offers comprehensive coverage.",
+        "meaning-example": "Chính sách bảo hiểm cung cấp phạm vi bảo hiểm toàn diện.",
+        "ipa-example": "/ðə ɪnˈʃʊrəns ˈpɑːləsi ˈɔːfərz ˌkɑːmprɪˈhɛnsɪv ˈkʌvərɪdʒ/"
+      },
+      {
+        "sentence": "They conducted a comprehensive review.",
+        "meaning-example": "Họ đã tiến hành một đánh giá toàn diện.",
+        "ipa-example": "/ðeɪ kənˈdʌktɪd ə ˌkɑːmprɪˈhɛnsɪv rɪˈvjuː/"
+      },
+      {
+        "sentence": "The list is not comprehensive.",
+        "meaning-example": "Danh sách này không đầy đủ.",
+        "ipa-example": "/ðə lɪst ɪz nɑːt ˌkɑːmprɪˈhɛnsɪv/"
+      },
+      {
+        "sentence": "He gave a comprehensive answer.",
+        "meaning-example": "Anh ấy đã đưa ra một câu trả lời toàn diện.",
+        "ipa-example": "/hi ɡeɪv ə ˌkɑːmprɪˈhɛnsɪv ˈænsər/"
+      },
+      {
+        "sentence": "The library has a comprehensive collection.",
+        "meaning-example": "Thư viện có một bộ sưu tập toàn diện.",
+        "ipa-example": "/ðə ˈlaɪbrɛri hæz ə ˌkɑːmprɪˈhɛnsɪv kəˈlɛkʃən/"
+      },
+      {
+        "sentence": "We need a comprehensive approach to the problem.",
+        "meaning-example": "Chúng ta cần một cách tiếp cận toàn diện cho vấn đề.",
+        "ipa-example": "/wi niːd ə ˌkɑːmprɪˈhɛnsɪv əˈproʊtʃ tu ðə ˈprɑːbləm/"
+      },
+      {
+        "sentence": "The training was comprehensive.",
+        "meaning-example": "Khóa đào tạo rất toàn diện.",
+        "ipa-example": "/ðə ˈtreɪnɪŋ wəz ˌkɑːmprɪˈhɛnsɪv/"
+      },
+      {
+        "sentence": "The document provides comprehensive details.",
+        "meaning-example": "Tài liệu cung cấp chi tiết toàn diện.",
+        "ipa-example": "/ðə ˈdɑːkjumənt prəˈvaɪdz ˌkɑːmprɪˈhɛnsɪv ˈdiːteɪlz/"
+      }
+    ]
+  },
+  {
+    "word": "conserve",
+    "ipa": "/kənˈsɜːrv/",
+    "meaning": "bảo vệ thứ gì đó khỏi bị mất hoặc lãng phí; bảo tồn.",
+    "image": "./eew-4-27/6.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "We should conserve water.",
+        "meaning-example": "Chúng ta nên tiết kiệm nước.",
+        "ipa-example": "/wi ʃʊd kənˈsɜːrv ˈwɔːtər/"
+      },
+      {
+        "sentence": "They are working to conserve wildlife.",
+        "meaning-example": "Họ đang làm việc để bảo tồn động vật hoang dã.",
+        "ipa-example": "/ðeɪ ər ˈwɜːrkɪŋ tu kənˈsɜːrv ˈwaɪldlaɪf/"
+      },
+      {
+        "sentence": "It's important to conserve energy.",
+        "meaning-example": "Tiết kiệm năng lượng rất quan trọng.",
+        "ipa-example": "/ɪts ɪmˈpɔːrtənt tu kənˈsɜːrv ˈɛnərdʒi/"
+      },
+      {
+        "sentence": "The organization helps conserve historical buildings.",
+        "meaning-example": "Tổ chức giúp bảo tồn các tòa nhà lịch sử.",
+        "ipa-example": "/ðə ˌɔːrɡənɪˈzeɪʃən hɛlps kənˈsɜːrv hɪˈstɔːrɪkəl ˈbɪldɪŋz/"
+      },
+      {
+        "sentence": "We need to conserve our natural resources.",
+        "meaning-example": "Chúng ta cần bảo tồn tài nguyên thiên nhiên của mình.",
+        "ipa-example": "/wi niːd tu kənˈsɜːrv aʊər ˈnætʃərəl rɪˈsɔːrsɪz/"
+      },
+      {
+        "sentence": "He tried to conserve his strength.",
+        "meaning-example": "Anh ấy cố gắng giữ sức.",
+        "ipa-example": "/hi traɪd tu kənˈsɜːrv hɪz strɛŋθ/"
+      },
+      {
+        "sentence": "The goal is to conserve the environment.",
+        "meaning-example": "Mục tiêu là bảo tồn môi trường.",
+        "ipa-example": "/ðə ɡoʊl ɪz tu kənˈsɜːrv ði ɪnˈvaɪrənmənt/"
+      },
+      {
+        "sentence": "They are teaching people how to conserve food.",
+        "meaning-example": "Họ đang dạy mọi người cách bảo quản thực phẩm.",
+        "ipa-example": "/ðeɪ ər ˈtiːtʃɪŋ ˈpiːpəl haʊ tu kənˈsɜːrv fuːd/"
+      },
+      {
+        "sentence": "We must conserve these ancient traditions.",
+        "meaning-example": "Chúng ta phải bảo tồn những truyền thống cổ xưa này.",
+        "ipa-example": "/wi mʌst kənˈsɜːrv ðiz ˈeɪnʃənt trəˈdɪʃənz/"
+      },
+      {
+        "sentence": "The park was created to conserve the landscape.",
+        "meaning-example": "Công viên được tạo ra để bảo tồn cảnh quan.",
+        "ipa-example": "/ðə pɑːrk wəz kriˈeɪtɪd tu kənˈsɜːrv ðə ˈlændskeɪp/"
+      },
+      {
+        "sentence": "Try to conserve fuel when driving.",
+        "meaning-example": "Cố gắng tiết kiệm nhiên liệu khi lái xe.",
+        "ipa-example": "/traɪ tu kənˈsɜːrv fjuːəl wɛn ˈdraɪvɪŋ/"
+      },
+      {
+        "sentence": "It is our duty to conserve the planet.",
+        "meaning-example": "Đó là nhiệm vụ của chúng ta để bảo tồn hành tinh.",
+        "ipa-example": "/ɪt ɪz aʊər ˈduːti tu kənˈsɜːrv ðə ˈplænɪt/"
+      }
+    ]
+  },
+  {
+    "word": "crucial",
+    "ipa": "/ˈkruːʃəl/",
+    "meaning": "cực kỳ quan trọng hoặc cần thiết.",
+    "image": "./eew-4-27/7.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "This decision is crucial for our future.",
+        "meaning-example": "Quyết định này rất quan trọng cho tương lai của chúng ta.",
+        "ipa-example": "/ðɪs dɪˈsɪʒən ɪz ˈkruːʃəl fər aʊər ˈfjuːtʃər/"
+      },
+      {
+        "sentence": "Timing is crucial in this situation.",
+        "meaning-example": "Thời điểm rất quan trọng trong tình huống này.",
+        "ipa-example": "/ˈtaɪmɪŋ ɪz ˈkruːʃəl ɪn ðɪs ˌsɪtʃuˈeɪʃən/"
+      },
+      {
+        "sentence": "It is crucial to follow the instructions.",
+        "meaning-example": "Điều quan trọng là phải tuân theo hướng dẫn.",
+        "ipa-example": "/ɪt ɪz ˈkruːʃəl tu ˈfɑːloʊ ði ɪnˈstrʌkʃənz/"
+      },
+      {
+        "sentence": "Communication is crucial for a good relationship.",
+        "meaning-example": "Giao tiếp rất quan trọng cho một mối quan hệ tốt.",
+        "ipa-example": "/kəˌmjuːnɪˈkeɪʃən ɪz ˈkruːʃəl fər ə ɡʊd rɪˈleɪʃənʃɪp/"
+      },
+      {
+        "sentence": "Getting enough sleep is crucial for health.",
+        "meaning-example": "Ngủ đủ giấc rất quan trọng cho sức khỏe.",
+        "ipa-example": "/ˈɡɛtɪŋ ɪˈnʌf sliːp ɪz ˈkruːʃəl fər hɛlθ/"
+      },
+      {
+        "sentence": "This step is crucial to the process.",
+        "meaning-example": "Bước này rất quan trọng đối với quy trình.",
+        "ipa-example": "/ðɪs stɛp ɪz ˈkruːʃəl tu ðə ˈprɑːsɛs/"
+      },
+      {
+        "sentence": "The support of my family was crucial.",
+        "meaning-example": "Sự hỗ trợ của gia đình tôi rất quan trọng.",
+        "ipa-example": "/ðə səˈpɔːrt əv maɪ ˈfæməli wəz ˈkruːʃəl/"
+      },
+      {
+        "sentence": "It's crucial that you arrive on time.",
+        "meaning-example": "Điều quan trọng là bạn phải đến đúng giờ.",
+        "ipa-example": "/ɪts ˈkruːʃəl ðæt ju əˈraɪv ɑːn taɪm/"
+      },
+      {
+        "sentence": "This information is crucial for the investigation.",
+        "meaning-example": "Thông tin này rất quan trọng cho cuộc điều tra.",
+        "ipa-example": "/ðɪs ˌɪnfərˈmeɪʃən ɪz ˈkruːʃəl fər ði ɪnˌvɛstɪˈɡeɪʃən/"
+      },
+      {
+        "sentence": "The final exam is crucial.",
+        "meaning-example": "Bài kiểm tra cuối kỳ rất quan trọng.",
+        "ipa-example": "/ðə ˈfaɪnəl ɪɡˈzæm ɪz ˈkruːʃəl/"
+      },
+      {
+        "sentence": "Water is crucial for survival.",
+        "meaning-example": "Nước rất quan trọng cho sự sống còn.",
+        "ipa-example": "/ˈwɔːtər ɪz ˈkruːʃəl fər sərˈvaɪvəl/"
+      },
+      {
+        "sentence": "His help was absolutely crucial.",
+        "meaning-example": "Sự giúp đỡ của anh ấy hoàn toàn quan trọng.",
+        "ipa-example": "/hɪz hɛlp wəz ˈæbsəluːtli ˈkruːʃəl/"
+      }
+    ]
+  },
+  {
+    "word": "cumulative",
+    "ipa": "/ˈkjuːmjələtɪv/",
+    "meaning": "tăng dần về số lượng, khối lượng hoặc mức độ bằng cách tích lũy.",
+    "image": "./eew-4-27/8.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The cumulative effect of pollution is harmful.",
+        "meaning-example": "Tác động tích lũy của ô nhiễm rất có hại.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv ɪˈfɛkt əv pəˈluːʃən ɪz ˈhɑːrmfəl/"
+      },
+      {
+        "sentence": "The cumulative score determines the winner.",
+        "meaning-example": "Điểm tích lũy quyết định người chiến thắng.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv skɔːr dɪˈtɜːrmɪnz ðə ˈwɪnər/"
+      },
+      {
+        "sentence": "The cumulative impact of small changes can be significant.",
+        "meaning-example": "Tác động tích lũy của những thay đổi nhỏ có thể đáng kể.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv ˈɪmpækt əv smɔːl ˈtʃeɪndʒɪz kæn bi sɪɡˈnɪfɪkənt/"
+      },
+      {
+        "sentence": "This is the cumulative total over five years.",
+        "meaning-example": "Đây là tổng tích lũy trong năm năm.",
+        "ipa-example": "/ðɪs ɪz ðə ˈkjuːmjələtɪv ˈtoʊtəl ˈoʊvər faɪv jɪrz/"
+      },
+      {
+        "sentence": "The cumulative stress led to burnout.",
+        "meaning-example": "Căng thẳng tích lũy dẫn đến kiệt sức.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv strɛs lɛd tu ˈbɜːrnaʊt/"
+      },
+      {
+        "sentence": "The cumulative evidence points to his guilt.",
+        "meaning-example": "Bằng chứng tích lũy chỉ ra tội lỗi của anh ấy.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv ˈɛvɪdəns pɔɪnts tu hɪz ɡɪlt/"
+      },
+      {
+        "sentence": "The cumulative effect of practice is improvement.",
+        "meaning-example": "Tác động tích lũy của việc luyện tập là sự cải thiện.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv ɪˈfɛkt əv ˈpræktɪs ɪz ɪmˈpruːvmənt/"
+      },
+      {
+        "sentence": "We calculated the cumulative sales figures.",
+        "meaning-example": "Chúng tôi đã tính toán số liệu doanh số tích lũy.",
+        "ipa-example": "/wi ˈkælkjəleɪtɪd ðə ˈkjuːmjələtɪv seɪlz ˈfɪɡjərz/"
+      },
+      {
+        "sentence": "The cumulative damage was extensive.",
+        "meaning-example": "Thiệt hại tích lũy rất lớn.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv ˈdæmɪdʒ wəz ɪkˈstɛnsɪv/"
+      },
+      {
+        "sentence": "The cumulative interest on the loan was high.",
+        "meaning-example": "Lãi suất tích lũy trên khoản vay rất cao.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv ˈɪntrəst ɑːn ðə loʊn wəz haɪ/"
+      },
+      {
+        "sentence": "The cumulative effect of these factors is unknown.",
+        "meaning-example": "Tác động tích lũy của các yếu tố này chưa được biết.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv ɪˈfɛkt əv ðiz ˈfæktərz ɪz ʌnˈnoʊn/"
+      },
+      {
+        "sentence": "The cumulative result was surprising.",
+        "meaning-example": "Kết quả tích lũy thật đáng ngạc nhiên.",
+        "ipa-example": "/ðə ˈkjuːmjələtɪv rɪˈzʌlt wəz sərˈpraɪzɪŋ/"
+      }
+    ]
+  },
+  {
+    "word": "deposit",
+    "ipa": "/dɪˈpɑːzɪt/",
+    "meaning": "đặt hoặc để thứ gì đó ở một nơi cụ thể.",
+    "image": "./eew-4-27/9.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Please deposit your trash in the bin.",
+        "meaning-example": "Vui lòng bỏ rác vào thùng.",
+        "ipa-example": "/pliːz dɪˈpɑːzɪt jʊər træʃ ɪn ðə bɪn/"
+      },
+      {
+        "sentence": "She deposited the money in her bank account.",
+        "meaning-example": "Cô ấy đã gửi tiền vào tài khoản ngân hàng của mình.",
+        "ipa-example": "/ʃi dɪˈpɑːzɪtɪd ðə ˈmʌni ɪn hər bæŋk əˈkaʊnt/"
+      },
+      {
+        "sentence": "The river deposits sediment at the delta.",
+        "meaning-example": "Sông bồi đắp phù sa ở đồng bằng.",
+        "ipa-example": "/ðə ˈrɪvər dɪˈpɑːzɪts ˈsɛdɪmənt ət ðə ˈdɛltə/"
+      },
+      {
+        "sentence": "He deposited the keys on the table.",
+        "meaning-example": "Anh ấy đặt chìa khóa lên bàn.",
+        "ipa-example": "/hi dɪˈpɑːzɪtɪd ðə kiːz ɑːn ðə ˈteɪbəl/"
+      },
+      {
+        "sentence": "The snow was deposited on the ground.",
+        "meaning-example": "Tuyết đã đọng lại trên mặt đất.",
+        "ipa-example": "/ðə snoʊ wəz dɪˈpɑːzɪtɪd ɑːn ðə ɡraʊnd/"
+      },
+      {
+        "sentence": "Please deposit your luggage here.",
+        "meaning-example": "Vui lòng gửi hành lý của bạn ở đây.",
+        "ipa-example": "/pliːz dɪˈpɑːzɪt jʊər ˈlʌɡɪdʒ hɪər/"
+      },
+      {
+        "sentence": "The machine deposits coins.",
+        "meaning-example": "Máy này nhận tiền xu.",
+        "ipa-example": "/ðə məˈʃiːn dɪˈpɑːzɪts kɔɪnz/"
+      },
+      {
+        "sentence": "The birds deposit seeds in different places.",
+        "meaning-example": "Những con chim gieo hạt ở những nơi khác nhau.",
+        "ipa-example": "/ðə bɜːrdz dɪˈpɑːzɪt siːdz ɪn ˈdɪfrənt ˈpleɪsɪz/"
+      },
+      {
+        "sentence": "He deposited the letter in the mailbox.",
+        "meaning-example": "Anh ấy bỏ lá thư vào hộp thư.",
+        "ipa-example": "/hi dɪˈpɑːzɪtɪd ðə ˈlɛtər ɪn ðə ˈmeɪlbɑːks/"
+      },
+      {
+        "sentence": "The flood deposited mud everywhere.",
+        "meaning-example": "Trận lụt đã để lại bùn khắp nơi.",
+        "ipa-example": "/ðə flʌd dɪˈpɑːzɪtɪd mʌd ˈɛvriˌwɛr/"
+      },
+      {
+        "sentence": "They deposited the documents in the safe.",
+        "meaning-example": "Họ đã cất tài liệu vào két sắt.",
+        "ipa-example": "/ðeɪ dɪˈpɑːzɪtɪd ðə ˈdɑːkjumənts ɪn ðə seɪf/"
+      },
+      {
+        "sentence": "The glacier deposited rocks and soil.",
+        "meaning-example": "Sông băng đã lắng đọng đá và đất.",
+        "ipa-example": "/ðə ˈɡleɪʃər dɪˈpɑːzɪtɪd rɑːks ənd sɔɪl/"
+      }
+    ]
+  },
+  {
+    "word": "distribute",
+    "ipa": "/dɪˈstrɪbjuːt/",
+    "meaning": "chia sẻ thứ gì đó trong một nhóm người; cung cấp hàng hóa cho các cửa hàng hoặc khách hàng.",
+    "image": "./eew-4-27/10.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The teacher will distribute the test papers.",
+        "meaning-example": "Giáo viên sẽ phát đề kiểm tra.",
+        "ipa-example": "/ðə ˈtiːtʃər wɪl dɪˈstrɪbjuːt ðə tɛst ˈpeɪpərz/"
+      },
+      {
+        "sentence": "They distribute food to the homeless.",
+        "meaning-example": "Họ phân phát thức ăn cho người vô gia cư.",
+        "ipa-example": "/ðeɪ dɪˈstrɪbjuːt fuːd tu ðə ˈhoʊmləs/"
+      },
+      {
+        "sentence": "The company distributes its products nationwide.",
+        "meaning-example": "Công ty phân phối sản phẩm của mình trên toàn quốc.",
+        "ipa-example": "/ðə ˈkʌmpəni dɪˈstrɪbjuːts ɪts ˈprɑːdʌkts ˌneɪʃənˈwaɪd/"
+      },
+      {
+        "sentence": "The heat is distributed evenly by the system.",
+        "meaning-example": "Nhiệt được phân phối đều bởi hệ thống.",
+        "ipa-example": "/ðə hiːt ɪz dɪˈstrɪbjuːtɪd ˈiːvənli baɪ ðə ˈsɪstəm/"
+      },
+      {
+        "sentence": "Please distribute these flyers.",
+        "meaning-example": "Vui lòng phân phát những tờ rơi này.",
+        "ipa-example": "/pliːz dɪˈstrɪbjuːt ðiz ˈflaɪərz/"
+      },
+      {
+        "sentence": "The profits were distributed among the shareholders.",
+        "meaning-example": "Lợi nhuận được phân chia cho các cổ đông.",
+        "ipa-example": "/ðə ˈprɑːfɪts wər dɪˈstrɪbjuːtɪd əˈmʌŋ ðə ˈʃɛərˌhoʊldərz/"
+      },
+      {
+        "sentence": "The organization helps distribute aid.",
+        "meaning-example": "Tổ chức giúp phân phát viện trợ.",
+        "ipa-example": "/ðə ˌɔːrɡənɪˈzeɪʃən hɛlps dɪˈstrɪbjuːt eɪd/"
+      },
+      {
+        "sentence": "The network distributes television signals.",
+        "meaning-example": "Mạng lưới phân phối tín hiệu truyền hình.",
+        "ipa-example": "/ðə ˈnɛtwɜːrk dɪˈstrɪbjuːts ˈtɛlɪˌvɪʒən ˈsɪɡnəlz/"
+      },
+      {
+        "sentence": "The tasks were distributed among the team members.",
+        "meaning-example": "Các nhiệm vụ được phân chia cho các thành viên trong nhóm.",
+        "ipa-example": "/ðə tæsks wər dɪˈstrɪbjuːtɪd əˈmʌŋ ðə tiːm ˈmɛmbərz/"
+      },
+      {
+        "sentence": "They distribute newspapers every morning.",
+        "meaning-example": "Họ phân phát báo mỗi sáng.",
+        "ipa-example": "/ðeɪ dɪˈstrɪbjuːt ˈnuːzˌpeɪpərz ˈɛvri ˈmɔːrnɪŋ/"
+      },
+      {
+        "sentence": "The water is distributed through pipes.",
+        "meaning-example": "Nước được phân phối qua đường ống.",
+        "ipa-example": "/ðə ˈwɔːtər ɪz dɪˈstrɪbjuːtɪd θruː paɪps/"
+      },
+      {
+        "sentence": "The software is distributed online.",
+        "meaning-example": "Phần mềm được phân phối trực tuyến.",
+        "ipa-example": "/ðə ˈsɔːftˌwɛr ɪz dɪˈstrɪbjuːtɪd ˈɑːnˌlaɪn/"
+      }
+    ]
+  },
+  {
+    "word": "equator",
+    "ipa": "/ɪˈkweɪtər/",
+    "meaning": "một đường tưởng tượng quanh Trái đất cách đều hai cực, chia Trái đất thành bán cầu bắc và nam.",
+    "image": "./eew-4-27/11.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The equator is an imaginary line.",
+        "meaning-example": "Đường xích đạo là một đường tưởng tượng.",
+        "ipa-example": "/ði ɪˈkweɪtər ɪz ən ɪˈmædʒɪˌnɛri laɪn/"
+      },
+      {
+        "sentence": "Countries near the equator are often hot.",
+        "meaning-example": "Các quốc gia gần xích đạo thường nóng.",
+        "ipa-example": "/ˈkʌntriz nɪər ði ɪˈkweɪtər ər ˈɔːfən hɑːt/"
+      },
+      {
+        "sentence": "The sun is directly overhead at the equator during the equinoxes.",
+        "meaning-example": "Mặt trời chiếu thẳng đứng tại xích đạo trong các điểm phân.",
+        "ipa-example": "/ðə sʌn ɪz dɪˈrɛktli ˌoʊvərˈhɛd ət ði ɪˈkweɪtər ˈdʊrɪŋ ði ˈiːkwɪˌnɑːksɪz/"
+      },
+      {
+        "sentence": "The equator divides the Earth into two hemispheres.",
+        "meaning-example": "Đường xích đạo chia Trái đất thành hai bán cầu.",
+        "ipa-example": "/ði ɪˈkweɪtər dɪˈvaɪdz ðə ɜːrθ ˈɪntu tuː ˈhɛmɪˌsfɪərz/"
+      },
+      {
+        "sentence": "The climate near the equator is tropical.",
+        "meaning-example": "Khí hậu gần xích đạo là nhiệt đới.",
+        "ipa-example": "/ðə ˈklaɪmət nɪər ði ɪˈkweɪtər ɪz ˈtrɑːpɪkəl/"
+      },
+      {
+        "sentence": "Singapore is located very close to the equator.",
+        "meaning-example": "Singapore nằm rất gần xích đạo.",
+        "ipa-example": "/ˌsɪŋəˈpɔːr ɪz ˈloʊkeɪtɪd ˈvɛri kloʊs tu ði ɪˈkweɪtər/"
+      },
+      {
+        "sentence": "The length of day and night is almost equal at the equator.",
+        "meaning-example": "Độ dài ngày và đêm gần như bằng nhau tại xích đạo.",
+        "ipa-example": "/ðə lɛŋθ əv deɪ ənd naɪt ɪz ˈɔːlmoʊst ˈiːkwəl ət ði ɪˈkweɪtər/"
+      },
+      {
+        "sentence": "The equator is at 0 degrees latitude.",
+        "meaning-example": "Đường xích đạo nằm ở vĩ độ 0 độ.",
+        "ipa-example": "/ði ɪˈkweɪtər ɪz ət zɪroʊ dɪˈɡriːz ˈlætɪˌtuːd/"
+      },
+      {
+        "sentence": "Many rainforests are found near the equator.",
+        "meaning-example": "Nhiều rừng mưa nhiệt đới được tìm thấy gần xích đạo.",
+        "ipa-example": "/ˈmɛni ˈreɪnˌfɔːrɪsts ər faʊnd nɪər ði ɪˈkweɪtər/"
+      },
+      {
+        "sentence": "The air pressure is generally low at the equator.",
+        "meaning-example": "Áp suất không khí thường thấp tại xích đạo.",
+        "ipa-example": "/ðə ɛr ˈprɛʃər ɪz ˈdʒɛnərəli loʊ ət ði ɪˈkweɪtər/"
+      },
+      {
+        "sentence": "The magnetic equator is slightly different from the geographic equator.",
+        "meaning-example": "Xích đạo từ hơi khác so với xích đạo địa lý.",
+        "ipa-example": "/ðə mæɡˈnɛtɪk ɪˈkweɪtər ɪz ˈslaɪtli ˈdɪfrənt frɑːm ðə ˌdʒiːəˈɡræfɪk ɪˈkweɪtər/"
+      },
+      {
+        "sentence": "He crossed the equator on his journey.",
+        "meaning-example": "Anh ấy đã vượt qua xích đạo trong chuyến đi của mình.",
+        "ipa-example": "/hi krɔːst ði ɪˈkweɪtər ɑːn hɪz ˈdʒɜːrni/"
+      }
+    ]
+  },
+  {
+    "word": "exotic",
+    "ipa": "/ɪɡˈzɑːtɪk/",
+    "meaning": "có nguồn gốc từ một quốc gia nước ngoài; khác thường và thú vị.",
+    "image": "./eew-4-27/12.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "She likes to travel to exotic places.",
+        "meaning-example": "Cô ấy thích đi du lịch đến những nơi kỳ lạ.",
+        "ipa-example": "/ʃi laɪks tu ˈtrævəl tu ɪɡˈzɑːtɪk ˈpleɪsɪz/"
+      },
+      {
+        "sentence": "The market sells exotic fruits.",
+        "meaning-example": "Chợ bán các loại trái cây kỳ lạ.",
+        "ipa-example": "/ðə ˈmɑːrkɪt sɛlz ɪɡˈzɑːtɪk fruːts/"
+      },
+      {
+        "sentence": "He has a collection of exotic birds.",
+        "meaning-example": "Anh ấy có một bộ sưu tập các loài chim kỳ lạ.",
+        "ipa-example": "/hi hæz ə kəˈlɛkʃən əv ɪɡˈzɑːtɪk bɜːrdz/"
+      },
+      {
+        "sentence": "The restaurant serves exotic dishes.",
+        "meaning-example": "Nhà hàng phục vụ các món ăn kỳ lạ.",
+        "ipa-example": "/ðə ˈrɛstərɑːnt sɜːrvz ɪɡˈzɑːtɪk ˈdɪʃɪz/"
+      },
+      {
+        "sentence": "She wore an exotic dress.",
+        "meaning-example": "Cô ấy mặc một chiếc váy kỳ lạ.",
+        "ipa-example": "/ʃi wɔːr ən ɪɡˈzɑːtɪk drɛs/"
+      },
+      {
+        "sentence": "The garden was full of exotic plants.",
+        "meaning-example": "Khu vườn đầy những loài cây kỳ lạ.",
+        "ipa-example": "/ðə ˈɡɑːrdən wəz fʊl əv ɪɡˈzɑːtɪk plænts/"
+      },
+      {
+        "sentence": "He told stories of his exotic adventures.",
+        "meaning-example": "Anh ấy kể những câu chuyện về những cuộc phiêu lưu kỳ lạ của mình.",
+        "ipa-example": "/hi toʊld ˈstɔːriz əv hɪz ɪɡˈzɑːtɪk ədˈvɛntʃərz/"
+      },
+      {
+        "sentence": "The music had an exotic sound.",
+        "meaning-example": "Âm nhạc có âm thanh kỳ lạ.",
+        "ipa-example": "/ðə ˈmjuːzɪk hæd ən ɪɡˈzɑːtɪk saʊnd/"
+      },
+      {
+        "sentence": "They saw many exotic animals at the zoo.",
+        "meaning-example": "Họ đã thấy nhiều loài động vật kỳ lạ ở sở thú.",
+        "ipa-example": "/ðeɪ sɔː ˈmɛni ɪɡˈzɑːtɪk ˈænɪməlz ət ðə zuː/"
+      },
+      {
+        "sentence": "The perfume had an exotic scent.",
+        "meaning-example": "Nước hoa có mùi hương kỳ lạ.",
+        "ipa-example": "/ðə pərˈfjuːm hæd ən ɪɡˈzɑːtɪk sɛnt/"
+      },
+      {
+        "sentence": "She dreams of living in an exotic country.",
+        "meaning-example": "Cô ấy mơ ước được sống ở một đất nước kỳ lạ.",
+        "ipa-example": "/ʃi driːmz əv ˈlɪvɪŋ ɪn ən ɪɡˈzɑːtɪk ˈkʌntri/"
+      },
+      {
+        "sentence": "The store sells exotic spices.",
+        "meaning-example": "Cửa hàng bán các loại gia vị kỳ lạ.",
+        "ipa-example": "/ðə stɔːr sɛlz ɪɡˈzɑːtɪk ˈspaɪsɪz/"
+      }
+    ]
+  },
+  {
+    "word": "federal",
+    "ipa": "/ˈfɛdərəl/",
+    "meaning": "liên quan đến chính phủ trung ương, chứ không phải chính phủ của một bang hoặc khu vực.",
+    "image": "./eew-4-27/13.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The federal government is based in Washington D.C.",
+        "meaning-example": "Chính phủ liên bang đặt trụ sở tại Washington D.C.",
+        "ipa-example": "/ðə ˈfɛdərəl ˈɡʌvərnmənt ɪz beɪst ɪn ˈwɑːʃɪŋtən ˌdiːˈsiː/"
+      },
+      {
+        "sentence": "He works for a federal agency.",
+        "meaning-example": "Anh ấy làm việc cho một cơ quan liên bang.",
+        "ipa-example": "/hi wɜːrks fər ə ˈfɛdərəl ˈeɪdʒənsi/"
+      },
+      {
+        "sentence": "The crime is a federal offense.",
+        "meaning-example": "Tội phạm này là một tội liên bang.",
+        "ipa-example": "/ðə kraɪm ɪz ə ˈfɛdərəl əˈfɛns/"
+      },
+      {
+        "sentence": "They received federal funding for the project.",
+        "meaning-example": "Họ đã nhận được tài trợ liên bang cho dự án.",
+        "ipa-example": "/ðeɪ rɪˈsiːvd ˈfɛdərəl ˈfʌndɪŋ fər ðə ˈprɑːdʒɛkt/"
+      },
+      {
+        "sentence": "The federal law applies nationwide.",
+        "meaning-example": "Luật liên bang áp dụng trên toàn quốc.",
+        "ipa-example": "/ðə ˈfɛdərəl lɔː əˈplaɪz ˌneɪʃənˈwaɪd/"
+      },
+      {
+        "sentence": "She pays federal taxes.",
+        "meaning-example": "Cô ấy đóng thuế liên bang.",
+        "ipa-example": "/ʃi peɪz ˈfɛdərəl ˈtæksɪz/"
+      },
+      {
+        "sentence": "The federal reserve controls monetary policy.",
+        "meaning-example": "Cục Dự trữ Liên bang kiểm soát chính sách tiền tệ.",
+        "ipa-example": "/ðə ˈfɛdərəl rɪˈzɜːrv kənˈtroʊlz ˈmɑːnɪˌtɛri ˈpɑːləsi/"
+      },
+      {
+        "sentence": "He was elected to a federal position.",
+        "meaning-example": "Anh ấy được bầu vào một vị trí liên bang.",
+        "ipa-example": "/hi wəz ɪˈlɛktɪd tu ə ˈfɛdərəl pəˈzɪʃən/"
+      },
+      {
+        "sentence": "The case went to federal court.",
+        "meaning-example": "Vụ án được đưa ra tòa án liên bang.",
+        "ipa-example": "/ðə keɪs wɛnt tu ˈfɛdərəl kɔːrt/"
+      },
+      {
+        "sentence": "The state and federal governments share power.",
+        "meaning-example": "Chính quyền tiểu bang và liên bang chia sẻ quyền lực.",
+        "ipa-example": "/ðə steɪt ənd ˈfɛdərəl ˈɡʌvərnmənts ʃɛr ˈpaʊər/"
+      },
+      {
+        "sentence": "The federal budget was approved.",
+        "meaning-example": "Ngân sách liên bang đã được phê duyệt.",
+        "ipa-example": "/ðə ˈfɛdərəl ˈbʌdʒɪt wəz əˈpruːvd/"
+      },
+      {
+        "sentence": "They followed federal guidelines.",
+        "meaning-example": "Họ tuân theo hướng dẫn liên bang.",
+        "ipa-example": "/ðeɪ ˈfɑːloʊd ˈfɛdərəl ˈɡaɪdlaɪnz/"
+      }
+    ]
+  },
+  {
+    "word": "formation",
+    "ipa": "/fɔːrˈmeɪʃən/",
+    "meaning": "quá trình hoặc cách thức hình thành hoặc được tạo ra; một cấu trúc hoặc sự sắp xếp cụ thể.",
+    "image": "./eew-4-27/14.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The formation of mountains took millions of years.",
+        "meaning-example": "Sự hình thành núi mất hàng triệu năm.",
+        "ipa-example": "/ðə fɔːrˈmeɪʃən əv ˈmaʊntənz tʊk ˈmɪljənz əv jɪrz/"
+      },
+      {
+        "sentence": "They studied the rock formation.",
+        "meaning-example": "Họ nghiên cứu sự hình thành đá.",
+        "ipa-example": "/ðeɪ ˈstʌdid ðə rɑːk fɔːrˈmeɪʃən/"
+      },
+      {
+        "sentence": "The clouds were in a strange formation.",
+        "meaning-example": "Những đám mây ở trong một hình dạng kỳ lạ.",
+        "ipa-example": "/ðə klaʊdz wər ɪn ə streɪndʒ fɔːrˈmeɪʃən/"
+      },
+      {
+        "sentence": "The formation of ice crystals causes frost.",
+        "meaning-example": "Sự hình thành tinh thể băng gây ra sương giá.",
+        "ipa-example": "/ðə fɔːrˈmeɪʃən əv aɪs ˈkrɪstəlz ˈkɔːzɪz frɔːst/"
+      },
+      {
+        "sentence": "The team practiced their formation.",
+        "meaning-example": "Đội đã luyện tập đội hình của họ.",
+        "ipa-example": "/ðə tiːm ˈpræktɪst ðɛr fɔːrˈmeɪʃən/"
+      },
+      {
+        "sentence": "The formation of a new government was announced.",
+        "meaning-example": "Sự thành lập chính phủ mới đã được công bố.",
+        "ipa-example": "/ðə fɔːrˈmeɪʃən əv ə nuː ˈɡʌvərnmənt wəz əˈnaʊnst/"
+      },
+      {
+        "sentence": "The formation of stars occurs in nebulae.",
+        "meaning-example": "Sự hình thành sao xảy ra trong các tinh vân.",
+        "ipa-example": "/ðə fɔːrˈmeɪʃən əv stɑːrz əˈkɜːrz ɪn ˈnɛbjəˌliː/"
+      },
+      {
+        "sentence": "They observed the bird formation in the sky.",
+        "meaning-example": "Họ quan sát đội hình chim trên bầu trời.",
+        "ipa-example": "/ðeɪ əbˈzɜːrvd ðə bɜːrd fɔːrˈmeɪʃən ɪn ðə skaɪ/"
+      },
+      {
+        "sentence": "The formation of rust is a chemical process.",
+        "meaning-example": "Sự hình thành gỉ là một quá trình hóa học.",
+        "ipa-example": "/ðə fɔːrˈmeɪʃən əv rʌst ɪz ə ˈkɛmɪkəl ˈprɑːsɛs/"
+      },
+      {
+        "sentence": "The dancers moved into a new formation.",
+        "meaning-example": "Các vũ công di chuyển vào một đội hình mới.",
+        "ipa-example": "/ðə ˈdænsərz muːvd ˈɪntu ə nuː fɔːrˈmeɪʃən/"
+      },
+      {
+        "sentence": "The formation of the company was in 2005.",
+        "meaning-example": "Công ty được thành lập vào năm 2005.",
+        "ipa-example": "/ðə fɔːrˈmeɪʃən əv ðə ˈkʌmpəni wəz ɪn tuː ˈθaʊzənd faɪv/"
+      },
+      {
+        "sentence": "The geological formation was unique.",
+        "meaning-example": "Sự hình thành địa chất này rất độc đáo.",
+        "ipa-example": "/ðə ˌdʒiːəˈlɑːdʒɪkəl fɔːrˈmeɪʃən wəz juːˈniːk/"
+      }
+    ]
+  },
+  {
+    "word": "frequency",
+    "ipa": "/ˈfriːkwənsi/",
+    "meaning": "tốc độ mà thứ gì đó xảy ra hoặc được lặp lại.",
+    "image": "./eew-4-27/15.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The train runs with high frequency.",
+        "meaning-example": "Tàu chạy với tần suất cao.",
+        "ipa-example": "/ðə treɪn rʌnz wɪθ haɪ ˈfriːkwənsi/"
+      },
+      {
+        "sentence": "He visits his parents with increasing frequency.",
+        "meaning-example": "Anh ấy thăm bố mẹ với tần suất ngày càng tăng.",
+        "ipa-example": "/hi ˈvɪzɪts hɪz ˈpɛərənts wɪθ ɪnˈkriːsɪŋ ˈfriːkwənsi/"
+      },
+      {
+        "sentence": "What is the frequency of these events?",
+        "meaning-example": "Tần suất của những sự kiện này là bao nhiêu?",
+        "ipa-example": "/wɑːt ɪz ðə ˈfriːkwənsi əv ðiz ɪˈvɛnts/"
+      },
+      {
+        "sentence": "The radio station broadcasts on a specific frequency.",
+        "meaning-example": "Đài phát thanh phát sóng trên một tần số cụ thể.",
+        "ipa-example": "/ðə ˈreɪdioʊ ˈsteɪʃən ˈbrɔːdkæsts ɑːn ə spɪˈsɪfɪk ˈfriːkwənsi/"
+      },
+      {
+        "sentence": "The frequency of his headaches increased.",
+        "meaning-example": "Tần suất cơn đau đầu của anh ấy tăng lên.",
+        "ipa-example": "/ðə ˈfriːkwənsi əv hɪz ˈhɛdeɪks ɪnˈkriːst/"
+      },
+      {
+        "sentence": "She checks her email with great frequency.",
+        "meaning-example": "Cô ấy kiểm tra email rất thường xuyên.",
+        "ipa-example": "/ʃi tʃɛks hər ˈiːmeɪl wɪθ ɡreɪt ˈfriːkwənsi/"
+      },
+      {
+        "sentence": "The data shows the frequency of accidents.",
+        "meaning-example": "Dữ liệu cho thấy tần suất tai nạn.",
+        "ipa-example": "/ðə ˈdeɪtə ʃoʊz ðə ˈfriːkwənsi əv ˈæksɪdənts/"
+      },
+      {
+        "sentence": "The sound wave has a high frequency.",
+        "meaning-example": "Sóng âm có tần số cao.",
+        "ipa-example": "/ðə saʊnd weɪv hæz ə haɪ ˈfriːkwənsi/"
+      },
+      {
+        "sentence": "The bus service has a low frequency on Sundays.",
+        "meaning-example": "Dịch vụ xe buýt có tần suất thấp vào Chủ nhật.",
+        "ipa-example": "/ðə bʌs ˈsɜːrvɪs hæz ə loʊ ˈfriːkwənsi ɑːn ˈsʌndeɪz/"
+      },
+      {
+        "sentence": "The doctor asked about the frequency of her symptoms.",
+        "meaning-example": "Bác sĩ hỏi về tần suất các triệu chứng của cô ấy.",
+        "ipa-example": "/ðə ˈdɑːktər æskt əˈbaʊt ðə ˈfriːkwənsi əv hər ˈsɪmptəmz/"
+      },
+      {
+        "sentence": "The earthquake occurred with low frequency.",
+        "meaning-example": "Trận động đất xảy ra với tần suất thấp.",
+        "ipa-example": "/ði ˈɜːrθkweɪk əˈkɜːrd wɪθ loʊ ˈfriːkwənsi/"
+      },
+      {
+        "sentence": "We adjusted the frequency of the reports.",
+        "meaning-example": "Chúng tôi đã điều chỉnh tần suất báo cáo.",
+        "ipa-example": "/wi əˈdʒʌstɪd ðə ˈfriːkwənsi əv ðə rɪˈpɔːrts/"
+      }
+    ]
+  },
+  {
+    "word": "objective",
+    "ipa": "/əbˈdʒɛktɪv/",
+    "meaning": "(được sử dụng như danh từ trong câu truyện) một mục tiêu hoặc mục đích.",
+    "image": "./eew-4-27/16.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "His objective is to finish the project on time.",
+        "meaning-example": "Mục tiêu của anh ấy là hoàn thành dự án đúng hạn.",
+        "ipa-example": "/hɪz əbˈdʒɛktɪv ɪz tu ˈfɪnɪʃ ðə ˈprɑːdʒɛkt ɑːn taɪm/"
+      },
+      {
+        "sentence": "What is your main objective?",
+        "meaning-example": "Mục tiêu chính của bạn là gì?",
+        "ipa-example": "/wɑːt ɪz jʊər meɪn əbˈdʒɛktɪv/"
+      },
+      {
+        "sentence": "The company's objective is to increase sales.",
+        "meaning-example": "Mục tiêu của công ty là tăng doanh số.",
+        "ipa-example": "/ðə ˈkʌmpəniz əbˈdʒɛktɪv ɪz tu ɪnˈkriːs seɪlz/"
+      },
+      {
+        "sentence": "They set clear objectives for the meeting.",
+        "meaning-example": "Họ đặt ra các mục tiêu rõ ràng cho cuộc họp.",
+        "ipa-example": "/ðeɪ sɛt klɪər əbˈdʒɛktɪvz fər ðə ˈmiːtɪŋ/"
+      },
+      {
+        "sentence": "Our objective is to provide the best service.",
+        "meaning-example": "Mục tiêu của chúng tôi là cung cấp dịch vụ tốt nhất.",
+        "ipa-example": "/aʊər əbˈdʒɛktɪv ɪz tu prəˈvaɪd ðə bɛst ˈsɜːrvɪs/"
+      },
+      {
+        "sentence": "The military objective was to capture the bridge.",
+        "meaning-example": "Mục tiêu quân sự là chiếm cây cầu.",
+        "ipa-example": "/ðə ˈmɪlɪˌtɛri əbˈdʒɛktɪv wəz tu ˈkæptʃər ðə brɪdʒ/"
+      },
+      {
+        "sentence": "She achieved her objective.",
+        "meaning-example": "Cô ấy đã đạt được mục tiêu của mình.",
+        "ipa-example": "/ʃi əˈtʃiːvd hər əbˈdʒɛktɪv/"
+      },
+      {
+        "sentence": "The objective of the game is to score points.",
+        "meaning-example": "Mục tiêu của trò chơi là ghi điểm.",
+        "ipa-example": "/ðə əbˈdʒɛktɪv əv ðə ɡeɪm ɪz tu skɔːr pɔɪnts/"
+      },
+      {
+        "sentence": "We need to define our objectives.",
+        "meaning-example": "Chúng ta cần xác định các mục tiêu của mình.",
+        "ipa-example": "/wi niːd tu dɪˈfaɪn aʊər əbˈdʒɛktɪvz/"
+      },
+      {
+        "sentence": "His objective was to help others.",
+        "meaning-example": "Mục tiêu của anh ấy là giúp đỡ người khác.",
+        "ipa-example": "/hɪz əbˈdʒɛktɪv wəz tu hɛlp ˈʌðərz/"
+      },
+      {
+        "sentence": "The training program has specific learning objectives.",
+        "meaning-example": "Chương trình đào tạo có các mục tiêu học tập cụ thể.",
+        "ipa-example": "/ðə ˈtreɪnɪŋ ˈproʊɡræm hæz spɪˈsɪfɪk ˈlɜːrnɪŋ əbˈdʒɛktɪvz/"
+      },
+      {
+        "sentence": "They failed to meet their objective.",
+        "meaning-example": "Họ đã không đạt được mục tiêu của mình.",
+        "ipa-example": "/ðeɪ feɪld tu miːt ðɛr əbˈdʒɛktɪv/"
+      }
+    ]
+  },
+  {
+    "word": "oxygen",
+    "ipa": "/ˈɑːksɪdʒən/",
+    "meaning": "một loại khí không màu, không mùi cần thiết cho sự sống.",
+    "image": "./eew-4-27/17.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Humans need oxygen to breathe.",
+        "meaning-example": "Con người cần oxy để thở.",
+        "ipa-example": "/ˈhjuːmənz niːd ˈɑːksɪdʒən tu briːð/"
+      },
+      {
+        "sentence": "Plants produce oxygen.",
+        "meaning-example": "Thực vật sản xuất oxy.",
+        "ipa-example": "/plænts prəˈduːs ˈɑːksɪdʒən/"
+      },
+      {
+        "sentence": "The air is made up of nitrogen and oxygen.",
+        "meaning-example": "Không khí được tạo thành từ nitơ và oxy.",
+        "ipa-example": "/ðə ɛr ɪz meɪd ʌp əv ˈnaɪtrədʒən ənd ˈɑːksɪdʒən/"
+      },
+      {
+        "sentence": "He needed extra oxygen in the hospital.",
+        "meaning-example": "Anh ấy cần thêm oxy trong bệnh viện.",
+        "ipa-example": "/hi ˈniːdɪd ˈɛkstrə ˈɑːksɪdʒən ɪn ðə ˈhɑːspɪtəl/"
+      },
+      {
+        "sentence": "Fish get oxygen from the water.",
+        "meaning-example": "Cá lấy oxy từ nước.",
+        "ipa-example": "/fɪʃ ɡɛt ˈɑːksɪdʒən frɑːm ðə ˈwɔːtər/"
+      },
+      {
+        "sentence": "The fire needs oxygen to burn.",
+        "meaning-example": "Lửa cần oxy để cháy.",
+        "ipa-example": "/ðə ˈfaɪər niːdz ˈɑːksɪdʒən tu bɜːrn/"
+      },
+      {
+        "sentence": "Divers use oxygen tanks.",
+        "meaning-example": "Thợ lặn sử dụng bình oxy.",
+        "ipa-example": "/ˈdaɪvərz juːz ˈɑːksɪdʒən tæŋks/"
+      },
+      {
+        "sentence": "There is less oxygen at high altitudes.",
+        "meaning-example": "Có ít oxy hơn ở độ cao lớn.",
+        "ipa-example": "/ðɛr ɪz lɛs ˈɑːksɪdʒən ət haɪ ˈæltɪˌtuːdz/"
+      },
+      {
+        "sentence": "The doctor checked her oxygen level.",
+        "meaning-example": "Bác sĩ kiểm tra mức oxy của cô ấy.",
+        "ipa-example": "/ðə ˈdɑːktər tʃɛkt hər ˈɑːksɪdʒən ˈlɛvəl/"
+      },
+      {
+        "sentence": "Oxygen is a chemical element.",
+        "meaning-example": "Oxy là một nguyên tố hóa học.",
+        "ipa-example": "/ˈɑːksɪdʒən ɪz ə ˈkɛmɪkəl ˈɛlɪmənt/"
+      },
+      {
+        "sentence": "The process of photosynthesis releases oxygen.",
+        "meaning-example": "Quá trình quang hợp giải phóng oxy.",
+        "ipa-example": "/ðə ˈprɑːsɛs əv ˌfoʊtoʊˈsɪnθəsɪs rɪˈliːsɪz ˈɑːksɪdʒən/"
+      },
+      {
+        "sentence": "We breathed in the fresh oxygen.",
+        "meaning-example": "Chúng tôi hít thở không khí trong lành.",
+        "ipa-example": "/wi briːðd ɪn ðə frɛʃ ˈɑːksɪdʒən/"
+      }
+    ]
+  },
+  {
+    "word": "rainforest",
+    "ipa": "/ˈreɪnˌfɔːrɪst/",
+    "meaning": "một khu rừng rậm rạp ở vùng nhiệt đới có lượng mưa lớn.",
+    "image": "./eew-4-27/18.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The Amazon is the largest rainforest.",
+        "meaning-example": "Amazon là rừng mưa nhiệt đới lớn nhất.",
+        "ipa-example": "/ðə ˈæməzɑːn ɪz ðə ˈlɑːrdʒɪst ˈreɪnˌfɔːrɪst/"
+      },
+      {
+        "sentence": "Many unique animals live in the rainforest.",
+        "meaning-example": "Nhiều loài động vật độc đáo sống trong rừng mưa nhiệt đới.",
+        "ipa-example": "/ˈmɛni juːˈniːk ˈænɪməlz lɪv ɪn ðə ˈreɪnˌfɔːrɪst/"
+      },
+      {
+        "sentence": "The rainforest climate is hot and humid.",
+        "meaning-example": "Khí hậu rừng mưa nhiệt đới nóng và ẩm.",
+        "ipa-example": "/ðə ˈreɪnˌfɔːrɪst ˈklaɪmət ɪz hɑːt ənd ˈhjuːmɪd/"
+      },
+      {
+        "sentence": "Logging is destroying the rainforests.",
+        "meaning-example": "Việc khai thác gỗ đang phá hủy các khu rừng mưa nhiệt đới.",
+        "ipa-example": "/ˈlɔːɡɪŋ ɪz dɪˈstrɔɪɪŋ ðə ˈreɪnˌfɔːrɪsts/"
+      },
+      {
+        "sentence": "We visited a rainforest in Costa Rica.",
+        "meaning-example": "Chúng tôi đã thăm một khu rừng mưa nhiệt đới ở Costa Rica.",
+        "ipa-example": "/wi ˈvɪzɪtɪd ə ˈreɪnˌfɔːrɪst ɪn ˈkɑːstə ˈriːkə/"
+      },
+      {
+        "sentence": "The rainforest floor is dark.",
+        "meaning-example": "Tầng rừng mưa nhiệt đới tối.",
+        "ipa-example": "/ðə ˈreɪnˌfɔːrɪst flɔːr ɪz dɑːrk/"
+      },
+      {
+        "sentence": "There are many layers in a rainforest.",
+        "meaning-example": "Có nhiều tầng trong rừng mưa nhiệt đới.",
+        "ipa-example": "/ðɛr ər ˈmɛni ˈleɪərz ɪn ə ˈreɪnˌfɔːrɪst/"
+      },
+      {
+        "sentence": "The rainforest is home to indigenous tribes.",
+        "meaning-example": "Rừng mưa nhiệt đới là nhà của các bộ lạc bản địa.",
+        "ipa-example": "/ðə ˈreɪnˌfɔːrɪst ɪz hoʊm tu ɪnˈdɪdʒɪnəs traɪbz/"
+      },
+      {
+        "sentence": "Protecting the rainforest is important.",
+        "meaning-example": "Bảo vệ rừng mưa nhiệt đới rất quan trọng.",
+        "ipa-example": "/prəˈtɛktɪŋ ðə ˈreɪnˌfɔːrɪst ɪz ɪmˈpɔːrtənt/"
+      },
+      {
+        "sentence": "The sound of the rainforest is amazing.",
+        "meaning-example": "Âm thanh của rừng mưa nhiệt đới thật tuyệt vời.",
+        "ipa-example": "/ðə saʊnd əv ðə ˈreɪnˌfɔːrɪst ɪz əˈmeɪzɪŋ/"
+      },
+      {
+        "sentence": "They studied the plants in the rainforest.",
+        "meaning-example": "Họ đã nghiên cứu các loài thực vật trong rừng mưa nhiệt đới.",
+        "ipa-example": "/ðeɪ ˈstʌdid ðə plænts ɪn ðə ˈreɪnˌfɔːrɪst/"
+      },
+      {
+        "sentence": "The rainforest receives a lot of rain.",
+        "meaning-example": "Rừng mưa nhiệt đới nhận được rất nhiều mưa.",
+        "ipa-example": "/ðə ˈreɪnˌfɔːrɪst rɪˈsiːvz ə lɑːt əv reɪn/"
+      }
+    ]
+  },
+  {
+    "word": "strategy",
+    "ipa": "/ˈstrætədʒi/",
+    "meaning": "một kế hoạch hành động được thiết kế để đạt được một mục tiêu dài hạn hoặc tổng thể.",
+    "image": "./eew-4-27/19.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "They developed a new marketing strategy.",
+        "meaning-example": "Họ đã phát triển một chiến lược tiếp thị mới.",
+        "ipa-example": "/ðeɪ dɪˈvɛləpt ə nuː ˈmɑːrkɪtɪŋ ˈstrætədʒi/"
+      },
+      {
+        "sentence": "What is your strategy for winning?",
+        "meaning-example": "Chiến lược chiến thắng của bạn là gì?",
+        "ipa-example": "/wɑːt ɪz jʊər ˈstrætədʒi fər ˈwɪnɪŋ/"
+      },
+      {
+        "sentence": "The company's business strategy is successful.",
+        "meaning-example": "Chiến lược kinh doanh của công ty thành công.",
+        "ipa-example": "/ðə ˈkʌmpəniz ˈbɪznəs ˈstrætədʒi ɪz səkˈsɛsfəl/"
+      },
+      {
+        "sentence": "We need a clear strategy to solve this problem.",
+        "meaning-example": "Chúng ta cần một chiến lược rõ ràng để giải quyết vấn đề này.",
+        "ipa-example": "/wi niːd ə klɪər ˈstrætədʒi tu sɑːlv ðɪs ˈprɑːbləm/"
+      },
+      {
+        "sentence": "His chess strategy was brilliant.",
+        "meaning-example": "Chiến lược cờ vua của anh ấy thật xuất sắc.",
+        "ipa-example": "/hɪz tʃɛs ˈstrætədʒi wəz ˈbrɪljənt/"
+      },
+      {
+        "sentence": "The military planned their strategy.",
+        "meaning-example": "Quân đội đã lên kế hoạch chiến lược của họ.",
+        "ipa-example": "/ðə ˈmɪlɪˌtɛri plænd ðɛr ˈstrætədʒi/"
+      },
+      {
+        "sentence": "This is a long-term strategy.",
+        "meaning-example": "Đây là một chiến lược dài hạn.",
+        "ipa-example": "/ðɪs ɪz ə lɔːŋ tɜːrm ˈstrætədʒi/"
+      },
+      {
+        "sentence": "They discussed their negotiation strategy.",
+        "meaning-example": "Họ đã thảo luận về chiến lược đàm phán của mình.",
+        "ipa-example": "/ðeɪ dɪˈskʌst ðɛr nɪˌɡoʊʃiˈeɪʃən ˈstrætədʒi/"
+      },
+      {
+        "sentence": "The government announced its economic strategy.",
+        "meaning-example": "Chính phủ đã công bố chiến lược kinh tế của mình.",
+        "ipa-example": "/ðə ˈɡʌvərnmənt əˈnaʊnst ɪts ˌɛkəˈnɑːmɪk ˈstrætədʒi/"
+      },
+      {
+        "sentence": "Having a good strategy is key to success.",
+        "meaning-example": "Có một chiến lược tốt là chìa khóa dẫn đến thành công.",
+        "ipa-example": "/ˈhævɪŋ ə ɡʊd ˈstrætədʒi ɪz kiː tu səkˈsɛs/"
+      },
+      {
+        "sentence": "We need to rethink our strategy.",
+        "meaning-example": "Chúng ta cần suy nghĩ lại chiến lược của mình.",
+        "ipa-example": "/wi niːd tu riːˈθɪŋk aʊər ˈstrætədʒi/"
+      },
+      {
+        "sentence": "Her investment strategy paid off.",
+        "meaning-example": "Chiến lược đầu tư của cô ấy đã mang lại hiệu quả.",
+        "ipa-example": "/hər ɪnˈvɛstmənt ˈstrætədʒi peɪd ɔːf/"
+      }
+    ]
+  },
+  {
+    "word": "wooded",
+    "ipa": "/ˈwʊdɪd/",
+    "meaning": "(của đất đai) được bao phủ bởi cây cối.",
+    "image": "./eew-4-27/20.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "We walked through a wooded area.",
+        "meaning-example": "Chúng tôi đi bộ qua một khu vực nhiều cây cối.",
+        "ipa-example": "/wi wɔːkt θruː ə ˈwʊdɪd ˈɛriə/"
+      },
+      {
+        "sentence": "The house is located on a wooded hill.",
+        "meaning-example": "Ngôi nhà nằm trên một ngọn đồi nhiều cây cối.",
+        "ipa-example": "/ðə haʊs ɪz ˈloʊkeɪtɪd ɑːn ə ˈwʊdɪd hɪl/"
+      },
+      {
+        "sentence": "The path led into a dense wooded forest.",
+        "meaning-example": "Con đường dẫn vào một khu rừng rậm rạp nhiều cây cối.",
+        "ipa-example": "/ðə pæθ lɛd ˈɪntu ə dɛns ˈwʊdɪd ˈfɔːrɪst/"
+      },
+      {
+        "sentence": "The property includes a large wooded lot.",
+        "meaning-example": "Khu đất bao gồm một lô đất rộng nhiều cây cối.",
+        "ipa-example": "/ðə ˈprɑːpərti ɪnˈkluːdz ə lɑːrdʒ ˈwʊdɪd lɑːt/"
+      },
+      {
+        "sentence": "They enjoyed hiking in the wooded mountains.",
+        "meaning-example": "Họ thích đi bộ đường dài trên những ngọn núi nhiều cây cối.",
+        "ipa-example": "/ðeɪ ɪnˈdʒɔɪd ˈhaɪkɪŋ ɪn ðə ˈwʊdɪd ˈmaʊntənz/"
+      },
+      {
+        "sentence": "The area is mostly wooded.",
+        "meaning-example": "Khu vực này chủ yếu là rừng cây.",
+        "ipa-example": "/ðə ˈɛriə ɪz ˈmoʊstli ˈwʊdɪd/"
+      },
+      {
+        "sentence": "We saw deer in the wooded park.",
+        "meaning-example": "Chúng tôi thấy hươu trong công viên nhiều cây cối.",
+        "ipa-example": "/wi sɔː dɪər ɪn ðə ˈwʊdɪd pɑːrk/"
+      },
+      {
+        "sentence": "The cabin was surrounded by wooded land.",
+        "meaning-example": "Căn nhà gỗ được bao quanh bởi đất rừng cây.",
+        "ipa-example": "/ðə ˈkæbɪn wəz səˈraʊndɪd baɪ ˈwʊdɪd lænd/"
+      },
+      {
+        "sentence": "The trail was shaded by wooded trees.",
+        "meaning-example": "Con đường mòn được che bóng bởi những cây rừng.",
+        "ipa-example": "/ðə treɪl wəz ʃeɪdɪd baɪ ˈwʊdɪd triːz/"
+      },
+      {
+        "sentence": "It was a beautiful wooded landscape.",
+        "meaning-example": "Đó là một cảnh quan rừng cây tuyệt đẹp.",
+        "ipa-example": "/ɪt wəz ə ˈbjuːtɪfəl ˈwʊdɪd ˈlændskeɪp/"
+      },
+      {
+        "sentence": "The campsite was in a wooded clearing.",
+        "meaning-example": "Khu cắm trại nằm trong một khoảng trống có cây cối xung quanh.",
+        "ipa-example": "/ðə ˈkæmpsaɪt wəz ɪn ə ˈwʊdɪd ˈklɪərɪŋ/"
+      },
+      {
+        "sentence": "The map showed a large wooded region.",
+        "meaning-example": "Bản đồ hiển thị một vùng rừng cây rộng lớn.",
+        "ipa-example": "/ðə mæp ʃoʊd ə lɑːrdʒ ˈwʊdɪd ˈriːdʒən/"
+      }
+    ]
+  }
+]
