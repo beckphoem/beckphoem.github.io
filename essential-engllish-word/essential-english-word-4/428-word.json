@@ -1,282 +1,682 @@
 [
   {
     "word": "avail",
-    "partOfSpeech": "n",
+    "ipa": "/əˈveɪl/",
+    "meaning": "sự hữu ích hoặc lợi ích.",
     "image": "eew-4-28/1.jpg",
-    "meaningInStory": "sự hữu ích hoặc lợi ích.",
-    "storySentence": "But it was to no avail because no one understood how the disease spread.",
-    "examples": [
-      "His efforts were to no avail.",
-      "She tried to fix it, but to no avail.",
-      "All their pleading was to no avail.",
-      "The medicine was of little avail.",
-      "They searched everywhere, but to no avail."
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "His efforts were to no avail.",
+        "meaning-example": "Những nỗ lực của anh ấy không có kết quả.",
+        "ipa-example": "/hɪz ˈɛfərts wər tu noʊ əˈveɪl/"
+      },
+      {
+        "sentence": "She tried to fix it, but to no avail.",
+        "meaning-example": "Cô ấy cố gắng sửa nó, nhưng không có kết quả.",
+        "ipa-example": "/ʃi traɪd tu fɪks ɪt, bʌt tu noʊ əˈveɪl/"
+      },
+      {
+        "sentence": "All their pleading was to no avail.",
+        "meaning-example": "Mọi lời cầu xin của họ đều vô ích.",
+        "ipa-example": "/ɔːl ðɛr ˈpliːdɪŋ wəz tu noʊ əˈveɪl/"
+      },
+      {
+        "sentence": "The medicine was of little avail.",
+        "meaning-example": "Thuốc có ít tác dụng.",
+        "ipa-example": "/ðə ˈmɛdɪsɪn wəz əv ˈlɪtəl əˈveɪl/"
+      },
+      {
+        "sentence": "They searched everywhere, but to no avail.",
+        "meaning-example": "Họ tìm kiếm khắp nơi, nhưng không có kết quả.",
+        "ipa-example": "/ðeɪ sɜːrtʃt ˈɛvriˌwɛr, bʌt tu noʊ əˈveɪl/"
+      }
     ]
   },
   {
     "word": "expand",
-    "partOfSpeech": "v",
+    "ipa": "/ɪkˈspænd/",
+    "meaning": "trở nên hoặc làm cho lớn hơn hoặc rộng hơn.",
     "image": "eew-4-28/2.jpg",
-    "meaningInStory": "trở nên hoặc làm cho lớn hơn hoặc rộng hơn.",
-    "storySentence": "The city became very crowded as the population expanded.",
-    "examples": [
-      "The company plans to expand next year.",
-      "The balloon expanded as he blew air into it.",
-      "Reading helps to expand your vocabulary.",
-      "The universe is constantly expanding.",
-      "They want to expand their business into new markets."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The company plans to expand next year.",
+        "meaning-example": "Công ty dự định mở rộng vào năm tới.",
+        "ipa-example": "/ðə ˈkʌmpəni plænz tu ɪkˈspænd nɛkst jɪr/"
+      },
+      {
+        "sentence": "The balloon expanded as he blew air into it.",
+        "meaning-example": "Quả bóng bay phồng lên khi anh ấy thổi khí vào.",
+        "ipa-example": "/ðə bəˈluːn ɪkˈspændɪd æz hi bluː ɛr ˈɪntu ɪt/"
+      },
+      {
+        "sentence": "Reading helps to expand your vocabulary.",
+        "meaning-example": "Đọc sách giúp mở rộng vốn từ vựng của bạn.",
+        "ipa-example": "/ˈriːdɪŋ hɛlps tu ɪkˈspænd jʊər vəˈkæbjəˌlɛri/"
+      },
+      {
+        "sentence": "The universe is constantly expanding.",
+        "meaning-example": "Vũ trụ không ngừng mở rộng.",
+        "ipa-example": "/ðə ˈjuːnɪˌvɜːrs ɪz ˈkɑːnstəntli ɪkˈspændɪŋ/"
+      },
+      {
+        "sentence": "They want to expand their business into new markets.",
+        "meaning-example": "Họ muốn mở rộng kinh doanh sang các thị trường mới.",
+        "ipa-example": "/ðeɪ wɑːnt tu ɪkˈspænd ðɛr ˈbɪznəs ˈɪntu nuː ˈmɑːrkɪts/"
+      }
     ]
   },
   {
     "word": "define",
-    "partOfSpeech": "v",
+    "ipa": "/dɪˈfaɪn/",
+    "meaning": "nêu hoặc mô tả chính xác bản chất, phạm vi hoặc ý nghĩa của thứ gì đó.",
     "image": "eew-4-28/3.jpg",
-    "meaningInStory": "nêu hoặc mô tả chính xác bản chất, phạm vi hoặc ý nghĩa của thứ gì đó.",
-    "storySentence": "Instead, they defined disease as a punishment from their gods.",
-    "examples": [
-      "Can you define the word 'democracy'?",
-      "The contract clearly defines the terms.",
-      "We need to define the project goals.",
-      "His role in the team is well-defined.",
-      "The boundaries of the park are defined by the river."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Can you define the word 'democracy'?",
+        "meaning-example": "Bạn có thể định nghĩa từ 'democracy' không?",
+        "ipa-example": "/kæn ju dɪˈfaɪn ðə wɜːrd dɪˈmɑːkrəsi/"
+      },
+      {
+        "sentence": "The contract clearly defines the terms.",
+        "meaning-example": "Hợp đồng xác định rõ ràng các điều khoản.",
+        "ipa-example": "/ðə ˈkɑːntrækt ˈklɪərli dɪˈfaɪnz ðə tɜːrmz/"
+      },
+      {
+        "sentence": "We need to define the project goals.",
+        "meaning-example": "Chúng ta cần xác định mục tiêu dự án.",
+        "ipa-example": "/wi niːd tu dɪˈfaɪn ðə ˈprɑːdʒɛkt ɡoʊlz/"
+      },
+      {
+        "sentence": "His role in the team is well-defined.",
+        "meaning-example": "Vai trò của anh ấy trong đội được xác định rõ ràng.",
+        "ipa-example": "/hɪz roʊl ɪn ðə tiːm ɪz wɛl dɪˈfaɪnd/"
+      },
+      {
+        "sentence": "The boundaries of the park are defined by the river.",
+        "meaning-example": "Ranh giới của công viên được xác định bởi con sông.",
+        "ipa-example": "/ðə ˈbaʊndəriz əv ðə pɑːrk ər dɪˈfaɪnd baɪ ðə ˈrɪvər/"
+      }
     ]
   },
   {
     "word": "dread",
-    "partOfSpeech": "v",
+    "ipa": "/drɛd/",
+    "meaning": "dự đoán với sự lo sợ hoặc sợ hãi lớn.",
     "image": "eew-4-28/4.jpg",
-    "meaningInStory": "dự đoán với sự lo sợ hoặc sợ hãi lớn.",
-    "storySentence": "People wanted to leave the crowded city, but they dreaded what the army outside would do to them.",
-    "examples": [
-      "I dread going to the dentist.",
-      "She dreaded the thought of being alone.",
-      "He dreaded facing the consequences.",
-      "They dreaded the long journey ahead.",
-      "I used to dread public speaking."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "I dread going to the dentist.",
+        "meaning-example": "Tôi sợ đi khám nha sĩ.",
+        "ipa-example": "/aɪ drɛd ˈɡoʊɪŋ tu ðə ˈdɛntɪst/"
+      },
+      {
+        "sentence": "She dreaded the thought of being alone.",
+        "meaning-example": "Cô ấy sợ hãi ý nghĩ phải ở một mình.",
+        "ipa-example": "/ʃi ˈdrɛdɪd ðə θɔːt əv ˈbiːɪŋ əˈloʊn/"
+      },
+      {
+        "sentence": "He dreaded facing the consequences.",
+        "meaning-example": "Anh ấy sợ phải đối mặt với hậu quả.",
+        "ipa-example": "/hi ˈdrɛdɪd ˈfeɪsɪŋ ðə ˈkɑːnsɪˌkwɛnsɪz/"
+      },
+      {
+        "sentence": "They dreaded the long journey ahead.",
+        "meaning-example": "Họ sợ hãi chuyến đi dài phía trước.",
+        "ipa-example": "/ðeɪ ˈdrɛdɪd ðə lɔːŋ ˈdʒɜːrni əˈhɛd/"
+      },
+      {
+        "sentence": "I used to dread public speaking.",
+        "meaning-example": "Tôi từng sợ nói trước công chúng.",
+        "ipa-example": "/aɪ juːzd tu drɛd ˈpʌblɪk ˈspiːkɪŋ/"
+      }
     ]
   },
   {
     "word": "fundamental",
-    "partOfSpeech": "adj",
+    "ipa": "/ˌfʌndəˈmɛntəl/",
+    "meaning": "tạo thành một nền tảng hoặc cốt lõi cần thiết; có tầm quan trọng trung tâm.",
     "image": "eew-4-28/5.jpg",
-    "meaningInStory": "tạo thành một nền tảng hoặc cốt lõi cần thiết; có tầm quan trọng trung tâm.",
-    "storySentence": "That’s how they learned a fundamental lesson about the plague: it spread from person to person.",
-    "examples": [
-      "Clean water is a fundamental human right.",
-      "We need to understand the fundamental principles.",
-      "Honesty is fundamental to a good relationship.",
-      "He taught us the fundamental skills.",
-      "There is a fundamental difference between the two ideas."
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Clean water is a fundamental human right.",
+        "meaning-example": "Nước sạch là quyền cơ bản của con người.",
+        "ipa-example": "/kliːn ˈwɔːtər ɪz ə ˌfʌndəˈmɛntəl ˈhjuːmən raɪt/"
+      },
+      {
+        "sentence": "We need to understand the fundamental principles.",
+        "meaning-example": "Chúng ta cần hiểu các nguyên tắc cơ bản.",
+        "ipa-example": "/wi niːd tu ˌʌndərˈstænd ðə ˌfʌndəˈmɛntəl ˈprɪnsəpəlz/"
+      },
+      {
+        "sentence": "Honesty is fundamental to a good relationship.",
+        "meaning-example": "Sự trung thực là nền tảng cho một mối quan hệ tốt đẹp.",
+        "ipa-example": "/ˈɑːnəsti ɪz ˌfʌndəˈmɛntəl tu ə ɡʊd rɪˈleɪʃənʃɪp/"
+      },
+      {
+        "sentence": "He taught us the fundamental skills.",
+        "meaning-example": "Anh ấy đã dạy chúng tôi những kỹ năng cơ bản.",
+        "ipa-example": "/hi tɔːt ʌs ðə ˌfʌndəˈmɛntəl skɪlz/"
+      },
+      {
+        "sentence": "There is a fundamental difference between the two ideas.",
+        "meaning-example": "Có sự khác biệt cơ bản giữa hai ý tưởng.",
+        "ipa-example": "/ðɛr ɪz ə ˌfʌndəˈmɛntəl ˈdɪfrəns bɪˈtwiːn ðə tuː aɪˈdiːəz/"
+      }
     ]
   },
   {
     "word": "horrifying",
-    "partOfSpeech": "adj",
+    "ipa": "/ˈhɔːrɪˌfaɪɪŋ/",
+    "meaning": "gây ra cảm giác kinh hoàng.",
     "image": "eew-4-28/6.jpg",
-    "meaningInStory": "gây ra cảm giác kinh hoàng.",
-    "storySentence": "Then a horrifying disease broke out.",
-    "examples": [
-      "It was a horrifying accident.",
-      "She heard a horrifying scream.",
-      "The news was horrifying.",
-      "He described the horrifying scene.",
-      "The movie was too horrifying for me."
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "It was a horrifying accident.",
+        "meaning-example": "Đó là một tai nạn kinh hoàng.",
+        "ipa-example": "/ɪt wəz ə ˈhɔːrɪˌfaɪɪŋ ˈæksɪdənt/"
+      },
+      {
+        "sentence": "She heard a horrifying scream.",
+        "meaning-example": "Cô ấy nghe thấy một tiếng hét kinh hoàng.",
+        "ipa-example": "/ʃi hɜːrd ə ˈhɔːrɪˌfaɪɪŋ skriːm/"
+      },
+      {
+        "sentence": "The news was horrifying.",
+        "meaning-example": "Tin tức thật kinh hoàng.",
+        "ipa-example": "/ðə nuːz wəz ˈhɔːrɪˌfaɪɪŋ/"
+      },
+      {
+        "sentence": "He described the horrifying scene.",
+        "meaning-example": "Anh ấy mô tả cảnh tượng kinh hoàng.",
+        "ipa-example": "/hi dɪˈskraɪbd ðə ˈhɔːrɪˌfaɪɪŋ siːn/"
+      },
+      {
+        "sentence": "The movie was too horrifying for me.",
+        "meaning-example": "Bộ phim quá kinh hoàng đối với tôi.",
+        "ipa-example": "/ðə ˈmuːvi wəz tuː ˈhɔːrɪˌfaɪɪŋ fər miː/"
+      }
     ]
   },
   {
     "word": "incredulous",
-    "partOfSpeech": "adj",
+    "ipa": "/ɪnˈkrɛdjələs/",
+    "meaning": "không sẵn lòng hoặc không thể tin vào điều gì đó.",
     "image": "eew-4-28/7.jpg",
-    "meaningInStory": "không sẵn lòng hoặc không thể tin vào điều gì đó.",
-    "storySentence": "Thucydides was incredulous that gods caused the plague, but he explained why others believed it.",
-    "examples": [
-      "He listened to the story with an incredulous smile.",
-      "She was incredulous when she heard the news.",
-      "They looked at him with incredulous eyes.",
-      "His reaction was one of incredulous surprise.",
-      "I was incredulous at the amount of money they spent."
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "He listened to the story with an incredulous smile.",
+        "meaning-example": "Anh ấy lắng nghe câu chuyện với một nụ cười hoài nghi.",
+        "ipa-example": "/hi ˈlɪsənd tu ðə ˈstɔːri wɪθ ən ɪnˈkrɛdjələs smaɪl/"
+      },
+      {
+        "sentence": "She was incredulous when she heard the news.",
+        "meaning-example": "Cô ấy không tin được khi nghe tin tức.",
+        "ipa-example": "/ʃi wəz ɪnˈkrɛdjələs wɛn ʃi hɜːrd ðə nuːz/"
+      },
+      {
+        "sentence": "They looked at him with incredulous eyes.",
+        "meaning-example": "Họ nhìn anh ấy với ánh mắt không tin.",
+        "ipa-example": "/ðeɪ lʊkt ət hɪm wɪθ ɪnˈkrɛdjələs aɪz/"
+      },
+      {
+        "sentence": "His reaction was one of incredulous surprise.",
+        "meaning-example": "Phản ứng của anh ấy là sự ngạc nhiên không tin được.",
+        "ipa-example": "/hɪz riˈækʃən wəz wʌn əv ɪnˈkrɛdjələs sərˈpraɪz/"
+      },
+      {
+        "sentence": "I was incredulous at the amount of money they spent.",
+        "meaning-example": "Tôi không tin vào số tiền họ đã chi tiêu.",
+        "ipa-example": "/aɪ wəz ɪnˈkrɛdjələs ət ðə əˈmaʊnt əv ˈmʌni ðeɪ spɛnt/"
+      }
     ]
   },
   {
     "word": "linger",
-    "partOfSpeech": "v",
+    "ipa": "/ˈlɪŋɡər/",
+    "meaning": "ở lại một nơi lâu hơn mức cần thiết, thường là do miễn cưỡng rời đi.",
     "image": "eew-4-28/8.jpg",
-    "meaningInStory": "ở lại một nơi lâu hơn mức cần thiết, thường là do miễn cưỡng rời đi.",
-    "storySentence": "The plague lingered for two years.",
-    "examples": [
-      "The smell of smoke lingered in the air.",
-      "She lingered in the doorway, unsure whether to enter.",
-      "The memory of the event lingered in his mind.",
-      "He lingered over his coffee.",
-      "The cold weather lingered longer than expected."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The smell of smoke lingered in the air.",
+        "meaning-example": "Mùi khói còn vương lại trong không khí.",
+        "ipa-example": "/ðə smɛl əv smoʊk ˈlɪŋɡərd ɪn ði ɛr/"
+      },
+      {
+        "sentence": "She lingered in the doorway, unsure whether to enter.",
+        "meaning-example": "Cô ấy nán lại ở cửa, không chắc có nên vào hay không.",
+        "ipa-example": "/ʃi ˈlɪŋɡərd ɪn ðə ˈdɔːrˌweɪ, ʌnˈʃʊr ˈwɛðər tu ˈɛntər/"
+      },
+      {
+        "sentence": "The memory of the event lingered in his mind.",
+        "meaning-example": "Ký ức về sự kiện còn đọng lại trong tâm trí anh ấy.",
+        "ipa-example": "/ðə ˈmɛməri əv ði ɪˈvɛnt ˈlɪŋɡərd ɪn hɪz maɪnd/"
+      },
+      {
+        "sentence": "He lingered over his coffee.",
+        "meaning-example": "Anh ấy nhâm nhi cà phê.",
+        "ipa-example": "/hi ˈlɪŋɡərd ˈoʊvər hɪz ˈkɑːfi/"
+      },
+      {
+        "sentence": "The cold weather lingered longer than expected.",
+        "meaning-example": "Thời tiết lạnh kéo dài lâu hơn dự kiến.",
+        "ipa-example": "/ðə koʊld ˈwɛðər ˈlɪŋɡərd ˈlɔːŋɡər ðæn ɪkˈspɛktɪd/"
+      }
     ]
   },
   {
     "word": "organism",
-    "partOfSpeech": "n",
+    "ipa": "/ˈɔːrɡəˌnɪzəm/",
+    "meaning": "một cá thể động vật, thực vật hoặc dạng sống đơn bào.",
     "image": "eew-4-28/9.jpg",
-    "meaningInStory": "một cá thể động vật, thực vật hoặc dạng sống đơn bào.",
-    "storySentence": "They didn’t know that it was an organism.",
-    "examples": [
-      "A bacterium is a single-celled organism.",
-      "Scientists study different types of organisms.",
-      "Every living organism needs water.",
-      "The soil is full of tiny organisms.",
-      "A plant is a multicellular organism."
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A bacterium is a single-celled organism.",
+        "meaning-example": "Vi khuẩn là một sinh vật đơn bào.",
+        "ipa-example": "/ə bækˈtɪəriəm ɪz ə ˈsɪŋɡəl sɛld ˈɔːrɡəˌnɪzəm/"
+      },
+      {
+        "sentence": "Scientists study different types of organisms.",
+        "meaning-example": "Các nhà khoa học nghiên cứu các loại sinh vật khác nhau.",
+        "ipa-example": "/ˈsaɪəntɪsts ˈstʌdi ˈdɪfrənt taɪps əv ˈɔːrɡəˌnɪzəmz/"
+      },
+      {
+        "sentence": "Every living organism needs water.",
+        "meaning-example": "Mọi sinh vật sống đều cần nước.",
+        "ipa-example": "/ˈɛvri ˈlɪvɪŋ ˈɔːrɡəˌnɪzəm niːdz ˈwɔːtər/"
+      },
+      {
+        "sentence": "The soil is full of tiny organisms.",
+        "meaning-example": "Đất đầy những sinh vật nhỏ bé.",
+        "ipa-example": "/ðə sɔɪl ɪz fʊl əv ˈtaɪni ˈɔːrɡəˌnɪzəmz/"
+      },
+      {
+        "sentence": "A plant is a multicellular organism.",
+        "meaning-example": "Thực vật là một sinh vật đa bào.",
+        "ipa-example": "/ə plænt ɪz ə ˌmʌltiˈsɛljələr ˈɔːrɡəˌnɪzəm/"
+      }
     ]
   },
   {
     "word": "paraphrase",
-    "partOfSpeech": "v",
+    "ipa": "/ˈpærəˌfreɪz/",
+    "meaning": "diễn đạt lại ý nghĩa của (thứ gì đó được viết hoặc nói) bằng các từ khác, đặc biệt là để đạt được sự rõ ràng hơn.",
     "image": "eew-4-28/10.jpg",
-    "meaningInStory": "diễn đạt lại ý nghĩa của (thứ gì đó được viết hoặc nói) bằng các từ khác, đặc biệt là để đạt được sự rõ ràng hơn.",
-    "storySentence": "To paraphrase it, the verse said the gods would send a disease during a war.",
-    "examples": [
-      "Can you paraphrase that sentence for me?",
-      "He paraphrased the main points of the speech.",
-      "Try to paraphrase the text in your own words.",
-      "She was asked to paraphrase the instructions.",
-      "It's important to paraphrase sources to avoid plagiarism."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Can you paraphrase that sentence for me?",
+        "meaning-example": "Bạn có thể diễn đạt lại câu đó cho tôi không?",
+        "ipa-example": "/kæn ju ˈpærəˌfreɪz ðæt ˈsɛntəns fər miː/"
+      },
+      {
+        "sentence": "He paraphrased the main points of the speech.",
+        "meaning-example": "Anh ấy đã diễn đạt lại những điểm chính của bài phát biểu.",
+        "ipa-example": "/hi ˈpærəˌfreɪzd ðə meɪn pɔɪnts əv ðə spiːtʃ/"
+      },
+      {
+        "sentence": "Try to paraphrase the text in your own words.",
+        "meaning-example": "Hãy thử diễn đạt lại văn bản bằng lời của bạn.",
+        "ipa-example": "/traɪ tu ˈpærəˌfreɪz ðə tɛkst ɪn jʊər oʊn wɜːrdz/"
+      },
+      {
+        "sentence": "She was asked to paraphrase the instructions.",
+        "meaning-example": "Cô ấy được yêu cầu diễn đạt lại hướng dẫn.",
+        "ipa-example": "/ʃi wəz æskt tu ˈpærəˌfreɪz ði ɪnˈstrʌkʃənz/"
+      },
+      {
+        "sentence": "It's important to paraphrase sources to avoid plagiarism.",
+        "meaning-example": "Quan trọng là phải diễn đạt lại nguồn để tránh đạo văn.",
+        "ipa-example": "/ɪts ɪmˈpɔːrtənt tu ˈpærəˌfreɪz ˈsɔːrsɪz tu əˈvɔɪd ˈpleɪdʒəˌrɪzəm/"
+      }
     ]
   },
   {
     "word": "plague",
-    "partOfSpeech": "n",
+    "ipa": "/pleɪɡ/",
+    "meaning": "một bệnh truyền nhiễm lây lan nhanh và gây tử vong cho nhiều người.",
     "image": "eew-4-28/11.jpg",
-    "meaningInStory": "một bệnh truyền nhiễm lây lan nhanh và gây tử vong cho nhiều người.",
-    "storySentence": "However, he almost didn’t survive one historical event: the Plague of Athens.",
-    "examples": [
-      "The Black Death was a terrible plague.",
-      "The city was hit by a sudden plague.",
-      "They prayed for the plague to end.",
-      "The plague spread quickly through the population.",
-      "Historical records describe the symptoms of the plague."
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The Black Death was a terrible plague.",
+        "meaning-example": "Cái chết đen là một bệnh dịch khủng khiếp.",
+        "ipa-example": "/ðə blæk dɛθ wəz ə ˈtɛrəbəl pleɪɡ/"
+      },
+      {
+        "sentence": "The city was hit by a sudden plague.",
+        "meaning-example": "Thành phố bị tấn công bởi một bệnh dịch đột ngột.",
+        "ipa-example": "/ðə ˈsɪti wəz hɪt baɪ ə ˈsʌdən pleɪɡ/"
+      },
+      {
+        "sentence": "They prayed for the plague to end.",
+        "meaning-example": "Họ cầu nguyện cho bệnh dịch chấm dứt.",
+        "ipa-example": "/ðeɪ preɪd fər ðə pleɪɡ tu ɛnd/"
+      },
+      {
+        "sentence": "The plague spread quickly through the population.",
+        "meaning-example": "Bệnh dịch lây lan nhanh chóng trong dân chúng.",
+        "ipa-example": "/ðə pleɪɡ sprɛd ˈkwɪkli θruː ðə ˌpɑːpjəˈleɪʃən/"
+      },
+      {
+        "sentence": "Historical records describe the symptoms of the plague.",
+        "meaning-example": "Các ghi chép lịch sử mô tả các triệu chứng của bệnh dịch.",
+        "ipa-example": "/hɪˈstɔːrɪkəl ˈrɛkərdz dɪˈskraɪb ðə ˈsɪmptəmz əv ðə pleɪɡ/"
+      }
     ]
   },
   {
     "word": "presently",
-    "partOfSpeech": "adv",
+    "ipa": "/ˈprɛzəntli/",
+    "meaning": "vào thời điểm hiện tại; bây giờ.",
     "image": "eew-4-28/12.jpg",
-    "meaningInStory": "vào thời điểm hiện tại; bây giờ.",
-    "storySentence": "Presently, we get most of our knowledge about ancient Greece from his writing.",
-    "examples": [
-      "He is presently working on a new project.",
-      "The office is presently closed.",
-      "Presently, I don't have enough information.",
-      "She is presently living in London.",
-      "The system is presently unavailable."
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "He is presently working on a new project.",
+        "meaning-example": "Hiện tại anh ấy đang làm việc cho một dự án mới.",
+        "ipa-example": "/hi ɪz ˈprɛzəntli ˈwɜːrkɪŋ ɑːn ə nuː ˈprɑːdʒɛkt/"
+      },
+      {
+        "sentence": "The office is presently closed.",
+        "meaning-example": "Văn phòng hiện đang đóng cửa.",
+        "ipa-example": "/ðə ˈɔːfɪs ɪz ˈprɛzəntli kloʊzd/"
+      },
+      {
+        "sentence": "Presently, I don't have enough information.",
+        "meaning-example": "Hiện tại, tôi không có đủ thông tin.",
+        "ipa-example": "/ˈprɛzəntli, aɪ doʊnt hæv ɪˈnʌf ˌɪnfərˈmeɪʃən/"
+      },
+      {
+        "sentence": "She is presently living in London.",
+        "meaning-example": "Hiện tại cô ấy đang sống ở London.",
+        "ipa-example": "/ʃi ɪz ˈprɛzəntli ˈlɪvɪŋ ɪn ˈlʌndən/"
+      },
+      {
+        "sentence": "The system is presently unavailable.",
+        "meaning-example": "Hệ thống hiện không khả dụng.",
+        "ipa-example": "/ðə ˈsɪstəm ɪz ˈprɛzəntli ˌʌnəˈveɪləbəl/"
+      }
     ]
   },
   {
     "word": "random",
-    "partOfSpeech": "adj",
+    "ipa": "/ˈrændəm/",
+    "meaning": "được thực hiện, làm hoặc xảy ra mà không có phương pháp hoặc quyết định có ý thức.",
     "image": "eew-4-28/13.jpg",
-    "meaningInStory": "được thực hiện, làm hoặc xảy ra mà không có phương pháp hoặc quyết định có ý thức.",
-    "storySentence": "It seemed random.",
-    "examples": [
-      "We picked a random number.",
-      "The questions were in a random order.",
-      "He made a random comment.",
-      "The winning ticket was chosen at random.",
-      "It was a random act of kindness."
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "We picked a random number.",
+        "meaning-example": "Chúng tôi chọn một số ngẫu nhiên.",
+        "ipa-example": "/wi pɪkt ə ˈrændəm ˈnʌmbər/"
+      },
+      {
+        "sentence": "The questions were in a random order.",
+        "meaning-example": "Các câu hỏi được sắp xếp ngẫu nhiên.",
+        "ipa-example": "/ðə ˈkwɛstʃənz wər ɪn ə ˈrændəm ˈɔːrdər/"
+      },
+      {
+        "sentence": "He made a random comment.",
+        "meaning-example": "Anh ấy đưa ra một nhận xét ngẫu nhiên.",
+        "ipa-example": "/hi meɪd ə ˈrændəm ˈkɑːmɛnt/"
+      },
+      {
+        "sentence": "The winning ticket was chosen at random.",
+        "meaning-example": "Vé trúng thưởng được chọn ngẫu nhiên.",
+        "ipa-example": "/ðə ˈwɪnɪŋ ˈtɪkɪt wəz ˈtʃoʊzən ət ˈrændəm/"
+      },
+      {
+        "sentence": "It was a random act of kindness.",
+        "meaning-example": "Đó là một hành động tử tế ngẫu nhiên.",
+        "ipa-example": "/ɪt wəz ə ˈrændəm ækt əv ˈkaɪndnəs/"
+      }
     ]
   },
   {
     "word": "riot",
-    "partOfSpeech": "n",
+    "ipa": "/ˈraɪət/",
+    "meaning": "một cuộc gây rối bạo lực bởi một đám đông.",
     "image": "eew-4-28/14.jpg",
-    "meaningInStory": "một cuộc gây rối bạo lực bởi một đám đông.",
-    "storySentence": "There were riots, and people ignored laws.",
-    "examples": [
-      "The police were called to control the riot.",
-      "A riot broke out after the game.",
-      "The streets were filled with rioters.",
-      "They tried to prevent a riot.",
-      "The protest turned into a riot."
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The police were called to control the riot.",
+        "meaning-example": "Cảnh sát được gọi đến để kiểm soát cuộc bạo loạn.",
+        "ipa-example": "/ðə pəˈliːs wər kɔːld tu kənˈtroʊl ðə ˈraɪət/"
+      },
+      {
+        "sentence": "A riot broke out after the game.",
+        "meaning-example": "Một cuộc bạo loạn nổ ra sau trận đấu.",
+        "ipa-example": "/ə ˈraɪət broʊk aʊt ˈæftər ðə ɡeɪm/"
+      },
+      {
+        "sentence": "The streets were filled with rioters.",
+        "meaning-example": "Đường phố đầy những kẻ bạo loạn.",
+        "ipa-example": "/ðə striːts wər fɪld wɪθ ˈraɪətərz/"
+      },
+      {
+        "sentence": "They tried to prevent a riot.",
+        "meaning-example": "Họ cố gắng ngăn chặn một cuộc bạo loạn.",
+        "ipa-example": "/ðeɪ traɪd tu prɪˈvɛnt ə ˈraɪət/"
+      },
+      {
+        "sentence": "The protest turned into a riot.",
+        "meaning-example": "Cuộc biểu tình biến thành một cuộc bạo loạn.",
+        "ipa-example": "/ðə ˈproʊtɛst tɜːrnd ˈɪntu ə ˈraɪət/"
+      }
     ]
   },
   {
     "word": "scribble",
-    "partOfSpeech": "v",
+    "ipa": "/ˈskrɪbəl/",
+    "meaning": "viết hoặc vẽ (thứ gì đó) một cách cẩu thả hoặc vội vàng.",
     "image": "eew-4-28/15.jpg",
-    "meaningInStory": "viết hoặc vẽ (thứ gì đó) một cách cẩu thả hoặc vội vàng.",
-    "storySentence": "He quickly scribbled down notes because he thought he would soon die.",
-    "examples": [
-      "She scribbled a note on a piece of paper.",
-      "He likes to scribble in his notebook.",
-      "The child was scribbling on the wall.",
-      "I quickly scribbled down the address.",
-      "His handwriting was a messy scribble."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "She scribbled a note on a piece of paper.",
+        "meaning-example": "Cô ấy nguệch ngoạc một ghi chú trên một mảnh giấy.",
+        "ipa-example": "/ʃi ˈskrɪbəld ə noʊt ɑːn ə piːs əv ˈpeɪpər/"
+      },
+      {
+        "sentence": "He likes to scribble in his notebook.",
+        "meaning-example": "Anh ấy thích viết nguệch ngoạc vào sổ tay của mình.",
+        "ipa-example": "/hi laɪks tu ˈskrɪbəl ɪn hɪz ˈnoʊtˌbʊk/"
+      },
+      {
+        "sentence": "The child was scribbling on the wall.",
+        "meaning-example": "Đứa trẻ đang vẽ nguệch ngoạc lên tường.",
+        "ipa-example": "/ðə tʃaɪld wəz ˈskrɪbəlɪŋ ɑːn ðə wɔːl/"
+      },
+      {
+        "sentence": "I quickly scribbled down the address.",
+        "meaning-example": "Tôi nhanh chóng viết nguệch ngoạc địa chỉ.",
+        "ipa-example": "/aɪ ˈkwɪkli ˈskrɪbəld daʊn ðə əˈdrɛs/"
+      },
+      {
+        "sentence": "His handwriting was a messy scribble.",
+        "meaning-example": "Chữ viết của anh ấy là một mớ nguệch ngoạc.",
+        "ipa-example": "/hɪz ˈhændˌraɪtɪŋ wəz ə ˈmɛsi ˈskrɪbəl/"
+      }
     ]
   },
   {
     "word": "shrine",
-    "partOfSpeech": "n",
+    "ipa": "/ʃraɪn/",
+    "meaning": "một nơi được coi là linh thiêng vì liên quan đến thần linh hoặc người/vật linh thiêng, được đánh dấu bằng bàn thờ, tòa nhà hoặc công trình khác.",
     "image": "eew-4-28/16.jpg",
-    "meaningInStory": "một nơi được coi là linh thiêng vì liên quan đến thần linh hoặc người/vật linh thiêng, được đánh dấu bằng bàn thờ, tòa nhà hoặc công trình khác.",
-    "storySentence": "As a result, large crowds gathered at shrines to ask the gods to stop the plague.",
-    "examples": [
-      "They visited the ancient shrine.",
-      "The temple is a sacred shrine.",
-      "People left offerings at the shrine.",
-      "There is a small shrine in the garden.",
-      "The town is famous for its historical shrines."
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "They visited the ancient shrine.",
+        "meaning-example": "Họ đã thăm ngôi đền cổ.",
+        "ipa-example": "/ðeɪ ˈvɪzɪtɪd ði ˈeɪnʃənt ʃraɪn/"
+      },
+      {
+        "sentence": "The temple is a sacred shrine.",
+        "meaning-example": "Ngôi đền là một nơi linh thiêng.",
+        "ipa-example": "/ðə ˈtɛmpəl ɪz ə ˈseɪkrɪd ʃraɪn/"
+      },
+      {
+        "sentence": "People left offerings at the shrine.",
+        "meaning-example": "Mọi người để lại lễ vật tại đền thờ.",
+        "ipa-example": "/ˈpiːpəl lɛft ˈɔːfərɪŋz ət ðə ʃraɪn/"
+      },
+      {
+        "sentence": "There is a small shrine in the garden.",
+        "meaning-example": "Có một ngôi đền nhỏ trong vườn.",
+        "ipa-example": "/ðɛr ɪz ə smɔːl ʃraɪn ɪn ðə ˈɡɑːrdən/"
+      },
+      {
+        "sentence": "The town is famous for its historical shrines.",
+        "meaning-example": "Thị trấn nổi tiếng với những ngôi đền lịch sử.",
+        "ipa-example": "/ðə taʊn ɪz ˈfeɪməs fər ɪts hɪˈstɔːrɪkəl ʃraɪnz/"
+      }
     ]
   },
   {
     "word": "solitude",
-    "partOfSpeech": "n",
+    "ipa": "/ˈsɑːlɪˌtuːd/",
+    "meaning": "trạng thái hoặc tình huống ở một mình.",
     "image": "eew-4-28/17.jpg",
-    "meaningInStory": "trạng thái hoặc tình huống ở một mình.",
-    "storySentence": "Many sick people were left to die in solitude because no one wanted to be near them.",
-    "examples": [
-      "She enjoys the peace and solitude of the countryside.",
-      "He prefers to work in solitude.",
-      "The artist found inspiration in solitude.",
-      "He needed solitude to think clearly.",
-      "She spent her vacation in quiet solitude."
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "She enjoys the peace and solitude of the countryside.",
+        "meaning-example": "Cô ấy tận hưởng sự yên bình và cô đơn ở vùng nông thôn.",
+        "ipa-example": "/ʃi ɪnˈdʒɔɪz ðə piːs ənd ˈsɑːlɪˌtuːd əv ðə ˈkʌntriˌsaɪd/"
+      },
+      {
+        "sentence": "He prefers to work in solitude.",
+        "meaning-example": "Anh ấy thích làm việc một mình.",
+        "ipa-example": "/hi prɪˈfɜːrz tu wɜːrk ɪn ˈsɑːlɪˌtuːd/"
+      },
+      {
+        "sentence": "The artist found inspiration in solitude.",
+        "meaning-example": "Nghệ sĩ tìm thấy cảm hứng trong sự cô đơn.",
+        "ipa-example": "/ði ˈɑːrtɪst faʊnd ˌɪnspəˈreɪʃən ɪn ˈsɑːlɪˌtuːd/"
+      },
+      {
+        "sentence": "He needed solitude to think clearly.",
+        "meaning-example": "Anh ấy cần sự yên tĩnh để suy nghĩ rõ ràng.",
+        "ipa-example": "/hi ˈniːdɪd ˈsɑːlɪˌtuːd tu θɪŋk ˈklɪərli/"
+      },
+      {
+        "sentence": "She spent her vacation in quiet solitude.",
+        "meaning-example": "Cô ấy đã trải qua kỳ nghỉ trong sự cô đơn yên tĩnh.",
+        "ipa-example": "/ʃi spɛnt hər veɪˈkeɪʃən ɪn ˈkwaɪət ˈsɑːlɪˌtuːd/"
+      }
     ]
   },
   {
     "word": "stark",
-    "partOfSpeech": "adj",
+    "ipa": "/stɑːrk/",
+    "meaning": "(của sự tương phản hoặc khác biệt) tuyệt đối; rõ rệt.",
     "image": "eew-4-28/18.jpg",
-    "meaningInStory": "(của sự tương phản hoặc khác biệt) tuyệt đối; rõ rệt.",
-    "storySentence": "His writing shows a stark contrast between people’s behavior before and during the plague.",
-    "examples": [
-      "There is a stark difference between the two cultures.",
-      "The report presented a stark reality.",
-      "The room was stark and empty.",
-      "He described the events in stark detail.",
-      "The photograph showed the stark beauty of the desert."
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "There is a stark difference between the two cultures.",
+        "meaning-example": "Có sự khác biệt rõ rệt giữa hai nền văn hóa.",
+        "ipa-example": "/ðɛr ɪz ə stɑːrk ˈdɪfrəns bɪˈtwiːn ðə tuː ˈkʌltʃərz/"
+      },
+      {
+        "sentence": "The report presented a stark reality.",
+        "meaning-example": "Báo cáo trình bày một thực tế khắc nghiệt.",
+        "ipa-example": "/ðə rɪˈpɔːrt prɪˈzɛntɪd ə stɑːrk riˈæləti/"
+      },
+      {
+        "sentence": "The room was stark and empty.",
+        "meaning-example": "Căn phòng trống trải và đơn sơ.",
+        "ipa-example": "/ðə ruːm wəz stɑːrk ənd ˈɛmpti/"
+      },
+      {
+        "sentence": "He described the events in stark detail.",
+        "meaning-example": "Anh ấy mô tả các sự kiện một cách chi tiết rõ ràng.",
+        "ipa-example": "/hi dɪˈskraɪbd ði ɪˈvɛnts ɪn stɑːrk ˈdiːteɪl/"
+      },
+      {
+        "sentence": "The photograph showed the stark beauty of the desert.",
+        "meaning-example": "Bức ảnh cho thấy vẻ đẹp hoang sơ của sa mạc.",
+        "ipa-example": "/ðə ˈfoʊtəˌɡræf ʃoʊd ðə stɑːrk ˈbjuːti əv ðə ˈdɛzərt/"
+      }
     ]
   },
   {
     "word": "summon",
-    "partOfSpeech": "v",
+    "ipa": "/ˈsʌmən/",
+    "meaning": "gọi (ai đó) một cách có thẩm quyền hoặc khẩn cấp để có mặt.",
     "image": "eew-4-28/19.jpg",
-    "meaningInStory": "gọi (ai đó) một cách có thẩm quyền hoặc khẩn cấp để có mặt.",
-    "storySentence": "People summoned doctors.",
-    "examples": [
-      "She was summoned to the principal's office.",
-      "He summoned the waiter to the table.",
-      "The king summoned his advisors.",
-      "They summoned help immediately.",
-      "He had to summon all his courage."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "She was summoned to the principal's office.",
+        "meaning-example": "Cô ấy bị triệu tập đến văn phòng hiệu trưởng.",
+        "ipa-example": "/ʃi wəz ˈsʌmənd tu ðə ˈprɪnsəpəlz ˈɔːfɪs/"
+      },
+      {
+        "sentence": "He summoned the waiter to the table.",
+        "meaning-example": "Anh ấy gọi người phục vụ đến bàn.",
+        "ipa-example": "/hi ˈsʌmənd ðə ˈweɪtər tu ðə ˈteɪbəl/"
+      },
+      {
+        "sentence": "The king summoned his advisors.",
+        "meaning-example": "Nhà vua triệu tập các cố vấn của mình.",
+        "ipa-example": "/ðə kɪŋ ˈsʌmənd hɪz ədˈvaɪzərz/"
+      },
+      {
+        "sentence": "They summoned help immediately.",
+        "meaning-example": "Họ gọi giúp đỡ ngay lập tức.",
+        "ipa-example": "/ðeɪ ˈsʌmənd hɛlp ɪˈmiːdiətli/"
+      },
+      {
+        "sentence": "He had to summon all his courage.",
+        "meaning-example": "Anh ấy phải lấy hết can đảm.",
+        "ipa-example": "/hi hæd tu ˈsʌmən ɔːl hɪz ˈkʌrɪdʒ/"
+      }
     ]
   },
   {
     "word": "worsen",
-    "partOfSpeech": "v",
+    "ipa": "/ˈwɜːrsən/",
+    "meaning": "làm cho hoặc trở nên tồi tệ hơn.",
     "image": "eew-4-28/20.jpg",
-    "meaningInStory": "làm cho hoặc trở nên tồi tệ hơn.",
-    "storySentence": "But the situation only worsened because these people were so close to each other they became sick.",
-    "examples": [
-      "His condition began to worsen.",
-      "The weather is expected to worsen later today.",
-      "Smoking will worsen your cough.",
-      "The economic situation continued to worsen.",
-      "Lack of sleep can worsen stress."
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "His condition began to worsen.",
+        "meaning-example": "Tình trạng của anh ấy bắt đầu xấu đi.",
+        "ipa-example": "/hɪz kənˈdɪʃən bɪˈɡæn tu ˈwɜːrsən/"
+      },
+      {
+        "sentence": "The weather is expected to worsen later today.",
+        "meaning-example": "Thời tiết dự kiến sẽ xấu đi vào cuối ngày hôm nay.",
+        "ipa-example": "/ðə ˈwɛðər ɪz ɪkˈspɛktɪd tu ˈwɜːrsən ˈleɪtər təˈdeɪ/"
+      },
+      {
+        "sentence": "Smoking will worsen your cough.",
+        "meaning-example": "Hút thuốc sẽ làm cơn ho của bạn nặng thêm.",
+        "ipa-example": "/ˈsmoʊkɪŋ wɪl ˈwɜːrsən jʊər kɔːf/"
+      },
+      {
+        "sentence": "The economic situation continued to worsen.",
+        "meaning-example": "Tình hình kinh tế tiếp tục xấu đi.",
+        "ipa-example": "/ði ˌɛkəˈnɑːmɪk ˌsɪtʃuˈeɪʃən kənˈtɪnjuːd tu ˈwɜːrsən/"
+      },
+      {
+        "sentence": "Lack of sleep can worsen stress.",
+        "meaning-example": "Thiếu ngủ có thể làm tăng căng thẳng.",
+        "ipa-example": "/læk əv sliːp kæn ˈwɜːrsən strɛs/"
+      }
     ]
   }
 ]
