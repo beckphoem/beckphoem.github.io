@@ -1,0 +1,382 @@
+[
+  {
+    "word": "automobile",
+    "ipa": "/ˈɔːtəmoʊˌbiːl/",
+    "meaning": "xe ô tô",
+    "image": "eew-4-29/1.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "I bought a new automobile.",
+        "meaning-example": "Tôi đã mua một chiếc ô tô mới.",
+        "ipa-example": "/aɪ bɔːt ə nuː ˈɔːtəmoʊˌbiːl/"
+      },
+      {
+        "sentence": "Automobiles are parked outside.",
+        "meaning-example": "Ô tô đậu bên ngoài.",
+        "ipa-example": "/ˈɔːtəmoʊˌbiːlz ɑːr pɑːrkt ˌaʊtˈsaɪd/"
+      }
+    ]
+  },
+  {
+    "word": "candidate",
+    "ipa": "/ˈkændɪˌdeɪt/",
+    "meaning": "thí sinh, người dự thi",
+    "image": "eew-4-29/2.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "He is a candidate for the job.",
+        "meaning-example": "Anh ấy là ứng viên cho công việc.",
+        "ipa-example": "/hi ɪz ə ˈkændɪˌdeɪt fər ðə ʤɑːb/"
+      },
+      {
+        "sentence": "There are three candidates in the race.",
+        "meaning-example": "Có ba thí sinh trong cuộc đua.",
+        "ipa-example": "/ðɛr ɑːr θriː ˈkændɪˌdeɪts ɪn ðə reɪs/"
+      }
+    ]
+  },
+  {
+    "word": "confidential",
+    "ipa": "/ˌkɑːnfɪˈdɛnʃəl/",
+    "meaning": "bí mật",
+    "image": "eew-4-29/3.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "This is a confidential document.",
+        "meaning-example": "Đây là tài liệu bí mật.",
+        "ipa-example": "/ðɪs ɪz ə ˌkɑːnfɪˈdɛnʃəl ˈdɑːkjəmənt/"
+      },
+      {
+        "sentence": "Please keep this information confidential.",
+        "meaning-example": "Vui lòng giữ thông tin này bí mật.",
+        "ipa-example": "/pliːz kiːp ðɪs ˌɪnfərˈmeɪʃən ˌkɑːnfɪˈdɛnʃəl/"
+      }
+    ]
+  },
+  {
+    "word": "corporate",
+    "ipa": "/ˈkɔːrpərət/",
+    "meaning": "thuộc về công ty, tổ chức",
+    "image": "eew-4-29/4.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "She works in a corporate office.",
+        "meaning-example": "Cô ấy làm việc ở văn phòng công ty.",
+        "ipa-example": "/ʃi wɜːrks ɪn ə ˈkɔːrpərət ˈɑːfɪs/"
+      },
+      {
+        "sentence": "Corporate rules are strict.",
+        "meaning-example": "Quy định công ty rất nghiêm ngặt.",
+        "ipa-example": "/ˈkɔːrpərət ruːlz ɑːr strɪkt/"
+      }
+    ]
+  },
+  {
+    "word": "enhance",
+    "ipa": "/ɪnˈhæns/",
+    "meaning": "nâng cấp, cải tiến",
+    "image": "eew-4-29/5.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The new paint will enhance the house.",
+        "meaning-example": "Lớp sơn mới sẽ làm ngôi nhà đẹp hơn.",
+        "ipa-example": "/ðə nuː peɪnt wɪl ɪnˈhæns ðə haʊs/"
+      },
+      {
+        "sentence": "Training will enhance your skills.",
+        "meaning-example": "Đào tạo sẽ nâng cao kỹ năng của bạn.",
+        "ipa-example": "/ˈtreɪnɪŋ wɪl ɪnˈhæns jʊər skɪlz/"
+      }
+    ]
+  },
+  {
+    "word": "era",
+    "ipa": "/ˈɪərə/",
+    "meaning": "thời đại",
+    "image": "eew-4-29/6.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "We live in a digital era.",
+        "meaning-example": "Chúng ta sống trong thời đại số.",
+        "ipa-example": "/wi lɪv ɪn ə ˈdɪdʒɪtəl ˈɪərə/"
+      },
+      {
+        "sentence": "This marks a new era.",
+        "meaning-example": "Đây đánh dấu một thời đại mới.",
+        "ipa-example": "/ðɪs mɑːrks ə nuː ˈɪərə/"
+      }
+    ]
+  },
+  {
+    "word": "guideline",
+    "ipa": "/ˈɡaɪdlaɪn/",
+    "meaning": "hướng dẫn, quy định",
+    "image": "eew-4-29/7.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Follow the guidelines.",
+        "meaning-example": "Hãy làm theo hướng dẫn.",
+        "ipa-example": "/ˈfɑːloʊ ðə ˈɡaɪdlaɪnz/"
+      },
+      {
+        "sentence": "Guidelines help us work safely.",
+        "meaning-example": "Quy định giúp chúng ta làm việc an toàn.",
+        "ipa-example": "/ˈɡaɪdlaɪnz hɛlp ʌs wɜːrk ˈseɪfli/"
+      }
+    ]
+  },
+  {
+    "word": "incorporate",
+    "ipa": "/ɪnˈkɔːrpəˌreɪt/",
+    "meaning": "tích hợp, kết hợp",
+    "image": "eew-4-29/8.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "We incorporate new ideas.",
+        "meaning-example": "Chúng tôi kết hợp những ý tưởng mới.",
+        "ipa-example": "/wi ɪnˈkɔːrpəˌreɪt nuː aɪˈdiːəz/"
+      },
+      {
+        "sentence": "The design incorporates blue colors.",
+        "meaning-example": "Thiết kế kết hợp màu xanh.",
+        "ipa-example": "/ðə dɪˈzaɪn ɪnˈkɔːrpəˌreɪts bluː ˈkʌlərz/"
+      }
+    ]
+  },
+  {
+    "word": "interact",
+    "ipa": "/ˌɪntərˈækt/",
+    "meaning": "tương tác",
+    "image": "eew-4-29/9.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Children interact at school.",
+        "meaning-example": "Trẻ em tương tác ở trường.",
+        "ipa-example": "/ˈʧɪldrən ˌɪntərˈækt æt skuːl/"
+      },
+      {
+        "sentence": "We interact during meetings.",
+        "meaning-example": "Chúng tôi tương tác trong các cuộc họp.",
+        "ipa-example": "/wi ˌɪntərˈækt ˈdjʊərɪŋ ˈmiːtɪŋz/"
+      }
+    ]
+  },
+  {
+    "word": "interval",
+    "ipa": "/ˈɪntərvəl/",
+    "meaning": "khoảng thời gian",
+    "image": "eew-4-29/10.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "There is a short interval between classes.",
+        "meaning-example": "Có một khoảng thời gian ngắn giữa các tiết học.",
+        "ipa-example": "/ðɛr ɪz ə ʃɔːrt ˈɪntərvəl bɪˈtwiːn ˈklæsɪz/"
+      },
+      {
+        "sentence": "Take breaks at regular intervals.",
+        "meaning-example": "Nghỉ giải lao theo các khoảng thời gian đều đặn.",
+        "ipa-example": "/teɪk breɪks æt ˈrɛgjələr ˈɪntərvəlz/"
+      }
+    ]
+  },
+  {
+    "word": "mobile",
+    "ipa": "/ˈmoʊbəl/",
+    "meaning": "di động, dễ di chuyển",
+    "image": "eew-4-29/11.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Mobile phones are popular.",
+        "meaning-example": "Điện thoại di động rất phổ biến.",
+        "ipa-example": "/ˈmoʊbəl foʊnz ɑːr ˈpɑːpjələr/"
+      },
+      {
+        "sentence": "He is very mobile.",
+        "meaning-example": "Anh ấy rất linh hoạt.",
+        "ipa-example": "/hi ɪz ˈvɛri ˈmoʊbəl/"
+      }
+    ]
+  },
+  {
+    "word": "modify",
+    "ipa": "/ˈmɑːdəˌfaɪ/",
+    "meaning": "sửa đổi, thay đổi",
+    "image": "eew-4-29/12.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Please modify the plan.",
+        "meaning-example": "Vui lòng sửa đổi kế hoạch.",
+        "ipa-example": "/pliːz ˈmɑːdəˌfaɪ ðə plæn/"
+      },
+      {
+        "sentence": "The car was modified.",
+        "meaning-example": "Chiếc xe đã được sửa đổi.",
+        "ipa-example": "/ðə kɑːr wəz ˈmɑːdəˌfaɪd/"
+      }
+    ]
+  },
+  {
+    "word": "parallel",
+    "ipa": "/ˈpærəˌlɛl/",
+    "meaning": "song song",
+    "image": "eew-4-29/13.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The lines are parallel.",
+        "meaning-example": "Các đường thẳng song song.",
+        "ipa-example": "/ðə laɪnz ɑːr ˈpærəˌlɛl/"
+      },
+      {
+        "sentence": "Parallel lines never meet.",
+        "meaning-example": "Các đường song song không bao giờ gặp nhau.",
+        "ipa-example": "/ˈpærəˌlɛl laɪnz ˈnɛvər miːt/"
+      }
+    ]
+  },
+  {
+    "word": "phenomenon",
+    "ipa": "/fəˈnɑːməˌnɑːn/",
+    "meaning": "hiện tượng",
+    "image": "eew-4-29/14.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Rainbows are a phenomenon.",
+        "meaning-example": "Cầu vồng là một hiện tượng.",
+        "ipa-example": "/ˈreɪnboʊz ɑːr ə fəˈnɑːməˌnɑːn/"
+      },
+      {
+        "sentence": "It is a rare phenomenon.",
+        "meaning-example": "Đó là một hiện tượng hiếm.",
+        "ipa-example": "/ɪt ɪz ə rɛr fəˈnɑːməˌnɑːn/"
+      }
+    ]
+  },
+  {
+    "word": "pollute",
+    "ipa": "/pəˈluːt/",
+    "meaning": "làm ô nhiễm",
+    "image": "eew-4-29/15.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Cars pollute the air.",
+        "meaning-example": "Ô tô làm ô nhiễm không khí.",
+        "ipa-example": "/kɑːrz pəˈluːt ðə ɛr/"
+      },
+      {
+        "sentence": "Factories pollute rivers.",
+        "meaning-example": "Nhà máy làm ô nhiễm sông ngòi.",
+        "ipa-example": "/ˈfæktəriz pəˈluːt ˈrɪvərz/"
+      }
+    ]
+  },
+  {
+    "word": "ridicule",
+    "ipa": "/ˈrɪdɪˌkjuːl/",
+    "meaning": "chế giễu, cười nhạo",
+    "image": "eew-4-29/16.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "Do not ridicule others.",
+        "meaning-example": "Đừng chế giễu người khác.",
+        "ipa-example": "/duː nɑːt ˈrɪdɪˌkjuːl ˈʌðərz/"
+      },
+      {
+        "sentence": "He was ridiculed for his idea.",
+        "meaning-example": "Anh ấy bị chế giễu vì ý tưởng của mình.",
+        "ipa-example": "/hi wəz ˈrɪdɪˌkjuːld fər hɪz aɪˈdiːə/"
+      }
+    ]
+  },
+  {
+    "word": "solar",
+    "ipa": "/ˈsoʊlər/",
+    "meaning": "thuộc về mặt trời, năng lượng mặt trời",
+    "image": "eew-4-29/17.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Solar energy is clean.",
+        "meaning-example": "Năng lượng mặt trời rất sạch.",
+        "ipa-example": "/ˈsoʊlər ˈɛnərdʒi ɪz kliːn/"
+      },
+      {
+        "sentence": "We use solar panels.",
+        "meaning-example": "Chúng tôi sử dụng tấm pin mặt trời.",
+        "ipa-example": "/wi juːz ˈsoʊlər ˈpænəlz/"
+      }
+    ]
+  },
+  {
+    "word": "territory",
+    "ipa": "/ˈtɛrɪˌtɔːri/",
+    "meaning": "lãnh thổ",
+    "image": "eew-4-29/18.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The dog protects its territory.",
+        "meaning-example": "Con chó bảo vệ lãnh thổ của nó.",
+        "ipa-example": "/ðə dɔːɡ prəˈtɛkts ɪts ˈtɛrɪˌtɔːri/"
+      },
+      {
+        "sentence": "They crossed into new territory.",
+        "meaning-example": "Họ đã đi vào lãnh thổ mới.",
+        "ipa-example": "/ðeɪ krɔːst ˈɪntu nuː ˈtɛrɪˌtɔːri/"
+      }
+    ]
+  },
+  {
+    "word": "tournament",
+    "ipa": "/ˈtʊrnəmənt/",
+    "meaning": "giải đấu",
+    "image": "eew-4-29/19.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The tournament starts today.",
+        "meaning-example": "Giải đấu bắt đầu hôm nay.",
+        "ipa-example": "/ðə ˈtʊrnəmənt stɑːrts təˈdeɪ/"
+      },
+      {
+        "sentence": "She plays in the tournament.",
+        "meaning-example": "Cô ấy thi đấu trong giải.",
+        "ipa-example": "/ʃi pleɪz ɪn ðə ˈtʊrnəmənt/"
+      }
+    ]
+  },
+  {
+    "word": "transportation",
+    "ipa": "/ˌtrænspərˈteɪʃən/",
+    "meaning": "phương tiện di chuyển, vận tải",
+    "image": "eew-4-29/20.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Buses are a type of transportation.",
+        "meaning-example": "Xe buýt là một loại phương tiện vận tải.",
+        "ipa-example": "/ˈbʌsɪz ɑːr ə taɪp əv ˌtrænspərˈteɪʃən/"
+      },
+      {
+        "sentence": "Transportation is important.",
+        "meaning-example": "Vận tải rất quan trọng.",
+        "ipa-example": "/ˌtrænspərˈteɪʃən ɪz ɪmˈpɔːrtənt/"
+      }
+    ]
+  }
+]

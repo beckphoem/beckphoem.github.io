@@ -1,0 +1,182 @@
+[
+  {
+    "question": "một người lính",
+    "answer": "soldier",
+    "ipa": "/ˈsoʊldʒər/",
+    "example": "The **soldiers** were ready to fight.",
+    "images": [
+      "./eew-4-29/17.jpg"
+    ]
+  },
+  {
+    "question": "một cuộc tấn công có tổ chức và thường là bạo lực vào một nhóm người cụ thể",
+    "answer": "pogrom",
+    "ipa": "/pəˈɡrɑːm/",
+    "example": "The **pogrom** began when a group of people started attacking the Jewish area.",
+    "images": [
+      "./eew-4-29/13.jpg"
+    ]
+  },
+  {
+    "question": "một người cai trị độc đoán hoặc chuyên chế",
+    "answer": "dictator",
+    "ipa": "/ˈdɪkteɪtər/",
+    "example": "The **dictator** made everyone follow his rules.",
+    "images": [
+      "./eew-4-29/4.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì chiến tranh hoặc vì lý do chính trị hoặc tôn giáo",
+    "answer": "refugee",
+    "ipa": "/ˌrɛfjuˈdʒiː/",
+    "example": "The **refugees** needed food and water.",
+    "images": [
+      "./eew-4-29/14.jpg"
+    ]
+  },
+  {
+    "question": "một người được gửi đến một nhiệm vụ tôn giáo, đặc biệt là để quảng bá Cơ đốc giáo ở nước ngoài",
+    "answer": "missionary",
+    "ipa": "/ˈmɪʃəneri/",
+    "example": "The **missionary** taught people about Christianity.",
+    "images": [
+      "./eew-4-29/11.jpg"
+    ]
+  },
+  {
+    "question": "một người mà người ta cho là có sức mạnh ma thuật, đặc biệt là để làm hại người khác",
+    "answer": "witch",
+    "ipa": "/wɪtʃ/",
+    "example": "People thought the old woman was a **witch**.",
+    "images": [
+      "./eew-4-29/20.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải làm việc cho người khác mà không được trả tiền",
+    "answer": "slave",
+    "ipa": "/sleɪv/",
+    "example": "The **slaves** worked in the fields all day.",
+    "images": [
+      "./eew-4-29/16.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi nhà hoặc đất nước của họ",
+    "answer": "displaced person",
+    "ipa": "/dɪsˈpleɪst ˈpɜːrsən/",
+    "example": "The **displaced persons** had nowhere to go.",
+    "images": [
+      "./eew-4-29/5.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do chính trị hoặc tôn giáo",
+    "answer": "émigré",
+    "ipa": "/ˈɛmɪɡreɪ/",
+    "example": "The **émigrés** started a new life in America.",
+    "images": [
+      "./eew-4-29/6.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì chiến tranh",
+    "answer": "war refugee",
+    "ipa": "/wɔːr ˌrɛfjuˈdʒiː/",
+    "example": "The **war refugees** were given shelter in tents.",
+    "images": [
+      "./eew-4-29/19.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do kinh tế",
+    "answer": "economic migrant",
+    "ipa": "/ˌiːkəˈnɑːmɪk ˈmaɪɡrənt/",
+    "example": "The **economic migrants** hoped to find work.",
+    "images": [
+      "./eew-4-29/7.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do môi trường",
+    "answer": "environmental refugee",
+    "ipa": "/ɪnˌvaɪrənˈmɛntl ˌrɛfjuˈdʒiː/",
+    "example": "The **environmental refugees** lost their homes to the flood.",
+    "images": [
+      "./eew-4-29/8.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do xã hội",
+    "answer": "social refugee",
+    "ipa": "/ˈsoʊʃəl ˌrɛfjuˈdʒiː/",
+    "example": "The **social refugees** were discriminated against in their home country.",
+    "images": [
+      "./eew-4-29/15.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do cá nhân",
+    "answer": "personal refugee",
+    "ipa": "/ˈpɜːrsənəl ˌrɛfjuˈdʒiː/",
+    "example": "The **personal refugees** wanted to start a new life.",
+    "images": [
+      "./eew-4-29/12.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do gia đình",
+    "answer": "family refugee",
+    "ipa": "/ˈfæməli ˌrɛfjuˈdʒiː/",
+    "example": "The **family refugees** wanted to be reunited with their relatives.",
+    "images": [
+      "./eew-4-29/9.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do sức khỏe",
+    "answer": "health refugee",
+    "ipa": "/hɛlθ ˌrɛfjuˈdʒiː/",
+    "example": "The **health refugees** needed medical treatment.",
+    "images": [
+      "./eew-4-29/10.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do giáo dục",
+    "answer": "education refugee",
+    "ipa": "/ˌɛdʒuˈkeɪʃən ˌrɛfjuˈdʒiː/",
+    "example": "The **education refugees** wanted to study abroad.",
+    "images": [
+      "./eew-4-29/2.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do văn hóa",
+    "answer": "cultural refugee",
+    "ipa": "/ˈkʌltʃərəl ˌrɛfjuˈdʒiː/",
+    "example": "The **cultural refugees** wanted to preserve their traditions.",
+    "images": [
+      "./eew-4-29/3.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do chính trị",
+    "answer": "political refugee",
+    "ipa": "/pəˈlɪtɪkəl ˌrɛfjuˈdʒiː/",
+    "example": "The **political refugees** were persecuted in their home country.",
+    "images": [
+      "./eew-4-29/1.jpg"
+    ]
+  },
+  {
+    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do tôn giáo",
+    "answer": "religious refugee",
+    "ipa": "/rɪˈlɪdʒəs ˌrɛfjuˈdʒiː/",
+    "example": "The **religious refugees** were not allowed to practice their faith.",
+    "images": [
+      "./eew-4-29/18.jpg"
+    ]
+  }
+]
