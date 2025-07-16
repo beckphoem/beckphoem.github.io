@@ -1,182 +1,182 @@
 [
   {
-    "question": "một người lính",
-    "answer": "soldier",
-    "ipa": "/ˈsoʊldʒər/",
-    "example": "The **soldiers** were ready to fight.",
+    "question": "xe ô tô",
+    "answer": "automobile",
+    "ipa": "/ˈɔːtəmoʊˌbiːl/",
+    "example": "Many people think solar-powered automobiles are the answer.",
     "images": [
-      "./eew-4-29/17.jpg"
+      "eew-4-29/1.jpg"
     ]
   },
   {
-    "question": "một cuộc tấn công có tổ chức và thường là bạo lực vào một nhóm người cụ thể",
-    "answer": "pogrom",
-    "ipa": "/pəˈɡrɑːm/",
-    "example": "The **pogrom** began when a group of people started attacking the Jewish area.",
+    "question": "thí sinh, người dự thi",
+    "answer": "candidate",
+    "ipa": "/ˈkændɪˌdeɪt/",
+    "example": "Candidates for this tournament must design their own cars.",
     "images": [
-      "./eew-4-29/13.jpg"
+      "eew-4-29/2.jpg"
     ]
   },
   {
-    "question": "một người cai trị độc đoán hoặc chuyên chế",
-    "answer": "dictator",
-    "ipa": "/ˈdɪkteɪtər/",
-    "example": "The **dictator** made everyone follow his rules.",
+    "question": "bí mật",
+    "answer": "confidential",
+    "ipa": "/ˌkɑːnfɪˈdɛnʃəl/",
+    "example": "The teams keep all their plans confidential.",
     "images": [
-      "./eew-4-29/4.jpg"
+      "eew-4-29/3.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì chiến tranh hoặc vì lý do chính trị hoặc tôn giáo",
-    "answer": "refugee",
-    "ipa": "/ˌrɛfjuˈdʒiː/",
-    "example": "The **refugees** needed food and water.",
+    "question": "thuộc về công ty, tổ chức",
+    "answer": "corporate",
+    "ipa": "/ˈkɔːrpərət/",
+    "example": "Teams from universities and corporate organizations gather in Australia.",
     "images": [
-      "./eew-4-29/14.jpg"
+      "eew-4-29/4.jpg"
     ]
   },
   {
-    "question": "một người được gửi đến một nhiệm vụ tôn giáo, đặc biệt là để quảng bá Cơ đốc giáo ở nước ngoài",
-    "answer": "missionary",
-    "ipa": "/ˈmɪʃəneri/",
-    "example": "The **missionary** taught people about Christianity.",
+    "question": "nâng cấp, cải tiến",
+    "answer": "enhance",
+    "ipa": "/ɪnˈhæns/",
+    "example": "These cars aren’t just enhanced and modified versions of normal cars.",
     "images": [
-      "./eew-4-29/11.jpg"
+      "eew-4-29/5.jpg"
     ]
   },
   {
-    "question": "một người mà người ta cho là có sức mạnh ma thuật, đặc biệt là để làm hại người khác",
-    "answer": "witch",
-    "ipa": "/wɪtʃ/",
-    "example": "People thought the old woman was a **witch**.",
+    "question": "thời đại",
+    "answer": "era",
+    "ipa": "/ˈɪərə/",
+    "example": "A new era in car making and in driving is beginning.",
     "images": [
-      "./eew-4-29/20.jpg"
+      "eew-4-29/6.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải làm việc cho người khác mà không được trả tiền",
-    "answer": "slave",
-    "ipa": "/sleɪv/",
-    "example": "The **slaves** worked in the fields all day.",
+    "question": "hướng dẫn, quy định",
+    "answer": "guideline",
+    "ipa": "/ˈɡaɪdlaɪn/",
+    "example": "The drivers have to heed strict guidelines.",
     "images": [
-      "./eew-4-29/16.jpg"
+      "eew-4-29/7.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi nhà hoặc đất nước của họ",
-    "answer": "displaced person",
-    "ipa": "/dɪsˈpleɪst ˈpɜːrsən/",
-    "example": "The **displaced persons** had nowhere to go.",
+    "question": "tích hợp, kết hợp",
+    "answer": "incorporate",
+    "ipa": "/ɪnˈkɔːrpəˌreɪt/",
+    "example": "The cars incorporate solar panels onto the outside.",
     "images": [
-      "./eew-4-29/5.jpg"
+      "eew-4-29/8.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do chính trị hoặc tôn giáo",
-    "answer": "émigré",
-    "ipa": "/ˈɛmɪɡreɪ/",
-    "example": "The **émigrés** started a new life in America.",
+    "question": "tương tác",
+    "answer": "interact",
+    "ipa": "/ˌɪntərˈækt/",
+    "example": "They don’t interact with other teams because the race is very competitive.",
     "images": [
-      "./eew-4-29/6.jpg"
+      "eew-4-29/9.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì chiến tranh",
-    "answer": "war refugee",
-    "ipa": "/wɔːr ˌrɛfjuˈdʒiː/",
-    "example": "The **war refugees** were given shelter in tents.",
+    "question": "khoảng thời gian",
+    "answer": "interval",
+    "ipa": "/ˈɪntərvəl/",
+    "example": "They must stop at certain intervals to charge their batteries.",
     "images": [
-      "./eew-4-29/19.jpg"
+      "eew-4-29/10.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do kinh tế",
-    "answer": "economic migrant",
-    "ipa": "/ˌiːkəˈnɑːmɪk ˈmaɪɡrənt/",
-    "example": "The **economic migrants** hoped to find work.",
+    "question": "di động, dễ di chuyển",
+    "answer": "mobile",
+    "ipa": "/ˈmoʊbəl/",
+    "example": "We live in a mobile society.",
     "images": [
-      "./eew-4-29/7.jpg"
+      "eew-4-29/11.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do môi trường",
-    "answer": "environmental refugee",
-    "ipa": "/ɪnˌvaɪrənˈmɛntl ˌrɛfjuˈdʒiː/",
-    "example": "The **environmental refugees** lost their homes to the flood.",
+    "question": "sửa đổi, thay đổi",
+    "answer": "modify",
+    "ipa": "/ˈmɑːdəˌfaɪ/",
+    "example": "These cars aren’t just enhanced and modified versions of normal cars.",
     "images": [
-      "./eew-4-29/8.jpg"
+      "eew-4-29/12.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do xã hội",
-    "answer": "social refugee",
-    "ipa": "/ˈsoʊʃəl ˌrɛfjuˈdʒiː/",
-    "example": "The **social refugees** were discriminated against in their home country.",
+    "question": "song song",
+    "answer": "parallel",
+    "ipa": "/ˈpærəˌlɛl/",
+    "example": "Solar panels onto the outside that lie parallel to each other.",
     "images": [
-      "./eew-4-29/15.jpg"
+      "eew-4-29/13.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do cá nhân",
-    "answer": "personal refugee",
-    "ipa": "/ˈpɜːrsənəl ˌrɛfjuˈdʒiː/",
-    "example": "The **personal refugees** wanted to start a new life.",
+    "question": "hiện tượng",
+    "answer": "phenomenon",
+    "ipa": "/fəˈnɑːməˌnɑːn/",
+    "example": "This is a phenomenon that isn’t going away.",
     "images": [
-      "./eew-4-29/12.jpg"
+      "eew-4-29/14.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do gia đình",
-    "answer": "family refugee",
-    "ipa": "/ˈfæməli ˌrɛfjuˈdʒiː/",
-    "example": "The **family refugees** wanted to be reunited with their relatives.",
+    "question": "làm ô nhiễm",
+    "answer": "pollute",
+    "ipa": "/pəˈluːt/",
+    "example": "They pollute the air.",
     "images": [
-      "./eew-4-29/9.jpg"
+      "eew-4-29/15.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do sức khỏe",
-    "answer": "health refugee",
-    "ipa": "/hɛlθ ˌrɛfjuˈdʒiː/",
-    "example": "The **health refugees** needed medical treatment.",
+    "question": "chế giễu, cười nhạo",
+    "answer": "ridicule",
+    "ipa": "/ˈrɪdɪˌkjuːl/",
+    "example": "People may ridicule the solar cars because they look strange.",
     "images": [
-      "./eew-4-29/10.jpg"
+      "eew-4-29/16.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do giáo dục",
-    "answer": "education refugee",
-    "ipa": "/ˌɛdʒuˈkeɪʃən ˌrɛfjuˈdʒiː/",
-    "example": "The **education refugees** wanted to study abroad.",
+    "question": "thuộc về mặt trời, năng lượng mặt trời",
+    "answer": "solar",
+    "ipa": "/ˈsoʊlər/",
+    "example": "Many people think solar-powered automobiles are the answer.",
     "images": [
-      "./eew-4-29/2.jpg"
+      "eew-4-29/17.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do văn hóa",
-    "answer": "cultural refugee",
-    "ipa": "/ˈkʌltʃərəl ˌrɛfjuˈdʒiː/",
-    "example": "The **cultural refugees** wanted to preserve their traditions.",
+    "question": "lãnh thổ",
+    "answer": "territory",
+    "ipa": "/ˈtɛrɪˌtɔːri/",
+    "example": "These cars race over 3,000 kilometers across the Australian territories.",
     "images": [
-      "./eew-4-29/3.jpg"
+      "eew-4-29/18.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do chính trị",
-    "answer": "political refugee",
-    "ipa": "/pəˈlɪtɪkəl ˌrɛfjuˈdʒiː/",
-    "example": "The **political refugees** were persecuted in their home country.",
+    "question": "giải đấu",
+    "answer": "tournament",
+    "ipa": "/ˈtʊrnəmənt/",
+    "example": "Candidates for this tournament must design their own cars.",
     "images": [
-      "./eew-4-29/1.jpg"
+      "eew-4-29/19.jpg"
     ]
   },
   {
-    "question": "một người bị buộc phải rời khỏi đất nước của họ vì lý do tôn giáo",
-    "answer": "religious refugee",
-    "ipa": "/rɪˈlɪdʒəs ˌrɛfjuˈdʒiː/",
-    "example": "The **religious refugees** were not allowed to practice their faith.",
+    "question": "phương tiện di chuyển, vận tải",
+    "answer": "transportation",
+    "ipa": "/ˌtrænspərˈteɪʃən/",
+    "example": "To learn more about this type of transportation...",
     "images": [
-      "./eew-4-29/18.jpg"
+      "eew-4-29/20.jpg"
     ]
   }
 ]
