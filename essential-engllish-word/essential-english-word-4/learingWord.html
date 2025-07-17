@@ -759,10 +759,29 @@
 
             const targetExampleSentence = currentExample.sentence;
 
+            // Chuẩn hóa và tách từ
             const cleanTranscript = transcript.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
             const cleanTargetExample = targetExampleSentence.trim().toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ');
 
-            if (cleanTranscript === cleanTargetExample) {
+            const userWords = cleanTranscript.split(' ');
+            const answerWords = cleanTargetExample.split(' ');
+
+            // So sánh từng từ và tạo HTML với từ đúng màu xanh, sai màu đỏ
+            let highlighted = '';
+            let allCorrect = true;
+            for (let i = 0; i < answerWords.length; i++) {
+                const userWord = userWords[i] || '';
+                if (userWord === answerWords[i]) {
+                    highlighted += `<span style="color:green;font-weight:bold">${userWord}</span> `;
+                } else {
+                    highlighted += `<span style="color:red;font-weight:bold">${userWord || '[...]'}</span> `;
+                    allCorrect = false;
+                }
+            }
+
+            transcriptionElement.innerHTML = `Bạn nói: "${highlighted.trim()}"`;
+
+            if (allCorrect && userWords.length === answerWords.length) {
                 feedbackElement.textContent = 'Chính xác!';
                 feedbackElement.className = 'feedback correct';
                 feedbackElement.classList.remove('hidden');
@@ -770,15 +789,12 @@
                 // --- Logic chuyển ví dụ tại đây ---
                 const word = vocabularyData[currentWordIndex];
                 if (word.example && word.example.length > 0) {
-                    // Calculate next index with loop
                     let nextExample = currentExampleIndex + 1;
                     if (nextExample >= word.example.length) {
-                        nextExample = 0; // Loop back to the first example
+                        nextExample = 0;
                     }
-                    // Display the next example (or loop back)
                     displayExample(nextExample);
                 } else {
-                    // Should not happen if we checked for examples earlier
                     examplesListElement.innerHTML += '<p class="text-sm text-gray-600 mt-2">Đã hết ví dụ cho từ này.</p>';
                     nextExampleBtn.classList.add('hidden');
                 }
