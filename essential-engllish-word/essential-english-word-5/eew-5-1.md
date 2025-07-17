@@ -28,6 +28,8 @@ Mary **griped** some more, but she knew that her sister was right. She took the 
 
 ---
 
+## Sentences of story 
+
 Beth was a very **resourceful** and conservative mouse.
 
 She knew that winter was coming and that there would soon be a **dearth** of food.

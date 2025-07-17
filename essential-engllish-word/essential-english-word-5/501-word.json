@@ -378,5 +378,125 @@
         "ipa-example": "/ɪt wɪl bi ˈtiːdiəs, bʌt juː wɪl lɜːrn ðə ˈvæljuː əv hɑːrd wɜːrk/"
       }
     ]
+  },
+  {
+  "word": "sentences of story",
+  "ipa": null,
+  "meaning": "Các câu trong truyện",
+  "image": null,
+  "classes": null,
+  "example": [
+    {
+      "sentence": "Beth was a very resourceful and conservative mouse.",
+      "meaning-example": "Beth là một con chuột rất tháo vát và cẩn trọng.",
+      "ipa-example": "/bɛθ wəz ə ˈvɛri rɪˈsɔːrsfʊl ænd kənˈsɜːrvətɪv maʊs/"
+    },
+    {
+      "sentence": "She knew that winter was coming and that there would soon be a dearth of food.",
+      "meaning-example": "Cô biết rằng mùa đông đang đến và sẽ sớm có sự khan hiếm thức ăn.",
+      "ipa-example": "/ʃi nuː ðæt ˈwɪntər wəz ˈkʌmɪŋ ænd ðæt ðɛər wʊd suːn bi ə dɜːrθ əv fuːd/"
+    },
+    {
+      "sentence": "So she decided to make gathering food for winter her primary job.",
+      "meaning-example": "Vì vậy, cô quyết định biến việc thu thập thức ăn cho mùa đông thành công việc chính của mình.",
+      "ipa-example": "/soʊ ʃi dɪˈsaɪdɪd tə meɪk ˈɡæðərɪŋ fuːd fɔːr ˈwɪntər hɜːr ˈpraɪməri dʒɒb/"
+    },
+    {
+      "sentence": "Gathering food was a grueling and mundane activity, but Beth made a deliberate effort because she knew that it was important.",
+      "meaning-example": "Việc thu thập thức ăn là một hoạt động mệt mỏi và nhàm chán, nhưng Beth đã cố gắng một cách có chủ đích vì cô biết rằng điều đó rất quan trọng.",
+      "ipa-example": "/ˈɡæðərɪŋ fuːd wəz ə ˈɡruːəlɪŋ ænd mʌnˈdeɪn ækˈtɪvəti, bʌt bɛθ meɪd ə dɪˈlɪbərət ˈɛfərt bɪˈkɔːz ʃi nuː ðæt ɪt wəz ɪmˈpɔːrtənt/"
+    },
+    {
+      "sentence": "She allotted herself a few hours every day to collect beans.",
+      "meaning-example": "Cô ấy dành vài giờ mỗi ngày để thu thập đậu.",
+      "ipa-example": "/ʃi əˈlɒtɪd hərˈsɛlf ə fjuː ˈaʊərz ˈɛvri deɪ tə kəˈlɛkt biːnz/"
+    },
+    {
+      "sentence": "By winter, she had collected a massive pile and hid them in a cache.",
+      "meaning-example": "Đến mùa đông, cô đã thu thập được một đống lớn và giấu chúng vào một kho dự trữ.",
+      "ipa-example": "/baɪ ˈwɪntər, ʃi hæd kəˈlɛktɪd ə ˈmæsɪv paɪl ænd hɪd ðɛm ɪn ə kæʃ/"
+    },
+    {
+      "sentence": "Beth had a sister named Mary.",
+      "meaning-example": "Beth có một người chị tên là Mary.",
+      "ipa-example": "/bɛθ hæd ə ˈsɪstər neɪmd ˈmɛri/"
+    },
+    {
+      "sentence": "Mary lacked ambition.",
+      "meaning-example": "Mary thiếu tham vọng.",
+      "ipa-example": "/ˈmɛri lækt æmˈbɪʃən/"
+    },
+    {
+      "sentence": "She had fanciful ideas about how she would survive winter.",
+      "meaning-example": "Cô ấy có những ý tưởng viển vông về cách cô sẽ sống sót qua mùa đông.",
+      "ipa-example": "/ʃi hæd ˈfænsɪfʊl aɪˈdiːəz əˈbaʊt haʊ ʃi wʊd sərˈvaɪv ˈwɪntər/"
+    },
+    {
+      "sentence": "She thought that food would just come to her and that she could work at her own convenience.",
+      "meaning-example": "Cô nghĩ rằng thức ăn sẽ tự đến với cô và cô có thể làm việc tùy theo sự tiện lợi của mình.",
+      "ipa-example": "/ʃi θɔːt ðæt fuːd wʊd dʒʌst kʌm tə hɜːr ænd ðæt ʃi kʊd wɜːrk æt hər oʊn kənˈviːniəns/"
+    },
+    {
+      "sentence": "She opted to spend the days playing and dancing, instead of gathering beans.",
+      "meaning-example": "Cô ấy chọn dành những ngày để chơi và nhảy múa, thay vì thu thập đậu.",
+      "ipa-example": "/ʃi ɒpt tə spɛnd ðə deɪz ˈpleɪɪŋ ænd ˈdænsɪŋ, ɪnˈstɛd əv ˈɡæðərɪŋ biːnz/"
+    },
+    {
+      "sentence": "When the final hours of autumn elapsed, Mary had only a paltry amount of food stored away.",
+      "meaning-example": "Khi những giờ cuối cùng của mùa thu trôi qua, Mary chỉ có một lượng thức ăn ít ỏi được cất giữ.",
+      "ipa-example": "/wɛn ðə ˈfaɪnl ˈaʊərz əv ˈɔːtəm ɪˈlæpst, ˈmɛri hæd ˈoʊnli ə ˈpɔːltri əˈmaʊnt əv fuːd stɔːrd əˈweɪ/"
+    },
+    {
+      "sentence": "Mary realized that her food supply was too small to last through winter.",
+      "meaning-example": "Mary nhận ra rằng lượng thức ăn của cô quá ít không đủ để kéo dài qua mùa đông.",
+      "ipa-example": "/ˈmɛri ˈriːəlaɪzd ðæt hər fuːd səˈplaɪ wəz tuː smɔːl tə læst θruː ˈwɪntər/"
+    },
+    {
+      "sentence": "She visited her sister.",
+      "meaning-example": "Cô ấy đến thăm chị gái mình.",
+      "ipa-example": "/ʃi ˈvɪzɪtɪd hər ˈsɪstər/"
+    },
+    {
+      "sentence": "Mary said, “Beth, lamina dire situation. I didn’t gather enough food for winter. Will you let me share your beans? Please have some empathy for your sister!”",
+      "meaning-example": "Mary nói, “Beth, tình hình thật tồi tệ. Em không thu thập đủ thức ăn cho mùa đông. Chị có cho em chia sẻ đậu của chị không? Xin hãy thông cảm cho em gái chị!”",
+      "ipa-example": "/ˈmɛri sɛd, “bɛθ, ˈlæmɪnə daɪər ˌsɪtʃuˈeɪʃən. aɪ dɪdnt ˈɡæðər ɪˈnʌf fuːd fɔːr ˈwɪntər. wɪl juː lɛt mi ʃɛər jʊər biːnz? pliːz hæv sʌm ˈɛmpəθi fɔːr jʊər ˈsɪstər!”/"
+    },
+    {
+      "sentence": "Beth thought for a moment.",
+      "meaning-example": "Beth suy nghĩ một lúc.",
+      "ipa-example": "/bɛθ θɔːt fɔːr ə ˈmoʊmənt/"
+    },
+    {
+      "sentence": "Then she replied, “Mary, I am truly sorry for you. But I will not give you any of my beans. Instead, I will let you have my empty bag. You can still work hard and gather enough food for the winter. It will be tedious, but you will learn the value of hard work.”",
+      "meaning-example": "Rồi cô trả lời, “Mary, chị thực sự rất tiếc cho em. Nhưng chị sẽ không cho em bất kỳ hạt đậu nào của chị. Thay vào đó, chị sẽ cho em chiếc túi rỗng của chị. Em vẫn có thể làm việc chăm chỉ và thu thập đủ thức ăn cho mùa đông. Việc đó sẽ tẻ nhạt, nhưng em sẽ học được giá trị của sự chăm chỉ.”",
+      "ipa-example": "/ðɛn ʃi rɪˈplaɪd, “ˈmɛri, aɪ æm ˈtruːli ˈsɒri fɔːr juː. bʌt aɪ wɪl nɒt ɡɪv juː ˈɛni əv maɪ biːnz. ɪnˈstɛd, aɪ wɪl lɛt juː hæv maɪ ˈɛmpti bæɡ. juː kæn stɪl wɜːrk hɑːrd ænd ˈɡæðər ɪˈnʌf fuːd fɔːr ðə ˈwɪntər. ɪt wɪl bi ˈtiːdiəs, bʌt juː wɪl lɜːrn ðə ˈvæljuː əv hɑːrd wɜːrk.”/"
+    },
+    {
+      "sentence": "Beth’s words appalled Mary.",
+      "meaning-example": "Lời nói của Beth làm Mary kinh hoàng.",
+      "ipa-example": "/bɛθs wɜːrdz əˈpɔːld ˈmɛri/"
+    },
+    {
+      "sentence": "Mary cried with outrage, “There is too much work! I won’t have any time to dance or play!”",
+      "meaning-example": "Mary kêu lên trong sự phẫn nộ, “Có quá nhiều việc! Em sẽ không có thời gian để nhảy múa hay chơi đùa!”",
+      "ipa-example": "/ˈmɛri kraɪd wɪð ˈaʊtreɪdʒ, “ðɛər ɪz tuː mʌtʃ wɜːrk! aɪ woʊnt hæv ˈɛni taɪm tə dæns ɔːr pleɪ!”/"
+    },
+    {
+      "sentence": "Beth said, “It is crucial that you gather enough food. You must have sustenance before you have fun. Go now, and rectify your situation.”",
+      "meaning-example": "Beth nói, “Điều quan trọng là em phải thu thập đủ thức ăn. Em phải có thức ăn nuôi sống trước khi em vui chơi. Đi ngay, và khắc phục tình hình của em.”",
+      "ipa-example": "/bɛθ sɛd, “ɪt ɪz ˈkruːʃəl ðæt juː ˈɡæðər ɪˈnʌf fuːd. juː mʌst hæv ˈsʌstənəns bɪˈfɔːr juː hæv fʌn. ɡoʊ naʊ, ænd ˈrɛktɪfaɪ jʊər ˌsɪtʃuˈeɪʃən.”/"
+    },
+    {
+      "sentence": "Mary griped some more, but she knew that her sister was right.",
+      "meaning-example": "Mary càu nhàu thêm nữa, nhưng cô biết rằng chị gái mình đã đúng.",
+      "ipa-example": "/ˈmɛri ɡraɪpt sʌm mɔːr, bʌt ʃi nuː ðæt hər ˈsɪstər wəz raɪt/"
+    },
+    {
+      "sentence": "She took the bag and went to work gathering her own beans for the winter.",
+      "meaning-example": "Cô ấy cầm lấy chiếc túi và đi làm việc thu thập đậu cho riêng mình để chuẩn bị cho mùa đông.",
+      "ipa-example": "/ʃi tʊk ðə bæɡ ænd wɛnt tə wɜːrk ˈɡæðərɪŋ hər oʊn biːnz fɔːr ðə ˈwɪntər/"
+    }
+  ]
   }
 ]
+
