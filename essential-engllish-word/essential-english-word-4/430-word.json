@@ -1,0 +1,382 @@
+[
+  {
+    "word": "bill",
+    "ipa": "/bɪl/",
+    "meaning": "hóa đơn",
+    "image": "eew-4-30/1.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "But he was disorganized and forgot to pay his bills.",
+        "meaning-example": "Nhưng anh ấy rất vô tổ chức và quên thanh toán các hóa đơn.",
+        "ipa-example": "/bʌt hiː wʌz dɪsˈɔːrɡənaɪzd ænd fərˈɡɒt tə peɪ hɪz bɪlz/"
+      },
+      {
+        "sentence": "I have to pay the bills.",
+        "meaning-example": "Tôi phải thanh toán các hóa đơn.",
+        "ipa-example": "/aɪ hæv tə peɪ ðə bɪlz/"
+      }
+    ]
+  },
+  {
+    "word": "boundary",
+    "ipa": "/ˈbaʊndəri/",
+    "meaning": "ranh giới",
+    "image": "eew-4-30/2.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "There was so much, in fact, that they could barely see its boundary.",
+        "meaning-example": "Thực tế, có quá nhiều đến nỗi họ hầu như không thể nhìn thấy ranh giới của nó.",
+        "ipa-example": "/ðeər wʌz soʊ mʌtʃ, ɪn fækt, ðæt ðeɪ kʊd ˈberli siː ɪts ˈbaʊndəri/"
+      },
+      {
+        "sentence": "The fence marks the boundary.",
+        "meaning-example": "Hàng rào đánh dấu ranh giới.",
+        "ipa-example": "/ðə fɛns mɑːrks ðə ˈbaʊndəri/"
+      }
+    ]
+  },
+  {
+    "word": "chaos",
+    "ipa": "/ˈkeɪɑːs/",
+    "meaning": "sự hỗn loạn",
+    "image": "eew-4-30/3.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Just think, it took the chaos of a typhoon to bring us together.",
+        "meaning-example": "Hãy nghĩ xem, phải cần đến sự hỗn loạn của một cơn bão mới đưa chúng ta đến với nhau.",
+        "ipa-example": "/dʒʌst θɪŋk, ɪt tʊk ðə ˈkeɪɑːs ʌv ə taɪˈfuːn tə brɪŋ ʌs təˈɡɛðər/"
+      },
+      {
+        "sentence": "The city was in chaos.",
+        "meaning-example": "Thành phố chìm trong hỗn loạn.",
+        "ipa-example": "/ðə ˈsɪti wʌz ɪn ˈkeɪɑːs/"
+      }
+    ]
+  },
+  {
+    "word": "consistent",
+    "ipa": "/kənˈsɪstənt/",
+    "meaning": "nhất quán, kiên định",
+    "image": "eew-4-30/4.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "They were very different, but they were consistent about two things.",
+        "meaning-example": "Họ rất khác nhau, nhưng họ nhất quán về hai điều.",
+        "ipa-example": "/ðeɪ wər ˈveri ˈdɪfrənt, bʌt ðeɪ wər kənˈsɪstənt əˈbaʊt tuː θɪŋz/"
+      },
+      {
+        "sentence": "He is a consistent worker.",
+        "meaning-example": "Anh ấy là một người làm việc nhất quán.",
+        "ipa-example": "/hiː ɪz ə kənˈsɪstənt ˈwɜːrkər/"
+      }
+    ]
+  },
+  {
+    "word": "cyclone",
+    "ipa": "/ˈsaɪkloʊn/",
+    "meaning": "lốc xoáy",
+    "image": "eew-4-30/5.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "No, it’s a cyclone.",
+        "meaning-example": "Không, đó là một cơn lốc xoáy.",
+        "ipa-example": "/noʊ, ɪts ə ˈsaɪkloʊn/"
+      },
+      {
+        "sentence": "The cyclone hit the coast.",
+        "meaning-example": "Cơn lốc xoáy đã tấn công bờ biển.",
+        "ipa-example": "/ðə ˈsaɪkloʊn hɪt ðə koʊst/"
+      }
+    ]
+  },
+  {
+    "word": "heir",
+    "ipa": "/er/",
+    "meaning": "người thừa kế",
+    "image": "eew-4-30/6.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "They were heirs to his old farm.",
+        "meaning-example": "Họ là những người thừa kế trang trại cũ của ông.",
+        "ipa-example": "/ðeɪ wər erz tuː hɪz oʊld fɑːrm/"
+      },
+      {
+        "sentence": "He is the heir to the throne.",
+        "meaning-example": "Anh ấy là người thừa kế ngai vàng.",
+        "ipa-example": "/hiː ɪz ði er tuː ðə θroʊn/"
+      }
+    ]
+  },
+  {
+    "word": "doomed",
+    "ipa": "/duːmd/",
+    "meaning": "обречённый",
+    "image": "eew-4-30/7.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Whatever it is, it’s coming right at us! We’re doomed!",
+        "meaning-example": "Dù nó là gì đi nữa, nó đang đến ngay chỗ chúng ta! Chúng ta обречённый rồi!",
+        "ipa-example": "/wʌtˈevər ɪt ɪz, ɪts ˈkʌmɪŋ raɪt æt ʌs! wiːr duːmd!/"
+      },
+      {
+        "sentence": "We are all doomed.",
+        "meaning-example": "Tất cả chúng ta đều обречённый.",
+        "ipa-example": "/wiː ɑːr ɔːl duːmd/"
+      }
+    ]
+  },
+  {
+    "word": "martial",
+    "ipa": "/ˈmɑːrʃəl/",
+    "meaning": "thuộc về võ thuật",
+    "image": "eew-4-30/8.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "He ran a martial arts school, but his stance on discipline was too strong.",
+        "meaning-example": "Anh ấy điều hành một trường dạy võ thuật, nhưng lập trường của anh ấy về kỷ luật quá mạnh.",
+        "ipa-example": "/hiː ræn ə ˈmɑːrʃəl ɑːrts skuːl, bʌt hɪz stæns ɒn ˈdɪsɪplɪn wʌz tuː strɒŋ/"
+      },
+      {
+        "sentence": "He practices martial arts.",
+        "meaning-example": "Anh ấy tập võ thuật.",
+        "ipa-example": "/hiː ˈpræktɪsɪz ˈmɑːrʃəl ɑːrts/"
+      }
+    ]
+  },
+  {
+    "word": "organic",
+    "ipa": "/ɔːrˈɡænɪk/",
+    "meaning": "hữu cơ",
+    "image": "eew-4-30/9.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Martin was a hardworking farmer, growing organic vegetables and raising poultry.",
+        "meaning-example": "Martin là một nông dân chăm chỉ, trồng rau hữu cơ và nuôi gia cầm.",
+        "ipa-example": "/ˈmɑːrtɪn wʌz ə ˈhɑːrdˌwɜːrkɪŋ ˈfɑːrmər, ˈɡroʊɪŋ ɔːrˈɡænɪk ˈvɛdʒtəbəlz ænd ˈreɪzɪŋ ˈpoʊltri/"
+      },
+      {
+        "sentence": "She buys organic food.",
+        "meaning-example": "Cô ấy mua thực phẩm hữu cơ.",
+        "ipa-example": "/ʃiː baɪz ɔːrˈɡænɪk fuːd/"
+      }
+    ]
+  },
+  {
+    "word": "poultry",
+    "ipa": "/ˈpoʊltri/",
+    "meaning": "gia cầm",
+    "image": "eew-4-30/10.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Martin was a hardworking farmer, growing organic vegetables and raising poultry.",
+        "meaning-example": "Martin là một nông dân chăm chỉ, trồng rau hữu cơ và nuôi gia cầm.",
+        "ipa-example": "/ˈmɑːrtɪn wʌz ə ˈhɑːrdˌwɜːrkɪŋ ˈfɑːrmər, ˈɡroʊɪŋ ɔːrˈɡænɪk ˈvɛdʒtəbəlz ænd ˈreɪzɪŋ ˈpoʊltri/"
+      },
+      {
+        "sentence": "They raise poultry on the farm.",
+        "meaning-example": "Họ nuôi gia cầm trong trang trại.",
+        "ipa-example": "/ðeɪ reɪz ˈpoʊltri ɒn ðə fɑːrm/"
+      }
+    ]
+  },
+  {
+    "word": "scramble",
+    "ipa": "/ˈskræmbl/",
+    "meaning": "vội vã, tranh giành",
+    "image": "eew-4-30/11.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "The three brothers scrambled inside the old house.",
+        "meaning-example": "Ba anh em vội vã vào trong ngôi nhà cũ.",
+        "ipa-example": "/ðə θriː ˈbrʌðərz ˈskræmbəld ɪnˈsaɪd ði oʊld haʊs/"
+      },
+      {
+        "sentence": "They scrambled for the door.",
+        "meaning-example": "Họ tranh giành nhau để ra cửa.",
+        "ipa-example": "/ðeɪ ˈskræmbəld fər ðə dɔːr/"
+      }
+    ]
+  },
+  {
+    "word": "sergeant",
+    "ipa": "/ˈsɑːrdʒənt/",
+    "meaning": "trung sĩ",
+    "image": "eew-4-30/12.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Tom was once a sergeant in the army.",
+        "meaning-example": "Tom đã từng là một trung sĩ trong quân đội.",
+        "ipa-example": "/tɒm wʌz wʌns ə ˈsɑːrdʒənt ɪn ði ˈɑːrmi/"
+      },
+      {
+        "sentence": "The sergeant gave orders.",
+        "meaning-example": "Trung sĩ ra lệnh.",
+        "ipa-example": "/ðə ˈsɑːrdʒənt ɡeɪv ˈɔːrdərz/"
+      }
+    ]
+  },
+  {
+    "word": "sheer",
+    "ipa": "/ʃɪr/",
+    "meaning": "hoàn toàn, tuyệt đối",
+    "image": "eew-4-30/13.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "The sheer force of the wind almost knocked them over.",
+        "meaning-example": "Sức gió tuyệt đối gần như đã đánh bật họ.",
+        "ipa-example": "/ðə ʃɪr fɔːrs ʌv ðə wɪnd ˈɔːlmoʊst nɒkt ðɛm ˈoʊvər/"
+      },
+      {
+        "sentence": "The sheer drop was scary.",
+        "meaning-example": "Độ dốc đứng rất đáng sợ.",
+        "ipa-example": "/ðə ʃɪr drɒp wʌz ˈskeri/"
+      }
+    ]
+  },
+  {
+    "word": "stance",
+    "ipa": "/stæns/",
+    "meaning": "lập trường, quan điểm",
+    "image": "eew-4-30/14.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "He ran a martial arts school, but his stance on discipline was too strong.",
+        "meaning-example": "Anh ấy điều hành một trường dạy võ thuật, nhưng lập trường của anh ấy về kỷ luật quá mạnh.",
+        "ipa-example": "/hiː ræn ə ˈmɑːrʃəl ɑːrts skuːl, bʌt hɪz stæns ɒn ˈdɪsɪplɪn wʌz tuː strɒŋ/"
+      },
+      {
+        "sentence": "He has a strong stance on the issue.",
+        "meaning-example": "Anh ấy có một lập trường mạnh mẽ về vấn đề này.",
+        "ipa-example": "/hiː hæz ə strɒŋ stæns ɒn ði ˈɪʃuː/"
+      }
+    ]
+  },
+  {
+    "word": "telegraph",
+    "ipa": "/ˈtelɪɡræf/",
+    "meaning": "điện báo",
+    "image": "eew-4-30/15.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "One day, they received a telegraph saying that their father had died.",
+        "meaning-example": "Một ngày nọ, họ nhận được một bức điện báo nói rằng cha họ đã qua đời.",
+        "ipa-example": "/wʌn deɪ, ðeɪ rɪˈsiːvd ə ˈtelɪɡræf ˈseɪɪŋ ðæt ðeər ˈfɑːðər həd daɪd/"
+      },
+      {
+        "sentence": "They sent a telegraph.",
+        "meaning-example": "Họ đã gửi một bức điện báo.",
+        "ipa-example": "/ðeɪ sɛnt ə ˈtelɪɡræf/"
+      }
+    ]
+  },
+  {
+    "word": "textile",
+    "ipa": "/ˈtekstaɪl/",
+    "meaning": "vải",
+    "image": "eew-4-30/16.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Paul owned a textile factory that produced clothes.",
+        "meaning-example": "Paul sở hữu một nhà máy dệt sản xuất quần áo.",
+        "ipa-example": "/pɔːl oʊnd ə ˈtekstaɪl ˈfæktəri ðæt prəˈduːst kloʊðz/"
+      },
+      {
+        "sentence": "The textile industry is large.",
+        "meaning-example": "Ngành công nghiệp dệt may rất lớn.",
+        "ipa-example": "/ðə ˈtekstaɪl ˈɪndəstri ɪz lɑːrdʒ/"
+      }
+    ]
+  },
+  {
+    "word": "tornado",
+    "ipa": "/tɔːrˈneɪdoʊ/",
+    "meaning": "lốc xoáy",
+    "image": "eew-4-30/17.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "No, it’s a tornado!",
+        "meaning-example": "Không, đó là một cơn lốc xoáy!",
+        "ipa-example": "/noʊ, ɪts ə tɔːrˈneɪdoʊ/"
+      },
+      {
+        "sentence": "The tornado destroyed the town.",
+        "meaning-example": "Cơn lốc xoáy đã phá hủy thị trấn.",
+        "ipa-example": "/ðə tɔːrˈneɪdoʊ dɪˈstrɔɪd ðə taʊn/"
+      }
+    ]
+  },
+  {
+    "word": "typhoon",
+    "ipa": "/taɪˈfuːn/",
+    "meaning": "bão lớn",
+    "image": "eew-4-30/18.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Look, it’s a typhoon!",
+        "meaning-example": "Nhìn kìa, đó là một cơn bão lớn!",
+        "ipa-example": "/lʊk, ɪts ə taɪˈfuːn/"
+      },
+      {
+        "sentence": "The typhoon hit the island.",
+        "meaning-example": "Cơn bão lớn đã tấn công hòn đảo.",
+        "ipa-example": "/ðə taɪˈfuːn hɪt ði ˈaɪlənd/"
+      }
+    ]
+  },
+  {
+    "word": "wail",
+    "ipa": "/weɪl/",
+    "meaning": "than khóc",
+    "image": "eew-4-30/19.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "They argued until Paul began to wail...",
+        "meaning-example": "Họ tranh cãi cho đến khi Paul bắt đầu than khóc...",
+        "ipa-example": "/ðeɪ ˈɑːrɡjuːd ʌnˈtɪl pɔːl bɪˈɡæn tə weɪl/"
+      },
+      {
+        "sentence": "The baby began to wail.",
+        "meaning-example": "Đứa bé bắt đầu than khóc.",
+        "ipa-example": "/ðə ˈbeɪbi bɪˈɡæn tə weɪl/"
+      }
+    ]
+  },
+  {
+    "word": "wardrobe",
+    "ipa": "/ˈwɔːrdroʊb/",
+    "meaning": "tủ quần áo",
+    "image": "eew-4-30/20.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "His wardrobe was filled with his own products.",
+        "meaning-example": "Tủ quần áo của anh ấy chứa đầy các sản phẩm của chính mình.",
+        "ipa-example": "/hɪz ˈwɔːrdroʊb wʌz fɪld wɪθ hɪz oʊn ˈprɒdʌkts/"
+      },
+      {
+        "sentence": "She has a large wardrobe.",
+        "meaning-example": "Cô ấy có một tủ quần áo lớn.",
+        "ipa-example": "/ʃiː hæz ə lɑːrdʒ ˈwɔːrdroʊb/"
+      }
+    ]
+  }
+]
