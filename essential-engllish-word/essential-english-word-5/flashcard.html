@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+    <!-- Link Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Optional: Font Awesome for icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+    <style>
+        /* Custom styles for flashcard flip effect */
+        body {
+            font-family: sans-serif; /* Ensure a default font */
+        }
+
+        .flashcard-container {
+            width: 350px;
+            height: 450px;
+            perspective: 1000px; /* Needed for 3D flip effect */
+            margin: 20px auto;
+        }
+
+        .flashcard {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Hide the back face during the flip */
+            display: flex;
+            flex-direction: column; /* Arrange content vertically */
+            align-items: center; /* Center items horizontally */
+            justify-content: center; /* Center items vertically */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            word-break: break-word; /* Prevent long words from overflowing */
+            overflow: hidden; /* Hide overflowing content, especially images */
+        }
+
+        .flashcard-front {
+            background-color: #fff;
+            color: #333;
+            font-size: 1.5em;
+            font-weight: bold;
+            /* Centering is handled by .flashcard-face */
+        }
+
+        .flashcard-back {
+            background-color: #4CAF50; /* Green background for the back */
+            color: white;
+            transform: rotateY(180deg); /* Initially rotated to be hidden */
+            /* Flex properties are handled by .flashcard-face */
+            /* justify-content: flex-start; /* Align items to the top on the back */ /* Removed to center content */
+            padding-top: 10px; /* Add some padding at the top */
+        }
+
+        .flashcard-back .word {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 5px; /* Reduced margin */
+        }
+
+        .flashcard-back .phonetic {
+            font-size: 1.1em;
+            margin-bottom: 10px; /* Reduced margin */
+        }
+
+        /* Added style for word class */
+        .flashcard-back .word-class {
+            font-size: 1em; /* Adjust size as needed */
+            font-style: italic;
+            margin-bottom: 10px; /* Add some space below */
+            color: rgba(255, 255, 255, 0.8); /* Slightly lighter color */
+        }
+
+        .flashcard-back .example {
+            font-size: 1em;
+            font-style: italic;
+            opacity: 0.9;
+            margin-bottom: 10px; /* Added margin */
+            flex-grow: 0; /* Don't grow */
+            flex-shrink: 0; /* Don't shrink */
+        }
+
+        .flashcard-image {
+            max-width: 90%; /* Limit image width */
+            max-height: 60%; /* Limit image height to leave space for text */
+            object-fit: contain; /* Contain the image within the bounds */
+            margin-top: 10px; /* Add margin above image */
+            margin-bottom: 10px; /* Add margin below image */
+            /* Ensure image doesn't take up excessive space */
+            flex-shrink: 0;
+        }
+
+        /* Style for the question text container on the front */
+        .question-text {
+             flex-grow: 1; /* Allow question text to take available space */
+             display: flex; /* Use flexbox to center text within its container */
+             align-items: center;
+             justify-content: center;
+             width: 100%; /* Ensure it takes full width */
+        }
+
+
+        .controls {
+            display: flex;
+            justify-content: center; /* Center the remaining buttons */
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .control-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .control-button:hover {
+            opacity: 0.9;
+        }
+
+        /* Removed styles for prevBtn, nextBtn */
+
+        #flipBtn {
+            display: none; /* Hide the flip button */
+            background-color: #ffc107; /* Yellow */
+            color: #333;
+        }
+
+        /* Style for icon buttons */
+        .icon-button {
+            width: 70px; /* Circular button size - Increased */
+            height: 70px; /* Circular button size - Increased */
+            border-radius: 50%; /* Make it circular */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            font-size: 2.5em; /* Icon size - Increased */
+        }
+
+        .icon-button:hover {
+             transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        /* Specific styles for shuffle button */
+        #shuffleBtn {
+            background-color: #17a2b8; /* Cyan */
+            color: white;
+            position: fixed; /* Fixed position */
+            bottom: 20px; /* 20px from bottom */
+            right: 20px; /* 20px from right */
+            z-index: 100; /* Ensure it's above other content */
+        }
+
+        /* Specific styles for speech button */
+        #speechBtn {
+            background-color: #ccc; /* Grey when not listening */
+            color: #333;
+        }
+         #speechBtn.listening {
+             background-color: #28a745; /* Green when listening */
+             color: white;
+         }
+
+        #recognizedText {
+            margin-top: 15px;
+            font-size: 1.1em;
+            color: #555;
+            min-height: 1.5em; /* Reserve space to prevent layout shifts */
+        }
+
+         .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.7);
+            z-index: 10;
+        }
+         .back-button:hover {
+             background-color: rgba(255, 255, 255, 1);
+         }
+
+        /* Card number display */
+        #cardNumber {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+            text-align: center;
+        }
+
+
+         /* Responsive adjustments */
+        @media (max-width: 400px) {
+            .flashcard-container {
+                width: 95%; /* Adjust width for smaller screens */
+                height: 400px; /* Adjust height */
+            }
+            .flashcard-front {
+                font-size: 1.3em;
+            }
+            .flashcard-back .word {
+                font-size: 1.6em;
+            }
+            .flashcard-back .phonetic {
+                font-size: 1em;
+            }
+            .flashcard-back .example {
+                font-size: 0.9em;
+            }
+            .controls {
+                gap: 10px;
+                flex-wrap: wrap; /* Allow buttons to wrap */
+                justify-content: space-around;
+            }
+            .control-button {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+             .icon-button {
+                 width: 60px; /* Adjusted for smaller screens */
+                 height: 60px; /* Adjusted for smaller screens */
+                 font-size: 2em; /* Adjusted for smaller screens */
+             }
+             #shuffleBtn {
+                 bottom: 15px;
+                 right: 15px;
+             }
+             #cardNumber {
+                 font-size: 0.9em;
+             }
+             .flashcard-image {
+                 max-height: 50%; /* Further limit image height on small screens */
+             }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4 font-sans">
+
+    <a id="backButton" href="chapter.html" class="back-button">&larr; Quay lại bài học</a>
+
+    <div class="flashcard-container">
+        <div id="flashcard" class="flashcard">
+            <div id="flashcardFront" class="flashcard-face flashcard-front">
+                <!-- Question and Image will be loaded here by JavaScript -->
+                Đang tải...
+            </div>
+            <div id="flashcardBack" class="flashcard-face flashcard-back">
+                <div class="word" id="word"></div>
+                <div class="phonetic" id="phonetic"></div>
+                <!-- Added element for word class -->
+                <div class="word-class" id="word-class"></div>
+                <div class="example" id="example"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <!-- Removed Prev and Next buttons -->
+        <button id="flipBtn" class="control-button">Lật</button>
+        <button id="speechBtn" class="icon-button"><span class="fas fa-microphone">&#x1F399;</span></button> <!-- Microphone icon -->
+    </div>
+
+    <div id="cardNumber" class="text-center">
+        <!-- Card number will be displayed here -->
+    </div>
+
+    <div id="recognizedText" class="text-center">
+        <!-- Recognized text will appear here -->
+    </div>
+
+    <!-- Shuffle button as a fixed icon -->
+    <button id="shuffleBtn" class="icon-button"><span class="fas fa-random">&#x21C6;</span></button> <!-- Shuffle icon -->
+
+
+    <script>
+        let flashcardsData = [];
+        let currentCardIndex = 0;
+        let isFlipped = false;
+        let shuffledCards = [];
+
+        // Touch variables for swipe/tap
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let touchStartTime = 0;
+        const minSwipeDistance = 50; // Minimum swipe distance in pixels
+        const tapThreshold = 200; // Maximum time for a tap in milliseconds
+
+        // Speech Recognition variables
+        let recognition = null;
+        const speechBtn = document.getElementById('speechBtn');
+        const recognizedTextEl = document.getElementById('recognizedText'); // New element for recognized text
+
+        // Lấy các phần tử DOM
+        const flashcardElement = document.getElementById('flashcard');
+        const flashcardFront = document.getElementById('flashcardFront');
+        const flashcardBack = document.getElementById('flashcardBack');
+        const wordEl = document.getElementById('word');
+        const phoneticEl = document.getElementById('phonetic');
+        const exampleEl = document.getElementById('example');
+        // Added element for word class
+        const wordClassEl = document.getElementById('word-class');
+        // Removed prevBtn, nextBtn
+        const flipBtn = document.getElementById('flipBtn');
+        const shuffleBtn = document.getElementById('shuffleBtn'); // Get the shuffle icon button
+        const backButton = document.getElementById('backButton'); // Get the back button
+        const cardNumberEl = document.getElementById('cardNumber'); // Get the card number element
+
+        // Create the image element once
+        const flashcardImageEl = document.createElement('img');
+        flashcardImageEl.className = 'flashcard-image';
+        flashcardImageEl.alt = 'Illustration';
+        flashcardImageEl.style.display = 'none'; // Initially hidden
+
+
+        // Hàm tải dữ liệu từ JSON
+        async function loadFlashcardsData(filePath) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                flashcardsData = await response.json();
+                shuffledCards = [...flashcardsData]; // Tạo bản sao để trộn
+                shuffleCards(); // Trộn thẻ lần đầu
+                displayCard(); // Hiển thị thẻ đầu tiên
+            } catch (error) {
+                console.error('Không thể tải dữ liệu flashcard:', error);
+                flashcardFront.textContent = 'Lỗi tải dữ liệu.';
+                // Disable controls if data fails to load
+                // prevBtn.disabled = true; // Removed
+                // nextBtn.disabled = true; // Removed
+                flipBtn.disabled = true;
+                shuffleBtn.disabled = true;
+                speechBtn.disabled = true;
+                recognizedTextEl.textContent = ''; // Clear recognized text
+                flashcardImageEl.src = ''; // Clear image source
+                flashcardImageEl.style.display = 'none'; // Hide image
+            }
+        }
+
+        // Hàm hiển thị thẻ hiện tại
+        function displayCard() {
+            if (shuffledCards.length === 0) {
+                flashcardFront.textContent = 'Không có thẻ nào để hiển thị.';
+                flashcardBack.innerHTML = '';
+                cardNumberEl.textContent = ''; // Clear card number
+                // Disable controls
+                // prevBtn.disabled = true; // Removed
+                // nextBtn.disabled = true; // Removed
+                flipBtn.disabled = true;
+                shuffleBtn.disabled = true;
+                speechBtn.disabled = true;
+                recognizedTextEl.textContent = ''; // Clear recognized text
+                flashcardImageEl.src = ''; // Clear image source
+                flashcardImageEl.style.display = 'none'; // Hide image
+                return;
+            }
+
+            // Update content
+            const card = shuffledCards[currentCardIndex];
+            // Clear previous content in the front face before adding new
+            flashcardFront.innerHTML = ''; // Clear existing content
+
+            // Add the question text container
+            const questionElement = document.createElement('div');
+            questionElement.innerHTML = card.question; // Use innerHTML to render potential bold text
+            questionElement.className = 'question-text'; // Use the new class for centering text
+            flashcardFront.appendChild(questionElement);
+
+            // Update image source and display
+            if (card.images) {
+                flashcardImageEl.src = card.images;
+                flashcardImageEl.style.display = 'block'; // Show image
+                flashcardFront.appendChild(flashcardImageEl); // Append image to the front face
+            } else {
+                flashcardImageEl.src = ''; // Clear source
+                flashcardImageEl.style.display = 'none'; // Hide image if no source
+            }
+
+
+            // Update back face content
+            wordEl.textContent = card.answer;
+            phoneticEl.textContent = card.ipa;
+            // Display word class (Added)
+            wordClassEl.textContent = card.classes ? `(${card.classes})` : '';
+            exampleEl.innerHTML = card.example; // Use innerHTML for example sentence
+
+
+            // Update card number display
+            cardNumberEl.textContent = `${currentCardIndex + 1}/${shuffledCards.length}`;
+
+            // Ensure the card is showing the front
+            flashcardElement.classList.remove('flipped');
+            isFlipped = false;
+
+            // Clear recognized text when a new card is displayed
+            recognizedTextEl.textContent = '';
+
+            // Stop any ongoing speech recognition
+            stopSpeechRecognition();
+            // Optionally start speech recognition automatically when a new card is shown
+            // startSpeechRecognition(); // Uncomment if you want it to start automatically
+        }
+
+        // Hàm lật thẻ
+        function flipCard() {
+            flashcardElement.classList.toggle('flipped');
+            isFlipped = !isFlipped;
+            // Stop speech recognition when flipping manually
+            stopSpeechRecognition();
+        }
+
+        // Hàm chuyển đến thẻ tiếp theo
+        function nextCard() {
+            // If the card is flipped, flip it back first, then move to the next card
+            if (isFlipped) {
+                flipCard(); // Flip back
+                // Wait for the flip animation to complete before changing content
+                setTimeout(() => {
+                    currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
+                    displayCard();
+                }, 300); // Adjust timeout duration to match CSS transition (0.6s / 2 = 0.3s)
+            } else {
+                // If not flipped, just move to the next card
+                currentCardIndex = (currentCardIndex + 1) % shuffledCards.length;
+                displayCard();
+            }
+        }
+
+        // Hàm chuyển đến thẻ trước đó
+        function prevCard() {
+             // If the card is flipped, flip it back first, then move to the previous card
+            if (isFlipped) {
+                flipCard(); // Flip back
+                 // Wait for the flip animation to complete before changing content
+                setTimeout(() => {
+                    currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
+                    displayCard();
+                }, 300); // Adjust timeout duration
+            } else {
+                // If not flipped, just move to the previous card
+                currentCardIndex = (currentCardIndex - 1 + shuffledCards.length) % shuffledCards.length;
+                displayCard();
+            }
+        }
+
+        // Hàm trộn thẻ (Fisher-Yates shuffle algorithm)
+        function shuffleCards() {
+            // Flip back before shuffling and displaying the first card
+            if (isFlipped) {
+                flipCard();
+                setTimeout(() => {
+                    for (let i = shuffledCards.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+                    }
+                    currentCardIndex = 0; // Reset về thẻ đầu tiên sau khi trộn
+                    displayCard();
+                }, 300); // Adjust timeout duration
+            } else {
+                 for (let i = shuffledCards.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+                }
+                currentCardIndex = 0; // Reset về thẻ đầu tiên sau khi trộn
+                displayCard();
+            }
+        }
+
+        // Helper function to clean text (remove punctuation and convert to lowercase)
+        function cleanText(text) {
+            // Remove common punctuation marks and convert to lowercase
+            // This regex keeps letters, numbers, and spaces. Adjust if needed.
+            return text.toLowerCase().replace(/[.,!?;:]/g, '').trim();
+        }
+
+        // --- Speech Recognition Functions ---
+
+        // Check for browser compatibility
+        if (!('webkitSpeechRecognition' in window)) {
+            console.warn("Speech Recognition not supported in this browser.");
+            speechBtn.disabled = true;
+            speechBtn.innerHTML = "&#x1F399; <br> SR not supported"; // Indicate not supported
+            speechBtn.style.fontSize = "0.8em"; // Make text smaller
+            speechBtn.style.height = "auto"; // Adjust height
+            speechBtn.style.width = "auto"; // Adjust width
+            speechBtn.style.padding = "5px"; // Add padding
+            speechBtn.style.borderRadius = "5px"; // Make it a rounded rectangle
+        } else {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false; // Listen for a single phrase
+            recognition.interimResults = false; // Only return final results
+            recognition.lang = 'en-US'; // Set language to ENGLISH US
+
+            recognition.onstart = () => {
+                speechBtn.classList.add('listening');
+                recognizedTextEl.textContent = '...'; // Indicate listening
+            };
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript.trim();
+                const correctAnswer = shuffledCards[currentCardIndex].answer.trim();
+
+                // Tách từ và chuẩn hóa
+                const userWords = cleanText(transcript).split(/\s+/);
+                const answerWords = cleanText(correctAnswer).split(/\s+/);
+
+                // So sánh từng từ và tạo HTML với từ đúng màu xanh, sai màu đỏ
+                let highlighted = '';
+                let allCorrect = true;
+                for (let i = 0; i < answerWords.length; i++) {
+                    const userWord = userWords[i] || '';
+                    if (userWord === answerWords[i]) {
+                        highlighted += `<span style="color:green;font-weight:bold">${userWord}</span> `;
+                    } else {
+                        highlighted += `<span style="color:red;font-weight:bold">${userWord || '[...]'}</span> `;
+                        allCorrect = false;
+                    }
+                }
+
+                recognizedTextEl.innerHTML = `Bạn nói: "${highlighted.trim()}"`;
+
+                // Hiển thị trạng thái đúng/sai với màu tương ứng
+                if (allCorrect && userWords.length === answerWords.length) {
+                    recognizedTextEl.innerHTML += ` <span style="color:green;font-weight:bold">- Đúng!</span>`;
+                    if (!isFlipped) flipCard();
+                } else {
+                    recognizedTextEl.innerHTML += ` <span style="color:red;font-weight:bold">- Sai.</span>`;
+                }
+            };
+
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error:', event.error);
+                 if (event.error === 'no-speech') {
+                    console.log('Không nhận diện được giọng nói.');
+                    recognizedTextEl.textContent = 'Không nhận diện được giọng nói.';
+                 } else if (event.error === 'not-allowed') {
+                     console.error('Quyền truy cập microphone bị từ chối.');
+                     recognizedTextEl.textContent = 'Quyền truy cập microphone bị từ chối.';
+                     speechBtn.disabled = true;
+                     speechBtn.innerHTML = "&#x1F399; <br> Mic blocked"; // Indicate blocked
+                     speechBtn.style.fontSize = "0.8em"; // Make text smaller
+                     speechBtn.style.height = "auto"; // Adjust height
+                     speechBtn.style.width = "auto"; // Adjust width
+                     speechBtn.style.padding = "5px"; // Add padding
+                     speechBtn.style.borderRadius = "5px"; // Make it a rounded rectangle
+                 } else {
+                     recognizedTextEl.textContent = `Lỗi nhận diện giọng nói: ${event.error}`;
+                 }
+                speechBtn.classList.remove('listening');
+            };
+
+            recognition.onend = () => {
+                console.log('Speech recognition ended.');
+                // recognizedTextEl.textContent = ''; // Clear text when ended, or keep the last result?
+                speechBtn.classList.remove('listening');
+            };
+
+            // Function to start recognition
+            function startSpeechRecognition() {
+                 if (recognition && !speechBtn.classList.contains('listening')) {
+                     try {
+                         recognizedTextEl.textContent = ''; // Clear previous text before starting
+                         recognition.start();
+                     } catch (e) {
+                         console.error("Error starting speech recognition:", e);
+                         // Handle cases where start is called while already listening
+                     }
+                 }
+            }
+
+            // Function to stop recognition
+            function stopSpeechRecognition() {
+                 if (recognition && speechBtn.classList.contains('listening')) {
+                     recognition.stop();
+                 }
+            }
+
+            // Event listener for the speech button
+            speechBtn.addEventListener('click', () => {
+                if (speechBtn.classList.contains('listening')) {
+                    stopSpeechRecognition();
+                } else {
+                    startSpeechRecognition();
+                }
+            });
+        }
+
+
+        // --- Event Listeners ---
+
+        // Gắn sự kiện cho các nút điều khiển
+        flipBtn.addEventListener('click', flipCard);
+        shuffleBtn.addEventListener('click', shuffleCards); // Event listener for the shuffle icon button
+
+        // Xử lý sự kiện bàn phím (Prev/Next using arrows, Flip using Space)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                nextCard();
+            } else if (e.key === 'ArrowLeft') {
+                prevCard();
+            } else if (e.key === ' ' || e.key === 'Spacebar') { // Spacebar
+                e.preventDefault(); // Ngăn chặn cuộn trang khi nhấn Space
+                flipCard();
+            }
+        });
+
+        // Xử lý sự kiện vuốt và chạm trên điện thoại (trên flashcard element)
+        flashcardElement.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            touchStartTime = new Date().getTime(); // Ghi lại thời gian bắt đầu chạm
+            touchEndX = touchStartX; // Reset touchEndX in case touchmove doesn't fire
+        });
+
+        flashcardElement.addEventListener('touchmove', (e) => {
+            touchEndX = e.touches[0].clientX; // Cập nhật vị trí kết thúc khi di chuyển
+        });
+
+        flashcardElement.addEventListener('touchend', (e) => {
+            const touchEndTime = new Date().getTime(); // Ghi lại thời gian kết thúc chạm
+            const touchDuration = touchEndTime - touchStartTime;
+            const distance = touchEndX - touchStartX;
+
+            // Determine if it was a tap or a swipe
+            if (touchDuration < tapThreshold && Math.abs(distance) < minSwipeDistance) {
+                // It's a tap (short duration and minimal movement)
+                flipCard();
+            } else if (distance > minSwipeDistance) {
+                // Swipe right (previous card)
+                prevCard();
+            } else if (distance < -minSwipeDistance) {
+                // Swipe left (next card)
+                nextCard();
+            }
+
+            // Reset touch coordinates and time
+            touchStartX = 0;
+            touchEndX = 0;
+            touchStartTime = 0;
+        });
+
+
+        // Khởi tạo ứng dụng khi tải trang
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get the JSON file name from the URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const jsonFileName = urlParams.get('json');
+
+            if (jsonFileName) {
+                 // Construct the path to the JSON file
+                 // Assuming the JSON files are in the same directory as flashcard.html
+                 const jsonFilePath = `./${jsonFileName}`;
+                 loadFlashcardsData(jsonFilePath);
+
+                 // Extract chapter number from the JSON file name (e.g., "418-flashcard.json" -> 18)
+                 const match = jsonFileName.match(/^4(\d+)-flashcard\.json$/);
+                 if (match && match[1]) {
+                     const chapterNumber = parseInt(match[1], 10);
+                     // Construct the URL for the corresponding chapter.html page
+                     const chapterUrl = `chapter.html?chapter=${chapterNumber}`;
+                     // Set the href of the back button
+                     backButton.href = chapterUrl;
+                 } else {
+                     console.error("Could not extract chapter number from JSON file name:", jsonFileName);
+                     // Fallback: Link to the main index page if chapter number cannot be determined
+                     backButton.href = "index.html";
+                 }
+
+
+            } else {
+                 console.error("No JSON file specified in URL parameter.");
+                 flashcardFront.textContent = 'Lỗi: Không tìm thấy dữ liệu flashcard.';
+                 cardNumberEl.textContent = ''; // Clear card number
+                 // Disable controls
+                 // prevBtn.disabled = true; // Removed
+                 // nextBtn.disabled = true; // Removed
+                 flipBtn.disabled = true;
+                 shuffleBtn.disabled = true;
+                 speechBtn.disabled = true;
+                 // Fallback: Link to the main index page if no JSON file is specified
+                 backButton.href = "index.html";
+            }
+        });
+    </script>
+</body>
+</html>
