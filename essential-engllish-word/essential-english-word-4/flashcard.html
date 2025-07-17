@@ -524,27 +524,34 @@
             };
 
             recognition.onresult = (event) => {
-                const transcript = event.results[0][0].transcript.trim(); // Get the recognized text
-                recognizedTextEl.textContent = `Bạn nói: "${transcript}"`; // Display the recognized text
-
+                const transcript = event.results[0][0].transcript.trim();
                 const correctAnswer = shuffledCards[currentCardIndex].answer.trim();
-                const cleanedRecognized = cleanText(transcript); // Clean recognized text
-                const cleanedAnswer = cleanText(correctAnswer); // Clean correct answer
 
-                console.log(`Nghe được (cleaned): "${cleanedRecognized}", Đáp án (cleaned): "${cleanedAnswer}"`);
+                // Tách từ và chuẩn hóa
+                const userWords = cleanText(transcript).split(/\s+/);
+                const answerWords = cleanText(correctAnswer).split(/\s+/);
 
-                // Compare cleaned versions
-                if (cleanedRecognized === cleanedAnswer) {
-                    console.log("Đáp án đúng!");
-                    recognizedTextEl.textContent += " - Đúng!"; // Add feedback
-                    if (!isFlipped) { // Only flip if not already flipped
-                        flipCard();
+                // So sánh từng từ và tạo HTML với từ đúng màu xanh, sai màu đỏ
+                let highlighted = '';
+                let allCorrect = true;
+                for (let i = 0; i < answerWords.length; i++) {
+                    const userWord = userWords[i] || '';
+                    if (userWord === answerWords[i]) {
+                        highlighted += `<span style="color:green;font-weight:bold">${userWord}</span> `;
+                    } else {
+                        highlighted += `<span style="color:red;font-weight:bold">${userWord || '[...]'}</span> `;
+                        allCorrect = false;
                     }
-                    // Optionally move to the next card after a correct answer
-                    // setTimeout(nextCard, 1500); // Move after 1.5 seconds
+                }
+
+                recognizedTextEl.innerHTML = `Bạn nói: "${highlighted.trim()}"`;
+
+                // Hiển thị trạng thái đúng/sai với màu tương ứng
+                if (allCorrect && userWords.length === answerWords.length) {
+                    recognizedTextEl.innerHTML += ` <span style="color:green;font-weight:bold">- Đúng!</span>`;
+                    if (!isFlipped) flipCard();
                 } else {
-                    console.log("Đáp án sai.");
-                    recognizedTextEl.textContent += " - Sai."; // Add feedback
+                    recognizedTextEl.innerHTML += ` <span style="color:red;font-weight:bold">- Sai.</span>`;
                 }
             };
 
