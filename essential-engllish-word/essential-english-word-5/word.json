@@ -1,0 +1,19 @@
+{
+    "word": "word",
+    "ipa": "/ipa of word/",
+    "meaning": "nghĩa tiếng việt",
+    "image": "link hình ảnh",
+    "classes": "class of word ",
+    "example": [
+      {
+        "sentence": "english definition",
+        "meaning-example": "nghĩa tiếng việt của câu",
+        "ipa-example": "ipa của câu"
+      }
+      ,{
+        "sentence": "câu trong truyện",
+        "meaning-example": "nghĩa tiếng việt của câu",
+        "ipa-example": "ipa của câu"
+      }
+	]
+}

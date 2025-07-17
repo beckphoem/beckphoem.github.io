@@ -73,8 +73,10 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
  She took the bag and went to work gathering her own beans for the winter.
 
 ---
+
 ## 1. allot (v)
 ![allot](eew-5-1/1.jpg)
+- **English Definition:** To give a part of something, like time or money, to someone or for a special use.
 - **Nghĩa trong truyện:** phân bổ, dành ra
 - **Câu trong truyện:** She **allotted** herself a few hours every day to collect beans.
 - **Ví dụ:**
@@ -86,6 +88,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 2. appall (v)
 ![appall](eew-5-1/2.jpg)
+- **English Definition:** To shock or upset someone very much.
 - **Nghĩa trong truyện:** làm kinh hoàng, làm choáng váng
 - **Câu trong truyện:** Beth’s words **appalled** Mary.
 - **Ví dụ:**
@@ -97,6 +100,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 3. cache (n)
 ![cache](eew-5-1/3.jpg)
+- **English Definition:** A hidden place where you keep things, especially food or valuable items.
 - **Nghĩa trong truyện:** nơi cất trữ, kho dự trữ
 - **Câu trong truyện:** she had collected a massive pile and hid them in a **cache**.
 - **Ví dụ:**
@@ -108,6 +112,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 4. convenience (n)
 ![convenience](eew-5-1/4.jpg)
+- **English Definition:** The state of being easy, useful, or without problems for you.
 - **Nghĩa trong truyện:** sự tiện lợi
 - **Câu trong truyện:** she could work at her own **convenience**.
 - **Ví dụ:**
@@ -119,6 +124,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 5. dearth (n)
 ![dearth](eew-5-1/5.jpg)
+- **English Definition:** A lack of something; when there is not enough of something.
 - **Nghĩa trong truyện:** sự thiếu hụt, khan hiếm
 - **Câu trong truyện:** there would soon be a **dearth** of food.
 - **Ví dụ:**
@@ -130,6 +136,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 6. deliberate (adj)
 ![deliberate](eew-5-1/6.jpg)
+- **English Definition:** Done on purpose, not by accident.
 - **Nghĩa trong truyện:** có chủ ý, có tính toán
 - **Câu trong truyện:** Beth made a **deliberate** effort.
 - **Ví dụ:**
@@ -141,6 +148,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 7. dire (adj)
 ![dire](eew-5-1/7.jpg)
+- **English Definition:** Very serious or terrible.
 - **Nghĩa trong truyện:** nghiêm trọng, thảm khốc
 - **Câu trong truyện:** Beth, lamina **dire** situation.
 - **Ví dụ:**
@@ -152,6 +160,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 8. elapse (v)
 ![elapse](eew-5-1/8.jpg)
+- **English Definition:** (Of time) to pass or go by.
 - **Nghĩa trong truyện:** trôi qua (thời gian)
 - **Câu trong truyện:** When the final hours of autumn **elapsed**.
 - **Ví dụ:**
@@ -163,6 +172,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 9. empathy (n)
 ![empathy](eew-5-1/9.jpg)
+- **English Definition:** The ability to understand and share the feelings of another person.
 - **Nghĩa trong truyện:** sự đồng cảm
 - **Câu trong truyện:** Please have some **empathy** for your sister!
 - **Ví dụ:**
@@ -174,6 +184,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 10. fanciful (adj)
 ![fanciful](eew-5-1/10.jpg)
+- **English Definition:** Imaginary and not real or practical.
 - **Nghĩa trong truyện:** viển vông, không thực tế
 - **Câu trong truyện:** She had **fanciful** ideas.
 - **Ví dụ:**
@@ -185,6 +196,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 11. gripe (v)
 ![gripe](eew-5-1/11.jpg)
+- **English Definition:** To complain about something in an annoying way.
 - **Nghĩa trong truyện:** càu nhàu, phàn nàn
 - **Câu trong truyện:** Mary **griped** some more.
 - **Ví dụ:**
@@ -196,6 +208,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 12. grueling (adj)
 ![grueling](eew-5-1/12.jpg)
+- **English Definition:** Very tiring and difficult, needing a lot of effort.
 - **Nghĩa trong truyện:** mệt mỏi, gian khổ
 - **Câu trong truyện:** Gathering food was a **grueling** and mundane activity.
 - **Ví dụ:**
@@ -207,6 +220,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 13. mundane (adj)
 ![mundane](eew-5-1/13.jpg)
+- **English Definition:** Ordinary and not interesting or exciting.
 - **Nghĩa trong truyện:** nhàm chán, tẻ nhạt
 - **Câu trong truyện:** a grueling and **mundane** activity
 - **Ví dụ:**
@@ -218,6 +232,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 14. opt (v)
 ![opt](eew-5-1/14.jpg)
+- **English Definition:** To choose one thing instead of another.
 - **Nghĩa trong truyện:** chọn, quyết định
 - **Câu trong truyện:** She **opted** to spend the days playing.
 - **Ví dụ:**
@@ -229,6 +244,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 15. outrage (n)
 ![outrage](eew-5-1/15.jpg)
+- **English Definition:** A feeling of great anger and shock.
 - **Nghĩa trong truyện:** sự phẫn nộ
 - **Câu trong truyện:** Mary cried with **outrage**.
 - **Ví dụ:**
@@ -240,6 +256,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 16. paltry (adj)
 ![paltry](eew-5-1/16.jpg)
+- **English Definition:** Very small and not worth much.
 - **Nghĩa trong truyện:** ít ỏi, không đáng kể
 - **Câu trong truyện:** Mary had only a **paltry** amount of food.
 - **Ví dụ:**
@@ -251,6 +268,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 17. rectify (v)
 ![rectify](eew-5-1/17.jpg)
+- **English Definition:** To correct something that is wrong.
 - **Nghĩa trong truyện:** sửa chữa, khắc phục
 - **Câu trong truyện:** Go now, and **rectify** your situation.
 - **Ví dụ:**
@@ -262,6 +280,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 18. resourceful (adj)
 ![resourceful](eew-5-1/18.jpg)
+- **English Definition:** Good at finding clever ways to deal with problems.
 - **Nghĩa trong truyện:** tháo vát, có tài xoay xở
 - **Câu trong truyện:** Beth was a very **resourceful** mouse.
 - **Ví dụ:**
@@ -273,6 +292,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 19. sustenance (n)
 ![sustenance](eew-5-1/19.jpg)
+- **English Definition:** Food and drink that keeps a person or animal alive.
 - **Nghĩa trong truyện:** chất dinh dưỡng, thức ăn nuôi sống
 - **Câu trong truyện:** You must have **sustenance** before you have fun.
 - **Ví dụ:**
@@ -284,6 +304,7 @@ Mary cried with **outrage**, “There is too much work! I won’t have any time 
 
 ## 20. tedious (adj)
 ![tedious](eew-5-1/20.jpg)
+- **English Definition:** Long, slow, and boring.
 - **Nghĩa trong truyện:** tẻ nhạt, chán ngắt
 - **Câu trong truyện:** it will be **tedious**, but you will learn the value of hard work.
 - **Ví dụ:**

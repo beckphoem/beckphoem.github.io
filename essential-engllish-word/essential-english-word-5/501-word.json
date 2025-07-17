@@ -1,0 +1,382 @@
+[
+  {
+    "word": "allot",
+    "ipa": "/əˈlɒt/",
+    "meaning": "phân bổ, dành ra",
+    "image": "eew-5-1/1.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To give a part of something, like time or money, to someone or for a special use.",
+        "meaning-example": "Dành một phần của cái gì đó, như thời gian hoặc tiền bạc, cho ai đó hoặc cho mục đích sử dụng đặc biệt.",
+        "ipa-example": "/tə ɡɪv ə pɑːrt əv ˈsʌmθɪŋ, laɪk taɪm ɔːr ˈmʌni, tə ˈsʌmwʌn ɔːr fɔːr ə ˈspɛʃəl juːs/"
+      },
+      {
+        "sentence": "She allotted herself a few hours every day to collect beans.",
+        "meaning-example": "Cô ấy dành vài giờ mỗi ngày để thu thập đậu.",
+        "ipa-example": "/ʃi əˈlɒtɪd hərˈsɛlf ə fjuː ˈaʊərz ˈɛvri deɪ tə kəˈlɛkt biːnz/"
+      }
+    ]
+  },
+  {
+    "word": "appall",
+    "ipa": "/əˈpɔːl/",
+    "meaning": "làm kinh hoàng, làm choáng váng",
+    "image": "eew-5-1/2.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To shock or upset someone very much.",
+        "meaning-example": "Làm ai đó bị sốc hoặc buồn bã rất nhiều.",
+        "ipa-example": "/tə ʃɒk ɔːr ʌpˈsɛt ˈsʌmwʌn ˈvɛri mʌtʃ/"
+      },
+      {
+        "sentence": "Beth’s words appalled Mary.",
+        "meaning-example": "Lời nói của Beth làm Mary kinh hoàng.",
+        "ipa-example": "/bɛθs wɜːrdz əˈpɔːld ˈmɛri/"
+      }
+    ]
+  },
+  {
+    "word": "cache",
+    "ipa": "/kæʃ/",
+    "meaning": "nơi cất trữ, kho dự trữ",
+    "image": "eew-5-1/3.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A hidden place where you keep things, especially food or valuable items.",
+        "meaning-example": "Một nơi ẩn náu nơi bạn cất giữ đồ đạc, đặc biệt là thức ăn hoặc những vật phẩm có giá trị.",
+        "ipa-example": "/ə ˈhɪdn pleɪs wɛər ju kiːp θɪŋz, ɪˈspɛʃəli fuːd ɔːr ˈvæljʊəbl ˈaɪtəmz/"
+      },
+      {
+        "sentence": "she had collected a massive pile and hid them in a cache.",
+        "meaning-example": "cô ấy đã thu thập một đống lớn và giấu chúng vào một kho dự trữ.",
+        "ipa-example": "/ʃi hæd kəˈlɛktɪd ə ˈmæsɪv paɪl ænd hɪd ðɛm ɪn ə kæʃ/"
+      }
+    ]
+  },
+  {
+    "word": "convenience",
+    "ipa": "/kənˈviːniəns/",
+    "meaning": "sự tiện lợi",
+    "image": "eew-5-1/4.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The state of being easy, useful, or without problems for you.",
+        "meaning-example": "Trạng thái dễ dàng, hữu ích hoặc không gặp vấn đề gì cho bạn.",
+        "ipa-example": "/ðə steɪt əv ˈbiːɪŋ ˈiːzi, ˈjuːsfʊl, ɔːr wɪˈðaʊt ˈprɒbləmz fɔːr juː/"
+      },
+      {
+        "sentence": "she could work at her own convenience.",
+        "meaning-example": "cô ấy có thể làm việc tùy theo sự tiện lợi của mình.",
+        "ipa-example": "/ʃi kʊd wɜːrk æt hər oʊn kənˈviːniəns/"
+      }
+    ]
+  },
+  {
+    "word": "dearth",
+    "ipa": "/dɜːrθ/",
+    "meaning": "sự thiếu hụt, khan hiếm",
+    "image": "eew-5-1/5.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A lack of something; when there is not enough of something.",
+        "meaning-example": "Sự thiếu hụt một cái gì đó; khi không có đủ một cái gì đó.",
+        "ipa-example": "/ə læk əv ˈsʌmθɪŋ; wɛn ðɛər ɪz nɒt ɪˈnʌf əv ˈsʌmθɪŋ/"
+      },
+      {
+        "sentence": "there would soon be a dearth of food.",
+        "meaning-example": "sẽ sớm có sự thiếu hụt lương thực.",
+        "ipa-example": "/ðɛər wʊd suːn bi ə dɜːrθ əv fuːd/"
+      }
+    ]
+  },
+  {
+    "word": "deliberate",
+    "ipa": "/dɪˈlɪbərət/",
+    "meaning": "có chủ ý, có tính toán",
+    "image": "eew-5-1/6.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Done on purpose, not by accident.",
+        "meaning-example": "Được thực hiện có chủ đích, không phải do tai nạn.",
+        "ipa-example": "/dʌn ɒn ˈpɜːrpəs, nɒt baɪ ˈæksɪdənt/"
+      },
+      {
+        "sentence": "Beth made a deliberate effort.",
+        "meaning-example": "Beth đã cố gắng một cách có chủ ý.",
+        "ipa-example": "/bɛθ meɪd ə dɪˈlɪbərət ˈɛfərt/"
+      }
+    ]
+  },
+  {
+    "word": "dire",
+    "ipa": "/daɪər/",
+    "meaning": "nghiêm trọng, thảm khốc",
+    "image": "eew-5-1/7.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Very serious or terrible.",
+        "meaning-example": "Rất nghiêm trọng hoặc khủng khiếp.",
+        "ipa-example": "/ˈvɛri ˈsɪəriəs ɔːr ˈtɛrəbl/"
+      },
+      {
+        "sentence": "Beth, lamina dire situation.",
+        "meaning-example": "Beth, tình hình thật tồi tệ.",
+        "ipa-example": "/bɛθ, ˈlæmɪnə daɪər ˌsɪtʃuˈeɪʃən/"
+      }
+    ]
+  },
+  {
+    "word": "elapse",
+    "ipa": "/ɪˈlæps/",
+    "meaning": "trôi qua (thời gian)",
+    "image": "eew-5-1/8.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "(Of time) to pass or go by.",
+        "meaning-example": "(Của thời gian) trôi qua hoặc đi qua.",
+        "ipa-example": "/(əv taɪm) tə pæs ɔːr ɡoʊ baɪ/"
+      },
+      {
+        "sentence": "When the final hours of autumn elapsed.",
+        "meaning-example": "Khi những giờ cuối cùng của mùa thu trôi qua.",
+        "ipa-example": "/wɛn ðə ˈfaɪnl ˈaʊərz əv ˈɔːtəm ɪˈlæpst/"
+      }
+    ]
+  },
+  {
+    "word": "empathy",
+    "ipa": "/ˈɛmpəθi/",
+    "meaning": "sự đồng cảm",
+    "image": "eew-5-1/9.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The ability to understand and share the feelings of another person.",
+        "meaning-example": "Khả năng hiểu và chia sẻ cảm xúc của người khác.",
+        "ipa-example": "/ðə əˈbɪləti tə ˌʌndərˈstænd ænd ʃɛər ðə ˈfiːlɪŋz əv əˈnʌðər ˈpɜːrsən/"
+      },
+      {
+        "sentence": "Please have some empathy for your sister!",
+        "meaning-example": "Làm ơn hãy đồng cảm với chị gái của bạn!",
+        "ipa-example": "/pliːz hæv sʌm ˈɛmpəθi fɔːr jʊər ˈsɪstər/"
+      }
+    ]
+  },
+  {
+    "word": "fanciful",
+    "ipa": "/ˈfænsɪfʊl/",
+    "meaning": "viển vông, không thực tế",
+    "image": "eew-5-1/10.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Imaginary and not real or practical.",
+        "meaning-example": "Tưởng tượng và không có thật hoặc không thực tế.",
+        "ipa-example": "/ɪˈmædʒɪnəri ænd nɒt riːəl ɔːr ˈpræktɪkəl/"
+      },
+      {
+        "sentence": "She had fanciful ideas.",
+        "meaning-example": "Cô ấy có những ý tưởng viển vông.",
+        "ipa-example": "/ʃi hæd ˈfænsɪfʊl aɪˈdiːəz/"
+      }
+    ]
+  },
+  {
+    "word": "gripe",
+    "ipa": "/ɡraɪp/",
+    "meaning": "càu nhàu, phàn nàn",
+    "image": "eew-5-1/11.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To complain about something in an annoying way.",
+        "meaning-example": "Phàn nàn về điều gì đó một cách khó chịu.",
+        "ipa-example": "/tə kəmˈpleɪn əˈbaʊt ˈsʌmθɪŋ ɪn ən əˈnɔɪɪŋ weɪ/"
+      },
+      {
+        "sentence": "Mary griped some more.",
+        "meaning-example": "Mary càu nhàu thêm nữa.",
+        "ipa-example": "/ˈmɛri ɡraɪpt sʌm mɔːr/"
+      }
+    ]
+  },
+  {
+    "word": "grueling",
+    "ipa": "/ˈɡruːəlɪŋ/",
+    "meaning": "mệt mỏi, gian khổ",
+    "image": "eew-5-1/12.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Very tiring and difficult, needing a lot of effort.",
+        "meaning-example": "Rất mệt mỏi và khó khăn, cần rất nhiều nỗ lực.",
+        "ipa-example": "/ˈvɛri ˈtaɪərɪŋ ænd ˈdɪfɪkəlt, ˈniːdɪŋ ə lɒt əv ˈɛfərt/"
+      },
+      {
+        "sentence": "Gathering food was a grueling and mundane activity.",
+        "meaning-example": "Việc thu thập thức ăn là một hoạt động mệt mỏi và nhàm chán.",
+        "ipa-example": "/ˈɡæðərɪŋ fuːd wəz ə ˈɡruːəlɪŋ ænd mʌnˈdeɪn ækˈtɪvəti/"
+      }
+    ]
+  },
+  {
+    "word": "mundane",
+    "ipa": "/mʌnˈdeɪn/",
+    "meaning": "nhàm chán, tẻ nhạt",
+    "image": "eew-5-1/13.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Ordinary and not interesting or exciting.",
+        "meaning-example": "Bình thường và không thú vị hoặc hấp dẫn.",
+        "ipa-example": "/ˈɔːrdənɛri ænd nɒt ˈɪntrɛstɪŋ ɔːr ɪkˈsaɪtɪŋ/"
+      },
+      {
+        "sentence": "a grueling and mundane activity",
+        "meaning-example": "một hoạt động mệt mỏi và nhàm chán",
+        "ipa-example": "/ə ˈɡruːəlɪŋ ænd mʌnˈdeɪn ækˈtɪvəti/"
+      }
+    ]
+  },
+  {
+    "word": "opt",
+    "ipa": "/ɒpt/",
+    "meaning": "chọn, quyết định",
+    "image": "eew-5-1/14.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To choose one thing instead of another.",
+        "meaning-example": "Chọn một thứ thay vì thứ khác.",
+        "ipa-example": "/tə tʃuːz wʌn θɪŋ ɪnˈstɛd əv əˈnʌðər/"
+      },
+      {
+        "sentence": "She opted to spend the days playing.",
+        "meaning-example": "Cô ấy chọn dành những ngày để chơi.",
+        "ipa-example": "/ʃi ɒpt tə spɛnd ðə deɪz ˈpleɪɪŋ/"
+      }
+    ]
+  },
+  {
+    "word": "outrage",
+    "ipa": "/ˈaʊtreɪdʒ/",
+    "meaning": "sự phẫn nộ",
+    "image": "eew-5-1/15.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A feeling of great anger and shock.",
+        "meaning-example": "Một cảm giác tức giận và sốc lớn.",
+        "ipa-example": "/ə ˈfiːlɪŋ əv ɡreɪt ˈæŋɡər ænd ʃɒk/"
+      },
+      {
+        "sentence": "Mary cried with outrage.",
+        "meaning-example": "Mary khóc trong sự phẫn nộ.",
+        "ipa-example": "/ˈmɛri kraɪd wɪð ˈaʊtreɪdʒ/"
+      }
+    ]
+  },
+  {
+    "word": "paltry",
+    "ipa": "/ˈpɔːltri/",
+    "meaning": "ít ỏi, không đáng kể",
+    "image": "eew-5-1/16.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Very small and not worth much.",
+        "meaning-example": "Rất nhỏ và không đáng giá nhiều.",
+        "ipa-example": "/ˈvɛri smɔːl ænd nɒt wɜːrθ mʌtʃ/"
+      },
+      {
+        "sentence": "Mary had only a paltry amount of food.",
+        "meaning-example": "Mary chỉ có một lượng thức ăn ít ỏi.",
+        "ipa-example": "/ˈmɛri hæd ˈoʊnli ə ˈpɔːltri əˈmaʊnt əv fuːd/"
+      }
+    ]
+  },
+  {
+    "word": "rectify",
+    "ipa": "/ˈrɛktɪfaɪ/",
+    "meaning": "sửa chữa, khắc phục",
+    "image": "eew-5-1/17.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To correct something that is wrong.",
+        "meaning-example": "Sửa chữa một cái gì đó sai.",
+        "ipa-example": "/tə kəˈrɛkt ˈsʌmθɪŋ ðæt ɪz rɒŋ/"
+      },
+      {
+        "sentence": "Go now, and rectify your situation.",
+        "meaning-example": "Đi ngay, và khắc phục tình hình của bạn.",
+        "ipa-example": "/ɡoʊ naʊ, ænd ˈrɛktɪfaɪ jʊər ˌsɪtʃuˈeɪʃən/"
+      }
+    ]
+  },
+  {
+    "word": "resourceful",
+    "ipa": "/rɪˈsɔːrsfʊl/",
+    "meaning": "tháo vát, có tài xoay xở",
+    "image": "eew-5-1/18.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Good at finding clever ways to deal with problems.",
+        "meaning-example": "Giỏi tìm những cách thông minh để giải quyết vấn đề.",
+        "ipa-example": "/ɡʊd æt ˈfaɪndɪŋ ˈklɛvər weɪz tə diːl wɪð ˈprɒbləmz/"
+      },
+      {
+        "sentence": "Beth was a very resourceful mouse.",
+        "meaning-example": "Beth là một con chuột rất tháo vát.",
+        "ipa-example": "/bɛθ wəz ə ˈvɛri rɪˈsɔːrsfʊl maʊs/"
+      }
+    ]
+  },
+  {
+    "word": "sustenance",
+    "ipa": "/ˈsʌstənəns/",
+    "meaning": "chất dinh dưỡng, thức ăn nuôi sống",
+    "image": "eew-5-1/19.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Food and drink that keeps a person or animal alive.",
+        "meaning-example": "Thức ăn và đồ uống giúp con người hoặc động vật sống sót.",
+        "ipa-example": "/fuːd ænd drɪŋk ðæt kiːps ə ˈpɜːrsən ɔːr ˈænɪməl əˈlaɪv/"
+      },
+      {
+        "sentence": "You must have sustenance before you have fun.",
+        "meaning-example": "Bạn phải có thức ăn nuôi sống trước khi bạn vui chơi.",
+        "ipa-example": "/juː mʌst hæv ˈsʌstənəns bɪˈfɔːr juː hæv fʌn/"
+      }
+    ]
+  },
+  {
+    "word": "tedious",
+    "ipa": "/ˈtiːdiəs/",
+    "meaning": "tẻ nhạt, chán ngắt",
+    "image": "eew-5-1/20.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Long, slow, and boring.",
+        "meaning-example": "Dài, chậm và nhàm chán.",
+        "ipa-example": "/lɒŋ, sloʊ, ænd ˈbɔːrɪŋ/"
+      },
+      {
+        "sentence": "it will be tedious, but you will learn the value of hard work.",
+        "meaning-example": "nó sẽ tẻ nhạt, nhưng bạn sẽ học được giá trị của sự làm việc chăm chỉ.",
+        "ipa-example": "/ɪt wɪl bi ˈtiːdiəs, bʌt juː wɪl lɜːrn ðə ˈvæljuː əv hɑːrd wɜːrk/"
+      }
+    ]
+  }
+]

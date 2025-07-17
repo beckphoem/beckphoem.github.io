@@ -1,0 +1,142 @@
+[
+    {
+        "question": "allot",
+        "classes": "v",
+        "answer": "phân bổ, dành ra",
+        "ipa": "/əˈlɒt/",
+        "example": "She **allotted** herself a few hours every day to collect beans."
+    },
+    {
+        "question": "appall",
+        "classes": "v",
+        "answer": "làm kinh hoàng, làm choáng váng",
+        "ipa": "/əˈpɔːl/",
+        "example": "Beth’s words **appalled** Mary."
+    },
+    {
+        "question": "cache",
+        "classes": "n",
+        "answer": "nơi cất trữ, kho dự trữ",
+        "ipa": "/kæʃ/",
+        "example": "she had collected a massive pile and hid them in a **cache**."
+    },
+    {
+        "question": "convenience",
+        "classes": "n",
+        "answer": "sự tiện lợi",
+        "ipa": "/kənˈviːniəns/",
+        "example": "she could work at her own **convenience**."
+    },
+    {
+        "question": "dearth",
+        "classes": "n",
+        "answer": "sự thiếu hụt, khan hiếm",
+        "ipa": "/dɜːθ/",
+        "example": "there would soon be a **dearth** of food."
+    },
+    {
+        "question": "deliberate",
+        "classes": "adj",
+        "answer": "có chủ ý, có tính toán",
+        "ipa": "/dɪˈlɪbərət/",
+        "example": "Beth made a **deliberate** effort."
+    },
+    {
+        "question": "dire",
+        "classes": "adj",
+        "answer": "nghiêm trọng, thảm khốc",
+        "ipa": "/ˈdaɪər/",
+        "example": "Beth, lamina **dire** situation."
+    },
+    {
+        "question": "elapse",
+        "classes": "v",
+        "answer": "trôi qua (thời gian)",
+        "ipa": "/ɪˈlæps/",
+        "example": "When the final hours of autumn **elapsed**."
+    },
+    {
+        "question": "empathy",
+        "classes": "n",
+        "answer": "sự đồng cảm",
+        "ipa": "/ˈempəθi/",
+        "example": "Please have some **empathy** for your sister!"
+    },
+    {
+        "question": "fanciful",
+        "classes": "adj",
+        "answer": "viển vông, không thực tế",
+        "ipa": "/ˈfænsɪfl/",
+        "example": "She had **fanciful** ideas."
+    },
+    {
+        "question": "gripe",
+        "classes": "v",
+        "answer": "càu nhàu, phàn nàn",
+        "ipa": "/ɡraɪp/",
+        "example": "Mary **griped** some more."
+    },
+    {
+        "question": "grueling",
+        "classes": "adj",
+        "answer": "mệt mỏi, gian khổ",
+        "ipa": "/ˈɡruːəlɪŋ/",
+        "example": "Gathering food was a **grueling** and mundane activity."
+    },
+    {
+        "question": "mundane",
+        "classes": "adj",
+        "answer": "nhàm chán, tẻ nhạt",
+        "ipa": "/mʌnˈdeɪn/",
+        "example": "a grueling and **mundane** activity"
+    },
+    {
+        "question": "opt",
+        "classes": "v",
+        "answer": "chọn, quyết định",
+        "ipa": "/ɒpt/",
+        "example": "She **opted** to spend the days playing."
+    },
+    {
+        "question": "outrage",
+        "classes": "n",
+        "answer": "sự phẫn nộ",
+        "ipa": "/ˈaʊtreɪdʒ/",
+        "example": "Mary cried with **outrage**."
+    },
+    {
+        "question": "paltry",
+        "classes": "adj",
+        "answer": "ít ỏi, không đáng kể",
+        "ipa": "/ˈpɔːltri/",
+        "example": "Mary had only a **paltry** amount of food."
+    },
+    {
+        "question": "rectify",
+        "classes": "v",
+        "answer": "sửa chữa, khắc phục",
+        "ipa": "/ˈrektɪfaɪ/",
+        "example": "Go now, and **rectify** your situation."
+    },
+    {
+        "question": "resourceful",
+        "classes": "adj",
+        "answer": "tháo vát, có tài xoay xở",
+        "ipa": "/rɪˈsɔːrsfl/",
+        "example": "Beth was a very **resourceful** mouse."
+    },
+    {
+        "question": "sustenance",
+        "classes": "n",
+        "answer": "chất dinh dưỡng, thức ăn nuôi sống",
+        "ipa": "/ˈsʌstənəns/",
+        "example": "You must have **sustenance** before you have fun."
+    },
+    {
+        "question": "tedious",
+        "classes": "adj",
+        "answer": "tẻ nhạt, chán ngắt",
+        "ipa": "/ˈtiːdiəs/",
+        "example": "it will be **tedious**, but you will learn the value of hard work."
+    }
+]
