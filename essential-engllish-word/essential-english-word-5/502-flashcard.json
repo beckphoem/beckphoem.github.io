@@ -1,0 +1,162 @@
+[
+    {
+        "question": "tu viện",
+        "classes": "n",
+        "answer": "abbey",
+        "ipa": "/ˈæbi/",
+        "example": "The hungry families heard about an **abbey** near the mountains where food and water was still abundant.",
+        "images": "eew-5-2/1.jpg"
+    },
+    {
+        "question": "dồi dào, phong phú",
+        "classes": "adj",
+        "answer": "abundant",
+        "ipa": "/əˈbʌndənt/",
+        "example": "The hungry families heard about an abbey near the mountains where food and water was still **abundant**.",
+        "images": "eew-5-2/2.jpg"
+    },
+    {
+        "question": "tiếp giáp, nối liền",
+        "classes": "v",
+        "answer": "adjoin",
+        "ipa": "/əˈdʒɔɪn/",
+        "example": "Also, we will give our rooms in the abbey to those sleeping outside, and we will sleep in the churchyard that **adjoins** the cathedral.",
+        "images": "eew-5-2/3.jpg"
+    },
+    {
+        "question": "nhiều, dư dật",
+        "classes": "adj",
+        "answer": "ample",
+        "ipa": "/ˈæmpəl/",
+        "example": "Then there was **ample** food.",
+        "images": "eew-5-2/4.jpg"
+    },
+    {
+        "question": "khô cằn",
+        "classes": "adj",
+        "answer": "arid",
+        "ipa": "/ˈærɪd/",
+        "example": "Because of the drought, the climate had become very **arid**.",
+        "images": "eew-5-2/5.jpg"
+    },
+    {
+        "question": "nhà thờ lớn, thánh đường",
+        "classes": "n",
+        "answer": "cathedral",
+        "ipa": "/kəˈθiːdrəl/",
+        "example": "The monks fed them and let them sleep in the small **cathedral**.",
+        "images": "eew-5-2/6.jpg"
+    },
+    {
+        "question": "tước đoạt, lấy đi",
+        "classes": "v",
+        "answer": "deprive",
+        "ipa": "/dɪˈpraɪv/",
+        "example": "It would be wrong to **deprive** them of food and shelter.",
+        "images": "eew-5-2/7.jpg"
+    },
+    {
+        "question": "hạn hán",
+        "classes": "n",
+        "answer": "drought",
+        "ipa": "/draʊt/",
+        "example": "Because of the **drought**, the climate had become very arid.",
+        "images": "eew-5-2/8.jpg"
+    },
+    {
+        "question": "đủ điều kiện, đủ tư cách",
+        "classes": "adj",
+        "answer": "eligible",
+        "ipa": "/ˈelɪdʒəbəl/",
+        "example": "All here are in need, so all are **eligible** to receive our food and shelter.",
+        "images": "eew-5-2/9.jpg"
+    },
+    {
+        "question": "nhịn ăn",
+        "classes": "v",
+        "answer": "fast",
+        "ipa": "/fæst/",
+        "example": "We will **fast**,” the abbot replied.",
+        "images": "eew-5-2/10.jpg"
+    },
+    {
+        "question": "càu nhàu, lầm bầm",
+        "classes": "v",
+        "answer": "grumble",
+        "ipa": "/ˈɡrʌmbəl/",
+        "example": "The monks began to **grumble**.",
+        "images": "eew-5-2/11.jpg"
+    },
+    {
+        "question": "vào sâu trong đất liền",
+        "classes": "adv",
+        "answer": "inland",
+        "ipa": "/ˈɪnlənd/",
+        "example": "So they traveled **inland**, across the prairie, to the abbey.",
+        "images": "eew-5-2/12.jpg"
+    },
+    {
+        "question": "độ ẩm, hơi ẩm",
+        "classes": "n",
+        "answer": "moisture",
+        "ipa": "/ˈmɔɪstʃər/",
+        "example": "There was no **moisture** left in the soil.",
+        "images": "eew-5-2/13.jpg"
+    },
+    {
+        "question": "tuy nhiên, dù sao đi nữa",
+        "classes": "adv",
+        "answer": "nonetheless",
+        "ipa": "/ˌnʌnðəˈles/",
+        "example": "That might be true, but we must help them **nonetheless**.",
+        "images": "eew-5-2/14.jpg"
+    },
+    {
+        "question": "lời thề",
+        "classes": "n",
+        "answer": "oath",
+        "ipa": "/oʊθ/",
+        "example": "We took an **oath** to help those that need help.",
+        "images": "eew-5-2/15.jpg"
+    },
+    {
+        "question": "đồng cỏ, thảo nguyên",
+        "classes": "n",
+        "answer": "prairie",
+        "ipa": "/ˈprɛəri/",
+        "example": "It had not rained on the **prairie** for several months.",
+        "images": "eew-5-2/16.jpg"
+    },
+    {
+        "question": "rách nát, tả tơi",
+        "classes": "adj",
+        "answer": "ragged",
+        "ipa": "/ˈræɡɪd/",
+        "example": "The rugged journey had made their clothes **ragged**.",
+        "images": "eew-5-2/17.jpg"
+    },
+    {
+        "question": "gồ ghề, hiểm trở",
+        "classes": "adj",
+        "answer": "rugged",
+        "ipa": "/ˈrʌɡɪd/",
+        "example": "The **rugged** journey had made their clothes ragged.",
+        "images": "eew-5-2/18.jpg"
+    },
+    {
+        "question": "khan hiếm",
+        "classes": "adj",
+        "answer": "scarce",
+        "ipa": "/skɛərs/",
+        "example": "Food became **scarce**.",
+        "images": "eew-5-2/19.jpg"
+    },
+    {
+        "question": "suy đoán, phỏng đoán",
+        "classes": "v",
+        "answer": "speculate",
+        "ipa": "/ˈspekjəleɪt/",
+        "example": "They began to **speculate** that there would be no food.",
+        "images": "eew-5-2/20.jpg"
+    }
+]

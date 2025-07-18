@@ -1,0 +1,885 @@
+[
+  {
+    "word": "abbey",
+    "ipa": "/ˈæbi/",
+    "meaning": "tu viện",
+    "image": "eew-5-2/1.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A building where monks or nuns live and worship.",
+        "meaning-example": "Một tòa nhà nơi các nhà sư hoặc nữ tu sĩ sống và thờ cúng.",
+        "ipa-example": "/ə ˈbɪldɪŋ wɛər mʌŋks ɔːr nʌnz lɪv ænd ˈwɜːrʃɪp/"
+      },
+      {
+        "sentence": "The hungry families heard about an abbey near the mountains where food and water was still abundant.",
+        "meaning-example": "Các gia đình đói nghe nói về một tu viện gần núi nơi thức ăn và nước vẫn còn dồi dào.",
+        "ipa-example": "/ðə ˈhʌŋɡri ˈfæməliz hɜːrd əˈbaʊt ən ˈæbi nɪər ðə ˈmaʊntɪnz wɛər fuːd ænd ˈwɔːtər wɒz stɪl əˈbʌndənt/"
+      },
+      {
+        "sentence": "The old abbey stood on a hill.",
+        "meaning-example": "Tu viện cổ đứng trên một ngọn đồi.",
+        "ipa-example": "/ði oʊld ˈæbi stʊd ɒn ə hɪl/"
+      },
+      {
+        "sentence": "Monks live in the abbey.",
+        "meaning-example": "Các nhà sư sống trong tu viện.",
+        "ipa-example": "/mʌŋks lɪv ɪn ðə ˈæbi/"
+      },
+      {
+        "sentence": "They visited the ruined abbey.",
+        "meaning-example": "Họ đã đến thăm tu viện đổ nát.",
+        "ipa-example": "/ðeɪ ˈvɪzɪtɪd ðə ruːɪnd ˈæbi/"
+      },
+      {
+        "sentence": "The abbey was built in the 12th century.",
+        "meaning-example": "Tu viện được xây dựng vào thế kỷ 12.",
+        "ipa-example": "/ðə ˈæbi wɒz bɪlt ɪn ðə twɛlfθ ˈsɛntʃəri/"
+      },
+      {
+        "sentence": "She went to the abbey to pray.",
+        "meaning-example": "Cô ấy đến tu viện để cầu nguyện.",
+        "ipa-example": "/ʃi wɛnt tə ðə ˈæbi tə preɪ/"
+      }
+    ]
+  },
+  {
+    "word": "abundant",
+    "ipa": "/əˈbʌndənt/",
+    "meaning": "phong phú, dồi dào",
+    "image": "eew-5-2/2.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Present in large quantities.",
+        "meaning-example": "Có mặt với số lượng lớn.",
+        "ipa-example": "/ˈprɛzənt ɪn lɑːrdʒ ˈkwɒntətiz/"
+      },
+      {
+        "sentence": "The hungry families heard about an abbey near the mountains where food and water was still abundant.",
+        "meaning-example": "Các gia đình đói nghe nói về một tu viện gần núi nơi thức ăn và nước vẫn còn dồi dào.",
+        "ipa-example": "/ðə ˈhʌŋɡri ˈfæməliz hɜːrd əˈbaʊt ən ˈæbi nɪər ðə ˈmaʊntɪnz wɛər fuːd ænd ˈwɔːtər wɒz stɪl əˈbʌndənt/"
+      },
+      {
+        "sentence": "Fish are abundant in the lake.",
+        "meaning-example": "Cá rất phong phú trong hồ.",
+        "ipa-example": "/fɪʃ ɑːr əˈbʌndənt ɪn ðə leɪk/"
+      },
+      {
+        "sentence": "There is abundant evidence to support the claim.",
+        "meaning-example": "Có nhiều bằng chứng dồi dào để ủng hộ tuyên bố này.",
+        "ipa-example": "/ðɛər ɪz əˈbʌndənt ˈɛvɪdəns tə səˈpɔːrt ðə kleɪm/"
+      },
+      {
+        "sentence": "The forest is abundant with wildlife.",
+        "meaning-example": "Khu rừng tràn đầy động vật hoang dã.",
+        "ipa-example": "/ðə ˈfɒrɪst ɪz əˈbʌndənt wɪð ˈwaɪldlaɪf/"
+      },
+      {
+        "sentence": "Resources are abundant in this region.",
+        "meaning-example": "Tài nguyên dồi dào ở vùng này.",
+        "ipa-example": "/ˈriːsɔːrsɪz ɑːr əˈbʌndənt ɪn ðɪs ˈriːdʒən/"
+      },
+      {
+        "sentence": "The plant produces abundant flowers.",
+        "meaning-example": "Loài cây này ra hoa rất nhiều.",
+        "ipa-example": "/ðə plɑːnt prəˈduːsɪz əˈbʌndənt ˈflaʊərz/"
+      }
+    ]
+  },
+  {
+    "word": "ample",
+    "ipa": "/ˈæmpl/",
+    "meaning": "rộng rãi, phong phú, dư dật",
+    "image": "eew-5-2/3.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Enough or more than enough; plentiful.",
+        "meaning-example": "Đủ hoặc nhiều hơn đủ; phong phú.",
+        "ipa-example": "/ɪˈnʌf ɔːr mɔːr ðæn ɪˈnʌf; ˈplɛntɪfl/"
+      },
+      {
+        "sentence": "Then there was ample food.",
+        "meaning-example": "Sau đó có rất nhiều thức ăn.",
+        "ipa-example": "/ðɛn ðɛər wɒz ˈæmpl fuːd/"
+      },
+      {
+        "sentence": "There is ample parking space.",
+        "meaning-example": "Có đủ chỗ đậu xe.",
+        "ipa-example": "/ðɛər ɪz ˈæmpl ˈpɑːrkɪŋ speɪs/"
+      },
+      {
+        "sentence": "She had ample time to prepare.",
+        "meaning-example": "Cô ấy có đủ thời gian để chuẩn bị.",
+        "ipa-example": "/ʃi hæd ˈæmpl taɪm tə prɪˈpɛər/"
+      },
+      {
+        "sentence": "The house has ample room for a large family.",
+        "meaning-example": "Ngôi nhà có đủ chỗ cho một gia đình lớn.",
+        "ipa-example": "/ðə haʊs hæz ˈæmpl ruːm fɔːr ə lɑːrdʒ ˈfæməli/"
+      },
+      {
+        "sentence": "We have ample evidence to prove his guilt.",
+        "meaning-example": "Chúng tôi có đủ bằng chứng để chứng minh tội lỗi của anh ta.",
+        "ipa-example": "/wi hæv ˈæmpl ˈɛvɪdəns tə pruːv hɪz ɡɪlt/"
+      },
+      {
+        "sentence": "They provided ample resources for the project.",
+        "meaning-example": "Họ cung cấp đủ tài nguyên cho dự án.",
+        "ipa-example": "/ðeɪ prəˈvaɪdɪd ˈæmpl ˈriːsɔːrsɪz fɔːr ðə ˈprɒdʒɛkt/"
+      }
+    ]
+  },
+  {
+    "word": "arid",
+    "ipa": "/ˈærɪd/",
+    "meaning": "khô cằn",
+    "image": "eew-5-2/4.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Having very little or no rain; too dry to support vegetation.",
+        "meaning-example": "Có rất ít hoặc không có mưa; quá khô để hỗ trợ thảm thực vật.",
+        "ipa-example": "/ˈhævɪŋ ˈvɛri ˈlɪtl ɔːr noʊ reɪn; tuː draɪ tə səˈpɔːrt ˌvɛdʒɪˈteɪʃən/"
+      },
+      {
+        "sentence": "Because of the drought, the climate had become very arid.",
+        "meaning-example": "Vì hạn hán, khí hậu đã trở nên rất khô hạn.",
+        "ipa-example": "/bɪˈkɒz əv ðə draʊt, ðə ˈklaɪmɪt hæd bɪˈkʌm ˈvɛri ˈærɪd/"
+      },
+      {
+        "sentence": "The desert is an arid region.",
+        "meaning-example": "Sa mạc là một vùng khô cằn.",
+        "ipa-example": "/ðə ˈdɛzərt ɪz ən ˈærɪd ˈriːdʒən/"
+      },
+      {
+        "sentence": "The arid land could not grow crops.",
+        "meaning-example": "Đất khô cằn không thể trồng trọt.",
+        "ipa-example": "/ði ˈærɪd lænd kʊd nɒt ɡroʊ krɒps/"
+      },
+      {
+        "sentence": "Lack of water makes the soil arid.",
+        "meaning-example": "Thiếu nước làm đất khô cằn.",
+        "ipa-example": "/læk əv ˈwɔːtər meɪks ðə sɔɪl ˈærɪd/"
+      },
+      {
+        "sentence": "Few plants can survive in arid conditions.",
+        "meaning-example": "Ít cây trồng có thể sống sót trong điều kiện khô hạn.",
+        "ipa-example": "/fjuː plɑːnts kæn sərˈvaɪv ɪn ˈærɪd kənˈdɪʃənz/"
+      },
+      {
+        "sentence": "The climate here is generally arid.",
+        "meaning-example": "Khí hậu ở đây nhìn chung là khô hạn.",
+        "ipa-example": "/ðə ˈklaɪmɪt hɪər ɪz ˈdʒɛnərəli ˈærɪd/"
+      }
+    ]
+  },
+  {
+    "word": "cathedral",
+    "ipa": "/kəˈθiːdrəl/",
+    "meaning": "nhà thờ lớn, thánh đường",
+    "image": "eew-5-2/5.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "The principal church of a diocese, with which the bishop is officially associated.",
+        "meaning-example": "Nhà thờ chính của một giáo phận, nơi giám mục chính thức liên kết.",
+        "ipa-example": "/ðə ˈprɪnsəpəl tʃɜːrtʃ əv ə ˈdaɪəsɪs, wɪð wɪtʃ ðə ˈbɪʃəp ɪz əˈfɪʃəli əˈsoʊʃiˌeɪtɪd/"
+      },
+      {
+        "sentence": "The monks fed them and let them sleep in the small cathedral.",
+        "meaning-example": "Các nhà sư cho họ ăn và cho họ ngủ trong nhà thờ nhỏ.",
+        "ipa-example": "/ðə mʌŋks fed ðɛm ænd lɛt ðɛm sliːp ɪn ðə smɔːl kəˈθiːdrəl/"
+      },
+      {
+        "sentence": "The cathedral has beautiful stained glass windows.",
+        "meaning-example": "Nhà thờ có những cửa sổ kính màu rất đẹp.",
+        "ipa-example": "/ðə kəˈθiːdrəl hæz ˈbjuːtəfl steɪnd ɡlɑːs ˈwɪndoʊz/"
+      },
+      {
+        "sentence": "They visited the famous cathedral in Paris.",
+        "meaning-example": "Họ đã đến thăm nhà thờ nổi tiếng ở Paris.",
+        "ipa-example": "/ðeɪ ˈvɪzɪtɪd ðə ˈfeɪməs kəˈθiːdrəl ɪn ˈpærɪs/"
+      },
+      {
+        "sentence": "The cathedral bells rang loudly.",
+        "meaning-example": "Chuông nhà thờ reo vang.",
+        "ipa-example": "/ðə kəˈθiːdrəl bɛlz ræŋ ˈlaʊdli/"
+      },
+      {
+        "sentence": "It took many years to build the cathedral.",
+        "meaning-example": "Mất nhiều năm để xây dựng nhà thờ.",
+        "ipa-example": "/ɪt tʊk ˈmɛni jɪərz tə bɪld ðə kəˈθiːdrəl/"
+      },
+      {
+        "sentence": "The grand cathedral dominated the city skyline.",
+        "meaning-example": "Nhà thờ lớn thống trị đường chân trời thành phố.",
+        "ipa-example": "/ðə ɡrænd kəˈθiːdrəl ˈdɒmɪneɪtɪd ðə ˈsɪti ˈskaɪlaɪn/"
+      }
+    ]
+  },
+  {
+    "word": "deprive",
+    "ipa": "/dɪˈpraɪv/",
+    "meaning": "lấy đi, tước đoạt",
+    "image": "eew-5-2/6.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To prevent someone from having or doing something.",
+        "meaning-example": "Ngăn cản ai đó có hoặc làm điều gì đó.",
+        "ipa-example": "/tə prɪˈvɛnt ˈsʌmwʌn frɒm ˈhævɪŋ ɔːr ˈduːɪŋ ˈsʌmθɪŋ/"
+      },
+      {
+        "sentence": "It would be wrong to deprive them of food and shelter.",
+        "meaning-example": "Sẽ là sai trái nếu tước đoạt thức ăn và chỗ ở của họ.",
+        "ipa-example": "/ɪt wʊd bi rɒŋ tə dɪˈpraɪv ðɛm əv fuːd ænd ˈʃɛltər/"
+      },
+      {
+        "sentence": "Sleep deprivation can lead to health problems.",
+        "meaning-example": "Thiếu ngủ có thể dẫn đến các vấn đề sức khỏe.",
+        "ipa-example": "/sliːp ˌdɛprɪˈveɪʃən kæn liːd tə hɛlθ ˈprɒbləmz/"
+      },
+      {
+        "sentence": "He was deprived of his freedom.",
+        "meaning-example": "Anh ta bị tước đoạt tự do.",
+        "ipa-example": "/hi wɒz dɪˈpraɪvd əv hɪz ˈfriːdəm/"
+      },
+      {
+        "sentence": "The illness deprived him of the ability to walk.",
+        "meaning-example": "Căn bệnh đã tước đi khả năng đi lại của anh ta.",
+        "ipa-example": "/ði ˈɪlnɪs dɪˈpraɪvd hɪm əv ði əˈbɪləti tə wɔːk/"
+      },
+      {
+        "sentence": "Don't deprive yourself of simple pleasures.",
+        "meaning-example": "Đừng tước đoạt bản thân những niềm vui đơn giản.",
+        "ipa-example": "/doʊnt dɪˈpraɪv jʊərˈsɛlf əv ˈsɪmpl ˈplɛʒərz/"
+      },
+      {
+        "sentence": "The company was deprived of its license.",
+        "meaning-example": "Công ty bị tước giấy phép.",
+        "ipa-example": "/ðə ˈkʌmpəni wɒz dɪˈpraɪvd əv ɪts ˈlaɪsns/"
+      }
+    ]
+  },
+  {
+    "word": "drought",
+    "ipa": "/draʊt/",
+    "meaning": "hạn hán",
+    "image": "eew-5-2/7.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A long period of time when there is little or no rain.",
+        "meaning-example": "Một khoảng thời gian dài khi có ít hoặc không có mưa.",
+        "ipa-example": "/ə lɒŋ ˈpɪəriəd əv taɪm wɛn ðɛər ɪz ˈlɪtl ɔːr noʊ reɪn/"
+      },
+      {
+        "sentence": "Because of the drought, the climate had become very arid.",
+        "meaning-example": "Vì hạn hán, khí hậu đã trở nên rất khô hạn.",
+        "ipa-example": "/bɪˈkɒz əv ðə draʊt, ðə ˈklaɪmɪt hæd bɪˈkʌm ˈvɛri ˈærɪd/"
+      },
+      {
+        "sentence": "The drought caused widespread crop failure.",
+        "meaning-example": "Hạn hán gây ra mất mùa trên diện rộng.",
+        "ipa-example": "/ðə draʊt kɔːzd ˈwaɪdsprɛd krɒp ˈfeɪljər/"
+      },
+      {
+        "sentence": "The region is experiencing a severe drought.",
+        "meaning-example": "Khu vực này đang trải qua một đợt hạn hán nghiêm trọng.",
+        "ipa-example": "/ðə ˈriːdʒən ɪz ɪkˈspɪəriənsɪŋ ə sɪˈvɪər draʊt/"
+      },
+      {
+        "sentence": "Many animals died during the long drought.",
+        "meaning-example": "Nhiều loài động vật chết trong đợt hạn hán kéo dài.",
+        "ipa-example": "/ˈmɛni ˈænɪməlz daɪd ˈdʊərɪŋ ðə lɒŋ draʊt/"
+      },
+      {
+        "sentence": "The drought led to water shortages.",
+        "meaning-example": "Hạn hán dẫn đến tình trạng thiếu nước.",
+        "ipa-example": "/ðə draʊt lɛd tə ˈwɔːtər ˈʃɔːrtɪdʒɪz/"
+      },
+      {
+        "sentence": "Farmers are worried about the ongoing drought.",
+        "meaning-example": "Nông dân lo lắng về đợt hạn hán đang diễn ra.",
+        "ipa-example": "/ˈfɑːrmərz ɑːr ˈwʌrid əˈbaʊt ði ˈɒnɡoʊɪŋ draʊt/"
+      }
+    ]
+  },
+  {
+    "word": "eligible",
+    "ipa": "/ˈɛlɪdʒəbl/",
+    "meaning": "đủ tư cách, đủ điều kiện",
+    "image": "eew-5-2/8.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Having the right to do or obtain something; satisfying the appropriate conditions.",
+        "meaning-example": "Có quyền làm hoặc đạt được điều gì đó; đáp ứng các điều kiện thích hợp.",
+        "ipa-example": "/ˈhævɪŋ ðə raɪt tə duː ɔːr əbˈteɪn ˈsʌmθɪŋ; ˈsætɪsfaɪɪŋ ði əˈproʊpriət kənˈdɪʃənz/"
+      },
+      {
+        "sentence": "All here are in need, so all are eligible to receive our food and shelter.”",
+        "meaning-example": "Tất cả mọi người ở đây đều cần, vì vậy tất cả đều đủ điều kiện để nhận thức ăn và chỗ ở của chúng tôi.”",
+        "ipa-example": "/ɔːl hɪər ɑːr ɪn niːd, soʊ ɔːl ɑːr ˈɛlɪdʒəbl tə rɪˈsiːv ˈaʊər fuːd ænd ˈʃɛltər.”/"
+      },
+      {
+        "sentence": "Only citizens are eligible to vote.",
+        "meaning-example": "Chỉ công dân mới đủ điều kiện bỏ phiếu.",
+        "ipa-example": "/ˈoʊnli ˈsɪtɪzənz ɑːr ˈɛlɪdʒəbl tə voʊt/"
+      },
+      {
+        "sentence": "You must be over 18 to be eligible for the prize.",
+        "meaning-example": "Bạn phải trên 18 tuổi mới đủ điều kiện nhận giải.",
+        "ipa-example": "/juː mʌst bi ˈoʊvər eɪˈtiːn tə bi ˈɛlɪdʒəbl fɔːr ðə praɪz/"
+      },
+      {
+        "sentence": "She is eligible for a scholarship.",
+        "meaning-example": "Cô ấy đủ điều kiện nhận học bổng.",
+        "ipa-example": "/ʃi ɪz ˈɛlɪdʒəbl fɔːr ə ˈskɒlərʃɪp/"
+      },
+      {
+        "sentence": "Are you eligible for a refund?",
+        "meaning-example": "Bạn có đủ điều kiện để được hoàn tiền không?",
+        "ipa-example": "/ɑːr juː ˈɛlɪdʒəbl fɔːr ə ˈriːfʌnd/"
+      },
+      {
+        "sentence": "The team is eligible to compete in the finals.",
+        "meaning-example": "Đội đủ điều kiện thi đấu trong trận chung kết.",
+        "ipa-example": "/ðə tiːm ɪz ˈɛlɪdʒəbl tə kəmˈpiːt ɪn ðə ˈfaɪnlz/"
+      }
+    ]
+  },
+  {
+    "word": "grumble",
+    "ipa": "/ˈɡrʌmbl/",
+    "meaning": "càu nhàu, lầm bầm",
+    "image": "eew-5-2/9.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To complain about something in a bad-tempered way.",
+        "meaning-example": "Than phiền về điều gì đó một cách khó chịu.",
+        "ipa-example": "/tə kəmˈpleɪn əˈbaʊt ˈsʌmθɪŋ ɪn ə bædˈtɛmpərd weɪ/"
+      },
+      {
+        "sentence": "The monks began to grumble.",
+        "meaning-example": "Các nhà sư bắt đầu càu nhàu.",
+        "ipa-example": "/ðə mʌŋks bɪˈɡæn tə ˈɡrʌmbl/"
+      },
+      {
+        "sentence": "He always grumbles about the weather.",
+        "meaning-example": "Anh ta luôn càu nhàu về thời tiết.",
+        "ipa-example": "/hi ˈɔːlweɪz ˈɡrʌmblz əˈbaʊt ðə ˈwɛðər/"
+      },
+      {
+        "sentence": "Don't grumble, just do your work.",
+        "meaning-example": "Đừng càu nhàu, cứ làm việc của bạn đi.",
+        "ipa-example": "/doʊnt ˈɡrʌmbl, dʒʌst duː jʊər wɜːrk/"
+      },
+      {
+        "sentence": "The students grumbled about the difficult exam.",
+        "meaning-example": "Các học sinh lầm bầm về bài kiểm tra khó.",
+        "ipa-example": "/ðə ˈstuːdənts ˈɡrʌmbld əˈbaʊt ðə ˈdɪfɪkəlt ɪɡˈzæm/"
+      },
+      {
+        "sentence": "His stomach began to grumble.",
+        "meaning-example": "Bụng anh ta bắt đầu cồn cào.",
+        "ipa-example": "/hɪz ˈstʌmək bɪˈɡæn tə ˈɡrʌmbl/"
+      },
+      {
+        "sentence": "She was grumbling under her breath.",
+        "meaning-example": "Cô ấy đang lầm bầm trong hơi thở.",
+        "ipa-example": "/ʃi wɒz ˈɡrʌmblɪŋ ˈʌndər hɜːr brɛθ/"
+      }
+    ]
+  },
+  {
+    "word": "inland",
+    "ipa": "/ˈɪnlænd/",
+    "meaning": "trong đất liền",
+    "image": "eew-5-2/10.jpg",
+    "classes": "adv, adj",
+    "example": [
+      {
+        "sentence": "In or toward the interior of a country.",
+        "meaning-example": "Trong hoặc hướng vào nội địa của một quốc gia.",
+        "ipa-example": "/ɪn ɔːr təˈwɔːrd ði ɪnˈtɪəriər əv ə ˈkʌntri/"
+      },
+      {
+        "sentence": "So they traveled inland, across the prairie, to the abbey.",
+        "meaning-example": "Vì vậy họ đi sâu vào đất liền, qua thảo nguyên, đến tu viện.",
+        "ipa-example": "/soʊ ðeɪ ˈtrævəld ˈɪnlænd, əˈkrɒs ðə ˈprɛəri, tə ðə ˈæbi/"
+      },
+      {
+        "sentence": "The river flows inland.",
+        "meaning-example": "Con sông chảy vào đất liền.",
+        "ipa-example": "/ðə ˈrɪvər floʊz ˈɪnlænd/"
+      },
+      {
+        "sentence": "They moved inland to escape the storm.",
+        "meaning-example": "Họ di chuyển vào đất liền để tránh bão.",
+        "ipa-example": "/ðeɪ muːvd ˈɪnlænd tə ɪˈskeɪp ðə stɔːrm/"
+      },
+      {
+        "sentence": "The town is located inland from the coast.",
+        "meaning-example": "Thị trấn nằm sâu trong đất liền từ bờ biển.",
+        "ipa-example": "/ðə taʊn ɪz ˈloʊkeɪtɪd ˈɪnlænd frɒm ðə koʊst/"
+      },
+      {
+        "sentence": "Inland areas tend to be drier.",
+        "meaning-example": "Các khu vực nội địa có xu hướng khô hơn.",
+        "ipa-example": "/ˈɪnlænd ˈɛəriəz tɛnd tə bi ˈdraɪər/"
+      },
+      {
+        "sentence": "They traveled inland for several days.",
+        "meaning-example": "Họ đã đi vào đất liền trong vài ngày.",
+        "ipa-example": "/ðeɪ ˈtrævəld ˈɪnlænd fɔːr ˈsɛvrəl deɪz/"
+      }
+    ]
+  },
+  {
+    "word": "moisture",
+    "ipa": "/ˈmɔɪstʃər/",
+    "meaning": "độ ẩm",
+    "image": "eew-5-2/11.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "Water or other liquid diffused in a small quantity as vapor, condensed liquid, or absorbed liquid.",
+        "meaning-example": "Nước hoặc chất lỏng khác khuếch tán với số lượng nhỏ dưới dạng hơi, chất lỏng ngưng tụ hoặc chất lỏng hấp thụ.",
+        "ipa-example": "/ˈwɔːtər ɔːr ˈʌðər ˈlɪkwɪd dɪˈfjuːzd ɪn ə smɔːl ˈkwɒntəti æz ˈveɪpər, kənˈdɛnst ˈlɪkwɪd, ɔːr əbˈsɔːrbd ˈlɪkwɪd/"
+      },
+      {
+        "sentence": "There was no moisture left in the soil.",
+        "meaning-example": "Không còn độ ẩm trong đất.",
+        "ipa-example": "/ðɛər wɒz noʊ ˈmɔɪstʃər lɛft ɪn ðə sɔɪl/"
+      },
+      {
+        "sentence": "The plants need more moisture.",
+        "meaning-example": "Cây cần nhiều độ ẩm hơn.",
+        "ipa-example": "/ðə plɑːnts niːd mɔːr ˈmɔɪstʃər/"
+      },
+      {
+        "sentence": "The air was thick with moisture.",
+        "meaning-example": "Không khí ẩm ướt.",
+        "ipa-example": "/ði ɛər wɒz θɪk wɪð ˈmɔɪstʃər/"
+      },
+      {
+        "sentence": "Wipe away any moisture from the surface.",
+        "meaning-example": "Lau sạch mọi độ ẩm trên bề mặt.",
+        "ipa-example": "/waɪp əˈweɪ ˈɛni ˈmɔɪstʃər frɒm ðə ˈsɜːrfɪs/"
+      },
+      {
+        "sentence": "The bread had lost all its moisture.",
+        "meaning-example": "Bánh mì đã mất hết độ ẩm.",
+        "ipa-example": "/ðə brɛd hæd lɒst ɔːl ɪts ˈmɔɪstʃər/"
+      },
+      {
+        "sentence": "Protect the camera from moisture.",
+        "meaning-example": "Bảo vệ máy ảnh khỏi độ ẩm.",
+        "ipa-example": "/prəˈtɛkt ðə ˈkæmərə frɒm ˈmɔɪstʃər/"
+      }
+    ]
+  },
+  {
+    "word": "oath",
+    "ipa": "/oʊθ/",
+    "meaning": "lời thề",
+    "image": "eew-5-2/12.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A solemn promise, often invoking a divine witness, regarding one's future action or behavior.",
+        "meaning-example": "Một lời hứa trang trọng, thường kêu gọi một nhân chứng thần thánh, liên quan đến hành động hoặc hành vi trong tương lai của một người.",
+        "ipa-example": "/ə ˈsɒləm ˈprɒmɪs, ˈɔːfn ɪnˈvoʊkɪŋ ə dɪˈvaɪn ˈwɪtnəs, rɪˈɡɑːrdɪŋ wʌnz ˈfjuːtʃər ˈækʃən ɔːr bɪˈheɪvjər/"
+      },
+      {
+        "sentence": "We took an oath to help those that need help.",
+        "meaning-example": "Chúng tôi đã thề sẽ giúp đỡ những người cần giúp đỡ.",
+        "ipa-example": "/wi tʊk ən oʊθ tə hɛlp ðoʊz ðæt niːd hɛlp/"
+      },
+      {
+        "sentence": "He took an oath of office.",
+        "meaning-example": "Anh ta đã tuyên thệ nhậm chức.",
+        "ipa-example": "/hi tʊk ən oʊθ əv ˈɒfɪs/"
+      },
+      {
+        "sentence": "She made an oath to protect her family.",
+        "meaning-example": "Cô ấy đã thề bảo vệ gia đình mình.",
+        "ipa-example": "/ʃi meɪd ən oʊθ tə prəˈtɛkt hɜːr ˈfæməli/"
+      },
+      {
+        "sentence": "Breaking an oath has serious consequences.",
+        "meaning-example": "Phá vỡ lời thề có hậu quả nghiêm trọng.",
+        "ipa-example": "/ˈbreɪkɪŋ ən oʊθ hæz ˈsɪəriəs ˈkɒnsɪkwɛnsɪz/"
+      },
+      {
+        "sentence": "The doctor took the Hippocratic Oath.",
+        "meaning-example": "Bác sĩ đã thực hiện lời thề Hippocrates.",
+        "ipa-example": "/ðə ˈdɒktər tʊk ðə ˌhɪpəˈkrætɪk oʊθ/"
+      },
+      {
+        "sentence": "He swore an oath of loyalty.",
+        "meaning-example": "Anh ta đã thề trung thành.",
+        "ipa-example": "/hi swɔːr ən oʊθ əv ˈlɔɪəlti/"
+      }
+    ]
+  },
+  {
+    "word": "prairie",
+    "ipa": "/ˈprɛəri/",
+    "meaning": "thảo nguyên, đồng cỏ",
+    "image": "eew-5-2/13.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "A large open area of grassland.",
+        "meaning-example": "Một khu vực rộng lớn của đồng cỏ mở.",
+        "ipa-example": "/ə lɑːrdʒ ˈoʊpən ˈɛəriə əv ˈɡrɑːslænd/"
+      },
+      {
+        "sentence": "It had not rained on the prairie for several months.",
+        "meaning-example": "Đã vài tháng không có mưa trên thảo nguyên.",
+        "ipa-example": "/ɪt hæd nɒt reɪnd ɒn ðə ˈprɛəri fɔːr ˈsɛvrəl mʌnθs/"
+      },
+      {
+        "sentence": "Buffalo once roamed the prairies.",
+        "meaning-example": "Trâu rừng từng lang thang trên các thảo nguyên.",
+        "ipa-example": "/ˈbʌfəloʊ wʌns roʊmd ðə ˈprɛəriz/"
+      },
+      {
+        "sentence": "The wind swept across the vast prairie.",
+        "meaning-example": "Gió quét qua thảo nguyên rộng lớn.",
+        "ipa-example": "/ðə wɪnd swɛpt əˈkrɒs ðə vɑːst ˈprɛəri/"
+      },
+      {
+        "sentence": "They built their farm on the open prairie.",
+        "meaning-example": "Họ xây trang trại của mình trên thảo nguyên rộng mở.",
+        "ipa-example": "/ðeɪ bɪlt ðɛər fɑːrm ɒn ði ˈoʊpən ˈprɛəri/"
+      },
+      {
+        "sentence": "Wildflowers grow on the prairie in spring.",
+        "meaning-example": "Hoa dại mọc trên thảo nguyên vào mùa xuân.",
+        "ipa-example": "/ˈwaɪldflaʊərz ɡroʊ ɒn ðə ˈprɛəri ɪn sprɪŋ/"
+      },
+      {
+        "sentence": "The prairie stretched as far as the eye could see.",
+        "meaning-example": "Thảo nguyên trải dài đến tận chân trời.",
+        "ipa-example": "/ðə ˈprɛəri strɛtʃt æz fɑːr æz ði aɪ kʊd siː/"
+      }
+    ]
+  },
+  {
+    "word": "ragged",
+    "ipa": "/ˈræɡɪd/",
+    "meaning": "rách rưới, tả tơi",
+    "image": "eew-5-2/14.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Old and torn, or worn out.",
+        "meaning-example": "Cũ và rách, hoặc đã sờn.",
+        "ipa-example": "/oʊld ænd tɔːrn, ɔːr wɔːrn aʊt/"
+      },
+      {
+        "sentence": "The rugged journey had made their clothes ragged.",
+        "meaning-example": "Cuộc hành trình gồ ghề đã làm quần áo của họ rách rưới.",
+        "ipa-example": "/ðə ˈrʌɡɪd ˈdʒɜːrni hæd meɪd ðɛər kloʊðz ˈræɡɪd/"
+      },
+      {
+        "sentence": "He was wearing ragged clothes.",
+        "meaning-example": "Anh ta đang mặc quần áo rách rưới.",
+        "ipa-example": "/hi wɒz ˈwɛərɪŋ ˈræɡɪd kloʊðz/"
+      },
+      {
+        "sentence": "The edges of the paper were ragged.",
+        "meaning-example": "Các cạnh của tờ giấy bị rách.",
+        "ipa-example": "/ði ˈɛdʒɪz əv ðə ˈpeɪpər wɜːr ˈræɡɪd/"
+      },
+      {
+        "sentence": "The old flag was tattered and ragged.",
+        "meaning-example": "Lá cờ cũ nát và rách rưới.",
+        "ipa-example": "/ði oʊld flæɡ wɒz ˈtætərd ænd ˈræɡɪd/"
+      },
+      {
+        "sentence": "A ragged old man asked for food.",
+        "meaning-example": "Một ông lão rách rưới xin thức ăn.",
+        "ipa-example": "/ə ˈræɡɪd oʊld mæn æskt fɔːr fuːd/"
+      },
+      {
+        "sentence": "The homeless man had ragged shoes.",
+        "meaning-example": "Người đàn ông vô gia cư có đôi giày rách rưới.",
+        "ipa-example": "/ðə ˈhoʊmləs mæn hæd ˈræɡɪd ʃuːz/"
+      }
+    ]
+  },
+  {
+    "word": "rugged",
+    "ipa": "/ˈrʌɡɪd/",
+    "meaning": "gồ ghề, hiểm trở",
+    "image": "eew-5-2/15.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Strong and difficult to travel over.",
+        "meaning-example": "Mạnh mẽ và khó đi qua.",
+        "ipa-example": "/strɒŋ ænd ˈdɪfɪkəlt tə ˈtrævl ˈoʊvər/"
+      },
+      {
+        "sentence": "The rugged journey had made their clothes ragged.",
+        "meaning-example": "Cuộc hành trình gồ ghề đã làm quần áo của họ rách rưới.",
+        "ipa-example": "/ðə ˈrʌɡɪd ˈdʒɜːrni hæd meɪd ðɛər kloʊðz ˈræɡɪd/"
+      },
+      {
+        "sentence": "The mountain path was rugged.",
+        "meaning-example": "Con đường núi gồ ghề.",
+        "ipa-example": "/ðə ˈmaʊntɪn pɑːθ wɒz ˈrʌɡɪd/"
+      },
+      {
+        "sentence": "They hiked through rugged terrain.",
+        "meaning-example": "Họ đã đi bộ qua địa hình gồ ghề.",
+        "ipa-example": "/ðeɪ haɪkt θruː ˈrʌɡɪd tɛˈreɪn/"
+      },
+      {
+        "sentence": "His face was rugged and strong.",
+        "meaning-example": "Khuôn mặt anh ta góc cạnh và mạnh mẽ.",
+        "ipa-example": "/hɪz feɪs wɒz ˈrʌɡɪd ænd strɒŋ/"
+      },
+      {
+        "sentence": "The car is built for rugged roads.",
+        "meaning-example": "Chiếc xe được chế tạo cho những con đường gồ ghề.",
+        "ipa-example": "/ðə kɑːr ɪz bɪlt fɔːr ˈrʌɡɪd roʊdz/"
+      },
+      {
+        "sentence": "It was a rugged climb to the top.",
+        "meaning-example": "Đó là một cuộc leo núi đầy gian nan lên đến đỉnh.",
+        "ipa-example": "/ɪt wɒz ə ˈrʌɡɪd klaɪm tə ðə tɒp/"
+      }
+    ]
+  },
+  {
+    "word": "scarce",
+    "ipa": "/skɛərs/",
+    "meaning": "khan hiếm",
+    "image": "eew-5-2/16.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "Not enough of something; rare.",
+        "meaning-example": "Không đủ một cái gì đó; hiếm.",
+        "ipa-example": "/nɒt ɪˈnʌf əv ˈsʌmθɪŋ; rɛər/"
+      },
+      {
+        "sentence": "Food became scarce.",
+        "meaning-example": "Thức ăn trở nên khan hiếm.",
+        "ipa-example": "/fuːd bɪˈkeɪm skɛərs/"
+      },
+      {
+        "sentence": "Water is scarce in the desert.",
+        "meaning-example": "Nước khan hiếm ở sa mạc.",
+        "ipa-example": "/ˈwɔːtər ɪz skɛərs ɪn ðə ˈdɛzərt/"
+      },
+      {
+        "sentence": "Good jobs are scarce.",
+        "meaning-example": "Công việc tốt khan hiếm.",
+        "ipa-example": "/ɡʊd dʒɒbz ɑːr skɛərs/"
+      },
+      {
+        "sentence": "Money was scarce during the war.",
+        "meaning-example": "Tiền bạc khan hiếm trong chiến tranh.",
+        "ipa-example": "/ˈmʌni wɒz skɛərs ˈdʊərɪŋ ðə wɔːr/"
+      },
+      {
+        "sentence": "Fresh fruit is scarce in winter.",
+        "meaning-example": "Hoa quả tươi khan hiếm vào mùa đông.",
+        "ipa-example": "/frɛʃ fruːt ɪz skɛərs ɪn ˈwɪntər/"
+      },
+      {
+        "sentence": "Fuel became scarce.",
+        "meaning-example": "Nhiên liệu trở nên khan hiếm.",
+        "ipa-example": "/fjuːəl bɪˈkeɪm skɛərs/"
+      }
+    ]
+  },
+  {
+    "word": "speculate",
+    "ipa": "/ˈspekjəleɪt/",
+    "meaning": "suy đoán, phỏng đoán",
+    "image": "eew-5-2/17.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "To guess about something without having all the facts.",
+        "meaning-example": "Đoán về điều gì đó mà không có tất cả các sự thật.",
+        "ipa-example": "/tə ɡɛs əˈbaʊt ˈsʌmθɪŋ wɪˈðaʊt ˈhævɪŋ ɔːl ðə fæks/"
+      },
+      {
+        "sentence": "They began to speculate that there would be no food.",
+        "meaning-example": "Họ bắt đầu suy đoán rằng sẽ không còn thức ăn.",
+        "ipa-example": "/ðeɪ bɪˈɡæn tə ˈspekjəleɪt ðæt ðɛər wʊd bi noʊ fuːd/"
+      },
+      {
+        "sentence": "Investors speculate about the stock market.",
+        "meaning-example": "Các nhà đầu tư suy đoán về thị trường chứng khoán.",
+        "ipa-example": "/ɪnˈvɛstərz ˈspekjəleɪt əˈbaʊt ðə stɒk ˈmɑːrkɪt/"
+      },
+      {
+        "sentence": "We can only speculate about the future.",
+        "meaning-example": "Chúng ta chỉ có thể suy đoán về tương lai.",
+        "ipa-example": "/wi kæn ˈoʊnli ˈspekjəleɪt əˈbaʊt ðə ˈfjuːtʃər/"
+      },
+      {
+        "sentence": "He likes to speculate on political outcomes.",
+        "meaning-example": "Anh ấy thích suy đoán về kết quả chính trị.",
+        "ipa-example": "/hi laɪks tə ˈspekjəleɪt ɒn pəˈlɪtɪkl ˈaʊtkʌmz/"
+      },
+      {
+        "sentence": "Scientists speculate that life may exist elsewhere.",
+        "meaning-example": "Các nhà khoa học suy đoán rằng sự sống có thể tồn tại ở nơi khác.",
+        "ipa-example": "/ˈsaɪəntɪsts ˈspekjəleɪt ðæt laɪf meɪ ɪɡˈzɪst ˈɛlsˌwɛər/"
+      },
+      {
+        "sentence": "It's pointless to speculate about what might have been.",
+        "meaning-example": "Vô ích khi suy đoán về những gì có thể đã xảy ra.",
+        "ipa-example": "/ɪts ˈpɔɪntləs tə ˈspekjəleɪt əˈbaʊt wɒt maɪt hæv bɪn/"
+      }
+    ]
+  },
+  {
+  "word": "sentences of story",
+  "ipa": null,
+  "meaning": "Các câu trong truyện",
+  "image": null,
+  "classes": null,
+  "example": [
+    {
+      "sentence": "It had not rained on the prairie for several months.",
+      "meaning-example": "Đã vài tháng không có mưa trên thảo nguyên.",
+      "ipa-example": "/ɪt hæd nɒt reɪnd ɒn ðə ˈprɛəri fɔːr ˈsɛvrəl mʌnθs/"
+    },
+    {
+      "sentence": "Because of the drought, the climate had become very arid.",
+      "meaning-example": "Vì hạn hán, khí hậu đã trở nên rất khô hạn.",
+      "ipa-example": "/bɪˈkɒz əv ðə draʊt, ðə ˈklaɪmɪt hæd bɪˈkʌm ˈvɛri ˈærɪd/"
+    },
+    {
+      "sentence": "There was no moisture left in the soil.",
+      "meaning-example": "Không còn độ ẩm trong đất.",
+      "ipa-example": "/ðɛər wɒz noʊ ˈmɔɪstʃər lɛft ɪn ðə sɔɪl/"
+    },
+    {
+      "sentence": "No crops could grow in the dry ground.",
+      "meaning-example": "Không cây trồng nào có thể phát triển trên đất khô.",
+      "ipa-example": "/noʊ krɒps kʊd ɡroʊ ɪn ðə draɪ ɡraʊnd/"
+    },
+    {
+      "sentence": "By wintertime, the people had nothing to eat.",
+      "meaning-example": "Đến mùa đông, mọi người không có gì để ăn.",
+      "ipa-example": "/baɪ ˈwɪntərˌtaɪm, ðə ˈpiːpl hæd ˈnʌθɪŋ tə iːt/"
+    },
+    {
+      "sentence": "The hungry families heard about an abbey near the mountains where food and water was still abundant.",
+      "meaning-example": "Các gia đình đói nghe nói về một tu viện gần núi nơi thức ăn và nước vẫn còn dồi dào.",
+      "ipa-example": "/ðə ˈhʌŋɡri ˈfæməliz hɜːrd əˈbaʊt ən ˈæbi nɪər ðə ˈmaʊntɪnz wɛər fuːd ænd ˈwɔːtər wɒz stɪl əˈbʌndənt/"
+    },
+    {
+      "sentence": "So they traveled inland, across the prairie, to the abbey.",
+      "meaning-example": "Vì vậy họ đi sâu vào đất liền, qua thảo nguyên, đến tu viện.",
+      "ipa-example": "/soʊ ðeɪ ˈtrævəld ˈɪnlænd, əˈkrɒs ðə ˈprɛəri, tə ðə ˈæbi/"
+    },
+    {
+      "sentence": "At first only a few families arrived, seeking food and shelter.",
+      "meaning-example": "Ban đầu chỉ có vài gia đình đến, tìm kiếm thức ăn và chỗ ở.",
+      "ipa-example": "/æt fɜːrst ˈoʊnli ə fjuː ˈfæməliz əˈraɪvd, ˈsiːkɪŋ fuːd ænd ˈʃɛltər/"
+    },
+    {
+      "sentence": "Then there was ample food.",
+      "meaning-example": "Sau đó có rất nhiều thức ăn.",
+      "ipa-example": "/ðɛn ðɛər wɒz ˈæmpl fuːd/"
+    },
+    {
+      "sentence": "The monks fed them and let them sleep in the small cathedral.",
+      "meaning-example": "Các nhà sư cho họ ăn và cho họ ngủ trong nhà thờ nhỏ.",
+      "ipa-example": "/ðə mʌŋks fed ðɛm ænd lɛt ðɛm sliːp ɪn ðə smɔːl kəˈθiːdrəl/"
+    },
+    {
+      "sentence": "Soon, however, more families were arriving every day.",
+      "meaning-example": "Tuy nhiên, chẳng bao lâu sau, mỗi ngày có thêm nhiều gia đình đến.",
+      "ipa-example": "/suːn, haʊˈɛvər, mɔːr ˈfæməliz wɜːr əˈraɪvɪŋ ˈɛvri deɪ/"
+    },
+    {
+      "sentence": "These people had to travel farther, so they were in worse condition.",
+      "meaning-example": "Những người này phải đi xa hơn, vì vậy họ ở trong tình trạng tồi tệ hơn.",
+      "ipa-example": "/ðiːz ˈpiːpl hæd tə ˈtrævl ˈfɑːrðər, soʊ ðeɪ wɜːr ɪn wɜːrs kənˈdɪʃən/"
+    },
+    {
+      "sentence": "The rugged journey had made their clothes ragged.",
+      "meaning-example": "Cuộc hành trình gồ ghề đã làm quần áo của họ rách rưới.",
+      "ipa-example": "/ðə ˈrʌɡɪd ˈdʒɜːrni hæd meɪd ðɛər kloʊðz ˈræɡɪd/"
+    },
+    {
+      "sentence": "They were cold and tired.",
+      "meaning-example": "Họ lạnh và mệt mỏi.",
+      "ipa-example": "/ðeɪ wɜːr koʊld ænd ˈtaɪərd/"
+    },
+    {
+      "sentence": "The tiny cathedral was soon full.",
+      "meaning-example": "Nhà thờ nhỏ bé sớm chật cứng.",
+      "ipa-example": "/ðə ˈtaɪni kəˈθiːdrəl wɒz suːn fʊl/"
+    },
+    {
+      "sentence": "Food became scarce.",
+      "meaning-example": "Thức ăn trở nên khan hiếm.",
+      "ipa-example": "/fuːd bɪˈkeɪm skɛərs/"
+    },
+    {
+      "sentence": "The monks began to grumble.",
+      "meaning-example": "Các nhà sư bắt đầu càu nhàu.",
+      "ipa-example": "/ðə mʌŋks bɪˈɡæn tə ˈɡrʌmbl/"
+    },
+    {
+      "sentence": "They began to speculate that there would be no food.",
+      "meaning-example": "Họ bắt đầu suy đoán rằng sẽ không còn thức ăn.",
+      "ipa-example": "/ðeɪ bɪˈɡæn tə ˈspekjəleɪt ðæt ðɛər wʊd bi noʊ fuːd/"
+    },
+    {
+      "sentence": "If more families come, we won’t make it through the winter,” said a young monk.",
+      "meaning-example": "Nếu thêm gia đình đến, chúng ta sẽ không vượt qua được mùa đông,” một nhà sư trẻ nói.",
+      "ipa-example": "/ɪf mɔːr ˈfæməliz kʌm, wi woʊnt meɪk ɪt θruː ðə ˈwɪntər,” sɛd ə jʌŋ mʌŋk/"
+    },
+    {
+      "sentence": "We must ask some of them to leave.”",
+      "meaning-example": "Chúng ta phải yêu cầu một số người trong số họ rời đi.”",
+      "ipa-example": "/wi mʌst æsk sʌm əv ðɛm tə liːv.”/"
+    },
+    {
+      "sentence": "The abbot heard this.",
+      "meaning-example": "Viện trưởng nghe thấy điều này.",
+      "ipa-example": "/ðə ˈæbət hɜːrd ðɪs/"
+    },
+    {
+      "sentence": "We cannot do that,” he said.",
+      "meaning-example": "Chúng ta không thể làm điều đó,” ông nói.",
+      "ipa-example": "/wi ˈkænɒt duː ðæt,” hi sɛd/"
+    },
+    {
+      "sentence": "It would be wrong to deprive them of food and shelter.",
+      "meaning-example": "Sẽ là sai trái nếu tước đoạt thức ăn và chỗ ở của họ.",
+      "ipa-example": "/ɪt wʊd bi rɒŋ tə dɪˈpraɪv ðɛm əv fuːd ænd ˈʃɛltər/"
+    },
+    {
+      "sentence": "We took an oath to help those that need help.",
+      "meaning-example": "Chúng tôi đã thề sẽ giúp đỡ những người cần giúp đỡ.",
+      "ipa-example": "/wi tʊk ən oʊθ tə hɛlp ðoʊz ðæt niːd hɛlp/"
+    },
+    {
+      "sentence": "All here are in need, so all are eligible to receive our food and shelter.”",
+      "meaning-example": "Tất cả mọi người ở đây đều cần, vì vậy tất cả đều đủ điều kiện để nhận thức ăn và chỗ ở của chúng tôi.”",
+      "ipa-example": "/ɔːl hɪər ɑːr ɪn niːd, soʊ ɔːl ɑːr ˈɛlɪdʒəbl tə rɪˈsiːv ˈaʊər fuːd ænd ˈʃɛltər.”/"
+    }
+  ]
+}
+]
+
