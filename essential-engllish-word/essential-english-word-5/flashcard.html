@@ -1,13 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flashcard</title>
-    <!-- Link Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <!-- Optional: Font Awesome for icons -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
     <style>
         /* Custom styles for flashcard flip effect */
         body {
@@ -95,6 +93,20 @@
             flex-grow: 0; /* Don't grow */
             flex-shrink: 0; /* Don't shrink */
         }
+
+        /* New style for english definition */
+        .flashcard-back .english-definition {
+            font-size: 0.95em; /* Slightly smaller than word/example for definition */
+            margin-top: 10px;
+            padding: 8px;
+            background-color: rgba(255, 255, 255, 0.15); /* Slightly transparent white background */
+            border-radius: 5px;
+            text-align: center;
+            width: 90%; /* Take up most of the width */
+            box-sizing: border-box; /* Include padding in width */
+            color: white; /* Ensure text color is white */
+        }
+
 
         .flashcard-image {
             max-width: 90%; /* Limit image width */
@@ -233,6 +245,10 @@
             .flashcard-back .example {
                 font-size: 0.9em;
             }
+             .flashcard-back .english-definition {
+                font-size: 0.85em; /* Smaller on very small screens */
+                padding: 5px;
+            }
             .controls {
                 gap: 10px;
                 flex-wrap: wrap; /* Allow buttons to wrap */
@@ -267,38 +283,29 @@
     <div class="flashcard-container">
         <div id="flashcard" class="flashcard">
             <div id="flashcardFront" class="flashcard-face flashcard-front">
-                <!-- Question and Image will be loaded here by JavaScript -->
                 Đang tải...
             </div>
             <div id="flashcardBack" class="flashcard-face flashcard-back">
                 <div class="word" id="word"></div>
                 <div class="phonetic" id="phonetic"></div>
-                <!-- Added element for word class -->
                 <div class="word-class" id="word-class"></div>
                 <div class="example" id="example"></div>
+                <div class="english-definition" id="englishDefinitionEl"></div>
             </div>
         </div>
     </div>
 
     <div class="controls">
-        <!-- Removed Prev and Next buttons -->
         <button id="flipBtn" class="control-button">Lật</button>
-        <button id="speechBtn" class="icon-button"><span class="fas fa-microphone">&#x1F399;</span></button> <!-- Microphone icon -->
-    </div>
+        <button id="speechBtn" class="icon-button"><span class="fas fa-microphone">&#x1F399;</span></button> </div>
 
     <div id="cardNumber" class="text-center">
-        <!-- Card number will be displayed here -->
-    </div>
+        </div>
 
     <div id="recognizedText" class="text-center">
-        <!-- Recognized text will appear here -->
-    </div>
+        </div>
 
-    <!-- Shuffle button as a fixed icon -->
-    <button id="shuffleBtn" class="icon-button"><span class="fas fa-random">&#x21C6;</span></button> <!-- Shuffle icon -->
-
-
-    <script>
+    <button id="shuffleBtn" class="icon-button"><span class="fas fa-random">&#x21C6;</span></button> <script>
         let flashcardsData = [];
         let currentCardIndex = 0;
         let isFlipped = false;
@@ -325,6 +332,8 @@
         const exampleEl = document.getElementById('example');
         // Added element for word class
         const wordClassEl = document.getElementById('word-class');
+        // New element for English Definition
+        const englishDefinitionEl = document.getElementById('englishDefinitionEl');
         // Removed prevBtn, nextBtn
         const flipBtn = document.getElementById('flipBtn');
         const shuffleBtn = document.getElementById('shuffleBtn'); // Get the shuffle icon button
@@ -410,6 +419,8 @@
             // Display word class (Added)
             wordClassEl.textContent = card.classes ? `(${card.classes})` : '';
             exampleEl.innerHTML = card.example; // Use innerHTML for example sentence
+            // Display English Definition (Added)
+            englishDefinitionEl.textContent = card['english-definition'] || 'N/A'; // Use N/A if not available
 
 
             // Update card number display
