@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Học Từ Vựng - EEW 4</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -124,6 +123,17 @@
             border-left: 4px solid #007bff;
             border-radius: 4px;
             font-style: italic;
+        }
+        /* Changed to match example sentence font size */
+        .example-ipa {
+            font-size: 1em; /* Adjusted to match example sentence */
+            color: #586069;
+            margin-top: 1px;
+        }
+        .example-meaning {
+            font-size: 1em; /* Adjusted to match example sentence */
+            color: #0366d6;
+            margin-top: 1px;
         }
         .controls {
             display: flex;
@@ -270,37 +280,28 @@
         <a href="index.html" class="back-button">
             <span class="arrow">&larr;</span> Quay lại
         </a>
-        <h1 id="chapter-title" class="header-title text-xl font-semibold">Học Từ Vựng</h1> <!-- Added header-title class -->
-        <button id="list-words-btn" class="list-button">Danh sách từ</button> <!-- Added List Words Button -->
-    </header>
+        <h1 id="chapter-title" class="header-title text-xl font-semibold">Học Từ Vựng</h1> <button id="list-words-btn" class="list-button">Danh sách từ</button> </header>
 
     <div class="container">
         <div id="loading" class="loading">Đang tải từ vựng...</div>
         <div id="word-learning-area" class="hidden">
             <div class="word-card">
                 <div id="word" class="word"></div>
-                <div id="word-index" class="text-sm text-gray-500 mb-2"></div> <!-- Added element for word index -->
-                <div id="pronunciation" class="pronunciation"></div>
+                <div id="word-index" class="text-sm text-gray-500 mb-2"></div> <div id="pronunciation" class="pronunciation"></div>
                 <div id="meaning" class="meaning"></div>
-                <!-- Added element for word class -->
                 <div id="word-class" class="word-class"></div>
-                <!-- Image will be inserted here -->
                 <img id="word-image" class="word-image hidden" src="" alt="Word illustration">
                 <div class="examples">
-                    <h3>Ví dụ: <span id="example-index" class="text-sm text-gray-500"></span></h3> <!-- Added element for example index -->
-                    <div id="examples-list">
-                        <!-- Examples will be loaded here -->
-                    </div>
+                    <h3>Ví dụ: <span id="example-index" class="text-sm text-gray-500"></span></h3> <div id="examples-list">
+                        </div>
                     <button id="next-example-btn" class="control-button next-button mt-4">Ví dụ tiếp theo</button>
                 </div>
             </div>
 
             <div class="controls">
-                <button id="prev-word-btn" class="control-button prev-button">Từ trước</button> <!-- Previous button -->
-                <button id="start-speech-btn" class="control-button start-speech-button">Bắt đầu nói</button>
+                <button id="prev-word-btn" class="control-button prev-button">Từ trước</button> <button id="start-speech-btn" class="control-button start-speech-button">Bắt đầu nói</button>
                 <button id="stop-speech-btn" class="control-button stop-speech-button hidden">Dừng nói</button>
-                <button id="next-word-btn" class="control-button next-button">Từ tiếp theo</button> <!-- Removed hidden class -->
-            </div>
+                <button id="next-word-btn" class="control-button next-button">Từ tiếp theo</button> </div>
 
             <div id="transcription" class="transcription"></div>
             <div id="feedback" class="feedback hidden"></div>
@@ -313,13 +314,11 @@
         </div>
     </div>
 
-    <!-- Word List Menu -->
     <div id="word-list-menu" class="word-list-menu hidden">
         <button id="word-list-close-btn" class="word-list-close-btn">&times;</button>
         <h3>Danh sách từ</h3>
         <ul id="word-list">
-            <!-- Word list items will be loaded here -->
-        </ul>
+            </ul>
     </div>
 
 
@@ -629,9 +628,7 @@
              // Display the sentence, meaning, and ipa for the example
              examplesListElement.innerHTML = `
                 <div class="example-sentence">${currentExample.sentence || 'N/A'}</div>
-                <div class="example-ipa text-gray-500 text-xs mt-1">${currentExample['ipa-example'] || 'N/A'}</div> <!-- Hiển thị IPA ngay dưới câu -->
-                <div class="example-meaning text-gray-700 text-sm mt-1">${currentExample['meaning-example'] || 'N/A'}</div> <!-- Hiển thị nghĩa dưới IPA -->
-             `;
+                <div class="example-ipa text-gray-500 mt-1">${currentExample['ipa-example'] || 'N/A'}</div> <div class="example-meaning text-gray-700 text-sm mt-1">${currentExample['meaning-example'] || 'N/A'}</div> `;
 
              // Update next example button text
              if (currentExampleIndex === word.example.length - 1) {
