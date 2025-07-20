@@ -1,0 +1,182 @@
+[
+  {
+    "question": "analytic",
+    "classes": "adj",
+    "answer": "(thuộc về) phân tích, có tính phân tích.",
+    "ipa": "/ˌæn.əˈlɪt.ɪk/",
+    "example": "Though his **analytic** abilities were great, he failed to notice he was missing something very important in his life.",
+    "english-definition": "relating to or using analysis or logical reasoning.",
+    "images": "eew-5-3/1.jpg"
+  },
+  {
+    "question": "assert",
+    "classes": "v",
+    "answer": "khẳng định, quả quyết một cách mạnh mẽ.",
+    "ipa": "/əˈsɜːrt/",
+    "example": "As soon as he had received his diploma, he **asserted** to everyone he met that he was the smartest person in town.",
+    "english-definition": "to state a fact or belief confidently and forcefully.",
+    "images": "eew-5-3/2.jpg"
+  },
+  {
+    "question": "bachelor",
+    "classes": "n",
+    "answer": "người có bằng cử nhân; người đàn ông chưa vợ. Trong truyện này, nó mang cả hai nghĩa.",
+    "ipa": "/ˈbætʃ.əl.ər/",
+    "example": "A keen young **bachelor** had finished his studies at the university.",
+    "english-definition": "a man who is not and has never been married; a person who has completed a bachelor's degree.",
+    "images": "eew-5-3/3.jpg"
+  },
+  {
+    "question": "calculus",
+    "classes": "n",
+    "answer": "giải tích, một nhánh của toán học cao cấp.",
+    "ipa": "/ˈkæl.kjə.ləs/",
+    "example": "“I’ve mastered **calculus** and physiology.”",
+    "english-definition": "a branch of mathematics that deals with rates of change and finding the lengths, areas, and volumes.",
+    "images": "eew-5-3/4.jpg"
+  },
+  {
+    "question": "celestial",
+    "classes": "adj",
+    "answer": "thuộc về bầu trời hoặc không gian; thiên thể.",
+    "ipa": "/səˈles.tʃəl/",
+    "example": "Whether it’s the movements of **celestial** objects, like planets and stars, or how to harness the power of radioactive substances, I know everything.",
+    "english-definition": "of or relating to the sky, or outer space as observed in astronomy.",
+    "images": "eew-5-3/5.jpg"
+  },
+  {
+    "question": "cognitive",
+    "classes": "adj",
+    "answer": "thuộc về nhận thức, liên quan đến quá trình suy nghĩ và hiểu biết.",
+    "ipa": "/ˈkɒɡ.nə.tɪv/",
+    "example": "It was the act of helping others, not his **cognitive** skills, that gave him this great feeling.",
+    "english-definition": "connected with thinking or conscious mental processes.",
+    "images": "eew-5-3/6.jpg"
+  },
+  {
+    "question": "collision",
+    "classes": "n",
+    "answer": "vụ va chạm, sự đụng nhau.",
+    "ipa": "/kəˈlɪʒ.ən/",
+    "example": "One day while walking through town, the bachelor witnessed a **collision** between two cars.",
+    "english-definition": "an instance of one moving object or person striking violently against another.",
+    "images": "eew-5-3/7.jpg"
+  },
+  {
+    "question": "competent",
+    "classes": "adj",
+    "answer": "có đủ năng lực, giỏi, thành thạo.",
+    "ipa": "/ˈkɒm.pɪ.tənt/",
+    "example": "They really must not be very **competent**.",
+    "english-definition": "having the necessary ability, knowledge, or skill to do something successfully.",
+    "images": "eew-5-3/8.jpg"
+  },
+  {
+    "question": "diploma",
+    "classes": "n",
+    "answer": "bằng cấp, văn bằng.",
+    "ipa": "/dɪˈpləʊ.mə/",
+    "example": "As soon as he had received his **diploma**, he asserted to everyone he met that he was the smartest person in town.",
+    "english-definition": "a certificate awarded by an educational establishment to show that someone has successfully completed a course of study.",
+    "images": "eew-5-3/9.jpg"
+  },
+  {
+    "question": "excel",
+    "classes": "v",
+    "answer": "xuất sắc, trội hơn.",
+    "ipa": "/ɪkˈsel/",
+    "example": "“I **excel** at everything I study,” he said, bragging about his knowledge.",
+    "english-definition": "to be exceptionally good at or proficient in an activity or subject.",
+    "images": "eew-5-3/10.jpg"
+  },
+  {
+    "question": "geology",
+    "classes": "n",
+    "answer": "địa chất học.",
+    "ipa": "/dʒiˈɒl.ə.dʒi/",
+    "example": "Studying mythology, sociology, and **geology** didn’t give him this wonderful feeling.",
+    "english-definition": "the science that deals with the earth's physical structure and substance, its history, and the processes which act on it.",
+    "images": "eew-5-3/11.jpg"
+  },
+  {
+    "question": "harness",
+    "classes": "v",
+    "answer": "khai thác và kiểm soát (một nguồn tài nguyên) để tạo ra năng lượng.",
+    "ipa": "/ˈhɑː.nəs/",
+    "example": "Whether it’s the movements of celestial objects, like planets and stars, or how to **harness** the power of radioactive substances, I know everything.",
+    "english-definition": "to control and make use of (natural resources), especially to produce energy.",
+    "images": "eew-5-3/12.jpg"
+  },
+  {
+    "question": "intellect",
+    "classes": "n",
+    "answer": "trí tuệ, khả năng suy nghĩ và hiểu biết ở mức độ cao.",
+    "ipa": "/ˈɪn.təl.ekt/",
+    "example": "He learned that **intellect** isn’t everything; being helpful is just as important.",
+    "english-definition": "the faculty of reasoning and understanding objectively, especially with regard to abstract matters.",
+    "images": "eew-5-3/13.jpg"
+  },
+  {
+    "question": "keen",
+    "classes": "adj",
+    "answer": "sắc sảo, ham học hỏi, nhiệt tình.",
+    "ipa": "/kiːn/",
+    "example": "A **keen** young bachelor had finished his studies at the university.",
+    "english-definition": "having or showing eagerness or enthusiasm.",
+    "images": "eew-5-3/14.jpg"
+  },
+  {
+    "question": "mythology",
+    "classes": "n",
+    "answer": "thần thoại học, các câu chuyện thần thoại.",
+    "ipa": "/mɪˈθɒl.ə.dʒi/",
+    "example": "Studying **mythology**, sociology, and geology didn’t give him this wonderful feeling.",
+    "english-definition": "a collection of myths, especially one belonging to a particular religious or cultural tradition.",
+    "images": "eew-5-3/15.jpg"
+  },
+  {
+    "question": "physiology",
+    "classes": "n",
+    "answer": "sinh lý học, môn khoa học nghiên cứu chức năng của các sinh vật sống.",
+    "ipa": "/ˌfɪz.iˈɒl.ə.dʒi/",
+    "example": "“I’ve mastered calculus and **physiology**.”",
+    "english-definition": "the branch of biology that deals with the normal functions of living organisms and their parts.",
+    "images": "eew-5-3/16.jpg"
+  },
+  {
+    "question": "radioactive",
+    "classes": "adj",
+    "answer": "có tính phóng xạ, phát ra năng lượng có hại.",
+    "ipa": "/ˌreɪ.di.əʊˈæk.tɪv/",
+    "example": "Whether it’s the movements of celestial objects, like planets and stars, or how to harness the power of **radioactive** substances, I know everything.",
+    "english-definition": "emitting or relating to the emission of ionizing radiation or particles.",
+    "images": "eew-5-3/17.jpg"
+  },
+  {
+    "question": "relativity",
+    "classes": "n",
+    "answer": "thuyết tương đối (một học thuyết của Einstein).",
+    "ipa": "/ˌrel.əˈtɪv.ə.ti/",
+    "example": "I even understand the great theoretical teachings of science, such as **relativity**.",
+    "english-definition": "a theory, formulated essentially by Albert Einstein, that all motion must be defined relative to a frame of reference and that space and time are relative.",
+    "images": "eew-5-3/18.jpg"
+  },
+  {
+    "question": "sociology",
+    "classes": "n",
+    "answer": "xã hội học, môn khoa học nghiên cứu về xã hội và hành vi của con người.",
+    "ipa": "/ˌsəʊ.siˈɒl.ə.dʒi/",
+    "example": "Studying mythology, **sociology**, and geology didn’t give him this wonderful feeling.",
+    "english-definition": "the study of the development, structure, and functioning of human society.",
+    "images": "eew-5-3/19.jpg"
+  },
+  {
+    "question": "theoretical",
+    "classes": "adj",
+    "answer": "(thuộc về) lý thuyết, không dựa trên kinh nghiệm thực tế.",
+    "ipa": "/ˌθɪəˈret.ɪ.kəl/",
+    "example": "I even understand the great **theoretical** teachings of science, such as relativity.",
+    "english-definition": "concerned with or involving the theory of a subject or area of study rather than its practical application.",
+    "images": "eew-5-3/20.jpg"
+  }
+]

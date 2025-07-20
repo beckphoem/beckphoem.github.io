@@ -1,0 +1,882 @@
+[
+  {
+    "word": "analytic",
+    "ipa": "/ˌæn.əˈlɪt.ɪk/",
+    "meaning": "(thuộc về) phân tích, có tính phân tích.",
+    "image": "eew-5-3/1.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "relating to or using analysis or logical reasoning.",
+        "meaning-example": "liên quan đến hoặc sử dụng phân tích hoặc lý luận logic.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Though his analytic abilities were great, he failed to notice he was missing something very important in his life.",
+        "meaning-example": "Mặc dù khả năng phân tích của anh ấy rất tuyệt vời, anh ấy đã không nhận ra mình đang thiếu một điều gì đó rất quan trọng trong cuộc đời.",
+        "ipa-example": "/ðoʊ hɪz ˌæn.əˈlɪt.ɪk əˈbɪl.ə.tiz wɜːr ɡreɪt, hiː feɪld tuː ˈnoʊ.tɪs hiː wəz ˈmɪs.ɪŋ ˈsʌm.θɪŋ ˈver.i ɪmˈpɔːr.tənt ɪn hɪz laɪf./"
+      },
+      {
+        "sentence": "He has an analytic mind.",
+        "meaning-example": "Anh ấy có một bộ óc phân tích.",
+        "ipa-example": "/hiː hæz ən ˌæn.əˈlɪt.ɪk maɪnd./"
+      },
+      {
+        "sentence": "She tried to take an analytic approach to the problem.",
+        "meaning-example": "Cô ấy đã cố gắng tiếp cận vấn đề một cách phân tích.",
+        "ipa-example": "/ʃiː traɪd tuː teɪk ən ˌæn.əˈlɪt.ɪk əˈproʊtʃ tuː ðə ˈprɒb.ləm./"
+      },
+      {
+        "sentence": "Analytic skills are useful in many jobs.",
+        "meaning-example": "Kỹ năng phân tích hữu ích trong nhiều công việc.",
+        "ipa-example": "/ˌæn.əˈlɪt.ɪk skɪlz ɑːr ˈjuːs.fəl ɪn ˈmen.i dʒɒbz./"
+      },
+      {
+        "sentence": "The report provides an analytic review of the company's performance.",
+        "meaning-example": "Báo cáo cung cấp một đánh giá phân tích về hiệu suất của công ty.",
+        "ipa-example": "/ðə rɪˈpɔːrt prəˈvaɪdz ən ˌæn.əˈlɪt.ɪk rɪˈvjuː əv ðə ˈkʌm.pə.niz pərˈfɔːr.məns./"
+      },
+      {
+        "sentence": "He is very analytic in the way he thinks.",
+        "meaning-example": "Anh ấy rất phân tích trong cách suy nghĩ của mình.",
+        "ipa-example": "/hiː ɪz ˈver.i ˌæn.əˈlɪt.ɪk ɪn ðə weɪ hiː θɪŋks./"
+      }
+    ]
+  },
+  {
+    "word": "assert",
+    "ipa": "/əˈsɜːrt/",
+    "meaning": "khẳng định, quả quyết một cách mạnh mẽ.",
+    "image": "eew-5-3/2.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to state a fact or belief confidently and forcefully.",
+        "meaning-example": "nêu một sự thật hoặc niềm tin một cách tự tin và mạnh mẽ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "As soon as he had received his diploma, he asserted to everyone he met that he was the smartest person in town.",
+        "meaning-example": "Ngay khi nhận được bằng tốt nghiệp, anh ta khẳng định với mọi người anh gặp rằng anh ta là người thông minh nhất thị trấn.",
+        "ipa-example": "/æz suːn æz hiː hæd rɪˈsiːvd hɪz dɪˈpləʊ.mə, hiː əˈsɜːr.tɪd tuː ˈev.ri.wʌn hiː met ðæt hiː wəz ðə ˈsmɑːr.tɪst ˈpɜːr.sən ɪn taʊn./"
+      },
+      {
+        "sentence": "You need to assert your rights.",
+        "meaning-example": "Bạn cần phải khẳng định quyền của mình.",
+        "ipa-example": "/juː niːd tuː əˈsɜːrt jʊər raɪts./"
+      },
+      {
+        "sentence": "She continued to assert that she was innocent.",
+        "meaning-example": "Cô ấy tiếp tục khẳng định mình vô tội.",
+        "ipa-example": "/ʃiː kənˈtɪn.juːd tuː əˈsɜːrt ðæt ʃiː wəz ˈɪn.ə.sənt./"
+      },
+      {
+        "sentence": "He asserted his authority over the group.",
+        "meaning-example": "Anh ấy đã khẳng định quyền lực của mình đối với nhóm.",
+        "ipa-example": "/hiː əˈsɜːr.tɪd hɪz ɔːˈθɒr.ə.ti ˈoʊ.vər ðə ɡruːp./"
+      },
+      {
+        "sentence": "It's important to assert yourself in a discussion.",
+        "meaning-example": "Điều quan trọng là phải thể hiện bản thân trong một cuộc thảo luận.",
+        "ipa-example": "/ɪts ɪmˈpɔːr.tənt tuː əˈsɜːrt jʊərˈself ɪn ə dɪˈskʌʃ.ən./"
+      },
+      {
+        "sentence": "The company asserts that its products are safe.",
+        "meaning-example": "Công ty khẳng định sản phẩm của họ an toàn.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni əˈsɜːrts ðæt ɪts ˈprɒd.ʌkts ɑːr seɪf./"
+      }
+    ]
+  },
+  {
+    "word": "bachelor",
+    "ipa": "/ˈbætʃ.əl.ər/",
+    "meaning": "người có bằng cử nhân; người đàn ông chưa vợ. Trong truyện này, nó mang cả hai nghĩa.",
+    "image": "eew-5-3/3.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a man who is not and has never been married; a person who has completed a bachelor's degree.",
+        "meaning-example": "một người đàn ông chưa từng kết hôn; một người đã hoàn thành bằng cử nhân.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "A keen young bachelor had finished his studies at the university.",
+        "meaning-example": "Một cử nhân trẻ tuổi ham học đã hoàn thành việc học của mình tại trường đại học.",
+        "ipa-example": "/ə kiːn jʌŋ ˈbætʃ.əl.ər hæd ˈfɪn.ɪʃt hɪz ˈstʌd.iz æt ðə ˌjuː.nɪˈvɜːr.sə.ti./"
+      },
+      {
+        "sentence": "He is a 30-year-old bachelor.",
+        "meaning-example": "Anh ấy là một người đàn ông độc thân 30 tuổi.",
+        "ipa-example": "/hiː ɪz ə ˈθɜːr.ti jɪər oʊld ˈbætʃ.əl.ər./"
+      },
+      {
+        "sentence": "She has a Bachelor of Arts degree.",
+        "meaning-example": "Cô ấy có bằng Cử nhân Nghệ thuật.",
+        "ipa-example": "/ʃiː hæz ə ˈbætʃ.əl.ər əv ɑːrts dɪˈɡriː./"
+      },
+      {
+        "sentence": "My brother is still a bachelor.",
+        "meaning-example": "Anh trai tôi vẫn còn độc thân.",
+        "ipa-example": "/maɪ ˈbrʌð.ər ɪz stɪl ə ˈbætʃ.əl.ər./"
+      },
+      {
+        "sentence": "He lived in a bachelor apartment.",
+        "meaning-example": "Anh ấy sống trong một căn hộ độc thân.",
+        "ipa-example": "/hiː lɪvd ɪn ə ˈbætʃ.əl.ər əˈpɑːrt.mənt./"
+      },
+      {
+        "sentence": "The story is about a rich bachelor.",
+        "meaning-example": "Câu chuyện kể về một người đàn ông độc thân giàu có.",
+        "ipa-example": "/ðə ˈstɔːr.i ɪz əˈbaʊt ə rɪtʃ ˈbætʃ.əl.ər./"
+      }
+    ]
+  },
+  {
+    "word": "calculus",
+    "ipa": "/ˈkæl.kjə.ləs/",
+    "meaning": "giải tích, một nhánh của toán học cao cấp.",
+    "image": "eew-5-3/4.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a branch of mathematics that deals with rates of change and finding the lengths, areas, and volumes.",
+        "meaning-example": "một nhánh của toán học liên quan đến tốc độ thay đổi và tìm độ dài, diện tích và thể tích.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“I’ve mastered calculus and physiology.”",
+        "meaning-example": "“Tôi đã thành thạo giải tích và sinh lý học.”",
+        "ipa-example": "/aɪv ˈmæstərd ˈkæl.kjə.ləs ænd ˌfɪz.iˈɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "Calculus is a difficult subject for many students.",
+        "meaning-example": "Giải tích là một môn học khó đối với nhiều sinh viên.",
+        "ipa-example": "/ˈkæl.kjə.ləs ɪz ə ˈdɪf.ɪ.kəlt ˈsʌb.dʒɪkt fɔːr ˈmen.i ˈstuː.dənts./"
+      },
+      {
+        "sentence": "I have a calculus exam tomorrow.",
+        "meaning-example": "Tôi có bài kiểm tra giải tích vào ngày mai.",
+        "ipa-example": "/aɪ hæv ə ˈkæl.kjə.ləs ɪɡˈzæm təˈmɒr.oʊ./"
+      },
+      {
+        "sentence": "She is studying calculus at the university.",
+        "meaning-example": "Cô ấy đang học giải tích tại trường đại học.",
+        "ipa-example": "/ʃiː ɪz ˈstʌd.i.ɪŋ ˈkæl.kjə.ləs æt ðə ˌjuː.nɪˈvɜːr.sə.ti./"
+      },
+      {
+        "sentence": "Newton was one of the inventors of calculus.",
+        "meaning-example": "Newton là một trong những nhà phát minh ra giải tích.",
+        "ipa-example": "/ˈnjuː.tən wəz wʌn əv ðə ɪnˈven.tərz əv ˈkæl.kjə.ləs./"
+      },
+      {
+        "sentence": "You need to understand algebra before learning calculus.",
+        "meaning-example": "Bạn cần phải hiểu đại số trước khi học giải tích.",
+        "ipa-example": "/juː niːd tuː ˌʌn.dərˈstænd ˈæl.dʒɪ.brə bɪˈfɔːr ˈlɜːr.nɪŋ ˈkæl.kjə.ləs./"
+      }
+    ]
+  },
+  {
+    "word": "celestial",
+    "ipa": "/səˈles.tʃəl/",
+    "meaning": "thuộc về bầu trời hoặc không gian; thiên thể.",
+    "image": "eew-5-3/5.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "of or relating to the sky, or outer space as observed in astronomy.",
+        "meaning-example": "thuộc về hoặc liên quan đến bầu trời, hoặc không gian bên ngoài như được quan sát trong thiên văn học.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Whether it’s the movements of celestial objects, like planets and stars, or how to harness the power of radioactive substances, I know everything.",
+        "meaning-example": "Cho dù đó là sự chuyển động của các thiên thể, như hành tinh và sao, hay cách khai thác sức mạnh của các chất phóng xạ, tôi đều biết mọi thứ.",
+        "ipa-example": "/ˈweð.ər ɪts ðə ˈmuːv.mənts əv səˈles.tʃəl ˈɒb.dʒɪkts, laɪk ˈplæn.ɪts ænd stɑːrz, ɔːr haʊ tuː ˈhɑːr.nəs ðə ˈpaʊ.ər əv ˌreɪ.di.oʊˈæk.tɪv ˈsʌb.stən.sɪz, aɪ noʊ ˈev.ri.θɪŋ./"
+      },
+      {
+        "sentence": "The sun, moon, and stars are celestial bodies.",
+        "meaning-example": "Mặt trời, mặt trăng và các vì sao là các thiên thể.",
+        "ipa-example": "/ðə sʌn, muːn, ænd stɑːrz ɑːr səˈles.tʃəl ˈbɒd.iz./"
+      },
+      {
+        "sentence": "Astronomers study celestial objects.",
+        "meaning-example": "Các nhà thiên văn học nghiên cứu các thiên thể.",
+        "ipa-example": "/əˈstrɒn.ə.mərz ˈstʌd.i səˈles.tʃəl ˈɒb.dʒɪkts./"
+      },
+      {
+        "sentence": "He was interested in celestial navigation.",
+        "meaning-example": "Anh ấy quan tâm đến định hướng thiên văn.",
+        "ipa-example": "/hiː wəz ˈɪn.trə.stɪd ɪn səˈles.tʃəl ˌnæv.ɪˈɡeɪ.ʃən./"
+      },
+      {
+        "sentence": "The painting had a beautiful celestial background.",
+        "meaning-example": "Bức tranh có một phông nền thiên thể tuyệt đẹp.",
+        "ipa-example": "/ðə ˈpeɪn.tɪŋ hæd ə ˈbjuː.tɪ.fəl səˈles.tʃəl ˈbæk.ɡraʊnd./"
+      },
+      {
+        "sentence": "A telescope helps us see celestial events.",
+        "meaning-example": "Kính thiên văn giúp chúng ta nhìn thấy các sự kiện thiên văn.",
+        "ipa-example": "/ə ˈtel.ɪ.skoʊp helps ʌs siː səˈles.tʃəl ɪˈvents./"
+      }
+    ]
+  },
+  {
+    "word": "cognitive",
+    "ipa": "/ˈkɒɡ.nə.tɪv/",
+    "meaning": "thuộc về nhận thức, liên quan đến quá trình suy nghĩ và hiểu biết.",
+    "image": "eew-5-3/6.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "connected with thinking or conscious mental processes.",
+        "meaning-example": "liên quan đến tư duy hoặc các quá trình tinh thần có ý thức.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "It was the act of helping others, not his cognitive skills, that gave him this great feeling.",
+        "meaning-example": "Đó là hành động giúp đỡ người khác, chứ không phải kỹ năng nhận thức của anh ấy, đã mang lại cho anh ấy cảm giác tuyệt vời này.",
+        "ipa-example": "/ɪt wəz ðə ækt əv ˈhelp.ɪŋ ˈʌð.ərz, nɒt hɪz ˈkɒɡ.nə.tɪv skɪlz, ðæt ɡeɪv hɪm ðɪs ɡreɪt ˈfiːl.ɪŋ./"
+      },
+      {
+        "sentence": "As we get older, our cognitive abilities decline.",
+        "meaning-example": "Khi chúng ta già đi, khả năng nhận thức của chúng ta suy giảm.",
+        "ipa-example": "/æz wiː ɡet ˈoʊl.dər, aʊər ˈkɒɡ.nə.tɪv əˈbɪl.ə.tiz dɪˈklaɪn./"
+      },
+      {
+        "sentence": "The study is about children's cognitive development.",
+        "meaning-example": "Nghiên cứu này là về sự phát triển nhận thức của trẻ em.",
+        "ipa-example": "/ðə ˈstʌd.i ɪz əˈbaʊt ˈtʃɪl.drənz ˈkɒɡ.nə.tɪv dɪˈvel.əp.mənt./"
+      },
+      {
+        "sentence": "Puzzles can improve your cognitive skills.",
+        "meaning-example": "Các câu đố có thể cải thiện kỹ năng nhận thức của bạn.",
+        "ipa-example": "/ˈpʌz.əlz kæn ɪmˈpruːv jʊər ˈkɒɡ.nə.tɪv skɪlz./"
+      },
+      {
+        "sentence": "He has some cognitive problems after the accident.",
+        "meaning-example": "Anh ấy có một số vấn đề nhận thức sau tai nạn.",
+        "ipa-example": "/hiː hæz sʌm ˈkɒɡ.nə.tɪv ˈprɒb.ləmz ˈɑːf.tər ðə ˈæk.sɪ.dənt./"
+      },
+      {
+        "sentence": "Cognitive science studies how the mind works.",
+        "meaning-example": "Khoa học nhận thức nghiên cứu cách tâm trí hoạt động.",
+        "ipa-example": "/ˈkɒɡ.nə.tɪv ˈsaɪ.əns ˈstʌd.iz haʊ ðə maɪnd wɜːrks./"
+      }
+    ]
+  },
+  {
+    "word": "collision",
+    "ipa": "/kəˈlɪʒ.ən/",
+    "meaning": "vụ va chạm, sự đụng nhau.",
+    "image": "eew-5-3/7.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "an instance of one moving object or person striking violently against another.",
+        "meaning-example": "một trường hợp một vật thể hoặc người đang chuyển động va chạm mạnh với vật thể hoặc người khác.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "One day while walking through town, the bachelor witnessed a collision between two cars.",
+        "meaning-example": "Một ngày nọ khi đi dạo qua thị trấn, cử nhân chứng kiến một vụ va chạm giữa hai chiếc xe ô tô.",
+        "ipa-example": "/wʌn deɪ waɪl ˈwɔːk.ɪŋ θruː taʊn, ðə ˈbætʃ.əl.ər ˈwɪt.nəst ə kəˈlɪʒ.ən bɪˈtwiːn tuː kɑːrz./"
+      },
+      {
+        "sentence": "There was a serious collision on the highway.",
+        "meaning-example": "Có một vụ va chạm nghiêm trọng trên đường cao tốc.",
+        "ipa-example": "/ðer wəz ə ˈsɪə.ri.əs kəˈlɪʒ.ən ɒn ðə ˈhaɪ.weɪ./"
+      },
+      {
+        "sentence": "He was injured in a car collision.",
+        "meaning-example": "Anh ấy bị thương trong một vụ va chạm xe ô tô.",
+        "ipa-example": "/hiː wəz ˈɪn.dʒərd ɪn ə kɑːr kəˈlɪʒ.ən./"
+      },
+      {
+        "sentence": "The two players avoided a collision.",
+        "meaning-example": "Hai cầu thủ đã tránh được một vụ va chạm.",
+        "ipa-example": "/ðə tuː ˈpleɪ.ərz əˈvɔɪd.ɪd ə kəˈlɪʒ.ən./"
+      },
+      {
+        "sentence": "The ship changed course to prevent a collision.",
+        "meaning-example": "Con tàu đã thay đổi hướng để ngăn chặn một vụ va chạm.",
+        "ipa-example": "/ðə ʃɪp tʃeɪndʒd kɔːrs tuː prɪˈvent ə kəˈlɪʒ.ən./"
+      },
+      {
+        "sentence": "A collision of ideas can lead to new solutions.",
+        "meaning-example": "Sự va chạm của các ý tưởng có thể dẫn đến các giải pháp mới.",
+        "ipa-example": "/ə kəˈlɪʒ.ən əv aɪˈdɪəz kæn liːd tuː nuː səˈluː.ʃənz./"
+      }
+    ]
+  },
+  {
+    "word": "competent",
+    "ipa": "/ˈkɒm.pɪ.tənt/",
+    "meaning": "có đủ năng lực, giỏi, thành thạo.",
+    "image": "eew-5-3/8.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "having the necessary ability, knowledge, or skill to do something successfully.",
+        "meaning-example": "có khả năng, kiến thức hoặc kỹ năng cần thiết để làm điều gì đó thành công.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "They really must not be very competent.",
+        "meaning-example": "Họ thực sự không được có năng lực lắm.",
+        "ipa-example": "/ðeɪ ˈrɪə.li mʌst nɒt biː ˈver.i ˈkɒm.pɪ.tənt./"
+      },
+      {
+        "sentence": "We need a competent person for this job.",
+        "meaning-example": "Chúng ta cần một người có năng lực cho công việc này.",
+        "ipa-example": "/wiː niːd ə ˈkɒm.pɪ.tənt ˈpɜːr.sən fɔːr ðɪs dʒɒb./"
+      },
+      {
+        "sentence": "She is a highly competent doctor.",
+        "meaning-example": "Cô ấy là một bác sĩ rất có năng lực.",
+        "ipa-example": "/ʃiː ɪz ə ˈhaɪ.li ˈkɒm.pɪ.tənt ˈdɒk.tər./"
+      },
+      {
+        "sentence": "I want to prove that I am competent.",
+        "meaning-example": "Tôi muốn chứng minh rằng tôi có năng lực.",
+        "ipa-example": "/aɪ wɒnt tuː pruːv ðæt aɪ æm ˈkɒm.pɪ.tənt./"
+      },
+      {
+        "sentence": "He is not competent to make that decision.",
+        "meaning-example": "Anh ấy không đủ năng lực để đưa ra quyết định đó.",
+        "ipa-example": "/hiː ɪz nɒt ˈkɒm.pɪ.tənt tuː meɪk ðæt dɪˈsɪʒ.ən./"
+      },
+      {
+        "sentence": "The mechanic was very friendly and competent.",
+        "meaning-example": "Người thợ máy rất thân thiện và có năng lực.",
+        "ipa-example": "/ðə mɪˈkæn.ɪk wəz ˈver.i ˈfrend.li ænd ˈkɒm.pɪ.tənt./"
+      }
+    ]
+  },
+  {
+    "word": "diploma",
+    "ipa": "/dɪˈpləʊ.mə/",
+    "meaning": "bằng cấp, văn bằng.",
+    "image": "eew-5-3/9.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a certificate awarded by an educational establishment to show that someone has successfully completed a course of study.",
+        "meaning-example": "một chứng chỉ được trao bởi một cơ sở giáo dục để cho thấy rằng ai đó đã hoàn thành thành công một khóa học.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "As soon as he had received his diploma, he asserted to everyone he met that he was the smartest person in town.",
+        "meaning-example": "Ngay khi nhận được bằng tốt nghiệp, anh ta khẳng định với mọi người anh gặp rằng anh ta là người thông minh nhất thị trấn.",
+        "ipa-example": "/æz suːn æz hiː hæd rɪˈsiːvd hɪz dɪˈpləʊ.mə, hiː əˈsɜːr.tɪd tuː ˈev.ri.wʌn hiː met ðæt hiː wəz ðə ˈsmɑːr.tɪst ˈpɜːr.sən ɪn taʊn./"
+      },
+      {
+        "sentence": "She earned her high school diploma last year.",
+        "meaning-example": "Cô ấy đã lấy bằng tốt nghiệp trung học vào năm ngoái.",
+        "ipa-example": "/ʃiː ɜːrnd hɜːr haɪ skuːl dɪˈpləʊ.mə lɑːst jɪər./"
+      },
+      {
+        "sentence": "He is studying for a diploma in business.",
+        "meaning-example": "Anh ấy đang học lấy bằng về kinh doanh.",
+        "ipa-example": "/hiː ɪz ˈstʌd.i.ɪŋ fɔːr ə dɪˈpləʊ.mə ɪn ˈbɪz.nəs./"
+      },
+      {
+        "sentence": "You need a diploma to apply for this job.",
+        "meaning-example": "Bạn cần bằng cấp để ứng tuyển vào công việc này.",
+        "ipa-example": "/juː niːd ə dɪˈpləʊ.mə tuː əˈplaɪ fɔːr ðɪs dʒɒb./"
+      },
+      {
+        "sentence": "He proudly hung his diploma on the wall.",
+        "meaning-example": "Anh ấy tự hào treo bằng tốt nghiệp của mình lên tường.",
+        "ipa-example": "/hiː praʊd.li hʌŋ hɪz dɪˈpləʊ.mə ɒn ðə wɔːl./"
+      },
+      {
+        "sentence": "A diploma is an important document.",
+        "meaning-example": "Một bằng cấp là một tài liệu quan trọng.",
+        "ipa-example": "/ə dɪˈpləʊ.mə ɪz ən ɪmˈpɔːr.tənt ˈdɒk.jə.mənt./"
+      }
+    ]
+  },
+  {
+    "word": "excel",
+    "ipa": "/ɪkˈsel/",
+    "meaning": "xuất sắc, trội hơn.",
+    "image": "eew-5-3/10.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to be exceptionally good at or proficient in an activity or subject.",
+        "meaning-example": "đặc biệt giỏi hoặc thành thạo trong một hoạt động hoặc môn học.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“I excel at everything I study,” he said, bragging about his knowledge.",
+        "meaning-example": "“Tôi xuất sắc trong mọi thứ tôi học,” anh nói, khoe khoang về kiến thức của mình.",
+        "ipa-example": "/aɪ ɪkˈsel æt ˈev.ri.θɪŋ aɪ ˈstʌd.i, hiː sed, ˈbræɡ.ɪŋ əˈbaʊt hɪz ˈnɒl.ɪdʒ./"
+      },
+      {
+        "sentence": "She always wanted to excel in her studies.",
+        "meaning-example": "Cô ấy luôn muốn xuất sắc trong học tập.",
+        "ipa-example": "/ʃiː ˈɔːl.weɪz ˈwɒn.tɪd tuː ɪkˈsel ɪn hɜːr ˈstʌd.iz./"
+      },
+      {
+        "sentence": "He hopes to excel as a football player.",
+        "meaning-example": "Anh ấy hy vọng sẽ xuất sắc với tư cách là một cầu thủ bóng đá.",
+        "ipa-example": "/hiː hoʊps tuː ɪkˈsel æz ə ˈfʊt.bɔːl ˈpleɪ.ər./"
+      },
+      {
+        "sentence": "They excel at making customers feel welcome.",
+        "meaning-example": "Họ xuất sắc trong việc khiến khách hàng cảm thấy được chào đón.",
+        "ipa-example": "/ðeɪ ɪkˈsel æt ˈmeɪk.ɪŋ ˈkʌs.tə.mərz fiːl ˈwel.kəm./"
+      },
+      {
+        "sentence": "He is a student who excels in science.",
+        "meaning-example": "Anh ấy là một học sinh xuất sắc trong khoa học.",
+        "ipa-example": "/hiː ɪz ə ˈstuː.dənt huː ɪkˈselz ɪn ˈsaɪ.əns./"
+      },
+      {
+        "sentence": "To excel, you must practice every day.",
+        "meaning-example": "Để xuất sắc, bạn phải luyện tập mỗi ngày.",
+        "ipa-example": "/tuː ɪkˈsel, juː mʌst ˈpræk.tɪs ˈev.ri deɪ./"
+      }
+    ]
+  },
+  {
+    "word": "geology",
+    "ipa": "/dʒiˈɒl.ə.dʒi/",
+    "meaning": "địa chất học.",
+    "image": "eew-5-3/11.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the science that deals with the earth's physical structure and substance, its history, and the processes which act on it.",
+        "meaning-example": "khoa học nghiên cứu về cấu trúc vật lý và vật chất của trái đất, lịch sử của nó và các quá trình tác động lên nó.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Studying mythology, sociology, and geology didn’t give him this wonderful feeling.",
+        "meaning-example": "Học thần thoại, xã hội học và địa chất không mang lại cho anh ấy cảm giác tuyệt vời này.",
+        "ipa-example": "/ˈstʌd.i.ɪŋ mɪˈθɒl.ə.dʒi, ˌsəʊ.siˈɒl.ə.dʒi, ænd dʒiˈɒl.ə.dʒi dɪdnt ɡɪv hɪm ðɪs ˈwʌn.dər.fəl ˈfiːl.ɪŋ./"
+      },
+      {
+        "sentence": "He is studying geology at the university.",
+        "meaning-example": "Anh ấy đang học địa chất tại trường đại học.",
+        "ipa-example": "/hiː ɪz ˈstʌd.i.ɪŋ dʒiˈɒl.ə.dʒi æt ðə ˌjuː.nɪˈvɜːr.sə.ti./"
+      },
+      {
+        "sentence": "Geology helps us understand how mountains are formed.",
+        "meaning-example": "Địa chất học giúp chúng ta hiểu cách núi được hình thành.",
+        "ipa-example": "/dʒiˈɒl.ə.dʒi helps ʌs ˌʌn.dərˈstænd haʊ ˈmaʊn.tɪnz ɑːr fɔːrmd./"
+      },
+      {
+        "sentence": "My professor has a degree in geology.",
+        "meaning-example": "Giáo sư của tôi có bằng về địa chất học.",
+        "ipa-example": "/maɪ prəˈfes.ər hæz ə dɪˈɡriː ɪn dʒiˈɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "This area has a very interesting geology.",
+        "meaning-example": "Khu vực này có địa chất rất thú vị.",
+        "ipa-example": "/ðɪs ˈeə.ri.ə hæz ə ˈver.i ˈɪn.trə.stɪŋ dʒiˈɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "I bought a book about the geology of our country.",
+        "meaning-example": "Tôi đã mua một cuốn sách về địa chất của đất nước chúng ta.",
+        "ipa-example": "/aɪ bɔːt ə bʊk əˈbaʊt ðə dʒiˈɒl.ə.dʒi əv aʊər ˈkʌn.tri./"
+      }
+    ]
+  },
+  {
+    "word": "harness",
+    "ipa": "/ˈhɑː.nəs/",
+    "meaning": "khai thác và kiểm soát (một nguồn tài nguyên) để tạo ra năng lượng.",
+    "image": "eew-5-3/12.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to control and make use of (natural resources), especially to produce energy.",
+        "meaning-example": "kiểm soát và sử dụng (tài nguyên thiên nhiên), đặc biệt là để sản xuất năng lượng.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Whether it’s the movements of celestial objects, like planets and stars, or how to harness the power of radioactive substances, I know everything.",
+        "meaning-example": "Cho dù đó là sự chuyển động của các thiên thể, như hành tinh và sao, hay cách khai thác sức mạnh của các chất phóng xạ, tôi đều biết mọi thứ.",
+        "ipa-example": "/ˈweð.ər ɪts ðə ˈmuːv.mənts əv səˈles.tʃəl ˈɒb.dʒɪkts, laɪk ˈplæn.ɪts ænd stɑːrz, ɔːr haʊ tuː ˈhɑːr.nəs ðə ˈpaʊ.ər əv ˌreɪ.di.oʊˈæk.tɪv ˈsʌb.stən.sɪz, aɪ noʊ ˈev.ri.θɪŋ./"
+      },
+      {
+        "sentence": "We need to harness the power of the sun and wind.",
+        "meaning-example": "Chúng ta cần khai thác sức mạnh của mặt trời và gió.",
+        "ipa-example": "/wiː niːd tuː ˈhɑːr.nəs ðə ˈpaʊ.ər əv ðə sʌn ænd wɪnd./"
+      },
+      {
+        "sentence": "Scientists are trying to harness nuclear energy safely.",
+        "meaning-example": "Các nhà khoa học đang cố gắng khai thác năng lượng hạt nhân một cách an toàn.",
+        "ipa-example": "/ˈsaɪən.tɪsts ɑːr ˈtraɪ.ɪŋ tuː ˈhɑːr.nəs ˈnuː.kli.ər ˈen.ər.dʒi ˈseɪf.li./"
+      },
+      {
+        "sentence": "They know how to harness the river's energy to make electricity.",
+        "meaning-example": "Họ biết cách khai thác năng lượng của sông để tạo ra điện.",
+        "ipa-example": "/ðeɪ noʊ haʊ tuː ˈhɑːr.nəs ðə ˈrɪv.ərz ˈen.ər.dʒi tuː meɪk ɪˌlekˈtrɪs.ə.ti./"
+      },
+      {
+        "sentence": "It's important to harness technology for education.",
+        "meaning-example": "Điều quan trọng là phải khai thác công nghệ cho giáo dục.",
+        "ipa-example": "/ɪts ɪmˈpɔːr.tənt tuː ˈhɑːr.nəs tekˈnɒl.ə.dʒi fɔːr ˌed.juˈkeɪ.ʃən./"
+      },
+      {
+        "sentence": "She tried to harness her creative energy.",
+        "meaning-example": "Cô ấy đã cố gắng khai thác năng lượng sáng tạo của mình.",
+        "ipa-example": "/ʃiː traɪd tuː ˈhɑːr.nəs hɜːr kriˈeɪ.tɪv ˈen.ər.dʒi./"
+      }
+    ]
+  },
+  {
+    "word": "intellect",
+    "ipa": "/ˈɪn.təl.ekt/",
+    "meaning": "trí tuệ, khả năng suy nghĩ và hiểu biết ở mức độ cao.",
+    "image": "eew-5-3/13.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the faculty of reasoning and understanding objectively, especially with regard to abstract matters.",
+        "meaning-example": "khả năng suy luận và hiểu biết một cách khách quan, đặc biệt là liên quan đến các vấn đề trừu tượng.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He learned that intellect isn’t everything; being helpful is just as important.",
+        "meaning-example": "Anh ấy nhận ra rằng trí tuệ không phải là tất cả; việc giúp đỡ người khác cũng quan trọng không kém.",
+        "ipa-example": "/hiː lɜːrnd ðæt ˈɪn.təl.ekt ˈɪz.ənt ˈev.ri.θɪŋ; ˈbiː.ɪŋ ˈhelp.fəl ɪz dʒʌst æz ɪmˈpɔːr.tənt./"
+      },
+      {
+        "sentence": "He is a man of great intellect.",
+        "meaning-example": "Anh ấy là một người đàn ông có trí tuệ tuyệt vời.",
+        "ipa-example": "/hiː ɪz ə mæn əv ɡreɪt ˈɪn.təl.ekt./"
+      },
+      {
+        "sentence": "She is known for her powerful intellect.",
+        "meaning-example": "Cô ấy được biết đến với trí tuệ mạnh mẽ của mình.",
+        "ipa-example": "/ʃiː ɪz noʊn fɔːr hɜːr ˈpaʊər.fəl ˈɪn.təl.ekt./"
+      },
+      {
+        "sentence": "The book is challenging to the intellect.",
+        "meaning-example": "Cuốn sách này thách thức trí tuệ.",
+        "ipa-example": "/ðə bʊk ɪz ˈtʃæl.ɪn.dʒɪŋ tuː ðə ˈɪn.təl.ekt./"
+      },
+      {
+        "sentence": "A good education develops a child's intellect.",
+        "meaning-example": "Một nền giáo dục tốt phát triển trí tuệ của trẻ.",
+        "ipa-example": "/ə ɡʊd ˌed.juˈkeɪ.ʃən dɪˈvel.əps ə tʃaɪldz ˈɪn.təl.ekt./"
+      },
+      {
+        "sentence": "He relies on his intellect, not his emotions.",
+        "meaning-example": "Anh ấy dựa vào trí tuệ của mình, không phải cảm xúc của mình.",
+        "ipa-example": "/hiː rɪˈlaɪz ɒn hɪz ˈɪn.təl.ekt, nɒt hɪz ɪˈmoʊ.ʃənz./"
+      }
+    ]
+  },
+  {
+    "word": "keen",
+    "ipa": "/kiːn/",
+    "meaning": "sắc sảo, ham học hỏi, nhiệt tình.",
+    "image": "eew-5-3/14.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "having or showing eagerness or enthusiasm.",
+        "meaning-example": "có hoặc thể hiện sự háo hức hoặc nhiệt tình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "A keen young bachelor had finished his studies at the university.",
+        "meaning-example": "Một cử nhân trẻ tuổi ham học đã hoàn thành việc học của mình tại trường đại học.",
+        "ipa-example": "/ə kiːn jʌŋ ˈbætʃ.əl.ər hæd ˈfɪn.ɪʃt hɪz ˈstʌd.iz æt ðə ˌjuː.nɪˈvɜːr.sə.ti./"
+      },
+      {
+        "sentence": "He is a keen student.",
+        "meaning-example": "Anh ấy là một sinh viên ham học.",
+        "ipa-example": "/hiː ɪz ə kiːn ˈstuː.dənt./"
+      },
+      {
+        "sentence": "She has a keen interest in music.",
+        "meaning-example": "Cô ấy rất quan tâm đến âm nhạc.",
+        "ipa-example": "/ʃiː hæz ə kiːn ˈɪn.trəst ɪn ˈmjuː.zɪk./"
+      },
+      {
+        "sentence": "They were keen to start the project.",
+        "meaning-example": "Họ rất háo hức bắt đầu dự án.",
+        "ipa-example": "/ðeɪ wɜːr kiːn tuː stɑːrt ðə ˈprɒdʒ.ekt./"
+      },
+      {
+        "sentence": "My dog has a keen sense of smell.",
+        "meaning-example": "Con chó của tôi có khứu giác nhạy bén.",
+        "ipa-example": "/maɪ dɒɡ hæz ə kiːn sens əv smel./"
+      },
+      {
+        "sentence": "I am not very keen on that idea.",
+        "meaning-example": "Tôi không mấy thích ý tưởng đó.",
+        "ipa-example": "/aɪ æm nɒt ˈver.i kiːn ɒn ðæt aɪˈdɪə./"
+      }
+    ]
+  },
+  {
+    "word": "mythology",
+    "ipa": "/mɪˈθɒl.ə.dʒi/",
+    "meaning": "thần thoại học, các câu chuyện thần thoại.",
+    "image": "eew-5-3/15.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a collection of myths, especially one belonging to a particular religious or cultural tradition.",
+        "meaning-example": "một tập hợp các huyền thoại, đặc biệt là một tập hợp thuộc về một truyền thống tôn giáo hoặc văn hóa cụ thể.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Studying mythology, sociology, and geology didn’t give him this wonderful feeling.",
+        "meaning-example": "Học thần thoại, xã hội học và địa chất không mang lại cho anh ấy cảm giác tuyệt vời này.",
+        "ipa-example": "/ˈstʌd.i.ɪŋ mɪˈθɒl.ə.dʒi, ˌsəʊ.siˈɒl.ə.dʒi, ænd dʒiˈɒl.ə.dʒi dɪdnt ɡɪv hɪm ðɪs ˈwʌn.dər.fəl ˈfiːl.ɪŋ./"
+      },
+      {
+        "sentence": "He is interested in Greek mythology.",
+        "meaning-example": "Anh ấy quan tâm đến thần thoại Hy Lạp.",
+        "ipa-example": "/hiː ɪz ˈɪn.trə.stɪd ɪn ɡriːk mɪˈθɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "The book is about the heroes of Roman mythology.",
+        "meaning-example": "Cuốn sách kể về các anh hùng trong thần thoại La Mã.",
+        "ipa-example": "/ðə bʊk ɪz əˈbaʊt ðə ˈhɪə.roʊz əv ˈroʊ.mən mɪˈθɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "Every culture has its own mythology.",
+        "meaning-example": "Mỗi nền văn hóa đều có thần thoại riêng.",
+        "ipa-example": "/ˈev.ri ˈkʌl.tʃər hæz ɪts oʊn mɪˈθɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "I am taking a course on world mythology.",
+        "meaning-example": "Tôi đang tham gia một khóa học về thần thoại thế giới.",
+        "ipa-example": "/aɪ æm ˈteɪk.ɪŋ ə kɔːrs ɒn wɜːrld mɪˈθɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "Dragons are common creatures in mythology.",
+        "meaning-example": "Rồng là những sinh vật phổ biến trong thần thoại.",
+        "ipa-example": "/ˈdræɡ.ənz ɑːr ˈkɒm.ən ˈkriː.tʃərz ɪn mɪˈθɒl.ə.dʒi./"
+      }
+    ]
+  },
+  {
+    "word": "physiology",
+    "ipa": "/ˌfɪz.iˈɒl.ə.dʒi/",
+    "meaning": "sinh lý học, môn khoa học nghiên cứu chức năng của các sinh vật sống.",
+    "image": "eew-5-3/16.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the branch of biology that deals with the normal functions of living organisms and their parts.",
+        "meaning-example": "nhánh của sinh học nghiên cứu các chức năng bình thường của sinh vật sống và các bộ phận của chúng.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“I’ve mastered calculus and physiology.”",
+        "meaning-example": "“Tôi đã thành thạo giải tích và sinh lý học.”",
+        "ipa-example": "/aɪv ˈmæstərd ˈkæl.kjə.ləs ænd ˌfɪz.iˈɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "She is a professor of physiology.",
+        "meaning-example": "Cô ấy là giáo sư sinh lý học.",
+        "ipa-example": "/ʃiː ɪz ə prəˈfes.ər əv ˌfɪz.iˈɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "He is studying human physiology to become a doctor.",
+        "meaning-example": "Anh ấy đang học sinh lý học người để trở thành bác sĩ.",
+        "ipa-example": "/hiː ɪz ˈstʌd.i.ɪŋ ˈhjuː.mən ˌfɪz.iˈɒl.ə.dʒi tuː bɪˈkʌm ə ˈdɒk.tər./"
+      },
+      {
+        "sentence": "This class will cover basic animal physiology.",
+        "meaning-example": "Lớp học này sẽ bao gồm sinh lý học động vật cơ bản.",
+        "ipa-example": "/ðɪs klɑːs wɪl ˈkʌv.ər ˈbeɪ.sɪk ˈæn.ɪ.məl ˌfɪz.iˈɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "Understanding physiology is important for athletes.",
+        "meaning-example": "Hiểu biết về sinh lý học rất quan trọng đối với các vận động viên.",
+        "ipa-example": "/ˌʌn.dərˈstænd.ɪŋ ˌfɪz.iˈɒl.ə.dʒi ɪz ɪmˈpɔːr.tənt fɔːr ˈæθ.liːts./"
+      },
+      {
+        "sentence": "I find plant physiology very interesting.",
+        "meaning-example": "Tôi thấy sinh lý học thực vật rất thú vị.",
+        "ipa-example": "/aɪ faɪnd plɑːnt ˌfɪz.iˈɒl.ə.dʒi ˈver.i ˈɪn.trə.stɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "radioactive",
+    "ipa": "/ˌreɪ.di.əʊˈæk.tɪv/",
+    "meaning": "có tính phóng xạ, phát ra năng lượng có hại.",
+    "image": "eew-5-3/17.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "emitting or relating to the emission of ionizing radiation or particles.",
+        "meaning-example": "phát ra hoặc liên quan đến sự phát ra bức xạ ion hóa hoặc các hạt.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Whether it’s the movements of celestial objects, like planets and stars, or how to harness the power of radioactive substances, I know everything.",
+        "meaning-example": "Cho dù đó là sự chuyển động của các thiên thể, như hành tinh và sao, hay cách khai thác sức mạnh của các chất phóng xạ, tôi đều biết mọi thứ.",
+        "ipa-example": "/ˈweð.ər ɪts ðə ˈmuːv.mənts əv səˈles.tʃəl ˈɒb.dʒɪkts, laɪk ˈplæn.ɪts ænd stɑːrz, ɔːr haʊ tuː ˈhɑːr.nəs ðə ˈpaʊ.ər əv ˌreɪ.di.oʊˈæk.tɪv ˈsʌb.stən.sɪz, aɪ noʊ ˈev.ri.θɪŋ./"
+      },
+      {
+        "sentence": "Radioactive materials can be very dangerous.",
+        "meaning-example": "Vật liệu phóng xạ có thể rất nguy hiểm.",
+        "ipa-example": "/ˌreɪ.di.oʊˈæk.tɪv məˈtɪə.ri.əlz kæn biː ˈver.i ˈdeɪn.dʒər.əs./"
+      },
+      {
+        "sentence": "The area was closed due to radioactive waste.",
+        "meaning-example": "Khu vực này đã bị đóng cửa do chất thải phóng xạ.",
+        "ipa-example": "/ðə ˈeə.ri.ə wəz kloʊzd duː tuː ˌreɪ.di.oʊˈæk.tɪv weɪst./"
+      },
+      {
+        "sentence": "Uranium is a radioactive element.",
+        "meaning-example": "Urani là một nguyên tố phóng xạ.",
+        "ipa-example": "/jʊˈreɪ.ni.əm ɪz ə ˌreɪ.di.oʊˈæk.tɪv ˈel.ɪ.mənt./"
+      },
+      {
+        "sentence": "Scientists must be careful when working with radioactive substances.",
+        "meaning-example": "Các nhà khoa học phải cẩn thận khi làm việc với các chất phóng xạ.",
+        "ipa-example": "/ˈsaɪən.tɪsts mʌst biː ˈkeər.fəl wen ˈwɜːr.kɪŋ wɪθ ˌreɪ.di.oʊˈæk.tɪv ˈsʌb.stən.sɪz./"
+      },
+      {
+        "sentence": "A special suit protects you from radioactive particles.",
+        "meaning-example": "Một bộ đồ đặc biệt bảo vệ bạn khỏi các hạt phóng xạ.",
+        "ipa-example": "/ə ˈspeʃ.əl suːt prəˈtekts juː frɒm ˌreɪ.di.oʊˈæk.tɪv ˈpɑːr.tɪ.kəlz./"
+      }
+    ]
+  },
+  {
+    "word": "relativity",
+    "ipa": "/ˌrel.əˈtɪv.ə.ti/",
+    "meaning": "thuyết tương đối (một học thuyết của Einstein).",
+    "image": "eew-5-3/18.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a theory, formulated essentially by Albert Einstein, that all motion must be defined relative to a frame of reference and that space and time are relative.",
+        "meaning-example": "một lý thuyết, được hình thành chủ yếu bởi Albert Einstein, rằng mọi chuyển động phải được định nghĩa tương đối so với một hệ quy chiếu và không gian và thời gian là tương đối.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "I even understand the great theoretical teachings of science, such as relativity.",
+        "meaning-example": "Tôi thậm chí còn hiểu những giáo lý lý thuyết vĩ đại của khoa học, như thuyết tương đối.",
+        "ipa-example": "/aɪ ˈiː.vən ˌʌn.dərˈstænd ðə ɡreɪt ˌθɪəˈret.ɪ.kəl ˈtiː.tʃɪŋz əv ˈsaɪ.əns, sʌtʃ æz ˌrel.əˈtɪv.ə.ti./"
+      },
+      {
+        "sentence": "Einstein's theory of relativity is famous.",
+        "meaning-example": "Thuyết tương đối của Einstein nổi tiếng.",
+        "ipa-example": "/ˈaɪn.staɪnz ˈθɪə.ri əv ˌrel.əˈtɪv.ə.ti ɪz ˈfeɪ.məs./"
+      },
+      {
+        "sentence": "The professor explained the concept of general relativity.",
+        "meaning-example": "Giáo sư giải thích khái niệm thuyết tương đối rộng.",
+        "ipa-example": "/ðə prəˈfes.ər ɪkˈspleɪnd ðə ˈkɒn.sept əv ˈdʒen.ər.əl ˌrel.əˈtɪv.ə.ti./"
+      },
+      {
+        "sentence": "Relativity changed how we understand space and time.",
+        "meaning-example": "Thuyết tương đối đã thay đổi cách chúng ta hiểu không gian và thời gian.",
+        "ipa-example": "/ˌrel.əˈtɪv.ə.ti tʃeɪndʒd haʊ wiː ˌʌn.dərˈstænd speɪs ænd taɪm./"
+      },
+      {
+        "sentence": "Very few people truly understand relativity.",
+        "meaning-example": "Rất ít người thực sự hiểu thuyết tương đối.",
+        "ipa-example": "/ˈver.i fjuː ˈpiː.pl̩ ˈtruː.li ˌʌn.dərˈstænd ˌrel.əˈtɪv.ə.ti./"
+      },
+      {
+        "sentence": "I read a simple book about the theory of relativity.",
+        "meaning-example": "Tôi đọc một cuốn sách đơn giản về thuyết tương đối.",
+        "ipa-example": "/aɪ riːd ə ˈsɪm.pl̩ bʊk əˈbaʊt ðə ˈθɪə.ri əv ˌrel.əˈtɪv.ə.ti./"
+      }
+    ]
+  },
+  {
+    "word": "sociology",
+    "ipa": "/ˌsəʊ.siˈɒl.ə.dʒi/",
+    "meaning": "xã hội học, môn khoa học nghiên cứu về xã hội và hành vi của con người.",
+    "image": "eew-5-3/19.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the study of the development, structure, and functioning of human society.",
+        "meaning-example": "nghiên cứu về sự phát triển, cấu trúc và chức năng của xã hội loài người.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Studying mythology, sociology, and geology didn’t give him this wonderful feeling.",
+        "meaning-example": "Học thần thoại, xã hội học và địa chất không mang lại cho anh ấy cảm giác tuyệt vời này.",
+        "ipa-example": "/ˈstʌd.i.ɪŋ mɪˈθɒl.ə.dʒi, ˌsəʊ.siˈɒl.ə.dʒi, ænd dʒiˈɒl.ə.dʒi dɪdnt ɡɪv hɪm ðɪs ˈwʌn.dər.fəl ˈfiːl.ɪŋ./"
+      },
+      {
+        "sentence": "She has a degree in sociology.",
+        "meaning-example": "Cô ấy có bằng về xã hội học.",
+        "ipa-example": "/ʃiː hæz ə dɪˈɡriː ɪn ˌsəʊ.siˈɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "Sociology helps us understand social problems.",
+        "meaning-example": "Xã hội học giúp chúng ta hiểu các vấn đề xã hội.",
+        "ipa-example": "/ˌsəʊ.siˈɒl.ə.dʒi helps ʌs ˌʌn.dərˈstænd ˈsəʊ.ʃəl ˈprɒb.ləmz./"
+      },
+      {
+        "sentence": "I am taking a sociology class this year.",
+        "meaning-example": "Tôi đang tham gia một lớp học xã hội học năm nay.",
+        "ipa-example": "/aɪ æm ˈteɪk.ɪŋ ə ˌsəʊ.siˈɒl.ə.dʒi klɑːs ðɪs jɪər./"
+      },
+      {
+        "sentence": "He is a professor of sociology at the university.",
+        "meaning-example": "Anh ấy là giáo sư xã hội học tại trường đại học.",
+        "ipa-example": "/hiː ɪz ə prəˈfes.ər əv ˌsəʊ.siˈɒl.ə.dʒi æt ðə ˌjuː.nɪˈvɜːr.sə.ti./"
+      },
+      {
+        "sentence": "This book discusses the sociology of modern life.",
+        "meaning-example": "Cuốn sách này thảo luận về xã hội học của cuộc sống hiện đại.",
+        "ipa-example": "/ðɪs bʊk dɪˈskʌs.ɪz ðə ˌsəʊ.siˈɒl.ə.dʒi əv ˈmɒd.ərn laɪf./"
+      }
+    ]
+  },
+  {
+    "word": "theoretical",
+    "ipa": "/ˌθɪəˈret.ɪ.kəl/",
+    "meaning": "(thuộc về) lý thuyết, không dựa trên kinh nghiệm thực tế.",
+    "image": "eew-5-3/20.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "concerned with or involving the theory of a subject or area of study rather than its practical application.",
+        "meaning-example": "liên quan đến lý thuyết của một môn học hoặc lĩnh vực nghiên cứu hơn là ứng dụng thực tế của nó.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "I even understand the great theoretical teachings of science, such as relativity.",
+        "meaning-example": "Tôi thậm chí còn hiểu những giáo lý lý thuyết vĩ đại của khoa học, như thuyết tương đối.",
+        "ipa-example": "/aɪ ˈiː.vən ˌʌn.dərˈstænd ðə ɡreɪt ˌθɪəˈret.ɪ.kəl ˈtiː.tʃɪŋz əv ˈsaɪ.əns, sʌtʃ æz ˌrel.əˈtɪv.ə.ti./"
+      },
+      {
+        "sentence": "The first part of the course is theoretical.",
+        "meaning-example": "Phần đầu tiên của khóa học là lý thuyết.",
+        "ipa-example": "/ðə fɜːrst pɑːrt əv ðə kɔːrs ɪz ˌθɪəˈret.ɪ.kəl./"
+      },
+      {
+        "sentence": "He has a theoretical understanding of the job, but no experience.",
+        "meaning-example": "Anh ấy có hiểu biết lý thuyết về công việc, nhưng không có kinh nghiệm.",
+        "ipa-example": "/hiː hæz ə ˌθɪəˈret.ɪ.kəl ˌʌn.dərˈstænd.ɪŋ əv ðə dʒɒb, bʌt noʊ ɪkˈspɪə.ri.əns./"
+      },
+      {
+        "sentence": "This is a theoretical problem, not a real one.",
+        "meaning-example": "Đây là một vấn đề lý thuyết, không phải vấn đề thực tế.",
+        "ipa-example": "/ðɪs ɪz ə ˌθɪəˈret.ɪ.kəl ˈprɒb.ləm, nɒt ə riːəl wʌn./"
+      },
+      {
+        "sentence": "She is a theoretical physicist.",
+        "meaning-example": "Cô ấy là một nhà vật lý lý thuyết.",
+        "ipa-example": "/ʃiː ɪz ə ˌθɪəˈret.ɪ.kəl ˈfɪz.ɪ.sɪst./"
+      },
+      {
+        "sentence": "His ideas are purely theoretical.",
+        "meaning-example": "Những ý tưởng của anh ấy hoàn toàn là lý thuyết.",
+        "ipa-example": "/hɪz aɪˈdɪəz ɑːr ˈpjʊər.li ˌθɪəˈret.ɪ.kəl./"
+      }
+    ]
+  }
+]
