@@ -1,0 +1,821 @@
+[
+  {
+    "word": "assess",
+    "ipa": "/əˈses/",
+    "meaning": "đánh giá, xem xét.",
+    "image": "eew-5-5/1.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to judge or decide the amount, value, quality, or importance of something.",
+        "meaning-example": "để phán đoán hoặc quyết định số lượng, giá trị, chất lượng, hoặc tầm quan trọng của một cái gì đó.",
+        "ipa-example": "/tə dʒʌdʒ ɔːr dɪˈsaɪd ðə əˈmaʊnt, ˈvæl.juː, ˈkwɒl.ə.ti, ɔːr ɪmˈpɔː.təns ɒv ˈsʌm.θɪŋ."
+      },
+      {
+        "sentence": "He immediately commenced an experiment to assess what had happened to the bacteria.",
+        "meaning-example": "Ông ngay lập tức bắt đầu một thí nghiệm để đánh giá những gì đã xảy ra với vi khuẩn.",
+        "ipa-example": "/hi ɪˈmiː.di.ət.li kəˈmenst ən ɪkˈsper.ɪ.mənt tu əˈses wɒt hæd ˈhæp.ənd tu ðə bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "We need to assess the situation carefully.",
+        "meaning-example": "Chúng ta cần đánh giá tình hình một cách cẩn thận.",
+        "ipa-example": "/wi niːd tu əˈses ðə ˌsɪtʃ.uˈeɪ.ʃən ˈkeə.fəl.i."
+      },
+      {
+        "sentence": "The teacher will assess your work at the end of the month.",
+        "meaning-example": "Giáo viên sẽ đánh giá bài làm của bạn vào cuối tháng.",
+        "ipa-example": "/ðə ˈtiː.tʃər wɪl əˈses jɔː wɜːk æt ði end ɒv ðə mʌnθ."
+      },
+      {
+        "sentence": "It's difficult to assess the impact of the changes.",
+        "meaning-example": "Thật khó để đánh giá tác động của những thay đổi.",
+        "ipa-example": "/ɪts ˈdɪf.ɪ.kəlt tu əˈses ðə ˈɪm.pækt ɒv ðə ˈtʃeɪn.dʒɪz."
+      }
+    ]
+  },
+  {
+    "word": "astonish",
+    "ipa": "/əˈstɒn.ɪʃ/",
+    "meaning": "làm kinh ngạc, làm ngạc nhiên.",
+    "image": "eew-5-5/2.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to surprise someone very much.",
+        "meaning-example": "làm ai đó rất ngạc nhiên.",
+        "ipa-example": "/tu səˈpraɪz ˈsʌm.wʌn ˈver.i mʌtʃ."
+      },
+      {
+        "sentence": "What he found astonished him.",
+        "meaning-example": "Những gì ông tìm thấy đã làm ông kinh ngạc.",
+        "ipa-example": "/wɒt hi faʊnd əˈstɒn.ɪʃt hɪm."
+      },
+      {
+        "sentence": "Her excellent memory continues to astonish me.",
+        "meaning-example": "Trí nhớ tuyệt vời của cô ấy tiếp tục làm tôi kinh ngạc.",
+        "ipa-example": "/hɜːr ˈeks.əl.ənt ˈmem.ər.i kənˈtɪn.juːz tu əˈstɒn.ɪʃ mi."
+      },
+      {
+        "sentence": "The news will astonish everyone.",
+        "meaning-example": "Tin tức này sẽ làm mọi người kinh ngạc.",
+        "ipa-example": "/ðə njuːz wɪl əˈstɒn.ɪʃ ˈev.ri.wʌn."
+      },
+      {
+        "sentence": "I was astonished by her beauty.",
+        "meaning-example": "Tôi đã kinh ngạc trước vẻ đẹp của cô ấy.",
+        "ipa-example": "/aɪ wɒz əˈstɒn.ɪʃt baɪ hɜː ˈbjuː.ti."
+      }
+    ]
+  },
+  {
+    "word": "commence",
+    "ipa": "/kəˈmens/",
+    "meaning": "bắt đầu, mở đầu (thường dùng trong bối cảnh trang trọng).",
+    "image": "eew-5-5/3.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to begin something.",
+        "meaning-example": "để bắt đầu một cái gì đó.",
+        "ipa-example": "/tu bɪˈɡɪn ˈsʌm.θɪŋ."
+      },
+      {
+        "sentence": "He immediately commenced an experiment to assess what had happened to the bacteria.",
+        "meaning-example": "Ông ngay lập tức bắt đầu một thí nghiệm để đánh giá những gì đã xảy ra với vi khuẩn.",
+        "ipa-example": "/hi ɪˈmiː.di.ət.li kəˈmenst ən ɪkˈsper.ɪ.mənt tu əˈses wɒt hæd ˈhæp.ənd tu ðə bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "The meeting will commence at 10 AM.",
+        "meaning-example": "Cuộc họp sẽ bắt đầu lúc 10 giờ sáng.",
+        "ipa-example": "/ðə ˈmiː.tɪŋ wɪl kəˈmens æt ten eɪ em."
+      },
+      {
+        "sentence": "We will commence building work in August.",
+        "meaning-example": "Chúng tôi sẽ bắt đầu công việc xây dựng vào tháng Tám.",
+        "ipa-example": "/wi wɪl kəˈmens ˈbɪl.dɪŋ wɜːk ɪn ˈɔː.ɡəst."
+      },
+      {
+        "sentence": "The ceremony is about to commence.",
+        "meaning-example": "Buổi lễ sắp bắt đầu.",
+        "ipa-example": "/ðə ˈser.ɪ.mə.ni ɪz əˈbaʊt tu kəˈmens."
+      }
+    ]
+  },
+  {
+    "word": "essence",
+    "ipa": "/ˈes.əns/",
+    "meaning": "bản chất, cốt lõi.",
+    "image": "eew-5-5/4.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the basic or most important idea or quality of something.",
+        "meaning-example": "ý tưởng hoặc chất lượng cơ bản hoặc quan trọng nhất của một cái gì đó.",
+        "ipa-example": "/ðə ˈbeɪ.sɪk ɔːr moʊst ɪmˈpɔːr.tənt aɪˈdɪə ɔːr ˈkwɑː.lə.ti ɒv ˈsʌm.θɪŋ."
+      },
+      {
+        "sentence": "The essence of his ongoing work involved a type of bacteria.",
+        "meaning-example": "Bản chất của công việc đang diễn ra của ông liên quan đến một loại vi khuẩn.",
+        "ipa-example": "/ðə ˈes.əns ɒv hɪz ˈɒnˌɡəʊ.ɪŋ wɜːk ɪnˈvɒlvd ə taɪp ɒv bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "The essence of his argument is that we need more time.",
+        "meaning-example": "Cốt lõi của lập luận của anh ấy là chúng ta cần thêm thời gian.",
+        "ipa-example": "/ðə ˈes.əns ɒv hɪz ˈɑːr.ɡjuː.mənt ɪz ðæt wi niːd mɔːr taɪm."
+      },
+      {
+        "sentence": "Teamwork is the essence of success.",
+        "meaning-example": "Làm việc nhóm là bản chất của thành công.",
+        "ipa-example": "/ˈtiːm.wɜːk ɪz ði ˈes.əns ɒv səkˈses."
+      },
+      {
+        "sentence": "In essence, we are all the same.",
+        "meaning-example": "Về bản chất, tất cả chúng ta đều giống nhau.",
+        "ipa-example": "/ɪn ˈes.əns, wi ɑːr ɔːl ðə seɪm."
+      }
+    ]
+  },
+  {
+    "word": "extract",
+    "ipa": "/ɪkˈstrækt/",
+    "meaning": "chiết xuất, trích ra.",
+    "image": "eew-5-5/5.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to remove or take out something.",
+        "meaning-example": "để loại bỏ hoặc lấy ra một cái gì đó.",
+        "ipa-example": "/tu rɪˈmuːv ɔːr teɪk aʊt ˈsʌm.θɪŋ."
+      },
+      {
+        "sentence": "When he found them, he extracted them and put them into a pill.",
+        "meaning-example": "Khi tìm thấy chúng, ông đã chiết xuất chúng và cho vào một viên thuốc.",
+        "ipa-example": "/wen hi faʊnd ðem, hi ɪkˈstræk.tɪd ðem ænd pʊt ðem ˈɪn.tuː ə pɪl."
+      },
+      {
+        "sentence": "The dentist had to extract my tooth.",
+        "meaning-example": "Nha sĩ đã phải nhổ răng của tôi.",
+        "ipa-example": "/ðə ˈden.tɪst hæd tu ɪkˈstrækt maɪ tuːθ."
+      },
+      {
+        "sentence": "They extract oil from the ground.",
+        "meaning-example": "Họ khai thác dầu từ lòng đất.",
+        "ipa-example": "/ðeɪ ɪkˈstrækt ɔɪl frɒm ðə ɡraʊnd."
+      },
+      {
+        "sentence": "This machine can extract juice from fruit.",
+        "meaning-example": "Máy này có thể ép nước trái cây.",
+        "ipa-example": "/ðɪs məˈʃiːn kæn ɪkˈstrækt dʒuːs frɒm fruːt."
+      }
+    ]
+  },
+  {
+    "word": "fabulous",
+    "ipa": "/ˈfæb.jə.ləs/",
+    "meaning": "tuyệt vời, phi thường.",
+    "image": "eew-5-5/6.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "very good; excellent.",
+        "meaning-example": "rất tốt; xuất sắc.",
+        "ipa-example": "/ˈver.i ɡʊd; ˈeks.əl.ənt."
+      },
+      {
+        "sentence": "Because of the success, the scientist was able to develop even more fabulous drugs to help people.",
+        "meaning-example": "Vì thành công, nhà khoa học đã có thể phát triển những loại thuốc tuyệt vời hơn nữa để giúp đỡ mọi người.",
+        "ipa-example": "/bɪˈkɒz ɒv ðə səkˈses, ðə ˈsaɪən.tɪst wɒz ˈeɪ.bəl tu dɪˈvel.əp ˈiː.vən mɔːr ˈfæb.jə.ləs drʌɡz tu help ˈpiː.pl̩."
+      },
+      {
+        "sentence": "You look fabulous in that dress!",
+        "meaning-example": "Bạn trông thật tuyệt vời trong chiếc váy đó!",
+        "ipa-example": "/ju lʊk ˈfæb.jə.ləs ɪn ðæt dres!"
+      },
+      {
+        "sentence": "We had a fabulous time at the party.",
+        "meaning-example": "Chúng tôi đã có một khoảng thời gian tuyệt vời tại bữa tiệc.",
+        "ipa-example": "/wi hæd ə ˈfæb.jə.ləs taɪm æt ðə ˈpɑːr.ti."
+      },
+      {
+        "sentence": "The weather was absolutely fabulous.",
+        "meaning-example": "Thời tiết hoàn toàn tuyệt vời.",
+        "ipa-example": "/ðə ˈweð.ər wɒz ˈæb.sə.luːt.li ˈfæb.jə.ləs."
+      }
+    ]
+  },
+  {
+    "word": "haste",
+    "ipa": "/heɪst/",
+    "meaning": "sự vội vàng, sự hấp tấp.",
+    "image": "eew-5-5/7.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "(too much) speed.",
+        "meaning-example": "tốc độ (quá nhanh).",
+        "ipa-example": "/tuː mʌtʃ spiːd."
+      },
+      {
+        "sentence": "In his haste to go on vacation, Alexander Fleming had left his laboratory in a mess.",
+        "meaning-example": "Trong lúc vội vã đi nghỉ, Alexander Fleming đã để phòng thí nghiệm của mình trong tình trạng bừa bộn.",
+        "ipa-example": "/ɪn hɪz heɪst tu ɡəʊ ɒn veɪˈkeɪ.ʃən, ˌæl.ɪɡˈzɑːn.dər ˈflem.ɪŋ hæd left hɪz ˈlæb.rə.tər.i ɪn ə mes."
+      },
+      {
+        "sentence": "Why all the haste? We have plenty of time.",
+        "meaning-example": "Tại sao phải vội vàng thế? Chúng ta có nhiều thời gian mà.",
+        "ipa-example": "/waɪ ɔːl ðə heɪst? wi hæv ˈplen.ti ɒv taɪm."
+      },
+      {
+        "sentence": "He left the house in great haste.",
+        "meaning-example": "Anh ấy rời khỏi nhà rất vội vàng.",
+        "ipa-example": "/hi left ðə haʊs ɪn ɡreɪt heɪst."
+      },
+      {
+        "sentence": "In his haste, he forgot his keys.",
+        "meaning-example": "Vì vội vàng, anh ấy đã quên chìa khóa.",
+        "ipa-example": "/ɪn hɪz heɪst, hi fərˈɡɒt hɪz kiːz."
+      }
+    ]
+  },
+  {
+    "word": "impulse",
+    "ipa": "/ˈɪm.pʌls/",
+    "meaning": "sự thôi thúc, sự bốc đồng.",
+    "image": "eew-5-5/8.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a sudden strong wish to do something.",
+        "meaning-example": "một mong muốn mạnh mẽ đột ngột để làm một cái gì đó.",
+        "ipa-example": "/ə ˈsʌd.ən strɒŋ wɪʃ tu duː ˈsʌm.θɪŋ."
+      },
+      {
+        "sentence": "While he was cleaning, he had an impulse to examine the fungus.",
+        "meaning-example": "Trong khi đang dọn dẹp, ông có một sự thôi thúc muốn kiểm tra loại nấm đó.",
+        "ipa-example": "/waɪl hi wɒz ˈkliːn.ɪŋ, hi hæd ən ˈɪm.pʌls tu ɪɡˈzæm.ɪn ðə ˈfʌŋ.ɡəs."
+      },
+      {
+        "sentence": "I had a sudden impulse to shout out loud.",
+        "meaning-example": "Tôi có một sự thôi thúc đột ngột muốn hét lên.",
+        "ipa-example": "/aɪ hæd ə ˈsʌd.ən ˈɪm.pʌls tu ʃaʊt aʊt laʊd."
+      },
+      {
+        "sentence": "He bought the car on an impulse.",
+        "meaning-example": "Anh ấy đã mua chiếc xe một cách bốc đồng.",
+        "ipa-example": "/hi bɔːt ðə kɑːr ɒn ən ˈɪm.pʌls."
+      },
+      {
+        "sentence": "You must learn to control your impulses.",
+        "meaning-example": "Bạn phải học cách kiểm soát sự bốc đồng của mình.",
+        "ipa-example": "/ju mʌst lɜːn tu kənˈtrəʊl jɔːr ˈɪm.pʌlsɪz."
+      }
+    ]
+  },
+  {
+    "word": "latter",
+    "ipa": "/ˈlæt.ər/",
+    "meaning": "cái sau, cái đề cập sau (trong hai thứ).",
+    "image": "eew-5-5/9.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "near or towards the end of something; the second of two people, things, or groups previously mentioned.",
+        "meaning-example": "gần hoặc về cuối của một cái gì đó; người, vật, hoặc nhóm thứ hai trong hai người, vật, hoặc nhóm đã được đề cập trước đó.",
+        "ipa-example": "/nɪər ɔːr təˈwɔːrdz ði end ɒv ˈsʌm.θɪŋ; ðə ˈsek.ənd ɒv tuː ˈpiː.pl̩, θɪŋz, ɔːr ɡruːps ˈpriː.vi.əs.li ˈmen.ʃənd."
+      },
+      {
+        "sentence": "The subsequent tests proved it was the latter reason.",
+        "meaning-example": "Các thử nghiệm sau đó đã chứng minh đó là lý do thứ hai.",
+        "ipa-example": "/ðə ˈsʌb.sɪ.kwənt tests pruːvd ɪt wɒz ðə ˈlæt.ər ˈriː.zən."
+      },
+      {
+        "sentence": "I was offered tea or coffee, and I chose the latter.",
+        "meaning-example": "Tôi được mời trà hoặc cà phê, và tôi đã chọn cái sau.",
+        "ipa-example": "/aɪ wɒz ˈɒf.ərd tiː ɔːr ˈkɒf.i, ænd aɪ tʃəʊz ðə ˈlæt.ər."
+      },
+      {
+        "sentence": "Between the book and the movie, I prefer the latter.",
+        "meaning-example": "Giữa sách và phim, tôi thích cái sau hơn.",
+        "ipa-example": "/bɪˈtwiːn ðə bʊk ænd ðə ˈmuː.vi, aɪ prɪˈfɜː ðə ˈlæt.ər."
+      },
+      {
+        "sentence": "The project will be completed in the latter half of the year.",
+        "meaning-example": "Dự án sẽ được hoàn thành vào nửa cuối năm.",
+        "ipa-example": "/ðə ˈprɒdʒ.ekt wɪl bi kəmˈpliːtɪd ɪn ðə ˈlæt.ər hɑːf ɒv ðə jɪər."
+      }
+    ]
+  },
+  {
+    "word": "molecule",
+    "ipa": "/ˈmɒl.ɪ.kjuːl/",
+    "meaning": "phân tử.",
+    "image": "eew-5-5/10.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the simplest unit of a chemical substance, usually a group of two or more atoms.",
+        "meaning-example": "đơn vị đơn giản nhất của một chất hóa học, thường là một nhóm gồm hai hoặc nhiều nguyên tử.",
+        "ipa-example": "/ðə ˈsɪm.plɪst ˈjuː.nɪt ɒv ə ˈkem.ɪ.kəl ˈsʌb.stəns, ˈjuː.ʒu.ə.li ə ɡruːp ɒv tuː ɔːr mɔːr ˈæt.əmz."
+      },
+      {
+        "sentence": "His next step was to find those molecules that had done it.",
+        "meaning-example": "Bước tiếp theo của ông là tìm ra những phân tử đã làm điều đó.",
+        "ipa-example": "/hɪz nekst step wɒz tu faɪnd ðəʊz ˈmɒl.ɪ.kjuːlz ðæt hæd dʌn ɪt."
+      },
+      {
+        "sentence": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+        "meaning-example": "Một phân tử nước bao gồm hai nguyên tử hydro và một nguyên tử oxy.",
+        "ipa-example": "/ə ˈwɔː.tər ˈmɒl.ɪ.kjuːl kənˈsɪsts ɒv tuː ˈhaɪ.drə.dʒən ˈæt.əmz ænd wʌn ˈɒk.sɪ.dʒən ˈæt.əm."
+      },
+      {
+        "sentence": "Everything is made of atoms and molecules.",
+        "meaning-example": "Mọi thứ đều được tạo thành từ các nguyên tử và phân tử.",
+        "ipa-example": "/ˈev.ri.θɪŋ ɪz meɪd ɒv ˈæt.əmz ænd ˈmɒl.ɪ.kjuːlz."
+      },
+      {
+        "sentence": "Scientists are studying the structure of the DNA molecule.",
+        "meaning-example": "Các nhà khoa học đang nghiên cứu cấu trúc của phân tử DNA.",
+        "ipa-example": "/ˈsaɪən.tɪsts ɑːr ˈstʌd.i.ɪŋ ðə ˈstrʌk.tʃər ɒv ðə diː-en-eɪ ˈmɒl.ɪ.kjuːl."
+      }
+    ]
+  },
+  {
+    "word": "ongoing",
+    "ipa": "/ˈɒnˌɡəʊ.ɪŋ/",
+    "meaning": "đang diễn ra, đang tiếp tục.",
+    "image": "eew-5-5/11.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "continuing to exist or develop, or happening at the present moment.",
+        "meaning-example": "tiếp tục tồn tại hoặc phát triển, hoặc đang xảy ra vào thời điểm hiện tại.",
+        "ipa-example": "/kənˈtɪn.juː.ɪŋ tu ɪɡˈzɪst ɔːr dɪˈvel.əp, ɔːr ˈhæp.ən.ɪŋ æt ðə ˈprez.ənt ˈməʊ.mənt."
+      },
+      {
+        "sentence": "The essence of his ongoing work involved a type of bacteria.",
+        "meaning-example": "Bản chất của công việc đang diễn ra của ông liên quan đến một loại vi khuẩn.",
+        "ipa-example": "/ðə ˈes.əns ɒv hɪz ˈɒnˌɡəʊ.ɪŋ wɜːk ɪnˈvɒlvd ə taɪp ɒv bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "There is an ongoing investigation into the accident.",
+        "meaning-example": "Có một cuộc điều tra đang diễn ra về vụ tai nạn.",
+        "ipa-example": "/ðeər ɪz ən ˈɒnˌɡəʊ.ɪŋ ɪnˌves.tɪˈɡeɪ.ʃən ˈɪn.tuː ði ˈæk.sɪ.dənt."
+      },
+      {
+        "sentence": "The discussions are still ongoing.",
+        "meaning-example": "Các cuộc thảo luận vẫn đang diễn ra.",
+        "ipa-example": "/ðə dɪˈskʌʃ.ənz ɑːr stɪl ˈɒnˌɡəʊ.ɪŋ."
+      },
+      {
+        "sentence": "We have an ongoing problem with our computer system.",
+        "meaning-example": "Chúng tôi có một vấn đề đang diễn ra với hệ thống máy tính của mình.",
+        "ipa-example": "/wi hæv ən ˈɒnˌɡəʊ.ɪŋ ˈprɒb.ləm wɪð aʊər kəmˈpjuː.tər ˈsɪs.təm."
+      }
+    ]
+  },
+  {
+    "word": "pharmaceutical",
+    "ipa": "/ˌfɑː.məˈsuː.tɪ.kəl/",
+    "meaning": "(thuộc về) dược, ngành dược.",
+    "image": "eew-5-5/12.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "relating to the production of medicines.",
+        "meaning-example": "liên quan đến việc sản xuất thuốc.",
+        "ipa-example": "/rɪˈleɪtɪŋ tu ðə prəˈdʌk.ʃən ɒv ˈmed.ɪ.sɪnz."
+      },
+      {
+        "sentence": "One of the greatest pharmaceutical discoveries happened by accident.",
+        "meaning-example": "Một trong những khám phá dược phẩm vĩ đại nhất đã xảy ra một cách tình cờ.",
+        "ipa-example": "/wʌn ɒv ðə ˈɡreɪ.tɪst ˌfɑː.məˈsuː.tɪ.kəl dɪˈskʌv.ər.iz ˈhæp.ənd baɪ ˈæk.sɪ.dənt."
+      },
+      {
+        "sentence": "He works for a large pharmaceutical company.",
+        "meaning-example": "Anh ấy làm việc cho một công ty dược phẩm lớn.",
+        "ipa-example": "/hi wɜːks fɔːr ə lɑːrdʒ ˌfɑː.məˈsuː.tɪ.kəl ˈkʌm.pə.ni."
+      },
+      {
+        "sentence": "The pharmaceutical industry is highly regulated.",
+        "meaning-example": "Ngành công nghiệp dược phẩm được quản lý rất chặt chẽ.",
+        "ipa-example": "/ðə ˌfɑː.məˈsuː.tɪ.kəl ˈɪn.də.stri ɪz ˈhaɪ.li ˈreɡ.jə.leɪ.tɪd."
+      },
+      {
+        "sentence": "This is a new pharmaceutical product.",
+        "meaning-example": "Đây là một sản phẩm dược phẩm mới.",
+        "ipa-example": "/ðɪs ɪz ə njuː ˌfɑː.məˈsuː.tɪ.kəl ˈprɒd.ʌkt."
+      }
+    ]
+  },
+  {
+    "word": "precise",
+    "ipa": "/prəˈsaɪs/",
+    "meaning": "chính xác, tỉ mỉ.",
+    "image": "eew-5-5/13.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "exact and accurate in form, time, detail, or description.",
+        "meaning-example": "chính xác và đúng đắn về hình thức, thời gian, chi tiết hoặc mô tả.",
+        "ipa-example": "/ɪɡˈzækt ænd ˈæk.jʊ.rət ɪn fɔːm, taɪm, ˈdiː.teɪl, ɔːr dɪˈskrɪp.ʃən."
+      },
+      {
+        "sentence": "Though he was a messy scientist, his experiments were precise.",
+        "meaning-example": "Mặc dù ông là một nhà khoa học bừa bộn, các thí nghiệm của ông rất chính xác.",
+        "ipa-example": "/ðəʊ hi wɒz ə ˈmes.i ˈsaɪən.tɪst, hɪz ɪkˈsper.ɪ.mənts wɜː prɪˈsaɪs."
+      },
+      {
+        "sentence": "Can you give me a precise location?",
+        "meaning-example": "Bạn có thể cho tôi một vị trí chính xác không?",
+        "ipa-example": "/kæn ju ɡɪv mi ə prɪˈsaɪs ləʊˈkeɪ.ʃən?"
+      },
+      {
+        "sentence": "The meeting will start at 2:00 PM precise.",
+        "meaning-example": "Cuộc họp sẽ bắt đầu lúc 2:00 chiều chính xác.",
+        "ipa-example": "/ðə ˈmiː.tɪŋ wɪl stɑːrt æt tuː piː em prɪˈsaɪs."
+      },
+      {
+        "sentence": "I can't give you a precise date.",
+        "meaning-example": "Tôi không thể cho bạn một ngày chính xác.",
+        "ipa-example": "/aɪ kɑːnt ɡɪv ju ə prɪˈsaɪs deɪt."
+      }
+    ]
+  },
+  {
+    "word": "proximity",
+    "ipa": "/prɒkˈsɪm.ə.ti/",
+    "meaning": "sự gần gũi, sự lân cận.",
+    "image": "eew-5-5/14.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the state of being near in space or time.",
+        "meaning-example": "trạng thái ở gần trong không gian hoặc thời gian.",
+        "ipa-example": "/ðə steɪt ɒv ˈbiːɪŋ nɪər ɪn speɪs ɔːr taɪm."
+      },
+      {
+        "sentence": "He saw that whenever the fungus was in close proximity to the bacteria, the bacteria died.",
+        "meaning-example": "Ông thấy rằng bất cứ khi nào nấm ở gần vi khuẩn, vi khuẩn sẽ chết.",
+        "ipa-example": "/hi sɔː ðæt wenˈev.ər ðə ˈfʌŋ.ɡəs wɒz ɪn kləʊs prɒkˈsɪm.ə.ti tu ðə bækˈtɪə.ri.ə, ðə bækˈtɪə.ri.ə daɪd."
+      },
+      {
+        "sentence": "The hotel is in close proximity to the airport.",
+        "meaning-example": "Khách sạn ở rất gần sân bay.",
+        "ipa-example": "/ðə həʊˈtel ɪz ɪn kləʊs prɒkˈsɪm.ə.ti tu ði ˈeər.pɔːt."
+      },
+      {
+        "sentence": "We chose this house for its proximity to schools.",
+        "meaning-example": "Chúng tôi đã chọn ngôi nhà này vì nó gần trường học.",
+        "ipa-example": "/wi tʃəʊz ðɪs haʊs fɔːr ɪts prɒkˈsɪm.ə.ti tu skuːlz."
+      },
+      {
+        "sentence": "The proximity of the two countries led to a war.",
+        "meaning-example": "Sự gần gũi của hai nước đã dẫn đến một cuộc chiến tranh.",
+        "ipa-example": "/ðə prɒkˈsɪm.ə.ti ɒv ðə tuː ˈkʌn.triz led tuː ə wɔːr."
+      }
+    ]
+  },
+  {
+    "word": "publicity",
+    "ipa": "/pʌbˈlɪs.ə.ti/",
+    "meaning": "sự công khai, sự chú ý của công chúng.",
+    "image": "eew-5-5/15.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "attention given to someone or something by the media.",
+        "meaning-example": "sự chú ý của giới truyền thông dành cho ai đó hoặc cái gì đó.",
+        "ipa-example": "/əˈten.ʃən ˈɡɪv.ən tu ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ baɪ ðə ˈmiː.di.ə."
+      },
+      {
+        "sentence": "The discovery received a lot of publicity.",
+        "meaning-example": "Phát hiện này đã nhận được rất nhiều sự công khai.",
+        "ipa-example": "/ðə dɪˈskʌv.ər.i rɪˈsiːvd ə lɒt ɒv pʌbˈlɪs.ə.ti."
+      },
+      {
+        "sentence": "The movie received a lot of good publicity.",
+        "meaning-example": "Bộ phim đã nhận được rất nhiều sự quảng bá tốt.",
+        "ipa-example": "/ðə ˈmuː.vi rɪˈsiːvd ə lɒt ɒv ɡʊd pʌbˈlɪs.ə.ti."
+      },
+      {
+        "sentence": "She avoids publicity whenever she can.",
+        "meaning-example": "Cô ấy tránh sự chú ý của công chúng bất cứ khi nào có thể.",
+        "ipa-example": "/ʃi əˈvɔɪdz pʌbˈlɪs.ə.ti wenˈev.ər ʃi kæn."
+      },
+      {
+        "sentence": "He hired a new manager to handle his publicity.",
+        "meaning-example": "Anh ấy đã thuê một người quản lý mới để xử lý việc công khai của mình.",
+        "ipa-example": "/hi ˈhaɪərd ə njuː ˈmæn.ɪ.dʒər tu ˈhæn.dl̩ hɪz pʌbˈlɪs.ə.ti."
+      }
+    ]
+  },
+  {
+    "word": "remedy",
+    "ipa": "/ˈrem.ə.di/",
+    "meaning": "phương thuốc, cách chữa trị.",
+    "image": "eew-5-5/16.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a successful way of curing an illness or dealing with a problem.",
+        "meaning-example": "một cách thành công để chữa bệnh hoặc giải quyết một vấn đề.",
+        "ipa-example": "/ə səkˈses.fəl weɪ ɒv ˈkjʊər.ɪŋ ən ˈɪl.nəs ɔːr ˈdiː.lɪŋ wɪð ə ˈprɒb.ləm."
+      },
+      {
+        "sentence": "An infection caused by the bacteria was often terminal, and he was looking for a remedy.",
+        "meaning-example": "Nhiễm trùng do vi khuẩn gây ra thường là giai đoạn cuối, và ông đang tìm kiếm một phương thuốc chữa trị.",
+        "ipa-example": "/æn ɪnˈfek.ʃən kɔːzd baɪ ðə bækˈtɪə.ri.ə wɒz ˈɒf.ən ˈtɜː.mɪ.nəl, ænd hi wɒz ˈlʊk.ɪŋ fɔːr ə ˈrem.ə.di."
+      },
+      {
+        "sentence": "Is there a remedy for a cold?",
+        "meaning-example": "Có phương thuốc nào cho bệnh cảm lạnh không?",
+        "ipa-example": "/ɪz ðeər ə ˈrem.ə.di fɔːr ə kəʊld?"
+      },
+      {
+        "sentence": "A hot drink is a good remedy for a sore throat.",
+        "meaning-example": "Đồ uống nóng là một phương thuốc tốt cho bệnh đau họng.",
+        "ipa-example": "/ə hɒt drɪŋk ɪz ə ɡʊd ˈrem.ə.di fɔːr ə sɔː θrəʊt."
+      },
+      {
+        "sentence": "There is no simple remedy for this problem.",
+        "meaning-example": "Không có phương thuốc đơn giản nào cho vấn đề này.",
+        "ipa-example": "/ðeər ɪz nəʊ ˈsɪm.pl̩ ˈrem.ə.di fɔːr ðɪs ˈprɒb.ləm."
+      }
+    ]
+  },
+  {
+    "word": "significance",
+    "ipa": "/sɪɡˈnɪf.ɪ.kəns/",
+    "meaning": "tầm quan trọng, ý nghĩa.",
+    "image": "eew-5-5/17.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "importance.",
+        "meaning-example": "tầm quan trọng.",
+        "ipa-example": "/ɪmˈpɔːr.təns."
+      },
+      {
+        "sentence": "He thought that there might be some significance to the fungus.",
+        "meaning-example": "Ông nghĩ rằng có thể có một tầm quan trọng nào đó đối với loại nấm này.",
+        "ipa-example": "/hi θɔːt ðæt ðeər maɪt bi sʌm sɪɡˈnɪf.ɪ.kəns tu ðə ˈfʌŋ.ɡəs."
+      },
+      {
+        "sentence": "The discovery has great significance for science.",
+        "meaning-example": "Phát hiện này có ý nghĩa to lớn đối với khoa học.",
+        "ipa-example": "/ðə dɪˈskʌv.ər.i hæz ɡreɪt sɪɡˈnɪf.ɪ.kəns fɔːr ˈsaɪəns."
+      },
+      {
+        "sentence": "They don't understand the significance of this event.",
+        "meaning-example": "Họ không hiểu tầm quan trọng của sự kiện này.",
+        "ipa-example": "/ðeɪ dəʊnt ˌʌn.dəˈstænd ðə sɪɡˈnɪf.ɪ.kəns ɒv ðɪs ɪˈvent."
+      },
+      {
+        "sentence": "It's a place of historical significance.",
+        "meaning-example": "Đó là một nơi có ý nghĩa lịch sử.",
+        "ipa-example": "/ɪts ə pleɪs ɒv hɪˈstɒr.ɪ.kəl sɪɡˈnɪf.ɪ.kəns."
+      }
+    ]
+  },
+  {
+    "word": "subsequent",
+    "ipa": "/ˈsʌb.sɪ.kwənt/",
+    "meaning": "xảy ra sau đó, tiếp theo.",
+    "image": "eew-5-5/18.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "happening after something else.",
+        "meaning-example": "xảy ra sau một cái gì đó khác.",
+        "ipa-example": "/ˈhæp.ən.ɪŋ ˈɑːf.tər ˈsʌm.θɪŋ els."
+      },
+      {
+        "sentence": "The subsequent tests proved it was the latter reason.",
+        "meaning-example": "Các thử nghiệm sau đó đã chứng minh đó là lý do thứ hai.",
+        "ipa-example": "/ðə ˈsʌb.sɪ.kwənt tests pruːvd ɪt wɒz ðə ˈlæt.ər ˈriː.zən."
+      },
+      {
+        "sentence": "The first test was negative, but a subsequent test was positive.",
+        "meaning-example": "Xét nghiệm đầu tiên là âm tính, nhưng một xét nghiệm sau đó là dương tính.",
+        "ipa-example": "/ðə fɜːst test wɒz ˈneɡ.ə.tɪv, bʌt ə ˈsʌb.sɪ.kwənt test wɒz ˈpɒz.ə.tɪv."
+      },
+      {
+        "sentence": "His first book was good, but his subsequent books were even better.",
+        "meaning-example": "Cuốn sách đầu tiên của ông ấy rất hay, nhưng những cuốn sách sau đó của ông ấy còn hay hơn nữa.",
+        "ipa-example": "/hɪz fɜːst bʊk wɒz ɡʊd, bʌt hɪz ˈsʌb.sɪ.kwənt bʊks wɜːr ˈiː.vən ˈbet.ər."
+      },
+      {
+        "sentence": "Subsequent events showed that he was right.",
+        "meaning-example": "Các sự kiện sau đó cho thấy anh ấy đã đúng.",
+        "ipa-example": "/ˈsʌb.sɪ.kwənt ɪˈvents ʃəʊd ðæt hi wɒz raɪt."
+      }
+    ]
+  },
+  {
+    "word": "synthetic",
+    "ipa": "/sɪnˈθet.ɪk/",
+    "meaning": "tổng hợp, nhân tạo.",
+    "image": "eew-5-5/19.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "made or put together by people; not natural.",
+        "meaning-example": "được làm hoặc ghép lại bởi con người; không tự nhiên.",
+        "ipa-example": "/meɪd ɔːr pʊt təˈɡeð.ər baɪ ˈpiː.pl̩; nɒt ˈnætʃ.ər.əl."
+      },
+      {
+        "sentence": "All this time, he had been looking for a synthetic material to kill the bacteria.",
+        "meaning-example": "Suốt thời gian này, ông đã tìm kiếm một vật liệu tổng hợp để tiêu diệt vi khuẩn.",
+        "ipa-example": "/ɔːl ðɪs taɪm, hi hæd biːn ˈlʊk.ɪŋ fɔːr ə sɪnˈθet.ɪk məˈtɪə.ri.əl tu kɪl ðə bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "This shirt is made of synthetic fabric.",
+        "meaning-example": "Chiếc áo này được làm bằng vải tổng hợp.",
+        "ipa-example": "/ðɪs ʃɜːt ɪz meɪd ɒv sɪnˈθet.ɪk ˈfæb.rɪk."
+      },
+      {
+        "sentence": "Synthetic materials are often cheaper than natural ones.",
+        "meaning-example": "Vật liệu tổng hợp thường rẻ hơn vật liệu tự nhiên.",
+        "ipa-example": "/sɪnˈθet.ɪk məˈtɪə.ri.əlz ɑːr ˈɒf.ən ˈtʃiː.pər ðæn ˈnætʃ.ər.əl wʌnz."
+      },
+      {
+        "sentence": "The company produces synthetic rubber.",
+        "meaning-example": "Công ty sản xuất cao su tổng hợp.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni prəˈdjuː.sɪz sɪnˈθet.ɪk ˈrʌb.ər."
+      }
+    ]
+  },
+  {
+    "word": "terminal",
+    "ipa": "/ˈtɜː.mɪ.nəl/",
+    "meaning": "giai đoạn cuối, không thể chữa khỏi (bệnh).",
+    "image": "eew-5-5/20.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "(of a disease) causing death.",
+        "meaning-example": "(của một căn bệnh) gây tử vong.",
+        "ipa-example": "/ɒv ə dɪˈziːz ˈkɔːzɪŋ deθ."
+      },
+      {
+        "sentence": "An infection caused by the bacteria was often terminal, and he was looking for a remedy.",
+        "meaning-example": "Nhiễm trùng do vi khuẩn gây ra thường là giai đoạn cuối, và ông đang tìm kiếm một phương thuốc chữa trị.",
+        "ipa-example": "/æn ɪnˈfek.ʃən kɔːzd baɪ ðə bækˈtɪə.ri.ə wɒz ˈɒf.ən ˈtɜː.mɪ.nəl, ænd hi wɒz ˈlʊk.ɪŋ fɔːr ə ˈrem.ə.di."
+      },
+      {
+        "sentence": "He was diagnosed with terminal cancer.",
+        "meaning-example": "Anh ấy được chẩn đoán mắc bệnh ung thư giai đoạn cuối.",
+        "ipa-example": "/hi wɒz ˈdaɪ.əɡ.nəʊzd wɪð ˈtɜː.mɪ.nəl ˈkæn.sər."
+      },
+      {
+        "sentence": "It is a terminal illness.",
+        "meaning-example": "Đó là một căn bệnh nan y.",
+        "ipa-example": "/ɪt ɪz ə ˈtɜː.mɪ.nəl ˈɪl.nəs."
+      },
+      {
+        "sentence": "The patient is in terminal decline.",
+        "meaning-example": "Bệnh nhân đang ở giai đoạn suy giảm cuối.",
+        "ipa-example": "/ðə ˈpeɪ.ʃənt ɪz ɪn ˈtɜː.mɪ.nəl dɪˈklaɪn."
+      }
+    ]
+  },
+  {
+    "example": [
+      {
+        "sentence": "One of the greatest pharmaceutical discoveries happened by accident.",
+        "meaning-example": "Một trong những khám phá dược phẩm vĩ đại nhất đã xảy ra một cách tình cờ.",
+        "ipa-example": "/wʌn ɒv ðə ˈɡreɪ.tɪst ˌfɑː.məˈsuː.tɪ.kəl dɪˈskʌv.ər.iz ˈhæp.ənd baɪ ˈæk.sɪ.dənt."
+      },
+      {
+        "sentence": "In his haste to go on vacation, Alexander Fleming had left his laboratory in a mess.",
+        "meaning-example": "Trong lúc vội vã đi nghỉ, Alexander Fleming đã để phòng thí nghiệm của mình trong tình trạng bừa bộn.",
+        "ipa-example": "/ɪn hɪz heɪst tu ɡəʊ ɒn veɪˈkeɪ.ʃən, ˌæl.ɪɡˈzɑːn.dər ˈflem.ɪŋ hæd left hɪz ˈlæb.rə.tər.i ɪn ə mes."
+      },
+      {
+        "sentence": "The essence of his ongoing work involved a type of bacteria.",
+        "meaning-example": "Bản chất của công việc đang diễn ra của ông liên quan đến một loại vi khuẩn.",
+        "ipa-example": "/ðə ˈes.əns ɒv hɪz ˈɒnˌɡəʊ.ɪŋ wɜːk ɪnˈvɒlvd ə taɪp ɒv bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "An infection caused by the bacteria was often terminal, and he was looking for a remedy.",
+        "meaning-example": "Nhiễm trùng do vi khuẩn gây ra thường là giai đoạn cuối, và ông đang tìm kiếm một phương thuốc chữa trị.",
+        "ipa-example": "/æn ɪnˈfek.ʃən kɔːzd baɪ ðə bækˈtɪə.ri.ə wɒz ˈɒf.ən ˈtɜː.mɪ.nəl, ænd hi wɒz ˈlʊk.ɪŋ fɔːr ə ˈrem.ə.di."
+      },
+      {
+        "sentence": "He had left the bacteria out while he was away.",
+        "meaning-example": "Ông đã để vi khuẩn ra ngoài trong khi ông đi vắng.",
+        "ipa-example": "/hi hæd left ðə bækˈtɪə.ri.ə aʊt waɪl hi wɒz əˈweɪ."
+      },
+      {
+        "sentence": "When he returned from vacation, he found that his lab was covered in fungus.",
+        "meaning-example": "Khi trở về từ kỳ nghỉ, ông phát hiện ra rằng phòng thí nghiệm của mình bị bao phủ bởi nấm.",
+        "ipa-example": "/wen hi rɪˈtɜːnd frɒm veɪˈkeɪ.ʃən, hi faʊnd ðæt hɪz læb wɒz ˈkʌv.ərd ɪn ˈfʌŋ.ɡəs."
+      },
+      {
+        "sentence": "He started cleaning up the mess.",
+        "meaning-example": "Ông bắt đầu dọn dẹp đống bừa bộn.",
+        "ipa-example": "/hi stɑːr.tɪd ˈkliːn.ɪŋ ʌp ðə mes."
+      },
+      {
+        "sentence": "While he was cleaning, he had an impulse to examine the fungus.",
+        "meaning-example": "Trong khi đang dọn dẹp, ông có một sự thôi thúc muốn kiểm tra loại nấm đó.",
+        "ipa-example": "/waɪl hi wɒz ˈkliːn.ɪŋ, hi hæd ən ˈɪm.pʌls tu ɪɡˈzæm.ɪn ðə ˈfʌŋ.ɡəs."
+      },
+      {
+        "sentence": "He saw that whenever the fungus was in close proximity to the bacteria, the bacteria died.",
+        "meaning-example": "Ông thấy rằng bất cứ khi nào nấm ở gần vi khuẩn, vi khuẩn sẽ chết.",
+        "ipa-example": "/hi sɔː ðæt wenˈev.ər ðə ˈfʌŋ.ɡəs wɒz ɪn kləʊs prɒkˈsɪm.ə.ti tu ðə bækˈtɪə.ri.ə, ðə bækˈtɪə.ri.ə daɪd."
+      },
+      {
+        "sentence": "Though he was a messy scientist, his experiments were precise.",
+        "meaning-example": "Mặc dù ông là một nhà khoa học bừa bộn, các thí nghiệm của ông rất chính xác.",
+        "ipa-example": "/ðəʊ hi wɒz ə ˈmes.i ˈsaɪən.tɪst, hɪz ɪkˈsper.ɪ.mənts wɜː prɪˈsaɪs."
+      },
+      {
+        "sentence": "He thought that there might be some significance to the fungus.",
+        "meaning-example": "Ông nghĩ rằng có thể có một tầm quan trọng nào đó đối với loại nấm này.",
+        "ipa-example": "/hi θɔːt ðæt ðeər maɪt bi sʌm sɪɡˈnɪf.ɪ.kəns tu ðə ˈfʌŋ.ɡəs."
+      },
+      {
+        "sentence": "He immediately commenced an experiment to assess what had happened to the bacteria.",
+        "meaning-example": "Ông ngay lập tức bắt đầu một thí nghiệm để đánh giá những gì đã xảy ra với vi khuẩn.",
+        "ipa-example": "/hi ɪˈmiː.di.ət.li kəˈmenst ən ɪkˈsper.ɪ.mənt tu əˈses wɒt hæd ˈhæp.ənd tu ðə bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "It had either died by accident or the fungus had killed it.",
+        "meaning-example": "Nó đã chết do tai nạn hoặc nấm đã giết chết nó.",
+        "ipa-example": "/ɪt hæd ˈaɪ.ðər daɪd baɪ ˈæk.sɪ.dənt ɔːr ðə ˈfʌŋ.ɡəs hæd kɪld ɪt."
+      },
+      {
+        "sentence": "The subsequent tests proved it was the latter reason.",
+        "meaning-example": "Các thử nghiệm sau đó đã chứng minh đó là lý do thứ hai.",
+        "ipa-example": "/ðə ˈsʌb.sɪ.kwənt tests pruːvd ɪt wɒz ðə ˈlæt.ər ˈriː.zən."
+      },
+      {
+        "sentence": "What he found astonished him.",
+        "meaning-example": "Những gì ông tìm thấy đã làm ông kinh ngạc.",
+        "ipa-example": "/wɒt hi faʊnd əˈstɒn.ɪʃt hɪm."
+      },
+      {
+        "sentence": "The fungus actually killed the bad bacteria.",
+        "meaning-example": "Nấm thực sự đã tiêu diệt các vi khuẩn xấu.",
+        "ipa-example": "/ðə ˈfʌŋ.ɡəs ˈæk.tʃu.ə.li kɪld ðə bæd bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "All this time, he had been looking for a synthetic material to kill the bacteria.",
+        "meaning-example": "Suốt thời gian này, ông đã tìm kiếm một vật liệu tổng hợp để tiêu diệt vi khuẩn.",
+        "ipa-example": "/ɔːl ðɪs taɪm, hi hæd biːn ˈlʊk.ɪŋ fɔːr ə sɪnˈθet.ɪk məˈtɪə.ri.əl tu kɪl ðə bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "Instead, a common fungus did the job.",
+        "meaning-example": "Thay vào đó, một loại nấm thông thường đã làm được việc đó.",
+        "ipa-example": "/ɪnˈsted, ə ˈkɒm.ən ˈfʌŋ.ɡəs dɪd ðə dʒɒb."
+      },
+      {
+        "sentence": "He knew that something in the fungus had killed the bacteria.",
+        "meaning-example": "Ông biết rằng có thứ gì đó trong nấm đã giết chết vi khuẩn.",
+        "ipa-example": "/hi njuː ðæt ˈsʌm.θɪŋ ɪn ðə ˈfʌŋ.ɡəs hæd kɪld ðə bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "His next step was to find those molecules that had done it.",
+        "meaning-example": "Bước tiếp theo của ông là tìm ra những phân tử đã làm điều đó.",
+        "ipa-example": "/hɪz nekst step wɒz tu faɪnd ðəʊz ˈmɒl.ɪ.kjuːlz ðæt hæd dʌn ɪt."
+      },
+      {
+        "sentence": "When he found them, he extracted them and put them into a pill.",
+        "meaning-example": "Khi tìm thấy chúng, ông đã chiết xuất chúng và cho vào một viên thuốc.",
+        "ipa-example": "/wen hi faʊnd ðem, hi ɪkˈstræk.tɪd ðem ænd pʊt ðem ˈɪn.tuː ə pɪl."
+      },
+      {
+        "sentence": "The drug proved to be very effective.",
+        "meaning-example": "Thuốc đã chứng tỏ là rất hiệu quả.",
+        "ipa-example": "/ðə drʌɡ pruːvd tu bi ˈver.i ɪˈfek.tɪv."
+      },
+      {
+        "sentence": "It also worked against other types of harmful bacteria.",
+        "meaning-example": "Nó cũng có tác dụng chống lại các loại vi khuẩn có hại khác.",
+        "ipa-example": "/ɪt ˈɔːl.səʊ wɜːkt əˈɡenst ˈʌð.ər taɪps ɒv ˈhɑːrm.fəl bækˈtɪə.ri.ə."
+      },
+      {
+        "sentence": "The discovery received a lot of publicity.",
+        "meaning-example": "Phát hiện này đã nhận được rất nhiều sự công khai.",
+        "ipa-example": "/ðə dɪˈskʌv.ər.i rɪˈsiːvd ə lɒt ɒv pʌbˈlɪs.ə.ti."
+      },
+      {
+        "sentence": "Soon after, the new drug was being used all over the world.",
+        "meaning-example": "Ngay sau đó, loại thuốc mới đã được sử dụng trên toàn thế giới.",
+        "ipa-example": "/suːn ˈɑːf.tər, ðə njuː drʌɡ wɒz ˈbiːɪŋ juːzd ɔːl ˈəʊ.vər ðə wɜːld."
+      },
+      {
+        "sentence": "Because of the success, the scientist was able to develop even more fabulous drugs to help people.",
+        "meaning-example": "Vì thành công, nhà khoa học đã có thể phát triển những loại thuốc tuyệt vời hơn nữa để giúp đỡ mọi người.",
+        "ipa-example": "/bɪˈkɒz ɒv ðə səkˈses, ðə ˈsaɪən.tɪst wɒz ˈeɪ.bəl tu dɪˈvel.əp ˈiː.vən mɔːr ˈfæb.jə.ləs drʌɡz tu help ˈpiː.pl̩."
+      },
+      {
+        "sentence": "His accidental discovery changed the world and helped save many people’s lives.",
+        "meaning-example": "Khám phá tình cờ của ông đã thay đổi thế giới và giúp cứu sống nhiều người.",
+        "ipa-example": "/hɪz ˌæk.sɪˈden.tl̩ dɪˈskʌv.ər.i tʃeɪndʒd ðə wɜːld ænd helpt seɪv ˈmen.i ˈpiː.pl̩z laɪvz."
+      }
+    ]
+  }
+]

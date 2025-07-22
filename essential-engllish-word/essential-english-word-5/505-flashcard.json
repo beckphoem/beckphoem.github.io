@@ -1,0 +1,182 @@
+[
+  {
+    "question": "đánh giá, xem xét.",
+    "classes": "v",
+    "answer": "assess",
+    "ipa": "/əˈses/",
+    "example": "He immediately commenced an experiment to **assess** what had happened to the bacteria.",
+    "english-definition": "to judge or decide the amount, value, quality, or importance of something.",
+    "images": "eew-5-5/1.jpg"
+  },
+  {
+    "question": "làm kinh ngạc, làm ngạc nhiên.",
+    "classes": "v",
+    "answer": "astonish",
+    "ipa": "/əˈstɒn.ɪʃ/",
+    "example": "What he found **astonished** him.",
+    "english-definition": "to surprise someone very much.",
+    "images": "eew-5-5/2.jpg"
+  },
+  {
+    "question": "bắt đầu, mở đầu (thường dùng trong bối cảnh trang trọng).",
+    "classes": "v",
+    "answer": "commence",
+    "ipa": "/kəˈmens/",
+    "example": "He immediately **commenced** an experiment to assess what had happened to the bacteria.",
+    "english-definition": "to begin something.",
+    "images": "eew-5-5/3.jpg"
+  },
+  {
+    "question": "bản chất, cốt lõi.",
+    "classes": "n",
+    "answer": "essence",
+    "ipa": "/ˈes.əns/",
+    "example": "The **essence** of his ongoing work involved a type of bacteria.",
+    "english-definition": "the basic or most important idea or quality of something.",
+    "images": "eew-5-5/4.jpg"
+  },
+  {
+    "question": "chiết xuất, trích ra.",
+    "classes": "v",
+    "answer": "extract",
+    "ipa": "/ɪkˈstrækt/",
+    "example": "When he found them, he **extracted** them and put them into a pill.",
+    "english-definition": "to remove or take out something.",
+    "images": "eew-5-5/5.jpg"
+  },
+  {
+    "question": "tuyệt vời, phi thường.",
+    "classes": "adj",
+    "answer": "fabulous",
+    "ipa": "/ˈfæb.jə.ləs/",
+    "example": "Because of the success, the scientist was able to develop even more **fabulous** drugs to help people.",
+    "english-definition": "very good; excellent.",
+    "images": "eew-5-5/6.jpg"
+  },
+  {
+    "question": "sự vội vàng, sự hấp tấp.",
+    "classes": "n",
+    "answer": "haste",
+    "ipa": "/heɪst/",
+    "example": "In his **haste** to go on vacation, Alexander Fleming had left his laboratory in a mess.",
+    "english-definition": "(too much) speed.",
+    "images": "eew-5-5/7.jpg"
+  },
+  {
+    "question": "sự thôi thúc, sự bốc đồng.",
+    "classes": "n",
+    "answer": "impulse",
+    "ipa": "/ˈɪm.pʌls/",
+    "example": "While he was cleaning, he had an **impulse** to examine the fungus.",
+    "english-definition": "a sudden strong wish to do something.",
+    "images": "eew-5-5/8.jpg"
+  },
+  {
+    "question": "cái sau, cái đề cập sau (trong hai thứ).",
+    "classes": "adj",
+    "answer": "latter",
+    "ipa": "/ˈlæt.ər/",
+    "example": "The subsequent tests proved it was the **latter** reason.",
+    "english-definition": "near or towards the end of something; the second of two people, things, or groups previously mentioned.",
+    "images": "eew-5-5/9.jpg"
+  },
+  {
+    "question": "phân tử.",
+    "classes": "n",
+    "answer": "molecule",
+    "ipa": "/ˈmɒl.ɪ.kjuːl/",
+    "example": "His next step was to find those **molecules** that had done it.",
+    "english-definition": "the simplest unit of a chemical substance, usually a group of two or more atoms.",
+    "images": "eew-5-5/10.jpg"
+  },
+  {
+    "question": "đang diễn ra, đang tiếp tục.",
+    "classes": "adj",
+    "answer": "ongoing",
+    "ipa": "/ˈɒnˌɡəʊ.ɪŋ/",
+    "example": "The essence of his **ongoing** work involved a type of bacteria.",
+    "english-definition": "continuing to exist or develop, or happening at the present moment.",
+    "images": "eew-5-5/11.jpg"
+  },
+  {
+    "question": "(thuộc về) dược, ngành dược.",
+    "classes": "adj",
+    "answer": "pharmaceutical",
+    "ipa": "/ˌfɑː.məˈsuː.tɪ.kəl/",
+    "example": "One of the greatest **pharmaceutical** discoveries happened by accident.",
+    "english-definition": "relating to the production of medicines.",
+    "images": "eew-5-5/12.jpg"
+  },
+  {
+    "question": "chính xác, tỉ mỉ.",
+    "classes": "adj",
+    "answer": "precise",
+    "ipa": "/prəˈsaɪs/",
+    "example": "Though he was a messy scientist, his experiments were **precise**.",
+    "english-definition": "exact and accurate in form, time, detail, or description.",
+    "images": "eew-5-5/13.jpg"
+  },
+  {
+    "question": "sự gần gũi, sự lân cận.",
+    "classes": "n",
+    "answer": "proximity",
+    "ipa": "/prɒkˈsɪm.ə.ti/",
+    "example": "He saw that whenever the fungus was in close **proximity** to the bacteria, the bacteria died.",
+    "english-definition": "the state of being near in space or time.",
+    "images": "eew-5-5/14.jpg"
+  },
+  {
+    "question": "sự công khai, sự chú ý của công chúng.",
+    "classes": "n",
+    "answer": "publicity",
+    "ipa": "/pʌbˈlɪs.ə.ti/",
+    "example": "The discovery received a lot of **publicity**.",
+    "english-definition": "attention given to someone or something by the media.",
+    "images": "eew-5-5/15.jpg"
+  },
+  {
+    "question": "phương thuốc, cách chữa trị.",
+    "classes": "n",
+    "answer": "remedy",
+    "ipa": "/ˈrem.ə.di/",
+    "example": "An infection caused by the bacteria was often terminal, and he was looking for a **remedy**.",
+    "english-definition": "a successful way of curing an illness or dealing with a problem.",
+    "images": "eew-5-5/16.jpg"
+  },
+  {
+    "question": "tầm quan trọng, ý nghĩa.",
+    "classes": "n",
+    "answer": "significance",
+    "ipa": "/sɪɡˈnɪf.ɪ.kəns/",
+    "example": "He thought that there might be some **significance** to the fungus.",
+    "english-definition": "importance.",
+    "images": "eew-5-5/17.jpg"
+  },
+  {
+    "question": "xảy ra sau đó, tiếp theo.",
+    "classes": "adj",
+    "answer": "subsequent",
+    "ipa": "/ˈsʌb.sɪ.kwənt/",
+    "example": "The **subsequent** tests proved it was the latter reason.",
+    "english-definition": "happening after something else.",
+    "images": "eew-5-5/18.jpg"
+  },
+  {
+    "question": "tổng hợp, nhân tạo.",
+    "classes": "adj",
+    "answer": "synthetic",
+    "ipa": "/sɪnˈθet.ɪk/",
+    "example": "All this time, he had been looking for a **synthetic** material to kill the bacteria.",
+    "english-definition": "made or put together by people; not natural.",
+    "images": "eew-5-5/19.jpg"
+  },
+  {
+    "question": "giai đoạn cuối, không thể chữa khỏi (bệnh).",
+    "classes": "adj",
+    "answer": "terminal",
+    "ipa": "/ˈtɜː.mɪ.nəl/",
+    "example": "An infection caused by the bacteria was often **terminal**, and he was looking for a remedy.",
+    "english-definition": "(of a disease) causing death.",
+    "images": "eew-5-5/20.jpg"
+  }
+]
