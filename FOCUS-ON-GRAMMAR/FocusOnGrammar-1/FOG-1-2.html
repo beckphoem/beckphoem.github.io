@@ -222,6 +222,18 @@
         .review-section .fill-in-the-blank input[type="text"] {
             width: 250px; /* Adjust width for review blanks */
         }
+        /* New styles for clickable words */
+        .circle-word {
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            padding: 0.25rem 0.5rem; /* Add some padding for better click area */
+            border: 1px solid transparent; /* Default transparent border */
+        }
+        .circle-word.circled {
+            border: 1px solid #3b82f6; /* Blue border */
+            background-color: #eff6ff; /* Light blue background */
+            border-radius: 9999px; /* Fully rounded corners */
+        }
     </style>
 </head>
 <body>
@@ -592,42 +604,42 @@
         <h2 class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</h2>
         <p class="mb-4"><strong>A</strong> GRAMMAR NOTES 1–5 Circle the singular nouns.</p>
         <div class="flex flex-wrap gap-4 mb-6">
-            <span class="border border-blue-500 rounded-full px-3 py-1 bg-blue-100 text-blue-800">apple</span>
-            <span class="border rounded-full px-3 py-1">forks</span>
-            <span class="border rounded-full px-3 py-1">knife</span>
-            <span class="border rounded-full px-3 py-1">kitchens</span>
-            <span class="border rounded-full px-3 py-1">man</span>
+            <span class="circle-word">apple</span>
+            <span class="circle-word">forks</span>
+            <span class="circle-word">knife</span>
+            <span class="circle-word">kitchens</span>
+            <span class="circle-word">man</span>
         </div>
 
         <p class="mb-4"><strong>B</strong> Circle the plural nouns.</p>
         <div class="flex flex-wrap gap-4 mb-6">
-            <span class="border border-blue-500 rounded-full px-3 py-1 bg-blue-100 text-blue-800">men</span>
-            <span class="border rounded-full px-3 py-1">spoon</span>
-            <span class="border rounded-full px-3 py-1">spoons</span>
-            <span class="border rounded-full px-3 py-1">teacher</span>
-            <span class="border rounded-full px-3 py-1">teachers</span>
-            <span class="border rounded-full px-3 py-1">woman</span>
+            <span class="circle-word">men</span>
+            <span class="circle-word">spoon</span>
+            <span class="circle-word">spoons</span>
+            <span class="circle-word">teacher</span>
+            <span class="circle-word">teachers</span>
+            <span class="circle-word">woman</span>
         </div>
 
         <p class="mb-4"><strong>C</strong> Circle the words that begin with a vowel sound.</p>
         <div class="flex flex-wrap gap-4 mb-6">
-            <span class="border border-blue-500 rounded-full px-3 py-1 bg-blue-100 text-blue-800">apple</span>
-            <span class="border rounded-full px-3 py-1">egg</span>
-            <span class="border rounded-full px-3 py-1">knife</span>
-            <span class="border rounded-full px-3 py-1">oven</span>
-            <span class="border rounded-full px-3 py-1">spoon</span>
-            <span class="border rounded-full px-3 py-1">toaster</span>
+            <span class="circle-word">apple</span>
+            <span class="circle-word">egg</span>
+            <span class="circle-word">knife</span>
+            <span class="circle-word">oven</span>
+            <span class="circle-word">spoon</span>
+            <span class="circle-word">toaster</span>
         </div>
 
         <p class="mb-4"><strong>D</strong> Circle the proper nouns.</p>
         <div class="flex flex-wrap gap-4 mb-6">
-            <span class="border border-blue-500 rounded-full px-3 py-1 bg-blue-100 text-blue-800">Brazil</span>
-            <span class="border rounded-full px-3 py-1">country</span>
-            <span class="border rounded-full px-3 py-1">Elena</span>
-            <span class="border rounded-full px-3 py-1">Judy</span>
-            <span class="border rounded-full px-3 py-1">São Paulo</span>
-            <span class="border rounded-full px-3 py-1">student</span>
-            <span class="border rounded-full px-3 py-1">the United States</span>
+            <span class="circle-word">Brazil</span>
+            <span class="circle-word">country</span>
+            <span class="circle-word">Elena</span>
+            <span class="circle-word">Judy</span>
+            <span class="circle-word">São Paulo</span>
+            <span class="circle-word">student</span>
+            <span class="circle-word">the United States</span>
         </div>
 
         <h2 class="exercise-title mt-6">EXERCISE 2 A, AN, AND PLURAL NOUNS</h2>
@@ -1056,5 +1068,18 @@
         <p class="mt-6 text-blue-600 font-semibold">Now check your answers on page 379.</p>
 
     </div>
+
+    <script>
+        // Get all elements with the class 'circle-word'
+        const circleWords = document.querySelectorAll('.circle-word');
+
+        // Add a click event listener to each word
+        circleWords.forEach(word => {
+            word.addEventListener('click', () => {
+                // Toggle the 'circled' class on click
+                word.classList.toggle('circled');
+            });
+        });
+    </script>
 </body>
 </html>
