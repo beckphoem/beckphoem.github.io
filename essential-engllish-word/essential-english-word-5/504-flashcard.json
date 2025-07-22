@@ -1,0 +1,182 @@
+[
+  {
+    "question": "người quản lý, người quản trị.",
+    "classes": "n",
+    "answer": "administrator",
+    "ipa": "/ədˈmɪn.ɪ.streɪ.tər/",
+    "example": "Mr. Pig was an **administrator** at a big factory that made different kinds of merchandise.",
+    "english-definition": "a person responsible for running a business, organization, or institution.",
+    "images": "eew-5-4/1.jpg"
+  },
+  {
+    "question": "hàng hóa (để mua và bán).",
+    "classes": "n",
+    "answer": "merchandise",
+    "ipa": "/ˈmɜː.tʃən.daɪs/",
+    "example": "Mr. Pig was an administrator at a big factory that made different kinds of **merchandise**.",
+    "english-definition": "goods that are bought and sold.",
+    "images": "eew-5-4/2.jpg"
+  },
+  {
+    "question": "trụ sở chính.",
+    "classes": "n",
+    "answer": "headquarters",
+    "ipa": "/ˌhedˈkwɔː.təz/",
+    "example": "During a meeting at the company’s **headquarters**, his bosses said they wanted the factory to make more money.",
+    "english-definition": "the main offices of an organization such as the army, the police, or a business company.",
+    "images": "eew-5-4/3.jpg"
+  },
+  {
+    "question": "sự khích lệ, sự khuyến khích.",
+    "classes": "n",
+    "answer": "incentive",
+    "ipa": "/ɪnˈsen.tɪv/",
+    "example": "It was a great **incentive**.",
+    "english-definition": "something that encourages a person to do something.",
+    "images": "eew-5-4/4.jpg"
+  },
+  {
+    "question": "giàu có, sung túc.",
+    "classes": "adj",
+    "answer": "affluent",
+    "ipa": "/ˈæf.lu.ənt/",
+    "example": "Pig had always wanted to be as **affluent** as his bosses.",
+    "english-definition": "having a lot of money or owning a lot of things; rich.",
+    "images": "eew-5-4/5.jpg"
+  },
+  {
+    "question": "hợp pháp, chính đáng.",
+    "classes": "adj",
+    "answer": "legitimate",
+    "ipa": "/ləˈdʒɪt.ə.mət/",
+    "example": "However, most were not very nice, and some were not **legitimate**.",
+    "english-definition": "conforming to the law or to rules.",
+    "images": "eew-5-4/6.jpg"
+  },
+  {
+    "question": "(đã) tự động hóa.",
+    "classes": "v",
+    "answer": "automated",
+    "ipa": "/ˈɔː.tə.meɪ.tɪd/",
+    "example": "Then he **automated** the entire factory.",
+    "english-definition": "to make a process in a factory or office operate by machines or computers, in order to reduce the amount of work done by humans.",
+    "images": "eew-5-4/7.jpg"
+  },
+  {
+    "question": "(đã) hối lộ, đút lót.",
+    "classes": "v",
+    "answer": "bribed",
+    "ipa": "/braɪbd/",
+    "example": "Next, he **bribed** some corrupt senators into legislating special subsidies for the factory.",
+    "english-definition": "to try to make someone do something for you by giving them money, presents, or something else that they want.",
+    "images": "eew-5-4/8.jpg"
+  },
+  {
+    "question": "tham nhũng, đồi bại.",
+    "classes": "adj",
+    "answer": "corrupt",
+    "ipa": "/kəˈrʌpt/",
+    "example": "Next, he bribed some **corrupt** senators into legislating special subsidies for the factory.",
+    "english-definition": "dishonestly using your position or power to get an advantage, especially for money.",
+    "images": "eew-5-4/9.jpg"
+  },
+  {
+    "question": "lập pháp, làm luật.",
+    "classes": "v",
+    "answer": "legislating",
+    "ipa": "/ˈledʒ.ɪs.leɪ.tɪŋ/",
+    "example": "Next, he bribed some corrupt senators into **legislating** special subsidies for the factory.",
+    "english-definition": "to make or enact laws.",
+    "images": "eew-5-4/10.jpg"
+  },
+  {
+    "question": "tiền trợ cấp.",
+    "classes": "n",
+    "answer": "subsidies",
+    "ipa": "/ˈsʌb.sɪ.diz/",
+    "example": "Next, he bribed some corrupt senators into legislating special **subsidies** for the factory.",
+    "english-definition": "money given as part of the cost of something, to help or encourage it to happen.",
+    "images": "eew-5-4/11.jpg"
+  },
+  {
+    "question": "vứt bỏ, xử lý (rác).",
+    "classes": "v",
+    "answer": "dispose",
+    "ipa": "/dɪˈspəʊz/",
+    "example": "Finally, instead of paying a company to **dispose** of the factory’s rubbish properly, he violated the law by throwing it into the river to save money.",
+    "english-definition": "to get rid of something, especially by throwing it away. (Usually followed by 'of')",
+    "images": "eew-5-4/12.jpg"
+  },
+  {
+    "question": "rác, đồ bỏ đi.",
+    "classes": "n",
+    "answer": "rubbish",
+    "ipa": "/ˈrʌb.ɪʃ/",
+    "example": "Finally, instead of paying a company to dispose of the factory’s **rubbish** properly, he violated the law by throwing it into the river to save money.",
+    "english-definition": "waste material or things that are no longer wanted or needed.",
+    "images": "eew-5-4/13.jpg"
+  },
+  {
+    "question": "(đã) vi phạm, xâm phạm.",
+    "classes": "v",
+    "answer": "violated",
+    "ipa": "/ˈvaɪ.ə.leɪ.tɪd/",
+    "example": "Finally, instead of paying a company to dispose of the factory’s rubbish properly, he **violated** the law by throwing it into the river to save money.",
+    "english-definition": "to break or act against something, especially a law, agreement, or principle.",
+    "images": "eew-5-4/14.jpg"
+  },
+  {
+    "question": "cơ sở hạ tầng.",
+    "classes": "n",
+    "answer": "infrastructure",
+    "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
+    "example": "At first, all the changes to the factory’s **infrastructure** created more revenue.",
+    "english-definition": "the basic systems and services, such as transport and power supplies, that a country or organization uses in order to work effectively.",
+    "images": "eew-5-4/15.jpg"
+  },
+  {
+    "question": "doanh thu.",
+    "classes": "n",
+    "answer": "revenue",
+    "ipa": "/ˈrev.ən.juː/",
+    "example": "At first, all the changes to the factory’s infrastructure created more **revenue**.",
+    "english-definition": "the income that a government or company receives regularly.",
+    "images": "eew-5-4/16.jpg"
+  },
+  {
+    "question": "bán lẻ.",
+    "classes": "n",
+    "answer": "retail",
+    "ipa": "/ˈriː.teɪl/",
+    "example": "But soon many stores could no longer sell the factory’s goods at **retail**.",
+    "english-definition": "the activity of selling goods to the public, usually in small quantities, for their own use.",
+    "images": "eew-5-4/17.jpg"
+  },
+  {
+    "question": "(đã) kiểm toán.",
+    "classes": "v",
+    "answer": "audited",
+    "ipa": "/ˈɔː.dɪtɪd/",
+    "example": "...and when they **audited** the company, they discovered that Pig had manipulated the law in order to get more money.",
+    "english-definition": "to make an official examination of the accounts of a business and produce a report.",
+    "images": "eew-5-4/18.jpg"
+  },
+  {
+    "question": "(đã) thao túng, lôi kéo.",
+    "classes": "v",
+    "answer": "manipulated",
+    "ipa": "/məˈnɪp.jə.leɪ.tɪd/",
+    "example": "...and when they audited the company, they discovered that Pig had **manipulated** the law in order to get more money.",
+    "english-definition": "to control something or someone to your advantage, often unfairly or dishonestly.",
+    "images": "eew-5-4/19.jpg"
+  },
+  {
+    "question": "các giao dịch.",
+    "classes": "n",
+    "answer": "transactions",
+    "ipa": "/trænˈzæk.ʃənz/",
+    "example": "All **transactions** with Pig’s factory stopped.",
+    "english-definition": "an occasion when someone buys or sells something, or when money is exchanged.",
+    "images": "eew-5-4/20.jpg"
+  }
+]

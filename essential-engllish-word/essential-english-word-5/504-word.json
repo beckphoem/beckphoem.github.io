@@ -1,0 +1,801 @@
+[
+  {
+    "word": "administrator",
+    "ipa": "/ədˈmɪn.ɪ.streɪ.tər/",
+    "meaning": "người quản lý, người quản trị.",
+    "image": "eew-5-4/1.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a person responsible for running a business, organization, or institution.",
+        "meaning-example": "một người chịu trách nhiệm điều hành một doanh nghiệp, tổ chức hoặc cơ quan.",
+        "ipa-example": "/ə ˈpɜːsən rɪˈspɒnsəbl fə ˈrʌnɪŋ ə ˈbɪznəs, ˌɔːɡənaɪˈzeɪʃən, ɔːr ˌɪnstɪˈtjuːʃən./"
+      },
+      {
+        "sentence": "Mr. Pig was an administrator at a big factory that made different kinds of merchandise.",
+        "meaning-example": "Ông Lợn là một quản trị viên tại một nhà máy lớn chuyên sản xuất các loại hàng hóa khác nhau.",
+        "ipa-example": "/ˈmɪstər pɪɡ wəz ən ədˈmɪnɪstreɪtər ət ə bɪɡ ˈfæktəri ðət meɪd ˈdɪfrənt kaɪndz əv ˈmɜːtʃəndaɪs./"
+      },
+      {
+        "sentence": "She works as a school administrator.",
+        "meaning-example": "Cô ấy làm quản lý trường học.",
+        "ipa-example": "/ʃi wɜːks əz ə skuːl ədˈmɪnɪstreɪtər./"
+      },
+      {
+        "sentence": "The network administrator is responsible for the computer system.",
+        "meaning-example": "Quản trị viên mạng chịu trách nhiệm về hệ thống máy tính.",
+        "ipa-example": "/ðə ˈnetwɜːk ədˈmɪnɪstreɪtər ɪz rɪˈspɒnsəbl fə ðə kəmˈpjuːtə ˈsɪstəm./"
+      },
+      {
+        "sentence": "You should speak to the hospital administrator.",
+        "meaning-example": "Bạn nên nói chuyện với người quản lý bệnh viện.",
+        "ipa-example": "/ju ʃəd spiːk tə ðə ˈhɒspɪtl ədˈmɪnɪstreɪtər./"
+      }
+    ]
+  },
+  {
+    "word": "merchandise",
+    "ipa": "/ˈmɜː.tʃən.daɪs/",
+    "meaning": "hàng hóa (để mua và bán).",
+    "image": "eew-5-4/2.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "goods that are bought and sold.",
+        "meaning-example": "hàng hóa được mua và bán.",
+        "ipa-example": "/ɡʊdz ðæt ə bɔːt ənd soʊld./"
+      },
+      {
+        "sentence": "Mr. Pig was an administrator at a big factory that made different kinds of merchandise.",
+        "meaning-example": "Ông Lợn là một quản trị viên tại một nhà máy lớn chuyên sản xuất các loại hàng hóa khác nhau.",
+        "ipa-example": "/ˈmɪstər pɪɡ wəz ən ədˈmɪnɪstreɪtər ət ə bɪɡ ˈfæktəri ðət meɪd ˈdɪfrənt kaɪndz əv ˈmɜːtʃəndaɪs./"
+      },
+      {
+        "sentence": "The store sells a variety of merchandise.",
+        "meaning-example": "Cửa hàng bán nhiều loại hàng hóa.",
+        "ipa-example": "/ðə stɔː selz ə vəˈraɪəti əv ˈmɜːtʃəndaɪs./"
+      },
+      {
+        "sentence": "All merchandise must be paid for before you leave.",
+        "meaning-example": "Tất cả hàng hóa phải được thanh toán trước khi bạn rời đi.",
+        "ipa-example": "/ɔːl ˈmɜːtʃəndaɪs məst bi peɪd fɔː bɪˈfɔː ju liːv./"
+      },
+      {
+        "sentence": "They sell official team merchandise like shirts and hats.",
+        "meaning-example": "Họ bán các mặt hàng chính thức của đội như áo và mũ.",
+        "ipa-example": "/ðeɪ sel əˈfɪʃəl tiːm ˈmɜːtʃəndaɪs laɪk ʃɜːts ənd hæts./"
+      }
+    ]
+  },
+  {
+    "word": "headquarters",
+    "ipa": "/ˌhedˈkwɔː.təz/",
+    "meaning": "trụ sở chính.",
+    "image": "eew-5-4/3.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the main offices of an organization such as the army, the police, or a business company.",
+        "meaning-example": "văn phòng chính của một tổ chức như quân đội, cảnh sát hoặc một công ty kinh doanh.",
+        "ipa-example": "/ðə meɪn ˈɒfɪsɪz əv ən ˌɔːɡənaɪˈzeɪʃən sʌtʃ əz ði ˈɑːmi, ðə pəˈliːs, ɔːr ə ˈbɪznəs ˈkʌmpəni./"
+      },
+      {
+        "sentence": "During a meeting at the company’s headquarters, his bosses said they wanted the factory to make more money.",
+        "meaning-example": "Trong một cuộc họp tại trụ sở chính của công ty, các ông chủ của ông nói rằng họ muốn nhà máy kiếm được nhiều tiền hơn.",
+        "ipa-example": "/ˈdjʊərɪŋ ə ˈmiːtɪŋ ət ðə ˈkʌmpəniz ˈhedkwɔːtəz, hɪz ˈbɒsɪz sed ðeɪ ˈwɒntɪd ðə ˈfæktəri tə meɪk mɔː ˈmʌni./"
+      },
+      {
+        "sentence": "The company's headquarters is in New York.",
+        "meaning-example": "Trụ sở chính của công ty ở New York.",
+        "ipa-example": "/ðə ˈkʌmpəniz ˈhedkwɔːtəz ɪz ɪn njuː jɔːk./"
+      },
+      {
+        "sentence": "I have a meeting at headquarters tomorrow.",
+        "meaning-example": "Tôi có một cuộc họp tại trụ sở chính vào ngày mai.",
+        "ipa-example": "/aɪ həv ə ˈmiːtɪŋ ət ˈhedkwɔːtəz təˈmɒrəʊ./"
+      },
+      {
+        "sentence": "Police headquarters issued a statement.",
+        "meaning-example": "Trụ sở cảnh sát đã đưa ra một tuyên bố.",
+        "ipa-example": "/pəˈliːs ˈhedkwɔːtəz ˈɪʃuːd ə ˈsteɪtmənt./"
+      }
+    ]
+  },
+  {
+    "word": "incentive",
+    "ipa": "/ɪnˈsen.tɪv/",
+    "meaning": "sự khích lệ, sự khuyến khích.",
+    "image": "eew-5-4/4.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "something that encourages a person to do something.",
+        "meaning-example": "một cái gì đó khuyến khích một người làm một cái gì đó.",
+        "ipa-example": "/ˈsʌmθɪŋ ðət ɪnˈkʌrɪdʒɪz ə ˈpɜːsən tə duː ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "It was a great incentive.",
+        "meaning-example": "Đó là một sự khích lệ tuyệt vời.",
+        "ipa-example": "/ɪt wəz ə ɡreɪt ɪnˈsentɪv./"
+      },
+      {
+        "sentence": "The company offers a sales incentive to its employees.",
+        "meaning-example": "Công ty đưa ra một chương trình khuyến khích bán hàng cho nhân viên của mình.",
+        "ipa-example": "/ðə ˈkʌmpəni ˈɒfəz ə seɪlz ɪnˈsentɪv tʊ ɪts ɪmˈplɔɪiːz./"
+      },
+      {
+        "sentence": "Money is a powerful incentive.",
+        "meaning-example": "Tiền là một động lực mạnh mẽ.",
+        "ipa-example": "/ˈmʌni ɪz ə ˈpaʊəfəl ɪnˈsentɪv./"
+      },
+      {
+        "sentence": "There is little incentive for people to save fuel.",
+        "meaning-example": "Có rất ít sự khuyến khích mọi người tiết kiệm nhiên liệu.",
+        "ipa-example": "/ðər ɪz ˈlɪtl ɪnˈsentɪv fə ˈpiːpl tə seɪv fjʊəl./"
+      }
+    ]
+  },
+  {
+    "word": "affluent",
+    "ipa": "/ˈæf.lu.ənt/",
+    "meaning": "giàu có, sung túc.",
+    "image": "eew-5-4/5.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "having a lot of money or owning a lot of things; rich.",
+        "meaning-example": "có nhiều tiền hoặc sở hữu nhiều thứ; giàu có.",
+        "ipa-example": "/ˈhævɪŋ ə lɒt əv ˈmʌni ɔːr ˈəʊnɪŋ ə lɒt əv θɪŋz; rɪtʃ./"
+      },
+      {
+        "sentence": "Pig had always wanted to be as affluent as his bosses.",
+        "meaning-example": "Lợn đã luôn muốn được giàu có như các ông chủ của mình.",
+        "ipa-example": "/pɪɡ həd ˈɔːlweɪz ˈwɒntɪd tə bi əz ˈæflʊənt əz hɪz ˈbɒsɪz./"
+      },
+      {
+        "sentence": "They live in an affluent neighborhood.",
+        "meaning-example": "Họ sống trong một khu phố giàu có.",
+        "ipa-example": "/ðeɪ lɪv ɪn ən ˈæflʊənt ˈneɪbəhʊd./"
+      },
+      {
+        "sentence": "He was born into an affluent family.",
+        "meaning-example": "Anh ấy sinh ra trong một gia đình giàu có.",
+        "ipa-example": "/hi wəz bɔːn ˈɪntu ən ˈæflʊənt ˈfæmɪli./"
+      },
+      {
+        "sentence": "This is one of the most affluent areas of the country.",
+        "meaning-example": "Đây là một trong những khu vực giàu có nhất của đất nước.",
+        "ipa-example": "/ðɪs ɪz wʌn əv ðə məʊst ˈæflʊənt ˈeərɪəz əv ðə ˈkʌntri./"
+      }
+    ]
+  },
+  {
+    "word": "legitimate",
+    "ipa": "/ləˈdʒɪt.ə.mət/",
+    "meaning": "hợp pháp, chính đáng.",
+    "image": "eew-5-4/6.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "conforming to the law or to rules.",
+        "meaning-example": "phù hợp với luật pháp hoặc các quy tắc.",
+        "ipa-example": "/kənˈfɔːmɪŋ tə ðə lɔː ɔː tə ruːlz./"
+      },
+      {
+        "sentence": "However, most were not very nice, and some were not legitimate.",
+        "meaning-example": "Tuy nhiên, hầu hết đều không tốt đẹp gì, và một số thì không hợp pháp.",
+        "ipa-example": "/haʊˈevə, məʊst wɜː nɒt ˈveri naɪs, ənd sʌm wɜː nɒt ləˈdʒɪtɪmət./"
+      },
+      {
+        "sentence": "He has a legitimate claim to the property.",
+        "meaning-example": "Anh ta có yêu sách hợp pháp đối với tài sản.",
+        "ipa-example": "/hi həz ə ləˈdʒɪtɪmət kleɪm tə ðə ˈprɒpəti./"
+      },
+      {
+        "sentence": "That's a legitimate question.",
+        "meaning-example": "Đó là một câu hỏi chính đáng.",
+        "ipa-example": "/ðæts ə ləˈdʒɪtɪmət ˈkwestʃən./"
+      },
+      {
+        "sentence": "Is this a legitimate business?",
+        "meaning-example": "Đây có phải là một doanh nghiệp hợp pháp không?",
+        "ipa-example": "/ɪz ðɪs ə ləˈdʒɪtɪmət ˈbɪznəs?/"
+      }
+    ]
+  },
+  {
+    "word": "automated",
+    "ipa": "/ˈɔː.tə.meɪ.tɪd/",
+    "meaning": "(đã) tự động hóa.",
+    "image": "eew-5-4/7.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to make a process in a factory or office operate by machines or computers, in order to reduce the amount of work done by humans.",
+        "meaning-example": "làm cho một quy trình trong nhà máy hoặc văn phòng hoạt động bằng máy móc hoặc máy tính, để giảm lượng công việc do con người thực hiện.",
+        "ipa-example": "/tə meɪk ə ˈprəʊsɛs ɪn ə ˈfæktəri ɔːr ˈɒfɪs ˈɒpəreɪt baɪ məˈʃiːnz ɔː kəmˈpjuːtəz, ɪn ˈɔːdə tə rɪˈdjuːs ði əˈmaʊnt əv wɜːk dʌn baɪ ˈhjuːmənz./"
+      },
+      {
+        "sentence": "Then he automated the entire factory.",
+        "meaning-example": "Sau đó, ông ta tự động hóa toàn bộ nhà máy.",
+        "ipa-example": "/ðen hi ˈɔːtəmeɪtɪd ði ɪnˈtaɪə ˈfæktəri./"
+      },
+      {
+        "sentence": "The factory is fully automated.",
+        "meaning-example": "Nhà máy được tự động hóa hoàn toàn.",
+        "ipa-example": "/ðə ˈfæktəri z ˈfʊli ˈɔːtəmeɪtɪd./"
+      },
+      {
+        "sentence": "We use an automated system for our calls.",
+        "meaning-example": "Chúng tôi sử dụng một hệ thống tự động cho các cuộc gọi của mình.",
+        "ipa-example": "/wi juːz ən ˈɔːtəmeɪtɪd ˈsɪstəm fər ɑː kɔːlz./"
+      },
+      {
+        "sentence": "She received an automated email response.",
+        "meaning-example": "Cô ấy đã nhận được một phản hồi email tự động.",
+        "ipa-example": "/ʃi rɪˈsiːvd ən ˈɔːtəmeɪtɪd ˈiːmeɪl rɪˈspɒns./"
+      }
+    ]
+  },
+  {
+    "word": "bribed",
+    "ipa": "/braɪbd/",
+    "meaning": "(đã) hối lộ, đút lót.",
+    "image": "eew-5-4/8.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to try to make someone do something for you by giving them money, presents, or something else that they want.",
+        "meaning-example": "cố gắng làm cho ai đó làm điều gì đó cho bạn bằng cách cho họ tiền, quà hoặc thứ gì đó khác mà họ muốn.",
+        "ipa-example": "/tə traɪ tə meɪk ˈsʌmwʌn duː ˈsʌmθɪŋ fə ju baɪ ˈɡɪvɪŋ ðəm ˈmʌni, ˈprɛznts, ɔː ˈsʌmθɪŋ ɛls ðət ðeɪ wɒnt./"
+      },
+      {
+        "sentence": "Next, he bribed some corrupt senators into legislating special subsidies for the factory.",
+        "meaning-example": "Tiếp theo, ông ta đã hối lộ một số thượng nghị sĩ tham nhũng để họ lập pháp các khoản trợ cấp đặc biệt cho nhà máy.",
+        "ipa-example": "/nɛkst, hi braɪbd səm kəˈrʌpt ˈsɛnətəz ˈɪntə ˈlɛdʒɪsleɪtɪŋ ˈspɛʃəl ˈsʌbsɪdiz fə ðə ˈfæktəri./"
+      },
+      {
+        "sentence": "He bribed the official to get the contract.",
+        "meaning-example": "Anh ta đã hối lộ quan chức để có được hợp đồng.",
+        "ipa-example": "/hi braɪbd ði əˈfɪʃəl tə ɡɛt ðə ˈkɒntrækt./"
+      },
+      {
+        "sentence": "She was accused of having bribed a witness.",
+        "meaning-example": "Cô bị buộc tội đã hối lộ một nhân chứng.",
+        "ipa-example": "/ʃi wəz əˈkjuːzd əv ˈhævɪŋ braɪbd ə ˈwɪtnəs./"
+      },
+      {
+        "sentence": "The judge was bribed to give a lighter sentence.",
+        "meaning-example": "Thẩm phán đã bị hối lộ để đưa ra bản án nhẹ hơn.",
+        "ipa-example": "/ðə dʒʌdʒ wəz braɪbd tə ɡɪv ə ˈlaɪtə ˈsɛntəns./"
+      }
+    ]
+  },
+  {
+    "word": "corrupt",
+    "ipa": "/kəˈrʌpt/",
+    "meaning": "tham nhũng, đồi bại.",
+    "image": "eew-5-4/9.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "dishonestly using your position or power to get an advantage, especially for money.",
+        "meaning-example": "sử dụng vị trí hoặc quyền lực của bạn một cách không trung thực để có được lợi thế, đặc biệt là vì tiền.",
+        "ipa-example": "/dɪsˈɒnɪstli ˈjuːzɪŋ jə pəˈzɪʃən ɔː ˈpaʊə tə ɡɛt ən ədˈvɑːntɪdʒ, ɪˈspɛʃəli fə ˈmʌni./"
+      },
+      {
+        "sentence": "Next, he bribed some corrupt senators into legislating special subsidies for the factory.",
+        "meaning-example": "Tiếp theo, ông ta đã hối lộ một số thượng nghị sĩ tham nhũng để họ lập pháp các khoản trợ cấp đặc biệt cho nhà máy.",
+        "ipa-example": "/nɛkst, hi braɪbd səm kəˈrʌpt ˈsɛnətəz ˈɪntə ˈlɛdʒɪsleɪtɪŋ ˈspɛʃəl ˈsʌbsɪdiz fə ðə ˈfæktəri./"
+      },
+      {
+        "sentence": "He is a corrupt politician.",
+        "meaning-example": "Ông ta là một chính trị gia tham nhũng.",
+        "ipa-example": "/hi z ə kəˈrʌpt ˌpɒlɪˈtɪʃən./"
+      },
+      {
+        "sentence": "The whole system is corrupt.",
+        "meaning-example": "Toàn bộ hệ thống đều tham nhũng.",
+        "ipa-example": "/ðə həʊl ˈsɪstəm z kəˈrʌpt./"
+      },
+      {
+        "sentence": "Power can make people corrupt.",
+        "meaning-example": "Quyền lực có thể làm cho con người trở nên tha hóa.",
+        "ipa-example": "/ˈpaʊə kən meɪk ˈpiːpl kəˈrʌpt./"
+      }
+    ]
+  },
+  {
+    "word": "legislating",
+    "ipa": "/ˈledʒ.ɪs.leɪ.tɪŋ/",
+    "meaning": "lập pháp, làm luật.",
+    "image": "eew-5-4/10.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to make or enact laws.",
+        "meaning-example": "làm hoặc ban hành luật.",
+        "ipa-example": "/tə meɪk ɔːr ɪˈnækt lɔːz./"
+      },
+      {
+        "sentence": "Next, he bribed some corrupt senators into legislating special subsidies for the factory.",
+        "meaning-example": "Tiếp theo, ông ta đã hối lộ một số thượng nghị sĩ tham nhũng để họ lập pháp các khoản trợ cấp đặc biệt cho nhà máy.",
+        "ipa-example": "/nɛkst, hi braɪbd səm kəˈrʌpt ˈsɛnətəz ˈɪntə ˈlɛdʒɪsleɪtɪŋ ˈspɛʃəl ˈsʌbsɪdiz fə ðə ˈfæktəri./"
+      },
+      {
+        "sentence": "The government is legislating against tax increases.",
+        "meaning-example": "Chính phủ đang làm luật chống lại việc tăng thuế.",
+        "ipa-example": "/ðə ˈɡʌvənmənt ɪz ˈlɛdʒɪsleɪtɪŋ əˈɡɛnst tæks ˈɪnkriːsɪz./"
+      },
+      {
+        "sentence": "Legislating new rules takes time.",
+        "meaning-example": "Việc lập pháp các quy tắc mới cần có thời gian.",
+        "ipa-example": "/ˈlɛdʒɪsleɪtɪŋ njuː ruːlz teɪks taɪm./"
+      },
+      {
+        "sentence": "They are responsible for legislating on these matters.",
+        "meaning-example": "Họ chịu trách nhiệm lập pháp về những vấn đề này.",
+        "ipa-example": "/ðeɪ ə rɪˈspɒnsəbl fə ˈlɛdʒɪsleɪtɪŋ ɒn ðiːz ˈmætəz./"
+      }
+    ]
+  },
+  {
+    "word": "subsidies",
+    "ipa": "/ˈsʌb.sɪ.diz/",
+    "meaning": "tiền trợ cấp.",
+    "image": "eew-5-4/11.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "money given as part of the cost of something, to help or encourage it to happen.",
+        "meaning-example": "tiền được trao như một phần chi phí của một thứ gì đó, để giúp đỡ hoặc khuyến khích nó xảy ra.",
+        "ipa-example": "/ˈmʌni ˈɡɪvn əz pɑːt əv ðə kɒst əv ˈsʌmθɪŋ, tə hɛlp ɔːr ɪnˈkʌrɪdʒ ɪt tə ˈhæpən./"
+      },
+      {
+        "sentence": "Next, he bribed some corrupt senators into legislating special subsidies for the factory.",
+        "meaning-example": "Tiếp theo, ông ta đã hối lộ một số thượng nghị sĩ tham nhũng để họ lập pháp các khoản trợ cấp đặc biệt cho nhà máy.",
+        "ipa-example": "/nɛkst, hi braɪbd səm kəˈrʌpt ˈsɛnətəz ˈɪntə ˈlɛdʒɪsleɪtɪŋ ˈspɛʃəl ˈsʌbsɪdiz fə ðə ˈfæktəri./"
+      },
+      {
+        "sentence": "The government gives subsidies to farmers.",
+        "meaning-example": "Chính phủ trợ cấp cho nông dân.",
+        "ipa-example": "/ðə ˈɡʌvənmənt ɡɪvz ˈsʌbsɪdiz tə ˈfɑːməz./"
+      },
+      {
+        "sentence": "The company received large subsidies.",
+        "meaning-example": "Công ty đã nhận được các khoản trợ cấp lớn.",
+        "ipa-example": "/ðə ˈkʌmpəni rɪˈsiːvd lɑːdʒ ˈsʌbsɪdiz./"
+      },
+      {
+        "sentence": "Housing subsidies help low-income families.",
+        "meaning-example": "Trợ cấp nhà ở giúp các gia đình có thu nhập thấp.",
+        "ipa-example": "/ˈhaʊzɪŋ ˈsʌbsɪdiz hɛlp ləʊ-ˈɪnkʌm ˈfæmɪliz./"
+      }
+    ]
+  },
+  {
+    "word": "dispose",
+    "ipa": "/dɪˈspəʊz/",
+    "meaning": "vứt bỏ, xử lý (rác).",
+    "image": "eew-5-4/12.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to get rid of something, especially by throwing it away. (Usually followed by 'of')",
+        "meaning-example": "để loại bỏ một cái gì đó, đặc biệt là bằng cách vứt nó đi. (Thường đi theo sau bởi 'of')",
+        "ipa-example": "/tə ɡɛt rɪd əv ˈsʌmθɪŋ, ɪˈspɛʃəli baɪ ˈθrəʊɪŋ ɪt əˈweɪ. (ˈjuːʒʊəli ˈfɒləʊd baɪ 'ɒv')/"
+      },
+      {
+        "sentence": "Finally, instead of paying a company to dispose of the factory’s rubbish properly, he violated the law by throwing it into the river to save money.",
+        "meaning-example": "Cuối cùng, thay vì trả tiền cho một công ty để xử lý rác của nhà máy đúng cách, ông ta đã vi phạm pháp luật bằng cách ném nó xuống sông để tiết kiệm tiền.",
+        "ipa-example": "/ˈfaɪnəli, ɪnˈstɛd əv ˈpeɪɪŋ ə ˈkʌmpəni tə dɪˈspəʊz əv ðə ˈfæktəriz ˈrʌbɪʃ ˈprɒpəli, hi ˈvaɪəleɪtɪd ðə lɔː baɪ ˈθrəʊɪŋ ɪt ˈɪntə ðə ˈrɪvə tə seɪv ˈmʌni./"
+      },
+      {
+        "sentence": "How do you dispose of old batteries?",
+        "meaning-example": "Bạn xử lý pin cũ như thế nào?",
+        "ipa-example": "/haʊ duː jʊ dɪˈspəʊz əv əʊld ˈbætəriz?/"
+      },
+      {
+        "sentence": "You must dispose of the waste carefully.",
+        "meaning-example": "Bạn phải xử lý chất thải một cách cẩn thận.",
+        "ipa-example": "/ju məst dɪˈspəʊz əv ðə weɪst ˈkeəfəli./"
+      },
+      {
+        "sentence": "Please dispose of your trash in the bin.",
+        "meaning-example": "Vui lòng vứt rác của bạn vào thùng.",
+        "ipa-example": "/pliːz dɪˈspəʊz əv jə træʃ ɪn ðə bɪn./"
+      }
+    ]
+  },
+  {
+    "word": "rubbish",
+    "ipa": "/ˈrʌb.ɪʃ/",
+    "meaning": "rác, đồ bỏ đi.",
+    "image": "eew-5-4/13.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "waste material or things that are no longer wanted or needed.",
+        "meaning-example": "vật liệu thải hoặc những thứ không còn được mong muốn hoặc cần thiết.",
+        "ipa-example": "/weɪst məˈtɪərɪəl ɔː θɪŋz ðət ə nəʊ ˈlɒŋɡə ˈwɒntɪd ɔː ˈniːdɪd./"
+      },
+      {
+        "sentence": "Finally, instead of paying a company to dispose of the factory’s rubbish properly, he violated the law by throwing it into the river to save money.",
+        "meaning-example": "Cuối cùng, thay vì trả tiền cho một công ty để xử lý rác của nhà máy đúng cách, ông ta đã vi phạm pháp luật bằng cách ném nó xuống sông để tiết kiệm tiền.",
+        "ipa-example": "/ˈfaɪnəli, ɪnˈstɛd əv ˈpeɪɪŋ ə ˈkʌmpəni tə dɪˈspəʊz əv ðə ˈfæktəriz ˈrʌbɪʃ ˈprɒpəli, hi ˈvaɪəleɪtɪd ðə lɔː baɪ ˈθrəʊɪŋ ɪt ˈɪntə ðə ˈrɪvə tə seɪv ˈmʌni./"
+      },
+      {
+        "sentence": "Please put your rubbish in the bin.",
+        "meaning-example": "Vui lòng bỏ rác vào thùng.",
+        "ipa-example": "/pliːz pʊt jə ˈrʌbɪʃ ɪn ðə bɪn./"
+      },
+      {
+        "sentence": "The street is full of rubbish.",
+        "meaning-example": "Đường phố đầy rác.",
+        "ipa-example": "/ðə striːt s fʊl əv ˈrʌbɪʃ./"
+      },
+      {
+        "sentence": "I need to take out the rubbish.",
+        "meaning-example": "Tôi cần phải đi đổ rác.",
+        "ipa-example": "/aɪ niːd tə teɪk aʊt ðə ˈrʌbɪʃ./"
+      }
+    ]
+  },
+  {
+    "word": "violated",
+    "ipa": "/ˈvaɪ.ə.leɪ.tɪd/",
+    "meaning": "(đã) vi phạm, xâm phạm.",
+    "image": "eew-5-4/14.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to break or act against something, especially a law, agreement, or principle.",
+        "meaning-example": "phá vỡ hoặc hành động chống lại một cái gì đó, đặc biệt là luật, thỏa thuận hoặc nguyên tắc.",
+        "ipa-example": "/tə breɪk ɔːr ækt əˈɡɛnst ˈsʌmθɪŋ, ɪˈspɛʃəli ə lɔː, əˈɡriːmənt, ɔː ˈprɪnsəpl./"
+      },
+      {
+        "sentence": "Finally, instead of paying a company to dispose of the factory’s rubbish properly, he violated the law by throwing it into the river to save money.",
+        "meaning-example": "Cuối cùng, thay vì trả tiền cho một công ty để xử lý rác của nhà máy đúng cách, ông ta đã vi phạm pháp luật bằng cách ném nó xuống sông để tiết kiệm tiền.",
+        "ipa-example": "/ˈfaɪnəli, ɪnˈstɛd əv ˈpeɪɪŋ ə ˈkʌmpəni tə dɪˈspəʊz əv ðə ˈfæktəriz ˈrʌbɪʃ ˈprɒpəli, hi ˈvaɪəleɪtɪd ðə lɔː baɪ ˈθrəʊɪŋ ɪt ˈɪntə ðə ˈrɪvə tə seɪv ˈmʌni./"
+      },
+      {
+        "sentence": "He violated the terms of the contract.",
+        "meaning-example": "Anh ta đã vi phạm các điều khoản của hợp đồng.",
+        "ipa-example": "/hi ˈvaɪəleɪtɪd ðə tɜːmz əv ðə ˈkɒntrækt./"
+      },
+      {
+        "sentence": "The company violated safety regulations.",
+        "meaning-example": "Công ty đã vi phạm các quy định an toàn.",
+        "ipa-example": "/ðə ˈkʌmpəni ˈvaɪəleɪtɪd ˈseɪfti ˌrɛɡjʊˈleɪʃənz./"
+      },
+      {
+        "sentence": "They violated the rules of the game.",
+        "meaning-example": "Họ đã vi phạm luật chơi.",
+        "ipa-example": "/ðeɪ ˈvaɪəleɪtɪd ðə ruːlz əv ðə ɡeɪm./"
+      }
+    ]
+  },
+  {
+    "word": "infrastructure",
+    "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
+    "meaning": "cơ sở hạ tầng.",
+    "image": "eew-5-4/15.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the basic systems and services, such as transport and power supplies, that a country or organization uses in order to work effectively.",
+        "meaning-example": "các hệ thống và dịch vụ cơ bản, chẳng hạn như giao thông và nguồn cung cấp điện, mà một quốc gia hoặc tổ chức sử dụng để hoạt động hiệu quả.",
+        "ipa-example": "/ðə ˈbeɪsɪk ˈsɪstəmz ənd ˈsɜːvɪsɪz, sʌtʃ əz ˈtrænspɔːt ənd ˈpaʊə səˈplaɪz, ðət ə ˈkʌntri ɔːr ˌɔːɡənaɪˈzeɪʃən ˈjuːzɪz ɪn ˈɔːdə tə wɜːk ɪˈfɛktɪvli./"
+      },
+      {
+        "sentence": "At first, all the changes to the factory’s infrastructure created more revenue.",
+        "meaning-example": "Lúc đầu, tất cả những thay đổi về cơ sở hạ tầng của nhà máy đã tạo ra nhiều doanh thu hơn.",
+        "ipa-example": "/ət fɜːst, ɔːl ðə ˈtʃeɪndʒɪz tə ðə ˈfæktəriz ˈɪnfrəˌstrʌktʃə kriˈeɪtɪd mɔː ˈrɛvənjuː./"
+      },
+      {
+        "sentence": "The country needs to invest in its infrastructure.",
+        "meaning-example": "Đất nước cần đầu tư vào cơ sở hạ tầng của mình.",
+        "ipa-example": "/ðə ˈkʌntri niːdz tʊ ɪnˈvɛst ɪn ɪts ˈɪnfrəˌstrʌktʃə./"
+      },
+      {
+        "sentence": "The war damaged the city's infrastructure.",
+        "meaning-example": "Chiến tranh đã làm hư hại cơ sở hạ tầng của thành phố.",
+        "ipa-example": "/ðə wɔː ˈdæmɪdʒd ðə ˈsɪtiz ˈɪnfrəˌstrʌktʃə./"
+      },
+      {
+        "sentence": "More money is needed for roads, bridges, and other infrastructure.",
+        "meaning-example": "Cần thêm tiền cho đường xá, cầu cống và các cơ sở hạ tầng khác.",
+        "ipa-example": "/mɔː ˈmʌni z ˈniːdɪd fə rəʊdz, ˈbrɪdʒɪz, ənd ˈʌðər ˈɪnfrəˌstrʌktʃə./"
+      }
+    ]
+  },
+  {
+    "word": "revenue",
+    "ipa": "/ˈrev.ən.juː/",
+    "meaning": "doanh thu.",
+    "image": "eew-5-4/16.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the income that a government or company receives regularly.",
+        "meaning-example": "thu nhập mà một chính phủ hoặc công ty nhận được thường xuyên.",
+        "ipa-example": "/ði ˈɪnkʌm ðət ə ˈɡʌvənmənt ɔː ˈkʌmpəni rɪˈsiːvz ˈrɛɡjʊləli./"
+      },
+      {
+        "sentence": "At first, all the changes to the factory’s infrastructure created more revenue.",
+        "meaning-example": "Lúc đầu, tất cả những thay đổi về cơ sở hạ tầng của nhà máy đã tạo ra nhiều doanh thu hơn.",
+        "ipa-example": "/ət fɜːst, ɔːl ðə ˈtʃeɪndʒɪz tə ðə ˈfæktəriz ˈɪnfrəˌstrʌktʃə kriˈeɪtɪd mɔː ˈrɛvənjuː./"
+      },
+      {
+        "sentence": "The company's revenue grew by 10% last year.",
+        "meaning-example": "Doanh thu của công ty đã tăng 10% vào năm ngoái.",
+        "ipa-example": "/ðə ˈkʌmpəniz ˈrɛvənjuː ɡruː baɪ tɛn pəˈsɛnt lɑːst jɪə./"
+      },
+      {
+        "sentence": "The government gets revenue from taxes.",
+        "meaning-example": "Chính phủ có doanh thu từ thuế.",
+        "ipa-example": "/ðə ˈɡʌvənmənt ɡɛts ˈrɛvənjuː frəm ˈtæksɪz./"
+      },
+      {
+        "sentence": "We need to find new sources of revenue.",
+        "meaning-example": "Chúng ta cần tìm các nguồn doanh thu mới.",
+        "ipa-example": "/wi niːd tə faɪnd njuː ˈsɔːsɪz əv ˈrɛvənjuː./"
+      }
+    ]
+  },
+  {
+    "word": "retail",
+    "ipa": "/ˈriː.teɪl/",
+    "meaning": "bán lẻ.",
+    "image": "eew-5-4/17.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the activity of selling goods to the public, usually in small quantities, for their own use.",
+        "meaning-example": "hoạt động bán hàng hóa cho công chúng, thường với số lượng nhỏ, để họ tự sử dụng.",
+        "ipa-example": "/ði ækˈtɪvəti əv ˈsɛlɪŋ ɡʊdz tə ðə ˈpʌblɪk, ˈjuːʒʊəli ɪn smɔːl ˈkwɒntətiz, fə ðeər əʊn juːs./"
+      },
+      {
+        "sentence": "But soon many stores could no longer sell the factory’s goods at retail.",
+        "meaning-example": "Nhưng chẳng bao lâu, nhiều cửa hàng không còn có thể bán lẻ hàng hóa của nhà máy nữa.",
+        "ipa-example": "/bət suːn ˈmɛni stɔːz kəd nəʊ ˈlɒŋɡə sɛl ðə ˈfæktəriz ɡʊdz ət ˈriːteɪl./"
+      },
+      {
+        "sentence": "She works in retail.",
+        "meaning-example": "Cô ấy làm việc trong ngành bán lẻ.",
+        "ipa-example": "/ʃi wɜːks ɪn ˈriːteɪl./"
+      },
+      {
+        "sentence": "The retail price of this shirt is $20.",
+        "meaning-example": "Giá bán lẻ của chiếc áo này là $20.",
+        "ipa-example": "/ðə ˈriːteɪl praɪs əv ðɪs ʃɜːt s ˈtwɛnti ˈdɒləz./"
+      },
+      {
+        "sentence": "Retail sales went up during the holidays.",
+        "meaning-example": "Doanh số bán lẻ đã tăng lên trong những ngày nghỉ lễ.",
+        "ipa-example": "/ˈriːteɪl seɪlz wɛnt ʌp ˈdjʊərɪŋ ðə ˈhɒlədeɪz./"
+      }
+    ]
+  },
+  {
+    "word": "audited",
+    "ipa": "/ˈɔː.dɪtɪd/",
+    "meaning": "(đã) kiểm toán.",
+    "image": "eew-5-4/18.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to make an official examination of the accounts of a business and produce a report.",
+        "meaning-example": "tiến hành kiểm tra chính thức các tài khoản của một doanh nghiệp và lập báo cáo.",
+        "ipa-example": "/tə meɪk ən əˈfɪʃəl ɪɡˌzæmɪˈneɪʃən əv ði əˈkaʊnts əv ə ˈbɪznəs ənd prəˈdjuːs ə rɪˈpɔːt./"
+      },
+      {
+        "sentence": "...and when they audited the company, they discovered that Pig had manipulated the law in order to get more money.",
+        "meaning-example": "...và khi họ kiểm toán công ty, họ phát hiện ra rằng Lợn đã thao túng luật pháp để kiếm thêm tiền.",
+        "ipa-example": "/...ənd wɛn ðeɪ ˈɔːdɪtɪd ðə ˈkʌmpəni, ðeɪ dɪˈskʌvəd ðət pɪɡ həd məˈnɪpjʊleɪtɪd ðə lɔː ɪn ˈɔːdə tə ɡɛt mɔː ˈmʌni./"
+      },
+      {
+        "sentence": "The company is audited every year.",
+        "meaning-example": "Công ty được kiểm toán hàng năm.",
+        "ipa-example": "/ðə ˈkʌmpəni z ˈɔːdɪtɪd ˈɛvri jɪə./"
+      },
+      {
+        "sentence": "An independent firm audited our accounts.",
+        "meaning-example": "Một công ty độc lập đã kiểm toán các tài khoản của chúng tôi.",
+        "ipa-example": "/ən ˌɪndɪˈpɛndənt fɜːm ˈɔːdɪtɪd ɑːr əˈkaʊnts./"
+      },
+      {
+        "sentence": "All departments will be audited.",
+        "meaning-example": "Tất cả các phòng ban sẽ được kiểm toán.",
+        "ipa-example": "/ɔːl dɪˈpɑːtmənts wɪl bi ˈɔːdɪtɪd./"
+      }
+    ]
+  },
+  {
+    "word": "manipulated",
+    "ipa": "/məˈnɪp.jə.leɪ.tɪd/",
+    "meaning": "(đã) thao túng, lôi kéo.",
+    "image": "eew-5-4/19.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to control something or someone to your advantage, often unfairly or dishonestly.",
+        "meaning-example": "để kiểm soát một cái gì đó hoặc một người nào đó để lợi thế của bạn, thường là một cách không công bằng hoặc không trung thực.",
+        "ipa-example": "/tə kənˈtrəʊl ˈsʌmθɪŋ ɔː ˈsʌmwʌn tə jər ədˈvɑːntɪdʒ, ˈɒfən ʌnˈfeəli ɔː dɪsˈɒnɪstli./"
+      },
+      {
+        "sentence": "...and when they audited the company, they discovered that Pig had manipulated the law in order to get more money.",
+        "meaning-example": "...và khi họ kiểm toán công ty, họ phát hiện ra rằng Lợn đã thao túng luật pháp để kiếm thêm tiền.",
+        "ipa-example": "/...ənd wɛn ðeɪ ˈɔːdɪtɪd ðə ˈkʌmpəni, ðeɪ dɪˈskʌvəd ðət pɪɡ həd məˈnɪpjʊleɪtɪd ðə lɔː ɪn ˈɔːdə tə ɡɛt mɔː ˈmʌni./"
+      },
+      {
+        "sentence": "He manipulated his friends to get what he wanted.",
+        "meaning-example": "Anh ta đã thao túng bạn bè của mình để có được những gì anh ta muốn.",
+        "ipa-example": "/hi məˈnɪpjʊleɪtɪd hɪz frɛndz tə ɡɛt wɒt hi ˈwɒntɪd./"
+      },
+      {
+        "sentence": "The media can be used to manipulate public opinion.",
+        "meaning-example": "Phương tiện truyền thông có thể được sử dụng để thao túng dư luận.",
+        "ipa-example": "/ðə ˈmiːdiə kən bi juːzd tə məˈnɪpjʊleɪt ˈpʌblɪk əˈpɪnjən./"
+      },
+      {
+        "sentence": "The company was accused of having manipulated its accounts.",
+        "meaning-example": "Công ty bị buộc tội đã thao túng tài khoản của mình.",
+        "ipa-example": "/ðə ˈkʌmpəni wəz əˈkjuːzd əv ˈhævɪŋ məˈnɪpjʊleɪtɪd ɪts əˈkaʊnts./"
+      }
+    ]
+  },
+  {
+    "word": "transactions",
+    "ipa": "/trænˈzæk.ʃənz/",
+    "meaning": "các giao dịch.",
+    "image": "eew-5-4/20.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "an occasion when someone buys or sells something, or when money is exchanged.",
+        "meaning-example": "một dịp khi ai đó mua hoặc bán một cái gì đó, hoặc khi tiền được trao đổi.",
+        "ipa-example": "/ən əˈkeɪʒən wɛn ˈsʌmwʌn baɪz ɔː sɛlz ˈsʌmθɪŋ, ɔː wɛn ˈmʌni z ɪksˈtʃeɪndʒd./"
+      },
+      {
+        "sentence": "All transactions with Pig’s factory stopped.",
+        "meaning-example": "Tất cả các giao dịch với nhà máy của Lợn đã dừng lại.",
+        "ipa-example": "/ɔːl trænˈzækʃənz wɪð pɪɡz ˈfæktəri stɒpt./"
+      },
+      {
+        "sentence": "All credit card transactions are protected.",
+        "meaning-example": "Tất cả các giao dịch thẻ tín dụng đều được bảo vệ.",
+        "ipa-example": "/ɔːl ˈkrɛdɪt kɑːd trænˈzækʃənz ə prəˈtɛktɪd./"
+      },
+      {
+        "sentence": "The bank handles thousands of transactions every day.",
+        "meaning-example": "Ngân hàng xử lý hàng nghìn giao dịch mỗi ngày.",
+        "ipa-example": "/ðə bæŋk ˈhændlz ˈθaʊzəndz əv trænˈzækʃənz ˈɛvri deɪ./"
+      },
+      {
+        "sentence": "Online transactions are very common now.",
+        "meaning-example": "Giao dịch trực tuyến hiện nay rất phổ biến.",
+        "ipa-example": "/ˈɒnlaɪn trænˈzækʃənz ə ˈvɛri ˈkɒmən naʊ./"
+      }
+    ]
+  },
+  {
+    "example": [
+      {
+        "sentence": "Mr. Pig was an administrator at a big factory that made different kinds of merchandise.",
+        "meaning-example": "Ông Lợn là một quản trị viên tại một nhà máy lớn chuyên sản xuất các loại hàng hóa khác nhau.",
+        "ipa-example": "/ˈmɪstər pɪɡ wəz ən ədˈmɪnɪstreɪtər ət ə bɪɡ ˈfæktəri ðət meɪd ˈdɪfrənt kaɪndz əv ˈmɜːtʃəndaɪs./"
+      },
+      {
+        "sentence": "During a meeting at the company’s headquarters, his bosses said they wanted the factory to make more money.",
+        "meaning-example": "Trong một cuộc họp tại trụ sở chính của công ty, các ông chủ của ông nói rằng họ muốn nhà máy kiếm được nhiều tiền hơn.",
+        "ipa-example": "/ˈdjʊərɪŋ ə ˈmiːtɪŋ ət ðə ˈkʌmpəniz ˈhedkwɔːtəz, hɪz ˈbɒsɪz sed ðeɪ ˈwɒntɪd ðə ˈfæktəri tə meɪk mɔː ˈmʌni./"
+      },
+      {
+        "sentence": "“If the factory makes more money, then you will too,” his boss, Mr. Horse, told him.",
+        "meaning-example": "“Nếu nhà máy kiếm được nhiều tiền hơn, thì cậu cũng vậy,” ông chủ của ông, Ngài Ngựa, nói với ông.",
+        "ipa-example": "/“ɪf ðə ˈfæktəri meɪks mɔː ˈmʌni, ðɛn ju wɪl tuː,” hɪz bɒs, ˈmɪstə hɔːs, təʊld hɪm./"
+      },
+      {
+        "sentence": "It was a great incentive.",
+        "meaning-example": "Đó là một sự khích lệ tuyệt vời.",
+        "ipa-example": "/ɪt wəz ə ɡreɪt ɪnˈsentɪv./"
+      },
+      {
+        "sentence": "Pig had always wanted to be as affluent as his bosses.",
+        "meaning-example": "Lợn đã luôn muốn được giàu có như các ông chủ của mình.",
+        "ipa-example": "/pɪɡ həd ˈɔːlweɪz ˈwɒntɪd tə bi əz ˈæflʊənt əz hɪz ˈbɒsɪz./"
+      },
+      {
+        "sentence": "Mr. Pig returned to the factory and started making changes.",
+        "meaning-example": "Ông Lợn trở lại nhà máy và bắt đầu thực hiện các thay đổi.",
+        "ipa-example": "/ˈmɪstər pɪɡ rɪˈtɜːnd tə ðə ˈfæktəri ənd ˈstɑːtɪd ˈmeɪkɪŋ ˈtʃeɪndʒɪz./"
+      },
+      {
+        "sentence": "However, most were not very nice, and some were not legitimate.",
+        "meaning-example": "Tuy nhiên, hầu hết đều không tốt đẹp gì, và một số thì không hợp pháp.",
+        "ipa-example": "/haʊˈevə, məʊst wɜː nɒt ˈveri naɪs, ənd sʌm wɜː nɒt ləˈdʒɪtɪmət./"
+      },
+      {
+        "sentence": "First, he fired all his employees.",
+        "meaning-example": "Đầu tiên, ông ta sa thải tất cả nhân viên của mình.",
+        "ipa-example": "/fɜːst, hi ˈfaɪəd ɔːl hɪz ɪmˈplɔɪiːz./"
+      },
+      {
+        "sentence": "Then he automated the entire factory.",
+        "meaning-example": "Sau đó, ông ta tự động hóa toàn bộ nhà máy.",
+        "ipa-example": "/ðen hi ˈɔːtəmeɪtɪd ði ɪnˈtaɪə ˈfæktəri./"
+      },
+      {
+        "sentence": "Machines now made everything, and the other animals, Mr. Rabbit, Mr. Sheep, and Mr. Dog had no jobs.",
+        "meaning-example": "Bây giờ máy móc làm mọi thứ, và các con vật khác, ông Thỏ, ông Cừu và ông Chó không có việc làm.",
+        "ipa-example": "/məˈʃiːnz naʊ meɪd ˈɛvrɪθɪŋ, ənd ði ˈʌðər ˈænɪməlz, ˈmɪstə ˈræbɪt, ˈmɪstə ʃiːp, ənd ˈmɪstə dɒɡ həd nəʊ dʒɒbz./"
+      },
+      {
+        "sentence": "Next, he bribed some corrupt senators into legislating special subsidies for the factory.",
+        "meaning-example": "Tiếp theo, ông ta đã hối lộ một số thượng nghị sĩ tham nhũng để họ lập pháp các khoản trợ cấp đặc biệt cho nhà máy.",
+        "ipa-example": "/nɛkst, hi braɪbd səm kəˈrʌpt ˈsɛnətəz ˈɪntə ˈlɛdʒɪsleɪtɪŋ ˈspɛʃəl ˈsʌbsɪdiz fə ðə ˈfæktəri./"
+      },
+      {
+        "sentence": "Finally, instead of paying a company to dispose of the factory’s rubbish properly, he violated the law by throwing it into the river to save money.",
+        "meaning-example": "Cuối cùng, thay vì trả tiền cho một công ty để xử lý rác của nhà máy đúng cách, ông ta đã vi phạm pháp luật bằng cách ném nó xuống sông để tiết kiệm tiền.",
+        "ipa-example": "/ˈfaɪnəli, ɪnˈstɛd əv ˈpeɪɪŋ ə ˈkʌmpəni tə dɪˈspəʊz əv ðə ˈfæktəriz ˈrʌbɪʃ ˈprɒpəli, hi ˈvaɪəleɪtɪd ðə lɔː baɪ ˈθrəʊɪŋ ɪt ˈɪntə ðə ˈrɪvə tə seɪv ˈmʌni./"
+      },
+      {
+        "sentence": "At first, all the changes to the factory’s infrastructure created more revenue.",
+        "meaning-example": "Lúc đầu, tất cả những thay đổi về cơ sở hạ tầng của nhà máy đã tạo ra nhiều doanh thu hơn.",
+        "ipa-example": "/ət fɜːst, ɔːl ðə ˈtʃeɪndʒɪz tə ðə ˈfæktəriz ˈɪnfrəˌstrʌktʃə kriˈeɪtɪd mɔː ˈrɛvənjuː./"
+      },
+      {
+        "sentence": "But soon many stores could no longer sell the factory’s goods at retail.",
+        "meaning-example": "Nhưng chẳng bao lâu, nhiều cửa hàng không còn có thể bán lẻ hàng hóa của nhà máy nữa.",
+        "ipa-example": "/bət suːn ˈmɛni stɔːz kəd nəʊ ˈlɒŋɡə sɛl ðə ˈfæktəriz ɡʊdz ət ˈriːteɪl./"
+      },
+      {
+        "sentence": "It seemed that the machines couldn’t make products as well as the workers.",
+        "meaning-example": "Có vẻ như máy móc không thể tạo ra sản phẩm tốt bằng công nhân.",
+        "ipa-example": "/ɪt siːmd ðət ðə məˈʃiːnz ˈkʊdnt meɪk ˈprɒdʌkts əz wɛl əz ðə ˈwɜːkəz./"
+      },
+      {
+        "sentence": "The customers were disappointed with the factory’s merchandise.",
+        "meaning-example": "Các khách hàng đã thất vọng với hàng hóa của nhà máy.",
+        "ipa-example": "/ðə ˈkʌstəməz wə dɪsəˈpɔɪntɪd wɪð ðə ˈfæktəriz ˈmɜːtʃəndaɪs./"
+      },
+      {
+        "sentence": "There were other problems, too.",
+        "meaning-example": "Cũng có những vấn đề khác.",
+        "ipa-example": "/ðə wər ˈʌðə ˈprɒbləmz, tuː./"
+      },
+      {
+        "sentence": "The animals had told their friends and family to stop buying the factory’s goods.",
+        "meaning-example": "Các con vật đã nói với bạn bè và gia đình của chúng ngừng mua hàng của nhà máy.",
+        "ipa-example": "/ði ˈænɪməlz həd təʊld ðeə frɛndz ənd ˈfæmɪli tə stɒp ˈbaɪɪŋ ðə ˈfæktəriz ɡʊdz./"
+      },
+      {
+        "sentence": "Officials discovered the factory’s rubbish in the river, and when they audited the company, they discovered that Pig had manipulated the law in order to get more money.",
+        "meaning-example": "Các quan chức đã phát hiện ra rác của nhà máy ở sông, và khi họ kiểm toán công ty, họ phát hiện ra rằng Lợn đã thao túng luật pháp để kiếm thêm tiền.",
+        "ipa-example": "/əˈfɪʃəlz dɪˈskʌvəd ðə ˈfæktəriz ˈrʌbɪʃ ɪn ðə ˈrɪvər, ənd wɛn ðeɪ ˈɔːdɪtɪd ðə ˈkʌmpəni, ðeɪ dɪˈskʌvəd ðət pɪɡ həd məˈnɪpjʊleɪtɪd ðə lɔː ɪn ˈɔːdə tə ɡɛt mɔː ˈmʌni./"
+      },
+      {
+        "sentence": "All transactions with Pig’s factory stopped.",
+        "meaning-example": "Tất cả các giao dịch với nhà máy của Lợn đã dừng lại.",
+        "ipa-example": "/ɔːl trænˈzækʃənz wɪð pɪɡz ˈfæktəri stɒpt./"
+      },
+      {
+        "sentence": "The factory lost money, and Pig lost his job.",
+        "meaning-example": "Nhà máy thua lỗ, và Lợn mất việc.",
+        "ipa-example": "/ðə ˈfæktəri lɒst ˈmʌni, ənd pɪɡ lɒst hɪz dʒɒb./"
+      },
+      {
+        "sentence": "He realized his mistakes too late.",
+        "meaning-example": "Ông ta nhận ra sai lầm của mình quá muộn.",
+        "ipa-example": "/hi ˈrɪəlaɪzd hɪz mɪsˈteɪks tuː leɪt./"
+      },
+      {
+        "sentence": "He had tried to become rich by saving money any way possible, but the cheapest way was not always the best.",
+        "meaning-example": "Ông ta đã cố gắng làm giàu bằng cách tiết kiệm tiền bằng mọi cách có thể, nhưng cách rẻ nhất không phải lúc nào cũng là tốt nhất.",
+        "ipa-example": "/hi həd traɪd tə bɪˈkʌm rɪtʃ baɪ ˈseɪvɪŋ ˈmʌni ˈɛni weɪ ˈpɒsəbl, bət ðə ˈtʃiːpɪst weɪ wəz nɒt ˈɔːlweɪz ðə bɛst./"
+      }
+    ]
+  }
+]

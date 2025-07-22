@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Học Tiếng Anh Tương Tác</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        h1 { font-size: 2.5rem; font-weight: 700; }
+        h2 { font-size: 2rem; font-weight: 600; }
+        h3 { font-size: 1.75rem; font-weight: 600; }
+        h4 { font-size: 1.5rem; font-weight: 500; }
+        .unit-header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .unit-number {
+            font-size: 3rem;
+            font-weight: 700;
+            background-color: rgba(0,0,0,0.1);
+            padding: 0.5rem 1.2rem;
+            border-radius: 8px;
+        }
+        .section-title {
+            background-color: #ecf0f1;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .exercise-box {
+            border: 1px solid #ddd;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            background-color: #fdfdfd;
+        }
+        .image-container {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="checkbox"],
+        .form-group input[type="radio"] {
+            margin-right: 0.5rem;
+        }
+        .grammar-note {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4CAF50;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .grammar-note h4 {
+            margin-top: 0;
+            color: #388e3c;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        .dialog-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.3s;
+        }
+        .dialog-overlay.show {
+            visibility: visible;
+            opacity: 1;
+        }
+        .dialog-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        .dialog-content button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .dialog-content button:hover {
+            background-color: #45a049;
+        }
+        .circle-choice {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 1rem;
+        }
+        .circle-choice input[type="radio"] {
+            margin-right: 0.25rem;
+        }
+        .underline-input {
+            border-bottom: 1px solid #333;
+            outline: none;
+            padding: 2px 5px;
+            width: 100px; /* Adjust as needed */
+            text-align: center;
+        }
+        .fill-in-blank {
+            border-bottom: 1px solid #333;
+            outline: none;
+            padding: 2px 5px;
+            width: 120px; /* Adjust as needed */
+            text-align: center;
+        }
+        .correction-box {
+            border: 1px dashed #ccc;
+            padding: 0.5rem;
+            margin-left: 1rem;
+            display: inline-block;
+            min-width: 80px;
+            text-align: center;
+        }
+        .answer-key-section {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+        .answer-key-section button {
+            background-color: #007bff;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .answer-key-section button:hover {
+            background-color: #0056b3;
+        }
+        .answer-key-content {
+            display: none; /* Hidden by default */
+            margin-top: 1rem;
+        }
+        .answer-key-content.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Unit 1 Header -->
+        <div class="unit-header">
+            <div class="unit-number">1</div>
+            <div>
+                <h1 class="text-white">This / These are; Subject Pronouns</h1>
+                <h2 class="text-white">FAMILY</h2>
+                <div class="text-sm text-gray-200 mt-2">
+                    <p><strong>Mục tiêu:</strong></p>
+                    <ul class="list-disc list-inside ml-4">
+                        <li>Sử dụng 'is / these are' để nói về người và vật gần bạn.</li>
+                        <li>Sử dụng đại từ nhân xưng.</li>
+                        <li>Hoàn thành các câu đơn giản về một bài đọc.</li>
+                        <li>Hoàn thành các câu về một cuộc trò chuyện.</li>
+                        <li>Viết một đoạn văn về người trong ảnh.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <h3 class="section-title">STEP 1: GRAMMAR IN CONTEXT</h3>
+
+        <!-- BEFORE YOU READ -->
+        <div class="exercise-box">
+            <h4>BEFORE YOU READ</h4>
+            <p><span class="font-bold text-blue-600">A VOCABULARY</span> Study the words. Then check (✓) the things that are true for you.</p>
+            <div class="image-container">
+                <img src="FOS-1-1/1.png" alt="Sơ đồ gia đình">
+            </div>
+            <div class="mt-4">
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="q1" name="family_check">
+                    <label for="q1" class="ml-2">1. My family is small.</label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="q2" name="family_check">
+                    <label for="q2" class="ml-2">2. I'm a parent.</label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="q3" name="family_check">
+                    <label for="q3" class="ml-2">3. I'm a son.</label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="q4" name="family_check">
+                    <label for="q4" class="ml-2">4. I'm a daughter.</label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="q5" name="family_check">
+                    <label for="q5" class="ml-2">5. I'm a brother.</label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="q6" name="family_check">
+                    <label for="q6" class="ml-2">6. I'm a sister.</label>
+                </div>
+            </div>
+            <p class="mt-4"><span class="font-bold text-blue-600">B</span> Work with a partner. Compare your answers.</p>
+        </div>
+
+        <!-- READ -->
+        <div class="exercise-box">
+            <h4>READ</h4>
+            <p>Read about Steve Beck and his family.</p>
+            <h3>All About Steve</h3>
+            <div class="image-container">
+                <img src="FOS-1-1/2.png" alt="Hình ảnh Steve Beck trong căn hộ">
+            </div>
+            <p>Hi, I'm Steve Beck. This is my apartment in Seattle. It's small but comfortable(1)</p>
+            <div class="image-container">
+                <img src="FOS-1-1/3.png" alt="Hình ảnh gia đình Steve Beck">
+            </div>
+            <p> These are my pets. Kip is on the left, and Pam is on the right. They're smart. Kip is two years old. Pam is eight years old, and she talks.</p>
+            <p>We like our apartment. We're happryy here</p>
+            <p>My family is wonderful. These are my parents on the left. This is my sister Jessica in the middle, with her husband and children</p>
+            <p class="mt-4"><span class="font-bold text-blue-600">A COMPREHENSION</span> Look at the reading again. For each statement, check (✓) True or False.</p>
+            <table class="w-full mt-4">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>True</th>
+                        <th>False</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Steve Beck's apartment is big.</td>
+                        <td><input type="checkbox" name="steve_q1_true"></td>
+                        <td><input type="checkbox" name="steve_q1_false"></td>
+                    </tr>
+                    <tr>
+                        <td>2. Steve's apartment is comfortable.</td>
+                        <td><input type="checkbox" name="steve_q2_true"></td>
+                        <td><input type="checkbox" name="steve_q2_false"></td>
+                    </tr>
+                    <tr>
+                        <td>3. Steve likes music.</td>
+                        <td><input type="checkbox" name="steve_q3_true"></td>
+                        <td><input type="checkbox" name="steve_q3_false"></td>
+                    </tr>
+                    <tr>
+                        <td>4. Pam is eighteen years old, and Kip is five.</td>
+                        <td><input type="checkbox" name="steve_q4_true"></td>
+                        <td><input type="checkbox" name="steve_q4_false"></td>
+                    </tr>
+                    <tr>
+                        <td>5. Pam and Kip are children.</td>
+                        <td><input type="checkbox" name="steve_q5_true"></td>
+                        <td><input type="checkbox" name="steve_q5_false"></td>
+                    </tr>
+                    <tr>
+                        <td>6. Steve is happy.</td>
+                        <td><input type="checkbox" name="steve_q6_true"></td>
+                        <td><input type="checkbox" name="steve_q6_false"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="mt-4"><span class="font-bold text-blue-600">B</span> Work with a partner. Compare your answers in A.</p>
+        </div>
+
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <h3 class="section-title">STEP 2: GRAMMAR PRESENTATION</h3>
+
+        <div class="exercise-box">
+            <h4>THIS IS / THESE ARE</h4>
+            <div class="image-container">
+                <img src="FOS-1-1/4.png" alt="Bảng This is / These are">
+            </div>
+        </div>
+
+        <div class="exercise-box">
+            <h4>SUBJECT PRONOUNS</h4>
+            <div class="image-container">
+                <img src="FOS-1-1/5.png" alt="Bảng đại từ nhân xưng">
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <h4>GRAMMAR NOTES</h4>
+            <p><span class="font-bold">1 This is</span></p>
+            <p>Use <span class="font-bold italic">This is</span> to introduce or talk about <span class="font-bold">one</span> person or thing <span class="font-bold">near</span> you.</p>
+            <p class="ml-4">This is my friend Pedro.<br>This is my seat.</p>
+            <p><span class="font-bold">2 These are</span></p>
+            <p>Use <span class="font-bold italic">These are</span> to introduce or talk about <span class="font-bold">two or more</span> people or things <span class="font-bold">near</span> you.</p>
+            <p class="ml-4">These are my friends Maria and Pedro.</p>
+        </div>
+
+        <div class="grammar-note">
+            <p><span class="font-bold">3 Is this and Are these</span></p>
+            <p>Use <span class="font-bold italic">Is this</span> and <span class="font-bold italic">Are these</span> to ask questions.</p>
+            <p class="ml-4">A: Is this your cat?<br>B: Yes, it is.</p>
+            <p class="ml-4">A: Are these your books?<br>B: No, they aren't.</p>
+        </div>
+
+        <div class="grammar-note">
+            <p><span class="font-bold">4 Subject Pronouns and Contractions</span></p>
+            <p>I, you, he, she, it, we, you, and they are <span class="font-bold">subject pronouns</span>. They replace a <span class="font-bold">subject noun</span>.</p>
+            <div class="image-container">
+                <img src="FOS-1-1/6.png" alt="Bảng Subject Pronoun và Contraction">
+            </div>
+            <p>Use <span class="font-bold">contractions</span> (short forms) with pronouns and the verb <span class="italic">be</span> in speaking and informal writing.</p>
+            <p class="ml-4">I am = I'm<br>you are = you're<br>he is = he's<br>she is = she's<br>it is = it's<br>we are = we're<br>they are = they're</p>
+            <p class="mt-4"><span class="font-bold text-blue-600">USAGE NOTE</span> Use <span class="italic">it</span> or <span class="italic">he</span> or <span class="italic">she</span> to talk about an animal.</p>
+            <p class="ml-4">It's a big cat. <span class="font-bold">or</span> He's a big cat. <span class="font-bold">or</span> She's a big cat.</p>
+        </div>
+
+        <!-- PRONUNCIATION NOTE -->
+        <h3 class="section-title">PRONUNCIATION NOTE</h3>
+        <div class="grammar-note">
+            <h4>This and These</h4>
+            <p>There are two differences in the pronunciation of <span class="font-bold italic">this</span> and <span class="font-bold italic">these</span>.</p>
+            <p><span class="font-bold italic">This</span> has a short /ɪ/ vowel. We pronounce the "s" in <span class="italic">this</span> as /s/.</p>
+            <p class="ml-4">This is my friend Pedro.</p>
+            <p class="ml-4">Is this your friend Pedro?</p>
+            <p><span class="font-bold italic">These</span> has a long /i:/ vowel. We pronounce the "s" in <span class="italic">these</span> as /z/.</p>
+            <p class="ml-4">These are my friends Maria and Pedro.</p>
+            <p class="ml-4">Are these your seats?</p>
+        </div>
+
+        <!-- REFERENCE NOTE -->
+        <h3 class="section-title">REFERENCE NOTE</h3>
+        <div class="grammar-note">
+            <p>For definitions of grammar terms, see the Glossary on page 375.</p>
+        </div>
+
+        <!-- STEP 3: FOCUSED PRACTICE -->
+        <h3 class="section-title">STEP 3: FOCUSED PRACTICE</h3>
+
+        <div class="exercise-box">
+            <h4>EXERCISE 1 DISCOVER THE GRAMMAR</h4>
+            <p><span class="font-bold text-blue-600">A GRAMMAR NOTES 1-3</span> Read the conversations. Underline <span class="italic">this is, is this</span>, and <span class="italic">are these</span>.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                <div>
+                    <div class="image-container">
+                        <img src="FOS-1-1/7.png" alt="Hình ảnh nhân vật hội thoại 1">
+                    </div>
+                    <p>1. A: Is this Mark Mason?<br>B: No, this is Steve Beck.</p>
+                </div>
+                <div>
+                    <div class="image-container">
+                        <img src="FOS-1-1/8.png" alt="Hình ảnh nhân vật hội thoại 2">
+                    </div>
+                    <p>4. A: Is this Jeremy Olson?<br>B: No, this is Ben Olson.</p>
+                </div>
+                <div>
+                    <div class="image-container">
+                        <img src="FOS-1-1/9.png" alt="Hình ảnh nhân vật hội thoại 3">
+                    </div>
+                    <p>2. A: Are these people Mr. and Mrs. Beck?<br>B: No, they're Mr. and Mrs. Olson.</p>
+                </div>
+                <div>
+                    <div class="image-container">
+                        <img src="FOS-1-1/10.png" alt="Hình ảnh nhân vật hội thoại 4">
+                    </div>
+                    <p>5. A: Is this Josh Wang?<br>B: No, this is Ken Johnson.</p>
+                </div>
+                <div>
+                    <div class="image-container">
+                        <img src="FOS-1-1/11.png" alt="Hình ảnh nhân vật hội thoại 5">
+                    </div>
+                    <p>3. A: Is this Judy Johnson?<br>B: No, this is Annie Olson.</p>
+                </div>
+                <div>
+                    <div class="image-container">
+                        <img src="FOS-1-1/12.png" alt="Hình ảnh nhân vật hội thoại 6">
+                    </div>
+                    <p>6. A: Are these people Jeremy and Annie Olson?<br>B: No, they're Judy and Ken Johnson.</p>
+                </div>
+            </div>
+            <p class="mt-4"><span class="font-bold text-blue-600">B GRAMMAR NOTE 4</span> Read the paragraph. Underline the subject pronouns.</p>
+            <div class="exercise-box bg-gray-50 p-4 rounded-md">
+                <p>Jessica is Steve Beck's sister. She is married to Tim Olson. They live in Redmond. They have a very nice house. It's big. Tim and Jessica have three children. Jeremy is 17. He is a basketball player. Annie is 12. She is a soccer player. Ben is 8. He says, "I'm good at sports." Tim and Jessica say, "We are a happy family!"</p>
+            </div>
+        </div>
+
+        <!-- EXERCISE 2 THIS AND THESE -->
+        <div class="exercise-box">
+            <h4>EXERCISE 2 THIS AND THESE</h4>
+            <p><span class="font-bold text-blue-600">GRAMMAR NOTES 1-3</span> Circle the correct answers.</p>
+            <div class="mt-4">
+                <p>1. <span class="circle-choice"><input type="radio" name="ex2_q1" value="This"> This</span> / <span class="circle-choice"><input type="radio" name="ex2_q1" value="These"> These</span> are my photos.</p>
+                <p>2. <span class="circle-choice"><input type="radio" name="ex2_q2" value="This"> This</span> / <span class="circle-choice"><input type="radio" name="ex2_q2" value="These"> These</span> is my mother.</p>
+                <p>3. <span class="circle-choice"><input type="radio" name="ex2_q3" value="This"> This</span> / <span class="circle-choice"><input type="radio" name="ex2_q3" value="These"> These</span> are my sisters.</p>
+                <p>4. <span class="circle-choice"><input type="radio" name="ex2_q4" value="This"> This</span> / <span class="circle-choice"><input type="radio" name="ex2_q4" value="These"> These</span> is my father.</p>
+                <p>5. <span class="circle-choice"><input type="radio" name="ex2_q5" value="This"> This</span> / <span class="circle-choice"><input type="radio" name="ex2_q5" value="These"> These</span> is my apartment.</p>
+                <p>6. <span class="circle-choice"><input type="radio" name="ex2_q6" value="This"> This</span> / <span class="circle-choice"><input type="radio" name="ex2_q6" value="These"> These</span> are my friends.</p>
+                <p>7. Is <span class="circle-choice"><input type="radio" name="ex2_q7" value="this"> this</span> / <span class="circle-choice"><input type="radio" name="ex2_q7" value="these"> these</span> your cat?</p>
+                <p>8. Are <span class="circle-choice"><input type="radio" name="ex2_q8" value="this"> this</span> / <span class="circle-choice"><input type="radio" name="ex2_q8" value="these"> these</span> your keys?</p>
+            </div>
+        </div>
+
+        <!-- EXERCISE 3 SUBJECT PRONOUNS -->
+        <div class="exercise-box">
+            <h4>EXERCISE 3 SUBJECT PRONOUNS</h4>
+            <p><span class="font-bold text-blue-600">A GRAMMAR NOTE 4</span> Complete the paragraph about Judy with <span class="italic">She, It,</span> and <span class="italic">They</span>.</p>
+            <div class="image-container">
+                <img src="FOS-1-1/13.png" alt="Hình ảnh Judy Johnson">
+            </div>
+            <p>This is Judy Johnson. <input type="text" class="fill-in-blank" id="ex3_q1"> 's a student at the University of Washington.</p>
+            <p>Elena is her roommate. <input type="text" class="fill-in-blank" id="ex3_q2"> 's from Brazil.</p>
+            <p><input type="text" class="fill-in-blank" id="ex3_q3"> 're good friends.</p>
+            <p>They like their apartment. <input type="text" class="fill-in-blank" id="ex3_q4"> 's small but nice.</p>
+
+            <p class="mt-4"><span class="font-bold text-blue-600">B</span> Complete Judy's telephone conversation with her mother with <span class="italic">I, you, he, we,</span> and <span class="italic">they</span>.</p>
+            <p>MOM: Are <span class="font-bold">you</span> OK, Judy?</p>
+            <p>JUDY: Yes, <input type="text" class="fill-in-blank" id="ex3_q5"> am. <input type="text" class="fill-in-blank" id="ex3_q6"> 'm happy here in Seattle.</p>
+            <p>MOM: Good. How are your classes?</p>
+            <p>JUDY: <input type="text" class="fill-in-blank" id="ex3_q7"> 're good. Elena and I are in the same journalism class. Steve Beck is our teacher. Elena and I think <input type="text" class="fill-in-blank" id="ex3_q8"> 's a very good teacher. Are <input type="text" class="fill-in-blank" id="ex3_q9"> and Dad OK?</p>
+            <p>MOM: Yes, <input type="text" class="fill-in-blank" id="ex3_q10"> are. Thanks. <input type="text" class="fill-in-blank" id="ex3_q11"> 're very happy.</p>
+            <p class="mt-4"><span class="font-bold text-blue-600">C LISTEN AND CHECK</span> Listen to the conversation and check your answers in B.</p>
+        </div>
+
+        <!-- EXERCISE 4 THIS AND THESE -->
+        <div class="exercise-box">
+            <h4>EXERCISE 4 THIS AND THESE</h4>
+            <p><span class="font-bold text-blue-600">A PRONUNCIATION NOTE</span> Listen to each sentence. Which word do you hear? Check (✓) <span class="italic">This</span> or <span class="italic">These</span>.</p>
+            <table class="w-full mt-4">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>This</th>
+                        <th>These</th>
+                        <th></th>
+                        <th>This</th>
+                        <th>These</th>
+                        <th></th>
+                        <th>This</th>
+                        <th>These</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td><input type="checkbox" name="ex4_q1_this"></td>
+                        <td><input type="checkbox" name="ex4_q1_these"></td>
+                        <td>3.</td>
+                        <td><input type="checkbox" name="ex4_q3_this"></td>
+                        <td><input type="checkbox" name="ex4_q3_these"></td>
+                        <td>5.</td>
+                        <td><input type="checkbox" name="ex4_q5_this"></td>
+                        <td><input type="checkbox" name="ex4_q5_these"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><input type="checkbox" name="ex4_q2_this"></td>
+                        <td><input type="checkbox" name="ex4_q2_these"></td>
+                        <td>4.</td>
+                        <td><input type="checkbox" name="ex4_q4_this"></td>
+                        <td><input type="checkbox" name="ex4_q4_these"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="mt-4"><span class="font-bold text-blue-600">B</span> Work with a partner. For each item, say a sentence a or b. Your partner points to the correct sentence.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div>
+                    <p>1. a. This is my friend.</p>
+                    <p>2. a. These are my photos.</p>
+                    <p>3. a. These are our tickets.</p>
+                    <p>4. a. This is my sister.</p>
+                    <p>5. a. Is this your key?</p>
+                </div>
+                <div>
+                    <p>b. These are my friends.</p>
+                    <p>b. This is my photo.</p>
+                    <p>b. This is our ticket.</p>
+                    <p>b. These are my sisters.</p>
+                    <p>b. Are these your keys?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- EXERCISE 5 CONTRACTIONS -->
+        <div class="exercise-box">
+            <h4>EXERCISE 5 CONTRACTIONS</h4>
+            <p><span class="font-bold text-blue-600">GRAMMAR NOTE 4</span> Complete the sentences with subject pronouns and their contractions. Use capital letters if necessary.</p>
+            <p>1. Steve Beck is a teacher. <input type="text" class="fill-in-blank" id="ex5_q1" value="He's"> a teacher at the University of Washington.</p>
+            <p>2. Jessica Olson is his sister. <input type="text" class="fill-in-blank" id="ex5_q2"> a reporter on TV.</p>
+            <p>3. Jessica says, "I think <input type="text" class="fill-in-blank" id="ex5_q3"> good at my job."</p>
+            <p>4. She says, "My job is fun. <input type="text" class="fill-in-blank" id="ex5_q4"> a great job."</p>
+            <p>5. Jessica has three children. <input type="text" class="fill-in-blank" id="ex5_q5"> good at sports.</p>
+            <p>6. Jessica's children say, "We live in Redmond. <input type="text" class="fill-in-blank" id="ex5_q6"> happy here."</p>
+        </div>
+
+        <!-- EXERCISE 6 EDITING -->
+        <div class="exercise-box">
+            <h4>EXERCISE 6 EDITING</h4>
+            <p><span class="font-bold text-blue-600">GRAMMAR NOTES 1-4</span> There are five mistakes in the conversations. The first mistake is corrected. Correct four more.</p>
+            <p>1. A: <span class="line-through">These</span> <span class="correction-box">This</span> is Pedro.</p>
+            <p>   B: Hi, Pedro.</p>
+            <p>2. A: This are my brothers.</p>
+            <p>   B: Hello.</p>
+            <p>3. A: This Ahmed. He my brother.</p>
+            <p>   B: Hi, Ahmed.</p>
+            <p>4. A: Is this your sister Annie?</p>
+            <p>   B: Yes. He's 12 years old.</p>
+            <!-- For editing exercises, we'll provide input fields for corrections -->
+            <div class="mt-4">
+                <p>2. A: This <input type="text" class="underline-input" id="ex6_q2_corr"> my brothers.</p>
+                <p>3. A: This <input type="text" class="underline-input" id="ex6_q3_corr1"> Ahmed. <input type="text" class="underline-input" id="ex6_q3_corr2"> my brother.</p>
+                <p>4. B: Yes. <input type="text" class="underline-input" id="ex6_q4_corr"> 12 years old.</p>
+            </div>
+        </div>
+
+        <!-- STEP 4: COMMUNICATION PRACTICE -->
+        <h3 class="section-title">STEP 4: COMMUNICATION PRACTICE</h3>
+
+        <!-- EXERCISE 7 LISTENING -->
+        <div class="exercise-box">
+            <h4>EXERCISE 7 LISTENING</h4>
+            <p><span class="font-bold text-blue-600">A</span> Listen to the conversation. Write the names <span class="italic">Mr. Singer, Hai,</span> and <span class="italic">Yuan</span> under the correct people in the picture.</p>
+            <div class="image-container">
+                <img src="FOS-1-1/14.png" alt="Ba người đàn ông">
+            </div>
+            <div class="grid grid-cols-3 gap-4 mt-4 text-center">
+                <div>1. <input type="text" class="underline-input" id="ex7_q1_name"></div>
+                <div>2. <input type="text" class="underline-input" id="ex7_q2_name"></div>
+                <div>3. <input type="text" class="underline-input" id="ex7_q3_name"></div>
+            </div>
+
+            <p class="mt-4"><span class="font-bold text-blue-600">B</span> Listen again. Complete the sentences. Circle the correct answers.</p>
+            <div class="mt-4">
+                <p>1. This is a photo of <span class="circle-choice"><input type="radio" name="ex7_q1_choice" value="a_family"> a. a family</span> <span class="circle-choice"><input type="radio" name="ex7_q1_choice" value="an_english_class"> b. an English class</span></p>
+                <p>2. Mr. Singer is a <span class="circle-choice"><input type="radio" name="ex7_q2_choice" value="teacher"> a. teacher</span> <span class="circle-choice"><input type="radio" name="ex7_q2_choice" value="student"> b. student</span></p>
+                <p>3. Mr. Singer is from <span class="circle-choice"><input type="radio" name="ex7_q3_choice" value="united_states"> a. the United States</span> <span class="circle-choice"><input type="radio" name="ex7_q3_choice" value="canada"> b. Canada</span></p>
+                <p>4. Hai and Yuan are <span class="circle-choice"><input type="radio" name="ex7_q4_choice" value="friends"> a. friends</span> <span class="circle-choice"><input type="radio" name="ex7_q4_choice" value="brothers"> b. brothers</span></p>
+                <p>5. Hai and Yuan are from <span class="circle-choice"><input type="radio" name="ex7_q5_choice" value="canada"> a. Canada</span> <span class="circle-choice"><input type="radio" name="ex7_q5_choice" value="china"> b. China</span></p>
+            </div>
+            <p class="mt-4"><span class="font-bold text-blue-600">C</span> Work with a partner. Compare your answers in A and B.</p>
+        </div>
+
+        <!-- EXERCISE 8 INTRODUCE YOURSELF AND A CLASSMATE -->
+        <div class="exercise-box">
+            <h4>EXERCISE 8 INTRODUCE YOURSELF AND A CLASSMATE</h4>
+            <p><span class="font-bold text-blue-600">A CONVERSATION</span> Work with a partner. Practice the conversation with your names. Take turns.</p>
+            <p>A: I'm <input type="text" class="fill-in-blank" id="ex8_q1_a1">.</p>
+            <p>B: Nice to meet you, <input type="text" class="fill-in-blank" id="ex8_q1_b1">. I'm <input type="text" class="fill-in-blank" id="ex8_q1_b2">.</p>
+            <p>A: Nice to meet you, too.</p>
+
+            <p class="mt-4"><span class="font-bold text-blue-600">B</span> Walk around the classroom. Introduce yourself to four classmates.</p>
+            <p class="mt-4"><span class="font-bold text-blue-600">C</span> Introduce one classmate to the class.</p>
+            <p class="ml-4">EXAMPLE: A: This is Eun Young.</p>
+            <p class="ml-4">B: Nice to meet you, Eun Young. I'm...</p>
+        </div>
+
+        <!-- EXERCISE 9 TALK ABOUT PHOTOS -->
+        <div class="exercise-box">
+            <h4>EXERCISE 9 TALK ABOUT PHOTOS</h4>
+            <p><span class="font-bold text-blue-600">CONVERSATION</span> Bring photos of your family or friends to class. Then work in a group. Talk about the photos.</p>
+            <p class="ml-4">EXAMPLE: A: Is this your mother?</p>
+            <p class="ml-4">B: Yes. She's in Poland right now.</p>
+            <p class="ml-4">C: This is my boyfriend. He's in Mumbai.</p>
+            <p class="ml-4">D: These are my friends. Asha is on the right, and Nancy is on the left.</p>
+            <div class="image-container">
+                <img src="FOS-1-1/15.png" alt="Hình ảnh người phụ nữ đội mũ">
+            </div>
+            <div class="image-container">
+                <img src="FOS-1-1/16.png" alt="Hình ảnh hai người phụ nữ">
+            </div>
+        </div>
+
+        <!-- FROM GRAMMAR TO WRITING -->
+        <h3 class="section-title">FROM GRAMMAR TO WRITING</h3>
+        <div class="exercise-box">
+            <p><span class="font-bold text-blue-600">A BEFORE YOU WRITE</span> Look at the photo. Read the paragraph and the chart. Find a photo of a friend with other people. Complete the chart about the people in your photo. Then work with a partner. Tell your partner about the people in your photo.</p>
+            <div class="image-container">
+                <img src="FOS-1-1/17.png" alt="Hình ảnh Miryam và gia đình">
+            </div>
+            <p>This is my friend Miryam on the left. She's from Istanbul, Turkey. She's 21 years old. She's a student at Istanbul University. These are Miryam's parents. This is her mother. She is Sara. She's in the middle. This is her father on the right. He's Erdal. They're in the United States right now.</p>
+            <table class="w-full mt-4">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Miryam</th>
+                        <th>Your Friend's Photo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Friend's name</td>
+                        <td>Miryam</td>
+                        <td><input type="text" class="w-full p-1"></td>
+                    </tr>
+                    <tr>
+                        <td>City and country</td>
+                        <td>Istanbul, Turkey</td>
+                        <td><input type="text" class="w-full p-1"></td>
+                    </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td>21 years old</td>
+                        <td><input type="text" class="w-full p-1"></td>
+                    </tr>
+                    <tr>
+                        <td>Occupation</td>
+                        <td>student</td>
+                        <td><input type="text" class="w-full p-1"></td>
+                    </tr>
+                    <tr>
+                        <td>Other people in the photo</td>
+                        <td>Miryam's parents, Sara and Erdal</td>
+                        <td><input type="text" class="w-full p-1"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="mt-4"><span class="font-bold text-blue-600">B WRITE</span> Write a paragraph about a photo of a friend with other people. Use <span class="italic">this is, these are,</span> and subject pronouns. Use the paragraph in A and your chart to help you.</p>
+            <textarea class="w-full p-2 border rounded-md mt-2" rows="6" placeholder="Viết đoạn văn của bạn ở đây..."></textarea>
+
+            <p class="mt-4"><span class="font-bold text-blue-600">C CHECK YOUR WORK</span> Read your paragraph. Underline <span class="italic">this is</span> and <span class="italic">these are</span>, and circle subject pronouns. Use the Editing Checklist to check your work.</p>
+            <div class="exercise-box bg-gray-50 p-4 rounded-md">
+                <h4>Editing Checklist</h4>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="check_this_these" name="edit_check">
+                    <label for="check_this_these" class="ml-2">use <span class="italic">this is</span> and <span class="italic">these are</span></label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="check_subject_pronouns" name="edit_check">
+                    <label for="check_subject_pronouns" class="ml-2">use subject pronouns: <span class="italic">I, he, she, it, we, and they</span></label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="check_contractions" name="edit_check">
+                    <label for="check_contractions" class="ml-2">use contractions</label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="check_spelling" name="edit_check">
+                    <label for="check_spelling" class="ml-2">check your spelling</label>
+                </div>
+                <div class="form-group flex items-center">
+                    <input type="checkbox" id="check_capital_letter" name="edit_check">
+                    <label for="check_capital_letter" class="ml-2">use a capital letter at the beginning of each sentence</label>
+                </div>
+            </div>
+
+            <p class="mt-4"><span class="font-bold text-blue-600">D REVISE YOUR WORK</span> Read your paragraph again. Can you improve your writing?</p>
+            <p>Make changes if necessary.</p>
+        </div>
+
+        <!-- UNIT 1 REVIEW -->
+        <h3 class="section-title">UNIT 1 REVIEW</h3>
+        <div class="exercise-box">
+            <h4>Test yourself on the grammar of the unit.</h4>
+
+            <p class="font-bold text-blue-600">A Complete the sentences with <span class="italic">This is</span> or <span class="italic">These are</span>.</p>
+            <div class="mt-4">
+                <p>1. <input type="text" class="fill-in-blank" id="review_a_q1"> my daughter.</p>
+                <p>2. <input type="text" class="fill-in-blank" id="review_a_q2"> my sons.</p>
+                <p>3. <input type="text" class="fill-in-blank" id="review_a_q3"> my classmate.</p>
+                <p>4. <input type="text" class="fill-in-blank" id="review_a_q4"> my apartment.</p>
+                <p>5. <input type="text" class="fill-in-blank" id="review_a_q5"> good photos.</p>
+            </div>
+
+            <p class="font-bold text-blue-600 mt-6">B Complete the sentences with <span class="italic">He, She, It, We,</span> or <span class="italic">They</span>.</p>
+            <div class="mt-4">
+                <p>1. My daughter is a student. <input type="text" class="fill-in-blank" id="review_b_q1"> 's smart.</p>
+                <p>2. My son is in Seattle. <input type="text" class="fill-in-blank" id="review_b_q2"> 's a reporter.</p>
+                <p>3. My apartment is small. <input type="text" class="fill-in-blank" id="review_b_q3"> 's near the university.</p>
+                <p>4. My photos are in my book. <input type="text" class="fill-in-blank" id="review_b_q4"> 're family photos.</p>
+                <p>5. My father and I are in Seattle. <input type="text" class="fill-in-blank" id="review_b_q5"> 're happy.</p>
+            </div>
+
+            <p class="font-bold text-blue-600 mt-6">C Correct the sentences. There are five mistakes.</p>
+            <div class="mt-4">
+                <p>1. This are my parents.</p>
+                <p>   Correction: This <input type="text" class="underline-input" id="review_c_q1_corr"> my parents.</p>
+                <p>2. This your cat?</p>
+                <p>   Correction: <input type="text" class="underline-input" id="review_c_q2_corr1"> your cat?</p>
+                <p>3. This is Pete. Is my brother.</p>
+                <p>   Correction: This is Pete. <input type="text" class="underline-input" id="review_c_q3_corr"> my brother.</p>
+                <p>4. Is these your photos?</p>
+                <p>   Correction: <input type="text" class="underline-input" id="review_c_q4_corr"> your photos?</p>
+                <p>5. Im happy in this class.</p>
+                <p>   Correction: <input type="text" class="underline-input" id="review_c_q5_corr1"> happy in this class.</p>
+            </div>
+        </div>
+
+        <div class="answer-key-section text-center">
+            <button onclick="toggleAnswerKey()">Show/Hide Answers</button>
+            <div id="answerKeyContent" class="answer-key-content">
+                <h4 class="mt-4">Answer Key</h4>
+                <div class="image-container">
+                    <img src="FOS-1-1/19.png" alt="Answer Key for Unit 1 Review">
+                </div>
+                <p class="text-sm text-gray-600 mt-2">Now check your answers on page 379 (or refer to the image above).</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Custom Dialog for alerts -->
+    <div id="customAlertDialog" class="dialog-overlay">
+        <div class="dialog-content">
+            <p id="alertDialogMessage"></p>
+            <button onclick="hideAlertDialog()">OK</button>
+        </div>
+    </div>
+
+    <script>
+        // Function to show custom alert dialog
+        function showAlertDialog(message) {
+            document.getElementById('alertDialogMessage').innerText = message;
+            document.getElementById('customAlertDialog').classList.add('show');
+        }
+
+        // Function to hide custom alert dialog
+        function hideAlertDialog() {
+            document.getElementById('customAlertDialog').classList.remove('show');
+        }
+
+        // Function to toggle answer key visibility
+        function toggleAnswerKey() {
+            const answerKey = document.getElementById('answerKeyContent');
+            answerKey.classList.toggle('show');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Handle True/False checkboxes (ensure only one is checked per row)
+            document.querySelectorAll('input[type="checkbox"][name^="steve_q"]').forEach(checkbox => {
+                checkbox.addEventListener('change', (event) => {
+                    const name = event.target.name; // e.g., steve_q1_true
+                    const parts = name.split('_');
+                    const questionNum = parts[1];
+                    const type = parts[2]; // 'true' or 'false'
+
+                    if (event.target.checked) {
+                        // Uncheck the other checkbox in the same row
+                        const otherCheckboxType = (type === 'true') ? 'false' : 'true';
+                        const otherCheckbox = document.querySelector(`input[name="steve_q${questionNum}_${otherCheckboxType}"]`);
+                        if (otherCheckbox && otherCheckbox !== event.target) {
+                            otherCheckbox.checked = false;
+                        }
+                    }
+                });
+            });
+
+            // Handle radio buttons for "circle the correct answer" exercises
+            document.querySelectorAll('input[type="radio"][name^="ex"]').forEach(radio => {
+                radio.addEventListener('change', (event) => {
+                    console.log(`Exercise ${event.target.name}: Selected ${event.target.value}`);
+                    // You can add logic here to check answers or store selections
+                });
+            });
+
+            // Handle fill-in-the-blank inputs
+            document.querySelectorAll('.fill-in-blank').forEach(input => {
+                input.addEventListener('input', (event) => {
+                    console.log(`Fill-in-blank ${event.target.id}: ${event.target.value}`);
+                    // You can add logic here for validation or saving input
+                });
+            });
+
+            // Handle editing exercise inputs
+            document.querySelectorAll('.underline-input').forEach(input => {
+                input.addEventListener('input', (event) => {
+                    console.log(`Correction input ${event.target.id}: ${event.target.value}`);
+                    // Logic for corrections
+                });
+            });
+
+            // Example for EXERCISE 1 A: Log checkbox changes for "My family is small"
+            const q1Checkbox = document.getElementById('q1');
+            if (q1Checkbox) {
+                q1Checkbox.addEventListener('change', (event) => {
+                    console.log('My family is small checkbox changed:', event.target.checked);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
