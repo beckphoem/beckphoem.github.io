@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sách Tiếng Anh - Unit 4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .unit-header {
+            background-color: #6a0dad; /* Màu tím đậm */
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .unit-number {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+        .unit-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-left: 20px;
+        }
+        .outcomes ul {
+            list-style: disc;
+            margin-left: 20px;
+            font-size: 0.9em;
+        }
+        .step-header {
+            background-color: #4CAF50; /* Màu xanh lá cây */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .image-item {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        .image-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+        .image-caption {
+            padding: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .exercise {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fbfbfb;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+        .exercise-title {
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 1.1rem;
+        }
+        .fill-in-blank input[type="text"] {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px 10px;
+            min-width: 100px;
+            margin: 0 5px;
+        }
+        .underline-text {
+            border-bottom: 2px solid #007bff; /* Màu xanh dương */
+            padding-bottom: 2px;
+            cursor: pointer; /* Để gợi ý có thể tương tác */
+        }
+        .circle-text {
+            border: 2px solid #ffc107; /* Màu vàng */
+            border-radius: 50%;
+            padding: 2px 8px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .read-section {
+            background-color: #e6f7ff;
+            padding: 20px;
+            border-left: 5px solid #007bff;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        .read-section h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+        .read-section p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .read-section .speaker {
+            font-weight: bold;
+            color: #555;
+        }
+        .true-false-exercise .question {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .true-false-exercise .checkbox-group {
+            display: flex;
+            margin-left: 20px;
+        }
+        .true-false-exercise .checkbox-group label {
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .true-false-exercise .checkbox-group input[type="checkbox"] {
+            margin-right: 5px;
+            width: 18px;
+            height: 18px;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px 15px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        .grammar-notes-section {
+            margin-top: 30px;
+        }
+        .grammar-note-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #6a0dad;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .grammar-note-item strong {
+            color: #6a0dad;
+            font-size: 1.1em;
+        }
+        .pronunciation-note {
+            background-color: #fff3e0;
+            padding: 20px;
+            border-left: 5px solid #ff9800;
+            border-radius: 8px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .pronunciation-note h4 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ff9800;
+            margin-bottom: 15px;
+        }
+        .pronunciation-note .example-pair {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .pronunciation-note .example-pair span {
+            flex: 1;
+            padding-right: 10px;
+        }
+        .reference-notes {
+            background-color: #e0f2f7;
+            padding: 15px;
+            border-left: 4px solid #00bcd4;
+            border-radius: 5px;
+            margin-top: 25px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .exercise-item {
+            margin-bottom: 15px;
+        }
+        .exercise-item p {
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+        }
+        .exercise-item input[type="text"] {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 4px 8px;
+            min-width: 80px;
+            flex-grow: 1;
+        }
+        .match-exercise .match-pair {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .match-exercise .match-pair .left-col {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+        .match-exercise .match-pair .left-col input {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .match-exercise .match-pair .right-col {
+            flex: 1;
+            text-align: right;
+        }
+        .underline-exercise span {
+            cursor: pointer;
+            padding: 2px 0;
+            transition: background-color 0.2s;
+        }
+        .underline-exercise span.selected-underline {
+            background-color: yellow;
+            border-bottom: 2px solid blue;
+        }
+        .circle-exercise span {
+            cursor: pointer;
+            padding: 2px 5px;
+            border-radius: 15px;
+            transition: background-color 0.2s, border 0.2s;
+        }
+        .circle-exercise span.selected-circle {
+            background-color: #ffe0b2;
+            border: 2px solid orange;
+        }
+        .fill-in-the-blank-input {
+            border: none;
+            border-bottom: 1px solid #333;
+            outline: none;
+            padding: 2px 5px;
+            width: 120px; /* Điều chỉnh độ rộng của ô input */
+            text-align: center;
+        }
+        .choose-word-exercise .word-choice {
+            display: inline-block;
+            margin: 0 5px;
+            padding: 2px 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .choose-word-exercise .word-choice.selected-choice {
+            background-color: #d4edda;
+            border-color: #28a745;
+        }
+        .underline-select-word {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .underline-select-word.selected {
+            background-color: yellow;
+        }
+        .circle-select-word {
+            border: 1px solid transparent;
+            border-radius: 15px;
+            padding: 2px 5px;
+            cursor: pointer;
+        }
+        .circle-select-word.selected {
+            border-color: blue;
+            background-color: lightblue;
+        }
+        .image-exercise-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .image-exercise-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .editing-checklist ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .editing-checklist li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .editing-checklist input[type="checkbox"] {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+        }
+        .exercise-choice-group {
+            display: flex;
+            gap: 15px;
+            margin-left: 20px;
+        }
+        .exercise-choice-group label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .exercise-choice-group input[type="radio"] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Unit Header -->
+        <div class="unit-header">
+            <div class="flex items-center">
+                <div class="unit-number">4</div>
+                <div class="unit-title">That is / Those are;<br>Possessive Adjectives<br>FUN PLACES</div>
+            </div>
+            <div class="outcomes text-sm">
+                <p class="font-bold mb-1">OUTCOMES</p>
+                <ul>
+                    <li>Use *That is / Those are* and *that / those* to talk about places and things away from you</li>
+                    <li>Use possessive adjectives</li>
+                    <li>Identify true and false sentences about a reading</li>
+                    <li>Complete sentences about a conversation</li>
+                    <li>Talk about possessions</li>
+                    <li>Talk and write about places</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 1: GRAMMAR IN CONTEXT -->
+        <div class="step-header">STEP 1 GRAMMAR IN CONTEXT</div>
+
+        <div class="section-title">BEFORE YOU READ</div>
+        <p class="mb-4"><span class="font-bold text-red-600">A VOCABULARY</span> Study the words. Then work with a partner. Practice the conversation.</p>
+
+        <!-- Image Grid for Vocabulary -->
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="FOG-1-4/1.png" alt="A university">
+                <div class="image-caption">a university</div>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-4/2.png" alt="A sports stadium">
+                <div class="image-caption">a sports stadium</div>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-4/3.png" alt="A museum">
+                <div class="image-caption">a museum</div>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-4/4.png" alt="A zoo">
+                <div class="image-caption">a zoo</div>
+            </div>
+        </div>
+
+        <!-- Conversation Section -->
+        <div class="section-title">Conversation</div>
+        <div class="mb-4">
+            <p><span class="font-bold">A:</span> Is that a museum?</p>
+            <p><span class="font-bold">B:</span> Yes, it is.</p>
+            <p><span class="font-bold">A:</span> Is there a museum in your city?</p>
+            <p><span class="font-bold">B:</span> Yes. It's the Museum of Art. It's big, and it's famous.</p>
+        </div>
+
+        <!-- Fill-in-the-blank Exercise -->
+        <div class="exercise fill-in-blank">
+            <p><span class="font-bold text-red-600">B</span> Look at the words and photos in A again. Talk about three places in your city.</p>
+            <p><span class="font-bold">A:</span> Is that <input type="text" class="fill-in-the-blank-input" placeholder="điền từ">?</p>
+            <p><span class="font-bold">B:</span> Yes, it is.</p>
+            <p><span class="font-bold">A:</span> Is there <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> in your city?</p>
+            <p><span class="font-bold">B:</span> Yes. It's <input type="text" class="fill-in-the-blank-input" placeholder="điền từ">.</p>
+        </div>
+
+        <!-- READ Section -->
+        <div class="read-section">
+            <h3 class="flex items-center"><span class="font-bold text-red-600 mr-2">READ</span> Read this conversation.</h3>
+            <h2 class="text-2xl font-bold mb-4">Seattle From the Space Needle</h2>
+            <p><span class="speaker">STEVE:</span> Well, here we are. <span class="underline-select-word" data-word="That's">That's</span> the Space Needle. How about a photo?</p>
+            <p><span class="speaker">AMY:</span> Sure. I have <span class="underline-select-word" data-word="my">my</span> camera.</p>
+            <p><span class="speaker">STEVE:</span> Come on. Let's go up.</p>
+            <p class="text-center italic text-sm mt-4">(And Amy and Steve go to the top of the Space Needle.)</p>
+
+            <div class="image-grid mt-6">
+                <div class="image-item">
+                    <img src="FOG-1-4/5.png" alt="CenturyLink Field and Safeco Field">
+                    <div class="image-caption">CenturyLink Field and Safeco Field</div>
+                </div>
+                <div class="image-item">
+                    <img src="FOG-1-4/6.png" alt="University of Washington">
+                    <div class="image-caption">University of Washington</div>
+                </div>
+                <div class="image-item">
+                    <img src="FOG-1-4/7.png" alt="Experience Music Project">
+                    <div class="image-caption">Experience Music Project</div>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <p><span class="speaker">AMY:</span> Wow! Look at the two buildings over there.</p>
+                <p><span class="speaker">STEVE:</span> <span class="underline-select-word" data-word="They're">They're</span> stadiums.</p>
+                <p><span class="speaker">AMY:</span> They're big! Are <span class="underline-select-word" data-word="those">those</span> people next to them? They look so small.</p>
+                <p><span class="speaker">STEVE:</span> Yes. Now look over there. <span class="underline-select-word" data-word="That's">That's</span> the University of Washington.</p>
+                <p><span class="speaker">AMY:</span> <span class="underline-select-word" data-word="That's">That's</span> <span class="underline-select-word" data-word="your">your</span> university, right?</p>
+                <p><span class="speaker">STEVE:</span> Yes, it is.</p>
+                <p><span class="speaker">AMY:</span> Is <span class="underline-select-word" data-word="that">that</span> the zoo near it?</p>
+                <p><span class="speaker">STEVE:</span> Hmm... I don't know.... OK, now look down. Look at that building with the colors.</p>
+                <p><span class="speaker">AMY:</span> The colors are beautiful. <span class="underline-select-word" data-word="Its">Its</span> shape<sup>1</sup> is really interesting.</p>
+                <p><span class="speaker">STEVE:</span> <span class="underline-select-word" data-word="That's">That's</span> the EMP<sup>2</sup> It's a music museum. It belongs to Paul Allen.<sup>3</sup></p>
+                <p class="ml-4">It's <span class="underline-select-word" data-word="his">his</span> museum.</p>
+                <p><span class="speaker">AMY:</span> Let's go see it.</p>
+                <p><span class="speaker">STEVE:</span> <span class="underline-select-word" data-word="That's">That's</span> a great idea.</p>
+            </div>
+
+            <div class="text-sm mt-6 border-t pt-4">
+                <p><sup>1</sup> shape: the form of something—round, square, etc.</p>
+                <p><sup>2</sup> EMP: The Experience Music Project, a music museum in Seattle</p>
+                <p><sup>3</sup> Paul Allen: a businessman, musician, and co-founder of Microsoft</p>
+            </div>
+        </div>
+
+        <!-- AFTER YOU READ Section -->
+        <div class="section-title">AFTER YOU READ</div>
+        <p class="mb-4"><span class="font-bold text-red-600">A COMPREHENSION</span> Look at the conversation again. For each statement, check ($\checkmark$) True or False.</p>
+
+        <!-- True/False Exercise -->
+        <div class="exercise true-false-exercise">
+            <div class="flex justify-end mb-2 font-bold">
+                <span class="mr-4">True</span>
+                <span>False</span>
+            </div>
+            <div class="question">
+                <p class="flex-grow">1. Amy and Steve are in Seattle.</p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="q1_true"> True</label>
+                    <label><input type="checkbox" name="q1_false"> False</label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="flex-grow">2. The camera is Amy's camera.</p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="q2_true"> True</label>
+                    <label><input type="checkbox" name="q2_false"> False</label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="flex-grow">3. The stadiums are small.</p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="q3_true"> True</label>
+                    <label><input type="checkbox" name="q3_false"> False</label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="flex-grow">4. The University of Washington is Amy's university.</p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="q4_true"> True</label>
+                    <label><input type="checkbox" name="q4_false"> False</label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="flex-grow">5. The building with many colors is in the zoo.</p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="q5_true"> True</label>
+                    <label><input type="checkbox" name="q5_false"> False</label>
+                </div>
+            </div>
+            <div class="question">
+                <p class="flex-grow">6. The EMP is a museum for music.</p>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="q6_true"> True</label>
+                    <label><input type="checkbox" name="q6_false"> False</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Who Am I? Exercise -->
+        <div class="exercise">
+            <p class="mb-4"><span class="font-bold text-red-600">B</span> Work with a partner. Read the text. Complete the last sentence. Check your answer on page 365.</p>
+            <div class="bg-gray-100 p-4 rounded-md border border-gray-200">
+                <h4 class="font-bold text-lg mb-2">Who Am I?</h4>
+                <p>I am famous in Seattle and in the world. I am very tall—about 600 feet, or 200 meters. My top floor is a good restaurant. The first letters of my name are S and N. My name is <input type="text" class="fill-in-the-blank-input" placeholder="điền từ">.</p>
+            </div>
+            <p class="text-sm mt-4 text-blue-700">Go to MyEnglishLab for more grammar in context practice.</p>
+        </div>
+
+        <!-- Step 2: GRAMMAR PRESENTATION -->
+        <div class="step-header">STEP 2 GRAMMAR PRESENTATION</div>
+
+        <!-- THAT IS / THOSE ARE Table -->
+        <h3 class="section-title">THAT IS / THOSE ARE</h3>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Singular</th>
+                    <th>Plural</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>That is the stadium.</td>
+                    <td>Those are the stadiums.</td>
+                </tr>
+                <tr>
+                    <td>That's his car.</td>
+                    <td>Those are his cars.</td>
+                </tr>
+                <tr>
+                    <td>Is that your key?</td>
+                    <td>Are those your keys?</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- POSSESSIVE ADJECTIVES Table -->
+        <h3 class="section-title">POSSESSIVE ADJECTIVES</h3>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Subject Pronouns</th>
+                    <th>Possessive Adjectives</th>
+                    <th>Example Sentences</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>I</td><td>my</td><td>I am Amy. My name is Amy.</td></tr>
+                <tr><td>you</td><td>your</td><td>You are Judy. Your name is Judy.</td></tr>
+                <tr><td>he</td><td>his</td><td>He is Steve. His name is Steve.</td></tr>
+                <tr><td>she</td><td>her</td><td>She is Jenny. Her name is Jenny.</td></tr>
+                <tr><td>it</td><td>its</td><td>It is the EMP. Its shape is unusual.</td></tr>
+                <tr><td>we</td><td>our</td><td>We have one daughter. Our daughter is Judy.</td></tr>
+                <tr><td>you</td><td>your</td><td>You are Steve and Mark, right? Your city is very beautiful.</td></tr>
+                <tr><td>they</td><td>their</td><td>They are our children. Their names are Judy and Ken.</td></tr>
+            </tbody>
+        </table>
+
+        <!-- GRAMMAR NOTES Section -->
+        <div class="grammar-notes-section">
+            <h2 class="step-header">GRAMMAR NOTES</h2>
+            <div class="grammar-note-item">
+                <strong>1 That is</strong>
+                <p>Use <strong>that is</strong> to talk about one person or thing away from you.</p>
+                <p>We often contract <strong>that is</strong> to <strong>that's</strong> in speaking and informal writing.</p>
+                <div class="bg-gray-100 p-3 rounded-md mt-3">
+                    <p>That is the University of Washington.</p>
+                    <p>That's the Space Needle.</p>
+                </div>
+                <p class="text-sm mt-3"><span class="font-bold text-blue-700">USAGE NOTE</span> We use <strong>that</strong> when we point at things or people. We also use <strong>that's</strong> with a good idea or a great idea.</p>
+                <div class="bg-gray-100 p-3 rounded-md mt-3">
+                    <p><span class="font-bold">A:</span> How about a picture?</p>
+                    <p><span class="font-bold">B:</span> That's a great idea.</p>
+                </div>
+            </div>
+
+            <div class="grammar-note-item">
+                <strong>2 Those are</strong>
+                <p>Use <strong>those are</strong> to talk about two or more people or things away from you.</p>
+                <div class="bg-gray-100 p-3 rounded-md mt-3">
+                    <p>Those are our stadiums.</p>
+                    <p>Those are my pets.</p>
+                </div>
+            </div>
+
+            <div class="grammar-note-item">
+                <strong>3 Is that and Are those</strong>
+                <p>Use <strong>Is that</strong> and <strong>Are those</strong> to ask questions. The answers usually have a subject pronoun.</p>
+                <div class="bg-gray-100 p-3 rounded-md mt-3">
+                    <p><span class="font-bold">A:</span> Is that your dictionary?</p>
+                    <p><span class="font-bold">B:</span> Yes, it is.</p>
+                    <p><span class="font-bold">A:</span> Are those your keys?</p>
+                    <p><span class="font-bold">B:</span> No, they aren't.</p>
+                </div>
+            </div>
+
+            <div class="grammar-note-item">
+                <strong>4 Possessive Adjectives</strong>
+                <p>The possessive adjectives are <strong>my, your, his, her, its, our,</strong> and <strong>their.</strong> They tell who someone or something belongs to.</p>
+                <div class="bg-gray-100 p-3 rounded-md mt-3">
+                    <p>That's my daughter.</p>
+                    <p>Those are her friends.</p>
+                    <p>The car belongs to Steve. It's his car.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRONUNCIATION NOTE Section -->
+        <div class="pronunciation-note">
+            <h4 class="flex items-center"><span class="font-bold text-orange-600 mr-2">PRONUNCIATION NOTE</span> Same Pronunciation, Different Meaning</h4>
+            <div class="example-pair">
+                <span>Some words sound the same, but they are different in meaning and spelling.</span>
+            </div>
+            <div class="example-pair">
+                <span><strong>your</strong> = possessive adjective</span>
+                <span>Your name is Maria.</span>
+            </div>
+            <div class="example-pair">
+                <span><strong>you're</strong> = you are</span>
+                <span>You're a student.</span>
+            </div>
+            <div class="example-pair">
+                <span><strong>its</strong> = possessive adjective</span>
+                <span>Its name is the Space Needle.</span>
+            </div>
+            <div class="example-pair">
+                <span><strong>it's</strong> = it is</span>
+                <span>It's 600 feet high.</span>
+            </div>
+            <div class="example-pair">
+                <span><strong>their</strong> = possessive adjective</span>
+                <span>Their children are happy.</span>
+            </div>
+            <div class="example-pair">
+                <span><strong>they're</strong> = they are</span>
+                <span>They're happy.</span>
+            </div>
+        </div>
+
+        <!-- REFERENCE NOTES Section -->
+        <div class="reference-notes">
+            <p class="font-bold">REFERENCE NOTES</p>
+            <p>For more information about <strong>this, that, these,</strong> and <strong>those,</strong> see Unit 1 on page 8 and Unit 18 on page 201.</p>
+            <p>For definitions of grammar terms, see the Glossary on page 375.</p>
+        </div>
+
+        <!-- Step 3: FOCUSED PRACTICE -->
+        <div class="step-header">STEP 3 FOCUSED PRACTICE</div>
+
+        <!-- EXERCISE 1 DISCOVER THE GRAMMAR -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</h3>
+            <p class="mb-4">GRAMMAR NOTES 1–4 Read the questions and answers. Underline the possessive adjectives. Then match the questions and answers.</p>
+
+            <div class="match-exercise">
+                <div class="match-pair">
+                    <div class="left-col">
+                        <input type="text" class="match-input" data-correct="d">
+                        <p>1. Are those <span class="underline-select-word" data-word="your">your</span> books?</p>
+                    </div>
+                    <div class="right-col">
+                        <p>a. Yes. <span class="underline-select-word" data-word="They're">They're</span> for sports.</p>
+                    </div>
+                </div>
+                <div class="match-pair">
+                    <div class="left-col">
+                        <input type="text" class="match-input" data-correct="b">
+                        <p>2. Is that <span class="underline-select-word" data-word="his">his</span> camera?</p>
+                    </div>
+                    <div class="right-col">
+                        <p>b. No. <span class="underline-select-word" data-word="She's">She's</span> <span class="underline-select-word" data-word="my">my</span> friend.</p>
+                    </div>
+                </div>
+                <div class="match-pair">
+                    <div class="left-col">
+                        <input type="text" class="match-input" data-correct="c">
+                        <p>3. Are those <span class="underline-select-word" data-word="your">your</span> children?</p>
+                    </div>
+                    <div class="right-col">
+                        <p>c. Yes. <span class="underline-select-word" data-word="Its">Its</span> shape is interesting, right?</p>
+                    </div>
+                </div>
+                <div class="match-pair">
+                    <div class="left-col">
+                        <input type="text" class="match-input" data-correct="e">
+                        <p>4. Is that the EMP?</p>
+                    </div>
+                    <div class="right-col">
+                        <p>d. No, <span class="underline-select-word" data-word="they're">they're</span> <span class="underline-select-word" data-word="my">my</span> books.</p>
+                    </div>
+                </div>
+                <div class="match-pair">
+                    <div class="left-col">
+                        <input type="text" class="match-input" data-correct="g">
+                        <p>5. Is that <span class="underline-select-word" data-word="your">your</span> university?</p>
+                    </div>
+                    <div class="right-col">
+                        <p>e. No, <span class="underline-select-word" data-word="it's">it's</span> <span class="underline-select-word" data-word="my">my</span> camera.</p>
+                    </div>
+                </div>
+                <div class="match-pair">
+                    <div class="left-col">
+                        <input type="text" class="match-input" data-correct="a">
+                        <p>6. Are those stadiums?</p>
+                    </div>
+                    <div class="right-col">
+                        <p>f. No, I'm at Columbia University.</p>
+                    </div>
+                </div>
+                <div class="match-pair">
+                    <div class="left-col">
+                        <input type="text" class="match-input" data-correct="f">
+                        <p>7. Is that <span class="underline-select-word" data-word="your">your</span> sister?</p>
+                    </div>
+                    <div class="right-col">
+                        <p>g. Yes. <span class="underline-select-word" data-word="Their">Their</span> names are Judy and Ken.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EXERCISE 2 THAT AND THOSE -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 2 THAT AND THOSE</h3>
+            <p class="mb-4">GRAMMAR NOTES 1–3 Complete the sentences with <strong>that</strong> or <strong>those.</strong></p>
+            <div class="flex items-center mb-2">
+                <p>1. <span class="choose-word-exercise">
+                    <span class="word-choice" data-word="That">That</span>
+                    <span class="word-choice" data-word="Those">Those</span>
+                </span> 's a big movie theater.</p>
+            </div>
+            <div class="flex items-center mb-2">
+                <p>2. <span class="choose-word-exercise">
+                    <span class="word-choice" data-word="That">That</span>
+                    <span class="word-choice" data-word="Those">Those</span>
+                </span> 's a good museum.</p>
+            </div>
+            <div class="flex items-center mb-2">
+                <p>3. Are <span class="choose-word-exercise">
+                    <span class="word-choice" data-word="that">that</span>
+                    <span class="word-choice" data-word="those">those</span>
+                </span> your children?</p>
+            </div>
+            <div class="flex items-center mb-2">
+                <p>4. Is <span class="choose-word-exercise">
+                    <span class="word-choice" data-word="that">that</span>
+                    <span class="word-choice" data-word="those">those</span>
+                </span> your university?</p>
+            </div>
+            <div class="flex items-center mb-2">
+                <p>5. <span class="choose-word-exercise">
+                    <span class="word-choice" data-word="That">That</span>
+                    <span class="word-choice" data-word="Those">Those</span>
+                </span> are my friends.</p>
+            </div>
+            <div class="flex items-center mb-2">
+                <p>6. Is <span class="choose-word-exercise">
+                    <span class="word-choice" data-word="that">that</span>
+                    <span class="word-choice" data-word="those">those</span>
+                </span> the zoo?</p>
+            </div>
+            <div class="image-exercise-container">
+                <img src="FOG-1-4/8.png" alt="Movie Theater">
+            </div>
+        </div>
+
+        <!-- EXERCISE 3 POSSESSIVE ADJECTIVES -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 3 POSSESSIVE ADJECTIVES</h3>
+            <p class="mb-4">GRAMMAR NOTE 4 Look at the pictures. Complete the sentences. Circle the correct answers.</p>
+
+            <div class="exercise-item flex items-center mb-4">
+                <img src="FOG-1-4/9.png" alt="Kip and Pam" class="w-16 h-16 mr-4 rounded-full object-cover">
+                <p>1. Kip and Pam are <span class="circle-select-word" data-word="my">my</span> / <span class="circle-select-word" data-word="our">our</span> pets.</p>
+            </div>
+            <div class="exercise-item flex items-center mb-4">
+                <img src="FOG-1-4/10.png" alt="Jeremy, Annie, Ben" class="w-16 h-16 mr-4 rounded-full object-cover">
+                <p>2. Jeremy, Annie, and Ben are <span class="circle-select-word" data-word="my">my</span> / <span class="circle-select-word" data-word="our">our</span> children.</p>
+            </div>
+            <div class="exercise-item flex items-center mb-4">
+                <img src="FOG-1-4/11.png" alt="Annie" class="w-16 h-16 mr-4 rounded-full object-cover">
+                <p>3. Annie has <span class="circle-select-word" data-word="her">her</span> / <span class="circle-select-word" data-word="their">their</span> books.</p>
+            </div>
+            <div class="exercise-item flex items-center mb-4">
+                <img src="FOG-1-4/12.png" alt="Ben" class="w-16 h-16 mr-4 rounded-full object-cover">
+                <p>4. Ben loves <span class="circle-select-word" data-word="her">her</span> / <span class="circle-select-word" data-word="his">his</span> school.</p>
+            </div>
+            <div class="exercise-item flex items-center mb-4">
+                <img src="FOG-1-4/13.png" alt="Ken's car" class="w-16 h-16 mr-4 rounded-full object-cover">
+                <p>5. Ken's car has <span class="circle-select-word" data-word="its">its</span> / <span class="circle-select-word" data-word="her">her</span> problems, but he likes it.</p>
+            </div>
+            <div class="exercise-item flex items-center mb-4">
+                <img src="FOG-1-4/14.png" alt="Judy and Ken Johnson" class="w-16 h-16 mr-4 rounded-full object-cover">
+                <p>6. Judy and Ken Johnson like <span class="circle-select-word" data-word="their">their</span> / <span class="circle-select-word" data-word="your">your</span> universities very much.</p>
+            </div>
+        </div>
+
+        <!-- EXERCISE 4 MORE POSSESSIVE ADJECTIVES -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 4 MORE POSSESSIVE ADJECTIVES</h3>
+            <p class="mb-4">GRAMMAR NOTE 4 Judy is showing photos of her family. Complete the passage with <strong>my, his, her, our,</strong> or <strong>their.</strong></p>
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="flex-1">
+                    <p>That's me and <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> brother, Ken, with</p>
+                    <p><input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> parents in front of <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> house.</p>
+                    <p>We love <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> house. It's close to the sports</p>
+                    <p>stadium. <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> father loves sports. The stadium</p>
+                    <p>is <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> favorite place! <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> mother</p>
+                    <p>doesn't like sports, so the stadium isn't <input type="text" class="fill-in-the-blank-input" placeholder="điền từ">.</p>
+                    <p>favorite place! Oh, and Ken is a student. <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"></p>
+                    <p>university is near the house, too.</p>
+                </div>
+                <div class="flex-1 image-exercise-container">
+                    <img src="FOG-1-4/15.png" alt="Family watching TV">
+                </div>
+            </div>
+        </div>
+
+        <!-- EXERCISE 5 SAME PRONUNCIATION, DIFFERENT MEANING -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 5 SAME PRONUNCIATION, DIFFERENT MEANING</h3>
+            <p class="mb-4">PRONUNCIATION NOTE Listen to each sentence. Which word do you hear? Circle the correct answer.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-center">
+                    <p class="mr-4">1.</p>
+                    <div class="exercise-choice-group">
+                        <label><input type="radio" name="ex5_q1" value="a"> a. Their</label>
+                        <label><input type="radio" name="ex5_q1" value="b"> b. They're</label>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <p class="mr-4">4.</p>
+                    <div class="exercise-choice-group">
+                        <label><input type="radio" name="ex5_q4" value="a"> a. your</label>
+                        <label><input type="radio" name="ex5_q4" value="b"> b. you're</label>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <p class="mr-4">2.</p>
+                    <div class="exercise-choice-group">
+                        <label><input type="radio" name="ex5_q2" value="a"> a. Their</label>
+                        <label><input type="radio" name="ex5_q2" value="b"> b. They're</label>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <p class="mr-4">5.</p>
+                    <div class="exercise-choice-group">
+                        <label><input type="radio" name="ex5_q5" value="a"> a. Its</label>
+                        <label><input type="radio" name="ex5_q5" value="b"> b. It's</label>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <p class="mr-4">3.</p>
+                    <div class="exercise-choice-group">
+                        <label><input type="radio" name="ex5_q3" value="a"> a. your</label>
+                        <label><input type="radio" name="ex5_q3" value="b"> b. you're</label>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <p class="mr-4">6.</p>
+                    <div class="exercise-choice-group">
+                        <label><input type="radio" name="ex5_q6" value="a"> a. its</label>
+                        <label><input type="radio" name="ex5_q6" value="b"> b. it's</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EXERCISE 6 EDITING -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 6 EDITING</h3>
+            <p class="mb-4">GRAMMAR NOTES 1–4 There are six mistakes in the conversations. The first mistake is corrected. Correct five more.</p>
+            <div class="mb-4">
+                <p>1. <span class="font-bold">A:</span> Are <s class="text-red-500">that</s> <span class="underline-select-word" data-word="those">those</span> your keys?</p>
+                <p class="ml-4"><span class="font-bold">B:</span> No, they her keys.</p>
+            </div>
+            <div class="mb-4">
+                <p>2. <span class="font-bold">A:</span> Those is my university.</p>
+                <p class="ml-4"><span class="font-bold">B:</span> It's really big, right?</p>
+            </div>
+            <div class="mb-4">
+                <p>3. <span class="font-bold">A:</span> Are that your building?</p>
+                <p class="ml-4"><span class="font-bold">B:</span> No, it's not.</p>
+            </div>
+            <div class="mb-4">
+                <p>4. <span class="font-bold">A:</span> Those theater is beautiful.</p>
+                <p class="ml-4"><span class="font-bold">B:</span> Yes. It name is the Star Theater.</p>
+            </div>
+        </div>
+
+        <!-- Step 4: COMMUNICATION PRACTICE -->
+        <div class="step-header">STEP 4 COMMUNICATION PRACTICE</div>
+
+        <!-- EXERCISE 7 LISTENING -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 7 LISTENING</h3>
+            <p class="mb-4 flex items-center"><span class="font-bold text-red-600 mr-2">A</span> Listen to Judy and Jessica's conversation. Complete the sentence. Check ($\checkmark$) the correct answer.</p>
+            <p class="mb-4">The people in the photo are <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"></p>
+            <div class="flex gap-8 mb-6">
+                <label class="flex items-center"><input type="checkbox" name="ex7_q_photo_choice" value="judy_family"> Jessica's family</label>
+                <label class="flex items-center"><input type="checkbox" name="ex7_q_photo_choice" value="judy_friends"> Judy's family</label>
+                <label class="flex items-center"><input type="checkbox" name="ex7_q_photo_choice" value="jessica_friends"> Jessica's friends</label>
+            </div>
+
+            <p class="mb-4 flex items-center"><span class="font-bold text-red-600 mr-2">B</span> Now listen again. Complete the sentences. Circle the correct answers.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="mb-2">
+                    <p>1. Jessica and her husband have <span class="choose-word-exercise">
+                        <span class="word-choice" data-word="two">two</span>
+                        <span class="word-choice" data-word="three">three</span>
+                    </span> children.</p>
+                </div>
+                <div class="mb-2">
+                    <p>4. In the photo, they are at the <span class="choose-word-exercise">
+                        <span class="word-choice" data-word="football">football</span>
+                        <span class="word-choice" data-word="baseball">baseball</span>
+                    </span> stadium.</p>
+                </div>
+                <div class="mb-2">
+                    <p>2. Ben is her <span class="choose-word-exercise">
+                        <span class="word-choice" data-word="dog">dog</span>
+                        <span class="word-choice" data-word="son">son</span>
+                    </span>.</p>
+                </div>
+                <div class="mb-2">
+                    <p>5. The other kids are from <span class="choose-word-exercise">
+                        <span class="word-choice" data-word="their_school">their school</span>
+                        <span class="word-choice" data-word="their_university">their university</span>
+                    </span>.</p>
+                </div>
+                <div class="mb-2">
+                    <p>3. Annie is Jessica's <span class="choose-word-exercise">
+                        <span class="word-choice" data-word="son">son</span>
+                        <span class="word-choice" data-word="daughter">daughter</span>
+                    </span>.</p>
+                </div>
+                <div class="mb-2">
+                    <p>6. All the kids love <span class="choose-word-exercise">
+                        <span class="word-choice" data-word="baseball">baseball</span>
+                        <span class="word-choice" data-word="football_and_baseball">football and baseball</span>
+                    </span>.</p>
+                </div>
+            </div>
+            <p class="mt-4 flex items-center"><span class="font-bold text-red-600 mr-2">C</span> Work with a partner. Compare your answers in B.</p>
+        </div>
+
+        <!-- EXERCISE 8 WHO DOES IT BELONG TO? -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 8 WHO DOES IT BELONG TO?</h3>
+            <p class="mb-4 flex items-center"><span class="font-bold text-red-600 mr-2">A GAME</span> Work with the class. Choose something that belongs to you. Put it on the teacher's table.</p>
+            <p class="mb-4 flex items-center"><span class="font-bold text-red-600 mr-2">B</span> Ask and answer questions about the things on the table.</p>
+            <p class="mb-2 font-bold">EXAMPLE: (Student A points to a backpack.)</p>
+            <p class="ml-4"><span class="font-bold">A:</span> Who does it belong to?</p>
+            <p class="ml-4"><span class="font-bold">B:</span> (B points to Student C.)</p>
+            <p class="ml-8">That's her backpack.</p>
+            <p class="ml-4"><span class="font-bold">C:</span> Right. It's my backpack.</p>
+            <p class="ml-8">or (<span class="font-bold">C points to Student D.</span>)</p>
+            <p class="ml-8">No, that's his backpack.</p>
+
+            <div class="image-exercise-container mt-6">
+                <img src="FOG-1-4/16.png" alt="Items on a table">
+            </div>
+        </div>
+
+        <!-- EXERCISE 9 IS THAT A UNIVERSITY? -->
+        <div class="exercise">
+            <h3 class="exercise-title">EXERCISE 9 IS THAT A UNIVERSITY?</h3>
+            <p class="mb-4">INFORMATION GAP Work with a partner. Student A, follow the instructions below. Student B, follow the instructions on page 387.</p>
+            <h4 class="font-bold text-lg mb-2">STUDENT A</h4>
+            <ul class="list-disc ml-6 mb-4">
+                <li>Look at the map. Student B has the same map with different information. Ask Student B questions about buildings 2, 4, 6, and 8. Complete the map.</li>
+                <p class="ml-4 font-bold">EXAMPLE: <span class="font-bold">A:</span> Look at building 2. Is that a university?</p>
+                <p class="ml-8"><span class="font-bold">B:</span> No, it isn't. It's...</p>
+                <li>Answer Student B's questions about buildings 1, 3, 5, and 7 on your map.</li>
+                <p class="ml-4 font-bold">EXAMPLE: <span class="font-bold">B:</span> Look at building 1. Is that a university?</p>
+                <p class="ml-8"><span class="font-bold">A:</span> No, it isn't. It's...</p>
+                <li>Compare your maps. Are they the same?</li>
+            </ul>
+            <div class="image-exercise-container mt-6">
+                <img src="FOG-1-4/17.png" alt="Map of buildings">
+            </div>
+        </div>
+
+        <!-- FROM GRAMMAR TO WRITING -->
+        <div class="step-header">FROM GRAMMAR TO WRITING</div>
+        <div class="exercise">
+            <p class="mb-4 flex items-center"><span class="font-bold text-red-600 mr-2">A BEFORE YOU WRITE</span> Read the paragraph and chart, and look at the photo. Underline examples of <strong>that, those,</strong> and possessive adjectives. Then find a photo of a place in your town or city. Complete the chart about it. Work with a partner. Tell your partner about the place in the photo.</p>
+            <div class="flex flex-col md:flex-row gap-4 mb-6">
+                <div class="flex-1 image-exercise-container">
+                    <img src="FOG-1-4/18.png" alt="Safeco Field">
+                </div>
+                <div class="flex-1">
+                    <p>That's a photo of Safeco Field.</p>
+                    <p>That's a sports stadium in my city, Seattle. It's our baseball stadium. Those are baseball players from our team. They are the Seattle Mariners.</p>
+                </div>
+            </div>
+            <table class="grammar-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name of town or city</th>
+                        <th>Seattle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name of place</td>
+                        <td>Safeco Field</td>
+                    </tr>
+                    <tr>
+                        <td>Type of place</td>
+                        <td>baseball stadium</td>
+                    </tr>
+                    <tr>
+                        <td>People in the place</td>
+                        <td>baseball players</td>
+                    </tr>
+                    <tr>
+                        <td>Your town/city</td>
+                        <td><input type="text" class="fill-in-the-blank-input w-full" placeholder="Điền tên thị trấn/thành phố của bạn"></td>
+                    </tr>
+                    <tr>
+                        <td>Your place</td>
+                        <td><input type="text" class="fill-in-the-blank-input w-full" placeholder="Điền tên địa điểm của bạn"></td>
+                    </tr>
+                    <tr>
+                        <td>Type of place</td>
+                        <td><input type="text" class="fill-in-the-blank-input w-full" placeholder="Điền loại địa điểm"></td>
+                    </tr>
+                    <tr>
+                        <td>People in the place</td>
+                        <td><input type="text" class="fill-in-the-blank-input w-full" placeholder="Điền người ở địa điểm"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="mb-4 flex items-center mt-6"><span class="font-bold text-red-600 mr-2">B WRITE</span> Write a paragraph about the place in your photo. Use <strong>that, those,</strong> and possessive adjectives. Use the paragraph in A and your chart to help you.</p>
+            <textarea class="w-full p-3 border border-gray-300 rounded-md" rows="8" placeholder="Viết đoạn văn của bạn ở đây..."></textarea>
+
+            <p class="mb-4 flex items-center mt-6"><span class="font-bold text-red-600 mr-2">C CHECK YOUR WORK</span> Read your paragraph. Underline examples of <strong>that, those,</strong> and possessive adjectives. Use the Editing Checklist to check your work.</p>
+            <div class="editing-checklist bg-gray-100 p-4 rounded-md border border-gray-200">
+                <h4 class="font-bold text-lg mb-2">Editing Checklist</h4>
+                <p>Did you...?</p>
+                <ul>
+                    <li><label><input type="checkbox"> use that for one person or thing away from you</label></li>
+                    <li><label><input type="checkbox"> use those for two or more people or things away from you</label></li>
+                    <li><label><input type="checkbox"> use <strong>my, your, his, her, our,</strong> or <strong>their</strong> before nouns to show who something belongs to</label></li>
+                    <li><label><input type="checkbox"> check your spelling</label></li>
+                </ul>
+            </div>
+
+            <p class="mb-4 flex items-center mt-6"><span class="font-bold text-red-600 mr-2">D REVISE YOUR WORK</span> Read your paragraph again. Can you improve your writing?</p>
+            <p>Make changes if necessary.</p>
+        </div>
+
+        <!-- UNIT 4 REVIEW -->
+        <div class="step-header">UNIT 4 REVIEW</div>
+        <div class="exercise">
+            <h3 class="exercise-title">Test yourself on the grammar of the unit.</h3>
+            <p class="mb-4 flex items-center"><span class="font-bold text-red-600 mr-2">A</span> Complete the sentences with <strong>that</strong> or <strong>those.</strong></p>
+            <div class="mb-2">1. <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> 's an expensive car.</div>
+            <div class="mb-2">2. Are <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> his friends?</div>
+            <div class="mb-2">3. Is <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> your brother?</div>
+            <div class="mb-2">4. <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> 's her camera.</div>
+            <div class="mb-2">5. <input type="text" class="fill-in-the-blank-input" placeholder="điền từ"> aren't my keys!</div>
+
+            <p class="mb-4 flex items-center mt-6"><span class="font-bold text-red-600 mr-2">B</span> Complete the sentences. Circle the correct answers.</p>
+            <div class="mb-2"><p>1. <span class="circle-select-word" data-word="He">He</span> / <span class="circle-select-word" data-word="His">His</span> is my friend.</p></div>
+            <div class="mb-2"><p>2. <span class="circle-select-word" data-word="That's">That's</span> <span class="circle-select-word" data-word="my">my</span> sister. <span class="circle-select-word" data-word="She">She</span> / <span class="circle-select-word" data-word="Her">Her</span> name is Lynn.</p></div>
+            <div class="mb-2"><p>3. What are <span class="circle-select-word" data-word="you">you</span> / <span class="circle-select-word" data-word="your">your</span> names?</p></div>
+            <div class="mb-2"><p>4. Those are good cameras. <span class="circle-select-word" data-word="Their">Their</span> / <span class="circle-select-word" data-word="They're">They're</span> very popular.</p></div>
+            <div class="mb-2"><p>5. I really like the Barksdale Movie Theater. <span class="circle-select-word" data-word="It's">It's</span> / <span class="circle-select-word" data-word="Its">Its</span> my favorite place.</p></div>
+
+            <p class="mb-4 flex items-center mt-6"><span class="font-bold text-red-600 mr-2">C</span> Correct the conversation. There are five mistakes.</p>
+            <div class="mb-2">
+                <p><span class="font-bold">A:</span> Is <span class="underline-select-word" data-word="those">those</span> your family in the photo?</p>
+            </div>
+            <div class="mb-2">
+                <p><span class="font-bold">B:</span> Yes. That's me brother, and that's my sister.</p>
+            </div>
+            <div class="mb-2">
+                <p><span class="font-bold">A:</span> What are they're names?</p>
+            </div>
+            <div class="mb-2">
+                <p><span class="font-bold">B:</span> He's name is Robert, and her name is Tammy.</p>
+            </div>
+            <div class="mb-2">
+                <p><span class="font-bold">A:</span> That your dog?</p>
+            </div>
+            <div class="mb-2">
+                <p><span class="font-bold">B:</span> Yes. Its name is Spot.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Script để xử lý các bài tập tương tác
+
+        // Xử lý bài tập gạch chân (Underline)
+        document.querySelectorAll('.underline-select-word').forEach(item => {
+            item.addEventListener('click', event => {
+                event.target.classList.toggle('selected-underline');
+            });
+        });
+
+        // Xử lý bài tập khoanh tròn (Circle)
+        document.querySelectorAll('.circle-select-word').forEach(item => {
+            item.addEventListener('click', event => {
+                // Đảm bảo chỉ một từ được chọn trong mỗi cặp (ví dụ: my / our)
+                const parentParagraph = event.target.closest('p');
+                if (parentParagraph) {
+                    parentParagraph.querySelectorAll('.circle-select-word').forEach(sibling => {
+                        if (sibling !== event.target) {
+                            sibling.classList.remove('selected-circle');
+                        }
+                    });
+                }
+                event.target.classList.toggle('selected-circle');
+            });
+        });
+
+        // Xử lý bài tập chọn từ (Choose Word)
+        document.querySelectorAll('.choose-word-exercise .word-choice').forEach(item => {
+            item.addEventListener('click', event => {
+                const parentSpan = event.target.closest('.choose-word-exercise');
+                if (parentSpan) {
+                    parentSpan.querySelectorAll('.word-choice').forEach(sibling => {
+                        if (sibling !== event.target) {
+                            sibling.classList.remove('selected-choice');
+                        }
+                    });
+                }
+                event.target.classList.toggle('selected-choice');
+            });
+        });
+
+        // Xử lý bài tập radio button (cho Exercise 5)
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', (event) => {
+                // Logic xử lý khi radio button thay đổi (nếu cần)
+                console.log(`Question ${event.target.name}, selected: ${event.target.value}`);
+            });
+        });
+
+        // Xử lý bài tập checkbox (cho Exercise 7 A)
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', (event) => {
+                // Đảm bảo chỉ một checkbox được chọn trong nhóm
+                if (event.target.name === 'ex7_q_photo_choice' && event.target.checked) {
+                    document.querySelectorAll(`input[name="${event.target.name}"]`).forEach(otherCheckbox => {
+                        if (otherCheckbox !== event.target) {
+                            otherCheckbox.checked = false;
+                        }
+                    });
+                }
+                console.log(`Checkbox ${event.target.name}, checked: ${event.target.checked}`);
+            });
+        });
+    </script>
+</body>
+</html>
