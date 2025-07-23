@@ -16,6 +16,29 @@ At last, Bob was ready to **implement** his escape plan. With all his might, he 
 
 ![alt text](eew-5-6/24.png)
 
+## List of word
+
+altitude
+coastline
+deter
+devise
+expertise
+fracture
+impair
+implement
+indigenous
+insight
+limb
+migraine
+optimism
+peculiar
+proficient
+quest
+ridge
+spouse
+thrust
+tolerate
+
 ## Sentences of story
 
 The Island

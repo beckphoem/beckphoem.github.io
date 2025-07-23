@@ -34,6 +34,31 @@ He had learned an important lesson. He learned that **intellect** isn’t everyt
 
 ![alt text](eew-5-3/28.png)
 
+-------
+
+## List of words
+
+analytic
+assert
+bachelor
+calculus
+celestial
+cognitive
+collision
+competent
+diploma
+excel
+geology
+harness
+intellect
+keen
+mythology
+physiology
+radioactive
+relativity
+sociology
+theoretical
+
 ## Sentences of story
 
 A **keen** young **bachelor** had finished his studies at the university.

@@ -21,6 +21,33 @@ All **transactions** with Pig’s factory stopped. The factory lost money, and P
 
 ![alt text](eew-5-4/24.png)
 
+----
+
+## List of words
+
+administrator
+merchandise
+headquarters
+incentive
+affluent
+legitimate
+automated
+bribed
+corrupt
+legislating
+subsidies
+dispose
+rubbish
+violated
+infrastructure
+revenue
+retail
+audited
+manipulated
+transactions
+
+----
+
 ## Sentences of story
 
 Mr. Pig was an **administrator** at a big factory that made different kinds of **merchandise**.

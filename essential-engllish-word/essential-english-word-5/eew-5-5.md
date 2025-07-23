@@ -24,6 +24,34 @@ The discovery received a lot of **publicity**. Soon after, the new drug was bein
 
 ![alt text](eew-5-5/26.png)
 
+------
+
+## List of words
+
+-----
+assess
+astonish
+commence
+essence
+extract
+fabulous
+haste
+impulse
+latter
+molecule
+ongoing
+pharmaceutical
+precise
+proximity
+publicity
+remedy
+significance
+subsequent
+synthetic
+terminal
+
+-----
+
 ## Sentences of story
 
 A Famous Accident

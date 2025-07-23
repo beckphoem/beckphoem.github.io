@@ -27,7 +27,30 @@ Beth said, “It is crucial that you gather enough food. You must have **sustena
 Mary **griped** some more, but she knew that her sister was right. She took the bag and went to work gathering her own beans for the winter.
 
 ---
+## List of word 
 
+allot 
+appall
+cache 
+convenience 
+dearth 
+deliberate 
+dire 
+elapse 
+empathy 
+fanciful 
+gripe 
+grueling 
+mundane 
+opt
+outrage 
+paltry 
+rectify 
+resourceful 
+sustenance 
+tedious 
+
+---
 ## Sentences of story 
 
 Beth was a very **resourceful** and conservative mouse.

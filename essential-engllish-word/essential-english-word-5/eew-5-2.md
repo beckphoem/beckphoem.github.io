@@ -30,7 +30,28 @@ The monks were reluctant at first, but they did what the oldest monk said. By th
 ![alt text](eew-5-2/25.png)
 
 ---
+## List of word
 
+abbey
+abundant 
+adjoin 
+ample 
+arid 
+cathedral 
+deprive
+drought 
+eligible 
+fast
+grumble 
+inland 
+moisture
+nonetheless 
+oath 
+prairie 
+ragged
+rugged 
+scarce 
+speculate 
 
 ---
 
