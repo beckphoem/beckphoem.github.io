@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Học Tiếng Anh - Unit 3: Present of Be</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        .unit-header {
+            background-color: #4CAF50; /* Green color from the image */
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .unit-number {
+            font-size: 3rem;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .unit-title h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .unit-title p {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        .section-title {
+            background-color: #607D8B; /* Grey color from the image */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .subsection-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #4CAF50; /* Green color for sub-titles */
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .image-item {
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9f9f9;
+            padding-bottom: 10px;
+        }
+        .image-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            object-fit: cover;
+        }
+        .image-item p {
+            margin-top: 10px;
+            font-weight: 500;
+            color: #555;
+        }
+        .conversation-box {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 25px;
+        }
+        .conversation-box p {
+            margin-bottom: 5px;
+            line-height: 1.6;
+        }
+        .exercise-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .exercise-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #3F51B5; /* Indigo color for exercise titles */
+        }
+        .exercise-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .exercise-item label {
+            flex-grow: 1;
+            line-height: 1.5;
+        }
+        .fill-in-blank {
+            border: none;
+            border-bottom: 1px solid #999;
+            padding: 2px 5px;
+            outline: none;
+            width: 120px; /* Adjust as needed */
+            font-size: 1rem;
+        }
+        .fill-in-blank:focus {
+            border-bottom-color: #4CAF50;
+        }
+        .checkbox-group {
+            display: flex;
+            gap: 15px;
+        }
+        .checkbox-group input[type="checkbox"] {
+            transform: scale(1.2);
+            margin-right: 5px;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px 15px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+            color: #555;
+        }
+        .grammar-note {
+            background-color: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .grammar-note h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2196F3;
+        }
+        .grammar-note ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+        .grammar-note li {
+            margin-bottom: 5px;
+            line-height: 1.5;
+        }
+        .underline-text {
+            text-decoration: underline;
+        }
+        .correction-input {
+            border: none;
+            border-bottom: 1px dashed #999;
+            padding: 2px 5px;
+            outline: none;
+            width: 150px;
+            font-size: 1rem;
+            margin: 0 5px;
+        }
+        .correction-input:focus {
+            border-bottom-color: #4CAF50;
+        }
+        .read-section {
+            background-color: #e0f2f7;
+            border-left: 5px solid #03A9F4;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 25px;
+            display: flex;
+            gap: 20px;
+        }
+        .read-text {
+            flex: 2;
+        }
+        .read-images {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        .read-images img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .usage-note {
+            background-color: #fffde7;
+            border-left: 5px solid #FFC107;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+        .usage-note strong {
+            color: #FFC107;
+        }
+        .reference-note {
+            font-size: 0.9rem;
+            margin-top: 20px;
+            color: #666;
+        }
+        .myenglishlab-link {
+            display: inline-block;
+            background-color: #E0F7FA;
+            color: #00BCD4;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .myenglishlab-link:hover {
+            background-color: #B2EBF2;
+        }
+        .exercise-fill-in-blank-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .exercise-fill-in-blank-group > div {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .exercise-fill-in-blank-group input {
+            width: 150px;
+        }
+        .exercise-image-pair {
+            display: flex;
+            align-items: flex-end;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .exercise-image-pair div {
+            text-align: center;
+        }
+        .exercise-image-pair img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .exercise-image-pair input {
+            margin-top: 10px;
+            text-align: center;
+            width: 100px;
+        }
+        .exercise-list-numbered {
+            list-style-type: decimal;
+            padding-left: 25px;
+        }
+        .exercise-list-numbered li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .exercise-list-numbered li input {
+            margin-left: 5px;
+            width: 200px;
+        }
+        .exercise-list-numbered li .correction-input {
+            width: 150px;
+        }
+        .exercise-list-numbered li .checkbox-group {
+            display: inline-flex;
+            margin-left: 10px;
+        }
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .radio-group input[type="radio"] {
+            transform: scale(1.1);
+        }
+        .table-data {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .table-data th, .table-data td {
+            border: 1px solid #ddd;
+            padding: 10px 15px;
+            text-align: left;
+        }
+        .table-data th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Unit Header - image_bcaece.png -->
+        <div class="unit-header">
+            <div class="unit-number">3</div>
+            <div class="unit-title">
+                <h1>Present of Be: Statements</h1>
+                <p>I'M NOT FROM AROUND HERE</p>
+            </div>
+            <div class="ml-auto text-sm">
+                <p class="font-bold">OUTCOMES</p>
+                <ul class="list-disc list-inside">
+                    <li>Make simple present statements with the verb *be*</li>
+                    <li>Correct false statements about a reading</li>
+                    <li>Ask and answer *be* questions about a conversation</li>
+                    <li>Introduce yourself and a classmate</li>
+                    <li>Talk and write about cities</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT - image_bcaece.png -->
+        <div class="section-title">STEP 1 GRAMMAR IN CONTEXT</div>
+
+        <div class="subsection-title">BEFORE YOU READ</div>
+        <p class="font-semibold text-gray-700">A VOCABULARY Study the words. Then work with a partner. Practice the conversation.</p>
+
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="fog-1-3/1.png" alt="Đống bát đĩa bẩn">
+                <p>dirty</p>
+            </div>
+            <div class="image-item">
+                <img src="fog-1-3/2.png" alt="Đống bát đĩa sạch">
+                <p>clean</p>
+            </div>
+            <div class="image-item">
+                <img src="fog-1-3/3.png" alt="Cây cối ở xa">
+                <p>far</p>
+            </div>
+            <div class="image-item">
+                <img src="fog-1-3/4.png" alt="Cây cối ở gần">
+                <p>near</p>
+            </div>
+            <div class="image-item">
+                <img src="fog-1-3/5.png" alt="Hai cô gái đang buồn chán">
+                <p>This is boring.</p>
+            </div>
+            <div class="image-item">
+                <img src="fog-1-3/6.png" alt="Hai người đang đạp xe vui vẻ">
+                <p>This is fun!</p>
+            </div>
+        </div>
+
+        <h3 class="font-semibold text-gray-700 mt-8">Conversation</h3>
+        <div class="conversation-box">
+            <p><span class="font-bold">A:</span> Are you from around here?</p>
+            <p><span class="font-bold">B:</span> No, I'm not. I'm from Sydney, Australia.</p>
+            <p><span class="font-bold">A:</span> That's far from here! How's Sydney?</p>
+            <p><span class="font-bold">B:</span> It's great. It's fun.</p>
+        </div>
+
+        <p class="font-semibold text-gray-700 mt-8">B Now talk about the city you are from. Use the words under the pictures in A or other words.</p>
+        <div class="conversation-box">
+            <p><span class="font-bold">A:</span> Are you from around here?</p>
+            <p><span class="font-bold">B:</span> No, I'm not. I'm from <input type="text" class="fill-in-blank" placeholder="Điền từ">.</p>
+            <p><span class="font-bold">A:</span> That's <input type="text" class="fill-in-blank" placeholder="Điền từ"> here! How's <input type="text" class="fill-in-blank" placeholder="Điền từ">?</p>
+            <p><span class="font-bold">B:</span> It's <input type="text" class="fill-in-blank" placeholder="Điền từ">. It's <input type="text" class="fill-in-blank" placeholder="Điền từ">.</p>
+        </div>
+
+        <!-- READ Section - image_bcb1d8.png -->
+        <h2 class="section-title">READ</h2>
+        <p class="font-semibold text-gray-700">Read this conversation.</p>
+
+        <div class="read-section">
+            <div class="read-text">
+                <h2 class="text-2xl font-bold mb-4">We Love Seattle!</h2>
+                <p><span class="font-bold">MARK:</span> Hi, Steve.</p>
+                <p><span class="font-bold">STEVE:</span> Hi, Mark. Uh, Mark... <span class="underline-text">this is</span> my cousin Amy, and <span class="underline-text">this is</span> her friend Jenny.</p>
+                <p><span class="font-bold">MARK:</span> Hi. Nice to meet you.</p>
+                <p><span class="font-bold">AMY:</span> Nice to meet you, too.</p>
+                <p><span class="font-bold">MARK:</span> So, you <span class="underline-text">re not</span> from around here.</p>
+                <p><span class="font-bold">AMY:</span> No, we're from Sydney.</p>
+                <p><span class="font-bold">MARK:</span> Sydney, Australia? That's <span class="underline-text">really far</span> from Seattle.</p>
+                <p><span class="font-bold">AMY:</span> Yes, it is. How about you? Are you from Seattle?</p>
+                <p><span class="font-bold">MARK:</span> Yes, <span class="underline-text">I am</span>.</p>
+                <p><span class="font-bold">AMY:</span> Jenny and I love Seattle. It's a beautiful and clean city. <span class="underline-text">It's fun</span>, and the people <span class="underline-text">are friendly</span>.</p>
+                <p><span class="font-bold">MARK:</span> How's Sydney?</p>
+                <p><span class="font-bold">AMY:</span> It's a great city, too—and not just because I live there!</p>
+            </div>
+            <div class="read-images">
+                <img src="fog-1-3/7.png" alt="Hình ảnh ba người đang nói chuyện">
+                <img src="fog-1-3/8.png" alt="Bản đồ Australia">
+            </div>
+        </div>
+
+        <div class="subsection-title">AFTER YOU READ</div>
+        <p class="font-semibold text-gray-700">A COMPREHENSION Look at the conversation again. Correct the underlined words.</p>
+        <div class="exercise-section">
+            <ol class="exercise-list-numbered">
+                <li>Jenny and Amy are in Sydney. Steve is Amy's <span class="underline-text">uncle</span>. Steve introduces Jenny and Amy to Mark.</li>
+                <p>Correction: <input type="text" class="correction-input" value="cousin"></p>
+                <li>Mark talks about her family. Amy says Seattle is not a beautiful city. It's <span class="underline-text">dirty</span>.</li>
+                <p>Correction: <input type="text" class="correction-input" value="clean"></p>
+                <li>It's <span class="underline-text">boring</span>, and the people are <span class="underline-text">unfriendly</span>.</li>
+                <p>Correction: <input type="text" class="correction-input" value="fun"></p>
+                <p>Correction: <input type="text" class="correction-input" value="friendly"></p>
+            </ol>
+        </div>
+        <p class="font-semibold text-gray-700 mt-8">B Work with a partner. Compare your answers in A.</p>
+
+        <!-- STEP 2: GRAMMAR PRESENTATION - image_bcb1f5.png -->
+        <div class="section-title">STEP 2 GRAMMAR PRESENTATION</div>
+        <h2 class="text-2xl font-bold mb-4">PRESENT OF THE VERB BE</h2>
+
+        <h3 class="font-semibold text-gray-700 mt-4">Affirmative Statements</h3>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Am</th>
+                    <th>Subject</th>
+                    <th>Is</th>
+                    <th>Subject</th>
+                    <th>Are</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I</td>
+                    <td>am from Seattle.</td>
+                    <td>He<br>She<br>It<br>Seattle</td>
+                    <td>is from Seattle.<br>is clean.</td>
+                    <td>We<br>Jenny and I<br>You<br>Jenny and Amy<br>They</td>
+                    <td>are from Sydney.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="font-semibold text-gray-700 mt-4">Contractions</h3>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I am = I'm</td>
+                    <td>he is = he's<br>she is = she's<br>it is = it's</td>
+                    <td>we are = we're<br>you are = you're<br>they are = they're</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="font-semibold text-gray-700 mt-4">Negative Statements</h3>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Am not</th>
+                    <th>Subject</th>
+                    <th>Is not</th>
+                    <th>Subject</th>
+                    <th>Are not</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I</td>
+                    <td>am not from here.</td>
+                    <td>He<br>She<br>It</td>
+                    <td>is not from here.<br>is not dirty.</td>
+                    <td>We<br>You<br>They</td>
+                    <td>are not from here.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="font-semibold text-gray-700 mt-4">Contractions</h3>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I am not = I'm not</td>
+                    <td>he is not = he's not <br>or he <span class="font-bold">isn't</span><br>she is not = she's not <br>or she isn't<br>it is not = it's not <br>or it <span class="font-bold">isn't</span></td>
+                    <td>we are not = we're not <br>or we <span class="font-bold">aren't</span><br>you are not = you're not <br>or you aren't<br>they are not = they're not <br>or they <span class="font-bold">aren't</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="section-title">GRAMMAR NOTES</h2>
+        <div class="grammar-note">
+            <h3>1 Present of Be</h3>
+            <p>The present of the verb *be* has three forms: *am*, *is*, and *are*.</p>
+            <p>Use *am, is*, or *are* to make an affirmative statement.</p>
+            <ul class="list-disc list-inside">
+                <li>I am from Seattle.</li>
+                <li>It is clean.</li>
+                <li>They are friendly.</li>
+            </ul>
+            <p>Use *am, is*, or *are + not* to make a negative statement.</p>
+            <ul class="list-disc list-inside">
+                <li>I am not from Sydney.</li>
+                <li>It is not dirty.</li>
+                <li>We are not cold.</li>
+            </ul>
+        </div>
+
+        <!-- Contractions and Reference Note - image_bcb212.png -->
+        <div class="grammar-note">
+            <h3>2 Contractions</h3>
+            <p>We often use contractions (short forms) in speaking and writing.</p>
+            <ul class="list-disc list-inside">
+                <li>I'm from Seattle. He isn't from Seattle.</li>
+                <li>Sydney isn't cold. It's not cold.</li>
+            </ul>
+            <div class="usage-note">
+                <strong>USAGE NOTE</strong> There are two negative contractions for *is not* and *are not*. We often use *isn't* or *aren't* after subject pronouns. We often use *'s not* or *'re not* after subject nouns.
+                <p class="font-bold mt-2">SUBJECT NOUN</p>
+                <p>Jenny and Amy <span class="underline-text">aren't</span> cousins.</p>
+                <p class="font-bold mt-2">SUBJECT PRONOUN</p>
+                <p>They<span class="underline-text">'re not</span> cousins.</p>
+            </div>
+        </div>
+
+        <div class="reference-note">
+            For definitions of grammar terms, see the Glossary on page 375.
+        </div>
+        <a href="#" class="myenglishlab-link">Go to MyEnglishLab to watch the grammar presentation.</a>
+
+        <!-- STEP 3: FOCUSED PRACTICE - image_bcb212.png -->
+        <div class="section-title">STEP 3 FOCUSED PRACTICE</div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</div>
+            <p class="font-semibold text-gray-700">A GRAMMAR NOTES 1–2 Read the sentences. Check (✓) Affirmative or Negative.</p>
+            <ol class="exercise-list-numbered">
+                <li class="flex items-center">
+                    <label>1. She is not from around here.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_1_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_1_negative" checked> Negative</label>
+                    </div>
+                </li>
+                <li class="flex items-center">
+                    <label>2. She is here with a friend.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_2_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_2_negative"> Negative</label>
+                    </div>
+                </li>
+                <li class="flex items-center">
+                    <label>3. They're not from Sydney.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_3_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_3_negative"> Negative</label>
+                    </div>
+                </li>
+                <li class="flex items-center">
+                    <label>4. We're students.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_4_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_4_negative"> Negative</label>
+                    </div>
+                </li>
+                <li class="flex items-center">
+                    <label>5. I'm not from Seattle.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_5_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_5_negative"> Negative</label>
+                    </div>
+                </li>
+                <li class="flex items-center">
+                    <label>6. It's a clean city.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_6_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_6_negative"> Negative</label>
+                    </div>
+                </li>
+                <li class="flex items-center">
+                    <label>7. Brazil isn't far from Colombia.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_7_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_7_negative"> Negative</label>
+                    </div>
+                </li>
+                <li class="flex items-center">
+                    <label>8. The women aren't from New York.</label>
+                    <div class="checkbox-group ml-auto">
+                        <label><input type="checkbox" name="ex1_8_affirmative"> Affirmative</label>
+                        <label><input type="checkbox" name="ex1_8_negative"> Negative</label>
+                    </div>
+                </li>
+            </ol>
+
+            <p class="font-semibold text-gray-700 mt-8">B Find six sentences in A with contractions. Write them with the full forms.</p>
+            <ol class="exercise-list-numbered">
+                <li><input type="text" class="fill-in-blank" value="They are not from Sydney."></li>
+                <li><input type="text" class="fill-in-blank"></li>
+                <li><input type="text" class="fill-in-blank"></li>
+                <li><input type="text" class="fill-in-blank"></li>
+                <li><input type="text" class="fill-in-blank"></li>
+                <li><input type="text" class="fill-in-blank"></li>
+            </ol>
+        </div>
+
+        <!-- EXERCISE 2, 3, 4 - image_bcb22e.png -->
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 2 AFFIRMATIVE STATEMENTS</div>
+            <p class="font-semibold text-gray-700">GRAMMAR NOTE 1 Complete the sentences with *I am, She is, He is, It is, We are, You are,* or *They are*.</p>
+            <ol class="exercise-list-numbered">
+                <li><input type="text" class="fill-in-blank" value="Amy is"> a student. <input type="text" class="fill-in-blank" value="She is"> from Australia.</li>
+                <li><input type="text" class="fill-in-blank"> Amy and Jenny are students. <input type="text" class="fill-in-blank"> from Sydney.</li>
+                <li><input type="text" class="fill-in-blank"> Sydney is a great city. <input type="text" class="fill-in-blank"> in Australia.</li>
+                <li><input type="text" class="fill-in-blank"> My friends and I are in school. <input type="text" class="fill-in-blank"> in Room 2.</li>
+                <li><input type="text" class="fill-in-blank"> Mark is a writer. <input type="text" class="fill-in-blank"> in Seattle.</li>
+                <li><input type="text" class="fill-in-blank"> My sister and I are students. <input type="text" class="fill-in-blank"> at the university.</li>
+                <li><input type="text" class="fill-in-blank"> My friend Amy is in class. <input type="text" class="fill-in-blank"> with her friend Jenny.</li>
+                <li><input type="text" class="fill-in-blank"> My name is Elena. <input type="text" class="fill-in-blank"> an English language student from Brazil.</li>
+                <li><input type="text" class="fill-in-blank"> This is your seat. <input type="text" class="fill-in-blank"> near the teacher.</li>
+            </ol>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 3 CONTRACTIONS</div>
+            <p class="font-semibold text-gray-700">GRAMMAR NOTE 2 Read the sentences. Change the full forms to contractions.</p>
+            <div class="exercise-image-pair">
+                <div>
+                    <img src="fog-1-3/9.png" alt="Người đàn ông mặc áo khoác mùa đông">
+                    <input type="text" class="fill-in-blank" value="cold">
+                </div>
+                <div>
+                    <img src="fog-1-3/10.png" alt="Người phụ nữ đang uống nước">
+                    <input type="text" class="fill-in-blank" value="hot">
+                </div>
+            </div>
+            <ol class="exercise-list-numbered">
+                <li><input type="text" class="fill-in-blank" value="It's cold here."></li>
+                <li><input type="text" class="fill-in-blank" value="It isn't hot in my city."></li>
+                <li><input type="text" class="fill-in-blank"> They are not from around here.</li>
+                <li><input type="text" class="fill-in-blank"> She is in California.</li>
+                <li><input type="text" class="fill-in-blank"> They are not on a bus.</li>
+                <li><input type="text" class="fill-in-blank"> We are friends.</li>
+                <li><input type="text" class="fill-in-blank"> It is cold in Alaska.</li>
+                <li><input type="text" class="fill-in-blank"> My city is not near here.</li>
+                <li><input type="text" class="fill-in-blank"> He is not in school.</li>
+                <li><input type="text" class="fill-in-blank"> I am not a new student.</li>
+            </ol>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 4 NEGATIVE STATEMENTS</div>
+            <p class="font-semibold text-gray-700">GRAMMAR NOTES 1–2 For each statement, write a negative statement. Add *not*. Then rewrite each sentence with a contraction.</p>
+            <ol class="exercise-list-numbered">
+                <li>I am hot. <input type="text" class="fill-in-blank" value="I am not hot."> <input type="text" class="fill-in-blank" value="I'm not hot."></li>
+                <li>She is from Peru. <input type="text" class="fill-in-blank"> <input type="text" class="fill-in-blank"></li>
+                <li>They are students. <input type="text" class="fill-in-blank"> <input type="text" class="fill-in-blank"></li>
+                <!-- New exercises from image_bcb64e.png -->
+                <li>We are at a restaurant. <input type="text" class="fill-in-blank"> <input type="text" class="fill-in-blank"></li>
+                <li>I am a teacher. <input type="text" class="fill-in-blank"> <input type="text" class="fill-in-blank"></li>
+                <li>It is boring. <input type="text" class="fill-in-blank"> <input type="text" class="fill-in-blank"></li>
+                <li>These are good chairs. <input type="text" class="fill-in-blank"> <input type="text" class="fill-in-blank"></li>
+                <li>Jenny is my sister. <input type="text" class="fill-in-blank"> <input type="text" class="fill-in-blank"></li>
+            </ol>
+        </div>
+
+        <!-- EXERCISE 5 BE: AFFIRMATIVE AND NEGATIVE - image_bcb64e.png -->
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 5 BE: AFFIRMATIVE AND NEGATIVE</div>
+            <p class="font-semibold text-gray-700">Look at the information in the chart about the students in English 1A. Then read incorrect sentences about the students. Write two new sentences. The first sentence is negative. The second sentence is the correct information.</p>
+
+            <table class="table-data">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>SEX</th>
+                        <th>COUNTRY</th>
+                        <th>AGE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Antonio</td><td>Male</td><td>Mexico</td><td>19</td></tr>
+                    <tr><td>Berat</td><td>Male</td><td>Turkey</td><td>23</td></tr>
+                    <tr><td>Junko</td><td>Female</td><td>Japan</td><td>22</td></tr>
+                    <tr><td>Leonardo</td><td>Male</td><td>Brazil</td><td>33</td></tr>
+                    <tr><td>Min</td><td>Female</td><td>China</td><td>28</td></tr>
+                    <tr><td>Pinar</td><td>Female</td><td>Turkey</td><td>18</td></tr>
+                    <tr><td>Saleh</td><td>Male</td><td>Saudi Arabia</td><td>33</td></tr>
+                    <tr><td>Yumiko</td><td>Female</td><td>Japan</td><td>18</td></tr>
+                </tbody>
+            </table>
+
+            <ol class="exercise-list-numbered">
+                <li>Leonardo is from Turkey. <input type="text" class="fill-in-blank" value="No, he isn't. He's from Brazil."></li>
+                <li>Min is 26. <input type="text" class="fill-in-blank"></li>
+                <li>Saleh is from Mexico. <input type="text" class="fill-in-blank"></li>
+                <li>Yumiko and Junko are from China. <input type="text" class="fill-in-blank"></li>
+                <li>Leonardo and Saleh are 29. <input type="text" class="fill-in-blank"></li>
+                <li>Pinar is from Japan. <input type="text" class="fill-in-blank"></li>
+                <li>Antonio is from Brazil. <input type="text" class="fill-in-blank"></li>
+                <li>Yumiko and Pinar are 19. <input type="text" class="fill-in-blank"></li>
+                <li>Berat and Pinar are from Saudi Arabia. <input type="text" class="fill-in-blank"></li>
+            </ol>
+        </div>
+
+        <!-- EXERCISE 6 PRESENT OF BE - image_bcb655.png -->
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 6 PRESENT OF BE</div>
+            <p class="font-semibold text-gray-700">GRAMMAR NOTES 1–2 Complete the email. Circle the correct answers.</p>
+            <div class="conversation-box">
+                <p>Dear Mom and Dad,</p>
+                <p>Maya and I am (are) in Seattle, but</p>
+                <p>we not / we're not at the Western Hotel any</p>
+                <p>longer. The Western Hotel isn't / aren't good.</p>
+                <p>It's / It expensive. The people isn't / aren't</p>
+                <p>friendly, and the rooms isn't / aren't clean.</p>
+                <p>It's / It also far from everything.</p>
+                <p>Now are / we're at the Pacific Hotel on Second Avenue. It's / Is clean, and it's / it not</p>
+                <p>expensive. The people here is / are great. We love Seattle. It is / are a beautiful city, and</p>
+                <p>the food is / are good. It's / Is cool at night, and our umbrella am / is always with us.</p>
+                <p>But are / we're happy to be here.</p>
+                <p>Love, Julie</p>
+
+                <!-- Interactive elements for Exercise 6 -->
+                <p class="mt-4">Maya and I <label><input type="radio" name="ex6_1" value="am"> am</label> <label><input type="radio" name="ex6_1" value="are" checked> are</label> in Seattle, but</p>
+                <p>we <label><input type="radio" name="ex6_2" value="not"> not</label> / <label><input type="radio" name="ex6_2" value="we're not" checked> we're not</label> at the Western Hotel any</p>
+                <p>longer. The Western Hotel <label><input type="radio" name="ex6_3" value="isn't" checked> isn't</label> / <label><input type="radio" name="ex6_3" value="aren't"> aren't</label> good.</p>
+                <p><label><input type="radio" name="ex6_4" value="It's" checked> It's</label> / <label><input type="radio" name="ex6_4" value="It"> It</label> expensive. The people <label><input type="radio" name="ex6_5" value="isn't"> isn't</label> / <label><input type="radio" name="ex6_5" value="aren't" checked> aren't</label></p>
+                <p>friendly, and the rooms <label><input type="radio" name="ex6_6" value="isn't"> isn't</label> / <label><input type="radio" name="ex6_6" value="aren't" checked> aren't</label> clean.</p>
+                <p><label><input type="radio" name="ex6_7" value="It's" checked> It's</label> / <label><input type="radio" name="ex6_7" value="It"> It</label> also far from everything.</p>
+                <p class="mt-4">Now <label><input type="radio" name="ex6_8" value="are"> are</label> / <label><input type="radio" name="ex6_8" value="we're" checked> we're</label> at the Pacific Hotel on Second Avenue. <label><input type="radio" name="ex6_9" value="It's" checked> It's</label> / <label><input type="radio" name="ex6_9" value="Is"> Is</label> clean, and <label><input type="radio" name="ex6_10" value="it's" checked> it's</label> / <label><input type="radio" name="ex6_10" value="it"> it</label> not</p>
+                <p>expensive. The people here <label><input type="radio" name="ex6_11" value="is"> is</label> / <label><input type="radio" name="ex6_11" value="are" checked> are</label> great. We love Seattle. It <label><input type="radio" name="ex6_12" value="is" checked> is</label> / <label><input type="radio" name="ex6_12" value="are"> are</label> a beautiful city, and</p>
+                <p>the food <label><input type="radio" name="ex6_13" value="is" checked> is</label> / <label><input type="radio" name="ex6_13" value="are"> are</label> good. <label><input type="radio" name="ex6_14" value="It's" checked> It's</label> / <label><input type="radio" name="ex6_14" value="Is"> Is</label> cool at night, and our umbrella <label><input type="radio" name="ex6_15" value="am"> am</label> / <label><input type="radio" name="ex6_15" value="is" checked> is</label> always with us.</p>
+                <p>But <label><input type="radio" name="ex6_16" value="are"> are</label> / <label><input type="radio" name="ex6_16" value="we're" checked> we're</label> happy to be here.</p>
+            </div>
+        </div>
+
+        <!-- EXERCISE 7 EDITING - image_bcb655.png -->
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 7 EDITING</div>
+            <p class="font-semibold text-gray-700">GRAMMAR NOTES 1–2 There are six mistakes in the conversations. The first mistake is corrected. Correct five more.</p>
+            <ol class="exercise-list-numbered">
+                <li><span class="font-bold">1. A:</span> The food <span class="underline-text">good</span>. <span class="text-green-600 ml-2">is</span><br><span class="font-bold">B:</span> You're right.</li>
+                <li><span class="font-bold">2. A:</span> My cousin from Tokyo. She's a student.<br><span class="font-bold">B:</span> I'm from Tokyo. I no am a student.</li>
+                <p>Correction: <input type="text" class="correction-input" value="My cousin is from Tokyo."></p>
+                <p>Correction: <input type="text" class="correction-input" value="I am not a student."></p>
+                <li><span class="font-bold">3. A:</span> Seattle is a big city in California.<br><span class="font-bold">B:</span> No, it's isn't. Seattle is in Washington.</li>
+                <p>Correction: <input type="text" class="correction-input" value="No, it isn't."></p>
+                <li><span class="font-bold">4. A:</span> The people is friendly here.<br><span class="font-bold">B:</span> I know. They're great.</li>
+                <p>Correction: <input type="text" class="correction-input" value="The people are friendly here."></p>
+                <li><span class="font-bold">5. A:</span> Sydney is a great city.<br><span class="font-bold">B:</span> Yes. Is beautiful.</li>
+                <p>Correction: <input type="text" class="correction-input" value="Yes. It is beautiful."></p>
+            </ol>
+        </div>
+
+        <!-- STEP 4: COMMUNICATION PRACTICE - image_bcb672.png -->
+        <div class="section-title">STEP 4 COMMUNICATION PRACTICE</div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 8 LISTENING</div>
+            <p class="font-semibold text-gray-700">A Listen to the conversation. Which sentence is true? Circle the correct answer.</p>
+            <div class="flex items-center gap-4 mb-4">
+                <img src="fog-1-3/11.png" alt="Hình ảnh một đầu bếp">
+                <p class="font-bold">a chef</p>
+            </div>
+            <div class="radio-group">
+                <label><input type="radio" name="ex8_a" value="a"> a. The woman is a student, and the man is a chef.</label>
+                <label><input type="radio" name="ex8_a" value="b"> b. The woman and the man are chefs.</label>
+                <label><input type="radio" name="ex8_a" value="c"> c. The woman is a chef, and the man is a student.</label>
+            </div>
+
+            <p class="font-semibold text-gray-700 mt-8">B Listen again. For each statement, check (✓) True or False.</p>
+            <table class="table-data">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>True</th>
+                        <th>False</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. The man is from Italy.</td>
+                        <td><input type="checkbox" name="ex8_b_1_true" checked></td>
+                        <td><input type="checkbox" name="ex8_b_1_false"></td>
+                    </tr>
+                    <tr>
+                        <td>2. The woman is from Australia.</td>
+                        <td><input type="checkbox" name="ex8_b_2_true"></td>
+                        <td><input type="checkbox" name="ex8_b_2_false"></td>
+                    </tr>
+                    <tr>
+                        <td>3. The woman's parents are from Australia.</td>
+                        <td><input type="checkbox" name="ex8_b_3_true"></td>
+                        <td><input type="checkbox" name="ex8_b_3_false"></td>
+                    </tr>
+                    <tr>
+                        <td>4. The woman says Italian food is good.</td>
+                        <td><input type="checkbox" name="ex8_b_4_true"></td>
+                        <td><input type="checkbox" name="ex8_b_4_false"></td>
+                    </tr>
+                    <tr>
+                        <td>5. Italian food is not popular in Australia.</td>
+                        <td><input type="checkbox" name="ex8_b_5_true"></td>
+                        <td><input type="checkbox" name="ex8_b_5_false"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="font-semibold text-gray-700 mt-8">C Work with a partner. Say something true and something false about the woman and the man. Your partner changes the false sentence.</p>
+            <p><span class="font-bold">EXAMPLE: A:</span> Matteo is from Australia.</p>
+            <p><span class="font-bold">B:</span> Matteo isn't from Australia. He's from...</p>
+        </div>
+
+        <!-- EXERCISE 9 I'M NOT A TEACHER - image_bcb672.png -->
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 9 I'M NOT A TEACHER</div>
+            <p class="font-semibold text-gray-700">A CONVERSATION Prepare for a conversation. First, write true sentences. Use the words in parentheses.</p>
+            <ol class="exercise-list-numbered">
+                <li>(I / a teacher) <input type="text" class="fill-in-blank"></li>
+                <li>(I / from Italy) <input type="text" class="fill-in-blank"></li>
+                <li>(I / happy) <input type="text" class="fill-in-blank"></li>
+                <li>(I / from a big city) <input type="text" class="fill-in-blank"></li>
+                <li>(I / from a big family) <input type="text" class="fill-in-blank"></li>
+                <li>(My parents / from Seattle) <input type="text" class="fill-in-blank"></li>
+                <li>(My parents / in Australia) <input type="text" class="fill-in-blank"></li>
+                <li>(My city / clean) <input type="text" class="fill-in-blank"></li>
+                <li>(People in my city / friendly) <input type="text" class="fill-in-blank"></li>
+                <li>(My city / fun) <input type="text" class="fill-in-blank"></li>
+            </ol>
+        </div>
+
+        <!-- EXERCISE 10 THAT'S NOT TRUE! - image_bcb68e.png -->
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 10 THAT'S NOT TRUE!</div>
+            <p class="font-semibold text-gray-700">A GAME Work in a group. Make up one true statement and one false statement about each student. Use the information in Exercise 9 or your own information.</p>
+            <p class="font-semibold text-gray-700 mt-4">B Work with another group. Say your statements from A. The other group guesses if they are true or false.</p>
+            <p><span class="font-bold">EXAMPLE: GROUP A:</span> Ali is from a big family. He's from a big city.</p>
+            <p><span class="font-bold">GROUP B:</span> Ali is from a big family. That's true. But he's not from a big city! That's false!</p>
+        </div>
+
+        <!-- EXERCISE 11 THE PEOPLE ARE FRIENDLY HERE! - image_bcb68e.png -->
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 11 THE PEOPLE ARE FRIENDLY HERE!</div>
+            <p class="font-semibold text-gray-700">CONVERSATION Work with a partner. Talk about the city you are in and the people in it. Use I agree or I disagree in your conversation. Use the words in the box.</p>
+            <div class="flex flex-wrap gap-2 mt-4 mb-4">
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">boring</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">cheap</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">dirty</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">friendly</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">great</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">beautiful</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">clean</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">expensive</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">fun</span>
+                <span class="px-3 py-1 bg-gray-200 rounded-full text-sm">unfriendly</span>
+            </div>
+            <p><span class="font-bold">EXAMPLE: A:</span> The people are friendly here.</p>
+            <p><span class="font-bold">B:</span> I agree. And the city is clean.</p>
+            <p><span class="font-bold">A:</span> Well, some places are dirty. The West Side isn't dirty. It's clean!</p>
+            <p><span class="font-bold">B:</span> I disagree. The West Side isn't dirty. It's clean!</p>
+        </div>
+
+        <!-- FROM GRAMMAR TO WRITING - image_bcb6ab.png -->
+        <div class="section-title">FROM GRAMMAR TO WRITING</div>
+        <p class="font-semibold text-gray-700">A BEFORE YOU WRITE Read about a city. Underline the verb *be*. Then complete the chart about a city you know. Work with a partner. Tell your partner about the city.</p>
+
+        <div class="mt-4 mb-4">
+            <img src="fog-1-3/12.png" alt="Hình ảnh thành phố Bogota">
+            <div class="conversation-box mt-4">
+                <p><span class="font-bold">Bogotá is</span> a city in Colombia. <span class="font-bold">It's</span> great. <span class="font-bold">It's</span> not cold in winter. <span class="font-bold">It's</span> not hot in summer. The people <span class="font-bold">are</span> friendly, and the parks <span class="font-bold">are</span> fun. I love Bogotá.</p>
+            </div>
+        </div>
+
+        <table class="table-data">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Bogotá</th>
+                    <th><input type="text" class="fill-in-blank" placeholder="City Name"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>City</td><td>Bogotá</td><td><input type="text" class="fill-in-blank"></td></tr>
+                <tr><td>Country</td><td>Colombia</td><td><input type="text" class="fill-in-blank"></td></tr>
+                <tr><td>Weather</td><td>good</td><td><input type="text" class="fill-in-blank"></td></tr>
+                <tr><td>People</td><td>friendly</td><td><input type="text" class="fill-in-blank"></td></tr>
+                <tr><td>Parks</td><td>fun</td><td><input type="text" class="fill-in-blank"></td></tr>
+            </tbody>
+        </table>
+
+        <p class="font-semibold text-gray-700 mt-8">B WRITE Write a paragraph about a city. Use the present of *be*. Use the paragraph in A and your chart to help you.</p>
+        <textarea class="w-full p-3 border rounded-md mt-4" rows="8" placeholder="Viết đoạn văn của bạn ở đây..."></textarea>
+
+        <p class="font-semibold text-gray-700 mt-8">C CHECK YOUR WORK Read your paragraph in B. Underline the present of *be*. Then use the Editing Checklist to check your work.</p>
+        <div class="conversation-box bg-blue-50">
+            <h3 class="font-bold text-blue-800 mb-2">Editing Checklist</h3>
+            <ul class="list-disc list-inside">
+                <li><label><input type="checkbox"> Did you ...?</label></li>
+                <li><label><input type="checkbox"> use *I + am; he, she, and it + is; and we, you, they + are*</label></li>
+                <li><label><input type="checkbox"> use *not* after the verb *be* for the negative</label></li>
+                <li><label><input type="checkbox"> use a subject and a verb in every sentence</label></li>
+                <li><label><input type="checkbox"> check your spelling</label></li>
+            </ul>
+        </div>
+
+        <p class="font-semibold text-gray-700 mt-8">D REVISE YOUR WORK Read your paragraph again. Can you improve your writing?</p>
+        <p class="font-semibold text-gray-700">Make changes if necessary.</p>
+
+        <!-- UNIT 3 REVIEW - image_bd0c66.png -->
+        <div class="section-title">UNIT 3 REVIEW</div>
+        <p class="font-semibold text-gray-700">Test yourself on the grammar of the unit.</p>
+
+        <div class="exercise-section">
+            <p class="font-semibold text-gray-700">A Complete the sentences with *She is, He is, It is, We are,* or *They are*.</p>
+            <ol class="exercise-list-numbered">
+                <li>This park isn't clean. <input type="text" class="fill-in-blank"> dirty.</li>
+                <li>My brother is not a student. <input type="text" class="fill-in-blank"> a teacher.</li>
+                <li>Amy is from Australia. <input type="text" class="fill-in-blank"> in Seattle now.</li>
+                <li>Michelle and Lisa are not sisters. <input type="text" class="fill-in-blank"> cousins.</li>
+                <li>My friends and I aren't from Japan. <input type="text" class="fill-in-blank"> from China.</li>
+            </ol>
+        </div>
+
+        <div class="exercise-section">
+            <p class="font-semibold text-gray-700">B Rewrite the sentences. Use contractions.</p>
+            <ol class="exercise-list-numbered">
+                <li>It is boring. <input type="text" class="fill-in-blank"></li>
+                <li>They are not from Brazil. <input type="text" class="fill-in-blank"></li>
+                <li>I am not a chef. <input type="text" class="fill-in-blank"></li>
+                <li>He is not in Australia. <input type="text" class="fill-in-blank"></li>
+                <li>We are in class. <input type="text" class="fill-in-blank"></li>
+            </ol>
+        </div>
+
+        <div class="exercise-section">
+            <p class="font-semibold text-gray-700">C Correct the conversation. There are five mistakes.</p>
+            <div class="conversation-box">
+                <p><span class="font-bold">A:</span> Ali from Canada. He a student.</p>
+                <p>Correction: <input type="text" class="correction-input" value="Ali is from Canada. He is a student."></p>
+                <p><span class="font-bold">B:</span> No. Ali no is a student. He's a chef.</p>
+                <p>Correction: <input type="text" class="correction-input" value="No. Ali is not a student."></p>
+                <p><span class="font-bold">A:</span> Oh. I a student. I'm a teacher, too. I be an English language student. I'm a</p>
+                <p>Portuguese language teacher.</p>
+                <p>Correction: <input type="text" class="correction-input" value="Oh. I am a student."></p>
+                <p>Correction: <input type="text" class="correction-input" value="I am an English language student."></p>
+            </div>
+        </div>
+
+        <p class="font-semibold text-gray-700 mt-8">Now check your answers on page 379.</p>
+
+    </div>
+</body>
+</html>
