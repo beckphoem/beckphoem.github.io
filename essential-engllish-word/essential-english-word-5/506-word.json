@@ -1,0 +1,826 @@
+[
+  {
+    "word": "altitude",
+    "ipa": "/ˈæl.tɪ.tjuːd/",
+    "meaning": "độ cao (so với mực nước biển).",
+    "image": "eew-5-6/1.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the height of an object or point in relation to sea level or ground level.",
+        "meaning-example": "chiều cao của một vật thể hoặc điểm so với mực nước biển hoặc mặt đất.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“I’ll walk to a higher altitude, so I can see everything around me,” thought Bob.",
+        "meaning-example": "“Tôi sẽ đi bộ lên một độ cao cao hơn, để tôi có thể nhìn thấy mọi thứ xung quanh mình,” Bob nghĩ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We are flying at an altitude of 10,000 meters.",
+        "meaning-example": "Chúng tôi đang bay ở độ cao 10.000 mét.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The plane reached its cruising altitude.",
+        "meaning-example": "Máy bay đã đạt đến độ cao bay ổn định.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "It's hard to breathe at high altitudes.",
+        "meaning-example": "Thật khó thở ở độ cao lớn.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "coastline",
+    "ipa": "/ˈkəʊst.laɪn/",
+    "meaning": "đường bờ biển.",
+    "image": "eew-5-6/2.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the line where the land meets the sea.",
+        "meaning-example": "đường nơi đất liền gặp biển.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Even though his shoulder injury impaired his ability to carry the materials, he slowly dragged them down the mountain until he reached the coastline.",
+        "meaning-example": "Mặc dù chấn thương vai làm suy giảm khả năng mang vác vật liệu, anh ấy đã từ từ kéo chúng xuống núi cho đến khi đến đường bờ biển.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Vietnam has a long coastline.",
+        "meaning-example": "Việt Nam có đường bờ biển dài.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We walked along the coastline.",
+        "meaning-example": "Chúng tôi đi bộ dọc theo đường bờ biển.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The hotel has beautiful views of the coastline.",
+        "meaning-example": "Khách sạn có tầm nhìn tuyệt đẹp ra đường bờ biển.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "deter",
+    "ipa": "/dɪˈtɜːr/",
+    "meaning": "ngăn cản, làm nản lòng.",
+    "image": "eew-5-6/3.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to discourage someone from doing something by instilling doubt or fear of the consequences.",
+        "meaning-example": "làm nản lòng ai đó không làm điều gì đó bằng cách gieo rắc sự nghi ngờ hoặc sợ hãi về hậu quả.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "It prevented the pain from deterring me from my plan.",
+        "meaning-example": "Nó đã ngăn cơn đau làm tôi nản lòng với kế hoạch của mình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "High prices deter many people from buying a house.",
+        "meaning-example": "Giá cao ngăn cản nhiều người mua nhà.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The rain didn't deter them from going for a walk.",
+        "meaning-example": "Cơn mưa không ngăn cản họ đi dạo.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The warning signs are there to deter trespassers.",
+        "meaning-example": "Các biển báo cảnh báo ở đó để ngăn chặn những kẻ xâm nhập.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "devise",
+    "ipa": "/dɪˈvaɪz/",
+    "meaning": "nghĩ ra, sáng chế, lập (kế hoạch).",
+    "image": "eew-5-6/4.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to invent a plan, system, object, etc., usually cleverly or imaginatively.",
+        "meaning-example": "sáng chế ra một kế hoạch, hệ thống, đối tượng, v.v., thường một cách thông minh hoặc giàu trí tưởng tượng.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He had to tolerate all the pain and devise a plan.",
+        "meaning-example": "Anh ấy phải chịu đựng mọi cơn đau và lập ra một kế hoạch.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We need to devise a new way to solve this problem.",
+        "meaning-example": "Chúng ta cần nghĩ ra một cách mới để giải quyết vấn đề này.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He devised a plan to escape.",
+        "meaning-example": "Anh ta đã nghĩ ra một kế hoạch để trốn thoát.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The students must devise an experiment.",
+        "meaning-example": "Các sinh viên phải nghĩ ra một thí nghiệm.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "expertise",
+    "ipa": "/ˌek.spɜːˈtiːz/",
+    "meaning": "chuyên môn, sự thành thạo.",
+    "image": "eew-5-6/5.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a high level of knowledge or skill.",
+        "meaning-example": "một trình độ kiến thức hoặc kỹ năng cao.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He used his building expertise to line up the limbs and tie them together with long vines.",
+        "meaning-example": "Anh ấy đã sử dụng chuyên môn xây dựng của mình để sắp xếp các cành cây và buộc chúng lại với nhau bằng những sợi dây leo dài.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We need someone with legal expertise.",
+        "meaning-example": "Chúng tôi cần một người có chuyên môn về pháp lý.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "She has a lot of expertise in marketing.",
+        "meaning-example": "Cô ấy có rất nhiều chuyên môn về tiếp thị.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "I don't have the expertise to fix this computer.",
+        "meaning-example": "Tôi không có chuyên môn để sửa chiếc máy tính này.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "fracture",
+    "ipa": "/ˈfræk.tʃər/",
+    "meaning": "vết nứt, chỗ gãy (xương).",
+    "image": "eew-5-6/6.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a break or crack in something hard, especially a bone.",
+        "meaning-example": "một vết gãy hoặc nứt ở một vật cứng, đặc biệt là xương.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He had a terrible migraine, and he had a fracture in his shoulder.",
+        "meaning-example": "Anh ấy bị đau nửa đầu kinh khủng, và anh ấy bị gãy xương ở vai.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He has a fracture in his leg.",
+        "meaning-example": "Anh ấy bị gãy xương ở chân.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The doctor confirmed it was a small fracture.",
+        "meaning-example": "Bác sĩ xác nhận đó là một vết gãy nhỏ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "It took six weeks for the fracture to heal.",
+        "meaning-example": "Phải mất sáu tuần để vết gãy lành lại.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "impair",
+    "ipa": "/ɪmˈpeər/",
+    "meaning": "làm suy yếu, làm hỏng.",
+    "image": "eew-5-6/7.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to spoil something or make it weaker so that it is less effective.",
+        "meaning-example": "làm hỏng một cái gì đó hoặc làm cho nó yếu đi để nó kém hiệu quả hơn.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Even though his shoulder injury impaired his ability to carry the materials, he slowly dragged them down the mountain until he reached the coastline.",
+        "meaning-example": "Mặc dù chấn thương vai làm suy giảm khả năng mang vác vật liệu, anh ấy đã từ từ kéo chúng xuống núi cho đến khi đến đường bờ biển.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Lack of sleep can impair your ability to drive.",
+        "meaning-example": "Thiếu ngủ có thể làm suy giảm khả năng lái xe của bạn.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Drinking alcohol will impair your judgment.",
+        "meaning-example": "Uống rượu sẽ làm suy giảm khả năng phán đoán của bạn.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "His hearing was impaired by the loud noise.",
+        "meaning-example": "Thính giác của anh ấy bị suy giảm do tiếng ồn lớn.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "implement",
+    "ipa": "/ˈɪm.plɪ.ment/",
+    "meaning": "thực hiện, thi hành.",
+    "image": "eew-5-6/8.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to put a plan or system into operation.",
+        "meaning-example": "đưa một kế hoạch hoặc hệ thống vào hoạt động.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "At last, Bob was ready to implement his escape plan.",
+        "meaning-example": "Cuối cùng, Bob đã sẵn sàng thực hiện kế hoạch trốn thoát của mình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The government will implement the new policy next year.",
+        "meaning-example": "Chính phủ sẽ thực hiện chính sách mới vào năm tới.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We need to implement these changes as soon as possible.",
+        "meaning-example": "Chúng ta cần thực hiện những thay đổi này càng sớm càng tốt.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "It is time to implement the plan.",
+        "meaning-example": "Đã đến lúc thực hiện kế hoạch.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "indigenous",
+    "ipa": "/ɪnˈdɪdʒ.ɪ.nəs/",
+    "meaning": "bản địa, bản xứ.",
+    "image": "eew-5-6/9.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "naturally existing in a place or country rather than arriving from another place.",
+        "meaning-example": "tồn tại tự nhiên ở một nơi hoặc một quốc gia chứ không phải đến từ một nơi khác.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "As he walked along a mountain ridge, he noticed that the tall indigenous trees looked sturdy and thick.",
+        "meaning-example": "Khi anh đi dọc theo một sườn núi, anh nhận thấy những cây bản địa cao lớn trông chắc chắn và dày.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The kangaroo is indigenous to Australia.",
+        "meaning-example": "Chuột túi là loài bản địa của Úc.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We want to protect the rights of indigenous people.",
+        "meaning-example": "Chúng tôi muốn bảo vệ quyền của người dân bản địa.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "This plant is indigenous to the Amazon rainforest.",
+        "meaning-example": "Loài thực vật này là bản địa của rừng nhiệt đới Amazon.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "insight",
+    "ipa": "/ˈɪn.saɪt/",
+    "meaning": "sự thấu hiểu, cái nhìn sâu sắc.",
+    "image": "eew-5-6/10.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a clear, deep, and sometimes sudden understanding of a complicated problem or situation.",
+        "meaning-example": "một sự hiểu biết rõ ràng, sâu sắc và đôi khi đột ngột về một vấn đề hoặc tình huống phức tạp.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“Maybe I’ll gain some insight about this island and find something to help me escape.”",
+        "meaning-example": "“Có lẽ tôi sẽ có được một số hiểu biết sâu sắc về hòn đảo này và tìm thấy thứ gì đó để giúp tôi trốn thoát.”",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The book gives a real insight into the lives of the poor.",
+        "meaning-example": "Cuốn sách mang đến một cái nhìn sâu sắc thực sự về cuộc sống của người nghèo.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "His experience gave him a unique insight into the problem.",
+        "meaning-example": "Kinh nghiệm của anh ấy đã cho anh ấy một cái nhìn sâu sắc độc đáo về vấn đề này.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Can you offer any insight on this matter?",
+        "meaning-example": "Bạn có thể đưa ra bất kỳ cái nhìn sâu sắc nào về vấn đề này không?",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "limb",
+    "ipa": "/lɪm/",
+    "meaning": "cành cây; hoặc chân, tay của người.",
+    "image": "eew-5-6/11.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "an arm or leg of a person or animal; a large branch of a tree.",
+        "meaning-example": "cánh tay hoặc chân của người hoặc động vật; một cành lớn của cây.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He cut down some leaves and tree limbs.",
+        "meaning-example": "Anh ta chặt một ít lá và cành cây.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "A strong wind broke a limb from the tree.",
+        "meaning-example": "Một trận gió mạnh đã làm gãy một cành cây.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Be careful not to fall and break a limb.",
+        "meaning-example": "Hãy cẩn thận để không bị ngã và gãy chân tay.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The monkey was swinging from limb to limb.",
+        "meaning-example": "Con khỉ đang chuyền từ cành này sang cành khác.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "migraine",
+    "ipa": "/ˈmaɪ.ɡreɪn/",
+    "meaning": "chứng đau nửa đầu.",
+    "image": "eew-5-6/12.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a severe continuous pain in the head, often with sickness and difficulty in seeing.",
+        "meaning-example": "một cơn đau liên tục dữ dội ở đầu, thường kèm theo cảm giác buồn nôn và khó nhìn.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He had a terrible migraine, and he had a fracture in his shoulder.",
+        "meaning-example": "Anh ấy bị đau nửa đầu kinh khủng, và anh ấy bị gãy xương ở vai.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "I have a terrible migraine today.",
+        "meaning-example": "Hôm nay tôi bị đau nửa đầu kinh khủng.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "She suffers from frequent migraines.",
+        "meaning-example": "Cô ấy bị chứng đau nửa đầu thường xuyên.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Stress can sometimes cause a migraine.",
+        "meaning-example": "Căng thẳng đôi khi có thể gây ra chứng đau nửa đầu.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "optimism",
+    "ipa": "/ˈɒp.tɪ.mɪ.zəm/",
+    "meaning": "sự lạc quan, tinh thần lạc quan.",
+    "image": "eew-5-6/13.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the quality of being full of hope and emphasizing the good parts of a situation, or a belief that something good will happen.",
+        "meaning-example": "phẩm chất tràn đầy hy vọng và nhấn mạnh những phần tốt đẹp của một tình huống, hoặc niềm tin rằng điều gì đó tốt đẹp sẽ xảy ra.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Optimism and ambition make anything possible.",
+        "meaning-example": "Sự lạc quan và tham vọng làm cho mọi thứ đều có thể.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He is full of optimism about the future.",
+        "meaning-example": "Anh ấy tràn đầy lạc quan về tương lai.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "There is a feeling of optimism in the country.",
+        "meaning-example": "Có một cảm giác lạc quan trong cả nước.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Her optimism is a great quality.",
+        "meaning-example": "Sự lạc quan của cô ấy là một phẩm chất tuyệt vời.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "peculiar",
+    "ipa": "/pɪˈkjuː.li.ər/",
+    "meaning": "kỳ lạ, khác thường, đặc biệt.",
+    "image": "eew-5-6/14.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "unusual and strange, sometimes in an unpleasant way.",
+        "meaning-example": "bất thường và kỳ lạ, đôi khi theo một cách khó chịu.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“Where am I?” Bob thought to himself when he woke up on a peculiar beach.",
+        "meaning-example": "“Mình đang ở đâu?” Bob tự nghĩ khi tỉnh dậy trên một bãi biển kỳ lạ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The food had a peculiar taste.",
+        "meaning-example": "Thức ăn có một hương vị kỳ lạ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He has a very peculiar way of walking.",
+        "meaning-example": "Anh ta có một cách đi bộ rất kỳ lạ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "That's a peculiar question to ask.",
+        "meaning-example": "Đó là một câu hỏi kỳ lạ để hỏi.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "proficient",
+    "ipa": "/prəˈfɪʃ.ənt/",
+    "meaning": "thành thạo, tài giỏi.",
+    "image": "eew-5-6/15.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "skilled and experienced.",
+        "meaning-example": "có kỹ năng và kinh nghiệm.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Bob was a proficient builder.",
+        "meaning-example": "Bob là một người xây dựng thành thạo.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "She is proficient in two languages.",
+        "meaning-example": "Cô ấy thành thạo hai ngôn ngữ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He is a proficient driver.",
+        "meaning-example": "Anh ấy là một người lái xe thành thạo.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "You need to become proficient with the software.",
+        "meaning-example": "Bạn cần phải thành thạo phần mềm.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "quest",
+    "ipa": "/kwest/",
+    "meaning": "cuộc tìm kiếm, cuộc truy lùng (thường dài và khó khăn).",
+    "image": "eew-5-6/16.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a long search for something that is difficult to find.",
+        "meaning-example": "một cuộc tìm kiếm dài cho một cái gì đó khó tìm.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He climbed on and began the quest to find his way home.",
+        "meaning-example": "Anh trèo lên và bắt đầu cuộc tìm kiếm để tìm đường về nhà.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He is on a quest for knowledge.",
+        "meaning-example": "Anh ấy đang trên một cuộc tìm kiếm kiến thức.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The hero went on a quest to find the treasure.",
+        "meaning-example": "Người anh hùng đã bắt đầu một cuộc tìm kiếm để tìm kho báu.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Her quest for a new job was finally successful.",
+        "meaning-example": "Cuộc tìm kiếm một công việc mới của cô ấy cuối cùng đã thành công.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "ridge",
+    "ipa": "/rɪdʒ/",
+    "meaning": "sườn núi, chóp, gờ.",
+    "image": "eew-5-6/17.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a long, narrow raised part of a surface, especially a high edge along a mountain.",
+        "meaning-example": "một phần bề mặt nhô cao, dài và hẹp, đặc biệt là một cạnh cao dọc theo một ngọn núi.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "As he walked along a mountain ridge, he noticed that the tall indigenous trees looked sturdy and thick.",
+        "meaning-example": "Khi anh đi dọc theo một sườn núi, anh nhận thấy những cây bản địa cao lớn trông chắc chắn và dày.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We walked along the ridge of the hill.",
+        "meaning-example": "Chúng tôi đi bộ dọc theo sườn đồi.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The house is built on a high ridge.",
+        "meaning-example": "Ngôi nhà được xây dựng trên một sườn núi cao.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "There was snow on the mountain ridge.",
+        "meaning-example": "Có tuyết trên sườn núi.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "spouse",
+    "ipa": "/spaʊs/",
+    "meaning": "vợ hoặc chồng.",
+    "image": "eew-5-6/18.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a person's husband or wife.",
+        "meaning-example": "chồng hoặc vợ của một người.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "But he had a strong desire to make it home to his spouse and children.",
+        "meaning-example": "Nhưng anh ấy có một mong muốn mạnh mẽ để trở về nhà với vợ và các con của mình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Please bring your spouse to the party.",
+        "meaning-example": "Vui lòng đưa vợ/chồng của bạn đến bữa tiệc.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "You need your spouse's signature on this form.",
+        "meaning-example": "Bạn cần chữ ký của vợ/chồng của bạn trên biểu mẫu này.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He lives with his spouse in a small apartment.",
+        "meaning-example": "Anh ấy sống cùng vợ/chồng trong một căn hộ nhỏ.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "thrust",
+    "ipa": "/θrʌst/",
+    "meaning": "đẩy mạnh, xô, thọc.",
+    "image": "eew-5-6/19.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to push suddenly and strongly.",
+        "meaning-example": "đẩy đột ngột và mạnh.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "With all his might, he thrust the raft into the water.",
+        "meaning-example": "Với tất cả sức lực của mình, anh ấy đẩy chiếc bè xuống nước.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He thrust his hands into his pockets.",
+        "meaning-example": "Anh ta đút tay vào túi quần.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "She thrust the letter into my hand.",
+        "meaning-example": "Cô ấy dúi lá thư vào tay tôi.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "The engine provides a lot of thrust.",
+        "meaning-example": "Động cơ cung cấp rất nhiều lực đẩy.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "word": "tolerate",
+    "ipa": "/ˈtɒl.ə.reɪt/",
+    "meaning": "chịu đựng, tha thứ, chấp nhận.",
+    "image": "eew-5-6/20.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to accept behaviour and beliefs that are different from your own, although you might not agree with or approve of them.",
+        "meaning-example": "chấp nhận hành vi và niềm tin khác với của riêng bạn, mặc dù bạn có thể không đồng ý hoặc tán thành chúng.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He had to tolerate all the pain and devise a plan.",
+        "meaning-example": "Anh ấy phải chịu đựng mọi cơn đau và lập ra một kế hoạch.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "I cannot tolerate his rude behavior.",
+        "meaning-example": "Tôi không thể chịu đựng hành vi thô lỗ của anh ta.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "She can't tolerate cow's milk.",
+        "meaning-example": "Cô ấy không thể dung nạp sữa bò.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "We have to tolerate each other's differences.",
+        "meaning-example": "Chúng ta phải chấp nhận sự khác biệt của nhau.",
+        "ipa-example": ""
+      }
+    ]
+  },
+  {
+    "example": [
+      {
+        "sentence": "“Where am I?” Bob thought to himself when he woke up on a peculiar beach.",
+        "meaning-example": "“Mình đang ở đâu?” Bob tự nghĩ khi tỉnh dậy trên một bãi biển kỳ lạ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“I can’t remember what happened.”",
+        "meaning-example": "“Tôi không thể nhớ chuyện gì đã xảy ra.”",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "There had been a bad storm, and Bob’s fishing boat sunk.",
+        "meaning-example": "Đã có một cơn bão tồi tệ, và chiếc thuyền đánh cá của Bob đã bị chìm.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He washed ashore on a small island, but he had gotten hurt during the storm.",
+        "meaning-example": "Anh ấy dạt vào bờ một hòn đảo nhỏ, nhưng anh ấy đã bị thương trong cơn bão.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He had a terrible migraine, and he had a fracture in his shoulder.",
+        "meaning-example": "Anh ấy bị đau nửa đầu kinh khủng, và anh ấy bị gãy xương ở vai.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He felt awful.",
+        "meaning-example": "Anh ấy cảm thấy tồi tệ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "But he had a strong desire to make it home to his spouse and children.",
+        "meaning-example": "Nhưng anh ấy có một mong muốn mạnh mẽ để trở về nhà với vợ và các con của mình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He had to tolerate all the pain and devise a plan.",
+        "meaning-example": "Anh ấy phải chịu đựng mọi cơn đau và lập ra một kế hoạch.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Bob stood up and looked around.",
+        "meaning-example": "Bob đứng dậy và nhìn xung quanh.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“I’ll walk to a higher altitude, so I can see everything around me,” thought Bob.",
+        "meaning-example": "“Tôi sẽ đi bộ lên một độ cao cao hơn, để tôi có thể nhìn thấy mọi thứ xung quanh mình,” Bob nghĩ.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“Maybe I’ll gain some insight about this island and find something to help me escape.”",
+        "meaning-example": "“Có lẽ tôi sẽ có được một số hiểu biết sâu sắc về hòn đảo này và tìm thấy thứ gì đó để giúp tôi trốn thoát.”",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "As he walked along a mountain ridge, he noticed that the tall indigenous trees looked sturdy and thick.",
+        "meaning-example": "Khi anh đi dọc theo một sườn núi, anh nhận thấy những cây bản địa cao lớn trông chắc chắn và dày.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Bob got a brilliant idea.",
+        "meaning-example": "Bob nảy ra một ý tưởng tuyệt vời.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He could build a raft!",
+        "meaning-example": "Anh ấy có thể đóng một chiếc bè!",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He cut down some leaves and tree limbs.",
+        "meaning-example": "Anh ta chặt một ít lá và cành cây.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Even though his shoulder injury impaired his ability to carry the materials, he slowly dragged them down the mountain until he reached the coastline.",
+        "meaning-example": "Mặc dù chấn thương vai làm suy giảm khả năng mang vác vật liệu, anh ấy đã từ từ kéo chúng xuống núi cho đến khi đến đường bờ biển.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Bob was a proficient builder.",
+        "meaning-example": "Bob là một người xây dựng thành thạo.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He used his building expertise to line up the limbs and tie them together with long vines.",
+        "meaning-example": "Anh ấy đã sử dụng chuyên môn xây dựng của mình để sắp xếp các cành cây và buộc chúng lại với nhau bằng những sợi dây leo dài.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "When the raft was finished, Bob was happy with his work.",
+        "meaning-example": "Khi chiếc bè hoàn thành, Bob hài lòng với công việc của mình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "“This will bring me home to my family,” he said with a smile.",
+        "meaning-example": "“Cái này sẽ đưa tôi về nhà với gia đình của tôi,” anh nói với một nụ cười.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "At last, Bob was ready to implement his escape plan.",
+        "meaning-example": "Cuối cùng, Bob đã sẵn sàng thực hiện kế hoạch trốn thoát của mình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "With all his might, he thrust the raft into the water.",
+        "meaning-example": "Với tất cả sức lực của mình, anh ấy đẩy chiếc bè xuống nước.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "He climbed on and began the quest to find his way home.",
+        "meaning-example": "Anh trèo lên và bắt đầu cuộc tìm kiếm để tìm đường về nhà.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Bob smiled again, and thought, “I’m glad I kept a good attitude.",
+        "meaning-example": "Bob lại mỉm cười và nghĩ, “Tôi rất vui vì đã giữ một thái độ tốt.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "It prevented the pain from deterring me from my plan.",
+        "meaning-example": "Nó đã ngăn cơn đau làm tôi nản lòng với kế hoạch của mình.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Optimism and ambition make anything possible.”",
+        "meaning-example": "Sự lạc quan và tham vọng làm cho mọi thứ đều có thể.”",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "Slowly, he floated out to sea.",
+        "meaning-example": "Từ từ, anh trôi ra biển.",
+        "ipa-example": ""
+      },
+      {
+        "sentence": "In a few days, he made it to shore and ran home to see his happy family.",
+        "meaning-example": "Trong vài ngày, anh đã vào bờ và chạy về nhà để gặp gia đình hạnh phúc của mình.",
+        "ipa-example": ""
+      }
+    ]
+  }
+]
