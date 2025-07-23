@@ -19,6 +19,7 @@ At last, Bob was ready to **implement** his escape plan. With all his might, he 
 ## List of word
 
 altitude
+
 coastline
 deter
 devise

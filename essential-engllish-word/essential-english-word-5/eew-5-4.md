@@ -26,6 +26,7 @@ All **transactions** with Pig’s factory stopped. The factory lost money, and P
 ## List of words
 
 administrator
+
 merchandise
 headquarters
 incentive

@@ -39,6 +39,7 @@ He had learned an important lesson. He learned that **intellect** isn’t everyt
 ## List of words
 
 analytic
+
 assert
 bachelor
 calculus

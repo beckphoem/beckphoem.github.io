@@ -28,8 +28,8 @@ The discovery received a lot of **publicity**. Soon after, the new drug was bein
 
 ## List of words
 
------
 assess
+
 astonish
 commence
 essence
