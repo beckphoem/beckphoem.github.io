@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Tiếng Anh</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .exercise-section {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            padding: 1.5rem; /* p-6 */
+            margin-bottom: 1.5rem; /* mb-6 */
+        }
+        .exercise-title {
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 600; /* font-semibold */
+            margin-bottom: 1rem; /* mb-4 */
+            color: #1f2937; /* text-gray-800 */
+        }
+        .section-header {
+            background-color: #4f46e5; /* indigo-600 */
+            color: #ffffff;
+            padding: 0.75rem 1.5rem; /* py-3 px-6 */
+            border-radius: 0.5rem; /* rounded-lg */
+            margin-bottom: 1.5rem; /* mb-6 */
+            font-size: 1.5rem; /* text-2xl */
+            font-weight: 700; /* font-bold */
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .fill-in-the-blank input {
+            border: 1px solid #d1d5db; /* border-gray-300 */
+            border-radius: 0.375rem; /* rounded-md */
+            padding: 0.25rem 0.5rem; /* px-2 py-1 */
+            width: 150px; /* Adjust as needed */
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .fill-in-the-blank input:focus {
+            border-color: #4f46e5; /* indigo-600 */
+        }
+        .choice-selection label {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+        .choice-selection input[type="radio"] {
+            margin-right: 0.5rem;
+        }
+        .circle-selection span {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border: 1px solid #d1d5db;
+            border-radius: 9999px; /* rounded-full */
+            margin-right: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+        .circle-selection span.selected {
+            background-color: #4f46e5;
+            color: #ffffff;
+            border-color: #4f46e5;
+        }
+        .line-break {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px dashed #e5e7eb;
+        }
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 0.5rem;
+        }
+        .match-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .match-item input {
+            border: 1px solid #d1d5db;
+            border-radius: 0.375rem;
+            padding: 0.25rem 0.5rem;
+            width: 50px;
+            text-align: center;
+            outline: none;
+        }
+        .match-item input:focus {
+            border-color: #4f46e5;
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="container mx-auto">
+        <!-- PART I Header -->
+        <div class="section-header">
+            PART I THIS IS / THESE ARE; SUBJECT PRONOUNS; NOUNS
+        </div>
+
+        <!-- Unit 1 Header -->
+        <div class="bg-indigo-500 text-white py-2 px-4 rounded-lg mb-6 text-xl font-semibold text-center">
+            UNIT 1 This is / These are; Subject Pronouns
+        </div>
+
+        <!-- Exercise 1: Text Completion (image_1e48e1.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 1: Text Completion</h2>
+            <p class="mb-4 text-gray-700">Complete the reading. Use the words from the box. Don't look at your Student Book.</p>
+            
+            <div class="bg-gray-100 p-4 rounded-md mb-4 flex flex-wrap justify-center gap-2 text-gray-800 font-medium">
+                <span>are</span>
+                <span>husband</span>
+                <span>is</span>
+                <span>These</span>
+                <span>They're</span>
+                <span>This is</span>
+                <span>family</span>
+                <span>It's</span>
+                <span>These are</span>
+                <span>This</span>
+                <span>We're</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div class="image-container">
+                    <img src="FOG-1-1-0/1.png" alt="Image for Exercise 1, part 1" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+1';">
+                </div>
+                <div class="image-container">
+                    <img src="FOG-1-1-0/2.png" alt="Image for Exercise 1, part 2" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+2';">
+                </div>
+            </div>
+            <div class="image-container mb-4">
+                <img src="FOG-1-1-0/3.png" alt="Image for Exercise 1, part 3" onerror="this.onerror=null;this.src='https://placehold.co/200x150/cccccc/333333?text=Image+3';">
+            </div>
+
+            <div class="text-gray-800">
+                <p class="mb-2">Hi. <input type="text" class="fill-in-the-blank w-24" placeholder="1. I'm"> Steve</p>
+                <p class="mb-2">Beck. <input type="text" class="fill-in-the-blank w-24" placeholder="2. is"> my apartment in Seattle.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="3. small but"> comfortable.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="4. These"> my CDs. <input type="text" class="fill-in-the-blank w-24" placeholder="5. classical"> and jazz. <input type="text" class="fill-in-the-blank w-24" placeholder="6. my"> guitar.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="7. my"> pets, Pam and Kip.</p>
+                <p class="mb-2">They're wonderful. Pam <input type="text" class="fill-in-the-blank w-24" placeholder="8. eight years"> old and can talk. Kip is two years old.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div class="image-container">
+                    <img src="FOG-1-1-0/4.png" alt="Image for Exercise 1, part 4" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+4';">
+                </div>
+                <div class="image-container">
+                    <img src="FOG-1-1-0/5.png" alt="Image for Exercise 1, part 5" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+5';">
+                </div>
+            </div>
+            <div class="text-gray-800">
+                <p class="mb-2">We like our apartment. <input type="text" class="fill-in-the-blank w-48" placeholder="9. happy here."></p>
+                <p class="mb-2">I have a great <input type="text" class="fill-in-the-blank w-48" placeholder="10."> are my parents on the left.</p>
+                <p class="mb-2">This is my sister Jessica in the middle, with her <input type="text" class="fill-in-the-blank w-48" placeholder="11."> and children.</p>
+            </div>
+        </div>
+
+        <!-- Exercise 2: Vocabulary (image_1e4b8a.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 2: Vocabulary</h2>
+            <p class="mb-4 text-gray-700">Look at the people in Steve's family. Who are they? Use the words from the box.</p>
+            
+            <div class="bg-gray-100 p-4 rounded-md mb-4 flex flex-wrap justify-center gap-2 text-gray-800 font-medium">
+                <span>brother</span>
+                <span>father</span>
+                <span>mother</span>
+                <span>son</span>
+                <span>daughter</span>
+                <span>husband</span>
+                <span>sister</span>
+                <span>wife</span>
+            </div>
+
+            <div class="image-container">
+                <img src="FOG-1-1-0/6.png" alt="Image for Exercise 2" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/333333?text=Image+6';">
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-800">
+                <div class="mb-2">1. <input type="text" class="fill-in-the-blank w-32" placeholder="wife"></div>
+                <div class="mb-2">2. <input type="text" class="fill-in-the-blank w-32" placeholder="husband"></div>
+                <div class="mb-2">3. <input type="text" class="fill-in-the-blank w-32"></div>
+                <div class="mb-2">4. <input type="text" class="fill-in-the-blank w-32"></div>
+                <div class="mb-2">5. <input type="text" class="fill-in-the-blank w-32"></div>
+                <div class="mb-2">6. <input type="text" class="fill-in-the-blank w-32"></div>
+                <div class="mb-2">7. <input type="text" class="fill-in-the-blank w-32"></div>
+                <div class="mb-2">8. <input type="text" class="fill-in-the-blank w-32"></div>
+            </div>
+        </div>
+
+        <!-- Exercise 3: Subject Pronouns (image_1e4ba8.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 3: Subject Pronouns</h2>
+            <p class="mb-4 text-gray-700">Complete the sentences with I, he, she, it, we, or they.</p>
+            
+            <div class="text-gray-800">
+                <p class="mb-2">Marie-Claire is my friend. <input type="text" class="fill-in-the-blank w-24" placeholder="1. She"> is from Quebec. Quebec is a city in Canada.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="2. It"> is a nice city. Marie-Claire says, "<input type="text" class="fill-in-the-blank w-24" placeholder="3. I"> love Quebec.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="4. I"> is my home." <input type="text" class="fill-in-the-blank w-24" placeholder="5. She"> lives in Quebec with her husband, Eric. <input type="text" class="fill-in-the-blank w-24" placeholder="6. He"> is from New York.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="7. We"> are teachers. The school is near their home.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="8. They"> are new teachers. Our students are new too.</p>
+                <p class="mb-2"><input type="text" class="fill-in-the-blank w-24" placeholder="9. They"> are very nice."</p>
+            </div>
+        </div>
+
+        <!-- Exercise 4: This is / These are (image_1e4ba8.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 4: This is / These are</h2>
+            <p class="mb-4 text-gray-700">Look at the pictures. Match the sentences with the pictures.</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">a.</span>
+                    <img src="FOG-1-1-0/7.png" alt="Image a" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+a';">
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">b.</span>
+                    <img src="FOG-1-1-0/8.png" alt="Image b" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+b';">
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">c.</span>
+                    <img src="FOG-1-1-0/9.png" alt="Image c" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+c';">
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">d.</span>
+                    <img src="FOG-1-1-0/10.png" alt="Image d" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+d';">
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">e.</span>
+                    <img src="FOG-1-1-0/11.png" alt="Image e" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+e';">
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">f.</span>
+                    <img src="FOG-1-1-0/12.png" alt="Image f" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+f';">
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">g.</span>
+                    <img src="FOG-1-1-0/13.png" alt="Image g" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+g';">
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="font-bold mb-2">h.</span>
+                    <img src="FOG-1-1-0/14.png" alt="Image h" class="w-32 h-32 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/128x128/cccccc/333333?text=Image+h';">
+                </div>
+            </div>
+
+            <div class="text-gray-800">
+                <div class="match-item">
+                    <input type="text" class="match-input" placeholder="e"> 1. This is a ticket.
+                </div>
+                <div class="match-item">
+                    <input type="text" class="match-input"> 2. These are Jessica's children.
+                </div>
+                <div class="match-item">
+                    <input type="text" class="match-input"> 3. This is my guitar.
+                </div>
+                <div class="match-item">
+                    <input type="text" class="match-input"> 4. This is a book.
+                </div>
+                <div class="match-item">
+                    <input type="text" class="match-input"> 5. These are my pets.
+                </div>
+                <div class="match-item">
+                    <input type="text" class="match-input"> 6. These are my friends.
+                </div>
+                <div class="match-item">
+                    <input type="text" class="match-input"> 7. These are my parents.
+                </div>
+                <div class="match-item">
+                    <input type="text" class="match-input"> 8. This is my friend Pedro.
+                </div>
+            </div>
+        </div>
+
+        <!-- Exercise 5: This and These: Questions and Statements (image_1e4bc7.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 5: This and These: Questions and Statements</h2>
+            <p class="mb-4 text-gray-700">Put the words in the correct order. Write sentences. Remember to add the correct capitalization.</p>
+            
+            <div class="text-gray-800">
+                <p class="mb-2">1. book / this / your / is / ? <input type="text" class="fill-in-the-blank w-full" placeholder="Is this your book?"></p>
+                <p class="mb-2">2. pencil / this / your / is / . <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-2">3. your / is / ticket / this / ? <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-2">4. keys / are / these / your / . <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-2">5. my / is / house / this / . <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-2">6. is / apartment / your / this / ? <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-2">7. your / these / friends / are / ? <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-2">8. these / seats / your / are / . <input type="text" class="fill-in-the-blank w-full"></p>
+            </div>
+        </div>
+
+        <!-- Exercise 6: This is / These are (image_1e4bc7.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 6: This is / These are</h2>
+            <p class="mb-4 text-gray-700">Complete the sentences. Circle the correct answers and write them on the lines.</p>
+            
+            <div class="text-gray-800">
+                <p class="mb-4">1. These are my <input type="text" class="fill-in-the-blank w-32" placeholder="parents"></p>
+                <div class="choice-selection mb-4 flex">
+                    <label>
+                        <input type="radio" name="ex6_1" value="a"> a. parent
+                    </label>
+                    <label>
+                        <input type="radio" name="ex6_1" value="b"> b. parents
+                    </label>
+                </div>
+
+                <p class="mb-4">2. This is my <input type="text" class="fill-in-the-blank w-32"></p>
+                <div class="choice-selection mb-4 flex">
+                    <label>
+                        <input type="radio" name="ex6_2" value="a"> a. brother
+                    </label>
+                    <label>
+                        <input type="radio" name="ex6_2" value="b"> b. brothers
+                    </label>
+                </div>
+
+                <p class="mb-4">3. These are my <input type="text" class="fill-in-the-blank w-32"></p>
+                <div class="choice-selection mb-4 flex">
+                    <label>
+                        <input type="radio" name="ex6_3" value="a"> a. sister
+                    </label>
+                    <label>
+                        <input type="radio" name="ex6_3" value="b"> b. sisters
+                    </label>
+                </div>
+
+                <p class="mb-4">4. These are my <input type="text" class="fill-in-the-blank w-32"></p>
+                <div class="choice-selection mb-4 flex">
+                    <label>
+                        <input type="radio" name="ex6_4" value="a"> a. friend
+                    </label>
+                    <label>
+                        <input type="radio" name="ex6_4" value="b"> b. friends
+                    </label>
+                </div>
+
+                <p class="mb-4">5. This is my <input type="text" class="fill-in-the-blank w-32"></p>
+                <div class="choice-selection mb-4 flex">
+                    <label>
+                        <input type="radio" name="ex6_5" value="a"> a. partner
+                    </label>
+                    <label>
+                        <input type="radio" name="ex6_5" value="b"> b. partners
+                    </label>
+                </div>
+
+                <p class="mb-4">6. This is my <input type="text" class="fill-in-the-blank w-32"></p>
+                <div class="choice-selection mb-4 flex">
+                    <label>
+                        <input type="radio" name="ex6_6" value="a"> a. class
+                    </label>
+                    <label>
+                        <input type="radio" name="ex6_6" value="b"> b. classes
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exercise 7: Editing (image_1e4be4.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 7: Editing</h2>
+            <p class="mb-4 text-gray-700">Correct the conversations. There are six mistakes. The first mistake is already corrected. Find and correct five more.</p>
+            
+            <div class="text-gray-800">
+                <p class="mb-2">1. A: Is <span class="line-through">these</span><input type="text" class="fill-in-the-blank w-24" value="this"> your ticket?</p>
+                <p class="mb-4 ml-8">B: Yes, it is.</p>
+
+                <p class="mb-2">2. A: These are your keys?</p>
+                <p class="mb-4 ml-8">B: Yes. Thank you.</p>
+
+                <p class="mb-2">3. A: This is my car.</p>
+                <p class="mb-4 ml-8">B: She is big.</p>
+
+                <p class="mb-2">4. A: This are my books.</p>
+                <p class="mb-4 ml-8">B: Oh. Sorry.</p>
+
+                <p class="mb-2">5. A: These are my pet.</p>
+                <p class="mb-4 ml-8">B: They're nice.</p>
+
+                <p class="mb-2">6. A: Is this your sister?</p>
+                <p class="mb-4 ml-8">B: Yes, her name is Mary. He is a teacher.</p>
+            </div>
+        </div>
+
+        <!-- Exercise 8: Personal Writing (image_1e4be4.png) -->
+        <div class="exercise-section">
+            <h2 class="exercise-title">EXERCISE 8: Personal Writing</h2>
+            <p class="mb-4 text-gray-700">Write sentences about your friends and family.</p>
+            <p class="mb-4 text-gray-600">EXAMPLE: My sister is eighteen years old.</p>
+            
+            <div class="text-gray-800">
+                <p class="mb-4">1. <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-4">2. <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-4">3. <input type="text" class="fill-in-the-blank w-full"></p>
+                <p class="mb-4">4. <input type="text" class="fill-in-the-blank w-full"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // JavaScript for handling circle selection (e.g., for Exercise 6 if it were circle-based)
+        // This is a generic example, you would adapt it to your specific needs.
+        document.querySelectorAll('.circle-selection span').forEach(item => {
+            item.addEventListener('click', event => {
+                // Remove 'selected' from all siblings
+                Array.from(item.parentNode.children).forEach(sibling => {
+                    sibling.classList.remove('selected');
+                });
+                // Add 'selected' to the clicked item
+                item.classList.add('selected');
+            });
+        });
+
+        // For Exercise 6, the user needs to select a radio button and also write the answer.
+        // This script will automatically fill the text input when a radio button is selected.
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', (event) => {
+                const exerciseNumber = event.target.name.split('_')[1];
+                const inputElement = document.querySelector(`input[name="ex6_${exerciseNumber}"]`).closest('p').querySelector('.fill-in-the-blank');
+                if (inputElement) {
+                    inputElement.value = event.target.nextSibling.textContent.trim();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
