@@ -1,0 +1,182 @@
+[
+  {
+    "question": "sống dưới nước, thuộc về nước.",
+    "classes": "adj",
+    "answer": "aquatic",
+    "ipa": "/əˈkwæt.ɪk/",
+    "example": "Unlike most **aquatic** plants and animals, I don’t need a temperate climate.",
+    "english-definition": "living or growing in, happening in, or connected with water.",
+    "images": "eew-5-7/1.jpg"
+  },
+  {
+    "question": "sinh quyển (phần của Trái Đất có sự sống).",
+    "classes": "n",
+    "answer": "biosphere",
+    "ipa": "/ˈbaɪ.əʊ.sfɪər/",
+    "example": "Even though people can’t see me, I’m an important part of Earth’s **biosphere**.",
+    "english-definition": "the part of the earth's surface and atmosphere where there are living things.",
+    "images": "eew-5-7/2.jpg"
+  },
+  {
+    "question": "kỳ quái, kỳ lạ, khác thường.",
+    "classes": "adj",
+    "answer": "bizarre",
+    "ipa": "/bɪˈzɑːr/",
+    "example": "In my small world, things can be absolutely **bizarre**.",
+    "english-definition": "very strange and unusual.",
+    "images": "eew-5-7/3.jpg"
+  },
+  {
+    "question": "độ C (đơn vị đo nhiệt độ).",
+    "classes": "n",
+    "answer": "Celsius",
+    "ipa": "/ˈsel.si.əs/",
+    "example": "The temperature is 150 degrees **Celsius**, but I feel comfortable.",
+    "english-definition": "a scale of temperature on which water freezes at 0° and boils at 100°.",
+    "images": "eew-5-7/4.jpg"
+  },
+  {
+    "question": "thô, ráp, không mịn.",
+    "classes": "adj",
+    "answer": "coarse",
+    "ipa": "/kɔːs/",
+    "example": "I have **coarse** hairs called cilia that help me swim around in here.",
+    "english-definition": "rough and not smooth or soft, or not in very small pieces.",
+    "images": "eew-5-7/5.jpg"
+  },
+  {
+    "question": "bạn đồng hành, người đi cùng.",
+    "classes": "n",
+    "answer": "companion",
+    "ipa": "/kəmˈpæn.jən/",
+    "example": "I don’t need a **companion** to mate with.",
+    "english-definition": "a person you spend a lot of time with often because you are friends or because you are travelling together.",
+    "images": "eew-5-7/6.jpg"
+  },
+  {
+    "question": "tiêu hóa.",
+    "classes": "v",
+    "answer": "digest",
+    "ipa": "/daɪˈdʒest/",
+    "example": "I **digest** things much like people do.",
+    "english-definition": "to change food in your stomach into substances that your body can use.",
+    "images": "eew-5-7/7.jpg"
+  },
+  {
+    "question": "khoảng thời gian, thời lượng.",
+    "classes": "n",
+    "answer": "duration",
+    "ipa": "/dʒʊəˈreɪ.ʃən/",
+    "example": "I move my cilia in a repetitive motion for the **duration** of my swim.",
+    "english-definition": "the length of time that something lasts.",
+    "images": "eew-5-7/8.jpg"
+  },
+  {
+    "question": "sinh thái học.",
+    "classes": "n",
+    "answer": "ecology",
+    "ipa": "/iˈkɒl.ə.dʒi/",
+    "example": "Scientists who study **ecology** know that I was the first life form on Earth.",
+    "english-definition": "the relationship of living things to their environment and to each other.",
+    "images": "eew-5-7/9.jpg"
+  },
+  {
+    "question": "kỳ công, thành tích đáng nể.",
+    "classes": "n",
+    "answer": "feat",
+    "ipa": "/fiːt/",
+    "example": "It really is an impressive **feat**.",
+    "english-definition": "something difficult needing a lot of skill, strength, courage, etc. to achieve it.",
+    "images": "eew-5-7/10.jpg"
+  },
+  {
+    "question": "vô hạn, vô tận, không giới hạn.",
+    "classes": "adj",
+    "answer": "infinite",
+    "ipa": "/ˈɪn.fɪ.nət/",
+    "example": "I can create an **infinite** number of new protists all by myself!",
+    "english-definition": "without limits; extremely large or great.",
+    "images": "eew-5-7/11.jpg"
+  },
+  {
+    "question": "nhân (của tế bào).",
+    "classes": "n",
+    "answer": "nucleus",
+    "ipa": "/ˈnjuː.kli.əs/",
+    "example": "Instead, I undergo a process called fission, where my own **nucleus** splits in half.",
+    "english-definition": "the central part of an atom or a cell.",
+    "images": "eew-5-7/12.jpg"
+  },
+  {
+    "question": "ký sinh trùng.",
+    "classes": "n",
+    "answer": "parasite",
+    "ipa": "/ˈpær.ə.saɪt/",
+    "example": "When I get hungry, I look for tiny, vulnerable **parasites**.",
+    "english-definition": "an animal or plant that lives on or in another animal or plant of a different type and feeds from it.",
+    "images": "eew-5-7/13.jpg"
+  },
+  {
+    "question": "nổi bật, quan trọng, dễ thấy.",
+    "classes": "adj",
+    "answer": "prominent",
+    "ipa": "/ˈprɒm.ɪ.nənt/",
+    "example": "Nitrogen is a **prominent** gas in the earth’s atmosphere.",
+    "english-definition": "very well known and important.",
+    "images": "eew-5-7/14.jpg"
+  },
+  {
+    "question": "lặp đi lặp lại.",
+    "classes": "adj",
+    "answer": "repetitive",
+    "ipa": "/rɪˈpet.ə.tɪv/",
+    "example": "I move my cilia in a **repetitive** motion for the duration of my swim.",
+    "english-definition": "involving doing or saying the same thing several times, especially in a way that is boring.",
+    "images": "eew-5-7/15.jpg"
+  },
+  {
+    "question": "(thuộc về) sinh sản.",
+    "classes": "adj",
+    "answer": "reproductive",
+    "ipa": "/ˌriː.prəˈdʌk.tɪv/",
+    "example": "My **reproductive** ability is my most unique trait.",
+    "english-definition": "relating to the process of having babies, producing young, or producing new plants.",
+    "images": "eew-5-7/16.jpg"
+  },
+  {
+    "question": "ôn hòa, điều độ.",
+    "classes": "adj",
+    "answer": "temperate",
+    "ipa": "/ˈtem.pər.ət/",
+    "example": "Unlike most **aquatic** plants and animals, I don’t need a **temperate** climate.",
+    "english-definition": "(of a climate) neither very hot nor very cold.",
+    "images": "eew-5-7/17.jpg"
+  },
+  {
+    "question": "sự chịu đựng, lòng khoan dung.",
+    "classes": "n",
+    "answer": "tolerance",
+    "ipa": "/ˈtɒl.ər.əns/",
+    "example": "I have a very high **tolerance** for extreme conditions.",
+    "english-definition": "willingness to accept behaviour and beliefs that are different from your own, although you might not agree with them.",
+    "images": "eew-5-7/18.jpg"
+  },
+  {
+    "question": "trải qua, chịu đựng.",
+    "classes": "v",
+    "answer": "undergo",
+    "ipa": "/ˌʌn.dəˈɡəʊ/",
+    "example": "Instead, I **undergo** a process called fission, where my own nucleus splits in half.",
+    "english-definition": "to experience something that is unpleasant or something that involves a change.",
+    "images": "eew-5-7/19.jpg"
+  },
+  {
+    "question": "dễ bị tổn thương, yếu đuối.",
+    "classes": "adj",
+    "answer": "vulnerable",
+    "ipa": "/ˈvʌl.nər.ə.bəl/",
+    "example": "When I get hungry, I look for tiny, **vulnerable** **parasites**.",
+    "english-definition": "able to be easily physically, emotionally, or mentally hurt, influenced, or attacked.",
+    "images": "eew-5-7/20.jpg"
+  }
+]

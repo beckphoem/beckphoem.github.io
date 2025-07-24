@@ -1,0 +1,816 @@
+[
+  {
+    "word": "aquatic",
+    "ipa": "/əˈkwæt.ɪk/",
+    "meaning": "sống dưới nước, thuộc về nước.",
+    "image": "eew-5-7/1.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "living or growing in, happening in, or connected with water.",
+        "meaning-example": "sống dưới nước, thuộc về nước.",
+        "ipa-example": "/ˈlɪv.ɪŋ ɔːr ˈɡrəʊ.ɪŋ ɪn, ˈhæp.ən.ɪŋ ɪn, ɔːr kəˈnek.tɪd wɪð ˈwɔː.tər./"
+      },
+      {
+        "sentence": "Unlike most aquatic plants and animals, I don’t need a temperate climate.",
+        "meaning-example": "",
+        "ipa-example": "/ʌnˈlaɪk məʊst əˈkwæt.ɪk plænts ænd ˈæn.ɪ.məlz, aɪ dəʊnt niːd ə ˈtem.pər.ət ˈklaɪ.mət./"
+      },
+      {
+        "sentence": "We visited the aquatic center to see the fish.",
+        "meaning-example": "",
+        "ipa-example": "/wiː ˈvɪz.ɪt.ɪd ðə əˈkwæt.ɪk ˈsen.tər tuː siː ðə fɪʃ./"
+      },
+      {
+        "sentence": "Many aquatic plants grow in this lake.",
+        "meaning-example": "",
+        "ipa-example": "/ˈmen.i əˈkwæt.ɪk plænts ɡrəʊ ɪn ðɪs leɪk./"
+      },
+      {
+        "sentence": "Swimming is my favorite aquatic sport.",
+        "meaning-example": "",
+        "ipa-example": "/ˈswɪm.ɪŋ ɪz maɪ ˈfeɪ.vər.ɪt əˈkwæt.ɪk spɔːt./"
+      }
+    ]
+  },
+  {
+    "word": "biosphere",
+    "ipa": "/ˈbaɪ.əʊ.sfɪər/",
+    "meaning": "sinh quyển (phần của Trái Đất có sự sống).",
+    "image": "eew-5-7/2.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the part of the earth's surface and atmosphere where there are living things.",
+        "meaning-example": "sinh quyển (phần của Trái Đất có sự sống).",
+        "ipa-example": "/ðə pɑːt əv ðɪ ɜːθs ˈsɜː.fɪs ænd ˈæt.mə.sfɪər weər ðeər ɑːr ˈlɪv.ɪŋ θɪŋz./"
+      },
+      {
+        "sentence": "Even though people can’t see me, I’m an important part of Earth’s biosphere.",
+        "meaning-example": "",
+        "ipa-example": "/ˈiː.vən ðəʊ ˈpiː.pl̩ kɑːnt siː miː, aɪm ən ɪmˈpɔː.tənt pɑːt əv ɜːθs ˈbaɪ.əʊ.sfɪər./"
+      },
+      {
+        "sentence": "The biosphere includes all life on Earth.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈbaɪ.əʊ.sfɪər ɪnˈkluːdz ɔːl laɪf ɒn ɜːθ./"
+      },
+      {
+        "sentence": "Pollution is a danger to the biosphere.",
+        "meaning-example": "",
+        "ipa-example": "/pəˈluː.ʃən ɪz ə ˈdeɪn.dʒər tuː ðə ˈbaɪ.əʊ.sfɪər./"
+      },
+      {
+        "sentence": "We must protect the Earth's biosphere.",
+        "meaning-example": "",
+        "ipa-example": "/wiː mʌst prəˈtekt ðɪ ɜːθs ˈbaɪ.əʊ.sfɪər./"
+      }
+    ]
+  },
+  {
+    "word": "bizarre",
+    "ipa": "/bɪˈzɑːr/",
+    "meaning": "kỳ quái, kỳ lạ, khác thường.",
+    "image": "eew-5-7/3.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "very strange and unusual.",
+        "meaning-example": "kỳ quái, kỳ lạ, khác thường.",
+        "ipa-example": "/ˈver.i streɪndʒ ænd ʌnˈjuː.ʒu.əl./"
+      },
+      {
+        "sentence": "In my small world, things can be absolutely bizarre.",
+        "meaning-example": "",
+        "ipa-example": "/ɪn maɪ smɔːl wɜːld, θɪŋz kæn bi ˈæb.sə.luːt.li bɪˈzɑːr./"
+      },
+      {
+        "sentence": "He told a bizarre story about seeing a ghost.",
+        "meaning-example": "",
+        "ipa-example": "/hiː təʊld ə bɪˈzɑːr ˈstɔː.ri əˈbaʊt ˈsiː.ɪŋ ə ɡəʊst./"
+      },
+      {
+        "sentence": "She wears bizarre clothes.",
+        "meaning-example": "",
+        "ipa-example": "/ʃiː weərz bɪˈzɑːr kləʊðz./"
+      },
+      {
+        "sentence": "The movie had a bizarre ending.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈmuː.vi hæd ə bɪˈzɑːr ˈen.dɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "Celsius",
+    "ipa": "/ˈsel.si.əs/",
+    "meaning": "độ C (đơn vị đo nhiệt độ).",
+    "image": "eew-5-7/4.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a scale of temperature on which water freezes at 0° and boils at 100°.",
+        "meaning-example": "độ C (đơn vị đo nhiệt độ).",
+        "ipa-example": "/ə skeɪl əv ˈtem.prə.tʃər ɒn wɪtʃ ˈwɔː.tər friːzɪz æt ˈzɪə.rəʊ ˈdiː.ɡriːz ænd bɔɪlz æt wʌn ˈhʌn.drəd ˈdiː.ɡriːz./"
+      },
+      {
+        "sentence": "The temperature is 150 degrees Celsius, but I feel comfortable.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈtem.prə.tʃər ɪz wʌn ˈhʌn.drəd fɪf.ti dɪˈɡriːz ˈsel.si.əs, bʌt aɪ fiːl ˈkʌm.fər.tə.bl̩./"
+      },
+      {
+        "sentence": "Water boils at 100 degrees Celsius.",
+        "meaning-example": "",
+        "ipa-example": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz ˈsel.si.əs./"
+      },
+      {
+        "sentence": "My oven can go up to 250 degrees Celsius.",
+        "meaning-example": "",
+        "ipa-example": "/maɪ ˈʌv.ən kæn ɡəʊ ʌp tuː tuː ˈhʌn.drəd fɪf.ti dɪˈɡriːz ˈsel.si.əs./"
+      },
+      {
+        "sentence": "Please set the air conditioner to 24 Celsius.",
+        "meaning-example": "",
+        "ipa-example": "/pliːz set ðɪ eər kənˈdɪʃ.ən.ər tuː ˈtwen.ti fɔː ˈsel.si.əs./"
+      }
+    ]
+  },
+  {
+    "word": "coarse",
+    "ipa": "/kɔːs/",
+    "meaning": "thô, ráp, không mịn.",
+    "image": "eew-5-7/5.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "rough and not smooth or soft, or not in very small pieces.",
+        "meaning-example": "thô, ráp, không mịn.",
+        "ipa-example": "/rʌf ænd nɒt smuːð ɔːr sɒft, ɔːr nɒt ɪn ˈver.i smɔːl ˈpiː.sɪz./"
+      },
+      {
+        "sentence": "I have coarse hairs called cilia that help me swim around in here.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ hæv kɔːs heərz kɔːld ˈsɪl.i.ə ðæt help miː swɪm əˈraʊnd ɪn hɪər./"
+      },
+      {
+        "sentence": "This fabric feels very coarse.",
+        "meaning-example": "",
+        "ipa-example": "/ðɪs ˈfæb.rɪk fiːlz ˈver.i kɔːs./"
+      },
+      {
+        "sentence": "He has coarse hands from working outside.",
+        "meaning-example": "",
+        "ipa-example": "/hiː hæz kɔːs hændz frɒm ˈwɜː.kɪŋ aʊtˈsaɪd./"
+      },
+      {
+        "sentence": "His coarse sweater was uncomfortable.",
+        "meaning-example": "",
+        "ipa-example": "/hɪz kɔːs ˈswet.ər wɒz ʌnˈkʌm.fər.tə.bl̩./"
+      }
+    ]
+  },
+  {
+    "word": "companion",
+    "ipa": "/kəmˈpæn.jən/",
+    "meaning": "bạn đồng hành, người đi cùng.",
+    "image": "eew-5-7/6.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a person you spend a lot of time with often because you are friends or because you are travelling together.",
+        "meaning-example": "bạn đồng hành, người đi cùng.",
+        "ipa-example": "/ə ˈpɜː.sən juː spend ə lɒt əv taɪm wɪð ˈɒf.ən bɪˈkɒz juː ɑːr frendz ɔːr bɪˈkɒz juː ɑːr ˈtræv.əl.ɪŋ təˈɡeð.ər./"
+      },
+      {
+        "sentence": "I don’t need a companion to mate with.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ dəʊnt niːd ə kəmˈpæn.jən tuː meɪt wɪð./"
+      },
+      {
+        "sentence": "My dog is a wonderful companion.",
+        "meaning-example": "",
+        "ipa-example": "/maɪ dɒɡ ɪz ə ˈwʌn.dər.fəl kəmˈpæn.jən./"
+      },
+      {
+        "sentence": "She was a good companion on the trip.",
+        "meaning-example": "",
+        "ipa-example": "/ʃiː wɒz ə ɡʊd kəmˈpæn.jən ɒn ðə trɪp./"
+      },
+      {
+        "sentence": "He has been my trusted companion for years.",
+        "meaning-example": "",
+        "ipa-example": "/hiː hæz biːn maɪ ˈtrʌs.tɪd kəmˈpæn.jən fɔː jɪərz./"
+      }
+    ]
+  },
+  {
+    "word": "digest",
+    "ipa": "/daɪˈdʒest/",
+    "meaning": "tiêu hóa.",
+    "image": "eew-5-7/7.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to change food in your stomach into substances that your body can use.",
+        "meaning-example": "tiêu hóa.",
+        "ipa-example": "/tuː tʃeɪndʒ fuːd ɪn jɔːr ˈstʌm.ək ˈɪn.tuː ˈsʌb.stən.sɪz ðæt jɔːr ˈbɒd.i kæn juːz./"
+      },
+      {
+        "sentence": "I digest things much like people do.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ daɪˈdʒest θɪŋz mʌtʃ laɪk ˈpiː.pl̩ duː./"
+      },
+      {
+        "sentence": "Some foods are easier to digest than others.",
+        "meaning-example": "",
+        "ipa-example": "/sʌm fuːdz ɑːr ˈiː.zi.ər tuː daɪˈdʒest ðæn ˈʌð.ərz./"
+      },
+      {
+        "sentence": "The snake needs time to digest its meal.",
+        "meaning-example": "",
+        "ipa-example": "/ðə sneɪk niːdz taɪm tuː daɪˈdʒest ɪts miːl./"
+      },
+      {
+        "sentence": "It took me a while to digest the bad news.",
+        "meaning-example": "",
+        "ipa-example": "/ɪt tʊk miː ə waɪl tuː daɪˈdʒest ðə bæd nuːz./"
+      }
+    ]
+  },
+  {
+    "word": "duration",
+    "ipa": "/dʒʊəˈreɪ.ʃən/",
+    "meaning": "khoảng thời gian, thời lượng.",
+    "image": "eew-5-7/8.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the length of time that something lasts.",
+        "meaning-example": "khoảng thời gian, thời lượng.",
+        "ipa-example": "/ðə leŋθ əv taɪm ðæt ˈsʌm.θɪŋ lɑːsts./"
+      },
+      {
+        "sentence": "I move my cilia in a repetitive motion for the duration of my swim.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ muːv maɪ ˈsɪl.i.ə ɪn ə rɪˈpet.ə.tɪv ˈməʊ.ʃən fɔː ðə dʒʊəˈreɪ.ʃən əv maɪ swɪm./"
+      },
+      {
+        "sentence": "What is the duration of the movie?",
+        "meaning-example": "",
+        "ipa-example": "/wɒt ɪz ðə dʒʊəˈreɪ.ʃən əv ðə ˈmuː.viː?/"
+      },
+      {
+        "sentence": "The contract has a duration of one year.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈkɒn.trækt hæz ə dʒʊəˈreɪ.ʃən əv wʌn jɪər./"
+      },
+      {
+        "sentence": "The storm lasted for the duration of the night.",
+        "meaning-example": "",
+        "ipa-example": "/ðə stɔːm ˈlɑː.stɪd fɔː ðə dʒʊəˈreɪ.ʃən əv ðə naɪt./"
+      }
+    ]
+  },
+  {
+    "word": "ecology",
+    "ipa": "/iˈkɒl.ə.dʒi/",
+    "meaning": "sinh thái học.",
+    "image": "eew-5-7/9.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the relationship of living things to their environment and to each other.",
+        "meaning-example": "sinh thái học.",
+        "ipa-example": "/ðə rɪˈleɪ.ʃən.ʃɪp əv ˈlɪv.ɪŋ θɪŋz tuː ðeər ɪnˈvaɪ.rən.mənt ænd tuː iːtʃ ˈʌð.ər./"
+      },
+      {
+        "sentence": "Scientists who study ecology know that I was the first life form on Earth.",
+        "meaning-example": "",
+        "ipa-example": "/ˈsaɪən.tɪsts huː ˈstʌd.i iˈkɒl.ə.dʒi nəʊ ðæt aɪ wɒz ðə fɜːst laɪf fɔːm ɒn ɜːθ./"
+      },
+      {
+        "sentence": "The pollution is damaging the local ecology.",
+        "meaning-example": "",
+        "ipa-example": "/ðə pəˈluː.ʃən ɪz ˈdæm.ɪdʒ.ɪŋ ðə ˈləʊ.kəl iˈkɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "This book is about marine ecology.",
+        "meaning-example": "",
+        "ipa-example": "/ðɪs bʊk ɪz əˈbaʊt məˈriːn iˈkɒl.ə.dʒi./"
+      },
+      {
+        "sentence": "Ecology teaches us how important nature is.",
+        "meaning-example": "",
+        "ipa-example": "/iˈkɒl.ə.dʒi ˈtiː.tʃɪz ʌs haʊ ɪmˈpɔː.tənt ˈneɪ.tʃər ɪz./"
+      }
+    ]
+  },
+  {
+    "word": "feat",
+    "ipa": "/fiːt/",
+    "meaning": "kỳ công, thành tích đáng nể.",
+    "image": "eew-5-7/10.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "something difficult needing a lot of skill, strength, courage, etc. to achieve it.",
+        "meaning-example": "kỳ công, thành tích đáng nể.",
+        "ipa-example": "/ˈsʌm.θɪŋ ˈdɪf.ɪ.kəlt ˈniːd.ɪŋ ə lɒt əv skɪl, streŋθ, ˈkʌr.ɪdʒ, etˈset.ərə tuː əˈtʃiːv ɪt./"
+      },
+      {
+        "sentence": "It really is an impressive feat.",
+        "meaning-example": "",
+        "ipa-example": "/ɪt ˈriːə.li ɪz ən ɪmˈpres.ɪv fiːt./"
+      },
+      {
+        "sentence": "Winning the game was a remarkable feat.",
+        "meaning-example": "",
+        "ipa-example": "/ˈwɪn.ɪŋ ðə ɡeɪm wɒz ə rɪˈmɑːr.kə.bəl fiːt./"
+      },
+      {
+        "sentence": "Climbing Mount Everest is a great feat.",
+        "meaning-example": "",
+        "ipa-example": "/ˈklaɪm.ɪŋ maʊnt ˈev.ər.ɪst ɪz ə ɡreɪt fiːt./"
+      },
+      {
+        "sentence": "She performed the difficult dance move, an amazing feat of balance.",
+        "meaning-example": "",
+        "ipa-example": "/ʃiː pərˈfɔːmd ðə ˈdɪf.ɪ.kəlt dɑːns muːv, ən əˈmeɪz.ɪŋ fiːt əv ˈbæl.əns./"
+      }
+    ]
+  },
+  {
+    "word": "infinite",
+    "ipa": "/ˈɪn.fɪ.nət/",
+    "meaning": "vô hạn, vô tận, không giới hạn.",
+    "image": "eew-5-7/11.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "without limits; extremely large or great.",
+        "meaning-example": "vô hạn, vô tận, không giới hạn.",
+        "ipa-example": "/wɪˈðaʊt ˈlɪm.ɪts; ɪkˈstriːm.li lɑːdʒ ɔːr ɡreɪt./"
+      },
+      {
+        "sentence": "I can create an infinite number of new protists all by myself!",
+        "meaning-example": "",
+        "ipa-example": "/aɪ kæn kriˈeɪt ən ˈɪn.fɪ.nət ˈnʌm.bər əv nuː ˈprəʊ.tɪsts ɔːl baɪ maɪˈself!/"
+      },
+      {
+        "sentence": "The universe is infinite.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈjuː.nɪ.vɜːs ɪz ˈɪn.fɪ.nət./"
+      },
+      {
+        "sentence": "She has infinite patience with her children.",
+        "meaning-example": "",
+        "ipa-example": "/ʃiː hæz ˈɪn.fɪ.nət ˈpeɪ.ʃəns wɪð hɜːr ˈtʃɪl.drən./"
+      },
+      {
+        "sentence": "He felt a sense of infinite space.",
+        "meaning-example": "",
+        "ipa-example": "/hiː felt ə sens əv ˈɪn.fɪ.nət speɪs./"
+      }
+    ]
+  },
+  {
+    "word": "nucleus",
+    "ipa": "/ˈnjuː.kli.əs/",
+    "meaning": "nhân (của tế bào).",
+    "image": "eew-5-7/12.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the central part of an atom or a cell.",
+        "meaning-example": "nhân (của tế bào).",
+        "ipa-example": "/ðə ˈsen.trəl pɑːt əv ən ˈæt.əm ɔːr ə sel./"
+      },
+      {
+        "sentence": "Instead, I undergo a process called fission, where my own nucleus splits in half.",
+        "meaning-example": "",
+        "ipa-example": "/ɪnˈsted, aɪ ˌʌn.dəˈɡəʊ ə ˈprəʊ.ses kɔːld ˈfɪʃ.ən, weər maɪ əʊn ˈnjuː.kli.əs splɪts ɪn hɑːf./"
+      },
+      {
+        "sentence": "The nucleus contains the cell's DNA.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈnjuː.kli.əs kənˈteɪnz ðə selz ˌdiː.enˈeɪ./"
+      },
+      {
+        "sentence": "The family is the nucleus of society.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈfæm.ɪ.li ɪz ðə ˈnjuː.kli.əs əv səˈsaɪə.ti./"
+      },
+      {
+        "sentence": "The protons and neutrons are in the nucleus of an atom.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈprəʊ.tɒnz ænd ˈnjuː.trɒnz ɑːr ɪn ðə ˈnjuː.kli.əs əv ən ˈæt.əm./"
+      }
+    ]
+  },
+  {
+    "word": "parasite",
+    "ipa": "/ˈpær.ə.saɪt/",
+    "meaning": "ký sinh trùng.",
+    "image": "eew-5-7/13.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "an animal or plant that lives on or in another animal or plant of a different type and feeds from it.",
+        "meaning-example": "ký sinh trùng.",
+        "ipa-example": "/ən ˈæn.ɪ.məl ɔːr plɑːnt ðæt lɪvz ɒn ɔːr ɪn əˈnʌð.ər ˈæn.ɪ.məl ɔːr plɑːnt əv ə ˈdɪf.rənt taɪp ænd fiːdz frɒm ɪt./"
+      },
+      {
+        "sentence": "When I get hungry, I look for tiny, vulnerable parasites.",
+        "meaning-example": "",
+        "ipa-example": "/wen aɪ ɡet ˈhʌŋ.ɡri, aɪ lʊk fɔː ˈtaɪ.ni, ˈvʌl.nər.ə.bəl ˈpær.ə.saɪts./"
+      },
+      {
+        "sentence": "A mosquito can carry a dangerous parasite.",
+        "meaning-example": "",
+        "ipa-example": "/ə mɒˈskiː.təʊ kæn ˈkæ.ri ə ˈdeɪn.dʒər.əs ˈpær.ə.saɪt./"
+      },
+      {
+        "sentence": "Some fish have parasites.",
+        "meaning-example": "",
+        "ipa-example": "/sʌm fɪʃ hæv ˈpær.ə.saɪts./"
+      },
+      {
+        "sentence": "The doctor gave me medicine for the parasite.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈdɒk.tər ɡeɪv miː ˈmed.ɪ.sɪn fɔː ðə ˈpær.ə.saɪt./"
+      }
+    ]
+  },
+  {
+    "word": "prominent",
+    "ipa": "/ˈprɒm.ɪ.nənt/",
+    "meaning": "nổi bật, quan trọng, dễ thấy.",
+    "image": "eew-5-7/14.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "very well known and important.",
+        "meaning-example": "nổi bật, quan trọng, dễ thấy.",
+        "ipa-example": "/ˈver.i wel nəʊn ænd ɪmˈpɔː.tənt./"
+      },
+      {
+        "sentence": "Nitrogen is a prominent gas in the earth’s atmosphere.",
+        "meaning-example": "",
+        "ipa-example": "/ˈnaɪ.trə.dʒən ɪz ə ˈprɒm.ɪ.nənt ɡæs ɪn ðɪ ɜːθs ˈæt.mə.sfɪər./"
+      },
+      {
+        "sentence": "He played a prominent role in the campaign.",
+        "meaning-example": "",
+        "ipa-example": "/hiː pleɪd ə ˈprɒm.ɪ.nənt rəʊl ɪn ðə kæmˈpeɪn./"
+      },
+      {
+        "sentence": "He has a prominent nose.",
+        "meaning-example": "",
+        "ipa-example": "/hiː hæz ə ˈprɒm.ɪ.nənt nəʊz./"
+      },
+      {
+        "sentence": "The story was on the most prominent page of the newspaper.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈstɔː.ri wɒz ɒn ðə məʊst ˈprɒm.ɪ.nənt peɪdʒ əv ðə ˈnjuːzˌpeɪ.pər./"
+      }
+    ]
+  },
+  {
+    "word": "repetitive",
+    "ipa": "/rɪˈpet.ə.tɪv/",
+    "meaning": "lặp đi lặp lại.",
+    "image": "eew-5-7/15.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "involving doing or saying the same thing several times, especially in a way that is boring.",
+        "meaning-example": "lặp đi lặp lại.",
+        "ipa-example": "/ɪnˈvɒl.vɪŋ ˈduː.ɪŋ ɔːr ˈseɪ.ɪŋ ðə seɪm θɪŋ ˈsev.ər.əl taɪmz, ɪˈspeʃ.əl.i ɪn ə weɪ ðæt ɪz ˈbɔːr.ɪŋ./"
+      },
+      {
+        "sentence": "I move my cilia in a repetitive motion for the duration of my swim.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ muːv maɪ ˈsɪl.i.ə ɪn ə rɪˈpet.ə.tɪv ˈməʊ.ʃən fɔː ðə dʒʊəˈreɪ.ʃən əv maɪ swɪm./"
+      },
+      {
+        "sentence": "I find this music very repetitive.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ faɪnd ðɪs ˈmjuː.zɪk ˈver.i rɪˈpet.ə.tɪv./"
+      },
+      {
+        "sentence": "The teacher told him to avoid repetitive sentences in his essay.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈtiː.tʃər təʊld hɪm tuː əˈvɔɪd rɪˈpet.ə.tɪv ˈsen.tən.sɪz ɪn hɪz ˈes.eɪ./"
+      },
+      {
+        "sentence": "The training involves some repetitive tasks.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈtreɪ.nɪŋ ɪnˈvɒlvz sʌm rɪˈpet.ə.tɪv tɑːsks./"
+      }
+    ]
+  },
+  {
+    "word": "reproductive",
+    "ipa": "/ˌriː.prəˈdʌk.tɪv/",
+    "meaning": "(thuộc về) sinh sản.",
+    "image": "eew-5-7/16.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "relating to the process of having babies, producing young, or producing new plants.",
+        "meaning-example": "(thuộc về) sinh sản.",
+        "ipa-example": "/rɪˈleɪ.tɪŋ tuː ðə ˈprəʊ.ses əv ˈhæv.ɪŋ ˈbeɪ.biz, prəˈdjuːs.ɪŋ jʌŋ, ɔːr prəˈdjuːs.ɪŋ nuː plænts./"
+      },
+      {
+        "sentence": "My reproductive ability is my most unique trait.",
+        "meaning-example": "",
+        "ipa-example": "/maɪ ˌriː.prəˈdʌk.tɪv əˈbɪl.ɪ.ti ɪz maɪ məʊst juːˈniːk treɪt./"
+      },
+      {
+        "sentence": "The reproductive cycle of this animal is very short.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˌriː.prəˈdʌk.tɪv ˈsaɪ.kl̩ əv ðɪs ˈæn.ɪ.məl ɪz ˈver.i ʃɔːrt./"
+      },
+      {
+        "sentence": "Pollution can affect the reproductive organs of fish.",
+        "meaning-example": "",
+        "ipa-example": "/pəˈluː.ʃən kæn əˈfekt ðə ˌriː.prəˈdʌk.tɪv ˈɔːr.ɡənz əv fɪʃ./"
+      },
+      {
+        "sentence": "This plant has a high reproductive rate.",
+        "meaning-example": "",
+        "ipa-example": "/ðɪs plɑːnt hæz ə haɪ ˌriː.prəˈdʌk.tɪv reɪt./"
+      }
+    ]
+  },
+  {
+    "word": "temperate",
+    "ipa": "/ˈtem.pər.ət/",
+    "meaning": "ôn hòa, điều độ.",
+    "image": "eew-5-7/17.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "(of a climate) neither very hot nor very cold.",
+        "meaning-example": "ôn hòa, điều độ.",
+        "ipa-example": "/(əv ə ˈklaɪ.mət) ˈnaɪ.ðər ˈver.i hɒt nɔːr ˈver.i kəʊld./"
+      },
+      {
+        "sentence": "Unlike most aquatic plants and animals, I don’t need a temperate climate.",
+        "meaning-example": "",
+        "ipa-example": "/ʌnˈlaɪk məʊst əˈkwæt.ɪk plænts ænd ˈæn.ɪ.məlz, aɪ dəʊnt niːd ə ˈtem.pər.ət ˈklaɪ.mət./"
+      },
+      {
+        "sentence": "These plants grow well in temperate regions.",
+        "meaning-example": "",
+        "ipa-example": "/ðiːz plænts ɡrəʊ wel ɪn ˈtem.pər.ət ˈriː.dʒənz./"
+      },
+      {
+        "sentence": "Most people prefer to live in a temperate zone.",
+        "meaning-example": "",
+        "ipa-example": "/məʊst ˈpiː.pl̩ prɪˈfɜː tuː lɪv ɪn ə ˈtem.pər.ət zəʊn./"
+      },
+      {
+        "sentence": "The weather is usually temperate here in the spring.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈweð.ər ɪz ˈjuː.ʒu.ə.li ˈtem.pər.ət hɪər ɪn ðə sprɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "tolerance",
+    "ipa": "/ˈtɒl.ər.əns/",
+    "meaning": "sự chịu đựng, lòng khoan dung.",
+    "image": "eew-5-7/18.jpg",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "willingness to accept behaviour and beliefs that are different from your own, although you might not agree with them.",
+        "meaning-example": "sự chịu đựng, lòng khoan dung.",
+        "ipa-example": "/ˈwɪl.ɪŋ.nəs tuː əkˈsept bɪˈheɪv.jər ænd bɪˈliːfs ðæt ɑːr ˈdɪf.rənt frɒm jɔːr əʊn, ɔːlˈðəʊ juː maɪt nɒt əˈɡriː wɪð ðəm./"
+      },
+      {
+        "sentence": "I have a very high tolerance for extreme conditions.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ hæv ə ˈver.i haɪ ˈtɒl.ər.əns fɔːr ɪkˈstriːm kənˈdɪʃ.ənz./"
+      },
+      {
+        "sentence": "She has a high tolerance for pain.",
+        "meaning-example": "",
+        "ipa-example": "/ʃiː hæz ə haɪ ˈtɒl.ər.əns fɔː peɪn./"
+      },
+      {
+        "sentence": "My tolerance for noise is very low.",
+        "meaning-example": "",
+        "ipa-example": "/maɪ ˈtɒl.ər.əns fɔː nɔɪz ɪz ˈver.i ləʊ./"
+      },
+      {
+        "sentence": "He has no tolerance for people who are late.",
+        "meaning-example": "",
+        "ipa-example": "/hiː hæz nəʊ ˈtɒl.ər.əns fɔː ˈpiː.pl̩ huː ɑːr leɪt./"
+      }
+    ]
+  },
+  {
+    "word": "undergo",
+    "ipa": "/ˌʌn.dəˈɡəʊ/",
+    "meaning": "trải qua, chịu đựng.",
+    "image": "eew-5-7/19.jpg",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to experience something that is unpleasant or something that involves a change.",
+        "meaning-example": "trải qua, chịu đựng.",
+        "ipa-example": "/tuː ɪkˈspɪə.ri.əns ˈsʌm.θɪŋ ðæt ɪz ʌnˈplez.ənt ɔːr ˈsʌm.θɪŋ ðæt ɪnˈvɒlvz ə tʃeɪndʒ./"
+      },
+      {
+        "sentence": "Instead, I undergo a process called fission, where my own nucleus splits in half.",
+        "meaning-example": "",
+        "ipa-example": "/ɪnˈsted, aɪ ˌʌn.dəˈɡəʊ ə ˈprəʊ.ses kɔːld ˈfɪʃ.ən, weər maɪ əʊn ˈnjuː.kli.əs splɪts ɪn hɑːf./"
+      },
+      {
+        "sentence": "The country is undergoing many changes.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈkʌn.tri ɪz ˌʌn.dəˈɡəʊ.ɪŋ ˈmen.i ˈtʃeɪn.dʒɪz./"
+      },
+      {
+        "sentence": "All new employees must undergo a training program.",
+        "meaning-example": "",
+        "ipa-example": "/ɔːl nuː ɪmˈplɔɪ.iːz mʌst ˌʌn.dəˈɡəʊ ə ˈtreɪn.ɪŋ ˈprəʊ.ɡræm./"
+      },
+      {
+        "sentence": "The old building will undergo renovation next year.",
+        "meaning-example": "",
+        "ipa-example": "/ði əʊld ˈbɪl.dɪŋ wɪl ˌʌn.dəˈɡəʊ ˌren.əˈveɪ.ʃən nekst jɪər./"
+      }
+    ]
+  },
+  {
+    "word": "vulnerable",
+    "ipa": "/ˈvʌl.nər.ə.bəl/",
+    "meaning": "dễ bị tổn thương, yếu đuối.",
+    "image": "eew-5-7/20.jpg",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "able to be easily physically, emotionally, or mentally hurt, influenced, or attacked.",
+        "meaning-example": "dễ bị tổn thương, yếu đuối.",
+        "ipa-example": "/ˈeɪ.bl̩ tuː bi ˈiː.zɪ.li ˈfɪz.ɪ.kəl.i, ɪˈməʊ.ʃən.əl.i, ɔːr ˈmen.təl.i hɜːt, ˈɪn.flu.ənst, ɔːr əˈtækt./"
+      },
+      {
+        "sentence": "When I get hungry, I look for tiny, vulnerable parasites.",
+        "meaning-example": "",
+        "ipa-example": "/wen aɪ ɡet ˈhʌŋ.ɡri, aɪ lʊk fɔː ˈtaɪ.ni, ˈvʌl.nər.ə.bəl ˈpær.ə.saɪts./"
+      },
+      {
+        "sentence": "He felt very vulnerable and alone.",
+        "meaning-example": "",
+        "ipa-example": "/hiː felt ˈver.i ˈvʌl.nər.ə.bəl ænd əˈləʊn./"
+      },
+      {
+        "sentence": "The computer system is vulnerable to attack.",
+        "meaning-example": "",
+        "ipa-example": "/ðə kəmˈpjuː.tər ˈsɪs.təm ɪz ˈvʌl.nər.ə.bəl tuː əˈtæk./"
+      },
+      {
+        "sentence": "She was in a vulnerable position.",
+        "meaning-example": "",
+        "ipa-example": "/ʃiː wɒz ɪn ə ˈvʌl.nər.ə.bəl pəˈzɪʃ.ən./"
+      }
+    ]
+  },
+  {
+    "example": [
+      {
+        "sentence": "Even though people can’t see me, I’m an important part of Earth’s biosphere.",
+        "meaning-example": "",
+        "ipa-example": "/ˈiː.vən ðəʊ ˈpiː.pl̩ kɑːnt siː miː, aɪm ən ɪmˈpɔː.tənt pɑːt əv ɜːθs ˈbaɪ.əʊ.sfɪər./"
+      },
+      {
+        "sentence": "Scientists who study ecology know that I was the first life form on Earth.",
+        "meaning-example": "",
+        "ipa-example": "/ˈsaɪən.tɪsts huː ˈstʌd.i iˈkɒl.ə.dʒi nəʊ ðæt aɪ wɒz ðə fɜːst laɪf fɔːm ɒn ɜːθ./"
+      },
+      {
+        "sentence": "There is more of my kind than any other plant or animal in the world.",
+        "meaning-example": "",
+        "ipa-example": "/ðeər ɪz mɔːr əv maɪ kaɪnd ðæn ˈen.i ˈʌð.ər plænt ɔːr ˈæn.ɪ.məl ɪn ðə wɜːld./"
+      },
+      {
+        "sentence": "Without me, other plants and animals would not even exist, lama protist, and my tiny body is made up of one single cell.",
+        "meaning-example": "",
+        "ipa-example": "/wɪˈðaʊt miː, ˈʌð.ər plænts ænd ˈæn.ɪ.məlz wʊd nɒt ˈiː.vən ɪɡˈzɪst, ˈlɑː.mə ˈprəʊ.tɪst, ænd maɪ ˈtaɪ.ni ˈbɒd.i ɪz meɪd ʌp əv wʌn ˈsɪŋ.ɡl̩ sel./"
+      },
+      {
+        "sentence": "In my small world, things can be absolutely bizarre.",
+        "meaning-example": "",
+        "ipa-example": "/ɪn maɪ smɔːl wɜːld, θɪŋz kæn bi ˈæb.sə.luːt.li bɪˈzɑːr./"
+      },
+      {
+        "sentence": "Unlike most aquatic plants and animals, I don’t need a temperate climate.",
+        "meaning-example": "",
+        "ipa-example": "/ʌnˈlaɪk məʊst əˈkwæt.ɪk plænts ænd ˈæn.ɪ.məlz, aɪ dəʊnt niːd ə ˈtem.pər.ət ˈklaɪ.mət./"
+      },
+      {
+        "sentence": "I have a very high tolerance for extreme conditions.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ hæv ə ˈver.i haɪ ˈtɒl.ər.əns fɔːr ɪkˈstriːm kənˈdɪʃ.ənz./"
+      },
+      {
+        "sentence": "Right now, I’m swimming around in a bucket of boiling water!",
+        "meaning-example": "",
+        "ipa-example": "/raɪt naʊ, aɪm ˈswɪm.ɪŋ əˈraʊnd ɪn ə ˈbʌk.ɪt əv ˈbɔɪl.ɪŋ ˈwɔː.tər!/"
+      },
+      {
+        "sentence": "The temperature is 150 degrees Celsius, but I feel comfortable.",
+        "meaning-example": "",
+        "ipa-example": "/ðə ˈtem.prə.tʃər ɪz wʌn ˈhʌn.drəd fɪf.ti dɪˈɡriːz ˈsel.si.əs, bʌt aɪ fiːl ˈkʌm.fər.tə.bl̩./"
+      },
+      {
+        "sentence": "I have coarse hairs called cilia that help me swim around in here.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ hæv kɔːs heərz kɔːld ˈsɪl.i.ə ðæt help miː swɪm əˈraʊnd ɪn hɪər./"
+      },
+      {
+        "sentence": "I move my cilia in a repetitive motion for the duration of my swim.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ muːv maɪ ˈsɪl.i.ə ɪn ə rɪˈpet.ə.tɪv ˈməʊ.ʃən fɔː ðə dʒʊəˈreɪ.ʃən əv maɪ swɪm./"
+      },
+      {
+        "sentence": "I cannot go very fast, though.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ ˈkæn.ɒt ɡəʊ ˈver.i fɑːst, ðəʊ./"
+      },
+      {
+        "sentence": "It takes me about five minutes to swim a distance of just one millimeter!",
+        "meaning-example": "",
+        "ipa-example": "/ɪt teɪks miː əˈbaʊt faɪv ˈmɪn.ɪts tuː swɪm ə ˈdɪs.təns əv dʒʌst wʌn ˈmɪl.ɪˌmiː.tər!/"
+      },
+      {
+        "sentence": "When I get hungry, I look for tiny, vulnerable parasites.",
+        "meaning-example": "",
+        "ipa-example": "/wen aɪ ɡet ˈhʌŋ.ɡri, aɪ lʊk fɔː ˈtaɪ.ni, ˈvʌl.nər.ə.bəl ˈpær.ə.saɪts./"
+      },
+      {
+        "sentence": "I swim up to one and swallow it whole.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ swɪm ʌp tuː wʌn ænd ˈswɒl.əʊ ɪt həʊl./"
+      },
+      {
+        "sentence": "I digest things much like people do.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ daɪˈdʒest θɪŋz mʌtʃ laɪk ˈpiː.pl̩ duː./"
+      },
+      {
+        "sentence": "I have an organ that works just like a human stomach.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ hæv ən ˈɔːr.ɡən ðæt wɜːks dʒʌst laɪk ə ˈhjuː.mən ˈstʌm.ək./"
+      },
+      {
+        "sentence": "After I eat, I release nitrogen gas.",
+        "meaning-example": "",
+        "ipa-example": "/ˈɑːf.tər aɪ iːt, aɪ rɪˈliːs ˈnaɪ.trə.dʒən ɡæs./"
+      },
+      {
+        "sentence": "Nitrogen is a prominent gas in the earth’s atmosphere.",
+        "meaning-example": "",
+        "ipa-example": "/ˈnaɪ.trə.dʒən ɪz ə ˈprɒm.ɪ.nənt ɡæs ɪn ðɪ ɜːθs ˈæt.mə.sfɪər./"
+      },
+      {
+        "sentence": "Other plants and animals need my nitrogen to survive.",
+        "meaning-example": "",
+        "ipa-example": "/ˈʌð.ər plænts ænd ˈæn.ɪ.məlz niːd maɪ ˈnaɪ.trə.dʒən tuː sərˈvaɪv./"
+      },
+      {
+        "sentence": "My reproductive ability is my most unique trait.",
+        "meaning-example": "",
+        "ipa-example": "/maɪ ˌriː.prəˈdʌk.tɪv əˈbɪl.ɪ.ti ɪz maɪ məʊst juːˈniːk treɪt./"
+      },
+      {
+        "sentence": "I don’t need a companion to mate with.",
+        "meaning-example": "",
+        "ipa-example": "/aɪ dəʊnt niːd ə kəmˈpæn.jən tuː meɪt wɪð./"
+      },
+      {
+        "sentence": "Instead, I undergo a process called fission, where my own nucleus splits in half.",
+        "meaning-example": "",
+        "ipa-example": "/ɪnˈsted, aɪ ˌʌn.dəˈɡəʊ ə ˈprəʊ.ses kɔːld ˈfɪʃ.ən, weər maɪ əʊn ˈnjuː.kli.əs splɪts ɪn hɑːf./"
+      },
+      {
+        "sentence": "An exact copy of my nucleus is made, which forms into another protist.",
+        "meaning-example": "",
+        "ipa-example": "/æn ɪɡˈzækt ˈkɒp.i əv maɪ ˈnjuː.kli.əs ɪz meɪd, wɪtʃ fɔːmz ˈɪn.tuː əˈnʌð.ər ˈprəʊ.tɪst./"
+      },
+      {
+        "sentence": "It really is an impressive feat.",
+        "meaning-example": "",
+        "ipa-example": "/ɪt ˈriːə.li ɪz ən ɪmˈpres.ɪv fiːt./"
+      },
+      {
+        "sentence": "I can create an infinite number of new protists all by myself!",
+        "meaning-example": "",
+        "ipa-example": "/aɪ kæn kriˈeɪt ən ˈɪn.fɪ.nət ˈnʌm.bər əv nuː ˈprəʊ.tɪsts ɔːl baɪ maɪˈself!/"
+      }
+    ]
+  }
+]
