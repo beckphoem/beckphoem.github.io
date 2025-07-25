@@ -17,10 +17,14 @@ My **reproductive** ability is my most unique trait. I don’t need a **companio
 
 ![alt text](eew-5-7/24.png)
 
+--------
+
 ## List of word
 aquatic, biosphere, bizarre, Celsius, coarse, companion, digest, duration, ecology, feat, infinite, nucleus, parasite, prominent, repetitive, reproductive, temperate, tolerance, undergo, vulnerable.
 
 ## Sentences of story
+
+Small World
 
 Even though people can’t see me, I’m an important part of Earth’s **biosphere**.
 

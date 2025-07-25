@@ -1,0 +1,182 @@
+[
+  {
+    "question": "thành thạo, giỏi, tinh thông.",
+    "classes": "adj",
+    "answer": "adept",
+    "ipa": "/əˈdept/",
+    "example": "I was not **adept** at treating malnutrition.",
+    "english-definition": "having a natural ability to do something that needs skill.",
+    "images": "eew-5-8/1.jpg"
+  },
+  {
+    "question": "cằn cỗi, không có cây cối.",
+    "classes": "adj",
+    "answer": "barren",
+    "ipa": "/ˈbær.ən/",
+    "example": "So they walked hundreds of miles across **barren** land to get away.",
+    "english-definition": "unable to produce plants or fruit.",
+    "images": "eew-5-8/2.jpg"
+  },
+  {
+    "question": "(làm bằng) gốm, sứ.",
+    "classes": "adj",
+    "answer": "ceramic",
+    "ipa": "/səˈræm.ɪk/",
+    "example": "As thanks, she gave me a beautiful **ceramic** bowl.",
+    "english-definition": "made of clay and permanently hardened by heat.",
+    "images": "eew-5-8/3.jpg"
+  },
+  {
+    "question": "(thuộc về) nấu nướng, ẩm thực.",
+    "classes": "adj",
+    "answer": "culinary",
+    "ipa": "/ˈkʌl.ɪ.nər.i/",
+    "example": "I sent her off with a prescription for some pain medicine, but she also left my office with some new **culinary** skills.",
+    "english-definition": "connected with cooking or kitchens.",
+    "images": "eew-5-8/4.jpg"
+  },
+  {
+    "question": "dày đặc, rậm rạp.",
+    "classes": "adj",
+    "answer": "dense",
+    "ipa": "/dens/",
+    "example": "So I took her outside and showed her a **dense** patch of edible plants.",
+    "english-definition": "having parts that are close together.",
+    "images": "eew-5-8/5.jpg"
+  },
+  {
+    "question": "phẩm giá, lòng tự trọng.",
+    "classes": "n",
+    "answer": "dignity",
+    "ipa": "/ˈdɪɡ.nə.ti/",
+    "example": "I was impressed by their **dignity**.",
+    "english-definition": "the importance and value that a person has, that makes other people respect them or makes them respect themselves.",
+    "images": "eew-5-8/6.jpg"
+  },
+  {
+    "question": "thống trị, chi phối, áp đảo.",
+    "classes": "v",
+    "answer": "dominate",
+    "ipa": "/ˈdɒm.ɪ.neɪt/",
+    "example": "The army wanted to **dominate** the people, but the people didn’t want to be oppressed.",
+    "english-definition": "to have control over a place or person.",
+    "images": "eew-5-8/7.jpg"
+  },
+  {
+    "question": "có thể ăn được (không độc).",
+    "classes": "adj",
+    "answer": "edible",
+    "ipa": "/ˈed.ə.bəl/",
+    "example": "So I took her outside and showed her a dense patch of **edible** plants.",
+    "english-definition": "suitable or safe for eating.",
+    "images": "eew-5-8/8.jpg"
+  },
+  {
+    "question": "thù địch, chống đối.",
+    "classes": "adj",
+    "answer": "hostile",
+    "ipa": "/ˈhɒs.taɪl/",
+    "example": "Many people from that country fled the **hostile** invading army.",
+    "english-definition": "unfriendly and not liking or agreeing with something.",
+    "images": "eew-5-8/9.jpg"
+  },
+  {
+    "question": "lượng (thức ăn, nước uống) nạp vào.",
+    "classes": "n",
+    "answer": "intake",
+    "ipa": "/ˈɪn.teɪk/",
+    "example": "I explained that she should increase her son’s **intake** of these vegetables.",
+    "english-definition": "the amount of something such as food, drink, or air that is taken into the body.",
+    "images": "eew-5-8/10.jpg"
+  },
+  {
+    "question": "cũng vậy, tương tự.",
+    "classes": "adv",
+    "answer": "likewise",
+    "ipa": "/ˈlaɪk.waɪz/",
+    "example": "**Likewise**, she should strive to get him some meat once a week to help him regain his strength.",
+    "english-definition": "in the same way.",
+    "images": "eew-5-8/11.jpg"
+  },
+  {
+    "question": "sự suy dinh dưỡng.",
+    "classes": "n",
+    "answer": "malnutrition",
+    "ipa": "/ˌmæl.njuːˈtrɪʃ.ən/",
+    "example": "Her son suffered from **malnutrition** and stomach pain, and she didn’t know what to do.",
+    "english-definition": "physical weakness and bad health caused by having too little food, or too little of the types of food necessary for good health.",
+    "images": "eew-5-8/12.jpg"
+  },
+  {
+    "question": "thuốc men, dược phẩm.",
+    "classes": "n",
+    "answer": "medication",
+    "ipa": "/ˌmed.ɪˈkeɪ.ʃən/",
+    "example": "I was trying out a new **medication** to treat these people instead of using a respirator.",
+    "english-definition": "a medicine, or a set of medicines or drugs, used to improve a particular condition or illness.",
+    "images": "eew-5-8/13.jpg"
+  },
+  {
+    "question": "sự hiểu lầm, quan niệm sai lầm.",
+    "classes": "n",
+    "answer": "misconception",
+    "ipa": "/ˌmɪs.kənˈsep.ʃən/",
+    "example": "She had a **misconception** that it would be enough for him.",
+    "english-definition": "an idea that is wrong because it has been based on a failure to understand a situation.",
+    "images": "eew-5-8/14.jpg"
+  },
+  {
+    "question": "khó hiểu, mơ hồ, ít người biết đến.",
+    "classes": "adj",
+    "answer": "obscure",
+    "ipa": "/əbˈskjʊər/",
+    "example": "I had gone there to treat an **obscure** syndrome.",
+    "english-definition": "not known to many people.",
+    "images": "eew-5-8/15.jpg"
+  },
+  {
+    "question": "đàn áp, áp bức.",
+    "classes": "v",
+    "answer": "oppress",
+    "ipa": "/əˈpres/",
+    "example": "The army wanted to dominate the people, but the people didn’t want to be **oppressed**.",
+    "english-definition": "to govern people in an unfair and cruel way and prevent them from having opportunities and freedom.",
+    "images": "eew-5-8/16.jpg"
+  },
+  {
+    "question": "gọt vỏ, bóc vỏ.",
+    "classes": "v",
+    "answer": "peel",
+    "ipa": "/piːl/",
+    "example": "I taught her howto dig up the roots, **peel** them, and cook them for her son.",
+    "english-definition": "to remove the skin of fruit and vegetables.",
+    "images": "eew-5-8/17.jpg"
+  },
+  {
+    "question": "đơn thuốc.",
+    "classes": "n",
+    "answer": "prescription",
+    "ipa": "/prɪˈskrɪp.ʃən/",
+    "example": "I sent her off with a **prescription** for some pain medicine, but she also left my office with some new culinary skills.",
+    "english-definition": "a piece of paper on which a doctor writes the details of the medicine or drugs that someone needs.",
+    "images": "eew-5-8/18.jpg"
+  },
+  {
+    "question": "máy thở, máy hô hấp.",
+    "classes": "n",
+    "answer": "respirator",
+    "ipa": "/ˈres.pɪ.reɪ.tər/",
+    "example": "It attacked people’s lungs, causing them to need a **respirator** to breathe.",
+    "english-definition": "a device used to help people with breathing problems to breathe.",
+    "images": "eew-5-8/19.jpg"
+  },
+  {
+    "question": "cố gắng, phấn đấu.",
+    "classes": "v",
+    "answer": "strive",
+    "ipa": "/straɪv/",
+    "example": "**Likewise**, she should **strive** to get him some meat once a week to help him regain his strength.",
+    "english-definition": "to try very hard to do something or to make something happen, especially for a long time or against difficulties.",
+    "images": "eew-5-8/20.jpg"
+  }
+]
