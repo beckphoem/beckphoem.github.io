@@ -1,18 +1,34 @@
 # Becoming a Healer
 
+![alt text](eew-5-8/21.png)
+
 Years ago, I worked at a small health clinic in a remote country. I had gone there to treat an **obscure** syndrome. It attacked people’s lungs, causing them to need a **respirator** to breathe. I was trying out a new **medication** to treat these people instead of using a **respirator**. If I was successful, I would become famous.
+
+![alt text](eew-5-8/22.png)
 
 Everything was going fine until war broke out in a nearby country. Many people from that country fled the **hostile** invading army. The army wanted to **dominate** the people, but the people didn’t want to be **oppressed**. So they walked hundreds of miles across **barren** land to get away.
 
+![alt text](eew-5-8/23.png)
+
 Some of these people came to our clinic for treatment. I talked with them and learned of their difficulties. They did not beg or complain. I was impressed by their **dignity**.
+
+![alt text](eew-5-8/24.png)
 
 There was one woman I will never forget. Her son suffered from **malnutrition** and stomach pain, and she didn’t know what to do. Neither did I.I was not **adept** at treating **malnutrition**. Nonetheless, when I saw her sadness, I knew I had to help her son.
 
+![alt text](eew-5-8/25.png)
+
 The woman had been feeding her son bread and water. She had a **misconception** that it would be enough for him. However, I knew that he needed to eat vegetables, too. So I took her outside and showed her a **dense** patch of **edible** plants. I taught her howto dig up the roots, **peel** them, and cook them for her son. I explained that she should increase her son’s **intake** of these vegetables. **Likewise**, she should **strive** to get him some meat once a week to help him regain his strength.
+
+![alt text](eew-5-8/26.png)
 
 I sent her off with a **prescription** for some pain medicine, but she also left my office with some new **culinary** skills. A few weeks later, she returned to tell me her son was healthy again. As thanks, she gave me a beautiful **ceramic** bowl.
 
+![alt text](eew-5-8/27.png)
+
 I never become famous, but I kept that bowl to remind me what it truly means to heal someone.
+
+![alt text](eew-5-8/28.png)
 
 ## List of word
 
