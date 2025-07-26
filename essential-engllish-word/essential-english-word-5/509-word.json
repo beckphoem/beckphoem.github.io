@@ -1,0 +1,882 @@
+[
+  {
+    "word": "archaic",
+    "ipa": "/ɑːˈkeɪ.ɪk/",
+    "meaning": "cổ xưa, lỗi thời.",
+    "image": "eew-5-9/1.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "of or belonging to an ancient period in history.",
+        "meaning-example": "của hoặc thuộc về một giai đoạn cổ đại trong lịch sử.",
+        "ipa-example": "/ɒv ɔːr bɪˈlɒŋ.ɪŋ tuː ən ˈeɪn.ʃənt ˈpɪə.ri.əd ɪn ˈhɪs.tər.i./"
+      },
+      {
+        "sentence": "If you don’t change your **archaic** ways, your town’s income will diminish!",
+        "meaning-example": "Nếu bạn không thay đổi những cách thức cổ hủ của mình, thu nhập của thị trấn bạn sẽ giảm!",
+        "ipa-example": "/ɪf juː dəʊnt tʃeɪndʒ jɔːr ɑːˈkeɪ.ɪk weɪz, jɔːr taʊnz ˈɪn.kʌm wɪl dɪˈmɪn.ɪʃ!/"
+      },
+      {
+        "sentence": "The museum has a collection of **archaic** tools.",
+        "meaning-example": "Bảo tàng có một bộ sưu tập các công cụ cổ xưa.",
+        "ipa-example": "/ðə mjuˈziː.əm hæz ə kəˈlek.ʃən əv ɑːˈkeɪ.ɪk tuːlz./"
+      },
+      {
+        "sentence": "This law is **archaic** and should be changed.",
+        "meaning-example": "Luật này đã lỗi thời và nên được thay đổi.",
+        "ipa-example": "/ðɪs lɔː ɪz ɑːˈkeɪ.ɪk ænd ʃʊd biː tʃeɪndʒd./"
+      },
+      {
+        "sentence": "He uses some **archaic** words when he speaks.",
+        "meaning-example": "Anh ấy sử dụng một số từ cổ khi nói chuyện.",
+        "ipa-example": "/hiː ˈjuːz.ɪz sʌm ɑːˈkeɪ.ɪk wɜːrdz wɛn hiː spiːks./"
+      },
+      {
+        "sentence": "The computer system is **archaic**.",
+        "meaning-example": "Hệ thống máy tính đã lỗi thời.",
+        "ipa-example": "/ðə kəmˈpjuː.tər ˈsɪs.təm ɪz ɑːˈkeɪ.ɪk./"
+      },
+      {
+        "sentence": "They want to get rid of the **archaic** rules.",
+        "meaning-example": "Họ muốn loại bỏ những quy tắc cổ hủ.",
+        "ipa-example": "/ðeɪ wɒnt tuː ɡet rɪd əv ðə ɑːˈkeɪ.ɪk ruːlz./"
+      }
+    ]
+  },
+  {
+    "word": "benevolent",
+    "ipa": "/bəˈnev.əl.ənt/",
+    "meaning": "nhân từ, nhân đức, rộng lượng.",
+    "image": "eew-5-9/2.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "kind and helpful.",
+        "meaning-example": "tử tế và hữu ích.",
+        "ipa-example": "/kaɪnd ænd ˈhelp.fəl./"
+      },
+      {
+        "sentence": "But the mayor was a **benevolent** man.",
+        "meaning-example": "Nhưng thị trưởng là một người đàn ông nhân từ.",
+        "ipa-example": "/bʌt ðə meər wɒz ə bəˈnev.əl.ənt mæn./"
+      },
+      {
+        "sentence": "He was a **benevolent** leader who cared for his people.",
+        "meaning-example": "Ông ấy là một nhà lãnh đạo nhân từ, người quan tâm đến dân chúng của mình.",
+        "ipa-example": "/hiː wɒz ə bəˈnev.əl.ənt ˈliː.dər huː keərd fɔːr hɪz ˈpiː.pl̩./"
+      },
+      {
+        "sentence": "She gave me a **benevolent** smile.",
+        "meaning-example": "Cô ấy tặng tôi một nụ cười nhân từ.",
+        "ipa-example": "/ʃiː ɡeɪv miː ə bəˈnev.əl.ənt smaɪl./"
+      },
+      {
+        "sentence": "A **benevolent** organization helped the poor family.",
+        "meaning-example": "Một tổ chức nhân ái đã giúp đỡ gia đình nghèo.",
+        "ipa-example": "/ə bəˈnev.əl.ənt ˌɔːr.ɡən.aɪˈzeɪ.ʃən helpt ðə pʊər ˈfæm.əl.i./"
+      },
+      {
+        "sentence": "He is known for his **benevolent** actions.",
+        "meaning-example": "Ông ấy nổi tiếng với những hành động nhân từ của mình.",
+        "ipa-example": "/hiː ɪz nəʊn fɔːr hɪz bəˈnev.əl.ənt ˈæk.ʃənz./"
+      },
+      {
+        "sentence": "The queen was loved for her **benevolent** rule.",
+        "meaning-example": "Nữ hoàng được yêu mến vì sự cai trị nhân từ của bà.",
+        "ipa-example": "/ðə kwiːn wɒz lʌvd fɔːr hɜːr bəˈnev.əl.ənt ruːl./"
+      }
+    ]
+  },
+  {
+    "word": "brass",
+    "ipa": "/brɑːs/",
+    "meaning": "đồng thau.",
+    "image": "eew-5-9/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a bright yellow metal made from copper and zinc.",
+        "meaning-example": "một loại kim loại màu vàng sáng làm từ đồng và kẽm.",
+        "ipa-example": "/ə braɪt ˈjel.əʊ ˈmet.əl meɪd frɒm ˈkɒp.ər ænd zɪŋk./"
+      },
+      {
+        "sentence": "This mayor thought Joseph’s machine was spectacular and spent a long time looking at its different components made of **brass**.",
+        "meaning-example": "Thị trưởng này nghĩ rằng cỗ máy của Joseph thật ngoạn mục và đã dành một thời gian dài để ngắm nhìn các bộ phận khác nhau của nó được làm bằng đồng thau.",
+        "ipa-example": "/ðɪs meər θɔːt ˈdʒəʊ.zəfs məˈʃiːn wɒz spekˈtæk.jə.lər ænd spent ə lɒŋ taɪm ˈlʊk.ɪŋ æt ɪts ˈdɪf.rənt kəmˈpəʊ.nənts meɪd əv brɑːs./"
+      },
+      {
+        "sentence": "The door handle is made of solid **brass**.",
+        "meaning-example": "Tay nắm cửa được làm bằng đồng thau nguyên khối.",
+        "ipa-example": "/ðə dɔːr ˈhæn.dl̩ ɪz meɪd əv ˈsɒl.ɪd brɑːs./"
+      },
+      {
+        "sentence": "He plays a **brass** instrument in the band.",
+        "meaning-example": "Anh ấy chơi một nhạc cụ bằng đồng thau trong ban nhạc.",
+        "ipa-example": "/hiː pleɪz ə brɑːs ˈɪn.strə.mənt ɪn ðə bænd./"
+      },
+      {
+        "sentence": "We need to polish the **brass**.",
+        "meaning-example": "Chúng ta cần đánh bóng đồng thau.",
+        "ipa-example": "/wiː niːd tuː ˈpɒl.ɪʃ ðə brɑːs./"
+      },
+      {
+        "sentence": "The old clock has a **brass** frame.",
+        "meaning-example": "Chiếc đồng hồ cũ có khung bằng đồng thau.",
+        "ipa-example": "/ðɪ əʊld klɒk hæz ə brɑːs freɪm./"
+      },
+      {
+        "sentence": "The **brass** section of the orchestra sounds great.",
+        "meaning-example": "Phần kèn đồng của dàn nhạc nghe rất hay.",
+        "ipa-example": "/ðə brɑːs ˈsek.ʃən əv ðɪ ˈɔːr.kɪ.strə saʊndz ɡreɪt./"
+      }
+    ]
+  },
+  {
+    "word": "capitalism",
+    "ipa": "/ˈkæp.ɪ.təl.ɪ.zəm/",
+    "meaning": "chủ nghĩa tư bản.",
+    "image": "eew-5-9/4.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "an economic and political system in which a country's trade and industry are controlled by private owners for profit, rather than by the state.",
+        "meaning-example": "một hệ thống kinh tế và chính trị trong đó thương mại và công nghiệp của một quốc gia được kiểm soát bởi các chủ sở hữu tư nhân vì lợi nhuận, thay vì bởi nhà nước.",
+        "ipa-example": "/ən ˌiː.kəˈnɒm.ɪk ænd pəˈlɪt.ɪ.kəl ˈsɪs.təm ɪn wɪtʃ ə ˈkʌn.triz treɪd ænd ˈɪn.də.stri ɑːr kənˈtrəʊld baɪ ˈpraɪ.vət ˈəʊ.nərz fɔːr ˈprɒf.ɪt, ˈrɑː.ðər ðæn baɪ ðə steɪt./"
+      },
+      {
+        "sentence": "But the mayor said, “I don’t like **capitalism**.”",
+        "meaning-example": "Nhưng thị trưởng nói: “Tôi không thích chủ nghĩa tư bản.”",
+        "ipa-example": "/bʌt ðə meər sed, aɪ dəʊnt laɪk ˈkæp.ɪ.təl.ɪ.zəm./"
+      },
+      {
+        "sentence": "The United States has an economy based on **capitalism**.",
+        "meaning-example": "Hoa Kỳ có nền kinh tế dựa trên chủ nghĩa tư bản.",
+        "ipa-example": "/ðə juˈnaɪ.tɪd steɪts hæz ən ɪˈkɒn.ə.mi beɪst ɒn ˈkæp.ɪ.təl.ɪ.zəm./"
+      },
+      {
+        "sentence": "He is a strong believer in free-market **capitalism**.",
+        "meaning-example": "Ông ấy là một người tin tưởng mạnh mẽ vào chủ nghĩa tư bản thị trường tự do.",
+        "ipa-example": "/hiː ɪz ə strɒŋ bɪˈliː.vər ɪn friːˈmɑːr.kɪt ˈkæp.ɪ.təl.ɪ.zəm./"
+      },
+      {
+        "sentence": "The book discusses the history of **capitalism**.",
+        "meaning-example": "Cuốn sách thảo luận về lịch sử của chủ nghĩa tư bản.",
+        "ipa-example": "/ðə bʊk dɪˈskʌs.ɪz ðə ˈhɪs.tər.i əv ˈkæp.ɪ.təl.ɪ.zəm./"
+      },
+      {
+        "sentence": "Some people argue against **capitalism**.",
+        "meaning-example": "Một số người tranh cãi chống lại chủ nghĩa tư bản.",
+        "ipa-example": "/sʌm ˈpiː.pl̩ ˈɑːr.ɡjuː əˈɡenst ˈkæp.ɪ.təl.ɪ.zəm./"
+      },
+      {
+        "sentence": "**Capitalism** encourages competition between businesses.",
+        "meaning-example": "Chủ nghĩa tư bản khuyến khích cạnh tranh giữa các doanh nghiệp.",
+        "ipa-example": "/ˈkæp.ɪ.təl.ɪ.zəm ɪnˈkʌr.ɪdʒ.ɪz ˌkɒm.pɪˈtɪʃ.ən bɪˈtwiːn ˈbɪz.nɪs.ɪz./"
+      }
+    ]
+  },
+  {
+    "word": "component",
+    "ipa": "/kəmˈpəʊ.nənt/",
+    "meaning": "thành phần, bộ phận.",
+    "image": "eew-5-9/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a part that combines with other parts to form something bigger.",
+        "meaning-example": "một phần kết hợp với các phần khác để tạo thành một cái gì đó lớn hơn.",
+        "ipa-example": "/ə pɑːrt ðæt kəmˈbaɪnz wɪð ˈʌð.ər pɑːrts tuː fɔːrm ˈsʌm.θɪŋ ˈbɪɡ.ər./"
+      },
+      {
+        "sentence": "This mayor thought Joseph’s machine was spectacular and spent a long time looking at its different **components** made of brass.",
+        "meaning-example": "Thị trưởng này nghĩ rằng cỗ máy của Joseph thật ngoạn mục và đã dành một thời gian dài để ngắm nhìn các bộ phận khác nhau của nó được làm bằng đồng thau.",
+        "ipa-example": "/ðɪs meər θɔːt ˈdʒəʊ.zəfs məˈʃiːn wɒz spekˈtæk.jə.lər ænd spent ə lɒŋ taɪm ˈlʊk.ɪŋ æt ɪts ˈdɪf.rənt kəmˈpəʊ.nənts meɪd əv brɑːs./"
+      },
+      {
+        "sentence": "Trust is a vital **component** of a good relationship.",
+        "meaning-example": "Niềm tin là một thành phần quan trọng của một mối quan hệ tốt đẹp.",
+        "ipa-example": "/trʌst ɪz ə ˈvaɪ.təl kəmˈpəʊ.nənt əv ə ɡʊd rɪˈleɪʃ.ən.ʃɪp./"
+      },
+      {
+        "sentence": "The machine has many different **components**.",
+        "meaning-example": "Cỗ máy có nhiều bộ phận khác nhau.",
+        "ipa-example": "/ðə məˈʃiːn hæz ˈmen.i ˈdɪf.rənt kəmˈpəʊ.nənts./"
+      },
+      {
+        "sentence": "We need to order a new **component** for the computer.",
+        "meaning-example": "Chúng ta cần đặt một bộ phận mới cho máy tính.",
+        "ipa-example": "/wiː niːd tuː ˈɔːr.dər ə nuː kəmˈpəʊ.nənt fɔːr ðə kəmˈpjuː.tər./"
+      },
+      {
+        "sentence": "The main **component** of this dish is rice.",
+        "meaning-example": "Thành phần chính của món ăn này là gạo.",
+        "ipa-example": "/ðə meɪn kəmˈpəʊ.nənt əv ðɪs dɪʃ ɪz raɪs./"
+      },
+      {
+        "sentence": "He checked every **component** of the engine.",
+        "meaning-example": "Anh ấy kiểm tra từng bộ phận của động cơ.",
+        "ipa-example": "/hiː tʃekt ˈev.ri kəmˈpəʊ.nənt əv ðɪ ˈen.dʒɪn./"
+      }
+    ]
+  },
+  {
+    "word": "dependence",
+    "ipa": "/dɪˈpen.dəns/",
+    "meaning": "sự phụ thuộc, sự lệ thuộc.",
+    "image": "eew-5-9/6.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the state of relying on or being controlled by someone or something else.",
+        "meaning-example": "trạng thái phụ thuộc vào hoặc bị kiểm soát bởi người hoặc vật khác.",
+        "ipa-example": "/ðə steɪt əv rɪˈlaɪ.ɪŋ ɒn ɔːr biːɪŋ kənˈtrəʊld baɪ ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ els./"
+      },
+      {
+        "sentence": "He knew about the people’s **dependence** on weaving for their livelihood.",
+        "meaning-example": "Ông ấy biết về sự phụ thuộc của người dân vào việc dệt vải để kiếm sống.",
+        "ipa-example": "/hiː njuː əˈbaʊt ðə ˈpiː.pl̩z dɪˈpen.dəns ɒn ˈwiːv.ɪŋ fɔːr ðeər ˈlaɪv.li.hʊd./"
+      },
+      {
+        "sentence": "The country's **dependence** on oil is a problem.",
+        "meaning-example": "Sự phụ thuộc của đất nước vào dầu mỏ là một vấn đề.",
+        "ipa-example": "/ðə ˈkʌn.triz dɪˈpen.dəns ɒn ɔɪl ɪz ə ˈprɒb.ləm./"
+      },
+      {
+        "sentence": "We need to reduce our **dependence** on fossil fuels.",
+        "meaning-example": "Chúng ta cần giảm sự phụ thuộc vào nhiên liệu hóa thạch.",
+        "ipa-example": "/wiː niːd tuː rɪˈdjuːs ˈaʊər dɪˈpen.dəns ɒn ˈfɒs.əl fjuːəlz./"
+      },
+      {
+        "sentence": "His **dependence** on his parents is not healthy.",
+        "meaning-example": "Sự phụ thuộc của anh ấy vào cha mẹ là không lành mạnh.",
+        "ipa-example": "/hɪz dɪˈpen.dəns ɒn hɪz ˈpeər.ənts ɪz nɒt ˈhel.θi./"
+      },
+      {
+        "sentence": "Drug **dependence** is a serious issue.",
+        "meaning-example": "Nghiện ma túy là một vấn đề nghiêm trọng.",
+        "ipa-example": "/drʌɡ dɪˈpen.dəns ɪz ə ˈsɪə.ri.əs ˈɪʃ.uː./"
+      },
+      {
+        "sentence": "The child's **dependence** on her mother decreased as she got older.",
+        "meaning-example": "Sự phụ thuộc của đứa trẻ vào mẹ giảm dần khi bé lớn hơn.",
+        "ipa-example": "/ðə tʃaɪldz dɪˈpen.dəns ɒn hɜːr ˈmʌð.ər dɪˈkriːst æz ʃiː ɡɒt ˈəʊl.dər./"
+      }
+    ]
+  },
+  {
+    "word": "diminish",
+    "ipa": "/dɪˈmɪn.ɪʃ/",
+    "meaning": "giảm bớt, thu nhỏ, làm yếu đi.",
+    "image": "eew-5-9/7.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to reduce or be reduced in size or importance.",
+        "meaning-example": "giảm hoặc bị giảm về kích thước hoặc tầm quan trọng.",
+        "ipa-example": "/tuː rɪˈdjuːs ɔːr biː rɪˈdjuːst ɪn saɪz ɔːr ɪmˈpɔːr.təns./"
+      },
+      {
+        "sentence": "If you don’t change your archaic ways, your town’s income will **diminish**!",
+        "meaning-example": "Nếu bạn không thay đổi những cách thức cổ hủ, thu nhập của thị trấn bạn sẽ giảm!",
+        "ipa-example": "/ɪf juː dəʊnt tʃeɪndʒ jɔːr ɑːˈkeɪ.ɪk weɪz, jɔːr taʊnz ˈɪn.kʌm wɪl dɪˈmɪn.ɪʃ!/"
+      },
+      {
+        "sentence": "The pain should **diminish** after taking this medicine.",
+        "meaning-example": "Cơn đau sẽ giảm bớt sau khi uống thuốc này.",
+        "ipa-example": "/ðə peɪn ʃʊd dɪˈmɪn.ɪʃ ˈɑːf.tər ˈteɪk.ɪŋ ðɪs ˈmed.ɪ.sɪn./"
+      },
+      {
+        "sentence": "His power has **diminished** significantly.",
+        "meaning-example": "Quyền lực của anh ấy đã giảm đáng kể.",
+        "ipa-example": "/hɪz ˈpaʊər hæz dɪˈmɪn.ɪʃt sɪɡˈnɪf.ɪ.kənt.li./"
+      },
+      {
+        "sentence": "The light began to **diminish** as the sun set.",
+        "meaning-example": "Ánh sáng bắt đầu giảm dần khi mặt trời lặn.",
+        "ipa-example": "/ðə laɪt bɪˈɡæn tuː dɪˈmɪn.ɪʃ æz ðə sʌn set./"
+      },
+      {
+        "sentence": "These reforms will not **diminish** the quality of education.",
+        "meaning-example": "Những cải cách này sẽ không làm giảm chất lượng giáo dục.",
+        "ipa-example": "/ðiːz rɪˈfɔːrmz wɪl nɒt dɪˈmɪn.ɪʃ ðə ˈkwɒl.ə.ti əv ˌedʒ.uˈkeɪ.ʃən./"
+      },
+      {
+        "sentence": "Our food supplies are **diminishing** rapidly.",
+        "meaning-example": "Nguồn cung cấp thực phẩm của chúng ta đang giảm nhanh chóng.",
+        "ipa-example": "/ˈaʊər fuːd səˈplaɪz ɑːr dɪˈmɪn.ɪʃ.ɪŋ ˈræp.ɪd.li./"
+      }
+    ]
+  },
+  {
+    "word": "drawback",
+    "ipa": "/ˈdrɔː.bæk/",
+    "meaning": "nhược điểm, điều bất lợi.",
+    "image": "eew-5-9/8.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a disadvantage or problem.",
+        "meaning-example": "một bất lợi hoặc vấn đề.",
+        "ipa-example": "/ə ˌdɪs.ədˈvɑːn.tɪdʒ ɔːr ˈprɒb.ləm./"
+      },
+      {
+        "sentence": "The mayor couldn’t **refute** the fact that the machine had **drawbacks** that would affect the people’s jobs.",
+        "meaning-example": "Thị trưởng không thể bác bỏ sự thật rằng cỗ máy có những nhược điểm sẽ ảnh hưởng đến công việc của người dân.",
+        "ipa-example": "/ðə meər ˈkʊd.ənt rɪˈfjuːt ðə fækt ðæt ðə məˈʃiːn hæd ˈdrɔː.bæks ðæt wʊd əˈfekt ðə ˈpiː.pl̩z dʒɒbz./"
+      },
+      {
+        "sentence": "The main **drawback** of this plan is the cost.",
+        "meaning-example": "Nhược điểm chính của kế hoạch này là chi phí.",
+        "ipa-example": "/ðə meɪn ˈdrɔː.bæk əv ðɪs plæn ɪz ðə kɒst./"
+      },
+      {
+        "sentence": "Every system has its **drawbacks**.",
+        "meaning-example": "Mọi hệ thống đều có những nhược điểm của nó.",
+        "ipa-example": "/ˈev.ri ˈsɪs.təm hæz ɪts ˈdrɔː.bæks./"
+      },
+      {
+        "sentence": "The only **drawback** is the location.",
+        "meaning-example": "Nhược điểm duy nhất là vị trí.",
+        "ipa-example": "/ðɪ ˈəʊn.li ˈdrɔː.bæk ɪz ðə ləʊˈkeɪ.ʃən./"
+      },
+      {
+        "sentence": "Despite some **drawbacks**, the project was a success.",
+        "meaning-example": "Mặc dù có một số nhược điểm, dự án đã thành công.",
+        "ipa-example": "/dɪˈspaɪt sʌm ˈdrɔː.bæks, ðə ˈprɒdʒ.ekt wɒz ə səkˈses./"
+      },
+      {
+        "sentence": "One **drawback** of living in a big city is the pollution.",
+        "meaning-example": "Một nhược điểm của việc sống ở thành phố lớn là ô nhiễm.",
+        "ipa-example": "/wʌn ˈdrɔː.bæk əv ˈlɪv.ɪŋ ɪn ə bɪɡ ˈsɪt.i ɪz ðə pəˈluː.ʃən./"
+      }
+    ]
+  },
+  {
+    "word": "fad",
+    "ipa": "/fæd/",
+    "meaning": "mốt nhất thời, sự mê thích nhất thời.",
+    "image": "eew-5-9/9.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a style, activity, or interest that is followed for a short time with great enthusiasm but that is not intended to last, or any of the people who do this.",
+        "meaning-example": "một phong cách, hoạt động hoặc sở thích được theo dõi trong một thời gian ngắn với sự nhiệt tình lớn nhưng không có ý định kéo dài, hoặc bất kỳ người nào làm điều này.",
+        "ipa-example": "/ə staɪl, ækˈtɪv.ɪ.ti, ɔːr ˈɪn.trəst ðæt ɪz ˈfɒl.əʊd fɔːr ə ʃɔːrt taɪm wɪð ɡreɪt ɪnˈθjuː.zi.æz.əm bʌt ðæt ɪz nɒt ɪnˈtend.ɪd tuː lɑːst, ɔːr ˈen.i əv ðə ˈpiː.pl̩ huː duː ðɪs./"
+      },
+      {
+        "sentence": "Finally, the mayor of Netherton called Joseph and said, “Now I realize that your machine is not just a passing **fad**.",
+        "meaning-example": "Cuối cùng, thị trưởng Netherton gọi Joseph và nói: “Bây giờ tôi nhận ra rằng cỗ máy của ông không chỉ là một mốt nhất thời.",
+        "ipa-example": "/ˈfaɪ.nəl.i, ðə meər əv ˈneθ.ər.tən kɔːld ˈdʒəʊ.zəf ænd sed, naʊ aɪ ˈraɪ.ə.laɪz ðæt jɔːr məˈʃiːn ɪz nɒt dʒʌst ə ˈpɑːs.ɪŋ fæd./"
+      },
+      {
+        "sentence": "Online gaming is not just a **fad**; it's a huge industry.",
+        "meaning-example": "Trò chơi trực tuyến không chỉ là một mốt nhất thời; đó là một ngành công nghiệp khổng lồ.",
+        "ipa-example": "/ˌɒn.laɪn ˈɡeɪm.ɪŋ ɪz nɒt dʒʌst ə fæd; ɪts ə hjuːdʒ ˈɪn.də.stri./"
+      },
+      {
+        "sentence": "The diet was just a passing **fad**.",
+        "meaning-example": "Chế độ ăn kiêng chỉ là một mốt nhất thời.",
+        "ipa-example": "/ðə ˈdaɪət wɒz dʒʌst ə ˈpɑːs.ɪŋ fæd./"
+      },
+      {
+        "sentence": "Crocs were a fashion **fad** a few years ago.",
+        "meaning-example": "Dép Crocs là một mốt thời trang cách đây vài năm.",
+        "ipa-example": "/krɒks wɜːr ə ˈfæʃ.ən fæd ə fjuː jɪərz əˈɡəʊ./"
+      },
+      {
+        "sentence": "I hope this new trend isn't just a **fad**.",
+        "meaning-example": "Tôi hy vọng xu hướng mới này không chỉ là một mốt nhất thời.",
+        "ipa-example": "/aɪ həʊp ðɪs nuː trend ɪznt dʒʌst ə fæd./"
+      },
+      {
+        "sentence": "It was a **fad** that quickly died out.",
+        "meaning-example": "Đó là một mốt nhất thời nhanh chóng biến mất.",
+        "ipa-example": "/ɪt wɒz ə fæd ðæt ˈkwɪk.li daɪd aʊt./"
+      }
+    ]
+  },
+  {
+    "word": "impose",
+    "ipa": "/ɪmˈpəʊz/",
+    "meaning": "áp đặt, bắt buộc.",
+    "image": "eew-5-9/10.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to officially force a rule, tax, punishment, etc. to be obeyed or received.",
+        "meaning-example": "chính thức buộc một quy tắc, thuế, hình phạt, v.v. phải được tuân thủ hoặc nhận.",
+        "ipa-example": "/tuː əˈfɪʃ.əl.i fɔːrs ə ruːl, tæks, ˈpʌn.ɪʃ.mənt, et ˈset.rə tuː bi əˈbeɪd ɔːr rɪˈsiːvd./"
+      },
+      {
+        "sentence": "Don’t **impose** your **radical** ideas on my town.",
+        "meaning-example": "Đừng áp đặt những ý tưởng cấp tiến của ông lên thị trấn của tôi.",
+        "ipa-example": "/dəʊnt ɪmˈpəʊz jɔːr ˈræd.ɪ.kəl aɪˈdɪəz ɒn maɪ taʊn./"
+      },
+      {
+        "sentence": "The government might **impose** new taxes.",
+        "meaning-example": "Chính phủ có thể áp đặt các loại thuế mới.",
+        "ipa-example": "/ðə ˈɡʌv.ərn.mənt maɪt ɪmˈpəʊz nuː ˈtæk.sɪz./"
+      },
+      {
+        "sentence": "It's unfair to **impose** your will on others.",
+        "meaning-example": "Thật không công bằng khi áp đặt ý muốn của bạn lên người khác.",
+        "ipa-example": "/ɪts ʌnˈfeər tuː ɪmˈpəʊz jɔːr wɪl ɒn ˈʌð.ərz./"
+      },
+      {
+        "sentence": "They tried to **impose** their culture on the local people.",
+        "meaning-example": "Họ cố gắng áp đặt văn hóa của họ lên người dân địa phương.",
+        "ipa-example": "/ðeɪ traɪd tuː ɪmˈpəʊz ðeər ˈkʌl.tʃər ɒn ðə ˈləʊ.kəl ˈpiː.pl̩./"
+      },
+      {
+        "sentence": "The court decided to **impose** a heavy fine.",
+        "meaning-example": "Tòa án quyết định áp đặt một khoản tiền phạt nặng.",
+        "ipa-example": "/ðə kɔːrt dɪˈsaɪd.ɪd tuː ɪmˈpəʊz ə ˈhev.i faɪn./"
+      },
+      {
+        "sentence": "Don't let others **impose** their expectations on you.",
+        "meaning-example": "Đừng để người khác áp đặt kỳ vọng của họ lên bạn.",
+        "ipa-example": "/dəʊnt let ˈʌð.ərz ɪmˈpəʊz ðeər ˌek.spekˈteɪ.ʃənz ɒn juː./"
+      }
+    ]
+  },
+  {
+    "word": "managerial",
+    "ipa": "/ˌmæn.əˈdʒɪə.ri.əl/",
+    "meaning": "(thuộc về) quản lý.",
+    "image": "eew-5-9/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "relating to a manager or to the duties of a manager.",
+        "meaning-example": "liên quan đến một người quản lý hoặc các nhiệm vụ của một người quản lý.",
+        "ipa-example": "/rɪˈleɪt.ɪŋ tuː ə ˈmæn.ɪ.dʒər ɔːr tuː ðə ˈdjuː.tiz əv ə ˈmæn.ɪ.dʒər./"
+      },
+      {
+        "sentence": "People no longer wove but worked in **managerial** jobs at cloth factories instead.",
+        "meaning-example": "Mọi người không còn dệt nữa mà làm công việc quản lý tại các nhà máy vải.",
+        "ipa-example": "/ˈpiː.pl̩ nəʊ ˈlɒŋ.ɡər wəʊv bʌt wɜːrkt ɪn ˌmæn.əˈdʒɪə.ri.əl dʒɒbz æt klɒθ ˈfæk.tər.iz ɪnˈsted./"
+      },
+      {
+        "sentence": "She has good **managerial** skills.",
+        "meaning-example": "Cô ấy có kỹ năng quản lý tốt.",
+        "ipa-example": "/ʃiː hæz ɡʊd ˌmæn.əˈdʒɪə.ri.əl skɪlz./"
+      },
+      {
+        "sentence": "He was promoted to a **managerial** position.",
+        "meaning-example": "Anh ấy được thăng chức lên vị trí quản lý.",
+        "ipa-example": "/hiː wɒz prəˈməʊtɪd tuː ə ˌmæn.əˈdʒɪə.ri.əl pəˈzɪʃ.ən./"
+      },
+      {
+        "sentence": "The company is looking for someone with strong **managerial** experience.",
+        "meaning-example": "Công ty đang tìm kiếm một người có kinh nghiệm quản lý vững chắc.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni ɪz ˈlʊk.ɪŋ fɔːr ˈsʌm.wʌn wɪð strɒŋ ˌmæn.əˈdʒɪə.ri.əl ɪkˈspɪə.ri.əns./"
+      },
+      {
+        "sentence": "This is a **managerial** decision.",
+        "meaning-example": "Đây là một quyết định quản lý.",
+        "ipa-example": "/ðɪs ɪz ə ˌmæn.əˈdʒɪə.ri.əl dɪˈsɪʒ.ən./"
+      },
+      {
+        "sentence": "Effective **managerial** leadership is crucial for success.",
+        "meaning-example": "Sự lãnh đạo quản lý hiệu quả rất quan trọng để thành công.",
+        "ipa-example": "/ɪˈfekt.ɪv ˌmæn.əˈdʒɪə.ri.əl ˈliː.dər.ʃɪp ɪz ˈkruː.ʃəl fɔːr səkˈses./"
+      }
+    ]
+  },
+  {
+    "word": "medieval",
+    "ipa": "/ˌmed.iˈiː.vəl/",
+    "meaning": "(thuộc) thời trung cổ.",
+    "image": "eew-5-9/12.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "relating to the Middle Ages (about 1000 AD to 1450 AD).",
+        "meaning-example": "liên quan đến Thời Trung Cổ (khoảng năm 1000 sau Công nguyên đến năm 1450 sau Công nguyên).",
+        "ipa-example": "/rɪˈleɪt.ɪŋ tuː ðə ˈmɪd.l̩ ˈeɪ.dʒɪz (əˈbaʊt wʌn ˈθaʊ.zənd eɪ diː tuː fɔːr.ti faɪv ˈhʌn.drəd eɪ diː)./"
+      },
+      {
+        "sentence": "We are no longer in the **medieval** age!",
+        "meaning-example": "Chúng ta không còn ở thời trung cổ nữa!",
+        "ipa-example": "/wiː ɑːr nəʊ ˈlɒŋ.ɡər ɪn ðə ˌmed.iˈiː.vəl eɪdʒ!/"
+      },
+      {
+        "sentence": "The castle dates back to **medieval** times.",
+        "meaning-example": "Lâu đài có từ thời trung cổ.",
+        "ipa-example": "/ðə ˈkɑː.sl̩ deɪts bæk tuː ˌmed.iˈiː.vəl taɪmz./"
+      },
+      {
+        "sentence": "He is studying **medieval** history.",
+        "meaning-example": "Anh ấy đang học lịch sử thời trung cổ.",
+        "ipa-example": "/hiː ɪz ˈstʌd.i.ɪŋ ˌmed.iˈiː.vəl ˈhɪs.tər.i./"
+      },
+      {
+        "sentence": "Many **medieval** towns were built around a church.",
+        "meaning-example": "Nhiều thị trấn thời trung cổ được xây dựng xung quanh một nhà thờ.",
+        "ipa-example": "/ˈmen.i ˌmed.iˈiː.vəl taʊnz wɜːr bɪlt əˈraʊnd ə tʃɜːrtʃ./"
+      },
+      {
+        "sentence": "The book describes life in **medieval** Europe.",
+        "meaning-example": "Cuốn sách mô tả cuộc sống ở châu Âu thời trung cổ.",
+        "ipa-example": "/ðə bʊk dɪˈskraɪbz laɪf ɪn ˌmed.iˈiː.vəl ˈjʊə.rəp./"
+      },
+      {
+        "sentence": "They explored the ruins of a **medieval** fortress.",
+        "meaning-example": "Họ khám phá tàn tích của một pháo đài thời trung cổ.",
+        "ipa-example": "/ðeɪ ɪkˈsplɔːrd ðə ˈruː.ɪnz əv ə ˌmed.iˈiː.vəl ˈfɔːr.trəs./"
+      }
+    ]
+  },
+  {
+    "word": "obsolete",
+    "ipa": "/ˈɒb.sə.liːt/",
+    "meaning": "lỗi thời, không còn dùng nữa.",
+    "image": "eew-5-9/13.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "not in use any more, having been replaced by something newer and better or more fashionable.",
+        "meaning-example": "không còn được sử dụng nữa, đã bị thay thế bằng cái gì đó mới hơn, tốt hơn hoặc thời trang hơn.",
+        "ipa-example": "/nɒt ɪn juːz ˈen.i mɔːr, ˈhæv.ɪŋ biːn rɪˈpleɪst baɪ ˈsʌm.θɪŋ ˈnjuː.ər ænd ˈbet.ər ɔːr ˈfæʃ.ən.ə.bl̩./"
+      },
+      {
+        "sentence": "Cloth made by hand will soon be **obsolete**.",
+        "meaning-example": "Vải làm bằng tay sẽ sớm trở nên lỗi thời.",
+        "ipa-example": "/klɒθ meɪd baɪ hænd wɪl suːn bi ˈɒb.sə.liːt./"
+      },
+      {
+        "sentence": "Typewriters are now **obsolete**.",
+        "meaning-example": "Máy đánh chữ bây giờ đã lỗi thời.",
+        "ipa-example": "/ˈtaɪp.raɪ.tərz ɑːr naʊ ˈɒb.sə.liːt./"
+      },
+      {
+        "sentence": "The old technology is becoming **obsolete**.",
+        "meaning-example": "Công nghệ cũ đang trở nên lỗi thời.",
+        "ipa-example": "/ðɪ əʊld tekˈnɒl.ə.dʒi ɪz bɪˈkʌm.ɪŋ ˈɒb.sə.liːt./"
+      },
+      {
+        "sentence": "Many jobs will become **obsolete** due to automation.",
+        "meaning-example": "Nhiều công việc sẽ trở nên lỗi thời do tự động hóa.",
+        "ipa-example": "/ˈmen.i dʒɒbz wɪl bɪˈkʌm ˈɒb.sə.liːt djuː tuː ˌɔː.təˈmeɪ.ʃən./"
+      },
+      {
+        "sentence": "Is the concept of a written letter becoming **obsolete**?",
+        "meaning-example": "Khái niệm thư viết tay có đang trở nên lỗi thời không?",
+        "ipa-example": "/ɪz ðə ˈkɒn.sept əv ə ˈrɪt.ən ˈlet.ər bɪˈkʌm.ɪŋ ˈɒb.sə.liːt?/"
+      },
+      {
+        "sentence": "These maps are **obsolete**; we need new ones.",
+        "meaning-example": "Những bản đồ này đã lỗi thời; chúng ta cần những bản đồ mới.",
+        "ipa-example": "/ðiːz mæps ɑːr ˈɒb.sə.liːt; wiː niːd nuː wʌnz./"
+      }
+    ]
+  },
+  {
+    "word": "peninsula",
+    "ipa": "/pɪˈnɪn.sjə.lə/",
+    "meaning": "bán đảo.",
+    "image": "eew-5-9/14.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a piece of land almost surrounded by water but joined to the mainland on one side.",
+        "meaning-example": "một mảnh đất gần như được bao quanh bởi nước nhưng nối liền với đất liền ở một phía.",
+        "ipa-example": "/ə piːs əv lænd ˈɔːl.məʊst səˈraʊn.dɪd baɪ ˈwɔː.tər bʌt dʒɔɪnd tuː ðə ˈmeɪn.lænd ɒn wʌn saɪd./"
+      },
+      {
+        "sentence": "He decided to take it to two cities on a **peninsula**, Netherton and Wilton.",
+        "meaning-example": "Anh ấy quyết định mang nó đến hai thành phố trên một bán đảo, Netherton và Wilton.",
+        "ipa-example": "/hiː dɪˈsaɪd.ɪd tuː teɪk ɪt tuː tuː ˈsɪt.iz ɒn ə pɪˈnɪn.sjə.lə, ˈneθ.ər.tən ænd ˈwɪl.tən./"
+      },
+      {
+        "sentence": "Florida is a well-known **peninsula**.",
+        "meaning-example": "Florida là một bán đảo nổi tiếng.",
+        "ipa-example": "/ˈflɒr.ɪ.də ɪz ə welˈnəʊn pɪˈnɪn.sjə.lə./"
+      },
+      {
+        "sentence": "The country is located on a large **peninsula**.",
+        "meaning-example": "Quốc gia này nằm trên một bán đảo lớn.",
+        "ipa-example": "/ðə ˈkʌn.tri ɪz ləʊˈkeɪtɪd ɒn ə lɑːrdʒ pɪˈnɪn.sjə.lə./"
+      },
+      {
+        "sentence": "We spent our vacation exploring the **peninsula**.",
+        "meaning-example": "Chúng tôi đã dành kỳ nghỉ của mình để khám phá bán đảo.",
+        "ipa-example": "/wiː spent ˈaʊər veɪˈkeɪ.ʃən ɪkˈsplɔːr.ɪŋ ðə pɪˈnɪn.sjə.lə./"
+      },
+      {
+        "sentence": "The Korean **peninsula** is divided into two countries.",
+        "meaning-example": "Bán đảo Triều Tiên được chia thành hai quốc gia.",
+        "ipa-example": "/ðə kəˈriːən pɪˈnɪn.sjə.lə ɪz dɪˈvaɪdɪd ˈɪn.tuː tuː ˈkʌn.triz./"
+      },
+      {
+        "sentence": "The village is situated on a small **peninsula**.",
+        "meaning-example": "Ngôi làng nằm trên một bán đảo nhỏ.",
+        "ipa-example": "/ðə ˈvɪl.ɪdʒ ɪz ˈsɪtʃ.u.eɪtɪd ɒn ə smɔːl pɪˈnɪn.sjə.lə./"
+      }
+    ]
+  },
+  {
+    "word": "prestige",
+    "ipa": "/presˈtiːʒ/",
+    "meaning": "uy tín, danh tiếng.",
+    "image": "eew-5-9/15.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the respect and admiration that someone or something gets because of their success or important position in society.",
+        "meaning-example": "sự tôn trọng và ngưỡng mộ mà một người hoặc vật nào đó nhận được vì thành công hoặc vị trí quan trọng trong xã hội của họ.",
+        "ipa-example": "/ðə rɪˈspekt ænd ˌæd.məˈreɪ.ʃən ðæt ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ ɡets bɪˈkɒz əv ðeər səkˈses ɔːr ɪmˈpɔːr.tənt pəˈzɪʃ.ən ɪn səˈsaɪ.ə.ti./"
+      },
+      {
+        "sentence": "But he realized the machine could bring money and **prestige**.",
+        "meaning-example": "Nhưng ông ấy nhận ra rằng cỗ máy có thể mang lại tiền bạc và uy tín.",
+        "ipa-example": "/bʌt hiː ˈriː.ə.laɪzd ðə məˈʃiːn kʊd brɪŋ ˈmʌn.i ænd presˈtiːʒ./"
+      },
+      {
+        "sentence": "The job offers high salary and **prestige**.",
+        "meaning-example": "Công việc này mang lại lương cao và uy tín.",
+        "ipa-example": "/ðə dʒɒb ˈɒf.ərz haɪ ˈsæl.ər.i ænd presˈtiːʒ./"
+      },
+      {
+        "sentence": "The award brings great **prestige** to the winner.",
+        "meaning-example": "Giải thưởng mang lại uy tín lớn cho người chiến thắng.",
+        "ipa-example": "/ðɪ əˈwɔːrd brɪŋz ɡreɪt presˈtiːʒ tuː ðə ˈwɪn.ər./"
+      },
+      {
+        "sentence": "He gained international **prestige** for his research.",
+        "meaning-example": "Ông ấy đã đạt được uy tín quốc tế nhờ nghiên cứu của mình.",
+        "ipa-example": "/hiː ɡeɪnd ˌɪn.tərˈnæʃ.ən.əl presˈtiːʒ fɔːr hɪz rɪˈsɜːrtʃ./"
+      },
+      {
+        "sentence": "Working for that company adds to your **prestige**.",
+        "meaning-example": "Làm việc cho công ty đó làm tăng uy tín của bạn.",
+        "ipa-example": "/ˈwɜːr.kɪŋ fɔːr ðæt ˈkʌm.pə.ni ædz tuː jɔːr presˈtiːʒ./"
+      },
+      {
+        "sentence": "The university has a long history of academic **prestige**.",
+        "meaning-example": "Trường đại học có lịch sử lâu đời về uy tín học thuật.",
+        "ipa-example": "/ðə ˌjuː.nɪˈvɜːr.sə.ti hæz ə lɒŋ ˈhɪs.tər.i əv ˌæk.əˈdem.ɪk presˈtiːʒ./"
+      }
+    ]
+  },
+  {
+    "word": "proportion",
+    "ipa": "/prəˈpɔːr.ʃən/",
+    "meaning": "tỷ lệ, phần.",
+    "image": "eew-5-9/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a part of a total number or amount.",
+        "meaning-example": "một phần của tổng số hoặc số lượng.",
+        "ipa-example": "/ə pɑːrt əv ə ˈtəʊ.təl ˈnʌm.bər ɔːr əˈmaʊnt./"
+      },
+      {
+        "sentence": "In these cities, a large **proportion** of the people worked in weaving.",
+        "meaning-example": "Ở những thành phố này, một tỷ lệ lớn người dân làm nghề dệt.",
+        "ipa-example": "/ɪn ðiːz ˈsɪt.iz, ə lɑːrdʒ prəˈpɔːr.ʃən əv ðə ˈpiː.pl̩ wɜːrkt ɪn ˈwiːv.ɪŋ./"
+      },
+      {
+        "sentence": "A large **proportion** of the population lives in cities.",
+        "meaning-example": "Một tỷ lệ lớn dân số sống ở các thành phố.",
+        "ipa-example": "/ə lɑːrdʒ prəˈpɔːr.ʃən əv ðə ˌpɒp.jəˈleɪ.ʃən lɪvz ɪn ˈsɪt.iz./"
+      },
+      {
+        "sentence": "The **proportion** of women in the workforce has increased.",
+        "meaning-example": "Tỷ lệ phụ nữ trong lực lượng lao động đã tăng lên.",
+        "ipa-example": "/ðə prəˈpɔːr.ʃən əv ˈwɪm.ɪn ɪn ðə ˈwɜːrk.fɔːrs hæz ɪnˈkriːst./"
+      },
+      {
+        "sentence": "The cost of housing is out of all **proportion** to average incomes.",
+        "meaning-example": "Chi phí nhà ở hoàn toàn không tương xứng với thu nhập trung bình.",
+        "ipa-example": "/ðə kɒst əv ˈhaʊz.ɪŋ ɪz aʊt əv ɔːl prəˈpɔːr.ʃən tuː ˈæv.ər.ɪdʒ ˈɪn.kʌmz./"
+      },
+      {
+        "sentence": "What **proportion** of the budget is spent on education?",
+        "meaning-example": "Tỷ lệ ngân sách được chi cho giáo dục là bao nhiêu?",
+        "ipa-example": "/wɒt prəˈpɔːr.ʃən əv ðə ˈbʌdʒ.ɪt ɪz spent ɒn ˌedʒ.uˈkeɪ.ʃən?/"
+      },
+      {
+        "sentence": "The painting has good **proportion** and balance.",
+        "meaning-example": "Bức tranh có tỷ lệ và sự cân bằng tốt.",
+        "ipa-example": "/ðə ˈpeɪnt.ɪŋ hæz ɡʊd prəˈpɔːr.ʃən ænd ˈbæl.əns./"
+      }
+    ]
+  },
+  {
+    "word": "radical",
+    "ipa": "/ˈræd.ɪ.kəl/",
+    "meaning": "cấp tiến, triệt để, căn bản.",
+    "image": "eew-5-9/17.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "believing or expressing the belief that there should be great or extreme social or political change.",
+        "meaning-example": "tin tưởng hoặc thể hiện niềm tin rằng nên có sự thay đổi xã hội hoặc chính trị lớn hoặc cực đoan.",
+        "ipa-example": "/bɪˈliːv.ɪŋ ɔːr ɪkˈspres.ɪŋ ðə bɪˈliːf ðæt ðeər ʃʊd biː ɡreɪt ɔːr ɪkˈstriːm ˈsəʊ.ʃəl ɔːr pəˈlɪt.ɪ.kəl tʃeɪndʒ./"
+      },
+      {
+        "sentence": "Don’t **impose** your **radical** ideas on my town.",
+        "meaning-example": "Đừng áp đặt những ý tưởng cấp tiến của ông lên thị trấn của tôi.",
+        "ipa-example": "/dəʊnt ɪmˈpəʊz jɔːr ˈræd.ɪ.kəl aɪˈdɪəz ɒn maɪ taʊn./"
+      },
+      {
+        "sentence": "He proposed a **radical** solution to the problem.",
+        "meaning-example": "Anh ấy đề xuất một giải pháp cấp tiến cho vấn đề.",
+        "ipa-example": "/hiː prəˈpəʊzd ə ˈræd.ɪ.kəl səˈluː.ʃən tuː ðə ˈprɒb.ləm./"
+      },
+      {
+        "sentence": "The government is planning **radical** reforms.",
+        "meaning-example": "Chính phủ đang lên kế hoạch cho các cải cách triệt để.",
+        "ipa-example": "/ðə ˈɡʌv.ərn.mənt ɪz ˈplæn.ɪŋ ˈræd.ɪ.kəl rɪˈfɔːrmz./"
+      },
+      {
+        "sentence": "She has very **radical** views on education.",
+        "meaning-example": "Cô ấy có những quan điểm rất cấp tiến về giáo dục.",
+        "ipa-example": "/ʃiː hæz ˈver.i ˈræd.ɪ.kəl vjuːz ɒn ˌedʒ.uˈkeɪ.ʃən./"
+      },
+      {
+        "sentence": "A **radical** change in policy is needed.",
+        "meaning-example": "Cần có một sự thay đổi triệt để trong chính sách.",
+        "ipa-example": "/ə ˈræd.ɪ.kəl tʃeɪndʒ ɪn ˈpɒl.ə.si ɪz ˈniːdɪd./"
+      },
+      {
+        "sentence": "They want to make **radical** changes to the system.",
+        "meaning-example": "Họ muốn thực hiện những thay đổi triệt để đối với hệ thống.",
+        "ipa-example": "/ðeɪ wɒnt tuː meɪk ˈræd.ɪ.kəl tʃeɪndʒɪz tuː ðə ˈsɪs.təm./"
+      }
+    ]
+  },
+  {
+    "word": "refute",
+    "ipa": "/rɪˈfjuːt/",
+    "meaning": "bác bỏ, chứng minh là sai.",
+    "image": "eew-5-9/18.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to prove that something is wrong or incorrect.",
+        "meaning-example": "chứng minh rằng điều gì đó sai hoặc không chính xác.",
+        "ipa-example": "/tuː pruːv ðæt ˈsʌm.θɪŋ ɪz rɒŋ ɔːr ˌɪn.kəˈrekt./"
+      },
+      {
+        "sentence": "The mayor couldn’t **refute** the fact that the machine had drawbacks that would affect the people’s jobs.",
+        "meaning-example": "Thị trưởng không thể bác bỏ sự thật rằng cỗ máy có những nhược điểm sẽ ảnh hưởng đến công việc của người dân.",
+        "ipa-example": "/ðə meər ˈkʊd.ənt rɪˈfjuːt ðə fækt ðæt ðə məˈʃiːn hæd ˈdrɔː.bæks ðæt wʊd əˈfekt ðə ˈpiː.pl̩z dʒɒbz./"
+      },
+      {
+        "sentence": "She tried to **refute** the accusations against her.",
+        "meaning-example": "Cô ấy cố gắng bác bỏ những lời buộc tội chống lại mình.",
+        "ipa-example": "/ʃiː traɪd tuː rɪˈfjuːt ðɪ ˌæk.jəˈzeɪ.ʃənz əˈɡenst hɜːr./"
+      },
+      {
+        "sentence": "Can you **refute** his argument?",
+        "meaning-example": "Bạn có thể bác bỏ lập luận của anh ấy không?",
+        "ipa-example": "/kæn juː rɪˈfjuːt hɪz ˈɑːr.ɡjə.mənt?/"
+      },
+      {
+        "sentence": "The evidence is difficult to **refute**.",
+        "meaning-example": "Bằng chứng rất khó để bác bỏ.",
+        "ipa-example": "/ðɪ ˈev.ɪ.dəns ɪz ˈdɪf.ɪ.kəlt tuː rɪˈfjuːt./"
+      },
+      {
+        "sentence": "He published an article to **refute** the claims.",
+        "meaning-example": "Ông ấy đã xuất bản một bài báo để bác bỏ những tuyên bố đó.",
+        "ipa-example": "/hiː ˈpʌb.lɪʃt ən ˈɑːr.tɪ.kl̩ tuː rɪˈfjuːt ðə kleɪmz./"
+      },
+      {
+        "sentence": "It is hard to **refute** a simple fact.",
+        "meaning-example": "Thật khó để bác bỏ một sự thật đơn giản.",
+        "ipa-example": "/ɪt ɪz hɑːrd tuː rɪˈfjuːt ə ˈsɪm.pl̩ fækt./"
+      }
+    ]
+  },
+  {
+    "word": "spectacular",
+    "ipa": "/spekˈtæk.jə.lər/",
+    "meaning": "ngoạn mục, đẹp mắt, ấn tượng.",
+    "image": "eew-5-9/19.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "very exciting to look at; extremely good, exciting, or surprising.",
+        "meaning-example": "rất thú vị khi nhìn; cực kỳ tốt, thú vị, hoặc đáng ngạc nhiên.",
+        "ipa-example": "/ˈver.i ɪkˈsaɪt.ɪŋ tuː lʊk æt; ɪkˈstriːm.li ɡʊd, ɪkˈsaɪt.ɪŋ, ɔːr sərˈpraɪ.zɪŋ./"
+      },
+      {
+        "sentence": "This mayor thought Joseph’s machine was **spectacular** and spent a long time looking at its different components made of brass.",
+        "meaning-example": "Thị trưởng này nghĩ rằng cỗ máy của Joseph thật ngoạn mục và đã dành một thời gian dài để ngắm nhìn các bộ phận khác nhau của nó được làm bằng đồng thau.",
+        "ipa-example": "/ðɪs meər θɔːt ˈdʒəʊ.zəfs məˈʃiːn wɒz spekˈtæk.jə.lər ænd spent ə lɒŋ taɪm ˈlʊk.ɪŋ æt ɪts ˈdɪf.rənt kəmˈpəʊ.nənts meɪd əv brɑːs./"
+      },
+      {
+        "sentence": "The view from the top of the mountain is **spectacular**.",
+        "meaning-example": "Quang cảnh từ đỉnh núi thật ngoạn mục.",
+        "ipa-example": "/ðə vjuː frɒm ðə tɒp əv ðə ˈmaʊn.tɪn ɪz spekˈtæk.jə.lər./"
+      },
+      {
+        "sentence": "The fireworks display was **spectacular**.",
+        "meaning-example": "Màn trình diễn pháo hoa thật ngoạn mục.",
+        "ipa-example": "/ðə ˈfaɪər.wɜːrks dɪˈspleɪ wɒz spekˈtæk.jə.lər./"
+      },
+      {
+        "sentence": "She gave a **spectacular** performance.",
+        "meaning-example": "Cô ấy đã có một màn trình diễn ngoạn mục.",
+        "ipa-example": "/ʃiː ɡeɪv ə spekˈtæk.jə.lər pərˈfɔːr.məns./"
+      },
+      {
+        "sentence": "The team scored a **spectacular** goal.",
+        "meaning-example": "Đội đã ghi một bàn thắng ngoạn mục.",
+        "ipa-example": "/ðə tiːm skɔːrd ə spekˈtæk.jə.lər ɡəʊl./"
+      },
+      {
+        "sentence": "The wedding was a **spectacular** event.",
+        "meaning-example": "Đám cưới là một sự kiện ngoạn mục.",
+        "ipa-example": "/ðə ˈwed.ɪŋ wɒz ə spekˈtæk.jə.lər ɪˈvent./"
+      }
+    ]
+  },
+  {
+    "word": "weave",
+    "ipa": "/wiːv/",
+    "meaning": "dệt (vải).",
+    "image": "eew-5-9/20.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to make cloth by repeatedly crossing a single thread through two sets of long threads on a loom.",
+        "meaning-example": "làm vải bằng cách lặp đi lặp lại việc luồn một sợi chỉ qua hai bộ sợi dài trên khung dệt.",
+        "ipa-example": "/tuː meɪk klɒθ baɪ rɪˈpiːt.ɪd.li ˈkrɒs.ɪŋ ə ˈsɪŋ.ɡl̩ θred θruː tuː sets əv lɒŋ θredz ɒn ə luːm./"
+      },
+      {
+        "sentence": "Mr. Joseph Franklin invented a machine that could **weave** cloth.",
+        "meaning-example": "Ông Joseph Franklin đã phát minh ra một cỗ máy có thể dệt vải.",
+        "ipa-example": "/ˈmɪs.tər ˈdʒəʊ.zəf ˈfræŋk.lɪn ɪnˈventɪd ə məˈʃiːn ðæt kʊd wiːv klɒθ./"
+      },
+      {
+        "sentence": "My grandmother taught me how to **weave**.",
+        "meaning-example": "Bà tôi đã dạy tôi cách dệt.",
+        "ipa-example": "/maɪ ˈɡræn.mʌð.ər tɔːt miː haʊ tuː wiːv./"
+      },
+      {
+        "sentence": "She likes to **weave** her own blankets.",
+        "meaning-example": "Cô ấy thích tự dệt chăn của mình.",
+        "ipa-example": "/ʃiː laɪks tuː wiːv hɜːr əʊn ˈblæŋ.kɪts./"
+      },
+      {
+        "sentence": "The machine can **weave** intricate patterns.",
+        "meaning-example": "Cỗ máy có thể dệt những hoa văn phức tạp.",
+        "ipa-example": "/ðə məˈʃiːn kæn wiːv ˈɪn.trɪ.kət ˈpæt.ərnz./"
+      },
+      {
+        "sentence": "Spiders **weave** webs to catch insects.",
+        "meaning-example": "Nhện dệt mạng để bắt côn trùng.",
+        "ipa-example": "/ˈspaɪ.dərz wiːv webz tuː kætʃ ˈɪn.sekts./"
+      },
+      {
+        "sentence": "The factory used to **weave** cotton into fabric.",
+        "meaning-example": "Nhà máy từng dệt bông thành vải.",
+        "ipa-example": "/ðə ˈfæk.tər.i juːzd tuː wiːv ˈkɒt.ən ˈɪn.tuː ˈfæb.rɪk./"
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "question": "cổ xưa, lỗi thời.",
+    "classes": "adj",
+    "answer": "archaic",
+    "ipa": "/ɑːˈkeɪ.ɪk/",
+    "example": "If you don’t change your **archaic** ways, your town’s income will diminish!",
+    "english-definition": "of or belonging to an ancient period in history.",
+    "images": "eew-5-9/1.png"
+  },
+  {
+    "question": "nhân từ, nhân đức, rộng lượng.",
+    "classes": "adj",
+    "answer": "benevolent",
+    "ipa": "/bəˈnev.əl.ənt/",
+    "example": "But the mayor was a **benevolent** man.",
+    "english-definition": "kind and helpful.",
+    "images": "eew-5-9/2.png"
+  },
+  {
+    "question": "đồng thau.",
+    "classes": "n",
+    "answer": "brass",
+    "ipa": "/brɑːs/",
+    "example": "This mayor thought Joseph’s machine was spectacular and spent a long time looking at its different components made of **brass**.",
+    "english-definition": "a bright yellow metal made from copper and zinc.",
+    "images": "eew-5-9/3.png"
+  },
+  {
+    "question": "chủ nghĩa tư bản.",
+    "classes": "n",
+    "answer": "capitalism",
+    "ipa": "/ˈkæp.ɪ.təl.ɪz.əm/",
+    "example": "But the mayor said, “I don’t like **capitalism**.”",
+    "english-definition": "an economic and political system in which a country's trade and industry are controlled by private owners for profit, rather than by the state.",
+    "images": "eew-5-9/4.png"
+  },
+  {
+    "question": "thành phần, bộ phận.",
+    "classes": "n",
+    "answer": "component",
+    "ipa": "/kəmˈpəʊ.nənt/",
+    "example": "This mayor thought Joseph’s machine was spectacular and spent a long time looking at its different **components** made of brass.",
+    "english-definition": "a part that combines with other parts to form something bigger.",
+    "images": "eew-5-9/5.png"
+  },
+  {
+    "question": "sự phụ thuộc, sự lệ thuộc.",
+    "classes": "n",
+    "answer": "dependence",
+    "ipa": "/dɪˈpen.dəns/",
+    "example": "He knew about the people’s **dependence** on weaving for their livelihood.",
+    "english-definition": "the state of relying on or being controlled by someone or something else.",
+    "images": "eew-5-9/6.png"
+  },
+  {
+    "question": "giảm bớt, thu nhỏ, làm yếu đi.",
+    "classes": "v",
+    "answer": "diminish",
+    "ipa": "/dɪˈmɪn.ɪʃ/",
+    "example": "If you don’t change your archaic ways, your town’s income will **diminish**!",
+    "english-definition": "to reduce or be reduced in size or importance.",
+    "images": "eew-5-9/7.png"
+  },
+  {
+    "question": "nhược điểm, hạn chế, mặt trái.",
+    "classes": "n",
+    "answer": "drawback",
+    "ipa": "/ˈdrɔː.bæk/",
+    "example": "The mayor couldn’t refute the fact that the machine had **drawbacks** that would affect the people’s jobs.",
+    "english-definition": "a disadvantage or the negative part of a situation.",
+    "images": "eew-5-9/8.png"
+  },
+  {
+    "question": "mốt nhất thời, sự ưa thích tạm thời.",
+    "classes": "n",
+    "answer": "fad",
+    "ipa": "/fæd/",
+    "example": "Now I realize that your machine is not just a passing **fad**.",
+    "english-definition": "a style, activity, or interest that is very popular for a short period of time.",
+    "images": "eew-5-9/9.png"
+  },
+  {
+    "question": "áp đặt.",
+    "classes": "v",
+    "answer": "impose",
+    "ipa": "/ɪmˈpəʊz/",
+    "example": "Don’t **impose** your radical ideas on my town. Go away!",
+    "english-definition": "to force an opinion, rule, or punishment on someone.",
+    "images": "eew-5-9/10.png"
+  },
+  {
+    "question": "(thuộc về) quản lý, của người quản lý.",
+    "classes": "adj",
+    "answer": "managerial",
+    "ipa": "/ˌmæn.əˈdʒɪə.ri.əl/",
+    "example": "People no longer wove but worked in **managerial** jobs at cloth factories instead.",
+    "english-definition": "relating to the job of a manager.",
+    "images": "eew-5-9/11.png"
+  },
+  {
+    "question": "(thuộc về) thời Trung cổ.",
+    "classes": "adj",
+    "answer": "medieval",
+    "ipa": "/ˌmed.iˈiː.vəl/",
+    "example": "We are no longer in the **medieval** age!",
+    "english-definition": "related to the Middle Ages (the period in European history from about 600 to 1500 AD).",
+    "images": "eew-5-9/12.png"
+  },
+  {
+    "question": "lỗi thời, cổ xưa, không còn được sử dụng.",
+    "classes": "adj",
+    "answer": "obsolete",
+    "ipa": "/ˈɒb.səl.iːt/",
+    "example": "Cloth made by hand will soon be **obsolete**.",
+    "english-definition": "not in use any more, having been replaced by something newer and better or more fashionable.",
+    "images": "eew-5-9/13.png"
+  },
+  {
+    "question": "bán đảo.",
+    "classes": "n",
+    "answer": "peninsula",
+    "ipa": "/pəˈnɪn.sjə.lə/",
+    "example": "He decided to take it to two cities on a **peninsula**, Netherton and Wilton.",
+    "english-definition": "a long piece of land that is mostly surrounded by water, but is connected to a larger landmass.",
+    "images": "eew-5-9/14.png"
+  },
+  {
+    "question": "uy tín, thanh thế.",
+    "classes": "n",
+    "answer": "prestige",
+    "ipa": "/presˈtiːʒ/",
+    "example": "But he realized the machine could bring money and **prestige**.",
+    "english-definition": "respect and admiration given to someone or something, usually because of a high position or success.",
+    "images": "eew-5-9/15.png"
+  },
+  {
+    "question": "tỉ lệ, phần.",
+    "classes": "n",
+    "answer": "proportion",
+    "ipa": "/prəˈpɔː.ʃən/",
+    "example": "In these cities, a large **proportion** of the people worked in weaving.",
+    "english-definition": "the number or amount of a group or part of something when compared to the whole.",
+    "images": "eew-5-9/16.png"
+  },
+  {
+    "question": "cấp tiến, cực đoan; triệt để, hoàn toàn.",
+    "classes": "adj",
+    "answer": "radical",
+    "ipa": "/ˈræd.ɪ.kəl/",
+    "example": "Don’t impose your **radical** ideas on my town. Go away!",
+    "english-definition": "believing or expressing the belief that there should be great or extreme social or political change.",
+    "images": "eew-5-9/17.png"
+  },
+  {
+    "question": "bác bỏ (một ý kiến, lập luận).",
+    "classes": "v",
+    "answer": "refute",
+    "ipa": "/rɪˈfjuːt/",
+    "example": "The mayor couldn’t **refute** the fact that the machine had drawbacks that would affect the people’s jobs.",
+    "english-definition": "to say or prove that a person, statement, opinion, etc. is wrong or false.",
+    "images": "eew-5-9/18.png"
+  },
+  {
+    "question": "ngoạn mục, đẹp mắt, ấn tượng.",
+    "classes": "adj",
+    "answer": "spectacular",
+    "ipa": "/spekˈtæk.jə.lər/",
+    "example": "This mayor thought Joseph’s machine was **spectacular** and spent a long time looking at its different components made of brass.",
+    "english-definition": "very exciting to look at; extremely good, exciting, or surprising.",
+    "images": "eew-5-9/19.png"
+  },
+  {
+    "question": "dệt (vải).",
+    "classes": "v",
+    "answer": "weave",
+    "ipa": "/wiːv/",
+    "example": "Mr. Joseph Franklin invented a machine that could **weave** cloth.",
+    "english-definition": "to make cloth by repeatedly crossing a single thread through two sets of long threads on a loom.",
+    "images": "eew-5-9/20.png"
+  }
+]
