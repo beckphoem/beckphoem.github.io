@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Học Tiếng Anh - Unit 6: Present of Be</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .unit-header {
+            background-color: #4CAF50; /* Màu xanh lá cây */
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+        .unit-number {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-right: 20px;
+            line-height: 1;
+        }
+        .unit-title h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .unit-title h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+        .section-header {
+            background-color: #007BFF; /* Màu xanh dương */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .subsection-header {
+            color: #E67E22; /* Màu cam */
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #E67E22;
+            padding-bottom: 5px;
+        }
+        .exercise-title {
+            color: #28A745; /* Màu xanh lá cây */
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .image-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+        }
+        .image-item img {
+            width: 100%;
+            height: 180px; /* Chiều cao cố định cho ảnh */
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .image-item span {
+            font-weight: 500;
+            color: #555;
+            text-align: center;
+        }
+        .conversation-box {
+            background-color: #ECF0F1; /* Màu xám nhạt */
+            border-left: 5px solid #3498DB; /* Màu xanh dương */
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .conversation-box p {
+            margin-bottom: 8px;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+            color: #333;
+        }
+        .grammar-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .grammar-notes {
+            background-color: #F8F9FA; /* Màu xám rất nhạt */
+            border: 1px solid #E0E0E0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .grammar-notes h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2C3E50;
+            margin-bottom: 10px;
+        }
+        .grammar-notes ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .grammar-notes li {
+            margin-bottom: 5px;
+        }
+        .usage-note {
+            background-color: #FFF3CD; /* Màu vàng nhạt */
+            border-left: 5px solid #FFC107; /* Màu vàng */
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-style: italic;
+            color: #6A4F00;
+        }
+        .be-careful {
+            background-color: #F8D7DA; /* Màu đỏ nhạt */
+            border-left: 5px solid #DC3545; /* Màu đỏ */
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-weight: 500;
+            color: #721C24;
+        }
+        .reference-notes {
+            background-color: #E2F0CB; /* Màu xanh lá cây nhạt */
+            border-left: 5px solid #8BC34A; /* Màu xanh lá cây */
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .reference-notes p {
+            margin-bottom: 8px;
+        }
+        .exercise-section {
+            padding: 20px;
+            background-color: #FDFEFE;
+            border-radius: 10px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+            margin-bottom: 30px;
+        }
+        .exercise-section ol, .exercise-section ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        .exercise-section li {
+            margin-bottom: 10px;
+        }
+        .exercise-section input[type="text"] {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 8px 12px;
+            width: calc(100% - 24px);
+            margin-top: 5px;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+        }
+        .exercise-section .underline {
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        .exercise-section .highlight {
+            background-color: yellow;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .exercise-section .circle-word {
+            border: 2px solid #007BFF;
+            border-radius: 15px;
+            padding: 2px 8px;
+            display: inline-block;
+            line-height: 1;
+        }
+        .exercise-section .options span {
+            margin-right: 15px;
+            cursor: pointer;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+        .exercise-section .options span:hover {
+            background-color: #e0e0e0;
+        }
+        .exercise-section .options span.selected {
+            background-color: #007BFF;
+            color: white;
+            border-color: #007BFF;
+        }
+        .map-container {
+            width: 100%;
+            height: auto;
+            max-height: 500px; /* Giới hạn chiều cao cho bản đồ */
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .map-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .business-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 280px;
+            margin: 20px auto;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        .business-card .name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .business-card .title {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .business-card .address {
+            font-size: 0.9rem;
+            color: #777;
+            line-height: 1.4;
+        }
+        .dialogue-box {
+            background-color: #F0F8FF; /* Light blue */
+            border-left: 5px solid #6495ED; /* Cornflower blue */
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .dialogue-box p {
+            margin-bottom: 8px;
+        }
+        .dialogue-box span.fill-in {
+            display: inline-block;
+            min-width: 80px;
+            border-bottom: 1px solid #555;
+            text-align: center;
+            padding: 0 5px;
+        }
+        .word-bank {
+            background-color: #E8F5E9; /* Light green */
+            border: 1px solid #A5D6A7; /* Green */
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .word-bank span {
+            background-color: #C8E6C9;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: 500;
+            color: #388E3C;
+        }
+        .rewrite-exercise .mistake-sentence {
+            background-color: #FFF8E1; /* Light yellow for sentences with mistakes */
+            padding: 8px 12px;
+            border-radius: 5px;
+            border: 1px solid #FFECB3;
+            margin-bottom: 10px;
+        }
+        .rewrite-exercise .correct-input {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 8px 12px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        .matching-exercise .match-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .matching-exercise .match-item span {
+            flex-shrink: 0;
+            width: 25px;
+            text-align: right;
+            margin-right: 10px;
+        }
+        .matching-exercise .match-item select {
+            flex-grow: 1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 8px;
+        }
+        .radio-group label {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .radio-group input[type="radio"] {
+            margin-right: 8px;
+        }
+        .table-classroom {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .table-classroom th, .table-classroom td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .table-classroom th {
+            background-color: #e9ecef;
+            font-weight: 600;
+        }
+        .youtube-embed {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .youtube-embed iframe {
+            width: 100%;
+            max-width: 720px;
+            height: 405px; /* 16:9 aspect ratio for 720px width */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Unit Header -->
+        <div class="unit-header">
+            <div class="unit-number">6</div>
+            <div class="unit-title">
+                <h1>Present of Be:</h1>
+                <h2>Questions with Where; Prepositions of Place</h2>
+                <h2>PLACES IN THE NEIGHBORHOOD</h2>
+            </div>
+            <div class="ml-auto text-sm">
+                <h3 class="font-bold mb-2">OUTCOMES</h3>
+                <ul class="list-disc ml-4">
+                    <li>Ask and answer simple present questions with <span class="font-bold">where</span> and the verb <span class="font-bold">be</span></li>
+                    <li>Use prepositions of place</li>
+                    <li>Complete sentences about a reading</li>
+                    <li>Answer questions about a conversation</li>
+                    <li>Ask and answer questions about the locations of places in your neighborhood</li>
+                    <li>Write a paragraph about three places in your area</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <div class="section-header">STEP 1 GRAMMAR IN CONTEXT</div>
+
+        <div class="subsection-header">BEFORE YOU READ</div>
+        <p class="font-bold text-base mb-4">A VOCABULARY Study the words. Then work with a partner. Practice the conversation.</p>
+
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="FOG-1-6/1.png" alt="A man at a supermarket">
+                <span>a supermarket</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-6/2.png" alt="People at a gym">
+                <span>a gym</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-6/3.png" alt="People at a bank">
+                <span>a bank</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-6/4.png" alt="A woman at a drugstore">
+                <span>a drugstore</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-6/5.png" alt="People at a hospital">
+                <span>a hospital</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-6/6.png" alt="A gas station">
+                <span>a gas station</span>
+            </div>
+        </div>
+
+        <h3 class="font-bold text-lg mb-2">Conversation</h3>
+        <div class="conversation-box">
+            <p><span class="font-bold">A:</span> Where is the closest supermarket?</p>
+            <p><span class="font-bold">B:</span> It's on West Street.</p>
+            <p><span class="font-bold">A:</span> And where's the closest bank?</p>
+            <p><span class="font-bold">B:</span> It's on Second Avenue.</p>
+        </div>
+
+        <p class="font-bold text-base mb-4">B Talk about places in your neighborhood. Use the words in A and streets in your area.</p>
+        <p><span class="font-bold">A:</span> Where is the closest <input type="text" class="inline-block w-40 border-b border-gray-400 focus:outline-none focus:border-blue-500" placeholder="place">?</p>
+        <p><span class="font-bold">B:</span> It's on <input type="text" class="inline-block w-40 border-b border-gray-400 focus:outline-none focus:border-blue-500" placeholder="street name">.</p>
+
+        <div class="section-header">READ</div>
+        <p class="font-bold text-base mb-4">Read this article about places in a small town.</p>
+
+        <h1 class="text-3xl font-bold text-center my-6">Places in the Neighborhood!</h1>
+        <div class="map-container">
+            <img src="FOG-1-6/map_neighborhood.png" alt="Map of a neighborhood with places like supermarket, post office, gym, drugstore, bank, hospital, gas station">
+        </div>
+
+        <div class="text-gray-700 leading-relaxed mb-6">
+            <p class="mb-3">Welcome to Preston Apartments. Do you know the area? <span class="underline">Where</span> is the closest supermarket? <span class="underline">Where's</span> the post office? Here is some useful information.</p>
+            <p class="mb-3">Goodfood Supermarket is <span class="highlight">on</span> Main Street <span class="highlight">between</span> First and Second Streets. It's open 24 hours a day. The food is fresh,<sup>1</sup> and the prices are good. Preston Post Office is <span class="highlight">on</span> Main Street <span class="highlight">between</span> First and Second Streets, too. It's <span class="highlight">next to</span> the supermarket. The post office is open Monday to Friday from 9 a.m. to 5 p.m. and Saturday until 12 p.m.</p>
+            <p class="mb-3">Ella's Gym is <span class="highlight">on</span> Main Street <span class="highlight">between</span> Second and Third Streets. It's <span class="highlight">at</span> 45 Main Street. It's <span class="highlight">next to</span> Drew's Drugstore. The gym is open every day from 7 a.m. to 10 p.m., and the drugstore is open Monday to Saturday from 9 to 7.</p>
+            <p class="mb-3">DSL Bank is <span class="highlight">between</span> Second and Maple Streets. It's open Monday to Friday from 9 a.m. to 4 p.m., and Saturdays from 9 to 12.</p>
+            <p class="mb-3">Preston Hospital is <span class="highlight">on</span> the corner of Washington Street and Second Avenue. It's <span class="highlight">across from</span> a gas station.</p>
+            <p>Enjoy your new home!</p>
+            <p class="font-bold mt-4">Olivia Rodriguez, Manager, Preston Apartments</p>
+            <p class="text-sm">mr35@gmail.com • 988-656-4346</p>
+            <p class="text-xs mt-2"><sup>1</sup> <span class="italic">fresh:</span> good because it's not old</p>
+        </div>
+
+        <div class="subsection-header">AFTER YOU READ</div>
+        <p class="font-bold text-base mb-4">A COMPREHENSION Look at the reading again. Match the beginnings with the endings of the sentences.</p>
+        <div class="flex flex-col space-y-3">
+            <div class="flex items-center">
+                <span class="w-6 text-right mr-2">1.</span> The supermarket is
+                <select class="ml-auto border border-gray-300 rounded-md p-2">
+                    <option value="">Chọn...</option>
+                    <option value="a">a. the manager of Preston Apartments.</option>
+                    <option value="b">b. next to the gym.</option>
+                    <option value="c">c. on Main Street between Second and Third Streets.</option>
+                    <option value="d">d. next to the post office.</option>
+                    <option value="e">e. open on Saturday until noon.</option>
+                </select>
+            </div>
+            <div class="flex items-center">
+                <span class="w-6 text-right mr-2">2.</span> The post office is
+                <select class="ml-auto border border-gray-300 rounded-md p-2">
+                    <option value="">Chọn...</option>
+                    <option value="a">a. the manager of Preston Apartments.</option>
+                    <option value="b">b. next to the gym.</option>
+                    <option value="c">c. on Main Street between Second and Third Streets.</option>
+                    <option value="d">d. next to the post office.</option>
+                    <option value="e">e. open on Saturday until noon.</option>
+                </select>
+            </div>
+            <div class="flex items-center">
+                <span class="w-6 text-right mr-2">3.</span> The gym is
+                <select class="ml-auto border border-gray-300 rounded-md p-2">
+                    <option value="">Chọn...</option>
+                    <option value="a">a. the manager of Preston Apartments.</option>
+                    <option value="b">b. next to the gym.</option>
+                    <option value="c">c. on Main Street between Second and Third Streets.</option>
+                    <option value="d">d. next to the post office.</option>
+                    <option value="e">e. open on Saturday until noon.</option>
+                </select>
+            </div>
+            <div class="flex items-center">
+                <span class="w-6 text-right mr-2">4.</span> The drugstore is
+                <select class="ml-auto border border-gray-300 rounded-md p-2">
+                    <option value="">Chọn...</option>
+                    <option value="a">a. the manager of Preston Apartments.</option>
+                    <option value="b">b. next to the gym.</option>
+                    <option value="c">c. on Main Street between Second and Third Streets.</option>
+                    <option value="d">d. next to the post office.</option>
+                    <option value="e">e. open on Saturday until noon.</option>
+                </select>
+            </div>
+            <div class="flex items-center">
+                <span class="w-6 text-right mr-2">5.</span> Olivia Rodriguez is
+                <select class="ml-auto border border-gray-300 rounded-md p-2">
+                    <option value="">Chọn...</option>
+                    <option value="a">a. the manager of Preston Apartments.</option>
+                    <option value="b">b. next to the gym.</option>
+                    <option value="c">c. on Main Street between Second and Third Streets.</option>
+                    <option value="d">d. next to the post office.</option>
+                    <option value="e">e. open on Saturday until noon.</option>
+                </select>
+            </div>
+        </div>
+
+        <p class="font-bold text-base mt-6 mb-4">B Work with a partner. Compare your answers in A. Then say something about a supermarket, a gym, or a hospital near you.</p>
+        <!-- Placeholder for user input/interaction if desired -->
+
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <div class="section-header">STEP 2 GRAMMAR PRESENTATION</div>
+
+        <h3 class="font-bold text-xl mb-4">PRESENT OF BE: QUESTIONS WITH WHERE</h3>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Questions with Where</th>
+                    <th>Short Answers</th>
+                    <th>Long Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Where is the supermarket?</td>
+                    <td>On First Avenue.</td>
+                    <td>It's on First Avenue.</td>
+                </tr>
+                <tr>
+                    <td>Where are your friends?</td>
+                    <td>In Florida.</td>
+                    <td>They're in Florida.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="font-bold text-xl mb-4">PREPOSITIONS OF PLACE</h3>
+        <div class="map-container">
+            <img src="FOG-1-6/map_grammar.png" alt="Map illustrating prepositions of place">
+        </div>
+        <div class="text-gray-700 leading-relaxed mb-6">
+            <p class="mb-2">The art museum is <span class="highlight">on</span> First Avenue. It's <span class="highlight">across from</span> an apartment building and a restaurant. It's <span class="highlight">at</span> 10 First Avenue. It's <span class="highlight">on the corner of</span> First Avenue and Main Street.</p>
+            <p>The bank is <span class="highlight">between</span> the art museum and the post office. The restaurant is <span class="highlight">next to</span> the movie theater.</p>
+        </div>
+
+        <div class="grammar-notes">
+            <h3 class="font-bold text-lg mb-4">GRAMMAR NOTES</h3>
+            <h3 class="font-bold text-base mb-2">1 Questions with Where</h3>
+            <p>Use <span class="font-bold">where</span> to ask questions about <span class="underline">location</span>.</p>
+            <p class="mb-2"><span class="font-bold">A:</span> Where is the restaurant?</p>
+            <p class="mb-2"><span class="font-bold">B:</span> It's on First Avenue.</p>
+            <p class="mb-2"><span class="font-bold">Where's</span> is the short form for <span class="font-bold">where is</span>.</p>
+            <p class="mb-2"><span class="font-bold">A:</span> Where's the bank?</p>
+            <p><span class="font-bold">B:</span> It's next to the museum.</p>
+
+            <h3 class="font-bold text-base mt-4 mb-2">2 Prepositions of Place</h3>
+            <p class="mb-2">In, on, at, next to, between, and across from are prepositions of place. They tell the <span class="underline">location</span> of people, places, and things.</p>
+            <p class="mb-2">My school is <span class="font-bold">in</span> Seattle.</p>
+            <p>The book is <span class="font-bold">on</span> the table.</p>
+            <p>I'm <span class="font-bold">next to</span> the door.</p>
+
+            <h3 class="font-bold text-base mt-4 mb-2">3 Prepositions in Addresses</h3>
+            <ul class="list-disc ml-6 mb-4">
+                <li><span class="font-bold">in</span> + country, state, province, country, or continent</li>
+                <li><span class="font-bold">on</span> + street name and floors</li>
+                <li><span class="font-bold">on the corner of</span> + streets</li>
+                <li><span class="font-bold">at</span> + street address</li>
+            </ul>
+            <p class="mb-2">It is <span class="font-bold">in</span> Seattle.</p>
+            <p class="mb-2">It is <span class="font-bold">on</span> Main Street. It's <span class="font-bold">on the second (2nd) floor</span>.</p>
+            <p class="mb-2">My school is <span class="font-bold">on the corner of</span> Main and Third (3rd).</p>
+            <p>My school is <span class="font-bold">at</span> 15 Main Street.</p>
+
+            <div class="usage-note">
+                <span class="font-bold">USAGE NOTE</span> We don't always say <span class="italic">street</span> or <span class="italic">avenue</span> in informal speaking or writing.
+            </div>
+            <p class="mb-2"><span class="font-bold">A:</span> Where's your school?</p>
+            <p><span class="font-bold">B:</span> It's <span class="font-bold">on Main</span>. <span class="font-bold">or</span> It's <span class="font-bold">on Main Street</span>.</p>
+
+            <div class="be-careful">
+                <span class="font-bold">BE CAREFUL!</span> Use <span class="underline">ordinal numbers</span> (<span class="italic">first, second, third, etc.</span>) for streets and floors.
+                <p>We live <span class="font-bold">on Eighth (8th) Street</span>.</p>
+                <p><span class="font-bold">NOT</span> We live on Eight Street.</p>
+                <p>We're <span class="font-bold">on the first (1st) floor</span>.</p>
+                <p><span class="font-bold">NOT</span> We're on the one floor.</p>
+            </div>
+            <div class="be-careful">
+                <span class="font-bold">BE CAREFUL!</span> Use the <span class="font-bold">+</span> ordinal number <span class="font-bold">before</span> floors.
+                <p>It's <span class="font-bold">on the third (3rd) floor</span>.</p>
+                <p><span class="font-bold">NOT</span> It's on third floor.</p>
+            </div>
+        </div>
+
+        <div class="reference-notes">
+            <h3 class="font-bold text-lg mb-2">REFERENCE NOTES</h3>
+            <p>For a list of <span class="font-bold">ordinal numbers</span>, see Appendix 4 on page 366.</p>
+            <p>For <span class="font-bold">definitions of grammar terms</span>, see the Glossary on page 375.</p>
+            <p class="mt-4"><a href="#" class="text-blue-600 hover:underline">Go to MyEnglishLab</a> to watch the grammar presentation.</p>
+        </div>
+
+        <!-- STEP 3: FOCUSED PRACTICE -->
+        <div class="section-header">STEP 3 FOCUSED PRACTICE</div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</div>
+            <p class="font-bold text-base mb-4">A GRAMMAR NOTES 2-3 Underline the prepositions of place in the sentences.</p>
+            <ol class="list-decimal pl-5">
+                <li class="mb-2">It's <span class="underline">on</span> First Avenue between Washington and Main. It's between a movie theater and an apartment building.</li>
+                <li class="mb-2">It's on the corner of First Avenue and Washington Street. It's next to a bank.</li>
+                <li>It's next to a restaurant and across from a bank.</li>
+            </ol>
+
+            <p class="font-bold text-base mt-6 mb-4">B Look at the map on page 61. Write the place that each sentence in A is about.</p>
+            <ol class="list-decimal pl-5">
+                <li class="mb-2">The restaurant</li>
+                <li class="mb-2"><input type="text" placeholder="Viết câu trả lời của bạn ở đây"></li>
+                <li><input type="text" placeholder="Viết câu trả lời của bạn ở đây"></li>
+            </ol>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 2 PREPOSITIONS IN ADDRESSES</div>
+            <p class="font-bold text-base mb-4">A GRAMMAR NOTES 1-3 Complete the sentences. Circle the correct answers.</p>
+            <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                <p class="mb-4">Hi Judy,</p>
+                <p class="mb-4">Yoko's apartment is <span class="options">
+                    <span data-correct="true">in</span> <span>on</span>
+                </span> First Avenue <span class="options">
+                    <span>between</span> <span data-correct="true">/</span> <span>in</span>
+                </span> Jackson and Main. I think it's <span class="options">
+                    <span>at</span> <span data-correct="true">/</span> <span>on</span>
+                </span> 10 First Avenue, but I'm not sure. It's <span class="options">
+                    <span>across from</span> <span data-correct="true">/</span> <span>in</span>
+                </span> a library and <span class="options">
+                    <span>next</span> <span data-correct="true">/</span> <span>next to</span>
+                </span> a gym. It's <span class="options">
+                    <span>in</span> <span data-correct="true">/</span> <span>on</span>
+                </span> the second floor, Apartment 2A.</p>
+                <p class="mb-4">Take the number 4 bus. It stops <span class="options">
+                    <span>on the corner of</span> <span data-correct="true">/</span> <span>next to</span>
+                </span> First and Jackson.</p>
+                <p class="mb-4">See you at Yoko's on Sunday afternoon!</p>
+                <p>Mark</p>
+            </div>
+
+            <p class="font-bold text-base mt-6 mb-4">B Look at the map. Put an X on Yoko's apartment building.</p>
+            <div class="map-container">
+                <img src="FOG-1-6/map_exercise2.png" alt="Map for Exercise 2">
+            </div>
+            <p class="text-sm text-gray-600 italic"> (Bạn có thể tưởng tượng đặt dấu X trên bản đồ này.)</p>
+
+            <p class="font-bold text-base mt-6 mb-4">C Look at the map again. Write a question with <span class="font-bold">where</span> for each answer.</p>
+            <ol class="list-decimal pl-5">
+                <li class="mb-2">
+                    <span class="font-bold">1. A:</span> <span class="underline">Where's the gym</span>?
+                    <span class="font-bold">B:</span> It's on the corner of Jackson and First.
+                </li>
+                <li class="mb-2">
+                    <span class="font-bold">2. A:</span> <input type="text" class="inline-block w-64 border-b border-gray-400 focus:outline-none focus:border-blue-500" placeholder="Viết câu hỏi của bạn ở đây">?
+                    <span class="font-bold">B:</span> It's on the corner of Main and First.
+                </li>
+                <li>
+                    <span class="font-bold">3. A:</span> <input type="text" class="inline-block w-64 border-b border-gray-400 focus:outline-none focus:border-blue-500" placeholder="Viết câu hỏi của bạn ở đây">?
+                    <span class="font-bold">B:</span> It's on First Avenue next to the supermarket.
+                </li>
+            </ol>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 3 PREPOSITIONS OF PLACE IN ADDRESSES</div>
+            <p class="font-bold text-base mb-4">GRAMMAR NOTES 2-3 Look at the business card. Complete the sentences with the information on the business card.</p>
+            <div class="flex flex-col md:flex-row items-center md:items-start justify-center gap-8">
+                <div class="business-card">
+                    <p class="text-4xl font-bold text-blue-800 mb-2">DF</p>
+                    <p class="name">Doug Foster</p>
+                    <p class="address">30 16th Avenue, Apt. 3A<br>Seattle, Washington 98122</p>
+                </div>
+                <ol class="list-decimal pl-5 flex-grow">
+                    <li class="mb-2">1. Doug Foster lives in <span class="underline">Seattle, Washington</span>.</li>
+                    <li class="mb-2">2. He lives on <input type="text" class="inline-block w-64 border-b border-gray-400 focus:outline-none focus:border-blue-500" placeholder="Viết câu trả lời của bạn ở đây"> Avenue.</li>
+                    <li class="mb-2">3. He lives at <input type="text" class="inline-block w-64 border-b border-gray-400 focus:outline-none focus:border-blue-500" placeholder="Viết câu trả lời của bạn ở đây">.</li>
+                    <li>4. His apartment is on the <input type="text" class="inline-block w-64 border-b border-gray-400 focus:outline-none focus:border-blue-500" placeholder="Viết câu trả lời của bạn ở đây"> floor.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 4 QUESTIONS WITH WHERE AND PREPOSITIONS</div>
+            <p class="font-bold text-base mb-4">A GRAMMAR NOTES 1-3 Complete the sentences with the words in the box.</p>
+            <div class="word-bank mb-6">
+                <span>across</span> <span>at</span> <span>between</span> <span>next</span> <span>on</span> <span>where's</span> <span>where is</span>
+            </div>
+            <div class="dialogue-box">
+                <p><span class="font-bold">MAN:</span> Excuse me, <span class="fill-in underline">where is</span> the closest drugstore?</p>
+                <p><span class="font-bold">WOMAN:</span> It's <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> Sixth Avenue. It's <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> Foster and Jefferson. It's <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> to the hospital.</p>
+                <p><span class="font-bold">MAN:</span> And <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> the closest gas station?</p>
+                <p><span class="font-bold">WOMAN:</span> It's <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> 50 Sixth Avenue. It's <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> from the movie theater.</p>
+                <p><span class="font-bold">MAN:</span> Thanks.</p>
+            </div>
+
+            <p class="font-bold text-base mt-6 mb-4">B LISTEN AND CHECK Listen to the conversation and check your answers in A.</p>
+            <p class="text-sm text-gray-600 italic">(Để thực hiện phần này, bạn cần có file âm thanh. Tôi không thể cung cấp nó trực tiếp ở đây.)</p>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 5 EDITING</div>
+            <p class="font-bold text-base mb-4">GRAMMAR NOTES 1-3 There are six mistakes in the conversations. The first mistake is corrected. Find and correct five more. Rewrite the incorrect sentences.</p>
+            <div class="flex flex-col md:flex-row justify-around gap-8 rewrite-exercise">
+                <div class="w-full md:w-1/2">
+                    <h3 class="font-bold text-lg mb-2">Conversation 1</h3>
+                    <p class="mb-2"><span class="font-bold">A:</span> Excuse me, <span class="highlight">where's</span> MidWest Bank?</p>
+                    <p class="mb-2">Câu sai: <span class="mistake-sentence">B: It's in Washington Street. It's next a supermarket.</span></p>
+                    <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                    <p class="mb-2">Câu sai: <span class="mistake-sentence">A: Is it across a gym?</span></p>
+                    <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                    <p><span class="font-bold">B:</span> Yes, it is.</p>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h3 class="font-bold text-lg mb-2">Conversation 2</h3>
+                    <p class="mb-2"><span class="font-bold">A:</span> Where's the party?</p>
+                    <p class="mb-2">Câu sai: <span class="mistake-sentence">B: It's in 359 West Street.</span></p>
+                    <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                    <p class="mb-2"><span class="font-bold">A:</span> That's Bill and Pete's apartment.</p>
+                    <p class="mb-2">Câu sai: <span class="mistake-sentence">B: Are they in the second floor?</span></p>
+                    <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                    <p class="mb-2">Câu sai: <span class="mistake-sentence">A: No, the third floor.</span></p>
+                    <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                </div>
+            </div>
+            <p class="mt-6 text-sm text-gray-600 italic">
+                (Bạn cần tìm 5 lỗi sai còn lại và viết lại các câu đó.)
+            </p>
+        </div>
+
+        <!-- NEW CONTENT FROM UPLOADED IMAGES -->
+
+        <!-- STEP 4: COMMUNICATION PRACTICE -->
+        <div class="section-header">STEP 4 COMMUNICATION PRACTICE</div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 6 LISTENING</div>
+            <p class="font-bold text-base mb-4">A Look at the map. The letters N, S, E, and W stand for north, south, east, and west. Match the questions and answers. Then work with a partner. Compare your answers.</p>
+            <div class="map-container">
+                <img src="FOG-1-6/map_communication.png" alt="Map for Communication Practice">
+            </div>
+            <div class="matching-exercise flex flex-col md:flex-row md:justify-between gap-4">
+                <div class="w-full md:w-1/2">
+                    <div class="match-item">
+                        <span>1.</span> Where's the art museum?
+                        <select class="ml-auto">
+                            <option value="">Chọn...</option>
+                            <option value="a">a. It's across from the hospital.</option>
+                            <option value="b">b. It's next to the bank.</option>
+                            <option value="c">c. It's between the art museum and the post office.</option>
+                            <option value="d">d. It's on the northeast corner of Second and Washington.</option>
+                        </select>
+                    </div>
+                    <div class="match-item">
+                        <span>2.</span> Where's the hospital?
+                        <select class="ml-auto">
+                            <option value="">Chọn...</option>
+                            <option value="a">a. It's across from the hospital.</option>
+                            <option value="b">b. It's next to the bank.</option>
+                            <option value="c">c. It's between the art museum and the post office.</option>
+                            <option value="d">d. It's on the northeast corner of Second and Washington.</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="match-item">
+                        <span>3.</span> Where's the bank?
+                        <select class="ml-auto">
+                            <option value="">Chọn...</option>
+                            <option value="a">a. It's across from the hospital.</option>
+                            <option value="b">b. It's next to the bank.</option>
+                            <option value="c">c. It's between the art museum and the post office.</option>
+                            <option value="d">d. It's on the northeast corner of Second and Washington.</option>
+                        </select>
+                    </div>
+                    <div class="match-item">
+                        <span>4.</span> Where's the park?
+                        <select class="ml-auto">
+                            <option value="">Chọn...</option>
+                            <option value="a">a. It's across from the hospital.</option>
+                            <option value="b">b. It's next to the bank.</option>
+                            <option value="c">c. It's between the art museum and the post office.</option>
+                            <option value="d">d. It's on the northeast corner of Second and Washington.</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <p class="font-bold text-base mt-6 mb-4">B Listen to the conversation. Look at the map in A. Where are the people? Check (✓) the answer.</p>
+            <div class="radio-group flex gap-8 mb-4">
+                <label><input type="radio" name="location_b" value="Main Street"> Main Street</label>
+                <label><input type="radio" name="location_b" value="Washington Street"> Washington Street</label>
+                <label><input type="radio" name="location_b" value="First Avenue"> First Avenue</label>
+            </div>
+            <p class="text-sm text-gray-600 italic">(Để thực hiện phần này, bạn cần có file âm thanh.)</p>
+
+            <p class="font-bold text-base mt-6 mb-4">C Look at the map and listen again. Write supermarket and flower shop on the correct buildings on the map.</p>
+            <p class="text-sm text-gray-600 italic">(Bạn có thể tưởng tượng viết trên bản đồ này.)</p>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 7 FIND THE CLASSROOM</div>
+            <p class="font-bold text-base mb-4">INFORMATION GAP Work with a partner. Student A follows the instructions below. Student B follows the instructions on page 388.</p>
+            <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                <h3 class="font-bold text-lg mb-2">STUDENT A</h3>
+                <ul class="list-disc ml-6 mb-4">
+                    <li>The directory at Ace Language School is not complete. Ask your partner questions with <span class="font-bold">where</span> to complete your list.</li>
+                    <p class="ml-4"><span class="font-bold">EXAMPLE:</span> <span class="font-bold">A:</span> Where's English 1?</p>
+                    <p class="ml-4"><span class="font-bold">B:</span> It's on the first floor in Room 108.</p>
+                    <li>Answer your partner's questions about his or her directory.</li>
+                    <p class="ml-4"><span class="font-bold">EXAMPLE:</span> <span class="font-bold">B:</span> Where's the main office?</p>
+                    <p class="ml-4"><span class="font-bold">A:</span> It's on the first floor in Room 101.</p>
+                </ul>
+            </div>
+            <div class="flex justify-center my-6">
+                <div class="border border-gray-300 rounded-lg shadow-md p-6 bg-white">
+                    <h2 class="text-2xl font-bold text-center mb-4">Ace Language School</h2>
+                    <table class="table-classroom">
+                        <thead>
+                            <tr>
+                                <th>1ST FLOOR</th>
+                                <th>ROOM</th>
+                                <th>2ND FLOOR</th>
+                                <th>ROOM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Main Office</td>
+                                <td>101</td>
+                                <td>Spanish 1</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>English 1</td>
+                                <td><input type="text" class="w-20 text-center" placeholder="108"></td>
+                                <td>Spanish 2</td>
+                                <td><input type="text" class="w-20 text-center" placeholder="205"></td>
+                            </tr>
+                            <tr>
+                                <td>English 2</td>
+                                <td>125</td>
+                                <td>Spanish 3</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>English 3</td>
+                                <td>130</td>
+                                <td>Computer Lab</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th colspan="2">3RD FLOOR</th>
+                                <th colspan="2">ROOM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">Chinese 1</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Chinese 2</td>
+                                <td colspan="2"><input type="text" class="w-20 text-center" placeholder="315"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Library</td>
+                                <td colspan="2"><input type="text" class="w-20 text-center" placeholder="322"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 8 GUESS WHERE IT IS</div>
+            <p class="font-bold text-base mb-4">A GAME Work in a group. Take turns. Choose four classroom objects. One student places them on the table. The other students don't look.</p>
+            <div class="flex justify-center my-6">
+                <img src="FOG-1-6/students_table.png" alt="Image of students at a table with objects" class="rounded-lg shadow-md max-w-full h-auto">
+            </div>
+            <p class="font-bold text-base mt-6 mb-4">B Students B, C, and D ask Student A yes/no questions to find out where the objects are. From Student A's answers, each student draws a picture of the objects on the table.</p>
+            <div class="conversation-box">
+                <p><span class="font-bold">EXAMPLE:</span> <span class="font-bold">A:</span> OK, I'm ready.</p>
+                <p><span class="font-bold">B:</span> Is the cell phone next to the book?</p>
+                <p><span class="font-bold">A:</span> No, it's not.</p>
+                <p><span class="font-bold">C:</span> Is it on the book?</p>
+                <p><span class="font-bold">A:</span> Yes, it is.</p>
+            </div>
+            <p class="font-bold text-base mt-6 mb-4">C Look at the objects on the table. Are your drawings correct?</p>
+            <p class="text-sm text-gray-600 italic">(Bạn có thể mô tả hoặc vẽ các vật thể ở đây.)</p>
+        </div>
+
+        <div class="exercise-section">
+            <div class="exercise-title">EXERCISE 9 WHERE'S THE CLOSEST PARK?</div>
+            <p class="font-bold text-base mb-4">ROLE PLAY Work with a partner. Take turns. Ask for the location of places in your area. Ask about the places in the box below or other places. Use <span class="font-bold">in, on, at, next to, between, on the corner of,</span> and <span class="font-bold">across from</span> in your answers.</p>
+            <div class="word-bank mb-6">
+                <span>a bank</span> <span>a gas station</span> <span>a hospital</span> <span>a park</span> <span>a drugstore</span> <span>a gym</span> <span>an Italian restaurant</span> <span>a post office</span>
+            </div>
+            <div class="conversation-box">
+                <p><span class="font-bold">EXAMPLE:</span> <span class="font-bold">A:</span> Where's the closest park?</p>
+                <p><span class="font-bold">B:</span> It's on Elm Street. It's across from Sinai Hospital.</p>
+                <p><span class="font-bold">A:</span> Is it a good park?</p>
+                <p><span class="font-bold">B:</span> Yes. It's great. There's a lake. The picnic area is across from the lake. The sports fields are next to the playground.</p>
+            </div>
+        </div>
+
+        <!-- FROM GRAMMAR TO WRITING -->
+        <div class="section-header">FROM GRAMMAR TO WRITING</div>
+
+        <div class="exercise-section">
+            <p class="font-bold text-base mb-4">A BEFORE YOU WRITE Read about Pierre's Café. Then complete the chart for three places in your area. Work with a partner. Tell your partner about the places.</p>
+            <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                <p class="mb-2">Pierre's Café is at 40 River Street. It's next to West Park. It's across from the library. It's open seven days a week. The food is great.</p>
+                <table class="grammar-table mt-4">
+                    <thead>
+                        <tr>
+                            <th>Place</th>
+                            <th>Address</th>
+                            <th>What do you think about it?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pierre's Café</td>
+                            <td>40 River Street<br>next to West Park<br>across from the library</td>
+                            <td>great food</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="w-full" placeholder="Tên địa điểm"></td>
+                            <td><textarea class="w-full h-20 border border-gray-300 rounded-md p-2" placeholder="Địa chỉ"></textarea></td>
+                            <td><textarea class="w-full h-20 border border-gray-300 rounded-md p-2" placeholder="Ý kiến của bạn"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="w-full" placeholder="Tên địa điểm"></td>
+                            <td><textarea class="w-full h-20 border border-gray-300 rounded-md p-2" placeholder="Địa chỉ"></textarea></td>
+                            <td><textarea class="w-full h-20 border border-gray-300 rounded-md p-2" placeholder="Ý kiến của bạn"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="w-full" placeholder="Tên địa điểm"></td>
+                            <td><textarea class="w-full h-20 border border-gray-300 rounded-md p-2" placeholder="Địa chỉ"></textarea></td>
+                            <td><textarea class="w-full h-20 border border-gray-300 rounded-md p-2" placeholder="Ý kiến của bạn"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="font-bold text-base mt-6 mb-4">B WRITE Write a paragraph about three places in your area. Use prepositions of place. Use the paragraph about Pierre's Café in A and your chart to help you.</p>
+            <textarea class="w-full h-40 border border-gray-300 rounded-md p-2" placeholder="Viết đoạn văn của bạn ở đây"></textarea>
+
+            <p class="font-bold text-base mt-6 mb-4">C CHECK YOUR WORK Read your paragraph again. Underline the prepositions of place. Use the Editing Checklist to check your work.</p>
+            <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                <h3 class="font-bold text-lg mb-2">Editing Checklist</h3>
+                <ul class="list-none">
+                    <li><label><input type="checkbox" class="mr-2"> Did you ...?</label></li>
+                    <li><label><input type="checkbox" class="mr-2"> use <span class="font-bold">in</span> before cities and countries, <span class="font-bold">on</span> before streets, and <span class="font-bold">at</span> before complete addresses</label></li>
+                    <li><label><input type="checkbox" class="mr-2"> use <span class="font-bold">across from, next to,</span> and <span class="font-bold">on the corner of</span></label></li>
+                    <li><label><input type="checkbox" class="mr-2"> use ordinal numbers for streets and avenues</label></li>
+                    <li><label><input type="checkbox" class="mr-2"> check your spelling</label></li>
+                </ul>
+            </div>
+
+            <p class="font-bold text-base mt-6 mb-4">D REVISE YOUR WORK Read your paragraph again. Can you improve your writing?</p>
+            <p class="text-sm text-gray-600 italic">(Bạn có thể chỉnh sửa đoạn văn của mình dựa trên các gợi ý.)</p>
+        </div>
+
+        <!-- UNIT 6 REVIEW -->
+        <div class="section-header">UNIT 6 REVIEW</div>
+
+        <div class="exercise-section">
+            <p class="font-bold text-base mb-4">A Complete the paragraph. Circle the correct answers.</p>
+            <p class="mb-4">I live <span class="options"><span data-correct="true">in</span> <span>at</span></span> Denver. Denver is a big city <span class="options"><span data-correct="true">in</span> <span>on</span></span> Colorado. My apartment is <span class="options"><span data-correct="true">in</span> <span>at</span></span> 143 Oak Street. It's <span class="options"><span data-correct="true">across from</span> <span>between</span></span> 141 Oak Street and 149 Oak Street. I live <span class="options"><span data-correct="true">on</span> <span>/</span> <span>on the</span></span> fourth floor.</p>
+
+            <p class="font-bold text-base mt-6 mb-4">B Complete the sentences. Use the words in the box.</p>
+            <div class="word-bank mb-6">
+                <span>across</span> <span>at</span> <span>in</span> <span>next to</span> <span>on</span>
+            </div>
+            <ol class="list-decimal pl-5">
+                <li class="mb-2">My school is <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> 695 Park Avenue. My class is <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> Room 1502. It's <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> the 15th floor. My school is <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> from a small park. It's <span class="fill-in"><input type="text" class="inline-block w-24 border-b border-gray-400 focus:outline-none focus:border-blue-500"></span> a supermarket.</li>
+            </ol>
+
+            <p class="font-bold text-base mt-6 mb-4">C Correct the conversations. There are five mistakes. Rewrite the incorrect sentences.</p>
+            <div class="rewrite-exercise">
+                <ol class="list-decimal pl-5">
+                    <li class="mb-4">
+                        <p><span class="font-bold">1. A:</span> Is your apartment in the second floor?</p>
+                        <p class="mb-2">Câu sai: <span class="mistake-sentence">B: No, it's on the three floor.</span></p>
+                        <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                    </li>
+                    <li class="mb-4">
+                        <p><span class="font-bold">2. A:</span> Where's the bank?</p>
+                        <p class="mb-2">Câu sai: <span class="mistake-sentence">B: It's First Avenue. It's between from 8th and 9th Streets.</span></p>
+                        <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                        <p><span class="font-bold">A:</span> Is it next the post office?</p>
+                        <p class="mb-2">Câu sai: <span class="mistake-sentence">B: Yes, it is.</span></p>
+                        <p>Viết lại câu đúng: <input type="text" class="correct-input" placeholder="Viết lại câu đúng ở đây"></p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- YouTube Video Embed -->
+        <div class="youtube-embed">
+            <h3 class="font-bold text-xl mb-4">Video Bài Học Bổ Trợ</h3>
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLmhr_z2_2a-H6iK6hW0t3y2q5jR4l7N7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="text-sm text-gray-600 mt-2">Xem thêm các bài học ngữ pháp tiếng Anh về giới từ và địa điểm.</p>
+        </div>
+
+    </div>
+
+    <script>
+        // JavaScript cho phần bài tập "Circle the correct answers"
+        document.querySelectorAll('.options').forEach(optionGroup => {
+            optionGroup.querySelectorAll('span').forEach(option => {
+                option.addEventListener('click', function() {
+                    // Xóa lựa chọn cũ trong nhóm này
+                    optionGroup.querySelectorAll('span').forEach(sibling => {
+                        sibling.classList.remove('selected');
+                    });
+                    // Thêm lựa chọn mới
+                    this.classList.add('selected');
+                });
+            });
+        });
+
+        // Fallback cho ảnh nếu không load được
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function() {
+                // Đặt kích thước placeholder dựa trên kích thước thực tế của ảnh nếu có, hoặc mặc định
+                const width = this.naturalWidth > 0 ? this.naturalWidth : 300;
+                const height = this.naturalHeight > 0 ? this.naturalHeight : 180;
+                this.src = `https://placehold.co/${width}x${height}/cccccc/333333?text=Image+Not+Found`;
+                this.alt = "Hình ảnh không tìm thấy";
+            };
+        });
+    </script>
+</body>
+</html>
