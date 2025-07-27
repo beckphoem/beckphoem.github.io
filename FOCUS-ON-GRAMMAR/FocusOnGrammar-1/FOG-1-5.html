@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sách Tiếng Anh Tương Tác</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .page-header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #2c5282;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        .exercise-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #38a169;
+            margin-top: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+        .image-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .image-item {
+            flex: 1 1 calc(50% - 1.5rem);
+            max-width: calc(50% - 1.5rem);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9fafb;
+            padding: 0.75rem;
+        }
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .image-item span {
+            margin-top: 0.75rem;
+            font-size: 0.9rem;
+            color: #555;
+            font-weight: 500;
+        }
+        .exercise-item {
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            border-radius: 8px;
+            background-color: #f7f9fc;
+            border: 1px solid #e2e8f0;
+        }
+        .exercise-item label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .exercise-item input[type="text"] {
+            width: 100%;
+            padding: 0.6rem 0.8rem;
+            border: 1px solid #cbd5e0;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+        .exercise-item input[type="text"]:focus {
+            outline: none;
+            border-color: #4a90e2;
+            box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+        }
+        .options-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 0.5rem;
+        }
+        .options-group label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #cbd5e0;
+            border-radius: 6px;
+            background-color: #fff;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+        .options-group label:hover {
+            background-color: #edf2f7;
+            border-color: #a0aec0;
+        }
+        .options-group input[type="radio"] {
+            margin-right: 0.5rem;
+            accent-color: #4a90e2;
+        }
+        .underline-word {
+            display: inline-block;
+            cursor: pointer;
+            padding: 2px 4px;
+            border-bottom: 2px dashed #a0aec0;
+            transition: background-color 0.2s;
+        }
+        .underline-word.selected {
+            background-color: #fee2e2;
+            border-color: #ef4444;
+        }
+        .correction-input {
+            display: flex;
+            align-items: center;
+            margin-top: 0.5rem;
+        }
+        .correction-input input {
+            flex-grow: 1;
+            margin-left: 0.5rem;
+        }
+        .table-container {
+            overflow-x: auto;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        th, td {
+            padding: 0.75rem 1rem;
+            border: 1px solid #e2e8f0;
+            text-align: left;
+        }
+        th {
+            background-color: #ebf4ff;
+            font-weight: 600;
+            color: #2c5282;
+        }
+        td input[type="text"] {
+            width: 100%;
+            padding: 0.4rem 0.6rem;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+        .dialogue-box {
+            background-color: #f0f4f8;
+            border: 1px solid #d1d9e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .dialogue-line {
+            margin-bottom: 0.5rem;
+        }
+        .dialogue-speaker {
+            font-weight: bold;
+            color: #4a5568;
+            margin-right: 0.5rem;
+        }
+        .dialogue-text {
+            display: inline;
+        }
+        .underline-fill-in {
+            display: inline-block;
+            min-width: 80px; /* Adjust as needed */
+            border-bottom: 1px solid #333;
+            text-align: center;
+            margin: 0 4px;
+        }
+        .underline-fill-in input {
+            width: 100%;
+            border: none;
+            text-align: center;
+            background: transparent;
+            padding: 2px 0;
+            outline: none;
+        }
+        .youtube-embed {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            margin-top: 2rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .youtube-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            UNIT 5: Present of Be: Yes/No Questions; Questions with Who and What - JOBS
+        </div>
+
+        <!-- Trang 1: image_1f4a5b.png -->
+        <img src="FOG-1-5/1.png" alt="Trang 1 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">STEP 1 GRAMMAR IN CONTEXT</div>
+        <div class="exercise-title">BEFORE YOU READ</div>
+        <p>Study the vocabulary. Then work with a partner. Tell your partner about the jobs of people you know.</p>
+        <p class="mt-4">EXAMPLE: A: My father is a bus driver. And my sister is a nurse.</p>
+        <p class="ml-8">B: Really? My father is a teacher. My cousin Barbara is a server.</p>
+
+        <div class="image-section">
+            <div class="image-item">
+                <img src="FOG-1-5/2.png" alt="Tài xế xe buýt">
+                <span>a bus driver</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-5/3.png" alt="Người phục vụ">
+                <span>a server</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-5/4.png" alt="Nhà văn">
+                <span>a writer</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-5/5.png" alt="Bác sĩ và y tá">
+                <span>a doctor</span>
+                <span>a nurse</span>
+            </div>
+        </div>
+
+        <!-- Trang 2: image_1f4d07.png -->
+        <img src="FOG-1-5/6.png" alt="Trang 2 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">Who's That Woman with Amanda?</div>
+        <div class="dialogue-box">
+            <div class="dialogue-line"><span class="dialogue-speaker">STEVE:</span> Mark?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">MARK:</span> Steve! Are you here for the wedding?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">STEVE:</span> Yes, I am. Amanda is my cousin.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker"></span> What about you?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">MARK:</span> Josh and I are friends from school.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker"></span> This is a great wedding!</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">STEVE:</span> Yes, it is.</div>
+            <br>
+            <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> Wow, there are a lot of guests here.... Who's that woman with Steve?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> His name is Mark. He and Josh are friends.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> Hmm. Is he single?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> Yes, he is.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> What does he do?<sup class="text-xs">1</sup> Is he a teacher, like Steve?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> No, he isn't. He's a writer.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> What kind of writer?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> He writes novels.</div>
+            <br>
+            <div class="dialogue-line"><span class="dialogue-speaker">MARK:</span> Who's that woman with Amanda?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker"></span> What's her name?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">STEVE:</span> Her name is Kathy. She's Amanda's friend from work.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">MARK:</span> Oh, yeah? Is she a nurse, like Amanda?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">STEVE:</span> No, she's not. She's a doctor.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">MARK:</span> Is she married?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">STEVE:</span> No, she isn't. She's single ... just like you!</div>
+        </div>
+        <p class="text-sm text-gray-600"><sup>1</sup> What does he do?: What is his job?</p>
+
+        <!-- Trang 3: image_1f4d28.png -->
+        <img src="FOG-1-5/7.png" alt="Trang 3 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">AFTER YOU READ</div>
+        <div class="exercise-title">A COMPREHENSION Look at the conversations again. Comprehension the sentences. Circle the correct answers.</div>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p>1. Steve and Amanda are <span class="options-group">
+                    <label><input type="radio" name="q1" value="a"> a. brother and sister</label>
+                    <label><input type="radio" name="q1" value="b"> b. cousins</label>
+                </span></p>
+            </div>
+            <div class="exercise-item">
+                <p>2. Mark and Josh are <span class="options-group">
+                    <label><input type="radio" name="q2" value="a"> a. brothers</label>
+                    <label><input type="radio" name="q2" value="b"> b. friends</label>
+                </span></p>
+            </div>
+            <div class="exercise-item">
+                <p>3. <span class="underline-fill-in"><input type="text" placeholder="Điền từ"></span> is single. <span class="options-group">
+                    <label><input type="radio" name="q3" value="a"> a. Kathy</label>
+                    <label><input type="radio" name="q3" value="b"> b. Amanda</label>
+                </span></p>
+            </div>
+            <div class="exercise-item">
+                <p>4. <span class="underline-fill-in"><input type="text" placeholder="Điền từ"></span> is a writer. <span class="options-group">
+                    <label><input type="radio" name="q4" value="a"> a. Kathy</label>
+                    <label><input type="radio" name="q4" value="b"> b. Mark</label>
+                </span></p>
+            </div>
+            <div class="exercise-item">
+                <p>5. <span class="underline-fill-in"><input type="text" placeholder="Điền từ"></span> is a doctor. <span class="options-group">
+                    <label><input type="radio" name="q5" value="a"> a. Amanda</label>
+                    <label><input type="radio" name="q5" value="b"> b. Kathy</label>
+                </span></p>
+            </div>
+        </form>
+
+        <div class="exercise-title">B Work with a partner. Compare your answers in A.</div>
+        <p class="text-gray-700 mb-4">Go to MyEnglishLab for more grammar in context practice.</p>
+
+        <div class="section-title">STEP 2 GRAMMAR PRESENTATION</div>
+
+        <div class="exercise-title">PRESENT OF BE: YES/NO QUESTIONS</div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Yes/No Questions</th>
+                        <th>Short Answers</th>
+                        <th>Negative</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="3" class="font-bold">Singular</td></tr>
+                    <tr><td>Am I right?</td><td>Yes, you are.</td><td>No, you're not. <i>Or</i> No, you aren't.</td></tr>
+                    <tr><td>Are you a writer?</td><td>Yes, I am.</td><td>No, I'm not.</td></tr>
+                    <tr><td>Is he a bus driver?</td><td>Yes, he is.</td><td>No, he's not. <i>Or</i> No, he isn't.</td></tr>
+                    <tr><td>Is she single?</td><td>Yes, she is.</td><td>No, she's not. <i>Or</i> No, she isn't.</td></tr>
+                    <tr><td>Is your car new?</td><td>Yes, it is.</td><td>No, it's not. <i>Or</i> No, it isn't.</td></tr>
+                    <tr><td colspan="3" class="font-bold">Plural</td></tr>
+                    <tr><td>Are we late?</td><td>Yes, we are.</td><td>No, we're not. <i>Or</i> No, we aren't.</td></tr>
+                    <tr><td>Are you happy?</td><td>Yes, you are.</td><td>No, you're not. <i>Or</i> No, you aren't.</td></tr>
+                    <tr><td>Are they brothers?</td><td>Yes, they are.</td><td>No, they're not. <i>Or</i> No, they aren't.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="exercise-title">PRESENT OF BE: QUESTIONS WITH WHO AND WHAT</div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Questions with Who/What</th>
+                        <th>Short Answers</th>
+                        <th>Long Answers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Who is that woman?</td><td>Kathy.</td><td>That's Kathy.</td></tr>
+                    <tr><td>What's her name?</td><td>Kathy.</td><td>It's Kathy.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Trang 4: image_1f4d45.png -->
+        <img src="FOG-1-5/8.png" alt="Trang 4 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">GRAMMAR NOTES</div>
+        <div class="exercise-title">1 Yes/No Questions with Be</div>
+        <p>In a yes/no question with <i>be</i>, put <i>am, is,</i> or <i>are</i> before the subject.</p>
+        <div class="bg-blue-50 p-4 rounded-lg mt-2 mb-4">
+            <p><span class="font-bold">SUBJECT</span> He is at a wedding. (statement)</p>
+            <p><span class="font-bold">SUBJECT</span> Is he at a wedding? (question)</p>
+        </div>
+
+        <div class="exercise-title">2 Short Answers</div>
+        <p>Negative short answers have two forms. We often use contractions in negative short answers.</p>
+        <div class="bg-blue-50 p-4 rounded-lg mt-2 mb-4">
+            <p>A: Is she married?</p>
+            <p>B: No, she's not. <i>Or</i> No, she isn't.</p>
+            <p>A: Are they brothers?</p>
+            <p>B: No, they're not. <i>Or</i> No, they aren't.</p>
+        </div>
+        <p>Affirmative short answers have only one form.</p>
+        <div class="bg-blue-50 p-4 rounded-lg mt-2 mb-4">
+            <p>A: Am I right?</p>
+            <p>B: Yes, you are.</p>
+            <p>A: Is she single?</p>
+            <p>B: Yes, she is.</p>
+        </div>
+        <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-md mb-4">
+            <p class="font-bold">BE CAREFUL!</p>
+            <p>Don't use contractions in affirmative short answers.</p>
+            <p class="mt-2">A: Is she a server?</p>
+            <p>B: <span class="font-bold">Yes, she is.</span></p>
+            <p><span class="font-bold text-red-500">NOT</span> Yes, she's.</p>
+        </div>
+
+        <div class="exercise-title">3 Questions with Be: Who and What</div>
+        <p>We use <i>who</i> and <i>what</i> to ask about the subject of a sentence.</p>
+        <div class="flex mt-2 mb-4">
+            <div class="w-1/2 pr-4">
+                <p>Use <i>who</i> to ask about people.</p>
+                <p>Use <i>what</i> to ask about things or ideas.</p>
+            </div>
+            <div class="w-1/2 pl-4 border-l border-gray-300">
+                <p>Who is that woman with Amanda?</p>
+                <p>What is her name?</p>
+            </div>
+        </div>
+        <p>We often use the contractions <i>who's</i> and <i>what's</i> in speaking and informal writing.</p>
+        <div class="flex mt-2 mb-4">
+            <div class="w-1/2 pr-4">
+                <p>Answers to these questions can be long or short.</p>
+            </div>
+            <div class="w-1/2 pl-4 border-l border-gray-300">
+                <p>A: Who's that man?</p>
+                <p>B: That's Mark. <i>Or</i> Mark.</p>
+            </div>
+        </div>
+
+        <div class="section-title">REFERENCE NOTE</div>
+        <p>For definitions of grammar terms, see the Glossary on page 375.</p>
+
+        <!-- Trang 5: image_1f4d61.png -->
+        <img src="FOG-1-5/9.png" alt="Trang 5 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">STEP 3 FOCUSED PRACTICE</div>
+
+        <div class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</div>
+        <p class="text-gray-700 mb-4">GRAMMAR NOTES 1–3 Underline the yes/no questions. Circle the <i>wh-</i> questions. Then match the questions and answers.</p>
+        <form class="mb-8">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/2 pr-4 mb-4">
+                    <div class="exercise-item">
+                        <p>1. <span class="underline-word" data-word="Is">Is</span> <span class="underline-word" data-word="Jenny">Jenny</span> <span class="underline-word" data-word="your">your</span> <span class="underline-word" data-word="sister">sister</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>2. <span class="underline-word" data-word="Are">Are</span> <span class="underline-word" data-word="Jaime">Jaime</span> <span class="underline-word" data-word="and">and</span> <span class="underline-word" data-word="Helen">Helen</span> <span class="underline-word" data-word="students">students</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>3. <span class="underline-word" data-word="Am">Am</span> <span class="underline-word" data-word="I">I</span> <span class="underline-word" data-word="right">right</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>4. <span class="underline-word" data-word="What's">What's</span> <span class="underline-word" data-word="her">her</span> <span class="underline-word" data-word="name">name</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pl-4 mb-4">
+                    <div class="exercise-item">
+                        <p>5. <span class="underline-word" data-word="Who's">Who's</span> <span class="underline-word" data-word="a">a</span> <span class="underline-word" data-word="bus">bus</span> <span class="underline-word" data-word="driver">driver</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>6. <span class="underline-word" data-word="Are">Are</span> <span class="underline-word" data-word="you">you</span> <span class="underline-word" data-word="and">and</span> <span class="underline-word" data-word="Ed">Ed</span> <span class="underline-word" data-word="from">from</span> <span class="underline-word" data-word="Chicago">Chicago</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>7. <span class="underline-word" data-word="What">What</span> <span class="underline-word" data-word="does">does</span> <span class="underline-word" data-word="Anna">Anna</span> <span class="underline-word" data-word="do">do</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>8. <span class="underline-word" data-word="Is">Is</span> <span class="underline-word" data-word="Mark">Mark</span> <span class="underline-word" data-word="married">married</span>?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, he isn't.</option>
+                            <option value="b">b. Ted is.</option>
+                            <option value="c">c. No, she isn't. She's my cousin.</option>
+                            <option value="d">d. No, they aren't. They're teachers.</option>
+                            <option value="e">e. Yes, you are.</option>
+                            <option value="f">f. Her name is Kate.</option>
+                            <option value="g">g. No, we're from New York.</option>
+                            <option value="h">h. She's a doctor.</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="exercise-title">EXERCISE 2 WHO AND WHAT</div>
+        <p class="text-gray-700 mb-4">GRAMMAR NOTE 3 Complete the conversations with <i>who</i> or <i>what</i>.</p>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p>1. A: <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s that woman with Mark?</p>
+                <p class="ml-4">B: That's my mother.</p>
+            </div>
+            <div class="exercise-item">
+                <p>2. A: <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s her name?</p>
+                <p class="ml-4">B: Mary.</p>
+            </div>
+            <div class="exercise-item">
+                <p>3. A: <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s his job?</p>
+                <p class="ml-4">B: He's a bus driver.</p>
+            </div>
+            <div class="exercise-item">
+                <p>4. A: <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s that man with Judy?</p>
+                <p class="ml-4">B: That's Mark.</p>
+            </div>
+            <div class="exercise-item">
+                <p>5. A: <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s the teacher for this class?</p>
+                <p class="ml-4">B: Professor Beck. Steve Beck.</p>
+            </div>
+            <div class="exercise-item">
+                <p>6. A: <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s a nurse?</p>
+                <p class="ml-4">B: Amanda is.</p>
+            </div>
+        </form>
+
+        <div class="exercise-title">EXERCISE 3 QUESTIONS AND ANSWERS</div>
+        <p class="text-gray-700 mb-4">GRAMMAR NOTES 1–3 Complete the conversation between Ben and Annie and their uncle Steve. Use the correct forms of the words in parentheses. Use contractions.</p>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p><span class="font-bold">BEN:</span> Uncle Steve, 1. (<span class="underline-fill-in"><input type="text" placeholder="who / be"></span>) a doctor, Kathy or Amanda?</p>
+            </div>
+            <div class="exercise-item">
+                <p><span class="font-bold">STEVE:</span> Kathy 2. (<span class="underline-fill-in"><input type="text" placeholder="be"></span>) a doctor.</p>
+            </div>
+            <div class="exercise-item">
+                <p><span class="font-bold">ANNIE:</span> What about Amanda? 3. (<span class="underline-fill-in"><input type="text" placeholder="what / be"></span>) her job?</p>
+            </div>
+        </form>
+
+        <!-- Trang 6: image_1f4d7e.png -->
+        <img src="FOG-1-5/10.png" alt="Trang 6 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p><span class="font-bold">STEVE:</span> 4. (<span class="underline-fill-in"><input type="text" placeholder="she / be"></span>) a nurse.</p>
+            </div>
+            <div class="exercise-item">
+                <p><span class="font-bold">BEN:</span> What about Mark? 5. (<span class="underline-fill-in"><input type="text" placeholder="he / be"></span>) a teacher like you?</p>
+            </div>
+            <div class="exercise-item">
+                <p><span class="font-bold">STEVE:</span> No, Ben, 6. (<span class="underline-fill-in"><input type="text" placeholder="he / not / be"></span>) a teacher. 7. (<span class="underline-fill-in"><input type="text" placeholder="he / be"></span>) a writer.</p>
+            </div>
+            <div class="exercise-item">
+                <p><span class="font-bold">ANNIE:</span> 8. (<span class="underline-fill-in"><input type="text" placeholder="that / be"></span>) interesting.</p>
+            </div>
+        </form>
+
+        <div class="exercise-title">EXERCISE 4 MORE QUESTIONS AND ANSWERS</div>
+        <p class="text-gray-700 mb-4">GRAMMAR NOTES 1–3 Put the words in the correct order. Make conversations.</p>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p>1. A: (Steve / Portland / Is / from)</p>
+                <p class="ml-4">A: <span class="underline-fill-in"><input type="text" value="Is Steve from Portland?" readonly></span></p>
+                <p>B: (not. / No, / he's)</p>
+                <p class="ml-4">B: <span class="underline-fill-in"><input type="text" value="No, he's not." readonly></span></p>
+            </div>
+            <div class="exercise-item">
+                <p>2. A: (a server? / She / Is)</p>
+                <p class="ml-4">A: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+                <p>B: (Yes, / is. / She)</p>
+                <p class="ml-4">B: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+            </div>
+            <div class="exercise-item">
+                <p>3. A: (nurses? / Are / they)</p>
+                <p class="ml-4">A: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+                <p>B: (they're / No, / doctors.)</p>
+                <p class="ml-4">B: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+            </div>
+            <div class="exercise-item">
+                <p>4. A: (man? / that / Who / is)</p>
+                <p class="ml-4">A: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+                <p>B: (my / teacher. / He's)</p>
+                <p class="ml-4">B: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+            </div>
+            <div class="exercise-item">
+                <p>5. A: (Mark and Kathy / married? / Are)</p>
+                <p class="ml-4">A: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+                <p>B: (aren't. / No, / they)</p>
+                <p class="ml-4">B: <span class="underline-fill-in"><input type="text" placeholder="Viết lại câu"></span></p>
+            </div>
+        </form>
+
+        <div class="exercise-title">EXERCISE 5 EDITING</div>
+        <p class="text-gray-700 mb-4">GRAMMAR NOTES 1–3 There are six mistakes in the conversations. The first mistake is corrected. Correct five more.</p>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p>1. A: <span class="text-red-500 font-bold">Are</span> <span class="line-through">Is</span> you a doctor?</p>
+                <p class="ml-4">B: Yes, I'm.</p>
+                <div class="correction-input">
+                    <label>Sửa lỗi:</label>
+                    <input type="text" placeholder="Sửa lỗi ở đây">
+                </div>
+            </div>
+            <div class="exercise-item">
+                <p>2. A: Is she single?</p>
+                <p class="ml-4">B: No, she not.</p>
+                <div class="correction-input">
+                    <label>Sửa lỗi:</label>
+                    <input type="text" placeholder="Sửa lỗi ở đây">
+                </div>
+            </div>
+            <div class="exercise-item">
+                <p>3. A: They chefs?</p>
+                <p class="ml-4">B: No, they aren't.</p>
+                <div class="correction-input">
+                    <label>Sửa lỗi:</label>
+                    <input type="text" placeholder="Sửa lỗi ở đây">
+                </div>
+            </div>
+            <div class="exercise-item">
+                <p>4. A: Is he a bus driver?</p>
+                <p class="ml-4">B: No, he's.</p>
+                <div class="correction-input">
+                    <label>Sửa lỗi:</label>
+                    <input type="text" placeholder="Sửa lỗi ở đây">
+                </div>
+            </div>
+            <div class="exercise-item">
+                <p>5. A: Is he married?</p>
+                <p class="ml-4">B: No, he isn't. He single.</p>
+                <div class="correction-input">
+                    <label>Sửa lỗi:</label>
+                    <input type="text" placeholder="Sửa lỗi ở đây">
+                </div>
+            </div>
+        </form>
+
+        <!-- Trang 7: image_1f51df.png -->
+        <img src="FOG-1-5/11.png" alt="Trang 7 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">STEP 4 COMMUNICATION PRACTICE</div>
+        <div class="exercise-title">EXERCISE 6 LISTENING</div>
+        <p class="text-gray-700 mb-4">A Listen to the conversation. Then listen again. Answer each question with a short answer.</p>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p>1. Is Mai a chef? <span class="underline-fill-in"><input type="text" placeholder="Câu trả lời ngắn"></span></p>
+            </div>
+            <div class="exercise-item">
+                <p>2. Is she married? <span class="underline-fill-in"><input type="text" placeholder="Câu trả lời ngắn"></span></p>
+            </div>
+            <div class="exercise-item">
+                <p>3. Are Jaime and Carlos brothers? <span class="underline-fill-in"><input type="text" placeholder="Câu trả lời ngắn"></span></p>
+            </div>
+            <div class="exercise-item">
+                <p>4. Is Alicia single? <span class="underline-fill-in"><input type="text" placeholder="Câu trả lời ngắn"></span></p>
+            </div>
+        </form>
+
+        <p class="text-gray-700 mb-4">B Listen again. Answer the questions. Circle the correct answers.</p>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p>1. Who is Diego's friend? <span class="options-group">
+                    <label><input type="radio" name="q6_1" value="a"> a. Alicia</label>
+                    <label><input type="radio" name="q6_1" value="b"> b. Mai</label>
+                </span></p>
+            </div>
+            <div class="exercise-item">
+                <p>2. What does Mai do? <span class="options-group">
+                    <label><input type="radio" name="q6_2" value="a"> a. She's a chef.</label>
+                    <label><input type="radio" name="q6_2" value="b"> b. She's a server.</label>
+                </span></p>
+            </div>
+            <div class="exercise-item">
+                <p>3. What do Diego's cousins do? <span class="options-group">
+                    <label><input type="radio" name="q6_3" value="a"> a. They're both chefs.</label>
+                    <label><input type="radio" name="q6_3" value="b"> b. They're both servers.</label>
+                </span></p>
+            </div>
+            <div class="exercise-item">
+                <p>4. What's the name of Diego's wife? <span class="options-group">
+                    <label><input type="radio" name="q6_4" value="a"> a. Mai</label>
+                    <label><input type="radio" name="q6_4" value="b"> b. Alicia</label>
+                </span></p>
+            </div>
+        </form>
+        <p class="text-gray-700 mb-4">C Work with a partner. Compare your answers in A and B.</p>
+
+        <div class="exercise-title">EXERCISE 7 WHAT DO YOU DO?</div>
+        <p class="text-gray-700 mb-4">A CONVERSATION Work with a partner. Practice the conversation with the jobs in the pictures.</p>
+        <div class="image-section">
+            <div class="image-item">
+                <img src="FOG-1-5/12.png" alt="Nha sĩ">
+                <span>a dentist</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-5/13.png" alt="Thư ký">
+                <span>a clerk</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-5/14.png" alt="Cảnh sát">
+                <span>a police officer</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-5/15.png" alt="Thợ cơ khí">
+                <span>a mechanic</span>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-5/16.png" alt="Thu ngân">
+                <span>a cashier</span>
+            </div>
+        </div>
+        <div class="dialogue-box">
+            <div class="dialogue-line"><span class="dialogue-speaker">A:</span> What do you do?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">B:</span> I'm a <span class="underline-fill-in"><input type="text" placeholder="Nghề nghiệp"></span>. What about you?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">A:</span> I'm a <span class="underline-fill-in"><input type="text" placeholder="Nghề nghiệp"></span>.</div>
+        </div>
+
+        <!-- Trang 8: image_1f5487.png -->
+        <img src="FOG-1-5/17.png" alt="Trang 8 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <p class="text-gray-700 mb-4">B Walk around the room. Practice the conversation with different classmates. Use other jobs from this unit or your real job.</p>
+        <p class="text-gray-700 mb-4">C Work with your partner again. Ask your partner about other people in the class.</p>
+        <p class="mt-4">EXAMPLE: A: Who's the man near Mei-ling?</p>
+        <p class="ml-8">B: That's Hussein.</p>
+        <p class="ml-8">A: What does he do?</p>
+        <p class="ml-8">B: He's a bus driver.</p>
+
+        <div class="exercise-title">EXERCISE 8 WHO AM I?</div>
+        <p class="text-gray-700 mb-4">GAME Work in a group. Write the name of a famous living person on a piece of paper. Choose a classmate and put the piece of paper on his or her back. Your classmate asks yes/no questions to guess the name of the person.</p>
+        <div class="image-section">
+            <div class="image-item">
+                <img src="FOG-1-5/18.png" alt="Trò chơi Who Am I?">
+            </div>
+        </div>
+        <p class="mt-4">EXAMPLE: A: Is it a man?</p>
+        <p class="ml-8">B: No, it isn't.</p>
+        <p class="ml-8">A: Is she beautiful?</p>
+        <p class="ml-8">C: Yes, she is.</p>
+        <p class="ml-8">A: Is she an actor?</p>
+        <p class="ml-8">D: Yes, she is.</p>
+        <p class="ml-8">A: Is she Angelina Jolie?</p>
+        <p class="ml-8">E: Yes, she is!</p>
+
+        <!-- Trang 9: image_1f54a4.png -->
+        <img src="FOG-1-5/19.png" alt="Trang 9 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">FROM GRAMMAR TO WRITING</div>
+        <p class="text-gray-700 mb-4">A BEFORE YOU WRITE Read the interview. Underline <i>who, what,</i> and yes/no questions. Then work with a partner. Interview him or her and complete the chart. Ask the questions in Rosa's interview or your own questions. Take turns.</p>
+        <div class="dialogue-box">
+            <div class="dialogue-line"><span class="dialogue-speaker">ANNA:</span> What's your name?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ROSA:</span> My name is Rosa Gutierrez.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ANNA:</span> Are you from the United States?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ROSA:</span> No, I'm not. I'm not from Tegucigalpa, Honduras.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ANNA:</span> What do you do?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ROSA:</span> I'm a clerk, and I'm a student.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ANNA:</span> Are you married?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ROSA:</span> No, I'm not.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ANNA:</span> Are you happy?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">ROSA:</span> Yes, I am. I'm very happy.</div>
+        </div>
+        <div class="image-section">
+            <div class="image-item">
+                <img src="FOG-1-5/20.png" alt="Phỏng vấn">
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Your Questions</th>
+                        <th>Your Partner's Answers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><input type="text" placeholder="Câu hỏi của bạn"></td><td><input type="text" placeholder="Câu trả lời của bạn"></td></tr>
+                    <tr><td><input type="text" placeholder="Câu hỏi của bạn"></td><td><input type="text" placeholder="Câu trả lời của bạn"></td></tr>
+                    <tr><td><input type="text" placeholder="Câu hỏi của bạn"></td><td><input type="text" placeholder="Câu trả lời của bạn"></td></tr>
+                    <tr><td><input type="text" placeholder="Câu hỏi của bạn"></td><td><input type="text" placeholder="Câu trả lời của bạn"></td></tr>
+                    <tr><td><input type="text" placeholder="Câu hỏi của bạn"></td><td><input type="text" placeholder="Câu trả lời của bạn"></td></tr>
+                    <tr><td><input type="text" placeholder="Câu hỏi của bạn"></td><td><input type="text" placeholder="Câu trả lời của bạn"></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="text-gray-700 mb-4">B WRITE Write your interview questions and your partner's answers. Use <i>yes/no, who,</i> and <i>what</i> questions. Use the interview in A and your chart to help you.</p>
+        <p class="text-gray-700 mb-4">C CHECK YOUR WORK Read your interview. Underline <i>yes/no, who,</i> and <i>what</i> questions. Use the Editing Checklist to check your work.</p>
+        <div class="bg-blue-50 p-4 rounded-lg mb-4">
+            <p class="font-bold mb-2">Editing Checklist</p>
+            <p class="font-bold mb-2">Did you ...?</p>
+            <label class="flex items-center mb-1">
+                <input type="checkbox" class="mr-2"> use <i>am, is,</i> and <i>are</i> in yes/no questions
+            </label>
+            <label class="flex items-center mb-1">
+                <input type="checkbox" class="mr-2"> use <i>who</i> with people and <i>what</i> with things
+            </label>
+            <label class="flex items-center">
+                <input type="checkbox" class="mr-2"> check your spelling
+            </label>
+        </div>
+        <p class="text-gray-700 mb-4">D REVISE YOUR WORK Read your paragraph again. Can you improve your writing? Make changes if necessary.</p>
+
+        <!-- Trang 10: image_1f54ab.png -->
+        <img src="FOG-1-5/21.png" alt="Trang 10 của sách" class="w-full h-auto rounded-lg shadow-md mb-8">
+
+        <div class="section-title">UNIT 5 REVIEW</div>
+        <p class="text-gray-700 mb-4">Test yourself on the grammar of the unit.</p>
+        <p class="text-gray-700 mb-4">A Match the questions and answers.</p>
+        <form class="mb-8">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/2 pr-4 mb-4">
+                    <div class="exercise-item">
+                        <p>1. Are you actors?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, they aren't.</option>
+                            <option value="b">b. No, she isn't.</option>
+                            <option value="c">c. Yes, you are.</option>
+                            <option value="d">d. Yes, we are.</option>
+                            <option value="e">e. No, he isn't.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>2. Am I late?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, they aren't.</option>
+                            <option value="b">b. No, she isn't.</option>
+                            <option value="c">c. Yes, you are.</option>
+                            <option value="d">d. Yes, we are.</option>
+                            <option value="e">e. No, he isn't.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>3. Is John married?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, they aren't.</option>
+                            <option value="b">b. No, she isn't.</option>
+                            <option value="c">c. Yes, you are.</option>
+                            <option value="d">d. Yes, we are.</option>
+                            <option value="e">e. No, he isn't.</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pl-4 mb-4">
+                    <div class="exercise-item">
+                        <p>4. Are your parents teachers?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, they aren't.</option>
+                            <option value="b">b. No, she isn't.</option>
+                            <option value="c">c. Yes, you are.</option>
+                            <option value="d">d. Yes, we are.</option>
+                            <option value="e">e. No, he isn't.</option>
+                        </select>
+                    </div>
+                    <div class="exercise-item">
+                        <p>5. Is your sister a dentist?</p>
+                        <select class="mt-2 p-2 border rounded-md w-full">
+                            <option value="">Chọn đáp án</option>
+                            <option value="a">a. No, they aren't.</option>
+                            <option value="b">b. No, she isn't.</option>
+                            <option value="c">c. Yes, you are.</option>
+                            <option value="d">d. Yes, we are.</option>
+                            <option value="e">e. No, he isn't.</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <p class="text-gray-700 mb-4">B Complete the conversation with <i>who</i> or <i>what</i>.</p>
+        <form class="mb-8">
+            <div class="exercise-item">
+                <p>A: That's a great photo. <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s that woman on the right?</p>
+                <p class="ml-4">B: That's my cousin.</p>
+            </div>
+            <div class="exercise-item">
+                <p>A: Oh, really? <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s her name?</p>
+                <p class="ml-4">B: Amalia.</p>
+            </div>
+            <div class="exercise-item">
+                <p>A: And <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s that man on her left?</p>
+                <p class="ml-4">B: That's her husband, Carlos.</p>
+            </div>
+            <div class="exercise-item">
+                <p>A: I see. <span class="underline-fill-in"><input type="text" placeholder="who/what"></span> does he do?</p>
+                <p class="ml-4">B: He's a police officer.</p>
+            </div>
+            <div class="exercise-item">
+                <p>A: And <span class="underline-fill-in"><input type="text" placeholder="who/what"></span>'s that in the middle? Is that their son?</p>
+                <p class="ml-4">B: No, that's their daughter!</p>
+            </div>
+        </form>
+
+        <p class="text-gray-700 mb-4">C Correct the conversations. There are five mistakes.</p>
+        <form class="mb-8">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/2 pr-4 mb-4">
+                    <div class="exercise-item">
+                        <p>1. A: What his job? Is he a dentist?</p>
+                        <p class="ml-4">B: No, he's not. He's a doctor.</p>
+                        <div class="correction-input">
+                            <label>Sửa lỗi:</label>
+                            <input type="text" placeholder="Sửa lỗi ở đây">
+                        </div>
+                    </div>
+                    <div class="exercise-item">
+                        <p>2. A: Is your sister single?</p>
+                        <p class="ml-4">B: No, she not.</p>
+                        <div class="correction-input">
+                            <label>Sửa lỗi:</label>
+                            <input type="text" placeholder="Sửa lỗi ở đây">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 pl-4 mb-4">
+                    <div class="exercise-item">
+                        <p>3. A: Is your mother a nurse?</p>
+                        <p class="ml-4">B: No, she isn't. She a cashier.</p>
+                        <div class="correction-input">
+                            <label>Sửa lỗi:</label>
+                            <input type="text" placeholder="Sửa lỗi ở đây">
+                        </div>
+                    </div>
+                    <div class="exercise-item">
+                        <p>4. A: Is you from Kenya?</p>
+                        <p class="ml-4">B: Yes, I'm.</p>
+                        <div class="correction-input">
+                            <label>Sửa lỗi:</label>
+                            <input type="text" placeholder="Sửa lỗi ở đây">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="section-title">Video Hỗ Trợ</div>
+        <div class="youtube-embed">
+            <!-- Thay thế YOUR_VIDEO_ID bằng ID video YouTube bạn muốn nhúng -->
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Chức năng khoanh từ cho EXERCISE 1
+            const underlineWords = document.querySelectorAll('.underline-word');
+            underlineWords.forEach(word => {
+                word.addEventListener('click', () => {
+                    word.classList.toggle('selected');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
