@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE PARTS OF SPEECH - NOUNS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding-top: 50px; /* Space for fixed header/button */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #2c3e50;
+        }
+        .chapter-title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .subsection-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        .example-block {
+            margin-left: 20px;
+            font-style: italic;
+        }
+        .note-block {
+            background-color: #f9f9f9;
+            border-left: 5px solid #3498db;
+            padding: 10px 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .note-block strong {
+            color: #2980b9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        td {
+            padding: 5px 0;
+            vertical-align: top;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .content-block {
+            margin-bottom: 20px;
+        }
+        .menu-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            z-index: 1000;
+            border-radius: 5px;
+        }
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            right: 0;
+            background-color: #f1f1f1;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+        }
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+            background-color: #575757;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="menu-button" onclick="toggleNav()">Mục lục</button>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#definition">I. Định nghĩa (Definition)</a>
+        <a href="#kinds-of-nouns">II. Các loại danh từ (Kinds of nouns)</a>
+        <a href="#concrete-and-abstract-nouns">1. Danh từ cụ thể và danh từ trừu tượng (Concrete nouns and abstract nouns)</a>
+        <a href="#concrete-nouns">1.1. Danh từ cụ thể (Concrete nouns)</a>
+        <a href="#countable-and-uncountable-nouns">2. Danh từ đếm được và danh từ không đếm được (Countable nouns and uncountable nouns)</a>
+        <a href="#countable-nouns">2.1. Danh từ đếm được (Countable nouns)</a>
+        <a href="#uncountable-nouns">2.2. Danh từ không đếm được (Uncountable nouns)</a>
+        <a href="#simple-and-compound-nouns">3. Danh từ đơn và danh từ ghép (Simple nouns and compound nouns)</a>
+        <a href="#simple-nouns">3.1. Danh từ đơn (Simple nouns)</a>
+        <a href="#compound-nouns">3.2. Danh từ ghép (Compound nouns)</a>
+        <a href="#formation-of-plural-nouns">4. Danh từ số ít và danh từ số nhiều (Singular nouns and plural nouns)</a>
+        <a href="#plural-formation-rules">4.1. Cách thành lập danh từ số nhiều (Formation of the plural nouns)</a>
+        <a href="#pronunciation-of-s-or-es">4.2. Cách phát âm đuôi -s hoặc -es (The pronunciation of -s or -es)</a>
+        <a href="#contradiction-of-form-and-meaning">4.3. Mâu thuẫn giữa hình thức số và nghĩa của danh từ</a>
+        <a href="#plural-of-compound-nouns">5. Số nhiều của các danh từ ghép.</a>
+    </div>
+
+    <div class="chapter-title">
+        Chương 1 <br>
+        <h1>TỪ LOẠI (THE PARTS OF SPEECH)</h1>
+        <h2>DANH TỪ (NOUNS)</h2>
+    </div>
+
+    <div class="content-block" id="definition">
+        <h3 class="section-title">I. Định nghĩa (Definition)</h3>
+        <p>Danh từ là từ hoặc nhóm từ dùng để chỉ người (John, teacher, mother,...), vật (chair, dog, ...), nơi chốn (city, church, England, ...), tính chất (beauty, courage, sorrow,...) hay hoạt động (travel, cough, walk,...).</p>
+    </div>
+
+    <div class="content-block" id="kinds-of-nouns">
+        <h3 class="section-title">II. Các loại danh từ (Kinds of nouns)</h3>
+        <p>Dựa trên các tiêu chí khác nhau danh từ có thể được phân thành nhiều loại:</p>
+
+        <div id="concrete-and-abstract-nouns">
+            <h4 class="subsection-title">1. Danh từ cụ thể và danh từ trừu tượng (Concrete nouns and abstract nouns)</h4>
+            <div id="concrete-nouns">
+                <h5 class="subsection-title">1.1. Danh từ cụ thể (Concrete nouns):</h5>
+                <p>là danh từ chỉ những gì hữu hình; những gì mà chúng ta có thể cảm thấy trực tiếp qua giác quan (nhìn, nghe, sờ, ngửi,...) như: house, man, cloud, cat, pen, mountain, v.v. Danh từ cụ thể được phân thành hai tiểu loại:</p>
+                <ol type="a">
+                    <li><p>Danh từ chung (common nouns) là danh từ dùng để gọi tên những sự vật thuộc cùng một loại.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> table (cái bàn), man (con người), dog (con chó), pen (cái viết), ...</p>
+                        </div>
+                        <p>Trong danh từ chung có danh từ tập hợp (collective nouns) dùng để chỉ một nhóm người, vật hoặc sự vật.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> family (gia đình), crowd (đám đông), team (đội), police (cảnh sát), government (chính phủ), cattle (bò),...</p>
+                        </div>
+                    </li>
+                    <li><p>Danh từ riêng (proper nouns) là tên riêng của từng sự vật, đối tượng riêng lẻ.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> John, France (nước Pháp), the Thames (sông Thames), ...</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <h5 class="subsection-title">1.2. Danh từ trừu tượng (Abstract nouns):</h5>
+                <p>là danh từ dùng để chỉ tính chất, trạng thái hoặc hoạt động.</p>
+                <div class="example-block">
+                    <p><strong>Ex:</strong> beauty (vẻ đẹp), charity (lòng nhân ái), existence (sự tồn tại), fear (sự sợ hãi), departure (sự khởi hành), ...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="countable-and-uncountable-nouns">
+            <h4 class="subsection-title">2. Danh từ đếm được và danh từ không đếm được (Countable nouns and uncountable nouns)</h4>
+            <div id="countable-nouns">
+                <h5 class="subsection-title">2.1. Danh từ đếm được (countable nouns)</h5>
+                <p>là danh từ chỉ những vật thể, con người, ý niệm, ... riêng rẽ có thể đếm được.</p>
+                <div class="example-block">
+                    <p><strong>Ex:</strong> chair (cái ghế), book (cuốn sách), student (học sinh), dog (con chó),...</p>
+                </div>
+                <p>Danh từ đếm được có cả hình thức số ít và số nhiều. Chúng ta có thể dùng mạo từ a/ an với danh từ đếm được ở số ít (singular countable nouns), và các con số hoặc some, any, many, few với danh từ đếm được ở số nhiều (plural countable nouns).</p>
+                <div class="example-block">
+                    <p><strong>Ex:</strong> a book (một cuốn sách), two dogs (hai con chó), some bananas (vài quả chuối), many students (nhiều học sinh), an accident (một tai nạn), a few ideas (một vài ý tưởng),...</p>
+                </div>
+            </div>
+            <div id="uncountable-nouns">
+                <h5 class="subsection-title">2.2. Danh từ không đếm được (Uncountable nouns)</h5>
+                <p>là danh từ chỉ những chất liệu, chất lỏng, những khái niệm trừu tượng, và những vật mà chúng ta xem như một khối không thể tách rời.</p>
+                <div class="example-block">
+                    <p><strong>Ex:</strong> wool (len), butter (bơ), water (nước), furniture (đồ gỗ), rice (gạo), happiness (niềm hạnh phúc), news (tin tức), work (công việc),...</p>
+                </div>
+                <p>Phần lớn các danh từ không đếm được đều ở dạng số ít, không có hình thức số nhiều. Chúng ta có thể dùng some, any, much, little trước danh từ không đếm được nhưng không dùng số và mạo từ a/ an.</p>
+                <div class="example-block">
+                    <p><strong>Ex:</strong> some water (một ít nước), much rice (nhiều gạo), little information (ít thông tin), some advice (một vài lời khuyên), a little fear (hơi sợ), some bread (một ít bánh mì),...</p>
+                </div>
+            </div>
+            <div class="note-block">
+                <p>★ **Lưu ý:**</p>
+                <ul>
+                    <li><p>Con số và mạo từ a/ an không dùng được trước danh từ không đếm được, nhưng chúng có thể được dùng kèm với danh từ chỉ sự đo lường.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> Three <span class="underline">bottles of milk</span> (ba chai sữa), a <span class="underline">bowl of rice</span> (một bát cơm), a <span class="underline">piece of information</span> (một mẩu tin), two <span class="underline">loaves of bread</span> (hai ổ bánh mì),...</p>
+                        </div>
+                    </li>
+                    <li><p>Các danh từ riêng (proper nouns) là tên riêng của cá thể thường dùng ở số ít nhưng đôi khi cũng có thể dùng ở số nhiều.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> The Smiths is going to Spain for their summer holiday.</p>
+                            <p>(Gia đình Smith sẽ đi nghỉ hè ở Tây Ban Nha)</p>
+                            <p>There are three Davids in my class. (Trong lớp tôi có ba người tên David.)</p>
+                        </div>
+                    </li>
+                    <li><p>Nhiều danh từ có thể được dùng như danh từ đếm được hoặc không đếm được, thường khác nhau về nghĩa.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> The window's made of unbreakable <span class="underline">glass</span>. (Sữa cửa được làm bằng kính không vỡ.)</p>
+                            <p>Would you like a <span class="underline">glass</span> of milk? (Con uống một ly sữa nhé?)</p>
+                            <p>I'd like some tissue <span class="underline">paper</span>. (Tôi muốn mua một ít giấy lụa.)</p>
+                            <p>I'm going out to buy some <span class="underline">papers</span>. (Tôi sẽ đi mua vài tờ báo.)</p>
+                        </div>
+                    </li>
+                    <li><p>Các từ chỉ thức uống: coffee, beer, tea, juice, v.v. thường không đếm được. Nhưng chúng có thể đếm được khi mang nghĩa 'tách, ly, chai, v.v.'.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> Have you got any <span class="underline">coffee</span>? (Bạn còn cà phê không?)</p>
+                            <p>Two <span class="underline">coffees</span>, please. (Cho hai ly cà phê.) [= two cups of coffee]</p>
+                            <p>I don't drink beer very often. (Tôi không uống bia thường xuyên.)</p>
+                            <p>Would you like a <span class="underline">beer</span>? (Dùng một ly/ chai/ lon bia nhé?) [= a glass/ bottle/ can of beer]</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="simple-and-compound-nouns">
+            <h4 class="subsection-title">3. Danh từ đơn và danh từ ghép (Simple nouns and compound nouns)</h4>
+            <p>Về hình thức, một danh từ có thể là danh từ đơn (simple nouns) hay danh từ ghép (compound nouns).</p>
+            <div id="simple-nouns">
+                <h5 class="subsection-title">3.1. Danh từ đơn (Simple nouns)</h5>
+                <p>là danh từ chỉ có một từ.</p>
+                <div class="example-block">
+                    <p><strong>Ex:</strong> house (ngôi nhà), peace (hòa bình), train (xe lửa), table (cái bàn),...</p>
+                </div>
+            </div>
+            <div id="compound-nouns">
+                <h5 class="subsection-title">3.2. Danh từ ghép (Compound nouns)</h5>
+                <p>là danh từ gồm hai hoặc nhiều từ kết hợp với nhau. Danh từ ghép có thể được viết thành hai từ riêng biệt, có gạch ngang giữa hai từ hoặc kết hợp thành một từ.</p>
+                <div class="example-block">
+                    <p><strong>Ex:</strong> greenhouse (nhà kính), world peace (hòa bình thế giới), non-stop train (tàu suốt), writing-table (bàn viết)</p>
+                </div>
+                <h5 class="subsection-title">a. Cách thành lập danh từ ghép</h5>
+                <ol type="a">
+                    <li><p>Danh từ + danh từ (noun + noun)</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> toothpick (tăm) → tennis ball (bóng tennis)</p>
+                            <p>schoolboy (nam sinh) → bus driver (tài xế xe buýt)</p>
+                            <p>kitchen table (bàn bếp) → river bank (bờ sông)</p>
+                            <p>cupboard (tủ chạn) → postman (người đưa thư)</p>
+                        </div>
+                    </li>
+                    <li><p>Tính từ + danh từ (adjective + noun)</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> quicksilver (thủy ngân) → blackboard (bảng đen)</p>
+                            <p>greenhouse (nhà kính) → blackbird (chim sáo)</p>
+                        </div>
+                    </li>
+                    <li><p>Danh từ + danh động từ (noun + gerund)</p>
+                        <p>Trong trường hợp này, danh từ ghép chỉ một loại công việc nào đó.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> weight-lifting (việc cử tạ) → fruit picking (việc hái quả)</p>
+                            <p>lorry driving (việc lái xe tải) → coal-mining (việc khai thác mỏ than)</p>
+                            <p>bird-watching (việc quan sát nhận dạng chim)</p>
+                        </div>
+                    </li>
+                    <li><p>Danh động từ + danh từ (gerund + noun)</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> waiting-room (phòng đợi) → swimming pool (hồ bơi)</p>
+                            <p>driving licence (bằng lái xe) → washing-machine (máy giặt)</p>
+                        </div>
+                    </li>
+                    <li><p>Các trường hợp khác</p>
+                        <ul>
+                            <li><p>Tính từ + động từ (adjective + verb): whitewash (nước vôi)</p></li>
+                            <li><p>Động từ + danh từ (verb + noun): pickpocket (tên móc túi)</p></li>
+                            <li><p>Trạng từ + động từ (adverb + verb): outbreak (sự bùng nổ)</p></li>
+                            <li><p>Động từ + trạng từ (verb + adverb): breakdown (sự suy sụp)</p></li>
+                            <li><p>Danh từ + giới từ + danh từ (noun + preposition): passer-by (khách qua đường), looker-on (người xem)</p></li>
+                            <li><p>Danh từ + tính từ (noun + adjective): secretary-general (tổng thư ký; tổng bí thư)</p></li>
+                        </ul>
+                    </li>
+                </ol>
+                <div class="note-block">
+                    <p>★ **Lưu ý:** Danh từ ghép có thể được thành lập bởi nhiều hơn hai từ: mother-in-law (mẹ vợ/ chồng), glass dining-table (bàn ăn bằng kính), merry-go-round (trò chơi ngựa quay),...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="singular-and-plural-nouns">
+            <h4 class="subsection-title">4. Danh từ số ít và danh từ số nhiều (Singular nouns and plural nouns)</h4>
+            <p>Danh từ đếm được thường có hai dạng: số ít (singular) và số nhiều (plural).</p>
+            <div class="example-block">
+                <p><strong>Ex:</strong> The girl is singing. (Cô gái đang hát) → singular</p>
+                <p>The girls are singing. (Các cô gái đang hát) → plural</p>
+            </div>
+            <div id="plural-formation-rules">
+                <h5 class="subsection-title">4.1. Cách thành lập danh từ số nhiều (Formation of the plural nouns)</h5>
+                <ol type="a">
+                    <li><p>Hầu hết các danh từ số nhiều được thành lập bằng cách thêm -s vào danh từ số ít.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> boy (con trai) → boys (những đứa con trai)</p>
+                            <p>house (ngôi nhà) → houses (những ngôi nhà)</p>
+                            <p>dog (con chó) → dogs (những con chó)</p>
+                        </div>
+                    </li>
+                    <li><p>Các chữ cái, chữ số, dấu hiệu và những từ loại khác không phải là danh từ mà được dùng như danh từ thì thường thêm 's.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> There are two 9's in 99. (Trong số 99 có hai số 9.)</p>
+                            <p>Dot your i's. (Nhớ chấm dấu các chữ i.)</p>
+                            <p>She spelt 'necessary' with two c's.</p>
+                            <p>(Cô ta đánh vần từ 'necessary' có hai chữ c.)</p>
+                        </div>
+                    </li>
+                    <li><p>Các danh từ tận cùng bằng s, sh, ch, x, z được tạo thành số nhiều bằng cách thêm -es.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> dish (cái đĩa) → dishes (những cái đĩa)</p>
+                            <p>church (nhà thờ) → churches (những ngôi nhà thờ)</p>
+                            <p>box (cái hộp) → boxes (những cái hộp)</p>
+                            <p>bus (xe buýt) → buses (những chiếc xe buýt)</p>
+                            <p>quiz (cuộc thi đố) → quizzes (các cuộc thi đố)</p>
+                        </div>
+                    </li>
+                    <li><p>Các danh từ tận cùng bằng phụ âm + y (consonant + y) được tạo thành số nhiều bằng cách đổi y thành i và thêm es.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> baby (em bé) → babies (những em bé)</p>
+                            <p>party (bữa tiệc) → parties (những bữa tiệc)</p>
+                            <p>fly (con ruồi) → flies (những con ruồi)</p>
+                        </div>
+                    </li>
+                    <li><p>Các danh từ tận cùng bằng nguyên âm + y (vowel + y) thì chỉ thêm -s.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> day (ngày) → days (các ngày)</p>
+                            <p>key (chìa khóa) → keys (những chiếc chìa khóa)</p>
+                            <p>boy (con trai) → boys (những đứa con trai)</p>
+                        </div>
+                    </li>
+                    <li><p>Các danh từ riêng (proper nouns) tận cùng bằng -y, chỉ cần thêm -s.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> Do you know the Kennedys. (Bạn có biết gia đình Kennedy không?)</p>
+                            <p>I hate Februarys. (Tôi ghét tháng Hai.)</p>
+                        </div>
+                    </li>
+                    <li><p>Một số danh từ tận cùng bằng f hoặc fe: calf, half, knife, leaf, life, loaf, self, sheaf, chef, thief, wife, wolf được tạo thành số nhiều bằng cách đổi f hoặc fe thành -ves.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> knife (con dao) → knives (những con dao)</p>
+                            <p>calf (con bê) → calves (những con bê)</p>
+                            <p>thief (tên ăn cắp) → thieves (những tên ăn cắp)</p>
+                            <p>wife (vợ) → wives (các bà vợ)</p>
+                        </div>
+                        <p>Các danh từ tận cùng bằng -f hoặc -fe khác thì thêm s theo cách thông thường.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> roof (mái nhà) → roofs (những mái nhà)</p>
+                            <p>handkerchief (khăn tay) → handkerchiefs (những chiếc khăn tay)</p>
+                            <p>cliff (vách đá) → cliffs (các vách đá)</p>
+                        </div>
+                        <p>Một số danh từ tận cùng bằng f có thể có 2 hình thức số nhiều.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> scarf (khăn choàng cổ) → scarfs, scarves</p>
+                            <p>dwarf (người lùn) → dwarfs, dwarves</p>
+                            <p>wharf (cầu tàu) → wharfs, wharves</p>
+                            <p>hoof (móng guốc) → hoofs, hooves</p>
+                        </div>
+                    </li>
+                    <li><p>Một số danh từ tận cùng bằng một phụ âm + o (consonant + o) được tạo thành số nhiều bằng cách thêm -es.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> potato (củ khoai tây) → potatoes</p>
+                            <p>hero (anh hùng) → heroes</p>
+                            <p>tomato (củ cà chua) → tomatoes</p>
+                            <p>echo (tiếng vang) → echoes</p>
+                        </div>
+                        <p>Các danh từ tận cùng bằng một nguyên âm + o, các từ vay mượn của nước ngoài hoặc các từ được viết tắt thì chỉ cần thêm -s.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> radio (máy radio) → radios</p>
+                            <p>piano (đàn dương cầm) → pianos</p>
+                            <p>zoo (sở thú) → zoos</p>
+                            <p>photo (bức ảnh) → photos</p>
+                        </div>
+                        <p>Một số danh từ tận cùng bằng o có thể có hai hình thức số nhiều.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> volcano (núi lửa) → volcanos, volcanoes</p>
+                            <p>tornado (cơn bão) → tornados, tornadoes</p>
+                            <p>mango (quả xoài) → mangos, mangoes</p>
+                            <p>mosquito (con muỗi) → mosquitos, mosquitoes</p>
+                        </div>
+                    </li>
+                    <li><p>Số nhiều bất qui tắc (Irregular plurals)</p>
+                        <ul>
+                            <li><p>Một số danh từ thay đổi khi ở số nhiều.</p>
+                                <div class="example-block">
+                                    <p><strong>Ex:</strong> man (đàn ông) → men</p>
+                                    <p>mouse (con chuột) → mice</p>
+                                    <p>woman (đàn bà) → women</p>
+                                    <p>louse (con rận) → lice</p>
+                                    <p>tooth (răng) → teeth</p>
+                                    <p>goose (con ngỗng) → geese</p>
+                                    <p>foot (bàn chân) → feet</p>
+                                    <p>person (người) → people</p>
+                                    <p>child (đứa trẻ) → children</p>
+                                    <p>ox (con bò) → oxen</p>
+                                </div>
+                            </li>
+                            <li><p>Một số danh từ không thay đổi khi ở số nhiều.</p>
+                                <div class="example-block">
+                                    <p><strong>Ex:</strong> sheep (con cừu) → sheep</p>
+                                    <p>deer (con nai) → deer</p>
+                                    <p>fish (con cá) → fish</p>
+                                    <p>swine (con lợn) → swine</p>
+                                    <p>aircraft (máy bay) → aircraft</p>
+                                    <p>craft (tàu, thuyền) → craft</p>
+                                    <p>grouse (gà rừng) → grouse</p>
+                                    <p>trout (cá hồi) → trout</p>
+                                    <p>squid (mực ống) → squid</p>
+                                    <p>salmon (cá hồi) → salmon</p>
+                                    <p>plaice (cá bơn sao) → plaice</p>
+                                    <p>carp (cá chép) → carp</p>
+                                </div>
+                                <div class="example-block">
+                                    <p><strong>Ex:</strong> There are a lot of <span class="underline">sheep</span> grazing in the fields.</p>
+                                    <p>(Có nhiều cừu đang gặm cỏ ngoài đồng.)</p>
+                                </div>
+                            </li>
+                            <li><p>Một số danh từ tận cùng bằng -s không thay đổi khi ở số nhiều.</p>
+                                <div class="example-block">
+                                    <p><strong>Ex:</strong> means (phương tiện) → means</p>
+                                    <p>works (nhà máy) → works</p>
+                                    <p>species (loài) → species</p>
+                                    <p>Swiss (người Thụy Sĩ) → Swiss</p>
+                                    <p>barracks (doanh trại) → barracks</p>
+                                    <p>crossroads (ngã tư) → crossroads</p>
+                                    <p>headquarters (sở chỉ huy) → headquarters</p>
+                                    <p>series (dãy, chuỗi) → series</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><p>Một số danh từ chỉ có hình thức số nhiều (luôn được dùng với động từ số nhiều)</p>
+                        <ul>
+                            <li><p>quần áo gồm hai phần: pants (quần), pyjamas (đồ pijama), trousers (quần dài), jeans (quần jin),...</p></li>
+                            <li><p>dụng cụ hoặc thiết bị gồm hai phần: scissors (cái kéo), glasses (kính đeo mắt), pincers (cây kìm), scales (cái cân), binoculars (ống nhòm), tongs (cái kẹp), spectacles (kính đeo mắt),...</p></li>
+                            <li><p>một số danh từ khác: arms (vũ khí), earnings (tiền kiếm được), stairs (cầu thang), savings (tiền tiết kiệm), surroundings (vùng phụ cận), riches (tài sản), goods (hàng hóa), outskirts (vùng ngoại ô), clothes (quần áo),...</p></li>
+                        </ul>
+                    </li>
+                    <li><p>Một số danh từ có nguồn gốc từ tiếng Hy Lạp hoặc Latin thường có dạng số nhiều đặc biệt theo luật của tiếng Hy Lạp và Latin.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> formula (công thức) → formulae, formulas</p>
+                            <p>alumna (nữ sinh) → alumnae</p>
+                            <p>vertebra (xương sống) → vertebrae, vertebras</p>
+                            <p>focus (tiêu điểm) → foci, focuses</p>
+                            <p>cactus (cây xương rồng) → cacti</p>
+                            <p>fungus (nấm) → fungi, funguses</p>
+                            <p>bacterium (vi khuẩn) → bacteria</p>
+                            <p>curriculum (chương trình giảng dạy) → curricula</p>
+                            <p>datum (dữ kiện) → data</p>
+                            <p>criterion (tiêu chuẩn) → criteria</p>
+                            <p>phenomenon (hiện tượng) → phenomena</p>
+                            <p>dogma (giáo lý) → dogmata</p>
+                            <p>stigma (vết; đốm) → stigmata</p>
+                            <p>basis (nền tảng) → bases</p>
+                            <p>crisis (cuộc khủng hoảng) → crises</p>
+                            <p>analysis (sự phân tích) → analyses</p>
+                            <p>hypothesis (giả thuyết) → hypotheses</p>
+                        </div>
+                    </li>
+                    <li><p>Một số danh từ có hai hình thức số nhiều với hai nghĩa khác nhau.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> brother (anh/em trai) → brothers (các anh/em trai); brethren (đạo hữu; đồng đội)</p>
+                            <p>cloth (vải) → cloths (các mảnh vải); clothes (quần áo)</p>
+                            <p>penny (đồng xu) → pennies (các đồng xu); pence (số tiền xu)</p>
+                            <p>staff (nhân viên) → staffs (các nhân viên); staves (các khuôn nhạc)</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+
+            <div id="pronunciation-of-s-or-es">
+                <h5 class="subsection-title">4.2. Cách phát âm đuôi -s hoặc -es (The pronunciation of -s or -es)</h5>
+                <p>Có 3 cách phát âm đuôi -s/-es của danh từ số nhiều: /s/, /z/ và /iz/</p>
+                <ul>
+                    <li><p>/iz/ khi <span class="underline">es</span> đứng sau danh từ tận cùng bằng các âm xuyt: /s/, /z/, /∫/, /ʒ/, /t∫/, /dʒ/.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> watches, boxes, bridges, buses, crashes, buzzes...</p>
+                        </div>
+                    </li>
+                    <li><p>/s/ khi <span class="underline">s</span> đứng sau các danh từ tận cùng bằng các âm vô thanh: /p/, /t/, /f/, /k/, /θ/.</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> cups, cats, books, beliefs, cloths, ...</p>
+                        </div>
+                    </li>
+                    <li><p>/z/ khi <span class="underline">s</span> đứng sau danh từ tận cùng bằng nguyên âm (a, e, i, o, u) và các phụ âm hữu thanh còn lại: /b/, /v/, /ð/, /d/, /g/, /l/, /m/, /n/, /ŋ/, /r/, /ɔɪ/, /eɪ/, /eə/, ...</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> toys, answers, lessons, legs, trees, knives, ends, dreams, hills, songs...</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="contradiction-of-form-and-meaning">
+                <h5 class="subsection-title">4.3. Mâu thuẫn giữa hình thức số và nghĩa của danh từ</h5>
+                <ol type="a">
+                    <li><p>Một số danh từ có hình thức số ít nhưng có nghĩa số nhiều (có thể dùng với động từ số nhiều)</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> army (quân đội), police (cảnh sát), family (gia đình), team (đội), cattle (trâu bò), government (chính phủ), clergy (tu sĩ),...</p>
+                        </div>
+                    </li>
+                    <li><p>Ngược lại, một số danh từ luôn luôn ở hình thức số nhiều nhưng có nghĩa số ít (được dùng với động từ số ít)</p>
+                        <div class="example-block">
+                            <p><strong>Ex:</strong> news (tin tức), mumps (bệnh quai bị), measles (bệnh sởi), rickets (bệnh còi xương), billiards (trò chơi bi-a), dominoes (trò chơi đô-mi-nô),...</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="plural-of-compound-nouns">
+            <h4 class="subsection-title">5. Số nhiều của các danh từ ghép.</h4>
+            <ul>
+                <li><p>Trong hình thức danh từ ghép danh từ + danh từ (noun + noun), thì danh từ thứ nhất thường ở dạng số ít và danh từ thứ hai được đổi ra số nhiều.</p>
+                    <div class="example-block">
+                        <p><strong>Ex:</strong> toothbrush (bàn chải đánh răng) → toothbrushes</p>
+                        <p>boy-friend (bạn trai) → boy-friends</p>
+                        <p>ticket collector (người soát vé) → ticket collectors</p>
+                    </div>
+                </li>
+                <li><p>Trong hình thức danh từ ghép danh từ + trạng từ (noun + adv), danh từ + giới từ + danh từ (noun + prep + noun), danh từ + tính từ (noun + adj), thì hình thức số nhiều được thành lập với danh từ đầu tiên.</p>
+                    <div class="example-block">
+                        <p><strong>Ex:</strong> passer-by (người đi đường) → passers-by</p>
+                        <p>looker-on (người xem) → lookers-on</p>
+                        <p>mother-in-law (mẹ vợ/ chồng) → mothers-in-law</p>
+                        <p>[cũng có thể viết mother-in-laws]</p>
+                        <p>lady-in-waiting (thị nữ) → ladies-in-waiting</p>
+                        <p>court-martial (tòa án quân sự) → courts-martial</p>
+                        <p>[cũng có thể viết court-martials]</p>
+                    </div>
+                </li>
+                <li><p>Trong các hình thức danh từ ghép còn lại: tính từ + danh từ (adj + noun), danh động từ + danh từ (gerund + noun), động từ + danh từ (verb + noun), v.v. thì hình thức số nhiều biến đổi ở thành phần sau cùng.</p>
+                    <div class="example-block">
+                        <p><strong>Ex:</strong> blackboard (bảng đen) → blackboards</p>
+                        <p>washing machine (máy giặt) → washing machines</p>
+                        <p>pickpocket (tên móc túi) → pickpockets</p>
+                        <p>breakdown (sự suy sụp) → breakdowns</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+		<div id="subject_verb_agreement">
+			<h2>IV. Sự tương hợp giữa chủ ngữ và động từ (Subject and Verb Agreement)</h2>
+			<p>Trong tiếng Anh, chủ ngữ và động từ phải tương hợp với nhau.</p>
+
+			<div id="singular_verbs">
+				<h3>1. Động từ số ít (Singular verbs)</h3>
+				<p>Động từ số ít thường được dùng khi chủ ngữ là:</p>
+				<ol type="a">
+					<li>
+						<p>Danh từ đếm được số ít (singular noun) hoặc danh từ không đếm được (uncountable noun).</p>
+						<p>Ex: <i>This book is very interesting.</i> (Những cuốn sách này rất hay.)</p>
+						<p><i>Traffic is always busy at this time of day.</i></p>
+						<p>(Vào thời điểm này trong ngày xe cộ luôn đông đúc.)</p>
+					</li>
+					<li>
+						<p>Hai danh từ (noun) nối với nhau bằng <i>and</i> cùng chỉ về một người, một vật, hoặc một ý tưởng.</p>
+						<p>Ex: <i>My best friend and adviser, Tom, is arriving tonight.</i></p>
+						<p>(Tom, người bạn thân kiêm cố vấn của tôi sẽ đến tối nay.)</p>
+						<p><i>Bread and butter is my favorite breakfast food.</i></p>
+						<p>(Bánh mì [và] bơ là món điểm tâm tôi thích nhất.)</p>
+					</li>
+					<li>
+						<p><i>Each/ Every/ Either/ Neither</i> + danh từ số ít (singular noun)</p>
+						<p>Ex: <i>Every seat has a number.</i> (Mỗi ghế đều có số.)</p>
+						<p><i>Come on Tuesday or Thursday. Either day is OK.</i></p>
+						<p>(Hãy đến vào thứ Ba hoặc thứ Năm. Ngày nào cũng được.)</p>
+						<p><i>Each door is different colour.</i> (Mỗi cánh cửa có màu sắc khác nhau.)</p>
+					</li>
+				</ol>
+			</div>
+
+			<div id="plural_verbs">
+				<h3>2. Động từ số nhiều (Plural verbs)</h3>
+				<p>Động từ số nhiều thường được dùng khi chủ ngữ là:</p>
+				<ol type="a">
+					<li>
+						<p>Danh từ số nhiều (plural nouns)</p>
+						<p>Ex: <i>These books are very interesting.</i> (Những cuốn sách này rất hay.)</p>
+						<p><i>The goods have been sent to you direct from our factory.</i></p>
+						<p>(Hàng đã được gửi thẳng đến cho bạn từ nhà máy của chúng tôi.)</p>
+					</li>
+					<li>
+						<p>Hai danh từ (noun) nối với nhau bằng <i>and</i> chỉ hai người, hai vật hoặc hai sự vật khác nhau.</p>
+						<p>Ex: <i>My best friend and my adviser are arriving tonight.</i></p>
+						<p>(Bạn thân của tôi và cố vấn của tôi tối nay sẽ đến.)</p>
+						<p><i>Water and oil don't mix.</i> (Nước và dầu không thể hòa tan với nhau.)</p>
+					</li>
+					<li>
+						<p><i>The + tính từ (adjective) → danh từ (noun)</i></p>
+						<p>Ex: <i>The rich are not always happy.</i></p>
+						<p>(Người giàu không phải lúc nào cũng hạnh phúc.)</p>
+						<p><i>After the accident, the injured were taken to hospital.</i></p>
+						<p>(Sau tai nạn, những người bị thương được đưa vào bệnh viện.)</p>
+					</li>
+					<li>
+						<p><i>Some, a few, both, many, a lot of, all,...</i> + danh từ số nhiều (plural noun)</p>
+						<p>Ex: <i>Some books I bought yesterday are in English.</i></p>
+						<p>(Một số sách tôi đã mua hôm qua là sách tiếng Anh.)</p>
+						<p><i>All the seats have a number.</i> (Tất cả các ghế đều có số.)</p>
+					</li>
+					<li>
+						<p>Các danh từ tập hợp <i>police, people, cattle.</i></p>
+						<p>Ex: <i>The police have warned motorists to take extra care.</i></p>
+						<p>(Cảnh sát cảnh báo những người đi xe máy phải hết sức cẩn thận.)</p>
+						<p>[NOT The police has warned ...]</p>
+						<p><i>The cattle are suffering from a disease called BSE.</i></p>
+						<p>(Bò đang bị một căn bệnh gọi là BSE.) [NOT The cattle is ...]</p>
+					</li>
+				</ol>
+			</div>
+
+			<div id="various_rules_1">
+				<ul>
+					<li>
+						<p><i>Each/ Every/ Either/ Neither/ Any/ None + of + danh từ/ đại từ số nhiều</i> (plural noun/ pronoun).</p>
+						<p>Ex: <i>Each of the houses is slightly different.</i> (Mỗi ngôi nhà hơi khác nhau.)</p>
+						<p><i>Neither of the oranges is ripe.</i> (Cả hai trái cam đều chưa chín.)</p>
+						<p><i>Is any of these old maps worth keeping?</i></p>
+						<p>(Có tấm nào trong những tấm bản đồ cũ này cần giữ lại không?)</p>
+						<p><i>None of my friends lives near me.</i></p>
+						<p>(Không người nào trong số bạn bè của tôi sống gần nhà tôi.)</p>
+						<p><i>Either of the books I bought yesterday is interesting.</i></p>
+						<p>(Cả hai cuốn sách tôi mua hôm qua đều hay.)</p>
+					</li>
+					<li>
+						<p>★ Lưu ý: <i>Neither of, none of, any of</i> + danh từ/ đại từ số nhiều cũng có thể dùng động từ số nhiều.</p>
+						<p>Ex: <i>None of my friends lives/ live near me.</i></p>
+					</li>
+					<li>
+						<p><i>Each/ Every + danh từ số ít + and + each/ every + danh từ số ít</i></p>
+						<p>Ex: <i>Each boy and each girl has an English-book.</i></p>
+						<p>(Mỗi nam sinh và mỗi nữ sinh đều có một cuốn sách tiếng Anh.)</p>
+					</li>
+				</ul>
+				<ol type="d">
+					<li>
+						<p><i>More than one</i> + danh từ đếm được số ít (singular count noun)</p>
+						<p>Ex: <i>More than one person has known the news.</i> (Nhiều người đã biết tin này.)</p>
+					</li>
+				</ol>
+				<ul>
+					<li>
+						<p><i>One of</i> + danh từ số nhiều (plural noun)</p>
+						<p>Ex: <i>One of my friends is going to Honolulu next week.</i></p>
+						<p>(Tuần tới, một trong những người bạn của tôi sẽ đi Honolulu.)</p>
+					</li>
+				</ul>
+				<ol type="e">
+					<li>
+						<p><i>Everything, everybody, anything, nothing, nobody, everyone, something, somebody, no one/ none, someone, anyone, anybody, somewhere, anywhere, nowhere.</i></p>
+						<p>Ex: <i>Everything looks bright and clean.</i> (Mọi thứ có vẻ sáng sủa và sạch sẽ.)</p>
+						<p><i>Someone is knocking at the door.</i> (Có ai đó đang gõ cửa.)</p>
+					</li>
+					<li>
+						<p>Một số danh từ có dạng số nhiều nhưng có nghĩa số ít:</p>
+						<ul>
+							<li>News (tin tức)</li>
+							<li>Môn học hoặc môn thể thao: mathematics (toán học), physics (vật lý học), economics (kinh tế học), politics (chính trị học), linguistics (ngôn ngữ học), genetics (di truyền học), athletics (môn điền kinh), gymnastics (môn thể dục), ...</li>
+							<li>Trò chơi: billiards (bi-da), mumps (bệnh quai bị), rickets (bệnh còi xương),...</li>
+							<li>Quốc gia: the Philippines (nước Philippine), the United States (Hoa Kỳ), ...</li>
+						</ul>
+						<p>Ex: <i>Physics is more difficult than chemistry.</i> (Môn lý khó hơn môn hóa.)</p>
+						<p><i>The news was worse than I had expected.</i> (Tin tức xấu hơn tôi nghĩ.)</p>
+					</li>
+					<li>
+						<p>★ Lưu ý: Một số từ tận cùng bằng <i>-ics</i> có thể dùng động từ số ít hoặc số nhiều.</p>
+						<p>Ex: <i>Politics is a complicated business.</i> (Chính trị là một hoạt động phức tạp.)</p>
+						<p><i>What are your politics?</i> (Quan điểm chính trị của anh là thế nào?)</p>
+					</li>
+					<li>
+						<p>Khoảng cách, khoảng thời gian, số tiền, và sự đo lường</p>
+						<p>Ex: <i>3.6 kilometers is about 2 miles.</i> (3.6 kilomét là khoảng 2 dặm.)</p>
+						<p><i>Ten seconds was the winner's time.</i></p>
+						<p>(Thời gian của người thắng giải là 10 giây.)</p>
+						<p><i>A thousand dollars is a large sum of money.</i></p>
+						<p>(Một ngàn đô la là một số tiền lớn.)</p>
+					</li>
+					<li>
+						<p>★ Lưu ý: Động từ số ít thường được dùng sau số thập phân, phân số và các cụm từ chỉ số lượng hoặc sự đo lường, nhưng động từ số nhiều được dùng khi nói về số lượng người hoặc vật.</p>
+						<p>Ex: <i>Three quarters of a ton is too much.</i> (3/4 tấn là quá nhiều.)</p>
+						<p><i>A third of the students are from abroad.</i> (1/3 số học sinh đến từ các nước khác.)</p>
+					</li>
+					<li>
+						<p>Tên của một cuốn sách, một bài báo, một câu chuyện, một bộ phim, v.v.</p>
+						<p>Ex: <i>Tom and Jerry is very well known all over the world.</i></p>
+						<p>(Phim 'Tom và Jerry' nổi tiếng khắp thế giới.)</p>
+						<p><i>The Arabian Nights has delighted many generations.</i></p>
+						<p>(Truyện 'Nghìn lẻ một đêm' đã làm say mê nhiều thế hệ.)</p>
+					</li>
+					<li>
+						<p>Một mệnh đề, một danh động từ, v.v. (a clause, gerund,...)</p>
+						<p>Ex: <i>That you get very high grades in school is necessary.</i></p>
+						<p>(Điều cần thiết là bạn đạt điểm cao ở trường.)</p>
+						<p><i>Smoking is harmful to your health.</i></p>
+						<p>(Hút thuốc có hại cho sức khỏe của bạn.)</p>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	
+    <div id="section_a">
+        <h3>1. Động từ số ít hay số nhiều? (Singular or plural verbs?)</h3>
+        <p>a. Các danh từ tập hợp (collective nouns) như <em>family, team, government, staff, class, firm, crowd, public, orchestra, club, committee, audience, band, the BBC, the United Nations, ...</em> (ngoại trừ <em>police, cattle, people</em>) có thể được dùng với động từ số ít hoặc số nhiều (tùy theo ý người nói muốn diễn đạt).</p>
+        <ul>
+            <li>Danh từ tập hợp đi với động từ số ít nếu người nói xem tập hợp này như một tổng thể hay một đơn vị duy nhất.</li>
+            <li>Danh từ tập hợp đi với động từ số nhiều nếu người nói muốn nhấn mạnh đến các thành phần hoặc bộ phận của tập hợp này.</li>
+        </ul>
+        <p>Ex: <strong>Our team is the best.</strong> It has a good chance of winning.<br>
+            (Đội chúng tôi là đội hay nhất. Đội chúng tôi có cơ hội thắng trận.)<br>
+            $\rightarrow$ đội bóng</p>
+        <p><strong>Our team are wearing their new jerseys.</strong><br>
+            (Đội của chúng tôi mặc áo mới.) $\rightarrow$ tất cả các cầu thủ trong đội</p>
+        <p><strong>My family have decided to move to Nottingham.</strong><br>
+            (Gia đình tôi quyết định dọn đến Nottingham.)<br>
+            $\rightarrow$ các thành viên trong gia đình</p>
+        <p><strong>The average British family has 3.6 members.</strong><br>
+            (Gia đình Anh trung bình có 3,6 thành viên.) $\rightarrow$ gia đình (nói chung)</p>
+        <p>Trong tiếng Anh của người Mỹ (American English), động từ số ít thường được dùng với các danh từ trên trong tất cả các trường hợp (<em>family</em> có thể có động từ số nhiều). Đại từ số nhiều có thể được dùng.</p>
+        <p>Ex: <strong>The team is in Detroit this weekend. They have a good chance of winning.</strong></p>
+    </div>
+
+    <div id="section_b">
+        <p>b. Hai danh từ đại từ kết hợp với nhau bằng: <em>with, along with, as well as, together with, accompanied by, besides, in addition to</em> $\rightarrow$ động từ được chia với danh từ đại từ thứ nhất.</p>
+        <p>
+            $\boxed{\text{Noun}_1 + \text{with/along with/as well as ...} + \text{Noun}_2 + \text{Verb (Noun}_1\text{)}}$
+        </p>
+        <p>Ex: <strong>The Managing Director, together with his heads of department, is coming to the meeting.</strong> (Giám đốc điều hành cùng với các trưởng ban sẽ đến dự cuộc họp.)</p>
+        <p><strong>The horses as well as the horse-breaker are in the racecourse now.</strong><br>
+            (Hiện giờ, những con ngựa cũng như người dạy ngựa đang ở trường đua.)</p>
+    </div>
+
+    <div id="section_c">
+        <p>c. Hai danh từ đại từ kết hợp với nhau bằng: <em>or, either ... or, neither ... nor, not ... but, not only ... but also</em> $\rightarrow$ động từ được chia theo danh từ đại từ thứ hai.</p>
+        <p>
+            $\boxed{\text{Either} \quad \text{or}}$<br>
+            $\boxed{\text{Neither} \quad \text{nor}}$<br>
+            $\boxed{\text{No} + \text{Noun}_1 \quad \text{but} \quad + \text{Noun}_2 + \text{Verb (Noun}_2\text{)}}$<br>
+            $\boxed{\text{Not only} \quad \text{but also}}$
+        </p>
+        <p>Ex: <strong>The room is too crowded - two chairs or a table has to be moved out.</strong><br>
+            (Căn phòng quá chật - hai cái ghế hoặc một cái bàn phải được chuyển ra ngoài.)</p>
+        <p><strong>Either you or I am right.</strong> (Hoặc anh đúng hoặc tôi đúng.)</p>
+        <p><strong>Neither she nor her daughters have arrived.</strong><br>
+            (Cả bà ấy lẫn các con gái của bà ấy đều chưa đến.)</p>
+        <p><strong>Not Tom but his parents live here.</strong><br>
+            (Không phải Tom mà là cha mẹ anh ấy sống ở đây.)</p>
+        <p><strong>Not only the bathroom but also the rest of the house was flooded.</strong><br>
+            (Không chỉ phòng tắm mà toàn bộ ngôi nhà đều bị ngập nước.)</p>
+        <p>+</p>
+        <p>Khi hai danh từ số ít được kết hợp bằng <em>neither... nor</em> thì động từ thường chia ở số nhiều, nhưng động từ số ít cũng có thể được dùng trong lối văn trang trọng.</p>
+        <p>Ex: <strong>Neither she nor her daughter have arrived.</strong> (informal)</p>
+        <p><strong>Neither she nor her daughter has arrived.</strong> (formal)</p>
+    </div>
+
+    <div id="section_d">
+        <p>d. The number of + danh từ số nhiều (plural noun) $\rightarrow$ động từ chia ở số ít (singular verb)</p>
+        <p>Ex: <strong>The number of books stolen from the library is large.</strong><br>
+            (Số sách bị lấy cắp ở thư viện rất lớn.)</p>
+        <p>A number of + danh từ số nhiều (plural noun) $\rightarrow$ động từ chia ở số nhiều (plural verb)</p>
+        <p>Ex: <strong>A number of problems have arisen.</strong> (Một số vấn đề đã nảy sinh.)</p>
+    </div>
+
+    <div id="section_e">
+        <p>e. Chủ từ là một cụm danh từ được kết hợp bởi hai danh từ $\rightarrow$ động từ chia với danh từ thứ nhất.</p>
+        <p>
+            $\boxed{\text{Noun}_1 + \text{preposition} + \text{Noun}_2 + \text{Verb (Noun}_1\text{)}}$
+        </p>
+        <p>Ex: <strong>A box of cigarettes contains 20 pipes.</strong> (Một hộp thuốc lá có 20 điếu.)</p>
+        <p><strong>The effects of stress are very serious.</strong><br>
+            (Những ảnh hưởng của việc căng thẳng thần kinh là rất nghiêm trọng.)</p>
+    </div>
+
+    <div id="section_f">
+        <p>f. Các từ như <em>all, some, none, part, half, most, plenty, a lot, lots, majority, minority, the last, the rest, the remainder + of</em> được dùng với:</p>
+        <ul>
+            <li>động từ số ít nếu danh từ theo sau ở số ít.</li>
+            <li>động từ số nhiều nếu danh từ theo sau ở số nhiều.</li>
+        </ul>
+        <p>
+            $\boxed{\text{All, Some, Plenty} \quad + \text{OF} \quad + \text{singular Noun} \quad \rightarrow \text{singular Verb}}$<br>
+            $\boxed{\text{Half, Part, A lot,...} \quad + \text{OF} \quad + \text{plural Noun} \quad \rightarrow \text{plural Verb}}$
+        </p>
+        <p>Ex: <strong>Some of the apples were rotten.</strong> (Một vài quả táo đã bị thối.)</p>
+        <p><strong>Some of the milk was sour.</strong> (Một ít sữa đã bị chua.)</p>
+        <p><strong>A lot of time is needed to learn a language.</strong><br>
+            (Học một ngôn ngữ cần rất nhiều thời gian.)</p>
+        <p><strong>A lot of my friends want to emigrate.</strong><br>
+            (Nhiều người bạn của tôi muốn di cư.)</p>
+    </div>
+
+    <div id="section_g">
+        <p>g. No + danh từ số ít (singular noun) $\rightarrow$ động từ chia ở số ít (singular verb)</p>
+        <p>No + danh từ số nhiều (plural noun) $\rightarrow$ động từ chia ở số nhiều (plural verb)</p>
+        <p>Ex: <strong>No student is to leave the room.</strong><br>
+            (Không một sinh viên nào được ra khỏi phòng.)</p>
+        <p><strong>No people think alike.</strong> (Không ai suy nghĩ giống ai.)</p>
+    </div>
+
+    <div id="section_h">
+        <h4>h. Trong cụm từ There + be ..., động từ be phải tương hợp với chủ từ thật (real subject) đứng ngay sau nó.</h4>
+        <p>
+            $\boxed{\text{There + be + noun}}$
+        </p>
+        <p>Ex: <strong>There is a lot of noise in the street.</strong> (Có nhiều tiếng ồn ngoài đường.)</p>
+        <p><strong>There were many people in the waiting room.</strong><br>
+            (Có nhiều người trong phòng đợi.)</p>
+    </div>
+
+    </div>
+
+    <div id="section_a">
+        <h3>1. Động từ số ít hay số nhiều? (Singular or plural verbs?)</h3>
+        <p>a. Các danh từ tập hợp (collective nouns) như <em>family, team, government, staff, class, firm, crowd, public, orchestra, club, committee, audience, band, the BBC, the United Nations, ...</em> (ngoại trừ <em>police, cattle, people</em>) có thể được dùng với động từ số ít hoặc số nhiều (tùy theo ý người nói muốn diễn đạt).</p>
+        <ul>
+            <li>Danh từ tập hợp đi với động từ số ít nếu người nói xem tập hợp này như một tổng thể hay một đơn vị duy nhất.</li>
+            <li>Danh từ tập hợp đi với động từ số nhiều nếu người nói muốn nhấn mạnh đến các thành phần hoặc bộ phận của tập hợp này.</li>
+        </ul>
+        <p>Ex: <strong>Our team is the best.</strong> It has a good chance of winning.<br>
+            (Đội chúng tôi là đội hay nhất. Đội chúng tôi có cơ hội thắng trận.)<br>
+            $\rightarrow$ đội bóng</p>
+        <p><strong>Our team are wearing their new jerseys.</strong><br>
+            (Đội của chúng tôi mặc áo mới.) $\rightarrow$ tất cả các cầu thủ trong đội</p>
+        <p><strong>My family have decided to move to Nottingham.</strong><br>
+            (Gia đình tôi quyết định dọn đến Nottingham.)<br>
+            $\rightarrow$ các thành viên trong gia đình</p>
+        <p><strong>The average British family has 3.6 members.</strong><br>
+            (Gia đình Anh trung bình có 3,6 thành viên.) $\rightarrow$ gia đình (nói chung)</p>
+        <p>Trong tiếng Anh của người Mỹ (American English), động từ số ít thường được dùng với các danh từ trên trong tất cả các trường hợp (<em>family</em> có thể có động từ số nhiều). Đại từ số nhiều có thể được dùng.</p>
+        <p>Ex: <strong>The team is in Detroit this weekend. They have a good chance of winning.</strong></p>
+    </div>
+
+    <div id="section_b">
+        <p>b. Hai danh từ đại từ kết hợp với nhau bằng: <em>with, along with, as well as, together with, accompanied by, besides, in addition to</em> $\rightarrow$ động từ được chia với danh từ đại từ thứ nhất.</p>
+        <p>
+            $\boxed{\text{Noun}_1 + \text{with/along with/as well as ...} + \text{Noun}_2 + \text{Verb (Noun}_1\text{)}}$
+        </p>
+        <p>Ex: <strong>The Managing Director, together with his heads of department, is coming to the meeting.</strong> (Giám đốc điều hành cùng với các trưởng ban sẽ đến dự cuộc họp.)</p>
+        <p><strong>The horses as well as the horse-breaker are in the racecourse now.</strong><br>
+            (Hiện giờ, những con ngựa cũng như người dạy ngựa đang ở trường đua.)</p>
+    </div>
+
+    <div id="section_c">
+        <p>c. Hai danh từ đại từ kết hợp với nhau bằng: <em>or, either ... or, neither ... nor, not ... but, not only ... but also</em> $\rightarrow$ động từ được chia theo danh từ đại từ thứ hai.</p>
+        <p>
+            $\boxed{\text{Either} \quad \text{or}}$<br>
+            $\boxed{\text{Neither} \quad \text{nor}}$<br>
+            $\boxed{\text{No} + \text{Noun}_1 \quad \text{but} \quad + \text{Noun}_2 + \text{Verb (Noun}_2\text{)}}$<br>
+            $\boxed{\text{Not only} \quad \text{but also}}$
+        </p>
+        <p>Ex: <strong>The room is too crowded - two chairs or a table has to be moved out.</strong><br>
+            (Căn phòng quá chật - hai cái ghế hoặc một cái bàn phải được chuyển ra ngoài.)</p>
+        <p><strong>Either you or I am right.</strong> (Hoặc anh đúng hoặc tôi đúng.)</p>
+        <p><strong>Neither she nor her daughters have arrived.</strong><br>
+            (Cả bà ấy lẫn các con gái của bà ấy đều chưa đến.)</p>
+        <p><strong>Not Tom but his parents live here.</strong><br>
+            (Không phải Tom mà là cha mẹ anh ấy sống ở đây.)</p>
+        <p><strong>Not only the bathroom but also the rest of the house was flooded.</strong><br>
+            (Không chỉ phòng tắm mà toàn bộ ngôi nhà đều bị ngập nước.)</p>
+        <p>+</p>
+        <p>Khi hai danh từ số ít được kết hợp bằng <em>neither... nor</em> thì động từ thường chia ở số nhiều, nhưng động từ số ít cũng có thể được dùng trong lối văn trang trọng.</p>
+        <p>Ex: <strong>Neither she nor her daughter have arrived.</strong> (informal)</p>
+        <p><strong>Neither she nor her daughter has arrived.</strong> (formal)</p>
+    </div>
+
+    <div id="section_d">
+        <p>d. The number of + danh từ số nhiều (plural noun) $\rightarrow$ động từ chia ở số ít (singular verb)</p>
+        <p>Ex: <strong>The number of books stolen from the library is large.</strong><br>
+            (Số sách bị lấy cắp ở thư viện rất lớn.)</p>
+        <p>A number of + danh từ số nhiều (plural noun) $\rightarrow$ động từ chia ở số nhiều (plural verb)</p>
+        <p>Ex: <strong>A number of problems have arisen.</strong> (Một số vấn đề đã nảy sinh.)</p>
+    </div>
+
+    <div id="section_e">
+        <p>e. Chủ từ là một cụm danh từ được kết hợp bởi hai danh từ $\rightarrow$ động từ chia với danh từ thứ nhất.</p>
+        <p>
+            $\boxed{\text{Noun}_1 + \text{preposition} + \text{Noun}_2 + \text{Verb (Noun}_1\text{)}}$
+        </p>
+        <p>Ex: <strong>A box of cigarettes contains 20 pipes.</strong> (Một hộp thuốc lá có 20 điếu.)</p>
+        <p><strong>The effects of stress are very serious.</strong><br>
+            (Những ảnh hưởng của việc căng thẳng thần kinh là rất nghiêm trọng.)</p>
+    </div>
+
+    <div id="section_f">
+        <p>f. Các từ như <em>all, some, none, part, half, most, plenty, a lot, lots, majority, minority, the last, the rest, the remainder + of</em> được dùng với:</p>
+        <ul>
+            <li>động từ số ít nếu danh từ theo sau ở số ít.</li>
+            <li>động từ số nhiều nếu danh từ theo sau ở số nhiều.</li>
+        </ul>
+        <p>
+            $\boxed{\text{All, Some, Plenty} \quad + \text{OF} \quad + \text{singular Noun} \quad \rightarrow \text{singular Verb}}$<br>
+            $\boxed{\text{Half, Part, A lot,...} \quad + \text{OF} \quad + \text{plural Noun} \quad \rightarrow \text{plural Verb}}$
+        </p>
+        <p>Ex: <strong>Some of the apples were rotten.</strong> (Một vài quả táo đã bị thối.)</p>
+        <p><strong>Some of the milk was sour.</strong> (Một ít sữa đã bị chua.)</p>
+        <p><strong>A lot of time is needed to learn a language.</strong><br>
+            (Học một ngôn ngữ cần rất nhiều thời gian.)</p>
+        <p><strong>A lot of my friends want to emigrate.</strong><br>
+            (Nhiều người bạn của tôi muốn di cư.)</p>
+    </div>
+
+    <div id="section_g">
+        <p>g. No + danh từ số ít (singular noun) $\rightarrow$ động từ chia ở số ít (singular verb)</p>
+        <p>No + danh từ số nhiều (plural noun) $\rightarrow$ động từ chia ở số nhiều (plural verb)</p>
+        <p>Ex: <strong>No student is to leave the room.</strong><br>
+            (Không một sinh viên nào được ra khỏi phòng.)</p>
+        <p><strong>No people think alike.</strong> (Không ai suy nghĩ giống ai.)</p>
+    </div>
+
+    <div id="section_h">
+        <h4>h. Trong cụm từ There + be ..., động từ be phải tương hợp với chủ từ thật (real subject) đứng ngay sau nó.</h4>
+        <p>
+            $\boxed{\text{There + be + noun}}$
+        </p>
+        <p>Ex: <strong>There is a lot of noise in the street.</strong> (Có nhiều tiếng ồn ngoài đường.)</p>
+        <p><strong>There were many people in the waiting room.</strong><br>
+            (Có nhiều người trong phòng đợi.)</p>
+    </div>
+	
+    <script>
+        function toggleNav() {
+            var sidebar = document.getElementById("mySidebar");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+
+        // Close sidebar when clicking outside of it
+        document.addEventListener('click', function(event) {
+            var sidebar = document.getElementById("mySidebar");
+            var menuButton = document.querySelector('.menu-button');
+            if (sidebar.style.width === "250px" && !sidebar.contains(event.target) && !menuButton.contains(event.target)) {
+                closeNav();
+            }
+        });
+
+        // Optional: Smooth scrolling for anchor links
+        document.querySelectorAll('.sidebar a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                closeNav(); // Close sidebar after clicking an item
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
