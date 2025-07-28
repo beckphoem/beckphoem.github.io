@@ -1,0 +1,182 @@
+[
+  {
+    "question": "kế toán viên, người làm kế toán.",
+    "classes": "n",
+    "answer": "accountant",
+    "ipa": "/əˈkaʊn.tənt/",
+    "example": "His **accountant**, Jane, walked in.",
+    "english-definition": "someone who keeps or examines the records of money received, paid, and owed by a company or person.",
+    "images": "eew-5-10/1.png"
+  },
+  {
+    "question": "nhà tư bản, người theo chủ nghĩa tư bản.",
+    "classes": "n",
+    "answer": "capitalist",
+    "ipa": "/ˈkæp.ɪ.təl.ɪst/",
+    "example": "Bill was an excellent **capitalist**.",
+    "english-definition": "a person who uses their money to invest in trade and industry for profit in accordance with the principles of capitalism.",
+    "images": "eew-5-10/2.png"
+  },
+  {
+    "question": "sự khinh miệt, sự coi thường.",
+    "classes": "n",
+    "answer": "contempt",
+    "ipa": "/kənˈtempt/",
+    "example": "I have **contempt** toward my job.",
+    "english-definition": "a strong feeling of disrespect for someone or something.",
+    "images": "eew-5-10/3.png"
+  },
+  {
+    "question": "cống hiến, dành trọn (thời gian, công sức).",
+    "classes": "v",
+    "answer": "dedicate",
+    "ipa": "/ˈded.ɪ.keɪt/",
+    "example": "Bill **dedicated** himself to farming.",
+    "english-definition": "to give all of your energy, time, etc.",
+    "images": "eew-5-10/4.png"
+  },
+  {
+    "question": "con mương, rãnh nước.",
+    "classes": "n",
+    "answer": "ditch",
+    "ipa": "/dɪtʃ/",
+    "example": "He took his spade and dug a **ditch** down the middle of his farm.",
+    "english-definition": "a long, narrow open channel dug in the ground, typically used for drainage or irrigation.",
+    "images": "eew-5-10/5.png"
+  },
+  {
+    "question": "doanh nghiệp, công ty; công trình kinh doanh.",
+    "classes": "n",
+    "answer": "enterprise",
+    "ipa": "/ˈen.tə.praɪz/",
+    "example": "He financed a large aviation **enterprise** that made a lot of money.",
+    "english-definition": "an organization, especially a business, or a difficult and important plan, especially one that will earn money.",
+    "images": "eew-5-10/6.png"
+  },
+  {
+    "question": "tuyệt đẹp, tinh xảo, tinh tế.",
+    "classes": "adj",
+    "answer": "exquisite",
+    "ipa": "/ɪkˈskwɪz.ɪt/",
+    "example": "After a year, his farm looked **exquisite**.",
+    "english-definition": "extremely beautiful and delicate.",
+    "images": "eew-5-10/7.png"
+  },
+  {
+    "question": "cấp vốn, tài trợ.",
+    "classes": "v",
+    "answer": "finance",
+    "ipa": "/ˈfaɪ.næns/",
+    "example": "He **financed** a large aviation enterprise that made a lot of money.",
+    "english-definition": "to provide the money needed for something to happen.",
+    "images": "eew-5-10/8.png"
+  },
+  {
+    "question": "thờ ơ, lãnh đạm, không quan tâm.",
+    "classes": "adj",
+    "answer": "indifferent",
+    "ipa": "/ɪnˈdɪf.ər.ənt/",
+    "example": "I’m **indifferent** about my company’s success.",
+    "english-definition": "not thinking about or interested in someone or something.",
+    "images": "eew-5-10/9.png"
+  },
+  {
+    "question": "tưới (nước cho cây trồng).",
+    "classes": "v",
+    "answer": "irrigate",
+    "ipa": "/ˈɪr.ɪ.ɡeɪt/",
+    "example": "“I need to **irrigate** my crops as a precaution, in case it doesn’t rain enough.”",
+    "english-definition": "to supply land with water so that crops and plants will grow.",
+    "images": "eew-5-10/10.png"
+  },
+  {
+    "question": "tối đa hóa.",
+    "classes": "v",
+    "answer": "maximize",
+    "ipa": "/ˈmæk.sɪ.maɪz/",
+    "example": "He knew how to **maximize** monetary gains in every business deal he made.",
+    "english-definition": "to make something as great in amount, size, or importance as possible.",
+    "images": "eew-5-10/11.png"
+  },
+  {
+    "question": "(thuộc về) tiền tệ, tài chính.",
+    "classes": "adj",
+    "answer": "monetary",
+    "ipa": "/ˈmʌn.ɪ.tər.i/",
+    "example": "He knew how to maximize **monetary** gains in every business deal he made.",
+    "english-definition": "relating to the money in a country.",
+    "images": "eew-5-10/12.png"
+  },
+  {
+    "question": "sự phòng ngừa, sự đề phòng.",
+    "classes": "n",
+    "answer": "precaution",
+    "ipa": "/prɪˈkɔː.ʃən/",
+    "example": "“I need to irrigate my crops as a **precaution**, in case it doesn’t rain enough.”",
+    "english-definition": "an action that is done to prevent something unpleasant or dangerous from happening.",
+    "images": "eew-5-10/13.png"
+  },
+  {
+    "question": "sơ bộ, mở đầu, chuẩn bị.",
+    "classes": "adj",
+    "answer": "preliminary",
+    "ipa": "/prɪˈlɪm.ɪ.nər.i/",
+    "example": "The very next day, Bill carried out the **preliminary** task of buying land and tools.",
+    "english-definition": "coming before a more important action or event, especially preparing for it.",
+    "images": "eew-5-10/14.png"
+  },
+  {
+    "question": "làm cho bão hòa, làm cho thấm đẫm.",
+    "classes": "v",
+    "answer": "saturate",
+    "ipa": "/ˈsætʃ.ər.eɪt/",
+    "example": "“Water from the stream will flow down the ditch and **saturate** the soil around every plant,” Bill thought.",
+    "english-definition": "to make something or someone completely wet.",
+    "images": "eew-5-10/15.png"
+  },
+  {
+    "question": "sự đơn giản, sự giản dị.",
+    "classes": "n",
+    "answer": "simplicity",
+    "ipa": "/sɪmˈplɪs.ə.ti/",
+    "example": "“I want the **simplicity** of a life on a farm.",
+    "english-definition": "the fact that something is easy to understand or do.",
+    "images": "eew-5-10/16.png"
+  },
+  {
+    "question": "gieo, rắc (hạt).",
+    "classes": "v",
+    "answer": "sow",
+    "ipa": "/səʊ/",
+    "example": "He **sowed** many types of seeds.",
+    "english-definition": "to put seeds in or on the ground so that plants will grow.",
+    "images": "eew-5-10/17.png"
+  },
+  {
+    "question": "đậu nành, đậu tương.",
+    "classes": "n",
+    "answer": "soy",
+    "ipa": "/sɔɪ/",
+    "example": "He planted **soy**, cabbage, carrots, and onions.",
+    "english-definition": "a type of bean, originally from Asia, that is used to make a variety of food products.",
+    "images": "eew-5-10/18.png"
+  },
+  {
+    "question": "cái xẻng (vuông).",
+    "classes": "n",
+    "answer": "spade",
+    "ipa": "/speɪd/",
+    "example": "He took his **spade** and dug a ditch down the middle of his farm.",
+    "english-definition": "a tool used for digging, especially one with a flat metal blade and a long handle.",
+    "images": "eew-5-10/19.png"
+  },
+  {
+    "question": "sắp tới, sắp diễn ra.",
+    "classes": "adj",
+    "answer": "upcoming",
+    "ipa": "/ˌʌpˈkʌm.ɪŋ/",
+    "example": "“The **upcoming** summer is going to be very dry,” thought Bill.",
+    "english-definition": "happening soon.",
+    "images": "eew-5-10/20.png"
+  }
+]

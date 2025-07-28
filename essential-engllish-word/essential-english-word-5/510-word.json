@@ -1,0 +1,882 @@
+[
+  {
+    "word": "accountant",
+    "ipa": "/əˈkaʊn.tənt/",
+    "meaning": "kế toán viên, người làm kế toán.",
+    "image": "eew-5-10/1.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "someone who keeps or examines the records of money received, paid, and owed by a company or person.",
+        "meaning-example": "kế toán viên, người làm kế toán.",
+        "ipa-example": "/ˈsʌm.wʌn huː kiːps ɔːr ɪɡˈzæm.ɪnz ðə ˈrek.ɔːdz əv ˈmʌn.i rɪˈsiːvd, peɪd, ænd əʊd baɪ ə ˈkʌm.pə.ni ɔːr ˈpɜː.sən./"
+      },
+      {
+        "sentence": "His **accountant**, Jane, walked in.",
+        "meaning-example": "Kế toán viên của anh ấy, Jane, bước vào.",
+        "ipa-example": "/hɪz əˈkaʊn.tənt, dʒeɪn, wɔːkt ɪn./"
+      },
+      {
+        "sentence": "My **accountant** helps me with my taxes.",
+        "meaning-example": "Kế toán của tôi giúp tôi làm thuế.",
+        "ipa-example": "/maɪ əˈkaʊn.tənt helps mi wɪð maɪ tæks.ɪz./"
+      },
+      {
+        "sentence": "She is studying to become an **accountant**.",
+        "meaning-example": "Cô ấy đang học để trở thành một kế toán viên.",
+        "ipa-example": "/ʃiː ɪz ˈstʌd.i.ɪŋ tuː bɪˈkʌm ən əˈkaʊn.tənt./"
+      },
+      {
+        "sentence": "The company hired a new **accountant**.",
+        "meaning-example": "Công ty đã thuê một kế toán viên mới.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni haɪəd ə nuː əˈkaʊn.tənt./"
+      },
+      {
+        "sentence": "You should talk to an **accountant** for financial advice.",
+        "meaning-example": "Bạn nên nói chuyện với một kế toán viên để được tư vấn tài chính.",
+        "ipa-example": "/juː ʃʊd tɔːk tuː ən əˈkaʊn.tənt fɔːr faɪˈnæn.ʃəl ədˈvaɪs./"
+      },
+      {
+        "sentence": "An **accountant** checks the company's money.",
+        "meaning-example": "Một kế toán viên kiểm tra tiền của công ty.",
+        "ipa-example": "/æn əˈkaʊn.tənt tʃeks ðə ˈkʌm.pə.niz ˈmʌn.i./"
+      }
+    ]
+  },
+  {
+    "word": "capitalist",
+    "ipa": "/ˈkæp.ɪ.təl.ɪst/",
+    "meaning": "nhà tư bản, người theo chủ nghĩa tư bản.",
+    "image": "eew-5-10/2.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a person who uses their money to invest in trade and industry for profit in accordance with the principles of capitalism.",
+        "meaning-example": "nhà tư bản, người theo chủ nghĩa tư bản.",
+        "ipa-example": "/ə ˈpɜː.sən huː ˈjuːz.ɪz ðeər ˈmʌn.i tuː ɪnˈvest ɪn treɪd ænd ˈɪn.də.stri fɔːr ˈprɒf.ɪt ɪn əˈkɔː.dəns wɪð ðə ˈprɪn.sə.pəlz əv ˈkæp.ɪ.tə.lɪ.zəm./"
+      },
+      {
+        "sentence": "Bill was an excellent **capitalist**.",
+        "meaning-example": "Bill là một nhà tư bản xuất sắc.",
+        "ipa-example": "/bɪl wɒz æn ˈek.sə.lənt ˈkæp.ɪ.tə.lɪst./"
+      },
+      {
+        "sentence": "He is a rich **capitalist** who owns many businesses.",
+        "meaning-example": "Ông ấy là một nhà tư bản giàu có sở hữu nhiều doanh nghiệp.",
+        "ipa-example": "/hiː ɪz ə rɪtʃ ˈkæp.ɪ.tə.lɪst huː əʊnz ˈmen.i ˈbɪz.nɪs.ɪz./"
+      },
+      {
+        "sentence": "A **capitalist** invests money to make more money.",
+        "meaning-example": "Một nhà tư bản đầu tư tiền để kiếm thêm tiền.",
+        "ipa-example": "/ə ˈkæp.ɪ.tə.lɪst ɪnˈvests ˈmʌn.i tuː meɪk mɔːr ˈmʌn.i./"
+      },
+      {
+        "sentence": "The country's economy is run by **capitalists**.",
+        "meaning-example": "Nền kinh tế của đất nước được điều hành bởi các nhà tư bản.",
+        "ipa-example": "/ðə ˈkʌn.triz ɪˈkɒn.ə.mi ɪz rʌn baɪ ˈkæp.ɪ.tə.lɪsts./"
+      },
+      {
+        "sentence": "The book is a critique of the **capitalist** system.",
+        "meaning-example": "Cuốn sách là một sự phê phán hệ thống tư bản.",
+        "ipa-example": "/ðə bʊk ɪz ə krɪˈtiːk əv ðə ˈkæp.ɪ.tə.lɪst ˈsɪs.təm./"
+      },
+      {
+        "sentence": "She is a firm believer in the **capitalist** way of life.",
+        "meaning-example": "Cô ấy là một người tin tưởng vững chắc vào lối sống tư bản.",
+        "ipa-example": "/ʃiː ɪz ə fɜːm bɪˈliː.vər ɪn ðə ˈkæp.ɪ.tə.lɪst weɪ əv laɪf./"
+      }
+    ]
+  },
+  {
+    "word": "contempt",
+    "ipa": "/kənˈtempt/",
+    "meaning": "sự khinh miệt, sự coi thường.",
+    "image": "eew-5-10/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a strong feeling of disrespect for someone or something.",
+        "meaning-example": "sự khinh miệt, sự coi thường.",
+        "ipa-example": "/ə strɒŋ ˈfiː.lɪŋ əv ˌdɪs.rɪˈspekt fɔːr ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "I have **contempt** toward my job.",
+        "meaning-example": "Tôi cảm thấy khinh miệt công việc của mình.",
+        "ipa-example": "/aɪ hæv kənˈtempt təˈwɔːrd maɪ dʒɒb./"
+      },
+      {
+        "sentence": "He looked at me with **contempt**.",
+        "meaning-example": "Anh ta nhìn tôi với vẻ khinh miệt.",
+        "ipa-example": "/hiː lʊkt æt mi wɪð kənˈtempt./"
+      },
+      {
+        "sentence": "She feels nothing but **contempt** for them.",
+        "meaning-example": "Cô ấy không cảm thấy gì ngoài sự khinh miệt đối với họ.",
+        "ipa-example": "/ʃiː fiːlz ˈnʌθ.ɪŋ bʌt kənˈtempt fɔːr ðem./"
+      },
+      {
+        "sentence": "He has a deep **contempt** for dishonest people.",
+        "meaning-example": "Anh ta có sự khinh miệt sâu sắc đối với những người không trung thực.",
+        "ipa-example": "/hiː hæz ə diːp kənˈtempt fɔːr dɪsˈɒn.ɪst ˈpiː.pl̩./"
+      },
+      {
+        "sentence": "Her voice was full of **contempt**.",
+        "meaning-example": "Giọng cô ấy đầy vẻ khinh miệt.",
+        "ipa-example": "/hɜːr vɔɪs wɒz fʊl əv kənˈtempt./"
+      },
+      {
+        "sentence": "Treating people with **contempt** is wrong.",
+        "meaning-example": "Đối xử với mọi người một cách khinh miệt là sai.",
+        "ipa-example": "/ˈtriːt.ɪŋ ˈpiː.pl̩ wɪð kənˈtempt ɪz rɒŋ./"
+      }
+    ]
+  },
+  {
+    "word": "dedicate",
+    "ipa": "/ˈded.ɪ.keɪt/",
+    "meaning": "cống hiến, dành trọn (thời gian, công sức).",
+    "image": "eew-5-10/4.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to give all of your energy, time, etc.",
+        "meaning-example": "cống hiến, dành trọn (thời gian, công sức).",
+        "ipa-example": "/tuː ɡɪv ɔːl əv jɔːr ˈen.ə.dʒi, taɪm, etˈset.ərə./"
+      },
+      {
+        "sentence": "Bill **dedicated** himself to farming.",
+        "meaning-example": "Bill đã cống hiến hết mình cho công việc nông nghiệp.",
+        "ipa-example": "/bɪl ˈded.ɪ.keɪtɪd hɪmˈself tuː ˈfɑːr.mɪŋ./"
+      },
+      {
+        "sentence": "She **dedicated** her life to helping the poor.",
+        "meaning-example": "Cô ấy đã cống hiến cuộc đời mình để giúp đỡ người nghèo.",
+        "ipa-example": "/ʃiː ˈded.ɪ.keɪtɪd hɜːr laɪf tuː ˈhelp.ɪŋ ðə pʊər./"
+      },
+      {
+        "sentence": "He **dedicated** the book to his parents.",
+        "meaning-example": "Anh ấy đã dành tặng cuốn sách cho cha mẹ mình.",
+        "ipa-example": "/hiː ˈded.ɪ.keɪtɪd ðə bʊk tuː hɪz ˈpeə.rənts./"
+      },
+      {
+        "sentence": "You need to **dedicate** more time to your studies.",
+        "meaning-example": "Bạn cần dành nhiều thời gian hơn cho việc học của mình.",
+        "ipa-example": "/juː niːd tuː ˈded.ɪ.keɪt mɔːr taɪm tuː jɔːr ˈstʌd.iz./"
+      },
+      {
+        "sentence": "The doctor **dedicated** himself to finding a cure.",
+        "meaning-example": "Bác sĩ đã cống hiến hết mình để tìm ra phương pháp chữa trị.",
+        "ipa-example": "/ðə ˈdɒk.tər ˈded.ɪ.keɪtɪd hɪmˈself tuː ˈfaɪn.dɪŋ ə kjʊər./"
+      },
+      {
+        "sentence": "They **dedicated** a new park to the city's founder.",
+        "meaning-example": "Họ đã dành tặng một công viên mới cho người sáng lập thành phố.",
+        "ipa-example": "/ðeɪ ˈded.ɪ.keɪtɪd ə nuː pɑːrk tuː ðə ˈsɪt.iz ˈfaʊn.dər./"
+      }
+    ]
+  },
+  {
+    "word": "ditch",
+    "ipa": "/dɪtʃ/",
+    "meaning": "con mương, rãnh nước.",
+    "image": "eew-5-10/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a long, narrow open channel dug in the ground, typically used for drainage or irrigation.",
+        "meaning-example": "con mương, rãnh nước.",
+        "ipa-example": "/ə lɒŋ, ˈnær.əʊ ˈəʊ.pən ˈtʃæn.əl dʌɡ ɪn ðə ɡraʊnd, ˈtɪp.ɪ.kəl.i juːzd fɔːr ˈdreɪ.nɪdʒ ɔːr ˌɪr.ɪˈɡeɪ.ʃən./"
+      },
+      {
+        "sentence": "He took his spade and dug a **ditch** down the middle of his farm.",
+        "meaning-example": "Anh ấy cầm cái xẻng của mình và đào một con mương ở giữa trang trại của mình.",
+        "ipa-example": "/hiː tʊk hɪz speɪd ænd dʌɡ ə dɪtʃ daʊn ðə ˈmɪd.l̩ əv hɪz fɑːrm./"
+      },
+      {
+        "sentence": "There is a **ditch** along the side of the road.",
+        "meaning-example": "Có một con mương dọc theo lề đường.",
+        "ipa-example": "/ðeər ɪz ə dɪtʃ əˈlɒŋ ðə saɪd əv ðə rəʊd./"
+      },
+      {
+        "sentence": "The car fell into a **ditch**.",
+        "meaning-example": "Chiếc xe đã rơi xuống mương.",
+        "ipa-example": "/ðə kɑːr fel ˈɪn.tuː ə dɪtʃ./"
+      },
+      {
+        "sentence": "They are digging a **ditch** to lay a new pipe.",
+        "meaning-example": "Họ đang đào một con mương để đặt một đường ống mới.",
+        "ipa-example": "/ðeɪ ɑːr ˈdɪɡ.ɪŋ ə dɪtʃ tuː leɪ ə nuː paɪp./"
+      },
+      {
+        "sentence": "The field is full of water because the **ditch** is blocked",
+        "meaning-example": "Cánh đồng đầy nước vì con mương bị tắc.",
+        "ipa-example": "/ðə fiːld ɪz fʊl əv ˈwɔː.tər bɪˈkɒz ðə dɪtʃ ɪz blɒkt./"
+      },
+      {
+        "sentence": "A small frog was sitting in the **ditch**.",
+        "meaning-example": "Một con ếch nhỏ đang ngồi trong mương.",
+        "ipa-example": "/ə smɔːl frɒɡ wɒz ˈsɪt.ɪŋ ɪn ðə dɪtʃ./"
+      }
+    ]
+  },
+  {
+    "word": "enterprise",
+    "ipa": "/ˈen.tə.praɪz/",
+    "meaning": "doanh nghiệp, công ty; công trình kinh doanh.",
+    "image": "eew-5-10/6.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "an organization, especially a business, or a difficult and important plan, especially one that will earn money.",
+        "meaning-example": "doanh nghiệp, công ty; công trình kinh doanh.",
+        "ipa-example": "/æn ˌɔː.ɡən.aɪˈzeɪ.ʃən, ɪˈspeʃ.əl.i ə ˈbɪz.nɪs, ɔːr ə ˈdɪf.ɪ.kəlt ænd ɪmˈpɔː.tənt plæn, ɪˈspeʃ.əl.i wʌn ðæt wɪl ɜːn ˈmʌn.i./"
+      },
+      {
+        "sentence": "He financed a large aviation **enterprise** that made a lot of money.",
+        "meaning-example": "Ông ấy đã tài trợ cho một doanh nghiệp hàng không lớn và kiếm được rất nhiều tiền.",
+        "ipa-example": "/hiː ˈfaɪ.nænst ə lɑːrdʒ ˌeɪ.viˈeɪ.ʃən ˈen.tə.praɪz ðæt meɪd ə lɒt əv ˈmʌn.i./"
+      },
+      {
+        "sentence": "His new **enterprise** was very successful.",
+        "meaning-example": "Doanh nghiệp mới của ông ấy rất thành công.",
+        "ipa-example": "/hɪz nuː ˈen.tə.praɪz wɒz ˈver.i səkˈses.fʊl./"
+      },
+      {
+        "sentence": "She is the head of a large commercial **enterprise**.",
+        "meaning-example": "Cô ấy là người đứng đầu một doanh nghiệp thương mại lớn.",
+        "ipa-example": "/ʃiː ɪz ðə hed əv ə lɑːrdʒ kəˈmɜː.ʃəl ˈen.tə.praɪz./"
+      },
+      {
+        "sentence": "Starting a new business is a risky **enterprise**.",
+        "meaning-example": "Khởi nghiệp là một công việc kinh doanh mạo hiểm.",
+        "ipa-example": "/ˈstɑːrt.ɪŋ ə nuː ˈbɪz.nɪs ɪz ə ˈrɪs.ki ˈen.tə.praɪz./"
+      },
+      {
+        "sentence": "The government supports small and medium-sized **enterprises**.",
+        "meaning-example": "Chính phủ hỗ trợ các doanh nghiệp vừa và nhỏ.",
+        "ipa-example": "/ðə ˈɡʌv.ərn.mənt səˈpɔːrts smɔːl ænd ˈmiː.di.əm-saɪzd ˈen.tə.praɪz.ɪz./"
+      },
+      {
+        "sentence": "The new shopping mall is a joint **enterprise** between two companies.",
+        "meaning-example": "Trung tâm mua sắm mới là một liên doanh giữa hai công ty.",
+        "ipa-example": "/ðə nuː ˈʃɒp.ɪŋ mɔːl ɪz ə dʒɔɪnt ˈen.tə.praɪz bɪˈtwiːn tuː ˈkʌm.pə.niz./"
+      }
+    ]
+  },
+  {
+    "word": "exquisite",
+    "ipa": "/ˈek.skwɪ.zɪt/",
+    "meaning": "tinh tế, tuyệt đẹp.",
+    "image": "eew-5-10/7.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "extremely beautiful and delicate.",
+        "meaning-example": "tinh tế, tuyệt đẹp.",
+        "ipa-example": "/ɪkˈstriːm.li ˈbjuː.tɪ.fəl ænd ˈdel.ɪ.kət./"
+      },
+      {
+        "sentence": "After a year, his farm looked **exquisite**.",
+        "meaning-example": "Sau một năm, trang trại của anh ấy trông thật tinh tế.",
+        "ipa-example": "/ˈɑːf.tər ə jɪər, hɪz fɑːrm lʊkt ɪkˈskwɪz.ɪt./"
+      },
+      {
+        "sentence": "She wore an **exquisite** diamond necklace.",
+        "meaning-example": "Cô ấy đeo một chiếc vòng cổ kim cương tuyệt đẹp.",
+        "ipa-example": "/ʃiː wɔːr æn ɪkˈskwɪz.ɪt ˈdaɪ.ə.mənd ˈnek.ləs./"
+      },
+      {
+        "sentence": "The artist painted an **exquisite** portrait.",
+        "meaning-example": "Người nghệ sĩ đã vẽ một bức chân dung tinh xảo.",
+        "ipa-example": "/ðə ˈɑːr.tɪst ˈpeɪn.tɪd æn ɪkˈskwɪz.ɪt ˈpɔːr.trɪt./"
+      },
+      {
+        "sentence": "The meal was prepared with **exquisite** care.",
+        "meaning-example": "Bữa ăn được chuẩn bị với sự cẩn thận tinh tế.",
+        "ipa-example": "/ðə miːl wɒz prɪˈpeəd wɪð ɪkˈskwɪz.ɪt keər./"
+      },
+      {
+        "sentence": "The garden was filled with **exquisite** flowers.",
+        "meaning-example": "Khu vườn tràn ngập những bông hoa tinh tế.",
+        "ipa-example": "/ðə ˈɡɑːr.dən wɒz fɪld wɪð ɪkˈskwɪz.ɪt ˈflaʊ.ərz./"
+      },
+      {
+        "sentence": "Her singing voice was truly **exquisite**.",
+        "meaning-example": "Giọng hát của cô ấy thực sự tuyệt vời.",
+        "ipa-example": "/hɜːr ˈsɪŋ.ɪŋ vɔɪs wɒz ˈtruː.li ɪkˈskwɪz.ɪt./"
+      }
+    ]
+  },
+  {
+    "word": "finance",
+    "ipa": "/ˈfaɪ.næns/",
+    "meaning": "tài chính; cấp vốn, tài trợ.",
+    "image": "eew-5-10/8.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to provide money for a project.",
+        "meaning-example": "tài chính; cấp vốn, tài trợ.",
+        "ipa-example": "/tuː prəˈvaɪd ˈmʌn.i fɔːr ə ˈprɒdʒ.ekt./"
+      },
+      {
+        "sentence": "He **financed** a large aviation enterprise that made a lot of money.",
+        "meaning-example": "Ông ấy đã tài trợ cho một doanh nghiệp hàng không lớn và kiếm được rất nhiều tiền.",
+        "ipa-example": "/hiː ˈfaɪ.nænst ə lɑːrdʒ ˌeɪ.viˈeɪ.ʃən ˈen.tə.praɪz ðæt meɪd ə lɒt əv ˈmʌn.i./"
+      },
+      {
+        "sentence": "The project will be **financed** by the government.",
+        "meaning-example": "Dự án sẽ được chính phủ tài trợ.",
+        "ipa-example": "/ðə ˈprɒdʒ.ekt wɪl bi ˈfaɪ.nænst baɪ ðə ˈɡʌv.ərn.mənt./"
+      },
+      {
+        "sentence": "How do you plan to **finance** your education?",
+        "meaning-example": "Bạn dự định tài trợ cho việc học của mình như thế nào?",
+        "ipa-example": "/haʊ duː juː plæn tuː ˈfaɪ.næns jɔːr ˌedʒ.uˈkeɪ.ʃən?/"
+      },
+      {
+        "sentence": "They need to find a way to **finance** the new building.",
+        "meaning-example": "Họ cần tìm cách tài trợ cho tòa nhà mới.",
+        "ipa-example": "/ðeɪ niːd tuː faɪnd ə weɪ tuː ˈfaɪ.næns ðə nuː ˈbɪl.dɪŋ./"
+      },
+      {
+        "sentence": "The company decided to **finance** the expansion through a loan.",
+        "meaning-example": "Công ty đã quyết định tài trợ cho việc mở rộng thông qua một khoản vay.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni dɪˈsaɪdɪd tuː ˈfaɪ.næns ðə ɪkˈspæn.ʃən θruː ə ləʊn./"
+      },
+      {
+        "sentence": "He is an expert in corporate **finance**.",
+        "meaning-example": "Anh ấy là một chuyên gia về tài chính doanh nghiệp.",
+        "ipa-example": "/hiː ɪz æn ˈek.spɜːt ɪn ˈkɔː.pər.ət ˈfaɪ.næns./"
+      }
+    ]
+  },
+  {
+    "word": "indifferent",
+    "ipa": "/ɪnˈdɪf.ər.ənt/",
+    "meaning": "thờ ơ, lãnh đạm.",
+    "image": "eew-5-10/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "not interested in something or someone, or not caring about something or someone.",
+        "meaning-example": "thờ ơ, lãnh đạm.",
+        "ipa-example": "/nɒt ˈɪn.trəst.ɪd ɪn ˈsʌm.θɪŋ ɔːr ˈsʌm.wʌn, ɔːr nɒt ˈkeər.ɪŋ əˈbaʊt ˈsʌm.θɪŋ ɔːr ˈsʌm.wʌn./"
+      },
+      {
+        "sentence": "I’m **indifferent** about my company’s success.",
+        "meaning-example": "Tôi thờ ơ về sự thành công của công ty mình.",
+        "ipa-example": "/aɪm ɪnˈdɪf.ər.ənt əˈbaʊt maɪ ˈkʌm.pə.niz səkˈses./"
+      },
+      {
+        "sentence": "She was **indifferent** to his suffering.",
+        "meaning-example": "Cô ấy thờ ơ trước nỗi đau khổ của anh ấy.",
+        "ipa-example": "/ʃiː wɒz ɪnˈdɪf.ər.ənt tuː hɪz ˈsʌf.ər.ɪŋ./"
+      },
+      {
+        "sentence": "He seems **indifferent** to criticism.",
+        "meaning-example": "Anh ấy có vẻ thờ ơ với những lời chỉ trích.",
+        "ipa-example": "/hiː siːmz ɪnˈdɪf.ər.ənt tuː ˈkrɪt.ɪ.sɪ.zəm./"
+      },
+      {
+        "sentence": "The public remains largely **indifferent** to the issue.",
+        "meaning-example": "Công chúng vẫn phần lớn thờ ơ với vấn đề này.",
+        "ipa-example": "/ðə ˈpʌb.lɪk rɪˈmeɪnz ˈlɑːrdʒ.li ɪnˈdɪf.ər.ənt tuː ðə ˈɪʃ.uː./"
+      },
+      {
+        "sentence": "Being **indifferent** to the outcome can be a strength.",
+        "meaning-example": "Thờ ơ với kết quả có thể là một thế mạnh.",
+        "ipa-example": "/ˈbiː.ɪŋ ɪnˈdɪf.ər.ənt tuː ðə ˈaʊt.kʌm kæn biː ə streŋθ./"
+      },
+      {
+        "sentence": "He was **indifferent** to what others thought of him.",
+        "meaning-example": "Anh ấy thờ ơ với những gì người khác nghĩ về mình.",
+        "ipa-example": "/hiː wɒz ɪnˈdɪf.ər.ənt tuː wɒt ˈʌð.ərz θɔːt əv hɪm./"
+      }
+    ]
+  },
+  {
+    "word": "irrigate",
+    "ipa": "/ˈɪr.ɪ.ɡeɪt/",
+    "meaning": "tưới (đất, cây trồng).",
+    "image": "eew-5-10/10.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to supply land with water so that crops can grow.",
+        "meaning-example": "tưới (đất, cây trồng).",
+        "ipa-example": "/tuː səˈplaɪ lænd wɪð ˈwɔː.tər səʊ ðæt krɒps kæn ɡrəʊ./"
+      },
+      {
+        "sentence": "I need to **irrigate** my crops as a **precaution**, in case it doesn’t rain enough.",
+        "meaning-example": "Tôi cần tưới tiêu cho cây trồng của mình như một biện pháp phòng ngừa, đề phòng trường hợp trời không mưa đủ.",
+        "ipa-example": "/aɪ niːd tuː ˈɪr.ɪ.ɡeɪt maɪ krɒps æz ə prɪˈkɔː.ʃən, ɪn keɪs ɪt ˈdʌz.ənt reɪn ɪˈnʌf./"
+      },
+      {
+        "sentence": "Farmers **irrigate** their fields using water from the river.",
+        "meaning-example": "Nông dân tưới tiêu ruộng đồng bằng nước sông.",
+        "ipa-example": "/ˈfɑːr.mərz ˈɪr.ɪ.ɡeɪt ðeər fiːldz ˈjuːz.ɪŋ ˈwɔː.tər frɒm ðə ˈrɪv.ər./"
+      },
+      {
+        "sentence": "The new system will **irrigate** over 200 acres of land.",
+        "meaning-example": "Hệ thống mới sẽ tưới tiêu hơn 200 mẫu đất.",
+        "ipa-example": "/ðə nuː ˈsɪs.təm wɪl ˈɪr.ɪ.ɡeɪt ˈəʊ.vər tuː ˈhʌn.drəd ˈeɪ.kərz əv lænd./"
+      },
+      {
+        "sentence": "They had to **irrigate** the dry land.",
+        "meaning-example": "Họ phải tưới tiêu vùng đất khô hạn.",
+        "ipa-example": "/ðeɪ hæd tuː ˈɪr.ɪ.ɡeɪt ðə draɪ lænd./"
+      },
+      {
+        "sentence": "The ancient Egyptians developed sophisticated ways to **irrigate** their crops.",
+        "meaning-example": "Người Ai Cập cổ đại đã phát triển những cách tinh vi để tưới tiêu cây trồng của họ.",
+        "ipa-example": "/ði ˈeɪn.ʃənt ɪˈdʒɪp.ʃənz dɪˈvel.əpt səˈfɪs.tɪ.keɪtɪd weɪz tuː ˈɪr.ɪ.ɡeɪt ðeər krɒps./"
+      },
+      {
+        "sentence": "Properly **irrigating** plants is essential for their growth.",
+        "meaning-example": "Tưới nước đúng cách cho cây là điều cần thiết cho sự phát triển của chúng.",
+        "ipa-example": "/ˈprɒp.ər.li ˈɪr.ɪ.ɡeɪtɪŋ plɑːnts ɪz ɪˈsen.ʃəl fɔːr ðeər ɡrəʊθ./"
+      }
+    ]
+  },
+  {
+    "word": "maximize",
+    "ipa": "/ˈmæk.sɪ.maɪz/",
+    "meaning": "tối đa hóa.",
+    "image": "eew-5-10/11.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to make something as great in amount, size, or importance as possible.",
+        "meaning-example": "tối đa hóa.",
+        "ipa-example": "/tuː meɪk ˈsʌm.θɪŋ æz ɡreɪt ɪn əˈmaʊnt, saɪz, ɔːr ɪmˈpɔː.təns æz ˈpɒs.ə.bl̩./"
+      },
+      {
+        "sentence": "He knew how to **maximize** **monetary** gains in every business deal he made.",
+        "meaning-example": "Anh ấy biết cách tối đa hóa lợi nhuận tiền tệ trong mọi giao dịch kinh doanh mà anh ấy thực hiện.",
+        "ipa-example": "/hiː njuː haʊ tuː ˈmæk.sɪ.maɪz ˈmʌn.ɪ.tər.i ɡeɪnz ɪn ˈev.ri ˈbɪz.nɪs diːl hiː meɪd./"
+      },
+      {
+        "sentence": "We need to **maximize** our profits.",
+        "meaning-example": "Chúng ta cần tối đa hóa lợi nhuận của mình.",
+        "ipa-example": "/wiː niːd tuː ˈmæk.sɪ.maɪz aʊər ˈprɒf.ɪts./"
+      },
+      {
+        "sentence": "The goal is to **maximize** efficiency.",
+        "meaning-example": "Mục tiêu là tối đa hóa hiệu quả.",
+        "ipa-example": "/ðə ɡəʊl ɪz tuː ˈmæk.sɪ.maɪz ɪˈfɪʃ.ən.si./"
+      },
+      {
+        "sentence": "She tried to **maximize** her chances of success.",
+        "meaning-example": "Cô ấy đã cố gắng tối đa hóa cơ hội thành công của mình.",
+        "ipa-example": "/ʃiː traɪd tuː ˈmæk.sɪ.maɪz hɜːr tʃɑːns.ɪz əv səkˈses./"
+      },
+      {
+        "sentence": "How can we **maximize** the use of our resources?",
+        "meaning-example": "Làm thế nào chúng ta có thể tối đa hóa việc sử dụng tài nguyên của mình?",
+        "ipa-example": "/haʊ kæn wiː ˈmæk.sɪ.maɪz ðə juːs əv aʊər rɪˈsɔːr.sɪz?/"
+      },
+      {
+        "sentence": "He wants to **maximize** his free time.",
+        "meaning-example": "Anh ấy muốn tối đa hóa thời gian rảnh của mình.",
+        "ipa-example": "/hiː wɒnts tuː ˈmæk.sɪ.maɪz hɪz friː taɪm./"
+      }
+    ]
+  },
+  {
+    "word": "monetary",
+    "ipa": "/ˈmʌn.ɪ.tər.i/",
+    "meaning": "thuộc tiền tệ, liên quan đến tiền bạc.",
+    "image": "eew-5-10/12.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "relating to money or currency.",
+        "meaning-example": "thuộc tiền tệ, liên quan đến tiền bạc.",
+        "ipa-example": "/rɪˈleɪt.ɪŋ tuː ˈmʌn.i ɔːr ˈkʌr.ən.si./"
+      },
+      {
+        "sentence": "He knew how to maximize **monetary** gains in every business deal he made.",
+        "meaning-example": "Anh ấy biết cách tối đa hóa lợi nhuận tiền tệ trong mọi giao dịch kinh doanh mà anh ấy thực hiện.",
+        "ipa-example": "/hiː njuː haʊ tuː ˈmæk.sɪ.maɪz ˈmʌn.ɪ.tər.i ɡeɪnz ɪn ˈev.ri ˈbɪz.nɪs diːl hiː meɪd./"
+      },
+      {
+        "sentence": "The country is facing **monetary** problems.",
+        "meaning-example": "Đất nước đang đối mặt với các vấn đề tiền tệ.",
+        "ipa-example": "/ðə ˈkʌn.tri ɪz ˈfeɪs.ɪŋ ˈmʌn.ɪ.tər.i ˈprɒb.ləmz./"
+      },
+      {
+        "sentence": "He received a **monetary** reward for his efforts.",
+        "meaning-example": "Anh ấy đã nhận được một phần thưởng bằng tiền cho những nỗ lực của mình.",
+        "ipa-example": "/hiː rɪˈsiːvd ə ˈmʌn.ɪ.tər.i rɪˈwɔːrd fɔːr hɪz ˈef.ərts./"
+      },
+      {
+        "sentence": "The central bank controls **monetary** policy.",
+        "meaning-example": "Ngân hàng trung ương kiểm soát chính sách tiền tệ.",
+        "ipa-example": "/ðə ˈsen.trəl bæŋk kənˈtrəʊlz ˈmʌn.ɪ.tər.i ˈpɒl.ɪ.si./"
+      },
+      {
+        "sentence": "They are concerned about the **monetary** stability of the region.",
+        "meaning-example": "Họ lo ngại về sự ổn định tiền tệ của khu vực.",
+        "ipa-example": "/ðeɪ ɑːr kənˈsɜːrnd əˈbaʊt ðə ˈmʌn.ɪ.tər.i stəˈbɪl.ə.ti əv ðə ˈriː.dʒən./"
+      },
+      {
+        "sentence": "He made significant **monetary** contributions to the charity.",
+        "meaning-example": "Anh ấy đã đóng góp tiền đáng kể cho quỹ từ thiện.",
+        "ipa-example": "/hiː meɪd sɪɡˈnɪf.ɪ.kənt ˈmʌn.ɪ.tər.i ˌkɒn.trɪˈbjuː.ʃənz tuː ðə ˈtʃær.ɪ.ti./"
+      }
+    ]
+  },
+  {
+    "word": "precaution",
+    "ipa": "/prɪˈkɔː.ʃən/",
+    "meaning": "sự phòng ngừa, sự đề phòng.",
+    "image": "eew-5-10/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "an action that is taken to prevent something unpleasant or dangerous from happening.",
+        "meaning-example": "sự phòng ngừa, sự đề phòng.",
+        "ipa-example": "/æn ˈæk.ʃən ðæt ɪz ˈteɪ.kən tuː prɪˈvent ˈsʌm.θɪŋ ʌnˈplez.ənt ɔːr ˈdeɪn.dʒər.əs frɒm ˈhæp.ən.ɪŋ./"
+      },
+      {
+        "sentence": "I need to irrigate my crops as a **precaution**, in case it doesn’t rain enough.",
+        "meaning-example": "Tôi cần tưới tiêu cho cây trồng của mình như một biện pháp phòng ngừa, đề phòng trường hợp trời không mưa đủ.",
+        "ipa-example": "/aɪ niːd tuː ˈɪr.ɪ.ɡeɪt maɪ krɒps æz ə prɪˈkɔː.ʃən, ɪn keɪs ɪt ˈdʌz.ənt reɪn ɪˈnʌf./"
+      },
+      {
+        "sentence": "We took every **precaution** to ensure safety.",
+        "meaning-example": "Chúng tôi đã thực hiện mọi biện pháp phòng ngừa để đảm bảo an toàn.",
+        "ipa-example": "/wiː tʊk ˈev.ri prɪˈkɔː.ʃən tuː ɪnˈʃʊər ˈseɪf.ti./"
+      },
+      {
+        "sentence": "Always take **precautions** when working with electricity.",
+        "meaning-example": "Luôn luôn thực hiện các biện pháp phòng ngừa khi làm việc với điện.",
+        "ipa-example": "/ˈɔːl.weɪz teɪk prɪˈkɔː.ʃənz wɛn ˈwɜːr.kɪŋ wɪð ɪˌlekˈtrɪs.ə.ti./"
+      },
+      {
+        "sentence": "As a **precaution**, he locked the door.",
+        "meaning-example": "Để phòng ngừa, anh ấy đã khóa cửa.",
+        "ipa-example": "/æz ə prɪˈkɔː.ʃən, hiː lɒkt ðə dɔːr./"
+      },
+      {
+        "sentence": "Fire safety **precautions** are very important.",
+        "meaning-example": "Các biện pháp phòng ngừa cháy nổ rất quan trọng.",
+        "ipa-example": "/faɪər ˈseɪf.ti prɪˈkɔː.ʃənz ɑːr ˈver.i ɪmˈpɔːr.tənt./"
+      },
+      {
+        "sentence": "They are taking strict **precautions** against the virus.",
+        "meaning-example": "Họ đang thực hiện các biện pháp phòng ngừa nghiêm ngặt chống lại virus.",
+        "ipa-example": "/ðeɪ ɑːr ˈteɪk.ɪŋ strɪkt prɪˈkɔː.ʃənz əˈɡenst ðə ˈvaɪ.rəs./"
+      }
+    ]
+  },
+  {
+    "word": "preliminary",
+    "ipa": "/prɪˈlɪm.ɪ.nər.i/",
+    "meaning": "sơ bộ, ban đầu.",
+    "image": "eew-5-10/14.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "coming before a more important action or event, especially introducing or preparing for it.",
+        "meaning-example": "sơ bộ, ban đầu.",
+        "ipa-example": "/ˈkʌm.ɪŋ bɪˈfɔːr ə mɔːr ɪmˈpɔːr.tənt ˈæk.ʃən ɔːr ɪˈvent, ɪˈspeʃ.əl.i ˌɪn.trəˈduːs.ɪŋ ɔːr prɪˈpeər.ɪŋ fɔːr ɪt./"
+      },
+      {
+        "sentence": "The very next day, Bill carried out the **preliminary** task of buying land and tools.",
+        "meaning-example": "Ngay ngày hôm sau, Bill đã thực hiện nhiệm vụ sơ bộ là mua đất và dụng cụ.",
+        "ipa-example": "/ðə ˈver.i nekst deɪ, bɪl ˈkær.id aʊt ðə prɪˈlɪm.ɪ.nər.i tɑːsk əv ˈbaɪ.ɪŋ lænd ænd tuːlz./"
+      },
+      {
+        "sentence": "The **preliminary** results are promising.",
+        "meaning-example": "Các kết quả sơ bộ rất hứa hẹn.",
+        "ipa-example": "/ðə prɪˈlɪm.ɪ.nər.i rɪˈzʌlts ɑːr ˈprɒm.ɪs.ɪŋ./"
+      },
+      {
+        "sentence": "This is just a **preliminary** discussion.",
+        "meaning-example": "Đây chỉ là một cuộc thảo luận sơ bộ.",
+        "ipa-example": "/ðɪs ɪz dʒʌst ə prɪˈlɪm.ɪ.nər.i dɪˈskʌʃ.ən./"
+      },
+      {
+        "sentence": "He made some **preliminary** sketches.",
+        "meaning-example": "Anh ấy đã phác thảo một số bản vẽ sơ bộ.",
+        "ipa-example": "/hiː meɪd sʌm prɪˈlɪm.ɪ.nər.i ˈsketʃ.ɪz./"
+      },
+      {
+        "sentence": "The police are conducting **preliminary** investigations.",
+        "meaning-example": "Cảnh sát đang tiến hành các cuộc điều tra sơ bộ.",
+        "ipa-example": "/ðə pəˈliːs ɑːr kənˈdʌkt.ɪŋ prɪˈlɪm.ɪ.nər.i ɪnˌves.tɪˈɡeɪ.ʃənz./"
+      },
+      {
+        "sentence": "A **preliminary** report was submitted.",
+        "meaning-example": "Một báo cáo sơ bộ đã được nộp.",
+        "ipa-example": "/ə prɪˈlɪm.ɪ.nər.i rɪˈpɔːrt wɒz səbˈmɪt.ɪd./"
+      }
+    ]
+  },
+  {
+    "word": "saturate",
+    "ipa": "/ˈsætʃ.ə.reɪt/",
+    "meaning": "làm cho bão hòa, làm cho thấm đẫm.",
+    "image": "eew-5-10/15.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to cause something to become completely wet; to fill something until no more can be held.",
+        "meaning-example": "làm cho bão hòa, làm cho thấm đẫm.",
+        "ipa-example": "/tuː kɔːz ˈsʌm.θɪŋ tuː bɪˈkʌm kəmˈpliːt.li wet; tuː fɪl ˈsʌm.θɪŋ ənˈtɪl nəʊ mɔːr kæn biː held./"
+      },
+      {
+        "sentence": "Water from the stream will flow down the **ditch** and **saturate** the soil around every plant,” Bill thought.",
+        "meaning-example": "Nước từ suối sẽ chảy xuống mương và làm bão hòa đất xung quanh mỗi cây,” Bill nghĩ.",
+        "ipa-example": "/ˈwɔː.tər frɒm ðə striːm wɪl fləʊ daʊn ðə dɪtʃ ænd ˈsætʃ.ə.reɪt ðə sɔɪl əˈraʊnd ˈev.ri plɑːnt,” bɪl θɔːt./"
+      },
+      {
+        "sentence": "The heavy rain will **saturate** the ground.",
+        "meaning-example": "Trận mưa lớn sẽ làm mặt đất ngập nước.",
+        "ipa-example": "/ðə ˈhev.i reɪn wɪl ˈsætʃ.ə.reɪt ðə ɡraʊnd./"
+      },
+      {
+        "sentence": "The market is **saturated** with similar products.",
+        "meaning-example": "Thị trường đã bão hòa với các sản phẩm tương tự.",
+        "ipa-example": "/ðə ˈmɑːr.kɪt ɪz ˈsætʃ.ə.reɪtɪd wɪð ˈsɪm.ɪ.lər ˈprɒd.ʌkts./"
+      },
+      {
+        "sentence": "His clothes were **saturated** with sweat.",
+        "meaning-example": "Quần áo của anh ấy ướt đẫm mồ hôi.",
+        "ipa-example": "/hɪz kləʊðz wɜːr ˈsætʃ.ə.reɪtɪd wɪð swet./"
+      },
+      {
+        "sentence": "The sponge was **saturated** with water.",
+        "meaning-example": "Miếng bọt biển đã ngấm đầy nước.",
+        "ipa-example": "/ðə spʌndʒ wɒz ˈsætʃ.ə.reɪtɪd wɪð ˈwɔː.tər./"
+      },
+      {
+        "sentence": "The city was **saturated** with tourists during the festival.",
+        "meaning-example": "Thành phố tràn ngập khách du lịch trong suốt lễ hội.",
+        "ipa-example": "/ðə ˈsɪt.i wɒz ˈsætʃ.ə.reɪtɪd wɪð ˈtʊə.rɪsts ˈdjʊər.ɪŋ ðə ˈfes.tɪ.vəl./"
+      }
+    ]
+  },
+  {
+    "word": "simplicity",
+    "ipa": "/sɪmˈplɪs.ə.ti/",
+    "meaning": "sự đơn giản.",
+    "image": "eew-5-10/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the quality of being easy to understand or do.",
+        "meaning-example": "sự đơn giản.",
+        "ipa-example": "/ðə ˈkwɒl.ə.ti əv ˈbiː.ɪŋ ˈiː.zi tuː ˌʌn.dəˈstænd ɔːr duː./"
+      },
+      {
+        "sentence": "I want the **simplicity** of a life on a farm.",
+        "meaning-example": "Tôi muốn sự đơn giản của cuộc sống ở một trang trại.",
+        "ipa-example": "/aɪ wɒnt ðə sɪmˈplɪs.ə.ti əv ə laɪf ɒn ə fɑːrm./"
+      },
+      {
+        "sentence": "The design of the product emphasizes **simplicity**.",
+        "meaning-example": "Thiết kế của sản phẩm nhấn mạnh sự đơn giản.",
+        "ipa-example": "/ðə dɪˈzaɪn əv ðə ˈprɒd.ʌkt ˈem.fə.saɪz.ɪz sɪmˈplɪs.ə.ti./"
+      },
+      {
+        "sentence": "She appreciates the **simplicity** of rural life.",
+        "meaning-example": "Cô ấy trân trọng sự đơn giản của cuộc sống nông thôn.",
+        "ipa-example": "/ʃiː əˈpriː.ʃi.eɪts ðə sɪmˈplɪs.ə.ti əv ˈrʊər.əl laɪf./"
+      },
+      {
+        "sentence": "The recipe is known for its **simplicity**.",
+        "meaning-example": "Công thức này nổi tiếng với sự đơn giản của nó.",
+        "ipa-example": "/ðə ˈres.ɪ.pi ɪz nəʊn fɔːr ɪts sɪmˈplɪs.ə.ti./"
+      },
+      {
+        "sentence": "Sometimes, **simplicity** is the best approach.",
+        "meaning-example": "Đôi khi, sự đơn giản là cách tiếp cận tốt nhất.",
+        "ipa-example": "/ˈsʌm.taɪmz, sɪmˈplɪs.ə.ti ɪz ðə best əˈprəʊtʃ./"
+      },
+      {
+        "sentence": "He found beauty in the **simplicity** of nature.",
+        "meaning-example": "Anh ấy tìm thấy vẻ đẹp trong sự đơn giản của thiên nhiên.",
+        "ipa-example": "/hiː faʊnd ˈbjuː.ti ɪn ðə sɪmˈplɪs.ə.ti əv ˈneɪ.tʃər./"
+      }
+    ]
+  },
+  {
+    "word": "sow",
+    "ipa": "/səʊ/",
+    "meaning": "gieo hạt.",
+    "image": "eew-5-10/17.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to plant or scatter seeds on or in the ground.",
+        "meaning-example": "gieo hạt.",
+        "ipa-example": "/tuː plɑːnt ɔːr ˈskæt.ər siːdz ɒn ɔːr ɪn ðə ɡraʊnd./"
+      },
+      {
+        "sentence": "He **sowed** many types of seeds.",
+        "meaning-example": "Anh ấy đã gieo nhiều loại hạt.",
+        "ipa-example": "/hiː səʊd ˈmen.i taɪps əv siːdz./"
+      },
+      {
+        "sentence": "Farmers **sow** seeds in the spring.",
+        "meaning-example": "Nông dân gieo hạt vào mùa xuân.",
+        "ipa-example": "/ˈfɑːr.mərz səʊ siːdz ɪn ðə sprɪŋ./"
+      },
+      {
+        "sentence": "He **sowed** doubt in her mind.",
+        "meaning-example": "Anh ấy đã gieo rắc sự nghi ngờ trong tâm trí cô ấy.",
+        "ipa-example": "/hiː səʊd daʊt ɪn hɜːr maɪnd./"
+      },
+      {
+        "sentence": "We need to **sow** these flower seeds by hand.",
+        "meaning-example": "Chúng ta cần gieo những hạt hoa này bằng tay.",
+        "ipa-example": "/wiː niːd tuː səʊ ðiːz ˈflaʊ.ər siːdz baɪ hænd./"
+      },
+      {
+        "sentence": "To **sow** is to plant seeds.",
+        "meaning-example": "Gieo là trồng hạt.",
+        "ipa-example": "/tuː səʊ ɪz tuː plɑːnt siːdz./"
+      },
+      {
+        "sentence": "They **sowed** wheat in the fertile fields.",
+        "meaning-example": "Họ đã gieo lúa mì trên những cánh đồng màu mỡ.",
+        "ipa-example": "/ðeɪ səʊd wiːt ɪn ðə ˈfɜː.taɪl fiːldz./"
+      }
+    ]
+  },
+  {
+    "word": "soy",
+    "ipa": "/sɔɪ/",
+    "meaning": "đậu nành.",
+    "image": "eew-5-10/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a type of bean, originally from Asia, that is used to make a variety of food products.",
+        "meaning-example": "đậu nành.",
+        "ipa-example": "/ə taɪp əv biːn, əˈrɪdʒ.ɪn.əl.i frɒm ˈeɪ.ʒə, ðæt ɪz juːzd tuː meɪk ə vəˈraɪ.ə.ti əv fuːd ˈprɒd.ʌkts./"
+      },
+      {
+        "sentence": "He planted **soy**, cabbage, carrots, and onions.",
+        "meaning-example": "Anh ấy đã trồng đậu nành, bắp cải, cà rốt và hành tây.",
+        "ipa-example": "/hiː ˈplɑːn.tɪd sɔɪ, ˈkæb.ɪdʒ, ˈkær.əts, ænd ˈʌn.jənz./"
+      },
+      {
+        "sentence": "I like to drink **soy** milk.",
+        "meaning-example": "Tôi thích uống sữa đậu nành.",
+        "ipa-example": "/aɪ laɪk tuː drɪŋk sɔɪ mɪlk./"
+      },
+      {
+        "sentence": "Please pass me the **soy** sauce.",
+        "meaning-example": "Làm ơn đưa tôi chai nước tương.",
+        "ipa-example": "/pliːz pɑːs mi ðə sɔɪ sɔːs./"
+      },
+      {
+        "sentence": "Tofu is made from **soy**.",
+        "meaning-example": "Đậu phụ được làm từ đậu nành.",
+        "ipa-example": "/ˈtəʊ.fuː ɪz meɪd frɒm sɔɪ./"
+      },
+      {
+        "sentence": "Many vegetarian foods use **soy** as a protein source.",
+        "meaning-example": "Nhiều thực phẩm chay sử dụng đậu nành làm nguồn protein.",
+        "ipa-example": "/ˈmen.i ˌvedʒ.əˈteə.ri.ən fuːdz juːz sɔɪ æz ə ˈprəʊ.tiːn sɔːrs./"
+      },
+      {
+        "sentence": "Farmers in this area grow a lot of **soy**.",
+        "meaning-example": "Nông dân ở khu vực này trồng rất nhiều đậu nành.",
+        "ipa-example": "/ˈfɑːr.mərz ɪn ðɪs ˈeə.ri.ə ɡrəʊ ə lɒt əv sɔɪ./"
+      }
+    ]
+  },
+  {
+    "word": "spade",
+    "ipa": "/speɪd/",
+    "meaning": "cái xẻng (vuông).",
+    "image": "eew-5-10/19.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a tool used for digging, especially one with a flat metal blade and a long handle.",
+        "meaning-example": "cái xẻng (vuông).",
+        "ipa-example": "/ə tuːl juːzd fɔːr ˈdɪɡ.ɪŋ, ɪˈspeʃ.əl.i wʌn wɪð ə flæt ˈmet.əl bleɪd ænd ə lɒŋ ˈhæn.dl̩./"
+      },
+      {
+        "sentence": "He took his **spade** and dug a ditch down the middle of his farm.",
+        "meaning-example": "Anh ấy cầm cái xẻng của mình và đào một con mương ở giữa trang trại của mình.",
+        "ipa-example": "/hiː tʊk hɪz speɪd ænd dʌɡ ə dɪtʃ daʊn ðə ˈmɪd.l̩ əv hɪz fɑːrm./"
+      },
+      {
+        "sentence": "I need a **spade** to dig a hole for this tree.",
+        "meaning-example": "Tôi cần một cái xẻng để đào một cái hố cho cái cây này.",
+        "ipa-example": "/aɪ niːd ə speɪd tuː dɪɡ ə həʊl fɔːr ðɪs triː./"
+      },
+      {
+        "sentence": "He used a **spade** to turn over the soil in the garden.",
+        "meaning-example": "Anh ấy dùng xẻng để xới đất trong vườn.",
+        "ipa-example": "/hiː juːzd ə speɪd tuː tɜːrn ˈəʊ.vər ðə sɔɪl ɪn ðə ˈɡɑːr.dən./"
+      },
+      {
+        "sentence": "The workers used shovels and **spades**.",
+        "meaning-example": "Các công nhân đã sử dụng xẻng và cuốc.",
+        "ipa-example": "/ðə ˈwɜːr.kərz juːzd ˈʃʌv.əlz ænd speɪdz./"
+      },
+      {
+        "sentence": "A **spade** is a useful garden tool.",
+        "meaning-example": "Một cái xẻng là một công cụ làm vườn hữu ích.",
+        "ipa-example": "/ə speɪd ɪz ə ˈjuːs.fʊl ˈɡɑːr.dən tuːl./"
+      },
+      {
+        "sentence": "He cleaned the dirt off his **spade**.",
+        "meaning-example": "Anh ấy đã lau sạch đất trên xẻng của mình.",
+        "ipa-example": "/hiː kliːnd ðə dɜːrt ɒf hɪz speɪd./"
+      }
+    ]
+  },
+  {
+    "word": "upcoming",
+    "ipa": "/ˌʌpˈkʌm.ɪŋ/",
+    "meaning": "sắp tới, sắp diễn ra.",
+    "image": "eew-5-10/20.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "happening soon.",
+        "meaning-example": "sắp tới, sắp diễn ra.",
+        "ipa-example": "/ˈhæp.ən.ɪŋ suːn./"
+      },
+      {
+        "sentence": "The **upcoming** summer is going to be very dry,” thought Bill.",
+        "meaning-example": "Mùa hè sắp tới sẽ rất khô hạn,” Bill nghĩ.",
+        "ipa-example": "/ðə ˌʌpˈkʌm.ɪŋ ˈsʌm.ər ɪz ˈɡəʊ.ɪŋ tuː biː ˈver.i draɪ,” θɔːt bɪl./"
+      },
+      {
+        "sentence": "The **upcoming** election is very important.",
+        "meaning-example": "Cuộc bầu cử sắp tới rất quan trọng.",
+        "ipa-example": "/ðə ˌʌpˈkʌm.ɪŋ ɪˈlek.ʃən ɪz ˈver.i ɪmˈpɔːr.tənt./"
+      },
+      {
+        "sentence": "I'm excited about the **upcoming** holidays.",
+        "meaning-example": "Tôi rất hào hứng với những ngày nghỉ sắp tới.",
+        "ipa-example": "/aɪm ɪkˈsaɪtɪd əˈbaʊt ðə ˌʌpˈkʌm.ɪŋ ˈhɒl.ɪ.deɪz./"
+      },
+      {
+        "sentence": "She has an **upcoming** appointment with the doctor.",
+        "meaning-example": "Cô ấy có một cuộc hẹn sắp tới với bác sĩ.",
+        "ipa-example": "/ʃiː hæz æn ˌʌpˈkʌm.ɪŋ əˈpɔɪnt.mənt wɪð ðə ˈdɒk.tər./"
+      },
+      {
+        "sentence": "The company announced its **upcoming** new products.",
+        "meaning-example": "Công ty đã công bố các sản phẩm mới sắp ra mắt của mình.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni əˈnaʊnst ɪts ˌʌpˈkʌm.ɪŋ nuː ˈprɒd.ʌkts./"
+      },
+      {
+        "sentence": "There will be many **upcoming** events in the city.",
+        "meaning-example": "Sẽ có nhiều sự kiện sắp tới trong thành phố.",
+        "ipa-example": "/ðeər wɪl biː ˈmen.i ˌʌpˈkʌm.ɪŋ ɪˈvents ɪn ðə ˈsɪt.i./"
+      }
+    ]
+  }
+]

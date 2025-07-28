@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Sách Tiếng Anh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        .unit-header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+        }
+        .unit-number {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-right: 1.5rem;
+        }
+        .section-title {
+            background-color: #e0f2f7;
+            color: #2c3e50;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+        .exercise-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: #34495e;
+        }
+        .vocabulary-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .vocabulary-item img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 0.5rem;
+        }
+        .checkbox-group label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+        }
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 0.75rem;
+            transform: scale(1.2);
+        }
+        .dialogue-box {
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .dialogue-line {
+            margin-bottom: 0.5rem;
+        }
+        .dialogue-speaker {
+            font-weight: 600;
+            color: #007bff;
+            margin-right: 0.5rem;
+        }
+        .true-false-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .true-false-table th, .true-false-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .true-false-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #e6f7ff;
+            font-weight: 600;
+            color: #0056b3;
+        }
+        .grammar-note {
+            background-color: #f0f8ff;
+            border-left: 5px solid #007bff;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        .grammar-note h4 {
+            margin-top: 0;
+            color: #007bff;
+        }
+        .fill-in-blank input[type="text"] {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0.4rem 0.6rem;
+            width: 150px; /* Adjust width as needed */
+            margin: 0 5px;
+        }
+        .underline-text {
+            border-bottom: 1px solid #333;
+            padding-bottom: 2px;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .word-bank {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            background-color: #e9f5f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        .word-bank span {
+            background-color: #cce7f4;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 500;
+            color: #0056b3;
+        }
+        .exercise-item {
+            margin-bottom: 1rem;
+        }
+        .exercise-item p {
+            margin-bottom: 0.5rem;
+        }
+        .exercise-item .question-number {
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+        .answer-line {
+            border-bottom: 1px solid #aaa;
+            display: inline-block;
+            min-width: 150px;
+            text-align: center;
+            padding-bottom: 2px;
+        }
+        .listening-image {
+            max-width: 250px;
+            float: right;
+            margin-left: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .editing-box {
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+            white-space: pre-wrap; /* To preserve line breaks for the editing exercise */
+        }
+        .writing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .writing-table th, .writing-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .writing-table th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        .editing-checklist label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+        }
+        .editing-checklist input[type="checkbox"] {
+            margin-right: 0.75rem;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Unit 7 Header -->
+        <div class="unit-header">
+            <div class="flex items-center">
+                <div class="unit-number">UNIT 7</div>
+                <div>
+                    <h1 class="text-3xl font-bold">Past of Be: Statements and Yes/No Questions</h1>
+                    <p class="text-lg">OUT AND ABOUT</p>
+                </div>
+            </div>
+            <div class="text-sm">
+                <h3 class="font-bold mb-1">OUTCOMES</h3>
+                <ul class="list-disc list-inside">
+                    <li>Make simple past statements with the verb *be*</li>
+                    <li>Ask and answer simple past yes/no questions with the verb *be*</li>
+                    <li>Identify true and false sentences about a reading</li>
+                    <li>Identify true and false sentences about phone messages</li>
+                    <li>Ask and answer questions about past activities</li>
+                    <li>Write a paragraph about a movie</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 1: Grammar in Context -->
+        <div class="section-title">STEP 1 GRAMMAR IN CONTEXT</div>
+
+        <h2 class="text-xl font-bold mb-4">BEFORE YOU READ</h2>
+
+        <div class="mb-6">
+            <h3 class="font-bold mb-2">A VOCABULARY Study the words. Then check (✓) the sentences that are true for you.</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="vocabulary-item">
+                    <img src="FOG-1-7/1.png" alt="Image 1: A person alone in a field of watermelons">
+                    <span>alone</span>
+                </div>
+                <div class="vocabulary-item">
+                    <img src="FOG-1-7/2.png" alt="Image 2: A man sleeping in bed">
+                    <span>asleep</span>
+                </div>
+                <div class="vocabulary-item">
+                    <img src="FOG-1-7/3.png" alt="Image 3: People relaxing at home">
+                    <span>at home</span>
+                </div>
+                <div class="vocabulary-item">
+                    <img src="FOG-1-7/4.png" alt="Image 4: People watching a movie at the cinema">
+                    <span>at the movies</span>
+                </div>
+                <div class="vocabulary-item">
+                    <img src="FOG-1-7/5.png" alt="Image 5: A woman waking up in bed">
+                    <span>awake</span>
+                </div>
+            </div>
+
+            <div class="checkbox-group mt-6">
+                <label>
+                    <input type="checkbox"> 1. I was asleep at 2 a.m.
+                </label>
+                <label>
+                    <input type="checkbox"> 2. I was awake at 6 a.m. this morning.
+                </label>
+                <label>
+                    <input type="checkbox"> 3. I was alone all day Saturday.
+                </label>
+                <label>
+                    <input type="checkbox"> 4. I was at the movies last night.
+                </label>
+                <label>
+                    <input type="checkbox"> 5. I was at home all day yesterday.
+                </label>
+            </div>
+            <p class="font-bold mt-4">B Work with a partner. Compare your answers in A.</p>
+        </div>
+
+        <!-- Read Section -->
+        <div class="mb-6">
+            <h2 class="text-xl font-bold mb-2">READ</h2>
+            <p class="mb-4">Read this telephone conversation.</p>
+            <h3 class="font-bold mb-2">Out at the Movies</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <div class="dialogue-box">
+                        <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> Hello?</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> Hi, Kathy. This is Amanda.</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> Hi, Amanda. How's it going?</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> Fine. Hey, Josh and I <span class="font-bold">were</span> at your house last night at about 9:00, but you <span class="font-bold">weren't</span> there. <span class="font-bold">Were you</span> at home? <span class="font-bold">Were you</span> asleep?</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> No, I <span class="font-bold">was</span> awake. Actually, I <span class="font-bold">wasn't</span> at home last night. I <span class="font-bold">was</span> at the movies.</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> <span class="font-bold">Were you</span> with Olivia?</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> No, I <span class="font-bold">wasn't</span>.</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> With Sally?</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> No.</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> <span class="font-bold">Were you</span> alone?</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> Uh, no. I <span class="font-bold">was</span> with . . . someone.</div>
+                        <div class="dialogue-line">The movie was great.</div>
+                        <div class="dialogue-line">It <span class="font-bold">was</span> really exciting</div>
+                        <div class="dialogue-line">and funny, too.</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">AMANDA:</span> Really! What movie</div>
+                        <div class="dialogue-line">was it?</div>
+                        <div class="dialogue-line"><span class="dialogue-speaker">KATHY:</span> <span class="font-bold">Frankenstein's Uncle</span>.</div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <img src="FOG-1-7/6.png" alt="Image 6: Woman on phone in bed">
+                    <img src="FOG-1-7/7.png" alt="Image 7: People talking outside a door">
+                </div>
+            </div>
+        </div>
+
+        <!-- After You Read Section -->
+        <div class="mb-6">
+            <h3 class="font-bold mb-2">AFTER YOU READ</h3>
+            <h4 class="font-bold mb-2">A COMPREHENSION Look at the conversation again. Check (✓) True or False.</h4>
+
+            <table class="true-false-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>True</th>
+                        <th>False</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Kathy is at home tonight.</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>2. Kathy was asleep last night at 9:00.</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>3. Amanda and Josh were at Kathy's house last night.</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>4. Kathy wasn't alone at the movies last night.</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>5. Kathy was with Sally last night.</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>6. The movie was Young Frankenstein.</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="font-bold mt-4">B Work with a partner. Compare your answers in A.</p>
+        </div>
+
+        <!-- Step 2: Grammar Presentation -->
+        <div class="section-title">STEP 2 GRAMMAR PRESENTATION</div>
+
+        <h2 class="text-xl font-bold mb-4">PAST OF BE: AFFIRMATIVE STATEMENTS</h2>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Was</th>
+                    <th>Were</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I was a movie last night.</td>
+                    <td>We were at a birthday party yesterday.</td>
+                </tr>
+                <tr>
+                    <td>He was at home.</td>
+                    <td>You were great in the play.</td>
+                </tr>
+                <tr>
+                    <td>She was at the gym.</td>
+                    <td>You and Ryan were both wonderful.</td>
+                </tr>
+                <tr>
+                    <td>It was hot.</td>
+                    <td>They were at the soccer game.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="text-xl font-bold mb-4">PAST OF BE: NEGATIVE STATEMENTS</h2>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Was not</th>
+                    <th>Were not</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I was not at home last night.</td>
+                    <td>We were not at home last night.</td>
+                </tr>
+                <tr>
+                    <td>He wasn't at a movie.</td>
+                    <td>You weren't in class yesterday.</td>
+                </tr>
+                <tr>
+                    <td>She wasn't at the library.</td>
+                    <td>They weren't at the library yesterday.</td>
+                </tr>
+                <tr>
+                    <td>It wasn't cold yesterday.</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="text-xl font-bold mb-4">YES/NO QUESTIONS</h2>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Yes/No Questions</th>
+                    <th>Short Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Was/Were</td>
+                    <td>Affirmative</td>
+                    <td>Negative</td>
+                </tr>
+                <tr>
+                    <td>Was I right?</td>
+                    <td>Yes, you were.</td>
+                    <td>No, you weren't.</td>
+                </tr>
+                <tr>
+                    <td>Was he at home?</td>
+                    <td>Yes, he was.</td>
+                    <td>No, he wasn't.</td>
+                </tr>
+                <tr>
+                    <td>Was she at the game?</td>
+                    <td>Yes, she was.</td>
+                    <td>No, she wasn't.</td>
+                </tr>
+                <tr>
+                    <td>Was it cold yesterday?</td>
+                    <td>Yes, it was.</td>
+                    <td>No, it wasn't.</td>
+                </tr>
+                <tr>
+                    <td>Were we right?</td>
+                    <td>Yes, you were.</td>
+                    <td>No, you weren't.</td>
+                </tr>
+                <tr>
+                    <td>Were you at home?</td>
+                    <td>Yes, I was.</td>
+                    <td>No, I wasn't.</td>
+                </tr>
+                <tr>
+                    <td>Were they at the game?</td>
+                    <td>Yes, they were.</td>
+                    <td>No, they weren't.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="text-xl font-bold mb-4">GRAMMAR NOTES</h2>
+        <div class="grammar-note">
+            <h4>1 Was and Were</h4>
+            <p>The past of <i>be</i> has two forms: <b>was</b> and <b>were</b>. Use <b>was</b> with I, <i>he, she, and it</i>. Use <b>were</b> with <i>you, we, and they</i>.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <p>I <b>was</b> at a movie last night.</p>
+                <p>The girls <b>were</b> at the library yesterday.</p>
+                <p>They <b>were</b> at the library yesterday.</p>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <h4>2 Negative Statements</h4>
+            <p>Use <b>was</b> or <b>were + not</b> to make negative statements.</p>
+            <p>We often use the contractions <b>wasn't</b> and <b>weren't</b> in speaking and informal writing.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <p>I <b>was not</b> alone.</p>
+                <p>I <b>wasn't</b> asleep.</p>
+                <p>You <b>were not</b> at home.</p>
+                <p>You <b>weren't</b> awake.</p>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <h4>3 Yes/No Questions</h4>
+            <p>To ask a yes/no question, put <b>was</b> or <b>were</b> before the subject.</p>
+            <table class="grammar-table w-auto">
+                <thead>
+                    <tr>
+                        <th>Was</th>
+                        <th>SUBJECT</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Was</td>
+                        <td>the movie</td>
+                        <td>interesting?</td>
+                    </tr>
+                    <tr>
+                        <td>Were</td>
+                        <td>you</td>
+                        <td>alone at the movie?</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grammar-note">
+            <h4>4 Short Answers</h4>
+            <p>You can use a pronoun and <b>was, wasn't, were, or weren't</b> in short answers.</p>
+            <p>You can also just answer <i>yes</i> or <i>no</i>, and then give more information.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div>
+                    <p>A: Was Mary at the library yesterday?</p>
+                    <p>B: Yes, she <b>was</b>.</p>
+                </div>
+                <div>
+                    <p>A: Were your friends at home last night?</p>
+                    <p>B: No, they <b>were not</b> at a concert.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reference-notes mt-6 text-sm text-gray-600">
+            <h3 class="font-bold mb-2">REFERENCE NOTES</h3>
+            <p>For definitions of grammar terms, see the Glossary on page 375.</p>
+            <p>For information on <b>simple present questions</b>, see Unit 11 on page 120 and Unit 12 on page 130.</p>
+            <p>For more information on <b>simple past statements and questions</b>, see Unit 24 on page 274, Unit 25 on page 286, and Unit 26 on page 298.</p>
+            <p class="mt-4"><a href="#" class="text-blue-600 hover:underline">Go to MyEnglishLab</a> to watch the grammar presentation.</p>
+        </div>
+
+        <!-- Step 3: Focused Practice -->
+        <div class="section-title">STEP 3 FOCUSED PRACTICE</div>
+
+        <h2 class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</h2>
+        <p class="mb-4">GRAMMAR NOTES 1–4 Underline all the past forms of <i>be</i>. Then match the questions and answers.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <p class="mb-2">_d_ 1. Were you at home yesterday?</p>
+                <p class="mb-2">___ 2. Was he in class yesterday?</p>
+                <p class="mb-2">___ 3. Was the concert good?</p>
+                <p class="mb-2">___ 4. Was the movie interesting?</p>
+                <p class="mb-2">___ 5. Was Susan at the library yesterday?</p>
+                <p class="mb-2">___ 6. Were you at the ball game last night?</p>
+            </div>
+            <div>
+                <p class="mb-2">a. No, it wasn't. The music was pretty bad.</p>
+                <p class="mb-2">b. Yes, she was. We were both there.</p>
+                <p class="mb-2">c. Yes, I was. It was a really exciting game.</p>
+                <p class="mb-2">d. No, I wasn't. I was at a concert.</p>
+                <p class="mb-2">e. No, he wasn't. He was sick.</p>
+                <p class="mb-2">f. Yes, it was. Johnny Depp is a great actor.</p>
+            </div>
+        </div>
+
+        <h2 class="exercise-title mt-8">EXERCISE 2 WAS AND WERE</h2>
+        <p class="mb-4">GRAMMAR NOTE 1 Look at the pictures. Where were the people last night? Complete the sentences with <i>was</i> or <i>were</i> and the words in the box.</p>
+
+        <div class="image-gallery">
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/8.png" alt="Image 8: Jeremy at a concert">
+                <span>Jeremy</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/9.png" alt="Image 9: Tim and Jessica at a party">
+                <span>Tim and Jessica</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/10.png" alt="Image 10: Steve and his father at a play">
+                <span>Steve and his father</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/11.png" alt="Image 11: Judy at home">
+                <span>Judy</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/12.png" alt="Image 12: Mark at a soccer game">
+                <span>Mark</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/13.png" alt="Image 13: Mary, Annie, and Ben at the movies">
+                <span>Mary, Annie, and Ben</span>
+            </div>
+        </div>
+
+        <div class="word-bank">
+            <span>at a concert</span>
+            <span>at a party</span>
+            <span>at a play</span>
+            <span>at a soccer game</span>
+            <span>at home</span>
+            <span>at the movies</span>
+        </div>
+
+        <div class="fill-in-blank">
+            <p class="exercise-item">1. Last night, Steve and his father <span class="underline-text">were at a play</span>.</p>
+            <p class="exercise-item">2. Mary, Annie, and Ben <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500"></p>
+            <p class="exercise-item">3. Jeremy <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500"></p>
+            <p class="exercise-item">4. Mark <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500"></p>
+            <p class="exercise-item">5. Tim and Jessica <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500"></p>
+            <p class="exercise-item">6. Judy <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500"></p>
+        </div>
+
+        <h2 class="exercise-title mt-8">EXERCISE 3 AFFIRMATIVE AND NEGATIVE QUESTIONS AND ANSWERS</h2>
+        <p class="mb-4">GRAMMAR NOTES 1–4 Complete the conversation with <i>was, wasn't, were,</i> or <i>weren't.</i></p>
+
+        <div class="dialogue-box">
+            <div class="dialogue-line"><span class="dialogue-speaker">MAKIKO:</span> <span class="underline-text">Was</span> Joan in class yesterday morning?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">KELLY:</span> Yes, she <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24">.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">MAKIKO:</span> <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> you at home last night?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">KELLY:</span> No, I <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24">. I <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> at the movies.</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">MAKIKO:</span> <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> the kids with you?</div>
+            <div class="dialogue-line"><span class="dialogue-speaker">KELLY:</span> No, they <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24">. They <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> at a concert.</div>
+        </div>
+
+        <!-- New Exercises from the provided images -->
+
+        <!-- Exercise 4: Affirmative and Negative Answers -->
+        <h2 class="exercise-title mt-8">EXERCISE 4 AFFIRMATIVE AND NEGATIVE ANSWERS</h2>
+        <p class="mb-4">GRAMMAR NOTES 1–4 Answer the questions. Use short answers with <i>was</i> or <i>were</i>. Then use the words in parentheses to give more information.</p>
+        <div class="fill-in-blank">
+            <p class="exercise-item">1. A: Were you late to class yesterday morning?</p>
+            <p class="ml-4">B: Yes, <span class="underline-text">I was</span>. <span class="underline-text">The bus was late.</span> (The bus / late)</p>
+            <p class="exercise-item">2. A: Were you at a concert yesterday evening?</p>
+            <p class="ml-4">B: No, <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-32">. <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-48"> (I / at home)</p>
+            <p class="exercise-item">3. A: Were you and Jessica asleep at 10 p.m. last night?</p>
+            <p class="ml-4">B: No, <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-32">. <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-48"> (We / awake)</p>
+            <p class="exercise-item">4. A: Was Annie with you at the library yesterday afternoon?</p>
+            <p class="ml-4">B: No, <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-32">. <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-48"> (She / at a soccer game)</p>
+            <p class="exercise-item">5. A: Were you and Tim at the movies last night?</p>
+            <p class="ml-4">B: Yes, <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-32">, but <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-48">. (the movie / boring)</p>
+            <p class="exercise-item">6. A: Was Jeremy at school yesterday?</p>
+            <p class="ml-4">B: Yes, <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-32">, but <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-48"> only in the morning. (he / there)</p>
+        </div>
+
+        <!-- Exercise 5: Editing -->
+        <h2 class="exercise-title mt-8">EXERCISE 5 EDITING</h2>
+        <p class="mb-4">GRAMMAR NOTES 1–4 There are six mistakes in the note. The first mistake is corrected. Find and correct five more.</p>
+        <div class="editing-box">
+            <p>Mark,</p>
+            <p>Sorry I <span class="underline-text">wasn't</span> at home last night. I were at a basketball</p>
+            <p>game. Amanda and Josh was with me. It were great.</p>
+            <p>Were you at home on Tuesday afternoon? Susan and</p>
+            <p>Brent and I are at the soccer game, but you were there.</p>
+            <p>Too bad. It was really fun.</p>
+            <p>Kathy</p>
+        </div>
+
+        <!-- Step 4: Communication Practice -->
+        <div class="section-title">STEP 4 COMMUNICATION PRACTICE</div>
+
+        <!-- Exercise 6: Listening -->
+        <h2 class="exercise-title">EXERCISE 6 LISTENING</h2>
+        <p class="mb-4">A Listen to the message for Mark on the answering machine. Who is the message from?</p>
+        <img src="FOG-1-7/14.png" alt="Image 14: Answering machine with text 'Hello, this is Mark...'" class="listening-image">
+        <p class="mb-4">B Listen again to the message. For each statement, check (✓) True, False, or No Information.</p>
+
+        <table class="true-false-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>True</th>
+                    <th>False</th>
+                    <th>No Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. Mark is at home now.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox" checked></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>2. Josh was at the movies last night.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>3. Amanda was at home last night.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>4. Mark was at a concert last night.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>5. Josh was alone at the movies.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>6. The movie was Star Wars.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>7. The movie was exciting.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>8. The theater was hot.</td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="font-bold mt-4">C Work with a partner. Compare your answers in A and B.</p>
+
+        <!-- Exercise 7: Were You At Home? -->
+        <h2 class="exercise-title mt-8">EXERCISE 7 WERE YOU AT HOME?</h2>
+        <p class="mb-4">A Q & A Work with a partner. Ask and answer questions about your partner's activities. Use the time expressions and the places in the box.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+            <div>
+                <h3 class="font-bold mb-2">Time expressions</h3>
+                <div class="word-bank">
+                    <span>yesterday morning</span>
+                    <span>yesterday afternoon</span>
+                    <span>yesterday evening</span>
+                    <span>last night</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-bold mb-2">Places</h3>
+                <div class="word-bank">
+                    <span>at a concert</span>
+                    <span>at a park</span>
+                    <span>at the movies</span>
+                    <span>at a museum</span>
+                    <span>at a soccer game</span>
+                    <span>at the zoo</span>
+                </div>
+            </div>
+        </div>
+        <p class="font-bold mb-2">EXAMPLE: A: Were you at home last night?</p>
+        <p class="ml-4 mb-4">B: No, I wasn't. I was at the movies.</p>
+        <p class="font-bold mt-4">B Work with a new partner. Tell your new partner about your partner in A.</p>
+        <p class="font-bold mb-2">EXAMPLE: A: Was Ahmed at home last night?</p>
+        <p class="ml-4 mb-4">B: No, he wasn't. He was at a soccer game.</p>
+
+        <!-- Exercise 8: It Was Exciting -->
+        <h2 class="exercise-title mt-8">EXERCISE 8 IT WAS EXCITING</h2>
+        <p class="mb-4">A PRESENTATION Prepare for a presentation. First, work with a partner. Tell your partner about a recent activity. Use the words below or your own words.</p>
+        <div class="image-gallery">
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/15.png" alt="Image 15: Man looking bored">
+                <span>boring</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/16.png" alt="Image 16: Man looking excited">
+                <span>exciting</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/17.png" alt="Image 17: Woman looking amused">
+                <span>funny</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/18.png" alt="Image 18: Woman looking interested">
+                <span>interesting</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="FOG-1-7/19.png" alt="Image 19: Woman looking scared">
+                <span>scary</span>
+            </div>
+        </div>
+        <p class="font-bold mb-2">EXAMPLE: A: I was at a soccer game last night.</p>
+        <p class="ml-4 mb-2">B: Was it fun?</p>
+        <p class="ml-4 mb-4">A: Yes! It was exciting.</p>
+        <p class="font-bold mt-4">B Work in a group. Give a presentation about your activity in A.</p>
+        <p class="font-bold mb-2">EXAMPLE: I was at a soccer game last night. My friend Ahmed was with me. The game was really exciting. The teams were the Blues and the Greens. The Greens were the winners, 4-2. About 100 people were there.</p>
+        <p class="font-bold mt-4">C Vote on the most interesting or exciting activity.</p>
+
+        <!-- From Grammar to Writing -->
+        <div class="section-title">FROM GRAMMAR TO WRITING</div>
+
+        <h2 class="exercise-title">A BEFORE YOU WRITE Read the paragraph. Underline <i>was</i> and <i>were</i>. Then imagine you were at a movie last night with a friend. Complete the chart. Work with a partner. Tell your partner about the movie.</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <p class="mb-4">I was at a movie last night. My friend Alicia was with me. The movie was Spy. It was very funny. It wasn't scary. Melissa McCarthy, Rose Byrne, and Jude Law were the actors in it.</p>
+                <table class="writing-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Name of movie</td>
+                            <td><input type="text" class="w-full border-b border-gray-300 focus:outline-none focus:border-blue-500"></td>
+                        </tr>
+                        <tr>
+                            <td>Friend or friends with me</td>
+                            <td><input type="text" class="w-full border-b border-gray-300 focus:outline-none focus:border-blue-500"></td>
+                        </tr>
+                        <tr>
+                            <td>Opinion about the movie</td>
+                            <td><input type="text" class="w-full border-b border-gray-300 focus:outline-none focus:border-blue-500"></td>
+                        </tr>
+                        <tr>
+                            <td>Actors in the movie</td>
+                            <td><input type="text" class="w-full border-b border-gray-300 focus:outline-none focus:border-blue-500"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <img src="FOG-1-7/20.png" alt="Image 20: Movie poster for SPY" class="w-full h-auto rounded-lg shadow-md">
+            </div>
+        </div>
+        <p class="font-bold mt-4">B WRITE Write a paragraph about a movie. Use <i>was, wasn't, were,</i> and <i>weren't</i>. Use the paragraph in A and your chart to help you.</p>
+        <textarea class="w-full p-3 border border-gray-300 rounded-md mt-4" rows="8" placeholder="Write your paragraph here..."></textarea>
+
+        <p class="font-bold mt-4">C CHECK YOUR WORK Read your paragraph. Underline examples of <i>was, wasn't, were,</i> and <i>weren't</i>. Use the Editing Checklist to check your work.</p>
+        <div class="editing-checklist bg-gray-50 p-4 rounded-md mt-4">
+            <h3 class="font-bold mb-2">Editing Checklist</h3>
+            <label>
+                <input type="checkbox"> Did you . . .?
+            </label>
+            <label>
+                <input type="checkbox"> use <i>was</i> with <i>I, he, she, and it</i>
+            </label>
+            <label>
+                <input type="checkbox"> use <i>were</i> with <i>you, we, and they</i>
+            </label>
+            <label>
+                <input type="checkbox"> check your spelling
+            </label>
+        </div>
+        <p class="font-bold mt-4">D REVISE YOUR WORK Read your paragraph again. Can you improve your writing?</p>
+        <p>Make changes if necessary.</p>
+
+        <!-- Unit 7 Review -->
+        <div class="section-title">UNIT 7 REVIEW</div>
+        <h2 class="exercise-title">Test yourself on the grammar of the unit.</h2>
+        <p class="mb-4">A Complete the conversation with <i>was, wasn't, were,</i> or <i>weren't</i>.</p>
+        <div class="dialogue-box">
+            <div class="dialogue-line">A: <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> you and your friends at the movies yesterday?</div>
+            <div class="dialogue-line">B: No, we <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24">. We <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> at a baseball game.</div>
+            <div class="dialogue-line">A: <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> the game interesting?</div>
+            <div class="dialogue-line">B: No, it <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24">. It <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-24"> boring.</div>
+        </div>
+
+        <p class="mb-4">B Answer the questions with short and long answers. Use <i>was, wasn't, were,</i> or <i>weren't</i> and the words in parentheses.</p>
+        <div class="fill-in-blank">
+            <p class="exercise-item">1. A: Was Tim at home last night?</p>
+            <p class="ml-4">B: No, <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-32">. a. (he) <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-48"> b. (He / at the library) <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-64"></p>
+            <p class="exercise-item">2. A: Were your brothers awake at 6 a.m. this morning?</p>
+            <p class="ml-4">B: No, <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-32">. a. (they) <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-48"> b. (They / asleep) <input type="text" class="rounded-md border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-64"></p>
+        </div>
+
+        <p class="mb-4">C Find and correct five mistakes in the email.</p>
+        <div class="editing-box">
+            <p>Kathy,</p>
+            <p>Sorry I weren't at the basketball game on Tuesday afternoon. I were sick at</p>
+            <p>home. It be really boring.</p>
+            <p>Are you at the gym yesterday? Was Amanda and Josh there?</p>
+            <p>Mark</p>
+        </div>
+        <p class="mt-4">Now check your answers on page 380.</p>
+
+                <!-- YouTube Video Embed -->
+        <div class="section-title">Video Hỗ Trợ</div>
+        <div class="youtube-embed">
+            <!-- Thay thế YOUR_VIDEO_ID bằng ID video YouTube bạn muốn nhúng -->
+            <iframe src="https://www.youtube.com/embed/70bqVFEjLhs" allowfullscreen></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
