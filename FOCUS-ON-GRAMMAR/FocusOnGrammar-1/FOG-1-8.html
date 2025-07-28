@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Sách Tiếng Anh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1a73e8;
+        }
+        h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 1.5rem;
+            color: #3498db;
+            margin-top: 25px;
+        }
+        h4 {
+            font-size: 1.25rem;
+            color: #27ae60;
+            margin-top: 20px;
+        }
+        .unit-header {
+            background-color: #34495e;
+            color: #fff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .unit-number {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-right: 20px;
+            color: #f1c40f;
+        }
+        .outcome-list {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #555;
+        }
+        .section-title {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+        .exercise-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #e67e22;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-bottom: 1px dashed #e67e22;
+            padding-bottom: 5px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-item {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .image-caption {
+            margin-top: 5px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+        .conversation-box {
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .conversation-box p {
+            margin-bottom: 5px;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .grammar-note {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .grammar-note h4 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .fill-in-the-blank input[type="text"] {
+            border: none;
+            border-bottom: 1px dashed #999;
+            padding: 5px 0;
+            width: 150px;
+            outline: none;
+            font-size: 1rem;
+            margin: 0 5px;
+        }
+        .multiple-choice label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .true-false label {
+            margin-right: 20px;
+        }
+        .match-exercise .match-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .match-exercise .match-item span {
+            flex: 1;
+        }
+        .match-exercise .match-item input[type="text"] {
+            width: 50px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        .error-correction .error-line {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .error-correction .error-line input[type="text"] {
+            border: none;
+            border-bottom: 1px dashed #999;
+            padding: 5px 0;
+            width: 100px;
+            outline: none;
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .underline-text {
+            text-decoration: underline;
+        }
+        .circle-word {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .circle-word input[type="radio"] {
+            display: none;
+        }
+        .circle-word label {
+            cursor: pointer;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            transition: all 0.2s ease-in-out;
+        }
+        .circle-word input[type="radio"]:checked + label {
+            border: 2px solid #3498db;
+            background-color: #eaf6fd;
+        }
+        .note-link {
+            color: #3498db;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .note-link:hover {
+            color: #2980b9;
+        }
+        .weather-image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .weather-image-grid img {
+            max-width: 100px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .weather-image-grid div {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .temperature-chart {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .temperature-chart .labels-f, .temperature-chart .labels-c {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 400px; /* Adjust height as needed */
+            font-size: 0.85rem;
+            color: #555;
+            text-align: right;
+        }
+        .temperature-chart .line {
+            width: 1px;
+            background-color: #ccc;
+            height: 400px;
+            position: relative;
+        }
+        .temperature-chart .line::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, #3498db, #f1c40f, #e74c3c); /* Cold to hot gradient */
+            opacity: 0.7;
+        }
+        .temperature-chart .labels-f div, .temperature-chart .labels-c div {
+            height: calc(100% / 10); /* Divide by number of labels */
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 5px;
+            box-sizing: border-box;
+        }
+        .temperature-chart .labels-c div {
+            justify-content: flex-start;
+            padding-left: 5px;
+        }
+
+        .email-preview {
+            background-color: #e8f5e9;
+            border: 1px solid #c8e6c9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .email-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #388e3c;
+        }
+        .email-body p {
+            margin-bottom: 8px;
+        }
+        .email-body .underline-wh {
+            text-decoration: underline;
+            text-decoration-color: #fbc02d;
+            text-decoration-thickness: 2px;
+        }
+        .email-body .highlight-was-were {
+            background-color: #fff9c4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .email-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .email-table th, .email-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .email-table th {
+            background-color: #f2f2f2;
+        }
+        .email-table input[type="text"] {
+            width: 100%;
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .checklist-item input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="unit-header">
+            <div class="unit-number">8</div>
+            <div>
+                <h2 class="text-white">Past of Be: Wh- Questions</h2>
+                <h3 class="text-white">VACATIONS</h3>
+            </div>
+        </div>
+
+        <div class="bg-gray-100 p-4 rounded-lg mb-6">
+            <h4 class="text-gray-700 mb-2">OUTCOMES</h4>
+            <ul class="outcome-list">
+                <li>Ask and answer simple past wh- questions with the verb `be`</li>
+                <li>Identify true and false sentences about a reading</li>
+                <li>Answer questions about a conversation</li>
+                <li>Talk about the weather</li>
+                <li>Ask and answer questions about past activities</li>
+                <li>Write an email with questions about a vacation</li>
+            </ul>
+        </div>
+
+        <div class="section-title">STEP 1 GRAMMAR IN CONTEXT</div>
+
+        <h3>BEFORE YOU READ</h3>
+        <p><strong class="text-blue-600">A VOCABULARY</strong> Study the words. Then work with a partner. Practice the conversation.</p>
+
+        <div class="image-container">
+            <div class="image-item">
+                <img src="FOG-1-8/1.png" alt="Người phụ nữ ở bãi biển" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+1'">
+                <div class="image-caption">at the beach</div>
+            </div>
+            <div class="image-item">
+                <img src="FOG-1-8/2.png" alt="Người đàn ông trên núi" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+2'">
+                <div class="image-caption">in the mountains</div>
+            </div>
+        </div>
+        <div class="text-center mb-4">
+            <span class="inline-block px-3 py-1 bg-yellow-200 rounded-full mr-2">hot (weather)</span>
+            <span class="inline-block px-3 py-1 bg-blue-200 rounded-full">cold (weather)</span>
+        </div>
+
+        <div class="conversation-box">
+            <h4 class="text-blue-700">Conversation</h4>
+            <p>A: How was your vacation?</p>
+            <p>B: Great.</p>
+            <p>A: Where were you?</p>
+            <p>B: At the beach. It was hot.</p>
+        </div>
+
+        <p><strong class="text-blue-600">B</strong> Now talk about your last vacation.</p>
+        <p>A: How was your vacation?</p>
+        <p>B: <input type="text" class="fill-in-the-blank"></p>
+        <p>A: Where were you?</p>
+        <p>B: <input type="text" class="fill-in-the-blank"></p>
+
+        <hr class="my-8 border-t-2 border-gray-200">
+
+        <h3>READ</h3>
+        <p>Read this conversation.</p>
+
+        <h2 class="text-center text-blue-800 font-bold text-2xl mb-6">A Vacation in the Sun</h2>
+
+        <div class="flex flex-wrap md:flex-nowrap gap-6 mb-8">
+            <div class="w-full md:w-2/3">
+                <p><strong>JASON:</strong> Hi, Mark.</p>
+                <p><strong>MARK:</strong> Hey, Jason.</p>
+                <p><strong>JASON:</strong> Welcome back.<sup>1</sup> How was your vacation?</p>
+                <p><strong>MARK:</strong> Great.</p>
+                <p><strong>JASON:</strong> You look good. Where were you?</p>
+                <p><strong>MARK:</strong> At my cousin's house, in Venice Beach.</p>
+                <p class="text-sm text-gray-600 mt-4"><sup>1</sup> Welcome back: something we often say to people when they come back from a trip</p>
+                <p><strong>JASON:</strong> Nice! How long were you there?</p>
+                <p><strong>MARK:</strong> Ten days. Ten wonderful days.</p>
+                <p><strong>JASON:</strong> My parents were on vacation<sup>2</sup> last year. It was hot. How was the weather?</p>
+                <p><strong>MARK:</strong> It was hot and sunny. I was at the beach every day.</p>
+                <p><strong>JASON:</strong> And how was the ocean?</p>
+                <p><strong>MARK:</strong> Great. The water was warm.</p>
+                <p><strong>JASON:</strong> So... were your cousins at the beach with you?</p>
+                <p><strong>MARK:</strong> Only on the weekend, but Kathy was there for a week.</p>
+                <p><strong>JASON:</strong> Kathy?</p>
+                <p><strong>MARK:</strong> She was at Amanda's wedding. The doctor.</p>
+                <p><strong>JASON:</strong> Oh, yeah.</p>
+                <p><strong>MARK:</strong> Well, she was in Venice Beach, too.</p>
+                <p><strong>JASON:</strong> You lucky man!</p>
+                <p class="text-sm text-gray-600 mt-4"><sup>2</sup> on vacation: away from home and not working</p>
+            </div>
+            <div class="w-full md:w-1/3 flex justify-center items-start">
+                <img src="FOG-1-8/3.png" alt="Người đàn ông đang nói chuyện" onerror="this.onerror=null;this.src='https://placehold.co/250x300/cccccc/333333?text=Image+3'" class="rounded-lg shadow-md">
+            </div>
+        </div>
+
+        <div class="image-container">
+            <div class="image-item">
+                <img src="FOG-1-8/4.png" alt="Bãi biển Venice Beach, California" onerror="this.onerror=null;this.src='https://placehold.co/600x300/cccccc/333333?text=Image+4'">
+                <div class="image-caption">Venice Beach, California</div>
+            </div>
+        </div>
+
+        <div class="section-title">AFTER YOU READ</div>
+
+        <p><strong class="text-blue-600">A COMPREHENSION</strong> Look at the conversation again. For each statement, check ($\checkmark$) True or False. Then change the false sentences to true ones.</p>
+
+        <div class="true-false mt-4">
+            <div class="flex items-center mb-2">
+                <span class="w-1/2"></span>
+                <span class="w-1/4 text-center font-semibold">True</span>
+                <span class="w-1/4 text-center font-semibold">False</span>
+            </div>
+            <div class="flex items-center mb-2">
+                <span class="w-1/2">1. Mark was on vacation for seven days.</span>
+                <input type="checkbox" class="w-1/4 text-center">
+                <input type="checkbox" class="w-1/4 text-center">
+            </div>
+            <div class="flex items-center mb-2">
+                <span class="w-1/2">2. The weather was cold and rainy.</span>
+                <input type="checkbox" class="w-1/4 text-center">
+                <input type="checkbox" class="w-1/4 text-center">
+            </div>
+            <div class="flex items-center mb-2">
+                <span class="w-1/2">3. He was at his cousin's house.</span>
+                <input type="checkbox" class="w-1/4 text-center">
+                <input type="checkbox" class="w-1/4 text-center">
+            </div>
+            <div class="flex items-center mb-2">
+                <span class="w-1/2">4. Jason's parents were in Venice Beach last month.</span>
+                <input type="checkbox" class="w-1/4 text-center">
+                <input type="checkbox" class="w-1/4 text-center">
+            </div>
+            <div class="flex items-center mb-2">
+                <span class="w-1/2">5. Mark's vacation was great.</span>
+                <input type="checkbox" class="w-1/4 text-center">
+                <input type="checkbox" class="w-1/4 text-center">
+            </div>
+            <div class="flex items-center mb-2">
+                <span class="w-1/2">6. Kathy was in Venice Beach, too.</span>
+                <input type="checkbox" class="w-1/4 text-center">
+                <input type="checkbox" class="w-1/4 text-center">
+            </div>
+            <div class="flex items-center mb-2">
+                <span class="w-1/2">7. She was there for ten days.</span>
+                <input type="checkbox" class="w-1/4 text-center">
+                <input type="checkbox" class="w-1/4 text-center">
+            </div>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">B</strong> Work with a partner. Compare your answers in A.</p>
+
+        <hr class="my-8 border-t-2 border-gray-200">
+
+        <div class="section-title">STEP 2 GRAMMAR PRESENTATION</div>
+
+        <h3>PAST OF BE: WH- QUESTIONS</h3>
+
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Wh- Questions</th>
+                    <th>Short Answers</th>
+                    <th>Long Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Where were you?</td>
+                    <td>(In) California.</td>
+                    <td>I was in California.</td>
+                </tr>
+                <tr>
+                    <td>Who were you with?</td>
+                    <td>Friends.</td>
+                    <td>I was with friends.</td>
+                </tr>
+                <tr>
+                    <td>How was the weather?</td>
+                    <td>Hot.</td>
+                    <td>It was hot.</td>
+                </tr>
+                <tr>
+                    <td>How long were you there?</td>
+                    <td>Ten days.</td>
+                    <td>I was there for ten days.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="grammar-table mt-8">
+            <thead>
+                <tr>
+                    <th>Questions about the Subject</th>
+                    <th>Short Answers</th>
+                    <th>Long Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Who was in California?</td>
+                    <td>Mark (was).</td>
+                    <td>Mark was in California.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="mt-10">GRAMMAR NOTES</h3>
+
+        <div class="grammar-note">
+            <h4>1 Wh- Question Words</h4>
+            <p>Wh- questions start with <em>where, what, who, when, how, or how long</em>. These words ask for information.</p>
+            <p>We usually use <em>short answers</em> in speaking.</p>
+            <div class="flex justify-between mt-4">
+                <div class="w-1/2 pr-4">
+                    <p>Where were you last summer?</p>
+                    <p>Who was with you?</p>
+                    <p>How long were you there?</p>
+                </div>
+                <div class="w-1/2 pl-4">
+                    <p>A: How was your weekend?</p>
+                    <p>B: Great!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <h4>2 Where, Who, What</h4>
+            <p>Use <em>where</em> to ask about a location.</p>
+            <div class="flex justify-between mt-4">
+                <div class="w-1/2 pr-4">
+                    <p>Use <em>who</em> to ask about a person.</p>
+                    <p>Use <em>what</em> to ask about a place or a thing.</p>
+                </div>
+                <div class="w-1/2 pl-4">
+                    <p>A: Where were you?</p>
+                    <p>B: At the beach.</p>
+                    <p>A: Who was with you at the beach?</p>
+                    <p>B: My cousin.</p>
+                    <p>A: What was the name of the beach?</p>
+                    <p>B: Venice Beach.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <h4>3 When</h4>
+            <p>Use <em>when</em> to ask a time.</p>
+            <div class="flex justify-between mt-4">
+                <div class="w-1/2 pr-4"></div>
+                <div class="w-1/2 pl-4">
+                    <p>A: When were you there?</p>
+                    <p>B: In June.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <h4>4 How + How long</h4>
+            <p>Use <em>how</em> to ask for a description.</p>
+            <div class="flex justify-between mt-4">
+                <div class="w-1/2 pr-4">
+                    <p>Use <em>how long</em> to ask about a length of time.</p>
+                </div>
+                <div class="w-1/2 pl-4">
+                    <p>A: How was your vacation?</p>
+                    <p>B: Wonderful!</p>
+                    <p>A: How long was your vacation?</p>
+                    <p>B: Ten days.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <h4>5 It for the Weather</h4>
+            <p>Use <em>it</em> to talk about the weather.</p>
+            <div class="flex justify-between mt-4">
+                <div class="w-1/2 pr-4"></div>
+                <div class="w-1/2 pl-4">
+                    <p>A: How was the weather?</p>
+                    <p>B: It was hot. It was sunny, too.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mt-10">REFERENCE NOTES</h3>
+        <p>For definitions of grammar terms, see the Glossary on page 375.</p>
+        <p>For more information on simple past statements and questions, see Unit 24 on page 274, Unit 25 on page 286, and Unit 26 on page 298.</p>
+        <div class="text-center mt-6">
+            <button class="bg-purple-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-purple-700 transition duration-300">Go to MyEnglishLab to watch the grammar presentation</button>
+        </div>
+
+        <hr class="my-8 border-t-2 border-gray-200">
+
+        <div class="section-title">STEP 3 FOCUSED PRACTICE</div>
+
+        <h4 class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</h4>
+        <p>GRAMMAR NOTES 1–5 Read the questions and answers. Circle the question words. Underline the past forms of be. Then match the questions and answers.</p>
+
+        <div class="match-exercise mt-4">
+            <div class="match-item">
+                <span class="mr-4">1. b. <span class="underline-text">Where were</span> you last night?</span>
+                <span>a. It was hot.</span>
+                <input type="text" placeholder="Ans">
+            </div>
+            <div class="match-item">
+                <span class="mr-4">2. Who was with you?</span>
+                <span>b. I was at a soccer game.</span>
+                <input type="text" placeholder="Ans">
+            </div>
+            <div class="match-item">
+                <span class="mr-4">3. How was the game?</span>
+                <span>c. Two hours.</span>
+                <input type="text" placeholder="Ans">
+            </div>
+            <div class="match-item">
+                <span class="mr-4">4. How long was the game?</span>
+                <span>d. He was on vacation in Miami.</span>
+                <input type="text" placeholder="Ans">
+            </div>
+            <div class="match-item">
+                <span class="mr-4">5. How was the weather?</span>
+                <span>e. My sister and I were there.</span>
+                <input type="text" placeholder="Ans">
+            </div>
+            <div class="match-item">
+                <span class="mr-4">6. Where was your brother?</span>
+                <span>f. Exciting.</span>
+                <input type="text" placeholder="Ans">
+            </div>
+        </div>
+
+        <h4 class="exercise-title">EXERCISE 2 WORD ORDER</h4>
+        <p>GRAMMAR NOTES 1–4 Put the words in the correct order. Make conversations.</p>
+
+        <div class="fill-in-the-blank mt-4">
+            <p>1. A: <span class="underline-text">How was your weekend?</span></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(How / your weekend? / was)</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: <input type="text" class="fill-in-the-blank" placeholder="(was / it / great.)"></p>
+            <p>2. A: <input type="text" class="fill-in-the-blank" placeholder="(you? / were / Where)"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: <input type="text" class="fill-in-the-blank" placeholder="(a / concert. / At)"></p>
+            <p>3. A: <input type="text" class="fill-in-the-blank" placeholder="(was / When / the concert?)"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: <input type="text" class="fill-in-the-blank" placeholder="(last night. / was / It)"></p>
+            <p>4. A: <input type="text" class="fill-in-the-blank" placeholder="(in the concert? / Who / was)"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: <input type="text" class="fill-in-the-blank" placeholder="(Taylor Swift.)"></p>
+            <p>5. A: <input type="text" class="fill-in-the-blank" placeholder="(the concert? / long / was / How)"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: <input type="text" class="fill-in-the-blank" placeholder="(two hours. / It / was)"></p>
+        </div>
+
+        <h4 class="exercise-title">EXERCISE 3 WH- QUESTION WORDS</h4>
+        <p>GRAMMAR NOTES 1–5 Complete the conversations. Circle the correct answers.</p>
+
+        <div class="multiple-choice mt-4">
+            <p>1. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q1a_how" name="ex3q1" value="How">
+                    <label for="ex3q1a_how">How</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q1a_when" name="ex3q1" value="When">
+                    <label for="ex3q1a_when">When</label>
+                </span> was the weather?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: It was cold.</p>
+
+            <p class="mt-4">2. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q2a_what" name="ex3q2" value="What">
+                    <label for="ex3q2a_what">What</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q2a_who" name="ex3q2" value="Who">
+                    <label for="ex3q2a_who">Who</label>
+                </span> was in the mountains last week?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: Mark was.</p>
+
+            <p class="mt-4">3. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q3a_where" name="ex3q3" value="Where">
+                    <label for="ex3q3a_where">Where</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q3a_when" name="ex3q3" value="When">
+                    <label for="ex3q3a_when">When</label>
+                </span> were Pierre and Jacques on Monday?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: They were in Paris.</p>
+
+            <p class="mt-4">4. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q4a_where" name="ex3q4" value="Where">
+                    <label for="ex3q4a_where">Where</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q4a_when" name="ex3q4" value="When">
+                    <label for="ex3q4a_when">When</label>
+                </span> was the party?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: The party was yesterday.</p>
+
+            <p class="mt-4">5. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q5a_who" name="ex3q5" value="Who">
+                    <label for="ex3q5a_who">Who</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q5a_how" name="ex3q5" value="How">
+                    <label for="ex3q5a_how">How</label>
+                </span> was with Kathy?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: Mark was with Kathy.</p>
+
+            <p class="mt-4">6. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q6a_how" name="ex3q6" value="How">
+                    <label for="ex3q6a_how">How</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q6a_howlong" name="ex3q6" value="How long">
+                    <label for="ex3q6a_howlong">How long</label>
+                </span> was the movie?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: The movie was three hours long.</p>
+
+            <p class="mt-4">7. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q7a_when" name="ex3q7" value="When">
+                    <label for="ex3q7a_when">When</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q7a_where" name="ex3q7" value="Where">
+                    <label for="ex3q7a_where">Where</label>
+                </span> were his parents?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: His parents were in California.</p>
+
+            <p class="mt-4">8. A:
+                <span class="circle-word">
+                    <input type="radio" id="ex3q8a_how" name="ex3q8" value="How">
+                    <label for="ex3q8a_how">How</label>
+                </span>/
+                <span class="circle-word">
+                    <input type="radio" id="ex3q8a_howlong" name="ex3q8" value="How long">
+                    <label for="ex3q8a_howlong">How long</label>
+                </span> was the game?
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: It was great.</p>
+        </div>
+
+        <h4 class="exercise-title">EXERCISE 4 PAST WH- QUESTIONS</h4>
+        <p>GRAMMAR NOTES 1–5 Complete the conversation. Use <em>wh-</em> question words and <em>was</em> or <em>were</em>.</p>
+
+        <div class="fill-in-the-blank mt-4">
+            <p><strong>BINH:</strong> You weren't in class last week. <span class="underline-text">Where were</span> you?</p>
+            <p><strong>DANUTA:</strong> I was in London for my brother's wedding.</p>
+            <p><strong>BINH:</strong> <input type="text" class="fill-in-the-blank" placeholder="1. (Wh- question word + was/were)"></p>
+            <p><strong>DANUTA:</strong> The wedding was wonderful.</p>
+            <p><strong>BINH:</strong> <input type="text" class="fill-in-the-blank" placeholder="2. (Wh- question word + was/were)"></p>
+            <p><strong>DANUTA:</strong> It was delicious.</p>
+            <p><strong>BINH:</strong> <input type="text" class="fill-in-the-blank" placeholder="3. (Wh- question word + was/were)"></p>
+            <p><strong>DANUTA:</strong> I was in London for four days.</p>
+            <p><strong>BINH:</strong> <input type="text" class="fill-in-the-blank" placeholder="4. (Wh- question word + was/were)"></p>
+            <p><strong>DANUTA:</strong> It wasn't good. It was cold and rainy, but the people were great.</p>
+        </div>
+
+        <h4 class="exercise-title">EXERCISE 5 EDITING</h4>
+        <p>GRAMMAR NOTES 1–5 There are five mistakes in the conversations. The first mistake is corrected. Find and correct four more.</p>
+
+        <div class="error-correction mt-4">
+            <div class="error-line">
+                <p><strong>OLGA:</strong> How <span class="underline-text">were</span> your weekend?</p>
+                <input type="text" value="was" readonly class="bg-gray-100 rounded px-2 py-1">
+            </div>
+            <div class="error-line">
+                <p><strong>TODD:</strong> Saturday evening was great.</p>
+            </div>
+            <div class="error-line">
+                <p><strong>OLGA:</strong> Where was you?</p>
+                <input type="text" placeholder="Correction">
+            </div>
+            <div class="error-line">
+                <p><strong>TODD:</strong> At a soccer game.</p>
+            </div>
+            <div class="error-line">
+                <p><strong>OLGA:</strong> How the game was?</p>
+                <input type="text" placeholder="Correction">
+            </div>
+            <div class="error-line">
+                <p><strong>TODD:</strong> Exciting and long.</p>
+            </div>
+            <div class="error-line">
+                <p><strong>OLGA:</strong> How long were it?</p>
+                <input type="text" placeholder="Correction">
+            </div>
+            <div class="error-line">
+                <p><strong>TODD:</strong> Three hours.</p>
+            </div>
+            <div class="error-line">
+                <p><strong>OLGA:</strong> Who with you?</p>
+                <input type="text" placeholder="Correction">
+            </div>
+            <div class="error-line">
+                <p><strong>TODD:</strong> My brother.</p>
+            </div>
+            <div class="error-line">
+                <p><strong>OLGA:</strong> How was the weather?</p>
+            </div>
+            <div class="error-line">
+                <p><strong>TODD:</strong> It was hot!</p>
+            </div>
+        </div>
+
+        <hr class="my-8 border-t-2 border-gray-200">
+
+        <div class="section-title">STEP 4 COMMUNICATION PRACTICE</div>
+
+        <h4 class="exercise-title">EXERCISE 6 LISTENING</h4>
+        <p><strong class="text-blue-600">A</strong> Listen to the conversation. Circle the correct answers.</p>
+
+        <div class="multiple-choice mt-4 flex flex-wrap">
+            <div class="w-full md:w-1/2 mb-4 md:pr-4">
+                <p>1. How was Jason's weekend?</p>
+                <label><input type="radio" name="ex6q1" value="a"> a. Very good.</label>
+                <label><input type="radio" name="ex6q1" value="b"> b. Good.</label>
+                <label><input type="radio" name="ex6q1" value="c"> c. Not so good.</label>
+            </div>
+            <div class="w-full md:w-1/2 mb-4 md:pl-4">
+                <p>2. How was Maria's weekend?</p>
+                <label><input type="radio" name="ex6q2" value="a"> a. Very good.</label>
+                <label><input type="radio" name="ex6q2" value="b"> b. Good.</label>
+                <label><input type="radio" name="ex6q2" value="c"> c. Not so good.</label>
+            </div>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">B</strong> Listen again. Complete the sentences. Circle the correct answers.</p>
+
+        <div class="multiple-choice mt-4 flex flex-wrap">
+            <div class="w-full md:w-1/2 mb-4 md:pr-4">
+                <p>1. Jason was <input type="text" class="fill-in-the-blank w-24"></p>
+                <label><input type="radio" name="ex6q3" value="a"> a. at the beach</label>
+                <label><input type="radio" name="ex6q3" value="b"> b. in the mountains</label>
+                <label><input type="radio" name="ex6q3" value="c"> c. at home</label>
+            </div>
+            <div class="w-full md:w-1/2 mb-4 md:pl-4">
+                <p>3. Maria was at <input type="text" class="fill-in-the-blank w-24"></p>
+                <label><input type="radio" name="ex6q4" value="a"> a. the beach</label>
+                <label><input type="radio" name="ex6q4" value="b"> b. the movies</label>
+                <label><input type="radio" name="ex6q4" value="c"> c. home</label>
+            </div>
+            <div class="w-full md:w-1/2 mb-4 md:pr-4">
+                <p>2. The weather was <input type="text" class="fill-in-the-blank w-24"></p>
+                <label><input type="radio" name="ex6q5" value="a"> a. sunny and cool</label>
+                <label><input type="radio" name="ex6q5" value="b"> b. sunny and hot</label>
+                <label><input type="radio" name="ex6q5" value="c"> c. sunny and cold</label>
+            </div>
+            <div class="w-full md:w-1/2 mb-4 md:pl-4">
+                <p>4. Maria was busy with <input type="text" class="fill-in-the-blank w-24"></p>
+                <label><input type="radio" name="ex6q6" value="a"> a. work</label>
+                <label><input type="radio" name="ex6q6" value="b"> b. homework</label>
+                <label><input type="radio" name="ex6q6" value="c"> c. friends from high school</label>
+            </div>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">C</strong> Work with a partner. Compare your answers in A and B.</p>
+
+        <h4 class="exercise-title">EXERCISE 7 THE WEATHER LAST WEEK</h4>
+        <p><strong>CONVERSATION</strong> Work with a partner. Have a conversation about the weather in your city every day last week. Use the weather words.</p>
+
+        <p class="mt-4">EXAMPLE: A: How was the weather on Monday?</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B: On Monday, it was hot. What about Tuesday? Was it hot on Tuesday?</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: No, it was cloudy. It was warm, but not hot.</p>
+
+        <div class="flex flex-wrap md:flex-nowrap gap-6 mt-8">
+            <div class="w-full md:w-2/3">
+                <div class="weather-image-grid">
+                    <div><img src="FOG-1-8/5.png" alt="Sunny icon" onerror="this.onerror=null;this.src='https://placehold.co/100x100/cccccc/333333?text=Sunny'">sunny</div>
+                    <div><img src="FOG-1-8/6.png" alt="Cloudy icon" onerror="this.onerror=null;this.src='https://placehold.co/100x100/cccccc/333333?text=Cloudy'">cloudy</div>
+                    <div><img src="FOG-1-8/7.png" alt="Windy icon" onerror="this.onerror=null;this.src='https://placehold.co/100x100/cccccc/333333?text=Windy'">windy</div>
+                    <div><img src="FOG-1-8/8.png" alt="Rainy icon" onerror="this.onerror=null;this.src='https://placehold.co/100x100/cccccc/333333?text=Rainy'">rainy</div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 flex flex-col items-center">
+                <div class="temperature-chart">
+                    <div class="labels-f">
+                        <div>110°</div>
+                        <div>100°</div>
+                        <div>90°</div>
+                        <div>80°</div>
+                        <div>70°</div>
+                        <div>60°</div>
+                        <div>50°</div>
+                        <div>40°</div>
+                        <div>30°</div>
+                        <div>20°</div>
+                        <div>10°</div>
+                        <div>0°</div>
+                        <div>-10°</div>
+                        <div>-20°</div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="labels-c">
+                        <div>40°</div>
+                        <div>30°</div>
+                        <div>20°</div>
+                        <div>10°</div>
+                        <div>0°</div>
+                        <div>-10°</div>
+                        <div>-20°</div>
+                        <div>-30°</div>
+                    </div>
+                </div>
+                <div class="image-container flex-col mt-4">
+                    <div class="image-item"><img src="FOG-1-8/9.png" alt="Hot weather person" onerror="this.onerror=null;this.src='https://placehold.co/100x150/cccccc/333333?text=Hot'">hot</div>
+                    <div class="image-item"><img src="FOG-1-8/10.png" alt="Warm weather person" onerror="this.onerror=null;this.src='https://placehold.co/100x150/cccccc/333333?text=Warm'">warm</div>
+                    <div class="image-item"><img src="FOG-1-8/11.png" alt="Cool weather person" onerror="this.onerror=null;this.src='https://placehold.co/100x150/cccccc/333333?text=Cool'">cool</div>
+                    <div class="image-item"><img src="FOG-1-8/12.png" alt="Cold weather person" onerror="this.onerror=null;this.src='https://placehold.co/100x150/cccccc/333333?text=Cold'">cold</div>
+                    <div class="image-item"><img src="FOG-1-8/13.png" alt="Freezing weather person" onerror="this.onerror=null;this.src='https://placehold.co/100x150/cccccc/333333?text=Freezing'">freezing</div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="exercise-title">EXERCISE 8 HOW WAS YOUR WEEKEND?</h4>
+        <p><strong>A ROLE PLAY</strong> Work with a partner. Make up a conversation about your weekend. Use the question words in the box or your own ideas.</p>
+
+        <div class="flex flex-wrap md:flex-nowrap gap-6 mt-4">
+            <div class="w-full md:w-2/3">
+                <p>EXAMPLE: A: How was your weekend?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B: It was great.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: Where were you?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B: I was in Hawaii.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: Wow!</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B: What about you? How was your weekend?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: It was OK.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B: Where were you?</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: I was at the library.</p>
+            </div>
+            <div class="w-full md:w-1/3 bg-gray-100 p-4 rounded-lg">
+                <p>How / weekend?</p>
+                <p>Where / you?</p>
+                <p>When / you / there?</p>
+                <p>How / the weather?</p>
+                <p>Were / alone?</p>
+                <p>Who / with you?</p>
+            </div>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">B</strong> Perform your conversation for the class.</p>
+
+        <h4 class="exercise-title">EXERCISE 9 WHO WAS REALLY THERE?</h4>
+        <p><strong>A GAME</strong> Work with the class. Three students choose a city, but only one student was really there. All three students say they were there.</p>
+
+        <div class="flex flex-wrap md:flex-nowrap gap-6 mt-4">
+            <div class="w-full md:w-1/2">
+                <div class="bg-gray-100 p-4 rounded-lg mb-4">
+                    <p>I was in Mexico City.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg mb-4">
+                    <p>I was in Mexico City.</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                    <p>I was in Mexico City.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center items-center">
+                <img src="FOG-1-8/14.png" alt="People talking" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+14'" class="rounded-lg shadow-md">
+            </div>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">B</strong> The class asks the three students the questions in the box or other questions. Students A, B, and C answer the questions. The class guesses who was really there. Take turns.</p>
+
+        <div class="bg-gray-100 p-4 rounded-lg mt-4">
+            <p>When were you there?</p>
+            <p>How was the weather?</p>
+            <p>What was your favorite food?</p>
+            <p>What's a famous place in the city?</p>
+            <p>What other cities are near the city?</p>
+            <p>Was the flight expensive?</p>
+            <p>How long was the flight?</p>
+            <p>Were the people friendly?</p>
+        </div>
+
+        <p class="mt-6">EXAMPLE: A: When were you in Mexico City, Adjo?</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B: Last summer.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: What about you, Olga? When were you in Mexico City?</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C: I was there last month.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: And you, Erik?</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D: I was there three years ago....</p>
+
+        <hr class="my-8 border-t-2 border-gray-200">
+
+        <div class="section-title">FROM GRAMMAR TO WRITING</div>
+
+        <p><strong class="text-blue-600">A BEFORE YOU WRITE</strong> Read the email. Underline all the <em>wh-</em> questions. Then think of a friend who was on vacation. Write questions for your friend in the chart. Work with a partner. Practice your questions.</p>
+
+        <div class="email-preview">
+            <div class="email-header">
+                <p>To: Friend</p>
+                <p>From: Me</p>
+                <p>Subject: Your trip!</p>
+            </div>
+            <div class="email-body">
+                <p>Sara,</p>
+                <p>How was your vacation? I hope it was fun.</p>
+                <p>I know you were in Florida, but <span class="underline-wh">where were you</span>? <span class="underline-wh">What city</span>? <span class="underline-wh">How was the weather there</span>? It was cold here.</p>
+                <p>Florida is far from here. <span class="underline-wh">How long was the drive</span>? <span class="underline-wh">How was it</span>? <span class="underline-wh">Who was the driver</span>?</p>
+                <p>Are you free for lunch this week? I want to hear all about your trip.</p>
+                <p>Alicia</p>
+            </div>
+            <img src="FOG-1-8/15.png" alt="Email background image" onerror="this.onerror=null;this.src='https://placehold.co/200x150/cccccc/333333?text=Email+Image'" class="absolute right-0 top-0 h-full w-auto object-cover rounded-r-lg opacity-70">
+        </div>
+
+        <table class="email-table mt-8">
+            <thead>
+                <tr>
+                    <th>Where...</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><input type="text" placeholder="Your question here"></td></tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th>When...</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><input type="text" placeholder="Your question here"></td></tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Who...</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><input type="text" placeholder="Your question here"></td></tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th>How...</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><input type="text" placeholder="Your question here"></td></tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th>How long...</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><input type="text" placeholder="Your question here"></td></tr>
+            </tbody>
+        </table>
+
+        <p class="mt-6"><strong class="text-blue-600">B WRITE</strong> Write an email with questions about a friend's vacation. Use <em>wh-</em> questions with <em>be</em>. Use the email in A and your chart to help you.</p>
+
+        <p class="mt-6"><strong class="text-blue-600">C CHECK YOUR WORK</strong> Read your email. Underline examples of <em>was</em> and <em>were</em>. Circle <em>wh-</em> words. Use the Editing Checklist to check your work.</p>
+
+        <div class="bg-gray-100 p-4 rounded-lg mt-4">
+            <h4 class="text-gray-700 mb-2">Editing Checklist</h4>
+            <div class="checklist-item">
+                <input type="checkbox">
+                <label>Did you...? </label>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox">
+                <label>use <em>wh-</em> question words with <em>was</em> and <em>were</em></label>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox">
+                <label>start <em>wh-</em> questions with a <em>wh-</em> question word + <em>be</em></label>
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox">
+                <label>check your spelling</label>
+            </div>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">D REVISE YOUR WORK</strong> Read your email again. Can you improve your writing? Make changes if necessary.</p>
+
+        <hr class="my-8 border-t-2 border-gray-200">
+
+        <div class="section-title">UNIT 8 REVIEW</div>
+
+        <p><strong class="text-blue-600">A</strong> Complete the conversations with <em>Who, Where, When, How, or How long</em>.</p>
+
+        <div class="fill-in-the-blank mt-4">
+            <p>1. A: <input type="text" class="fill-in-the-blank w-32"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: At the supermarket.</p>
+            <p>2. A: <input type="text" class="fill-in-the-blank w-32"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: It was freezing.</p>
+            <p>3. A: <input type="text" class="fill-in-the-blank w-32"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: My roommate.</p>
+            <p>4. A: <input type="text" class="fill-in-the-blank w-32"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: One hour.</p>
+            <p>5. A: <input type="text" class="fill-in-the-blank w-32"></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;B: Yesterday.</p>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">B</strong> Put the words in the correct order. Make a conversation.</p>
+
+        <div class="fill-in-the-blank mt-4">
+            <p>A: <input type="text" class="fill-in-the-blank w-full" placeholder="1. (were / Where / last night? / you)"></p>
+            <p>B: <input type="text" class="fill-in-the-blank w-full" placeholder="2. (at the movies. / was / I)"></p>
+            <p>A: <input type="text" class="fill-in-the-blank w-full" placeholder="3. (the movie? / was / How)"></p>
+            <p>B: <input type="text" class="fill-in-the-blank w-full" placeholder="4. (funny. / was / It)"></p>
+            <p>A: <input type="text" class="fill-in-the-blank w-full" placeholder="5. (was / with you? / Who)"></p>
+            <p>B: <input type="text" class="fill-in-the-blank w-full" placeholder="6. (Drew / with me. / was)"></p>
+        </div>
+
+        <p class="mt-6"><strong class="text-blue-600">C</strong> Correct the conversation. There are four mistakes.</p>
+
+        <div class="error-correction mt-4">
+            <div class="error-line">
+                <p>A: Hi. What was your vacation?</p>
+            </div>
+            <div class="error-line">
+                <p>B: It was great.</p>
+            </div>
+            <div class="error-line">
+                <p>A: Where was you?</p>
+                <input type="text" placeholder="Correction">
+            </div>
+            <div class="error-line">
+                <p>B: In the mountains.</p>
+            </div>
+            <div class="error-line">
+                <p>A: In the mountains? How the weather was?</p>
+                <input type="text" placeholder="Correction">
+            </div>
+            <div class="error-line">
+                <p>B: It was rainy.</p>
+            </div>
+            <div class="error-line">
+                <p>A: How were you there?</p>
+                <input type="text" placeholder="Correction">
+            </div>
+            <div class="error-line">
+                <p>B: A week.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
