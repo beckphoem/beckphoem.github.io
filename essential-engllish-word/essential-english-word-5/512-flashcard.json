@@ -1,0 +1,362 @@
+[
+  {
+    "question": "cấp tính, buốt, nhói.",
+    "classes": "adj",
+    "answer": "acute",
+    "ipa": "/əˈkjuːt/",
+    "example": "He got **acute**, spontaneous pains in his ears.",
+    "english-definition": "if a bad situation is acute, it causes severe problems or damage.",
+    "images": "eew-5-11/1.png"
+  },
+  {
+    "question": "sự hung hăng, sự gây hấn.",
+    "classes": "n",
+    "answer": "aggression",
+    "ipa": "/əˈɡreʃ.ən/",
+    "example": "He lost the virtue of patience, and he became notorious for his **aggression**.",
+    "english-definition": "spoken or physical behaviour that is threatening or involves harm to someone or something.",
+    "images": "eew-5-11/2.png"
+  },
+  {
+    "question": "tiệc lớn, yến tiệc.",
+    "classes": "n",
+    "answer": "banquet",
+    "ipa": "/ˈbæŋ.kwɪt/",
+    "example": "His final concert was held at a huge **banquet**.",
+    "english-definition": "a large formal meal for many people.",
+    "images": "eew-5-11/3.png"
+  },
+  {
+    "question": "tiểu sử, lý lịch.",
+    "classes": "n",
+    "answer": "biography",
+    "ipa": "/baɪˈɒɡ.rə.fi/",
+    "example": "Many **biographies** have been written that narrate his dominance in the music world.",
+    "english-definition": "the life story of a person written by someone else.",
+    "images": "eew-5-11/4.png"
+  },
+  {
+    "question": "thúc đẩy, nâng cao, làm tăng lên.",
+    "classes": "v",
+    "answer": "boost",
+    "ipa": "/buːst/",
+    "example": "In that beautiful moment, the applause **boosted** his emotions, and he began to cry.",
+    "english-definition": "to improve or increase something.",
+    "images": "eew-5-11/5.png"
+  },
+  {
+    "question": "vỗ tay.",
+    "classes": "v",
+    "answer": "clap",
+    "ipa": "/klæp/",
+    "example": "They **clapped** and cheered wildly.",
+    "english-definition": "to make a short loud noise by hitting your hands together.",
+    "images": "eew-5-11/6.png"
+  },
+  {
+    "question": "buộc phải, ép buộc.",
+    "classes": "v",
+    "answer": "compel",
+    "ipa": "/kəmˈpel/",
+    "example": "His passion for music **compelled** him to keep performing even after he went deaf.",
+    "english-definition": "to force someone to do something.",
+    "images": "eew-5-11/7.png"
+  },
+  {
+    "question": "sự thống trị, sự áp đảo, ưu thế.",
+    "classes": "n",
+    "answer": "dominance",
+    "ipa": "/ˈdɒm.ɪ.nəns/",
+    "example": "Many biographies have been written that narrate his **dominance** in the music world.",
+    "english-definition": "the quality of being more important, strong, or successful than anything else of the same type.",
+    "images": "eew-5-11/8.png"
+  },
+  {
+    "question": "lộng lẫy, rực rỡ, tuyệt đẹp.",
+    "classes": "adj",
+    "answer": "gorgeous",
+    "ipa": "/ˈɡɔː.dʒəs/",
+    "example": "He couldn’t hear himself play, but he knew that his creations sounded **gorgeous**.",
+    "english-definition": "very beautiful or pleasant.",
+    "images": "eew-5-11/9.png"
+  },
+  {
+    "question": "không thể tránh khỏi, tất yếu.",
+    "classes": "adj",
+    "answer": "inevitable",
+    "ipa": "/ɪˈnev.ɪ.tə.bəl/",
+    "example": "It was **inevitable** that he would eventually lose it altogether.",
+    "english-definition": "certain to happen and unable to be avoided or prevented.",
+    "images": "eew-5-11/10.png"
+  },
+  {
+    "question": "di sản, tài sản kế thừa.",
+    "classes": "n",
+    "answer": "legacy",
+    "ipa": "/ˈleɡ.ə.si/",
+    "example": "Even though Beethoven is gone, his **legacy** will live on forever.",
+    "english-definition": "money or property that you receive from someone after they die.",
+    "images": "eew-5-11/11.png"
+  },
+  {
+    "question": "kiệt tác, tác phẩm lớn.",
+    "classes": "n",
+    "answer": "masterpiece",
+    "ipa": "/ˈmɑː.stə.piːs/",
+    "example": "Even though millions of people got to hear his multiple **masterpieces**, he never did.",
+    "english-definition": "a work of art such as a painting, film, or book that is made with great skill.",
+    "images": "eew-5-11/12.png"
+  },
+  {
+    "question": "nhiều, nhiều phần.",
+    "classes": "adj",
+    "answer": "multiple",
+    "ipa": "/ˈmʌl.tɪ.pəl/",
+    "example": "Even though millions of people got to hear his **multiple** **masterpieces**, he never did.",
+    "english-definition": "very many of the same type, or of different types.",
+    "images": "eew-5-11/13.png"
+  },
+  {
+    "question": "tường thuật, kể lại.",
+    "classes": "v",
+    "answer": "narrate",
+    "ipa": "/nəˈreɪt/",
+    "example": "Many biographies have been written that **narrate** his dominance in the music world.",
+    "english-definition": "to tell a story, often by reading it aloud from a text, or to describe events as they happen.",
+    "images": "eew-5-11/14.png"
+  },
+  {
+    "question": "khét tiếng, tai tiếng (vì điều gì đó xấu).",
+    "classes": "adj",
+    "answer": "notorious",
+    "ipa": "/nəʊˈtɔː.ri.əs/",
+    "example": "He lost the virtue of patience, and he became **notorious** for his aggression.",
+    "english-definition": "famous for something bad.",
+    "images": "eew-5-11/15.png"
+  },
+  {
+    "question": "lỗi thời, lạc hậu.",
+    "classes": "adj",
+    "answer": "outdated",
+    "ipa": "/ˌaʊtˈdeɪ.tɪd/",
+    "example": "He didn’t survive the sickness, but his music did because great music never becomes **outdated**.",
+    "english-definition": "old-fashioned and therefore not as good or as useful as something more modern.",
+    "images": "eew-5-11/16.png"
+  },
+  {
+    "question": "nhìn chung, toàn bộ, toàn diện.",
+    "classes": "adv",
+    "answer": "overall",
+    "ipa": "/ˌəʊ.vəˈrɔːl/",
+    "example": "**Overall**, performance was one of the finest in history.",
+    "english-definition": "in general rather than in particular, or including all the people or things in a particular group or situation.",
+    "images": "eew-5-11/17.png"
+  },
+  {
+    "question": "sự thiên vị, sự yêu thích đặc biệt.",
+    "classes": "n",
+    "answer": "partiality",
+    "ipa": "/ˌpɑː.ʃiˈæl.ə.ti/",
+    "example": "His **partiality** toward classical music developed when he was very young.",
+    "english-definition": "the fact of unfairly preferring or supporting one person, group, or thing more than another.",
+    "images": "eew-5-11/18.png"
+  },
+  {
+    "question": "tự phát, tự nhiên, không sắp đặt trước.",
+    "classes": "adj",
+    "answer": "spontaneous",
+    "ipa": "/spɒnˈteɪ.ni.əs/",
+    "example": "He got acute, **spontaneous** pains in his ears.",
+    "english-definition": "happening or done in a natural, often sudden way, without any planning or encouragement.",
+    "images": "eew-5-11/19.png"
+  },
+  {
+    "question": "đức tính tốt, đức hạnh.",
+    "classes": "n",
+    "answer": "virtue",
+    "ipa": "/ˈvɜː.tʃuː/",
+    "example": "He lost the **virtue** of patience, and he became notorious for his aggression.",
+    "english-definition": "a good moral quality in a person, or the general quality of being morally good.",
+    "images": "eew-5-11/20.png"
+  },
+  {
+    "question": "ngành nghiên cứu về con người, xã hội, văn hóa và sự phát triển của loài người",
+    "classes": "n",
+    "answer": "anthropology",
+    "ipa": "/ˌænθrəˈpɒlədʒi/",
+    "example": "John was an **undergraduate** in college, and he studied **anthropology** and history.",
+    "english-definition": "the study of humankind, especially its customs, beliefs, and relationships",
+    "images": "eew-5-12/1.png"
+  },
+  {
+    "question": "vỗ tay tán thưởng",
+    "classes": "v",
+    "answer": "applaud",
+    "ipa": "/əˈplɔːd/",
+    "example": "Everyone **applauded** the brothers’ good work.",
+    "english-definition": "to show approval or praise by clapping hands",
+    "images": "eew-5-12/2.png"
+  },
+  {
+    "question": "chỉ định, bổ nhiệm",
+    "classes": "v",
+    "answer": "appoint",
+    "ipa": "/əˈpɔɪnt/",
+    "example": "One day, the mayor **appointed** Mark to build a monument: a statue of Egyptian Pharaoh, Tut.",
+    "english-definition": "to choose someone for a job or position",
+    "images": "eew-5-12/3.png"
+  },
+  {
+    "question": "tương thích, hợp nhau",
+    "classes": "adj",
+    "answer": "compatible",
+    "ipa": "/kəmˈpætəbl/",
+    "example": "“We worked together very well. I guess we are **compatible** after all,” Mark said.",
+    "english-definition": "able to exist or occur together without conflict",
+    "images": "eew-5-12/4.png"
+  },
+  {
+    "question": "năng lực, khả năng",
+    "classes": "n",
+    "answer": "competence",
+    "ipa": "/ˈkɒmpɪtəns/",
+    "example": "However, he thought he had the **competence** to build a good statue anyway.",
+    "english-definition": "the ability to do something successfully or efficiently",
+    "images": "eew-5-12/5.png"
+  },
+  {
+    "question": "bàn bạc, hội ý",
+    "classes": "v",
+    "answer": "confer",
+    "ipa": "/kənˈfɜːr/",
+    "example": "Mark **conferred** with John about every detail.",
+    "english-definition": "to have discussions with someone in order to exchange opinions or get advice",
+    "images": "eew-5-12/6.png"
+  },
+  {
+    "question": "liên tiếp, liên tục",
+    "classes": "adj",
+    "answer": "consecutive",
+    "ipa": "/kənˈsekjətɪv/",
+    "example": "For ten **consecutive** hours, the brothers worked.",
+    "english-definition": "following one after another continuously",
+    "images": "eew-5-12/7.png"
+  },
+  {
+    "question": "thô sơ, sơ sài",
+    "classes": "adj",
+    "answer": "crude",
+    "ipa": "/kruːd/",
+    "example": "He made some **crude** measurements and sculpted a statue of a very old man with a tattoo on his chest.",
+    "english-definition": "in a natural or raw state; not yet processed or refined",
+    "images": "eew-5-12/8.png"
+  },
+  {
+    "question": "khối lập phương",
+    "classes": "n",
+    "answer": "cube",
+    "ipa": "/kjuːb/",
+    "example": "Mark got another **cube** of stone.",
+    "english-definition": "a symmetrical three-dimensional shape, either solid or hollow, contained by six equal squares",
+    "images": "eew-5-12/9.png"
+  },
+  {
+    "question": "phản hồi, thông tin phản hồi",
+    "classes": "n",
+    "answer": "feedback",
+    "ipa": "/ˈfiːdbæk/",
+    "example": "I’ll give you **feedback**, and we’ll make this a great monument.”",
+    "english-definition": "information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement",
+    "images": "eew-5-12/10.png"
+  },
+  {
+    "question": "sự thiếu hiểu biết, sự dốt nát",
+    "classes": "n",
+    "answer": "ignorance",
+    "ipa": "/ˈɪɡnərəns/",
+    "example": "John replied, “Your **ignorance** makes me laugh.",
+    "english-definition": "lack of knowledge or information",
+    "images": "eew-5-12/11.png"
+  },
+  {
+    "question": "nam tính",
+    "classes": "adj",
+    "answer": "masculine",
+    "ipa": "/ˈmæskjəlɪn/",
+    "example": "Mark looked very **masculine**.",
+    "english-definition": "having qualities or appearance traditionally associated with men, especially strength and aggressiveness",
+    "images": "eew-5-12/12.png"
+  },
+  {
+    "question": "đài tưởng niệm, tượng đài",
+    "classes": "n",
+    "answer": "monument",
+    "ipa": "/ˈmɒnjumənt/",
+    "example": "One day, the mayor appointed Mark to build a **monument**: a statue of Egyptian Pharaoh, Tut.",
+    "english-definition": "a statue, building, or other structure erected to commemorate a famous person or event",
+    "images": "eew-5-12/13.png"
+  },
+  {
+    "question": "vạm vỡ, có cơ bắp",
+    "classes": "adj",
+    "answer": "muscular",
+    "ipa": "/ˈmʌskjələr/",
+    "example": "He had a mustache and was very **muscular**.",
+    "english-definition": "having well-developed muscles",
+    "images": "eew-5-12/14.png"
+  },
+  {
+    "question": "tư thế",
+    "classes": "n",
+    "answer": "posture",
+    "ipa": "/ˈpɒstʃər/",
+    "example": "“Make him tall with good **posture**,” John said.",
+    "english-definition": "the position in which someone holds their body when standing or sitting",
+    "images": "eew-5-12/15.png"
+  },
+  {
+    "question": "đặt ở, định vị",
+    "classes": "v",
+    "answer": "situated",
+    "ipa": "/ˈsɪtʃueɪt/",
+    "example": "At last, the finished statue was **situated** in front of the museum.",
+    "english-definition": "to place or locate in a particular position or array",
+    "images": "eew-5-12/16.png"
+  },
+  {
+    "question": "giám sát",
+    "classes": "v",
+    "answer": "supervise",
+    "ipa": "/ˈsuːpərvaɪz/",
+    "example": "I’ll **supervise** your work.",
+    "english-definition": "to observe and direct the execution of a task or activity",
+    "images": "eew-5-12/17.png"
+  },
+  {
+    "question": "sự đối xứng",
+    "classes": "n",
+    "answer": "symmetry",
+    "ipa": "/ˈsɪmətriz/",
+    "example": "“And make sure there is **symmetry** in his body.”",
+    "english-definition": "the quality of being made up of exactly similar parts facing each other or around an axis",
+    "images": "eew-5-12/18.png"
+  },
+  {
+    "question": "hình xăm",
+    "classes": "n",
+    "answer": "tattoo",
+    "ipa": "/təˈtuː/",
+    "example": "He made some crude measurements and sculpted a statue of a very old man with a **tattoo** on his chest.",
+    "english-definition": "a form of body modification where a design is made by inserting ink, dyes and pigments, either indelible or temporary, into the dermis layer of the skin to change the pigment.",
+    "images": "eew-5-12/19.png"
+  },
+  {
+    "question": "sinh viên chưa tốt nghiệp đại học",
+    "classes": "n",
+    "answer": "undergraduate",
+    "ipa": "/ˌʌndərˈɡrædʒuət/",
+    "example": "John was an **undergraduate** in college, and he studied anthropology and history.",
+    "english-definition": "a university student who has not yet taken a first degree",
+    "images": "eew-5-12/20.png"
+  }
+]

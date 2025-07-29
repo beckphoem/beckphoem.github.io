@@ -1,0 +1,548 @@
+[
+  {
+    "word": "anthropology",
+    "ipa": "/ˌænθrəˈpɒlədʒi/",
+    "meaning": "ngành nghiên cứu về con người, xã hội, văn hóa và sự phát triển của loài người",
+    "image": "eew-5-12/1.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the study of humankind, especially its customs, beliefs, and relationships",
+        "meaning-example": "nghiên cứu về loài người, đặc biệt là phong tục, tín ngưỡng và các mối quan hệ của họ",
+        "ipa-example": "/ðə ˈstʌdi əv ˈhjuːmənkaɪnd, ɪˈspeʃəli ɪts ˈkʌstəmz, bɪˈliːfs, ænd rɪˈleɪʃənʃɪps/"
+      },
+      {
+        "sentence": "John was an undergraduate in college, and he studied anthropology and history.",
+        "meaning-example": "John là sinh viên đại học, và anh ấy học nhân chủng học và lịch sử.",
+        "ipa-example": "/dʒɒn wəz ən ˌʌndərˈɡrædʒuət ɪn ˈkɒlɪdʒ, ænd hi ˈstʌdid ˌænθrəˈpɒlədʒi ænd ˈhɪstəri./"
+      }
+    ]
+  },
+  {
+    "word": "applaud",
+    "ipa": "/əˈplɔːd/",
+    "meaning": "vỗ tay tán thưởng",
+    "image": "eew-5-12/2.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to show approval or praise by clapping hands",
+        "meaning-example": "thể hiện sự chấp thuận hoặc khen ngợi bằng cách vỗ tay",
+        "ipa-example": "/tə ʃoʊ əˈpruːvəl ɔː preɪz baɪ ˈklæpɪŋ hændz/"
+      },
+      {
+        "sentence": "Everyone applauded the brothers’ good work.",
+        "meaning-example": "Mọi người vỗ tay tán thưởng công việc tốt của hai anh em.",
+        "ipa-example": "/ˈevriwʌn əˈplɔːdɪd ðə ˈbrʌðərz ɡʊd wɜːk./"
+      }
+    ]
+  },
+  {
+    "word": "appoint",
+    "ipa": "/əˈpɔɪnt/",
+    "meaning": "chỉ định, bổ nhiệm",
+    "image": "eew-5-12/3.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to choose someone for a job or position",
+        "meaning-example": "chọn ai đó cho một công việc hoặc vị trí",
+        "ipa-example": "/tə tʃuːz ˈsʌmwʌn fɔːr ə dʒɒb ɔː pəˈzɪʃən/"
+      },
+      {
+        "sentence": "One day, the mayor appointed Mark to build a monument: a statue of Egyptian Pharaoh, Tut.",
+        "meaning-example": "Một ngày nọ, thị trưởng bổ nhiệm Mark xây một tượng đài: một bức tượng của Pharaon Tut của Ai Cập.",
+        "ipa-example": "/wʌn deɪ, ðə ˈmeɪər əˈpɔɪntɪd mɑːrk tə bɪld ə ˈmɒnjumənt: ə ˈstætʃuː əv ɪˈdʒɪpʃn ˈfæroʊ, tʌt./"
+      }
+    ]
+  },
+  {
+    "word": "compatible",
+    "ipa": "/kəmˈpætəbl/",
+    "meaning": "tương thích, hợp nhau",
+    "image": "eew-5-12/4.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "able to exist or occur together without conflict",
+        "meaning-example": "có thể tồn tại hoặc xảy ra cùng nhau mà không mâu thuẫn",
+        "ipa-example": "/ˈeɪbl tə ɪɡˈzɪst ɔːr əˈkɜː təˈɡeðər wɪˈðaʊt ˈkɒnflɪkt/"
+      },
+      {
+        "sentence": "“We worked together very well. I guess we are compatible after all,” Mark said.",
+        "meaning-example": "“Chúng ta đã làm việc rất ăn ý. Tôi đoán cuối cùng chúng ta cũng hợp nhau,” Mark nói.",
+        "ipa-example": "/wi wɜːkt təˈɡeðər ˈveri wel. aɪ ɡes wi ɑːr kəmˈpætəbl ˈɑːftər ɔːl,” mɑːrk sed./"
+      }
+    ]
+  },
+  {
+    "word": "competence",
+    "ipa": "/ˈkɒmpɪtəns/",
+    "meaning": "năng lực, khả năng",
+    "image": "eew-5-12/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the ability to do something successfully or efficiently",
+        "meaning-example": "khả năng làm điều gì đó thành công hoặc hiệu quả",
+        "ipa-example": "/ði əˈbɪləti tə duː ˈsʌmθɪŋ səkˈsesfəli ɔːr ɪˈfɪʃntli/"
+      },
+      {
+        "sentence": "However, he thought he had the competence to build a good statue anyway.",
+        "meaning-example": "Tuy nhiên, anh ấy nghĩ rằng mình vẫn có đủ năng lực để xây dựng một bức tượng tốt.",
+        "ipa-example": "/haʊˈevər, hi θɔːt hi həd ðə ˈkɒmpɪtəns tə bɪld ə ɡʊd ˈstætʃuː ˈeniweɪ./"
+      }
+    ]
+  },
+  {
+    "word": "confer",
+    "ipa": "/kənˈfɜːr/",
+    "meaning": "bàn bạc, hội ý",
+    "image": "eew-5-12/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to have discussions with someone in order to exchange opinions or get advice",
+        "meaning-example": "thảo luận với ai đó để trao đổi ý kiến ​​hoặc nhận lời khuyên",
+        "ipa-example": "/tə hæv dɪˈskʌʃənz wɪð ˈsʌmwʌn ɪn ˈɔːrdər tə ɪksˈtʃeɪndʒ əˈpɪnjənz ɔːr ɡet ədˈvaɪs/"
+      },
+      {
+        "sentence": "Mark conferred with John about every detail.",
+        "meaning-example": "Mark đã bàn bạc với John về mọi chi tiết.",
+        "ipa-example": "/mɑːrk kənˈfɜːrd wɪð dʒɒn əˈbaʊt ˈevri ˈdiːteɪl./"
+      }
+    ]
+  },
+  {
+    "word": "consecutive",
+    "ipa": "/kənˈsekjətɪv/",
+    "meaning": "liên tiếp, liên tục",
+    "image": "eew-5-12/7.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "following one after another continuously",
+        "meaning-example": "liên tục theo sau cái khác",
+        "ipa-example": "/ˈfɒloʊɪŋ wʌn ˈɑːftər əˈnʌðər kənˈtɪnjuəsli/"
+      },
+      {
+        "sentence": "For ten consecutive hours, the brothers worked.",
+        "meaning-example": "Trong mười giờ liên tục, hai anh em đã làm việc.",
+        "ipa-example": "/fɔːr ten kənˈsekjətɪv ˈaʊərz, ðə ˈbrʌðərz wɜːkt./"
+      }
+    ]
+  },
+  {
+    "word": "crude",
+    "ipa": "/kruːd/",
+    "meaning": "thô sơ, sơ sài",
+    "image": "eew-5-12/8.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "in a natural or raw state; not yet processed or refined",
+        "meaning-example": "ở trạng thái tự nhiên hoặc thô; chưa được xử lý hoặc tinh chế",
+        "ipa-example": "/ɪn ə ˈnætʃərəl ɔː rɔː steɪt; nɒt jet ˈprɒsesd ɔː rɪˈfaɪnd/"
+      },
+      {
+        "sentence": "He made some crude measurements and sculpted a statue of a very old man with a tattoo on his chest.",
+        "meaning-example": "Anh ấy đã đo đạc một cách thô sơ và điêu khắc một bức tượng một người đàn ông rất già với một hình xăm trên ngực.",
+        "ipa-example": "/hi meɪd sʌm kruːd ˈmeʒərmənts ænd ˈskʌlptɪd ə ˈstætʃuː əv ə ˈveri oʊld mæn wɪð ə tæˈtuː ɒn hɪz tʃest./"
+      }
+    ]
+  },
+  {
+    "word": "cube",
+    "ipa": "/kjuːb/",
+    "meaning": "khối lập phương",
+    "image": "eew-5-12/9.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a symmetrical three-dimensional shape, either solid or hollow, contained by six equal squares",
+        "meaning-example": "một hình dạng ba chiều đối xứng, đặc hoặc rỗng, được bao bọc bởi sáu hình vuông bằng nhau",
+        "ipa-example": "/ə sɪˈmetrɪkl θriː-dɪˈmenʃənl ʃeɪp, ˈaɪðər ˈsɒlɪd ɔːr ˈhɒloʊ, kənˈteɪnd baɪ sɪks ˈiːkwəl skweərz/"
+      },
+      {
+        "sentence": "Mark got another cube of stone.",
+        "meaning-example": "Mark lấy một khối đá khác.",
+        "ipa-example": "/mɑːrk ɡɒt əˈnʌðər kjuːb əv stoʊn./"
+      }
+    ]
+  },
+  {
+    "word": "feedback",
+    "ipa": "/ˈfiːdbæk/",
+    "meaning": "phản hồi, thông tin phản hồi",
+    "image": "eew-5-12/10.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement",
+        "meaning-example": "thông tin về phản ứng đối với một sản phẩm, hiệu suất làm việc của một người, v.v., được sử dụng làm cơ sở để cải thiện",
+        "ipa-example": "/ˌɪnfərˈmeɪʃən əˈbaʊt riˈækʃənz tə ə ˈprɒdʌkt, ə ˈpɜːrsənz pərˈfɔːrməns əv ə tɑːsk, ɪtˈsetərə, juːzd əz ə ˈbeɪsɪs fɔːr ɪmˈpruːvmənt/"
+      },
+      {
+        "sentence": "I’ll give you feedback, and we’ll make this a great monument.”",
+        "meaning-example": "Tôi sẽ cho bạn phản hồi, và chúng ta sẽ biến đây thành một tượng đài vĩ đại.”",
+        "ipa-example": "/aɪl ɡɪv ju ˈfiːdbæk, ænd wil meɪk ðɪs ə ɡreɪt ˈmɒnjumənt./"
+      }
+    ]
+  },
+  {
+    "word": "ignorance",
+    "ipa": "/ˈɪɡnərəns/",
+    "meaning": "sự thiếu hiểu biết, sự dốt nát",
+    "image": "eew-5-12/11.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "lack of knowledge or information",
+        "meaning-example": "thiếu kiến thức hoặc thông tin",
+        "ipa-example": "/læk əv ˈnɒlɪdʒ ɔːr ˌɪnfərˈmeɪʃən/"
+      },
+      {
+        "sentence": "John replied, “Your ignorance makes me laugh.",
+        "meaning-example": "John trả lời, “Sự thiếu hiểu biết của anh làm tôi bật cười.",
+        "ipa-example": "/dʒɒn rɪˈplaɪd, “jɔːr ˈɪɡnərəns meɪks mi læf./"
+      }
+    ]
+  },
+  {
+    "word": "masculine",
+    "ipa": "/ˈmæskjəlɪn/",
+    "meaning": "nam tính",
+    "image": "eew-5-12/12.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "having qualities or appearance traditionally associated with men, especially strength and aggressiveness",
+        "meaning-example": "có những phẩm chất hoặc vẻ ngoài truyền thống liên quan đến đàn ông, đặc biệt là sức mạnh và sự hung hăng",
+        "ipa-example": "/ˈhævɪŋ ˈkwɒlətiz ɔːr əˈpɪərəns trəˈdɪʃənəli əˈsoʊʃieɪtɪd wɪð men, ɪˈspeʃəli streŋθ ænd əˈɡresɪvnəs/"
+      },
+      {
+        "sentence": "Mark looked very masculine.",
+        "meaning-example": "Mark trông rất nam tính.",
+        "ipa-example": "/mɑːrk lʊkt ˈveri ˈmæskjəlɪn./"
+      }
+    ]
+  },
+  {
+    "word": "monument",
+    "ipa": "/ˈmɒnjumənt/",
+    "meaning": "đài tưởng niệm, tượng đài",
+    "image": "eew-5-12/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a statue, building, or other structure erected to commemorate a famous person or event",
+        "meaning-example": "một bức tượng, tòa nhà, hoặc cấu trúc khác được dựng lên để kỷ niệm một người hoặc sự kiện nổi tiếng",
+        "ipa-example": "/ə ˈstætʃuː, ˈbɪldɪŋ, ɔːr ˈʌðər ˈstrʌktʃər ɪˈrektɪd tə kəˈmeməreɪt ə ˈfeɪməs ˈpɜːrsən ɔːr ɪˈvent/"
+      },
+      {
+        "sentence": "One day, the mayor appointed Mark to build a monument: a statue of Egyptian Pharaoh, Tut.",
+        "meaning-example": "Một ngày nọ, thị trưởng bổ nhiệm Mark xây một tượng đài: một bức tượng của Pharaon Tut của Ai Cập.",
+        "ipa-example": "/wʌn deɪ, ðə ˈmeɪər əˈpɔɪntɪd mɑːrk tə bɪld ə ˈmɒnjumənt: ə ˈstætʃuː əv ɪˈdʒɪpʃn ˈfæroʊ, tʌt./"
+      }
+    ]
+  },
+  {
+    "word": "muscular",
+    "ipa": "/ˈmʌskjələr/",
+    "meaning": "vạm vỡ, có cơ bắp",
+    "image": "eew-5-12/14.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "having well-developed muscles",
+        "meaning-example": "có cơ bắp phát triển tốt",
+        "ipa-example": "/ˈhævɪŋ wel-dɪˈveləpt ˈmʌslz/"
+      },
+      {
+        "sentence": "He had a mustache and was very muscular.",
+        "meaning-example": "Anh ấy có ria mép và rất vạm vỡ.",
+        "ipa-example": "/hi həd ə mʊˈstɑːʃ ænd wəz ˈveri ˈmʌskjələr./"
+      }
+    ]
+  },
+  {
+    "word": "posture",
+    "ipa": "/ˈpɒstʃər/",
+    "meaning": "tư thế",
+    "image": "eew-5-12/15.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the position in which someone holds their body when standing or sitting",
+        "meaning-example": "tư thế mà một người giữ cơ thể khi đứng hoặc ngồi",
+        "ipa-example": "/ðə pəˈzɪʃən ɪn wɪtʃ ˈsʌmwʌn hoʊldz ðer ˈbɒdi wɛn ˈstændɪŋ ɔːr ˈsɪtɪŋ/"
+      },
+      {
+        "sentence": "“Make him tall with good posture,” John said.",
+        "meaning-example": "“Hãy làm cho anh ấy cao với tư thế đẹp,” John nói.",
+        "ipa-example": "/meɪk hɪm tɔːl wɪð ɡʊd ˈpɒstʃər,” dʒɒn sed./"
+      }
+    ]
+  },
+  {
+    "word": "situated",
+    "ipa": "/ˈsɪtʃueɪtɪd/",
+    "meaning": "đặt ở, định vị",
+    "image": "eew-5-12/16.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to place or locate in a particular position or array",
+        "meaning-example": "đặt hoặc định vị ở một vị trí hoặc bố cục cụ thể",
+        "ipa-example": "/tə pleɪs ɔːr loʊˈkeɪt ɪn ə pərˈtɪkjələr pəˈzɪʃən ɔːr əˈreɪ/"
+      },
+      {
+        "sentence": "At last, the finished statue was situated in front of the museum.",
+        "meaning-example": "Cuối cùng, bức tượng hoàn thành được đặt trước bảo tàng.",
+        "ipa-example": "/æt lɑːst, ðə ˈfɪnɪʃt ˈstætʃuː wəz ˈsɪtʃueɪtɪd ɪn frʌnt əv ðə mjuˈziːəm./"
+      }
+    ]
+  },
+  {
+    "word": "supervise",
+    "ipa": "/ˈsuːpərvaɪz/",
+    "meaning": "giám sát",
+    "image": "eew-5-12/17.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to observe and direct the execution of a task or activity",
+        "meaning-example": "quan sát và chỉ đạo việc thực hiện một nhiệm vụ hoặc hoạt động",
+        "ipa-example": "/tə əbˈzɜːrv ænd dɪˈrekt ði ˌeksɪˈkjuːʃən əv ə tɑːsk ɔːr ækˈtɪvəti/"
+      },
+      {
+        "sentence": "I’ll supervise your work.",
+        "meaning-example": "Tôi sẽ giám sát công việc của bạn.",
+        "ipa-example": "/aɪl ˈsuːpərvaɪz jɔːr wɜːrk./"
+      }
+    ]
+  },
+  {
+    "word": "symmetry",
+    "ipa": "/ˈsɪmətriz/",
+    "meaning": "sự đối xứng",
+    "image": "eew-5-12/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the quality of being made up of exactly similar parts facing each other or around an axis",
+        "meaning-example": "phẩm chất được tạo thành từ các bộ phận giống hệt nhau đối diện nhau hoặc xung quanh một trục",
+        "ipa-example": "/ðə ˈkwɒləti əv ˈbiːɪŋ meɪd ʌp əv ɪɡˈzæktli ˈsɪmɪlər pɑːrts ˈfeɪsɪŋ ˈiːtʃ ˈʌðər ɔːr əˈraʊnd ən ˈæksɪs/"
+      },
+      {
+        "sentence": "“And make sure there is symmetry in his body.”",
+        "meaning-example": "“Và đảm bảo rằng có sự đối xứng trong cơ thể anh ấy.”",
+        "ipa-example": "/ænd meɪk ʃʊər ðer ɪz ˈsɪmətriz ɪn hɪz ˈbɒdi./"
+      }
+    ]
+  },
+  {
+    "word": "tattoo",
+    "ipa": "/təˈtuː/",
+    "meaning": "hình xăm",
+    "image": "eew-5-12/19.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a form of body modification where a design is made by inserting ink, dyes and pigments, either indelible or temporary, into the dermis layer of the skin to change the pigment.",
+        "meaning-example": "một dạng sửa đổi cơ thể trong đó một thiết kế được tạo ra bằng cách đưa mực, thuốc nhuộm và sắc tố, có thể là vĩnh viễn hoặc tạm thời, vào lớp hạ bì của da để thay đổi sắc tố.",
+        "ipa-example": "/ə fɔːrm əv ˈbɒdi ˌmɒdɪfɪˈkeɪʃən wɛər ə dɪˈzaɪn ɪz meɪd baɪ ɪnˈsɜːrtɪŋ ɪŋk, daɪz ænd ˈpɪɡmənts, ˈaɪðər ɪnˈdeləbl ɔːr ˈtemprəri, ˈɪntuː ðə ˈdɜːrmɪs ˈleɪər əv ðə skɪn tə tʃeɪndʒ ðə ˈpɪɡmənt./"
+      },
+      {
+        "sentence": "He made some crude measurements and sculpted a statue of a very old man with a tattoo on his chest.",
+        "meaning-example": "Anh ấy đã đo đạc một cách thô sơ và điêu khắc một bức tượng một người đàn ông rất già với một hình xăm trên ngực.",
+        "ipa-example": "/hi meɪd sʌm kruːd ˈmeʒərmənts ænd ˈskʌlptɪd ə ˈstætʃuː əv ə ˈveri oʊld mæn wɪð ə tæˈtuː ɒn hɪz tʃest./"
+      }
+    ]
+  },
+  {
+    "word": "undergraduate",
+    "ipa": "/ˌʌndərˈɡrædʒuət/",
+    "meaning": "sinh viên chưa tốt nghiệp đại học",
+    "image": "eew-5-12/20.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a university student who has not yet taken a first degree",
+        "meaning-example": "một sinh viên đại học chưa tốt nghiệp đại học",
+        "ipa-example": "/ə ˌjuːnɪˈvɜːrsəti ˈstuːdnt huː hæz nɒt jet ˈteɪkən ə fɜːrst dɪˈɡriː/"
+      },
+      {
+        "sentence": "John was an undergraduate in college, and he studied anthropology and history.",
+        "meaning-example": "John là sinh viên đại học, và anh ấy học nhân chủng học và lịch sử.",
+        "ipa-example": "/dʒɒn wəz ən ˌʌndərˈɡrædʒuət ɪn ˈkɒlɪdʒ, ænd hi ˈstʌdid ˌænθrəˈpɒlədʒi ænd ˈhɪstəri./"
+      }
+    ]
+  },
+
+{
+  "word": "sentences of story",
+  "example": [
+    {
+      "sentence": "John and Mark were brothers, but they were quite different people.",
+      "meaning-example": "Đây là câu mở đầu giới thiệu về hai anh em.",
+      "ipa-example": "/dʒɒn ænd mɑːrk wɜːr ˈbrʌðərz, bʌt ðeɪ wɜːr kwaɪt ˈdɪfrənt ˈpiːpl/"
+    },
+    {
+      "sentence": "Mark looked very masculine.",
+      "meaning-example": "Câu này mô tả ngoại hình của Mark, anh ấy trông rất nam tính.",
+      "ipa-example": "/mɑːrk lʊkt ˈvɛri ˈmæskjəlɪn/"
+    },
+    {
+      "sentence": "He had a mustache and was very muscular.",
+      "meaning-example": "Chi tiết hơn về ngoại hình của Mark, anh ấy có ria mép và rất vạm vỡ.",
+      "ipa-example": "/hiː hæd ə mʊˈstɑːʃ ænd wəz ˈvɛri ˈmʌskjələr/"
+    },
+    {
+      "sentence": "He was a sculptor.",
+      "meaning-example": "Câu này nói về nghề nghiệp của Mark, anh ấy là một nhà điêu khắc.",
+      "ipa-example": "/hiː wəz ə ˈskʌlptər/"
+    },
+    {
+      "sentence": "He made things out of stone.",
+      "meaning-example": "Giải thích thêm về công việc của Mark, anh ấy tạo ra mọi thứ từ đá.",
+      "ipa-example": "/hiː meɪd θɪŋz aʊt əv stoʊn/"
+    },
+    {
+      "sentence": "Mark was a good artist, but he was not very intelligent.",
+      "meaning-example": "Đánh giá về Mark, anh ấy là một nghệ sĩ giỏi nhưng không thông minh lắm.",
+      "ipa-example": "/mɑːrk wəz ə ɡʊd ˈɑːrtɪst, bʌt hiː wəz nɒt ˈvɛri ɪnˈtɛlɪdʒənt/"
+    },
+    {
+      "sentence": "John looked nothing like his brother.",
+      "meaning-example": "Câu này tương phản ngoại hình của John với Mark, anh ấy không giống anh trai mình.",
+      "ipa-example": "/dʒɒn lʊkt ˈnʌθɪŋ laɪk hɪz ˈbrʌðər/"
+    },
+    {
+      "sentence": "He was small and weak, but he was very smart.",
+      "meaning-example": "Mô tả ngoại hình và tính cách của John, anh ấy nhỏ bé, yếu ớt nhưng rất thông minh.",
+      "ipa-example": "/hiː wəz smɔːl ænd wiːk, bʌt hiː wəz ˈvɛri smɑːrt/"
+    },
+    {
+      "sentence": "John was an undergraduate in college, and he studied anthropology and history.",
+      "meaning-example": "Thông tin về việc học của John, anh ấy là sinh viên đại học và học nhân chủng học và lịch sử.",
+      "ipa-example": "/dʒɒn wəz ən ˌʌndərˈɡrædʒuət ɪn ˈkɒlɪdʒ, ænd hiː ˈstʌdid ˌænθrəˈpɒlədʒi ænd ˈhɪstəri/"
+    },
+    {
+      "sentence": "He knew a lot about ancient cultures.",
+      "meaning-example": "Kiến thức của John, anh ấy biết nhiều về các nền văn hóa cổ đại.",
+      "ipa-example": "/hiː nuː ə lɒt əˈbaʊt ˈeɪnʃənt ˈkʌltʃərz/"
+    },
+    {
+      "sentence": "The brothers loved each other very much, but they thought they had nothing in common.",
+      "meaning-example": "Mối quan hệ của hai anh em, họ yêu quý nhau nhưng nghĩ rằng không có điểm chung.",
+      "ipa-example": "/ðə ˈbrʌðərz lʌvd iːtʃ ˈʌðər ˈvɛri mʌtʃ, bʌt ðeɪ θɔːt ðeɪ hæd ˈnʌθɪŋ ɪn ˈkɒmən/"
+    },
+    {
+      "sentence": "One day, the mayor appointed Mark to build a monument: a statue of Egyptian Pharaoh, Tut.",
+      "meaning-example": "Sự kiện khởi đầu câu chuyện, thị trưởng bổ nhiệm Mark xây một tượng đài Pharaoh Tut.",
+      "ipa-example": "/wʌn deɪ, ðə ˈmeɪər əˈpɔɪntɪd mɑːrk tuː bɪld ə ˈmɒnjumənt: ə ˈstætʃuː əv ɪˈdʒɪpʃn ˈfɛəroʊ, tʌt/"
+    },
+    {
+      "sentence": "Mark agreed to do the job, but he had a problem.",
+      "meaning-example": "Mark đồng ý nhưng gặp vấn đề.",
+      "ipa-example": "/mɑːrk əˈɡriːd tuː duː ðə dʒɒb, bʌt hiː hæd ə ˈprɒbləm/"
+    },
+    {
+      "sentence": "He had no idea who Pharaoh Tut was!",
+      "meaning-example": "Vấn đề của Mark, anh ấy không biết Pharaoh Tut là ai.",
+      "ipa-example": "/hiː hæd noʊ aɪˈdiːə huː ˈfɛəroʊ tʌt wɒz/"
+    },
+    {
+      "sentence": "However, he thought he had the competence to build a good statue anyway.",
+      "meaning-example": "Mark vẫn nghĩ mình có năng lực để xây tượng.",
+      "ipa-example": "/haʊˈɛvər, hiː θɔːt hiː hæd ðə ˈkɒmpɪtəns tuː bɪld ə ɡʊd ˈstætʃuː ˈɛniweɪ/"
+    },
+    {
+      "sentence": "He made some crude measurements and sculpted a statue of a very old man with a tattoo on his chest.",
+      "meaning-example": "Mark thực hiện công việc một cách thô sơ và điêu khắc tượng một người đàn ông già có hình xăm.",
+      "ipa-example": "/hiː meɪd sʌm kruːd ˈmɛʒərmənts ænd ˈskʌlptɪd ə ˈstætʃuː əv ə ˈvɛri oʊld mæn wɪð ə tæˈtuː ɒn hɪz tʃɛst/"
+    },
+    {
+      "sentence": "Mark was proud of his work, but when John saw the statue, he laughed aloud.",
+      "meaning-example": "Mark tự hào nhưng John lại cười khi thấy bức tượng.",
+      "ipa-example": "/mɑːrk wəz praʊd əv hɪz wɜːrk, bʌt wɛn dʒɒn sɔː ðə ˈstætʃuː, hiː læft əˈlaʊd/"
+    },
+    {
+      "sentence": "“What’s so funny?” Mark asked.",
+      "meaning-example": "Phản ứng của Mark khi John cười.",
+      "ipa-example": "/wɒts soʊ ˈfʌni mɑːrk æskt/"
+    },
+    {
+      "sentence": "John replied, “Your ignorance makes me laugh.",
+      "meaning-example": "John giải thích lý do anh ấy cười, là do sự thiếu hiểu biết của Mark.",
+      "ipa-example": "/dʒɒn rɪˈplaɪd, jʊər ˈɪɡnərəns meɪks miː læf/"
+    },
+    {
+      "sentence": "Don’t you know that Tut was only a teenager when he was pharaoh? Let me help you.",
+      "meaning-example": "John chỉ ra lỗi sai của Mark và đề nghị giúp đỡ.",
+      "ipa-example": "/doʊnt juː noʊ ðæt tʌt wəz ˈoʊnli ə ˈtiːnˌeɪdʒər wɛn hiː wəz ˈfɛəroʊ lɛt miː hɛlp juː/"
+    },
+    {
+      "sentence": "I’ll supervise your work.",
+      "meaning-example": "John sẽ giám sát công việc của Mark.",
+      "ipa-example": "/aɪl ˈsuːpərvaɪz jʊər wɜːrk/"
+    },
+    {
+      "sentence": "I’ll give you feedback, and we’ll make this a great monument.”",
+      "meaning-example": "John sẽ đưa ra phản hồi để họ cùng tạo nên một tượng đài tuyệt vời.",
+      "ipa-example": "/aɪl ɡɪv juː ˈfiːdbæk, ænd wiːl meɪk ðɪs ə ɡreɪt ˈmɒnjumənt/"
+    },
+    {
+      "sentence": "Mark got another cube of stone.",
+      "meaning-example": "Mark lấy một khối đá khác để làm lại.",
+      "ipa-example": "/mɑːrk ɡɒt əˈnʌðər kjuːb əv stoʊn/"
+    },
+    {
+      "sentence": "John told him what Tut looked like.",
+      "meaning-example": "John hướng dẫn Mark về hình dáng của Tut.",
+      "ipa-example": "/dʒɒn toʊld hɪm wɒt tʌt lʊkt laɪk/"
+    },
+    {
+      "sentence": "“Make him tall with good posture,” John said.",
+      "meaning-example": "John hướng dẫn Mark về tư thế của tượng.",
+      "ipa-example": "/meɪk hɪm tɔːl wɪð ɡʊd ˈpɒstʃər dʒɒn sɛd/"
+    },
+    {
+      "sentence": "“And make sure there is symmetry in his body.”",
+      "meaning-example": "John nhấn mạnh về sự đối xứng trong tượng.",
+      "ipa-example": "/ænd meɪk ʃʊər ðɛər ɪz ˈsɪmətriz ɪn hɪz ˈbɒdi/"
+    },
+    {
+      "sentence": "Mark conferred with John about every detail.",
+      "meaning-example": "Mark bàn bạc với John về mọi chi tiết.",
+      "ipa-example": "/mɑːrk kənˈfɜːrd wɪð dʒɒn əˈbaʊt ˈɛvəri ˈdiːteɪl/"
+    },
+    {
+      "sentence": "For ten consecutive hours, the brothers worked.",
+      "meaning-example": "Hai anh em làm việc liên tục trong mười giờ.",
+      "ipa-example": "/fɔːr tɛn kənˈsekjətɪv ˈaʊərz, ðə ˈbrʌðərz wɜːrkt/"
+    },
+    {
+      "sentence": "At last, the finished statue was situated in front of the museum.",
+      "meaning-example": "Cuối cùng, bức tượng hoàn thành được đặt trước bảo tàng.",
+      "ipa-example": "/æt læst, ðə ˈfɪnɪʃt ˈstætʃuː wəz ˈsɪtʃueɪtɪd ɪn frʌnt əv ðə mjuːˈziːəm/"
+    },
+    {
+      "sentence": "Everyone applauded the brothers’ good work.",
+      "meaning-example": "Mọi người vỗ tay tán thưởng công việc của hai anh em.",
+      "ipa-example": "/ˈɛvriwʌn əˈplɔːdɪd ðə ˈbrʌðərz ɡʊd wɜːrk/"
+    },
+    {
+      "sentence": "“We worked together very well. I guess we are compatible after all,” Mark said.",
+      "meaning-example": "Mark nhận ra họ hợp nhau khi làm việc cùng.",
+      "ipa-example": "/wiː wɜːrkt təˈɡɛðər ˈvɛri wɛl aɪ ɡɛs wiː ɑːr kəmˈpætəbl ˈɑːftər ɔːl mɑːrk sɛd/"
+    },
+    {
+      "sentence": "John replied, “I agree! When we combine our talents, we are capable of greatness.”",
+      "meaning-example": "John đồng ý và nhận định rằng họ có thể làm được những điều vĩ đại khi kết hợp tài năng.",
+      "ipa-example": "/dʒɒn rɪˈplaɪd, aɪ əˈɡriː wɛn wiː kəmˈbaɪn ˈaʊər ˈtælənts, wiː ɑːr ˈkeɪpəbl əv ˈɡreɪtnəs/"
+    }
+  ]
+}
+]
