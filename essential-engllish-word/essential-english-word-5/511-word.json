@@ -1,0 +1,531 @@
+[
+  {
+    "word": "acute",
+    "ipa": "/əˈkjuːt/",
+    "meaning": "cấp tính, buốt, nhói.",
+    "image": "eew-5-11/1.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "if a bad situation is acute, it causes severe problems or damage.",
+        "meaning-example": "nếu một tình huống tồi tệ trở nên cấp tính, nó sẽ gây ra những vấn đề hoặc thiệt hại nghiêm trọng.",
+        "ipa-example": "/ɪf ə bæd ˌsɪtʃuˈeɪʃən ɪz əˈkjuːt, ɪt ˈkɔːzɪz sɪˈvɪə ˈprɒbləmz ɔː ˈdæmɪdʒ./"
+      },
+      {
+        "sentence": "He got acute, spontaneous pains in his ears.",
+        "meaning-example": "Anh ấy bị những cơn đau buốt, tự phát trong tai.",
+        "ipa-example": "/hi ɡɒt əˈkjuːt, spɒnˈteɪniəs peɪnz ɪn hɪz ɪəz./"
+      }
+    ]
+  },
+  {
+    "word": "aggression",
+    "ipa": "/əˈɡreʃ.ən/",
+    "meaning": "sự hung hăng, sự gây hấn.",
+    "image": "eew-5-11/2.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "spoken or physical behaviour that is threatening or involves harm to someone or something.",
+        "meaning-example": "hành vi lời nói hoặc thể chất có tính đe dọa hoặc gây hại cho ai đó hoặc cái gì đó.",
+        "ipa-example": "/ˈspoʊkən ɔː ˈfɪzɪkəl bɪˈheɪvjə ðæt ɪz ˈθretnɪŋ ɔː ɪnˈvɒlvz hɑːm tə ˈsʌmwʌn ɔː ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "He lost the virtue of patience, and he became notorious for his aggression.",
+        "meaning-example": "Anh ấy đã đánh mất đức tính kiên nhẫn và trở nên khét tiếng vì sự hung hăng của mình.",
+        "ipa-example": "/hi lɒst ðə ˈvɜːtʃuː əv ˈpeɪʃəns, ænd hi bɪˈkeɪm nəʊˈtɔːriəs fɔː hɪz əˈɡreʃən./"
+      }
+    ]
+  },
+  {
+    "word": "banquet",
+    "ipa": "/ˈbæŋ.kwɪt/",
+    "meaning": "tiệc lớn, yến tiệc.",
+    "image": "eew-5-11/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a large formal meal for many people.",
+        "meaning-example": "một bữa ăn trang trọng lớn cho nhiều người.",
+        "ipa-example": "/ə lɑːdʒ ˈfɔːməl miːl fɔː ˈmeni ˈpiːpəl./"
+      },
+      {
+        "sentence": "His final concert was held at a huge banquet.",
+        "meaning-example": "Buổi hòa nhạc cuối cùng của ông được tổ chức tại một bữa tiệc lớn.",
+        "ipa-example": "/hɪz ˈfaɪnl ˈkɒnsət wəz held æt ə hjuːdʒ ˈbæŋkwɪt./"
+      }
+    ]
+  },
+  {
+    "word": "biography",
+    "ipa": "/baɪˈɒɡ.rə.fi/",
+    "meaning": "tiểu sử, lý lịch.",
+    "image": "eew-5-11/4.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the life story of a person written by someone else.",
+        "meaning-example": "câu chuyện cuộc đời của một người được viết bởi một người khác.",
+        "ipa-example": "/ðə laɪf ˈstɔːri əv ə ˈpɜːsən ˈrɪtn baɪ ˈsʌmwʌn els./"
+      },
+      {
+        "sentence": "Many biographies have been written that narrate his dominance in the music world.",
+        "meaning-example": "Nhiều cuốn tiểu sử đã được viết để kể về sự thống trị của ông trong thế giới âm nhạc.",
+        "ipa-example": "/ˈmeni baɪˈɒɡrəfiz həv biːn ˈrɪtn ðæt nəˈreɪt hɪz ˈdɒmɪnəns ɪn ðə ˈmjuːzɪk wɜːld./"
+      }
+    ]
+  },
+  {
+    "word": "boost",
+    "ipa": "/buːst/",
+    "meaning": "thúc đẩy, nâng cao, làm tăng lên.",
+    "image": "eew-5-11/5.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to improve or increase something.",
+        "meaning-example": "để cải thiện hoặc tăng một cái gì đó.",
+        "ipa-example": "/tuː ɪmˈpruːv ɔː ɪnˈkriːs ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "In that beautiful moment, the applause boosted his emotions, and he began to cry.",
+        "meaning-example": "Trong khoảnh khắc đẹp đẽ đó, tiếng vỗ tay đã thúc đẩy cảm xúc của ông, và ông bắt đầu khóc.",
+        "ipa-example": "/ɪn ðæt ˈbjuːtəfəl ˈməʊmənt, ðə əˈplɔːz ˈbuːstɪd hɪz ɪˈməʊʃənz, ænd hi bɪˈɡæn tə kraɪ./"
+      }
+    ]
+  },
+  {
+    "word": "clap",
+    "ipa": "/klæp/",
+    "meaning": "vỗ tay.",
+    "image": "eew-5-11/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to make a short loud noise by hitting your hands together.",
+        "meaning-example": "tạo ra một tiếng động lớn ngắn bằng cách đập hai tay vào nhau.",
+        "ipa-example": "/tə meɪk ə ʃɔːt laʊd nɔɪz baɪ ˈhɪtɪŋ jɔː hændz təˈɡeðə./"
+      },
+      {
+        "sentence": "They clapped and cheered wildly.",
+        "meaning-example": "Họ vỗ tay và reo hò cuồng nhiệt.",
+        "ipa-example": "/ðeɪ klæpt ænd tʃɪəd ˈwaɪldli./"
+      }
+    ]
+  },
+  {
+    "word": "compel",
+    "ipa": "/kəmˈpel/",
+    "meaning": "buộc phải, ép buộc.",
+    "image": "eew-5-11/7.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to force someone to do something.",
+        "meaning-example": "buộc ai đó phải làm điều gì đó.",
+        "ipa-example": "/tə fɔːs ˈsʌmwʌn tə duː ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "His passion for music compelled him to keep performing even after he went deaf.",
+        "meaning-example": "Niềm đam mê âm nhạc đã buộc ông phải tiếp tục biểu diễn ngay cả sau khi bị điếc.",
+        "ipa-example": "/hɪz ˈpæʃən fɔː ˈmjuːzɪk kəmˈpeld hɪm tə kiːp pəˈfɔːmɪŋ ˈiːvən ˈɑːftə hi went def./"
+      }
+    ]
+  },
+  {
+    "word": "dominance",
+    "ipa": "/ˈdɒm.ɪ.nəns/",
+    "meaning": "sự thống trị, sự áp đảo, ưu thế.",
+    "image": "eew-5-11/8.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the quality of being more important, strong, or successful than anything else of the same type.",
+        "meaning-example": "phẩm chất quan trọng hơn, mạnh mẽ hơn hoặc thành công hơn bất cứ thứ gì khác cùng loại.",
+        "ipa-example": "/ðə ˈkwɒləti əv ˈbiːɪŋ mɔːr ɪmˈpɔːtənt, strɒŋ, ɔː səkˈsesfəl ðæn ˈeniθɪŋ els əv ðə seɪm taɪp./"
+      },
+      {
+        "sentence": "Many biographies have been written that narrate his dominance in the music world.",
+        "meaning-example": "Nhiều cuốn tiểu sử đã được viết để kể về sự thống trị của ông trong thế giới âm nhạc.",
+        "ipa-example": "/ˈmeni baɪˈɒɡrəfiz həv biːn ˈrɪtn ðæt nəˈreɪt hɪz ˈdɒmɪnəns ɪn ðə ˈmjuːzɪk wɜːld./"
+      }
+    ]
+  },
+  {
+    "word": "gorgeous",
+    "ipa": "/ˈɡɔː.dʒəs/",
+    "meaning": "lộng lẫy, rực rỡ, tuyệt đẹp.",
+    "image": "eew-5-11/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "very beautiful or pleasant.",
+        "meaning-example": "rất đẹp hoặc dễ chịu.",
+        "ipa-example": "/ˈveri ˈbjuːtəfəl ɔː ˈpleznt./"
+      },
+      {
+        "sentence": "He couldn’t hear himself play, but he knew that his creations sounded gorgeous.",
+        "meaning-example": "Anh không thể nghe thấy mình chơi, nhưng anh biết rằng những sáng tạo của mình nghe thật tuyệt.",
+        "ipa-example": "/hi ˈkʊdnt hɪə hɪmˈself pleɪ, bət hi njuː ðæt hɪz kriˈeɪʃənz ˈsaʊndɪd ˈɡɔːdʒəs./"
+      }
+    ]
+  },
+  {
+    "word": "inevitable",
+    "ipa": "/ɪˈnev.ɪ.tə.bəl/",
+    "meaning": "không thể tránh khỏi, tất yếu.",
+    "image": "eew-5-11/10.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "certain to happen and unable to be avoided or prevented.",
+        "meaning-example": "chắc chắn sẽ xảy ra và không thể tránh hoặc ngăn cản được.",
+        "ipa-example": "/ˈsɜːtən tə ˈhæpən ænd ʌnˈeɪbəl tə bi əˈvɔɪdɪd ɔː prɪˈventɪd./"
+      },
+      {
+        "sentence": "It was inevitable that he would eventually lose it altogether.",
+        "meaning-example": "Việc cuối cùng anh ấy sẽ mất tất cả là điều không thể tránh khỏi.",
+        "ipa-example": "/ɪt wəz ɪnˈevɪtəbəl ðæt hi wʊd ɪˈventʃuəli luːz ɪt ɔːltəˈɡeðə./"
+      }
+    ]
+  },
+  {
+    "word": "legacy",
+    "ipa": "/ˈleɡ.ə.si/",
+    "meaning": "di sản, tài sản kế thừa.",
+    "image": "eew-5-11/11.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "money or property that you receive from someone after they die.",
+        "meaning-example": "tiền hoặc tài sản mà bạn nhận được từ ai đó sau khi họ chết.",
+        "ipa-example": "/ˈmʌni ɔː ˈprɒpəti ðæt juː rɪˈsiːv frəm ˈsʌmwʌn ˈɑːftə ðeɪ daɪ./"
+      },
+      {
+        "sentence": "Even though Beethoven is gone, his legacy will live on forever.",
+        "meaning-example": "Dù Beethoven đã ra đi, di sản của ông sẽ tồn tại mãi mãi.",
+        "ipa-example": "/ˈiːvən ðoʊ ˈbeɪthoʊvən ɪz ɡɒn, hɪz ˈleɡəsi wɪl lɪv ɒn fəˈrevə./"
+      }
+    ]
+  },
+  {
+    "word": "masterpiece",
+    "ipa": "/ˈmɑː.stə.piːs/",
+    "meaning": "kiệt tác, tác phẩm lớn.",
+    "image": "eew-5-11/12.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a work of art such as a painting, film, or book that is made with great skill.",
+        "meaning-example": "một tác phẩm nghệ thuật như một bức tranh, bộ phim hoặc cuốn sách được làm với kỹ năng tuyệt vời.",
+        "ipa-example": "/ə wɜːk əv ɑːt sʌtʃ æz ə ˈpeɪntɪŋ, fɪlm, ɔː bʊk ðæt ɪz meɪd wɪð ɡreɪt skɪl./"
+      },
+      {
+        "sentence": "Even though millions of people got to hear his multiple masterpieces, he never did.",
+        "meaning-example": "Mặc dù hàng triệu người đã được nghe nhiều kiệt tác của ông, nhưng ông thì không.",
+        "ipa-example": "/ˈiːvən ðoʊ ˈmɪljənz əv ˈpiːpəl ɡɒt tə hɪə hɪz ˈmʌltɪpəl ˈmɑːstəpiːsɪz, hi ˈnevə dɪd./"
+      }
+    ]
+  },
+  {
+    "word": "multiple",
+    "ipa": "/ˈmʌl.tɪ.pəl/",
+    "meaning": "nhiều, nhiều phần.",
+    "image": "eew-5-11/13.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "very many of the same type, or of different types.",
+        "meaning-example": "rất nhiều cùng loại, hoặc các loại khác nhau.",
+        "ipa-example": "/ˈveri ˈmeni əv ðə seɪm taɪp, ɔː əv ˈdɪfərənt taɪps./"
+      },
+      {
+        "sentence": "Even though millions of people got to hear his multiple masterpieces, he never did.",
+        "meaning-example": "Mặc dù hàng triệu người đã được nghe nhiều kiệt tác của ông, nhưng ông thì không.",
+        "ipa-example": "/ˈiːvən ðoʊ ˈmɪljənz əv ˈpiːpəl ɡɒt tə hɪə hɪz ˈmʌltɪpəl ˈmɑːstəpiːsɪz, hi ˈnevə dɪd./"
+      }
+    ]
+  },
+  {
+    "word": "narrate",
+    "ipa": "/nəˈreɪt/",
+    "meaning": "tường thuật, kể lại.",
+    "image": "eew-5-11/14.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "to tell a story, often by reading it aloud from a text, or to describe events as they happen.",
+        "meaning-example": "kể một câu chuyện, thường bằng cách đọc to từ một văn bản, hoặc để mô tả các sự kiện khi chúng xảy ra.",
+        "ipa-example": "/tə tel ə ˈstɔːri, ˈɒfən baɪ ˈriːdɪŋ ɪt əˈlaʊd frəm ə tekst, ɔː tə dɪˈskraɪb ɪˈvents æz ðeɪ ˈhæpən./"
+      },
+      {
+        "sentence": "Many biographies have been written that narrate his dominance in the music world.",
+        "meaning-example": "Nhiều cuốn tiểu sử đã được viết để kể về sự thống trị của ông trong thế giới âm nhạc.",
+        "ipa-example": "/ˈmeni baɪˈɒɡrəfiz həv biːn ˈrɪtn ðæt nəˈreɪt hɪz ˈdɒmɪnəns ɪn ðə ˈmjuːzɪk wɜːld./"
+      }
+    ]
+  },
+  {
+    "word": "notorious",
+    "ipa": "/nəʊˈtɔː.ri.əs/",
+    "meaning": "khét tiếng, tai tiếng (vì điều gì đó xấu).",
+    "image": "eew-5-11/15.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "famous for something bad.",
+        "meaning-example": "nổi tiếng vì một cái gì đó tồi tệ.",
+        "ipa-example": "/ˈfeɪməs fɔː ˈsʌmθɪŋ bæd./"
+      },
+      {
+        "sentence": "He lost the virtue of patience, and he became notorious for his aggression.",
+        "meaning-example": "Anh ấy đã đánh mất đức tính kiên nhẫn và trở nên khét tiếng vì sự hung hăng của mình.",
+        "ipa-example": "/hi lɒst ðə ˈvɜːtʃuː əv ˈpeɪʃəns, ænd hi bɪˈkeɪm nəʊˈtɔːriəs fɔː hɪz əˈɡreʃən./"
+      }
+    ]
+  },
+  {
+    "word": "outdated",
+    "ipa": "/ˌaʊtˈdeɪ.tɪd/",
+    "meaning": "lỗi thời, lạc hậu.",
+    "image": "eew-5-11/16.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "old-fashioned and therefore not as good or as useful as something more modern.",
+        "meaning-example": "cũ kỹ và do đó không tốt hoặc hữu ích như một cái gì đó hiện đại hơn.",
+        "ipa-example": "/ˌoʊldˈfæʃənd ænd ˈðeəfɔː nɒt æz ɡʊd ɔː æz ˈjuːsfəl æz ˈsʌmθɪŋ mɔː ˈmɒdən./"
+      },
+      {
+        "sentence": "He didn’t survive the sickness, but his music did because great music never becomes outdated.",
+        "meaning-example": "Ông không qua khỏi cơn bạo bệnh, nhưng âm nhạc của ông thì có vì âm nhạc tuyệt vời không bao giờ trở nên lỗi thời.",
+        "ipa-example": "/hi dɪdnt səˈvaɪv ðə ˈsɪknəs, bət hɪz ˈmjuːzɪk dɪd bɪˈkɒz ɡreɪt ˈmjuːzɪk ˈnevə bɪˈkʌmz ˌaʊtˈdeɪtɪd./"
+      }
+    ]
+  },
+  {
+    "word": "overall",
+    "ipa": "/ˌəʊ.vəˈrɔːl/",
+    "meaning": "nhìn chung, toàn bộ, toàn diện.",
+    "image": "eew-5-11/17.png",
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "in general rather than in particular, or including all the people or things in a particular group or situation.",
+        "meaning-example": "nói chung chứ không phải nói riêng, hoặc bao gồm tất cả mọi người hoặc mọi thứ trong một nhóm hoặc tình huống cụ thể.",
+        "ipa-example": "/ɪn ˈdʒenərəl ˈrɑːðə ðæn ɪn pəˈtɪkjələ, ɔː ɪnˈkluːdɪŋ ɔːl ðə ˈpiːpəl ɔː θɪŋz ɪn ə pəˈtɪkjələ ɡruːp ɔː ˌsɪtʃuˈeɪʃən./"
+      },
+      {
+        "sentence": "Overall, performance was one of the finest in history.",
+        "meaning-example": "Nhìn chung, buổi biểu diễn là một trong những buổi biểu diễn hay nhất trong lịch sử.",
+        "ipa-example": "/ˌoʊvərˈɔːl, pəˈfɔːməns wəz wʌn əv ðə ˈfaɪnɪst ɪn ˈhɪstəri./"
+      }
+    ]
+  },
+  {
+    "word": "partiality",
+    "ipa": "/ˌpɑː.ʃiˈæl.ə.ti/",
+    "meaning": "sự thiên vị, sự yêu thích đặc biệt.",
+    "image": "eew-5-11/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "the fact of unfairly preferring or supporting one person, group, or thing more than another.",
+        "meaning-example": "thực tế là không công bằng khi thích hoặc ủng hộ một người, nhóm hoặc sự vật này hơn người, nhóm hoặc sự vật khác.",
+        "ipa-example": "/ðə fækt əv ʌnˈfeəli prɪˈfɜːrɪŋ ɔː səˈpɔːtɪŋ wʌn ˈpɜːsən, ɡruːp, ɔː θɪŋ mɔː ðæn əˈnʌðə./"
+      },
+      {
+        "sentence": "His partiality toward classical music developed when he was very young.",
+        "meaning-example": "Sự yêu thích đặc biệt của ông đối với nhạc cổ điển đã phát triển khi ông còn rất trẻ.",
+        "ipa-example": "/hɪz ˌpɑːʃiˈæləti təˈwɔːd ˈklæsɪkəl ˈmjuːzɪk dɪˈveləpt wen hi wəz ˈveri jʌŋ./"
+      }
+    ]
+  },
+  {
+    "word": "spontaneous",
+    "ipa": "/spɒnˈteɪ.ni.əs/",
+    "meaning": "tự phát, tự nhiên, không sắp đặt trước.",
+    "image": "eew-5-11/19.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "happening or done in a natural, often sudden way, without any planning or encouragement.",
+        "meaning-example": "xảy ra hoặc được thực hiện một cách tự nhiên, thường là đột ngột, không có kế hoạch hoặc sự khuyến khích nào.",
+        "ipa-example": "/ˈhæpənɪŋ ɔː dʌn ɪn ə ˈnætʃərəl, ˈɒfən ˈsʌdən weɪ, wɪðˈaʊt ˈeni ˈplænɪŋ ɔː ɪnˈkʌrɪdʒmənt./"
+      },
+      {
+        "sentence": "He got acute, spontaneous pains in his ears.",
+        "meaning-example": "Anh ấy bị những cơn đau buốt, tự phát trong tai.",
+        "ipa-example": "/hi ɡɒt əˈkjuːt, spɒnˈteɪniəs peɪnz ɪn hɪz ɪəz./"
+      }
+    ]
+  },
+  {
+    "word": "virtue",
+    "ipa": "/ˈvɜː.tʃuː/",
+    "meaning": "đức tính tốt, đức hạnh.",
+    "image": "eew-5-11/20.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "a good moral quality in a person, or the general quality of being morally good.",
+        "meaning-example": "một phẩm chất đạo đức tốt ở một người, hoặc phẩm chất chung của việc tốt về mặt đạo đức.",
+        "ipa-example": "/ə ɡʊd ˈmɒrəl ˈkwɒləti ɪn ə ˈpɜːsən, ɔː ðə ˈdʒenərəl ˈkwɒləti əv ˈbiːɪŋ ˈmɒrəli ɡʊd./"
+      },
+      {
+        "sentence": "He lost the virtue of patience, and he became notorious for his aggression.",
+        "meaning-example": "Anh ấy đã đánh mất đức tính kiên nhẫn và trở nên khét tiếng vì sự hung hăng của mình.",
+        "ipa-example": "/hi lɒst ðə ˈvɜːtʃuː əv ˈpeɪʃəns, ænd hi bɪˈkeɪm nəʊˈtɔːriəs fɔː hɪz əˈɡreʃən./"
+      }
+    ]
+  }
+  ,{
+  "sentences of story": [
+    {
+      "sentence": "Beethoven was a great composer of classical music in the 1800s.",
+      "meaning-example": "Beethoven là một nhà soạn nhạc vĩ đại của nhạc cổ điển vào những năm 1800.",
+      "ipa-example": "/ˈbeɪt.hoʊ.vən wəz ə ɡreɪt kəmˈpoʊ.zər əv ˈklæs.ɪ.kəl ˈmjuː.zɪk ɪn ðə ˈeɪt.iːn ˈhʌn.drədz/"
+    },
+    {
+      "sentence": "Many **biographies** have been written that **narrate** his **dominance** in the music world.",
+      "meaning-example": "Nhiều tiểu sử đã được viết để kể về sự thống trị của ông trong thế giới âm nhạc.",
+      "ipa-example": "/ˈmen.i baɪˈɒɡ.rə.fiz həv bɪn ˈrɪt.ən ðæt nəˈreɪt hɪz ˈdɒm.ɪ.nəns ɪn ðə ˈmjuː.zɪk wɜːld/"
+    },
+    {
+      "sentence": "But do you know what really makes him special?",
+      "meaning-example": "Nhưng bạn có biết điều gì thực sự khiến ông ấy đặc biệt không?",
+      "ipa-example": "/bʌt duː juː noʊ wʌt ˈrɪə.li meɪks hɪm ˈspeʃ.əl/"
+    },
+    {
+      "sentence": "Even though millions of people got to hear his **multiple** **masterpieces**, he never did.",
+      "meaning-example": "Mặc dù hàng triệu người được nghe nhiều kiệt tác của ông, nhưng ông chưa bao giờ được nghe.",
+      "ipa-example": "/ˈiː.vən ðoʊ ˈmɪl.jənz əv ˈpiː.pəl ɡɒt tuː hɪər hɪz ˈmʌl.tɪ.pəl ˈmɑː.stə.piː.sɪz, hiː ˈnev.ər dɪd/"
+    },
+    {
+      "sentence": "Beethoven wrote his best pieces after he went completely deaf!",
+      "meaning-example": "Beethoven đã viết những tác phẩm hay nhất của mình sau khi ông bị điếc hoàn toàn!",
+      "ipa-example": "/ˈbeɪt.hoʊ.vən roʊt hɪz best ˈpiː.sɪz ˈɑːf.tər hiː went kəmˈpliːt.li def/"
+    },
+    {
+      "sentence": "His **partiality** toward classical music developed when he was very young.",
+      "meaning-example": "Sự yêu thích đặc biệt của ông đối với nhạc cổ điển đã phát triển khi ông còn rất trẻ.",
+      "ipa-example": "/hɪz ˌpɑː.ʃiˈæl.ə.ti təˈwɔːrd ˈklæs.ɪ.kəl ˈmjuː.zɪk dɪˈvel.əpt wen hiː wəz ˈver.i jʌŋ/"
+    },
+    {
+      "sentence": "He wasn’t interested in anything else as a child.",
+      "meaning-example": "Khi còn nhỏ, ông không quan tâm đến bất cứ điều gì khác.",
+      "ipa-example": "/hiː ˈwɒz.ənt ˈɪn.trə.stɪd ɪn ˈen.i.θɪŋ els əz ə tʃaɪld/"
+    },
+    {
+      "sentence": "When he was five, he learned how to play the piano.",
+      "meaning-example": "Khi ông năm tuổi, ông đã học cách chơi piano.",
+      "ipa-example": "/wen hiː wəz faɪv, hiː lɜːnd haʊ tuː pleɪ ðə piˈæn.oʊ/"
+    },
+    {
+      "sentence": "From then, nothing could stop his passion for writing and playing music.",
+      "meaning-example": "Từ đó, không gì có thể ngăn cản niềm đam mê sáng tác và chơi nhạc của ông.",
+      "ipa-example": "/frɒm ðen, ˈnʌθ.ɪŋ kʊd stɒp hɪz ˈpæʃ.ən fɔː ˈraɪt.ɪŋ ənd ˈpleɪ.ɪŋ ˈmjuː.zɪk/"
+    },
+    {
+      "sentence": "When Beethoven was twenty, he began to lose his hearing.",
+      "meaning-example": "Khi Beethoven hai mươi tuổi, ông bắt đầu mất thính giác.",
+      "ipa-example": "/wen ˈbeɪt.hoʊ.vən wəz ˈtwen.ti, hiː bɪˈɡæn tuː luːz hɪz ˈhɪər.ɪŋ/"
+    },
+    {
+      "sentence": "He got **acute**, **spontaneous** pains in his ears.",
+      "meaning-example": "Ông bị những cơn đau cấp tính, tự phát ở tai.",
+      "ipa-example": "/hiː ɡɒt əˈkjuːt, spɒnˈteɪ.ni.əs peɪnz ɪn hɪz ɪərz/"
+    },
+    {
+      "sentence": "His hearing kept getting worse over time.",
+      "meaning-example": "Thính giác của ông ngày càng tệ hơn theo thời gian.",
+      "ipa-example": "/hɪz ˈhɪər.ɪŋ kept ˈɡet.ɪŋ wɜːrs ˈoʊ.vər taɪm/"
+    },
+    {
+      "sentence": "It was **inevitable** that he would eventually lose it altogether.",
+      "meaning-example": "Việc ông cuối cùng sẽ mất hoàn toàn thính giác là điều không thể tránh khỏi.",
+      "ipa-example": "/ɪt wəz ɪˈnev.ɪ.tə.bəl ðæt hiː wʊd ɪˈven.tʃu.ə.li luːz ɪt ˌɔːl.təˈɡeð.ər/"
+    },
+    {
+      "sentence": "It was very hard for him to keep writing music.",
+      "meaning-example": "Rất khó khăn để ông tiếp tục sáng tác nhạc.",
+      "ipa-example": "/ɪt wəz ˈver.i hɑːrd fɔː hɪm tuː kiːp ˈraɪt.ɪŋ ˈmjuː.zɪk/"
+    },
+    {
+      "sentence": "He lost the **virtue** of patience, and he became **notorious** for his **aggression**.",
+      "meaning-example": "Ông mất đi đức tính kiên nhẫn, và trở nên khét tiếng vì sự hung hăng của mình.",
+      "ipa-example": "/hiː lɒst ðə ˈvɜː.tʃuː əv ˈpeɪ.ʃəns, ənd hiː bɪˈkeɪm nəʊˈtɔː.ri.əs fɔː hɪz əˈɡreʃ.ən/"
+    },
+    {
+      "sentence": "Still, he never stopped trying.",
+      "meaning-example": "Tuy nhiên, ông không bao giờ ngừng cố gắng.",
+      "ipa-example": "/stɪl, hiː ˈnev.ər stɒpt ˈtraɪ.ɪŋ/"
+    },
+    {
+      "sentence": "His passion for music **compelled** him to keep performing even after he went deaf.",
+      "meaning-example": "Niềm đam mê âm nhạc đã buộc ông phải tiếp tục biểu diễn ngay cả sau khi ông bị điếc.",
+      "ipa-example": "/hɪz ˈpæʃ.ən fɔː ˈmjuː.zɪk kəmˈpeld hɪm tuː kiːp pəˈfɔːm.ɪŋ ˈiː.vən ˈɑːf.tər hiː went def/"
+    },
+    {
+      "sentence": "He couldn’t hear himself play, but he knew that his creations sounded **gorgeous**.",
+      "meaning-example": "Ông không thể nghe mình chơi, nhưng ông biết rằng những sáng tạo của mình nghe thật tuyệt vời.",
+      "ipa-example": "/hiː ˈkʊd.ənt hɪər hɪmˈself pleɪ, bʌt hiː njuː ðæt hɪz kriˈeɪ.ʃənz ˈsaʊn.dɪd ˈɡɔː.dʒəs/"
+    },
+    {
+      "sentence": "His final concert was held at a huge **banquet**.",
+      "meaning-example": "Buổi hòa nhạc cuối cùng của ông được tổ chức tại một buổi tiệc lớn.",
+      "ipa-example": "/hɪz ˈfaɪ.nəl ˈkɒn.sərt wəz held ət ə hjuːdʒ ˈbæŋ.kwɪt/"
+    },
+    {
+      "sentence": "He gave the musicians a cue, and they began to play.",
+      "meaning-example": "Ông ra hiệu cho các nhạc sĩ, và họ bắt đầu chơi.",
+      "ipa-example": "/hiː ɡeɪv ðə mjuːˈzɪʃ.ənz ə kjuː, ənd ðeɪ bɪˈɡæn tuː pleɪ/"
+    },
+    {
+      "sentence": "He directed the concert with all his heart.",
+      "meaning-example": "Ông chỉ đạo buổi hòa nhạc bằng cả trái tim mình.",
+      "ipa-example": "/hiː dɪˈrektɪd ðə ˈkɒn.sərt wɪð ɔːl hɪz hɑːrt/"
+    },
+    {
+      "sentence": "He couldn’t hear the music, but he said that he could feel it.",
+      "meaning-example": "Ông không thể nghe thấy âm nhạc, nhưng ông nói rằng ông có thể cảm nhận nó.",
+      "ipa-example": "/hiː ˈkʊd.ənt hɪər ðə ˈmjuː.zɪk, bʌt hiː sed ðæt hiː kʊd fiːl ɪt/"
+    },
+    {
+      "sentence": "**Overall**, performance was one of the finest in history.",
+      "meaning-example": "Nhìn chung, màn trình diễn là một trong những màn hay nhất trong lịch sử.",
+      "ipa-example": "/ˌoʊ.vərˈɔːl, pərˈfɔː.məns wəz wʌn əv ðə ˈfaɪn.ɪst ɪn ˈhɪs.tər.i/"
+    },
+    {
+      "sentence": "When it was over, he turned to the crowd.",
+      "meaning-example": "Khi kết thúc, ông quay sang đám đông.",
+      "ipa-example": "/wen ɪt wəz ˈoʊ.vər, hiː tɜːnd tuː ðə kraʊd/"
+    },
+    {
+      "sentence": "They **clapped** and cheered wildly.",
+      "meaning-example": "Họ vỗ tay và reo hò cuồng nhiệt.",
+      "ipa-example": "/ðeɪ klæpt ənd tʃɪərd ˈwaɪld.li/"
+    },
+    {
+      "sentence": "In that beautiful moment, the applause **boosted** his emotions, and he began to cry.",
+      "meaning-example": "Trong khoảnh khắc tuyệt đẹp đó, tiếng vỗ tay đã thúc đẩy cảm xúc của ông, và ông bắt đầu khóc.",
+      "ipa-example": "/ɪn ðæt ˈbjuː.tə.fəl ˈmoʊ.mənt, ðə əˈplɔːz ˈbuːstɪd hɪz ɪˈmoʊ.ʃənz, ənd hiː bɪˈɡæn tuː kraɪ/"
+    },
+    {
+      "sentence": "In 1827, he suffered from lead poisoning.",
+      "meaning-example": "Năm 1827, ông mắc bệnh ngộ độc chì.",
+      "ipa-example": "/ɪn ˈeɪ.tiːn ˈtwen.ti ˈsev.ən, hiː ˈsʌf.ərd frɒm led ˈpɔɪ.zən.ɪŋ/"
+    },
+    {
+      "sentence": "He didn’t survive the sickness, but his music did because great music never becomes **outdated**.",
+      "meaning-example": "Ông không qua khỏi căn bệnh, nhưng âm nhạc của ông thì có vì âm nhạc vĩ đại không bao giờ trở nên lỗi thời.",
+      "ipa-example": "/hiː dɪdnt sərˈvaɪv ðə ˈsɪk.nəs, bʌt hɪz ˈmjuː.zɪk dɪd bɪˈkɒz ɡreɪt ˈmjuː.zɪk ˈnev.ər bɪˈkʌmz ˌaʊtˈdeɪ.tɪd/"
+    },
+    {
+      "sentence": "Even though Beethoven is gone, his **legacy** will live on forever.",
+      "meaning-example": "Mặc dù Beethoven đã ra đi, nhưng di sản của ông sẽ sống mãi.",
+      "ipa-example": "/ˈiː.vən ðoʊ ˈbeɪt.hoʊ.vən ɪz ɡɒn, hɪz ˈleɡ.ə.si wɪl lɪv ɒn fərˈev.ər/"
+    }
+  ]
+}
+]
