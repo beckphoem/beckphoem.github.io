@@ -380,7 +380,9 @@
     ]
   }
   ,{
-  "sentences of story": [
+        "word": "sentences of story",
+
+  "example": [
     {
       "sentence": "Beethoven was a great composer of classical music in the 1800s.",
       "meaning-example": "Beethoven là một nhà soạn nhạc vĩ đại của nhạc cổ điển vào những năm 1800.",
