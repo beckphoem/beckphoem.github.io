@@ -658,18 +658,18 @@
         }
 
         // Xử lý sự kiện cuộn
-        window.addEventListener('scroll', () => {
-            // Xóa timeout trước đó nếu có
-            clearTimeout(scrollTimeout);
+        // window.addEventListener('scroll', () => {
+        //     // Xóa timeout trước đó nếu có
+        //     clearTimeout(scrollTimeout);
 
-            // Luôn hiển thị header khi bắt đầu cuộn
-            header.classList.remove('hide');
+        //     // Luôn hiển thị header khi bắt đầu cuộn
+        //     header.classList.remove('hide');
 
-            // Đặt timeout để kiểm tra hướng cuộn sau khi dừng cuộn
-            scrollTimeout = setTimeout(() => {
-                checkScrollDirection();
-            }, 100); // Thời gian chờ sau khi dừng cuộn (ms)
-        });
+        //     // Đặt timeout để kiểm tra hướng cuộn sau khi dừng cuộn
+        //     scrollTimeout = setTimeout(() => {
+        //         checkScrollDirection();
+        //     }, 100); // Thời gian chờ sau khi dừng cuộn (ms)
+        // });
 
 
         // Khi tải trang xong
