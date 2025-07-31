@@ -1,0 +1,51 @@
+[
+
+ {
+
+ "word": "",// từ vựng tiếng anh
+ "IPA": "", // phiên âm tiếng anh
+ "meaning": "", // nghĩa tiếng việt
+ "image": "", //link hình ảnh
+ "classes": "", // loại từ vựng
+ "example": [ // các câu ví dụ
+{
+ "sentence": "" // câu đầu tiên chứa từ vựng,
+
+ ,"meaning-example": "",// nghĩa của câu
+
+ ,"ipa-example": "//" // IPA của câu
+ },
+
+ {
+ "sentence": "", câu thứ 2 chứa câu xuất hiện trong câu truyện
+ ,"meaning-example": "", // 
+ "ipa-example": ""
+}
+ ]
+ },
+
+{ // 19 từ vựng còn lại
+
+}
+
+,
+
+{ // chứa các câu của câu truyện
+
+"word": "sentences of story",//
+
+"example": [ // tất cả các câu trong ## sentences of story
+
+{
+
+"sentence": "" // câu trong câu truyện ,
+
+"meaning-example": "",// nghĩa của câu
+
+"ipa-example": "//" //IPA của câu
+
+},
+
+}
+
+]
