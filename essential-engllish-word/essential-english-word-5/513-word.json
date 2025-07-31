@@ -1,45 +1,55 @@
 [
   {
     "word": "brook",
-    "IPA": "/brʊk/",
+    "ipa": "/brʊk/",
     "meaning": "một con suối nhỏ.",
     "image": "eew-5-13/1.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "He decided to follow a brook into the city.",
-        "meaning-example": "Cậu ấy quyết định đi theo một con suối nhỏ vào thành phố.",
-        "ipa-example": "/hi dɪˈsaɪdɪd tu ˈfɑːloʊ ə brʊk ˈɪntu ðə ˈsɪti/"
+        "meaning-example": "Anh quyết định đi theo một con suối nhỏ vào thành phố.",
+        "ipa-example": "//hiː dɪˈsaɪdɪd tuː ˈfɑːloʊ ə brʊk ˈɪntuː ðə ˈsɪti//"
       },
       {
         "sentence": "We sat by the little brook.",
-        "meaning-example": "Chúng tôi ngồi bên con suối nhỏ.",
-        "ipa-example": "/wi sæt baɪ ðə ˈlɪtl brʊk/"
+        "meaning-example": "Chúng tôi ngồi cạnh con suối nhỏ.",
+        "ipa-example": "//wiː sæt baɪ ðə ˈlɪtl brʊk//"
+      },
+      {
+        "sentence": "The children love to play in the brook.",
+        "meaning-example": "Bọn trẻ thích chơi ở con suối nhỏ.",
+        "ipa-example": "//ðə ˈtʃɪldrən lʌv tuː pleɪ ɪn ðə brʊk//"
       }
     ]
   },
   {
     "word": "cater",
-    "IPA": "/ˈkeɪtər/",
+    "ipa": "/ˈkeɪtər/",
     "meaning": "cung cấp, phục vụ tất cả nhu cầu.",
     "image": "eew-5-13/2.png",
     "classes": "verb",
     "example": [
       {
         "sentence": "I’ll cater to all your needs.",
-        "meaning-example": "Tôi sẽ phục vụ tất cả các nhu cầu của bạn.",
-        "ipa-example": "/aɪl ˈkeɪtər tu ɔːl jʊər niːdz/"
+        "meaning-example": "Tôi sẽ đáp ứng mọi nhu cầu của bạn.",
+        "ipa-example": "//aɪl ˈkeɪtər tuː ɔːl jɔːr niːdz//"
       },
       {
         "sentence": "This shop will cater to your interests.",
-        "meaning-example": "Cửa hàng này sẽ đáp ứng sở thích của bạn.",
-        "ipa-example": "/ðɪs ʃɑːp wɪl ˈkeɪtər tu jʊər ˈɪntrəsts/"
+        "meaning-example": "Cửa hàng này sẽ phục vụ sở thích của bạn.",
+        "ipa-example": "//ðɪs ʃɑːp wɪl ˈkeɪtər tuː jɔːr ˈɪntrəsts//"
+      },
+      {
+        "sentence": "They cater food for parties.",
+        "meaning-example": "Họ cung cấp đồ ăn cho các bữa tiệc.",
+        "ipa-example": "//ðeɪ ˈkeɪtər fuːd fɔːr ˈpɑːrtiz//"
       }
     ]
   },
   {
     "word": "considerate",
-    "IPA": "/kənˈsɪdərət/",
+    "ipa": "/kənˈsɪdərət/",
     "meaning": "ân cần, chu đáo, tử tế.",
     "image": "eew-5-13/3.png",
     "classes": "adjective",
@@ -47,18 +57,23 @@
       {
         "sentence": "Elvis’s owner wasn’t a considerate person.",
         "meaning-example": "Chủ của Elvis không phải là một người chu đáo.",
-        "ipa-example": "/ˈɛlvɪsəz ˈoʊnər ˈwɑːzənt ə kənˈsɪdərət ˈpɜːrsən/"
+        "ipa-example": "//ˈelvɪsɪz ˈoʊnər ˈwɑːznt ə kənˈsɪdərət ˈpɜːrsən//"
       },
       {
         "sentence": "It was very considerate of you to help.",
         "meaning-example": "Bạn thật chu đáo khi giúp đỡ.",
-        "ipa-example": "/ɪt wɑz ˈvɛri kənˈsɪdərət əv ju tu hɛlp/"
+        "ipa-example": "//ɪt wəz ˈveri kənˈsɪdərət əv juː tuː help//"
+      },
+      {
+        "sentence": "He is always a kind and considerate person.",
+        "meaning-example": "Anh ấy luôn là một người tốt bụng và chu đáo.",
+        "ipa-example": "//hiː ɪz ˈɔːlweɪz ə kaɪnd ənd kənˈsɪdərət ˈpɜːrsən//"
       }
     ]
   },
   {
     "word": "consumption",
-    "IPA": "/kənˈsʌmpʃn/",
+    "ipa": "/kənˈsʌmpʃn/",
     "meaning": "việc ăn hoặc uống thứ gì đó.",
     "image": "eew-5-13/4.png",
     "classes": "noun",
@@ -66,37 +81,47 @@
       {
         "sentence": "There was a heap of tasty bones and bread crusts for consumption.",
         "meaning-example": "Có một đống xương ngon và vỏ bánh mì để ăn.",
-        "ipa-example": "/ðɛər wɑz ə hiːp əv ˈteɪsti boʊnz ənd brɛd krʌsts fɔːr kənˈsʌmpʃn/"
+        "ipa-example": "//ðer wəz ə hiːp əv ˈteɪsti boʊnz ənd bred krʌsts fɔːr kənˈsʌmpʃn//"
       },
       {
         "sentence": "This food is for our consumption.",
-        "meaning-example": "Thức ăn này là để chúng ta tiêu thụ.",
-        "ipa-example": "/ðɪs fuːd ɪz fɔːr ˈaʊər kənˈsʌmpʃn/"
+        "meaning-example": "Thức ăn này là để chúng ta ăn.",
+        "ipa-example": "//ðɪs fuːd ɪz fɔːr ˈaʊər kənˈsʌmpʃn//"
+      },
+      {
+        "sentence": "We need to reduce our energy consumption.",
+        "meaning-example": "Chúng ta cần giảm lượng tiêu thụ năng lượng.",
+        "ipa-example": "//wiː niːd tuː rɪˈduːs ˈaʊər ˈenərdʒi kənˈsʌmpʃn//"
       }
     ]
   },
   {
     "word": "criteria",
-    "IPA": "/kraɪˈtɪəriə/",
+    "ipa": "/kraɪˈtɪəriə/",
     "meaning": "tiêu chuẩn.",
     "image": "eew-5-13/5.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "He possessed all the criteria to be a great racing dog.",
-        "meaning-example": "Cậu ấy có tất cả các tiêu chuẩn để trở thành một chú chó đua tuyệt vời.",
-        "ipa-example": "/hi pəˈzɛst ɔːl ðə kraɪˈtɪəriə tu bi ə ɡreɪt ˈreɪsɪŋ dɔːɡ/"
+        "meaning-example": "Nó sở hữu tất cả các tiêu chuẩn để trở thành một con chó đua vĩ đại.",
+        "ipa-example": "//hiː pəˈzest ɔːl ðə kraɪˈtɪəriə tuː biː ə ɡreɪt ˈreɪsɪŋ dɔːɡ//"
       },
       {
         "sentence": "What are the criteria for the job?",
-        "meaning-example": "Các tiêu chuẩn cho công việc là gì?",
-        "ipa-example": "/wɑːt ɑːr ðə kraɪˈtɪəriə fɔːr ðə dʒɑːb/"
+        "meaning-example": "Những tiêu chuẩn cho công việc là gì?",
+        "ipa-example": "//wʌt ər ðə kraɪˈtɪəriə fɔːr ðə dʒɑːb//"
+      },
+      {
+        "sentence": "He meets all the criteria to enter the school.",
+        "meaning-example": "Anh ấy đáp ứng tất cả các tiêu chuẩn để vào trường.",
+        "ipa-example": "//hiː miːts ɔːl ðə kraɪˈtɪəriə tuː ˈentər ðə skuːl//"
       }
     ]
   },
   {
     "word": "crust",
-    "IPA": "/krʌst/",
+    "ipa": "/krʌst/",
     "meaning": "vỏ bánh mì.",
     "image": "eew-5-13/6.png",
     "classes": "noun",
@@ -104,37 +129,47 @@
       {
         "sentence": "There was a heap of tasty bones and bread crusts for consumption.",
         "meaning-example": "Có một đống xương ngon và vỏ bánh mì để ăn.",
-        "ipa-example": "/ðɛər wɑz ə hiːp əv ˈteɪsti boʊnz ənd brɛd krʌsts fɔːr kənˈsʌmpʃn/"
+        "ipa-example": "//ðer wəz ə hiːp əv ˈteɪsti boʊnz ənd bred krʌsts fɔːr kənˈsʌmpʃn//"
       },
       {
         "sentence": "I like the crust of the bread.",
         "meaning-example": "Tôi thích vỏ bánh mì.",
-        "ipa-example": "/aɪ laɪk ðə krʌst əv ðə brɛd/"
+        "ipa-example": "//aɪ laɪk ðə krʌst əv ðə bred//"
+      },
+      {
+        "sentence": "My brother doesn't eat the pizza crust.",
+        "meaning-example": "Anh trai tôi không ăn vỏ bánh pizza.",
+        "ipa-example": "//maɪ ˈbrʌðər dʌznt iːt ðə ˈpiːtsə krʌst//"
       }
     ]
   },
   {
     "word": "degrade",
-    "IPA": "/dɪˈɡreɪd/",
+    "ipa": "/dɪˈɡreɪd/",
     "meaning": "làm mất phẩm giá, hạ thấp.",
     "image": "eew-5-13/7.png",
     "classes": "verb",
     "example": [
       {
         "sentence": "He degraded the dog all the time.",
-        "meaning-example": "Ông ấy luôn hạ thấp con chó.",
-        "ipa-example": "/hi dɪˈɡreɪdɪd ðə dɔːɡ ɔːl ðə taɪm/"
+        "meaning-example": "Anh ta luôn hạ thấp con chó.",
+        "ipa-example": "//hiː dɪˈɡreɪdɪd ðə dɔːɡ ɔːl ðə taɪm//"
       },
       {
         "sentence": "You should not degrade other people.",
         "meaning-example": "Bạn không nên hạ thấp người khác.",
-        "ipa-example": "/ju ʃʊd nɑːt dɪˈɡreɪd ˈʌðər ˈpiːpl/"
+        "ipa-example": "//juː ʃʊd nɑːt dɪˈɡreɪd ˈʌðər ˈpiːpl//"
+      },
+      {
+        "sentence": "He felt degraded by the unfair treatment.",
+        "meaning-example": "Anh ấy cảm thấy bị hạ thấp bởi sự đối xử không công bằng.",
+        "ipa-example": "//hiː felt dɪˈɡreɪdɪd baɪ ðə ʌnˈfer ˈtriːtmənt//"
       }
     ]
   },
   {
     "word": "entitle",
-    "IPA": "/ɪnˈtaɪtl/",
+    "ipa": "/ɪnˈtaɪtl/",
     "meaning": "cho quyền.",
     "image": "eew-5-13/8.png",
     "classes": "verb",
@@ -142,94 +177,119 @@
       {
         "sentence": "You’re entitled to a better life than this.",
         "meaning-example": "Bạn xứng đáng có một cuộc sống tốt hơn thế này.",
-        "ipa-example": "/jʊər ɪnˈtaɪtld tu ə ˈbɛtər laɪf ðæn ðɪs/"
+        "ipa-example": "//jʊər ɪnˈtaɪtld tuː ə ˈbetər laɪf ðæn ðɪs//"
       },
       {
         "sentence": "This ticket will entitle you to a free drink.",
-        "meaning-example": "Tấm vé này sẽ cho bạn quyền được uống miễn phí.",
-        "ipa-example": "/ðɪs ˈtɪkɪt wɪl ɪnˈtaɪtl ju tu ə friː drɪŋk/"
+        "meaning-example": "Tấm vé này sẽ cho phép bạn có một đồ uống miễn phí.",
+        "ipa-example": "//ðɪs ˈtɪkɪt wɪl ɪnˈtaɪtl juː tuː ə friː drɪŋk//"
+      },
+      {
+        "sentence": "Everyone is entitled to their own opinion.",
+        "meaning-example": "Mỗi người đều có quyền có ý kiến riêng của mình.",
+        "ipa-example": "//ˈevriwʌn ɪz ɪnˈtaɪtld tuː ðer oʊn əˈpɪnjən//"
       }
     ]
   },
   {
     "word": "escort",
-    "IPA": "/ˈeskɔːrt/",
+    "ipa": "/ˈeskɔːrt/",
     "meaning": "hộ tống, đi cùng.",
     "image": "eew-5-13/9.png",
     "classes": "verb",
     "example": [
       {
         "sentence": "The woman escorted Elvis to a beautiful facility.",
-        "meaning-example": "Người phụ nữ hộ tống Elvis đến một cơ sở vật chất đẹp.",
-        "ipa-example": "/ðə ˈwʊmən ɪˈskɔːrtɪd ˈɛlvɪs tu ə ˈbjuːtəfl fəˈsɪləti/"
+        "meaning-example": "Người phụ nữ hộ tống Elvis đến một cơ sở đẹp.",
+        "ipa-example": "//ðə ˈwʊmən ɪˈskɔːrtɪd ˈelvɪs tuː ə ˈbjuːtəfl fəˈsɪləti//"
       },
       {
         "sentence": "The police will escort the president.",
         "meaning-example": "Cảnh sát sẽ hộ tống tổng thống.",
-        "ipa-example": "/ðə pəˈliːs wɪl ɪˈskɔːrt ðə ˈprɛzɪdənt/"
+        "ipa-example": "//ðə pəˈliːs wɪl ɪˈskɔːrt ðə ˈprezɪdənt//"
+      },
+      {
+        "sentence": "He offered to escort me home.",
+        "meaning-example": "Anh ấy ngỏ ý đưa tôi về nhà.",
+        "ipa-example": "//hiː ˈɔːfərd tuː ɪˈskɔːrt miː hoʊm//"
       }
     ]
   },
   {
     "word": "external",
-    "IPA": "/ɪkˈstɜːrnl/",
+    "ipa": "/ɪkˈstɜːrnl/",
     "meaning": "bên ngoài.",
     "image": "eew-5-13/10.png",
     "classes": "adjective",
     "example": [
       {
         "sentence": "There was a sign on the external door that said, “Dogs Welcome!”",
-        "meaning-example": "Có một biển báo trên cửa bên ngoài ghi, “Chào đón những chú chó!”",
-        "ipa-example": "/ðɛər wɑz ə saɪn ɑːn ðə ɪkˈstɜːrnl dɔːr ðæt sɛd dɔːɡz ˈwɛlkəm/"
+        "meaning-example": "Có một tấm biển trên cánh cửa bên ngoài ghi, “Chào mừng những chú chó!”",
+        "ipa-example": "//ðer wəz ə saɪn ɑːn ðə ɪkˈstɜːrnl dɔːr ðæt sed dɔːɡz ˈwelkəm//"
       },
       {
         "sentence": "We painted the external walls of the house.",
-        "meaning-example": "Chúng tôi đã sơn các bức tường bên ngoài của ngôi nhà.",
-        "ipa-example": "/wi ˈpeɪntɪd ðə ɪkˈstɜːrnl wɔːlz əv ðə haʊs/"
+        "meaning-example": "Chúng tôi đã sơn những bức tường bên ngoài của ngôi nhà.",
+        "ipa-example": "//wiː peɪntɪd ðə ɪkˈstɜːrnl wɔːlz əv ðə haʊs//"
+      },
+      {
+        "sentence": "The medicine is for external use only.",
+        "meaning-example": "Thuốc này chỉ dùng ngoài da.",
+        "ipa-example": "//ðə ˈmedɪsn ɪz fɔːr ɪkˈstɜːrnl juːs ˈoʊnli//"
       }
     ]
   },
   {
     "word": "facility",
-    "IPA": "/fəˈsɪləti/",
+    "ipa": "/fəˈsɪləti/",
     "meaning": "cơ sở vật chất, một nơi được xây dựng cho một mục đích cụ thể.",
     "image": "eew-5-13/11.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "The woman escorted Elvis to a beautiful facility.",
-        "meaning-example": "Người phụ nữ hộ tống Elvis đến một cơ sở vật chất đẹp.",
-        "ipa-example": "/ðə ˈwʊmən ɪˈskɔːrtɪd ˈɛlvɪs tu ə ˈbjuːtəfl fəˈsɪləti/"
+        "meaning-example": "Người phụ nữ hộ tống Elvis đến một cơ sở đẹp.",
+        "ipa-example": "//ðə ˈwʊmən ɪˈskɔːrtɪd ˈelvɪs tuː ə ˈbjuːtəfl fəˈsɪləti//"
       },
       {
         "sentence": "Our school has a new sports facility.",
-        "meaning-example": "Trường học của chúng tôi có một cơ sở thể thao mới.",
-        "ipa-example": "/ˈaʊər skuːl hæz ə nuː spɔːrts fəˈsɪləti/"
+        "meaning-example": "Trường chúng tôi có một cơ sở thể thao mới.",
+        "ipa-example": "//ˈaʊər skuːl hæz ə nuː spɔːrts fəˈsɪləti//"
+      },
+      {
+        "sentence": "This is a medical facility.",
+        "meaning-example": "Đây là một cơ sở y tế.",
+        "ipa-example": "//ðɪs ɪz ə ˈmedɪkl fəˈsɪləti//"
       }
     ]
   },
   {
     "word": "faculty",
-    "IPA": "/ˈfæklti/",
+    "ipa": "/ˈfæklti/",
     "meaning": "khả năng, năng lực tự nhiên của cơ thể hoặc trí óc.",
     "image": "eew-5-13/12.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "His faculties were not as strong as they used to be.",
-        "meaning-example": "Các khả năng của cậu ấy không còn mạnh mẽ như trước nữa.",
-        "ipa-example": "/hɪz ˈfækltiz wɜːr nɑːt əz strɔːŋ əz ðeɪ juːzd tu bi/"
+        "meaning-example": "Các khả năng của anh ấy không còn mạnh mẽ như trước nữa.",
+        "ipa-example": "//hɪz ˈfækltiz wɜːr nɑːt əz strɔːŋ əz ðeɪ juːst tuː biː//"
       },
       {
         "sentence": "She still has all her mental faculties.",
-        "meaning-example": "Cô ấy vẫn có tất cả các khả năng tinh thần của mình.",
-        "ipa-example": "/ʃi stɪl hæz ɔːl hər ˈmɛntl ˈfækltiz/"
+        "meaning-example": "Cô ấy vẫn còn đầy đủ khả năng trí tuệ.",
+        "ipa-example": "//ʃiː stɪl hæz ɔːl hər ˈmentl ˈfækltiz//"
+      },
+      {
+        "sentence": "As he grew older, his faculties began to fail.",
+        "meaning-example": "Khi anh ấy già đi, các khả năng của anh ấy bắt đầu suy giảm.",
+        "ipa-example": "//əz hiː ɡruː ˈoʊldər hɪz ˈfækltiz bɪˈɡæn tuː feɪl//"
       }
     ]
   },
   {
     "word": "heap",
-    "IPA": "/hiːp/",
+    "ipa": "/hiːp/",
     "meaning": "một đống.",
     "image": "eew-5-13/13.png",
     "classes": "noun",
@@ -237,56 +297,71 @@
       {
         "sentence": "There was a heap of tasty bones and bread crusts for consumption.",
         "meaning-example": "Có một đống xương ngon và vỏ bánh mì để ăn.",
-        "ipa-example": "/ðɛər wɑz ə hiːp əv ˈteɪsti boʊnz ənd brɛd krʌsts fɔːr kənˈsʌmpʃn/"
+        "ipa-example": "//ðer wəz ə hiːp əv ˈteɪsti boʊnz ənd bred krʌsts fɔːr kənˈsʌmpʃn//"
       },
       {
         "sentence": "There was a heap of clothes on the floor.",
         "meaning-example": "Có một đống quần áo trên sàn nhà.",
-        "ipa-example": "/ðɛər wɑz ə hiːp əv kloʊðz ɑːn ðə flɔːr/"
+        "ipa-example": "//ðer wəz ə hiːp əv kloʊðz ɑːn ðə flɔːr//"
+      },
+      {
+        "sentence": "I have a heap of work to do today.",
+        "meaning-example": "Tôi có một đống việc phải làm hôm nay.",
+        "ipa-example": "//aɪ hæv ə hiːp əv wɜːrk tuː duː təˈdeɪ//"
       }
     ]
   },
   {
     "word": "hemisphere",
-    "IPA": "/ˈhemɪsfɪər/",
+    "ipa": "/ˈhemɪsfɪər/",
     "meaning": "bán cầu.",
     "image": "eew-5-13/14.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "He was so good that he never lost a race in the northern hemisphere.",
-        "meaning-example": "Cậu ấy giỏi đến nỗi chưa bao giờ thua một cuộc đua nào ở bán cầu bắc.",
-        "ipa-example": "/hi wɑz soʊ ɡʊd ðæt hi ˈnɛvər lɔːst ə reɪs ɪn ðə ˈnɔːrðərn ˈhemɪsfɪər/"
+        "meaning-example": "Anh ấy giỏi đến mức chưa bao giờ thua một cuộc đua nào ở bán cầu bắc.",
+        "ipa-example": "//hiː wəz soʊ ɡʊd ðæt hiː ˈnevər lɔːst ə reɪs ɪn ðə ˈnɔːrðərn ˈhemɪsfɪər//"
       },
       {
         "sentence": "Australia is in the Southern Hemisphere.",
-        "meaning-example": "Úc nằm ở Bán cầu Nam.",
-        "ipa-example": "/ɔːˈstreɪliə ɪz ɪn ðə ˈsʌðərn ˈhemɪsfɪər/"
+        "meaning-example": "Úc nằm ở bán cầu nam.",
+        "ipa-example": "//ɔːˈstreɪliə ɪz ɪn ðə ˈsʌðərn ˈhemɪsfɪər//"
+      },
+      {
+        "sentence": "The Northern Hemisphere is north of the equator.",
+        "meaning-example": "Bán cầu bắc nằm ở phía bắc của đường xích đạo.",
+        "ipa-example": "//ðə ˈnɔːrðərn ˈhemɪsfɪər ɪz nɔːrθ əv ðə ɪˈkweɪtər//"
       }
     ]
   },
   {
     "word": "hound",
-    "IPA": "/haʊnd/",
+    "ipa": "/haʊnd/",
     "meaning": "một loại chó săn.",
     "image": "eew-5-13/15.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "He was ready to give up when he heard a soft voice say, “What a beautiful hound!”",
-        "meaning-example": "Cậu ấy đã sẵn sàng từ bỏ khi nghe thấy một giọng nói nhẹ nhàng, “Thật là một con chó săn đẹp!”",
-        "ipa-example": "/hi wɑz ˈrɛdi tu ɡɪv ʌp wɛn hi hɜːrd ə sɔːft vɔɪs seɪ wɑːt ə ˈbjuːtəfl haʊnd/"
+        "meaning-example": "Anh ta đã sẵn sàng bỏ cuộc thì nghe thấy một giọng nói nhẹ nhàng nói, “Ôi, một con chó săn thật đẹp!”",
+        "ipa-example": "//hiː wəz ˈredi tuː ɡɪv ʌp wen hiː hɜːrd ə sɔːft vɔɪs seɪ wʌt ə ˈbjuːtəfl haʊnd//"
       },
       {
         "sentence": "The hunter followed the hound.",
-        "meaning-example": "Người thợ săn đã đi theo con chó săn.",
-        "ipa-example": "/ðə ˈhʌntər ˈfɑːloʊd ðə haʊnd/"
+        "meaning-example": "Người thợ săn đi theo con chó săn.",
+        "ipa-example": "//ðə ˈhʌntər ˈfɑːloʊd ðə haʊnd//"
+      },
+      {
+        "sentence": "A hound has a very good sense of smell.",
+        "meaning-example": "Một con chó săn có khứu giác rất tốt.",
+        "ipa-example": "//ə haʊnd hæz ə ˈveri ɡʊd sens əv smel//"
       }
     ]
   },
   {
     "word": "impersonal",
-    "IPA": "/ɪmˈpɜːrsənl/",
+    "ipa": "/ɪmˈpɜːrsənl/",
     "meaning": "không thân thiện, không thể hiện cảm xúc cá nhân.",
     "image": "eew-5-13/16.png",
     "classes": "adjective",
@@ -294,88 +369,113 @@
       {
         "sentence": "Elvis soon found out that the city was a big and impersonal place.",
         "meaning-example": "Elvis sớm nhận ra rằng thành phố là một nơi rộng lớn và vô cảm.",
-        "ipa-example": "/ˈɛlvɪs suːn faʊnd aʊt ðæt ðə ˈsɪti wɑz ə bɪɡ ənd ɪmˈpɜːrsənl pleɪs/"
+        "ipa-example": "//ˈelvɪs suːn faʊnd aʊt ðæt ðə ˈsɪti wəz ə bɪɡ ənd ɪmˈpɜːrsənl pleɪs//"
       },
       {
         "sentence": "Big offices can feel cold and impersonal.",
-        "meaning-example": "Các văn phòng lớn có thể mang lại cảm giác lạnh lẽo và vô cảm.",
-        "ipa-example": "/bɪɡ ˈɔːfɪsɪz kæn fiːl koʊld ənd ɪmˈpɜːrsənl/"
+        "meaning-example": "Những văn phòng lớn có thể mang lại cảm giác lạnh lùng và vô cảm.",
+        "ipa-example": "//bɪɡ ˈɔːfɪsɪz kən fiːl koʊld ənd ɪmˈpɜːrsənl//"
+      },
+      {
+        "sentence": "He gave an impersonal smile.",
+        "meaning-example": "Anh ấy nở một nụ cười xã giao.",
+        "ipa-example": "//hiː ɡeɪv ən ɪmˈpɜːrsənl smaɪl//"
       }
     ]
   },
   {
     "word": "ornament",
-    "IPA": "/ˈɔːrnəmənt/",
+    "ipa": "/ˈɔːrnəmənt/",
     "meaning": "đồ trang trí.",
     "image": "eew-5-13/17.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "The interior of the building was painted blue, and shiny ornaments hung from the ceiling.",
-        "meaning-example": "Nội thất của tòa nhà được sơn màu xanh lam, và các đồ trang trí lấp lánh treo trên trần nhà.",
-        "ipa-example": "/ðə ɪnˈtɪəriər əv ðə ˈbɪldɪŋ wɑz ˈpeɪntɪd bluː ənd ˈʃaɪni ˈɔːrnəmənts hʌŋ frəm ðə ˈsiːlɪŋ/"
+        "meaning-example": "Bên trong tòa nhà được sơn màu xanh lam, và những đồ trang trí sáng bóng được treo trên trần nhà.",
+        "ipa-example": "//ðə ɪnˈtɪəriər əv ðə ˈbɪldɪŋ wəz peɪntɪd bluː ənd ˈʃaɪni ˈɔːrnəmənts hʌŋ frəm ðə ˈsiːlɪŋ//"
       },
       {
         "sentence": "We put beautiful ornaments on the Christmas tree.",
         "meaning-example": "Chúng tôi đặt những đồ trang trí đẹp mắt lên cây thông Noel.",
-        "ipa-example": "/wi pʊt ˈbjuːtəfl ˈɔːrnəmənts ɑːn ðə ˈkrɪsməs triː/"
+        "ipa-example": "//wiː pʊt ˈbjuːtəfl ˈɔːrnəmənts ɑːn ðə ˈkrɪsməs triː//"
+      },
+      {
+        "sentence": "The vase is an ornament for the room.",
+        "meaning-example": "Bình hoa là một vật trang trí cho căn phòng.",
+        "ipa-example": "//ðə veɪs ɪz ən ˈɔːrnəmənt fɔːr ðə ruːm//"
       }
     ]
   },
   {
     "word": "pedestrian",
-    "IPA": "/pəˈdestriən/",
+    "ipa": "/pəˈdestriən/",
     "meaning": "người đi bộ.",
     "image": "eew-5-13/18.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "Pedestrians yelled at him.",
-        "meaning-example": "Những người đi bộ la mắng cậu ấy.",
-        "ipa-example": "/pəˈdestriənz jɛld æt hɪm/"
+        "meaning-example": "Những người đi bộ la mắng anh ta.",
+        "ipa-example": "//pəˈdestriənz jeld ət hɪm//"
       },
       {
         "sentence": "This area is for pedestrians only.",
         "meaning-example": "Khu vực này chỉ dành cho người đi bộ.",
-        "ipa-example": "/ðɪs ˈɛriə ɪz fɔːr pəˈdestriənz ˈoʊnli/"
+        "ipa-example": "//ðɪs ˈeriə ɪz fɔːr pəˈdestriənz ˈoʊnli//"
+      },
+      {
+        "sentence": "A pedestrian should use the crosswalk.",
+        "meaning-example": "Người đi bộ nên sử dụng vạch kẻ đường dành cho người đi bộ.",
+        "ipa-example": "//ə pəˈdestriən ʃʊd juːz ðə ˈkrɔːswɔːk//"
       }
     ]
   },
   {
     "word": "sanctuary",
-    "IPA": "/ˈsæŋktʃueri/",
+    "ipa": "/ˈsæŋktʃueri/",
     "meaning": "nơi trú ẩn an toàn.",
     "image": "eew-5-13/19.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "I can take you to a sanctuary for old dogs like you.",
-        "meaning-example": "Tôi có thể đưa bạn đến một khu bảo tồn cho những con chó già như bạn.",
-        "ipa-example": "/aɪ kæn teɪk ju tu ə ˈsæŋktʃueri fɔːr oʊld dɔːɡz laɪk ju/"
+        "meaning-example": "Tôi có thể đưa bạn đến một nơi trú ẩn cho những con chó già như bạn.",
+        "ipa-example": "//aɪ kən teɪk juː tuː ə ˈsæŋktʃueri fɔːr oʊld dɔːɡz laɪk juː//"
       },
       {
         "sentence": "The church was a sanctuary for the homeless.",
         "meaning-example": "Nhà thờ là nơi trú ẩn cho những người vô gia cư.",
-        "ipa-example": "/ðə tʃɜːrtʃ wɑz ə ˈsæŋktʃueri fɔːr ðə ˈhoʊmləs/"
+        "ipa-example": "//ðə tʃɜːrtʃ wəz ə ˈsæŋktʃueri fɔːr ðə ˈhoʊmləs//"
+      },
+      {
+        "sentence": "The park is a bird sanctuary.",
+        "meaning-example": "Công viên là một khu bảo tồn chim.",
+        "ipa-example": "//ðə pɑːrk ɪz ə bɜːrd ˈsæŋktʃueri//"
       }
     ]
   },
   {
     "word": "spectator",
-    "IPA": "/ˈspekteɪtər/",
+    "ipa": "/ˈspekteɪtər/",
     "meaning": "khán giả, người xem một sự kiện.",
     "image": "eew-5-13/20.png",
     "classes": "noun",
     "example": [
       {
         "sentence": "Spectators who bet on dog races always picked Elvis to win.",
-        "meaning-example": "Khán giả cá cược các cuộc đua chó luôn chọn Elvis để thắng.",
-        "ipa-example": "/spɛkˈteɪtərz hu bɛt ɑːn dɔːɡ ˈreɪsɪz ˈɔːlweɪz pɪkt ˈɛlvɪs tu wɪn/"
+        "meaning-example": "Khán giả cá cược vào các cuộc đua chó luôn chọn Elvis để chiến thắng.",
+        "ipa-example": "//spekˈteɪtərz huː bet ɑːn dɔːɡ ˈreɪsɪz ˈɔːlweɪz pɪkt ˈelvɪs tuː wɪn//"
       },
       {
         "sentence": "The spectators cheered for their team.",
         "meaning-example": "Khán giả cổ vũ cho đội của họ.",
-        "ipa-example": "/ðə spɛkˈteɪtərz tʃɪərd fɔːr ðɛər tiːm/"
+        "ipa-example": "//ðə spekˈteɪtərz tʃɪərd fɔːr ðer tiːm//"
+      },
+      {
+        "sentence": "There were many spectators at the football match.",
+        "meaning-example": "Có rất nhiều khán giả tại trận đấu bóng đá.",
+        "ipa-example": "//ðer wɜːr ˈmeni spekˈteɪtərz ət ðə ˈfʊtbɔːl mætʃ//"
       }
     ]
   },
@@ -384,163 +484,163 @@
     "example": [
       {
         "sentence": "Elvis was a dog that loved to run.",
-        "meaning-example": "Elvis là một chú chó thích chạy.",
-        "ipa-example": "/ˈɛlvɪs wɑz ə dɔːɡ ðæt lʌvd tu rʌn/"
+        "meaning-example": "Elvis là một con chó thích chạy.",
+        "ipa-example": "//ˈelvɪs wəz ə dɔːɡ ðæt lʌvd tuː rʌn//"
       },
       {
         "sentence": "He possessed all the criteria to be a great racing dog.",
-        "meaning-example": "Cậu ấy có tất cả các tiêu chuẩn để trở thành một chú chó đua tuyệt vời.",
-        "ipa-example": "/hi pəˈzɛst ɔːl ðə kraɪˈtɪəriə tu bi ə ɡreɪt ˈreɪsɪŋ dɔːɡ/"
+        "meaning-example": "Nó sở hữu tất cả các tiêu chuẩn để trở thành một con chó đua vĩ đại.",
+        "ipa-example": "//hiː pəˈzest ɔːl ðə kraɪˈtɪəriə tuː biː ə ɡreɪt ˈreɪsɪŋ dɔːɡ//"
       },
       {
         "sentence": "He had long legs, lean muscles, and a strong heart.",
-        "meaning-example": "Cậu ấy có đôi chân dài, cơ bắp săn chắc và một trái tim khỏe mạnh.",
-        "ipa-example": "/hi hæd lɔːŋ lɛɡz liːn ˈmʌslz ənd ə strɔːŋ hɑːrt/"
+        "meaning-example": "Nó có đôi chân dài, cơ bắp săn chắc và một trái tim mạnh mẽ.",
+        "ipa-example": "//hiː hæd lɔːŋ leɡz liːn ˈmʌslz ənd ə strɔːŋ hɑːrt//"
       },
       {
         "sentence": "He was so good that he never lost a race in the northern hemisphere.",
-        "meaning-example": "Cậu ấy giỏi đến nỗi chưa bao giờ thua một cuộc đua nào ở bán cầu bắc.",
-        "ipa-example": "/hi wɑz soʊ ɡʊd ðæt hi ˈnɛvər lɔːst ə reɪs ɪn ðə ˈnɔːrðərn ˈhemɪsfɪər/"
+        "meaning-example": "Nó giỏi đến mức chưa bao giờ thua một cuộc đua nào ở bán cầu bắc.",
+        "ipa-example": "//hiː wəz soʊ ɡʊd ðæt hiː ˈnevər lɔːst ə reɪs ɪn ðə ˈnɔːrðərn ˈhemɪsfɪər//"
       },
       {
         "sentence": "Spectators who bet on dog races always picked Elvis to win.",
-        "meaning-example": "Khán giả cá cược các cuộc đua chó luôn chọn Elvis để thắng.",
-        "ipa-example": "/spɛkˈteɪtərz hu bɛt ɑːn dɔːɡ ˈreɪsɪz ˈɔːlweɪz pɪkt ˈɛlvɪs tu wɪn/"
+        "meaning-example": "Khán giả cá cược vào các cuộc đua chó luôn chọn Elvis để chiến thắng.",
+        "ipa-example": "//spekˈteɪtərz huː bet ɑːn dɔːɡ ˈreɪsɪz ˈɔːlweɪz pɪkt ˈelvɪs tuː wɪn//"
       },
       {
         "sentence": "After ten years of racing, however, Elvis was getting old.",
-        "meaning-example": "Tuy nhiên, sau mười năm đua, Elvis đã già đi.",
-        "ipa-example": "/ˈæftər tɛn jɪərz əv ˈreɪsɪŋ haʊˈɛvər ˈɛlvɪs wɑz ˈɡɛtɪŋ oʊld/"
+        "meaning-example": "Tuy nhiên, sau mười năm đua, Elvis đã già.",
+        "ipa-example": "//ˈæftər ten jɪərz əv ˈreɪsɪŋ haʊˈevər ˈelvɪs wəz ˈɡetɪŋ oʊld//"
       },
       {
         "sentence": "His faculties were not as strong as they used to be.",
-        "meaning-example": "Các khả năng của cậu ấy không còn mạnh mẽ như trước nữa.",
-        "ipa-example": "/hɪz ˈfækltiz wɜːr nɑːt əz strɔːŋ əz ðeɪ juːzd tu bi/"
+        "meaning-example": "Các khả năng của anh ấy không còn mạnh mẽ như trước nữa.",
+        "ipa-example": "//hɪz ˈfækltiz wɜːr nɑːt əz strɔːŋ əz ðeɪ juːst tuː biː//"
       },
       {
         "sentence": "His owner got upset when Elvis started losing.",
-        "meaning-example": "Chủ của cậu ấy trở nên buồn bã khi Elvis bắt đầu thua cuộc.",
-        "ipa-example": "/hɪz ˈoʊnər ɡɑːt ʌpˈsɛt wɛn ˈɛlvɪs ˈstɑːrtɪd ˈluːzɪŋ/"
+        "meaning-example": "Chủ của Elvis tức giận khi nó bắt đầu thua.",
+        "ipa-example": "//hɪz ˈoʊnər ɡɑːt ʌpˈset wen ˈelvɪs ˈstɑːrtɪd ˈluːzɪŋ//"
       },
       {
         "sentence": "Elvis’s owner wasn’t a considerate person.",
         "meaning-example": "Chủ của Elvis không phải là một người chu đáo.",
-        "ipa-example": "/ˈɛlvɪsəz ˈoʊnər ˈwɑːzənt ə kənˈsɪdərət ˈpɜːrsən/"
+        "ipa-example": "//ˈelvɪsɪz ˈoʊnər ˈwɑːznt ə kənˈsɪdərət ˈpɜːrsən//"
       },
       {
         "sentence": "He degraded the dog all the time.",
-        "meaning-example": "Ông ấy luôn hạ thấp con chó.",
-        "ipa-example": "/hi dɪˈɡreɪdɪd ðə dɔːɡ ɔːl ðə taɪm/"
+        "meaning-example": "Anh ta luôn hạ thấp con chó.",
+        "ipa-example": "//hiː dɪˈɡreɪdɪd ðə dɔːɡ ɔːl ðə taɪm//"
       },
       {
         "sentence": "Finally, his owner decided to get rid of him.",
-        "meaning-example": "Cuối cùng, chủ của cậu ấy quyết định vứt bỏ cậu ấy.",
-        "ipa-example": "/ˈfaɪnəli hɪz ˈoʊnər dɪˈsaɪdɪd tu ɡɛt rɪd əv hɪm/"
+        "meaning-example": "Cuối cùng, chủ của nó quyết định vứt bỏ nó.",
+        "ipa-example": "//ˈfaɪnəli hɪz ˈoʊnər dɪˈsaɪdɪd tuː ɡet rɪd əv hɪm//"
       },
       {
         "sentence": "He threw Elvis in his car and took him to the middle of the forest.",
-        "meaning-example": "Ông ấy ném Elvis vào xe và đưa cậu ấy đến giữa khu rừng.",
-        "ipa-example": "/hi θruː ˈɛlvɪs ɪn hɪz kɑːr ənd tʊk hɪm tu ðə ˈmɪdl əv ðə ˈfɔːrɪst/"
+        "meaning-example": "Anh ta ném Elvis vào xe và đưa nó đến giữa rừng.",
+        "ipa-example": "//hiː θruː ˈelvɪs ɪn hɪz kɑːr ənd tʊk hɪm tuː ðə ˈmɪdl əv ðə ˈfɔːrɪst//"
       },
       {
         "sentence": "He tossed him out and drove away.",
-        "meaning-example": "Ông ấy quẳng cậu ấy ra ngoài và lái xe đi.",
-        "ipa-example": "/hi tɔːst hɪm aʊt ənd droʊv əˈweɪ/"
+        "meaning-example": "Anh ta ném nó ra ngoài và lái xe đi.",
+        "ipa-example": "//hiː tɔːst hɪm aʊt ənd droʊv əˈweɪ//"
       },
       {
         "sentence": "Elvis was cold and scared.",
-        "meaning-example": "Elvis cảm thấy lạnh và sợ hãi.",
-        "ipa-example": "/ˈɛlvɪs wɑz koʊld ənd skɛrd/"
+        "meaning-example": "Elvis lạnh và sợ hãi.",
+        "ipa-example": "//ˈelvɪs wəz koʊld ənd skerd//"
       },
       {
         "sentence": "He decided to follow a brook into the city.",
-        "meaning-example": "Cậu ấy quyết định đi theo một con suối nhỏ vào thành phố.",
-        "ipa-example": "/hi dɪˈsaɪdɪd tu ˈfɑːloʊ ə brʊk ˈɪntu ðə ˈsɪti/"
+        "meaning-example": "Anh quyết định đi theo một con suối nhỏ vào thành phố.",
+        "ipa-example": "//hiː dɪˈsaɪdɪd tuː ˈfɑːloʊ ə brʊk ˈɪntuː ðə ˈsɪti//"
       },
       {
         "sentence": "Elvis soon found out that the city was a big and impersonal place.",
         "meaning-example": "Elvis sớm nhận ra rằng thành phố là một nơi rộng lớn và vô cảm.",
-        "ipa-example": "/ˈɛlvɪs suːn faʊnd aʊt ðæt ðə ˈsɪti wɑz ə bɪɡ ənd ɪmˈpɜːrsənl pleɪs/"
+        "ipa-example": "//ˈelvɪs suːn faʊnd aʊt ðæt ðə ˈsɪti wəz ə bɪɡ ənd ɪmˈpɜːrsənl pleɪs//"
       },
       {
         "sentence": "Everywhere he went, he saw signs that said, “No Dogs Allowed.”",
-        "meaning-example": "Bất cứ nơi nào cậu ấy đi, cậu ấy đều thấy các biển báo ghi, “Không cho chó vào.”",
-        "ipa-example": "/ˈɛvriˌwɛər hi wɛnt hi sɔː saɪnz ðæt sɛd noʊ dɔːɡz əˈlaʊd/"
+        "meaning-example": "Ở khắp mọi nơi anh ấy đi qua, anh ấy thấy những biển báo ghi, “Cấm chó.”",
+        "ipa-example": "//ˈevriwer hiː went hiː sɔː saɪnz ðæt sed noʊ dɔːɡz əˈlaʊd//"
       },
       {
         "sentence": "Pedestrians yelled at him.",
-        "meaning-example": "Những người đi bộ la mắng cậu ấy.",
-        "ipa-example": "/pəˈdestriənz jɛld æt hɪm/"
+        "meaning-example": "Những người đi bộ la mắng anh ta.",
+        "ipa-example": "//pəˈdestriənz jeld ət hɪm//"
       },
       {
         "sentence": "He was sad, hungry, and alone.",
-        "meaning-example": "Cậu ấy buồn bã, đói và cô đơn.",
-        "ipa-example": "/hi wɑz sæd ˈhʌŋɡri ənd əˈloʊn/"
+        "meaning-example": "Anh ấy buồn bã, đói và cô đơn.",
+        "ipa-example": "//hiː wəz sæd ˈhʌŋɡri ənd əˈloʊn//"
       },
       {
         "sentence": "He thought that all people were as cruel and uncaring as his owner had been.",
-        "meaning-example": "Cậu ấy nghĩ rằng tất cả mọi người đều tàn nhẫn và vô tâm như chủ của mình.",
-        "ipa-example": "/hi θɔːt ðæt ɔːl ˈpiːpl wɜːr əz kruːəl ənd ʌnˈkɛrɪŋ əz hɪz ˈoʊnər hæd bɪn/"
+        "meaning-example": "Anh ấy nghĩ rằng tất cả mọi người đều tàn nhẫn và vô tâm như chủ của mình.",
+        "ipa-example": "//hiː θɔːt ðæt ɔːl ˈpiːpl wɜːr əz kruːəl ənd ʌnˈkerɪŋ əz hɪz ˈoʊnər hæd bɪn//"
       },
       {
         "sentence": "He was ready to give up when he heard a soft voice say, “What a beautiful hound!”",
-        "meaning-example": "Cậu ấy đã sẵn sàng từ bỏ khi nghe thấy một giọng nói nhẹ nhàng, “Thật là một con chó săn đẹp!”",
-        "ipa-example": "/hi wɑz ˈrɛdi tu ɡɪv ʌp wɛn hi hɜːrd ə sɔːft vɔɪs seɪ wɑːt ə ˈbjuːtəfl haʊnd/"
+        "meaning-example": "Anh ta đã sẵn sàng bỏ cuộc thì nghe thấy một giọng nói nhẹ nhàng nói, “Ôi, một con chó săn thật đẹp!”",
+        "ipa-example": "//hiː wəz ˈredi tuː ɡɪv ʌp wen hiː hɜːrd ə sɔːft vɔɪs seɪ wʌt ə ˈbjuːtəfl haʊnd//"
       },
       {
         "sentence": "Elvis looked up and saw an old woman.",
-        "meaning-example": "Elvis ngước lên và nhìn thấy một người phụ nữ lớn tuổi.",
-        "ipa-example": "/ˈɛlvɪs lʊkt ʌp ənd sɔː ən oʊld ˈwʊmən/"
+        "meaning-example": "Elvis ngước lên và nhìn thấy một bà lão.",
+        "ipa-example": "//ˈelvɪs lʊkt ʌp ənd sɔː ən oʊld ˈwʊmən//"
       },
       {
         "sentence": "She said, “You’re entitled to a better life than this.",
-        "meaning-example": "Bà ấy nói, “Bạn xứng đáng có một cuộc sống tốt hơn thế này.",
-        "ipa-example": "/ʃi sɛd jʊər ɪnˈtaɪtld tu ə ˈbɛtər laɪf ðæn ðɪs/"
+        "meaning-example": "Bà nói, “Bạn xứng đáng có một cuộc sống tốt hơn thế này.",
+        "ipa-example": "//ʃiː sed jʊər ɪnˈtaɪtld tuː ə ˈbetər laɪf ðæn ðɪs//"
       },
       {
         "sentence": "I can take you to a sanctuary for old dogs like you.",
-        "meaning-example": "Tôi có thể đưa bạn đến một khu bảo tồn cho những con chó già như bạn.",
-        "ipa-example": "/aɪ kæn teɪk ju tu ə ˈsæŋktʃueri fɔːr oʊld dɔːɡz laɪk ju/"
+        "meaning-example": "Tôi có thể đưa bạn đến một nơi trú ẩn cho những con chó già như bạn.",
+        "ipa-example": "//aɪ kən teɪk juː tuː ə ˈsæŋktʃueri fɔːr oʊld dɔːɡz laɪk juː//"
       },
       {
         "sentence": "I’ll cater to all your needs.",
-        "meaning-example": "Tôi sẽ phục vụ tất cả các nhu cầu của bạn.",
-        "ipa-example": "/aɪl ˈkeɪtər tu ɔːl jʊər niːdz/"
+        "meaning-example": "Tôi sẽ đáp ứng mọi nhu cầu của bạn.",
+        "ipa-example": "//aɪl ˈkeɪtər tuː ɔːl jɔːr niːdz//"
       },
       {
         "sentence": "Would you like to come with me?”",
-        "meaning-example": "Bạn có muốn đi với tôi không?",
-        "ipa-example": "/wʊd ju laɪk tu kʌm wɪð mi/"
+        "meaning-example": "Bạn có muốn đi cùng tôi không?”",
+        "ipa-example": "//wʊd juː laɪk tuː kʌm wɪð miː//"
       },
       {
         "sentence": "The woman escorted Elvis to a beautiful facility.",
-        "meaning-example": "Người phụ nữ hộ tống Elvis đến một cơ sở vật chất đẹp.",
-        "ipa-example": "/ðə ˈwʊmən ɪˈskɔːrtɪd ˈɛlvɪs tu ə ˈbjuːtəfl fəˈsɪləti/"
+        "meaning-example": "Người phụ nữ hộ tống Elvis đến một cơ sở đẹp.",
+        "ipa-example": "//ðə ˈwʊmən ɪˈskɔːrtɪd ˈelvɪs tuː ə ˈbjuːtəfl fəˈsɪləti//"
       },
       {
         "sentence": "There was a sign on the external door that said, “Dogs Welcome!”",
-        "meaning-example": "Có một biển báo trên cửa bên ngoài ghi, “Chào đón những chú chó!”",
-        "ipa-example": "/ðɛər wɑz ə saɪn ɑːn ðə ɪkˈstɜːrnl dɔːr ðæt sɛd dɔːɡz ˈwɛlkəm/"
+        "meaning-example": "Có một tấm biển trên cánh cửa bên ngoài ghi, “Chào mừng những chú chó!”",
+        "ipa-example": "//ðer wəz ə saɪn ɑːn ðə ɪkˈstɜːrnl dɔːr ðæt sed dɔːɡz ˈwelkəm//"
       },
       {
         "sentence": "The interior of the building was painted blue, and shiny ornaments hung from the ceiling.",
-        "meaning-example": "Nội thất của tòa nhà được sơn màu xanh lam, và các đồ trang trí lấp lánh treo trên trần nhà.",
-        "ipa-example": "/ðə ɪnˈtɪəriər əv ðə ˈbɪldɪŋ wɑz ˈpeɪntɪd bluː ənd ˈʃaɪni ˈɔːrnəmənts hʌŋ frəm ðə ˈsiːlɪŋ/"
+        "meaning-example": "Bên trong tòa nhà được sơn màu xanh lam, và những đồ trang trí sáng bóng được treo trên trần nhà.",
+        "ipa-example": "//ðə ɪnˈtɪəriər əv ðə ˈbɪldɪŋ wəz peɪntɪd bluː ənd ˈʃaɪni ˈɔːrnəmənts hʌŋ frəm ðə ˈsiːlɪŋ//"
       },
       {
         "sentence": "There was a heap of tasty bones and bread crusts for consumption.",
         "meaning-example": "Có một đống xương ngon và vỏ bánh mì để ăn.",
-        "ipa-example": "/ðɛər wɑz ə hiːp əv ˈteɪsti boʊnz ənd brɛd krʌsts fɔːr kənˈsʌmpʃn/"
+        "ipa-example": "//ðer wəz ə hiːp əv ˈteɪsti boʊnz ənd bred krʌsts fɔːr kənˈsʌmpʃn//"
       },
       {
         "sentence": "Elvis learned there were kind people in the world after all.",
-        "meaning-example": "Sau tất cả, Elvis đã biết rằng vẫn có những người tốt trên thế giới.",
-        "ipa-example": "/ˈɛlvɪs lɜːrnd ðɛər wɜːr kaɪnd ˈpiːpl ɪn ðə wɜːrld ˈæftər ɔːl/"
+        "meaning-example": "Elvis cuối cùng đã biết rằng vẫn có những người tốt trên thế giới.",
+        "ipa-example": "//ˈelvɪs lɜːrnd ðer wɜːr kaɪnd ˈpiːpl ɪn ðə wɜːrld ˈæftər ɔːl//"
       },
       {
         "sentence": "He was so thankful that he jumped up and licked the woman's face.",
-        "meaning-example": "Cậu ấy cảm thấy biết ơn đến nỗi nhảy lên và liếm mặt người phụ nữ.",
-        "ipa-example": "/hi wɑz soʊ ˈθæŋkfəl ðæt hi dʒʌmpt ʌp ənd lɪkt ðə ˈwʊmənz feɪs/"
+        "meaning-example": "Nó rất biết ơn đến nỗi đã nhảy lên và liếm mặt người phụ nữ.",
+        "ipa-example": "//hiː wəz soʊ ˈθæŋkfəl ðæt hiː dʒʌmpt ʌp ənd lɪkt ðə ˈwʊmənz feɪs//"
       }
     ]
   }
