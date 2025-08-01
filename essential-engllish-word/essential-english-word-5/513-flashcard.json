@@ -1,162 +1,182 @@
 [
   {
-    "english-word": "brook",
+    "question": "một con suối nhỏ.",
+    "classes": "n",
+    "answer": "brook",
     "ipa": "/brʊk/",
-    "word-class": "noun",
-    "vietnamese-definition": "một con suối nhỏ.",
+    "example": "He decided to follow a **brook** into the city.",
     "english-definition": "a small stream.",
-    "example": "He decided to follow a **brook** into the city."
+    "images": "eew-5-13/1.png"
   },
   {
-    "english-word": "cater",
+    "question": "cung cấp, phục vụ tất cả nhu cầu.",
+    "classes": "v",
+    "answer": "cater",
     "ipa": "/ˈkeɪtər/",
-    "word-class": "verb",
-    "vietnamese-definition": "cung cấp, phục vụ tất cả nhu cầu.",
+    "example": "I’ll **cater** to all your needs.",
     "english-definition": "to provide what is wanted or needed by someone or something.",
-    "example": "I’ll **cater** to all your needs."
+    "images": "eew-5-13/2.png"
   },
   {
-    "english-word": "considerate",
+    "question": "ân cần, chu đáo, tử tế.",
+    "classes": "adj",
+    "answer": "considerate",
     "ipa": "/kənˈsɪdərət/",
-    "word-class": "adjective",
-    "vietnamese-definition": "ân cần, chu đáo, tử tế.",
+    "example": "Elvis’s owner wasn’t a **considerate** person.",
     "english-definition": "careful not to cause inconvenience or hurt to others.",
-    "example": "Elvis’s owner wasn’t a **considerate** person."
+    "images": "eew-5-13/3.png"
   },
   {
-    "english-word": "consumption",
+    "question": "việc ăn hoặc uống thứ gì đó.",
+    "classes": "n",
+    "answer": "consumption",
     "ipa": "/kənˈsʌmpʃn/",
-    "word-class": "noun",
-    "vietnamese-definition": "việc ăn hoặc uống thứ gì đó.",
+    "example": "There was a heap of tasty bones and bread crusts for **consumption**.",
     "english-definition": "the action of using up a resource, or the amount of something that someone uses, eats, or drinks.",
-    "example": "There was a heap of tasty bones and bread crusts for **consumption**."
+    "images": "eew-5-13/4.png"
   },
   {
-    "english-word": "criteria",
+    "question": "tiêu chuẩn.",
+    "classes": "n",
+    "answer": "criteria",
     "ipa": "/kraɪˈtɪəriə/",
-    "word-class": "noun",
-    "vietnamese-definition": "tiêu chuẩn.",
+    "example": "He possessed all the **criteria** to be a great racing dog.",
     "english-definition": "a principle or standard by which something may be judged or decided.",
-    "example": "He possessed all the **criteria** to be a great racing dog."
+    "images": "eew-5-13/5.png"
   },
   {
-    "english-word": "crust",
+    "question": "vỏ bánh mì.",
+    "classes": "n",
+    "answer": "crust",
     "ipa": "/krʌst/",
-    "word-class": "noun",
-    "vietnamese-definition": "vỏ bánh mì.",
+    "example": "There was a heap of tasty bones and bread **crusts** for consumption.",
     "english-definition": "the tough outer part of a loaf of bread.",
-    "example": "There was a heap of tasty bones and bread **crusts** for consumption."
+    "images": "eew-5-13/6.png"
   },
   {
-    "english-word": "degrade",
+    "question": "làm mất phẩm giá, hạ thấp.",
+    "classes": "v",
+    "answer": "degrade",
     "ipa": "/dɪˈɡreɪd/",
-    "word-class": "verb",
-    "vietnamese-definition": "làm mất phẩm giá, hạ thấp.",
+    "example": "He **degraded** the dog all the time.",
     "english-definition": "to treat or regard (someone) with contempt or disrespect.",
-    "example": "He **degraded** the dog all the time."
+    "images": "eew-5-13/7.png"
   },
   {
-    "english-word": "entitle",
+    "question": "cho quyền.",
+    "classes": "v",
+    "answer": "entitle",
     "ipa": "/ɪnˈtaɪtl/",
-    "word-class": "verb",
-    "vietnamese-definition": "cho quyền.",
+    "example": "You’re **entitled** to a better life than this.",
     "english-definition": "to give (someone) a legal right or a just claim to receive or do something.",
-    "example": "You’re **entitled** to a better life than this."
+    "images": "eew-5-13/8.png"
   },
   {
-    "english-word": "escort",
+    "question": "hộ tống, đi cùng.",
+    "classes": "v",
+    "answer": "escort",
     "ipa": "/ˈeskɔːrt/",
-    "word-class": "verb",
-    "vietnamese-definition": "hộ tống, đi cùng.",
+    "example": "The woman **escorted** Elvis to a beautiful facility.",
     "english-definition": "to accompany (someone or something) somewhere, especially for protection or security, or as a mark of rank.",
-    "example": "The woman **escorted** Elvis to a beautiful facility."
+    "images": "eew-5-13/9.png"
   },
   {
-    "english-word": "external",
+    "question": "bên ngoài.",
+    "classes": "adj",
+    "answer": "external",
     "ipa": "/ɪkˈstɜːrnl/",
-    "word-class": "adjective",
-    "vietnamese-definition": "bên ngoài.",
+    "example": "There was a sign on the **external** door that said, “Dogs Welcome!”",
     "english-definition": "of or relating to the outside of something.",
-    "example": "There was a sign on the **external** door that said, “Dogs Welcome!”"
+    "images": "eew-5-13/10.png"
   },
   {
-    "english-word": "facility",
+    "question": "cơ sở vật chất, một nơi được xây dựng cho một mục đích cụ thể.",
+    "classes": "n",
+    "answer": "facility",
     "ipa": "/fəˈsɪləti/",
-    "word-class": "noun",
-    "vietnamese-definition": "cơ sở vật chất, một nơi được xây dựng cho một mục đích cụ thể.",
+    "example": "The woman escorted Elvis to a beautiful **facility**.",
     "english-definition": "a place, amenity, or piece of equipment provided for a particular purpose.",
-    "example": "The woman escorted Elvis to a beautiful **facility**."
+    "images": "eew-5-13/11.png"
   },
   {
-    "english-word": "faculty",
+    "question": "khả năng, năng lực tự nhiên của cơ thể hoặc trí óc.",
+    "classes": "n",
+    "answer": "faculty",
     "ipa": "/ˈfæklti/",
-    "word-class": "noun",
-    "vietnamese-definition": "khả năng, năng lực tự nhiên của cơ thể hoặc trí óc.",
+    "example": "His **faculties** were not as strong as they used to be.",
     "english-definition": "an inherent mental or physical power.",
-    "example": "His **faculties** were not as strong as they used to be."
+    "images": "eew-5-13/12.png"
   },
   {
-    "english-word": "heap",
+    "question": "một đống.",
+    "classes": "n",
+    "answer": "heap",
     "ipa": "/hiːp/",
-    "word-class": "noun",
-    "vietnamese-definition": "một đống.",
+    "example": "There was a **heap** of tasty bones and bread crusts for consumption.",
     "english-definition": "an untidy collection of things piled up haphazardly.",
-    "example": "There was a **heap** of tasty bones and bread crusts for consumption."
+    "images": "eew-5-13/13.png"
   },
   {
-    "english-word": "hemisphere",
+    "question": "bán cầu.",
+    "classes": "n",
+    "answer": "hemisphere",
     "ipa": "/ˈhemɪsfɪər/",
-    "word-class": "noun",
-    "vietnamese-definition": "bán cầu.",
+    "example": "He was so good that he never lost a race in the northern **hemisphere**.",
     "english-definition": "a half of the earth, usually as divided into northern and southern halves by the equator.",
-    "example": "He was so good that he never lost a race in the northern **hemisphere**."
+    "images": "eew-5-13/14.png"
   },
   {
-    "english-word": "hound",
+    "question": "một loại chó săn.",
+    "classes": "n",
+    "answer": "hound",
     "ipa": "/haʊnd/",
-    "word-class": "noun",
-    "vietnamese-definition": "một loại chó săn.",
+    "example": "He was ready to give up when he heard a soft voice say, “What a beautiful **hound**!”",
     "english-definition": "a type of dog used for hunting.",
-    "example": "He was ready to give up when he heard a soft voice say, “What a beautiful **hound**!”"
+    "images": "eew-5-13/15.png"
   },
   {
-    "english-word": "impersonal",
+    "question": "không thân thiện, không thể hiện cảm xúc cá nhân.",
+    "classes": "adj",
+    "answer": "impersonal",
     "ipa": "/ɪmˈpɜːrsənl/",
-    "word-class": "adjective",
-    "vietnamese-definition": "không thân thiện, không thể hiện cảm xúc cá nhân.",
+    "example": "Elvis soon found out that the city was a big and **impersonal** place.",
     "english-definition": "not showing personal feelings or warmth; unfriendly.",
-    "example": "Elvis soon found out that the city was a big and **impersonal** place."
+    "images": "eew-5-13/16.png"
   },
   {
-    "english-word": "ornament",
+    "question": "đồ trang trí.",
+    "classes": "n",
+    "answer": "ornament",
     "ipa": "/ˈɔːrnəmənt/",
-    "word-class": "noun",
-    "vietnamese-definition": "đồ trang trí.",
+    "example": "The interior of the building was painted blue, and shiny **ornaments** hung from the ceiling.",
     "english-definition": "an object that is used as a decoration.",
-    "example": "The interior of the building was painted blue, and shiny **ornaments** hung from the ceiling."
+    "images": "eew-5-13/17.png"
   },
   {
-    "english-word": "pedestrian",
+    "question": "người đi bộ.",
+    "classes": "n",
+    "answer": "pedestrian",
     "ipa": "/pəˈdestriən/",
-    "word-class": "noun",
-    "vietnamese-definition": "người đi bộ.",
+    "example": "**Pedestrians** yelled at him.",
     "english-definition": "a person walking, especially in an area also used by cars.",
-    "example": "**Pedestrians** yelled at him."
+    "images": "eew-5-13/18.png"
   },
   {
-    "english-word": "sanctuary",
+    "question": "nơi trú ẩn an toàn.",
+    "classes": "n",
+    "answer": "sanctuary",
     "ipa": "/ˈsæŋktʃueri/",
-    "word-class": "noun",
-    "vietnamese-definition": "nơi trú ẩn an toàn.",
+    "example": "I can take you to a **sanctuary** for old dogs like you.",
     "english-definition": "a place of refuge or safety.",
-    "example": "I can take you to a **sanctuary** for old dogs like you."
+    "images": "eew-5-13/19.png"
   },
   {
-    "english-word": "spectator",
+    "question": "khán giả, người xem một sự kiện.",
+    "classes": "n",
+    "answer": "spectator",
     "ipa": "/ˈspekteɪtər/",
-    "word-class": "noun",
-    "vietnamese-definition": "khán giả, người xem một sự kiện.",
+    "example": "**Spectators** who bet on dog races always picked Elvis to win.",
     "english-definition": "a person who watches at a show, game, or other event.",
-    "example": "**Spectators** who bet on dog races always picked Elvis to win."
+    "images": "eew-5-13/20.png"
   }
 ]
