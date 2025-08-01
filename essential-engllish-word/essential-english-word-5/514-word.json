@@ -1,0 +1,727 @@
+[
+  {
+    "word": "asset",
+    "ipa": "/ˈæs.et/",
+    "meaning": "tài sản, của cải; một người hoặc vật có giá trị.",
+    "image": "eew-5-14/1.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "a useful or valuable thing, person, or quality.",
+        "meaning-example": "một vật, người hoặc phẩm chất hữu ích hoặc có giá trị.",
+        "ipa-example": "/ə ˈjuːsfəl ɔː ˈvæljuəbl θɪŋ, ˈpɜːsən, ɔː ˈkwɒləti./"
+      },
+      {
+        "sentence": "It showed him sight was an asset that should be appreciated and taught him to revere the talents of blind people.",
+        "meaning-example": "Nó cho anh thấy thị giác là một tài sản cần được trân trọng và dạy anh tôn kính tài năng của người mù.",
+        "ipa-example": "/ɪt ʃəʊd hɪm saɪt wɒz ən ˈæsɛt ðæt ʃʊd bi əˈpriːʃieɪtɪd ænd tɔːt hɪm tu rɪˈvɪə ðə ˈtælənts əv blaɪnd ˈpiːpl./"
+      },
+      {
+        "sentence": "Her knowledge of languages is a great asset.",
+        "meaning-example": "Kiến thức về ngôn ngữ của cô ấy là một tài sản lớn.",
+        "ipa-example": "/hɜː ˈnɒlɪdʒ əv ˈlæŋɡwɪdʒɪz ɪz ə ɡreɪt ˈæsɛt./"
+      },
+      {
+        "sentence": "A company's employees are its biggest asset.",
+        "meaning-example": "Nhân viên của một công ty là tài sản lớn nhất của họ.",
+        "ipa-example": "/ə ˈkʌmpəniz ɪmˈplɔɪiːz ɑːr ɪts ˈbɪɡɪst ˈæsɛt./"
+      }
+    ]
+  },
+  {
+    "word": "aspect",
+    "ipa": "/ˈæs.pekt/",
+    "meaning": "khía cạnh, phương diện.",
+    "image": "eew-5-14/2.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "a particular part or feature of something.",
+        "meaning-example": "một phần hoặc đặc điểm cụ thể của một cái gì đó.",
+        "ipa-example": "/ə pəˈtɪkjələr pɑːt ɔː ˈfiːtʃər əv ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "In fact, he began to realize new and different aspects of common objects.",
+        "meaning-example": "Thực tế, anh bắt đầu nhận ra những khía cạnh mới và khác biệt của những đồ vật thông thường.",
+        "ipa-example": "/ɪn fækt, hi bɪˈɡæn tu ˈriːəlaɪz njuː ænd ˈdɪfrənt ˈæspekts əv ˈkɒmən ˈɒbdʒɪkts./"
+      },
+      {
+        "sentence": "The problem has many different aspects.",
+        "meaning-example": "Vấn đề có nhiều khía cạnh khác nhau.",
+        "ipa-example": "/ðə ˈprɒbləm hæz ˈmɛni ˈdɪfrənt ˈæspekts./"
+      },
+      {
+        "sentence": "We must consider every aspect of the situation.",
+        "meaning-example": "Chúng ta phải xem xét mọi khía cạnh của tình hình.",
+        "ipa-example": "/wi mʌst kənˈsɪdər ˈɛvri ˈæspekt əv ðə ˌsɪtʃuˈeɪʃən./"
+      }
+    ]
+  },
+  {
+    "word": "braille",
+    "ipa": "/breɪl/",
+    "meaning": "hệ thống chữ nổi cho người mù.",
+    "image": "eew-5-14/3.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "a system of writing and printing for blind people, in which raised dots are used to represent letters and numbers.",
+        "meaning-example": "một hệ thống chữ viết và in cho người mù, trong đó các chấm nổi được sử dụng để biểu thị các chữ cái và số.",
+        "ipa-example": "/ə ˈsɪstəm əv ˈraɪtɪŋ ænd ˈprɪntɪŋ fɔː blaɪnd ˈpiːpl, ɪn wɪtʃ reɪzd dɒts ɑː juːzd tu ˌrɛprɪˈzɛnt ˈlɛtəz ænd ˈnʌmbəz./"
+      },
+      {
+        "sentence": "He wondered if Braille newspapers were ever made.",
+        "meaning-example": "Anh tự hỏi liệu có bao giờ có báo chữ nổi Braille không.",
+        "ipa-example": "/hi ˈwʌndəd ɪf breɪl ˈnjuːzˌpeɪpəz wɜːr ˈɛvə meɪd./"
+      },
+      {
+        "sentence": "She learned to read Braille at a young age.",
+        "meaning-example": "Cô đã học đọc chữ nổi Braille từ khi còn nhỏ.",
+        "ipa-example": "/ʃi lɜːnd tu riːd breɪl æt ə jʌŋ eɪdʒ./"
+      },
+      {
+        "sentence": "The book is also available in Braille.",
+        "meaning-example": "Cuốn sách cũng có sẵn ở dạng chữ nổi Braille.",
+        "ipa-example": "/ðə bʊk ɪz ˈɔːlsəʊ əˈveɪləbl ɪn breɪl./"
+      }
+    ]
+  },
+  {
+    "word": "bud",
+    "ipa": "/bʌd/",
+    "meaning": "nụ, chồi (cây).",
+    "image": "eew-5-14/4.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "a small part of a plant, that develops into a flower or leaf.",
+        "meaning-example": "một phần nhỏ của cây, phát triển thành hoa hoặc lá.",
+        "ipa-example": "/ə smɔːl pɑːt əv ə plɑːnt, ðæt dɪˈvɛləps ˈɪntu ə ˈflaʊər ɔː liːf./"
+      },
+      {
+        "sentence": "For example, he took a flower bud and felt it with his finger.",
+        "meaning-example": "Ví dụ, anh lấy một nụ hoa và cảm nhận nó bằng ngón tay.",
+        "ipa-example": "/fɔːr ɪɡˈzɑːmpl, hi tʊk ə ˈflaʊə bʌd ænd fɛlt ɪt wɪð hɪz ˈfɪŋɡə./"
+      },
+      {
+        "sentence": "The roses are in bud.",
+        "meaning-example": "Những bông hồng đang hé nụ.",
+        "ipa-example": "/ðə ˈrəʊzɪz ɑːr ɪn bʌd./"
+      },
+      {
+        "sentence": "Look at the little green buds on the trees.",
+        "meaning-example": "Hãy nhìn những nụ xanh nhỏ trên cây.",
+        "ipa-example": "/lʊk æt ðə ˈlɪtl ɡriːn bʌdz ɒn ðə triːz./"
+      }
+    ]
+  },
+  {
+    "word": "coordinate",
+    "ipa": "/kəʊˈɔː.dɪ.neɪt/",
+    "meaning": "phối hợp, điều phối.",
+    "image": "eew-5-14/5.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "to make many different things work together effectively.",
+        "meaning-example": "làm cho nhiều thứ khác nhau hoạt động cùng nhau một cách hiệu quả.",
+        "ipa-example": "/tu meɪk ˈmɛni ˈdɪfrənt θɪŋz wɜːk təˈɡɛðər ɪˈfɛktɪvli./"
+      },
+      {
+        "sentence": "He wouldn’t be able to coordinate his actions without being able to see.",
+        "meaning-example": "Anh ấy sẽ không thể phối hợp các hành động của mình nếu không thể nhìn thấy.",
+        "ipa-example": "/hi ˈwʊdnt bi ˈeɪbl tu kəʊˈɔːdɪneɪt hɪz ˈækʃənz wɪˈðaʊt ˈbiːɪŋ ˈeɪbl tu siː./"
+      },
+      {
+        "sentence": "We need to coordinate our efforts to finish the project.",
+        "meaning-example": "Chúng ta cần phối hợp các nỗ lực để hoàn thành dự án.",
+        "ipa-example": "/wi niːd tu kəʊˈɔːdɪneɪt ˈaʊər ˈɛfəts tu ˈfɪnɪʃ ðə ˈprɒdʒɛkt./"
+      },
+      {
+        "sentence": "The dancers coordinate their movements perfectly.",
+        "meaning-example": "Các vũ công phối hợp các động tác của họ một cách hoàn hảo.",
+        "ipa-example": "/ðə ˈdɑːnsəz kəʊˈɔːdɪneɪt ðeə ˈmuːvmənts ˈpɜːfɪktli./"
+      }
+    ]
+  },
+  {
+    "word": "disprove",
+    "ipa": "/dɪsˈpruːv/",
+    "meaning": "bác bỏ, chứng minh là sai.",
+    "image": "eew-5-14/6.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "to prove that something is not true.",
+        "meaning-example": "chứng minh rằng điều gì đó không đúng.",
+        "ipa-example": "/tu pruːv ðæt ˈsʌmθɪŋ ɪz nɒt truː./"
+      },
+      {
+        "sentence": "His hypothesis about being blind was disproved.",
+        "meaning-example": "Giả thuyết của anh về việc bị mù đã bị bác bỏ.",
+        "ipa-example": "/hɪz haɪˈpɒθəsɪs əˈbaʊt ˈbiːɪŋ blaɪnd wɒz dɪsˈpruːvd./"
+      },
+      {
+        "sentence": "The evidence helped to disprove his theory.",
+        "meaning-example": "Bằng chứng đã giúp bác bỏ lý thuyết của ông.",
+        "ipa-example": "/ðə ˈɛvɪdəns hɛlpt tu dɪsˈpruːv hɪz ˈθɪəri./"
+      },
+      {
+        "sentence": "It is difficult to disprove a negative claim.",
+        "meaning-example": "Rất khó để bác bỏ một tuyên bố phủ định.",
+        "ipa-example": "/ɪt ɪz ˈdɪfɪkəlt tu dɪsˈpruːv ə ˈnɛɡətɪv kleɪm./"
+      }
+    ]
+  },
+  {
+    "word": "humanitarian",
+    "ipa": "/hjuːˌmæn.ɪˈteə.ri.ən/",
+    "meaning": "nhân đạo.",
+    "image": "eew-5-14/7.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "involved in or connected with improving people's lives and reducing suffering.",
+        "meaning-example": "tham gia hoặc kết nối với việc cải thiện cuộc sống của mọi người và giảm bớt đau khổ.",
+        "ipa-example": "/ɪnˈvɒlvd ɪn ɔː kəˈnɛktɪd wɪð ɪmˈpruːvɪŋ ˈpiːplz laɪvz ænd rɪˈdjuːsɪŋ ˈsʌfərɪŋ./"
+      },
+      {
+        "sentence": "“Next week, we’ll be studying humanitarian efforts around the world since the time of the Renaissance, including those to help the blind,” she said.",
+        "meaning-example": "“Tuần tới, chúng ta sẽ nghiên cứu các nỗ lực nhân đạo trên khắp thế giới kể từ thời Phục hưng, bao gồm cả những nỗ lực giúp đỡ người mù,” cô nói.",
+        "ipa-example": "/nɛkst wiːk, wiːl bi ˈstʌdiɪŋ hjuːˌmænɪˈtɛəriən ˈɛfəts əˈraʊnd ðə wɜːld sɪns ðə taɪm əv ðə rəˈneɪsəns, ɪnˈkluːdɪŋ ðəʊz tu hɛlp ðə blaɪnd, ʃi sɛd./"
+      },
+      {
+        "sentence": "The organization provides humanitarian aid to victims of the disaster.",
+        "meaning-example": "Tổ chức cung cấp viện trợ nhân đạo cho các nạn nhân của thảm họa.",
+        "ipa-example": "/ðə ˌɔːɡənaɪˈzeɪʃən prəˈvaɪdz hjuːˌmænɪˈtɛəriən eɪd tu ˈvɪktɪmz əv ðə dɪˈzɑːstə./"
+      },
+      {
+        "sentence": "He is known for his humanitarian work.",
+        "meaning-example": "Ông được biết đến với công việc nhân đạo của mình.",
+        "ipa-example": "/hi ɪz nəʊn fɔː hɪz hjuːˌmænɪˈtɛəriən wɜːk./"
+      }
+    ]
+  },
+  {
+    "word": "hypothesis",
+    "ipa": "/haɪˈpɒθ.ə.sɪs/",
+    "meaning": "giả thuyết.",
+    "image": "eew-5-14/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "an idea or explanation for something that is based on known facts but has not yet been proved.",
+        "meaning-example": "một ý tưởng hoặc giải thích cho một cái gì đó dựa trên các sự kiện đã biết nhưng chưa được chứng minh.",
+        "ipa-example": "/ən aɪˈdɪə ɔːr ˌɛkspləˈneɪʃən fɔː ˈsʌmθɪŋ ðæt ɪz beɪst ɒn nəʊn fækts bʌt hæz nɒt jɛt biːn pruːvd./"
+      },
+      {
+        "sentence": "His hypothesis about being blind was disproved.",
+        "meaning-example": "Giả thuyết của anh về việc bị mù đã bị bác bỏ.",
+        "ipa-example": "/hɪz haɪˈpɒθəsɪs əˈbaʊt ˈbiːɪŋ blaɪnd wɒz dɪsˈpruːvd./"
+      },
+      {
+        "sentence": "The scientist tested his hypothesis with an experiment.",
+        "meaning-example": "Nhà khoa học đã kiểm tra giả thuyết của mình bằng một thí nghiệm.",
+        "ipa-example": "/ðə ˈsaɪəntɪst ˈtɛstɪd hɪz haɪˈpɒθəsɪs wɪð ən ɪkˈspɛrɪmənt./"
+      },
+      {
+        "sentence": "There are many different hypotheses about the cause of the disease.",
+        "meaning-example": "Có nhiều giả thuyết khác nhau về nguyên nhân của căn bệnh.",
+        "ipa-example": "/ðeər ɑː ˈmɛni ˈdɪfrənt haɪˈpɒθəsiːz əˈbaʊt ðə kɔːz əv ðə dɪˈziːz./"
+      }
+    ]
+  },
+  {
+    "word": "imprint",
+    "ipa": "/ˈɪm.prɪnt/",
+    "meaning": "dấu ấn, ấn tượng sâu sắc.",
+    "image": "eew-5-14/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "an occasion when an object presses on something and leaves a mark; a lasting effect or influence.",
+        "meaning-example": "một dịp khi một vật thể đè lên một cái gì đó và để lại một dấu vết; một hiệu ứng hoặc ảnh hưởng lâu dài.",
+        "ipa-example": "/ən əˈkeɪʒən wɛn ən ˈɒbdʒɪkt ˈprɛsɪz ɒn ˈsʌmθɪŋ ænd liːvz ə mɑːk; ə ˈlɑːstɪŋ ɪˈfɛkt ɔːr ˈɪnflʊəns./"
+      },
+      {
+        "sentence": "The informative experiment had an imprint on him.",
+        "meaning-example": "Thí nghiệm đầy thông tin đã để lại dấu ấn trong anh.",
+        "ipa-example": "/ðə ɪnˈfɔːmətɪv ɪkˈspɛrɪmənt hæd ən ˈɪmprɪnt ɒn hɪm./"
+      },
+      {
+        "sentence": "The experience left a lasting imprint on her memory.",
+        "meaning-example": "Trải nghiệm đó đã để lại một dấu ấn lâu dài trong ký ức của cô.",
+        "ipa-example": "/ðə ɪkˈspɪərɪəns lɛft ə ˈlɑːstɪŋ ˈɪmprɪnt ɒn hɜː ˈmɛməri./"
+      },
+      {
+        "sentence": "His foot left an imprint in the sand.",
+        "meaning-example": "Bàn chân anh để lại một dấu chân trên cát.",
+        "ipa-example": "/hɪz fʊt lɛft ən ˈɪmprɪnt ɪn ðə sænd./"
+      }
+    ]
+  },
+  {
+    "word": "informative",
+    "ipa": "/ɪnˈfɔː.mə.tɪv/",
+    "meaning": "cung cấp nhiều thông tin, hữu ích.",
+    "image": "eew-5-14/10.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "providing useful or interesting information.",
+        "meaning-example": "cung cấp thông tin hữu ích hoặc thú vị.",
+        "ipa-example": "/prəˈvaɪdɪŋ ˈjuːsfəl ɔːr ˈɪntrəstɪŋ ˌɪnfəˈmeɪʃən./"
+      },
+      {
+        "sentence": "The informative experiment had an imprint on him.",
+        "meaning-example": "Thí nghiệm đầy thông tin đã để lại dấu ấn trong anh.",
+        "ipa-example": "/ðə ɪnˈfɔːmətɪv ɪkˈspɛrɪmənt hæd ən ˈɪmprɪnt ɒn hɪm./"
+      },
+      {
+        "sentence": "The lecture was very informative.",
+        "meaning-example": "Bài giảng rất nhiều thông tin.",
+        "ipa-example": "/ðə ˈlɛktʃə wɒz ˈvɛri ɪnˈfɔːmətɪv./"
+      },
+      {
+        "sentence": "This is an informative and well-written book.",
+        "meaning-example": "Đây là một cuốn sách nhiều thông tin và được viết tốt.",
+        "ipa-example": "/ðɪs ɪz ən ɪnˈfɔːmətɪv ænd wɛl-ˈrɪtn bʊk./"
+      }
+    ]
+  },
+  {
+    "word": "optic",
+    "ipa": "/ˈɒp.tɪk/",
+    "meaning": "(thuộc về) thị giác, quang học.",
+    "image": "eew-5-14/11.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "relating to the eye or sight.",
+        "meaning-example": "liên quan đến mắt hoặc thị giác.",
+        "ipa-example": "/rɪˈleɪtɪŋ tu ðə aɪ ɔː saɪt./"
+      },
+      {
+        "sentence": "Without his optic senses, he had no spatial awareness.",
+        "meaning-example": "Không có các giác quan thị giác, anh không có nhận thức về không gian.",
+        "ipa-example": "/wɪˈðaʊt hɪz ˈɒptɪk ˈsɛnsɪz, hi hæd nəʊ ˈspeɪʃəl əˈwɛənəs./"
+      },
+      {
+        "sentence": "The optic nerve connects the eye to the brain.",
+        "meaning-example": "Dây thần kinh thị giác nối mắt với não.",
+        "ipa-example": "/ðə ˈɒptɪk nɜːv kəˈnɛkts ðə aɪ tu ðə breɪn./"
+      },
+      {
+        "sentence": "He is studying optic illusions.",
+        "meaning-example": "Anh ấy đang nghiên cứu ảo ảnh quang học.",
+        "ipa-example": "/hi ɪz ˈstʌdiɪŋ ˈɒptɪk ɪˈluːʒənz./"
+      }
+    ]
+  },
+  {
+    "word": "premise",
+    "ipa": "/ˈprem.ɪs/",
+    "meaning": "tiền đề, giả thuyết.",
+    "image": "eew-5-14/12.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "an idea or theory on which a statement or action is based.",
+        "meaning-example": "một ý tưởng hoặc lý thuyết mà một tuyên bố hoặc hành động dựa trên đó.",
+        "ipa-example": "/ən aɪˈdɪə ɔː ˈθɪəri ɒn wɪtʃ ə ˈsteɪtmənt ɔːr ˈækʃən ɪz beɪst./"
+      },
+      {
+        "sentence": "The premise of this experiment is that it will help you understand what it’s like to be blind,” she said.",
+        "meaning-example": "Tiền đề của thí nghiệm này là nó sẽ giúp bạn hiểu cảm giác bị mù là như thế nào,” cô nói.",
+        "ipa-example": "/ðə ˈprɛmɪs əv ðɪs ɪkˈspɛrɪmənt ɪz ðæt ɪt wɪl hɛlp ju ˌʌndəˈstænd wɒt ɪts laɪk tu bi blaɪnd, ʃi sɛd./"
+      },
+      {
+        "sentence": "The argument is based on a false premise.",
+        "meaning-example": "Lập luận này dựa trên một tiền đề sai lầm.",
+        "ipa-example": "/ðə ˈɑːɡjəmənt ɪz beɪst ɒn ə fɔːls ˈprɛmɪs./"
+      },
+      {
+        "sentence": "The basic premise of the movie is that love conquers all.",
+        "meaning-example": "Tiền đề cơ bản của bộ phim là tình yêu chinh phục tất cả.",
+        "ipa-example": "/ðə ˈbeɪsɪk ˈprɛmɪs əv ðə ˈmuːvi ɪz ðæt lʌv ˈkɒŋkəz ɔːl./"
+      }
+    ]
+  },
+  {
+    "word": "rack",
+    "ipa": "/ræk/",
+    "meaning": "giá, kệ (để đồ).",
+    "image": "eew-5-14/13.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "a frame or shelf, usually with bars or hooks, for holding or storing things.",
+        "meaning-example": "một cái khung hoặc kệ, thường có các thanh hoặc móc, để giữ hoặc cất giữ đồ vật.",
+        "ipa-example": "/ə freɪm ɔː ʃɛlf, ˈjuːʒʊəli wɪð bɑːz ɔː hʊks, fɔː ˈhəʊldɪŋ ɔː ˈstɔːrɪŋ θɪŋz./"
+      },
+      {
+        "sentence": "As he followed them, he accidentally walked into the baker’s rack.",
+        "meaning-example": "Khi đi theo họ, anh vô tình đi vào giá của người làm bánh.",
+        "ipa-example": "/æz hi ˈfɒləʊd ðɛm, hi ˌæksɪˈdɛntəli wɔːkt ˈɪntu ðə ˈbeɪkəz ræk./"
+      },
+      {
+        "sentence": "Put the dishes in the drying rack.",
+        "meaning-example": "Đặt bát đĩa vào giá phơi.",
+        "ipa-example": "/pʊt ðə ˈdɪʃɪz ɪn ðə ˈdraɪɪŋ ræk./"
+      },
+      {
+        "sentence": "He hung his coat on the coat rack.",
+        "meaning-example": "Anh treo áo khoác lên giá treo áo.",
+        "ipa-example": "/hi hʌŋ hɪz kəʊt ɒn ðə kəʊt ræk./"
+      }
+    ]
+  },
+  {
+    "word": "Renaissance",
+    "ipa": "/rəˈneɪ.səns/",
+    "meaning": "thời kỳ Phục hưng.",
+    "image": "eew-5-14/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "the period of new growth of interest and activity in the areas of art, literature, and ideas in Europe during the 15th and 16th centuries.",
+        "meaning-example": "thời kỳ phát triển mới của sự quan tâm và hoạt động trong các lĩnh vực nghệ thuật, văn học và tư tưởng ở châu Âu trong thế kỷ 15 và 16.",
+        "ipa-example": "/ðə ˈpɪəriəd əv njuː ɡrəʊθ əv ˈɪntrəst ænd ækˈtɪvəti ɪn ðə ˈeəriəz əv ɑːt, ˈlɪtərɪtʃər, ænd aɪˈdɪəz ɪn ˈjʊərəp ˈdjʊərɪŋ ðə fɪfˈtiːnθ ænd sɪksˈtiːnθ ˈsɛntʃəriz./"
+      },
+      {
+        "sentence": "“Next week, we’ll be studying humanitarian efforts around the world since the time of the Renaissance, including those to help the blind,” she said.",
+        "meaning-example": "“Tuần tới, chúng ta sẽ nghiên cứu các nỗ lực nhân đạo trên khắp thế giới kể từ thời Phục hưng, bao gồm cả những nỗ lực giúp đỡ người mù,” cô nói.",
+        "ipa-example": "/nɛkst wiːk, wiːl bi ˈstʌdiɪŋ hjuːˌmænɪˈtɛəriən ˈɛfəts əˈraʊnd ðə wɜːld sɪns ðə taɪm əv ðə rəˈneɪsəns, ɪnˈkluːdɪŋ ðəʊz tu hɛlp ðə blaɪnd, ʃi sɛd./"
+      },
+      {
+        "sentence": "Leonardo da Vinci was a great artist of the Renaissance.",
+        "meaning-example": "Leonardo da Vinci là một nghệ sĩ vĩ đại của thời Phục hưng.",
+        "ipa-example": "/ˌliːəˈnɑːdəʊ də ˈvɪntʃi wɒz ə ɡreɪt ˈɑːtɪst əv ðə rəˈneɪsəns./"
+      },
+      {
+        "sentence": "The book is about art during the Italian Renaissance.",
+        "meaning-example": "Cuốn sách nói về nghệ thuật trong thời kỳ Phục hưng của Ý.",
+        "ipa-example": "/ðə bʊk ɪz əˈbaʊt ɑːt ˈdjʊərɪŋ ðə ɪˈtæljən rəˈneɪsəns./"
+      }
+    ]
+  },
+  {
+    "word": "revere",
+    "ipa": "/rɪˈvɪər/",
+    "meaning": "tôn kính, sùng kính.",
+    "image": "eew-5-14/15.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "to have great respect for someone or something.",
+        "meaning-example": "dành sự tôn trọng lớn cho ai đó hoặc cái gì đó.",
+        "ipa-example": "/tu hæv ɡreɪt rɪˈspɛkt fɔː ˈsʌmwʌn ɔː ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "It showed him sight was an asset that should be appreciated and taught him to revere the talents of blind people.",
+        "meaning-example": "Nó cho anh thấy thị giác là một tài sản cần được trân trọng và dạy anh tôn kính tài năng của người mù.",
+        "ipa-example": "/ɪt ʃəʊd hɪm saɪt wɒz ən ˈæsɛt ðæt ʃʊd bi əˈpriːʃieɪtɪd ænd tɔːt hɪm tu rɪˈvɪə ðə ˈtælənts əv blaɪnd ˈpiːpl./"
+      },
+      {
+        "sentence": "Many people revere the late president.",
+        "meaning-example": "Nhiều người tôn kính vị tổng thống quá cố.",
+        "ipa-example": "/ˈmɛni ˈpiːpl rɪˈvɪə ðə leɪt ˈprɛzɪdənt./"
+      },
+      {
+        "sentence": "She is a writer who is revered by her readers.",
+        "meaning-example": "Bà là một nhà văn được độc giả tôn kính.",
+        "ipa-example": "/ʃi ɪz ə ˈraɪtə hu ɪz rɪˈvɪəd baɪ hɜː ˈriːdəz./"
+      }
+    ]
+  },
+  {
+    "word": "simultaneous",
+    "ipa": "/ˌsɪm.əlˈteɪ.ni.əs/",
+    "meaning": "đồng thời, xảy ra cùng một lúc.",
+    "image": "eew-5-14/16.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "happening or being done at exactly the same time.",
+        "meaning-example": "xảy ra hoặc được thực hiện vào cùng một thời điểm.",
+        "ipa-example": "/ˈhæpənɪŋ ɔː ˈbiːɪŋ dʌn æt ɪɡˈzæktli ðə seɪm taɪm./"
+      },
+      {
+        "sentence": "Furthermore, he couldn’t do simultaneous activities because he had to make sure he was safe first.",
+        "meaning-example": "Hơn nữa, anh không thể thực hiện các hoạt động đồng thời vì trước tiên anh phải đảm bảo mình được an toàn.",
+        "ipa-example": "/ˈfɜːðəˌmɔː, hi ˈkʊdnt du ˌsɪməlˈteɪniəs ækˈtɪvətiz bɪˈkɒz hi hæd tu meɪk ʃʊə hi wɒz seɪf fɜːst./"
+      },
+      {
+        "sentence": "There were several simultaneous explosions in different cities.",
+        "meaning-example": "Có một số vụ nổ đồng thời ở các thành phố khác nhau.",
+        "ipa-example": "/ðeə wɜː ˈsɛvrəl ˌsɪməlˈteɪniəs ɪkˈspləʊʒənz ɪn ˈdɪfrənt ˈsɪtiz./"
+      },
+      {
+        "sentence": "The game will be broadcast simultaneously on TV and radio.",
+        "meaning-example": "Trò chơi sẽ được phát sóng đồng thời trên TV và đài phát thanh.",
+        "ipa-example": "/ðə ɡeɪm wɪl bi ˈbrɔːdkɑːst ˌsɪməlˈteɪniəsli ɒn ˌtiːˈviː ænd ˈreɪdiəʊ./"
+      }
+    ]
+  },
+  {
+    "word": "skeptic",
+    "ipa": "/ˈskep.tɪk/",
+    "meaning": "người hoài nghi.",
+    "image": "eew-5-14/17.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "a person who doubts the truth or value of an idea or belief.",
+        "meaning-example": "một người nghi ngờ sự thật hoặc giá trị của một ý tưởng hoặc niềm tin.",
+        "ipa-example": "/ə ˈpɜːsən hu daʊts ðə truːθ ɔː ˈvæljuː əv ən aɪˈdɪə ɔː bɪˈliːf./"
+      },
+      {
+        "sentence": "Sam was a skeptic.",
+        "meaning-example": "Sam là một người hoài nghi.",
+        "ipa-example": "/sæm wɒz ə ˈskɛptɪk./"
+      },
+      {
+        "sentence": "He is a skeptic when it comes to ghosts.",
+        "meaning-example": "Anh ấy là một người hoài nghi khi nói đến ma.",
+        "ipa-example": "/hi ɪz ə ˈskɛptɪk wɛn ɪt kʌmz tu ɡəʊsts./"
+      },
+      {
+        "sentence": "Skeptics say the new plan will not work.",
+        "meaning-example": "Những người hoài nghi nói rằng kế hoạch mới sẽ không hoạt động.",
+        "ipa-example": "/ˈskɛptɪks seɪ ðə njuː plæn wɪl nɒt wɜːk./"
+      }
+    ]
+  },
+  {
+    "word": "spatial",
+    "ipa": "/ˈspeɪ.ʃəl/",
+    "meaning": "(thuộc về) không gian.",
+    "image": "eew-5-14/18.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "relating to the position, area, and size of things.",
+        "meaning-example": "liên quan đến vị trí, diện tích và kích thước của sự vật.",
+        "ipa-example": "/rɪˈleɪtɪŋ tu ðə pəˈzɪʃən, ˈeəriə, ænd saɪz əv θɪŋz./"
+      },
+      {
+        "sentence": "Without his optic senses, he had no spatial awareness.",
+        "meaning-example": "Không có các giác quan thị giác, anh không có nhận thức về không gian.",
+        "ipa-example": "/wɪˈðaʊt hɪz ˈɒptɪk ˈsɛnsɪz, hi hæd nəʊ ˈspeɪʃəl əˈwɛənəs./"
+      },
+      {
+        "sentence": "This task tests your spatial reasoning skills.",
+        "meaning-example": "Nhiệm vụ này kiểm tra kỹ năng suy luận không gian của bạn.",
+        "ipa-example": "/ðɪs tɑːsk tɛsts jɔː ˈspeɪʃəl ˈriːzənɪŋ skɪlz./"
+      },
+      {
+        "sentence": "The artist has a good sense of spatial arrangement.",
+        "meaning-example": "Người nghệ sĩ có một cảm quan tốt về sắp xếp không gian.",
+        "ipa-example": "/ðə ˈɑːtɪst hæz ə ɡʊd sɛns əv ˈspeɪʃəl əˈreɪndʒmənt./"
+      }
+    ]
+  },
+  {
+    "word": "specify",
+    "ipa": "/ˈspes.ɪ.faɪ/",
+    "meaning": "chỉ rõ, định rõ.",
+    "image": "eew-5-14/19.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "to explain or describe something clearly and in detail.",
+        "meaning-example": "giải thích hoặc mô tả một cái gì đó rõ ràng và chi tiết.",
+        "ipa-example": "/tu ɪkˈspleɪn ɔː dɪˈskraɪb ˈsʌmθɪŋ ˈklɪəli ænd ɪn ˈdiːteɪl./"
+      },
+      {
+        "sentence": "He heard the voices of his parents and brothers but couldn’t specify where each voice was coming from.",
+        "meaning-example": "Anh nghe thấy giọng nói của cha mẹ và các anh trai nhưng không thể xác định được từng giọng nói phát ra từ đâu.",
+        "ipa-example": "/hi hɜːd ðə ˈvɔɪsɪz əv hɪz ˈpeərənts ænd ˈbrʌðəz bʌt ˈkʊdnt ˈspɛsɪfaɪ weər iːtʃ vɔɪs wɒz ˈkʌmɪŋ frɒm./"
+      },
+      {
+        "sentence": "Please specify your requirements.",
+        "meaning-example": "Vui lòng ghi rõ yêu cầu của bạn.",
+        "ipa-example": "/pliːz ˈspɛsɪfaɪ jɔː rɪˈkwaɪəmənts./"
+      },
+      {
+        "sentence": "The contract specifies the payment terms.",
+        "meaning-example": "Hợp đồng quy định các điều khoản thanh toán.",
+        "ipa-example": "/ðə ˈkɒntrækt ˈspɛsɪfaɪz ðə ˈpeɪmənt tɜːmz./"
+      }
+    ]
+  },
+  {
+    "word": "wax",
+    "ipa": "/wæks/",
+    "meaning": "sáp.",
+    "image": "eew-5-14/20.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "a solid, yellowish, fatty substance that is secreted by bees, used for making candles, etc.",
+        "meaning-example": "một chất rắn, màu vàng, béo do ong tiết ra, được dùng để làm nến, v.v.",
+        "ipa-example": "/ə ˈsɒlɪd, ˈjɛləʊɪʃ, ˈfæti ˈsʌbstəns ðæt ɪz sɪˈkriːtɪd baɪ biːz, juːzd fɔː ˈmeɪkɪŋ ˈkændlz, ɪtˈsɛtərə./"
+      },
+      {
+        "sentence": "He realized for the first time that it seemed to be covered with wax.",
+        "meaning-example": "Lần đầu tiên anh nhận ra nó dường như được bao phủ bởi sáp.",
+        "ipa-example": "/hi ˈriːəlaɪzd fɔː ðə fɜːst taɪm ðæt ɪt siːmd tu bi ˈkʌvəd wɪð wæks./"
+      },
+      {
+        "sentence": "Candles are made of wax.",
+        "meaning-example": "Nến được làm bằng sáp.",
+        "ipa-example": "/ˈkændlz ɑː meɪd əv wæks./"
+      },
+      {
+        "sentence": "He used wax to polish the floor.",
+        "meaning-example": "Anh dùng sáp để đánh bóng sàn nhà.",
+        "ipa-example": "/hi juːzd wæks tu ˈpɒlɪʃ ðə flɔː./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "Day Without Sight",
+        "meaning-example": "Ngày không có ánh sáng",
+        "ipa-example": "/deɪ wɪˈðaʊt saɪt/"
+      },
+      {
+        "sentence": "On Friday afternoon, Sam’s teacher had a special assignment.",
+        "meaning-example": "Vào chiều thứ Sáu, giáo viên của Sam có một bài tập đặc biệt.",
+        "ipa-example": "/ɒn ˈfraɪdeɪ ˌɑːftəˈnuːn, sæmz ˈtiːtʃər hæd ə ˈspeʃəl əˈsaɪnmənt./"
+      },
+      {
+        "sentence": "“Next week, we’ll be studying humanitarian efforts around the world since the time of the Renaissance, including those to help the blind,” she said.",
+        "meaning-example": "“Tuần tới, chúng ta sẽ nghiên cứu các nỗ lực nhân đạo trên khắp thế giới kể từ thời Phục hưng, bao gồm cả những nỗ lực giúp đỡ người mù,” cô nói.",
+        "ipa-example": "/nɛkst wiːk, wiːl bi ˈstʌdiɪŋ hjuːˌmænɪˈtɛəriən ˈɛfəts əˈraʊnd ðə wɜːld sɪns ðə taɪm əv ðə rəˈneɪsəns, ɪnˈkluːdɪŋ ðəʊz tu hɛlp ðə blaɪnd, ʃi sɛd./"
+      },
+      {
+        "sentence": "“Over the weekend, I want each of you to wear a blindfold for an entire day.",
+        "meaning-example": "“Vào cuối tuần, cô muốn mỗi em đeo một chiếc bịt mắt trong cả một ngày.",
+        "ipa-example": "/ˈəʊvə ðə ˌwiːkˈɛnd, aɪ wɒnt iːtʃ əv juː tə weər ə ˈblaɪndfəʊld fɔːr ən ɪnˈtaɪə deɪ./"
+      },
+      {
+        "sentence": "The premise of this experiment is that it will help you understand what it’s like to be blind,” she said.",
+        "meaning-example": "Tiền đề của thí nghiệm này là nó sẽ giúp các em hiểu cảm giác bị mù là như thế nào,” cô nói.",
+        "ipa-example": "/ðə ˈprɛmɪs əv ðɪs ɪkˈspɛrɪmənt ɪz ðæt ɪt wɪl hɛlp ju ˌʌndəˈstænd wɒt ɪts laɪk tə bi blaɪnd, ʃi sɛd./"
+      },
+      {
+        "sentence": "Sam was a skeptic.",
+        "meaning-example": "Sam là một người hoài nghi.",
+        "ipa-example": "/sæm wɒz ə ˈskɛptɪk./"
+      },
+      {
+        "sentence": "He really didn’t think the assignment would be too challenging.",
+        "meaning-example": "Cậu thực sự không nghĩ rằng bài tập này quá khó.",
+        "ipa-example": "/hi ˈrɪəli dɪdnt θɪŋk ðə əˈsaɪnmənt wʊd bi tuː ˈtʃælɪndʒɪŋ./"
+      },
+      {
+        "sentence": "On Saturday morning, Sam took a piece of cloth and tied it around his head to cover his eyes.",
+        "meaning-example": "Vào sáng thứ Bảy, Sam lấy một mảnh vải và buộc quanh đầu để che mắt.",
+        "ipa-example": "/ɒn ˈsætədeɪ ˈmɔːnɪŋ, sæm tʊk ə piːs əv klɒθ ænd taɪd ɪt əˈraʊnd hɪz hɛd tə ˈkʌvər hɪz aɪz./"
+      },
+      {
+        "sentence": "Then he went into the kitchen for breakfast.",
+        "meaning-example": "Sau đó, cậu vào bếp để ăn sáng.",
+        "ipa-example": "/ðɛn hi wɛnt ˈɪntə ðə ˈkɪtʃɪn fɔː ˈbrɛkfəst./"
+      },
+      {
+        "sentence": "He heard the voices of his parents and brothers but couldn’t specify where each voice was coming from.",
+        "meaning-example": "Cậu nghe thấy giọng nói của cha mẹ và các anh trai nhưng không thể xác định được từng giọng nói phát ra từ đâu.",
+        "ipa-example": "/hi hɜːd ðə ˈvɔɪsɪz əv hɪz ˈpeərənts ænd ˈbrʌðəz bʌt ˈkʊdnt ˈspɛsɪfaɪ weər iːtʃ vɔɪs wɒz ˈkʌmɪŋ frɒm./"
+      },
+      {
+        "sentence": "He thought about how important hearing is for blind people.",
+        "meaning-example": "Cậu nghĩ về tầm quan trọng của thính giác đối với người mù.",
+        "ipa-example": "/hi θɔːt əˈbaʊt haʊ ɪmˈpɔːtənt ˈhɪərɪŋ ɪz fɔː blaɪnd ˈpiːpl./"
+      },
+      {
+        "sentence": "“Could you pass me the newspaper, please?” he asked.",
+        "meaning-example": "“Làm ơn đưa cho tôi tờ báo được không?” cậu hỏi.",
+        "ipa-example": "/kʊd ju pɑːs mi ðə ˈnjuːzˌpeɪpə, pliːz? hi ɑːskt./"
+      },
+      {
+        "sentence": "Just then, he remembered he couldn’t see the words on the page.",
+        "meaning-example": "Ngay lúc đó, cậu nhớ ra mình không thể nhìn thấy chữ trên trang giấy.",
+        "ipa-example": "/dʒʌst ðɛn, hi rɪˈmɛmbəd hi ˈkʊdnt siː ðə wɜːdz ɒn ðə peɪdʒ./"
+      },
+      {
+        "sentence": "He wondered if Braille newspapers were ever made.",
+        "meaning-example": "Cậu tự hỏi liệu có bao giờ có báo chữ nổi Braille không.",
+        "ipa-example": "/hi ˈwʌndəd ɪf breɪl ˈnjuːzˌpeɪpəz wɜːr ˈɛvə meɪd./"
+      },
+      {
+        "sentence": "After finishing breakfast, his brothers asked him to play soccer.",
+        "meaning-example": "Sau khi ăn sáng xong, các anh trai rủ cậu chơi bóng đá.",
+        "ipa-example": "/ˈɑːftə ˈfɪnɪʃɪŋ ˈbrɛkfəst, hɪz ˈbrʌðəz ɑːskt hɪm tə pleɪ ˈsɒkə./"
+      },
+      {
+        "sentence": "As he followed them, he accidentally walked into the baker’s rack.",
+        "meaning-example": "Khi đi theo họ, cậu vô tình đi vào giá của người làm bánh.",
+        "ipa-example": "/æz hi ˈfɒləʊd ðɛm, hi ˌæksɪˈdɛntəli wɔːkt ˈɪntu ðə ˈbeɪkəz ræk./"
+      },
+      {
+        "sentence": "He also found that he couldn’t play soccer.",
+        "meaning-example": "Cậu cũng nhận ra rằng mình không thể chơi bóng đá.",
+        "ipa-example": "/hi ˈɔːlsəʊ faʊnd ðæt hi ˈkʊdnt pleɪ ˈsɒkə./"
+      },
+      {
+        "sentence": "He wouldn’t be able to coordinate his actions without being able to see.",
+        "meaning-example": "Cậu sẽ không thể phối hợp các hành động của mình nếu không thể nhìn thấy.",
+        "ipa-example": "/hi ˈwʊdnt bi ˈeɪbl tə kəʊˈɔːdɪneɪt hɪz ˈækʃənz wɪˈðaʊt ˈbiːɪŋ ˈeɪbl tə siː./"
+      },
+      {
+        "sentence": "Without his optic senses, he had no spatial awareness.",
+        "meaning-example": "Không có các giác quan thị giác, cậu không có nhận thức về không gian.",
+        "ipa-example": "/wɪˈðaʊt hɪz ˈɒptɪk ˈsɛnsɪz, hi hæd nəʊ ˈspeɪʃəl əˈwɛənəs./"
+      },
+      {
+        "sentence": "Furthermore, he couldn’t do simultaneous activities because he had to make sure he was safe first.",
+        "meaning-example": "Hơn nữa, cậu không thể thực hiện các hoạt động đồng thời vì trước tiên cậu phải đảm bảo mình được an toàn.",
+        "ipa-example": "/ˈfɜːðəˌmɔː, hi ˈkʊdnt duː ˌsɪməlˈteɪniəs ækˈtɪvətiz bɪˈkɒz hi hæd tə meɪk ʃʊər hi wɒz seɪf fɜːst./"
+      },
+      {
+        "sentence": "He sat on the lawn.",
+        "meaning-example": "Cậu ngồi trên bãi cỏ.",
+        "ipa-example": "/hi sæt ɒn ðə lɔːn./"
+      },
+      {
+        "sentence": "Suddenly, he realized that though he couldn’t see, his other senses worked perfectly fine.",
+        "meaning-example": "Đột nhiên, cậu nhận ra rằng mặc dù không thể nhìn thấy, các giác quan khác của cậu vẫn hoạt động hoàn hảo.",
+        "ipa-example": "/ˈsʌd.ən.li, hi ˈriː.ə.laɪzd ðæt ðoʊ hi ˈkʊd.ənt siː, hɪz ˈʌð.ər ˈsen.sɪz wɜːrkt ˈpɜːr.fɪkt.li faɪn./"
+      },
+      {
+        "sentence": "In fact, he began to realize new and different aspects of common objects.",
+        "meaning-example": "Thực tế, cậu bắt đầu nhận ra những khía cạnh mới và khác biệt của những đồ vật thông thường.",
+        "ipa-example": "/ɪn fækt, hi bɪˈɡæn tuː ˈriː.ə.laɪz njuː ænd ˈdɪf.ər.ənt ˈæs.pekts əv ˈkɒm.ən ˈɒb.dʒɪkts./"
+      },
+      {
+        "sentence": "For example, he took a flower bud and felt it with his finger.",
+        "meaning-example": "Ví dụ, cậu lấy một nụ hoa và cảm nhận nó bằng ngón tay.",
+        "ipa-example": "/fɔːr ɪɡˈzɑːm.pl̩, hi tʊk ə ˈflaʊ.ər bʌd ænd felt ɪt wɪð hɪz ˈfɪŋ.ɡər./"
+      },
+      {
+        "sentence": "He realized for the first time that it seemed to be covered with wax.",
+        "meaning-example": "Lần đầu tiên cậu nhận ra nó dường như được bao phủ bởi sáp.",
+        "ipa-example": "/hi ˈriː.ə.laɪzd fɔːr ðə fɜːst taɪm ðæt ɪt siːmd tuː bi ˈkʌv.ərd wɪð wæks./"
+      },
+      {
+        "sentence": "His hypothesis about being blind was disproved.",
+        "meaning-example": "Giả thuyết của cậu về việc bị mù đã bị bác bỏ.",
+        "ipa-example": "/hɪz haɪˈpɒθ.ə.sɪs əˈbaʊt ˈbiː.ɪŋ blaɪnd wɒz dɪsˈpruːvd./"
+      },
+      {
+        "sentence": "The informative experiment had an imprint on him.",
+        "meaning-example": "Thí nghiệm đầy thông tin đã để lại dấu ấn trong cậu.",
+        "ipa-example": "/ðə ɪnˈfɔː.mə.tɪv ɪkˈsper.ɪ.mənt hæd ən ˈɪm.prɪnt ɒn hɪm./"
+      },
+      {
+        "sentence": "It showed him sight was an asset that should be appreciated and taught him to revere the talents of blind people.",
+        "meaning-example": "Nó cho cậu thấy thị giác là một tài sản cần được trân trọng và dạy cậu tôn kính tài năng của người mù.",
+        "ipa-example": "/ɪt ʃəʊd hɪm saɪt wɒz ən ˈæs.et ðæt ʃʊd bi əˈpriː.ʃi.eɪ.tɪd ænd tɔːt hɪm tuː rɪˈvɪər ðə ˈtæl.ənts əv blaɪnd ˈpiː.pl̩./"
+      }
+    ]
+  }
+]
