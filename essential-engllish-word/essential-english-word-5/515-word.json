@@ -1,0 +1,853 @@
+[
+  {
+    "word": "accessory",
+    "ipa": "/əkˈsesəri/",
+    "meaning": "Phụ kiện, đồ phụ tùng.",
+    "image": "eew-5-15/1.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "\"Anh sẽ sơ ri\" (I will serially) mua hết các phụ kiện này.",
+        "meaning-example": "\"Anh sẽ sơ ri\" mua hết các phụ kiện này.",
+        "ipa-example": "/æŋ sɛ ˈsɜːri muə het kak ˈfu kiən naɪ./"
+      },
+      {
+        "sentence": "Something added to a machine or to clothing that has a useful or decorative purpose.",
+        "meaning-example": "Một thứ được thêm vào máy móc hoặc quần áo có mục đích hữu ích hoặc trang trí.",
+        "ipa-example": "/ˈsʌmθɪŋ ˈædɪd tuː ə məˈʃiːn ɔː tuː ˈkləʊðɪŋ ðæt hæz ə ˈjuːsfʊl ɔː ˈdekərətɪv ˈpɜːpəs./"
+      },
+      {
+        "sentence": "This new accessory kept Ernest from getting lost.",
+        "meaning-example": "Phụ kiện mới này đã giúp Ernest không bị lạc.",
+        "ipa-example": "/ðɪs njuː əkˈsesəri kept ˈɜːnɪst frɒm ˈɡetɪŋ lɒst./"
+      },
+      {
+        "sentence": "She wore a simple black dress, accessorized with a silver belt.",
+        "meaning-example": "Cô ấy mặc một chiếc váy đen đơn giản, được trang trí bằng một chiếc thắt lưng bạc.",
+        "ipa-example": "/ʃi wɔːr ə ˈsɪmpl blæk dres, əkˈsesəraɪzd wɪð ə ˈsɪlvə belt./"
+      },
+      {
+        "sentence": "A car's standard accessories include a spare tire and a jack.",
+        "meaning-example": "Phụ kiện tiêu chuẩn của một chiếc ô tô bao gồm lốp dự phòng và con đội.",
+        "ipa-example": "/ə kɑːz ˈstændəd əkˈsesəriz ɪnˈkluːd ə speə taɪər ænd ə dʒæk./"
+      }
+    ]
+  },
+  {
+    "word": "acquisition",
+    "ipa": "/ˌækwɪˈzɪʃn/",
+    "meaning": "Sự giành được, sự thu được, sự mua lại.",
+    "image": "eew-5-15/2.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "\"Ac! Quỷ dị sình\" lên sau khi mua lại được món đồ cổ.",
+        "meaning-example": "\"Ac! Quỷ dị sình\" lên sau khi mua lại được món đồ cổ.",
+        "ipa-example": "/ak kwi zi sɪn len saʊ ki muə laɪ dɜk mɔn do ko./"
+      },
+      {
+        "sentence": "The process of getting something; the item that is bought or obtained.",
+        "meaning-example": "Quá trình nhận được một cái gì đó; món hàng được mua hoặc có được.",
+        "ipa-example": "/ðə ˈprəʊses əv ˈɡetɪŋ ˈsʌmθɪŋ; ðə ˈaɪtəm ðæt ɪz bɔːt ɔːr əbˈteɪnd./"
+      },
+      {
+        "sentence": "His favorite ship’s latest acquisition was a device with a small grid to show the ship’s exact location.",
+        "meaning-example": "Sự mua lại mới nhất của con tàu yêu thích của anh ấy là một thiết bị có một lưới nhỏ để hiển thị vị trí chính xác của con tàu.",
+        "ipa-example": "/hɪz ˈfeɪvərɪt ʃɪps ˈleɪtɪst ˌækwɪˈzɪʃn wəz ə dɪˈvaɪs wɪð ə smɔːl ɡrɪd tuː ʃəʊ ðə ʃɪps ɪɡˈzækt ləʊˈkeɪʃn./"
+      },
+      {
+        "sentence": "The company's latest acquisition is a small startup specializing in AI.",
+        "meaning-example": "Sự mua lại mới nhất của công ty là một công ty khởi nghiệp nhỏ chuyên về AI.",
+        "ipa-example": "/ðə ˈkʌmpəniz ˈleɪtɪst ˌækwɪˈzɪʃn ɪz ə smɔːl ˈstɑːtʌp ˈspeʃəlaɪzɪŋ ɪn eɪ-aɪ./"
+      },
+      {
+        "sentence": "Language acquisition is easiest for children.",
+        "meaning-example": "Việc tiếp thu ngôn ngữ là dễ nhất đối với trẻ em.",
+        "ipa-example": "/ˈlæŋɡwɪdʒ ˌækwɪˈzɪʃn ɪz ˈiːziɪst fɔː ˈtʃɪldrən./"
+      }
+    ]
+  },
+  {
+    "word": "adequate",
+    "ipa": "/ˈædɪkwət/",
+    "meaning": "Đầy đủ, tương xứng, thích đáng.",
+    "image": "eew-5-15/3.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "\"A! Đi... quét\" dọn đi, đồ đạc vẫn chưa đầy đủ đâu.",
+        "meaning-example": "\"A! Đi... quét\" dọn đi, đồ đạc vẫn chưa đầy đủ đâu.",
+        "ipa-example": "/a di kwet zɔn di do dak vɜn tʃɜ dəɪ du dəʊ./"
+      },
+      {
+        "sentence": "Enough or satisfactory for a particular purpose.",
+        "meaning-example": "Đủ hoặc thỏa đáng cho một mục đích cụ thể.",
+        "ipa-example": "/ɪˈnʌf ɔː ˌsætɪsˈfæktəri fɔːr ə pəˈtɪkjələr ˈpɜːpəs./"
+      },
+      {
+        "sentence": "“Your ship doesn’t seem adequate enough to sail so far away from land.”",
+        "meaning-example": "“Con tàu của bạn dường như không đủ để đi xa đất liền như vậy.”",
+        "ipa-example": "/jɔː ʃɪp ˈdʌznt siːm ˈædɪkwət ɪˈnʌf tuː seɪl səʊ fɑːr əˈweɪ frɒm lænd./"
+      },
+      {
+        "sentence": "The food was adequate but not exceptional.",
+        "meaning-example": "Thức ăn đủ dùng nhưng không đặc biệt.",
+        "ipa-example": "/ðə fuːd wəz ˈædɪkwət bʌt nɒt ɪkˈsepʃənl./"
+      },
+      {
+        "sentence": "He didn't have adequate time to prepare for the exam.",
+        "meaning-example": "Anh ấy không có đủ thời gian để chuẩn bị cho kỳ thi.",
+        "ipa-example": "/hi ˈdɪdnt hæv ˈædɪkwət taɪm tuː prɪˈpeər fɔː ði ɪɡˈzæm./"
+      }
+    ]
+  },
+  {
+    "word": "cardboard",
+    "ipa": "/ˈkɑːrdbɔːrd/",
+    "meaning": "Bìa cứng, các-tông.",
+    "image": "eew-5-15/4.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Cái thẻ (card) trên cái bảng (board) làm bằng bìa cứng.",
+        "meaning-example": "Cái thẻ (card) trên cái bảng (board) làm bằng bìa cứng.",
+        "ipa-example": "/kaɪ tɛ kard tren kaɪ baŋ boəd lam baŋ biə kɜŋ./"
+      },
+      {
+        "sentence": "A thick, stiff paper-like material that's used for making boxes.",
+        "meaning-example": "Một vật liệu giống như giấy dày, cứng được sử dụng để làm hộp.",
+        "ipa-example": "/ə θɪk, stɪf ˈpeɪpə-laɪk məˈtɪəriəl ðæts juːzd fɔː ˈmeɪkɪŋ ˈbɒksɪz./"
+      },
+      {
+        "sentence": "The boat’s wood looked no stronger than cardboard, and the equipment was old.",
+        "meaning-example": "Gỗ của con thuyền trông không chắc chắn hơn bìa cứng, và thiết bị thì đã cũ.",
+        "ipa-example": "/ðə bəʊts wʊd lʊkt nəʊ ˈstrɒŋɡə ðæn ˈkɑːdbɔːd, ænd ði ɪˈkwɪpmənt wəz əʊld./"
+      },
+      {
+        "sentence": "We packed our books in cardboard boxes.",
+        "meaning-example": "Chúng tôi đóng gói sách của mình trong các hộp bìa cứng.",
+        "ipa-example": "/wi pækt ˈaʊə bʊks ɪn ˈkɑːdbɔːd ˈbɒksɪz./"
+      },
+      {
+        "sentence": "The kids made a castle out of a large cardboard box.",
+        "meaning-example": "Những đứa trẻ đã làm một lâu đài từ một chiếc hộp bìa cứng lớn.",
+        "ipa-example": "/ðə kɪdz meɪd ə ˈkɑːsl aʊt əv ə lɑːdʒ ˈkɑːdbɔːd bɒks./"
+      }
+    ]
+  },
+  {
+    "word": "dilemma",
+    "ipa": "/dɪˈlemə/",
+    "meaning": "Tình thế tiến thoái lưỡng nan, tình thế khó xử.",
+    "image": "eew-5-15/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "\"Đi... lẹ mà\", đừng để tôi phải rơi vào tình thế tiến thoái lưỡng nan.",
+        "meaning-example": "\"Đi... lẹ mà\", đừng để tôi phải rơi vào tình thế tiến thoái lưỡng nan.",
+        "ipa-example": "/di lɛ ma dɜŋ de toɪ faɪ rɔɪ vaʊ tɪn θwaɪ lɜŋ nan./"
+      },
+      {
+        "sentence": "A situation in which a difficult choice has to be made between two or more alternatives, especially equally undesirable ones.",
+        "meaning-example": "Một tình huống trong đó phải đưa ra một lựa chọn khó khăn giữa hai hoặc nhiều phương án, đặc biệt là những phương án không mong muốn như nhau.",
+        "ipa-example": "/ə ˌsɪtʃuˈeɪʃn ɪn wɪtʃ ə ˈdɪfɪkəlt tʃɔɪs hæz tuː bi meɪd bɪˈtwiːn tuː ɔː mɔːr ɔːlˈtɜːnətɪvz, ɪˈspeʃəli ˈiːkwəli ˌʌndɪˈzaɪərəbl wʌnz./"
+      },
+      {
+        "sentence": "He began sailing toward them, eager to facilitate their rescue and thus solve their dilemma.",
+        "meaning-example": "Anh bắt đầu chèo thuyền về phía họ, háo hức tạo điều kiện thuận lợi cho việc giải cứu và do đó giải quyết tình thế khó xử của họ.",
+        "ipa-example": "/hi bɪˈɡæn ˈseɪlɪŋ təˈwɔːd ðəm, ˈiːɡə tuː fəˈsɪlɪteɪt ðeə ˈreskjuː ænd ðʌs sɒlv ðeə dɪˈlemə./"
+      },
+      {
+        "sentence": "She faced the dilemma of disobeying her father or losing the man she loved.",
+        "meaning-example": "Cô phải đối mặt với tình thế tiến thoái lưỡng nan là không vâng lời cha hoặc mất đi người đàn ông cô yêu.",
+        "ipa-example": "/ʃi feɪst ðə dɪˈlemə əv ˌdɪsəˈbeɪɪŋ hə ˈfɑːðər ɔː ˈluːzɪŋ ðə mæn ʃi lʌvd./"
+      },
+      {
+        "sentence": "The president is clearly in a dilemma about how to tackle the crisis.",
+        "meaning-example": "Tổng thống rõ ràng đang ở trong tình thế khó xử về cách giải quyết cuộc khủng hoảng.",
+        "ipa-example": "/ðə ˈprezɪdənt ɪz ˈklɪəli ɪn ə dɪˈlemə əˈbaʊt haʊ tuː ˈtækl ðə ˈkraɪsɪs./"
+      }
+    ]
+  },
+  {
+    "word": "elaborate",
+    "ipa": "/ɪˈlæbərət/",
+    "meaning": "Tỉ mỉ, công phu, tinh xảo.",
+    "image": "eew-5-15/6.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "\"Ê! La bơ đi!\", đó là mật khẩu để vào xem bức tranh tinh xảo này.",
+        "meaning-example": "\"Ê! La bơ đi!\", đó là mật khẩu để vào xem bức tranh tinh xảo này.",
+        "ipa-example": "/e la bə di dɔ la mɜt kɜu de vaʊ sem bɜk træn tɪn saʊ naɪ./"
+      },
+      {
+        "sentence": "Containing a lot of careful detail or many detailed parts.",
+        "meaning-example": "Chứa nhiều chi tiết cẩn thận hoặc nhiều bộ phận chi tiết.",
+        "ipa-example": "/kənˈteɪnɪŋ ə lɒt əv ˈkeəfʊl ˈdiːteɪl ɔː ˈmeni ˈdiːteɪld pɑːts./"
+      },
+      {
+        "sentence": "It had an elaborate painting on the side that showed a naval battle.",
+        "meaning-example": "Nó có một bức tranh tinh xảo ở bên cạnh cho thấy một trận hải chiến.",
+        "ipa-example": "/ɪt hæd ən ɪˈlæbərət ˈpeɪntɪŋ ɒn ðə saɪd ðæt ʃəʊd ə ˈneɪvl ˈbætl./"
+      },
+      {
+        "sentence": "They're making elaborate preparations for the wedding.",
+        "meaning-example": "Họ đang chuẩn bị rất công phu cho đám cưới.",
+        "ipa-example": "/ðeə ˈmeɪkɪŋ ɪˈlæbərət ˌprepəˈreɪʃnz fə ðə ˈwedɪŋ./"
+      },
+      {
+        "sentence": "He came out with an elaborate excuse for being late.",
+        "meaning-example": "Anh ấy đã đưa ra một lý do phức tạp cho việc đi trễ.",
+        "ipa-example": "/hi keɪm aʊt wɪð ən ɪˈlæbərət ɪkˈskjuːs fɔː ˈbiːɪŋ leɪt./"
+      }
+    ]
+  },
+  {
+    "word": "facilitate",
+    "ipa": "/fəˈsɪlɪteɪt/",
+    "meaning": "Tạo điều kiện thuận lợi, làm cho dễ dàng hơn.",
+    "image": "eew-5-15/7.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "Pha xi-rô li ti sẽ tạo điều kiện thuận lợi cho việc uống thuốc.",
+        "meaning-example": "Pha xi-rô li ti sẽ tạo điều kiện thuận lợi cho việc uống thuốc.",
+        "ipa-example": "/fa si ro li ti sɛ taʊ diʊ kiən tɜn lɔɪ tʃo viək uɔŋ tuɔk./"
+      },
+      {
+        "sentence": "To make an action or process easy or easier.",
+        "meaning-example": "Làm cho một hành động hoặc quá trình trở nên dễ dàng hoặc dễ dàng hơn.",
+        "ipa-example": "/tuː meɪk ən ˈækʃən ɔː ˈprəʊses ˈiːzi ɔːr ˈiːziə./"
+      },
+      {
+        "sentence": "He began sailing toward them, eager to facilitate their rescue and thus solve their dilemma.",
+        "meaning-example": "Anh bắt đầu chèo thuyền về phía họ, háo hức tạo điều kiện thuận lợi cho việc giải cứu và do đó giải quyết tình thế khó xử của họ.",
+        "ipa-example": "/hi bɪˈɡæn ˈseɪlɪŋ təˈwɔːd ðəm, ˈiːɡə tuː fəˈsɪlɪteɪt ðeə ˈreskjuː ænd ðʌs sɒlv ðeə dɪˈlemə./"
+      },
+      {
+        "sentence": "The new airport will facilitate the development of tourism.",
+        "meaning-example": "Sân bay mới sẽ tạo điều kiện thuận lợi cho sự phát triển du lịch.",
+        "ipa-example": "/ðə njuː ˈeəpɔːt wɪl fəˈsɪlɪteɪt ðə dɪˈveləpmənt əv ˈtʊərɪzəm./"
+      },
+      {
+        "sentence": "A good teacher can facilitate learning.",
+        "meaning-example": "Một giáo viên giỏi có thể tạo điều kiện thuận lợi cho việc học.",
+        "ipa-example": "/ə ɡʊd ˈtiːtʃə kæn fəˈsɪlɪteɪt ˈlɜːnɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "fleet",
+    "ipa": "/fliːt/",
+    "meaning": "Hạm đội, đội tàu.",
+    "image": "eew-5-15/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Vì phải quản lí cả một hạm đội tàu thuyền nên ông ta trông rất \"phờ\" và chẳng còn \"lí\" lẽ gì nữa.",
+        "meaning-example": "Vì phải quản lí cả một hạm đội tàu thuyền nên ông ta trông rất \"phờ\" và chẳng còn \"lí\" lẽ gì nữa.",
+        "ipa-example": "/vi faɪ kwan li ka moʊt ham doɪ taʊ tɜn nen oʊŋ ta trɔŋ rɜt fɜ va tʃaŋ kɔn li lɛ gi nɜ./"
+      },
+      {
+        "sentence": "A group of ships sailing together, engaged in the same activity, or under the same ownership.",
+        "meaning-example": "Một nhóm tàu thuyền cùng đi, tham gia vào cùng một hoạt động hoặc thuộc cùng một chủ sở hữu.",
+        "ipa-example": "/ə ɡruːp əv ʃɪps ˈseɪlɪŋ təˈɡeðə, ɪnˈɡeɪdʒd ɪn ðə seɪm ækˈtɪvəti, ɔːr ˈʌndə ðə seɪm ˈəʊnəʃɪp./"
+      },
+      {
+        "sentence": "Ernest looked at his fleet of ships.",
+        "meaning-example": "Ernest nhìn vào hạm đội tàu của mình.",
+        "ipa-example": "/ˈɜːnɪst lʊkt æt hɪz fliːt əv ʃɪps./"
+      },
+      {
+        "sentence": "The company has a fleet of 20 trucks.",
+        "meaning-example": "Công ty có một đội xe gồm 20 chiếc xe tải.",
+        "ipa-example": "/ðə ˈkʌmpəni hæz ə fliːt əv ˈtwenti trʌks./"
+      },
+      {
+        "sentence": "The British fleet was victorious in the battle.",
+        "meaning-example": "Hạm đội Anh đã chiến thắng trong trận chiến.",
+        "ipa-example": "/ðə ˈbrɪtɪʃ fliːt wəz vɪkˈtɔːriəs ɪn ðə ˈbætl./"
+      }
+    ]
+  },
+  {
+    "word": "grid",
+    "ipa": "/ɡrɪd/",
+    "meaning": "Lưới, mạng lưới (hệ thống đường kẻ).",
+    "image": "eew-5-15/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Dùng gậy dí vào từng ô trên lưới để kiểm tra.",
+        "meaning-example": "Dùng gậy dí vào từng ô trên lưới để kiểm tra.",
+        "ipa-example": "/duŋ ɡaɪ di vaʊ tɜŋ o tren lɜɪ de kiəm tra./"
+      },
+      {
+        "sentence": "A pattern of straight lines that cross each other to form squares.",
+        "meaning-example": "Một mẫu các đường thẳng cắt nhau để tạo thành các hình vuông.",
+        "ipa-example": "/ə ˈpætən əv streɪt laɪnz ðæt krɒs iːtʃ ˈʌðə tuː fɔːm skweəz./"
+      },
+      {
+        "sentence": "His favorite ship’s latest acquisition was a device with a small grid to show the ship’s exact location.",
+        "meaning-example": "Sự mua lại mới nhất của con tàu yêu thích của anh ấy là một thiết bị có một lưới nhỏ để hiển thị vị trí chính xác của con tàu.",
+        "ipa-example": "/hɪz ˈfeɪvərɪt ʃɪps ˈleɪtɪst ˌækwɪˈzɪʃn wəz ə dɪˈvaɪs wɪð ə smɔːl ɡrɪd tuː ʃəʊ ðə ʃɪps ɪɡˈzækt ləʊˈkeɪʃn./"
+      },
+      {
+        "sentence": "The map showed a grid of streets.",
+        "meaning-example": "Bản đồ cho thấy một mạng lưới đường phố.",
+        "ipa-example": "/ðə mæp ʃəʊd ə ɡrɪd əv striːts./"
+      },
+      {
+        "sentence": "The national power grid supplies electricity to the entire country.",
+        "meaning-example": "Lưới điện quốc gia cung cấp điện cho cả nước.",
+        "ipa-example": "/ðə ˈnæʃnəl ˈpaʊə ɡrɪd səˈplaɪz ɪˌlekˈtrɪsəti tuː ði ɪnˈtaɪə ˈkʌntri./"
+      }
+    ]
+  },
+  {
+    "word": "import",
+    "ipa": "/ɪmˈpɔːrt/",
+    "meaning": "Nhập khẩu.",
+    "image": "eew-5-15/10.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "\"Im... bọt\" - Tên buôn lậu nói khi nhập khẩu hàng cấm giấu trong các chai nước có bọt.",
+        "meaning-example": "\"Im... bọt\" - Tên buôn lậu nói khi nhập khẩu hàng cấm giấu trong các chai nước có bọt.",
+        "ipa-example": "/ɪm bɔt ten buən laʊ noɪ ki ɲɜp kɜu haŋ kɜm dʒaʊ trɔŋ kak tʃaɪ nɜk kɔ bɔt./"
+      },
+      {
+        "sentence": "To bring a product, service, or idea into one country from another.",
+        "meaning-example": "Đưa một sản phẩm, dịch vụ hoặc ý tưởng vào một quốc gia từ một quốc gia khác.",
+        "ipa-example": "/tuː brɪŋ ə ˈprɒdʌkt, ˈsɜːvɪs, ɔːr aɪˈdɪə ˈɪntuː wʌn ˈkʌntri frəm əˈnʌðə./"
+      },
+      {
+        "sentence": "Usually, he used them for his firm, which imported marble statues from other countries.",
+        "meaning-example": "Thông thường, ông sử dụng chúng cho công ty của mình, chuyên nhập khẩu các bức tượng đá cẩm thạch từ các nước khác.",
+        "ipa-example": "/ˈjuːʒəli, hi juːzd ðem fɔː hɪz fɜːm, wɪtʃ ɪmˈpɔːtɪd ˈmɑːbl ˈstætʃuːz frəm ˈʌðə ˈkʌntriz./"
+      },
+      {
+        "sentence": "We import a large number of cars from Japan.",
+        "meaning-example": "Chúng tôi nhập khẩu một số lượng lớn ô tô từ Nhật Bản.",
+        "ipa-example": "/wi ɪmˈpɔːt ə lɑːdʒ ˈnʌmbər əv kɑːz frəm dʒəˈpæn./"
+      },
+      {
+        "sentence": "The country has to import most of its raw materials.",
+        "meaning-example": "Đất nước phải nhập khẩu hầu hết các nguyên liệu thô.",
+        "ipa-example": "/ðə ˈkʌntri hæz tuː ɪmˈpɔːt məʊst əv ɪts rɔː məˈtɪəriəlz./"
+      }
+    ]
+  },
+  {
+    "word": "infer",
+    "ipa": "/ɪnˈfɜːr/",
+    "meaning": "Suy ra, luận ra.",
+    "image": "eew-5-15/11.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "Trong \"phở\" có nhiều hành, tôi suy ra người nấu thích ăn hành.",
+        "meaning-example": "Trong \"phở\" có nhiều hành, tôi suy ra người nấu thích ăn hành.",
+        "ipa-example": "/trɔŋ fɜ kɔ ɲiɜ haŋ toɪ sʊɪ ra ŋɜɪ naʊ tɪk æn haŋ./"
+      },
+      {
+        "sentence": "To form an opinion or guess that something is true because of the information that you have.",
+        "meaning-example": "Hình thành một ý kiến ​​hoặc đoán rằng điều gì đó là đúng vì thông tin bạn có.",
+        "ipa-example": "/tuː fɔːm ən əˈpɪnjən ɔː ɡes ðæt ˈsʌmθɪŋ ɪz truː bɪˈkɒz əv ði ˌɪnfəˈmeɪʃn ðæt ju hæv./"
+      },
+      {
+        "sentence": "Ernest inferred that the boy was suffering from nausea.",
+        "meaning-example": "Ernest suy ra rằng cậu bé đang bị buồn nôn.",
+        "ipa-example": "/ˈɜːnɪst ɪnˈfɜːd ðæt ðə bɔɪ wəz ˈsʌfərɪŋ frəm ˈnɔːziə./"
+      },
+      {
+        "sentence": "From his frown, I inferred that he was not pleased.",
+        "meaning-example": "Từ cái cau mày của anh ấy, tôi suy ra rằng anh ấy không hài lòng.",
+        "ipa-example": "/frəm hɪz fraʊn, aɪ ɪnˈfɜːd ðæt hi wəz nɒt pliːzd./"
+      },
+      {
+        "sentence": "What do you infer from her silence?",
+        "meaning-example": "Bạn suy ra điều gì từ sự im lặng của cô ấy?",
+        "ipa-example": "/wɒt duː ju ɪnˈfɜː frəm hə ˈsaɪləns?/"
+      }
+    ]
+  },
+  {
+    "word": "inflate",
+    "ipa": "/ɪnˈfleɪt/",
+    "meaning": "Thổi phồng, bơm căng.",
+    "image": "eew-5-15/12.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "\"In... lẹ thế?\" - Ông chủ xưởng in hỏi khi thấy chiếc phao bị thổi phồng lên nhanh như tốc độ máy in.",
+        "meaning-example": "\"In... lẹ thế?\" - Ông chủ xưởng in hỏi khi thấy chiếc phao bị thổi phồng lên nhanh như tốc độ máy in.",
+        "ipa-example": "/ɪn lɛ te oŋ tʃu sɜŋ ɪn hɔɪ ki taɪ tʃiək faʊ bi toɪ foŋ len ɲan ɲɜ tɔk do maɪ ɪn./"
+      },
+      {
+        "sentence": "To fill something with air or gas so it expands.",
+        "meaning-example": "Làm đầy một thứ gì đó bằng không khí hoặc khí để nó nở ra.",
+        "ipa-example": "/tuː fɪl ˈsʌmθɪŋ wɪð eər ɔː ɡæs səʊ ɪt ɪkˈspændz./"
+      },
+      {
+        "sentence": "You can inflate this boat to get you back to land.",
+        "meaning-example": "Bạn có thể bơm phồng chiếc thuyền này để đưa bạn trở lại đất liền.",
+        "ipa-example": "/ju kæn ɪnˈfleɪt ðɪs bəʊt tuː ɡet ju bæk tuː lænd./"
+      },
+      {
+        "sentence": "He inflated the tires of his bike.",
+        "meaning-example": "Anh ấy đã bơm lốp xe đạp của mình.",
+        "ipa-example": "/hi ɪnˈfleɪtɪd ðə ˈtaɪəz əv hɪz baɪk./"
+      },
+      {
+        "sentence": "The media has inflated the importance of this issue.",
+        "meaning-example": "Giới truyền thông đã thổi phồng tầm quan trọng của vấn đề này.",
+        "ipa-example": "/ðə ˈmiːdiə hæz ɪnˈfleɪtɪd ði ɪmˈpɔːtəns əv ðɪs ˈɪʃuː./"
+      }
+    ]
+  },
+  {
+    "word": "innate",
+    "ipa": "/ɪˈneɪt/",
+    "meaning": "Bẩm sinh, thiên phú.",
+    "image": "eew-5-15/13.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "Con heo con có cái nết hay ngủ là bẩm sinh.",
+        "meaning-example": "Con heo con có cái nết hay ngủ là bẩm sinh.",
+        "ipa-example": "/kɔn hɛo kɔn kɔ kaɪ net haɪ ŋu la bɜm sɪn./"
+      },
+      {
+        "sentence": "An innate quality or ability is one that you are born with, not one you have learned.",
+        "meaning-example": "Một phẩm chất hoặc khả năng bẩm sinh là thứ bạn có từ khi sinh ra, không phải thứ bạn học được.",
+        "ipa-example": "/ən ɪˈneɪt ˈkwɒləti ɔːr əˈbɪləti ɪz wʌn ðæt ju ɑː bɔːn wɪð, nɒt wʌn ju hæv lɜːnd./"
+      },
+      {
+        "sentence": "Most people never realized, but Ernest had an innate desire to help people.",
+        "meaning-example": "Hầu hết mọi người không bao giờ nhận ra, nhưng Ernest có một mong muốn bẩm sinh là giúp đỡ mọi người.",
+        "ipa-example": "/məʊst ˈpiːpl ˈnevə ˈriːəlaɪzd, bʌt ˈɜːnɪst hæd ən ɪˈneɪt dɪˈzaɪə tuː help ˈpiːpl./"
+      },
+      {
+        "sentence": "He has an innate talent for music.",
+        "meaning-example": "Anh ấy có tài năng bẩm sinh về âm nhạc.",
+        "ipa-example": "/hi hæz ən ɪˈneɪt ˈtælənt fɔː ˈmjuːzɪk./"
+      },
+      {
+        "sentence": "Her innate sense of justice made her a great lawyer.",
+        "meaning-example": "Khiếu công lý bẩm sinh đã giúp cô trở thành một luật sư giỏi.",
+        "ipa-example": "/hər ɪˈneɪt sens əv ˈdʒʌstɪs meɪd hər ə ɡreɪt ˈlɔːjə./"
+      }
+    ]
+  },
+  {
+    "word": "marble",
+    "ipa": "/ˈmɑːrbl/",
+    "meaning": "Đá cẩm thạch.",
+    "image": "eew-5-15/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "\"Má bồ\" thích những bức tượng bằng đá cẩm thạch.",
+        "meaning-example": "\"Má bồ\" thích những bức tượng bằng đá cẩm thạch.",
+        "ipa-example": "/ma bo tɪk ɲɜŋ bɜk tɜŋ baŋ da kɜm tæt./"
+      },
+      {
+        "sentence": "A type of hard rock that becomes smooth and shiny when it is polished, used for decoration and in buildings.",
+        "meaning-example": "Một loại đá cứng trở nên nhẵn và bóng khi được đánh bóng, được sử dụng để trang trí và trong các tòa nhà.",
+        "ipa-example": "/ə taɪp əv hɑːd rɒk ðæt bɪˈkʌmz smuːð ænd ˈʃaɪni wen ɪt ɪz ˈpɒlɪʃt, juːzd fɔː ˌdekəˈreɪʃn ænd ɪn ˈbɪldɪŋz./"
+      },
+      {
+        "sentence": "Usually, he used them for his firm, which imported marble statues from other countries.",
+        "meaning-example": "Thông thường, ông sử dụng chúng cho công ty của mình, chuyên nhập khẩu các bức tượng đá cẩm thạch từ các nước khác.",
+        "ipa-example": "/ˈjuːʒəli, hi juːzd ðem fɔː hɪz fɜːm, wɪtʃ ɪmˈpɔːtɪd ˈmɑːbl ˈstætʃuːz frəm ˈʌðə ˈkʌntriz./"
+      },
+      {
+        "sentence": "The floor was made of polished marble.",
+        "meaning-example": "Sàn nhà được làm bằng đá cẩm thạch đánh bóng.",
+        "ipa-example": "/ðə flɔː wəz meɪd əv ˈpɒlɪʃt ˈmɑːbl./"
+      },
+      {
+        "sentence": "The statue was carved from a single block of marble.",
+        "meaning-example": "Bức tượng được tạc từ một khối đá cẩm thạch duy nhất.",
+        "ipa-example": "/ðə ˈstætʃuː wəz kɑːvd frəm ə ˈsɪŋɡl blɒk əv ˈmɑːbl./"
+      }
+    ]
+  },
+  {
+    "word": "mast",
+    "ipa": "/mæst/",
+    "meaning": "Cột buồm.",
+    "image": "eew-5-15/15.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Đứng dưới cột buồm thì rất mát.",
+        "meaning-example": "Đứng dưới cột buồm thì rất mát.",
+        "ipa-example": "/dɜŋ dɜɪ koʊt buɔm ti rɜt mæt./"
+      },
+      {
+        "sentence": "A tall pole on a boat or ship that supports the sails.",
+        "meaning-example": "Một cây cột cao trên thuyền hoặc tàu để đỡ buồm.",
+        "ipa-example": "/ə tɔːl pəʊl ɒn ə bəʊt ɔː ʃɪp ðæt səˈpɔːts ðə seɪlz./"
+      },
+      {
+        "sentence": "There was an old man standing next to its mast.",
+        "meaning-example": "Có một ông già đứng cạnh cột buồm của nó.",
+        "ipa-example": "/ðeə wəz ən əʊld mæn ˈstændɪŋ nekst tuː ɪts mæst./"
+      },
+      {
+        "sentence": "The ship's mast was broken in the storm.",
+        "meaning-example": "Cột buồm của con tàu đã bị gãy trong cơn bão.",
+        "ipa-example": "/ðə ʃɪps mæst wəz ˈbrəʊkən ɪn ðə stɔːm./"
+      },
+      {
+        "sentence": "The flag was raised to the top of the mast.",
+        "meaning-example": "Lá cờ được kéo lên đỉnh cột buồm.",
+        "ipa-example": "/ðə flæɡ wəz reɪzd tuː ðə tɒp əv ðə mæst./"
+      }
+    ]
+  },
+  {
+    "word": "nausea",
+    "ipa": "/ˈnɔːziə/",
+    "meaning": "Sự buồn nôn, sự kinh tởm.",
+    "image": "eew-5-15/16.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "\"Nó... zia\" - Anh ta lùi ra xa vì cảm thấy buồn nôn.",
+        "meaning-example": "\"Nó... zia\" - Anh ta lùi ra xa vì cảm thấy buồn nôn.",
+        "ipa-example": "/nɔ ziə æŋ ta luɪ ra sa vi kam taɪ buɔn noʊn./"
+      },
+      {
+        "sentence": "The feeling that you are going to vomit.",
+        "meaning-example": "Cảm giác rằng bạn sắp nôn.",
+        "ipa-example": "/ðə ˈfiːlɪŋ ðæt ju ɑː ˈɡəʊɪŋ tuː ˈvɒmɪt./"
+      },
+      {
+        "sentence": "Ernest inferred that the boy was suffering from nausea.",
+        "meaning-example": "Ernest suy ra rằng cậu bé đang bị buồn nôn.",
+        "ipa-example": "/ˈɜːnɪst ɪnˈfɜːd ðæt ðə bɔɪ wəz ˈsʌfərɪŋ frəm ˈnɔːziə./"
+      },
+      {
+        "sentence": "Early pregnancy is often accompanied by nausea.",
+        "meaning-example": "Thời kỳ đầu mang thai thường đi kèm với cảm giác buồn nôn.",
+        "ipa-example": "/ˈɜːli ˈpreɡnənsi ɪz ˈɒfn əˈkʌmpənid baɪ ˈnɔːziə./"
+      },
+      {
+        "sentence": "The sight of the blood filled him with nausea.",
+        "meaning-example": "Cảnh tượng máu khiến anh ta buồn nôn.",
+        "ipa-example": "/ðə saɪt əv ðə blʌd fɪld hɪm wɪð ˈnɔːziə./"
+      }
+    ]
+  },
+  {
+    "word": "naval",
+    "ipa": "/ˈneɪvl/",
+    "meaning": "(thuộc) Hải quân.",
+    "image": "eew-5-15/17.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "\"Nầy! Vồ!\" - Lệnh tấn công được đưa ra trong trận chiến (thuộc) hải quân.",
+        "meaning-example": "\"Nầy! Vồ!\" - Lệnh tấn công được đưa ra trong trận chiến (thuộc) hải quân.",
+        "ipa-example": "/naɪ vo leŋ tɜn koŋ dɜk dɜ ra trɔŋ trɜn tʃiən tuɔk haɪ kwan./"
+      },
+      {
+        "sentence": "Relating to a country's navy or ships.",
+        "meaning-example": "Liên quan đến hải quân hoặc tàu của một quốc gia.",
+        "ipa-example": "/rɪˈleɪtɪŋ tuː ə ˈkʌntriz ˈneɪvi ɔː ʃɪps./"
+      },
+      {
+        "sentence": "It had an elaborate painting on the side that showed a naval battle.",
+        "meaning-example": "Nó có một bức tranh tinh xảo ở bên cạnh cho thấy một trận hải chiến.",
+        "ipa-example": "/ɪt hæd ən ɪˈlæbərət ˈpeɪntɪŋ ɒn ðə saɪd ðæt ʃəʊd ə ˈneɪvl ˈbætl./"
+      },
+      {
+        "sentence": "He joined the naval academy after high school.",
+        "meaning-example": "Anh gia nhập học viện hải quân sau khi tốt nghiệp trung học.",
+        "ipa-example": "/hi dʒɔɪnd ðə ˈneɪvl əˈkædəmi ˈɑːftə haɪ skuːl./"
+      },
+      {
+        "sentence": "The port is a major naval base.",
+        "meaning-example": "Cảng là một căn cứ hải quân lớn.",
+        "ipa-example": "/ðə pɔːt ɪz ə ˈmeɪdʒə ˈneɪvl beɪs./"
+      }
+    ]
+  },
+  {
+    "word": "pouch",
+    "ipa": "/paʊtʃ/",
+    "meaning": "Túi nhỏ.",
+    "image": "eew-5-15/18.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Cái túi nhỏ (pouch) này nhẹ như cái phao.",
+        "meaning-example": "Cái túi nhỏ (pouch) này nhẹ như cái phao.",
+        "ipa-example": "/kaɪ tuɪ ɲɔ paʊtʃ naɪ ɲɛ ɲɜ kaɪ faʊ./"
+      },
+      {
+        "sentence": "A small, soft bag, often made of leather or cloth.",
+        "meaning-example": "Một chiếc túi nhỏ, mềm, thường được làm bằng da hoặc vải.",
+        "ipa-example": "/ə smɔːl, sɒft bæɡ, ˈɒfn meɪd əv ˈleðər ɔː klɒθ./"
+      },
+      {
+        "sentence": "Still, there were several large fish in a pouch in the boat.",
+        "meaning-example": "Tuy nhiên, có một vài con cá lớn trong một cái túi trên thuyền.",
+        "ipa-example": "/stɪl, ðeə wɜː ˈsevrəl lɑːdʒ fɪʃ ɪn ə paʊtʃ ɪn ðə bəʊt./"
+      },
+      {
+        "sentence": "A kangaroo carries its baby in a pouch.",
+        "meaning-example": "Một con kangaroo mang con của nó trong một cái túi.",
+        "ipa-example": "/ə ˌkæŋɡəˈruː ˈkæriz ɪts ˈbeɪbi ɪn ə paʊtʃ./"
+      },
+      {
+        "sentence": "He kept his coins in a small leather pouch.",
+        "meaning-example": "Anh ấy giữ tiền xu của mình trong một chiếc túi da nhỏ.",
+        "ipa-example": "/hi kept hɪz kɔɪnz ɪn ə smɔːl ˈleðə paʊtʃ./"
+      }
+    ]
+  },
+  {
+    "word": "saturated",
+    "ipa": "/ˈsætʃəreɪtɪd/",
+    "meaning": "Ướt sũng, bão hòa.",
+    "image": "eew-5-15/19.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "\"Nó đã sa xuống nước chưa? Quần áo nó ướt sũng rồi kìa.\"",
+        "meaning-example": "\"Nó đã sa xuống nước chưa? Quần áo nó ướt sũng rồi kìa.\"",
+        "ipa-example": "/nɔ da sa suɔŋ nɜk tʃɜ kwan aʊ nɔ ɜt suŋ roɪ kiə./"
+      },
+      {
+        "sentence": "Completely wet.",
+        "meaning-example": "Hoàn toàn ướt.",
+        "ipa-example": "/kəmˈpliːtli wet./"
+      },
+      {
+        "sentence": "Both of their clothes were saturated with sea water.",
+        "meaning-example": "Quần áo của cả hai đều ướt sũng nước biển.",
+        "ipa-example": "/bəʊθ əv ðeə kləʊðz wɜː ˈsætʃəreɪtɪd wɪð siː ˈwɔːtə./"
+      },
+      {
+        "sentence": "My shoes were saturated after walking in the rain.",
+        "meaning-example": "Đôi giày của tôi đã ướt sũng sau khi đi dưới mưa.",
+        "ipa-example": "/maɪ ʃuːz wɜː ˈsætʃəreɪtɪd ˈɑːftə ˈwɔːkɪŋ ɪn ðə reɪn./"
+      },
+      {
+        "sentence": "The market for these products is already saturated.",
+        "meaning-example": "Thị trường cho các sản phẩm này đã bão hòa.",
+        "ipa-example": "/ðə ˈmɑːkɪt fɔː ðiːz ˈprɒdʌkts ɪz ɔːlˈredi ˈsætʃəreɪtɪd./"
+      }
+    ]
+  },
+  {
+    "word": "update",
+    "ipa": "/ˈʌpdeɪt/",
+    "meaning": "Sự cập nhật, bản cập nhật.",
+    "image": "eew-5-15/20.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Sau khi cập nhật phần mềm, máy tính hiện lên hình một cái đĩa bị úp xuống.",
+        "meaning-example": "Sau khi cập nhật phần mềm, máy tính hiện lên hình một cái đĩa bị úp xuống.",
+        "ipa-example": "/saʊ ki kɜp ɲɜt fan mem maɪ tɪn hiən len hɪn moʊt kaɪ diə bi up suɔŋ./"
+      },
+      {
+        "sentence": "New information; a new or more modern version of something.",
+        "meaning-example": "Thông tin mới; một phiên bản mới hoặc hiện đại hơn của một cái gì đó.",
+        "ipa-example": "/njuː ˌɪnfəˈmeɪʃn; ə njuː ɔː mɔː ˈmɒdən ˈvɜːʃn əv ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "It also had some new updates to its computer system.",
+        "meaning-example": "Nó cũng có một số cập nhật mới cho hệ thống máy tính của mình.",
+        "ipa-example": "/ɪt ˈɔːlsəʊ hæd sʌm njuː ˈʌpdeɪts tuː ɪts kəmˈpjuːtə ˈsɪstəm./"
+      },
+      {
+        "sentence": "I need to get an update on the project's progress.",
+        "meaning-example": "Tôi cần được cập nhật về tiến độ của dự án.",
+        "ipa-example": "/aɪ niːd tuː ɡet ən ˈʌpdeɪt ɒn ðə ˈprɒdʒekts ˈprəʊɡres./"
+      },
+      {
+        "sentence": "Please install the latest software update.",
+        "meaning-example": "Vui lòng cài đặt bản cập nhật phần mềm mới nhất.",
+        "ipa-example": "/pliːz ɪnˈstɔːl ðə ˈleɪtɪst ˈsɒftweər ˈʌpdeɪt./"
+      }
+    ]
+  },
+{
+  "word": "sentences of story",
+  "example": [
+    {
+      "sentence": "The Big Ship",
+      "meaning-example": "Con Tàu Lớn",
+      "ipa-example": "/ðə bɪɡ ʃɪp/"
+    },
+    {
+      "sentence": "Ernest looked at his fleet of ships.",
+      "meaning-example": "Ernest nhìn vào hạm đội tàu của mình.",
+      "ipa-example": "/ˈɜːnɪst lʊkt ət hɪz fliːt əv ʃɪps./"
+    },
+    {
+      "sentence": "Usually, he used them for his firm, which imported marble statues from other countries.",
+      "meaning-example": "Thông thường, ông sử dụng chúng cho công ty của mình, nơi nhập khẩu tượng đá cẩm thạch từ các nước khác.",
+      "ipa-example": "/ˈjuːʒəli, hi juːzd ðəm fə hɪz fɜːm, wɪtʃ ɪmˈpɔːtɪd ˈmɑːbəl ˈstætʃuːz frəm ˈʌðər ˈkʌntriz./"
+    },
+    {
+      "sentence": "But today he was going fishing.",
+      "meaning-example": "Nhưng hôm nay ông đi câu cá.",
+      "ipa-example": "/bət təˈdeɪ hi wəz ˈɡəʊɪŋ ˈfɪʃɪŋ./"
+    },
+    {
+      "sentence": "And the ship he chose was his favorite.",
+      "meaning-example": "Và con tàu ông chọn là con tàu yêu thích của mình.",
+      "ipa-example": "/ənd ðə ʃɪp hi tʃəʊz wəz hɪz ˈfeɪvərɪt./"
+    },
+    {
+      "sentence": "It had an elaborate painting on the side that showed a naval battle.",
+      "meaning-example": "Nó có một bức tranh tinh xảo ở bên hông mô tả một trận hải chiến.",
+      "ipa-example": "/ɪt hæd ən ɪˈlæbərət ˈpeɪntɪŋ ɒn ðə saɪd ðət ʃəʊd ə ˈneɪvəl ˈbætl./"
+    },
+    {
+      "sentence": "It also had some new updates to its computer system.",
+      "meaning-example": "Nó cũng có một số bản cập nhật mới cho hệ thống máy tính của mình.",
+      "ipa-example": "/ɪt ˈɔːlsəʊ hæd səm njuː ˈʌpdeɪts tə ɪts kəmˈpjuːtər ˈsɪstəm./"
+    },
+    {
+      "sentence": "His favorite ship’s latest acquisition was a device with a small grid to show the ship’s exact location.",
+      "meaning-example": "Món đồ mới nhất của con tàu yêu thích của ông là một thiết bị có một lưới nhỏ để hiển thị vị trí chính xác của con tàu.",
+      "ipa-example": "/hɪz ˈfeɪvərɪt ʃɪps ˈleɪtɪst ˌækwɪˈzɪʃn wəz ə dɪˈvaɪs wɪð ə smɔːl ɡrɪd tə ʃəʊ ðə ʃɪps ɪɡˈzækt ləʊˈkeɪʃn./"
+    },
+    {
+      "sentence": "This new accessory kept Ernest from getting lost.",
+      "meaning-example": "Phụ kiện mới này đã giúp Ernest không bị lạc.",
+      "ipa-example": "/ðɪs njuː əkˈsesəri kept ˈɜːnɪst frəm ˈɡetɪŋ lɒst./"
+    },
+    {
+      "sentence": "At daybreak, Ernest happily sailed the temperate waters until he was far from land.",
+      "meaning-example": "Vào lúc bình minh, Ernest vui vẻ chèo thuyền trên vùng nước ôn đới cho đến khi xa đất liền.",
+      "ipa-example": "/æt ˈdeɪbreɪk, ˈɜːnɪst ˈhæpɪli seɪld ðə ˈtɛmpərət ˈwɔːtəz ənˈtɪl hi wəz fɑː frəm lænd./"
+    },
+    {
+      "sentence": "Then he saw a small boat in the distance.",
+      "meaning-example": "Sau đó, ông nhìn thấy một chiếc thuyền nhỏ ở phía xa.",
+      "ipa-example": "/ðen hi sɔː ə smɔːl bəʊt ɪn ðə ˈdɪstəns./"
+    },
+    {
+      "sentence": "There was an old man standing next to its mast.",
+      "meaning-example": "Có một ông lão đang đứng cạnh cột buồm của nó.",
+      "ipa-example": "/ðeə wəz ən əʊld mæn ˈstændɪŋ nekst tə ɪts mæst./"
+    },
+    {
+      "sentence": "He was waving his arms in the air.",
+      "meaning-example": "Ông ấy đang vẫy tay trong không trung.",
+      "ipa-example": "/hi wəz ˈweɪvɪŋ hɪz ɑːmz ɪn ði eə./"
+    },
+    {
+      "sentence": "There was also a boy with his head hanging over the boat’s edge.",
+      "meaning-example": "Cũng có một cậu bé đang cúi đầu qua mép thuyền.",
+      "ipa-example": "/ðeər wəz ˈɔːlsəʊ ə bɔɪ wɪð hɪz hed ˈhæŋɪŋ ˈəʊvər ðə bəʊts edʒ./"
+    },
+    {
+      "sentence": "Ernest inferred that the boy was suffering from nausea.",
+      "meaning-example": "Ernest suy luận rằng cậu bé đang bị buồn nôn.",
+      "ipa-example": "/ˈɜːnɪst ɪnˈfɜːd ðæt ðə bɔɪ wəz ˈsʌfərɪŋ frəm ˈnɔːziə./"
+    },
+    {
+      "sentence": "Both of their clothes were saturated with sea water.",
+      "meaning-example": "Quần áo của cả hai đều ướt sũng nước biển.",
+      "ipa-example": "/bəʊθ əv ðeər kləʊðz wɜː ˈsætʃəreɪtɪd wɪð siː ˈwɔːtə./"
+    },
+    {
+      "sentence": "Ernest assumed that they were in trouble.",
+      "meaning-example": "Ernest cho rằng họ đang gặp rắc rối.",
+      "ipa-example": "/ˈɜːnɪst əˈsjuːmd ðæt ðeɪ wər ɪn ˈtrʌbl./"
+    },
+    {
+      "sentence": "Most people never realized, but Ernest had an innate desire to help people.",
+      "meaning-example": "Hầu hết mọi người không bao giờ nhận ra, nhưng Ernest có một mong muốn bẩm sinh là giúp đỡ mọi người.",
+      "ipa-example": "/məʊst ˈpiːpl ˈnevə ˈriːəlaɪzd, bət ˈɜːnɪst hæd ən ɪˈneɪt dɪˈzaɪər tə help ˈpiːpl./"
+    },
+    {
+      "sentence": "He began sailing toward them, eager to facilitate their rescue and thus solve their dilemma.",
+      "meaning-example": "Ông bắt đầu chèo thuyền về phía họ, háo hức tạo điều kiện cho việc giải cứu họ và nhờ đó giải quyết tình thế khó xử của họ.",
+      "ipa-example": "/hi bɪˈɡæn ˈseɪlɪŋ təˈwɔːd ðəm, ˈiːɡər tə fəˈsɪlɪteɪt ðeər ˈreskjuː ənd ðʌs sɒlv ðeər dɪˈlemə./"
+    },
+    {
+      "sentence": "As he got closer to the boat, he was shocked by its simplicity.",
+      "meaning-example": "Khi đến gần thuyền hơn, ông đã bị sốc bởi sự đơn giản của nó.",
+      "ipa-example": "/əz hi ɡɒt ˈkləʊsər tə ðə bəʊt, hi wəz ʃɒkt baɪ ɪts sɪmˈplɪsəti./"
+    },
+    {
+      "sentence": "The boat’s wood looked no stronger than cardboard, and the equipment was old.",
+      "meaning-example": "Gỗ của con thuyền trông không chắc hơn bìa cứng, và thiết bị thì đã cũ.",
+      "ipa-example": "/ðə bəʊts wʊd lʊkt nəʊ ˈstrɒŋɡər ðæn ˈkɑːdbɔːd, ənd ði ɪˈkwɪpmənt wəz əʊld./"
+    },
+    {
+      "sentence": "Still, there were several large fish in a pouch in the boat.",
+      "meaning-example": "Tuy nhiên, có một vài con cá lớn trong một cái túi trên thuyền.",
+      "ipa-example": "/stɪl, ðeər wɜː ˈsevrəl lɑːdʒ fɪʃ ɪn ə paʊtʃ ɪn ðə bəʊt./"
+    },
+    {
+      "sentence": "Ernest threw a large package onto the boat.",
+      "meaning-example": "Ernest ném một gói hàng lớn lên thuyền.",
+      "ipa-example": "/ˈɜːnɪst θruː ə lɑːdʒ ˈpækɪdʒ ˈɒntə ðə bəʊt./"
+    },
+    {
+      "sentence": "He yelled, “Here! You can inflate this boat to get you back to land.”",
+      "meaning-example": "Ông hét lên, “Đây! Các người có thể bơm căng chiếc thuyền này để trở về đất liền.”",
+      "ipa-example": "/hi jeld, “hɪə! ju kən ɪnˈfleɪt ðɪs bəʊt tə ɡet ju bæk tə lænd.”/"
+    },
+    {
+      "sentence": "“Get out of here!” screamed the old man.",
+      "meaning-example": "“Biến đi!” ông lão hét lên.",
+      "ipa-example": "/“ɡet aʊt əv hɪə!” skriːmd ði əʊld mæn./"
+    },
+    {
+      "sentence": "Ernest was confused.",
+      "meaning-example": "Ernest bối rối.",
+      "ipa-example": "/ˈɜːnɪst wəz kənˈfjuːzd./"
+    },
+    {
+      "sentence": "“Don’t you need help?” he asked.",
+      "meaning-example": "“Các người không cần giúp đỡ sao?” ông hỏi.",
+      "ipa-example": "/“dəʊnt ju niːd help?” hi ɑːskt./"
+    },
+    {
+      "sentence": "“Your ship doesn’t seem adequate enough to sail so far away from land.”",
+      "meaning-example": "“Con tàu của các người có vẻ không đủ để đi xa đất liền như vậy.”",
+      "ipa-example": "/“jɔː ʃɪp dʌznt siːm ˈædɪkwət ɪˈnʌf tə seɪl səʊ fɑːr əˈweɪ frəm lænd.”/"
+    },
+    {
+      "sentence": "“You’ve just scared away a huge fish,” the boy said.",
+      "meaning-example": "“Ông vừa làm một con cá lớn sợ chạy mất rồi,” cậu bé nói.",
+      "ipa-example": "/“juːv dʒəst skeəd əˈweɪ ə hjuːdʒ fɪʃ,” ðə bɔɪ sed./"
+    },
+    {
+      "sentence": "“We waved to let you know you were too close to us.”",
+      "meaning-example": "“Chúng tôi vẫy tay để cho ông biết rằng ông đã đến quá gần chúng tôi.”",
+      "ipa-example": "/“wi weɪvd tə let ju nəʊ ju wɜː tuː kləʊs tə ʌs.”/"
+    },
+    {
+      "sentence": "Ernest turned around and headed home.",
+      "meaning-example": "Ernest quay lại và đi về nhà.",
+      "ipa-example": "/ˈɜːnɪst tɜːnd əˈraʊnd ənd ˈhedɪd həʊm./"
+    },
+    {
+      "sentence": "He learned that it’s better not to help unless asked to.",
+      "meaning-example": "Ông học được rằng tốt hơn là không nên giúp đỡ trừ khi được yêu cầu.",
+      "ipa-example": "/hi lɜːnd ðət ɪts ˈbetər nɒt tə help ənˈles ɑːskt tuː./"
+    },
+    {
+      "sentence": "Otherwise, you might not help anyone at all.",
+      "meaning-example": "Nếu không, bạn có thể chẳng giúp được ai cả.",
+      "ipa-example": "/ˈʌðəwaɪz, ju maɪt nɒt help ˈeniwʌn ət ɔːl./"
+    }
+  ]
+}
+
+]

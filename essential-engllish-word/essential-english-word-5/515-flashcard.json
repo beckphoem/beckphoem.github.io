@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Phụ kiện, đồ phụ tùng.",
+    "classes": "n",
+    "answer": "accessory",
+    "ipa": "/əkˈsesəri/",
+    "example": "This new **accessory** kept Ernest from getting lost.",
+    "english-definition": "Something added to a machine or to clothing that has a useful or decorative purpose.",
+    "images": "eew-5-15/1.png"
+  },
+  {
+    "question": "Sự giành được, sự thu được, sự mua lại.",
+    "classes": "n",
+    "answer": "acquisition",
+    "ipa": "/ˌækwɪˈzɪʃn/",
+    "example": "His favorite ship’s latest **acquisition** was a device with a small grid to show the ship’s exact location.",
+    "english-definition": "The process of getting something; the item that is bought or obtained.",
+    "images": "eew-5-15/2.png"
+  },
+  {
+    "question": "Đầy đủ, tương xứng, thích đáng.",
+    "classes": "adj",
+    "answer": "adequate",
+    "ipa": "/ˈædɪkwət/",
+    "example": "“Your ship doesn’t seem **adequate** enough to sail so far away from land.”",
+    "english-definition": "Enough or satisfactory for a particular purpose.",
+    "images": "eew-5-15/3.png"
+  },
+  {
+    "question": "Bìa cứng, các-tông.",
+    "classes": "n",
+    "answer": "cardboard",
+    "ipa": "/ˈkɑːrdbɔːrd/",
+    "example": "The boat’s wood looked no stronger than **cardboard**, and the equipment was old.",
+    "english-definition": "A thick, stiff paper-like material that's used for making boxes.",
+    "images": "eew-5-15/4.png"
+  },
+  {
+    "question": "Tình thế tiến thoái lưỡng nan, tình thế khó xử.",
+    "classes": "n",
+    "answer": "dilemma",
+    "ipa": "/dɪˈlemə/",
+    "example": "He began sailing toward them, eager to facilitate their rescue and thus solve their **dilemma**.",
+    "english-definition": "A situation in which a difficult choice has to be made between two or more alternatives, especially equally undesirable ones.",
+    "images": "eew-5-15/5.png"
+  },
+  {
+    "question": "Tỉ mỉ, công phu, tinh xảo.",
+    "classes": "adj",
+    "answer": "elaborate",
+    "ipa": "/ɪˈlæbərət/",
+    "example": "It had an **elaborate** painting on the side that showed a naval battle.",
+    "english-definition": "Containing a lot of careful detail or many detailed parts.",
+    "images": "eew-5-15/6.png"
+  },
+  {
+    "question": "Tạo điều kiện thuận lợi, làm cho dễ dàng hơn.",
+    "classes": "v",
+    "answer": "facilitate",
+    "ipa": "/fəˈsɪlɪteɪt/",
+    "example": "He began sailing toward them, eager to **facilitate** their rescue and thus solve their dilemma.",
+    "english-definition": "To make an action or process easy or easier.",
+    "images": "eew-5-15/7.png"
+  },
+  {
+    "question": "Hạm đội, đội tàu.",
+    "classes": "n",
+    "answer": "fleet",
+    "ipa": "/fliːt/",
+    "example": "Ernest looked at his **fleet** of ships.",
+    "english-definition": "A group of ships sailing together, engaged in the same activity, or under the same ownership.",
+    "images": "eew-5-15/8.png"
+  },
+  {
+    "question": "Lưới, mạng lưới (hệ thống đường kẻ).",
+    "classes": "n",
+    "answer": "grid",
+    "ipa": "/ɡrɪd/",
+    "example": "His favorite ship’s latest acquisition was a device with a small **grid** to show the ship’s exact location.",
+    "english-definition": "A pattern of straight lines that cross each other to form squares.",
+    "images": "eew-5-15/9.png"
+  },
+  {
+    "question": "Nhập khẩu.",
+    "classes": "v",
+    "answer": "import",
+    "ipa": "/ɪmˈpɔːrt/",
+    "example": "Usually, he used them for his firm, which **imported** marble statues from other countries.",
+    "english-definition": "To bring a product, service, or idea into one country from another.",
+    "images": "eew-5-15/10.png"
+  },
+  {
+    "question": "Suy ra, luận ra.",
+    "classes": "v",
+    "answer": "infer",
+    "ipa": "/ɪnˈfɜːr/",
+    "example": "Ernest **inferred** that the boy was suffering from nausea.",
+    "english-definition": "To form an opinion or guess that something is true because of the information that you have.",
+    "images": "eew-5-15/11.png"
+  },
+  {
+    "question": "Thổi phồng, bơm căng.",
+    "classes": "v",
+    "answer": "inflate",
+    "ipa": "/ɪnˈfleɪt/",
+    "example": "You can **inflate** this boat to get you back to land.",
+    "english-definition": "To fill something with air or gas so it expands.",
+    "images": "eew-5-15/12.png"
+  },
+  {
+    "question": "Bẩm sinh, thiên phú.",
+    "classes": "adj",
+    "answer": "innate",
+    "ipa": "/ɪˈneɪt/",
+    "example": "Most people never realized, but Ernest had an **innate** desire to help people.",
+    "english-definition": "An innate quality or ability is one that you are born with, not one you have learned.",
+    "images": "eew-5-15/13.png"
+  },
+  {
+    "question": "Đá cẩm thạch.",
+    "classes": "n",
+    "answer": "marble",
+    "ipa": "/ˈmɑːrbl/",
+    "example": "Usually, he used them for his firm, which imported **marble** statues from other countries.",
+    "english-definition": "A type of hard rock that becomes smooth and shiny when it is polished, used for decoration and in buildings.",
+    "images": "eew-5-15/14.png"
+  },
+  {
+    "question": "Cột buồm.",
+    "classes": "n",
+    "answer": "mast",
+    "ipa": "/mæst/",
+    "example": "There was an old man standing next to its **mast**.",
+    "english-definition": "A tall pole on a boat or ship that supports the sails.",
+    "images": "eew-5-15/15.png"
+  },
+  {
+    "question": "Sự buồn nôn, sự kinh tởm.",
+    "classes": "n",
+    "answer": "nausea",
+    "ipa": "/ˈnɔːziə/",
+    "example": "Ernest inferred that the boy was suffering from **nausea**.",
+    "english-definition": "The feeling that you are going to vomit.",
+    "images": "eew-5-15/16.png"
+  },
+  {
+    "question": "(thuộc) Hải quân.",
+    "classes": "adj",
+    "answer": "naval",
+    "ipa": "/ˈneɪvl/",
+    "example": "It had an elaborate painting on the side that showed a **naval** battle.",
+    "english-definition": "Relating to a country's navy or ships.",
+    "images": "eew-5-15/17.png"
+  },
+  {
+    "question": "Túi nhỏ.",
+    "classes": "n",
+    "answer": "pouch",
+    "ipa": "/paʊtʃ/",
+    "example": "Still, there were several large fish in a **pouch** in the boat.",
+    "english-definition": "A small, soft bag, often made of leather or cloth.",
+    "images": "eew-5-15/18.png"
+  },
+  {
+    "question": "Ướt sũng, bão hòa.",
+    "classes": "adj",
+    "answer": "saturated",
+    "ipa": "/ˈsætʃəreɪtɪd/",
+    "example": "Both of their clothes were **saturated** with sea water.",
+    "english-definition": "Completely wet.",
+    "images": "eew-5-15/19.png"
+  },
+  {
+    "question": "Sự cập nhật, bản cập nhật.",
+    "classes": "n",
+    "answer": "update",
+    "ipa": "/ˈʌpdeɪt/",
+    "example": "It also had some new **updates** to its computer system.",
+    "english-definition": "New information; a new or more modern version of something.",
+    "images": "eew-5-15/20.png"
+  }
+]
