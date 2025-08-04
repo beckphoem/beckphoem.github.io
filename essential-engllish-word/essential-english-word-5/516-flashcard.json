@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Người nghiện.",
+    "classes": "n",
+    "answer": "addict",
+    "ipa": "/ˈædɪkt/",
+    "example": "He was a hot air balloon **addict**.",
+    "english-definition": "A person who is unable to stop doing or using something as a habit.",
+    "images": "eew-5-16/1.png"
+  },
+  {
+    "question": "(thuộc) Khảo cổ học.",
+    "classes": "adj",
+    "answer": "archeological",
+    "ipa": "/ˌɑːrkiəˈlɑːdʒɪkl/",
+    "example": "However, there is no **archeological** evidence that proves that an actual parachute was ever made.",
+    "english-definition": "Relating to archeology.",
+    "images": "eew-5-16/2.png"
+  },
+  {
+    "question": "Khảo cổ học.",
+    "classes": "n",
+    "answer": "archeology",
+    "ipa": "/ˌɑːrkiˈɑːlədʒi/",
+    "example": "Scientists who study **archeology** say that there may be some evidence of prehistoric parachutes.",
+    "english-definition": "The study the societies and peoples of the past by examining the remains of their buildings, tools, and other objects.",
+    "images": "eew-5-16/3.png"
+  },
+  {
+    "question": "Động não, công não.",
+    "classes": "v",
+    "answer": "brainstorm",
+    "ipa": "/ˈbreɪnstɔːrm/",
+    "example": "Sebastian **brainstormed** with other scientists to come up with a way to help people jump safely out of burning buildings.",
+    "english-definition": "To suggest a lot of ideas for a future activity or project very quickly, often in a group.",
+    "images": "eew-5-16/4.png"
+  },
+  {
+    "question": "Ngân sách, ngân quỹ.",
+    "classes": "n",
+    "answer": "budget",
+    "ipa": "/ˈbʌdʒɪt/",
+    "example": "His **budget** was limited, so he first tested his theory by using two umbrellas.",
+    "english-definition": "A plan to show how much money a person or organization will earn and how much they will need or be able to spend.",
+    "images": "eew-5-16/5.png"
+  },
+  {
+    "question": "Hỗn loạn, lộn xộn.",
+    "classes": "adj",
+    "answer": "chaotic",
+    "ipa": "/keɪˈɑːtɪk/",
+    "example": "Then, in 1793, he was faced with a **chaotic** experience.",
+    "english-definition": "In a state of complete confusion and disorder.",
+    "images": "eew-5-16/6.png"
+  },
+  {
+    "question": "Trích dẫn.",
+    "classes": "v",
+    "answer": "cite",
+    "ipa": "/saɪt/",
+    "example": "Scientists **cite** an ancient book that describes parachutes.",
+    "english-definition": "To speak or write words from a particular book, author, or speaker.",
+    "images": "eew-5-16/7.png"
+  },
+  {
+    "question": "Tương ứng, phù hợp, trao đổi thư từ.",
+    "classes": "v",
+    "answer": "correspond",
+    "ipa": "/ˌkɔːrəˈspɑːnd/",
+    "example": "In fact, a Leonardo Da Vinci’s drawing **corresponds** closely with the modern parachute design!",
+    "english-definition": "To match or be similar or equal; to communicate by writing letters.",
+    "images": "eew-5-16/8.png"
+  },
+  {
+    "question": "Sân trong.",
+    "classes": "n",
+    "answer": "courtyard",
+    "ipa": "/ˈkɔːrtjɑːrd/",
+    "example": "Finally, he jumped off a tall building on a French estate and landed safely in the **courtyard**.",
+    "english-definition": "An open space that is partly or completely surrounded by buildings.",
+    "images": "eew-5-16/9.png"
+  },
+  {
+    "question": "Điền trang, tài sản lớn (đặc biệt là đất đai).",
+    "classes": "n",
+    "answer": "estate",
+    "ipa": "/ɪˈsteɪt/",
+    "example": "Finally, he jumped off a tall building on a French **estate** and landed safely in the courtyard.",
+    "english-definition": "A large area of land in the country, usually with a large house, that is owned by one person or family.",
+    "images": "eew-5-16/10.png"
+  },
+  {
+    "question": "Sự gian lận, sự lừa đảo.",
+    "classes": "n",
+    "answer": "fraud",
+    "ipa": "/frɔːd/",
+    "example": "Many people thought that he was up to some kind of **fraud**, but Sebastian had a lot of integrity.",
+    "english-definition": "The crime of getting money by deceiving people.",
+    "images": "eew-5-16/11.png"
+  },
+  {
+    "question": "Khí hiđrô.",
+    "classes": "n",
+    "answer": "hydrogen",
+    "ipa": "/ˈhaɪdrədʒən/",
+    "example": "He was one of the first people to ride in a hot air balloon powered by **hydrogen** gas.",
+    "english-definition": "A chemical element that is the lightest gas and is used in balloons and as a fuel.",
+    "images": "eew-5-16/12.png"
+  },
+  {
+    "question": "Tính chính trực, sự liêm chính.",
+    "classes": "n",
+    "answer": "integrity",
+    "ipa": "/ɪnˈteɡrəti/",
+    "example": "Many people thought that he was up to some kind of **fraud**, but Sebastian had a lot of **integrity**.",
+    "english-definition": "The quality of being honest and having strong moral principles.",
+    "images": "eew-5-16/13.png"
+  },
+  {
+    "question": "Đan (len).",
+    "classes": "v",
+    "answer": "knit",
+    "ipa": "/nɪt/",
+    "example": "Rather than using umbrellas, he **knit** a large parachute.",
+    "english-definition": "To make clothing from wool or a similar thread using two long needles.",
+    "images": "eew-5-16/14.png"
+  },
+  {
+    "question": "Quan điểm, cách nhìn.",
+    "classes": "n",
+    "answer": "outlook",
+    "ipa": "/ˈaʊtlʊk/",
+    "example": "Jean-Pierre Blanchard had a different **outlook** than Sebastian.",
+    "english-definition": "A person's way of understanding and thinking about something.",
+    "images": "eew-5-16/15.png"
+  },
+  {
+    "question": "Cái dù (để nhảy từ trên cao).",
+    "classes": "n",
+    "answer": "parachute",
+    "ipa": "/ˈpærəʃuːt/",
+    "example": "But the first written history of the device comes from China about 2,100 years ago. Scientists cite an ancient book that describes **parachutes**.",
+    "english-definition": "A piece of equipment made of a large piece of thin cloth that is used by people who jump from aircraft to make them fall safely to the ground.",
+    "images": "eew-5-16/16.png"
+  },
+  {
+    "question": "(thuộc) Tiền sử.",
+    "classes": "adj",
+    "answer": "prehistoric",
+    "ipa": "/ˌpriːhɪˈstɔːrɪk/",
+    "example": "Scientists who study archeology say that there may be some evidence of **prehistoric** parachutes.",
+    "english-definition": "Relating to the period of time before written records were kept.",
+    "images": "eew-5-16/17.png"
+  },
+  {
+    "question": "Người đề xướng, người ủng hộ.",
+    "classes": "n",
+    "answer": "proponent",
+    "ipa": "/prəˈpəʊnənt/",
+    "example": "He was a **proponent** of using the parachutes to exit from hot air balloons.",
+    "english-definition": "A person who argues for or supports a belief or course of action.",
+    "images": "eew-5-16/18.png"
+  },
+  {
+    "question": "Cải tiến, tinh chỉnh, làm cho tinh khiết hơn.",
+    "classes": "v",
+    "answer": "refine",
+    "ipa": "/rɪˈfaɪn/",
+    "example": "Next, he **refined** his invention.",
+    "english-definition": "To make something pure or to improve something by making small changes.",
+    "images": "eew-5-16/19.png"
+  },
+  {
+    "question": "Hạn chế, giới hạn.",
+    "classes": "v",
+    "answer": "restrict",
+    "ipa": "/rɪˈstrɪkt/",
+    "example": "He thought the solution was to give people an object to **restrict** their speed while they traveled toward the ground.",
+    "english-definition": "To limit something.",
+    "images": "eew-5-16/20.png"
+  }
+]
