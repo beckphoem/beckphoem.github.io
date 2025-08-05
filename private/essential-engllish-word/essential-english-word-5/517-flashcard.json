@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Luật sư.",
+    "classes": "n",
+    "answer": "attorney",
+    "ipa": "/əˈtɜːrni/",
+    "example": "That afternoon, they went to see Mr. Meyers, an **attorney**.",
+    "english-definition": "A lawyer, especially one who can act for someone in court.",
+    "images": "eew-5-17/1.png"
+  },
+  {
+    "question": "Mãn tính, kinh niên.",
+    "classes": "adj",
+    "answer": "chronic",
+    "ipa": "/ˈkrɑːnɪk/",
+    "example": "He’s a **chronic** liar, and he ruined the painting.",
+    "english-definition": "(Of an illness or problem) persisting for a long time or constantly recurring.",
+    "images": "eew-5-17/2.png"
+  },
+  {
+    "question": "Kỷ luật, sự trừng phạt.",
+    "classes": "n",
+    "answer": "discipline",
+    "ipa": "/ˈdɪsəplɪn/",
+    "example": "This boy is actually responsible and needs some **discipline**.",
+    "english-definition": "The practice of training people to obey rules or a code of behavior; the punishment given to correct someone.",
+    "images": "eew-5-17/3.png"
+  },
+  {
+    "question": "Người hiến tặng, người cho.",
+    "classes": "n",
+    "answer": "donor",
+    "ipa": "/ˈdəʊnər/",
+    "example": "The day before, a **donor** gave the school a painting with a sports theme.",
+    "english-definition": "A person who gives some of their blood or a part of their body to help someone who is ill; a person who gives money or goods to an organization.",
+    "images": "eew-5-17/4.png"
+  },
+  {
+    "question": "Bạn, đồng nghiệp, người cùng nhóm.",
+    "classes": "n",
+    "answer": "fellow",
+    "ipa": "/ˈfeləʊ/",
+    "example": "The worst part was that one of Billy’s **fellow** students said she thought she saw Billy do it!",
+    "english-definition": "A person in the same position, involved in the same activity, or otherwise associated with another.",
+    "images": "eew-5-17/5.png"
+  },
+  {
+    "question": "Chuyện tầm phào, tin đồn.",
+    "classes": "n",
+    "answer": "gossip",
+    "ipa": "/ˈɡɑːsɪp/",
+    "example": "Everybody believes the **gossip**.",
+    "english-definition": "Casual conversation or reports about other people, typically involving details that are not confirmed as being true.",
+    "images": "eew-5-17/6.png"
+  },
+  {
+    "question": "Tốt nghiệp.",
+    "classes": "v",
+    "answer": "graduate",
+    "ipa": "/ˈɡrædʒueɪt/",
+    "example": "When I **graduate** and go to university, I will major in law, so I can be a guardian of justice like you!",
+    "english-definition": "To successfully complete an academic degree, course of training, or high school.",
+    "images": "eew-5-17/7.png"
+  },
+  {
+    "question": "Hình vẽ hoặc chữ viết trên tường nơi công cộng.",
+    "classes": "n",
+    "answer": "graffiti",
+    "ipa": "/ɡrəˈfiːti/",
+    "example": "There was **graffiti** on it, and it had many holes in it.",
+    "english-definition": "Words or drawings, especially humorous, rude, or political, on walls, doors, etc. in public places.",
+    "images": "eew-5-17/8.png"
+  },
+  {
+    "question": "Người bảo vệ, người giám hộ.",
+    "classes": "n",
+    "answer": "guardian",
+    "ipa": "/ˈɡɑːrdiən/",
+    "example": "I will major in law, so I can be a **guardian** of justice like you!",
+    "english-definition": "A person who protects or defends something; a person who is legally responsible for someone who is unable to manage their own affairs, such as a child.",
+    "images": "eew-5-17/9.png"
+  },
+  {
+    "question": "Làm cho dính líu, làm cho liên can.",
+    "classes": "v",
+    "answer": "implicate",
+    "ipa": "/ˈɪmplɪkeɪt/",
+    "example": "My son has been **implicated** in a crime he says he didn’t do.",
+    "english-definition": "To show that someone is involved in a crime or a dishonest act.",
+    "images": "eew-5-17/10.png"
+  },
+  {
+    "question": "Họ hàng, gia đình.",
+    "classes": "n",
+    "answer": "kin",
+    "ipa": "/kɪn/",
+    "example": "Even some of our own **kin** think he did it!",
+    "english-definition": "Your family or your relatives.",
+    "images": "eew-5-17/11.png"
+  },
+  {
+    "question": "Trọng tài.",
+    "classes": "n",
+    "answer": "referee",
+    "ipa": "/ˌrefəˈriː/",
+    "example": "It showed a **referee** congratulating two athletes.",
+    "english-definition": "A person who is in charge of a sports game and who makes certain it is played according to the rules.",
+    "images": "eew-5-17/12.png"
+  },
+  {
+    "question": "Cắt đứt, chặt đứt.",
+    "classes": "v",
+    "answer": "sever",
+    "ipa": "/ˈsevər/",
+    "example": "Finally, he **severed** the rope that held up the painting, and it fell to the floor.",
+    "english-definition": "To cut something into two pieces; to cut something off.",
+    "images": "eew-5-17/13.png"
+  },
+  {
+    "question": "Cán, thân (của công cụ), hầm, giếng (mỏ).",
+    "classes": "n",
+    "answer": "shaft",
+    "ipa": "/ʃæft/",
+    "example": "Then the student took a knife by the **shaft** and started to stab large holes in it.",
+    "english-definition": "The long, narrow part of a tool or weapon; a long, narrow space, usually vertical, in a building or underground.",
+    "images": "eew-5-17/14.png"
+  },
+  {
+    "question": "Đâm (bằng dao, vật nhọn).",
+    "classes": "v",
+    "answer": "stab",
+    "ipa": "/stæb/",
+    "example": "Then the student took a knife by the shaft and started to **stab** large holes in it.",
+    "english-definition": "To injure someone with a sharp-pointed object such as a knife.",
+    "images": "eew-5-17/15.png"
+  },
+  {
+    "question": "Sự kích thích, tác nhân kích thích.",
+    "classes": "n",
+    "answer": "stimulus",
+    "ipa": "/ˈstɪmjələs/",
+    "example": "The principal hung the painting in front of the office, hoping that it would be a **stimulus** for students to play sports.",
+    "english-definition": "Something that causes growth, activity, or reaction.",
+    "images": "eew-5-17/16.png"
+  },
+  {
+    "question": "Sự nghi ngờ, sự ngờ vực.",
+    "classes": "n",
+    "answer": "suspicion",
+    "ipa": "/səˈspɪʃn/",
+    "example": "My **suspicion** is that the tape from the security cameras will show who really did it.",
+    "english-definition": "A feeling or belief that someone has done something wrong, dishonest, or illegal.",
+    "images": "eew-5-17/17.png"
+  },
+  {
+    "question": "Chấm dứt, kết thúc.",
+    "classes": "v",
+    "answer": "terminate",
+    "ipa": "/ˈtɜːrmɪneɪt/",
+    "example": "If you don’t pay for it, we’ll **terminate** his education here.",
+    "english-definition": "To bring to an end or to cause something to end.",
+    "images": "eew-5-17/18.png"
+  },
+  {
+    "question": "Chủ đề, đề tài.",
+    "classes": "n",
+    "answer": "theme",
+    "ipa": "/θiːm/",
+    "example": "The day before, a donor gave the school a painting with a sports **theme**.",
+    "english-definition": "The main subject of a talk, book, film, etc.",
+    "images": "eew-5-17/19.png"
+  },
+  {
+    "question": "Học phí.",
+    "classes": "n",
+    "answer": "tuition",
+    "ipa": "/tuˈɪʃn/",
+    "example": "Billy’s parents didn’t have enough money to pay for the painting and for his **tuition**.",
+    "english-definition": "Money that you pay to be taught, especially at a college or university.",
+    "images": "eew-5-17/20.png"
+  }
+]

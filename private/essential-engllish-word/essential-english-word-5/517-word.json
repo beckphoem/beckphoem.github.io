@@ -1,0 +1,822 @@
+[
+  {
+    "word": "attorney",
+    "ipa": "/əˈtɜːrni/",
+    "meaning": "Luật sư.",
+    "image": "eew-5-17/1.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Ở một phiên tòa, có một người \"ở-tòa-này\" (attorney) suốt. Ông là luật sư, người đại diện cho thân chủ của mình trước tòa, dùng lý lẽ và luật pháp để bảo vệ họ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A lawyer, especially one who can act for someone in court.",
+        "meaning-example": "Luật sư, đặc biệt là người có thể thay mặt ai đó trước tòa.",
+        "ipa-example": "/ə ˈlɔːjər, ɪˈspeʃəli wʌn huː kæn ækt fə ˈsʌmwʌn ɪn kɔːt./"
+      },
+      {
+        "sentence": "That afternoon, they went to see Mr. Meyers, an attorney.",
+        "meaning-example": "Chiều hôm đó, họ đến gặp ông Meyers, một luật sư.",
+        "ipa-example": "/ðæt ˌɑːftəˈnuːn, ðeɪ went tuː siː ˈmɪstə ˈmaɪəz, ən əˈtɜːni./"
+      },
+      {
+        "sentence": "They hired a top attorney to handle their case.",
+        "meaning-example": "Họ đã thuê một luật sư hàng đầu để xử lý vụ việc của họ.",
+        "ipa-example": "/ðeɪ ˈhaɪəd ə tɒp əˈtɜːni tuː ˈhændl ðeə keɪs./"
+      },
+      {
+        "sentence": "She works as a prosecuting attorney for the state.",
+        "meaning-example": "Cô ấy làm công tố viên cho tiểu bang.",
+        "ipa-example": "/ʃi wɜːks æz ə ˈprɒsɪkjuːtɪŋ əˈtɜːni fə ðə steɪt./"
+      }
+    ]
+  },
+  {
+    "word": "chronic",
+    "ipa": "/ˈkrɑːnɪk/",
+    "meaning": "Mãn tính, kinh niên.",
+    "image": "eew-5-17/2.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "Một ông lão bị ho \"cờ-ró-nách\" (chronic) quanh năm. Cơn ho này kéo dài dai dẳng, không dứt, trở thành một phần cuộc sống của ông. Bất cứ điều gì kéo dài và khó chữa đều được gọi là chronic (mãn tính, kinh niên).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "(Of an illness or problem) persisting for a long time or constantly recurring.",
+        "meaning-example": "(Về một căn bệnh hoặc vấn đề) kéo dài trong một thời gian dài hoặc tái diễn liên tục.",
+        "ipa-example": "/(əv ən ˈɪlnəs ɔː ˈprɒbləm) pəˈsɪstɪŋ fɔːr ə lɒŋ taɪm ɔː ˈkɒnstəntli rɪˈkɜːrɪŋ./"
+      },
+      {
+        "sentence": "He’s a chronic liar, and he ruined the painting.",
+        "meaning-example": "Cậu ta là một kẻ nói dối kinh niên, và cậu ta đã phá hỏng bức tranh.",
+        "ipa-example": "/hiz ə ˈkrɒnɪk ˈlaɪər, ænd hi ˈruːɪnd ðə ˈpeɪntɪŋ./"
+      },
+      {
+        "sentence": "He suffers from chronic back pain.",
+        "meaning-example": "Anh ấy bị đau lưng mãn tính.",
+        "ipa-example": "/hi ˈsʌfəz frəm ˈkrɒnɪk bæk peɪn./"
+      },
+      {
+        "sentence": "There is a chronic shortage of teachers in the city.",
+        "meaning-example": "Thành phố đang thiếu giáo viên trầm trọng (kinh niên).",
+        "ipa-example": "/ðeər ɪz ə ˈkrɒnɪk ˈʃɔːtɪdʒ əv ˈtiːtʃəz ɪn ðə ˈsɪti./"
+      }
+    ]
+  },
+  {
+    "word": "discipline",
+    "ipa": "/ˈdɪsəplɪn/",
+    "meaning": "Kỷ luật, sự trừng phạt.",
+    "image": "eew-5-17/3.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Để trở thành một võ sĩ giỏi, bạn phải \"đít-sờ-bờ-lin\" (discipline) vào luyện tập hàng ngày. Bạn cần có kỷ luật, tuân theo quy tắc, và tự kiểm soát bản thân một cách nghiêm ngặt. Discipline chính là chìa khóa của thành công.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The practice of training people to obey rules or a code of behavior; the punishment given to correct someone.",
+        "meaning-example": "Việc rèn luyện người khác tuân theo các quy tắc hoặc một quy tắc ứng xử; hình phạt được đưa ra để sửa chữa ai đó.",
+        "ipa-example": "/ðə ˈpræktɪs əv ˈtreɪnɪŋ ˈpiːpl tuː əˈbeɪ ruːlz ɔːr ə kəʊd əv bɪˈheɪvjə; ðə ˈpʌnɪʃmənt ˈɡɪvn tuː kəˈrekt ˈsʌmwʌn./"
+      },
+      {
+        "sentence": "This boy is actually responsible and needs some discipline.",
+        "meaning-example": "Cậu bé này mới là người thực sự phải chịu trách nhiệm và cần bị kỷ luật.",
+        "ipa-example": "/ðɪs bɔɪ ɪz ˈæktʃuəli rɪˈspɒnsəbl ænd niːdz səm ˈdɪsəplɪn./"
+      },
+      {
+        "sentence": "The school has a strict policy on discipline.",
+        "meaning-example": "Trường có chính sách kỷ luật nghiêm ngặt.",
+        "ipa-example": "/ðə skuːl hæz ə strɪkt ˈpɒləsi ɒn ˈdɪsəplɪn./"
+      },
+      {
+        "sentence": "It takes a lot of discipline to study for a PhD.",
+        "meaning-example": "Cần rất nhiều kỷ luật để học tiến sĩ.",
+        "ipa-example": "/ɪt teɪks ə lɒt əv ˈdɪsəplɪn tuː ˈstʌdi fɔːr ə ˌpiːeɪtʃˈdiː./"
+      }
+    ]
+  },
+  {
+    "word": "donor",
+    "ipa": "/ˈdəʊnər/",
+    "meaning": "Người hiến tặng, người cho.",
+    "image": "eew-5-17/4.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Có một người giàu có tên là Đô-nơ. Ông thích \"đô-nết\" (donate - hiến tặng) tiền bạc và tài sản của mình cho người nghèo và các tổ chức từ thiện. Mọi người gọi ông là một donor (người hiến tặng) hào phóng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who gives some of their blood or a part of their body to help someone who is ill; a person who gives money or goods to an organization.",
+        "meaning-example": "Một người cho một ít máu hoặc một bộ phận cơ thể của họ để giúp đỡ người bệnh; một người cho tiền hoặc hàng hóa cho một tổ chức.",
+        "ipa-example": "/ə ˈpɜːsən huː ɡɪvz səm əv ðeə blʌd ɔːr ə pɑːt əv ðeə ˈbɒdi tuː help ˈsʌmwʌn huː ɪz ɪl; ə ˈpɜːsən huː ɡɪvz ˈmʌni ɔː ɡʊdz tuː ən ˌɔːɡənaɪˈzeɪʃn./"
+      },
+      {
+        "sentence": "The day before, a donor gave the school a painting with a sports theme.",
+        "meaning-example": "Ngày hôm trước, một nhà tài trợ đã tặng cho trường một bức tranh có chủ đề thể thao.",
+        "ipa-example": "/ðə deɪ bɪˈfɔː, ə ˈdəʊnə ɡeɪv ðə skuːl ə ˈpeɪntɪŋ wɪð ə spɔːts θiːm./"
+      },
+      {
+        "sentence": "We are grateful to all our donors for their generous contributions.",
+        "meaning-example": "Chúng tôi biết ơn tất cả các nhà tài trợ vì những đóng góp hào phóng của họ.",
+        "ipa-example": "/wi ə ˈɡreɪtfl tuː ɔːl ˈaʊə ˈdəʊnəz fə ðeə ˈdʒenərəs ˌkɒntrɪˈbjuːʃnz./"
+      },
+      {
+        "sentence": "He was a blood donor for many years.",
+        "meaning-example": "Ông ấy đã hiến máu trong nhiều năm.",
+        "ipa-example": "/hi wəz ə blʌd ˈdəʊnə fə ˈmeni jɪəz./"
+      }
+    ]
+  },
+  {
+    "word": "fellow",
+    "ipa": "/ˈfeləʊ/",
+    "meaning": "Bạn, đồng nghiệp, người cùng nhóm.",
+    "image": "eew-5-17/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Hai người bạn cùng làm chung một công việc, họ là \"fellow\" (bạn, đồng nghiệp) của nhau. Họ \"phe-lâu\" (fellow) với nhau, cùng chia sẻ công việc và những khó khăn. Fellow chỉ một người trong cùng một nhóm hoặc có cùng hoàn cảnh.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person in the same position, involved in the same activity, or otherwise associated with another.",
+        "meaning-example": "Một người ở cùng vị trí, tham gia vào cùng một hoạt động, hoặc có mối liên hệ khác với người khác.",
+        "ipa-example": "/ə ˈpɜːsən ɪn ðə seɪm pəˈzɪʃn, ɪnˈvɒlvd ɪn ðə seɪm ækˈtɪvəti, ɔːr ˈʌðəwaɪz əˈsəʊʃieɪtɪd wɪð əˈnʌðə./"
+      },
+      {
+        "sentence": "The worst part was that one of Billy’s fellow students said she thought she saw Billy do it!",
+        "meaning-example": "Điều tồi tệ nhất là một trong những bạn học của Billy nói rằng cô ấy nghĩ đã nhìn thấy Billy làm điều đó!",
+        "ipa-example": "/ðə wɜːst pɑːt wəz ðæt wʌn əv ˈbɪliz ˈfeləʊ ˈstjuːdənts sed ʃi θɔːt ʃi sɔː ˈbɪli duː ɪt!/"
+      },
+      {
+        "sentence": "She discussed the problem with her fellow workers.",
+        "meaning-example": "Cô ấy đã thảo luận vấn đề với các đồng nghiệp của mình.",
+        "ipa-example": "/ʃi dɪˈskʌst ðə ˈprɒbləm wɪð hə ˈfeləʊ ˈwɜːkəz./"
+      },
+      {
+        "sentence": "He is a fellow of the Royal Society.",
+        "meaning-example": "Ông là thành viên của Hiệp hội Hoàng gia.",
+        "ipa-example": "/hi ɪz ə ˈfeləʊ əv ðə ˈrɔɪəl səˈsaɪəti./"
+      }
+    ]
+  },
+  {
+    "word": "gossip",
+    "ipa": "/ˈɡɑːsɪp/",
+    "meaning": "Chuyện tầm phào, tin đồn.",
+    "image": "eew-5-17/6.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Ở một góc chợ, mấy bà \"gõ-xíp\" (gossip) xì xào bàn tán chuyện của người khác. Họ nói những chuyện không chắc có thật, những tin đồn, những chuyện riêng tư. Những cuộc nói chuyện đó chính là gossip (chuyện tầm phào, tin đồn).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Casual conversation or reports about other people, typically involving details that are not confirmed as being true.",
+        "meaning-example": "Cuộc trò chuyện thông thường hoặc báo cáo về người khác, thường liên quan đến các chi tiết chưa được xác nhận là đúng sự thật.",
+        "ipa-example": "/ˈkæʒuəl ˌkɒnvəˈseɪʃn ɔː rɪˈpɔːts əˈbaʊt ˈʌðə ˈpiːpl, ˈtɪpɪkli ɪnˈvɒlvɪŋ ˈdiːteɪlz ðæt ə nɒt kənˈfɜːmd æz ˈbiːɪŋ truː./"
+      },
+      {
+        "sentence": "Everybody believes the gossip.",
+        "meaning-example": "Mọi người đều tin vào những lời đồn thổi.",
+        "ipa-example": "/ˈevribɒdi bɪˈliːvz ðə ˈɡɒsɪp./"
+      },
+      {
+        "sentence": "Don't believe all the gossip you hear.",
+        "meaning-example": "Đừng tin tất cả những lời đồn thổi bạn nghe được.",
+        "ipa-example": "/dəʊnt bɪˈliːv ɔːl ðə ˈɡɒsɪp juː hɪə./"
+      },
+      {
+        "sentence": "I have some juicy gossip for you.",
+        "meaning-example": "Tôi có một vài tin đồn thú vị cho bạn đây.",
+        "ipa-example": "/aɪ hæv səm ˈdʒuːsi ˈɡɒsɪp fə juː./"
+      }
+    ]
+  },
+  {
+    "word": "graduate",
+    "ipa": "/ˈɡrædʒueɪt/",
+    "meaning": "Tốt nghiệp.",
+    "image": "eew-5-17/7.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "Sau nhiều năm học hành, anh sinh viên cuối cùng cũng \"ra-đu-ấy\" (graduate). Anh mặc áo cử nhân, nhận bằng và chính thức graduate (tốt nghiệp) khỏi trường đại học, sẵn sàng cho một chương mới của cuộc đời.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To successfully complete an academic degree, course of training, or high school.",
+        "meaning-example": "Hoàn thành thành công một văn bằng học thuật, khóa đào tạo hoặc trường trung học.",
+        "ipa-example": "/tuː səkˈsesfəli kəmˈpliːt ən ˌækəˈdemɪk dɪˈɡriː, kɔːs əv ˈtreɪnɪŋ, ɔː haɪ skuːl./"
+      },
+      {
+        "sentence": "When I graduate and go to university, I will major in law, so I can be a guardian of justice like you!",
+        "meaning-example": "Khi con tốt nghiệp và vào đại học, con sẽ học chuyên ngành luật để có thể trở thành người bảo vệ công lý như chú!",
+        "ipa-example": "/wen aɪ ˈɡrædʒueɪt ænd ɡəʊ tuː ˌjuːnɪˈvɜːsəti, aɪ wɪl ˈmeɪdʒər ɪn lɔː, səʊ aɪ kæn bi ə ˈɡɑːdiən əv ˈdʒʌstɪs laɪk juː!/"
+      },
+      {
+        "sentence": "He graduated from Harvard University last year.",
+        "meaning-example": "Anh ấy đã tốt nghiệp Đại học Harvard vào năm ngoái.",
+        "ipa-example": "/hi ˈɡrædʒueɪtɪd frəm ˈhɑːvəd ˌjuːnɪˈvɜːsəti lɑːst jɪə./"
+      },
+      {
+        "sentence": "After she graduates, she intends to travel for a year.",
+        "meaning-example": "Sau khi tốt nghiệp, cô ấy dự định đi du lịch một năm.",
+        "ipa-example": "/ˈɑːftə ʃi ˈɡrædʒueɪts, ʃi ɪnˈtendz tuː ˈtrævl fɔːr ə jɪə./"
+      }
+    ]
+  },
+  {
+    "word": "graffiti",
+    "ipa": "/ɡrəˈfiːti/",
+    "meaning": "Hình vẽ hoặc chữ viết trên tường nơi công cộng.",
+    "image": "eew-5-17/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Một nhóm thanh niên \"gờ-ra-phít-ti\" (graffiti) lên các bức tường trong thành phố. Họ dùng bình sơn xịt để vẽ những hình ảnh và chữ viết đầy màu sắc. Những hình vẽ, chữ viết trên tường nơi công cộng đó được gọi là graffiti.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Words or drawings, especially humorous, rude, or political, on walls, doors, etc. in public places.",
+        "meaning-example": "Chữ viết hoặc hình vẽ, đặc biệt là hài hước, thô tục hoặc chính trị, trên tường, cửa, v.v. ở những nơi công cộng.",
+        "ipa-example": "/wɜːdz ɔː ˈdrɔːɪŋz, ɪˈspeʃəli ˈhjuːmərəs, ruːd, ɔː pəˈlɪtɪkl, ɒn wɔːlz, dɔːz, ɪtˈsetərə ɪn ˈpʌblɪk ˈpleɪsɪz./"
+      },
+      {
+        "sentence": "There was graffiti on it, and it had many holes in it.",
+        "meaning-example": "Có hình vẽ bậy trên đó, và nó có nhiều lỗ thủng.",
+        "ipa-example": "/ðeə wəz ɡrəˈfiːti ɒn ɪt, ænd ɪt hæd ˈmeni həʊlz ɪn ɪt./"
+      },
+      {
+        "sentence": "The subway was covered in graffiti.",
+        "meaning-example": "Tàu điện ngầm bị vẽ bậy khắp nơi.",
+        "ipa-example": "/ðə ˈsʌbweɪ wəz ˈkʌvəd ɪn ɡrəˈfiːti./"
+      },
+      {
+        "sentence": "He was arrested for spraying graffiti on the school building.",
+        "meaning-example": "Anh ta đã bị bắt vì vẽ bậy lên tòa nhà của trường.",
+        "ipa-example": "/hi wəz əˈrestɪd fə ˈspreɪɪŋ ɡrəˈfiːti ɒn ðə skuːl ˈbɪldɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "guardian",
+    "ipa": "/ˈɡɑːrdiən/",
+    "meaning": "Người bảo vệ, người giám hộ.",
+    "image": "eew-5-17/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Hãy tưởng tượng một vị thần \"gác-đi-đền\" (guardian). Nhiệm vụ của ông là canh gác, bảo vệ ngôi đền thiêng. Ông là người guardian (người bảo vệ, người giám hộ) của nơi đó, đảm bảo không ai có thể xâm phạm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who protects or defends something; a person who is legally responsible for someone who is unable to manage their own affairs, such as a child.",
+        "meaning-example": "Một người bảo vệ hoặc che chở một cái gì đó; một người chịu trách nhiệm pháp lý cho một người không thể tự quản lý công việc của mình, chẳng hạn như một đứa trẻ.",
+        "ipa-example": "/ə ˈpɜːsən huː prəˈtekts ɔː dɪˈfendz ˈsʌmθɪŋ; ə ˈpɜːsən huː ɪz ˈliːɡəli rɪˈspɒnsəbl fə ˈsʌmwʌn huː ɪz ʌnˈeɪbl tuː ˈmænɪdʒ ðeər əʊn əˈfeəz, sʌtʃ æz ə tʃaɪld./"
+      },
+      {
+        "sentence": "I will major in law, so I can be a guardian of justice like you!",
+        "meaning-example": "Con sẽ học chuyên ngành luật, để có thể trở thành người bảo vệ công lý như chú!",
+        "ipa-example": "/aɪ wɪl ˈmeɪdʒər ɪn lɔː, səʊ aɪ kæn bi ə ˈɡɑːdiən əv ˈdʒʌstɪs laɪk juː!/"
+      },
+      {
+        "sentence": "The police are guardians of law and order.",
+        "meaning-example": "Cảnh sát là người bảo vệ pháp luật và trật tự.",
+        "ipa-example": "/ðə pəˈliːs ə ˈɡɑːdiənz əv lɔː ænd ˈɔːdə./"
+      },
+      {
+        "sentence": "After his parents died, his aunt became his legal guardian.",
+        "meaning-example": "Sau khi cha mẹ qua đời, dì của anh đã trở thành người giám hộ hợp pháp của anh.",
+        "ipa-example": "/ˈɑːftə hɪz ˈpeərənts daɪd, hɪz ɑːnt bɪˈkeɪm hɪz ˈliːɡl ˈɡɑːdiən./"
+      }
+    ]
+  },
+  {
+    "word": "implicate",
+    "ipa": "/ˈɪmplɪkeɪt/",
+    "meaning": "Làm cho dính líu, làm cho liên can.",
+    "image": "eew-5-17/10.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "Cảnh sát tìm thấy dấu vân tay của một người tại hiện trường vụ án. Điều này \"im-bờ-lì-kết\" (implicate) anh ta, tức là làm cho anh ta bị lôi kéo, bị dính líu vào vụ án đó, cho thấy anh ta có thể là thủ phạm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To show that someone is involved in a crime or a dishonest act.",
+        "meaning-example": "Để cho thấy rằng ai đó có liên quan đến một tội ác hoặc một hành vi không trung thực.",
+        "ipa-example": "/tuː ʃəʊ ðæt ˈsʌmwʌn ɪz ɪnˈvɒlvd ɪn ə kraɪm ɔːr ə dɪsˈɒnɪst ækt./"
+      },
+      {
+        "sentence": "My son has been implicated in a crime he says he didn’t do.",
+        "meaning-example": "Con trai tôi đã bị lôi kéo vào một tội ác mà nó nói rằng nó không làm.",
+        "ipa-example": "/maɪ sʌn hæz biːn ˈɪmplɪkeɪtɪd ɪn ə kraɪm hi sez hi dɪdnt duː./"
+      },
+      {
+        "sentence": "The evidence seems to implicate him in the robbery.",
+        "meaning-example": "Bằng chứng dường như cho thấy anh ta có dính líu đến vụ cướp.",
+        "ipa-example": "/ði ˈevɪdəns siːmz tuː ˈɪmplɪkeɪt hɪm ɪn ðə ˈrɒbəri./"
+      },
+      {
+        "sentence": "He was implicated in the scandal.",
+        "meaning-example": "Anh ta đã bị liên lụy trong vụ bê bối.",
+        "ipa-example": "/hi wəz ˈɪmplɪkeɪtɪd ɪn ðə ˈskændl./"
+      }
+    ]
+  },
+  {
+    "word": "kin",
+    "ipa": "/kɪn/",
+    "meaning": "Họ hàng, gia đình.",
+    "image": "eew-5-17/11.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Trong một gia đình, mọi người đều có mối quan hệ \"kín\" (kin) đáo, gắn bó. Họ là họ hàng, là kin của nhau. Kin là một từ ngắn gọn để chỉ những người có quan hệ huyết thống, gia đình và họ hàng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Your family or your relatives.",
+        "meaning-example": "Gia đình hoặc họ hàng của bạn.",
+        "ipa-example": "/jɔː ˈfæməli ɔː jɔː ˈrelətɪvz./"
+      },
+      {
+        "sentence": "Even some of our own kin think he did it!",
+        "meaning-example": "Ngay cả một số họ hàng của chúng tôi cũng nghĩ rằng nó đã làm điều đó!",
+        "ipa-example": "/ˈiːvən sʌm əv ˈaʊər əʊn kɪn θɪŋk hi dɪd ɪt!/"
+      },
+      {
+        "sentence": "All his kin came to the wedding.",
+        "meaning-example": "Tất cả họ hàng của anh ấy đã đến dự đám cưới.",
+        "ipa-example": "/ɔːl hɪz kɪn keɪm tuː ðə ˈwedɪŋ./"
+      },
+      {
+        "sentence": "She has no kin in this country.",
+        "meaning-example": "Cô ấy không có họ hàng ở đất nước này.",
+        "ipa-example": "/ʃi hæz nəʊ kɪn ɪn ðɪs ˈkʌntri./"
+      }
+    ]
+  },
+  {
+    "word": "referee",
+    "ipa": "/ˌrefəˈriː/",
+    "meaning": "Trọng tài.",
+    "image": "eew-5-17/12.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Trong một trận bóng đá, có một người chạy khắp sân, thổi còi \"ré-phê-ri\" (referee). Ông là trọng tài, người đảm bảo các cầu thủ chơi đúng luật và đưa ra các quyết định công bằng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who is in charge of a sports game and who makes certain it is played according to the rules.",
+        "meaning-example": "Một người phụ trách một trận đấu thể thao và đảm bảo rằng nó được chơi theo luật.",
+        "ipa-example": "/ə ˈpɜːsən huː ɪz ɪn tʃɑːdʒ əv ə spɔːts ɡeɪm ænd huː meɪks ˈsɜːtn ɪt ɪz pleɪd əˈkɔːdɪŋ tuː ðə ruːlz./"
+      },
+      {
+        "sentence": "It showed a referee congratulating two athletes.",
+        "meaning-example": "Nó cho thấy một trọng tài đang chúc mừng hai vận động viên.",
+        "ipa-example": "/ɪt ʃəʊd ə ˌrefəˈriː kənˈɡrætʃəleɪtɪŋ tuː ˈæθliːts./"
+      },
+      {
+        "sentence": "The referee blew the whistle for a foul.",
+        "meaning-example": "Trọng tài đã thổi còi phạt một lỗi.",
+        "ipa-example": "/ðə ˌrefəˈriː bluː ðə ˈwɪsl fɔːr ə faʊl./"
+      },
+      {
+        "sentence": "He was sent off for arguing with the referee.",
+        "meaning-example": "Anh ta bị đuổi khỏi sân vì cãi nhau với trọng tài.",
+        "ipa-example": "/hi wəz sent ɒf fər ˈɑːɡjuɪŋ wɪð ðə ˌrefəˈriː./"
+      }
+    ]
+  },
+  {
+    "word": "sever",
+    "ipa": "/ˈsevər/",
+    "meaning": "Cắt đứt, chặt đứt.",
+    "image": "eew-5-17/13.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "Một người thợ dùng một cái cưa sắc \"xé-vờ\" (sever) một khúc gỗ ra làm đôi. Hành động cắt đứt, chặt đứt một thứ gì đó một cách dứt khoát chính là sever. Nó cũng có thể dùng để chỉ việc cắt đứt một mối quan hệ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To cut something into two pieces; to cut something off.",
+        "meaning-example": "Cắt một cái gì đó thành hai mảnh; cắt đứt một cái gì đó.",
+        "ipa-example": "/tuː kʌt ˈsʌmθɪŋ ˈɪntə tuː ˈpiːsɪz; tuː kʌt ˈsʌmθɪŋ ɒf./"
+      },
+      {
+        "sentence": "Finally, he severed the rope that held up the painting, and it fell to the floor.",
+        "meaning-example": "Cuối cùng, hắn cắt đứt sợi dây giữ bức tranh, và nó rơi xuống sàn.",
+        "ipa-example": "/ˈfaɪnəli, hi ˈsevəd ðə rəʊp ðæt held ʌp ðə ˈpeɪntɪŋ, ænd ɪt fel tuː ðə flɔː./"
+      },
+      {
+        "sentence": "His finger was severed in the accident.",
+        "meaning-example": "Ngón tay của anh ấy đã bị đứt trong vụ tai nạn.",
+        "ipa-example": "/hɪz ˈfɪŋɡə wəz ˈsevəd ɪn ði ˈæksɪdənt./"
+      },
+      {
+        "sentence": "The company decided to sever all ties with the supplier.",
+        "meaning-example": "Công ty đã quyết định cắt đứt mọi quan hệ với nhà cung cấp.",
+        "ipa-example": "/ðə ˈkʌmpəni dɪˈsaɪdɪd tuː ˈsevər ɔːl taɪz wɪð ðə səˈplaɪə./"
+      }
+    ]
+  },
+  {
+    "word": "shaft",
+    "ipa": "/ʃæft/",
+    "meaning": "Cán, thân (của công cụ), hầm, giếng (mỏ).",
+    "image": "eew-5-17/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Một người thợ mỏ đi xuống hầm bằng một cái thang máy trong một cái hố thẳng đứng, sâu hun hút. Cái hố đó là một cái shaft (hầm, giếng). Shaft cũng có thể là phần thân dài của một công cụ, như \"cán\" dao hay \"thân\" mũi tên. Nó có hình dạng như một cái \"sáp\" dài.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The long, narrow part of a tool or weapon; a long, narrow space, usually vertical, in a building or underground.",
+        "meaning-example": "Phần dài, hẹp của một công cụ hoặc vũ khí; một không gian dài, hẹp, thường là thẳng đứng, trong một tòa nhà hoặc dưới lòng đất.",
+        "ipa-example": "/ðə lɒŋ, ˈnærəʊ pɑːt əv ə tuːl ɔː ˈwepən; ə lɒŋ, ˈnærəʊ speɪs, ˈjuːʒəli ˈvɜːtɪkl, ɪn ə ˈbɪldɪŋ ɔːr ˌʌndəˈɡraʊnd./"
+      },
+      {
+        "sentence": "Then the student took a knife by the shaft and started to stab large holes in it.",
+        "meaning-example": "Sau đó, học sinh đó cầm dao ở phần cán và bắt đầu đâm những lỗ lớn vào nó.",
+        "ipa-example": "/ðen ðə ˈstjuːdənt tʊk ə naɪf baɪ ðə ʃɑːft ænd ˈstɑːtɪd tuː stæb lɑːdʒ həʊlz ɪn ɪt./"
+      },
+      {
+        "sentence": "He held the spear by its shaft.",
+        "meaning-example": "Anh ta cầm ngọn giáo ở phần thân.",
+        "ipa-example": "/hi held ðə spɪə baɪ ɪts ʃɑːft./"
+      },
+      {
+        "sentence": "The miners descended the mine shaft.",
+        "meaning-example": "Những người thợ mỏ đi xuống hầm mỏ.",
+        "ipa-example": "/ðə ˈmaɪnəz dɪˈsendɪd ðə maɪn ʃɑːft./"
+      }
+    ]
+  },
+  {
+    "word": "stab",
+    "ipa": "/stæb/",
+    "meaning": "Đâm (bằng dao, vật nhọn).",
+    "image": "eew-5-17/15.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "Một tên cướp \"sờ-táp\" (stab) nạn nhân bằng một con dao. Hắn dùng vật nhọn đâm mạnh vào người đó. Hành động đâm bằng một vật có mũi nhọn được gọi là stab.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To injure someone with a sharp-pointed object such as a knife.",
+        "meaning-example": "Làm bị thương ai đó bằng một vật có đầu nhọn như dao.",
+        "ipa-example": "/tuː ˈɪndʒə ˈsʌmwʌn wɪð ə ʃɑːp-ˈpɔɪntɪd ˈɒbdʒekt sʌtʃ æz ə naɪf./"
+      },
+      {
+        "sentence": "Then the student took a knife by the shaft and started to stab large holes in it.",
+        "meaning-example": "Sau đó, học sinh đó cầm dao ở phần cán và bắt đầu đâm những lỗ lớn vào nó.",
+        "ipa-example": "/ðen ðə ˈstjuːdənt tʊk ə naɪf baɪ ðə ʃɑːft ænd ˈstɑːtɪd tuː stæb lɑːdʒ həʊlz ɪn ɪt./"
+      },
+      {
+        "sentence": "He was stabbed to death in a street fight.",
+        "meaning-example": "Anh ta đã bị đâm chết trong một cuộc ẩu đả trên đường phố.",
+        "ipa-example": "/hi wəz stæbd tuː deθ ɪn ə striːt faɪt./"
+      },
+      {
+        "sentence": "She stabbed the intruder with a kitchen knife.",
+        "meaning-example": "Cô đã đâm kẻ đột nhập bằng một con dao làm bếp.",
+        "ipa-example": "/ʃi stæbd ði ɪnˈtruːdə wɪð ə ˈkɪtʃɪn naɪf./"
+      }
+    ]
+  },
+  {
+    "word": "stimulus",
+    "ipa": "/ˈstɪmjələs/",
+    "meaning": "Sự kích thích, tác nhân kích thích.",
+    "image": "eew-5-17/16.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Một con ốc sên \"sờ-tí-mù-lòa\" (stimulus) vào một chiếc lá. Chiếc lá là một stimulus (sự kích thích), khiến con ốc sên phản ứng lại bằng cách co mình vào vỏ. Stimulus là bất cứ thứ gì gây ra một phản ứng hoặc một hoạt động.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Something that causes growth, activity, or reaction.",
+        "meaning-example": "Một cái gì đó gây ra sự tăng trưởng, hoạt động hoặc phản ứng.",
+        "ipa-example": "/ˈsʌmθɪŋ ðæt ˈkɔːzɪz ɡrəʊθ, ækˈtɪvəti, ɔː riˈækʃn./"
+      },
+      {
+        "sentence": "The principal hung the painting in front of the office, hoping that it would be a stimulus for students to play sports.",
+        "meaning-example": "Hiệu trưởng treo bức tranh trước văn phòng, hy vọng rằng nó sẽ là một sự kích thích để học sinh chơi thể thao.",
+        "ipa-example": "/ðə ˈprɪnsəpl hʌŋ ðə ˈpeɪntɪŋ ɪn frʌnt əv ði ˈɒfɪs, ˈhəʊpɪŋ ðæt ɪt wʊd bi ə ˈstɪmjələs fə ˈstjuːdənts tuː pleɪ spɔːts./"
+      },
+      {
+        "sentence": "The pay raise was a stimulus for the workers to improve their productivity.",
+        "meaning-example": "Việc tăng lương là một sự kích thích để công nhân nâng cao năng suất của họ.",
+        "ipa-example": "/ðə peɪ reɪz wəz ə ˈstɪmjələs fə ðə ˈwɜːkəz tuː ɪmˈpruːv ðeə ˌprɒdʌkˈtɪvəti./"
+      },
+      {
+        "sentence": "Foreign investment has been a stimulus to the economy.",
+        "meaning-example": "Đầu tư nước ngoài là một sự kích thích cho nền kinh tế.",
+        "ipa-example": "/ˈfɒrɪn ɪnˈvestmənt hæz biːn ə ˈstɪmjələs tuː ði iˈkɒnəmi./"
+      }
+    ]
+  },
+  {
+    "word": "suspicion",
+    "ipa": "/səˈspɪʃn/",
+    "meaning": "Sự nghi ngờ, sự ngờ vực.",
+    "image": "eew-5-17/17.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Cảnh sát \"sợ-sập-bẫy-sình\" (suspicion) khi điều tra một vụ án. Họ luôn có sự suspicion (sự nghi ngờ) đối với mọi manh mối, vì họ tin rằng có điều gì đó không đúng hoặc ai đó đang nói dối. Suspicion là cảm giác nghi ngờ mà không có bằng chứng chắc chắn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A feeling or belief that someone has done something wrong, dishonest, or illegal.",
+        "meaning-example": "Cảm giác hoặc niềm tin rằng ai đó đã làm điều gì đó sai trái, không trung thực hoặc bất hợp pháp.",
+        "ipa-example": "/ə ˈfiːlɪŋ ɔː bɪˈliːf ðæt ˈsʌmwʌn hæz dʌn ˈsʌmθɪŋ rɒŋ, dɪsˈɒnɪst, ɔːr ɪˈliːɡl./"
+      },
+      {
+        "sentence": "My suspicion is that the tape from the security cameras will show who really did it.",
+        "meaning-example": "Sự nghi ngờ của tôi là đoạn băng từ camera an ninh sẽ cho thấy ai thực sự đã làm điều đó.",
+        "ipa-example": "/maɪ səˈspɪʃn ɪz ðæt ðə teɪp frəm ðə sɪˈkjʊərəti ˈkæmərəz wɪl ʃəʊ huː ˈriəli dɪd ɪt./"
+      },
+      {
+        "sentence": "He was arrested on suspicion of murder.",
+        "meaning-example": "Anh ta bị bắt vì nghi ngờ giết người.",
+        "ipa-example": "/hi wəz əˈrestɪd ɒn səˈspɪʃn əv ˈmɜːdə./"
+      },
+      {
+        "sentence": "I have a suspicion that she's not telling the truth.",
+        "meaning-example": "Tôi có một sự nghi ngờ rằng cô ấy không nói sự thật.",
+        "ipa-example": "/aɪ hæv ə səˈspɪʃn ðæt ʃiz nɒt ˈtelɪŋ ðə truːθ./"
+      }
+    ]
+  },
+  {
+    "word": "terminate",
+    "ipa": "/ˈtɜːrmɪneɪt/",
+    "meaning": "Chấm dứt, kết thúc.",
+    "image": "eew-5-17/18.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "Kẻ hủy diệt (The Terminator) được gửi đến để \"tơ-mì-nết\" (terminate) mục tiêu, tức là chấm dứt sự sống của họ. Terminate có nghĩa là kết thúc, chấm dứt một cái gì đó một cách chính thức và vĩnh viễn, như một hợp đồng, một chuyến tàu, hay một chương trình.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To bring to an end or to cause something to end.",
+        "meaning-example": "Kết thúc hoặc làm cho một cái gì đó kết thúc.",
+        "ipa-example": "/tuː brɪŋ tuː ən end ɔː tuː kɔːz ˈsʌmθɪŋ tuː end./"
+      },
+      {
+        "sentence": "If you don’t pay for it, we’ll terminate his education here.",
+        "meaning-example": "Nếu ông bà không trả tiền cho nó, chúng tôi sẽ chấm dứt việc học của cậu ấy ở đây.",
+        "ipa-example": "/ɪf juː dəʊnt peɪ fɔːr ɪt, wiːl ˈtɜːmɪneɪt hɪz ˌedʒuˈkeɪʃn hɪə./"
+      },
+      {
+        "sentence": "They terminated his contract without notice.",
+        "meaning-example": "Họ đã chấm dứt hợp đồng của anh ấy mà không báo trước.",
+        "ipa-example": "/ðeɪ ˈtɜːmɪneɪtɪd hɪz ˈkɒntrækt wɪˈðaʊt ˈnəʊtɪs./"
+      },
+      {
+        "sentence": "This train will terminate at the next station.",
+        "meaning-example": "Chuyến tàu này sẽ kết thúc ở ga tiếp theo.",
+        "ipa-example": "/ðɪs treɪn wɪl ˈtɜːmɪneɪt æt ðə nekst ˈsteɪʃn./"
+      }
+    ]
+  },
+  {
+    "word": "theme",
+    "ipa": "/θiːm/",
+    "meaning": "Chủ đề, đề tài.",
+    "image": "eew-5-17/19.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Một bữa tiệc có theme (chủ đề) là \"cướp biển\". Mọi người đều ăn mặc như cướp biển, và trang trí cũng toàn hình đầu lâu xương chéo. Theme là ý tưởng chính, là chủ đề xuyên suốt một cuốn sách, bộ phim, hay một sự kiện.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The main subject of a talk, book, film, etc.",
+        "meaning-example": "Chủ đề chính của một bài nói chuyện, cuốn sách, bộ phim, v.v.",
+        "ipa-example": "/ðə meɪn ˈsʌbdʒɪkt əv ə tɔːk, bʊk, fɪlm, ɪtˈsetərə./"
+      },
+      {
+        "sentence": "The day before, a donor gave the school a painting with a sports theme.",
+        "meaning-example": "Ngày hôm trước, một nhà tài trợ đã tặng cho trường một bức tranh có chủ đề thể thao.",
+        "ipa-example": "/ðə deɪ bɪˈfɔː, ə ˈdəʊnə ɡeɪv ðə skuːl ə ˈpeɪntɪŋ wɪð ə spɔːts θiːm./"
+      },
+      {
+        "sentence": "The theme of the conference was \"The Future of Technology\".",
+        "meaning-example": "Chủ đề của hội nghị là \"Tương lai của công nghệ\".",
+        "ipa-example": "/ðə θiːm əv ðə ˈkɒnfərəns wəz \"ðə ˈfjuːtʃər əv tekˈnɒlədʒi\"./"
+      },
+      {
+        "sentence": "Friendship is a common theme in her novels.",
+        "meaning-example": "Tình bạn là một chủ đề phổ biến trong tiểu thuyết của cô.",
+        "ipa-example": "/ˈfrendʃɪp ɪz ə ˈkɒmən θiːm ɪn hə ˈnɒvlz./"
+      }
+    ]
+  },
+  {
+    "word": "tuition",
+    "ipa": "/tuˈɪʃn/",
+    "meaning": "Học phí.",
+    "image": "eew-5-17/20.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "Để đi học, bạn phải trả tiền. Số tiền này giống như \"túi-tiền\" (tuition) của bố mẹ vơi đi. Tuition chính là học phí, số tiền bạn trả cho việc giảng dạy ở một trường đại học hoặc trường tư.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Money that you pay to be taught, especially at a college or university.",
+        "meaning-example": "Số tiền bạn trả để được dạy, đặc biệt là ở một trường cao đẳng hoặc đại học.",
+        "ipa-example": "/ˈmʌni ðæt juː peɪ tuː bi tɔːt, ɪˈspeʃəli æt ə ˈkɒlɪdʒ ɔː ˌjuːnɪˈvɜːsəti./"
+      },
+      {
+        "sentence": "Billy’s parents didn’t have enough money to pay for the painting and for his tuition.",
+        "meaning-example": "Bố mẹ của Billy không có đủ tiền để trả cho bức tranh và học phí của cậu.",
+        "ipa-example": "/ˈbɪliz ˈpeərənts dɪdnt hæv ɪˈnʌf ˈmʌni tuː peɪ fə ðə ˈpeɪntɪŋ ænd fə hɪz tuˈɪʃn./"
+      },
+      {
+        "sentence": "University tuition fees are very high in the US.",
+        "meaning-example": "Học phí đại học ở Mỹ rất cao.",
+        "ipa-example": "/ˌjuːnɪˈvɜːsəti tuˈɪʃn fiːz ə ˈveri haɪ ɪn ðə juːˈes./"
+      },
+      {
+        "sentence": "He had to take out a loan to pay his tuition.",
+        "meaning-example": "Anh ấy đã phải vay tiền để trả học phí.",
+        "ipa-example": "/hi hæd tuː teɪk aʊt ə ləʊn tuː peɪ hɪz tuˈɪʃn./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "“I Didn’t Do It!”",
+        "meaning-example": "“Tôi không làm điều đó!”",
+        "ipa-example": "/“aɪ dɪdnt duː ɪt!”/"
+      },
+      {
+        "sentence": "Billy was in big trouble.",
+        "meaning-example": "Billy đang gặp rắc rối lớn.",
+        "ipa-example": "/ˈbɪli wəz ɪn bɪɡ ˈtrʌbl./"
+      },
+      {
+        "sentence": "The day before, a donor gave the school a painting with a sports theme.",
+        "meaning-example": "Ngày hôm trước, một nhà tài trợ đã tặng cho trường một bức tranh có chủ đề thể thao.",
+        "ipa-example": "/ðə deɪ bɪˈfɔː, ə ˈdəʊnə ɡeɪv ðə skuːl ə ˈpeɪntɪŋ wɪð ə spɔːts θiːm./"
+      },
+      {
+        "sentence": "It showed a referee congratulating two athletes.",
+        "meaning-example": "Nó cho thấy một trọng tài đang chúc mừng hai vận động viên.",
+        "ipa-example": "/ɪt ʃəʊd ə ˌrefəˈriː kənˈɡrætʃəleɪtɪŋ tuː ˈæθliːts./"
+      },
+      {
+        "sentence": "The principal hung the painting in front of the office, hoping that it would be a stimulus for students to play sports.",
+        "meaning-example": "Hiệu trưởng treo bức tranh trước văn phòng, hy vọng rằng nó sẽ là một sự kích thích để học sinh chơi thể thao.",
+        "ipa-example": "/ðə ˈprɪnsəpl hʌŋ ðə ˈpeɪntɪŋ ɪn frʌnt əv ði ˈɒfɪs, ˈhəʊpɪŋ ðæt ɪt wʊd bi ə ˈstɪmjələs fə ˈstjuːdənts tuː pleɪ spɔːts./"
+      },
+      {
+        "sentence": "The next morning, however, the painting was destroyed.",
+        "meaning-example": "Tuy nhiên, vào sáng hôm sau, bức tranh đã bị phá hủy.",
+        "ipa-example": "/ðə nekst ˈmɔːnɪŋ, haʊˈevə, ðə ˈpeɪntɪŋ wəz dɪˈstrɔɪd./"
+      },
+      {
+        "sentence": "There was graffiti on it, and it had many holes in it.",
+        "meaning-example": "Có hình vẽ bậy trên đó, và nó có nhiều lỗ thủng.",
+        "ipa-example": "/ðeə wəz ɡrəˈfiːti ɒn ɪt, ænd ɪt hæd ˈmeni həʊlz ɪn ɪt./"
+      },
+      {
+        "sentence": "The worst part was that one of Billy’s fellow students said she thought she saw Billy do it!",
+        "meaning-example": "Điều tồi tệ nhất là một trong những bạn học của Billy nói rằng cô ấy nghĩ đã nhìn thấy Billy làm điều đó!",
+        "ipa-example": "/ðə wɜːst pɑːt wəz ðæt wʌn əv ˈbɪliz ˈfeləʊ ˈstjuːdənts sed ʃi θɔːt ʃi sɔː ˈbɪli duː ɪt!/"
+      },
+      {
+        "sentence": "But Billy didn’t do it.",
+        "meaning-example": "Nhưng Billy đã không làm điều đó.",
+        "ipa-example": "/bʌt ˈbɪli dɪdnt duː ɪt./"
+      },
+      {
+        "sentence": "The principal called Billy’s parents and said, “Billy won’t tell us the truth. He’s a chronic liar, and he ruined the painting. If you don’t pay for it, we’ll terminate his education here.”",
+        "meaning-example": "Hiệu trưởng gọi cho bố mẹ Billy và nói: “Billy sẽ không cho chúng tôi biết sự thật. Cậu ta là một kẻ nói dối kinh niên, và cậu ta đã phá hỏng bức tranh. Nếu ông bà không trả tiền cho nó, chúng tôi sẽ chấm dứt việc học của cậu ấy ở đây.”",
+        "ipa-example": "/ðə ˈprɪnsəpl kɔːld ˈbɪliz ˈpeərənts ænd sed, “ˈbɪli wəʊnt tel əs ðə truːθ. hiz ə ˈkrɒnɪk ˈlaɪər, ænd hi ˈruːɪnd ðə ˈpeɪntɪŋ. ɪf juː dəʊnt peɪ fɔːr ɪt, wiːl ˈtɜːmɪneɪt hɪz ˌedʒuˈkeɪʃn hɪə.”/"
+      },
+      {
+        "sentence": "Billy’s parents didn’t have enough money to pay for the painting and for his tuition.",
+        "meaning-example": "Bố mẹ của Billy không có đủ tiền để trả cho bức tranh và học phí của cậu.",
+        "ipa-example": "/ˈbɪliz ˈpeərənts dɪdnt hæv ɪˈnʌf ˈmʌni tuː peɪ fə ðə ˈpeɪntɪŋ ænd fə hɪz tuˈɪʃn./"
+      },
+      {
+        "sentence": "But Billy’s parents had an idea.",
+        "meaning-example": "Nhưng bố mẹ của Billy đã có một ý tưởng.",
+        "ipa-example": "/bʌt ˈbɪliz ˈpeərənts hæd ən aɪˈdɪə./"
+      },
+      {
+        "sentence": "That afternoon, they went to see Mr. Meyers, an attorney.",
+        "meaning-example": "Chiều hôm đó, họ đến gặp ông Meyers, một luật sư.",
+        "ipa-example": "/ðæt ˌɑːftəˈnuːn, ðeɪ went tuː siː ˈmɪstə ˈmaɪəz, ən əˈtɜːni./"
+      },
+      {
+        "sentence": "“Mr. Meyers, my son has been implicated in a crime he says he didn’t do,” Billy’s father said.",
+        "meaning-example": "“Thưa ông Meyers, con trai tôi đã bị lôi kéo vào một tội ác mà nó nói rằng nó không làm,” bố của Billy nói.",
+        "ipa-example": "/“ˈmɪstə ˈmaɪəz, maɪ sʌn hæz biːn ˈɪmplɪkeɪtɪd ɪn ə kraɪm hi sez hi dɪdnt duː,” ˈbɪliz ˈfɑːðə sed./"
+      },
+      {
+        "sentence": "“Everybody believes the gossip.",
+        "meaning-example": "“Mọi người đều tin vào những lời đồn thổi.",
+        "ipa-example": "/“ˈevribɒdi bɪˈliːvz ðə ˈɡɒsɪp./"
+      },
+      {
+        "sentence": "Even some of our own kin think he did it!”",
+        "meaning-example": "Ngay cả một số họ hàng của chúng tôi cũng nghĩ rằng nó đã làm điều đó!”",
+        "ipa-example": "/ˈiːvən sʌm əv ˈaʊər əʊn kɪn θɪŋk hi dɪd ɪt!”/"
+      },
+      {
+        "sentence": "“I believe you.",
+        "meaning-example": "“Tôi tin ông.",
+        "ipa-example": "/“aɪ bɪˈliːv juː./"
+      },
+      {
+        "sentence": "My suspicion is that the tape from the security cameras will show who really did it,” said Mr. Meyers.",
+        "meaning-example": "Sự nghi ngờ của tôi là đoạn băng từ camera an ninh sẽ cho thấy ai thực sự đã làm điều đó,” ông Meyers nói.",
+        "ipa-example": "/maɪ səˈspɪʃn ɪz ðæt ðə teɪp frəm ðə sɪˈkjʊərəti ˈkæmərəz wɪl ʃəʊ huː ˈriəli dɪd ɪt,” sed ˈmɪstə ˈmaɪəz./"
+      },
+      {
+        "sentence": "The next day, Mr. Meyers received a packet with the videotape from the school.",
+        "meaning-example": "Ngày hôm sau, ông Meyers nhận được một gói hàng chứa đoạn băng video từ trường học.",
+        "ipa-example": "/ðə nekst deɪ, ˈmɪstə ˈmaɪəz rɪˈsiːvd ə ˈpækɪt wɪð ðə ˈvɪdiəʊteɪp frəm ðə skuːl./"
+      },
+      {
+        "sentence": "It showed another student who resembled Billy walking up to the painting and writing on it.",
+        "meaning-example": "Nó cho thấy một học sinh khác trông giống Billy đang đi đến bức tranh và viết lên đó.",
+        "ipa-example": "/ɪt ʃəʊd əˈnʌðə ˈstjuːdənt huː rɪˈzembld ˈbɪli ˈwɔːkɪŋ ʌp tuː ðə ˈpeɪntɪŋ ænd ˈraɪtɪŋ ɒn ɪt./"
+      },
+      {
+        "sentence": "Then the student took a knife by the shaft and started to stab large holes in it.",
+        "meaning-example": "Sau đó, học sinh đó cầm dao ở phần cán và bắt đầu đâm những lỗ lớn vào nó.",
+        "ipa-example": "/ðen ðə ˈstjuːdənt tʊk ə naɪf baɪ ðə ʃɑːft ænd ˈstɑːtɪd tuː stæb lɑːdʒ həʊlz ɪn ɪt./"
+      },
+      {
+        "sentence": "Finally, he severed the rope that held up the painting, and it fell to the floor.",
+        "meaning-example": "Cuối cùng, hắn cắt đứt sợi dây giữ bức tranh, và nó rơi xuống sàn.",
+        "ipa-example": "/ˈfaɪnəli, hi ˈsevəd ðə rəʊp ðæt held ʌp ðə ˈpeɪntɪŋ, ænd ɪt fel tuː ðə flɔː./"
+      },
+      {
+        "sentence": "Mr. Meyers showed the tape to the principal.",
+        "meaning-example": "Ông Meyers đã cho hiệu trưởng xem đoạn băng.",
+        "ipa-example": "/ˈmɪstə ˈmaɪəz ʃəʊd ðə teɪp tuː ðə ˈprɪnsəpl./"
+      },
+      {
+        "sentence": "“Clearly, that’s not Billy,” he said.",
+        "meaning-example": "“Rõ ràng, đó không phải là Billy,” ông nói.",
+        "ipa-example": "/“ˈklɪəli, ðæts nɒt ˈbɪli,” hi sed./"
+      },
+      {
+        "sentence": "“This boy is actually responsible and needs some discipline.”",
+        "meaning-example": "“Cậu bé này mới là người thực sự phải chịu trách nhiệm và cần bị kỷ luật.”",
+        "ipa-example": "/“ðɪs bɔɪ ɪz ˈæktʃuəli rɪˈspɒnsəbl ænd niːdz səm ˈdɪsəplɪn.”/"
+      },
+      {
+        "sentence": "Billy was happy that someone believed him.",
+        "meaning-example": "Billy rất vui vì có người đã tin cậu.",
+        "ipa-example": "/ˈbɪli wəz ˈhæpi ðæt ˈsʌmwʌn bɪˈliːvd hɪm./"
+      },
+      {
+        "sentence": "He said to Mr. Meyers, “When I graduate and go to university, I will major in law, so I can be a guardian of justice like you!”",
+        "meaning-example": "Cậu nói với ông Meyers: “Khi con tốt nghiệp và vào đại học, con sẽ học chuyên ngành luật để có thể trở thành người bảo vệ công lý như chú!”",
+        "ipa-example": "/hi sed tuː ˈmɪstə ˈmaɪəz, “wen aɪ ˈɡrædʒueɪt ænd ɡəʊ tuː ˌjuːnɪˈvɜːsəti, aɪ wɪl ˈmeɪdʒər ɪn lɔː, səʊ aɪ kæn bi ə ˈɡɑːdiən əv ˈdʒʌstɪs laɪk juː!”/"
+      }
+    ]
+  }
+]
