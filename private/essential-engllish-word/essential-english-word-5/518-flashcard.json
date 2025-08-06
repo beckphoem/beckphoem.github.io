@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Hung hăng, hiếu chiến.",
+    "classes": "adj",
+    "answer": "aggressive",
+    "ipa": "/əˈɡresɪv/",
+    "example": "His foe Darius, who was skilled in the realm of sword fighting and was typically not very aggressive, would not fight the quiet soldier until he attacked Darius first.",
+    "english-definition": "Ready or likely to attack or confront; characterized by or resulting from aggression.",
+    "images": "eew-5-18/1.png"
+  },
+  {
+    "question": "Sự ân xá, sự tha tội.",
+    "classes": "n",
+    "answer": "amnesty",
+    "ipa": "/ˈæmnəsti/",
+    "example": "As a result, he gave the peaceful soldier amnesty.",
+    "english-definition": "An official pardon for people who have been convicted of political offenses.",
+    "images": "eew-5-18/2.png"
+  },
+  {
+    "question": "Đấu trường.",
+    "classes": "n",
+    "answer": "arena",
+    "ipa": "/əˈriːnə/",
+    "example": "For these fights, the king had built several large arenas.",
+    "english-definition": "A level area surrounded by seating, in which sports, entertainments, and other public events are held.",
+    "images": "eew-5-18/3.png"
+  },
+  {
+    "question": "Khán phòng, giảng đường.",
+    "classes": "n",
+    "answer": "auditorium",
+    "ipa": "/ˌɔːdɪˈtɔːriəm/",
+    "example": "A gate coated in rust stood between him and the auditorium’s floor.",
+    "english-definition": "The part of a theater, concert hall, or other public building in which the audience sits.",
+    "images": "eew-5-18/4.png"
+  },
+  {
+    "question": "Tù binh, người bị giam cầm.",
+    "classes": "n",
+    "answer": "captive",
+    "ipa": "/ˈkæptɪv/",
+    "example": "It was well known that this king would make captives fight one another.",
+    "english-definition": "A person who has been taken prisoner or an animal that has been confined.",
+    "images": "eew-5-18/5.png"
+  },
+  {
+    "question": "Trận đấu, trận chiến.",
+    "classes": "n",
+    "answer": "combat",
+    "ipa": "/ˈkɑːmbæt/",
+    "example": "He decided that he would not engage in combat.",
+    "english-definition": "Fighting between armed forces.",
+    "images": "eew-5-18/6.png"
+  },
+  {
+    "question": "Tầm thường, phổ biến, thông thường.",
+    "classes": "adj",
+    "answer": "commonplace",
+    "ipa": "/ˈkɑːmənpleɪs/",
+    "example": "This was commonplace during his reign.",
+    "english-definition": "Not unusual; ordinary.",
+    "images": "eew-5-18/7.png"
+  },
+  {
+    "question": "Khu vực có rào vây quanh; hợp chất.",
+    "classes": "n",
+    "answer": "compound",
+    "ipa": "/ˈkɑːmpaʊnd/",
+    "example": "In the morning, he was led from the prisoners’ compound to one of the king’s arenas.",
+    "english-definition": "An area of land with a group of buildings on it that is enclosed by a fence or wall; a thing that is composed of two or more separate elements.",
+    "images": "eew-5-18/8.png"
+  },
+  {
+    "question": "Quân đoàn, đoàn.",
+    "classes": "n",
+    "answer": "corps",
+    "ipa": "/kɔːr/",
+    "example": "He often awarded the winners by setting them free or even having them join his elite army corps.",
+    "english-definition": "A main subdivision of an army in the field, consisting of two or more divisions; a body of people engaged in a particular activity.",
+    "images": "eew-5-18/9.png"
+  },
+  {
+    "question": "Làm xao lãng, làm mất tập trung.",
+    "classes": "v",
+    "answer": "distract",
+    "ipa": "/dɪˈstrækt/",
+    "example": "But the soldier was not distracted.",
+    "english-definition": "To prevent someone from giving their full attention to something.",
+    "images": "eew-5-18/10.png"
+  },
+  {
+    "question": "Câm, không nói được; ngớ ngẩn.",
+    "classes": "adj",
+    "answer": "dumb",
+    "ipa": "/dʌm/",
+    "example": "He sat quietly, as if he were dumb, and looked calmly up at the sky.",
+    "english-definition": "Unable to speak; temporarily unable or unwilling to speak.",
+    "images": "eew-5-18/11.png"
+  },
+  {
+    "question": "Kẻ thù, đối thủ.",
+    "classes": "n",
+    "answer": "foe",
+    "ipa": "/fəʊ/",
+    "example": "His foe Darius, who was skilled in the realm of sword fighting and was typically not very aggressive, would not fight the quiet soldier until he attacked Darius first.",
+    "english-definition": "An enemy or opponent.",
+    "images": "eew-5-18/12.png"
+  },
+  {
+    "question": "Chặt, đốn, bổ (một cách thô bạo).",
+    "classes": "v",
+    "answer": "hack",
+    "ipa": "/hæk/",
+    "example": "Darius tried to provoke him by hacking at the air close to his head with his sword.",
+    "english-definition": "To cut with rough or heavy blows.",
+    "images": "eew-5-18/13.png"
+  },
+  {
+    "question": "Thiền, ngẫm nghĩ, trầm tư.",
+    "classes": "v",
+    "answer": "meditate",
+    "ipa": "/ˈmedɪteɪt/",
+    "example": "He started to meditate.",
+    "english-definition": "To focus one's mind for a period of time, in silence or with the aid of chanting, for religious or spiritual purposes or as a method of relaxation.",
+    "images": "eew-5-18/14.png"
+  },
+  {
+    "question": "Cắt nhẹ, khía, làm sứt.",
+    "classes": "v",
+    "answer": "nick",
+    "ipa": "/nɪk/",
+    "example": "Even when Darius nicked him on the cheek with the edge of his sword, the soldier did not move.",
+    "english-definition": "To make a small cut in something.",
+    "images": "eew-5-18/15.png"
+  },
+  {
+    "question": "Khiêu khích, chọc tức.",
+    "classes": "v",
+    "answer": "provoke",
+    "ipa": "/prəˈvəʊk/",
+    "example": "Darius tried to provoke him by hacking at the air close to his head with his sword.",
+    "english-definition": "To deliberately make someone angry or annoyed.",
+    "images": "eew-5-18/16.png"
+  },
+  {
+    "question": "Vương quốc; lĩnh vực, phạm vi.",
+    "classes": "n",
+    "answer": "realm",
+    "ipa": "/relm/",
+    "example": "His foe Darius, who was skilled in the realm of sword fighting and was typically not very aggressive, would not fight the quiet soldier until he attacked Darius first.",
+    "english-definition": "A kingdom; a field or domain of activity or interest.",
+    "images": "eew-5-18/17.png"
+  },
+  {
+    "question": "Triều đại, thời gian trị vì.",
+    "classes": "n",
+    "answer": "reign",
+    "ipa": "/reɪn/",
+    "example": "This was commonplace during his reign.",
+    "english-definition": "The period during which a sovereign rules.",
+    "images": "eew-5-18/18.png"
+  },
+  {
+    "question": "Gỉ, gỉ sét.",
+    "classes": "n",
+    "answer": "rust",
+    "ipa": "/rʌst/",
+    "example": "A gate coated in rust stood between him and the auditorium’s floor.",
+    "english-definition": "A reddish-brown flaky coating of iron oxide that is formed on iron or steel by oxidation, especially in the presence of moisture.",
+    "images": "eew-5-18/19.png"
+  },
+  {
+    "question": "Thiêng liêng, linh thiêng.",
+    "classes": "adj",
+    "answer": "sacred",
+    "ipa": "/ˈseɪkrɪd/",
+    "example": "He now felt that all life was sacred.",
+    "english-definition": "Connected with God or a god or dedicated to a religious purpose and so deserving veneration.",
+    "images": "eew-5-18/20.png"
+  }
+]

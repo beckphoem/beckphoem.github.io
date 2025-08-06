@@ -1,0 +1,782 @@
+[
+  {
+    "word": "aggressive",
+    "ipa": "/əˈɡresɪv/",
+    "meaning": "Hung hăng, hiếu chiến.",
+    "image": "eew-5-18/1.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "aggressive",
+        "meaning-example": "Hung hăng, hiếu chiến.",
+        "ipa-example": "/əˈɡresɪv/"
+      },
+      {
+        "sentence": "Nghe như \"ặc-rét-sịp\". Một người mà \"ặc\" ra tiếng, \"rét\" run cả người, lại còn mặc \"sịp\" ra ngoài thì rất là hung hăng, hiếu chiến (aggressive).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Ready or likely to attack or confront; characterized by or resulting from aggression.",
+        "meaning-example": "Sẵn sàng hoặc có khả năng tấn công hoặc đối đầu; đặc trưng bởi hoặc là kết quả của sự hung hăng.",
+        "ipa-example": "/ˈrɛdi ɔːr ˈlaɪkli tuː əˈtæk ɔːr kənˈfrʌnt; ˈkærəktəraɪzd baɪ ɔːr rɪˈzʌltɪŋ frɒm əˈɡrɛʃən./"
+      },
+      {
+        "sentence": "His foe Darius, who was skilled in the realm of sword fighting and was typically not very aggressive, would not fight the quiet soldier until he attacked Darius first.",
+        "meaning-example": "Kẻ thù của anh, Darius, người có kỹ năng trong lĩnh vực đấu kiếm và thường không hung hăng lắm, sẽ không chiến đấu với người lính trầm lặng cho đến khi anh ta tấn công Darius trước.",
+        "ipa-example": "/hɪz fəʊ ˈdæriəs, huː wəz skɪld ɪn ðə rɛlm əv sɔːd ˈfaɪtɪŋ ænd wəz ˈtɪpɪkəli nɒt ˈvɛri əˈɡrɛsɪv, wʊd nɒt faɪt ðə ˈkwaɪət ˈsəʊldʒər ənˈtɪl hiː əˈtækt ˈdæriəs fɜːst./"
+      },
+      {
+        "sentence": "The dog became aggressive and started barking.",
+        "meaning-example": "Con chó trở nên hung hăng và bắt đầu sủa.",
+        "ipa-example": "/ðə dɒɡ bɪˈkeɪm əˈɡresɪv ænd ˈstɑːtɪd ˈbɑːkɪŋ./"
+      },
+      {
+        "sentence": "He has a very aggressive style of playing tennis.",
+        "meaning-example": "Anh ấy có lối chơi tennis rất hiếu chiến.",
+        "ipa-example": "/hiː hæz ə ˈvɛri əˈɡrɛsɪv staɪl əv ˈpleɪɪŋ ˈtɛnɪs./"
+      }
+    ]
+  },
+  {
+    "word": "amnesty",
+    "ipa": "/ˈæmnəsti/",
+    "meaning": "Sự ân xá, sự tha tội.",
+    "image": "eew-5-18/2.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "amnesty",
+        "meaning-example": "Sự ân xá, sự tha tội.",
+        "ipa-example": "/ˈæmnəsti/"
+      },
+      {
+        "sentence": "\"Ám-nét-tí\" (amnesty). Vua ra lệnh, những tù nhân nào bị \"ám\" ảnh tội lỗi, giờ chỉ cần \"nét\" mặt thành tâm \"tí\" là sẽ được ân xá. Amnesty là sự ân xá.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An official pardon for people who have been convicted of political offenses.",
+        "meaning-example": "Lệnh ân xá chính thức cho những người đã bị kết án về các tội danh chính trị.",
+        "ipa-example": "/ən əˈfɪʃəl ˈpɑːdən fɔː ˈpiːpl huː həv biːn kənˈvɪktɪd əv pəˈlɪtɪkəl əˈfɛnsɪz./"
+      },
+      {
+        "sentence": "As a result, he gave the peaceful soldier amnesty.",
+        "meaning-example": "Kết quả là, ông đã ban lệnh ân xá cho người lính hòa bình.",
+        "ipa-example": "/æz ə rɪˈzʌlt, hiː ɡeɪv ðə ˈpiːsfʊl ˈsəʊldʒər ˈæmnəsti./"
+      },
+      {
+        "sentence": "The government granted an amnesty to all political prisoners.",
+        "meaning-example": "Chính phủ đã ân xá cho tất cả các tù nhân chính trị.",
+        "ipa-example": "/ðə ˈɡʌvənmənt ˈɡrɑːntɪd ən ˈæmnəsti tuː ɔːl pəˈlɪtɪkəl ˈprɪzənəz./"
+      },
+      {
+        "sentence": "Illegal immigrants were offered an amnesty.",
+        "meaning-example": "Những người nhập cư bất hợp pháp đã được đề nghị ân xá.",
+        "ipa-example": "/ɪˈliːɡəl ˈɪmɪɡrənts wər ˈɒfəd ən ˈæmnəsti./"
+      }
+    ]
+  },
+  {
+    "word": "arena",
+    "ipa": "/əˈriːnə/",
+    "meaning": "Đấu trường.",
+    "image": "eew-5-18/3.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "arena",
+        "meaning-example": "Đấu trường.",
+        "ipa-example": "/əˈriːnə/"
+      },
+      {
+        "sentence": "\"Ơ-ri-nà\". \"Ơ, đây là đâu?\". \"Đây là đấu trường La Mã nà\". Arena là đấu trường.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A level area surrounded by seating, in which sports, entertainments, and other public events are held.",
+        "meaning-example": "Một khu vực bằng phẳng được bao quanh bởi các hàng ghế, nơi diễn ra các môn thể thao, giải trí và các sự kiện công cộng khác.",
+        "ipa-example": "/ə ˈlɛvl ˈeəriə səˈraʊndɪd baɪ ˈsiːtɪŋ, ɪn wɪtʃ spɔːts, ˌɛntəˈteɪnmənts, ænd ˈʌðə ˈpʌblɪk ɪˈvɛnts ɑː hɛld./"
+      },
+      {
+        "sentence": "For these fights, the king had built several large arenas.",
+        "meaning-example": "Để phục vụ cho những trận chiến này, nhà vua đã xây dựng một số đấu trường lớn.",
+        "ipa-example": "/fɔː ðiːz faɪts, ðə kɪŋ hæd bɪlt ˈsɛvrəl lɑːdʒ əˈriːnəz./"
+      },
+      {
+        "sentence": "The concert was held at the city's largest sports arena.",
+        "meaning-example": "Buổi hòa nhạc được tổ chức tại đấu trường thể thao lớn nhất của thành phố.",
+        "ipa-example": "/ðə ˈkɒnsə(ː)t wɒz hɛld æt ðə ˈsɪtiz ˈlɑːʤɪst spɔːts əˈriːnə./"
+      },
+      {
+        "sentence": "The gladiators entered the arena to fight.",
+        "meaning-example": "Các đấu sĩ bước vào đấu trường để chiến đấu.",
+        "ipa-example": "/ðə ˈɡlædɪeɪtəz ˈɛntəd ði əˈriːnə tuː faɪt./"
+      }
+    ]
+  },
+  {
+    "word": "auditorium",
+    "ipa": "/ˌɔːdɪˈtɔːriəm/",
+    "meaning": "Khán phòng, giảng đường.",
+    "image": "eew-5-18/4.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "auditorium",
+        "meaning-example": "Khán phòng, giảng đường.",
+        "ipa-example": "/ˌɔːdɪˈtɔːriəm/"
+      },
+      {
+        "sentence": "\"O-đi-to-ri-um\". Nghe như \"Ồ, đi to rồi ùm\". Mọi người \"ồ\" lên khi đi vào một khán phòng \"to\" lớn, âm thanh trong đó vang \"ùm\" cả lên. Auditorium là khán phòng, giảng đường.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The part of a theater, concert hall, or other public building in which the audience sits.",
+        "meaning-example": "Phần của một nhà hát, phòng hòa nhạc, hoặc tòa nhà công cộng khác nơi khán giả ngồi.",
+        "ipa-example": "/ðə pɑːt əv ə ˈθɪətə, ˈkɒnsə(ː)t hɔːl, ɔːr ˈʌðə ˈpʌblɪk ˈbɪldɪŋ ɪn wɪtʃ ði ˈɔːdiəns sɪts./"
+      },
+      {
+        "sentence": "A gate coated in rust stood between him and the auditorium’s floor.",
+        "meaning-example": "Một cánh cổng phủ đầy rỉ sét đứng giữa anh và sàn của khán phòng (đấu trường).",
+        "ipa-example": "/ə ɡeɪt ˈkəʊtɪd ɪn rʌst stʊd bɪˈtwiːn hɪm ænd ði ˌɔːdɪˈtɔːriəmz flɔː./"
+      },
+      {
+        "sentence": "The school's auditorium can seat 500 people.",
+        "meaning-example": "Khán phòng của trường có thể chứa 500 người.",
+        "ipa-example": "/ðə skuːlz ˌɔːdɪˈtɔːriəm kæn siːt 500 ˈpiːpl./"
+      },
+      {
+        "sentence": "The lecture will take place in the main auditorium.",
+        "meaning-example": "Bài giảng sẽ diễn ra ở khán phòng chính.",
+        "ipa-example": "/ðə ˈlɛktʃə wɪl teɪk pleɪs ɪn ðə meɪn ˌɔːdɪˈtɔːriəm./"
+      }
+    ]
+  },
+  {
+    "word": "captive",
+    "ipa": "/ˈkæptɪv/",
+    "meaning": "Tù binh, người bị giam cầm.",
+    "image": "eew-5-18/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "captive",
+        "meaning-example": "Tù binh, người bị giam cầm.",
+        "ipa-example": "/ˈkæptɪv/"
+      },
+      {
+        "sentence": "\"Cáp-típ\". Tên cướp biển \"cáp\" (captain) bị bắt, hắn bị trói bằng \"cáp\" và bị đòi tiền \"típ\" (tip) để chuộc. Hắn trở thành một captive (tù binh).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who has been taken prisoner or an animal that has been confined.",
+        "meaning-example": "Một người đã bị bắt làm tù nhân hoặc một con vật đã bị nhốt.",
+        "ipa-example": "/ə ˈpɜːsən huː hæz biːn ˈteɪkən ˈprɪzənər ɔːr ən ˈænɪməl ðæt hæz biːn kənˈfaɪnd./"
+      },
+      {
+        "sentence": "It was well known that this king would make captives fight one another.",
+        "meaning-example": "Ai cũng biết rằng vị vua này sẽ bắt các tù binh đấu với nhau.",
+        "ipa-example": "/ɪt wəz wɛl nəʊn ðæt ðɪs kɪŋ wʊd meɪk ˈkæptɪvz faɪt wʌn əˈnʌðə./"
+      },
+      {
+        "sentence": "The captives were released after the war.",
+        "meaning-example": "Các tù binh đã được thả sau chiến tranh.",
+        "ipa-example": "/ðə ˈkæptɪvz wə rɪˈliːst ˈɑːftə ðə wɔː./"
+      },
+      {
+        "sentence": "He was held captive for three years.",
+        "meaning-example": "Anh ta đã bị giam cầm trong ba năm.",
+        "ipa-example": "/hi wəz hɛld ˈkæptɪv fɔː θriː jɪəz./"
+      }
+    ]
+  },
+  {
+    "word": "combat",
+    "ipa": "/ˈkɑːmbæt/",
+    "meaning": "Trận đấu, trận chiến.",
+    "image": "eew-5-18/6.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "combat",
+        "meaning-example": "Trận đấu, trận chiến.",
+        "ipa-example": "/ˈkɑːmbæt/"
+      },
+      {
+        "sentence": "\"Cơm-bát\". Những người lính trước khi ra trận \"cơm-bát\" (combat) đều ăn một bát cơm đầy để có sức chiến đấu. Combat là trận đấu, trận chiến.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Fighting between armed forces.",
+        "meaning-example": "Chiến đấu giữa các lực lượng vũ trang.",
+        "ipa-example": "/ˈfaɪtɪŋ bɪˈtwiːn ɑːmd ˈfɔːsɪz./"
+      },
+      {
+        "sentence": "He decided that he would not engage in combat.",
+        "meaning-example": "Anh quyết định rằng mình sẽ không tham gia vào trận chiến.",
+        "ipa-example": "/hiː dɪˈsaɪdɪd ðæt hiː wʊd nɒt ɪnˈɡeɪdʒ ɪn ˈkɒmbæt./"
+      },
+      {
+        "sentence": "He was killed in combat.",
+        "meaning-example": "Anh ấy đã hy sinh trong trận chiến.",
+        "ipa-example": "/hi wəz kɪld ɪn ˈkɒmbæt./"
+      },
+      {
+        "sentence": "The soldiers were trained for close combat.",
+        "meaning-example": "Những người lính được huấn luyện để cận chiến.",
+        "ipa-example": "/ðə ˈsəʊldʒəz wə treɪnd fɔː kləʊs ˈkɒmbæt./"
+      }
+    ]
+  },
+  {
+    "word": "commonplace",
+    "ipa": "/ˈkɑːmənpleɪs/",
+    "meaning": "Tầm thường, phổ biến, thông thường.",
+    "image": "eew-5-18/7.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "commonplace",
+        "meaning-example": "Tầm thường, phổ biến, thông thường.",
+        "ipa-example": "/ˈkɑːmənpleɪs/"
+      },
+      {
+        "sentence": "\"Common-place\". \"Common\" là chung, \"place\" là nơi. Một thứ gì đó ở \"nơi chốn chung\" nào cũng thấy thì nó rất là tầm thường, phổ biến (commonplace).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Not unusual; ordinary.",
+        "meaning-example": "Không có gì lạ; bình thường.",
+        "ipa-example": "/nɒt ʌnˈjuːʒʊəl; ˈɔːdnri./"
+      },
+      {
+        "sentence": "This was commonplace during his reign.",
+        "meaning-example": "Điều này là phổ biến trong triều đại của ông.",
+        "ipa-example": "/ðɪs wəz ˈkɒmənpleɪs ˈdjʊərɪŋ hɪz reɪn./"
+      },
+      {
+        "sentence": "Computers are now commonplace in homes and offices.",
+        "meaning-example": "Máy tính hiện nay đã trở nên phổ biến trong các gia đình và văn phòng.",
+        "ipa-example": "/kəmˈpjuːtəz ə naʊ ˈkɒmənpleɪs ɪn həʊmz ænd ˈɒfɪsɪz./"
+      },
+      {
+        "sentence": "It's commonplace to see people using smartphones on the bus.",
+        "meaning-example": "Việc thấy mọi người sử dụng điện thoại thông minh trên xe buýt là chuyện thường tình.",
+        "ipa-example": "/ɪts ˈkɒmənpleɪs tuː siː ˈpiːpl ˈjuːzɪŋ ˈsmɑːtfəʊnz ɒn ðə bʌs./"
+      }
+    ]
+  },
+  {
+    "word": "compound",
+    "ipa": "/ˈkɑːmpaʊnd/",
+    "meaning": "Khu vực có rào vây quanh; hợp chất.",
+    "image": "eew-5-18/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "compound",
+        "meaning-example": "Khu vực có rào vây quanh; hợp chất.",
+        "ipa-example": "/ˈkɑːmpaʊnd/"
+      },
+      {
+        "sentence": "\"Cơm-bao\". Trong khu nhà tù, tù nhân được phát \"cơm\" đựng trong \"bao\". Khu vực có hàng rào bao quanh đó gọi là compound (khu vực có rào, hợp chất).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An area of land with a group of buildings on it that is enclosed by a fence or wall; a thing that is composed of two or more separate elements.",
+        "meaning-example": "Một khu đất có một nhóm các tòa nhà trên đó được bao bọc bởi hàng rào hoặc tường; một thứ được cấu tạo từ hai hoặc nhiều yếu tố riêng biệt.",
+        "ipa-example": "/ən ˈeəriə əv lænd wɪð ə ɡruːp əv ˈbɪldɪŋz ɒn ɪt ðæt s ɪnˈkləʊzd baɪ ə fɛns ɔː wɔːl; ə θɪŋ ðæt s kəmˈpəʊzd əv tuː ɔː mɔː ˈsɛpərɪt ˈɛlɪmənts./"
+      },
+      {
+        "sentence": "In the morning, he was led from the prisoners’ compound to one of the king’s arenas.",
+        "meaning-example": "Vào buổi sáng, anh bị dẫn từ khu nhà tù đến một trong những đấu trường của nhà vua.",
+        "ipa-example": "/ɪn ðə ˈmɔːnɪŋ, hiː wəz lɛd frɒm ðə ˈprɪzənəz ˈkɒmpaʊnd tuː wʌn əv ðə kɪŋz əˈriːnəz./"
+      },
+      {
+        "sentence": "The embassy compound was heavily guarded.",
+        "meaning-example": "Khuôn viên của đại sứ quán được canh gác nghiêm ngặt.",
+        "ipa-example": "/ði ɛmˈbæsi ˈkɒmpaʊnd wəz ˈhɛvɪli ˈɡɑːdɪd./"
+      },
+      {
+        "sentence": "Water is a compound of hydrogen and oxygen.",
+        "meaning-example": "Nước là một hợp chất của hydro và oxy.",
+        "ipa-example": "/ˈwɔːtər ɪz ə ˈkɒmpaʊnd əv ˈhaɪdrədʒən ænd ˈɒksɪdʒən./"
+      }
+    ]
+  },
+  {
+    "word": "corps",
+    "ipa": "/kɔːr/",
+    "meaning": "Quân đoàn, đoàn.",
+    "image": "eew-5-18/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "corps",
+        "meaning-example": "Quân đoàn, đoàn.",
+        "ipa-example": "/kɔːr/"
+      },
+      {
+        "sentence": "Phát âm giống \"core\" (cốt lõi). Quân đoàn (corps) là lực lượng \"cốt\" lõi, tinh nhuệ của quân đội. Chữ `ps` cuối câm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A main subdivision of an army in the field, consisting of two or more divisions; a body of people engaged in a particular activity.",
+        "meaning-example": "Một phân đội chính của quân đội trên chiến trường, bao gồm hai hoặc nhiều sư đoàn; một nhóm người tham gia vào một hoạt động cụ thể.",
+        "ipa-example": "/ə meɪn ˌsʌbdɪˈvɪʒən əv ən ˈɑːmi ɪn ðə fiːld, kənˈsɪstɪŋ əv tuː ɔː mɔː dɪˈvɪʒənz; ə ˈbɒdi əv ˈpiːpl ɪnˈɡeɪdʒd ɪn ə pəˈtɪkjʊlər ækˈtɪvəti./"
+      },
+      {
+        "sentence": "He often awarded the winners by setting them free or even having them join his elite army corps.",
+        "meaning-example": "Ông thường thưởng cho những người chiến thắng bằng cách trả tự do cho họ hoặc thậm chí cho họ gia nhập quân đoàn tinh nhuệ của mình.",
+        "ipa-example": "/hiː ˈɒf(ə)n əˈwɔːdɪd ðə ˈwɪnəz baɪ ˈsɛtɪŋ ðɛm friː ɔːr ˈiːvən ˈhævɪŋ ðɛm dʒɔɪn hɪz iːˈliːt ˈɑːmi kɔːr./"
+      },
+      {
+        "sentence": "He joined the Marine Corps after high school.",
+        "meaning-example": "Anh ấy đã gia nhập Thủy quân lục chiến sau khi tốt nghiệp trung học.",
+        "ipa-example": "/hi dʒɔɪnd ðə məˈriːn kɔːr ˈɑːftə haɪ skuːl./"
+      },
+      {
+        "sentence": "The press corps followed the president everywhere.",
+        "meaning-example": "Đoàn báo chí theo chân tổng thống khắp mọi nơi.",
+        "ipa-example": "/ðə prɛs kɔːr ˈfɒləʊd ðə ˈprɛzɪdənt ˈɛvrɪweə./"
+      }
+    ]
+  },
+  {
+    "word": "distract",
+    "ipa": "/dɪˈstrækt/",
+    "meaning": "Làm xao lãng, làm mất tập trung.",
+    "image": "eew-5-18/10.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "distract",
+        "meaning-example": "Làm xao lãng, làm mất tập trung.",
+        "ipa-example": "/dɪˈstrækt/"
+      },
+      {
+        "sentence": "\"Dis-track\". \"Dis\" là trái ngược, \"track\" là đường đi. Bị làm cho đi lệch \"đường đi\" của sự tập trung, tức là bị làm cho xao lãng (distract).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To prevent someone from giving their full attention to something.",
+        "meaning-example": "Ngăn cản ai đó dành toàn bộ sự chú ý của họ vào một việc gì đó.",
+        "ipa-example": "/tuː prɪˈvɛnt ˈsʌmwʌn frɒm ˈɡɪvɪŋ ðeə fʊl əˈtɛnʃ(ə)n tuː ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "But the soldier was not distracted.",
+        "meaning-example": "Nhưng người lính không hề bị xao lãng.",
+        "ipa-example": "/bʌt ðə ˈsəʊldʒə wəz nɒt dɪˈstræktɪd./"
+      },
+      {
+        "sentence": "Don't distract me while I'm driving.",
+        "meaning-example": "Đừng làm tôi mất tập trung khi tôi đang lái xe.",
+        "ipa-example": "/dəʊnt dɪˈstrækt miː waɪl aɪm ˈdraɪvɪŋ./"
+      },
+      {
+        "sentence": "The loud music distracted her from her studies.",
+        "meaning-example": "Tiếng nhạc lớn đã làm cô ấy xao lãng việc học.",
+        "ipa-example": "/ðə laʊd ˈmjuːzɪk dɪˈstræktɪd hə frəm hə ˈstʌdiz./"
+      }
+    ]
+  },
+  {
+    "word": "dumb",
+    "ipa": "/dʌm/",
+    "meaning": "Câm, không nói được; ngớ ngẩn.",
+    "image": "eew-5-18/11.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "dumb",
+        "meaning-example": "Câm, không nói được; ngớ ngẩn.",
+        "ipa-example": "/dʌm/"
+      },
+      {
+        "sentence": "\"Đâm\". Bị \"đâm\" một cú trời giáng vào đầu nên anh ta bị câm, không nói được lời nào. Dumb có nghĩa là câm, hoặc ngớ ngẩn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Unable to speak; temporarily unable or unwilling to speak.",
+        "meaning-example": "Không thể nói được; tạm thời không thể hoặc không muốn nói.",
+        "ipa-example": "/ʌnˈeɪbl tuː spiːk; ˈtɛmpərərɪli ʌnˈeɪbl ɔːr ʌnˈwɪlɪŋ tuː spiːk./"
+      },
+      {
+        "sentence": "He sat quietly, as if he were dumb, and looked calmly up at the sky.",
+        "meaning-example": "Anh ngồi lặng lẽ, như thể bị câm, và bình tĩnh nhìn lên trời.",
+        "ipa-example": "/hiː sæt ˈkwaɪətli, æz ɪf hiː wɜː dʌm, ænd lʊkt ˈkɑːmli ʌp æt ðə skaɪ./"
+      },
+      {
+        "sentence": "The shock of the accident left him dumb.",
+        "meaning-example": "Cú sốc của vụ tai nạn khiến anh ta chết lặng (không nói nên lời).",
+        "ipa-example": "/ðə ʃɒk əv ði ˈæksɪdənt lɛft hɪm dʌm./"
+      },
+      {
+        "sentence": "That was a dumb thing to do.",
+        "meaning-example": "Đó là một việc làm ngớ ngẩn.",
+        "ipa-example": "/ðæt wəz ə dʌm θɪŋ tuː duː./"
+      }
+    ]
+  },
+  {
+    "word": "foe",
+    "ipa": "/fəʊ/",
+    "meaning": "Kẻ thù, đối thủ.",
+    "image": "eew-5-18/12.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "foe",
+        "meaning-example": "Kẻ thù, đối thủ.",
+        "ipa-example": "/fəʊ/"
+      },
+      {
+        "sentence": "Nghe như \"phở\". Hai quán \"phở\" cạnh tranh nhau, coi nhau là kẻ thù (foe) không đội trời chung.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An enemy or opponent.",
+        "meaning-example": "Một kẻ thù hoặc đối thủ.",
+        "ipa-example": "/ən ˈɛnəmi ɔːr əˈpəʊnənt./"
+      },
+      {
+        "sentence": "His foe Darius, who was skilled in the realm of sword fighting and was typically not very aggressive, would not fight the quiet soldier until he attacked Darius first.",
+        "meaning-example": "Kẻ thù của anh, Darius, người có kỹ năng trong lĩnh vực đấu kiếm và thường không hung hăng lắm, sẽ không chiến đấu với người lính trầm lặng cho đến khi anh ta tấn công Darius trước.",
+        "ipa-example": "/hɪz fəʊ ˈdæriəs, huː wəz skɪld ɪn ðə rɛlm əv sɔːd ˈfaɪtɪŋ ænd wəz ˈtɪpɪkəli nɒt ˈvɛri əˈɡrɛsɪv, wʊd nɒt faɪt ðə ˈkwaɪət ˈsəʊldʒər ənˈtɪl hiː əˈtækt ˈdæriəs fɜːst./"
+      },
+      {
+        "sentence": "The two armies were longtime foes.",
+        "meaning-example": "Hai đội quân là kẻ thù lâu năm.",
+        "ipa-example": "/ðə tuː ˈɑːmiz wə ˈlɒŋtaɪm fəʊz./"
+      },
+      {
+        "sentence": "He was a formidable foe in the chess tournament.",
+        "meaning-example": "Anh ấy là một đối thủ đáng gờm trong giải cờ vua.",
+        "ipa-example": "/hi wəz ə ˈfɔːmɪdəbl fəʊ ɪn ðə tʃɛs ˈtʊənəmənt./"
+      }
+    ]
+  },
+  {
+    "word": "hack",
+    "ipa": "/hæk/",
+    "meaning": "Chặt, đốn, bổ (một cách thô bạo).",
+    "image": "eew-5-18/13.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "hack",
+        "meaning-example": "Chặt, đốn, bổ (một cách thô bạo).",
+        "ipa-example": "/hæk/"
+      },
+      {
+        "sentence": "Tin tặc (hacker) \"hắc\" (hack) vào hệ thống máy tính, tức là chặt, đẽo, xâm nhập một cách thô bạo. Hack cũng có nghĩa là chặt mạnh, bổ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To cut with rough or heavy blows.",
+        "meaning-example": "Cắt bằng những nhát chém thô bạo hoặc mạnh.",
+        "ipa-example": "/tuː kʌt wɪð rʌf ɔː ˈhɛvi bləʊz./"
+      },
+      {
+        "sentence": "Darius tried to provoke him by hacking at the air close to his head with his sword.",
+        "meaning-example": "Darius cố gắng khiêu khích anh bằng cách vung kiếm chém vào không khí gần đầu anh.",
+        "ipa-example": "/ˈdæriəs traɪd tuː prəˈvəʊk hɪm baɪ ˈhækɪŋ æt ði eə kləʊs tuː hɪz hɛd wɪð hɪz sɔːd./"
+      },
+      {
+        "sentence": "He hacked the tree down.",
+        "meaning-example": "Anh ta đã đốn hạ cái cây.",
+        "ipa-example": "/hi hækt ðə triː daʊn./"
+      },
+      {
+        "sentence": "The butcher hacked off a large piece of meat.",
+        "meaning-example": "Người bán thịt đã chặt một miếng thịt lớn.",
+        "ipa-example": "/ðə ˈbʊtʃə hækt ɒf ə lɑːdʒ piːs əv miːt./"
+      }
+    ]
+  },
+  {
+    "word": "meditate",
+    "ipa": "/ˈmedɪteɪt/",
+    "meaning": "Thiền, ngẫm nghĩ, trầm tư.",
+    "image": "eew-5-18/14.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "meditate",
+        "meaning-example": "Thiền, ngẫm nghĩ, trầm tư.",
+        "ipa-example": "/ˈmedɪteɪt/"
+      },
+      {
+        "sentence": "\"Me-đi-tết\". \"Mẹ đi Tết\", còn con ở nhà ngồi \"me-đi-tết\" (meditate) - ngồi thiền để tĩnh tâm, mong mẹ mau về. Meditate là thiền, trầm tư.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To focus one's mind for a period of time, in silence or with the aid of chanting, for religious or spiritual purposes or as a method of relaxation.",
+        "meaning-example": "Tập trung tâm trí trong một khoảng thời gian, trong im lặng hoặc với sự trợ giúp của tụng kinh, cho các mục đích tôn giáo hoặc tâm linh hoặc như một phương pháp thư giãn.",
+        "ipa-example": "/tuː ˈfəʊkəs wʌnz maɪnd fɔːr ə ˈpɪərɪəd əv taɪm, ɪn ˈsaɪləns ɔː wɪð ði eɪd əv ˈtʃɑːntɪŋ, fɔː rɪˈlɪdʒəs ɔː ˈspɪrɪtʃʊəl ˈpɜːpəsɪz ɔːr æz ə ˈmɛθəd əv ˌriːlækˈseɪʃən./"
+      },
+      {
+        "sentence": "He started to meditate.",
+        "meaning-example": "Anh ấy bắt đầu ngồi thiền.",
+        "ipa-example": "/hiː ˈstɑːtɪd tuː ˈmɛdɪteɪt./"
+      },
+      {
+        "sentence": "I try to meditate for 20 minutes every morning.",
+        "meaning-example": "Tôi cố gắng thiền 20 phút mỗi sáng.",
+        "ipa-example": "/aɪ traɪ tuː ˈmɛdɪteɪt fɔː 20 ˈmɪnɪts ˈɛvri ˈmɔːnɪŋ./"
+      },
+      {
+        "sentence": "She was meditating on the meaning of life.",
+        "meaning-example": "Cô đang trầm tư về ý nghĩa của cuộc sống.",
+        "ipa-example": "/ʃi wəz ˈmɛdɪteɪtɪŋ ɒn ðə ˈmiːnɪŋ əv laɪf./"
+      }
+    ]
+  },
+  {
+    "word": "nick",
+    "ipa": "/nɪk/",
+    "meaning": "Cắt nhẹ, khía, làm sứt.",
+    "image": "eew-5-18/15.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "nick",
+        "meaning-example": "Cắt nhẹ, khía, làm sứt.",
+        "ipa-example": "/nɪk/"
+      },
+      {
+        "sentence": "Dao cạo râu \"nhích\" (nick) một cái, tạo ra một vết cắt nhỏ trên da. Nick là cắt nhẹ, khía nhẹ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make a small cut in something.",
+        "meaning-example": "Tạo một vết cắt nhỏ trên một cái gì đó.",
+        "ipa-example": "/tuː meɪk ə smɔːl kʌt ɪn ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "Even when Darius nicked him on the cheek with the edge of his sword, the soldier did not move.",
+        "meaning-example": "Ngay cả khi Darius khía nhẹ vào má anh bằng lưỡi kiếm của mình, người lính cũng không hề di chuyển.",
+        "ipa-example": "/ˈiːvən wɛn ˈdæriəs nɪkt hɪm ɒn ðə tʃiːk wɪð ði ɛdʒ əv hɪz sɔːd, ðə ˈsəʊldʒə dɪd nɒt muːv./"
+      },
+      {
+        "sentence": "He nicked himself while shaving.",
+        "meaning-example": "Anh ấy đã tự cắt vào mình khi cạo râu.",
+        "ipa-example": "/hi nɪkt hɪmˈsɛlf waɪl ˈʃeɪvɪŋ./"
+      },
+      {
+        "sentence": "The car was nicked in several places.",
+        "meaning-example": "Chiếc xe bị xước ở nhiều chỗ.",
+        "ipa-example": "/ðə kɑː wəz nɪkt ɪn ˈsɛvrəl ˈpleɪsɪz./"
+      }
+    ]
+  },
+  {
+    "word": "provoke",
+    "ipa": "/prəˈvəʊk/",
+    "meaning": "Khiêu khích, chọc tức.",
+    "image": "eew-5-18/16.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "provoke",
+        "meaning-example": "Khiêu khích, chọc tức.",
+        "ipa-example": "/prəˈvəʊk/"
+      },
+      {
+        "sentence": "\"Pro-vốc\". Một người rất \"pro\" (chuyên nghiệp) trong việc \"vốc\" lời nói ra để khiêu khích, chọc tức người khác. Provoke là khiêu khích.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To deliberately make someone angry or annoyed.",
+        "meaning-example": "Cố tình làm cho ai đó tức giận hoặc khó chịu.",
+        "ipa-example": "/tuː dɪˈlɪbərɪtli meɪk ˈsʌmwʌn ˈæŋɡri ɔːr əˈnɔɪd./"
+      },
+      {
+        "sentence": "Darius tried to provoke him by hacking at the air close to his head with his sword.",
+        "meaning-example": "Darius cố gắng khiêu khích anh bằng cách vung kiếm chém vào không khí gần đầu anh.",
+        "ipa-example": "/ˈdæriəs traɪd tuː prəˈvəʊk hɪm baɪ ˈhækɪŋ æt ði eə kləʊs tuː hɪz hɛd wɪð hɪz sɔːd./"
+      },
+      {
+        "sentence": "The dog is harmless unless provoked.",
+        "meaning-example": "Con chó vô hại trừ khi bị khiêu khích.",
+        "ipa-example": "/ðə dɒɡ ɪz ˈhɑːmləs ənˈlɛs prəˈvəʊkt./"
+      },
+      {
+        "sentence": "His comments were intended to provoke a reaction.",
+        "meaning-example": "Những bình luận của anh ấy nhằm mục đích gây ra một phản ứng.",
+        "ipa-example": "/hɪz ˈkɒmɛnts wər ɪnˈtɛndɪd tuː prəˈvəʊk ə riˈækʃən./"
+      }
+    ]
+  },
+  {
+    "word": "realm",
+    "ipa": "/relm/",
+    "meaning": "Vương quốc; lĩnh vực, phạm vi.",
+    "image": "eew-5-18/17.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "realm",
+        "meaning-example": "Vương quốc; lĩnh vực, phạm vi.",
+        "ipa-example": "/relm/"
+      },
+      {
+        "sentence": "Nghe như \"rèm\". Vị vua cai trị vương quốc của mình từ sau tấm \"rèm\" ngọc. Realm là vương quốc, lĩnh vực.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A kingdom; a field or domain of activity or interest.",
+        "meaning-example": "Một vương quốc; một lĩnh vực hoặc phạm vi hoạt động hoặc quan tâm.",
+        "ipa-example": "/ə ˈkɪŋdəm; ə fiːld ɔː dəʊˈmeɪn əv ækˈtɪvəti ɔːr ˈɪntrɪst./"
+      },
+      {
+        "sentence": "His foe Darius, who was skilled in the realm of sword fighting and was typically not very aggressive, would not fight the quiet soldier until he attacked Darius first.",
+        "meaning-example": "Kẻ thù của anh, Darius, người có kỹ năng trong lĩnh vực đấu kiếm và thường không hung hăng lắm, sẽ không chiến đấu với người lính trầm lặng cho đến khi anh ta tấn công Darius trước.",
+        "ipa-example": "/hɪz fəʊ ˈdæriəs, huː wəz skɪld ɪn ðə rɛlm əv sɔːd ˈfaɪtɪŋ ænd wəz ˈtɪpɪkəli nɒt ˈvɛri əˈɡrɛsɪv, wʊd nɒt faɪt ðə ˈkwaɪət ˈsəʊldʒər ənˈtɪl hiː əˈtækt ˈdæriəs fɜːst./"
+      },
+      {
+        "sentence": "The king ruled over a vast realm.",
+        "meaning-example": "Nhà vua cai trị một vương quốc rộng lớn.",
+        "ipa-example": "/ðə kɪŋ ruːld ˈəʊvər ə vɑːst rɛlm./"
+      },
+      {
+        "sentence": "He is a master in the realm of theoretical physics.",
+        "meaning-example": "Ông là một bậc thầy trong lĩnh vực vật lý lý thuyết.",
+        "ipa-example": "/hi ɪz ə ˈmɑːstər ɪn ðə rɛlm əv θɪəˈrɛtɪkəl ˈfɪzɪks./"
+      }
+    ]
+  },
+  {
+    "word": "reign",
+    "ipa": "/reɪn/",
+    "meaning": "Triều đại, thời gian trị vì.",
+    "image": "eew-5-18/18.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "reign",
+        "meaning-example": "Triều đại, thời gian trị vì.",
+        "ipa-example": "/reɪn/"
+      },
+      {
+        "sentence": "Nghe như \"rain\" (mưa). Trong triều đại của vị vua này, \"mưa\" thuận gió hòa, đất nước thịnh vượng. Reign là triều đại, thời gian trị vì.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The period during which a sovereign rules.",
+        "meaning-example": "Thời kỳ mà một vị quân chủ cai trị.",
+        "ipa-example": "/ðə ˈpɪərɪəd ˈdjʊərɪŋ wɪtʃ ə ˈsɒvrɪn ruːlz./"
+      },
+      {
+        "sentence": "This was commonplace during his reign.",
+        "meaning-example": "Điều này là phổ biến trong triều đại của ông.",
+        "ipa-example": "/ðɪs wəz ˈkɒmənpleɪs ˈdjʊərɪŋ hɪz reɪn./"
+      },
+      {
+        "sentence": "The reign of Queen Victoria was a long one.",
+        "meaning-example": "Triều đại của Nữ hoàng Victoria là một triều đại dài.",
+        "ipa-example": "/ðə reɪn əv kwiːn vɪkˈtɔːrɪə wəz ə lɒŋ wʌn./"
+      },
+      {
+        "sentence": "Peace and prosperity marked his reign.",
+        "meaning-example": "Hòa bình và thịnh vượng đã đánh dấu triều đại của ông.",
+        "ipa-example": "/piːs ænd prɒˈspɛrɪti mɑːkt hɪz reɪn./"
+      }
+    ]
+  },
+  {
+    "word": "rust",
+    "ipa": "/rʌst/",
+    "meaning": "Gỉ, gỉ sét.",
+    "image": "eew-5-18/19.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "rust",
+        "meaning-example": "Gỉ, gỉ sét.",
+        "ipa-example": "/rʌst/"
+      },
+      {
+        "sentence": "\"Rớt\". Thanh sắt để ngoài trời, bị nước mưa \"rớt\" vào nên bị gỉ sét. Rust là gỉ sét.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A reddish-brown flaky coating of iron oxide that is formed on iron or steel by oxidation, especially in the presence of moisture.",
+        "meaning-example": "Một lớp phủ bong tróc màu nâu đỏ của oxit sắt được hình thành trên sắt hoặc thép do quá trình oxy hóa, đặc biệt là khi có độ ẩm.",
+        "ipa-example": "/ə ˈrɛdɪʃ-braʊn ˈfleɪki ˈkəʊtɪŋ əv ˈaɪən ˈɒksaɪd ðæt s fɔːmd ɒn ˈaɪən ɔː stiːl baɪ ˌɒksɪˈdeɪʃən, ɪsˈpɛʃəli ɪn ðə ˈprɛzns əv ˈmɔɪstʃə./"
+      },
+      {
+        "sentence": "A gate coated in rust stood between him and the auditorium’s floor.",
+        "meaning-example": "Một cánh cổng phủ đầy rỉ sét đứng giữa anh và sàn của khán phòng (đấu trường).",
+        "ipa-example": "/ə ɡeɪt ˈkəʊtɪd ɪn rʌst stʊd bɪˈtwiːn hɪm ænd ði ˌɔːdɪˈtɔːriəmz flɔː./"
+      },
+      {
+        "sentence": "The old bike was covered in rust.",
+        "meaning-example": "Chiếc xe đạp cũ đã bị rỉ sét bao phủ.",
+        "ipa-example": "/ði əʊld baɪk wəz ˈkʌvəd ɪn rʌst./"
+      },
+      {
+        "sentence": "You can remove rust with vinegar.",
+        "meaning-example": "Bạn có thể loại bỏ rỉ sét bằng giấm.",
+        "ipa-example": "/ju kæn rɪˈmuːv rʌst wɪð ˈvɪnɪɡə./"
+      }
+    ]
+  },
+  {
+    "word": "sacred",
+    "ipa": "/ˈseɪkrɪd/",
+    "meaning": "Thiêng liêng, linh thiêng.",
+    "image": "eew-5-18/20.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "sacred",
+        "meaning-example": "Thiêng liêng, linh thiêng.",
+        "ipa-example": "/ˈseɪkrɪd/"
+      },
+      {
+        "sentence": "\"Say-crid\". \"Say\" hello với \"credit\" card, nhưng không phải để mua sắm, mà để cúng vào chùa. Vì nơi đây là nơi thiêng liêng (sacred), mọi thứ đều linh thiêng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Connected with God or a god or dedicated to a religious purpose and so deserving veneration.",
+        "meaning-example": "Được kết nối với Thượng đế hoặc một vị thần hoặc được dành cho một mục đích tôn giáo và do đó xứng đáng được tôn kính.",
+        "ipa-example": "/kəˈnɛktɪd wɪð ɡɒd ɔːr ə ɡɒd ɔː ˈdɛdɪkeɪtɪd tuː ə rɪˈlɪdʒəs ˈpɜːpəs ænd səʊ dɪˈzɜːvɪŋ ˌvɛnəˈreɪʃən./"
+      },
+      {
+        "sentence": "He now felt that all life was sacred.",
+        "meaning-example": "Bây giờ anh cảm thấy rằng tất cả sự sống đều thiêng liêng.",
+        "ipa-example": "/hiː naʊ fɛlt ðæt ɔːl laɪf wəz ˈseɪkrɪd./"
+      },
+      {
+        "sentence": "The cow is a sacred animal in India.",
+        "meaning-example": "Con bò là một con vật thiêng liêng ở Ấn Độ.",
+        "ipa-example": "/ðə kaʊ ɪz ə ˈseɪkrɪd ˈænɪməl ɪn ˈɪndɪə./"
+      },
+      {
+        "sentence": "The monks live in a sacred place.",
+        "meaning-example": "Các nhà sư sống ở một nơi linh thiêng.",
+        "ipa-example": "/ðə mʌŋks lɪv ɪn ə ˈseɪkrɪd pleɪs./"
+      }
+    ]
+  }
+]
