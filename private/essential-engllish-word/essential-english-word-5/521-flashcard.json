@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Kinh ngạc, sửng sốt.",
+    "classes": "adj",
+    "answer": "astounded",
+    "ipa": "/əˈstaʊndɪd/",
+    "example": "But when Alice saw Katie, she was astounded.",
+    "english-definition": "Greatly surprised or amazed.",
+    "images": "eew-5-21/1.png"
+  },
+  {
+    "question": "Thuộc tính, đặc tính.",
+    "classes": "n",
+    "answer": "attribute",
+    "ipa": "/ˈætrɪbjuːt/",
+    "example": "But the twins’ attributes were not all identical.",
+    "english-definition": "A quality or feature regarded as a characteristic or inherent part of someone or something.",
+    "images": "eew-5-21/2.png"
+  },
+  {
+    "question": "Song ngữ, nói được hai thứ tiếng.",
+    "classes": "adj",
+    "answer": "bilingual",
+    "ipa": "/ˌbaɪˈlɪŋɡwəl/",
+    "example": "Katie was now bilingual, and she looked completely different!",
+    "english-definition": "Speaking two languages fluently.",
+    "images": "eew-5-21/3.png"
+  },
+  {
+    "question": "Bản sao, nhân bản vô tính.",
+    "classes": "n",
+    "answer": "clone",
+    "ipa": "/kloʊn/",
+    "example": "They were almost like clones.",
+    "english-definition": "A person or thing regarded as an exact copy of another.",
+    "images": "eew-5-21/4.png"
+  },
+  {
+    "question": "Thông tục, dùng trong giao tiếp hàng ngày.",
+    "classes": "adj",
+    "answer": "colloquial",
+    "ipa": "/kəˈloʊkwiəl/",
+    "example": "They even used the same colloquial language as each other.",
+    "english-definition": "(Of language) used in ordinary or familiar conversation; not formal or literary.",
+    "images": "eew-5-21/5.png"
+  },
+  {
+    "question": "Mỹ phẩm.",
+    "classes": "n",
+    "answer": "cosmetics",
+    "ipa": "/kɑːzˈmetɪks/",
+    "example": "She was wearing nice clothes, cosmetics and looked skinnier.",
+    "english-definition": "Substances or products used to enhance or alter the appearance of the face or body.",
+    "images": "eew-5-21/6.png"
+  },
+  {
+    "question": "Lao tới, xông tới.",
+    "classes": "v",
+    "answer": "dash",
+    "ipa": "/dæʃ/",
+    "example": "Alice dashed to the airport to greet her sister.",
+    "english-definition": "To run or travel somewhere in a great hurry.",
+    "images": "eew-5-21/7.png"
+  },
+  {
+    "question": "Sự ghê tởm, sự phẫn nộ.",
+    "classes": "n",
+    "answer": "disgust",
+    "ipa": "/dɪsˈɡʌst/",
+    "example": "It made Alice furious and filled her with disgust because in the past they’d always told each other everything.",
+    "english-definition": "A feeling of revulsion or strong disapproval aroused by something unpleasant or offensive.",
+    "images": "eew-5-21/8.png"
+  },
+  {
+    "question": "Huỳnh quang, phát quang.",
+    "classes": "adj",
+    "answer": "fluorescent",
+    "ipa": "/ˌflɔːˈresnt/",
+    "example": "She was just wearing a fluorescent t-shirt, and her hair had knots in it.",
+    "english-definition": "(Of a substance) having or showing fluorescence; vividly colourful.",
+    "images": "eew-5-21/9.png"
+  },
+  {
+    "question": "Giận dữ, điên tiết.",
+    "classes": "adj",
+    "answer": "furious",
+    "ipa": "/ˈfjʊriəs/",
+    "example": "It made Alice furious and filled her with disgust because in the past they’d always told each other everything.",
+    "english-definition": "Extremely angry.",
+    "images": "eew-5-21/10.png"
+  },
+  {
+    "question": "Hố sâu ngăn cách, vịnh.",
+    "classes": "n",
+    "answer": "gulf",
+    "ipa": "/ɡʌlf/",
+    "example": "Now there was a huge gulf between them.",
+    "english-definition": "A deep inlet of the sea almost surrounded by land, with a narrow mouth; a large gap or division between two people or groups.",
+    "images": "eew-5-21/11.png"
+  },
+  {
+    "question": "Khoa học nhân văn.",
+    "classes": "n",
+    "answer": "humanities",
+    "ipa": "/hjuːˈmænətiz/",
+    "example": "Alice liked humanities, and Katie was a good linguist.",
+    "english-definition": "Academic disciplines that study aspects of human society and culture.",
+    "images": "eew-5-21/12.png"
+  },
+  {
+    "question": "Nút thắt, chỗ rối.",
+    "classes": "n",
+    "answer": "knot",
+    "ipa": "/nɑːt/",
+    "example": "...and her hair had knots in it.",
+    "english-definition": "A fastening made by looping a piece of string, rope, or something similar on itself and tightening it.",
+    "images": "eew-5-21/13.png"
+  },
+  {
+    "question": "Nhà ngôn ngữ học, người giỏi ngoại ngữ.",
+    "classes": "n",
+    "answer": "linguist",
+    "ipa": "/ˈlɪŋɡwɪst/",
+    "example": "...and Katie was a good linguist.",
+    "english-definition": "A person skilled in foreign languages or a person who studies linguistics.",
+    "images": "eew-5-21/14.png"
+  },
+  {
+    "question": "Người tham gia.",
+    "classes": "n",
+    "answer": "participant",
+    "ipa": "/pɑːrˈtɪsɪpənt/",
+    "example": "Katie decided to be a participant at a summer camp in France.",
+    "english-definition": "A person who takes part in something.",
+    "images": "eew-5-21/15.png"
+  },
+  {
+    "question": "Có vẻ hợp lý, đáng tin.",
+    "classes": "adj",
+    "answer": "plausible",
+    "ipa": "/ˈplɔːzəbl/",
+    "example": "But it’s totally plausible for twins to have different interests.",
+    "english-definition": "(of an argument or statement) seeming reasonable or probable.",
+    "images": "eew-5-21/16.png"
+  },
+  {
+    "question": "Nghi lễ, nghi thức.",
+    "classes": "n",
+    "answer": "ritual",
+    "ipa": "/ˈrɪtʃuəl/",
+    "example": "All their lives, they’d had a ritual.",
+    "english-definition": "A religious or solemn ceremony consisting of a series of actions performed according to a prescribed order.",
+    "images": "eew-5-21/17.png"
+  },
+  {
+    "question": "Anh chị em ruột.",
+    "classes": "n",
+    "answer": "sibling",
+    "ipa": "/ˈsɪblɪŋ/",
+    "example": "They were so alike that few people could tell the siblings apart.",
+    "english-definition": "Each of two or more children or offspring having one or both parents in common; a brother or sister.",
+    "images": "eew-5-21/18.png"
+  },
+  {
+    "question": "Gầy, mảnh khảnh.",
+    "classes": "adj",
+    "answer": "skinny",
+    "ipa": "/ˈskɪni/",
+    "example": "She was wearing nice clothes, cosmetics and looked skinnier.",
+    "english-definition": "(of a person or part of their body) very thin.",
+    "images": "eew-5-21/19.png"
+  },
+  {
+    "question": "Mơ hồ, không rõ ràng.",
+    "classes": "adj",
+    "answer": "vague",
+    "ipa": "/veɪɡ/",
+    "example": "When Alice asked Katie about France, Katie was vague and didn’t say much.",
+    "english-definition": "Of uncertain, indefinite, or unclear character or meaning.",
+    "images": "eew-5-21/20.png"
+  }
+]
