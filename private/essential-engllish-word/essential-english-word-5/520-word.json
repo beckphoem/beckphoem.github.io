@@ -1,0 +1,917 @@
+[
+  {
+    "word": "aggregate",
+    "ipa": "/ˈæɡrɪɡət/",
+    "meaning": "Tổng hợp, toàn bộ.",
+    "image": "eew-5-20/1.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "aggregate",
+        "meaning-example": "Tổng hợp, toàn bộ.",
+        "ipa-example": "/ˈæɡrɪɡət/"
+      },
+      {
+        "sentence": "\"Á-gờ-ri-gết\". \"Á\", sao cái cổng (\"gết\" - gate) này \"gờ\" ghê thế, nó được làm từ tổng hợp (aggregate) các loại đá.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Formed or calculated by the combination of many separate units or items; total.",
+        "meaning-example": "Được hình thành hoặc tính toán bằng sự kết hợp của nhiều đơn vị hoặc mục riêng lẻ; tổng cộng.",
+        "ipa-example": "/fɔrmd ɔr ˈkælkjuˌleɪtɪd baɪ ðə ˌkɑmbəˈneɪʃən əv ˈmɛni ˈsɛprət ˈjunəts ɔr ˈaɪtəmz; ˈtoʊtəl./"
+      },
+      {
+        "sentence": "They can find the aggregate number of immune and infected cells and present the results in a ratio.",
+        "meaning-example": "Họ có thể tìm thấy tổng số tế bào miễn dịch và bị nhiễm bệnh và trình bày kết quả theo tỷ lệ.",
+        "ipa-example": "/ðeɪ kæn faɪnd ði ˈæɡrəgət ˈnʌmbər əv ɪˈmjun ænd ɪnˈfɛktɪd sɛlz ænd prɪˈzɛnt ðə rɪˈzʌlts ɪn ə ˈreɪʃioʊ./"
+      },
+      {
+        "sentence": "The aggregate score of the two games was 5-2.",
+        "meaning-example": "Tổng tỷ số của hai trận đấu là 5-2.",
+        "ipa-example": "/ði ˈæɡrəgət skɔr əv ðə tu geɪmz wəz faɪv tu tu./"
+      },
+      {
+        "sentence": "The company's aggregate sales increased by 10%.",
+        "meaning-example": "Tổng doanh thu của công ty đã tăng 10%.",
+        "ipa-example": "/ðə ˈkʌmpəniz ˈæɡrəgət seɪlz ɪnˈkrist baɪ tɛn pərˈsɛnt./"
+      }
+    ]
+  },
+  {
+    "word": "antibiotic",
+    "ipa": "/ˌæntibaɪˈɑːtɪk/",
+    "meaning": "Thuốc kháng sinh.",
+    "image": "eew-5-20/2.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "antibiotic",
+        "meaning-example": "Thuốc kháng sinh.",
+        "ipa-example": "/ˌæntibaɪˈɑːtɪk/"
+      },
+      {
+        "sentence": "\"An-ti-bai-ô-tích\". \"An-ti\" (chống lại) những vi khuẩn \"tích\" tụ trong \"bai-ô\" (bio - cơ thể sống) thì phải dùng thuốc kháng sinh (antibiotic).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A medicine (such as penicillin or its derivatives) that inhibits the growth of or destroys microorganisms.",
+        "meaning-example": "Một loại thuốc (chẳng hạn như penicillin hoặc các dẫn xuất của nó) có tác dụng ức chế sự phát triển hoặc tiêu diệt vi sinh vật.",
+        "ipa-example": "/ə ˈmɛdəsən (sʌʧ æz ˌpɛnəˈsɪlɪn ɔr ɪts dəˈrɪvətɪvz) ðæt ɪnˈhɪbɪts ðə groʊθ əv ɔr dɪˈstrɔɪz ˌmaɪkroʊˈɔrgəˌnɪzəmz./"
+      },
+      {
+        "sentence": "They can even tell doctors what type of antibiotic to give to the patient!",
+        "meaning-example": "Họ thậm chí có thể cho bác sĩ biết nên cho bệnh nhân dùng loại thuốc kháng sinh nào!",
+        "ipa-example": "/ðeɪ kæn ˈivɪn tɛl ˈdɑktərz wʌt taɪp əv ˌæntibaɪˈɑtɪk tu gɪv tu ðə ˈpeɪʃənt!/"
+      },
+      {
+        "sentence": "The doctor prescribed an antibiotic for my ear infection.",
+        "meaning-example": "Bác sĩ đã kê một loại thuốc kháng sinh cho bệnh nhiễm trùng tai của tôi.",
+        "ipa-example": "/ðə ˈdɑktər prɪˈskraɪbd ən ˌæntibaɪˈɑtɪk fɔr maɪ ir ɪnˈfɛkʃən./"
+      },
+      {
+        "sentence": "Overuse of antibiotics can lead to resistant bacteria.",
+        "meaning-example": "Lạm dụng thuốc kháng sinh có thể dẫn đến vi khuẩn kháng thuốc.",
+        "ipa-example": "/ˈoʊvərjus əv ˌæntibaɪˈɑtɪks kæn lid tu rɪˈzɪstənt bækˈtɪriə./"
+      }
+    ]
+  },
+  {
+    "word": "circuit",
+    "ipa": "/ˈsɜːrkɪt/",
+    "meaning": "Mạch điện.",
+    "image": "eew-5-20/3.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "circuit",
+        "meaning-example": "Mạch điện.",
+        "ipa-example": "/ˈsɜːrkɪt/"
+      },
+      {
+        "sentence": "\"Sơ-kít\". Mạch điện này \"sơ\" sài quá, dễ bị chập, \"kít\" một cái là hỏng. Circuit là mạch điện.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A complete and closed path around which a circulating electric current can flow.",
+        "meaning-example": "Một đường đi hoàn chỉnh và khép kín mà dòng điện lưu thông có thể chạy qua.",
+        "ipa-example": "/ə kəmˈplit ænd kloʊzd pæθ əˈraʊnd wɪʧ ə ˈsɜrkjəˌleɪtɪŋ ɪˈlɛktrɪk ˈkɜrənt kæn floʊ./"
+      },
+      {
+        "sentence": "They are made up of compressed electrical circuits that can detect and record data about the body.",
+        "meaning-example": "Chúng được tạo thành từ các mạch điện nén có thể phát hiện và ghi lại dữ liệu về cơ thể.",
+        "ipa-example": "/ðeɪ ɑr meɪd ʌp əv kəmˈprɛst ɪˈlɛktrɪkəl ˈsɜrkɪts ðæt kæn dɪˈtɛkt ænd rɪˈkɔrd ˈdeɪtə əˈbaʊt ðə ˈbɑdi./"
+      },
+      {
+        "sentence": "An electrician is needed to repair the circuit.",
+        "meaning-example": "Cần một thợ điện để sửa chữa mạch điện.",
+        "ipa-example": "/ən ɪlɛkˈtrɪʃən ɪz ˈnidɪd tu rɪˈpɛr ðə ˈsɜrkɪt./"
+      },
+      {
+        "sentence": "A short circuit caused the power outage.",
+        "meaning-example": "Một sự cố chập mạch đã gây ra mất điện.",
+        "ipa-example": "/ə ʃɔrt ˈsɜrkɪt kɔzd ðə ˈpaʊər ˈaʊtɪʤ./"
+      }
+    ]
+  },
+  {
+    "word": "complement",
+    "ipa": "/ˈkɑːmplɪment/",
+    "meaning": "Bổ sung, làm cho hoàn thiện.",
+    "image": "eew-5-20/4.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "complement",
+        "meaning-example": "Bổ sung, làm cho hoàn thiện.",
+        "ipa-example": "/ˈkɑːmplɪment/"
+      },
+      {
+        "sentence": "\"Com-lì-mừn\". Món \"com\" (cơm) này ăn với \"lì-mừn\" (lemon - chanh) thì sẽ bổ sung (complement) cho nhau, tạo ra hương vị tuyệt vời.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To add to (something) in a way that enhances or improves it; make perfect.",
+        "meaning-example": "Thêm vào (thứ gì đó) theo cách tăng cường hoặc cải thiện nó; làm cho hoàn hảo.",
+        "ipa-example": "/tu æd tu (ˈsʌmθɪŋ) ɪn ə weɪ ðæt ɪnˈhænsɪz ɔr ɪmˈpruvɪz ɪt; meɪk ˈpɜrfɪkt./"
+      },
+      {
+        "sentence": "It is obvious that medicine and computers complement each other well.",
+        "meaning-example": "Rõ ràng là y học và máy tính bổ sung cho nhau rất tốt.",
+        "ipa-example": "/ɪt ɪz ˈɑbviəs ðæt ˈmɛdəsɪn ænd kəmˈpjutərz ˈkɑmpləmənt iʧ ˈʌðər wɛl./"
+      },
+      {
+        "sentence": "The sauce complements the flavor of the meat.",
+        "meaning-example": "Nước sốt bổ sung cho hương vị của thịt.",
+        "ipa-example": "/ðə sɔs ˈkɑmpləmənts ðə ˈfleɪvər əv ðə mit./"
+      },
+      {
+        "sentence": "Her skills complement his, making them a great team.",
+        "meaning-example": "Kỹ năng của cô ấy bổ sung cho kỹ năng của anh ấy, khiến họ trở thành một đội tuyệt vời.",
+        "ipa-example": "/hɜr skɪlz ˈkɑmpləmənt hɪz, ˈmeɪkɪŋ ðɛm ə greɪt tim./"
+      }
+    ]
+  },
+  {
+    "word": "compress",
+    "ipa": "/kəmˈpres/",
+    "meaning": "Nén, ép.",
+    "image": "eew-5-20/5.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "compress",
+        "meaning-example": "Nén, ép.",
+        "ipa-example": "/kəmˈpres/"
+      },
+      {
+        "sentence": "\"Com-pờ-rét\". Chiếc máy ép \"com\" (cơm) này \"pờ-rét\" (press) một cái là nén (compress) cơm lại thành nắm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To squeeze or press together; to reduce in size, quantity, or volume as if by squeezing.",
+        "meaning-example": "Bóp hoặc ép lại với nhau; giảm kích thước, số lượng hoặc khối lượng như thể bằng cách bóp.",
+        "ipa-example": "/tu skwiz ɔr prɛs təˈgɛðər; tu rəˈdus ɪn saɪz, ˈkwɑntəti, ɔr ˈvɑljum æz ɪf baɪ ˈskwizɪŋ./"
+      },
+      {
+        "sentence": "They are made up of compressed electrical circuits that can detect and record data about the body.",
+        "meaning-example": "Chúng được tạo thành từ các mạch điện nén có thể phát hiện và ghi lại dữ liệu về cơ thể.",
+        "ipa-example": "/ðeɪ ɑr meɪd ʌp əv kəmˈprɛst ɪˈlɛktrɪkəl ˈsɜrkɪts ðæt kæn dɪˈtɛkt ænd rɪˈkɔrd ˈdeɪtə əˈbaʊt ðə ˈbɑdi./"
+      },
+      {
+        "sentence": "You need to compress the file before sending it.",
+        "meaning-example": "Bạn cần nén tệp trước khi gửi nó.",
+        "ipa-example": "/ju nid tu kəmˈprɛs ðə faɪl bɪˈfɔr ˈsɛndɪŋ ɪt./"
+      },
+      {
+        "sentence": "The machine compresses old cars into blocks of metal.",
+        "meaning-example": "Cái máy ép những chiếc ô tô cũ thành những khối kim loại.",
+        "ipa-example": "/ðə məˈʃin kəmˈprɛsɪz oʊld kɑrz ˈɪntu blɑks əv ˈmɛtəl./"
+      }
+    ]
+  },
+  {
+    "word": "database",
+    "ipa": "/ˈdeɪtəbeɪs/",
+    "meaning": "Cơ sở dữ liệu.",
+    "image": "eew-5-20/6.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "database",
+        "meaning-example": "Cơ sở dữ liệu.",
+        "ipa-example": "/ˈdeɪtəbeɪs/"
+      },
+      {
+        "sentence": "\"Data-base\" (dữ liệu - nền tảng). Nơi lưu trữ \"data\" (dữ liệu) một cách có hệ thống, làm \"base\" (nền tảng) cho mọi hoạt động. Đó là cơ sở dữ liệu (database).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A structured set of data held in a computer, especially one that is accessible in various ways.",
+        "meaning-example": "Một tập hợp dữ liệu có cấu trúc được lưu giữ trong máy tính, đặc biệt là một tập hợp có thể truy cập theo nhiều cách khác nhau.",
+        "ipa-example": "/ə ˈstrʌkʧərd sɛt əv ˈdeɪtə hɛld ɪn ə kəmˈpjutər, əˈspɛʃli wʌn ðæt ɪz əkˈsɛsəbəl ɪn ˈvɛriəs weɪz./"
+      },
+      {
+        "sentence": "At last, it begins the task of putting data into its database.",
+        "meaning-example": "Cuối cùng, nó bắt đầu nhiệm vụ đưa dữ liệu vào cơ sở dữ liệu của mình.",
+        "ipa-example": "/æt læst, ɪt bɪˈgɪnz ðə tæsk əv ˈpʊtɪŋ ˈdeɪtə ˈɪntu ɪts ˈdeɪtəbeɪs./"
+      },
+      {
+        "sentence": "The police have a database of fingerprints.",
+        "meaning-example": "Cảnh sát có một cơ sở dữ liệu về dấu vân tay.",
+        "ipa-example": "/ðə pəˈlis hæv ə ˈdeɪtəbeɪs əv ˈfɪŋgərˌprɪnts./"
+      },
+      {
+        "sentence": "All our customer information is stored in a secure database.",
+        "meaning-example": "Tất cả thông tin khách hàng của chúng tôi được lưu trữ trong một cơ sở dữ liệu an toàn.",
+        "ipa-example": "/ɔl ˈaʊər ˈkʌstəmər ˌɪnfərˈmeɪʃən ɪz stɔrd ɪn ə sɪˈkjʊr ˈdeɪtəbeɪs./"
+      }
+    ]
+  },
+  {
+    "word": "equivalent",
+    "ipa": "/ɪˈkwɪvələnt/",
+    "meaning": "Cái tương đương, vật tương đương.",
+    "image": "eew-5-20/7.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "equivalent",
+        "meaning-example": "Cái tương đương, vật tương đương.",
+        "ipa-example": "/ɪˈkwɪvələnt/"
+      },
+      {
+        "sentence": "\"I-quy-vơ-lần\". \"I\" (tôi) \"quy\" đổi tiền \"vơ\" được mấy \"lần\" nhưng giá trị tương đương (equivalent) vẫn vậy.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person or thing that is equal to or corresponds with another in value, amount, function, meaning, etc.",
+        "meaning-example": "Một người hoặc vật bằng hoặc tương ứng với một người hoặc vật khác về giá trị, số lượng, chức năng, ý nghĩa, v.v.",
+        "ipa-example": "/ə ˈpɜrsən ɔr θɪŋ ðæt ɪz ˈikwəl tu ɔr ˌkɔrəˈspɑndz wɪθ əˈnʌðər ɪn ˈvælju, əˈmaʊnt, ˈfʌŋkʃən, ˈminɪŋ, ɛtˈsɛtərə./"
+      },
+      {
+        "sentence": "They are tiny, but they hold the equivalent amount of data as most computers.",
+        "meaning-example": "Chúng rất nhỏ, nhưng chúng chứa lượng dữ liệu tương đương với hầu hết các máy tính.",
+        "ipa-example": "/ðeɪ ɑr ˈtaɪni, bʌt ðeɪ hoʊld ði ɪˈkwɪvələnt əˈmaʊnt əv ˈdeɪtə æz moʊst kəmˈpjutərz./"
+      },
+      {
+        "sentence": "Sending a text message is the modern equivalent of writing a letter.",
+        "meaning-example": "Gửi tin nhắn văn bản là hình thức tương đương hiện đại của việc viết một lá thư.",
+        "ipa-example": "/ˈsɛndɪŋ ə tɛkst ˈmɛsɪʤ ɪz ðə ˈmɑdərn ɪˈkwɪvələnt əv ˈraɪtɪŋ ə ˈlɛtər./"
+      },
+      {
+        "sentence": "He earns the equivalent of 100,000 dollars a year in his country.",
+        "meaning-example": "Anh ấy kiếm được số tiền tương đương 100.000 đô la một năm ở đất nước của mình.",
+        "ipa-example": "/hi ɜrnz ði ɪˈkwɪvələnt əv wʌn ˈhʌndrəd ˈθaʊzənd ˈdɑlərz ə jɪr ɪn hɪz ˈkʌntri./"
+      }
+    ]
+  },
+  {
+    "word": "immune",
+    "ipa": "/ɪˈmjuːn/",
+    "meaning": "Miễn dịch, được miễn.",
+    "image": "eew-5-20/8.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "immune",
+        "meaning-example": "Miễn dịch, được miễn.",
+        "ipa-example": "/ɪˈmjuːn/"
+      },
+      {
+        "sentence": "\"I-miun\". \"I\" (tôi) thấy \"miun\" (muỗi) mà không sợ vì tôi đã miễn dịch (immune) với bệnh sốt rét rồi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Resistant to a particular infection or toxin owing to the presence of specific antibodies or sensitized white blood cells.",
+        "meaning-example": "Kháng lại một bệnh nhiễm trùng hoặc độc tố cụ thể do sự hiện diện của các kháng thể đặc hiệu hoặc các tế bào bạch cầu nhạy cảm.",
+        "ipa-example": "/rɪˈzɪstənt tu ə pərˈtɪkjələr ɪnˈfɛkʃən ɔr ˈtɑksɪn ˈoʊɪŋ tu ðə ˈprɛzəns əv spəˈsɪfɪk ˈæntɪˌbɑdiz ɔr ˈsɛnsɪˌtaɪzd waɪt blʌd sɛlz./"
+      },
+      {
+        "sentence": "They can find the aggregate number of immune and infected cells and present the results in a ratio.",
+        "meaning-example": "Họ có thể tìm thấy tổng số tế bào miễn dịch và bị nhiễm bệnh và trình bày kết quả theo tỷ lệ.",
+        "ipa-example": "/ðeɪ kæn faɪnd ði ˈæɡrəgət ˈnʌmbər əv ɪˈmjun ænd ɪnˈfɛktɪd sɛlz ænd prɪˈzɛnt ðə rɪˈzʌlts ɪn ə ˈreɪʃioʊ./"
+      },
+      {
+        "sentence": "After getting the vaccine, you will be immune to the virus.",
+        "meaning-example": "Sau khi tiêm vắc-xin, bạn sẽ miễn dịch với vi-rút.",
+        "ipa-example": "/ˈæftər ˈgɛtɪŋ ðə vækˈsin, ju wɪl bi ɪˈmjun tu ðə ˈvaɪrəs./"
+      },
+      {
+        "sentence": "No one is immune to criticism.",
+        "meaning-example": "Không ai miễn nhiễm với sự chỉ trích.",
+        "ipa-example": "/noʊ wʌn ɪz ɪˈmjun tu ˈkrɪtɪˌsɪzəm./"
+      }
+    ]
+  },
+  {
+    "word": "input",
+    "ipa": "/ˈɪnpʊt/",
+    "meaning": "Dữ liệu đầu vào, thông tin nhập vào.",
+    "image": "eew-5-20/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "input",
+        "meaning-example": "Dữ liệu đầu vào, thông tin nhập vào.",
+        "ipa-example": "/ˈɪnpʊt/"
+      },
+      {
+        "sentence": "\"In-pút\". \"In\" (vào) \"pút\" (put - đặt). \"Đặt vào\" máy tính dữ liệu đầu vào (input).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "What is put in, taken in, or operated on by any process or system.",
+        "meaning-example": "Những gì được đưa vào, tiếp nhận hoặc được vận hành bởi bất kỳ quy trình hoặc hệ thống nào.",
+        "ipa-example": "/wʌt ɪz pʊt ɪn, ˈteɪkən ɪn, ɔr ˈɑpəˌreɪtəd ɒn baɪ ˈɛni ˈprɑsɛs ɔr ˈsɪstəm./"
+      },
+      {
+        "sentence": "Input about the person’s age, race, gender, and medical history is stored on the chip.",
+        "meaning-example": "Thông tin đầu vào về tuổi, chủng tộc, giới tính và tiền sử bệnh của người đó được lưu trữ trên chip.",
+        "ipa-example": "/ˈɪnpʊt əˈbaʊt ðə ˈpɜrsənz eɪʤ, reɪs, ˈʤɛndər, ænd ˈmɛdɪkəl ˈhɪstəri ɪz stɔrd ɒn ðə ʧɪp./"
+      },
+      {
+        "sentence": "I'd appreciate your input on this problem.",
+        "meaning-example": "Tôi sẽ đánh giá cao ý kiến đóng góp của bạn về vấn đề này.",
+        "ipa-example": "/aɪd əˈpriʃiˌeɪt jʊər ˈɪnpʊt ɒn ðɪs ˈprɑbləm./"
+      },
+      {
+        "sentence": "The keyboard is the main input device for a computer.",
+        "meaning-example": "Bàn phím là thiết bị đầu vào chính của máy tính.",
+        "ipa-example": "/ðə ˈkiˌbɔrd ɪz ðə meɪn ˈɪnpʊt dɪˈvaɪs fɔr ə kəmˈpjutər./"
+      }
+    ]
+  },
+  {
+    "word": "intimate",
+    "ipa": "/ˈɪntɪmət/",
+    "meaning": "Thân mật, gần gũi.",
+    "image": "eew-5-20/10.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "intimate",
+        "meaning-example": "Thân mật, gần gũi.",
+        "ipa-example": "/ˈɪntɪmət/"
+      },
+      {
+        "sentence": "\"In-tì-mệt\". \"In\" trong lòng, \"tì\"m kiếm mệt mỏi mới có được mối quan hệ thân mật, gần gũi (intimate) thế này.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Closely acquainted; familiar, close.",
+        "meaning-example": "Quen biết thân thiết; thân thuộc, gần gũi.",
+        "ipa-example": "/ˈkloʊsli əˈkweɪntɪd; fəˈmɪljər, kloʊs./"
+      },
+      {
+        "sentence": "The bond between humans and computers is becoming more intimate than ever before.",
+        "meaning-example": "Mối liên kết giữa con người và máy tính đang trở nên thân mật hơn bao giờ hết.",
+        "ipa-example": "/ðə bɑnd bɪˈtwin ˈhjumənz ænd kəmˈpjutərz ɪz bɪˈkʌmɪŋ mɔr ˈɪntɪmət ðæn ˈɛvər bɪˈfɔr./"
+      },
+      {
+        "sentence": "They have an intimate friendship.",
+        "meaning-example": "Họ có một tình bạn thân thiết.",
+        "ipa-example": "/ðeɪ hæv ən ˈɪntɪmət ˈfrɛndʃɪp./"
+      },
+      {
+        "sentence": "The restaurant has a cozy, intimate atmosphere.",
+        "meaning-example": "Nhà hàng có một không khí ấm cúng, thân mật.",
+        "ipa-example": "/ðə ˈrɛstəˌrɑnt hæz ə ˈkoʊzi, ˈɪntɪmət ˈætməˌsfɪr./"
+      }
+    ]
+  },
+  {
+    "word": "magnet",
+    "ipa": "/ˈmæɡnət/",
+    "meaning": "Nam châm.",
+    "image": "eew-5-20/11.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "magnet",
+        "meaning-example": "Nam châm.",
+        "ipa-example": "/ˈmæɡnət/"
+      },
+      {
+        "sentence": "\"Mắc-nịt\". Cái thắt \"nịt\" này bị \"mắc\" vào nam châm (magnet) rồi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A piece of iron or other material that can attract iron-containing objects and that points north and south when suspended.",
+        "meaning-example": "Một miếng sắt hoặc vật liệu khác có thể hút các vật chứa sắt và chỉ về hướng bắc và nam khi được treo lơ lửng.",
+        "ipa-example": "/ə pis əv ˈaɪərn ɔr ˈʌðər məˈtɪriəl ðæt kæn əˈtrækt ˈaɪərn-kənˈteɪnɪŋ ˈɑbʤɛkts ænd ðæt pɔɪnts nɔrθ ænd saʊθ wɛn səˈspɛndɪd./"
+      },
+      {
+        "sentence": "To recover the chip’s data, the doctor uses a special magnet that copies it.",
+        "meaning-example": "Để lấy lại dữ liệu của chip, bác sĩ sử dụng một nam châm đặc biệt để sao chép nó.",
+        "ipa-example": "/tu rɪˈkʌvər ðə ʧɪps ˈdeɪtə, ðə ˈdɑktər ˈjuzɪz ə ˈspɛʃəl ˈmægnət ðæt ˈkɑpiz ɪt./"
+      },
+      {
+        "sentence": "I use a magnet to hold notes on my refrigerator door.",
+        "meaning-example": "Tôi dùng nam châm để giữ giấy ghi chú trên cửa tủ lạnh.",
+        "ipa-example": "/aɪ juz ə ˈmægnət tu hoʊld noʊts ɒn maɪ rɪˈfrɪʤəˌreɪtər dɔr./"
+      },
+      {
+        "sentence": "A compass needle is a small magnet.",
+        "meaning-example": "Kim la bàn là một nam châm nhỏ.",
+        "ipa-example": "/ə ˈkʌmpəs ˈnidəl ɪz ə smɔl ˈmægnət./"
+      }
+    ]
+  },
+  {
+    "word": "metabolism",
+    "ipa": "/məˈtæbəlɪzəm/",
+    "meaning": "Sự trao đổi chất.",
+    "image": "eew-5-20/12.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "metabolism",
+        "meaning-example": "Sự trao đổi chất.",
+        "ipa-example": "/məˈtæbəlɪzəm/"
+      },
+      {
+        "sentence": "\"Mê-ta-bô-li-dừm\". Cô ấy \"mê\" tập \"ta-bô\" (tabata) để \"lì\" lợm chống lại sự trao đổi chất (metabolism) chậm \"dừm\" của cơ thể.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The chemical processes that occur within a living organism in order to maintain life.",
+        "meaning-example": "Các quá trình hóa học xảy ra bên trong một sinh vật sống để duy trì sự sống.",
+        "ipa-example": "/ðə ˈkɛmɪkəl ˈprɑsɛsɪz ðæt əˈkɜr wɪˈðɪn ə ˈlɪvɪŋ ˈɔrgəˌnɪzəm ɪn ˈɔrdər tu meɪnˈteɪn laɪf./"
+      },
+      {
+        "sentence": "They can find problems with the person’s metabolism and organs.",
+        "meaning-example": "Chúng có thể tìm ra các vấn đề với sự trao đổi chất và các cơ quan của người đó.",
+        "ipa-example": "/ðeɪ kæn faɪnd ˈprɑbləmz wɪθ ðə ˈpɜrsənz məˈtæbəlɪzəm ænd ˈɔrgənz./"
+      },
+      {
+        "sentence": "Eating breakfast can help to speed up your metabolism.",
+        "meaning-example": "Ăn sáng có thể giúp tăng tốc độ trao đổi chất của bạn.",
+        "ipa-example": "/ˈitɪŋ ˈbrɛkfəst kæn hɛlp tu spid ʌp jʊər məˈtæbəlɪzəm./"
+      },
+      {
+        "sentence": "People with a fast metabolism burn calories more quickly.",
+        "meaning-example": "Những người có quá trình trao đổi chất nhanh sẽ đốt cháy calo nhanh hơn.",
+        "ipa-example": "/ˈpipəl wɪθ ə fæst məˈtæbəlɪzəm bɜrn ˈkæləriz mɔr ˈkwɪkli./"
+      }
+    ]
+  },
+  {
+    "word": "microchip",
+    "ipa": "/ˈmaɪkroʊtʃɪp/",
+    "meaning": "Vi mạch, vi chip.",
+    "image": "eew-5-20/13.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "microchip",
+        "meaning-example": "Vi mạch, vi chip.",
+        "ipa-example": "/ˈmaɪkroʊtʃɪp/"
+      },
+      {
+        "sentence": "\"Micro-chip\" (siêu nhỏ-con chip). Con chip (chip) có kích thước \"micro\" (siêu nhỏ) được gọi là vi mạch (microchip).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A tiny wafer of semiconducting material used to make an integrated circuit.",
+        "meaning-example": "Một tấm wafer nhỏ bằng vật liệu bán dẫn được sử dụng để tạo ra một mạch tích hợp.",
+        "ipa-example": "/ə ˈtaɪni ˈweɪfər əv ˈsɛmiˌkənˈdʌktɪŋ məˈtɪriəl juzd tu meɪk ən ˈɪntəˌgreɪtɪd ˈsɜrkɪt./"
+      },
+      {
+        "sentence": "A microchip is put to use inside a person with a simple procedure.",
+        "meaning-example": "Một vi mạch được đưa vào sử dụng bên trong một người với một thủ thuật đơn giản.",
+        "ipa-example": "/ə ˈmaɪkroʊtʃɪp ɪz pʊt tu juz ɪnˈsaɪd ə ˈpɜrsən wɪθ ə ˈsɪmpəl prəˈsiʤər./"
+      },
+      {
+        "sentence": "My credit card has a security microchip.",
+        "meaning-example": "Thẻ tín dụng của tôi có một vi mạch bảo mật.",
+        "ipa-example": "/maɪ ˈkrɛdɪt kɑrd hæz ə sɪˈkjʊrəti ˈmaɪkroʊtʃɪp./"
+      },
+      {
+        "sentence": "Vets can implant a microchip in your pet for identification.",
+        "meaning-example": "Bác sĩ thú y có thể cấy một vi mạch vào thú cưng của bạn để nhận dạng.",
+        "ipa-example": "/vɛts kæn ɪmˈplænt ə ˈmaɪkroʊtʃɪp ɪn jʊər pɛt fɔr aɪˌdɛntəfɪˈkeɪʃən./"
+      }
+    ]
+  },
+  {
+    "word": "phase",
+    "ipa": "/feɪz/",
+    "meaning": "Giai đoạn, thời kỳ.",
+    "image": "eew-5-20/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "phase",
+        "meaning-example": "Giai đoạn, thời kỳ.",
+        "ipa-example": "/feɪz/"
+      },
+      {
+        "sentence": "Nghe như \"phây\" (face). Mỗi \"phây\" (face - mặt) của mặt trăng là một giai đoạn (phase) khác nhau.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A distinct period or stage in a series of events or a process of change or development.",
+        "meaning-example": "Một giai đoạn hoặc thời kỳ riêng biệt trong một chuỗi sự kiện hoặc một quá trình thay đổi hoặc phát triển.",
+        "ipa-example": "/ə dɪˈstɪŋkt ˈpɪriəd ɔr steɪʤ ɪn ə ˈsɪriz əv ɪˈvɛnts ɔr ə ˈprɑsɛs əv ʧeɪnʤ ɔr dɪˈvɛləpmənt./"
+      },
+      {
+        "sentence": "The second phase of the process involves putting it in the person’s skin.",
+        "meaning-example": "Giai đoạn thứ hai của quá trình bao gồm việc cấy nó vào da của người đó.",
+        "ipa-example": "/ðə ˈsɛkənd feɪz əv ðə ˈprɑsɛs ɪnˈvɑlvz ˈpʊtɪŋ ɪt ɪn ðə ˈpɜrsənz skɪn./"
+      },
+      {
+        "sentence": "The project is now in its final phase.",
+        "meaning-example": "Dự án hiện đang ở giai đoạn cuối cùng.",
+        "ipa-example": "/ðə ˈprɑʤɛkt ɪz naʊ ɪn ɪts ˈfaɪnəl feɪz./"
+      },
+      {
+        "sentence": "The first phase of renovations should be finished by next week.",
+        "meaning-example": "Giai đoạn cải tạo đầu tiên sẽ hoàn thành vào tuần tới.",
+        "ipa-example": "/ðə fɜrst feɪz əv ˌrɛnəˈveɪʃənz ʃʊd bi ˈfɪnɪʃt baɪ nɛkst wik./"
+      }
+    ]
+  },
+  {
+    "word": "pinch",
+    "ipa": "/pɪntʃ/",
+    "meaning": "Véo, cấu, kẹp.",
+    "image": "eew-5-20/15.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "pinch",
+        "meaning-example": "Véo, cấu, kẹp.",
+        "ipa-example": "/pɪntʃ/"
+      },
+      {
+        "sentence": "Nghe như \"pin\". Bị kẹp \"pin\" vào tay đau như bị véo (pinch).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To grip (something, typically a person's flesh) tightly and sharply between finger and thumb.",
+        "meaning-example": "Kẹp chặt và mạnh (thứ gì đó, điển hình là da thịt của một người) giữa ngón tay và ngón tay cái.",
+        "ipa-example": "/tu grɪp (ˈsʌmθɪŋ, ˈtɪpɪkli ə ˈpɜrsənz flɛʃ) ˈtaɪtli ænd ˈʃɑrpli bɪˈtwin ˈfɪŋgər ænd θʌm./"
+      },
+      {
+        "sentence": "The doctor pinches a piece of skin and cuts a tiny hole with a tool shaped like a spiral.",
+        "meaning-example": "Bác sĩ véo một mẩu da và rạch một lỗ nhỏ bằng một dụng cụ có hình xoắn ốc.",
+        "ipa-example": "/ðə ˈdɑktər ˈpɪnʧɪz ə pis əv skɪn ænd kʌts ə ˈtaɪni hoʊl wɪθ ə tul ʃeɪpt laɪk ə ˈspaɪrəl./"
+      },
+      {
+        "sentence": "\"Ouch! Don't pinch me!\"",
+        "meaning-example": "\"Á! Đừng véo tôi!\"",
+        "ipa-example": "/aʊʧ! doʊnt pɪnʧ mi!/"
+      },
+      {
+        "sentence": "My new shoes pinch my toes.",
+        "meaning-example": "Đôi giày mới của tôi kẹp các ngón chân của tôi.",
+        "ipa-example": "/maɪ nu ʃuz pɪnʧ maɪ toʊz./"
+      }
+    ]
+  },
+  {
+    "word": "prevalent",
+    "ipa": "/ˈprevələnt/",
+    "meaning": "Thịnh hành, phổ biến.",
+    "image": "eew-5-20/16.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "prevalent",
+        "meaning-example": "Thịnh hành, phổ biến.",
+        "ipa-example": "/ˈprevələnt/"
+      },
+      {
+        "sentence": "\"Bờ-re-vơ-lần\". \"Bờ-re\" (break) xong, \"vơ\" được mấy \"lần\" đồ giảm giá, vì xu hướng này đang rất thịnh hành (prevalent).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Widespread in a particular area or at a particular time.",
+        "meaning-example": "Phổ biến rộng rãi trong một khu vực cụ thể hoặc tại một thời điểm cụ thể.",
+        "ipa-example": "/ˈwaɪdˌsprɛd ɪn ə pərˈtɪkjələr ˈɛriə ɔr æt ə pərˈtɪkjələr taɪm./"
+      },
+      {
+        "sentence": "However, it is now becoming more prevalent.",
+        "meaning-example": "Tuy nhiên, nó hiện đang trở nên phổ biến hơn.",
+        "ipa-example": "/haʊˈɛvər, ɪt ɪz naʊ bɪˈkʌmɪŋ mɔr ˈprɛvələnt./"
+      },
+      {
+        "sentence": "Colds are prevalent during the winter months.",
+        "meaning-example": "Cảm lạnh phổ biến trong những tháng mùa đông.",
+        "ipa-example": "/koʊldz ɑr ˈprɛvələnt ˈdʊrɪŋ ðə ˈwɪntər mʌnθs./"
+      },
+      {
+        "sentence": "This particular fashion trend is prevalent among teenagers.",
+        "meaning-example": "Xu hướng thời trang đặc biệt này phổ biến trong giới thanh thiếu niên.",
+        "ipa-example": "/ðɪs pərˈtɪkjələr ˈfæʃən trɛnd ɪz ˈprɛvələnt əˈmʌŋ ˈtiˌneɪʤərz./"
+      }
+    ]
+  },
+  {
+    "word": "quantum",
+    "ipa": "/ˈkwɑːntəm/",
+    "meaning": "Lượng tử.",
+    "image": "eew-5-20/17.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "quantum",
+        "meaning-example": "Lượng tử.",
+        "ipa-example": "/ˈkwɑːntəm/"
+      },
+      {
+        "sentence": "\"Quan-tùm\". Ông \"quan\" này nghiên cứu những thứ nhỏ \"tùm\" lum ở cấp độ lượng tử (quantum).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to quantum mechanics, the branch of mechanics that deals with the mathematical description of the motion and interaction of subatomic particles.",
+        "meaning-example": "Liên quan đến cơ học lượng tử, nhánh cơ học đề cập đến mô tả toán học về chuyển động và tương tác của các hạt hạ nguyên tử.",
+        "ipa-example": "/rɪˈleɪtɪŋ tu ˈkwɑntəm mɪˈkænɪks, ðə brænʧ əv mɪˈkænɪks ðæt dilz wɪθ ðə ˌmæθəˈmætɪkəl dɪˈskrɪpʃən əv ðə ˈmoʊʃən ænd ˌɪntəˈrækʃən əv ˌsʌbəˈtɑmɪk ˈpɑrtɪkəlz./"
+      },
+      {
+        "sentence": "Microchips scan the patient’s body to record what is happening on the quantum level.",
+        "meaning-example": "Vi mạch quét cơ thể bệnh nhân để ghi lại những gì đang xảy ra ở cấp độ lượng tử.",
+        "ipa-example": "/ˈmaɪkroʊtʃɪps skæn ðə ˈpeɪʃənts ˈbɑdi tu rɪˈkɔrd wʌt ɪz ˈhæpənɪŋ ɒn ðə ˈkwɑntəm ˈlɛvəl./"
+      },
+      {
+        "sentence": "Quantum physics is a fascinating but difficult field of study.",
+        "meaning-example": "Vật lý lượng tử là một lĩnh vực nghiên cứu hấp dẫn nhưng khó.",
+        "ipa-example": "/ˈkwɑntəm ˈfɪzɪks ɪz ə ˈfæsəˌneɪtɪŋ bʌt ˈdɪfɪkəlt fild əv ˈstʌdi./"
+      },
+      {
+        "sentence": "The discovery was a quantum leap forward in technology.",
+        "meaning-example": "Phát hiện này là một bước nhảy vọt lượng tử trong công nghệ.",
+        "ipa-example": "/ðə dɪˈskʌvəri wəz ə ˈkwɑntəm lip ˈfɔrwərd ɪn tɛkˈnɑləʤi./"
+      }
+    ]
+  },
+  {
+    "word": "ratio",
+    "ipa": "/ˈreɪʃioʊ/",
+    "meaning": "Tỷ lệ, tỷ số.",
+    "image": "eew-5-20/18.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "ratio",
+        "meaning-example": "Tỷ lệ, tỷ số.",
+        "ipa-example": "/ˈreɪʃioʊ/"
+      },
+      {
+        "sentence": "\"Rây-si-ô\". Dùng cái \"rây\" để lọc gạo, phải tính \"si-ô\" (sao cho) tỷ lệ (ratio) gạo và nước là chuẩn nhất.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The quantitative relation between two amounts showing the number of times one value contains or is contained within the other.",
+        "meaning-example": "Mối quan hệ định lượng giữa hai lượng cho thấy số lần một giá trị chứa hoặc được chứa trong giá trị kia.",
+        "ipa-example": "/ðə ˈkwɑntəˌteɪtɪv rɪˈleɪʃən bɪˈtwin tu əˈmaʊnts ˈʃoʊɪŋ ðə ˈnʌmbər əv taɪmz wʌn ˈvælju kənˈteɪnz ɔr ɪz kənˈteɪnd wɪˈðɪn ði ˈʌðər./"
+      },
+      {
+        "sentence": "They can find the aggregate number of immune and infected cells and present the results in a ratio.",
+        "meaning-example": "Họ có thể tìm thấy tổng số tế bào miễn dịch và bị nhiễm bệnh và trình bày kết quả theo tỷ lệ.",
+        "ipa-example": "/ðeɪ kæn faɪnd ði ˈæɡrəgət ˈnʌmbər əv ɪˈmjun ænd ɪnˈfɛktɪd sɛlz ænd prɪˈzɛnt ðə rɪˈzʌlts ɪn ə ˈreɪʃioʊ./"
+      },
+      {
+        "sentence": "The ratio of students to teachers is 20 to 1.",
+        "meaning-example": "Tỷ lệ học sinh trên giáo viên là 20 trên 1.",
+        "ipa-example": "/ðə ˈreɪʃioʊ əv ˈstudənts tu ˈtiʧərz ɪz ˈtwɛnti tu wʌn./"
+      },
+      {
+        "sentence": "To make the perfect concrete, the ratio of sand to cement is crucial.",
+        "meaning-example": "Để tạo ra bê tông hoàn hảo, tỷ lệ cát và xi măng là rất quan trọng.",
+        "ipa-example": "/tu meɪk ðə ˈpɜrfɪkt ˈkɑnkrit, ðə ˈreɪʃioʊ əv sænd tu sɪˈmɛnt ɪz ˈkruʃəl./"
+      }
+    ]
+  },
+  {
+    "word": "spiral",
+    "ipa": "/ˈspaɪrəl/",
+    "meaning": "Đường xoắn ốc.",
+    "image": "eew-5-20/19.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "spiral",
+        "meaning-example": "Đường xoắn ốc.",
+        "ipa-example": "/ˈspaɪrəl/"
+      },
+      {
+        "sentence": "\"Sờ-bai-rồ\". Con nhện (\"sờ-bai-đờ\" - spider) chăng tơ theo hình xoắn ốc (spiral) \"rồ\"i nghỉ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A curve which emanates from a central point, getting progressively farther away as it revolves around the point.",
+        "meaning-example": "Một đường cong bắt nguồn từ một điểm trung tâm, ngày càng đi xa hơn khi nó quay quanh điểm đó.",
+        "ipa-example": "/ə kɜrv wɪʧ ˈɛməˌneɪts frʌm ə ˈsɛntrəl pɔɪnt, ˈgɛtɪŋ prəˈgrɛsɪvli ˈfɑrðər əˈweɪ æz ɪt rɪˈvɑlvz əˈraʊnd ðə pɔɪnt./"
+      },
+      {
+        "sentence": "The doctor pinches a piece of skin and cuts a tiny hole with a tool shaped like a spiral.",
+        "meaning-example": "Bác sĩ véo một mẩu da và rạch một lỗ nhỏ bằng một dụng cụ có hình xoắn ốc.",
+        "ipa-example": "/ðə ˈdɑktər ˈpɪnʧɪz ə pis əv skɪn ænd kʌts ə ˈtaɪni hoʊl wɪθ ə tul ʃeɪpt laɪk ə ˈspaɪrəl./"
+      },
+      {
+        "sentence": "The seashell had a beautiful spiral pattern.",
+        "meaning-example": "Vỏ sò có một hoa văn xoắn ốc tuyệt đẹp.",
+        "ipa-example": "/ðə ˈsiˌʃɛl hæd ə ˈbjutəfəl ˈspaɪrəl ˈpætərn./"
+      },
+      {
+        "sentence": "The cost of living is in an upward spiral.",
+        "meaning-example": "Chi phí sinh hoạt đang trong vòng xoáy tăng lên.",
+        "ipa-example": "/ðə kɔst əv ˈlɪvɪŋ ɪz ɪn ən ˈʌpwərd ˈspaɪrəl./"
+      }
+    ]
+  },
+  {
+    "word": "viral",
+    "ipa": "/ˈvaɪrəl/",
+    "meaning": "(Thuộc) vi-rút, do vi-rút gây ra.",
+    "image": "eew-5-20/20.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "viral",
+        "meaning-example": "(Thuộc) vi-rút, do vi-rút gây ra.",
+        "ipa-example": "/ˈvaɪrəl/"
+      },
+      {
+        "sentence": "\"Vai-rồ\". Bị \"vai\" (đau vai) \"rồ\"i, chắc là do nhiễm vi-rút (viral).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Of the nature of, caused by, or relating to a virus.",
+        "meaning-example": "Có bản chất, gây ra bởi, hoặc liên quan đến một loại vi-rút.",
+        "ipa-example": "/əv ðə ˈneɪʧər əv, kɔzd baɪ, ɔr rɪˈleɪtɪŋ tu ə ˈvaɪrəs./"
+      },
+      {
+        "sentence": "They can also detect viral infections.",
+        "meaning-example": "Chúng cũng có thể phát hiện các bệnh nhiễm trùng do vi-rút.",
+        "ipa-example": "/ðeɪ kæn ˈɔlsoʊ dɪˈtɛkt ˈvaɪrəl ɪnˈfɛkʃənz./"
+      },
+      {
+        "sentence": "The flu is a common viral illness.",
+        "meaning-example": "Cúm là một bệnh do vi-rút thông thường.",
+        "ipa-example": "/ðə flu ɪz ə ˈkɑmən ˈvaɪrəl ˈɪlnəs./"
+      },
+      {
+        "sentence": "The funny cat video went viral on social media.",
+        "meaning-example": "Video con mèo hài hước đã lan truyền nhanh chóng trên mạng xã hội.",
+        "ipa-example": "/ðə ˈfʌni kæt ˈvɪdioʊ wɛnt ˈvaɪrəl ɒn ˈsoʊʃəl ˈmidiə./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "Microchips",
+        "meaning-example": "Vi mạch",
+        "ipa-example": "/ˈmaɪkroʊtʃɪps/"
+      },
+      {
+        "sentence": "The bond between humans and computers is becoming more intimate than ever before.",
+        "meaning-example": "Mối liên kết giữa con người và máy tính đang trở nên thân mật hơn bao giờ hết.",
+        "ipa-example": "/ðə bɑnd bɪˈtwin ˈhjumənz ænd kəmˈpjutərz ɪz bɪˈkʌmɪŋ mɔr ˈɪntɪmət ðæn ˈɛvər bɪˈfɔr./"
+      },
+      {
+        "sentence": "Scientists are now putting microchips inside people’s bodies.",
+        "meaning-example": "Các nhà khoa học hiện đang cấy vi mạch vào bên trong cơ thể con người.",
+        "ipa-example": "/ˈsaɪəntɪsts ər naʊ ˈpʊtɪŋ ˈmaɪkroʊtʃɪps ɪnˈsaɪd ˈpipəlz ˈbɑdiz./"
+      },
+      {
+        "sentence": "They are made up of compressed electrical circuits that can detect and record data about the body.",
+        "meaning-example": "Chúng được tạo thành từ các mạch điện nén có thể phát hiện và ghi lại dữ liệu về cơ thể.",
+        "ipa-example": "/ðeɪ ɑr meɪd ʌp əv kəmˈprɛst ɪˈlɛktrɪkəl ˈsɜrkɪts ðæt kæn dɪˈtɛkt ænd rɪˈkɔrd ˈdeɪtə əˈbaʊt ðə ˈbɑdi./"
+      },
+      {
+        "sentence": "They are tiny, but they hold the equivalent amount of data as most computers.",
+        "meaning-example": "Chúng rất nhỏ, nhưng chúng chứa lượng dữ liệu tương đương với hầu hết các máy tính.",
+        "ipa-example": "/ðeɪ ɑr ˈtaɪni, bʌt ðeɪ hoʊld ði ɪˈkwɪvələnt əˈmaʊnt əv ˈdeɪtə æz moʊst kəmˈpjutərz./"
+      },
+      {
+        "sentence": "A microchip is put to use inside a person with a simple procedure.",
+        "meaning-example": "Một vi mạch được đưa vào sử dụng bên trong một người với một thủ thuật đơn giản.",
+        "ipa-example": "/ə ˈmaɪkroʊtʃɪp ɪz pʊt tu juz ɪnˈsaɪd ə ˈpɜrsən wɪθ ə ˈsɪmpəl prəˈsiʤər./"
+      },
+      {
+        "sentence": "First, a doctor must put data about the patient onto a chip.",
+        "meaning-example": "Đầu tiên, bác sĩ phải nhập dữ liệu về bệnh nhân vào một con chip.",
+        "ipa-example": "/fɜrst, ə ˈdɑktər mʌst pʊt ˈdeɪtə əˈbaʊt ðə ˈpeɪʃənt ˈɑntu ə ʧɪp./"
+      },
+      {
+        "sentence": "Input about the person’s age, race, gender, and medical history is stored on the chip.",
+        "meaning-example": "Thông tin đầu vào về tuổi, chủng tộc, giới tính và tiền sử bệnh của người đó được lưu trữ trên chip.",
+        "ipa-example": "/ˈɪnpʊt əˈbaʊt ðə ˈpɜrsənz eɪʤ, reɪs, ˈʤɛndər, ænd ˈmɛdɪkəl ˈhɪstəri ɪz stɔrd ɒn ðə ʧɪp./"
+      },
+      {
+        "sentence": "The second phase of the process involves putting it in the person’s skin.",
+        "meaning-example": "Giai đoạn thứ hai của quá trình bao gồm việc cấy nó vào da của người đó.",
+        "ipa-example": "/ðə ˈsɛkənd feɪz əv ðə ˈprɑsɛs ɪnˈvɑlvz ˈpʊtɪŋ ɪt ɪn ðə ˈpɜrsənz skɪn./"
+      },
+      {
+        "sentence": "The doctor pinches a piece of skin and cuts a tiny hole with a tool shaped like a spiral.",
+        "meaning-example": "Bác sĩ véo một mẩu da và rạch một lỗ nhỏ bằng một dụng cụ có hình xoắn ốc.",
+        "ipa-example": "/ðə ˈdɑktər ˈpɪnʧɪz ə pis əv skɪn ænd kʌts ə ˈtaɪni hoʊl wɪθ ə tul ʃeɪpt laɪk ə ˈspaɪrəl./"
+      },
+      {
+        "sentence": "The chip is inserted, and the skin is allowed to heal.",
+        "meaning-example": "Con chip được đưa vào, và da được để cho lành lại.",
+        "ipa-example": "/ðə ʧɪp ɪz ɪnˈsɜrtəd, ænd ðə skɪn ɪz əˈlaʊd tu hil./"
+      },
+      {
+        "sentence": "At last, it begins the task of putting data into its database.",
+        "meaning-example": "Cuối cùng, nó bắt đầu nhiệm vụ đưa dữ liệu vào cơ sở dữ liệu của mình.",
+        "ipa-example": "/æt læst, ɪt bɪˈgɪnz ðə tæsk əv ˈpʊtɪŋ ˈdeɪtə ˈɪntu ɪts ˈdeɪtəbeɪs./"
+      },
+      {
+        "sentence": "Microchips scan the patient’s body to record what is happening on the quantum level.",
+        "meaning-example": "Vi mạch quét cơ thể bệnh nhân để ghi lại những gì đang xảy ra ở cấp độ lượng tử.",
+        "ipa-example": "/ˈmaɪkroʊtʃɪps skæn ðə ˈpeɪʃənts ˈbɑdi tu rɪˈkɔrd wʌt ɪz ˈhæpənɪŋ ɒn ðə ˈkwɑntəm ˈlɛvəl./"
+      },
+      {
+        "sentence": "They can find problems with the person’s metabolism and organs.",
+        "meaning-example": "Chúng có thể tìm ra các vấn đề với sự trao đổi chất và các cơ quan của người đó.",
+        "ipa-example": "/ðeɪ kæn faɪnd ˈprɑbləmz wɪθ ðə ˈpɜrsənz məˈtæbəlɪzəm ænd ˈɔrgənz./"
+      },
+      {
+        "sentence": "They can also detect viral infections.",
+        "meaning-example": "Chúng cũng có thể phát hiện các bệnh nhiễm trùng do vi-rút.",
+        "ipa-example": "/ðeɪ kæn ˈɔlsoʊ dɪˈtɛkt ˈvaɪrəl ɪnˈfɛkʃənz./"
+      },
+      {
+        "sentence": "They can find the aggregate number of immune and infected cells and present the results in a ratio.",
+        "meaning-example": "Chúng có thể tìm thấy tổng số tế bào miễn dịch và tế bào bị nhiễm và trình bày kết quả dưới dạng một tỷ lệ.",
+        "ipa-example": "/ðeɪ kæn faɪnd ði ˈægrəgət ˈnʌmbər əv ɪˈmjun ænd ɪnˈfɛktɪd sɛlz ænd prɪˈzɛnt ðə rɪˈzʌlts ɪn ə ˈreɪʃioʊ./"
+      },
+      {
+        "sentence": "They can even tell doctors what type of antibiotic to give to the patient!",
+        "meaning-example": "Họ thậm chí có thể cho bác sĩ biết nên cho bệnh nhân dùng loại thuốc kháng sinh nào!",
+        "ipa-example": "/ðeɪ kæn ˈivɪn tɛl ˈdɑktərz wʌt taɪp əv ˌæntibaɪˈɑtɪk tu gɪv tu ðə ˈpeɪʃənt!/"
+      },
+      {
+        "sentence": "To recover the chip’s data, the doctor uses a special magnet that copies it.",
+        "meaning-example": "Để lấy lại dữ liệu của chip, bác sĩ sử dụng một nam châm đặc biệt để sao chép nó.",
+        "ipa-example": "/tu rɪˈkʌvər ðə ʧɪps ˈdeɪtə, ðə ˈdɑktər ˈjuzɪz ə ˈspɛʃəl ˈmægnət ðæt ˈkɑpiz ɪt./"
+      },
+      {
+        "sentence": "This way, the doctor can put the information from the chip onto a computer.",
+        "meaning-example": "Bằng cách này, bác sĩ có thể đưa thông tin từ chip vào máy tính.",
+        "ipa-example": "/ðɪs weɪ, ðə ˈdɑktər kæn pʊt ði ɪnfərˈmeɪʃən frʌm ðə ʧɪp ˈɑntu ə kəmˈpjutər./"
+      },
+      {
+        "sentence": "Then they can find out exactly what is wrong with the person.",
+        "meaning-example": "Sau đó, họ có thể tìm ra chính xác người đó đang bị bệnh gì.",
+        "ipa-example": "/ðɛn ðeɪ kæn faɪnd aʊt ɪgˈzæktli wʌt ɪz rɔŋ wɪθ ðə ˈpɜrsən./"
+      },
+      {
+        "sentence": "The idea of putting chips in humans is still very new.",
+        "meaning-example": "Ý tưởng cấy chip vào con người vẫn còn rất mới.",
+        "ipa-example": "/ði aɪˈdiə əv ˈpʊtɪŋ ʧɪps ɪn ˈhjumənz ɪz stɪl ˈvɛri nu./"
+      },
+      {
+        "sentence": "However, it is now becoming more prevalent.",
+        "meaning-example": "Tuy nhiên, nó hiện đang trở nên phổ biến hơn.",
+        "ipa-example": "/haʊˈɛvər, ɪt ɪz naʊ bɪˈkʌmɪŋ mɔr ˈprɛvələnt./"
+      },
+      {
+        "sentence": "Scientists and doctors are hopeful about the future uses of microchips.",
+        "meaning-example": "Các nhà khoa học và bác sĩ rất hy vọng về các ứng dụng trong tương lai của vi mạch.",
+        "ipa-example": "/ˈsaɪəntɪsts ænd ˈdɑktərz ər ˈhoʊpfəl əˈbaʊt ðə ˈfjuʧər ˈjusɪz əv ˈmaɪkroʊtʃɪps./"
+      },
+      {
+        "sentence": "Someday, all new babies might get a microchip soon after they are born.",
+        "meaning-example": "Một ngày nào đó, tất cả trẻ sơ sinh có thể sẽ được cấy một vi mạch ngay sau khi chúng được sinh ra.",
+        "ipa-example": "/ˈsʌmˌdeɪ, ɔl nu ˈbeɪbiz maɪt gɛt ə ˈmaɪkroʊtʃɪp sun ˈæftər ðeɪ ɑr bɔrn./"
+      },
+      {
+        "sentence": "Doctors will be able to know about any problems from the very beginning.",
+        "meaning-example": "Các bác sĩ sẽ có thể biết về bất kỳ vấn đề nào ngay từ đầu.",
+        "ipa-example": "/ˈdɑktərz wɪl bi ˈeɪbəl tu noʊ əˈbaʊt ˈɛni ˈprɑbləmz frʌm ðə ˈvɛri bɪˈgɪnɪŋ./"
+      },
+      {
+        "sentence": "It is obvious that medicine and computers complement each other well.",
+        "meaning-example": "Rõ ràng là y học và máy tính bổ sung cho nhau rất tốt.",
+        "ipa-example": "/ɪt ɪz ˈɑbviəs ðæt ˈmɛdəsɪn ænd kəmˈpjutərz ˈkɑmpləmənt iʧ ˈʌðər wɛl./"
+      }
+    ]
+  }
+]

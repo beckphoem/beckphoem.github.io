@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Tổng hợp, toàn bộ.",
+    "classes": "adj",
+    "answer": "aggregate",
+    "ipa": "/ˈæɡrɪɡət/",
+    "example": "They can find the aggregate number of immune and infected cells and present the results in a ratio.",
+    "english-definition": "Formed or calculated by the combination of many separate units or items; total.",
+    "images": "eew-5-20/1.png"
+  },
+  {
+    "question": "Thuốc kháng sinh.",
+    "classes": "n",
+    "answer": "antibiotic",
+    "ipa": "/ˌæntibaɪˈɑːtɪk/",
+    "example": "They can even tell doctors what type of antibiotic to give to the patient!",
+    "english-definition": "A medicine (such as penicillin or its derivatives) that inhibits the growth of or destroys microorganisms.",
+    "images": "eew-5-20/2.png"
+  },
+  {
+    "question": "Mạch điện.",
+    "classes": "n",
+    "answer": "circuit",
+    "ipa": "/ˈsɜːrkɪt/",
+    "example": "They are made up of compressed electrical circuits that can detect and record data about the body.",
+    "english-definition": "A complete and closed path around which a circulating electric current can flow.",
+    "images": "eew-5-20/3.png"
+  },
+  {
+    "question": "Bổ sung, làm cho hoàn thiện.",
+    "classes": "v",
+    "answer": "complement",
+    "ipa": "/ˈkɑːmplɪment/",
+    "example": "It is obvious that medicine and computers complement each other well.",
+    "english-definition": "To add to (something) in a way that enhances or improves it; make perfect.",
+    "images": "eew-5-20/4.png"
+  },
+  {
+    "question": "Nén, ép.",
+    "classes": "v",
+    "answer": "compress",
+    "ipa": "/kəmˈpres/",
+    "example": "They are made up of compressed electrical circuits that can detect and record data about the body.",
+    "english-definition": "To squeeze or press together; to reduce in size, quantity, or volume as if by squeezing.",
+    "images": "eew-5-20/5.png"
+  },
+  {
+    "question": "Cơ sở dữ liệu.",
+    "classes": "n",
+    "answer": "database",
+    "ipa": "/ˈdeɪtəbeɪs/",
+    "example": "At last, it begins the task of putting data into its database.",
+    "english-definition": "A structured set of data held in a computer, especially one that is accessible in various ways.",
+    "images": "eew-5-20/6.png"
+  },
+  {
+    "question": "Cái tương đương, vật tương đương.",
+    "classes": "n",
+    "answer": "equivalent",
+    "ipa": "/ɪˈkwɪvələnt/",
+    "example": "They are tiny, but they hold the equivalent amount of data as most computers.",
+    "english-definition": "A person or thing that is equal to or corresponds with another in value, amount, function, meaning, etc.",
+    "images": "eew-5-20/7.png"
+  },
+  {
+    "question": "Miễn dịch, được miễn.",
+    "classes": "adj",
+    "answer": "immune",
+    "ipa": "/ɪˈmjuːn/",
+    "example": "They can find the aggregate number of immune and infected cells and present the results in a ratio.",
+    "english-definition": "Resistant to a particular infection or toxin owing to the presence of specific antibodies or sensitized white blood cells.",
+    "images": "eew-5-20/8.png"
+  },
+  {
+    "question": "Dữ liệu đầu vào, thông tin nhập vào.",
+    "classes": "n",
+    "answer": "input",
+    "ipa": "/ˈɪnpʊt/",
+    "example": "Input about the person’s age, race, gender, and medical history is stored on the chip.",
+    "english-definition": "What is put in, taken in, or operated on by any process or system.",
+    "images": "eew-5-20/9.png"
+  },
+  {
+    "question": "Thân mật, gần gũi.",
+    "classes": "adj",
+    "answer": "intimate",
+    "ipa": "/ˈɪntɪmət/",
+    "example": "The bond between humans and computers is becoming more intimate than ever before.",
+    "english-definition": "Closely acquainted; familiar, close.",
+    "images": "eew-5-20/10.png"
+  },
+  {
+    "question": "Nam châm.",
+    "classes": "n",
+    "answer": "magnet",
+    "ipa": "/ˈmæɡnət/",
+    "example": "To recover the chip’s data, the doctor uses a special magnet that copies it.",
+    "english-definition": "A piece of iron or other material that can attract iron-containing objects and that points north and south when suspended.",
+    "images": "eew-5-20/11.png"
+  },
+  {
+    "question": "Sự trao đổi chất.",
+    "classes": "n",
+    "answer": "metabolism",
+    "ipa": "/məˈtæbəlɪzəm/",
+    "example": "They can find problems with the person’s metabolism and organs.",
+    "english-definition": "The chemical processes that occur within a living organism in order to maintain life.",
+    "images": "eew-5-20/12.png"
+  },
+  {
+    "question": "Vi mạch, vi chip.",
+    "classes": "n",
+    "answer": "microchip",
+    "ipa": "/ˈmaɪkroʊtʃɪp/",
+    "example": "A microchip is put to use inside a person with a simple procedure.",
+    "english-definition": "A tiny wafer of semiconducting material used to make an integrated circuit.",
+    "images": "eew-5-20/13.png"
+  },
+  {
+    "question": "Giai đoạn, thời kỳ.",
+    "classes": "n",
+    "answer": "phase",
+    "ipa": "/feɪz/",
+    "example": "The second phase of the process involves putting it in the person’s skin.",
+    "english-definition": "A distinct period or stage in a series of events or a process of change or development.",
+    "images": "eew-5-20/14.png"
+  },
+  {
+    "question": "Véo, cấu, kẹp.",
+    "classes": "v",
+    "answer": "pinch",
+    "ipa": "/pɪntʃ/",
+    "example": "The doctor pinches a piece of skin and cuts a tiny hole with a tool shaped like a spiral.",
+    "english-definition": "To grip (something, typically a person's flesh) tightly and sharply between finger and thumb.",
+    "images": "eew-5-20/15.png"
+  },
+  {
+    "question": "Thịnh hành, phổ biến.",
+    "classes": "adj",
+    "answer": "prevalent",
+    "ipa": "/ˈprevələnt/",
+    "example": "However, it is now becoming more prevalent.",
+    "english-definition": "Widespread in a particular area or at a particular time.",
+    "images": "eew-5-20/16.png"
+  },
+  {
+    "question": "Lượng tử.",
+    "classes": "adj",
+    "answer": "quantum",
+    "ipa": "/ˈkwɑːntəm/",
+    "example": "Microchips scan the patient’s body to record what is happening on the quantum level.",
+    "english-definition": "Relating to quantum mechanics, the branch of mechanics that deals with the mathematical description of the motion and interaction of subatomic particles.",
+    "images": "eew-5-20/17.png"
+  },
+  {
+    "question": "Tỷ lệ, tỷ số.",
+    "classes": "n",
+    "answer": "ratio",
+    "ipa": "/ˈreɪʃioʊ/",
+    "example": "They can find the aggregate number of immune and infected cells and present the results in a ratio.",
+    "english-definition": "The quantitative relation between two amounts showing the number of times one value contains or is contained within the other.",
+    "images": "eew-5-20/18.png"
+  },
+  {
+    "question": "Đường xoắn ốc.",
+    "classes": "n",
+    "answer": "spiral",
+    "ipa": "/ˈspaɪrəl/",
+    "example": "The doctor pinches a piece of skin and cuts a tiny hole with a tool shaped like a spiral.",
+    "english-definition": "A curve which emanates from a central point, getting progressively farther away as it revolves around the point.",
+    "images": "eew-5-20/19.png"
+  },
+  {
+    "question": "(Thuộc) vi-rút, do vi-rút gây ra.",
+    "classes": "adj",
+    "answer": "viral",
+    "ipa": "/ˈvaɪrəl/",
+    "example": "They can also detect viral infections.",
+    "english-definition": "Of the nature of, caused by, or relating to a virus.",
+    "images": "eew-5-20/20.png"
+  }
+]
