@@ -1,0 +1,923 @@
+
+[
+  {
+    "word": "acid",
+    "ipa": "/ˈæsɪd/",
+    "meaning": "Axit.",
+    "image": "eew-5-22/1.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "acid",
+        "meaning-example": "Axit.",
+        "ipa-example": "/ˈæsɪd/"
+      },
+      {
+        "sentence": "\"A-xít\". Nghe như \"a-xít\" trong tiếng Việt. A-xít là một loại chất hóa học có vị chua.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A chemical substance that has a sour taste and can burn or dissolve other substances.",
+        "meaning-example": "Một chất hóa học có vị chua và có thể đốt cháy hoặc hòa tan các chất khác.",
+        "ipa-example": "/ə ˈkɛmɪkəl ˈsʌbstəns ðæt hæz ə ˈsaʊər teɪst ænd kæn bɜrn ɔr dɪˈzɑlv ˈʌðər ˈsʌbstənsɪz./"
+      },
+      {
+        "sentence": "Bioco poured the acid in a nearby river, which caused erosion and made fish prone to illness.",
+        "meaning-example": "Bioco đã đổ axit xuống một con sông gần đó, gây ra sự xói mòn và khiến cá dễ mắc bệnh.",
+        "ipa-example": "/ˈbaɪoʊˌkoʊ pɔrd ði ˈæsɪd ɪn ə ˈnɪrˌbaɪ ˈrɪvər, wɪʧ kɔzd ɪˈroʊʒən ænd meɪd fɪʃ proʊn tu ˈɪlnəs./"
+      },
+      {
+        "sentence": "Lemons contain citric acid.",
+        "meaning-example": "Chanh chứa axit citric.",
+        "ipa-example": "/ˈlɛmənz kənˈteɪn ˈsɪtrɪk ˈæsɪd./"
+      },
+      {
+        "sentence": "Be careful not to spill the battery acid.",
+        "meaning-example": "Hãy cẩn thận để không làm đổ axit ắc quy.",
+        "ipa-example": "/bi ˈkɛrfəl nɑt tu spɪl ðə ˈbætəri ˈæsɪd./"
+      }
+    ]
+  },
+  {
+    "word": "administration",
+    "ipa": "/ədˌmɪnɪˈstreɪʃn/",
+    "meaning": "Sự quản lý, bộ máy quản trị.",
+    "image": "eew-5-22/2.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "administration",
+        "meaning-example": "Sự quản lý, bộ máy quản trị.",
+        "ipa-example": "/ədˌmɪnɪˈstreɪʃn/"
+      },
+      {
+        "sentence": "\"Ớt-min-nít-trây-sần\". \"Ớt\" cay \"mìn\" (mình) không ăn được, nhưng bộ máy \"quản trị\" (administration) lại \"trây\" (chây) ì, \"sần\" sùi không giải quyết.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The process or activity of running a business, organization, etc.; the management of public affairs; government.",
+        "meaning-example": "Quá trình hoặc hoạt động điều hành một doanh nghiệp, tổ chức, v.v.; việc quản lý các công việc công; chính phủ.",
+        "ipa-example": "/ðə ˈprɑsɛs ɔr ækˈtɪvəti əv ˈrʌnɪŋ ə ˈbɪznəs, ˌɔrgənəˈzeɪʃən, ɛtˈsɛtərə; ðə ˈmænəʤmənt əv ˈpʌblɪk əˈfɛrz; ˈgʌvərnmənt./"
+      },
+      {
+        "sentence": "We can go to the administration and tell them we’ll quit if they don’t eliminate the problems.",
+        "meaning-example": "Chúng ta có thể đến gặp ban quản trị và nói với họ rằng chúng ta sẽ nghỉ việc nếu họ không loại bỏ các vấn đề.",
+        "ipa-example": "/wi kæn goʊ tu ði ædˌmɪnəˈstreɪʃən ænd tɛl ðɛm wil kwɪt ɪf ðeɪ doʊnt ɪˈlɪməˌneɪt ðə ˈprɑbləmz./"
+      },
+      {
+        "sentence": "The school administration has decided to cancel the event.",
+        "meaning-example": "Ban giám hiệu nhà trường đã quyết định hủy bỏ sự kiện.",
+        "ipa-example": "/ðə skul ædˌmɪnəˈstreɪʃən hæz dɪˈsaɪdɪd tu ˈkænsəl ði ɪˈvɛnt./"
+      },
+      {
+        "sentence": "He works in the hospital administration.",
+        "meaning-example": "Anh ấy làm việc trong ban quản lý bệnh viện.",
+        "ipa-example": "/hi wɜrks ɪn ðə ˈhɑspɪtəl ædˌmɪnəˈstreɪʃən./"
+      }
+    ]
+  },
+  {
+    "word": "administrative",
+    "ipa": "/ədˈmɪnɪstreɪtɪv/",
+    "meaning": "Thuộc về hành chính, quản trị.",
+    "image": "eew-5-22/3.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "administrative",
+        "meaning-example": "Thuộc về hành chính, quản trị.",
+        "ipa-example": "/ədˈmɪnɪstreɪtɪv/"
+      },
+      {
+        "sentence": "\"Ớt-min-nít-trây-tịp\". Công việc \"hành chính\" (administrative) này cần sự \"tịp\" (tệp) trung, không là bị sếp cho ăn \"ớt\" cay \"mìn\" không chịu nổi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to the running of a business, organization, etc.",
+        "meaning-example": "Liên quan đến việc điều hành một doanh nghiệp, tổ chức, v.v.",
+        "ipa-example": "/rɪˈleɪtɪŋ tu ðə ˈrʌnɪŋ əv ə ˈbɪznəs, ˌɔrgənəˈzeɪʃən, ɛtˈsɛtərə./"
+      },
+      {
+        "sentence": "They went to the administrative offices and demanded that Bioco stop damaging the environment, or they all would quit.",
+        "meaning-example": "Họ đã đến các văn phòng hành chính và yêu cầu Bioco ngừng phá hoại môi trường, nếu không tất cả họ sẽ nghỉ việc.",
+        "ipa-example": "/ðeɪ wɛnt tu ði ædˈmɪnəˌstreɪtɪv ˈɔfəsəz ænd dɪˈmændɪd ðæt ˈbaɪoʊˌkoʊ stɑp ˈdæmɪʤɪŋ ði ɪnˈvaɪrənmənt, ɔr ðeɪ ɔl wʊd kwɪt./"
+      },
+      {
+        "sentence": "She has an administrative job in the university.",
+        "meaning-example": "Cô ấy có một công việc hành chính tại trường đại học.",
+        "ipa-example": "/ʃi hæz ən ædˈmɪnəˌstreɪtɪv ʤɑb ɪn ðə ˌjunəˈvɜrsəti./"
+      },
+      {
+        "sentence": "The work is mainly administrative.",
+        "meaning-example": "Công việc chủ yếu là hành chính.",
+        "ipa-example": "/ðə wɜrk ɪz ˈmeɪnli ædˈmɪnəˌstreɪtɪv./"
+      }
+    ]
+  },
+  {
+    "word": "biotechnology",
+    "ipa": "/ˌbaɪoʊtekˈnɑːlədʒi/",
+    "meaning": "Công nghệ sinh học.",
+    "image": "eew-5-22/4.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "biotechnology",
+        "meaning-example": "Công nghệ sinh học.",
+        "ipa-example": "/ˌbaɪoʊtekˈnɑːlədʒi/"
+      },
+      {
+        "sentence": "\"Bai-ô-tếch-no-lơ-gi\". \"Bai\" (bye) với các phương pháp cũ, giờ là thời của \"công nghệ sinh học\" (biotechnology) rồi, \"tếch\" (tech) là \"no-lơ-gi\" (technology) mà.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The use of living cells, bacteria, etc., to make useful products.",
+        "meaning-example": "Việc sử dụng các tế bào sống, vi khuẩn, v.v., để tạo ra các sản phẩm hữu ích.",
+        "ipa-example": "/ðə juz əv ˈlɪvɪŋ sɛlz, bækˈtɪriə, ɛtˈsɛtərə, tu meɪk ˈjusfəl ˈprɑdəkts./"
+      },
+      {
+        "sentence": "Jack got a new job at a biotechnology company called Bioco.",
+        "meaning-example": "Jack có một công việc mới tại một công ty công nghệ sinh học tên là Bioco.",
+        "ipa-example": "/ʤæk gɑt ə nu ʤɑb æt ə ˌbaɪoʊtɛkˈnɑləʤi ˈkʌmpəni kɔld ˈbaɪoʊˌkoʊ./"
+      },
+      {
+        "sentence": "Biotechnology is used to develop new medicines.",
+        "meaning-example": "Công nghệ sinh học được sử dụng để phát triển các loại thuốc mới.",
+        "ipa-example": "/ˌbaɪoʊtɛkˈnɑləʤi ɪz juzd tu dɪˈvɛləp nu ˈmɛdəsənz./"
+      },
+      {
+        "sentence": "He is studying for a degree in biotechnology.",
+        "meaning-example": "Anh ấy đang học để lấy bằng về công nghệ sinh học.",
+        "ipa-example": "/hi ɪz ˈstʌdiɪŋ fɔr ə dɪˈgri ɪn ˌbaɪoʊtɛkˈnɑləʤi./"
+      }
+    ]
+  },
+  {
+    "word": "cholesterol",
+    "ipa": "/kəˈlestərɔːl/",
+    "meaning": "Chất béo có trong máu, có thể gây bệnh tim nếu ở mức cao.",
+    "image": "eew-5-22/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "cholesterol",
+        "meaning-example": "Chất béo có trong máu, có thể gây bệnh tim nếu ở mức cao.",
+        "ipa-example": "/kəˈlestərɔːl/"
+      },
+      {
+        "sentence": "\"Cơ-lét-tơ-rồ\". \"Cơ\" thể bị \"lét\" đi vì ăn quá nhiều \"rồ\" (đồ) ăn chứa cholesterol.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A substance containing a lot of fat that is found in the body and in dairy products, and can cause heart disease if you have too much.",
+        "meaning-example": "Một chất chứa nhiều chất béo có trong cơ thể và trong các sản phẩm từ sữa, và có thể gây bệnh tim nếu bạn có quá nhiều.",
+        "ipa-example": "/ə ˈsʌbstəns kənˈteɪnɪŋ ə lɑt əv fæt ðæt ɪz faʊnd ɪn ðə ˈbɑdi ænd ɪn ˈdɛri ˈprɑdəkts, ænd kæn kɔz hɑrt dɪˈziz ɪf ju hæv tu mʌʧ./"
+      },
+      {
+        "sentence": "Bioco manufactured drugs to treat diabetes and high cholesterol.",
+        "meaning-example": "Bioco sản xuất thuốc điều trị bệnh tiểu đường và cholesterol cao.",
+        "ipa-example": "/ˈbaɪoʊˌkoʊ ˌmænjəˈfækʧərd drʌgz tu trit ˌdaɪəˈbitiz ænd haɪ kəˈlɛstəˌrɔl./"
+      },
+      {
+        "sentence": "You need to lower your cholesterol level.",
+        "meaning-example": "Bạn cần giảm mức cholesterol của mình.",
+        "ipa-example": "/ju nid tu ˈloʊər jʊər kəˈlɛstəˌrɔl ˈlɛvəl./"
+      },
+      {
+        "sentence": "Eggs are high in cholesterol.",
+        "meaning-example": "Trứng có nhiều cholesterol.",
+        "ipa-example": "/ɛgz ɑr haɪ ɪn kəˈlɛstəˌrɔl./"
+      }
+    ]
+  },
+  {
+    "word": "coalition",
+    "ipa": "/ˌkoʊəˈlɪʃn/",
+    "meaning": "Sự liên minh, liên hiệp.",
+    "image": "eew-5-22/6.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "coalition",
+        "meaning-example": "Sự liên minh, liên hiệp.",
+        "ipa-example": "/ˌkoʊəˈlɪʃn/"
+      },
+      {
+        "sentence": "\"Cô-ơ-li-sần\". \"Cô\" \"ơ\"i, chúng ta hãy \"li\"ên minh (coalition) lại, \"sần\" sùi gì cũng vượt qua.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A temporary alliance for combined action, especially of political parties forming a government.",
+        "meaning-example": "Một liên minh tạm thời để hành động chung, đặc biệt là của các đảng phái chính trị thành lập chính phủ.",
+        "ipa-example": "/ə ˈtɛmpəˌrɛri əˈlaɪəns fɔr kəmˈbaɪnd ˈækʃən, əˈspɛʃəli əv pəˈlɪtɪkəl ˈpɑrtiz ˈfɔrmɪŋ ə ˈgʌvərnmənt./"
+      },
+      {
+        "sentence": "I have a notion that we can fix them if we form a coalition.",
+        "meaning-example": "Tôi có ý nghĩ rằng chúng ta có thể khắc phục chúng nếu chúng ta thành lập một liên minh.",
+        "ipa-example": "/aɪ hæv ə ˈnoʊʃən ðæt wi kæn fɪks ðɛm ɪf wi fɔrm ə ˌkoʊəˈlɪʃən./"
+      },
+      {
+        "sentence": "The two parties formed a coalition to govern the country.",
+        "meaning-example": "Hai đảng đã thành lập một liên minh để cai trị đất nước.",
+        "ipa-example": "/ðə tu ˈpɑrtiz fɔrmd ə ˌkoʊəˈlɪʃən tu ˈgʌvərn ðə ˈkʌntri./"
+      },
+      {
+        "sentence": "A coalition of environmental groups is working to protect the forest.",
+        "meaning-example": "Một liên minh các nhóm môi trường đang làm việc để bảo vệ rừng.",
+        "ipa-example": "/ə ˌkoʊəˈlɪʃən əv ɪnˌvaɪrənˈmɛntəl grups ɪz ˈwɜrkɪŋ tu prəˈtɛkt ðə ˈfɔrəst./"
+      }
+    ]
+  },
+  {
+    "word": "deceptive",
+    "ipa": "/dɪˈseptɪv/",
+    "meaning": "Dối trá, lừa dối, dễ gây nhầm lẫn.",
+    "image": "eew-5-22/7.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "deceptive",
+        "meaning-example": "Dối trá, lừa dối, dễ gây nhầm lẫn.",
+        "ipa-example": "/dɪˈseptɪv/"
+      },
+      {
+        "sentence": "\"Đi-xép-tịp\". \"Đi\" với hắn phải cẩn thận, hắn hay dùng mánh khóe \"xếp\" đặt để \"lừa dối\" (deceptive) người khác, đúng là một \"típ\" (type) người không đáng tin.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Giving an appearance or impression different from the true one; misleading.",
+        "meaning-example": "Tạo ra một vẻ ngoài hoặc ấn tượng khác với sự thật; gây hiểu lầm.",
+        "ipa-example": "/ˈgɪvɪŋ ən əˈpɪrəns ɔr ɪmˈprɛʃən ˈdɪfərənt frʌm ðə tru wʌn; mɪsˈlidɪŋ./"
+      },
+      {
+        "sentence": "However, this motto was deceptive.",
+        "meaning-example": "Tuy nhiên, khẩu hiệu này lại mang tính lừa dối.",
+        "ipa-example": "/haʊˈɛvər, ðɪs ˈmɑtoʊ wəz dɪˈsɛptɪv./"
+      },
+      {
+        "sentence": "Appearances can be deceptive.",
+        "meaning-example": "Vẻ bề ngoài có thể lừa dối.",
+        "ipa-example": "/əˈpɪrənsɪz kæn bi dɪˈsɛptɪv./"
+      },
+      {
+        "sentence": "The advertisement was deceptive and misleading.",
+        "meaning-example": "Quảng cáo đó mang tính lừa dối và gây hiểu lầm.",
+        "ipa-example": "/ði ˌædvərˈtaɪzmənt wəz dɪˈsɛptɪv ænd mɪsˈlidɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "diabetes",
+    "ipa": "/ˌdaɪəˈbiːtiːz/",
+    "meaning": "Bệnh tiểu đường.",
+    "image": "eew-5-22/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "diabetes",
+        "meaning-example": "Bệnh tiểu đường.",
+        "ipa-example": "/ˌdaɪəˈbiːtiːz/"
+      },
+      {
+        "sentence": "\"Đai-ơ-bi-tít\". Bị bệnh \"tiểu đường\" (diabetes) phải \"đai\" (die - chết) từ từ vì kiêng khem \"tít\" mù.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A disease in which the body cannot control the level of sugar in the blood.",
+        "meaning-example": "Một căn bệnh trong đó cơ thể không thể kiểm soát mức đường trong máu.",
+        "ipa-example": "/ə dɪˈziz ɪn wɪʧ ðə ˈbɑdi ˈkænɑt kənˈtroʊl ðə ˈlɛvəl əv ˈʃʊgər ɪn ðə blʌd./"
+      },
+      {
+        "sentence": "Bioco manufactured drugs to treat diabetes and high cholesterol.",
+        "meaning-example": "Bioco sản xuất thuốc điều trị bệnh tiểu đường và cholesterol cao.",
+        "ipa-example": "/ˈbaɪoʊˌkoʊ ˌmænjəˈfækʧərd drʌgz tu trit ˌdaɪəˈbitiz ænd haɪ kəˈlɛstəˌrɔl./"
+      },
+      {
+        "sentence": "My grandfather has diabetes.",
+        "meaning-example": "Ông tôi bị bệnh tiểu đường.",
+        "ipa-example": "/maɪ ˈgrændˌfɑðər hæz ˌdaɪəˈbitiz./"
+      },
+      {
+        "sentence": "People with diabetes need to control their diet carefully.",
+        "meaning-example": "Những người bị bệnh tiểu đường cần kiểm soát chế độ ăn uống của họ một cách cẩn thận.",
+        "ipa-example": "/ˈpipəl wɪθ ˌdaɪəˈbitiz nid tu kənˈtroʊl ðɛr ˈdaɪət ˈkɛrfəli./"
+      }
+    ]
+  },
+  {
+    "word": "eliminate",
+    "ipa": "/ɪˈlɪmɪneɪt/",
+    "meaning": "Loại bỏ, trừ khử.",
+    "image": "eew-5-22/9.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "eliminate",
+        "meaning-example": "Loại bỏ, trừ khử.",
+        "ipa-example": "/ɪˈlɪmɪneɪt/"
+      },
+      {
+        "sentence": "\"I-lim-mi-nết\". \"Y\"êu cầu \"lim\" (ghim) lại các \"nết\" xấu để \"loại bỏ\" (eliminate) chúng đi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To completely remove or get rid of (something).",
+        "meaning-example": "Loại bỏ hoàn toàn hoặc thoát khỏi (một cái gì đó).",
+        "ipa-example": "/tu kəmˈplitli riˈmuv ɔr gɛt rɪd əv (ˈsʌmθɪŋ)./"
+      },
+      {
+        "sentence": "...tell them we’ll quit if they don’t eliminate the problems.",
+        "meaning-example": "...nói với họ rằng chúng tôi sẽ nghỉ việc nếu họ không loại bỏ các vấn đề.",
+        "ipa-example": "/...tɛl ðɛm wil kwɪt ɪf ðeɪ doʊnt ɪˈlɪməˌneɪt ðə ˈprɑbləmz./"
+      },
+      {
+        "sentence": "We must eliminate the possibility of error.",
+        "meaning-example": "Chúng ta phải loại bỏ khả năng sai sót.",
+        "ipa-example": "/wi mʌst ɪˈlɪməˌneɪt ðə ˌpɑsəˈbɪləti əv ˈɛrər./"
+      },
+      {
+        "sentence": "The company plans to eliminate 50 jobs.",
+        "meaning-example": "Công ty có kế hoạch loại bỏ 50 việc làm.",
+        "ipa-example": "/ðə ˈkʌmpəni plænz tu ɪˈlɪməˌneɪt ˈfɪfti ʤɑbz./"
+      }
+    ]
+  },
+  {
+    "word": "erosion",
+    "ipa": "/ɪˈroʊʒn/",
+    "meaning": "Sự xói mòn.",
+    "image": "eew-5-22/10.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "erosion",
+        "meaning-example": "Sự xói mòn.",
+        "ipa-example": "/ɪˈroʊʒn/"
+      },
+      {
+        "sentence": "\"I-râu- dần\". \"Y\" như rằng, mảnh đất này \"dần\" \"dần\" bị \"sự xói mòn\" (erosion) làm cho biến mất.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The process of eroding or being eroded by wind, water, or other natural agents.",
+        "meaning-example": "Quá trình xói mòn hoặc bị xói mòn bởi gió, nước, hoặc các tác nhân tự nhiên khác.",
+        "ipa-example": "/ðə ˈprɑsɛs əv ɪˈroʊdɪŋ ɔr ˈbiɪŋ ɪˈroʊdɪd baɪ wɪnd, ˈwɔtər, ɔr ˈʌðər ˈnæʧərəl ˈeɪʤənts./"
+      },
+      {
+        "sentence": "Bioco poured the acid in a nearby river, which caused erosion and made fish prone to illness.",
+        "meaning-example": "Bioco đã đổ axit xuống một con sông gần đó, gây ra sự xói mòn và khiến cá dễ mắc bệnh.",
+        "ipa-example": "/ˈbaɪoʊˌkoʊ pɔrd ði ˈæsɪd ɪn ə ˈnɪrˌbaɪ ˈrɪvər, wɪʧ kɔzd ɪˈroʊʒən ænd meɪd fɪʃ proʊn tu ˈɪlnəs./"
+      },
+      {
+        "sentence": "Soil erosion is a major problem in this area.",
+        "meaning-example": "Xói mòn đất là một vấn đề lớn ở khu vực này.",
+        "ipa-example": "/sɔɪl ɪˈroʊʒən ɪz ə ˈmeɪʤər ˈprɑbləm ɪn ðɪs ˈɛriə./"
+      },
+      {
+        "sentence": "The coastline is suffering from severe erosion.",
+        "meaning-example": "Đường bờ biển đang bị xói mòn nghiêm trọng.",
+        "ipa-example": "/ðə ˈkoʊstˌlaɪn ɪz ˈsʌfərɪŋ frʌm səˈvɪr ɪˈroʊʒən./"
+      }
+    ]
+  },
+  {
+    "word": "ethics",
+    "ipa": "/ˈeθɪks/",
+    "meaning": "Đạo đức, luân thường đạo lý.",
+    "image": "eew-5-22/11.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "ethics",
+        "meaning-example": "Đạo đức, luân thường đạo lý.",
+        "ipa-example": "/ˈeθɪks/"
+      },
+      {
+        "sentence": "\"E-thích\". \"Em\" \"thích\" những người sống có \"đạo đức\" (ethics).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Moral principles that govern a person's behaviour or the conducting of an activity.",
+        "meaning-example": "Các nguyên tắc đạo đức chi phối hành vi của một người hoặc việc thực hiện một hoạt động.",
+        "ipa-example": "/ˈmɔrəl ˈprɪnsəpəlz ðæt ˈgʌvərn ə ˈpɜrsənz bɪˈheɪvjər ɔr ðə kənˈdʌktɪŋ əv ən ækˈtɪvəti./"
+      },
+      {
+        "sentence": "He had always had strong ethics, and he knew he had to do something.",
+        "meaning-example": "Anh ấy luôn có những nguyên tắc đạo đức mạnh mẽ, và anh biết mình phải làm điều gì đó.",
+        "ipa-example": "/hi hæd ˈɔlweɪz hæd strɔŋ ˈɛθɪks, ænd hi nu hi hæd tu du ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "Medical ethics prevent doctors from revealing patient information.",
+        "meaning-example": "Đạo đức y học ngăn cản các bác sĩ tiết lộ thông tin bệnh nhân.",
+        "ipa-example": "/ˈmɛdɪkəl ˈɛθɪks prɪˈvɛnt ˈdɑktərz frʌm rɪˈvilɪŋ ˈpeɪʃənt ˌɪnfərˈmeɪʃən./"
+      },
+      {
+        "sentence": "The company needs to improve its business ethics.",
+        "meaning-example": "Công ty cần cải thiện đạo đức kinh doanh của mình.",
+        "ipa-example": "/ðə ˈkʌmpəni nidz tu ɪmˈpruv ɪts ˈbɪznəs ˈɛθɪks./"
+      }
+    ]
+  },
+  {
+    "word": "explicit",
+    "ipa": "/ɪkˈsplɪsɪt/",
+    "meaning": "Rõ ràng, dứt khoát.",
+    "image": "eew-5-22/12.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "explicit",
+        "meaning-example": "Rõ ràng, dứt khoát.",
+        "ipa-example": "/ɪkˈsplɪsɪt/"
+      },
+      {
+        "sentence": "\"Ích-pli-xịt\". \"Ích\" lợi của việc nói \"rõ ràng\" (explicit) là không bị người khác \"xịt\" keo vào mặt vì hiểu nhầm. \"Pli\"z (please) hãy nói rõ ràng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Stated clearly and in detail, leaving no room for confusion or doubt.",
+        "meaning-example": "Được nêu rõ ràng và chi tiết, không để lại chỗ cho sự nhầm lẫn hoặc nghi ngờ.",
+        "ipa-example": "/ˈsteɪtɪd ˈklɪrli ænd ɪn dɪˈteɪl, ˈlivɪŋ noʊ rum fɔr kənˈfjuʒən ɔr daʊt./"
+      },
+      {
+        "sentence": "His coworkers liked his explicit plan.",
+        "meaning-example": "Các đồng nghiệp của anh ấy thích kế hoạch rõ ràng của anh.",
+        "ipa-example": "/hɪz ˈkoʊˌwɜrkərz laɪkt hɪz ɪkˈsplɪsɪt plæn./"
+      },
+      {
+        "sentence": "I gave him explicit instructions not to touch anything.",
+        "meaning-example": "Tôi đã cho anh ấy những chỉ dẫn rõ ràng là không được chạm vào bất cứ thứ gì.",
+        "ipa-example": "/aɪ geɪv hɪm ɪkˈsplɪsɪt ɪnˈstrʌkʃənz nɑt tu tʌʧ ˈɛniˌθɪŋ./"
+      },
+      {
+        "sentence": "The contract must be explicit about the terms of payment.",
+        "meaning-example": "Hợp đồng phải nêu rõ ràng về các điều khoản thanh toán.",
+        "ipa-example": "/ðə ˈkɑnˌtrækt mʌst bi ɪkˈsplɪsɪt əˈbaʊt ðə tɜrmz əv ˈpeɪmənt./"
+      }
+    ]
+  },
+  {
+    "word": "framework",
+    "ipa": "/ˈfreɪmwɜːrk/",
+    "meaning": "Khuôn khổ, sườn, cơ cấu.",
+    "image": "eew-5-22/13.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "framework",
+        "meaning-example": "Khuôn khổ, sườn, cơ cấu.",
+        "ipa-example": "/ˈfreɪmwɜːrk/"
+      },
+      {
+        "sentence": "\"Ph-rêm-uốc\". Cái \"khung\" (frame) ảnh này là \"uốc\" (work - tác phẩm) nghệ thuật, nó tạo thành một \"khuôn khổ\" (framework) đẹp.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A basic structure underlying a system, concept, or text.",
+        "meaning-example": "Một cấu trúc cơ bản làm nền tảng cho một hệ thống, khái niệm hoặc văn bản.",
+        "ipa-example": "/ə ˈbeɪsɪk ˈstrʌkʧər ˌʌndərˈlaɪɪŋ ə ˈsɪstəm, ˈkɑnsɛpt, ɔr tɛkst./"
+      },
+      {
+        "sentence": "Jack, his supervisor, and his coworkers spent the next month designing a new framework for the company.",
+        "meaning-example": "Jack, người giám sát của anh, và các đồng nghiệp đã dành tháng tiếp theo để thiết kế một khuôn khổ mới cho công ty.",
+        "ipa-example": "/ʤæk, hɪz ˈsupərˌvaɪzər, ænd hɪz ˈkoʊˌwɜrkərz spɛnt ðə nɛkst mʌnθ dɪˈzaɪnɪŋ ə nu ˈfreɪmˌwɜrk fɔr ðə ˈkʌmpəni./"
+      },
+      {
+        "sentence": "We need to establish a legal framework for the new system.",
+        "meaning-example": "Chúng ta cần thiết lập một khuôn khổ pháp lý cho hệ thống mới.",
+        "ipa-example": "/wi nid tu ɪˈstæblɪʃ ə ˈligəl ˈfreɪmˌwɜrk fɔr ðə nu ˈsɪstəm./"
+      },
+      {
+        "sentence": "The book provides a framework for understanding modern politics.",
+        "meaning-example": "Cuốn sách cung cấp một khuôn khổ để hiểu chính trị hiện đại.",
+        "ipa-example": "/ðə bʊk prəˈvaɪdz ə ˈfreɪmˌwɜrk fɔr ˌʌndərˈstændɪŋ ˈmɑdərn ˈpɑləˌtɪks./"
+      }
+    ]
+  },
+  {
+    "word": "manufacture",
+    "ipa": "/ˌmænjuˈfæktʃər/",
+    "meaning": "Sản xuất, chế tạo.",
+    "image": "eew-5-22/14.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "manufacture",
+        "meaning-example": "Sản xuất, chế tạo.",
+        "ipa-example": "/ˌmænjuˈfæktʃər/"
+      },
+      {
+        "sentence": "\"Me-niu-phếch-chờ\". \"Me\" (mẹ) dặn phải chờ, không được mua hàng \"phếch\" (fake), chỉ mua hàng do các công ty lớn \"sản xuất\" (manufacture) thôi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make (something) on a large scale using machinery.",
+        "meaning-example": "Làm ra (cái gì đó) trên quy mô lớn bằng máy móc.",
+        "ipa-example": "/tu meɪk (ˈsʌmθɪŋ) ɒn ə lɑrʤ skeɪl ˈjuzɪŋ məˈʃinəri./"
+      },
+      {
+        "sentence": "Bioco manufactured drugs to treat diabetes and high cholesterol.",
+        "meaning-example": "Bioco sản xuất thuốc điều trị bệnh tiểu đường và cholesterol cao.",
+        "ipa-example": "/ˈbaɪoʊˌkoʊ ˌmænjəˈfækʧərd drʌgz tu trit ˌdaɪəˈbitiz ænd haɪ kəˈlɛstəˌrɔl./"
+      },
+      {
+        "sentence": "This company manufactures cars.",
+        "meaning-example": "Công ty này sản xuất ô tô.",
+        "ipa-example": "/ðɪs ˈkʌmpəni ˌmænjəˈfækʧərz kɑrz./"
+      },
+      {
+        "sentence": "The toys are manufactured in China.",
+        "meaning-example": "Những món đồ chơi này được sản xuất tại Trung Quốc.",
+        "ipa-example": "/ðə tɔɪz ɑr ˌmænjəˈfækʧərd ɪn ˈʧaɪnə./"
+      }
+    ]
+  },
+  {
+    "word": "mechanism",
+    "ipa": "/ˈmekənɪzəm/",
+    "meaning": "Cơ cấu, cơ chế, bộ máy.",
+    "image": "eew-5-22/15.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "mechanism",
+        "meaning-example": "Cơ cấu, cơ chế, bộ máy.",
+        "ipa-example": "/ˈmekənɪzəm/"
+      },
+      {
+        "sentence": "\"Mếch-cơ-ni-dầm\". \"Mếch\" lòng với cái \"cơ cấu\" (mechanism) này quá, nó cứ kêu \"cà dầm cà dầm\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A system of parts working together in a machine; a piece of machinery.",
+        "meaning-example": "Một hệ thống các bộ phận hoạt động cùng nhau trong một máy móc; một bộ phận máy móc.",
+        "ipa-example": "/ə ˈsɪstəm əv pɑrts ˈwɜrkɪŋ təˈgɛðər ɪn ə məˈʃin; ə pis əv məˈʃinəri./"
+      },
+      {
+        "sentence": "Jack’s job was to use a tiny mechanism to get nectar from flowers.",
+        "meaning-example": "Công việc của Jack là sử dụng một cơ chế nhỏ để lấy mật từ hoa.",
+        "ipa-example": "/ʤæks ʤɑb wəz tu juz ə ˈtaɪni ˈmɛkəˌnɪzəm tu gɛt ˈnɛktər frʌm ˈflaʊərz./"
+      },
+      {
+        "sentence": "The camera's focusing mechanism is broken.",
+        "meaning-example": "Cơ chế lấy nét của máy ảnh bị hỏng.",
+        "ipa-example": "/ðə ˈkæmərəz ˈfoʊkəsɪŋ ˈmɛkəˌnɪzəm ɪz ˈbroʊkən./"
+      },
+      {
+        "sentence": "We need a mechanism for resolving disputes.",
+        "meaning-example": "Chúng ta cần một cơ chế để giải quyết các tranh chấp.",
+        "ipa-example": "/wi nid ə ˈmɛkəˌnɪzəm fɔr rɪˈzɑlvɪŋ dɪˈspjuts./"
+      }
+    ]
+  },
+  {
+    "word": "minimize",
+    "ipa": "/ˈmɪnɪmaɪz/",
+    "meaning": "Giảm thiểu, giảm đến mức tối thiểu.",
+    "image": "eew-5-22/16.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "minimize",
+        "meaning-example": "Giảm thiểu, giảm đến mức tối thiểu.",
+        "ipa-example": "/ˈmɪnɪmaɪz/"
+      },
+      {
+        "sentence": "\"Mi-ni-mai-z\". Để \"giảm thiểu\" (minimize) chi phí, hãy mua đồ \"mini\" (nhỏ) thôi, để \"mai\" (ngày mai) còn có cái mà \"xài\" (z).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To reduce (something, especially something undesirable) to the smallest possible amount or degree.",
+        "meaning-example": "Giảm (thứ gì đó, đặc biệt là thứ không mong muốn) xuống lượng hoặc mức độ nhỏ nhất có thể.",
+        "ipa-example": "/tu rəˈdus (ˈsʌmθɪŋ, əˈspɛʃəli ˈsʌmθɪŋ ˌʌndɪˈzaɪərəbəl) tu ðə ˈsmɔləst ˈpɑsəbəl əˈmaʊnt ɔr dɪˈgri./"
+      },
+      {
+        "sentence": "They ... minimized the amount of air pollution the company released.",
+        "meaning-example": "Họ đã... giảm thiểu lượng ô nhiễm không khí mà công ty thải ra.",
+        "ipa-example": "/ðeɪ ... ˈmɪnəˌmaɪzd ði əˈmaʊnt əv ɛr pəˈluʃən ðə ˈkʌmpəni rɪˈlist./"
+      },
+      {
+        "sentence": "We must minimize the risk of infection.",
+        "meaning-example": "Chúng ta phải giảm thiểu nguy cơ nhiễm trùng.",
+        "ipa-example": "/wi mʌst ˈmɪnəˌmaɪz ðə rɪsk əv ɪnˈfɛkʃən./"
+      },
+      {
+        "sentence": "The goal is to minimize costs and maximize profits.",
+        "meaning-example": "Mục tiêu là giảm thiểu chi phí và tối đa hóa lợi nhuận.",
+        "ipa-example": "/ðə goʊl ɪz tu ˈmɪnəˌmaɪz kɔsts ænd ˈmæksəˌmaɪz ˈprɑfɪts./"
+      }
+    ]
+  },
+  {
+    "word": "nectar",
+    "ipa": "/ˈnektər/",
+    "meaning": "Mật hoa.",
+    "image": "eew-5-22/17.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "nectar",
+        "meaning-example": "Mật hoa.",
+        "ipa-example": "/ˈnektər/"
+      },
+      {
+        "sentence": "\"Nếch-tơ\". \"Nếch\" nhác không chịu làm việc, chỉ thích uống \"mật hoa\" (nectar), lười như con \"tơ\" (bướm).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A sugary fluid secreted by plants, especially within flowers to encourage pollination by insects and other animals.",
+        "meaning-example": "Một chất lỏng có đường do thực vật tiết ra, đặc biệt là trong hoa để khuyến khích sự thụ phấn của côn trùng và các động vật khác.",
+        "ipa-example": "/ə ˈʃʊgəri ˈfluɪd sɪˈkritɪd baɪ plænts, əˈspɛʃəli wɪˈðɪn ˈflaʊərz tu ɛnˈkɜrɪʤ ˌpɑləˈneɪʃən baɪ ˈɪnsɛkts ænd ˈʌðər ˈænəməlz./"
+      },
+      {
+        "sentence": "The nectar was a main ingredient in the drugs.",
+        "meaning-example": "Mật hoa là một thành phần chính trong các loại thuốc.",
+        "ipa-example": "/ðə ˈnɛktər wəz ə meɪn ɪnˈgridiənt ɪn ðə drʌgz./"
+      },
+      {
+        "sentence": "Bees collect nectar from flowers to make honey.",
+        "meaning-example": "Ong thu thập mật hoa để làm mật ong.",
+        "ipa-example": "/biz kəˈlɛkt ˈnɛktər frʌm ˈflaʊərz tu meɪk ˈhʌni./"
+      },
+      {
+        "sentence": "The hummingbird drank nectar from the feeder.",
+        "meaning-example": "Chim ruồi uống mật hoa từ bình cho ăn.",
+        "ipa-example": "/ðə ˈhʌmɪŋˌbɜrd dræŋk ˈnɛktər frʌm ðə ˈfidər./"
+      }
+    ]
+  },
+  {
+    "word": "notion",
+    "ipa": "/ˈnoʊʃn/",
+    "meaning": "Ý niệm, khái niệm, quan điểm.",
+    "image": "eew-5-22/18.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "notion",
+        "meaning-example": "Ý niệm, khái niệm, quan điểm.",
+        "ipa-example": "/ˈnoʊʃn/"
+      },
+      {
+        "sentence": "\"Nâu-sần\". \"Nâu\" có \"ý niệm\" (notion) rằng màu \"sần\" sùi này không đẹp.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A conception of or belief about something.",
+        "meaning-example": "Một quan niệm hoặc niềm tin về một điều gì đó.",
+        "ipa-example": "/ə kənˈsɛpʃən əv ɔr bɪˈlif əˈbaʊt ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "I have a notion that we can fix them if we form a coalition.",
+        "meaning-example": "Tôi có ý nghĩ rằng chúng ta có thể khắc phục chúng nếu chúng ta thành lập một liên minh.",
+        "ipa-example": "/aɪ hæv ə ˈnoʊʃən ðæt wi kæn fɪks ðɛm ɪf wi fɔrm ə ˌkoʊəˈlɪʃən./"
+      },
+      {
+        "sentence": "He has some strange notions about women.",
+        "meaning-example": "Anh ta có một số quan niệm lạ về phụ nữ.",
+        "ipa-example": "/hi hæz sʌm streɪnʤ ˈnoʊʃənz əˈbaʊt ˈwɪmɪn./"
+      },
+      {
+        "sentence": "I had a vague notion of what she was talking about.",
+        "meaning-example": "Tôi có một ý niệm mơ hồ về những gì cô ấy đang nói.",
+        "ipa-example": "/aɪ hæd ə veɪg ˈnoʊʃən əv wʌt ʃi wəz ˈtɔkɪŋ əˈbaʊt./"
+      }
+    ]
+  },
+  {
+    "word": "prone",
+    "ipa": "/proʊn/",
+    "meaning": "Dễ bị, có khuynh hướng bị.",
+    "image": "eew-5-22/19.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "prone",
+        "meaning-example": "Dễ bị, có khuynh hướng bị.",
+        "ipa-example": "/proʊn/"
+      },
+      {
+        "sentence": "\"P-rôn\". Những người chơi \"game pro\" thường \"dễ\" (prone) bị mỏi mắt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Likely or liable to suffer from, do, or experience something, typically something regrettable or unwelcome.",
+        "meaning-example": "Có khả năng hoặc có thể phải chịu đựng, làm, hoặc trải nghiệm một điều gì đó, thường là điều đáng tiếc hoặc không mong muốn.",
+        "ipa-example": "/ˈlaɪkli ɔr ˈlaɪəbəl tu ˈsʌfər frʌm, du, ɔr ɪkˈspɪriəns ˈsʌmθɪŋ, ˈtɪpɪkli ˈsʌmθɪŋ rɪˈgrɛtəbəl ɔr ənˈwɛlkəm./"
+      },
+      {
+        "sentence": "...and made fish prone to illness.",
+        "meaning-example": "...và khiến cá dễ mắc bệnh.",
+        "ipa-example": "/...ænd meɪd fɪʃ proʊn tu ˈɪlnəs./"
+      },
+      {
+        "sentence": "He is prone to getting colds.",
+        "meaning-example": "Anh ấy dễ bị cảm lạnh.",
+        "ipa-example": "/hi ɪz proʊn tu ˈgɛtɪŋ koʊldz./"
+      },
+      {
+        "sentence": "This area is prone to flooding.",
+        "meaning-example": "Khu vực này dễ bị lũ lụt.",
+        "ipa-example": "/ðɪs ˈɛriə ɪz proʊn tu ˈflʌdɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "straightforward",
+    "ipa": "/ˌstreɪtˈfɔːrwərd/",
+    "meaning": "Thẳng thắn, rõ ràng, không phức tạp.",
+    "image": "eew-5-22/20.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "straightforward",
+        "meaning-example": "Thẳng thắn, rõ ràng, không phức tạp.",
+        "ipa-example": "/ˌstreɪtˈfɔːrwərd/"
+      },
+      {
+        "sentence": "\"S-trết-pho-uốt\". Hãy đi \"thẳng\" (straight) về \"phía trước\" (forward), đó là cách \"thẳng thắn\" (straightforward) nhất.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Uncomplicated and easy to do or understand; honest and frank.",
+        "meaning-example": "Không phức tạp và dễ làm hoặc dễ hiểu; trung thực và thẳng thắn.",
+        "ipa-example": "/ənˈkɑmplɪˌkeɪtɪd ænd ˈizi tu du ɔr ˌʌndərˈstænd; ˈɑnəst ænd fræŋk./"
+      },
+      {
+        "sentence": "Thank you for being straightforward about this issue.",
+        "meaning-example": "Cảm ơn bạn đã thẳng thắn về vấn đề này.",
+        "ipa-example": "/θæŋk ju fɔr ˈbiɪŋ ˌstreɪtˈfɔrwərd əˈbaʊt ðɪs ˈɪʃu./"
+      },
+      {
+        "sentence": "The instructions are quite straightforward.",
+        "meaning-example": "Các hướng dẫn khá đơn giản.",
+        "ipa-example": "/ði ɪnˈstrʌkʃənz ɑr kwaɪt ˌstreɪtˈfɔrwərd./"
+      },
+      {
+        "sentence": "She is very straightforward and always says what she thinks.",
+        "meaning-example": "Cô ấy rất thẳng thắn và luôn nói những gì cô ấy nghĩ.",
+        "ipa-example": "/ʃi ɪz ˈvɛri ˌstreɪtˈfɔrwərd ænd ˈɔlweɪz sɛz wʌt ʃi θɪŋks./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The New Bioco",
+        "meaning-example": "Công ty Bioco Mới",
+        "ipa-example": "/ðə nu ˈbaɪoʊˌkoʊ/"
+      },
+      {
+        "sentence": "Jack got a new job at a biotechnology company called Bioco.",
+        "meaning-example": "Jack có một công việc mới tại một công ty công nghệ sinh học tên là Bioco.",
+        "ipa-example": "/ʤæk gɑt ə nu ʤɑb æt ə ˌbaɪoʊtɛkˈnɑləʤi ˈkʌmpəni kɔld ˈbaɪoʊˌkoʊ./"
+      },
+      {
+        "sentence": "Bioco manufactured drugs to treat diabetes and high cholesterol.",
+        "meaning-example": "Bioco sản xuất thuốc điều trị bệnh tiểu đường và cholesterol cao.",
+        "ipa-example": "/ˈbaɪoʊˌkoʊ ˌmænjəˈfækʧərd drʌgz tu trit ˌdaɪəˈbitiz ænd haɪ kəˈlɛstəˌrɔl./"
+      },
+      {
+        "sentence": "Jack’s job was to use a tiny mechanism to get nectar from flowers.",
+        "meaning-example": "Công việc của Jack là sử dụng một cơ chế nhỏ để lấy mật từ hoa.",
+        "ipa-example": "/ʤæks ʤɑb wəz tu juz ə ˈtaɪni ˈmɛkəˌnɪzəm tu gɛt ˈnɛktər frʌm ˈflaʊərz./"
+      },
+      {
+        "sentence": "The nectar was a main ingredient in the drugs.",
+        "meaning-example": "Mật hoa là một thành phần chính trong các loại thuốc.",
+        "ipa-example": "/ðə ˈnɛktər wəz ə meɪn ɪnˈgridiənt ɪn ðə drʌgz./"
+      },
+      {
+        "sentence": "Jack liked his job, and he thought that Bioco was a caring company.",
+        "meaning-example": "Jack thích công việc của mình, và anh nghĩ rằng Bioco là một công ty biết quan tâm.",
+        "ipa-example": "/ʤæk laɪkt hɪz ʤɑb, ænd hi θɔt ðæt ˈbaɪoʊˌkoʊ wəz ə ˈkɛrɪŋ ˈkʌmpəni./"
+      },
+      {
+        "sentence": "However, Jack soon learned that the company wasn’t as kind as he first thought.",
+        "meaning-example": "Tuy nhiên, Jack sớm biết rằng công ty không tốt bụng như anh nghĩ lúc đầu.",
+        "ipa-example": "/haʊˈɛvər, ʤæk sun lɜrnd ðæt ðə ˈkʌmpəni ˈwɑzənt æz kaɪnd æz hi fɜrst θɔt./"
+      },
+      {
+        "sentence": "Bioco’s motto was “Make the Earth a Better Place.”",
+        "meaning-example": "Khẩu hiệu của Bioco là “Làm cho Trái đất trở thành một nơi tốt đẹp hơn.”",
+        "ipa-example": "/ˈbaɪoʊˌkoʊz ˈmɑtoʊ wəz “meɪk ði ɜrθ ə ˈbɛtər pleɪs.”/"
+      },
+      {
+        "sentence": "However, this motto was deceptive.",
+        "meaning-example": "Tuy nhiên, khẩu hiệu này lại mang tính lừa dối.",
+        "ipa-example": "/haʊˈɛvər, ðɪs ˈmɑtoʊ wəz dɪˈsɛptɪv./"
+      },
+      {
+        "sentence": "The company actually did a number of really bad things to the environment.",
+        "meaning-example": "Công ty thực sự đã làm một số điều rất tồi tệ đối với môi trường.",
+        "ipa-example": "/ðə ˈkʌmpəni ˈækʧuəli dɪd ə ˈnʌmbər əv ˈrɪli bæd θɪŋz tu ði ɪnˈvaɪrənmənt./"
+      },
+      {
+        "sentence": "The company produced a lot of smog and harmful acid.",
+        "meaning-example": "Công ty tạo ra rất nhiều khói bụi và axit có hại.",
+        "ipa-example": "/ðə ˈkʌmpəni prəˈdust ə lɑt əv smɑg ænd ˈhɑrmfəl ˈæsɪd./"
+      },
+      {
+        "sentence": "Bioco poured the acid in a nearby river, which caused erosion and made fish prone to illness.",
+        "meaning-example": "Bioco đã đổ axit xuống một con sông gần đó, gây ra sự xói mòn và khiến cá dễ mắc bệnh.",
+        "ipa-example": "/ˈbaɪoʊˌkoʊ pɔrd ði ˈæsɪd ɪn ə ˈnɪrˌbaɪ ˈrɪvər, wɪʧ kɔzd ɪˈroʊʒən ænd meɪd fɪʃ proʊn tu ˈɪlnəs./"
+      },
+      {
+        "sentence": "After a few weeks at the new job, Jack saw all the bad things Bioco was doing.",
+        "meaning-example": "Sau vài tuần làm công việc mới, Jack đã thấy tất cả những điều tồi tệ mà Bioco đang làm.",
+        "ipa-example": "/ˈæftər ə fju wiks æt ðə nu ʤɑb, ʤæk sɔ ɔl ðə bæd θɪŋz ˈbaɪoʊˌkoʊ wəz ˈduɪŋ./"
+      },
+      {
+        "sentence": "He had always had strong ethics, and he knew he had to do something.",
+        "meaning-example": "Anh ấy luôn có những nguyên tắc đạo đức mạnh mẽ, và anh biết mình phải làm điều gì đó.",
+        "ipa-example": "/hi hæd ˈɔlweɪz hæd strɔŋ ˈɛθɪks, ænd hi nu hi hæd tu du ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "One day, while the Bioco workers were eating in the cafeteria, Jack stood up and gave a speech.",
+        "meaning-example": "Một ngày nọ, khi các công nhân Bioco đang ăn trong nhà ăn, Jack đứng dậy và phát biểu.",
+        "ipa-example": "/wʌn deɪ, waɪl ðə ˈbaɪoʊˌkoʊ ˈwɜrkərz wər ˈitɪŋ ɪn ðə ˌkæfəˈtɪriə, ʤæk stʊd ʌp ænd geɪv ə spiʧ./"
+      },
+      {
+        "sentence": "He said, “My fellow coworkers, I know you have all seen the evil things our company is doing.",
+        "meaning-example": "Anh nói: “Các đồng nghiệp thân mến, tôi biết tất cả các bạn đã thấy những điều xấu xa mà công ty chúng ta đang làm.",
+        "ipa-example": "/hi sɛd, “maɪ ˈfɛloʊ ˈkoʊˌwɜrkərz, aɪ noʊ ju hæv ɔl sin ði ˈivəl θɪŋz ˈaʊər ˈkʌmpəni ɪz ˈduɪŋ./"
+      },
+      {
+        "sentence": "I have a notion that we can fix them if we form a coalition.",
+        "meaning-example": "Tôi có ý nghĩ rằng chúng ta có thể khắc phục chúng nếu chúng ta thành lập một liên minh.",
+        "ipa-example": "/aɪ hæv ə ˈnoʊʃən ðæt wi kæn fɪks ðɛm ɪf wi fɔrm ə ˌkoʊəˈlɪʃən./"
+      },
+      {
+        "sentence": "We can go to the administration and tell them we’ll quit if they don’t eliminate the problems.",
+        "meaning-example": "Chúng ta có thể đến gặp ban quản trị và nói với họ rằng chúng ta sẽ nghỉ việc nếu họ không loại bỏ các vấn đề.",
+        "ipa-example": "/wi kæn goʊ tu ði ædˌmɪnəˈstreɪʃən ænd tɛl ðɛm wil kwɪt ɪf ðeɪ doʊnt ɪˈlɪməˌneɪt ðə ˈprɑbləmz./"
+      },
+      {
+        "sentence": "They’ll have no choice but to listen to us.”",
+        "meaning-example": "Họ sẽ không có lựa chọn nào khác ngoài việc lắng nghe chúng ta.”",
+        "ipa-example": "/ðeɪl hæv noʊ ʧɔɪs bʌt tu ˈlɪsən tu ʌs.”/"
+      },
+      {
+        "sentence": "Jack explained what they were to do.",
+        "meaning-example": "Jack giải thích những gì họ phải làm.",
+        "ipa-example": "/ʤæk ɪkˈspleɪnd wʌt ðeɪ wər tu du./"
+      },
+      {
+        "sentence": "His coworkers liked his explicit plan.",
+        "meaning-example": "Các đồng nghiệp của anh ấy thích kế hoạch rõ ràng của anh.",
+        "ipa-example": "/hɪz ˈkoʊˌwɜrkərz laɪkt hɪz ɪkˈsplɪsɪt plæn./"
+      },
+      {
+        "sentence": "They went to the administrative offices and demanded that Bioco stop damaging the environment, or they all would quit.",
+        "meaning-example": "Họ đã đến các văn phòng hành chính và yêu cầu Bioco ngừng phá hoại môi trường, nếu không tất cả họ sẽ nghỉ việc.",
+        "ipa-example": "/ðeɪ wɛnt tu ði ædˈmɪnəˌstreɪtɪv ˈɔfəsəz ænd dɪˈmændɪd ðæt ˈbaɪoʊˌkoʊ stɑp ˈdæmɪʤɪŋ ði ɪnˈvaɪrənmənt, ɔr ðeɪ ɔl wʊd kwɪt./"
+      },
+      {
+        "sentence": "One supervisor said to them, “Thank you for being straightforward about this issue.",
+        "meaning-example": "Một người giám sát nói với họ: “Cảm ơn các bạn đã thẳng thắn về vấn đề này.",
+        "ipa-example": "/wʌn ˈsupərˌvaɪzər sɛd tu ðɛm, “θæŋk ju fɔr ˈbiɪŋ ˌstreɪtˈfɔrwərd əˈbaʊt ðɪs ˈɪʃu./"
+      },
+      {
+        "sentence": "Since I can’t afford to lose all of you workers, I guess we’ll just have to fix things.”",
+        "meaning-example": "Vì tôi không thể để mất tất cả các bạn, tôi đoán chúng ta sẽ phải sửa chữa mọi thứ.”",
+        "ipa-example": "/sɪns aɪ kænt əˈfɔrd tu luz ɔl əv ju ˈwɜrkərz, aɪ gɛs wil ʤʌst hæv tu fɪks θɪŋz.”/"
+      },
+      {
+        "sentence": "Jack, his supervisor, and his coworkers spent the next month designing a new framework for the company.",
+        "meaning-example": "Jack, người giám sát của anh, và các đồng nghiệp đã dành tháng tiếp theo để thiết kế một khuôn khổ mới cho công ty.",
+        "ipa-example": "/ʤæk, hɪz ˈsupərˌvaɪzər, ænd hɪz ˈkoʊˌwɜrkərz spɛnt ðə nɛkst mʌnθ dɪˈzaɪnɪŋ ə nu ˈfreɪmˌwɜrk fɔr ðə ˈkʌmpəni./"
+      },
+      {
+        "sentence": "They cleaned up the acid from the river and minimized the amount of air pollution the company released.",
+        "meaning-example": "Họ đã dọn sạch axit khỏi sông và giảm thiểu lượng ô nhiễm không khí mà công ty thải ra.",
+        "ipa-example": "/ðeɪ klind ʌp ði ˈæsɪd frʌm ðə ˈrɪvər ænd ˈmɪnəˌmaɪzd ði əˈmaʊnt əv ɛr pəˈluʃən ðə ˈkʌmpəni rɪˈlist./"
+      },
+      {
+        "sentence": "At last, the company motto became apt.",
+        "meaning-example": "Cuối cùng, khẩu hiệu của công ty đã trở nên phù hợp.",
+        "ipa-example": "/æt læst, ðə ˈkʌmpəni ˈmɑtoʊ bɪˈkeɪm æpt./"
+      }
+    ]
+  }
+]
