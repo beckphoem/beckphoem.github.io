@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Thuộc thiên văn học; cực kỳ lớn.",
+    "classes": "adj",
+    "answer": "astronomical",
+    "ipa": "/ˌæstrəˈnɑːmɪkl/",
+    "example": "One day, it approached the area of an astronomical star.",
+    "english-definition": "Relating to astronomy; (of an amount) extremely large.",
+    "images": "eew-5-23/1.png"
+  },
+  {
+    "question": "Nguyên tử.",
+    "classes": "n",
+    "answer": "atom",
+    "ipa": "/ˈætəm/",
+    "example": "It felt like an insignificant atom.",
+    "english-definition": "The smallest unit of any chemical element.",
+    "images": "eew-5-23/2.png"
+  },
+  {
+    "question": "Bề rộng, bề ngang.",
+    "classes": "n",
+    "answer": "breadth",
+    "ipa": "/bredθ/",
+    "example": "The sphere had a circumference hundreds of times larger than the breadth of the small rock.",
+    "english-definition": "The distance or measurement from side to side of something; width.",
+    "images": "eew-5-23/3.png"
+  },
+  {
+    "question": "Chu vi (của đường tròn).",
+    "classes": "n",
+    "answer": "circumference",
+    "ipa": "/sərˈkʌmfərəns/",
+    "example": "The sphere had a circumference hundreds of times larger than the breadth of the small rock.",
+    "english-definition": "The distance around the edge of a circle or a round object.",
+    "images": "eew-5-23/4.png"
+  },
+  {
+    "question": "Sao chổi.",
+    "classes": "n",
+    "answer": "comet",
+    "ipa": "/ˈkɑːmɪt/",
+    "example": "Then the steam extended behind the comet to form a brilliant tail.",
+    "english-definition": "A celestial object consisting of a nucleus of ice and dust and, when near the sun, a ‘tail’ of gas and dust particles pointing away from the sun.",
+    "images": "eew-5-23/5.png"
+  },
+  {
+    "question": "Hố (do va chạm thiên thạch hoặc núi lửa).",
+    "classes": "n",
+    "answer": "crater",
+    "ipa": "/ˈkreɪtər/",
+    "example": "It flew by beautiful crescent moons that were covered with craters and moon dust.",
+    "english-definition": "A large bowl-shaped hole in the ground or on the surface of a planet or moon, typically one caused by an explosion or the impact of a meteorite.",
+    "images": "eew-5-23/6.png"
+  },
+  {
+    "question": "Hình lưỡi liềm.",
+    "classes": "n",
+    "answer": "crescent",
+    "ipa": "/ˈkresnt/",
+    "example": "It flew by beautiful crescent moons that were covered with craters and moon dust.",
+    "english-definition": "The curved sickle shape of the waxing or waning moon.",
+    "images": "eew-5-23/7.png"
+  },
+  {
+    "question": "Mảnh vỡ, mảnh vụn.",
+    "classes": "n",
+    "answer": "debris",
+    "ipa": "/dəˈbriː/",
+    "example": "It slowly drifted through the debris of broken asteroids with a feeling of sadness.",
+    "english-definition": "Scattered pieces of waste or remains.",
+    "images": "eew-5-23/8.png"
+  },
+  {
+    "question": "Sự tuyệt vọng.",
+    "classes": "n",
+    "answer": "despair",
+    "ipa": "/dɪˈsper/",
+    "example": "The rock was filled with despair.",
+    "english-definition": "The complete loss or absence of hope.",
+    "images": "eew-5-23/9.png"
+  },
+  {
+    "question": "Ấn vào, gắn vào.",
+    "classes": "v",
+    "answer": "embed",
+    "ipa": "/ɪmˈbed/",
+    "example": "Suddenly, the ice that was embedded in the rock’s tiny cracks melted and became steam.",
+    "english-definition": "To fix (an object) firmly and deeply in a surrounding mass.",
+    "images": "eew-5-23/10.png"
+  },
+  {
+    "question": "Mảnh vỡ, mảnh.",
+    "classes": "n",
+    "answer": "fragment",
+    "ipa": "/ˈfræɡmənt/",
+    "example": "It was surrounded by beauty and greatness, yet it was just a small and ugly fragment of rock.",
+    "english-definition": "A small part broken off or separated from something.",
+    "images": "eew-5-23/11.png"
+  },
+  {
+    "question": "Thiên hà.",
+    "classes": "n",
+    "answer": "galaxy",
+    "ipa": "/ˈɡæləksi/",
+    "example": "In the vast and beautiful galaxy, it was only a tiny rock.",
+    "english-definition": "A system of millions or billions of stars, together with gas and dust, held together by gravitational attraction.",
+    "images": "eew-5-23/12.png"
+  },
+  {
+    "question": "Khổng lồ, kếch xù.",
+    "classes": "adj",
+    "answer": "gigantic",
+    "ipa": "/dʒaɪˈɡæntɪk/",
+    "example": "The rock passed a gigantic planet.",
+    "english-definition": "Of very great size or extent; huge or enormous.",
+    "images": "eew-5-23/13.png"
+  },
+  {
+    "question": "Sự u ám, tăm tối, buồn bã.",
+    "classes": "n",
+    "answer": "gloom",
+    "ipa": "/ɡluːm/",
+    "example": "A solitary rock roamed through the cold gloom of outer space.",
+    "english-definition": "Partial or total darkness; a state of depression or despondency.",
+    "images": "eew-5-23/14.png"
+  },
+  {
+    "question": "Tỏa ra, phát ra (nhiệt, ánh sáng, năng lượng).",
+    "classes": "v",
+    "answer": "radiate",
+    "ipa": "/ˈreɪdieɪt/",
+    "example": "The star radiated its light brighter and hotter than it had ever done before.",
+    "english-definition": "To emit (energy, especially light or heat) in the form of rays or waves.",
+    "images": "eew-5-23/15.png"
+  },
+  {
+    "question": "Đi lang thang, đi rong chơi.",
+    "classes": "v",
+    "answer": "roam",
+    "ipa": "/roʊm/",
+    "example": "A solitary rock roamed through the cold gloom of outer space.",
+    "english-definition": "To move about or travel aimlessly or unsystematically, especially over a wide area.",
+    "images": "eew-5-23/16.png"
+  },
+  {
+    "question": "Đơn độc, một mình.",
+    "classes": "adj",
+    "answer": "solitary",
+    "ipa": "/ˈsɑːləteri/",
+    "example": "A solitary rock roamed through the cold gloom of outer space.",
+    "english-definition": "Done or existing alone.",
+    "images": "eew-5-23/17.png"
+  },
+  {
+    "question": "Quang phổ; một dải rộng (ý kiến, đối tượng, v.v.).",
+    "classes": "n",
+    "answer": "spectrum",
+    "ipa": "/ˈspektrəm/",
+    "example": "The tail shined with all the colors of the spectrum.",
+    "english-definition": "A band of colors, as seen in a rainbow, produced by separation of the components of light; a wide range.",
+    "images": "eew-5-23/18.png"
+  },
+  {
+    "question": "Hình cầu, quả cầu.",
+    "classes": "n",
+    "answer": "sphere",
+    "ipa": "/sfɪr/",
+    "example": "The sphere had a circumference hundreds of times larger than the breadth of the small rock.",
+    "english-definition": "A round solid figure, or its surface, with every point on its surface equidistant from its center.",
+    "images": "eew-5-23/19.png"
+  },
+  {
+    "question": "Địa vị, thân phận; tình trạng.",
+    "classes": "n",
+    "answer": "status",
+    "ipa": "/ˈsteɪtəs/",
+    "example": "Oh, I wish I had a higher status in the galaxy.",
+    "english-definition": "The relative social, professional, or other standing of someone or something; the situation at a particular time.",
+    "images": "eew-5-23/20.png"
+  }
+]
