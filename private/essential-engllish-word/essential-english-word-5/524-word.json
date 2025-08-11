@@ -1,0 +1,913 @@
+
+[
+  {
+    "word": "bankrupt",
+    "ipa": "/ˈbæŋkrʌpt/",
+    "meaning": "Không có đủ tiền để trả nợ; phá sản.",
+    "image": "eew-5-24/1.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "bankrupt",
+        "meaning-example": "Không có đủ tiền để trả nợ; phá sản.",
+        "ipa-example": "/ˈbæŋkrʌpt/"
+      },
+      {
+        "sentence": "Có một ông chủ ngân hàng (banker) rất giàu có, nhưng vì ăn chơi hoang phí nên ông ta đã tiêu hết sạch tiền. Đến một ngày, ông ta không còn một xu dính túi, phải đi lang thang. Người ta thấy ông ta ngồi trên một con dốc (rump) bên đường, rách rưới. Họ chỉ trỏ và nói: \"Nhìn kìa, ông banker ngồi trên dốc (rump) kia. Ông ta phá sản rồi.\" Từ đó, câu chuyện về \"banker rump\" được truyền tai nhau, và người ta đọc lái thành \"bankrupt\" để chỉ tình trạng phá sản, vỡ nợ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Unable to pay what you owe, and having control of your financial matters given, by a court of law, to a person who sells your property to pay your debts.",
+        "meaning-example": "Không thể trả những gì bạn nợ, và bị tòa án giao quyền kiểm soát các vấn đề tài chính của bạn cho một người bán tài sản của bạn để trả nợ.",
+        "ipa-example": "/əˈneɪbəl tu peɪ wʌt ju oʊ, ænd ˈhævɪŋ kənˈtroʊl əv jʊər faɪˈnænʃəl ˈmætərz ˈgɪvən, baɪ ə kɔrt əv lɔ, tu ə ˈpɜrsən hu sɛlz jʊər ˈprɑpərti tu peɪ jʊər dɛts./"
+      },
+      {
+        "sentence": "He’d be bankrupt, and the bank would take his building.",
+        "meaning-example": "Anh ấy sẽ bị phá sản, và ngân hàng sẽ lấy tòa nhà của anh ấy.",
+        "ipa-example": "/hid bi ˈbæŋkrʌpt, ænd ðə bæŋk wʊd teɪk hɪz ˈbɪldɪŋ./"
+      },
+      {
+        "sentence": "The company was declared bankrupt last year.",
+        "meaning-example": "Công ty đã bị tuyên bố phá sản vào năm ngoái.",
+        "ipa-example": "/ðə ˈkʌmpəni wəz dɪˈklɛrd ˈbæŋkrʌpt læst jɪr./"
+      },
+      {
+        "sentence": "He went bankrupt after only a year in business.",
+        "meaning-example": "Anh ấy đã phá sản chỉ sau một năm kinh doanh.",
+        "ipa-example": "/hi wɛnt ˈbæŋkrʌpt ˈæftər ˈoʊnli ə jɪr ɪn ˈbɪznəs./"
+      }
+    ]
+  },
+  {
+    "word": "conform",
+    "ipa": "/kənˈfɔːrm/",
+    "meaning": "Tuân theo các quy tắc hoặc tiêu chuẩn; tuân thủ.",
+    "image": "eew-5-24/2.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "conform",
+        "meaning-example": "Tuân theo các quy tắc hoặc tiêu chuẩn; tuân thủ.",
+        "ipa-example": "/kənˈfɔːrm/"
+      },
+      {
+        "sentence": "Trong một lớp học nọ, có một cậu học sinh mới tên Côn. Cậu bé này rất cá tính và thường làm trái với quy định của lớp. Cô giáo bèn gọi Côn lên và nói: \"Này Côn, ở lớp này em phải tuân theo nội quy. Em phải 'cầm cái phom' (form) này và làm theo. Mọi người đều theo một cái phom chung.\" Cậu bé Côn nghe lời, cầm lấy tờ nội quy và bắt đầu tuân thủ. Từ đó, mỗi khi nói về việc tuân theo quy định hay tiêu chuẩn, mọi người lại nhớ đến câu chuyện \"Côn cầm phom\" và đọc lái thành \"conform\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To behave according to the usual standards of behavior that are expected by a group or society.",
+        "meaning-example": "Hành xử theo các tiêu chuẩn hành vi thông thường được một nhóm hoặc xã hội mong đợi.",
+        "ipa-example": "/tu bɪˈheɪv əˈkɔrdɪŋ tu ðə ˈjuʒəwəl ˈstændərdz əv bɪˈheɪvjər ðæt ɑr ɪkˈspɛktɪd baɪ ə grup ɔr səˈsaɪəti./"
+      },
+      {
+        "sentence": "It would seem like he did not want to conform to the city’s codes before the forthcoming inspection.",
+        "meaning-example": "Có vẻ như anh ấy không muốn tuân thủ các quy định của thành phố trước cuộc thanh tra sắp tới.",
+        "ipa-example": "/ɪt wʊd sim laɪk hi dɪd nɑt wɑnt tu kənˈfɔrm tu ðə ˈsɪtiz koʊdz bɪˈfɔr ðə ˌfɔrθˈkʌmɪŋ ɪnˈspɛkʃən./"
+      },
+      {
+        "sentence": "You must conform to the rules or leave the club.",
+        "meaning-example": "Bạn phải tuân theo các quy tắc hoặc rời khỏi câu lạc bộ.",
+        "ipa-example": "/ju mʌst kənˈfɔrm tu ðə rulz ɔr liv ðə klʌb./"
+      },
+      {
+        "sentence": "The building does not conform to safety regulations.",
+        "meaning-example": "Tòa nhà không tuân thủ các quy định an toàn.",
+        "ipa-example": "/ðə ˈbɪldɪŋ dəz nɑt kənˈfɔrm tu ˈseɪfti ˌrɛgjəˈleɪʃənz./"
+      }
+    ]
+  },
+  {
+    "word": "employ",
+    "ipa": "/ɪmˈplɔɪ/",
+    "meaning": "Thuê ai đó làm việc và trả tiền cho họ.",
+    "image": "eew-5-24/3.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "employ",
+        "meaning-example": "Thuê ai đó làm việc và trả tiền cho họ.",
+        "ipa-example": "/ɪmˈplɔɪ/"
+      },
+      {
+        "sentence": "Có một ông chủ giàu có muốn tìm người làm vườn. Ông thấy một anh chàng khỏe mạnh nhưng thất nghiệp. Ông chủ liền đến gần và nói: \"Này anh, tôi thấy anh có vẻ siêng năng. 'Em ploy' (làm) cho tôi nhé? Tôi sẽ trả lương cao.\" Anh chàng mừng rỡ gật đầu đồng ý. \"Em ploy\" là cách nói gần gũi của ông chủ, có nghĩa là \"em làm việc cho tôi\". Từ đó, câu chuyện \"em ploy\" được lan truyền, và người ta dùng từ \"employ\" để chỉ hành động thuê ai đó làm việc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To have someone work or do a job for you and pay them for it.",
+        "meaning-example": "Thuê ai đó làm việc hoặc làm một công việc cho bạn và trả tiền cho họ.",
+        "ipa-example": "/tu hæv ˈsʌmwʌn wɜrk ɔr du ə ʤɑb fɔr ju ænd peɪ ðɛm fɔr ɪt./"
+      },
+      {
+        "sentence": "But he didn’t have the money whereby he could employ the personnel needed to make the repairs.",
+        "meaning-example": "Nhưng ông không có tiền để có thể thuê nhân viên cần thiết để thực hiện các sửa chữa.",
+        "ipa-example": "/bʌt hi ˈdɪdənt hæv ðə ˈmʌni werˈbaɪ hi kʊd ɪmˈplɔɪ ðə ˌpɜrsəˈnɛl ˈnidəd tu meɪk ðə rɪˈpɛrz./"
+      },
+      {
+        "sentence": "The company employs over 2,000 people.",
+        "meaning-example": "Công ty tuyển dụng hơn 2.000 người.",
+        "ipa-example": "/ðə ˈkʌmpəni ɪmˈplɔɪz ˈoʊvər tu ˈθaʊzənd ˈpipəl./"
+      },
+      {
+        "sentence": "How many people does your company employ?",
+        "meaning-example": "Công ty của bạn tuyển dụng bao nhiêu người?",
+        "ipa-example": "/haʊ ˈmɛni ˈpipəl dəz jʊər ˈkʌmpəni ɪmˈplɔɪ?/"
+      }
+    ]
+  },
+  {
+    "word": "expel",
+    "ipa": "/ɪkˈspel/",
+    "meaning": "Buộc ai đó phải rời khỏi một nơi, chẳng hạn như trường học, tổ chức hoặc quốc gia; trục xuất.",
+    "image": "eew-5-24/4.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "expel",
+        "meaning-example": "Buộc ai đó phải rời khỏi một nơi, chẳng hạn như trường học, tổ chức hoặc quốc gia; trục xuất.",
+        "ipa-example": "/ɪkˈspel/"
+      },
+      {
+        "sentence": "Trong một ngôi trường phép thuật, có một cậu học trò tên là X. Cậu ta rất nghịch ngợm và thường dùng phép thuật để trêu chọc bạn bè. Một lần, cậu ta làm một trò đùa quá đáng, khiến cả trường náo loạn. Thầy hiệu trưởng rất tức giận, ông chỉ tay vào X và hô lớn: \"Ta 'ích kỷ-keo' như ngươi sao? Không! Ngươi đã vi phạm nội quy. Ngươi bị đuổi học!\" Thầy hiệu trưởng muốn nói \"Ích kỷ như ngươi sao?\", nhưng vì quá giận nên nói vấp. Học sinh nghe thành \"ik-spel\". Từ đó, \"expel\" được dùng với nghĩa là trục xuất, đuổi ai đó ra khỏi một nơi nào đó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To force someone to leave a school, organization, or country.",
+        "meaning-example": "Buộc ai đó rời khỏi một trường học, tổ chức hoặc quốc gia.",
+        "ipa-example": "/tu fɔrs ˈsʌmwʌn tu liv ə skul, ˌɔrgənəˈzeɪʃən, ɔr ˈkʌntri./"
+      },
+      {
+        "sentence": "…the city will expel everyone.",
+        "meaning-example": "...thành phố sẽ đuổi tất cả mọi người đi.",
+        "ipa-example": "/ðə ˈsɪti wɪl ɪkˈspɛl ˈɛvriˌwʌn./"
+      },
+      {
+        "sentence": "He was expelled from school for cheating.",
+        "meaning-example": "Anh ta đã bị đuổi học vì gian lận.",
+        "ipa-example": "/hi wəz ɪkˈspɛld frʌm skul fɔr ˈʧitɪŋ./"
+      },
+      {
+        "sentence": "The government expelled the foreign diplomats.",
+        "meaning-example": "Chính phủ đã trục xuất các nhà ngoại giao nước ngoài.",
+        "ipa-example": "/ðə ˈgʌvərmənt ɪkˈspɛld ðə ˈfɔrən ˈdɪpləˌmæts./"
+      }
+    ]
+  },
+  {
+    "word": "extension",
+    "ipa": "/ɪkˈstenʃn/",
+    "meaning": "Việc làm cho một cái gì đó lớn hơn hoặc dài hơn; sự gia hạn (thời gian).",
+    "image": "eew-5-24/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "extension",
+        "meaning-example": "Việc làm cho một cái gì đó lớn hơn hoặc dài hơn; sự gia hạn (thời gian).",
+        "ipa-example": "/ɪkˈstenʃn/"
+      },
+      {
+        "sentence": "Có một người đàn ông muốn xây thêm một căn phòng cho ngôi nhà của mình. Ông đến gặp kiến trúc sư và nói: \"Tôi muốn 'ích-tên-sân' của mình ra. Tức là mở rộng cái sân để xây thêm.\" Kiến trúc sư hiểu ý ông là muốn nới rộng, kéo dài thêm không gian. Ông ghi chép lại yêu cầu \"ích-tên-sân\" của khách hàng. Từ đó, mỗi khi nói về sự mở rộng, sự gia hạn hay phần xây thêm, người ta lại dùng từ \"extension\", nghe gần giống như \"ích-tên-sân\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The fact of making something larger or longer; a period of time by which a deadline is postponed.",
+        "meaning-example": "Sự việc làm cho một cái gì đó lớn hơn hoặc dài hơn; một khoảng thời gian mà một thời hạn được hoãn lại.",
+        "ipa-example": "/ðə fækt əv ˈmeɪkɪŋ ˈsʌmθɪŋ ˈlɑrʤər ɔr ˈlɔŋgər; ə ˈpɪriəd əv taɪm baɪ wɪʧ ə ˈdɛdˌlaɪn ɪz poʊstˈpoʊnd./"
+      },
+      {
+        "sentence": "He had requested an extension, but it was denied by the city.",
+        "meaning-example": "Ông đã yêu cầu gia hạn, nhưng đã bị thành phố từ chối.",
+        "ipa-example": "/hi hæd rɪˈkwɛstɪd ən ɪkˈstɛnʃən, bʌt ɪt wəz dɪˈnaɪd baɪ ðə ˈsɪti./"
+      },
+      {
+        "sentence": "We're building an extension to our house.",
+        "meaning-example": "Chúng tôi đang xây thêm một phần cho ngôi nhà của mình.",
+        "ipa-example": "/wɪr ˈbɪldɪŋ ən ɪkˈstɛnʃən tu ˈaʊər haʊs./"
+      },
+      {
+        "sentence": "I've applied for an extension to my visa.",
+        "meaning-example": "Tôi đã nộp đơn xin gia hạn thị thực của mình.",
+        "ipa-example": "/aɪv əˈplaɪd fɔr ən ɪkˈstɛnʃən tu maɪ ˈvizə./"
+      }
+    ]
+  },
+  {
+    "word": "forthcoming",
+    "ipa": "/ˌfɔːrθˈkʌmɪŋ/",
+    "meaning": "Sắp xảy ra hoặc sắp xuất hiện; sắp tới.",
+    "image": "eew-5-24/6.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "forthcoming",
+        "meaning-example": "Sắp xảy ra hoặc sắp xuất hiện; sắp tới.",
+        "ipa-example": "/ˌfɔːrθˈkʌmɪŋ/"
+      },
+      {
+        "sentence": "Một ngôi làng đang chuẩn bị cho lễ hội lớn nhất trong năm. Trưởng làng thông báo với mọi người: \"Lễ hội 'sắp tới' rồi! Mọi người hãy 'phó thác' (forth) công việc chuẩn bị cho tôi, và hãy 'đến' (coming) dự đông đủ nhé!\". Ông muốn nói rằng lễ hội sắp diễn ra, và ông sẽ đứng ra lo liệu. Mọi người nghe câu \"phó thác, đến\" và đọc trại đi thành \"forthcoming\". Từ đó, \"forthcoming\" được dùng để chỉ một sự kiện nào đó sắp xảy ra trong tương lai gần.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Happening or coming soon.",
+        "meaning-example": "Sắp xảy ra hoặc sắp đến.",
+        "ipa-example": "/ˈhæpənɪŋ ɔr ˈkʌmɪŋ sun./"
+      },
+      {
+        "sentence": "...before the forthcoming inspection.",
+        "meaning-example": "...trước cuộc thanh tra sắp tới.",
+        "ipa-example": "/bɪˈfɔr ðə ˌfɔrθˈkʌmɪŋ ɪnˈspɛkʃən./"
+      },
+      {
+        "sentence": "We are all excited about the forthcoming concert.",
+        "meaning-example": "Tất cả chúng tôi đều hào hứng về buổi hòa nhạc sắp tới.",
+        "ipa-example": "/wi ɑr ɔl ɪkˈsaɪtɪd əˈbaʊt ðə ˌfɔrθˈkʌmɪŋ ˈkɑnsɜrt./"
+      },
+      {
+        "sentence": "The forthcoming book by the author is highly anticipated.",
+        "meaning-example": "Cuốn sách sắp ra mắt của tác giả rất được mong đợi.",
+        "ipa-example": "/ðə ˌfɔrθˈkʌmɪŋ bʊk baɪ ði ˈɔθər ɪz ˈhaɪli ænˈtɪsəˌpeɪtɪd./"
+      }
+    ]
+  },
+  {
+    "word": "furnish",
+    "ipa": "/ˈfɜːrnɪʃ/",
+    "meaning": "Cung cấp đồ đạc cho một ngôi nhà hoặc căn phòng.",
+    "image": "eew-5-24/7.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "furnish",
+        "meaning-example": "Cung cấp đồ đạc cho một ngôi nhà hoặc căn phòng.",
+        "ipa-example": "/ˈfɜːrnɪʃ/"
+      },
+      {
+        "sentence": "Một cô gái trẻ vừa chuyển đến một căn hộ trống trơn. Cô rất buồn vì trong nhà không có một món đồ đạc nào. Bạn của cô đến thăm và nói: \"Đừng lo, 'phờ' cả 'nách' ra làm gì! Chúng ta cùng đi mua sắm để trang bị cho căn nhà này nhé.\" Họ đã đi mua bàn, ghế, giường, tủ... và lấp đầy căn hộ. Cô gái rất vui. Cô nhớ mãi lời khuyên của bạn \"đừng phờ nách\" và liên tưởng đến việc trang bị đồ đạc. Từ đó, từ \"furnish\", nghe giống như \"phờ-ních\", được dùng để chỉ việc cung cấp đồ đạc cho một căn phòng hoặc ngôi nhà.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To put furniture in a house or room.",
+        "meaning-example": "Đặt đồ nội thất vào nhà hoặc phòng.",
+        "ipa-example": "/tu pʊt ˈfɜrnɪʧər ɪn ə haʊs ɔr rum./"
+      },
+      {
+        "sentence": "They even furnished some of the apartments with new beds, dressers, and chairs.",
+        "meaning-example": "Họ thậm chí còn trang bị cho một số căn hộ những chiếc giường, tủ quần áo và ghế mới.",
+        "ipa-example": "/ðeɪ ˈivɪn ˈfɜrnɪʃt sʌm əv ði əˈpɑrtmənts wɪθ nu bɛdz, ˈdrɛsərz, ænd ʧɛrz./"
+      },
+      {
+        "sentence": "The new apartment was completely furnished.",
+        "meaning-example": "Căn hộ mới đã được trang bị đầy đủ đồ đạc.",
+        "ipa-example": "/ðə nu əˈpɑrtmənt wəz kəmˈplitli ˈfɜrnɪʃt./"
+      },
+      {
+        "sentence": "They furnished the house with modern furniture.",
+        "meaning-example": "Họ trang bị cho ngôi nhà đồ nội thất hiện đại.",
+        "ipa-example": "/ðeɪ ˈfɜrnɪʃt ðə haʊs wɪθ ˈmɑdərn ˈfɜrnɪʧər./"
+      }
+    ]
+  },
+  {
+    "word": "hygiene",
+    "ipa": "/ˈhaɪdʒiːn/",
+    "meaning": "Các điều kiện hoặc thực hành giúp duy trì sức khỏe và ngăn ngừa sự lây lan của bệnh tật; vệ sinh.",
+    "image": "eew-5-24/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "hygiene",
+        "meaning-example": "Các điều kiện hoặc thực hành giúp duy trì sức khỏe và ngăn ngừa sự lây lan của bệnh tật; vệ sinh.",
+        "ipa-example": "/ˈhaɪdʒiːn/"
+      },
+      {
+        "sentence": "Trong một vương quốc nọ, có một nàng công chúa tên là Jean. Nàng rất sợ bẩn và luôn giữ gìn cơ thể cũng như môi trường xung quanh sạch sẽ. Nàng thường nói với các thị nữ: \"Hãy giữ gìn sạch sẽ! 'Hai Jean' (Hygiene) ghét sự bẩn thỉu!\". Nàng tự xưng mình là \"Hai Jean\" để nhấn mạnh tầm quan trọng của việc sạch sẽ. Dần dần, câu nói của công chúa được lan truyền, và mọi người dùng từ \"hygiene\" để chỉ các hành động và thực hành giữ gìn sức khỏe và ngăn ngừa bệnh tật, đặc biệt là thông qua sự sạch sẽ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Conditions or practices conducive to maintaining health and preventing disease, especially through cleanliness.",
+        "meaning-example": "Các điều kiện hoặc thực hành có lợi cho việc duy trì sức khỏe và phòng chống bệnh tật, đặc biệt là thông qua sự sạch sẽ.",
+        "ipa-example": "/kənˈdɪʃənz ɔr ˈpræktɪsɪz kənˈdusɪv tu meɪnˈteɪnɪŋ hɛlθ ænd prɪˈvɛntɪŋ dɪˈziz, əˈspɛʃəli θru ˈklɛnlinəs./"
+      },
+      {
+        "sentence": "...standards for safety and hygiene...",
+        "meaning-example": "...các tiêu chuẩn về an toàn và vệ sinh...",
+        "ipa-example": "/ˈstændərdz fɔr ˈseɪfti ænd ˈhaɪʤin.../"
+      },
+      {
+        "sentence": "Poor hygiene can lead to the spread of disease.",
+        "meaning-example": "Vệ sinh kém có thể dẫn đến sự lây lan của bệnh tật.",
+        "ipa-example": "/pʊr ˈhaɪʤin kæn lid tu ðə sprɛd əv dɪˈziz./"
+      },
+      {
+        "sentence": "The restaurant was closed down for poor standards of hygiene.",
+        "meaning-example": "Nhà hàng đã bị đóng cửa vì tiêu chuẩn vệ sinh kém.",
+        "ipa-example": "/ðə ˈrɛstəˌrɑnt wəz kloʊzd daʊn fɔr pʊr ˈstændərdz əv ˈhaɪʤin./"
+      }
+    ]
+  },
+  {
+    "word": "hygienic",
+    "ipa": "/haɪˈdʒenɪk/",
+    "meaning": "Sạch sẽ và không có khả năng gây bệnh; hợp vệ sinh.",
+    "image": "eew-5-24/9.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "hygienic",
+        "meaning-example": "Sạch sẽ và không có khả năng gây bệnh; hợp vệ sinh.",
+        "ipa-example": "/haɪˈdʒenɪk/"
+      },
+      {
+        "sentence": "Tiếp nối câu chuyện về công chúa \"Hai Jean\" (Hygiene), mọi thứ trong cung điện của nàng đều phải đạt tiêu chuẩn sạch sẽ của nàng. Các đầu bếp phải rửa tay kỹ trước khi nấu ăn. Các người hầu phải lau dọn phòng ốc liên tục. Khi kiểm tra, nếu thấy một nơi nào đó sạch bong, không một hạt bụi, nàng sẽ gật đầu hài lòng và nói: \"Rất 'Hai-Jean-nich' đấy!\". \"Hai-Jean-nich\" là cách nàng khen một thứ gì đó đạt chuẩn sạch sẽ của mình. Từ đó, tính từ \"hygienic\" ra đời, dùng để miêu tả một thứ gì đó sạch sẽ và không có khả năng gây bệnh.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Clean and unlikely to cause disease.",
+        "meaning-example": "Sạch sẽ và không có khả năng gây bệnh.",
+        "ipa-example": "/klin ænd ənˈlaɪkli tu kɔz dɪˈziz./"
+      },
+      {
+        "sentence": "When the deadline of the inspection arrived, the apartment building was hygienic and safe.",
+        "meaning-example": "Khi đến hạn thanh tra, tòa nhà chung cư đã hợp vệ sinh và an toàn.",
+        "ipa-example": "/wɛn ðə ˈdɛdˌlaɪn əv ði ɪnˈspɛkʃən əˈraɪvd, ði əˈpɑrtmənt ˈbɪldɪŋ wəz haɪˈʤɛnɪk ænd seɪf./"
+      },
+      {
+        "sentence": "It's important to keep the kitchen in a hygienic condition.",
+        "meaning-example": "Điều quan trọng là phải giữ nhà bếp trong điều kiện hợp vệ sinh.",
+        "ipa-example": "/ɪts ɪmˈpɔrtənt tu kip ðə ˈkɪʧən ɪn ə haɪˈʤɛnɪk kənˈdɪʃən./"
+      },
+      {
+        "sentence": "Food must be prepared in hygienic conditions.",
+        "meaning-example": "Thực phẩm phải được chế biến trong điều kiện hợp vệ sinh.",
+        "ipa-example": "/fud mʌst bi prɪˈpɛrd ɪn haɪˈʤɛnɪk kənˈdɪʃənz./"
+      }
+    ]
+  },
+  {
+    "word": "landlord",
+    "ipa": "/ˈlændlɔːrd/",
+    "meaning": "Một người đàn ông (hoặc một công ty) sở hữu và cho thuê nhà, căn hộ, hoặc đất.",
+    "image": "eew-5-24/10.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "landlord",
+        "meaning-example": "Một người đàn ông (hoặc một công ty) sở hữu và cho thuê nhà, căn hộ, hoặc đất.",
+        "ipa-example": "/ˈlændlɔːrd/"
+      },
+      {
+        "sentence": "Ngày xưa, ở một vùng đất (land) nọ, có một vị lãnh chúa (lord) sở hữu rất nhiều nhà cửa và đất đai. Ông cho người dân thuê lại để ở và canh tác. Mọi người đều phải đến gặp ông để trả tiền thuê nhà hàng tháng. Vì ông là một vị lãnh chúa sở hữu đất đai, người ta gọi ông là \"Land Lord\" (Chúa Đất). Dần dần, từ này được dùng để chỉ bất kỳ người nào sở hữu nhà, căn hộ hoặc đất đai và cho người khác thuê lại.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A man (or a company) who you rent a room, a house, an apartment, or land from.",
+        "meaning-example": "Một người đàn ông (hoặc một công ty) mà bạn thuê phòng, nhà, căn hộ, hoặc đất từ họ.",
+        "ipa-example": "/ə mæn (ɔr ə ˈkʌmpəni) hu ju rɛnt ə rum, ə haʊs, ən əˈpɑrtmənt, ɔr lænd frʌm./"
+      },
+      {
+        "sentence": "A kind landlord was afraid that he would lose his apartment building.",
+        "meaning-example": "Một người chủ nhà tốt bụng sợ rằng ông sẽ mất tòa nhà chung cư của mình.",
+        "ipa-example": "/ə kaɪnd ˈlændˌlɔrd wəz əˈfreɪd ðæt hi wʊd luz hɪz əˈpɑrtmənt ˈbɪldɪŋ./"
+      },
+      {
+        "sentence": "The landlord came to collect the rent.",
+        "meaning-example": "Chủ nhà đã đến để thu tiền thuê nhà.",
+        "ipa-example": "/ðə ˈlændˌlɔrd keɪm tu kəˈlɛkt ðə rɛnt./"
+      },
+      {
+        "sentence": "We had a good relationship with our landlord.",
+        "meaning-example": "Chúng tôi có mối quan hệ tốt với chủ nhà của mình.",
+        "ipa-example": "/wi hæd ə gʊd riˈleɪʃənˌʃɪp wɪθ ˈaʊər ˈlændˌlɔrd./"
+      }
+    ]
+  },
+  {
+    "word": "lease",
+    "ipa": "/liːs/",
+    "meaning": "Cho thuê hoặc đi thuê (tài sản) theo một hợp đồng pháp lý.",
+    "image": "eew-5-24/11.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "lease",
+        "meaning-example": "Cho thuê hoặc đi thuê (tài sản) theo một hợp đồng pháp lý.",
+        "ipa-example": "/liːs/"
+      },
+      {
+        "sentence": "Có hai người bạn đang tìm nhà thuê. Họ thấy một căn nhà ưng ý và đến gặp chủ nhà. Chủ nhà nói: \"Nếu các anh muốn thuê, chúng ta phải ký một bản hợp đồng. 'Lì' thì không được đâu nhé, phải 'ký' vào đây!\". Ông chủ nhà nói đùa, ý là không thể chần chừ (lì) được, phải ký hợp đồng ngay. Hai người bạn nghe không rõ, lại nghe thành \"li-sì\" (lease). Họ hiểu rằng \"lease\" có nghĩa là thuê một thứ gì đó bằng hợp đồng. Từ đó, \"lease\" được dùng để chỉ hành động cho thuê hoặc đi thuê tài sản theo hợp đồng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make a legal agreement by which money is paid in order to use land, a building, a vehicle, or a piece of equipment for an agreed period of time.",
+        "meaning-example": "Lập một thỏa thuận pháp lý mà theo đó tiền được trả để sử dụng đất đai, tòa nhà, phương tiện hoặc một thiết bị trong một khoảng thời gian đã thỏa thuận.",
+        "ipa-example": "/tu meɪk ə ˈligəl əˈgrimənt baɪ wɪʧ ˈmʌni ɪz peɪd ɪn ˈɔrdər tu juz lænd, ə ˈbɪldɪŋ, ə ˈvihɪkəl, ɔr ə pis əv ɪˈkwɪpmənt fɔr ən əˈgrid ˈpɪriəd əv taɪm./"
+      },
+      {
+        "sentence": "Without tenants to lease the rooms, the landlord would be unable to pay his mortgage.",
+        "meaning-example": "Không có người thuê phòng, người chủ nhà sẽ không thể trả được khoản thế chấp của mình.",
+        "ipa-example": "/wɪˈθaʊt ˈtɛnənts tu lis ðə rumz, ðə ˈlændˌlɔrd wʊd bi əˈneɪbəl tu peɪ hɪz ˈmɔrgəʤ./"
+      },
+      {
+        "sentence": "We leased the car for a period of three years.",
+        "meaning-example": "Chúng tôi đã thuê chiếc xe trong thời hạn ba năm.",
+        "ipa-example": "/wi list ðə kɑr fɔr ə ˈpɪriəd əv θri jɪrz./"
+      },
+      {
+        "sentence": "The landlord is willing to lease the apartment to students.",
+        "meaning-example": "Chủ nhà sẵn lòng cho sinh viên thuê căn hộ.",
+        "ipa-example": "/ðə ˈlændˌlɔrd ɪz ˈwɪlɪŋ tu lis ði əˈpɑrtmənt tu ˈstudənts./"
+      }
+    ]
+  },
+  {
+    "word": "mandatory",
+    "ipa": "/ˈmændətɔːri/",
+    "meaning": "Được yêu cầu bởi luật pháp hoặc quy tắc; bắt buộc.",
+    "image": "eew-5-24/12.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "mandatory",
+        "meaning-example": "Được yêu cầu bởi luật pháp hoặc quy tắc; bắt buộc.",
+        "ipa-example": "/ˈmændətɔːri/"
+      },
+      {
+        "sentence": "Trong quân đội, có một vị tướng tên là Tory. Ông rất nghiêm khắc và mọi mệnh lệnh của ông đều phải được tuân thủ tuyệt đối. Một hôm, ông ra lệnh cho toàn quân phải tham gia một buổi huấn luyện đặc biệt. Ông nói: \"Đây là lệnh của 'man Tory' (người đàn ông Tory) này! Đây là nhiệm vụ bắt buộc, không ai được vắng mặt!\". Binh lính nghe câu \"man-da-tory\" và hiểu ngay đó là một mệnh lệnh bắt buộc, không thể không làm. Từ đó, từ \"mandatory\" được dùng để chỉ một điều gì đó là bắt buộc theo luật lệ hoặc quy định.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Required by law or a rule; compulsory.",
+        "meaning-example": "Được yêu cầu bởi luật pháp hoặc một quy tắc; bắt buộc.",
+        "ipa-example": "/rɪˈkwaɪərd baɪ lɔ ɔr ə rul; kəmˈpʌlsəri./"
+      },
+      {
+        "sentence": "He needed to make some mandatory repairs to the old building...",
+        "meaning-example": "Ông cần phải thực hiện một số sửa chữa bắt buộc cho tòa nhà cũ...",
+        "ipa-example": "/hi ˈnidəd tu meɪk sʌm ˈmændəˌtɔri rɪˈpɛrz tu ði oʊld ˈbɪldɪŋ.../"
+      },
+      {
+        "sentence": "It is mandatory for all employees to attend the safety training.",
+        "meaning-example": "Tất cả nhân viên bắt buộc phải tham gia buổi đào tạo an toàn.",
+        "ipa-example": "/ɪt ɪz ˈmændəˌtɔri fɔr ɔl ɛmˈplɔɪiz tu əˈtɛnd ðə ˈseɪfti ˈtreɪnɪŋ./"
+      },
+      {
+        "sentence": "The government has made it mandatory to wear seat belts.",
+        "meaning-example": "Chính phủ đã bắt buộc phải thắt dây an toàn.",
+        "ipa-example": "/ðə ˈgʌvərmənt hæz meɪd ɪt ˈmændəˌtɔri tu wɛr sit bɛlts./"
+      }
+    ]
+  },
+  {
+    "word": "mend",
+    "ipa": "/mend/",
+    "meaning": "Sửa chữa một thứ gì đó bị hỏng hoặc rách.",
+    "image": "eew-5-24/13.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "mend",
+        "meaning-example": "Sửa chữa một thứ gì đó bị hỏng hoặc rách.",
+        "ipa-example": "/mend/"
+      },
+      {
+        "sentence": "Có một cậu bé làm rách chiếc áo yêu thích của mình. Cậu buồn bã mang áo đến cho mẹ. Mẹ cậu mỉm cười và nói: \"Đừng lo, 'để mẹ end' (kết thúc) nỗi buồn này cho con\". Nói rồi, bà lấy kim chỉ ra và vá lại chiếc áo một cách khéo léo. Chiếc áo lại lành lặn như mới. Cậu bé rất vui và luôn nhớ lời mẹ nói \"mẹ end\". Dần dần, cậu liên tưởng từ \"mend\", nghe giống \"mẹ end\", với hành động sửa chữa, vá lại một thứ gì đó bị hỏng hoặc rách.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To repair something that is broken or damaged.",
+        "meaning-example": "Sửa chữa một cái gì đó bị hỏng hoặc bị hư hại.",
+        "ipa-example": "/tu rɪˈpɛr ˈsʌmθɪŋ ðæt ɪz ˈbroʊkən ɔr ˈdæmɪʤd./"
+      },
+      {
+        "sentence": "...he mended the holes in the floor and walls.",
+        "meaning-example": "...anh ấy đã sửa những cái lỗ trên sàn và tường.",
+        "ipa-example": "/hi ˈmɛndɪd ðə hoʊlz ɪn ðə flɔr ænd wɔlz./"
+      },
+      {
+        "sentence": "Can you mend this hole in my shirt?",
+        "meaning-example": "Bạn có thể vá cái lỗ này trên áo của tôi không?",
+        "ipa-example": "/kæn ju mɛnd ðɪs hoʊl ɪn maɪ ʃɜrt?/"
+      },
+      {
+        "sentence": "They are trying to mend their broken relationship.",
+        "meaning-example": "Họ đang cố gắng hàn gắn mối quan hệ đã tan vỡ.",
+        "ipa-example": "/ðeɪ ɑr ˈtraɪɪŋ tu mɛnd ðɛr ˈbroʊkən riˈleɪʃənˌʃɪp./"
+      }
+    ]
+  },
+  {
+    "word": "mortgage",
+    "ipa": "/ˈmɔːrɡɪdʒ/",
+    "meaning": "Một thỏa thuận pháp lý mà bạn vay tiền từ ngân hàng hoặc tổ chức tương tự để mua nhà, đất...",
+    "image": "eew-5-24/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "mortgage",
+        "meaning-example": "Một thỏa thuận pháp lý mà bạn vay tiền từ ngân hàng hoặc tổ chức tương tự để mua nhà, đất...",
+        "ipa-example": "/ˈmɔːrɡɪdʒ/"
+      },
+      {
+        "sentence": "Một cặp vợ chồng trẻ muốn mua một căn nhà nhưng không đủ tiền. Họ phải đến ngân hàng để vay. Nhân viên ngân hàng giải thích: \"Để vay tiền mua nhà, anh chị phải thế chấp chính căn nhà đó. Nếu không trả được nợ, anh chị sẽ 'mất' (mor) nó 'gần như' (gage) là chắc chắn.\" Lời giải thích \"mất gần như\" nghe rất đáng sợ. Cặp vợ chồng nhớ mãi cụm từ \"mor-gage\" đó và hiểu rằng đó là một khoản vay thế chấp. Từ đó, \"mortgage\" được dùng để chỉ một thỏa thuận pháp lý mà bạn vay tiền từ ngân hàng để mua nhà.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A legal agreement by which a bank or similar organization lends you money to buy a house, etc., and you pay the money back over a particular number of years.",
+        "meaning-example": "Một thỏa thuận pháp lý theo đó một ngân hàng hoặc tổ chức tương tự cho bạn vay tiền để mua nhà, v.v., và bạn trả lại tiền trong một số năm nhất định.",
+        "ipa-example": "/ə ˈligəl əˈgrimənt baɪ wɪʧ ə bæŋk ɔr ˈsɪmələr ˌɔrgənəˈzeɪʃən lɛndz ju ˈmʌni tu baɪ ə haʊs, ɪtˈsɛtərə, ænd ju peɪ ðə ˈmʌni bæk ˈoʊvər ə pərˈtɪkjələr ˈnʌmbər əv jɪrz./"
+      },
+      {
+        "sentence": "...the landlord would be unable to pay his mortgage.",
+        "meaning-example": "...người chủ nhà sẽ không thể trả được khoản thế chấp của mình.",
+        "ipa-example": "/ðə ˈlændˌlɔrd wʊd bi əˈneɪbəl tu peɪ hɪz ˈmɔrgəʤ./"
+      },
+      {
+        "sentence": "They took out a 25-year mortgage to buy the house.",
+        "meaning-example": "Họ đã vay một khoản thế chấp 25 năm để mua nhà.",
+        "ipa-example": "/ðeɪ tʊk aʊt ə ˈtwɛnti faɪv-jɪr ˈmɔrgəʤ tu baɪ ðə haʊs./"
+      },
+      {
+        "sentence": "I have to make a monthly mortgage payment.",
+        "meaning-example": "Tôi phải thanh toán khoản thế chấp hàng tháng.",
+        "ipa-example": "/aɪ hæv tu meɪk ə ˈmʌnθli ˈmɔrgəʤ ˈpeɪmənt./"
+      }
+    ]
+  },
+  {
+    "word": "personnel",
+    "ipa": "/ˌpɜːrsəˈnel/",
+    "meaning": "Những người được tuyển dụng bởi một tổ chức hoặc tham gia vào một công việc cụ thể; nhân sự.",
+    "image": "eew-5-24/15.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "personnel",
+        "meaning-example": "Những người được tuyển dụng bởi một tổ chức hoặc tham gia vào một công việc cụ thể; nhân sự.",
+        "ipa-example": "/ˌpɜːrsəˈnel/"
+      },
+      {
+        "sentence": "Một vị giám đốc đang phỏng vấn tuyển dụng. Ông nhìn vào danh sách ứng viên và nói với trợ lý: \"Cô xem, 'mỗi người' (person) ở đây đều có một 'cái neo' (nel) riêng, tức là một điểm mạnh để níu giữ họ lại với công ty.\" Ông muốn nói rằng mỗi người đều có kỹ năng riêng. Trợ lý nghe câu \"person-nel\" và hiểu rằng giám đốc đang nói về toàn bộ nhân viên, những người làm việc cho công ty. Từ đó, \"personnel\" được dùng để chỉ tập thể những người được tuyển dụng bởi một tổ chức; nhân sự.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The people who are employed by an organization or who are involved in a particular type of work.",
+        "meaning-example": "Những người được một tổ chức tuyển dụng hoặc những người tham gia vào một loại công việc cụ thể.",
+        "ipa-example": "/ðə ˈpipəl hu ɑr ɪmˈplɔɪd baɪ ən ˌɔrgənəˈzeɪʃən ɔr hu ɑr ɪnˈvɑlvd ɪn ə pərˈtɪkjələr taɪp əv wɜrk./"
+      },
+      {
+        "sentence": "...whereby he could employ the personnel needed to make the repairs.",
+        "meaning-example": "...nhờ đó ông có thể thuê nhân viên cần thiết để thực hiện các sửa chữa.",
+        "ipa-example": "/werˈbaɪ hi kʊd ɪmˈplɔɪ ðə ˌpɜrsəˈnɛl ˈnidəd tu meɪk ðə rɪˈpɛrz./"
+      },
+      {
+        "sentence": "All personnel are required to attend the meeting.",
+        "meaning-example": "Tất cả nhân viên được yêu cầu tham dự cuộc họp.",
+        "ipa-example": "/ɔl ˌpɜrsəˈnɛl ɑr rɪˈkwaɪərd tu əˈtɛnd ðə ˈmitɪŋ./"
+      },
+      {
+        "sentence": "The company is looking to hire new personnel.",
+        "meaning-example": "Công ty đang tìm cách thuê nhân sự mới.",
+        "ipa-example": "/ðə ˈkʌmpəni ɪz ˈlʊkɪŋ tu haɪər nu ˌpɜrsəˈnɛl./"
+      }
+    ]
+  },
+  {
+    "word": "plumbing",
+    "ipa": "/ˈplʌmɪŋ/",
+    "meaning": "Hệ thống các đường ống, bể chứa, vòi... cung cấp nước và dẫn nước thải trong một tòa nhà.",
+    "image": "eew-5-24/16.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "plumbing",
+        "meaning-example": "Hệ thống các đường ống, bể chứa, vòi... cung cấp nước và dẫn nước thải trong một tòa nhà.",
+        "ipa-example": "/ˈplʌmɪŋ/"
+      },
+      {
+        "sentence": "Có một anh thợ sửa ống nước được gọi đến một ngôi nhà cổ. Hệ thống ống nước ở đây rất phức tạp. Anh ta phải luồn lách qua những góc hẹp, mồ hôi nhễ nhại. Chủ nhà thấy vậy liền mang ra một đĩa 'mận' (plum) và nói: \"Anh ăn tạm quả mận cho đỡ khát. Công việc này thật 'kinh' khủng!\". Anh thợ sửa ống nước vừa ăn mận vừa làm, trong đầu cứ lẩm nhẩm \"plum-kinh, plum-kinh\". Từ đó, anh ta gọi công việc sửa ống nước của mình là \"plumbing\" để nhớ về kỷ niệm vui vẻ đó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The system of pipes, tanks, fittings, and other apparatus required for the water supply, heating, and sanitation in a building.",
+        "meaning-example": "Hệ thống các đường ống, bể chứa, phụ kiện và các thiết bị khác cần thiết cho việc cấp nước, sưởi ấm và vệ sinh trong một tòa nhà.",
+        "ipa-example": "/ðə ˈsɪstəm əv paɪps, tæŋks, ˈfɪtɪŋz, ænd ˈʌðər ˌæpəˈrætəs rɪˈkwaɪərd fɔr ðə ˈwɔtər səˈplaɪ, ˈhitɪŋ, ænd ˌsænɪˈteɪʃən ɪn ə ˈbɪldɪŋ./"
+      },
+      {
+        "sentence": "He knew a lot about plumbing, so that’s how he helped.",
+        "meaning-example": "Anh ấy biết rất nhiều về hệ thống ống nước, vì vậy đó là cách anh ấy đã giúp đỡ.",
+        "ipa-example": "/hi nu ə lɑt əˈbaʊt ˈplʌmɪŋ, soʊ ðæts haʊ hi hɛlpt./"
+      },
+      {
+        "sentence": "We need to call a plumber to fix the plumbing.",
+        "meaning-example": "Chúng tôi cần gọi thợ sửa ống nước để sửa hệ thống ống nước.",
+        "ipa-example": "/wi nid tu kɔl ə ˈplʌmər tu fɪks ðə ˈplʌmɪŋ./"
+      },
+      {
+        "sentence": "The old house has a very outdated plumbing system.",
+        "meaning-example": "Ngôi nhà cũ có hệ thống ống nước rất lỗi thời.",
+        "ipa-example": "/ði oʊld haʊs hæz ə ˈvɛri ˌaʊtˈdeɪtɪd ˈplʌmɪŋ ˈsɪstəm./"
+      }
+    ]
+  },
+  {
+    "word": "tenant",
+    "ipa": "/ˈtenənt/",
+    "meaning": "Một người trả tiền thuê để được sống trong một căn phòng, ngôi nhà, v.v. thuộc sở hữu của người khác.",
+    "image": "eew-5-24/17.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "tenant",
+        "meaning-example": "Một người trả tiền thuê để được sống trong một căn phòng, ngôi nhà, v.v. thuộc sở hữu của người khác.",
+        "ipa-example": "/ˈtenənt/"
+      },
+      {
+        "sentence": "Có một người đàn ông đi thuê nhà. Ông chủ nhà rất kỹ tính. Trước khi cho thuê, ông yêu cầu người thuê phải chứng minh mình là người tử tế. Ông nói: \"Tôi chỉ cho 'thánh nhân' (tenant) thuê nhà thôi.\" Ông nói đùa vậy để nhấn mạnh rằng ông chỉ muốn người thuê tốt. Người đàn ông thuê nhà nhớ mãi từ \"thánh nhân\" này, đọc trại đi thành \"tenant\". Từ đó, \"tenant\" được dùng để chỉ một người trả tiền thuê để được ở trong một căn phòng, ngôi nhà, v.v. thuộc sở hữu của người khác.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who pays rent for the use of a room, a house, etc. owned by someone else.",
+        "meaning-example": "Một người trả tiền thuê để sử dụng một căn phòng, một ngôi nhà, v.v. thuộc sở hữu của người khác.",
+        "ipa-example": "/ə ˈpɜrsən hu peɪz rɛnt fɔr ðə jus əv ə rum, ə haʊs, ɪtˈsɛtərə oʊnd baɪ ˈsʌmwʌn ɛls./"
+      },
+      {
+        "sentence": "...or his tenants would have to leave by the end of the month.",
+        "meaning-example": "...nếu không những người thuê nhà của ông sẽ phải rời đi vào cuối tháng.",
+        "ipa-example": "/ɔr hɪz ˈtɛnənts wʊd hæv tu liv baɪ ði ɛnd əv ðə mʌnθ./"
+      },
+      {
+        "sentence": "The tenants were asked to leave the apartment.",
+        "meaning-example": "Những người thuê nhà đã được yêu cầu rời khỏi căn hộ.",
+        "ipa-example": "/ðə ˈtɛnənts wər æskt tu liv ði əˈpɑrtmənt./"
+      },
+      {
+        "sentence": "He has been a tenant in this building for over five years.",
+        "meaning-example": "Anh ấy đã là người thuê nhà trong tòa nhà này hơn năm năm.",
+        "ipa-example": "/hi hæz bɪn ə ˈtɛnənt ɪn ðɪs ˈbɪldɪŋ fɔr ˈoʊvər faɪv jɪrz./"
+      }
+    ]
+  },
+  {
+    "word": "trendy",
+    "ipa": "/ˈtrendi/",
+    "meaning": "Rất hợp thời trang hoặc cập nhật; thời thượng.",
+    "image": "eew-5-24/18.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "trendy",
+        "meaning-example": "Rất hợp thời trang hoặc cập nhật; thời thượng.",
+        "ipa-example": "/ˈtrendi/"
+      },
+      {
+        "sentence": "Trong giới thời trang, có một nhà thiết kế tên là Đi. Các mẫu thiết kế của cô luôn tạo ra 'xu hướng' (trend). Mỗi khi cô ra một bộ sưu tập mới, mọi người lại đổ xô đi mua và bắt chước. Họ nói với nhau: \"Lại 'trend' của cô 'Đi' đấy! Mặc vào là hợp mốt ngay.\" Câu nói \"trend-Đi\" được lặp đi lặp lại, và người ta dùng tính từ \"trendy\" để miêu tả một thứ gì đó đang rất hợp thời trang, theo xu hướng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Very fashionable or up to date.",
+        "meaning-example": "Rất thời trang hoặc cập nhật.",
+        "ipa-example": "/ˈvɛri ˈfæʃənəbəl ɔr ʌp tu deɪt./"
+      },
+      {
+        "sentence": "His old building now looked like one of the trendiest buildings in town.",
+        "meaning-example": "Tòa nhà cũ của ông bây giờ trông giống như một trong những tòa nhà thời thượng nhất trong thị trấn.",
+        "ipa-example": "/hɪz oʊld ˈbɪldɪŋ naʊ lʊkt laɪk wʌn əv ðə ˈtrɛndiəst ˈbɪldɪŋz ɪn taʊn./"
+      },
+      {
+        "sentence": "She always wears trendy clothes.",
+        "meaning-example": "Cô ấy luôn mặc quần áo thời thượng.",
+        "ipa-example": "/ʃi ˈɔlweɪz wɛrz ˈtrɛndi kloʊðz./"
+      },
+      {
+        "sentence": "This is one of the trendiest restaurants in the city.",
+        "meaning-example": "Đây là một trong những nhà hàng thời thượng nhất trong thành phố.",
+        "ipa-example": "/ðɪs ɪz wʌn əv ðə ˈtrɛndiəst ˈrɛstəˌrɑnts ɪn ðə ˈsɪti./"
+      }
+    ]
+  },
+  {
+    "word": "utility",
+    "ipa": "/juːˈtɪləti/",
+    "meaning": "Một dịch vụ (như điện hoặc nước) được cung cấp cho công chúng; sự hữu ích.",
+    "image": "eew-5-24/19.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "utility",
+        "meaning-example": "Một dịch vụ (như điện hoặc nước) được cung cấp cho công chúng; sự hữu ích.",
+        "ipa-example": "/juːˈtɪləti/"
+      },
+      {
+        "sentence": "Một thành phố nọ thường xuyên bị mất điện, mất nước. Thị trưởng quyết định phải cải thiện dịch vụ công. Ông tập hợp các kỹ sư và nói: \"Thành phố này 'yếu' (u) quá, 'ti' (ti)ện ích không có. 'Lì' (li) mãi thế này không được. Chúng ta phải cung cấp các dịch vụ thiết yếu cho người dân.\" Các kỹ sư ghi nhớ lời thị trưởng \"yếu-ti-lì-ty\" và bắt tay vào việc. Từ đó, \"utility\" được dùng để chỉ các dịch vụ thiết yếu như điện, nước, gas... được cung cấp cho công chúng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A service (such as electricity or water) that is provided for the public; the quality of being useful.",
+        "meaning-example": "Một dịch vụ (chẳng hạn như điện hoặc nước) được cung cấp cho công chúng; chất lượng hữu ích.",
+        "ipa-example": "/ə ˈsɜrvɪs (sʌʧ æz ɪlɛkˈtrɪsəti ɔr ˈwɔtər) ðæt ɪz prəˈvaɪdəd fɔr ðə ˈpʌblɪk; ðə ˈkwɑləti əv ˈbiɪŋ ˈjusfəl./"
+      },
+      {
+        "sentence": "One tenant had worked for the city’s utilities.",
+        "meaning-example": "Một người thuê nhà đã từng làm việc cho các công ty tiện ích của thành phố.",
+        "ipa-example": "/wʌn ˈtɛnənt hæd wɜrkt fɔr ðə ˈsɪtiz juˈtɪlɪtiz./"
+      },
+      {
+        "sentence": "You have to pay the utility bills every month.",
+        "meaning-example": "Bạn phải thanh toán hóa đơn điện nước hàng tháng.",
+        "ipa-example": "/ju hæv tu peɪ ðə juˈtɪlɪti bɪlz ˈɛvəri mʌnθ./"
+      },
+      {
+        "sentence": "This tool has a high degree of utility.",
+        "meaning-example": "Công cụ này có mức độ hữu dụng cao.",
+        "ipa-example": "/ðɪs tul hæz ə haɪ dɪˈgri əv juˈtɪlɪti./"
+      }
+    ]
+  },
+  {
+    "word": "whereby",
+    "ipa": "/werˈbaɪ/",
+    "meaning": "Bằng cách nào đó; nhờ đó.",
+    "image": "eew-5-24/20.png",
+    "classes": "conjunction",
+    "example": [
+      {
+        "sentence": "whereby",
+        "meaning-example": "Bằng cách nào đó; nhờ đó.",
+        "ipa-example": "/werˈbaɪ/"
+      },
+      {
+        "sentence": "Có một vị vua muốn xây một cây cầu nối liền hai vương quốc. Ông triệu tập các kỹ sư tài giỏi nhất và hỏi: \"Làm sao để xây cây cầu này? Ta muốn có một kế hoạch 'mà nhờ đó' chúng ta có thể thành công.\" Một kỹ sư thông thái bước ra và nói: \"Thưa bệ hạ, chúng ta sẽ dùng một hệ thống ròng rọc. Đây là nơi (where) chúng ta sẽ đặt nó, 'nhờ đó' (by) mà chúng ta có thể nâng những khối đá lớn.\" Vị vua rất hài lòng với kế hoạch \"where-by\" đó. Từ đó, \"whereby\" được dùng như một từ nối, có nghĩa là \"bằng cách đó\", \"nhờ đó\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "By which way or method.",
+        "meaning-example": "Bằng cách thức hoặc phương pháp nào.",
+        "ipa-example": "/baɪ wɪʧ weɪ ɔr ˈmɛθəd./"
+      },
+      {
+        "sentence": "But he didn’t have the money whereby he could employ the personnel needed to make the repairs.",
+        "meaning-example": "Nhưng ông không có tiền để có thể thuê nhân viên cần thiết để thực hiện các sửa chữa.",
+        "ipa-example": "/bʌt hi ˈdɪdənt hæv ðə ˈmʌni werˈbaɪ hi kʊd ɪmˈplɔɪ ðə ˌpɜrsəˈnɛl ˈnidəd tu meɪk ðə rɪˈpɛrz./"
+      },
+      {
+        "sentence": "They have introduced a new system whereby all employees can vote on the matter.",
+        "meaning-example": "Họ đã giới thiệu một hệ thống mới mà nhờ đó tất cả nhân viên có thể bỏ phiếu về vấn đề này.",
+        "ipa-example": "/ðeɪ hæv ˌɪntrəˈdust ə nu ˈsɪstəm werˈbaɪ ɔl ɛmˈplɔɪiz kæn voʊt ɑn ðə ˈmætər./"
+      },
+      {
+        "sentence": "He devised a plan whereby they could escape.",
+        "meaning-example": "Anh ấy đã nghĩ ra một kế hoạch nhờ đó họ có thể trốn thoát.",
+        "ipa-example": "/hi dɪˈvaɪzd ə plæn werˈbaɪ ðeɪ kʊd ɪˈskeɪp./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Resourceful Landlord",
+        "meaning-example": "Người Chủ Nhà Tháo Vát",
+        "ipa-example": "/ðə rɪˈsɔrsfəl ˈlændˌlɔrd/"
+      },
+      {
+        "sentence": "A kind landlord was afraid that he would lose his apartment building.",
+        "meaning-example": "Một người chủ nhà tốt bụng sợ rằng ông sẽ mất tòa nhà chung cư của mình.",
+        "ipa-example": "/ə kaɪnd ˈlændˌlɔrd wəz əˈfreɪd ðæt hi wʊd luz hɪz əˈpɑrtmənt ˈbɪldɪŋ./"
+      },
+      {
+        "sentence": "He needed to make some mandatory repairs to the old building, or his tenants would have to leave by the end of the month.",
+        "meaning-example": "Ông cần phải thực hiện một số sửa chữa bắt buộc cho tòa nhà cũ, nếu không những người thuê nhà của ông sẽ phải rời đi vào cuối tháng.",
+        "ipa-example": "/hi ˈnidəd tu meɪk sʌm ˈmændəˌtɔri rɪˈpɛrz tu ði oʊld ˈbɪldɪŋ, ɔr hɪz ˈtɛnənts wʊd hæv tu liv baɪ ði ɛnd əv ðə mʌnθ./"
+      },
+      {
+        "sentence": "Without tenants to lease the rooms, the landlord would be unable to pay his mortgage.",
+        "meaning-example": "Không có người thuê phòng, người chủ nhà sẽ không thể trả được khoản thế chấp của mình.",
+        "ipa-example": "/wɪˈθaʊt ˈtɛnənts tu lis ðə rumz, ðə ˈlændˌlɔrd wʊd bi əˈneɪbəl tu peɪ hɪz ˈmɔrgəʤ./"
+      },
+      {
+        "sentence": "He’d be bankrupt, and the bank would take his building.",
+        "meaning-example": "Ông sẽ bị phá sản, và ngân hàng sẽ lấy tòa nhà của ông.",
+        "ipa-example": "/hid bi ˈbæŋkrʌpt, ænd ðə bæŋk wʊd teɪk hɪz ˈbɪldɪŋ./"
+      },
+      {
+        "sentence": "But he didn’t have the money whereby he could employ the personnel needed to make the repairs.",
+        "meaning-example": "Nhưng ông không có tiền để có thể thuê nhân viên cần thiết để thực hiện các sửa chữa.",
+        "ipa-example": "/bʌt hi ˈdɪdənt hæv ðə ˈmʌni werˈbaɪ hi kʊd ɪmˈplɔɪ ðə ˌpɜrsəˈnɛl ˈnidəd tu meɪk ðə rɪˈpɛrz./"
+      },
+      {
+        "sentence": "It would seem like he did not want to conform to the city’s codes before the forthcoming inspection.",
+        "meaning-example": "Có vẻ như ông không muốn tuân thủ các quy định của thành phố trước cuộc thanh tra sắp tới.",
+        "ipa-example": "/ɪt wʊd sim laɪk hi dɪd nɑt wɑnt tu kənˈfɔrm tu ðə ˈsɪtiz koʊdz bɪˈfɔr ðə ˌfɔrθˈkʌmɪŋ ɪnˈspɛkʃən./"
+      },
+      {
+        "sentence": "He had requested an extension, but it was denied by the city.",
+        "meaning-example": "Ông đã yêu cầu gia hạn, nhưng đã bị thành phố từ chối.",
+        "ipa-example": "/hi hæd rɪˈkwɛstɪd ən ɪkˈstɛnʃən, bʌt ɪt wəz dɪˈnaɪd baɪ ðə ˈsɪti./"
+      },
+      {
+        "sentence": "He held a meeting with his tenants and explained the unfortunate situation.",
+        "meaning-example": "Ông đã tổ chức một cuộc họp với những người thuê nhà và giải thích tình hình không may.",
+        "ipa-example": "/hi hɛld ə ˈmitɪŋ wɪθ hɪz ˈtɛnənts ænd ɪkˈspleɪnd ði ənˈfɔrʧənət ˌsɪʧuˈeɪʃən./"
+      },
+      {
+        "sentence": "“If the building does not meet the appropriate standards for safety and hygiene,” he said, “the city will expel everyone.”",
+        "meaning-example": "\"Nếu tòa nhà không đáp ứng các tiêu chuẩn phù hợp về an toàn và vệ sinh,\" ông nói, \"thành phố sẽ đuổi tất cả mọi người đi.\"",
+        "ipa-example": "/“ɪf ðə ˈbɪldɪŋ dəz nɑt mit ði əˈproʊpriət ˈstændərdz fɔr ˈseɪfti ænd ˈhaɪʤin,” hi sɛd, “ðə ˈsɪti wɪl ɪkˈspɛl ˈɛvriˌwʌn.”/"
+      },
+      {
+        "sentence": "The tenants were all sad for the kind old man.",
+        "meaning-example": "Những người thuê nhà đều buồn cho ông lão tốt bụng.",
+        "ipa-example": "/ðə ˈtɛnənts wər ɔl sæd fɔr ðə kaɪnd oʊld mæn./"
+      },
+      {
+        "sentence": "“Maybe we can help,” the hairdresser who lived on the first floor stated.",
+        "meaning-example": "\"Có lẽ chúng tôi có thể giúp,\" người thợ làm tóc sống ở tầng một nói.",
+        "ipa-example": "/“ˈmeɪbi wi kæn hɛlp,” ðə ˈhɛrˌdrɛsər hu lɪvd ɑn ðə fɜrst flɔr ˈsteɪtɪd./"
+      },
+      {
+        "sentence": "The other tenants agreed.",
+        "meaning-example": "Những người thuê nhà khác đã đồng ý.",
+        "ipa-example": "/ði ˈʌðər ˈtɛnənts əˈgrid./"
+      },
+      {
+        "sentence": "One tenant had worked for the city’s utilities.",
+        "meaning-example": "Một người thuê nhà đã từng làm việc cho các công ty tiện ích của thành phố.",
+        "ipa-example": "/wʌn ˈtɛnənt hæd wɜrkt fɔr ðə ˈsɪtiz juˈtɪlɪtiz./"
+      },
+      {
+        "sentence": "He knew a lot about plumbing, so that’s how he helped.",
+        "meaning-example": "Anh ấy biết rất nhiều về hệ thống ống nước, vì vậy đó là cách anh ấy đã giúp đỡ.",
+        "ipa-example": "/hi nu ə lɑt əˈbaʊt ˈplʌmɪŋ, soʊ ðæts haʊ hi hɛlpt./"
+      },
+      {
+        "sentence": "Another tenant was a carpenter; he mended the holes in the floor and walls.",
+        "meaning-example": "Một người thuê nhà khác là thợ mộc; anh ấy đã sửa những cái lỗ trên sàn và tường.",
+        "ipa-example": "/əˈnʌðər ˈtɛnənt wəz ə ˈkɑrpəntər; hi ˈmɛndɪd ðə hoʊlz ɪn ðə flɔr ænd wɔlz./"
+      },
+      {
+        "sentence": "Others cleaned the building from top to bottom so that it was more hygienic.",
+        "meaning-example": "Những người khác đã dọn dẹp tòa nhà từ trên xuống dưới để nó hợp vệ sinh hơn.",
+        "ipa-example": "/ˈʌðərz klind ðə ˈbɪldɪŋ frʌm tɑp tu ˈbɑtəm soʊ ðæt ɪt wəz mɔr haɪˈʤɛnɪk./"
+      },
+      {
+        "sentence": "They even furnished some of the apartments with new beds, dressers, and chairs.",
+        "meaning-example": "Họ thậm chí còn trang bị cho một số căn hộ những chiếc giường, tủ quần áo và ghế mới.",
+        "ipa-example": "/ðeɪ ˈivɪn ˈfɜrnɪʃt sʌm əv ði əˈpɑrtmənts wɪθ nu bɛdz, ˈdrɛsərz, ænd ʧɛrz./"
+      },
+      {
+        "sentence": "When they were done, all of the people dispersed, and the landlord went home to rest.",
+        "meaning-example": "Khi họ làm xong, tất cả mọi người giải tán, và người chủ nhà về nhà nghỉ ngơi.",
+        "ipa-example": "/wɛn ðeɪ wər dʌn, ɔl əv ðə ˈpipəl dɪˈspɜrst, ænd ðə ˈlændˌlɔrd wɛnt hoʊm tu rɛst./"
+      },
+      {
+        "sentence": "When the deadline of the inspection arrived, the apartment building was hygienic and safe.",
+        "meaning-example": "Khi đến hạn thanh tra, tòa nhà chung cư đã hợp vệ sinh và an toàn.",
+        "ipa-example": "/wɛn ðə ˈdɛdˌlaɪn əv ði ɪnˈspɛkʃən əˈraɪvd, ði əˈpɑrtmənt ˈbɪldɪŋ wəz haɪˈʤɛnɪk ænd seɪf./"
+      },
+      {
+        "sentence": "The landlord couldn’t believe it.",
+        "meaning-example": "Người chủ nhà không thể tin được.",
+        "ipa-example": "/ðə ˈlændˌlɔrd ˈkʊdənt bɪˈliv ɪt./"
+      },
+      {
+        "sentence": "His old building now looked like one of the trendiest buildings in town.",
+        "meaning-example": "Tòa nhà cũ của ông bây giờ trông giống như một trong những tòa nhà thời thượng nhất trong thị trấn.",
+        "ipa-example": "/hɪz oʊld ˈbɪldɪŋ naʊ lʊkt laɪk wʌn əv ðə ˈtrɛndiəst ˈbɪldɪŋz ɪn taʊn./"
+      },
+      {
+        "sentence": "The building passed its inspection, and the landlord and the tenants had a big party.",
+        "meaning-example": "Tòa nhà đã vượt qua cuộc thanh tra, và người chủ nhà cùng những người thuê nhà đã có một bữa tiệc lớn.",
+        "ipa-example": "/ðə ˈbɪldɪŋ pæst ɪts ɪnˈspɛkʃən, ænd ðə ˈlændˌlɔrd ænd ðə ˈtɛnənts hæd ə bɪg ˈpɑrti./"
+      },
+      {
+        "sentence": "“Thank you all so much,” the landlord said during the party.",
+        "meaning-example": "\"Cảm ơn tất cả mọi người rất nhiều,\" người chủ nhà nói trong bữa tiệc.",
+        "ipa-example": "/“θæŋk ju ɔl soʊ mʌʧ,” ðə ˈlændˌlɔrd sɛd ˈdʊrɪŋ ðə ˈpɑrti./"
+      },
+      {
+        "sentence": "“I could never have done it by myself. But by working together, we now all have a beautiful place to live.”",
+        "meaning-example": "\"Tôi không bao giờ có thể tự mình làm được. Nhưng bằng cách làm việc cùng nhau, bây giờ tất cả chúng ta đều có một nơi ở thật đẹp.\"",
+        "ipa-example": "/“aɪ kʊd ˈnɛvər hæv dʌn ɪt baɪ maɪˈsɛlf. bʌt baɪ ˈwɜrkɪŋ təˈgɛðər, wi naʊ ɔl hæv ə ˈbjutəfəl pleɪs tu lɪv.”/"
+      }
+    ]
+  }
+]

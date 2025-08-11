@@ -1,0 +1,183 @@
+
+[
+  {
+    "question": "Không có đủ tiền để trả nợ; phá sản.",
+    "classes": "adj",
+    "answer": "bankrupt",
+    "ipa": "/ˈbæŋkrʌpt/",
+    "example": "He’d be bankrupt, and the bank would take his building.",
+    "english-definition": "Unable to pay what you owe, and having control of your financial matters given, by a court of law, to a person who sells your property to pay your debts.",
+    "images": "eew-5-24/1.png"
+  },
+  {
+    "question": "Tuân theo các quy tắc hoặc tiêu chuẩn; tuân thủ.",
+    "classes": "v",
+    "answer": "conform",
+    "ipa": "/kənˈfɔːrm/",
+    "example": "It would seem like he did not want to conform to the city’s codes before the forthcoming inspection.",
+    "english-definition": "To behave according to the usual standards of behavior that are expected by a group or society.",
+    "images": "eew-5-24/2.png"
+  },
+  {
+    "question": "Thuê ai đó làm việc và trả tiền cho họ.",
+    "classes": "v",
+    "answer": "employ",
+    "ipa": "/ɪmˈplɔɪ/",
+    "example": "But he didn’t have the money whereby he could employ the personnel needed to make the repairs.",
+    "english-definition": "To have someone work or do a job for you and pay them for it.",
+    "images": "eew-5-24/3.png"
+  },
+  {
+    "question": "Buộc ai đó phải rời khỏi một nơi, chẳng hạn như trường học, tổ chức hoặc quốc gia; trục xuất.",
+    "classes": "v",
+    "answer": "expel",
+    "ipa": "/ɪkˈspel/",
+    "example": "...the city will expel everyone.",
+    "english-definition": "To force someone to leave a school, organization, or country.",
+    "images": "eew-5-24/4.png"
+  },
+  {
+    "question": "Việc làm cho một cái gì đó lớn hơn hoặc dài hơn; sự gia hạn (thời gian).",
+    "classes": "n",
+    "answer": "extension",
+    "ipa": "/ɪkˈstenʃn/",
+    "example": "He had requested an extension, but it was denied by the city.",
+    "english-definition": "The fact of making something larger or longer; a period of time by which a deadline is postponed.",
+    "images": "eew-5-24/5.png"
+  },
+  {
+    "question": "Sắp xảy ra hoặc sắp xuất hiện; sắp tới.",
+    "classes": "adj",
+    "answer": "forthcoming",
+    "ipa": "/ˌfɔːrθˈkʌmɪŋ/",
+    "example": "...before the forthcoming inspection.",
+    "english-definition": "Happening or coming soon.",
+    "images": "eew-5-24/6.png"
+  },
+  {
+    "question": "Cung cấp đồ đạc cho một ngôi nhà hoặc căn phòng.",
+    "classes": "v",
+    "answer": "furnish",
+    "ipa": "/ˈfɜːrnɪʃ/",
+    "example": "They even furnished some of the apartments with new beds, dressers, and chairs.",
+    "english-definition": "To put furniture in a house or room.",
+    "images": "eew-5-24/7.png"
+  },
+  {
+    "question": "Các điều kiện hoặc thực hành giúp duy trì sức khỏe và ngăn ngừa sự lây lan của bệnh tật; vệ sinh.",
+    "classes": "n",
+    "answer": "hygiene",
+    "ipa": "/ˈhaɪdʒiːn/",
+    "example": "...standards for safety and hygiene...",
+    "english-definition": "Conditions or practices conducive to maintaining health and preventing disease, especially through cleanliness.",
+    "images": "eew-5-24/8.png"
+  },
+  {
+    "question": "Sạch sẽ và không có khả năng gây bệnh; hợp vệ sinh.",
+    "classes": "adj",
+    "answer": "hygienic",
+    "ipa": "/haɪˈdʒenɪk/",
+    "example": "When the deadline of the inspection arrived, the apartment building was hygienic and safe.",
+    "english-definition": "Clean and unlikely to cause disease.",
+    "images": "eew-5-24/9.png"
+  },
+  {
+    "question": "Một người đàn ông (hoặc một công ty) sở hữu và cho thuê nhà, căn hộ, hoặc đất.",
+    "classes": "n",
+    "answer": "landlord",
+    "ipa": "/ˈlændlɔːrd/",
+    "example": "A kind landlord was afraid that he would lose his apartment building.",
+    "english-definition": "A man (or a company) who you rent a room, a house, an apartment, or land from.",
+    "images": "eew-5-24/10.png"
+  },
+  {
+    "question": "Cho thuê hoặc đi thuê (tài sản) theo một hợp đồng pháp lý.",
+    "classes": "v",
+    "answer": "lease",
+    "ipa": "/liːs/",
+    "example": "Without tenants to lease the rooms, the landlord would be unable to pay his mortgage.",
+    "english-definition": "To make a legal agreement by which money is paid in order to use land, a building, a vehicle, or a piece of equipment for an agreed period of time.",
+    "images": "eew-5-24/11.png"
+  },
+  {
+    "question": "Được yêu cầu bởi luật pháp hoặc quy tắc; bắt buộc.",
+    "classes": "adj",
+    "answer": "mandatory",
+    "ipa": "/ˈmændətɔːri/",
+    "example": "He needed to make some mandatory repairs to the old building...",
+    "english-definition": "Required by law or a rule; compulsory.",
+    "images": "eew-5-24/12.png"
+  },
+  {
+    "question": "Sửa chữa một thứ gì đó bị hỏng hoặc rách.",
+    "classes": "v",
+    "answer": "mend",
+    "ipa": "/mend/",
+    "example": "...he mended the holes in the floor and walls.",
+    "english-definition": "To repair something that is broken or damaged.",
+    "images": "eew-5-24/13.png"
+  },
+  {
+    "question": "Một thỏa thuận pháp lý mà bạn vay tiền từ ngân hàng hoặc tổ chức tương tự để mua nhà, đất...",
+    "classes": "n",
+    "answer": "mortgage",
+    "ipa": "/ˈmɔːrɡɪdʒ/",
+    "example": "...the landlord would be unable to pay his mortgage.",
+    "english-definition": "A legal agreement by which a bank or similar organization lends you money to buy a house, etc., and you pay the money back over a particular number of years.",
+    "images": "eew-5-24/14.png"
+  },
+  {
+    "question": "Những người được tuyển dụng bởi một tổ chức hoặc tham gia vào một công việc cụ thể; nhân sự.",
+    "classes": "n",
+    "answer": "personnel",
+    "ipa": "/ˌpɜːrsəˈnel/",
+    "example": "...whereby he could employ the personnel needed to make the repairs.",
+    "english-definition": "The people who are employed by an organization or who are involved in a particular type of work.",
+    "images": "eew-5-24/15.png"
+  },
+  {
+    "question": "Hệ thống các đường ống, bể chứa, vòi... cung cấp nước và dẫn nước thải trong một tòa nhà.",
+    "classes": "n",
+    "answer": "plumbing",
+    "ipa": "/ˈplʌmɪŋ/",
+    "example": "He knew a lot about plumbing, so that’s how he helped.",
+    "english-definition": "The system of pipes, tanks, fittings, and other apparatus required for the water supply, heating, and sanitation in a building.",
+    "images": "eew-5-24/16.png"
+  },
+  {
+    "question": "Một người trả tiền thuê để được sống trong một căn phòng, ngôi nhà, v.v. thuộc sở hữu của người khác.",
+    "classes": "n",
+    "answer": "tenant",
+    "ipa": "/ˈtenənt/",
+    "example": "...or his tenants would have to leave by the end of the month.",
+    "english-definition": "A person who pays rent for the use of a room, a house, etc. owned by someone else.",
+    "images": "eew-5-24/17.png"
+  },
+  {
+    "question": "Rất hợp thời trang hoặc cập nhật; thời thượng.",
+    "classes": "adj",
+    "answer": "trendy",
+    "ipa": "/ˈtrendi/",
+    "example": "His old building now looked like one of the trendiest buildings in town.",
+    "english-definition": "Very fashionable or up to date.",
+    "images": "eew-5-24/18.png"
+  },
+  {
+    "question": "Một dịch vụ (như điện hoặc nước) được cung cấp cho công chúng; sự hữu ích.",
+    "classes": "n",
+    "answer": "utility",
+    "ipa": "/juːˈtɪləti/",
+    "example": "One tenant had worked for the city’s utilities.",
+    "english-definition": "A service (such as electricity or water) that is provided for the public; the quality of being useful.",
+    "images": "eew-5-24/19.png"
+  },
+  {
+    "question": "Bằng cách nào đó; nhờ đó.",
+    "classes": "conj",
+    "answer": "whereby",
+    "ipa": "/werˈbaɪ/",
+    "example": "But he didn’t have the money whereby he could employ the personnel needed to make the repairs.",
+    "english-definition": "By which way or method.",
+    "images": "eew-5-24/20.png"
+  }
+]
