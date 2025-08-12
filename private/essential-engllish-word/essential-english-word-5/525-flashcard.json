@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Liên quan đến vẻ đẹp hoặc sự đánh giá cái đẹp; có thẩm mỹ.",
+    "classes": "adj",
+    "answer": "aesthetic",
+    "ipa": "/esˈθet.ɪk/",
+    "example": "But he was in a nasty mood and had no care for the aesthetic value of the jungle.",
+    "english-definition": "Concerned with beauty or the appreciation of beauty.",
+    "images": "eew-5-25/1.png"
+  },
+  {
+    "question": "Tin rằng mình tốt hơn hoặc quan trọng hơn người khác một cách khó chịu; kiêu ngạo.",
+    "classes": "adj",
+    "answer": "arrogant",
+    "ipa": "/ˈær.ə.ɡənt/",
+    "example": "The arrogant executive, though, didn’t care about the welfare of the pilot and crew.",
+    "english-definition": "Believing that you are better or more important than other people.",
+    "images": "eew-5-25/2.png"
+  },
+  {
+    "question": "Một cảm giác mạnh mẽ ủng hộ hoặc chống lại một nhóm người, hoặc một phe trong một cuộc tranh luận, thường không dựa trên sự phán xét công bằng; thành kiến, thiên vị.",
+    "classes": "n",
+    "answer": "bias",
+    "ipa": "/ˈbaɪ.əs/",
+    "example": "Because he held a bias against the primitive ways of the monkey, he had gone hungry and almost died.",
+    "english-definition": "A strong feeling in favour of or against one group of people, or one side in an argument, often not based on fair judgment.",
+    "images": "eew-5-25/3.png"
+  },
+  {
+    "question": "Một thung lũng sâu với các vách đá rất dốc, thường được hình thành bởi một con sông.",
+    "classes": "n",
+    "answer": "canyon",
+    "ipa": "/ˈkæn.jən/",
+    "example": "He followed a trail through a canyon and along a creek.",
+    "english-definition": "A deep valley with very steep sides of rock that has usually been formed by a river.",
+    "images": "eew-5-25/4.png"
+  },
+  {
+    "question": "Một dòng suối hoặc con sông nhỏ, hẹp; con lạch.",
+    "classes": "n",
+    "answer": "creek",
+    "ipa": "/kriːk/",
+    "example": "He followed a trail through a canyon and along a creek.",
+    "english-definition": "A small, narrow stream or river.",
+    "images": "eew-5-25/5.png"
+  },
+  {
+    "question": "Một công cụ hoặc máy có đầu nhọn để tạo lỗ; mũi khoan, máy khoan.",
+    "classes": "n",
+    "answer": "drill",
+    "ipa": "/drɪl/",
+    "example": "He then used the twig like a drill to make a hole in the mound.",
+    "english-definition": "A tool or machine with a pointed end for making holes.",
+    "images": "eew-5-25/6.png"
+  },
+  {
+    "question": "Một người ở vị trí cao, đặc biệt là trong kinh doanh, người đưa ra quyết định và thực hiện chúng; giám đốc điều hành.",
+    "classes": "n",
+    "answer": "executive",
+    "ipa": "/ɪɡˈzek.jə.tɪv/",
+    "example": "While flying over a jungle, a wealthy executive’s private plane crashed.",
+    "english-definition": "Someone in a high position, especially in business, who makes decisions and puts them into action.",
+    "images": "eew-5-25/7.png"
+  },
+  {
+    "question": "Sự mệt mỏi cực độ, do gắng sức về thể chất hoặc tinh thần hoặc do bệnh tật.",
+    "classes": "n",
+    "answer": "fatigue",
+    "ipa": "/fəˈtiːɡ/",
+    "example": "Several days passed, and fatigue and hunger weakened him.",
+    "english-definition": "Extreme tiredness, resulting from mental or physical exertion or illness.",
+    "images": "eew-5-25/8.png"
+  },
+  {
+    "question": "Một bề mặt dốc; con dốc, đoạn dốc.",
+    "classes": "n",
+    "answer": "incline",
+    "ipa": "/ˈɪn.klaɪn/",
+    "example": "He continued to walk up the steep incline of the jungle’s hills.",
+    "english-definition": "A sloping surface.",
+    "images": "eew-5-25/9.png"
+  },
+  {
+    "question": "Rất tệ hoặc rất khó chịu; kinh tởm, xấu xa.",
+    "classes": "adj",
+    "answer": "nasty",
+    "ipa": "/ˈnæs.ti/",
+    "example": "But he was in a nasty mood and had no care for the aesthetic value of the jungle.",
+    "english-definition": "Very bad or unpleasant.",
+    "images": "eew-5-25/10.png"
+  },
+  {
+    "question": "Nhận thấy hoặc nhận thức được điều gì đó.",
+    "classes": "v",
+    "answer": "perceive",
+    "ipa": "/pəˈsiːv/",
+    "example": "...he might have perceived the jungle’s beauty.",
+    "english-definition": "To notice or become aware of something.",
+    "images": "eew-5-25/11.png"
+  },
+  {
+    "question": "Một thành viên của nhóm động vật có vú phát triển và thông minh nhất, bao gồm con người, khỉ và vượn.",
+    "classes": "n",
+    "answer": "primate",
+    "ipa": "/ˈpraɪ.meɪt/",
+    "example": "“Get away from me, you stupid primate!”",
+    "english-definition": "A member of the most developed and intelligent group of mammals, including humans, monkeys, and apes.",
+    "images": "eew-5-25/12.png"
+  },
+  {
+    "question": "Thuộc về giai đoạn đầu trong quá trình phát triển tiến hóa hoặc lịch sử của một cái gì đó; nguyên thủy.",
+    "classes": "adj",
+    "answer": "primitive",
+    "ipa": "/ˈprɪm.ɪ.tɪv/",
+    "example": "Because he held a bias against the primitive ways of the monkey, he had gone hungry and almost died.",
+    "english-definition": "Relating to an early stage in the evolutionary or historical development of something.",
+    "images": "eew-5-25/13.png"
+  },
+  {
+    "question": "Một ý tưởng cố định mà mọi người có về ai đó hoặc cái gì đó trông như thế nào, đặc biệt là một ý tưởng sai lầm.",
+    "classes": "n",
+    "answer": "stereotype",
+    "ipa": "/ˈster.i.ə.taɪp/",
+    "example": "The executive’s stereotype of the monkey was wrong.",
+    "english-definition": "A set idea that people have about what someone or something is like, especially an idea that is wrong.",
+    "images": "eew-5-25/14.png"
+  },
+  {
+    "question": "Làm từ hoặc được bao phủ bởi một chất dính vào bất kỳ vật nào chạm vào nó; dính, nhớp nháp.",
+    "classes": "adj",
+    "answer": "sticky",
+    "ipa": "/ˈstɪk.i/",
+    "example": "The sticky twig was covered with termites.",
+    "english-definition": "Made of or covered with a substance that stays attached to any object that touches it.",
+    "images": "eew-5-25/15.png"
+  },
+  {
+    "question": "Một loài côn trùng nhỏ sống thành đàn lớn và ăn gỗ; con mối.",
+    "classes": "n",
+    "answer": "termite",
+    "ipa": "/ˈtɜː.maɪt/",
+    "example": "It walked up to a mound where termites lived.",
+    "english-definition": "A small insect that lives in large groups and eats wood.",
+    "images": "eew-5-25/16.png"
+  },
+  {
+    "question": "Như một kết quả của hành động này; do đó, bằng cách đó.",
+    "classes": "adv",
+    "answer": "thereby",
+    "ipa": "/ˌðerˈbaɪ/",
+    "example": "He refused the help of the monkey, thereby leaving himself to starve.",
+    "english-definition": "As a result of this action.",
+    "images": "eew-5-25/17.png"
+  },
+  {
+    "question": "Một con đường mòn đi qua vùng nông thôn, núi hoặc khu vực rừng rậm.",
+    "classes": "n",
+    "answer": "trail",
+    "ipa": "/treɪl/",
+    "example": "He followed a trail through a canyon and along a creek.",
+    "english-definition": "A path through a countryside, mountain, or forest area.",
+    "images": "eew-5-25/18.png"
+  },
+  {
+    "question": "Một cành cây nhỏ, mảnh của cây hoặc bụi cây.",
+    "classes": "n",
+    "answer": "twig",
+    "ipa": "/twɪɡ/",
+    "example": "It was carrying a twig covered in honey.",
+    "english-definition": "A small, thin branch of a tree or bush.",
+    "images": "eew-5-25/19.png"
+  },
+  {
+    "question": "Sức khỏe, hạnh phúc và tài vận của một người hoặc một nhóm; phúc lợi.",
+    "classes": "n",
+    "answer": "welfare",
+    "ipa": "/ˈwel.fer/",
+    "example": "The arrogant executive, though, didn’t care about the welfare of the pilot and crew.",
+    "english-definition": "The health, happiness, and fortunes of a person or group.",
+    "images": "eew-5-25/20.png"
+  }
+]

@@ -1,0 +1,932 @@
+[
+  {
+    "word": "aesthetic",
+    "ipa": "/esˈθet.ɪk/",
+    "meaning": "Liên quan đến vẻ đẹp hoặc sự đánh giá cái đẹp; có thẩm mỹ.",
+    "image": "eew-5-25/1.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "aesthetic",
+        "meaning-example": "Liên quan đến vẻ đẹp hoặc sự đánh giá cái đẹp; có thẩm mỹ.",
+        "ipa-example": "/esˈθet.ɪk/"
+      },
+      {
+        "sentence": "Một anh chàng sinh viên nghệ thuật tên Thét nổi tiếng với cách cảm thụ đặc biệt. Khi đến thăm một viện bảo tàng, anh đứng sững người trước một bức tranh tuyệt đẹp. Bức tranh với màu sắc và bố cục hoàn hảo khiến anh quá choáng ngợp. Anh bất giác thốt lên một âm thanh đầy cảm xúc: \"É... thét... íc!\". Mọi người xung quanh hiểu rằng đó là cách anh thể hiện sự trân trọng cao nhất đối với cái đẹp. Kể từ đó, mỗi khi bàn luận về nghệ thuật hay một thiết kế có tính thẩm mỹ cao, họ đều nói rằng nó có \"chất Thét-íc\", gợi nhớ đến tiếng kêu đầy đam mê của anh.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Concerned with beauty or the appreciation of beauty.",
+        "meaning-example": "Quan tâm đến vẻ đẹp hoặc sự thưởng thức cái đẹp.",
+        "ipa-example": "/kənˈsɜrnd wɪθ ˈbjuti ɔr ði əˌpriʃiˈeɪʃən əv ˈbjuti./"
+      },
+      {
+        "sentence": "But he was in a nasty mood and had no care for the aesthetic value of the jungle.",
+        "meaning-example": "Nhưng anh ta đang trong tâm trạng tồi tệ và không quan tâm đến giá trị thẩm mỹ của khu rừng.",
+        "ipa-example": "/bʌt hi wəz ɪn ə ˈnæsti mud ænd hæd noʊ kɛr fɔr ði ɛsˈθɛtɪk ˈvælju əv ðə ˈʤʌŋgəl./"
+      },
+      {
+        "sentence": "The new building has a very pleasing aesthetic design.",
+        "meaning-example": "Tòa nhà mới có một thiết kế thẩm mỹ rất dễ chịu.",
+        "ipa-example": "/ðə nu ˈbɪldɪŋ hæz ə ˈvɛri ˈplizɪŋ ɛsˈθɛtɪk dɪˈzaɪn./"
+      },
+      {
+        "sentence": "He is a designer with a keen aesthetic sense.",
+        "meaning-example": "Anh ấy là một nhà thiết kế có óc thẩm mỹ nhạy bén.",
+        "ipa-example": "/hi ɪz ə dɪˈzaɪnər wɪθ ə kin ɛsˈθɛtɪk sɛns./"
+      }
+    ]
+  },
+  {
+    "word": "arrogant",
+    "ipa": "/ˈær.ə.ɡənt/",
+    "meaning": "Tin rằng mình tốt hơn hoặc quan trọng hơn người khác một cách khó chịu; kiêu ngạo.",
+    "image": "eew-5-25/2.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "arrogant",
+        "meaning-example": "Tin rằng mình tốt hơn hoặc quan trọng hơn người khác một cách khó chịu; kiêu ngạo.",
+        "ipa-example": "/ˈær.ə.ɡənt/"
+      },
+      {
+        "sentence": "Ngày xưa, có một hiệp sĩ tên Arro rất khỏe mạnh nhưng cũng vô cùng kiêu ngạo. Mỗi khi đến một thị trấn mới, ông ta đều đi lại vênh váo, gồng mình khoe cơ bắp và những đường \"gân\" cuồn cuộn. Ông ta thường khoe khoang: \"À, rờ gân của ta xem! Không ai sánh bằng!\". Ông ta tin mình giỏi hơn tất cả mọi người, coi thường từ nông dân đến thương gia. Dần dần, người dân phát ngán với thái độ trịch thượng đó và bắt đầu gọi ông ta một cách mỉa mai là \"Arrogant\", từ đó dùng để chỉ bất kỳ ai kiêu căng, ngạo mạn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Believing that you are better or more important than other people.",
+        "meaning-example": "Tin rằng bạn tốt hơn hoặc quan trọng hơn người khác.",
+        "ipa-example": "/bɪˈlivɪŋ ðæt ju ɑr ˈbɛtər ɔr mɔr ɪmˈpɔrtənt ðæn ˈʌðər ˈpipəl./"
+      },
+      {
+        "sentence": "The arrogant executive, though, didn’t care about the welfare of the pilot and crew.",
+        "meaning-example": "Tuy nhiên, vị giám đốc kiêu ngạo không quan tâm đến phúc lợi của phi công và phi hành đoàn.",
+        "ipa-example": "/ði ˈærəgənt ɪgˈzɛkjətɪv, ðoʊ, ˈdɪdənt kɛr əˈbaʊt ðə ˈwɛlˌfɛr əv ðə ˈpaɪlət ænd kru./"
+      },
+      {
+        "sentence": "I found him arrogant and rude.",
+        "meaning-example": "Tôi thấy anh ta kiêu ngạo và thô lỗ.",
+        "ipa-example": "/aɪ faʊnd hɪm ˈærəgənt ænd rud./"
+      },
+      {
+        "sentence": "He was too arrogant to admit that he had been wrong.",
+        "meaning-example": "Anh ta quá kiêu ngạo để thừa nhận rằng mình đã sai.",
+        "ipa-example": "/hi wəz tu ˈærəgənt tu ædˈmɪt ðæt hi hæd bɪn rɔŋ./"
+      }
+    ]
+  },
+  {
+    "word": "bias",
+    "ipa": "/ˈbaɪ.əs/",
+    "meaning": "Một cảm giác mạnh mẽ ủng hộ hoặc chống lại một nhóm người, hoặc một phe trong một cuộc tranh luận, thường không dựa trên sự phán xét công bằng; thành kiến, thiên vị.",
+    "image": "eew-5-25/3.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "bias",
+        "meaning-example": "Một cảm giác mạnh mẽ ủng hộ hoặc chống lại một nhóm người, hoặc một phe trong một cuộc tranh luận, thường không dựa trên sự phán xét công bằng; thành kiến, thiên vị.",
+        "ipa-example": "/ˈbaɪ.əs/"
+      },
+      {
+        "sentence": "Tại một ngôi làng nọ, có một vị quan tòa với thói quen xét xử rất kỳ lạ. Ông ta luôn có thành kiến sâu sắc với những người ăn được cay, cho rằng họ là những người hung hăng. Trong các phiên tòa, ông ta luôn \"bài\" xích những người này và đưa ra những phán quyết cay nghiệt như \"ớt\". Cách xử án thiếu công bằng, chỉ dựa trên cảm tính và định kiến \"bài-ớt\" của ông đã trở nên khét tiếng. Mọi người bắt đầu dùng từ \"bias\" để chỉ bất kỳ sự thiên vị, thành kiến vô lý nào trong việc đánh giá người khác.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A strong feeling in favour of or against one group of people, or one side in an argument, often not based on fair judgment.",
+        "meaning-example": "Một cảm giác mạnh mẽ ủng hộ hoặc chống lại một nhóm người, hoặc một bên trong một cuộc tranh luận, thường không dựa trên sự phán xét công bằng.",
+        "ipa-example": "/ə strɔŋ ˈfilɪŋ ɪn ˈfeɪvər əv ɔr əˈgɛnst wʌn grup əv ˈpipəl, ɔr wʌn saɪd ɪn ən ˈɑrgjəmənt, ˈɔfən nɑt beɪst ɑn fɛr ˈʤʌʤmənt./"
+      },
+      {
+        "sentence": "Because he held a bias against the primitive ways of the monkey, he had gone hungry and almost died.",
+        "meaning-example": "Bởi vì ông ta có thành kiến với cách sống nguyên thủy của con khỉ, ông ta đã bị đói và suýt chết.",
+        "ipa-example": "/bɪˈkɔz hi hɛld ə ˈbaɪəs əˈgɛnst ðə ˈprɪmɪtɪv weɪz əv ðə ˈmʌŋki, hi hæd gɔn ˈhʌŋgri ænd ˈɔlmoʊst daɪd./"
+      },
+      {
+        "sentence": "The news channel was accused of political bias.",
+        "meaning-example": "Kênh tin tức bị cáo buộc có thành kiến chính trị.",
+        "ipa-example": "/ðə nuz ˈʧænəl wəz əˈkjuzd əv pəˈlɪtɪkəl ˈbaɪəs./"
+      },
+      {
+        "sentence": "It's important to avoid bias in your research.",
+        "meaning-example": "Điều quan trọng là phải tránh thành kiến trong nghiên cứu của bạn.",
+        "ipa-example": "/ɪts ɪmˈpɔrtənt tu əˈvɔɪd ˈbaɪəs ɪn jʊər ˈrisɜrʧ./"
+      }
+    ]
+  },
+  {
+    "word": "canyon",
+    "ipa": "/ˈkæn.jən/",
+    "meaning": "Một thung lũng sâu với các vách đá rất dốc, thường được hình thành bởi một con sông.",
+    "image": "eew-5-25/4.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "canyon",
+        "meaning-example": "Một thung lũng sâu với các vách đá rất dốc, thường được hình thành bởi một con sông.",
+        "ipa-example": "/ˈkæn.jən/"
+      },
+      {
+        "sentence": "Truyền thuyết kể về một hẻm núi sâu thẳm được tạo ra bởi một dòng sông cổ đại. Sinh vật duy nhất đủ can đảm sống trên những vách đá dựng đứng đó là một con 'kền kền' khổng lồ và rất hay 'cằn nhằn'. Tiếng kêu của nó vang vọng khắp hẻm núi, nghe như \"Ken-nhằn! Ken-nhằn!\". Những nhà thám hiểm đầu tiên đến đây, khi nghe thấy tiếng kêu ám ảnh không ngớt đó, đã quyết định đặt tên cho hẻm núi vĩ đại này theo tên của sinh vật cáu kỉnh duy nhất cai trị nó. Họ gọi đó là \"canyon\", một nơi hùng vĩ và hiểm trở như chính tiếng kêu của con 'kền kền nhằn' đó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A deep valley with very steep sides of rock that has usually been formed by a river.",
+        "meaning-example": "Một thung lũng sâu với các vách đá rất dốc thường được hình thành bởi một con sông.",
+        "ipa-example": "/ə dip ˈvæli wɪθ ˈvɛri stip saɪdz əv rɑk ðæt hæz ˈjuʒuəli bɪn fɔrmd baɪ ə ˈrɪvər./"
+      },
+      {
+        "sentence": "He followed a trail through a canyon and along a creek.",
+        "meaning-example": "Anh ta đi theo một con đường mòn qua một hẻm núi và dọc theo một con lạch.",
+        "ipa-example": "/hi ˈfɑloʊd ə treɪl θru ə ˈkænjən ænd əˈlɔŋ ə krik./"
+      },
+      {
+        "sentence": "The Grand Canyon is one of the world's most famous natural wonders.",
+        "meaning-example": "Hẻm núi lớn (Grand Canyon) là một trong những kỳ quan thiên nhiên nổi tiếng nhất thế giới.",
+        "ipa-example": "/ðə grænd ˈkænjən ɪz wʌn əv ðə wɜrldz moʊst ˈfeɪməs ˈnæʧərəl ˈwʌndərz./"
+      },
+      {
+        "sentence": "We hiked down into the canyon.",
+        "meaning-example": "Chúng tôi đi bộ xuống hẻm núi.",
+        "ipa-example": "/wi haɪkt daʊn ˈɪntu ðə ˈkænjən./"
+      }
+    ]
+  },
+  {
+    "word": "creek",
+    "ipa": "/kriːk/",
+    "meaning": "Một dòng suối hoặc con sông nhỏ, hẹp; con lạch.",
+    "image": "eew-5-25/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "creek",
+        "meaning-example": "Một dòng suối hoặc con sông nhỏ, hẹp; con lạch.",
+        "ipa-example": "/kriːk/"
+      },
+      {
+        "sentence": "Sau ngôi nhà cũ của ông bà tôi là một thế giới bí mật của lũ trẻ chúng tôi. Đó là một con lạch nhỏ uốn lượn xuyên qua khu rừng. Chúng tôi gọi nơi đó là \"vương quốc\" của mình. Dòng nước trong vắt chảy qua những viên sỏi nhẵn bóng, tạo ra một âm thanh nhẹ nhàng rất đặc trưng: \"cờ-ríc... cờ-ríc...\". Chúng tôi dành hàng giờ ở đó, xây đập bằng đá và ngắm những chú cá nhỏ bơi lội. Con lạch nhỏ với âm thanh \"cờ-ríc\" êm dịu đó là nơi yêu thích của chúng tôi, và chúng tôi đã đặt cho nó một cái tên hoàn hảo: \"creek\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A small, narrow stream or river.",
+        "meaning-example": "Một dòng suối hoặc con sông nhỏ, hẹp.",
+        "ipa-example": "/ə smɔl, ˈnɛroʊ strim ɔr ˈrɪvər./"
+      },
+      {
+        "sentence": "He followed a trail through a canyon and along a creek.",
+        "meaning-example": "Anh ta đi theo một con đường mòn qua một hẻm núi và dọc theo một con lạch.",
+        "ipa-example": "/hi ˈfɑloʊd ə treɪl θru ə ˈkænjən ænd əˈlɔŋ ə krik./"
+      },
+      {
+        "sentence": "The children love to play in the creek.",
+        "meaning-example": "Bọn trẻ thích chơi đùa ở con lạch.",
+        "ipa-example": "/ðə ˈʧɪldrən lʌv tu pleɪ ɪn ðə krik./"
+      },
+      {
+        "sentence": "We crossed a shallow creek.",
+        "meaning-example": "Chúng tôi đã băng qua một con lạch cạn.",
+        "ipa-example": "/wi krɔst ə ˈʃæloʊ krik./"
+      }
+    ]
+  },
+  {
+    "word": "drill",
+    "ipa": "/drɪl/",
+    "meaning": "Một công cụ hoặc máy có đầu nhọn để tạo lỗ; mũi khoan, máy khoan.",
+    "image": "eew-5-25/6.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "drill",
+        "meaning-example": "Một công cụ hoặc máy có đầu nhọn để tạo lỗ; mũi khoan, máy khoan.",
+        "ipa-example": "/drɪl/"
+      },
+      {
+        "sentence": "Một nhà phát minh già muốn tạo ra một công cụ để tạo lỗ một cách nhanh chóng. Sau nhiều tuần mày mò với bánh răng và động cơ, cuối cùng ông cũng chế tạo được một thiết bị quay. Khi ông nhấn nút, nó hoạt động, tạo ra một âm thanh mạnh mẽ và nhịp nhàng: \"Đờ-riuuuu... Đờ-riuuuu...\". Nó dễ dàng khoan một lỗ hoàn hảo vào một tấm ván gỗ dày. Người học việc trẻ của ông, kinh ngạc theo dõi, đã thốt lên: \"Cái máy 'đờ-riu' đó là gì vậy ạ?\". Cái tên ấy gắn liền với nó. Kể từ đó, bất kỳ công cụ nào dùng để tạo lỗ, tức cái máy khoan, đều được gọi là \"drill\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A tool or machine with a pointed end for making holes.",
+        "meaning-example": "Một công cụ hoặc máy có đầu nhọn để tạo lỗ.",
+        "ipa-example": "/ə tul ɔr məˈʃin wɪθ ə ˈpɔɪntɪd ɛnd fɔr ˈmeɪkɪŋ hoʊlz./"
+      },
+      {
+        "sentence": "He then used the twig like a drill to make a hole in the mound.",
+        "meaning-example": "Sau đó, anh ta dùng cành cây nhỏ như một cái khoan để tạo một lỗ trên gò đất.",
+        "ipa-example": "/hi ðɛn juzd ðə twɪg laɪk ə drɪl tu meɪk ə hoʊl ɪn ðə maʊnd./"
+      },
+      {
+        "sentence": "He used an electric drill to put up the shelves.",
+        "meaning-example": "Anh ấy đã dùng máy khoan điện để lắp các kệ.",
+        "ipa-example": "/hi juzd ən ɪˈlɛktrɪk drɪl tu pʊt ʌp ðə ʃɛlvz./"
+      },
+      {
+        "sentence": "We need a drill to make a hole in the wall.",
+        "meaning-example": "Chúng ta cần một cái khoan để tạo một lỗ trên tường.",
+        "ipa-example": "/wi nid ə drɪl tu meɪk ə hoʊl ɪn ðə wɔl./"
+      }
+    ]
+  },
+  {
+    "word": "executive",
+    "ipa": "/ɪɡˈzek.jə.tɪv/",
+    "meaning": "Một người ở vị trí cao, đặc biệt là trong kinh doanh, người đưa ra quyết định và thực hiện chúng; giám đốc điều hành.",
+    "image": "eew-5-25/7.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "executive",
+        "meaning-example": "Một người ở vị trí cao, đặc biệt là trong kinh doanh, người đưa ra quyết định và thực hiện chúng; giám đốc điều hành.",
+        "ipa-example": "/ɪɡˈzek.jə.tɪv/"
+      },
+      {
+        "sentence": "Trong một tòa nhà chọc trời, cuộc họp hội đồng quản trị đang rất căng thẳng. Một quyết định lớn cần được đưa ra. Một nữ quản lý cấp cao, nổi tiếng với sự quyết đoán, đã đứng lên trình bày một kế hoạch táo bạo. \"Ích lợi (Ex) của con đường này là rất rõ ràng,\" bà tuyên bố. \"Chúng ta phải thực thi (execute) nó ngay lập tức.\" Khả năng nhìn ra 'ích lợi' và lòng can đảm để 'thực thi' kế hoạch của bà đã gây ấn tượng với tất cả mọi người. Bà là người biến quyết định thành hành động. Từ đó, người ta gọi bà là giám đốc điều hành, \"executive\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Someone in a high position, especially in business, who makes decisions and puts them into action.",
+        "meaning-example": "Một người ở vị trí cao, đặc biệt là trong kinh doanh, người đưa ra quyết định và đưa chúng vào hành động.",
+        "ipa-example": "/ˈsʌmwʌn ɪn ə haɪ pəˈzɪʃən, əˈspɛʃəli ɪn ˈbɪznəs, hu meɪks dɪˈsɪʒənz ænd pʊts ðɛm ˈɪntu ˈækʃən./"
+      },
+      {
+        "sentence": "While flying over a jungle, a wealthy executive’s private plane crashed.",
+        "meaning-example": "Trong khi bay qua một khu rừng, máy bay riêng của một giám đốc điều hành giàu có đã bị rơi.",
+        "ipa-example": "/waɪl ˈflaɪɪŋ ˈoʊvər ə ˈʤʌŋgəl, ə ˈwɛlθi ɪgˈzɛkjətɪvz ˈpraɪvət pleɪn kræʃt./"
+      },
+      {
+        "sentence": "She is a senior executive in a major corporation.",
+        "meaning-example": "Bà ấy là một giám đốc điều hành cấp cao trong một tập đoàn lớn.",
+        "ipa-example": "/ʃi ɪz ə ˈsinjər ɪgˈzɛkjətɪv ɪn ə ˈmeɪʤər ˌkɔrpəˈreɪʃən./"
+      },
+      {
+        "sentence": "The executives of the company held a meeting.",
+        "meaning-example": "Các giám đốc điều hành của công ty đã tổ chức một cuộc họp.",
+        "ipa-example": "/ði ɪgˈzɛkjətɪvz əv ðə ˈkʌmpəni hɛld ə ˈmitɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "fatigue",
+    "ipa": "/fəˈtiːɡ/",
+    "meaning": "Sự mệt mỏi cực độ, do gắng sức về thể chất hoặc tinh thần hoặc do bệnh tật.",
+    "image": "eew-5-25/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "fatigue",
+        "meaning-example": "Sự mệt mỏi cực độ, do gắng sức về thể chất hoặc tinh thần hoặc do bệnh tật.",
+        "ipa-example": "/fəˈtiːɡ/"
+      },
+      {
+        "sentence": "Một nhóm binh sĩ đã hành quân ba ngày liền qua khu rừng rậm. Cơ thể họ đau nhức và tâm trí tê liệt vì mệt mỏi. Một người lính trẻ kiệt sức, lảo đảo rồi ngã quỵ. Đồng đội vội chạy đến đỡ. Gương mặt anh tái nhợt, người \"phờ phạc\". Anh thì thầm: \"Tôi phờ quá... tí nữa là gục rồi.\" Tình trạng cơ thể \"phờ\" đi và sắp \"gục\" ngã — sự mệt mỏi tột độ cả về thể chất lẫn tinh thần — là kẻ thù thường trực của họ. Họ gọi cảm giác kiệt quệ đó là \"fatigue,\" một từ gợi nhớ về khoảnh khắc mệt mỏi đến suy sụp.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Extreme tiredness, resulting from mental or physical exertion or illness.",
+        "meaning-example": "Sự mệt mỏi tột độ, do gắng sức về tinh thần hoặc thể chất hoặc do bệnh tật.",
+        "ipa-example": "/ɪkˈstrim ˈtaɪərdnəs, rɪˈzʌltɪŋ frʌm ˈmɛntəl ɔr ˈfɪzɪkəl ɪgˈzɜrʃən ɔr ˈɪlnəs./"
+      },
+      {
+        "sentence": "Several days passed, and fatigue and hunger weakened him.",
+        "meaning-example": "Nhiều ngày trôi qua, sự mệt mỏi và đói khát đã làm anh ta suy yếu.",
+        "ipa-example": "/ˈsɛvərəl deɪz pæst, ænd fəˈtig ænd ˈhʌŋgər ˈwikənd hɪm./"
+      },
+      {
+        "sentence": "He was suffering from physical and mental fatigue.",
+        "meaning-example": "Anh ấy đang bị mệt mỏi cả về thể chất và tinh thần.",
+        "ipa-example": "/hi wəz ˈsʌfərɪŋ frʌm ˈfɪzɪkəl ænd ˈmɛntəl fəˈtig./"
+      },
+      {
+        "sentence": "Driver fatigue was the cause of the accident.",
+        "meaning-example": "Sự mệt mỏi của tài xế là nguyên nhân của vụ tai nạn.",
+        "ipa-example": "/ˈdraɪvər fəˈtig wəz ðə kɔz əv ði ˈæksədənt./"
+      }
+    ]
+  },
+  {
+    "word": "incline",
+    "ipa": "/ˈɪn.klaɪn/",
+    "meaning": "Một bề mặt dốc; con dốc, đoạn dốc.",
+    "image": "eew-5-25/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "incline",
+        "meaning-example": "Một bề mặt dốc; con dốc, đoạn dốc.",
+        "ipa-example": "/ˈɪn.klaɪn/"
+      },
+      {
+        "sentence": "Hãy tưởng tượng bạn đang xây dựng một tuyến đường sắt qua vùng núi. Để đưa tàu lên một ngọn đồi cao, bạn không thể đi thẳng lên. Thay vào đó, bạn phải xây dựng đường ray trên một con dốc thoai thoải. Một kỹ sư giải thích kế hoạch: \"Chúng ta sẽ đặt đường ray 'in' (trong) một 'line' (đường) đi lên dần dần. Nó không bằng phẳng, nó là một 'in-line'.\" Con đường 'in-line' hay con dốc này cho phép tàu hỏa leo lên. Các công nhân bắt đầu gọi bất kỳ con dốc hoặc đoạn đường nghiêng nào là \"incline\", một đường thẳng có độ dốc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A sloping surface.",
+        "meaning-example": "Một bề mặt dốc.",
+        "ipa-example": "/ə ˈsloʊpɪŋ ˈsɜrfəs./"
+      },
+      {
+        "sentence": "He continued to walk up the steep incline of the jungle’s hills.",
+        "meaning-example": "Anh ta tiếp tục đi lên con dốc đứng của những ngọn đồi trong rừng.",
+        "ipa-example": "/hi kənˈtɪnjud tu wɔk ʌp ðə stip ˈɪnˌklaɪn əv ðə ˈʤʌŋgəlz hɪlz./"
+      },
+      {
+        "sentence": "The house is built on a slight incline.",
+        "meaning-example": "Ngôi nhà được xây trên một con dốc thoai thoải.",
+        "ipa-example": "/ðə haʊs ɪz bɪlt ɑn ə slaɪt ˈɪnˌklaɪn./"
+      },
+      {
+        "sentence": "He struggled to push the wheelchair up the incline.",
+        "meaning-example": "Anh ấy đã phải vật lộn để đẩy chiếc xe lăn lên dốc.",
+        "ipa-example": "/hi ˈstrʌgəld tu pʊʃ ðə ˈwilˌʧɛr ʌp ði ˈɪnˌklaɪn./"
+      }
+    ]
+  },
+  {
+    "word": "nasty",
+    "ipa": "/ˈnæs.ti/",
+    "meaning": "Rất tệ hoặc rất khó chịu; kinh tởm, xấu xa.",
+    "image": "eew-5-25/10.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "nasty",
+        "meaning-example": "Rất tệ hoặc rất khó chịu; kinh tởm, xấu xa.",
+        "ipa-example": "/ˈnæs.ti/"
+      },
+      {
+        "sentence": "Một cậu bé tìm thấy một loại quả lạ trong rừng. Nó bị dập, trông 'nát' bét và có mùi rất khó chịu. Tò mò, cậu cắn một miếng và ngay lập tức nhổ ra vì vị của nó thật kinh khủng. Cậu chạy về nhà, vừa mếu máo vừa nói với chị gái: \"Đừng bao giờ ăn cái quả 'nát-tì' đó nhé! Nó kinh khủng lắm!\". Kể từ đó, hai chị em dùng từ \"nasty\" để mô tả bất cứ thứ gì khó chịu và kinh tởm, từ mùi hôi, vị dở, cho đến một người xấu tính hay một cơn mưa tầm tã, u ám.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Very bad or unpleasant.",
+        "meaning-example": "Rất tệ hoặc khó chịu.",
+        "ipa-example": "/ˈvɛri bæd ɔr ənˈplɛzənt./"
+      },
+      {
+        "sentence": "But he was in a nasty mood and had no care for the aesthetic value of the jungle.",
+        "meaning-example": "Nhưng anh ta đang trong tâm trạng tồi tệ và không quan tâm đến giá trị thẩm mỹ của khu rừng.",
+        "ipa-example": "/bʌt hi wəz ɪn ə ˈnæsti mud ænd hæd noʊ kɛr fɔr ði ɛsˈθɛtɪk ˈvælju əv ðə ˈʤʌŋgəl./"
+      },
+      {
+        "sentence": "There's a nasty smell in here.",
+        "meaning-example": "Có một mùi kinh tởm ở đây.",
+        "ipa-example": "/ðɛrz ə ˈnæsti smɛl ɪn hɪr./"
+      },
+      {
+        "sentence": "Don't be so nasty to your brother.",
+        "meaning-example": "Đừng quá xấu tính với em trai của bạn.",
+        "ipa-example": "/doʊnt bi soʊ ˈnæsti tu jʊər ˈbrʌðər./"
+      }
+    ]
+  },
+  {
+    "word": "perceive",
+    "ipa": "/pəˈsiːv/",
+    "meaning": "Nhận thấy hoặc nhận thức được điều gì đó.",
+    "image": "eew-5-25/11.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "perceive",
+        "meaning-example": "Nhận thấy hoặc nhận thức được điều gì đó.",
+        "ipa-example": "/pəˈsiːv/"
+      },
+      {
+        "sentence": "Một vị thiền sư già đang dạy cho học trò về sự nhận thức. Ngài giơ lên một chiếc cốc gỗ mộc mạc và hỏi: \"Con thấy gì?\". Người học trò đáp: \"Một cái cốc ạ.\" Vị sư mỉm cười: \"Hãy nhìn kỹ hơn. Hãy 'bơ' (per) đi lớp vỏ ngoài, 'siv' (suy/see) xét thật kỹ. Con sẽ thấy cái cây nơi nó sinh ra, những cơn mưa đã nuôi dưỡng nó, và đôi tay của người thợ mộc đã tạo hình nó.\" Người học trò chợt hiểu ra. Việc nhận thức thực sự không chỉ là nhìn, mà là hiểu và nhận ra một thực tại sâu sắc hơn. Hành động nhìn sâu sắc, \"bơ-siv\" này, được gọi là \"perceive.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To notice or become aware of something.",
+        "meaning-example": "Nhận thấy hoặc trở nên nhận thức được điều gì đó.",
+        "ipa-example": "/tu ˈnoʊtɪs ɔr bɪˈkʌm əˈwɛr əv ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "...he might have perceived the jungle’s beauty.",
+        "meaning-example": "...anh ta có thể đã nhận ra vẻ đẹp của khu rừng.",
+        "ipa-example": "/hi maɪt hæv pərˈsivd ðə ˈʤʌŋgəlz ˈbjuti./"
+      },
+      {
+        "sentence": "I perceived a change in his behavior.",
+        "meaning-example": "Tôi nhận thấy một sự thay đổi trong hành vi của anh ấy.",
+        "ipa-example": "/aɪ pərˈsivd ə ʧeɪnʤ ɪn hɪz bɪˈheɪvjər./"
+      },
+      {
+        "sentence": "How do you perceive your new role?",
+        "meaning-example": "Bạn nhận thức vai trò mới của mình như thế nào?",
+        "ipa-example": "/haʊ du ju pərˈsiv jʊər nu roʊl?/"
+      }
+    ]
+  },
+  {
+    "word": "primate",
+    "ipa": "/ˈpraɪ.meɪt/",
+    "meaning": "Một thành viên của nhóm động vật có vú phát triển và thông minh nhất, bao gồm con người, khỉ và vượn.",
+    "image": "eew-5-25/12.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "primate",
+        "meaning-example": "Một thành viên của nhóm động vật có vú phát triển và thông minh nhất, bao gồm con người, khỉ và vượn.",
+        "ipa-example": "/ˈpraɪ.meɪt/"
+      },
+      {
+        "sentence": "Một nhà sinh vật học nổi tiếng dẫn một nhóm sinh viên tham quan cơ sở nghiên cứu của mình. Bà chỉ vào khu vực của khỉ và vượn người, nói với một nụ cười ấm áp: \"Đây là những 'prime mates' (người bạn hàng đầu) của chúng ta.\" Bà giải thích: \"Trong đại gia đình sự sống, chúng là những người bạn đồng hành chính, hay 'prime', và là họ hàng gần gũi nhất của con người.\" Các sinh viên rất cảm động trước cách mô tả này. Thuật ngữ \"primate\" đã khắc sâu trong tâm trí họ, không chỉ như một phân loại khoa học, mà còn là lời nhắc nhở về mối liên hệ sâu sắc của chúng ta với bộ linh trưởng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A member of the most developed and intelligent group of mammals, including humans, monkeys, and apes.",
+        "meaning-example": "Một thành viên của nhóm động vật có vú phát triển và thông minh nhất, bao gồm con người, khỉ và vượn.",
+        "ipa-example": "/ə ˈmɛmbər əv ðə moʊst dɪˈvɛləpt ænd ɪnˈtɛlɪʤənt grup əv ˈmæməlz, ɪnˈkludɪŋ ˈhjumənz, ˈmʌŋkiz, ænd eɪps./"
+      },
+      {
+        "sentence": "“Get away from me, you stupid primate!”",
+        "meaning-example": "\"Tránh xa tôi ra, đồ linh trưởng ngu ngốc!\"",
+        "ipa-example": "/gɛt əˈweɪ frʌm mi, ju ˈstupɪd ˈpraɪˌmeɪt!/"
+      },
+      {
+        "sentence": "Humans, gorillas, and monkeys are all primates.",
+        "meaning-example": "Con người, khỉ đột và khỉ đều là động vật linh trưởng.",
+        "ipa-example": "/ˈhjumənz, gəˈrɪləz, ænd ˈmʌŋkiz ɑr ɔl ˈpraɪˌmeɪts./"
+      },
+      {
+        "sentence": "The zookeeper is an expert on primates.",
+        "meaning-example": "Người trông sở thú là một chuyên gia về các loài linh trưởng.",
+        "ipa-example": "/ðə ˈzuˌkipər ɪz ən ˈɛkspɜrt ɑn ˈpraɪˌmeɪts./"
+      }
+    ]
+  },
+  {
+    "word": "primitive",
+    "ipa": "/ˈprɪm.ɪ.tɪv/",
+    "meaning": "Thuộc về giai đoạn đầu trong quá trình phát triển tiến hóa hoặc lịch sử của một cái gì đó; nguyên thủy.",
+    "image": "eew-5-25/13.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "primitive",
+        "meaning-example": "Thuộc về giai đoạn đầu trong quá trình phát triển tiến hóa hoặc lịch sử của một cái gì đó; nguyên thủy.",
+        "ipa-example": "/ˈprɪm.ɪ.tɪv/"
+      },
+      {
+        "sentence": "Hãy tưởng tượng các nhà khảo cổ học khám phá ra một hang động từ hàng ngàn năm trước. Bên trong, họ tìm thấy những công cụ đơn giản làm bằng đá và xương, cùng những bức vẽ thô sơ trên tường. Vị trưởng đoàn nhận xét: \"Đây là từ một 'prime time' (thời kỳ đầu tiên), một thời điểm khi nền văn minh nhân loại chỉ mới bắt đầu.\" Đó là thời đại sơ khai, hay 'prime' nhất. Các công cụ còn rất cơ bản, nghệ thuật đơn giản. Họ mô tả giai đoạn đầu, chưa phát triển này của lịch sử loài người là \"primitive\", gợi nhớ về \"thời kỳ sơ khai\" nguyên thủy đó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to an early stage in the evolutionary or historical development of something.",
+        "meaning-example": "Liên quan đến một giai đoạn đầu trong sự phát triển tiến hóa hoặc lịch sử của một cái gì đó.",
+        "ipa-example": "/rɪˈleɪtɪŋ tu ən ˈɜrli steɪʤ ɪn ði ˌɛvəˈluʃəˌnɛri ɔr hɪˈstɔrɪkəl dɪˈvɛləpmənt əv ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "Because he held a bias against the primitive ways of the monkey, he had gone hungry and almost died.",
+        "meaning-example": "Bởi vì ông ta có thành kiến với cách sống nguyên thủy của con khỉ, ông ta đã bị đói và suýt chết.",
+        "ipa-example": "/bɪˈkɔz hi hɛld ə ˈbaɪəs əˈgɛnst ðə ˈprɪmɪtɪv weɪz əv ðə ˈmʌŋki, hi hæd gɔn ˈhʌŋgri ænd ˈɔlmoʊst daɪd./"
+      },
+      {
+        "sentence": "The explorers discovered a primitive tribe in the jungle.",
+        "meaning-example": "Các nhà thám hiểm đã phát hiện ra một bộ lạc nguyên thủy trong rừng.",
+        "ipa-example": "/ði ɪkˈsplɔrərz dɪˈskʌvərd ə ˈprɪmɪtɪv traɪb ɪn ðə ˈʤʌŋgəl./"
+      },
+      {
+        "sentence": "They lived in primitive conditions.",
+        "meaning-example": "Họ sống trong điều kiện nguyên thủy.",
+        "ipa-example": "/ðeɪ lɪvd ɪn ˈprɪmɪtɪv kənˈdɪʃənz./"
+      }
+    ]
+  },
+  {
+    "word": "stereotype",
+    "ipa": "/ˈster.i.ə.taɪp/",
+    "meaning": "Một ý tưởng cố định mà mọi người có về ai đó hoặc cái gì đó trông như thế nào, đặc biệt là một ý tưởng sai lầm.",
+    "image": "eew-5-25/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "stereotype",
+        "meaning-example": "Một ý tưởng cố định mà mọi người có về ai đó hoặc cái gì đó trông như thế nào, đặc biệt là một ý tưởng sai lầm.",
+        "ipa-example": "/ˈster.i.ə.taɪp/"
+      },
+      {
+        "sentence": "Vào thời kỳ đầu của ngành in ấn, để sao chép một trang sách, người ta tạo ra một tấm kim loại nguyên khối từ các con chữ rời. Tấm kim loại này được gọi là \"stereotype\". Nó rất bền và có thể in đi in lại cùng một trang giấy hàng nghìn lần mà không có bất kỳ thay đổi nào. Mọi bản sao đều giống hệt nhau, một bản sao rập khuôn, cố định. Chẳng bao lâu sau, người ta bắt đầu dùng từ này để mô tả những ý tưởng cố định, không thay đổi về một nhóm người nào đó. \"Stereotype\" trở thành một \"khuôn in\" trong tâm trí, luôn tạo ra cùng một hình ảnh đơn giản, rập khuôn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A set idea that people have about what someone or something is like, especially an idea that is wrong.",
+        "meaning-example": "Một ý tưởng cố định mà mọi người có về một người hay một vật nào đó như thế nào, đặc biệt là một ý tưởng sai lầm.",
+        "ipa-example": "/ə sɛt aɪˈdiə ðæt ˈpipəl hæv əˈbaʊt wʌt ˈsʌmwʌn ɔr ˈsʌmθɪŋ ɪz laɪk, əˈspɛʃəli ən aɪˈdiə ðæt ɪz rɔŋ./"
+      },
+      {
+        "sentence": "The executive’s stereotype of the monkey was wrong.",
+        "meaning-example": "Khuôn mẫu của vị giám đốc về con khỉ là sai lầm.",
+        "ipa-example": "/ði ɪgˈzɛkjətɪvz ˈstɛriəˌtaɪp əv ðə ˈmʌŋki wəz rɔŋ./"
+      },
+      {
+        "sentence": "It's a stereotype that all British people drink tea.",
+        "meaning-example": "Việc tất cả người Anh đều uống trà là một định kiến.",
+        "ipa-example": "/ɪts ə ˈstɛriəˌtaɪp ðæt ɔl ˈbrɪtɪʃ ˈpipəl drɪŋk ti./"
+      },
+      {
+        "sentence": "We should challenge negative stereotypes.",
+        "meaning-example": "Chúng ta nên thách thức những định kiến tiêu cực.",
+        "ipa-example": "/wi ʃʊd ˈʧælənʤ ˈnɛgətɪv ˈstɛriəˌtaɪps./"
+      }
+    ]
+  },
+  {
+    "word": "sticky",
+    "ipa": "/ˈstɪk.i/",
+    "meaning": "Làm từ hoặc được bao phủ bởi một chất dính vào bất kỳ vật nào chạm vào nó; dính, nhớp nháp.",
+    "image": "eew-5-25/15.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "sticky",
+        "meaning-example": "Làm từ hoặc được bao phủ bởi một chất dính vào bất kỳ vật nào chạm vào nó; dính, nhớp nháp.",
+        "ipa-example": "/ˈstɪk.i/"
+      },
+      {
+        "sentence": "Hai anh em đang làm bánh dẻo với mật mía cho Tết Trung thu. Tay của họ nhanh chóng bị dính đầy hỗn hợp ngọt ngào. Người anh tinh nghịch bắt đầu lấy ngón tay chọc vào má em gái. Cô bé la lên: \"Anh đừng 'sờ tí kì' lạ thế! Dính quá đi mất!\". Mẹ của chúng nghe thấy và bật cười. Cụm từ \"sờ tí kì\" đã trở thành từ ngữ hài hước của gia đình họ để chỉ bất cứ thứ gì dính và nhớp nháp, từ mật ong, keo dán cho đến những vũng bùn. Và cứ như vậy, chúng đã học được từ \"sticky\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Made of or covered with a substance that stays attached to any object that touches it.",
+        "meaning-example": "Làm bằng hoặc được bao phủ bởi một chất dính vào bất kỳ vật nào chạm vào nó.",
+        "ipa-example": "/meɪd əv ɔr ˈkʌvərd wɪθ ə ˈsʌbstəns ðæt steɪz əˈtæʧt tu ˈɛni ˈɑbʤɛkt ðæt ˈtʌʧɪz ɪt./"
+      },
+      {
+        "sentence": "The sticky twig was covered with termites.",
+        "meaning-example": "Cành cây dính nhớp được bao phủ bởi mối.",
+        "ipa-example": "/ðə ˈstɪki twɪg wəz ˈkʌvərd wɪθ ˈtɜrˌmaɪts./"
+      },
+      {
+        "sentence": "My fingers are sticky after eating the honey.",
+        "meaning-example": "Ngón tay của tôi bị dính sau khi ăn mật ong.",
+        "ipa-example": "/maɪ ˈfɪŋgərz ɑr ˈstɪki ˈæftər ˈitɪŋ ðə ˈhʌni./"
+      },
+      {
+        "sentence": "Be careful, the floor is sticky.",
+        "meaning-example": "Cẩn thận, sàn nhà bị dính.",
+        "ipa-example": "/bi ˈkɛrfəl, ðə flɔr ɪz ˈstɪki./"
+      }
+    ]
+  },
+  {
+    "word": "termite",
+    "ipa": "/ˈtɜː.maɪt/",
+    "meaning": "Một loài côn trùng nhỏ sống thành đàn lớn và ăn gỗ; con mối.",
+    "image": "eew-5-25/16.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "termite",
+        "meaning-example": "Một loài côn trùng nhỏ sống thành đàn lớn và ăn gỗ; con mối.",
+        "ipa-example": "/ˈtɜː.maɪt/"
+      },
+      {
+        "sentence": "Một nhà thơ nghèo sống trong một túp lều gỗ. Một ngày nọ, ông phát hiện mùn cưa chất đống dưới sàn nhà và nhìn thấy những con côn trùng trắng nhỏ đang gặm nhấm gỗ. Trong nỗi tuyệt vọng pha chút hài hước đen tối, ông đã làm một bài thơ: \"Ôi bầy côn trùng, chúng làm ta 'thờ' than / Rằng 'mai' đây thôi, nhà ta sẽ tan.\" Ông đọc bài thơ về những sinh vật sẽ phá hủy ngôi nhà của mình vào ngày 'mai' cho người hàng xóm nghe. Người hàng xóm, khi cố gắng gọi tên loài vật gây hại này, đã kết hợp hai từ 'thờ' và 'mai' của nhà thơ, gọi con mối phá hoại là \"termite\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A small insect that lives in large groups and eats wood.",
+        "meaning-example": "Một loài côn trùng nhỏ sống thành nhóm lớn và ăn gỗ.",
+        "ipa-example": "/ə smɔl ˈɪnsɛkt ðæt lɪvz ɪn lɑrʤ grups ænd its wʊd./"
+      },
+      {
+        "sentence": "It walked up to a mound where termites lived.",
+        "meaning-example": "Nó đi đến một ụ đất nơi mối sống.",
+        "ipa-example": "/ɪt wɔkt ʌp tu ə maʊnd wɛr ˈtɜrˌmaɪts lɪvd./"
+      },
+      {
+        "sentence": "Termites had eaten away the wooden beams.",
+        "meaning-example": "Mối đã ăn mòn các thanh xà gỗ.",
+        "ipa-example": "/ˈtɜrˌmaɪts hæd ˈitən əˈweɪ ðə ˈwʊdən bimz./"
+      },
+      {
+        "sentence": "We had to call an exterminator to get rid of the termites.",
+        "meaning-example": "Chúng tôi đã phải gọi người diệt côn trùng để loại bỏ lũ mối.",
+        "ipa-example": "/wi hæd tu kɔl ən ɪkˈstɜrməˌneɪtər tu gɛt rɪd əv ðə ˈtɜrˌmaɪts./"
+      }
+    ]
+  },
+  {
+    "word": "thereby",
+    "ipa": "/ˌðerˈbaɪ/",
+    "meaning": "Như một kết quả của hành động này; do đó, bằng cách đó.",
+    "image": "eew-5-25/17.png",
+    "classes": "adverb",
+    "example": [
+      {
+        "sentence": "thereby",
+        "meaning-example": "Như một kết quả của hành động này; do đó, bằng cách đó.",
+        "ipa-example": "/ˌðerˈbaɪ/"
+      },
+      {
+        "sentence": "Một người nông dân thông minh đang cố gắng tưới nước cho cánh đồng trong trận hạn hán. Con sông thì ở xa, nhưng có một con suối nhỏ 'ở kia' (there) trên một ngọn đồi nhỏ. Ông nhận ra mình có thể đào một con kênh từ con suối đến cánh đồng. Ông giải thích kế hoạch cho con trai: \"Chúng ta sẽ đào con kênh 'ở kia' (there). 'Bằng cách' (by) làm việc này, chúng ta sẽ dẫn nước đến cây trồng và cứu chúng.\" Sự kết hợp giữa địa điểm ('there') và phương pháp ('by') đã trực tiếp dẫn đến kết quả mong muốn. Nguyên tắc này, nơi một hành động trực tiếp gây ra một kết quả khác, được biết đến là \"thereby\" (do đó, bằng cách đó).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "As a result of this action.",
+        "meaning-example": "Là kết quả của hành động này.",
+        "ipa-example": "/æz ə rɪˈzʌlt əv ðɪs ˈækʃən./"
+      },
+      {
+        "sentence": "He refused the help of the monkey, thereby leaving himself to starve.",
+        "meaning-example": "Anh ta từ chối sự giúp đỡ của con khỉ, do đó để bản thân chết đói.",
+        "ipa-example": "/hi rɪˈfjuzd ðə hɛlp əv ðə ˈmʌŋki, ˈðɛrˌbaɪ ˈlivɪŋ hɪmˈsɛlf tu stɑrv./"
+      },
+      {
+        "sentence": "He trained hard every day, thereby improving his skills.",
+        "meaning-example": "Anh ấy đã tập luyện chăm chỉ mỗi ngày, nhờ đó cải thiện kỹ năng của mình.",
+        "ipa-example": "/hi treɪnd hɑrd ˈɛvəri deɪ, ˈðɛrˌbaɪ ɪmˈpruvɪŋ hɪz skɪlz./"
+      },
+      {
+        "sentence": "The new bridge will reduce travel time, thereby boosting the local economy.",
+        "meaning-example": "Cây cầu mới sẽ giảm thời gian đi lại, qua đó thúc đẩy kinh tế địa phương.",
+        "ipa-example": "/ðə nu brɪʤ wɪl rəˈdus ˈtrævəl taɪm, ˈðɛrˌbaɪ ˈbustɪŋ ðə ˈloʊkəl ɪˈkɑnəmi./"
+      }
+    ]
+  },
+  {
+    "word": "trail",
+    "ipa": "/treɪl/",
+    "meaning": "Một con đường mòn đi qua vùng nông thôn, núi hoặc khu vực rừng rậm.",
+    "image": "eew-5-25/18.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "trail",
+        "meaning-example": "Một con đường mòn đi qua vùng nông thôn, núi hoặc khu vực rừng rậm.",
+        "ipa-example": "/treɪl/"
+      },
+      {
+        "sentence": "Khi những người định cư đầu tiên di chuyển về phía Tây, không có con đường nào xuyên qua những khu rừng và ngọn núi rộng lớn. Để tạo ra một lối đi cho những người khác theo sau, họ thường kéo những khúc gỗ nặng sau xe ngựa hoặc bẻ cành cây để đánh dấu. Họ đã 'trải' một con đường xuyên qua vùng hoang dã, để lại một vệt rõ ràng cho những người đến sau. Vệt đường mòn này với đất bị xáo trộn, cành cây gãy và vết xe ngựa chính là kim chỉ nam của họ. Mọi người bắt đầu gọi con đường mòn này là \"trail,\" một từ được sinh ra từ hành động 'trải' một con đường cho người khác đi theo.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A path through a countryside, mountain, or forest area.",
+        "meaning-example": "Một con đường xuyên qua vùng nông thôn, núi hoặc khu vực rừng.",
+        "ipa-example": "/ə pæθ θru ə ˈkʌntriˌsaɪd, ˈmaʊntən, ɔr ˈfɔrəst ˈɛriə./"
+      },
+      {
+        "sentence": "He followed a trail through a canyon and along a creek.",
+        "meaning-example": "Anh ta đi theo một con đường mòn qua một hẻm núi và dọc theo một con lạch.",
+        "ipa-example": "/hi ˈfɑloʊd ə treɪl θru ə ˈkænjən ænd əˈlɔŋ ə krik./"
+      },
+      {
+        "sentence": "We followed a narrow trail through the woods.",
+        "meaning-example": "Chúng tôi đi theo một con đường mòn hẹp xuyên qua khu rừng.",
+        "ipa-example": "/wi ˈfɑloʊd ə ˈnɛroʊ treɪl θru ðə wʊdz./"
+      },
+      {
+        "sentence": "The hikers got lost on the trail.",
+        "meaning-example": "Những người đi bộ đường dài đã bị lạc trên đường mòn.",
+        "ipa-example": "/ðə ˈhaɪkərz gɑt lɔst ɑn ðə treɪl./"
+      }
+    ]
+  },
+  {
+    "word": "twig",
+    "ipa": "/twɪɡ/",
+    "meaning": "Một cành cây nhỏ, mảnh của cây hoặc bụi cây.",
+    "image": "eew-5-25/19.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "twig",
+        "meaning-example": "Một cành cây nhỏ, mảnh của cây hoặc bụi cây.",
+        "ipa-example": "/twɪɡ/"
+      },
+      {
+        "sentence": "Một con chim mẹ đang dạy những chú chim non cách xây tổ. \"Các con cần tìm những cành cây nhỏ và mảnh,\" nó líu lo. Nó bay đến một cây bạch dương và bằng một cú vặn mỏ nhanh và dứt khoát, nó bẻ gãy một cành cây nhỏ hoàn hảo. Khi cành cây gãy, nó tạo ra một âm thanh nhỏ và sắc, nghe như \"tu-ít!\". \"Thấy chưa?\" chim mẹ nói. \"Hãy tìm những cành cây tạo ra âm thanh 'tu-ít' đó. Chúng là tốt nhất.\" Những chú chim non nhớ bài học này, và mỗi khi chúng nhìn thấy một cành cây nhỏ, chúng lại nghĩ đến âm thanh sắc bén đó và gọi nó là \"twig\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A small, thin branch of a tree or bush.",
+        "meaning-example": "Một cành nhỏ, mỏng của cây hoặc bụi cây.",
+        "ipa-example": "/ə smɔl, θɪn brænʧ əv ə tri ɔr bʊʃ./"
+      },
+      {
+        "sentence": "It was carrying a twig covered in honey.",
+        "meaning-example": "Nó đang mang một cành cây nhỏ phủ đầy mật ong.",
+        "ipa-example": "/ɪt wəz ˈkæriɪŋ ə twɪg ˈkʌvərd ɪn ˈhʌni./"
+      },
+      {
+        "sentence": "The bird was building its nest with small twigs.",
+        "meaning-example": "Con chim đang xây tổ bằng những cành cây nhỏ.",
+        "ipa-example": "/ðə bɜrd wəz ˈbɪldɪŋ ɪts nɛst wɪθ smɔl twɪgz./"
+      },
+      {
+        "sentence": "He gathered some dry twigs to start a fire.",
+        "meaning-example": "Anh ấy đã nhặt một ít cành cây khô để nhóm lửa.",
+        "ipa-example": "/hi ˈgæðərd sʌm draɪ twɪgz tu stɑrt ə ˈfaɪər./"
+      }
+    ]
+  },
+  {
+    "word": "welfare",
+    "ipa": "/ˈwel.fer/",
+    "meaning": "Sức khỏe, hạnh phúc và tài vận của một người hoặc một nhóm; phúc lợi.",
+    "image": "eew-5-25/20.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "welfare",
+        "meaning-example": "Sức khỏe, hạnh phúc và tài vận của một người hoặc một nhóm; phúc lợi.",
+        "ipa-example": "/ˈwel.fer/"
+      },
+      {
+        "sentence": "Một nữ hoàng thông thái đã từng tập hợp các cố vấn của mình lại và nói: \"Mục tiêu của vương quốc chúng ta rất đơn giản. Ta muốn mọi công dân đều 'fare well' (sống tốt). Điều đó có nghĩa là họ phải 'well' (khỏe mạnh) và cuộc sống của họ phải 'fair' (công bằng).\" Nguyên tắc đảm bảo mọi người đều có thể 'sống tốt' này đã trở thành nền tảng cho sự cai trị của bà. Sức khỏe, hạnh phúc và sự thịnh vượng chung của người dân, hay phúc lợi xã hội, được tóm gọn trong một ý tưởng mạnh mẽ: \"welfare\" của họ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The health, happiness, and fortunes of a person or group.",
+        "meaning-example": "Sức khỏe, hạnh phúc và tài sản của một người hoặc một nhóm.",
+        "ipa-example": "/ðə hɛlθ, ˈhæpinəs, ænd ˈfɔrʧənz əv ə ˈpɜrsən ɔr grup./"
+      },
+      {
+        "sentence": "The arrogant executive, though, didn’t care about the welfare of the pilot and crew.",
+        "meaning-example": "Tuy nhiên, vị giám đốc kiêu ngạo không quan tâm đến phúc lợi của phi công và phi hành đoàn.",
+        "ipa-example": "/ði ˈærəgənt ɪgˈzɛkjətɪv, ðoʊ, ˈdɪdənt kɛr əˈbaʊt ðə ˈwɛlˌfɛr əv ðə ˈpaɪlət ænd kru./"
+      },
+      {
+        "sentence": "The government is responsible for the welfare of its citizens.",
+        "meaning-example": "Chính phủ chịu trách nhiệm về phúc lợi của công dân.",
+        "ipa-example": "/ðə ˈgʌvərmənt ɪz rɪˈspɑnsəbəl fɔr ðə ˈwɛlˌfɛr əv ɪts ˈsɪtəzənz./"
+      },
+      {
+        "sentence": "Animal welfare is a major concern for the organization.",
+        "meaning-example": "Phúc lợi động vật là một mối quan tâm lớn của tổ chức.",
+        "ipa-example": "/ˈænəməl ˈwɛlˌfɛr ɪz ə ˈmeɪʤər kənˈsɜrn fɔr ði ˌɔrgənəˈzeɪʃən./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Man and the Monkey",
+        "meaning-example": "Người Đàn Ông và Con Khỉ",
+        "ipa-example": "/ðə mæn ænd ðə ˈmʌŋki/"
+      },
+      {
+        "sentence": "While flying over a jungle, a wealthy executive’s private plane crashed.",
+        "meaning-example": "Trong khi bay qua một khu rừng, máy bay riêng của một giám đốc điều hành giàu có đã bị rơi.",
+        "ipa-example": "/waɪl ˈflaɪɪŋ ˈoʊvər ə ˈʤʌŋgəl, ə ˈwɛlθi ɪgˈzɛkjətɪvz ˈpraɪvət pleɪn kræʃt./"
+      },
+      {
+        "sentence": "Some of the crew were hurt, so the pilot decided to stay with them and wait for help.",
+        "meaning-example": "Một số thành viên phi hành đoàn bị thương, vì vậy phi công quyết định ở lại với họ và chờ đợi sự giúp đỡ.",
+        "ipa-example": "/sʌm əv ðə kru wər hɜrt, soʊ ðə ˈpaɪlət dɪˈsaɪdɪd tu steɪ wɪθ ðɛm ænd weɪt fɔr hɛlp./"
+      },
+      {
+        "sentence": "The arrogant executive, though, didn’t care about the welfare of the pilot and crew.",
+        "meaning-example": "Tuy nhiên, vị giám đốc kiêu ngạo không quan tâm đến phúc lợi của phi công và phi hành đoàn.",
+        "ipa-example": "/ði ˈærəgənt ɪgˈzɛkjətɪv, ðoʊ, ˈdɪdənt kɛr əˈbaʊt ðə ˈwɛlˌfɛr əv ðə ˈpaɪlət ænd kru./"
+      },
+      {
+        "sentence": "Rather, he thought he could walkout of the jungle and find a town to stay in.",
+        "meaning-example": "Thay vào đó, ông ta nghĩ mình có thể đi bộ ra khỏi khu rừng và tìm một thị trấn để ở.",
+        "ipa-example": "/ˈræðər, hi θɔt hi kʊd ˈwɔkˌaʊt əv ðə ˈʤʌŋgəl ænd faɪnd ə taʊn tu steɪ ɪn./"
+      },
+      {
+        "sentence": "He followed a trail through a canyon and along a creek.",
+        "meaning-example": "Anh ta đi theo một con đường mòn qua một hẻm núi và dọc theo một con lạch.",
+        "ipa-example": "/hi ˈfɑloʊd ə treɪl θru ə ˈkænjən ænd əˈlɔŋ ə krik./"
+      },
+      {
+        "sentence": "The jungle was actually very stunning.",
+        "meaning-example": "Khu rừng thực sự rất lộng lẫy.",
+        "ipa-example": "/ðə ˈʤʌŋgəl wəz ˈækʧuəli ˈvɛri ˈstʌnɪŋ./"
+      },
+      {
+        "sentence": "If the arrogant executive had stopped to look around, he might have perceived the jungle’s beauty.",
+        "meaning-example": "Nếu vị giám đốc kiêu ngạo dừng lại để nhìn xung quanh, ông ta có thể đã nhận ra vẻ đẹp của khu rừng.",
+        "ipa-example": "/ɪf ði ˈærəgənt ɪgˈzɛkjətɪv hæd stɑpt tu lʊk əˈraʊnd, hi maɪt hæv pərˈsivd ðə ˈʤʌŋgəlz ˈbjuti./"
+      },
+      {
+        "sentence": "But he was in a nasty mood and had no care for the aesthetic value of the jungle.",
+        "meaning-example": "Nhưng anh ta đang trong tâm trạng tồi tệ và không quan tâm đến giá trị thẩm mỹ của khu rừng.",
+        "ipa-example": "/bʌt hi wəz ɪn ə ˈnæsti mud ænd hæd noʊ kɛr fɔr ði ɛsˈθɛtɪk ˈvælju əv ðə ˈʤʌŋgəl./"
+      },
+      {
+        "sentence": "He continued to walk up the steep incline of the jungle’s hills.",
+        "meaning-example": "Anh ta tiếp tục đi lên con dốc đứng của những ngọn đồi trong rừng.",
+        "ipa-example": "/hi kənˈtɪnjud tu wɔk ʌp ðə stip ˈɪnˌklaɪn əv ðə ˈʤʌŋgəlz hɪlz./"
+      },
+      {
+        "sentence": "Soon, he was lost.",
+        "meaning-example": "Chẳng bao lâu, anh ta bị lạc.",
+        "ipa-example": "/sun, hi wəz lɔst./"
+      },
+      {
+        "sentence": "Several days passed, and fatigue and hunger weakened him.",
+        "meaning-example": "Nhiều ngày trôi qua, sự mệt mỏi và đói khát đã làm anh ta suy yếu.",
+        "ipa-example": "/ˈsɛvərəl deɪz pæst, ænd fəˈtig ænd ˈhʌŋgər ˈwikənd hɪm./"
+      },
+      {
+        "sentence": "He was very tired and afraid.",
+        "meaning-example": "Anh ta rất mệt mỏi và sợ hãi.",
+        "ipa-example": "/hi wəz ˈvɛri ˈtaɪərd ænd əˈfreɪd./"
+      },
+      {
+        "sentence": "Just then, a monkey came out of the trees.",
+        "meaning-example": "Ngay lúc đó, một con khỉ từ trên cây đi ra.",
+        "ipa-example": "/ʤʌst ðɛn, ə ˈmʌŋki keɪm aʊt əv ðə triz./"
+      },
+      {
+        "sentence": "It was carrying a twig covered in honey.",
+        "meaning-example": "Nó đang mang một cành cây nhỏ phủ đầy mật ong.",
+        "ipa-example": "/ɪt wəz ˈkæriɪŋ ə twɪg ˈkʌvərd ɪn ˈhʌni./"
+      },
+      {
+        "sentence": "It walked up to a mound where termites lived.",
+        "meaning-example": "Nó đi đến một ụ đất nơi mối sống.",
+        "ipa-example": "/ɪt wɔkt ʌp tu ə maʊnd wɛr ˈtɜrˌmaɪts lɪvd./"
+      },
+      {
+        "sentence": "He then used the twig like a drill to make a hole in the mound.",
+        "meaning-example": "Sau đó, nó dùng cành cây nhỏ như một cái khoan để tạo một lỗ trên gò đất.",
+        "ipa-example": "/hi ðɛn juzd ðə twɪg laɪk ə drɪl tu meɪk ə hoʊl ɪn ðə maʊnd./"
+      },
+      {
+        "sentence": "Then very carefully, it removed the twig from the hole.",
+        "meaning-example": "Sau đó rất cẩn thận, nó rút cành cây ra khỏi lỗ.",
+        "ipa-example": "/ðɛn ˈvɛri ˈkɛrfəli, ɪt rɪˈmuvd ðə twɪg frʌm ðə hoʊl./"
+      },
+      {
+        "sentence": "The sticky twig was covered with termites.",
+        "meaning-example": "Cành cây dính nhớp được bao phủ bởi mối.",
+        "ipa-example": "/ðə ˈstɪki twɪg wəz ˈkʌvərd wɪθ ˈtɜrˌmaɪts./"
+      },
+      {
+        "sentence": "Instead of eating the bugs, the monkey offered them to the executive, but he didn’t want what the monkey offered.",
+        "meaning-example": "Thay vì ăn những con bọ, con khỉ đã đưa chúng cho vị giám đốc, nhưng ông ta không muốn những gì con khỉ đưa.",
+        "ipa-example": "/ɪnˈstɛd əv ˈitɪŋ ðə bʌgz, ðə ˈmʌŋki ˈɔfərd ðɛm tu ði ɪgˈzɛkjətɪv, bʌt hi ˈdɪdənt wɑnt wʌt ðə ˈmʌŋki ˈɔfərd./"
+      },
+      {
+        "sentence": "He shouted at the monkey, “Get away from me, you stupid primate!”",
+        "meaning-example": "Anh ta hét vào mặt con khỉ, “Tránh xa tôi ra, đồ linh trưởng ngu ngốc!”",
+        "ipa-example": "/hi ˈʃaʊtɪd æt ðə ˈmʌŋki, “gɛt əˈweɪ frʌm mi, ju ˈstupɪd ˈpraɪˌmeɪt!”/"
+      },
+      {
+        "sentence": "The executive’s stereotype of the monkey was wrong.",
+        "meaning-example": "Khuôn mẫu của vị giám đốc về con khỉ là sai lầm.",
+        "ipa-example": "/ði ɪgˈzɛkjətɪvz ˈstɛriəˌtaɪp əv ðə ˈmʌŋki wəz rɔŋ./"
+      },
+      {
+        "sentence": "The monkey was not stupid.",
+        "meaning-example": "Con khỉ không hề ngu ngốc.",
+        "ipa-example": "/ðə ˈmʌŋki wəz nɑt ˈstupɪd./"
+      },
+      {
+        "sentence": "It knew how to find food, whereas the executive did not.",
+        "meaning-example": "Nó biết cách tìm thức ăn, trong khi vị giám đốc thì không.",
+        "ipa-example": "/ɪt nu haʊ tu faɪnd fud, wɛrˈæz ði ɪgˈzɛkjətɪv dɪd nɑt./"
+      },
+      {
+        "sentence": "He refused the help of the monkey, thereby leaving himself to starve.",
+        "meaning-example": "Anh ta từ chối sự giúp đỡ của con khỉ, do đó để bản thân chết đói.",
+        "ipa-example": "/hi rɪˈfjuzd ðə hɛlp əv ðə ˈmʌŋki, ˈðɛrˌbaɪ ˈlivɪŋ hɪmˈsɛlf tu stɑrv./"
+      },
+      {
+        "sentence": "When the executive was finally found, he was very skinny and sick.",
+        "meaning-example": "Khi vị giám đốc cuối cùng được tìm thấy, ông ta rất gầy và ốm yếu.",
+        "ipa-example": "/wɛn ði ɪgˈzɛkjətɪv wəz ˈfaɪnəli faʊnd, hi wəz ˈvɛri ˈskɪni ænd sɪk./"
+      },
+      {
+        "sentence": "He had not eaten for a very longtime.",
+        "meaning-example": "Anh ta đã không ăn trong một thời gian rất dài.",
+        "ipa-example": "/hi hæd nɑt ˈitən fɔr ə ˈvɛri ˈlɔŋˌtaɪm./"
+      },
+      {
+        "sentence": "Because he held a bias against the primitive ways of the monkey, he had gone hungry and almost died.",
+        "meaning-example": "Bởi vì ông ta có thành kiến với cách sống nguyên thủy của con khỉ, ông ta đã bị đói và suýt chết.",
+        "ipa-example": "/bɪˈkɔz hi hɛld ə ˈbaɪəs əˈgɛnst ðə ˈprɪmɪtɪv weɪz əv ðə ˈmʌŋki, hi hæd gɔn ˈhʌŋgri ænd ˈɔlmoʊst daɪd./"
+      },
+      {
+        "sentence": "The executive didn’t understand that it was his arrogant attitude that had caused all of his problems.",
+        "meaning-example": "Vị giám đốc không hiểu rằng chính thái độ kiêu ngạo của ông ta đã gây ra tất cả các vấn đề của mình.",
+        "ipa-example": "/ði ɪgˈzɛkjətɪv ˈdɪdənt ˌʌndərˈstænd ðæt ɪt wəz hɪz ˈærəgənt ˈætəˌtud ðæt hæd kɔzd ɔl əv hɪz ˈprɑbləmz./"
+      }
+    ]
+  }
+]
