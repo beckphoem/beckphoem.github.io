@@ -1,0 +1,927 @@
+[
+  {
+    "word": "adapt",
+    "ipa": "/əˈdæpt/",
+    "meaning": "Thay đổi để phù hợp với một tình huống mới hoặc khác.",
+    "image": "eew-5-27/1.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "adapt",
+        "meaning-example": "Thay đổi để phù hợp với một tình huống mới hoặc khác.",
+        "ipa-example": "/əˈdæpt/"
+      },
+      {
+        "sentence": "Một nhà thám hiểm bị lạc vào một khu rừng rậm. Ban đầu, anh ta rất khó khăn. Nhưng rồi anh ta học cách tìm thức ăn và làm chỗ ở từ cành cây. Anh ta tự nhủ: \"Mình phải 'à, đáp' lại những thử thách của thiên nhiên, phải thay đổi để sống sót.\" Hành động \"à, đáp\" lại hoàn cảnh, tức là tìm ra câu trả lời và thay đổi cho phù hợp, đã trở thành \"adapt\" - thích nghi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To change, or to change something, to suit different conditions or uses.",
+        "meaning-example": "Thay đổi, hoặc để thay đổi một cái gì đó, cho phù hợp với các điều kiện hoặc cách sử dụng khác nhau.",
+        "ipa-example": "/tu ʧeɪnʤ, ɔr tu ʧeɪnʤ ˈsʌmθɪŋ, tu sut ˈdɪfərənt kənˈdɪʃənz ɔr ˈjusəz./"
+      },
+      {
+        "sentence": "Richard’s body could adapt to the new organ if the operation was done correctly.",
+        "meaning-example": "Cơ thể của Richard có thể thích nghi với cơ quan mới nếu ca phẫu thuật được thực hiện đúng cách.",
+        "ipa-example": "/ˈrɪʧərdz ˈbɑdi kʊd əˈdæpt tu ðə nu ˈɔrgən ɪf ði ˌɑpəˈreɪʃən wəz dʌn kəˈrɛktli./"
+      },
+      {
+        "sentence": "It took him a while to adapt to his new school.",
+        "meaning-example": "Anh ấy mất một thời gian để thích nghi với trường học mới.",
+        "ipa-example": "/ɪt tʊk hɪm ə waɪl tu əˈdæpt tu hɪz nu skul./"
+      },
+      {
+        "sentence": "Many species have adapted to live in desert environments.",
+        "meaning-example": "Nhiều loài đã thích nghi để sống trong môi trường sa mạc.",
+        "ipa-example": "/ˈmɛni ˈspiʃiz hæv əˈdæptɪd tu lɪv ɪn ˈdɛzərt ɪnˈvaɪrənmənts./"
+      }
+    ]
+  },
+  {
+    "word": "biological",
+    "ipa": "/ˌbaɪ.əˈlɒdʒ.ɪ.kəl/",
+    "meaning": "Liên quan đến sự sống và các cơ thể sống.",
+    "image": "eew-5-27/2.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "biological",
+        "meaning-example": "Liên quan đến sự sống và các cơ thể sống.",
+        "ipa-example": "/ˌbaɪ.əˈlɒdʒ.ɪ.kəl/"
+      },
+      {
+        "sentence": "Một nhà khoa học đang nghiên cứu một loài sinh vật lạ. Ông dành cả ngày để ghi chép về cách nó ăn, ngủ, và sinh sản. Ông nói: \"Mọi thứ về nó đều 'bài ở logic cả'. Tức là, mọi hoạt động sống của nó đều tuân theo một logic riêng của sinh học.\" Cách nói \"bài ở logic cả\" đó đã được dùng để mô tả những gì thuộc về sự sống và các cơ thể sống, và trở thành \"biological\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Connected with the natural processes of living things.",
+        "meaning-example": "Kết nối với các quá trình tự nhiên của sinh vật sống.",
+        "ipa-example": "/kəˈnɛktɪd wɪθ ðə ˈnæʧərəl ˈprɑsɛsɪz əv ˈlɪvɪŋ θɪŋz./"
+      },
+      {
+        "sentence": "They had the exact same biological traits.",
+        "meaning-example": "Họ có những đặc điểm sinh học hoàn toàn giống nhau.",
+        "ipa-example": "/ðeɪ hæd ði ɪgˈzækt seɪm ˌbaɪəˈlɑʤɪkəl treɪts./"
+      },
+      {
+        "sentence": "The biological clock controls our sleep patterns.",
+        "meaning-example": "Đồng hồ sinh học kiểm soát chu kỳ giấc ngủ của chúng ta.",
+        "ipa-example": "/ðə ˌbaɪəˈlɑʤɪkəl klɑk kənˈtroʊlz ˈaʊər slip ˈpætərnz./"
+      },
+      {
+        "sentence": "He is her biological father.",
+        "meaning-example": "Anh ấy là cha ruột của cô ấy.",
+        "ipa-example": "/hi ɪz hɜr ˌbaɪəˈlɑʤɪkəl ˈfɑðər./"
+      }
+    ]
+  },
+  {
+    "word": "cellular",
+    "ipa": "/ˈsel.jə.lər/",
+    "meaning": "Liên quan đến các tế bào của động vật hoặc thực vật.",
+    "image": "eew-5-27/3.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "cellular",
+        "meaning-example": "Liên quan đến các tế bào của động vật hoặc thực vật.",
+        "ipa-example": "/ˈsel.jə.lər/"
+      },
+      {
+        "sentence": "Một giáo viên sinh học đang giải thích về cấu trúc cơ thể. \"Cơ thể chúng ta được tạo thành từ hàng tỷ đơn vị nhỏ li ti gọi là tế bào,\" cô nói. \"Chúng nhỏ đến mức, nếu 'sờ lùa' vào da, ta cũng không cảm nhận được từng cái một.\" Cô nhấn mạnh tầm quan trọng của những đơn vị nhỏ bé này. Từ \"sờ lùa\" đó đã gợi ý cho từ \"cellular\", có nghĩa là thuộc về tế bào.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Connected with or consisting of the cells of a living thing.",
+        "meaning-example": "Kết nối với hoặc bao gồm các tế bào của một sinh vật sống.",
+        "ipa-example": "/kəˈnɛktɪd wɪθ ɔr kənˈsɪstɪŋ əv ðə sɛlz əv ə ˈlɪvɪŋ θɪŋ./"
+      },
+      {
+        "sentence": "Even their kidneys were identical on the cellular level.",
+        "meaning-example": "Ngay cả thận của họ cũng giống hệt nhau ở cấp độ tế bào.",
+        "ipa-example": "/ˈivɪn ðɛr ˈkɪdniz wər aɪˈdɛntɪkəl ɑn ðə ˈsɛljələr ˈlɛvəl./"
+      },
+      {
+        "sentence": "Cellular biology is a fascinating field of study.",
+        "meaning-example": "Sinh học tế bào là một lĩnh vực nghiên cứu hấp dẫn.",
+        "ipa-example": "/ˈsɛljələr baɪˈɑləʤi ɪz ə ˈfæsəˌneɪtɪŋ fild əv ˈstʌdi./"
+      },
+      {
+        "sentence": "The virus causes damage at the cellular level.",
+        "meaning-example": "Virus gây tổn thương ở cấp độ tế bào.",
+        "ipa-example": "/ðə ˈvaɪrəs ˈkɔzəz ˈdæməʤ æt ðə ˈsɛljələr ˈlɛvəl./"
+      }
+    ]
+  },
+  {
+    "word": "dynamic",
+    "ipa": "/daɪˈnæm.ɪk/",
+    "meaning": "(của một người) có nhiều ý tưởng và nhiệt huyết; (của một quá trình) liên tục thay đổi hoặc hoạt động.",
+    "image": "eew-5-27/4.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "dynamic",
+        "meaning-example": "(của một người) có nhiều ý tưởng và nhiệt huyết; (của một quá trình) liên tục thay đổi hoặc hoạt động.",
+        "ipa-example": "/daɪˈnæm.ɪk/"
+      },
+      {
+        "sentence": "Có một vị lãnh đạo trẻ rất năng nổ. Anh ta luôn có những ý tưởng mới mẻ và thúc đẩy mọi người làm việc hết mình. Mọi người nói rằng anh ta như một cỗ máy, lúc nào cũng \"đầy năng-lực\". Cách nói \"đầy năng-lực\" này, với sự nhiệt huyết và sức mạnh, đã được rút gọn và biến đổi thành \"dynamic\", có nghĩa là năng động, đầy năng lượng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Having a lot of ideas and enthusiasm; continuously changing or developing.",
+        "meaning-example": "Có nhiều ý tưởng và nhiệt huyết; liên tục thay đổi hoặc phát triển.",
+        "ipa-example": "/ˈhævɪŋ ə lɑt əv aɪˈdiəz ænd ɛnˈθuziˌæzəm; kənˈtɪnjuəsli ˈʧeɪnʤɪŋ ɔr dɪˈvɛləpɪŋ./"
+      },
+      {
+        "sentence": "His dynamic team of surgeons performed the transplant.",
+        "meaning-example": "Đội ngũ bác sĩ phẫu thuật năng động của ông đã thực hiện ca cấy ghép.",
+        "ipa-example": "/hɪz daɪˈnæmɪk tim əv ˈsɜrʤənz pərˈfɔrmd ðə ˈtrænsplænt./"
+      },
+      {
+        "sentence": "She's a dynamic and ambitious person.",
+        "meaning-example": "Cô ấy là một người năng động và tham vọng.",
+        "ipa-example": "/ʃiz ə daɪˈnæmɪk ænd æmˈbɪʃəs ˈpɜrsən./"
+      },
+      {
+        "sentence": "The business world is a dynamic environment.",
+        "meaning-example": "Thế giới kinh doanh là một môi trường năng động.",
+        "ipa-example": "/ðə ˈbɪznəs wɜrld ɪz ə daɪˈnæmɪk ɪnˈvaɪrənmənt./"
+      }
+    ]
+  },
+  {
+    "word": "fantasy",
+    "ipa": "/ˈfæn.tə.si/",
+    "meaning": "Một tình huống được tưởng tượng bởi một cá nhân nhưng không có thật.",
+    "image": "eew-5-27/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "fantasy",
+        "meaning-example": "Một tình huống được tưởng tượng bởi một cá nhân nhưng không có thật.",
+        "ipa-example": "/ˈfæn.tə.si/"
+      },
+      {
+        "sentence": "Một cậu bé suốt ngày mơ mộng về những thế giới phép thuật. Cậu tưởng tượng mình là hiệp sĩ chiến đấu với rồng. Mẹ cậu thường nói: \"Con đừng có 'phân tâm-suy' nghĩ lung tung nữa, hãy tập trung vào bài vở đi.\" Nhưng chính những lúc \"phân tâm-suy\" nghĩ đó đã tạo ra những câu chuyện kỳ ảo tuyệt vời. Từ đó, \"fantasy\" được dùng để chỉ sự tưởng tượng, mộng tưởng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A situation or an idea that is exciting and unusual but that is not real or likely to happen.",
+        "meaning-example": "Một tình huống hoặc một ý tưởng thú vị và bất thường nhưng không có thật hoặc không có khả năng xảy ra.",
+        "ipa-example": "/ə ˌsɪʧuˈeɪʃən ɔr ən aɪˈdiə ðæt ɪz ɪkˈsaɪtɪŋ ænd ənˈjuʒəwəl bʌt ðæt ɪz nɑt riəl ɔr ˈlaɪkli tu ˈhæpən./"
+      },
+      {
+        "sentence": "The idea of taking an organ out of one person and putting it into another was just a fantasy.",
+        "meaning-example": "Ý tưởng lấy một cơ quan nội tạng từ người này và đặt vào người khác chỉ là một điều tưởng tượng.",
+        "ipa-example": "/ði aɪˈdiə əv ˈteɪkɪŋ ən ˈɔrgən aʊt əv wʌn ˈpɜrsən ænd ˈpʊtɪŋ ɪt ˈɪntu əˈnʌðər wəz ʤəst ə ˈfæntəsi./"
+      },
+      {
+        "sentence": "He lives in a fantasy world of his own.",
+        "meaning-example": "Anh ấy sống trong một thế giới tưởng tượng của riêng mình.",
+        "ipa-example": "/hi lɪvz ɪn ə ˈfæntəsi wɜrld əv hɪz oʊn./"
+      },
+      {
+        "sentence": "The Lord of the Rings is a classic fantasy novel.",
+        "meaning-example": "Chúa tể của những chiếc nhẫn là một tiểu thuyết giả tưởng kinh điển.",
+        "ipa-example": "/ðə lɔrd əv ðə rɪŋz ɪz ə ˈklæsɪk ˈfæntəsi ˈnɑvəl./"
+      }
+    ]
+  },
+  {
+    "word": "heredity",
+    "ipa": "/həˈred.ə.ti/",
+    "meaning": "Sự truyền lại các đặc điểm thể chất hoặc tinh thần từ thế hệ này sang thế hệ khác.",
+    "image": "eew-5-27/6.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "heredity",
+        "meaning-example": "Sự truyền lại các đặc điểm thể chất hoặc tinh thần từ thế hệ này sang thế hệ khác.",
+        "ipa-example": "/həˈred.ə.ti/"
+      },
+      {
+        "sentence": "Một gia đình có truyền thống làm nghệ sĩ. Ông nội là họa sĩ, cha là nhạc sĩ, và con trai có năng khiếu điêu khắc. Mọi người nói rằng tài năng nghệ thuật của gia đình này cứ 'hễ ra đời thì' có. Cái quy luật \"hễ ra đời thì\" có những đặc điểm giống cha ông đó chính là di truyền. Từ \"hễ ra đời thì\" được biến tấu thành \"heredity\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The process by which physical and mental qualities are passed from a parent to a child.",
+        "meaning-example": "Quá trình mà các phẩm chất thể chất và tinh thần được truyền từ cha mẹ sang con cái.",
+        "ipa-example": "/ðə ˈprɑsɛs baɪ wɪʧ ˈfɪzɪkəl ænd ˈmɛntəl ˈkwɑlətiz ɑr pæst frʌm ə ˈpɛrənt tu ə ʧaɪld./"
+      },
+      {
+        "sentence": "Since Richard and Robert were twins, their heredity was identical.",
+        "meaning-example": "Vì Richard và Robert là anh em sinh đôi, nên di truyền của họ giống hệt nhau.",
+        "ipa-example": "/sɪns ˈrɪʧərd ænd ˈrɑbərt wər twɪnz, ðɛr həˈrɛdəti wəz aɪˈdɛntɪkəl./"
+      },
+      {
+        "sentence": "Heredity plays a major role in determining our height.",
+        "meaning-example": "Di truyền đóng một vai trò quan trọng trong việc quyết định chiều cao của chúng ta.",
+        "ipa-example": "/həˈrɛdəti pleɪz ə ˈmeɪʤər roʊl ɪn dɪˈtɜrmɪnɪŋ ˈaʊər haɪt./"
+      },
+      {
+        "sentence": "She believed that personality was a matter of heredity.",
+        "meaning-example": "Cô ấy tin rằng tính cách là một vấn đề của di truyền.",
+        "ipa-example": "/ʃi bɪˈlivd ðæt ˌpɜrsəˈnælɪti wəz ə ˈmætər əv həˈrɛdəti./"
+      }
+    ]
+  },
+  {
+    "word": "internal",
+    "ipa": "/ɪnˈtɜː.nəl/",
+    "meaning": "Ở bên trong hoặc thuộc về bên trong của một cái gì đó.",
+    "image": "eew-5-27/7.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "internal",
+        "meaning-example": "Ở bên trong hoặc thuộc về bên trong của một cái gì đó.",
+        "ipa-example": "/ɪnˈtɜː.nəl/"
+      },
+      {
+        "sentence": "Một bác sĩ đang giải thích về cơ thể con người cho một sinh viên. \"Chúng ta có các cơ quan bên ngoài như mắt, mũi, tay, chân. Nhưng bên 'in' (trong) cơ thể, còn có 'tơ-nan' (nhiều thứ) phức tạp hơn nhiều, như tim, gan, phổi.\" Việc nhấn mạnh vào những gì ở \"bên trong, tơ-nan\" đó đã tạo ra từ \"internal\", có nghĩa là bên trong, nội bộ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Existing or happening inside a person, object, organization, place, or country.",
+        "meaning-example": "Tồn tại hoặc xảy ra bên trong một người, vật, tổ chức, địa điểm hoặc quốc gia.",
+        "ipa-example": "/ɪgˈzɪstɪŋ ɔr ˈhæpənɪŋ ɪnˈsaɪd ə ˈpɜrsən, ˈɑbʤɛkt, ˌɔrgənəˈzeɪʃən, pleɪs, ɔr ˈkʌntri./"
+      },
+      {
+        "sentence": "At the time, however, no doctor had ever performed a successful internal organ transplant.",
+        "meaning-example": "Tuy nhiên, vào thời điểm đó, chưa có bác sĩ nào thực hiện thành công ca cấy ghép nội tạng.",
+        "ipa-example": "/æt ðə taɪm, haʊˈɛvər, noʊ ˈdɑktər hæd ˈɛvər pərˈfɔrmd ə səkˈsɛsfəl ɪnˈtɜrnəl ˈɔrgən ˈtrænsplænt./"
+      },
+      {
+        "sentence": "The medicine is not for internal use.",
+        "meaning-example": "Thuốc này không dùng để uống.",
+        "ipa-example": "/ðə ˈmɛdəsən ɪz nɑt fɔr ɪnˈtɜrnəl juz./"
+      },
+      {
+        "sentence": "He suffered internal injuries in the accident.",
+        "meaning-example": "Anh ấy bị thương bên trong trong vụ tai nạn.",
+        "ipa-example": "/hi ˈsʌfərd ɪnˈtɜrnəl ˈɪnʤəriz ɪn ði ˈæksədənt./"
+      }
+    ]
+  },
+  {
+    "word": "minimal",
+    "ipa": "/ˈmɪn.ɪ.məl/",
+    "meaning": "Rất nhỏ về số lượng hoặc mức độ; tối thiểu.",
+    "image": "eew-5-27/8.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "minimal",
+        "meaning-example": "Rất nhỏ về số lượng hoặc mức độ; tối thiểu.",
+        "ipa-example": "/ˈmɪn.ɪ.məl/"
+      },
+      {
+        "sentence": "Một nghệ sĩ theo trường phái tối giản. Các tác phẩm của ông chỉ có vài đường nét và màu sắc cơ bản. Ông nói: \"Nghệ thuật của tôi chỉ cần 'mini-mồ'. Tức là, mọi thứ đều ở mức 'mini', mức tối thiểu nhất có thể.\" Triết lý \"mini-mồ\" đó đã trở thành \"minimal\", có nghĩa là rất nhỏ, tối thiểu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Very small in amount or degree; the least possible.",
+        "meaning-example": "Rất nhỏ về số lượng hoặc mức độ; ít nhất có thể.",
+        "ipa-example": "/ˈvɛri smɔl ɪn əˈmaʊnt ɔr dɪˈgri; ðə list ˈpɑsəbəl./"
+      },
+      {
+        "sentence": "First, they made a minimal cut in Richard’s side and removed the bad kidney.",
+        "meaning-example": "Đầu tiên, họ rạch một đường tối thiểu ở bên hông của Richard và cắt bỏ quả thận hỏng.",
+        "ipa-example": "/fɜrst, ðeɪ meɪd ə ˈmɪnəməl kʌt ɪn ˈrɪʧərdz saɪd ænd rɪˈmuvd ðə bæd ˈkɪdni./"
+      },
+      {
+        "sentence": "The storm caused only minimal damage.",
+        "meaning-example": "Cơn bão chỉ gây ra thiệt hại tối thiểu.",
+        "ipa-example": "/ðə stɔrm kɔzd ˈoʊnli ˈmɪnəməl ˈdæməʤ./"
+      },
+      {
+        "sentence": "We need to keep costs to a minimal level.",
+        "meaning-example": "Chúng ta cần giữ chi phí ở mức tối thiểu.",
+        "ipa-example": "/wi nid tu kip kɔsts tu ə ˈmɪnəməl ˈlɛvəl./"
+      }
+    ]
+  },
+  {
+    "word": "pioneer",
+    "ipa": "/ˌpaɪəˈnɪər/",
+    "meaning": "Một người trong số những người đầu tiên khám phá hoặc định cư ở một vùng đất mới; người đi đầu trong một lĩnh vực.",
+    "image": "eew-5-27/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "pioneer",
+        "meaning-example": "Một người trong số những người đầu tiên khám phá hoặc định cư ở một vùng đất mới; người đi đầu trong một lĩnh vực.",
+        "ipa-example": "/ˌpaɪəˈnɪər/"
+      },
+      {
+        "sentence": "Những người đầu tiên di cư đến miền Tây nước Mỹ phải đối mặt với vô vàn khó khăn. Họ phải tự khai hoang, xây nhà, và tìm nguồn nước. Họ thường phải 'bài binh' bố trận để chống lại thú dữ và tự 'níu' lấy sự sống. Những người \"bài-binh-níu\" sự sống, những người đi đầu và mở đường đó được gọi là \"pioneer\", tức là người tiên phong.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who is one of the first people to do something.",
+        "meaning-example": "Một người là một trong những người đầu tiên làm một việc gì đó.",
+        "ipa-example": "/ə ˈpɜrsən hu ɪz wʌn əv ðə fɜrst ˈpipəl tu du ˈsʌmθɪŋ./"
+      },
+      {
+        "sentence": "The twins went to Dr. Murray, who was a pioneer of new surgical methods.",
+        "meaning-example": "Hai anh em sinh đôi đã đến gặp Bác sĩ Murray, một người tiên phong về các phương pháp phẫu thuật mới.",
+        "ipa-example": "/ðə twɪnz wɛnt tu ˈdɑktər ˈmɜri, hu wəz ə ˌpaɪəˈnɪr əv nu ˈsɜrʤɪkəl ˈmɛθədz./"
+      },
+      {
+        "sentence": "He was a pioneer in the field of aviation.",
+        "meaning-example": "Ông là người tiên phong trong lĩnh vực hàng không.",
+        "ipa-example": "/hi wəz ə ˌpaɪəˈnɪr ɪn ðə fild əv ˌeɪviˈeɪʃən./"
+      },
+      {
+        "sentence": "The pioneers faced many hardships.",
+        "meaning-example": "Những người tiên phong đã phải đối mặt với nhiều khó khăn.",
+        "ipa-example": "/ðə ˌpaɪəˈnɪrz feɪst ˈmɛni ˈhɑrdʃɪps./"
+      }
+    ]
+  },
+  {
+    "word": "prescribe",
+    "ipa": "/prɪˈskraɪb/",
+    "meaning": "(của một bác sĩ) khuyên và cho phép sử dụng (một loại thuốc hoặc phương pháp điều trị) cho ai đó.",
+    "image": "eew-5-27/10.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "prescribe",
+        "meaning-example": "(của một bác sĩ) khuyên và cho phép sử dụng (một loại thuốc hoặc phương pháp điều trị) cho ai đó.",
+        "ipa-example": "/prɪˈskraɪb/"
+      },
+      {
+        "sentence": "Một bệnh nhân đến gặp bác sĩ và than phiền về chứng mất ngủ. Bác sĩ sau khi khám đã nói: \"Tôi 'phải ghi ra đây' một loại thuốc cho ông. Ông phải uống đúng theo chỉ dẫn.\" Hành động \"phải ghi ra đây\", tức là viết ra một đơn thuốc có thẩm quyền, đã được gọi là \"prescribe\" - kê đơn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "(of a doctor) to say what medical treatment someone should have.",
+        "meaning-example": "(của một bác sĩ) để nói phương pháp điều trị y tế mà ai đó nên có.",
+        "ipa-example": "/(əv ə ˈdɑktər) tu seɪ wʌt ˈmɛdɪkəl ˈtritmənt ˈsʌmwʌn ʃʊd hæv./"
+      },
+      {
+        "sentence": "Doctors prescribed medicine for the pain caused by the surgery.",
+        "meaning-example": "Các bác sĩ đã kê đơn thuốc giảm đau do phẫu thuật.",
+        "ipa-example": "/ˈdɑktərz prɪˈskraɪbd ˈmɛdəsən fɔr ðə peɪn kɔzd baɪ ðə ˈsɜrʤəri./"
+      },
+      {
+        "sentence": "The doctor prescribed some painkillers.",
+        "meaning-example": "Bác sĩ đã kê một số loại thuốc giảm đau.",
+        "ipa-example": "/ðə ˈdɑktər prɪˈskraɪbd sʌm ˈpeɪnˌkɪlərz./"
+      },
+      {
+        "sentence": "What would you prescribe for this problem?",
+        "meaning-example": "Bạn sẽ kê đơn gì cho vấn đề này?",
+        "ipa-example": "/wʌt wʊd ju prɪˈskraɪb fɔr ðɪs ˈprɑbləm?/"
+      }
+    ]
+  },
+  {
+    "word": "respective",
+    "ipa": "/rɪˈspek.tɪv/",
+    "meaning": "Thuộc về hoặc liên quan riêng biệt đến mỗi người hoặc vật trong số hai hoặc nhiều người/vật đã được đề cập.",
+    "image": "eew-5-27/11.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "respective",
+        "meaning-example": "Thuộc về hoặc liên quan riêng biệt đến mỗi người hoặc vật trong số hai hoặc nhiều người/vật đã được đề cập.",
+        "ipa-example": "/rɪˈspek.tɪv/"
+      },
+      {
+        "sentence": "Trong một buổi trao giải, hai vận động viên, An và Bình, cùng lên nhận huy chương. Người dẫn chương trình nói: \"Xin chúc mừng An và Bình. Xin mời hai bạn về 'vị trí riêng' của mình để nhận huy chương vàng và bạc.\" Việc nhấn mạnh mỗi người có một \"vị trí riêng\" và phần thưởng \"riêng\" đã tạo ra từ \"respective\", có nghĩa là tương ứng, của riêng từng người.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating or belonging to each of the separate people or things you have just mentioned.",
+        "meaning-example": "Liên quan hoặc thuộc về mỗi người hoặc vật riêng biệt mà bạn vừa đề cập.",
+        "ipa-example": "/rɪˈleɪtɪŋ ɔr bɪˈlɔŋɪŋ tu iʧ əv ðə ˈsɛpərət ˈpipəl ɔr θɪŋz ju hæv ʤəst ˈmɛnʃənd./"
+      },
+      {
+        "sentence": "Finally, they sewed up the respective cuts.",
+        "meaning-example": "Cuối cùng, họ đã khâu các vết cắt tương ứng.",
+        "ipa-example": "/ˈfaɪnəli, ðeɪ soʊd ʌp ðə rɪˈspɛktɪv kʌts./"
+      },
+      {
+        "sentence": "The two friends went back to their respective homes.",
+        "meaning-example": "Hai người bạn trở về nhà riêng của họ.",
+        "ipa-example": "/ðə tu frɛndz wɛnt bæk tu ðɛr rɪˈspɛktɪv hoʊmz./"
+      },
+      {
+        "sentence": "Everyone received a score based on their respective performance.",
+        "meaning-example": "Mọi người nhận được điểm dựa trên thành tích tương ứng của họ.",
+        "ipa-example": "/ˈɛvriˌwʌn rəˈsivd ə skɔr beɪst ɑn ðɛr rɪˈspɛktɪv pərˈfɔrməns./"
+      }
+    ]
+  },
+  {
+    "word": "revive",
+    "ipa": "/rɪˈvaɪv/",
+    "meaning": "Phục hồi sự sống hoặc ý thức; làm cho cái gì đó trở nên mạnh mẽ, khỏe mạnh hoặc hoạt động trở lại.",
+    "image": "eew-5-27/12.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "revive",
+        "meaning-example": "Phục hồi sự sống hoặc ý thức; làm cho cái gì đó trở nên mạnh mẽ, khỏe mạnh hoặc hoạt động trở lại.",
+        "ipa-example": "/rɪˈvaɪv/"
+      },
+      {
+        "sentence": "Một cái cây héo úa vì thiếu nước. Một cậu bé thấy vậy liền mang nước đến tưới cho nó. Vài giờ sau, cái cây tươi tỉnh trở lại. Cậu bé reo lên: \"Nó 'lại-vui-vẻ' rồi!\". Hành động làm cho một thứ gì đó \"lại vui vẻ\", tức là làm cho nó sống lại, hồi sinh, đã được gọi là \"revive\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To come or bring someone or something back to life, health, or existence.",
+        "meaning-example": "Để trở lại hoặc đưa ai đó hoặc cái gì đó trở lại cuộc sống, sức khỏe hoặc sự tồn tại.",
+        "ipa-example": "/tu kʌm ɔr brɪŋ ˈsʌmwʌn ɔr ˈsʌmθɪŋ bæk tu laɪf, hɛlθ, ɔr ɪgˈzɪstəns./"
+      },
+      {
+        "sentence": "Since Richard was still weak, he used physical therapy to revive his strength.",
+        "meaning-example": "Vì Richard vẫn còn yếu, anh ấy đã sử dụng vật lý trị liệu để phục hồi sức mạnh của mình.",
+        "ipa-example": "/sɪns ˈrɪʧərd wəz stɪl wik, hi juzd ˈfɪzɪkəl ˈθɛrəpi tu rɪˈvaɪv hɪz strɛŋkθ./"
+      },
+      {
+        "sentence": "The paramedics tried to revive him.",
+        "meaning-example": "Các nhân viên y tế đã cố gắng cứu sống anh ấy.",
+        "ipa-example": "/ðə ˌpɛrəˈmɛdɪks traɪd tu rɪˈvaɪv hɪm./"
+      },
+      {
+        "sentence": "They are trying to revive the local economy.",
+        "meaning-example": "Họ đang cố gắng phục hồi nền kinh tế địa phương.",
+        "ipa-example": "/ðeɪ ɑr ˈtraɪɪŋ tu rɪˈvaɪv ðə ˈloʊkəl ɪˈkɑnəmi./"
+      }
+    ]
+  },
+  {
+    "word": "rigid",
+    "ipa": "/ˈrɪdʒ.ɪd/",
+    "meaning": "Không thể uốn cong hoặc bị ép thay đổi hình dạng; không linh hoạt.",
+    "image": "eew-5-27/13.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "rigid",
+        "meaning-example": "Không thể uốn cong hoặc bị ép thay đổi hình dạng; không linh hoạt.",
+        "ipa-example": "/ˈrɪdʒ.ɪd/"
+      },
+      {
+        "sentence": "Một vị tướng già nổi tiếng là người rất nghiêm khắc và cứng nhắc. Mọi quy tắc ông đặt ra đều không thể thay đổi. Một người lính mới nói với bạn: \"Ông ấy 'rất-rắn'. Mọi thứ phải răm rắp theo lệnh, không có linh động gì cả.\" Sự \"rất rắn\" và không thể uốn cong đó đã tạo nên từ \"rigid\", có nghĩa là cứng, không linh hoạt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Stiff or fixed; not able to be bent or moved.",
+        "meaning-example": "Cứng hoặc cố định; không thể uốn cong hoặc di chuyển.",
+        "ipa-example": "/stɪf ɔr fɪkst; nɑt ˈeɪbəl tu bi bɛnt ɔr muvd./"
+      },
+      {
+        "sentence": "His dynamic team of surgeons followed a rigid sequence of directions so that no mistakes were made.",
+        "meaning-example": "Đội ngũ bác sĩ phẫu thuật năng động của ông đã tuân theo một chuỗi chỉ dẫn cứng nhắc để không xảy ra sai sót.",
+        "ipa-example": "/hɪz daɪˈnæmɪk tim əv ˈsɜrʤənz ˈfɑloʊd ə ˈrɪʤɪd ˈsikwəns əv dəˈrɛkʃənz soʊ ðæt noʊ mɪsˈteɪks wər meɪd./"
+      },
+      {
+        "sentence": "He has very rigid views on education.",
+        "meaning-example": "Ông ấy có quan điểm rất cứng nhắc về giáo dục.",
+        "ipa-example": "/hi hæz ˈvɛri ˈrɪʤɪd vjuz ɑn ˌɛʤəˈkeɪʃən./"
+      },
+      {
+        "sentence": "The support is made of a rigid plastic.",
+        "meaning-example": "Giá đỡ được làm bằng nhựa cứng.",
+        "ipa-example": "/ðə səˈpɔrt ɪz meɪd əv ə ˈrɪʤɪd ˈplæstɪk./"
+      }
+    ]
+  },
+  {
+    "word": "sequence",
+    "ipa": "/ˈsiː.kwəns/",
+    "meaning": "Một chuỗi các sự kiện hoặc sự vật liên quan theo một thứ tự cụ thể.",
+    "image": "eew-5-27/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "sequence",
+        "meaning-example": "Một chuỗi các sự kiện hoặc sự vật liên quan theo một thứ tự cụ thể.",
+        "ipa-example": "/ˈsiː.kwəns/"
+      },
+      {
+        "sentence": "Một nhà ảo thuật đang trình diễn một tiết mục. Ông thực hiện một loạt các hành động theo một thứ tự chính xác để tạo ra điều kỳ diệu. Khán giả thán phục và tự hỏi: \"Sao ông ấy có thể 'ghi nhớ' (see-quence) chính xác từng bước như vậy?\". Việc thực hiện các hành động theo một chuỗi, một trình tự được \"ghi nhớ\" sẵn đã được gọi là \"sequence\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A series of related things or events, or the order in which they follow each other.",
+        "meaning-example": "Một chuỗi các sự vật hoặc sự kiện liên quan, hoặc thứ tự mà chúng theo sau nhau.",
+        "ipa-example": "/ə ˈsɪriz əv rɪˈleɪtɪd θɪŋz ɔr ɪˈvɛnts, ɔr ði ˈɔrdər ɪn wɪʧ ðeɪ ˈfɑloʊ iʧ ˈʌðər./"
+      },
+      {
+        "sentence": "His dynamic team of surgeons followed a rigid sequence of directions so that no mistakes were made.",
+        "meaning-example": "Đội ngũ bác sĩ phẫu thuật năng động của ông đã tuân theo một chuỗi chỉ dẫn cứng nhắc để không xảy ra sai sót.",
+        "ipa-example": "/hɪz daɪˈnæmɪk tim əv ˈsɜrʤənz ˈfɑloʊd ə ˈrɪʤɪd ˈsikwəns əv dəˈrɛkʃənz soʊ ðæt noʊ mɪsˈteɪks wər meɪd./"
+      },
+      {
+        "sentence": "The events happened in a strange sequence.",
+        "meaning-example": "Các sự kiện xảy ra theo một trình tự kỳ lạ.",
+        "ipa-example": "/ði ɪˈvɛnts ˈhæpənd ɪn ə streɪnʤ ˈsikwəns./"
+      },
+      {
+        "sentence": "He described the sequence of events leading up to the accident.",
+        "meaning-example": "Anh ấy đã mô tả chuỗi sự kiện dẫn đến vụ tai nạn.",
+        "ipa-example": "/hi dɪˈskraɪbd ðə ˈsikwəns əv ɪˈvɛnts ˈlidɪŋ ʌp tu ði ˈæksədənt./"
+      }
+    ]
+  },
+  {
+    "word": "substitute",
+    "ipa": "/ˈsʌb.stɪ.tʃuːt/",
+    "meaning": "Sử dụng ai đó hoặc cái gì đó thay cho một người hoặc vật khác.",
+    "image": "eew-5-27/15.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "substitute",
+        "meaning-example": "Sử dụng ai đó hoặc cái gì đó thay cho một người hoặc vật khác.",
+        "ipa-example": "/ˈsʌb.stɪ.tʃuːt/"
+      },
+      {
+        "sentence": "Trong một trận bóng đá, một cầu thủ bị chấn thương. Huấn luyện viên gọi một cầu thủ dự bị vào sân và nói: \"Cậu 'sắp-sửa-thế-chỗ' cho anh ấy. Hãy vào sân và thi đấu hết mình.\" Hành động \"sắp-sửa-thế-chỗ\" đó, tức là thay thế cho ai đó hoặc cái gì đó, đã trở thành \"substitute\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To use something or someone instead of another thing or person.",
+        "meaning-example": "Sử dụng một cái gì đó hoặc ai đó thay vì một vật hoặc người khác.",
+        "ipa-example": "/tu juz ˈsʌmθɪŋ ɔr ˈsʌmwʌn ɪnˈstɛd əv əˈnʌðər θɪŋ ɔr ˈpɜrsən./"
+      },
+      {
+        "sentence": "Therefore, Robert’s working kidney could be substituted for Richard’s bad one.",
+        "meaning-example": "Do đó, quả thận hoạt động của Robert có thể được thay thế cho quả thận hỏng của Richard.",
+        "ipa-example": "/ˈðɛrˌfɔr, ˈrɑbərts ˈwɜrkɪŋ ˈkɪdni kʊd bi ˈsʌbstəˌtutəd fɔr ˈrɪʧərdz bæd wʌn./"
+      },
+      {
+        "sentence": "You can substitute oil for butter in this recipe.",
+        "meaning-example": "Bạn có thể thay thế dầu bằng bơ trong công thức này.",
+        "ipa-example": "/ju kæn ˈsʌbstəˌtut ɔɪl fɔr ˈbʌtər ɪn ðɪs ˈrɛsəpi./"
+      },
+      {
+        "sentence": "The coach substituted the injured player.",
+        "meaning-example": "Huấn luyện viên đã thay thế cầu thủ bị chấn thương.",
+        "ipa-example": "/ðə koʊʧ ˈsʌbstəˌtutəd ði ˈɪnʤərd ˈpleɪər./"
+      }
+    ]
+  },
+  {
+    "word": "surgeon",
+    "ipa": "/ˈsɜː.dʒən/",
+    "meaning": "Một bác sĩ được đào tạo để thực hiện các ca phẫu thuật.",
+    "image": "eew-5-27/16.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "surgeon",
+        "meaning-example": "Một bác sĩ được đào tạo để thực hiện các ca phẫu thuật.",
+        "ipa-example": "/ˈsɜː.dʒən/"
+      },
+      {
+        "sentence": "Một cậu bé tò mò hỏi cha mình, một bác sĩ phẫu thuật: \"Sao người ta lại gọi bố là 'sơ-dần'?\". Người cha cười và giải thích: \"Vì công việc của bố đòi hỏi phải 'sờ-dần' và xử lý các cơ quan bên trong cơ thể một cách cẩn thận và chính xác.\" Cái tên \"sơ-dần\" (sờ-dần) ngộ nghĩnh đó đã gắn liền với hình ảnh người bác sĩ thực hiện các ca mổ, và trở thành \"surgeon\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A doctor who is specially trained to perform medical operations.",
+        "meaning-example": "Một bác sĩ được đào tạo đặc biệt để thực hiện các ca phẫu thuật y tế.",
+        "ipa-example": "/ə ˈdɑktər hu ɪz ˈspɛʃəli treɪnd tu pərˈfɔrm ˈmɛdɪkəl ˌɑpəˈreɪʃənz./"
+      },
+      {
+        "sentence": "His dynamic team of surgeons performed the transplant.",
+        "meaning-example": "Đội ngũ bác sĩ phẫu thuật năng động của ông đã thực hiện ca cấy ghép.",
+        "ipa-example": "/hɪz daɪˈnæmɪk tim əv ˈsɜrʤənz pərˈfɔrmd ðə ˈtrænsplænt./"
+      },
+      {
+        "sentence": "The surgeon performed a life-saving operation.",
+        "meaning-example": "Bác sĩ phẫu thuật đã thực hiện một ca phẫu thuật cứu sống.",
+        "ipa-example": "/ðə ˈsɜrʤən pərˈfɔrmd ə laɪf-ˈseɪvɪŋ ˌɑpəˈreɪʃən./"
+      },
+      {
+        "sentence": "She is a top heart surgeon.",
+        "meaning-example": "Cô ấy là một bác sĩ phẫu thuật tim hàng đầu.",
+        "ipa-example": "/ʃi ɪz ə tɑp hɑrt ˈsɜrʤən./"
+      }
+    ]
+  },
+  {
+    "word": "therapy",
+    "ipa": "/ˈθer.ə.pi/",
+    "meaning": "Phương pháp điều trị nhằm giảm bớt hoặc chữa lành một chứng rối loạn.",
+    "image": "eew-5-27/17.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "therapy",
+        "meaning-example": "Phương pháp điều trị nhằm giảm bớt hoặc chữa lành một chứng rối loạn.",
+        "ipa-example": "/ˈθer.ə.pi/"
+      },
+      {
+        "sentence": "Một người bị đau lưng mãn tính. Anh ta đã thử nhiều cách nhưng không khỏi. Cuối cùng, anh ta tìm đến một chuyên gia vật lý trị liệu. Sau vài buổi tập, anh ta cảm thấy đỡ hơn nhiều và nói: \"Thế là 'thấy-ra-phí' công đi tìm thầy thuốc bấy lâu. Phương pháp này mới hiệu quả.\" Cách nói \"thấy-ra-phí\" đã bị đọc trại đi thành \"therapy\", mang ý nghĩa là một phương pháp trị liệu, chữa bệnh.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A treatment that helps someone feel better, grow stronger, etc., especially after an illness.",
+        "meaning-example": "Một phương pháp điều trị giúp ai đó cảm thấy tốt hơn, khỏe hơn, v.v., đặc biệt là sau một trận ốm.",
+        "ipa-example": "/ə ˈtritmənt ðæt hɛlps ˈsʌmwʌn fil ˈbɛtər, groʊ ˈstrɔŋgər, ɛtˈsɛtərə, əˈspɛʃəli ˈæftər ən ˈɪlnəs./"
+      },
+      {
+        "sentence": "Since Richard was still weak, he used physical therapy to revive his strength.",
+        "meaning-example": "Vì Richard vẫn còn yếu, anh ấy đã sử dụng vật lý trị liệu để phục hồi sức mạnh của mình.",
+        "ipa-example": "/sɪns ˈrɪʧərd wəz stɪl wik, hi juzd ˈfɪzɪkəl ˈθɛrəpi tu rɪˈvaɪv hɪz strɛŋkθ./"
+      },
+      {
+        "sentence": "He is receiving therapy for his back problems.",
+        "meaning-example": "Anh ấy đang được điều trị các vấn đề về lưng.",
+        "ipa-example": "/hi ɪz rəˈsivɪŋ ˈθɛrəpi fɔr hɪz bæk ˈprɑbləmz./"
+      },
+      {
+        "sentence": "Speech therapy helped the child to speak clearly.",
+        "meaning-example": "Trị liệu ngôn ngữ đã giúp đứa trẻ nói rõ ràng.",
+        "ipa-example": "/spiʧ ˈθɛrəpi hɛlpt ðə ʧaɪld tu spik ˈklɪrli./"
+      }
+    ]
+  },
+  {
+    "word": "transfer",
+    "ipa": "/trænsˈfɜːr/",
+    "meaning": "Di chuyển ai đó hoặc cái gì đó từ nơi này đến nơi khác.",
+    "image": "eew-5-27/18.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "transfer",
+        "meaning-example": "Di chuyển ai đó hoặc cái gì đó từ nơi này đến nơi khác.",
+        "ipa-example": "/trænsˈfɜːr/"
+      },
+      {
+        "sentence": "Một công ty quyết định chuyển văn phòng sang một tòa nhà mới. Giám đốc thông báo cho nhân viên: \"Chúng ta sẽ 'chuyển-phòng' vào cuối tháng này. Mọi người hãy chuẩn bị đồ đạc cá nhân.\" Hành động \"chuyển phòng\" từ nơi này sang nơi khác, tức là di chuyển, đã được gọi là \"transfer\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To move someone or something from one place to another.",
+        "meaning-example": "Để di chuyển ai đó hoặc cái gì đó từ nơi này đến nơi khác.",
+        "ipa-example": "/tu muv ˈsʌmwʌn ɔr ˈsʌmθɪŋ frʌm wʌn pleɪs tu əˈnʌðər./"
+      },
+      {
+        "sentence": "Then, they made another small cut in Robert’s side, removed his kidney, and transferred it into Richard’s body.",
+        "meaning-example": "Sau đó, họ rạch một đường nhỏ khác ở bên hông của Robert, cắt bỏ quả thận của anh ấy và chuyển nó vào cơ thể của Richard.",
+        "ipa-example": "/ðɛn, ðeɪ meɪd əˈnʌðər smɔl kʌt ɪn ˈrɑbərts saɪd, rɪˈmuvd hɪz ˈkɪdni, ænd trænˈsfɜrd ɪt ˈɪntu ˈrɪʧərdz ˈbɑdi./"
+      },
+      {
+        "sentence": "I need to transfer some money to my savings account.",
+        "meaning-example": "Tôi cần chuyển một số tiền vào tài khoản tiết kiệm của mình.",
+        "ipa-example": "/aɪ nid tu ˈtrænsfər sʌm ˈmʌni tu maɪ ˈseɪvɪŋz əˈkaʊnt./"
+      },
+      {
+        "sentence": "He was transferred to a different department.",
+        "meaning-example": "Anh ấy đã được chuyển đến một bộ phận khác.",
+        "ipa-example": "/hi wəz trænˈsfɜrd tu ə ˈdɪfərənt dɪˈpɑrtmənt./"
+      }
+    ]
+  },
+  {
+    "word": "transition",
+    "ipa": "/trænˈzɪʃ.ən/",
+    "meaning": "Quá trình hoặc một giai đoạn thay đổi từ trạng thái này sang trạng thái khác.",
+    "image": "eew-5-27/19.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "transition",
+        "meaning-example": "Quá trình hoặc một giai đoạn thay đổi từ trạng thái này sang trạng thái khác.",
+        "ipa-example": "/trænˈzɪʃ.ən/"
+      },
+      {
+        "sentence": "Một con sâu đang chuẩn bị hóa thành bướm. Nó tự tạo một cái kén bao bọc lấy mình. Giai đoạn này là một sự thay đổi lớn. Nó giống như đang \"chuyển-sang-sinh-thể\" mới. Quá trình \"chuyển-sang-sinh-thể\" này, tức là quá trình chuyển đổi từ trạng thái này sang trạng thái khác, đã được gọi là \"transition\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A process or period of changing from one state or condition to another.",
+        "meaning-example": "Một quá trình hoặc giai đoạn thay đổi từ trạng thái hoặc điều kiện này sang trạng thái hoặc điều kiện khác.",
+        "ipa-example": "/ə ˈprɑsɛs ɔr ˈpɪriəd əv ˈʧeɪnʤɪŋ frʌm wʌn steɪt ɔr kənˈdɪʃən tu əˈnʌðər./"
+      },
+      {
+        "sentence": "At last, Richard’s transition into a healthy, happy person was complete.",
+        "meaning-example": "Cuối cùng, quá trình chuyển đổi của Richard thành một người khỏe mạnh, hạnh phúc đã hoàn tất.",
+        "ipa-example": "/æt læst, ˈrɪʧərdz trænˈzɪʃən ˈɪntu ə ˈhɛlθi, ˈhæpi ˈpɜrsən wəz kəmˈplit./"
+      },
+      {
+        "sentence": "The transition from school to work can be difficult.",
+        "meaning-example": "Sự chuyển tiếp từ trường học sang môi trường làm việc có thể khó khăn.",
+        "ipa-example": "/ðə trænˈzɪʃən frʌm skul tu wɜrk kæn bi ˈdɪfəkəlt./"
+      },
+      {
+        "sentence": "The country is in the process of transition to democracy.",
+        "meaning-example": "Đất nước đang trong quá trình chuyển đổi sang dân chủ.",
+        "ipa-example": "/ðə ˈkʌntri ɪz ɪn ðə ˈprɑsɛs əv trænˈzɪʃən tu dɪˈmɑkrəsi./"
+      }
+    ]
+  },
+  {
+    "word": "transplant",
+    "ipa": "/ˈtræns.plɑːnt/",
+    "meaning": "Một ca phẫu thuật trong đó một cơ quan hoặc mô được cấy ghép.",
+    "image": "eew-5-27/20.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "transplant",
+        "meaning-example": "Một ca phẫu thuật trong đó một cơ quan hoặc mô được cấy ghép.",
+        "ipa-example": "/ˈtræns.plɑːnt/"
+      },
+      {
+        "sentence": "Một người làm vườn đang cấy một cái cây từ chậu nhỏ sang một mảnh đất lớn hơn. Ông nói: \"Phải 'trồng-sang' chỗ này để nó có không gian phát triển.\" Hành động \"trồng sang\", tức là di chuyển và cấy một cái gì đó (như cây, hoặc trong y học là cơ quan) từ nơi này sang nơi khác, đã được gọi là \"transplant\".",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A medical operation in which a new organ or tissue is put into someone's body.",
+        "meaning-example": "Một ca phẫu thuật y tế trong đó một cơ quan hoặc mô mới được đưa vào cơ thể của ai đó.",
+        "ipa-example": "/ə ˈmɛdɪkəl ˌɑpəˈreɪʃən ɪn wɪʧ ə nu ˈɔrgən ɔr ˈtɪʃu ɪz pʊt ˈɪntu ˈsʌmwʌnz ˈbɑdi./"
+      },
+      {
+        "sentence": "His success gave other doctors confidence to try organ transplants themselves.",
+        "meaning-example": "Thành công của ông đã mang lại sự tự tin cho các bác sĩ khác để tự mình thử nghiệm cấy ghép nội tạng.",
+        "ipa-example": "/hɪz səkˈsɛs geɪv ˈʌðər ˈdɑktərz ˈkɑnfɪdəns tu traɪ ˈɔrgən ˈtrænsplænts ðəmˈsɛlvz./"
+      },
+      {
+        "sentence": "He is waiting for a heart transplant.",
+        "meaning-example": "Anh ấy đang chờ được ghép tim.",
+        "ipa-example": "/hi ɪz ˈweɪtɪŋ fɔr ə hɑrt ˈtrænsplænt./"
+      },
+      {
+        "sentence": "The doctor will transplant the kidney tomorrow.",
+        "meaning-example": "Bác sĩ sẽ cấy ghép quả thận vào ngày mai.",
+        "ipa-example": "/ðə ˈdɑktər wɪl ˈtrænsplænt ðə ˈkɪdni təˈmɑˌroʊ./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The First Organ Transplant",
+        "meaning-example": "Ca cấy ghép nội tạng đầu tiên",
+        "ipa-example": "/ðə fɜrst ˈɔrgən ˈtrænsplænt/"
+      },
+      {
+        "sentence": "In 1954, a man named Richard was dying of kidney disease.",
+        "meaning-example": "Năm 1954, một người đàn ông tên Richard đang chết dần vì bệnh thận.",
+        "ipa-example": "/ɪn 1954, ə mæn neɪmd ˈrɪʧərd wəz ˈdaɪɪŋ əv ˈkɪdni dɪˈziz./"
+      },
+      {
+        "sentence": "He wouldn’t survive for long unless he got a new kidney right away.",
+        "meaning-example": "Anh ấy sẽ không sống được lâu trừ khi được ghép một quả thận mới ngay lập tức.",
+        "ipa-example": "/hi ˈwʊdənt sərˈvaɪv fɔr lɔŋ ənˈlɛs hi gɑt ə nu ˈkɪdni raɪt əˈweɪ./"
+      },
+      {
+        "sentence": "Richard’s twin brother, Robert, was willing to donate one of his kidneys to his dying brother.",
+        "meaning-example": "Anh trai sinh đôi của Richard, Robert, sẵn sàng hiến một quả thận của mình cho người em đang hấp hối.",
+        "ipa-example": "/ˈrɪʧərdz twɪn ˈbrʌðər, ˈrɑbərt, wəz ˈwɪlɪŋ tu ˈdoʊneɪt wʌn əv hɪz ˈkɪdniz tu hɪz ˈdaɪɪŋ ˈbrʌðər./"
+      },
+      {
+        "sentence": "At the time, however, no doctor had ever performed a successful internal organ transplant.",
+        "meaning-example": "Tuy nhiên, vào thời điểm đó, chưa có bác sĩ nào thực hiện thành công ca cấy ghép nội tạng.",
+        "ipa-example": "/æt ðə taɪm, haʊˈɛvər, noʊ ˈdɑktər hæd ˈɛvər pərˈfɔrmd ə səkˈsɛsfəl ɪnˈtɜrnəl ˈɔrgən ˈtrænsplænt./"
+      },
+      {
+        "sentence": "The idea of taking an organ out of one person and putting it into another was just a fantasy.",
+        "meaning-example": "Ý tưởng lấy một cơ quan nội tạng từ người này và đặt vào người khác chỉ là một điều tưởng tượng.",
+        "ipa-example": "/ði aɪˈdiə əv ˈteɪkɪŋ ən ˈɔrgən aʊt əv wʌn ˈpɜrsən ænd ˈpʊtɪŋ ɪt ˈɪntu əˈnʌðər wəz ʤəst ə ˈfæntəsi./"
+      },
+      {
+        "sentence": "But the brothers decided to be brave and found a doctor who could make organ transplants a reality.",
+        "meaning-example": "Nhưng hai anh em đã quyết định dũng cảm và tìm một bác sĩ có thể biến việc cấy ghép nội tạng thành hiện thực.",
+        "ipa-example": "/bʌt ðə ˈbrʌðərz dɪˈsaɪdɪd tu bi breɪv ænd faʊnd ə ˈdɑktər hu kʊd meɪk ˈɔrgən ˈtrænsplænts ə riˈæləti./"
+      },
+      {
+        "sentence": "Since Richard and Robert were twins, their heredity was identical.",
+        "meaning-example": "Vì Richard và Robert là anh em sinh đôi, nên di truyền của họ giống hệt nhau.",
+        "ipa-example": "/sɪns ˈrɪʧərd ænd ˈrɑbərt wər twɪnz, ðɛr həˈrɛdəti wəz aɪˈdɛntɪkəl./"
+      },
+      {
+        "sentence": "They had the exact same biological traits.",
+        "meaning-example": "Họ có những đặc điểm sinh học hoàn toàn giống nhau.",
+        "ipa-example": "/ðeɪ hæd ði ɪgˈzækt seɪm ˌbaɪəˈlɑʤɪkəl treɪts./"
+      },
+      {
+        "sentence": "Even their kidneys were identical on the cellular level.",
+        "meaning-example": "Ngay cả thận của họ cũng giống hệt nhau ở cấp độ tế bào.",
+        "ipa-example": "/ˈivɪn ðɛr ˈkɪdniz wər aɪˈdɛntɪkəl ɑn ðə ˈsɛljələr ˈlɛvəl./"
+      },
+      {
+        "sentence": "Therefore, Robert’s working kidney could be substituted for Richard’s bad one.",
+        "meaning-example": "Do đó, quả thận hoạt động của Robert có thể được thay thế cho quả thận hỏng của Richard.",
+        "ipa-example": "/ˈðɛrˌfɔr, ˈrɑbərts ˈwɜrkɪŋ ˈkɪdni kʊd bi ˈsʌbstəˌtutəd fɔr ˈrɪʧərdz bæd wʌn./"
+      },
+      {
+        "sentence": "Richard’s body could adapt to the new organ if the operation was done correctly.",
+        "meaning-example": "Cơ thể của Richard có thể thích nghi với cơ quan mới nếu ca phẫu thuật được thực hiện đúng cách.",
+        "ipa-example": "/ˈrɪʧərdz ˈbɑdi kʊd əˈdæpt tu ðə nu ˈɔrgən ɪf ði ˌɑpəˈreɪʃən wəz dʌn kəˈrɛktli./"
+      },
+      {
+        "sentence": "The twins went to Dr. Murray, who was a pioneer of new surgical methods.",
+        "meaning-example": "Hai anh em sinh đôi đã đến gặp Bác sĩ Murray, một người tiên phong về các phương pháp phẫu thuật mới.",
+        "ipa-example": "/ðə twɪnz wɛnt tu ˈdɑktər ˈmɜri, hu wəz ə ˌpaɪəˈnɪr əv nu ˈsɜrʤɪkəl ˈmɛθədz./"
+      },
+      {
+        "sentence": "His dynamic team of surgeons performed the transplant.",
+        "meaning-example": "Đội ngũ bác sĩ phẫu thuật năng động của ông đã thực hiện ca cấy ghép.",
+        "ipa-example": "/hɪz daɪˈnæmɪk tim əv ˈsɜrʤənz pərˈfɔrmd ðə ˈtrænsplænt./"
+      },
+      {
+        "sentence": "Dr. Murray made sure his surgeons followed a rigid sequence of directions so that no mistakes were made.",
+        "meaning-example": "Bác sĩ Murray đảm bảo rằng các bác sĩ phẫu thuật của ông tuân theo một chuỗi chỉ dẫn cứng nhắc để không mắc sai lầm nào.",
+        "ipa-example": "/ˈdɑktər ˈmɜri meɪd ʃʊr hɪz ˈsɜrʤənz ˈfɑloʊd ə ˈrɪʤɪd ˈsikwəns əv dəˈrɛkʃənz soʊ ðæt noʊ mɪsˈteɪks wər meɪd./"
+      },
+      {
+        "sentence": "First, they made a minimal cut in Richard’s side and removed the bad kidney.",
+        "meaning-example": "Đầu tiên, họ rạch một đường tối thiểu ở bên hông của Richard và cắt bỏ quả thận hỏng.",
+        "ipa-example": "/fɜrst, ðeɪ meɪd ə ˈmɪnəməl kʌt ɪn ˈrɪʧərdz saɪd ænd rɪˈmuvd ðə bæd ˈkɪdni./"
+      },
+      {
+        "sentence": "Then, they made another small cut in Robert’s side, removed his kidney, and transferred it into Richard’s body.",
+        "meaning-example": "Sau đó, họ rạch một đường nhỏ khác ở bên hông của Robert, cắt bỏ quả thận của anh ấy và chuyển nó vào cơ thể của Richard.",
+        "ipa-example": "/ðɛn, ðeɪ meɪd əˈnʌðər smɔl kʌt ɪn ˈrɑbərts saɪd, rɪˈmuvd hɪz ˈkɪdni, ænd trænˈsfɜrd ɪt ˈɪntu ˈrɪʧərdz ˈbɑdi./"
+      },
+      {
+        "sentence": "Finally, they sewed up the respective cuts.",
+        "meaning-example": "Cuối cùng, họ đã khâu các vết cắt tương ứng.",
+        "ipa-example": "/ˈfaɪnəli, ðeɪ soʊd ʌp ðə rɪˈspɛktɪv kʌts./"
+      },
+      {
+        "sentence": "The entire operation only took about one hour.",
+        "meaning-example": "Toàn bộ ca phẫu thuật chỉ mất khoảng một giờ.",
+        "ipa-example": "/ði ɪnˈtaɪər ˌɑpəˈreɪʃən ˈoʊnli tʊk əˈbaʊt wʌn ˈaʊər./"
+      },
+      {
+        "sentence": "After the surgery, it was clear that both brothers were going to be OK.",
+        "meaning-example": "Sau ca phẫu thuật, rõ ràng là cả hai anh em sẽ ổn.",
+        "ipa-example": "/ˈæftər ðə ˈsɜrʤəri, ɪt wəz klɪr ðæt boʊθ ˈbrʌðərz wər ˈgoʊɪŋ tu bi ˌoʊˈkeɪ./"
+      },
+      {
+        "sentence": "The operation was confirmed a success.",
+        "meaning-example": "Ca phẫu thuật đã được xác nhận là thành công.",
+        "ipa-example": "/ði ˌɑpəˈreɪʃən wəz kənˈfɜrmd ə səkˈsɛs./"
+      },
+      {
+        "sentence": "Richard’s new kidney worked great!",
+        "meaning-example": "Quả thận mới của Richard hoạt động rất tốt!",
+        "ipa-example": "/ˈrɪʧərdz nu ˈkɪdni wɜrkt greɪt!/"
+      },
+      {
+        "sentence": "Doctors prescribed medicine for the pain caused by the surgery.",
+        "meaning-example": "Các bác sĩ đã kê đơn thuốc giảm đau do phẫu thuật.",
+        "ipa-example": "/ˈdɑktərz prɪˈskraɪbd ˈmɛdəsən fɔr ðə peɪn kɔzd baɪ ðə ˈsɜrʤəri./"
+      },
+      {
+        "sentence": "Since Richard was still weak, he used physical therapy to revive his strength.",
+        "meaning-example": "Vì Richard vẫn còn yếu, anh ấy đã sử dụng vật lý trị liệu để phục hồi sức mạnh của mình.",
+        "ipa-example": "/sɪns ˈrɪʧərd wəz stɪl wik, hi juzd ˈfɪzɪkəl ˈθɛrəpi tu rɪˈvaɪv hɪz strɛŋkθ./"
+      },
+      {
+        "sentence": "At last, Richard’s transition into a healthy, happy person was complete.",
+        "meaning-example": "Cuối cùng, quá trình chuyển đổi của Richard thành một người khỏe mạnh, hạnh phúc đã hoàn tất.",
+        "ipa-example": "/æt læst, ˈrɪʧərdz trænˈzɪʃən ˈɪntu ə ˈhɛlθi, ˈhæpi ˈpɜrsən wəz kəmˈplit./"
+      },
+      {
+        "sentence": "Dr. Murray became a hero in the medical world.",
+        "meaning-example": "Bác sĩ Murray đã trở thành một anh hùng trong thế giới y học.",
+        "ipa-example": "/ˈdɑktər ˈmɜri bɪˈkeɪm ə ˈhɪroʊ ɪn ðə ˈmɛdɪkəl wɜrld./"
+      },
+      {
+        "sentence": "His success gave other doctors confidence to try organ transplants themselves.",
+        "meaning-example": "Thành công của ông đã mang lại sự tự tin cho các bác sĩ khác để tự mình thử nghiệm cấy ghép nội tạng.",
+        "ipa-example": "/hɪz səkˈsɛs geɪv ˈʌðər ˈdɑktərz ˈkɑnfɪdəns tu traɪ ˈɔrgən ˈtrænsplænts ðəmˈsɛlvz./"
+      },
+      {
+        "sentence": "Now, doctors perform life-saving transplants and surgeries every day.",
+        "meaning-example": "Bây giờ, các bác sĩ thực hiện các ca cấy ghép và phẫu thuật cứu người mỗi ngày.",
+        "ipa-example": "/naʊ, ˈdɑktərz pərˈfɔrm laɪf-ˈseɪvɪŋ ˈtrænsplænts ænd ˈsɜrʤəriz ˈɛvri deɪ./"
+      }
+    ]
+  }
+]
