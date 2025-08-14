@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Một bể kính trong đó cá và các sinh vật dưới nước khác được nuôi giữ.",
+    "classes": "n",
+    "answer": "aquarium",
+    "ipa": "/əˈkweə.ri.əm/",
+    "example": "He even said that he would buy new glass walls for the aquarium because the old ones were cracked.",
+    "english-definition": "A glass tank in which fish and other water creatures are kept.",
+    "images": "eew-5-28/1.png"
+  },
+  {
+    "question": "Dựa trên cơ hội hoặc ý thích cá nhân hơn là bất kỳ lý do hoặc hệ thống nào; tùy tiện.",
+    "classes": "adj",
+    "answer": "arbitrary",
+    "ipa": "/ˈɑː.bɪ.trər.i/",
+    "example": "He didn’t want to spend it in an arbitrary way.",
+    "english-definition": "Based on chance or personal whim rather than any reason or system.",
+    "images": "eew-5-28/2.png"
+  },
+  {
+    "question": "Một cuốn sách về cuộc đời của một người, do chính người đó viết.",
+    "classes": "n",
+    "answer": "autobiography",
+    "ipa": "/ˌɔː.tə.baɪˈɒɡ.rə.fi/",
+    "example": "If I ever write an autobiography, I will write that this was the happiest day of my life.",
+    "english-definition": "A book about a person's life, written by that person.",
+    "images": "eew-5-28/3.png"
+  },
+  {
+    "question": "Một cách hành xử được coi là bình thường và truyền thống trong một nhóm hoặc xã hội cụ thể.",
+    "classes": "n",
+    "answer": "convention",
+    "ipa": "/kənˈven.ʃən/",
+    "example": "It wasn’t a social convention for a person to be so gracious.",
+    "english-definition": "A way in which something is usually done; a custom.",
+    "images": "eew-5-28/4.png"
+  },
+  {
+    "question": "Lịch sự, tốt bụng và dễ chịu, đặc biệt là đối với những người có địa vị xã hội thấp hơn.",
+    "classes": "adj",
+    "answer": "gracious",
+    "ipa": "/ˈɡreɪ.ʃəs/",
+    "example": "It wasn’t a social convention for a person to be so gracious.",
+    "english-definition": "Behaving in a pleasant, polite, calm way.",
+    "images": "eew-5-28/5.png"
+  },
+  {
+    "question": "Trở nên tốt hơn hoặc làm cho cái gì đó tốt hơn.",
+    "classes": "v",
+    "answer": "improve",
+    "ipa": "/ɪmˈpruːv/",
+    "example": "He probed Joe to learn why he spent his money to improve the zoo.",
+    "english-definition": "To get better, or to make something better.",
+    "images": "eew-5-28/6.png"
+  },
+  {
+    "question": "Bảo vệ ai đó hoặc cái gì đó khỏi những ảnh hưởng không mong muốn bằng cách che phủ nó.",
+    "classes": "v",
+    "answer": "insulate",
+    "ipa": "/ˈɪn.sjə.leɪt/",
+    "example": "The cages were too small, and they weren’t insulated from the cold.",
+    "english-definition": "To protect something with a material that prevents heat, sound, electricity, etc. from passing through.",
+    "images": "eew-5-28/7.png"
+  },
+  {
+    "question": "Gây hứng thú cho ai đó rất nhiều và khiến họ muốn tìm hiểu thêm về nó.",
+    "classes": "v",
+    "answer": "intrigue",
+    "ipa": "/ɪnˈtriːɡ/",
+    "example": "Joe’s act of philanthropy intrigued the zookeeper.",
+    "english-definition": "To interest someone a lot, especially by being strange, mysterious, or unexpected.",
+    "images": "eew-5-28/8.png"
+  },
+  {
+    "question": "Sống lâu; tuổi thọ.",
+    "classes": "n",
+    "answer": "longevity",
+    "ipa": "/lɒnˈdʒev.ə.ti/",
+    "example": "He offered to buy healthy food for the orangutans to increase their longevity.",
+    "english-definition": "Long life or the long time that something lasts.",
+    "images": "eew-5-28/9.png"
+  },
+  {
+    "question": "Đặt một cái gì đó ở sai chỗ và không thể tìm thấy nó tạm thời.",
+    "classes": "v",
+    "answer": "misplace",
+    "ipa": "/ˌmɪsˈpleɪs/",
+    "example": "He made a photocopy of the check in case he misplaced the original one.",
+    "english-definition": "To put something in the wrong place and lose it, usually for a short time.",
+    "images": "eew-5-28/10.png"
+  },
+  {
+    "question": "(đặc biệt là trẻ em) không vâng lời hoặc hành xử không tốt.",
+    "classes": "adj",
+    "answer": "naughty",
+    "ipa": "/ˈnɔː.ti/",
+    "example": "It’s probably one of the naughty neighborhood children.",
+    "english-definition": "(especially of children) behaving badly; disobedient.",
+    "images": "eew-5-28/11.png"
+  },
+  {
+    "question": "Một tiêu chuẩn hoặc cách hành xử được chấp nhận và điển hình.",
+    "classes": "n",
+    "answer": "norm",
+    "ipa": "/nɔːm/",
+    "example": "Joe told the zookeeper, “I know it’s not the norm, but my ultimate decision to help these animals is better than anything I could have done for myself.",
+    "english-definition": "An accepted standard or a way of behaving or doing things that most people agree with.",
+    "images": "eew-5-28/12.png"
+  },
+  {
+    "question": "Một loài vượn lớn lông màu nâu đỏ, có nguồn gốc từ Borneo và Sumatra.",
+    "classes": "n",
+    "answer": "orangutan",
+    "ipa": "/əˈræŋ.ə.tæn/",
+    "example": "He offered to buy healthy food for the orangutans to increase their longevity.",
+    "english-definition": "A large ape with long, reddish-brown hair, native to Borneo and Sumatra.",
+    "images": "eew-5-28/13.png"
+  },
+  {
+    "question": "Đặt quá nhiều thứ vào hoặc lên một cái gì đó.",
+    "classes": "v",
+    "answer": "overload",
+    "ipa": "/ˌəʊ.vəˈləʊd/",
+    "example": "His mind was overloaded with emotions.",
+    "english-definition": "To put too many things in or on something.",
+    "images": "eew-5-28/14.png"
+  },
+  {
+    "question": "Việc giúp đỡ người nghèo, đặc biệt bằng cách cho họ tiền; lòng bác ái.",
+    "classes": "n",
+    "answer": "philanthropy",
+    "ipa": "/fɪˈlæn.θrə.pi/",
+    "example": "Joe’s act of philanthropy intrigued the zookeeper.",
+    "english-definition": "The activity of helping the poor, especially by giving them money.",
+    "images": "eew-5-28/15.png"
+  },
+  {
+    "question": "Cố gắng khám phá sự thật về một cái gì đó; thăm dò.",
+    "classes": "v",
+    "answer": "probe",
+    "ipa": "/prəʊb/",
+    "example": "He probed Joe to learn why he spent his money to improve the zoo.",
+    "english-definition": "To try to discover information that is secret or hidden by asking questions or searching carefully.",
+    "images": "eew-5-28/16.png"
+  },
+  {
+    "question": "Một người nhận được một cái gì đó.",
+    "classes": "n",
+    "answer": "recipient",
+    "ipa": "/rɪˈsɪp.i.ənt/",
+    "example": "You’re the recipient of this check for one million dollars!",
+    "english-definition": "A person who receives something.",
+    "images": "eew-5-28/17.png"
+  },
+  {
+    "question": "Một loài động vật có máu lạnh, có da có vảy và thường đẻ trứng có vỏ mềm trên cạn.",
+    "classes": "n",
+    "answer": "reptile",
+    "ipa": "/ˈrep.taɪl/",
+    "example": "He offered to help the zoo buy huge cages for the large mammals and reptiles.",
+    "english-definition": "An animal that has cold blood, breathes with lungs, and has a body covered in scales.",
+    "images": "eew-5-28/18.png"
+  },
+  {
+    "question": "Phát triển, lớn mạnh hoặc thành công.",
+    "classes": "v",
+    "answer": "thrive",
+    "ipa": "/θraɪv/",
+    "example": "Animals couldn’t thrive in such conditions.",
+    "english-definition": "To grow, develop, or be successful.",
+    "images": "eew-5-28/19.png"
+  },
+  {
+    "question": "Cuối cùng, sau một loạt những thứ khác; quan trọng nhất hoặc tốt nhất.",
+    "classes": "adj",
+    "answer": "ultimate",
+    "ipa": "/ˈʌl.tɪ.mət/",
+    "example": "...my ultimate decision to help these animals is better than anything I could have done for myself.",
+    "english-definition": "Final or most important.",
+    "images": "eew-5-28/20.png"
+  }
+]
