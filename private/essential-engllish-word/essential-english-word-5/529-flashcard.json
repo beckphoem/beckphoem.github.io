@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Cổ, cũ và thường có giá trị.",
+    "classes": "adj",
+    "answer": "antique",
+    "ipa": "/ænˈtiːk/",
+    "example": "She tripped over an antique vase and broke a piece off of it.",
+    "english-definition": "Old and often valuable.",
+    "images": "eew-5-29/1.png"
+  },
+  {
+    "question": "Một người chính thức yêu cầu điều gì đó, đặc biệt là một công việc; ứng viên.",
+    "classes": "n",
+    "answer": "applicant",
+    "ipa": "/ˈæp.lɪ.kənt/",
+    "example": "The director interviewed dozens of applicants before he decided to hire Jen.",
+    "english-definition": "A person who formally requests something, especially a job.",
+    "images": "eew-5-29/2.png"
+  },
+  {
+    "question": "Một đồ vật do con người làm ra, chẳng hạn như công cụ hoặc đồ trang trí, đặc biệt là một đồ vật có giá trị lịch sử.",
+    "classes": "n",
+    "answer": "artifact",
+    "ipa": "/ˈɑː.tə.fækt/",
+    "example": "As she turned around to show the group some artifacts, she bumped into a fossil of an authentic elephant tusk.",
+    "english-definition": "An object that is made by a person, such as a tool or a decoration, especially one that is of historical interest.",
+    "images": "eew-5-29/3.png"
+  },
+  {
+    "question": "Thật, chính xác, không phải là bản sao.",
+    "classes": "adj",
+    "answer": "authentic",
+    "ipa": "/ɔːˈθen.tɪk/",
+    "example": "As she turned around to show the group some artifacts, she bumped into a fossil of an authentic elephant tusk.",
+    "english-definition": "Real, true, or not a copy.",
+    "images": "eew-5-29/4.png"
+  },
+  {
+    "question": "Sự sắp xếp các sự kiện theo thứ tự thời gian chúng xảy ra.",
+    "classes": "n",
+    "answer": "chronology",
+    "ipa": "/krəˈnɒl.ə.dʒi/",
+    "example": "I’m going to talk to you about the chronology of ancient Egypt.",
+    "english-definition": "The arrangement of events in the order in which they happened.",
+    "images": "eew-5-29/5.png"
+  },
+  {
+    "question": "Một quan chức đại diện cho đất nước của mình ở nước ngoài.",
+    "classes": "n",
+    "answer": "diplomat",
+    "ipa": "/ˈdɪp.lə.mæt/",
+    "example": "She saw that the Queen of England and a diplomat were visiting the museum.",
+    "english-definition": "An official representing their country abroad.",
+    "images": "eew-5-29/6.png"
+  },
+  {
+    "question": "Một bài thơ hoặc cuốn sách dài kể về những hành động dũng cảm và những sự kiện thú vị.",
+    "classes": "n",
+    "answer": "epic",
+    "ipa": "/ˈep.ɪk/",
+    "example": "As she was reading an excerpt from a lyric poem, she sneezed and tore a page of the epic.",
+    "english-definition": "A long poem or book that tells a story of brave actions and exciting events.",
+    "images": "eew-5-29/7.png"
+  },
+  {
+    "question": "Một đoạn trích ngắn lấy từ một cuốn sách, vở kịch, bản nhạc, v.v.",
+    "classes": "n",
+    "answer": "excerpt",
+    "ipa": "/ˈek.sɜːpt/",
+    "example": "As she was reading an excerpt from a lyric poem, she sneezed and tore a page of the epic.",
+    "english-definition": "A short part taken from a book, play, piece of music, etc.",
+    "images": "eew-5-29/8.png"
+  },
+  {
+    "question": "Phần còn lại của một con vật hoặc thực vật đã chết từ hàng triệu năm trước và được bảo quản trong đá.",
+    "classes": "n",
+    "answer": "fossil",
+    "ipa": "/ˈfɒs.əl/",
+    "example": "As she turned around to show the group some artifacts, she bumped into a fossil of an authentic elephant tusk.",
+    "english-definition": "The remains of an animal or a plant that died many thousands of years ago, which have become hard and turned into rock.",
+    "images": "eew-5-29/9.png"
+  },
+  {
+    "question": "Làm cho ai đó cảm thấy xấu hổ hoặc ngu ngốc và mất đi sự tôn trọng của người khác.",
+    "classes": "v",
+    "answer": "humiliate",
+    "ipa": "/hjuːˈmɪl.i.eɪt/",
+    "example": "I hope I don’t humiliate myself in front of a person of such renown!",
+    "english-definition": "To make someone feel ashamed or stupid and lose the respect of other people.",
+    "images": "eew-5-29/10.png"
+  },
+  {
+    "question": "(của một bài thơ) thể hiện cảm xúc và suy nghĩ cá nhân của nhà thơ.",
+    "classes": "adj",
+    "answer": "lyric",
+    "ipa": "/ˈlɪr.ɪk/",
+    "example": "As she was reading an excerpt from a lyric poem, she sneezed and tore a page of the epic.",
+    "english-definition": "(of a poem) expressing the personal feelings and thoughts of the poet.",
+    "images": "eew-5-29/11.png"
+  },
+  {
+    "question": "Vẻ oai phong, vẻ đẹp hoặc quyền lực gây ấn tượng, tạo ra sự ngưỡng mộ và tôn trọng; sự uy nghi.",
+    "classes": "n",
+    "answer": "majesty",
+    "ipa": "/ˈmædʒ.ə.sti/",
+    "example": "She said, “I’m sorry, Your Majesty. I was a terrible tour guide.\"",
+    "english-definition": "The impressive quality of being beautiful, powerful, or important.",
+    "images": "eew-5-29/12.png"
+  },
+  {
+    "question": "Một vị vua hoặc nữ hoàng; người đứng đầu một quốc gia theo chế độ quân chủ.",
+    "classes": "n",
+    "answer": "monarch",
+    "ipa": "/ˈmɒn.ək/",
+    "example": "I have to impress a monarch!",
+    "english-definition": "A king or queen.",
+    "images": "eew-5-29/13.png"
+  },
+  {
+    "question": "Xảy ra hoặc tồn tại trước một ai đó hoặc một cái gì đó.",
+    "classes": "v",
+    "answer": "precede",
+    "ipa": "/prɪˈsiːd/",
+    "example": "Hard work precedes success.",
+    "english-definition": "To be or go before someone or something in time or space.",
+    "images": "eew-5-29/14.png"
+  },
+  {
+    "question": "Đến hoặc làm việc gì đó vào đúng thời điểm; đúng giờ.",
+    "classes": "adj",
+    "answer": "punctual",
+    "ipa": "/ˈpʌŋk.tʃu.əl/",
+    "example": "She was chosen because she was friendly, punctual and had a great attitude.",
+    "english-definition": "Arriving, doing something, or happening at the expected, correct time; not late.",
+    "images": "eew-5-29/15.png"
+  },
+  {
+    "question": "Tuyển mộ ai đó vào một tổ chức; tuyển dụng.",
+    "classes": "v",
+    "answer": "recruit",
+    "ipa": "/rɪˈkruːt/",
+    "example": "The history museum needed to recruit a new tour guide.",
+    "english-definition": "To persuade someone to work for a company or become a new member of an organization, especially the army.",
+    "images": "eew-5-29/16.png"
+  },
+  {
+    "question": "Số tiền được trả lại cho bạn, đặc biệt là vì bạn không hài lòng với một sản phẩm hoặc dịch vụ.",
+    "classes": "n",
+    "answer": "refund",
+    "ipa": "/ˈriː.fʌnd/",
+    "example": "Let me give you a refund for the money you spent.",
+    "english-definition": "An amount of money that is given back to you, especially because you are not happy with a product or service.",
+    "images": "eew-5-29/17.png"
+  },
+  {
+    "question": "Một cuốn sách hoặc hồ sơ chính thức; sổ đăng ký.",
+    "classes": "n",
+    "answer": "register",
+    "ipa": "/ˈredʒ.ə.stər/",
+    "example": "She looked at the names on the register.",
+    "english-definition": "An official list, book, or system for keeping records of information.",
+    "images": "eew-5-29/18.png"
+  },
+  {
+    "question": "Sự nổi tiếng và được nhiều người tôn trọng.",
+    "classes": "n",
+    "answer": "renown",
+    "ipa": "/rɪˈnaʊn/",
+    "example": "I hope I don’t humiliate myself in front of a person of such renown!",
+    "english-definition": "The state of being famous and respected.",
+    "images": "eew-5-29/19.png"
+  },
+  {
+    "question": "Một trong hai chiếc răng dài, cong, nhọn ở bên ngoài miệng của một số loài động vật như voi hoặc lợn lòi; ngà.",
+    "classes": "n",
+    "answer": "tusk",
+    "ipa": "/tʌsk/",
+    "example": "As she turned around to show the group some artifacts, she bumped into a fossil of an authentic elephant tusk.",
+    "english-definition": "Either of the two long, curved teeth that stick out from the mouth of some animals, such as elephants.",
+    "images": "eew-5-29/20.png"
+  }
+]
