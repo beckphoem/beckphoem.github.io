@@ -1,0 +1,932 @@
+[
+  {
+    "word": "burden",
+    "ipa": "/ˈbɜː.dən/",
+    "meaning": "Gánh nặng.",
+    "image": "eew-5-30/1.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "burden",
+        "meaning-example": "Gánh nặng.",
+        "ipa-example": "/ˈbɜː.dən/"
+      },
+      {
+        "sentence": "Ngày xưa, có một anh chàng nông dân tên là Bơ Đần. Anh ấy nổi tiếng là làm việc rất chăm chỉ nhưng lại cực kỳ lơ đễnh. Một lần, anh được giao nhiệm vụ mang một bao tải gạo khổng lồ từ trên núi xuống làng. Đáng lẽ anh phải dùng xe bò hoặc nhờ người giúp đỡ, nhưng vì quá Bơ Đần, anh đã tự mình vác cái bao tải đó trên lưng.\n\nDọc đường đi, anh kêu than: \"Ôi cái bao tải này làm tôi bơ phờ đờ đẫn (bơ-đần) quá! Nó là một gánh nặng (burden) khủng khiếp!\". Anh lảo đảo bước đi, mồ hôi nhễ nhại. Nhìn thấy cảnh đó, mọi người trong làng đều lắc đầu, gọi cái bao tải ấy là \"cái burden của anh chàng Bơ Đần\". Từ đó, mỗi khi nhắc đến một thứ gì đó nặng nề, khó khăn, người ta lại nhớ đến hình ảnh anh nông dân Bơ Đần đang oằn mình với cái gánh nặng (burden) của mình.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Something heavy that is carried; a load.",
+        "meaning-example": "Một vật nặng được mang theo; một gánh nặng.",
+        "ipa-example": "/ˈsʌmθɪŋ ˈhɛvi ðæt ɪz ˈkɛrid; ə loʊd./"
+      },
+      {
+        "sentence": "“I don’t want to be a burden to you, sir,” the woman replied.",
+        "meaning-example": "“Thưa ngài, tôi không muốn trở thành gánh nặng cho ngài,” người phụ nữ đáp.",
+        "ipa-example": "/“aɪ doʊnt wɑnt tu bi ə ˈbɜrdən tu ju, sɜr,” ðə ˈwʊmən rɪˈplaɪd./"
+      },
+      {
+        "sentence": "The donkey struggled under its heavy burden.",
+        "meaning-example": "Con lừa vật lộn dưới gánh nặng của nó.",
+        "ipa-example": "/ðə ˈdɑŋki ˈstrʌgəld ˈʌndər ɪts ˈhɛvi ˈbɜrdən./"
+      },
+      {
+        "sentence": "The burden of responsibility was weighing him down.",
+        "meaning-example": "Gánh nặng trách nhiệm đang đè nặng lên anh ấy.",
+        "ipa-example": "/ðə ˈbɜrdən əv rɪˌspɑnsəˈbɪləti wəz ˈweɪɪŋ hɪm daʊn./"
+      }
+    ]
+  },
+  {
+    "word": "compromise",
+    "ipa": "/ˈkɒm.prə.maɪz/",
+    "meaning": "Thỏa hiệp, dàn xếp.",
+    "image": "eew-5-30/2.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "compromise",
+        "meaning-example": "Thỏa hiệp, dàn xếp.",
+        "ipa-example": "/ˈkɒm.prə.maɪz/"
+      },
+      {
+        "sentence": "Có hai anh em tên là Cơm và Mãi, cả hai đều là game thủ pro. Họ cãi nhau suốt ngày vì chỉ có một máy chơi game. Mẹ họ bực mình, liền nói: \"Hai đứa cứ Cơm-pro-mãi cãi nhau thế này thì mẹ tịch thu máy luôn! Muốn chơi tiếp thì phải thỏa hiệp (compromise) đi. Mỗi đứa nhường một chút, chơi theo giờ.\" Nghe vậy, hai anh em đành phải đồng ý dàn xếp, vì họ không muốn mất cái máy game pro của mình. Từ đó, hành động nhượng bộ để đạt được thỏa thuận được gọi là compromise.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To reach an agreement in which each person or group gives up something that they wanted.",
+        "meaning-example": "Đạt được một thỏa thuận trong đó mỗi người hoặc nhóm từ bỏ một điều gì đó mà họ muốn.",
+        "ipa-example": "/tu riʧ ən əˈgrimənt ɪn wɪʧ iʧ ˈpɜrsən ɔr grup gɪvz ʌp ˈsʌmθɪŋ ðæt ðeɪ ˈwɑntəd./"
+      },
+      {
+        "sentence": "Let’s compromise. I am sure that we can find a fair solution.",
+        "meaning-example": "Chúng ta hãy thỏa hiệp. Tôi chắc chắn rằng chúng ta có thể tìm ra một giải pháp công bằng.",
+        "ipa-example": "/lɛts ˈkɑmprəˌmaɪz. aɪ æm ʃʊr ðæt wi kæn faɪnd ə fɛr səˈluʃən./"
+      },
+      {
+        "sentence": "They were unwilling to compromise on the price.",
+        "meaning-example": "Họ không sẵn lòng thỏa hiệp về giá cả.",
+        "ipa-example": "/ðeɪ wər ənˈwɪlɪŋ tu ˈkɑmprəˌmaɪz ɑn ðə praɪs./"
+      },
+      {
+        "sentence": "In any relationship, you have to compromise.",
+        "meaning-example": "Trong bất kỳ mối quan hệ nào, bạn cũng phải biết thỏa hiệp.",
+        "ipa-example": "/ɪn ˈɛni rɪˈleɪʃənˌʃɪp, ju hæv tu ˈkɑmprəˌmaɪz./"
+      }
+    ]
+  },
+  {
+    "word": "craft",
+    "ipa": "/krɑːft/",
+    "meaning": "Chế tác, làm thủ công.",
+    "image": "eew-5-30/3.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "craft",
+        "meaning-example": "Chế tác, làm thủ công.",
+        "ipa-example": "/krɑːft/"
+      },
+      {
+        "sentence": "Trong một ngôi làng mộc, có một nghệ nhân lừng danh tên là Cờ Ráp. Sở dĩ ông có tên như vậy vì âm thanh quen thuộc trong xưởng của ông luôn là tiếng cưa và tiếng ráp các mảnh gỗ lại với nhau. Ông không dùng máy móc, mọi thứ ông làm đều là chế tác thủ công (craft) một cách tỉ mỉ. Người ta đến xem ông làm việc và trầm trồ: \"Nhìn ông Cờ Ráp đang craft kìa, thật là điêu luyện!\". Cái tên Cờ Ráp và hành động craft của ông đã trở thành biểu tượng cho sự khéo léo và tài hoa.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make something in a skillful way, especially with your hands.",
+        "meaning-example": "Làm một cái gì đó một cách khéo léo, đặc biệt là bằng tay của bạn.",
+        "ipa-example": "/tu meɪk ˈsʌmθɪŋ ɪn ə ˈskɪlfəl weɪ, əˈspɛʃəli wɪθ jʊər hændz./"
+      },
+      {
+        "sentence": "He told her as he began crafting a bridge.",
+        "meaning-example": "Anh ta nói với cô khi bắt đầu chế tác một cây cầu.",
+        "ipa-example": "/hi toʊld hɜr æz hi bɪˈgæn ˈkræftɪŋ ə brɪʤ./"
+      },
+      {
+        "sentence": "All the furniture is crafted from natural materials.",
+        "meaning-example": "Tất cả đồ nội thất đều được chế tác thủ công từ vật liệu tự nhiên.",
+        "ipa-example": "/ɔl ðə ˈfɜrnɪʧər ɪz ˈkræftəd frʌm ˈnæʧərəl məˈtɪriəlz./"
+      },
+      {
+        "sentence": "She crafted a beautiful necklace for her friend.",
+        "meaning-example": "Cô ấy đã tự tay làm một chiếc vòng cổ tuyệt đẹp cho bạn mình.",
+        "ipa-example": "/ʃi ˈkræftəd ə ˈbjutəfəl ˈnɛkləs fɔr hɜr frɛnd./"
+      }
+    ]
+  },
+  {
+    "word": "crook",
+    "ipa": "/krʊk/",
+    "meaning": "Kẻ lừa đảo, kẻ gian.",
+    "image": "eew-5-30/4.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "crook",
+        "meaning-example": "Kẻ lừa đảo, kẻ gian.",
+        "ipa-example": "/krʊk/"
+      },
+      {
+        "sentence": "Có một gã bán sâm tên là Crúc. Hắn luôn bán những củ sâm cong queo, xấu xí như những khúc củi khô, nhưng lại lừa người ta rằng đó là sâm ngàn năm. Hắn là một kẻ lừa đảo (crook) chính hiệu, chuyên lừa những người cả tin. Một hôm, hắn bị lật tẩy, quan phủ phán: \"Tên Crúc này có tâm địa cong queo như chính mấy khúc sâm của hắn vậy!\". Từ đó, người ta dùng từ crook để chỉ những kẻ gian xảo, không trung thực.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A dishonest person; a criminal.",
+        "meaning-example": "Một người không trung thực; một tội phạm.",
+        "ipa-example": "/ə dɪˈsɑnɪst ˈpɜrsən; ə ˈkrɪmənəl./"
+      },
+      {
+        "sentence": "“You crook!” he shouted.",
+        "meaning-example": "“Đồ lừa đảo!” hắn ta hét lên.",
+        "ipa-example": "/“ju krʊk!” hi ˈʃaʊtəd./"
+      },
+      {
+        "sentence": "The police are determined to catch the crooks.",
+        "meaning-example": "Cảnh sát quyết tâm bắt cho được những kẻ gian.",
+        "ipa-example": "/ðə pəˈlis ɑr dɪˈtɜrmɪnd tu kæʧ ðə krʊks./"
+      },
+      {
+        "sentence": "That car salesman is a real crook.",
+        "meaning-example": "Người bán xe hơi đó đúng là một kẻ lừa đảo.",
+        "ipa-example": "/ðæt kɑr ˈseɪlzmən ɪz ə riəl krʊk./"
+      }
+    ]
+  },
+  {
+    "word": "currency",
+    "ipa": "/ˈkʌr.ən.si/",
+    "meaning": "Tiền tệ.",
+    "image": "eew-5-30/5.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "currency",
+        "meaning-example": "Tiền tệ.",
+        "ipa-example": "/ˈkʌr.ən.si/"
+      },
+      {
+        "sentence": "Có một người hành khất già ngồi ở góc chợ. Một cậu bé tốt bụng thường cho ông đồ ăn, nhưng ông lại xua tay. Cậu bé thắc mắc, ông già giải thích: \"Cứ lần xin (Cơ-ren-xi), ta chỉ mong người ta cho tiền tệ (currency) thôi, con ạ. Có tiền, ta mới tự mua được thứ mình cần nhất, như thuốc men chẳng hạn.\" Cậu bé hiểu ra và từ đó, mỗi khi nghe từ currency, cậu lại nhớ đến câu chuyện \"cứ lần xin tiền\" và hiểu ngay đó chính là tiền tệ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The money that a country uses.",
+        "meaning-example": "Tiền mà một quốc gia sử dụng.",
+        "ipa-example": "/ðə ˈmʌni ðæt ə ˈkʌntri ˈjusɪz./"
+      },
+      {
+        "sentence": "The only currency I need is the first living thing that crosses the bridge.",
+        "meaning-example": "Loại tiền tệ duy nhất ta cần là sinh vật sống đầu tiên đi qua cây cầu.",
+        "ipa-example": "/ði ˈoʊnli ˈkɜrənsi aɪ nid ɪz ðə fɜrst ˈlɪvɪŋ θɪŋ ðæt ˈkrɔsɪz ðə brɪʤ./"
+      },
+      {
+        "sentence": "The local currency is the Japanese Yen.",
+        "meaning-example": "Đơn vị tiền tệ địa phương là Yên Nhật.",
+        "ipa-example": "/ðə ˈloʊkəl ˈkɜrənsi ɪz ðə ˌʤæpəˈniz jɛn./"
+      },
+      {
+        "sentence": "You'll need to exchange your money for the local currency.",
+        "meaning-example": "Bạn sẽ cần đổi tiền của mình sang tiền tệ địa phương.",
+        "ipa-example": "/jul nid tu ɪksˈʧeɪnʤ jʊər ˈmʌni fɔr ðə ˈloʊkəl ˈkɜrənsi./"
+      }
+    ]
+  },
+  {
+    "word": "enigma",
+    "ipa": "/əˈnɪɡ.mə/",
+    "meaning": "Điều bí ẩn, người khó hiểu.",
+    "image": "eew-5-30/6.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "enigma",
+        "meaning-example": "Điều bí ẩn, người khó hiểu.",
+        "ipa-example": "/əˈnɪɡ.mə/"
+      },
+      {
+        "sentence": "Trong thành phố xuất hiện một người đàn ông lạ mặt, luôn đeo mặt nạ và không bao giờ nói tên. Mỗi khi có người tò mò lại gần và hỏi ông là ai, ông chỉ đặt ngón tay lên môi và thì thầm một câu duy nhất: \"Ê, nín mà (Ê-níc-ma)... đừng hỏi nữa\". Sự im lặng và câu nói đó khiến ông trở thành một điều bí ẩn (enigma) lớn nhất thành phố. Không ai giải đáp được ông là ai, và cái tên \"Enigma\" được dùng để chỉ những người hay sự vật khó hiểu, bí ẩn như ông.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person, place, or thing that is mysterious and difficult to understand.",
+        "meaning-example": "Một người, địa điểm hoặc sự vật bí ẩn và khó hiểu.",
+        "ipa-example": "/ə ˈpɜrsən, pleɪs, ɔr θɪŋ ðæt ɪz mɪˈstɪriəs ænd ˈdɪfɪkəlt tu ˌʌndərˈstænd./"
+      },
+      {
+        "sentence": "The man was an enigma.",
+        "meaning-example": "Người đàn ông đó là một điều bí ẩn.",
+        "ipa-example": "/ðə mæn wəz ən əˈnɪgmə./"
+      },
+      {
+        "sentence": "Even after years of study, the philosopher remains an enigma.",
+        "meaning-example": "Ngay cả sau nhiều năm nghiên cứu, nhà triết học vẫn là một ẩn số.",
+        "ipa-example": "/ˈivɪn ˈæftər jɪərz əv ˈstʌdi, ðə fəˈlɑsəfər rɪˈmeɪnz ən əˈnɪgmə./"
+      },
+      {
+        "sentence": "How the ancient pyramids were built is still an enigma.",
+        "meaning-example": "Các kim tự tháp cổ đại được xây dựng như thế nào vẫn còn là một điều bí ẩn.",
+        "ipa-example": "/haʊ ði ˈeɪnʃənt ˈpɪrəmɪdz wər bɪlt ɪz stɪl ən əˈnɪgmə./"
+      }
+    ]
+  },
+  {
+    "word": "fragile",
+    "ipa": "/ˈfrædʒ.aɪl/",
+    "meaning": "Mỏng manh, dễ vỡ.",
+    "image": "eew-5-30/7.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "fragile",
+        "meaning-example": "Mỏng manh, dễ vỡ.",
+        "ipa-example": "/ˈfrædʒ.aɪl/"
+      },
+      {
+        "sentence": "Có một người thợ gốm làm ra những chiếc bình pha lê tuyệt đẹp. Khi giao hàng cho khách, ông luôn dặn dò rất kỹ: \"Những chiếc bình này rất mỏng manh, dễ vỡ (fragile), nên khi vận chuyển phải rai rai (phờ-ra-giai) từ từ và nhẹ nhàng thôi nhé.\" Lời dặn \"phải rai rai\" của ông đã trở thành câu cửa miệng của mọi người khi muốn nhắc nhở nhau về những đồ vật mỏng manh, dễ vỡ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Easily broken or damaged.",
+        "meaning-example": "Dễ bị vỡ hoặc hư hỏng.",
+        "ipa-example": "/ˈizəli ˈbroʊkən ɔr ˈdæmɪʤd./"
+      },
+      {
+        "sentence": "“A fragile young lady like you shouldn’t have to struggle across a river,” he said.",
+        "meaning-example": "“Một tiểu thư mỏng manh như cô không nên phải vật lộn qua sông,” anh ta nói.",
+        "ipa-example": "/“ə ˈfræʤəl jʌŋ ˈleɪdi laɪk ju ˈʃʊdənt hæv tu ˈstrʌgəl əˈkrɔs ə ˈrɪvər,” hi sɛd./"
+      },
+      {
+        "sentence": "Be careful with that vase - it's very fragile.",
+        "meaning-example": "Hãy cẩn thận với chiếc bình đó - nó rất dễ vỡ.",
+        "ipa-example": "/bi ˈkɛrfəl wɪθ ðæt veɪs - ɪts ˈvɛri ˈfræʤəl./"
+      },
+      {
+        "sentence": "Their relationship is in a fragile state.",
+        "meaning-example": "Mối quan hệ của họ đang ở trong một trạng thái mong manh.",
+        "ipa-example": "/ðɛr rɪˈleɪʃənˌʃɪp ɪz ɪn ə ˈfræʤəl steɪt./"
+      }
+    ]
+  },
+  {
+    "word": "hybrid",
+    "ipa": "/ˈhaɪ.brɪd/",
+    "meaning": "Loài lai, vật lai.",
+    "image": "eew-5-30/8.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "hybrid",
+        "meaning-example": "Loài lai, vật lai.",
+        "ipa-example": "/ˈhaɪ.brɪd/"
+      },
+      {
+        "sentence": "Một nhà khoa học điên rồ đã tạo ra một sinh vật kỳ lạ bằng cách kết hợp hai (hai) con vật: ngựa và chim. Sinh vật này có thân ngựa nhưng lại có cánh chim. Ông ta đặt tên cho nó là Hai-brít. Khi mọi người hỏi nó là con gì, ông tự hào tuyên bố: \"Đây là một loài lai (hybrid)! Một sự kết hợp hoàn hảo của hai thế giới.\" Từ đó, hybrid được dùng để chỉ những thứ được tạo ra từ sự kết hợp của hai yếu tố khác nhau.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An animal or plant that has been produced from two different types of animal or plant.",
+        "meaning-example": "Một loài động vật hoặc thực vật được tạo ra từ hai loại động vật hoặc thực vật khác nhau.",
+        "ipa-example": "/ən ˈænəməl ɔr plænt ðæt hæz bɪn prəˈdust frʌm tu ˈdɪfrənt taɪps əv ˈænəməl ɔr plænt./"
+      },
+      {
+        "sentence": "He suddenly changed into a hybrid of a human and a fish.",
+        "meaning-example": "Anh ta đột nhiên biến thành một sinh vật lai giữa người và cá.",
+        "ipa-example": "/hi ˈsʌdənli ʧeɪnʤd ˈɪntu ə ˈhaɪbrɪd əv ə ˈhjumən ænd ə fɪʃ./"
+      },
+      {
+        "sentence": "The mule is a hybrid of a donkey and a horse.",
+        "meaning-example": "Con la là con lai giữa lừa và ngựa.",
+        "ipa-example": "/ðə mjul ɪz ə ˈhaɪbrɪd əv ə ˈdɑŋki ænd ə hɔrs./"
+      },
+      {
+        "sentence": "This new car is a hybrid that runs on both gas and electricity.",
+        "meaning-example": "Chiếc xe mới này là xe hybrid chạy bằng cả xăng và điện.",
+        "ipa-example": "/ðɪs nu kɑr ɪz ə ˈhaɪbrɪd ðæt rʌnz ɑn boʊθ gæs ænd ɪˌlɛkˈtrɪsəti./"
+      }
+    ]
+  },
+  {
+    "word": "innocence",
+    "ipa": "/ˈɪn.ə.səns/",
+    "meaning": "Sự ngây thơ, trong trắng.",
+    "image": "eew-5-30/9.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "innocence",
+        "meaning-example": "Sự ngây thơ, trong trắng.",
+        "ipa-example": "/ˈɪn.ə.səns/"
+      },
+      {
+        "sentence": "Một họa sĩ đang tìm kiếm ý tưởng để vẽ một bức tranh về sự ngây thơ (innocence). Ông đi lang thang và bắt gặp một cảnh tượng: một đứa bé đang say sưa vẽ những hình thù ngộ nghĩnh lên một tờ giấy trắng được in nơi sân (in-nơ-sân) nhà. Vẻ mặt trong sáng, không chút lo âu của đứa trẻ đã cho ông câu trả lời. Ông hiểu rằng innocence chính là khoảnh khắc con người chưa biết đến những điều xấu xa, giống như đứa bé đang hồn nhiên chơi đùa vậy.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The quality of not having much experience of the bad things in life.",
+        "meaning-example": "Phẩm chất không có nhiều kinh nghiệm về những điều tồi tệ trong cuộc sống.",
+        "ipa-example": "/ðə ˈkwɑləti əv nɑt ˈhævɪŋ mʌʧ ɪkˈspɪriəns əv ðə bæd θɪŋz ɪn laɪf./"
+      },
+      {
+        "sentence": "She shivered because she realized that he had taken advantage of her innocence and rigged the deal somehow.",
+        "meaning-example": "Cô rùng mình vì nhận ra rằng anh ta đã lợi dụng sự ngây thơ của cô và đã dàn xếp gian lận thỏa thuận bằng cách nào đó.",
+        "ipa-example": "/ʃi ˈʃɪvərd bɪˈkɔz ʃi ˈriəˌlaɪzd ðæt hi hæd ˈteɪkən ədˈvæntɪʤ əv hɜr ˈɪnəsəns ænd rɪgd ðə dil ˈsʌmˌhaʊ./"
+      },
+      {
+        "sentence": "She has a sweet innocence about her.",
+        "meaning-example": "Cô ấy có một vẻ ngây thơ ngọt ngào.",
+        "ipa-example": "/ʃi hæz ə swit ˈɪnəsəns əˈbaʊt hɜr./"
+      },
+      {
+        "sentence": "They have taken away his childhood and his innocence.",
+        "meaning-example": "Họ đã cướp đi tuổi thơ và sự ngây thơ của cậu bé.",
+        "ipa-example": "/ðeɪ hæv ˈteɪkən əˈweɪ hɪz ˈʧaɪldˌhʊd ænd hɪz ˈɪnəsəns./"
+      }
+    ]
+  },
+  {
+    "word": "merge",
+    "ipa": "/mɜːdʒ/",
+    "meaning": "Sáp nhập, hợp nhất.",
+    "image": "eew-5-30/10.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "merge",
+        "meaning-example": "Sáp nhập, hợp nhất.",
+        "ipa-example": "/mɜːdʒ/"
+      },
+      {
+        "sentence": "Có hai dòng suối nhỏ chảy song song qua một khu rừng. Một dòng tên là Mơ, một dòng tên là Giơ. Chúng chảy mãi rồi đến một thung lũng, chúng gặp nhau và hòa làm một, tạo thành một con sông lớn hơn. Người dân địa phương gọi điểm gặp nhau đó là nơi Mơ và Giơ sáp nhập (merge). Mỗi khi có ai hỏi đường đến con sông lớn, họ lại chỉ: \"Cứ đi đến chỗ hai dòng suối merge lại là tới.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To combine or join together, or to cause things to do this.",
+        "meaning-example": "Kết hợp hoặc nối lại với nhau, hoặc khiến mọi thứ làm điều này.",
+        "ipa-example": "/tu kəmˈbaɪn ɔr ʤɔɪn təˈgɛðər, ɔr tu kɑz θɪŋz tu du ðɪs./"
+      },
+      {
+        "sentence": "He merged the pieces of the bridge together with amazing speed.",
+        "meaning-example": "Anh ta hợp nhất các mảnh của cây cầu lại với nhau với tốc độ đáng kinh ngạc.",
+        "ipa-example": "/hi mɜrʤd ðə ˈpisəz əv ðə brɪʤ təˈgɛðər wɪθ əˈmeɪzɪŋ spid./"
+      },
+      {
+        "sentence": "The two companies decided to merge to form a larger one.",
+        "meaning-example": "Hai công ty đã quyết định sáp nhập để tạo thành một công ty lớn hơn.",
+        "ipa-example": "/ðə tu ˈkʌmpəniz dɪˈsaɪdəd tu mɜrʤ tu fɔrm ə ˈlɑrʤər wʌn./"
+      },
+      {
+        "sentence": "The small stream merges with the river here.",
+        "meaning-example": "Dòng suối nhỏ hợp nhất với dòng sông ở đây.",
+        "ipa-example": "/ðə smɔl strim ˈmɜrʤɪz wɪθ ðə ˈrɪvər hir./"
+      }
+    ]
+  },
+  {
+    "word": "moderate",
+    "ipa": "/ˈmɒd.ər.ət/",
+    "meaning": "Vừa phải, điều độ.",
+    "image": "eew-5-30/11.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "moderate",
+        "meaning-example": "Vừa phải, điều độ.",
+        "ipa-example": "/ˈmɒd.ər.ət/"
+      },
+      {
+        "sentence": "Một vị vua khôn ngoan tên là Mô Đơ Rết. Khi đất nước bị hạn hán, ông không tăng thuế quá cao để dân không oán thán, cũng không giảm quá thấp để ngân khố không cạn kiệt. Ông chỉ ban hành một mức thuế vừa phải (moderate). Dân chúng thấy mức thuế này hợp lý, họ nói với nhau: \"Cứ mó đồ rẻ (mó-đơ-rệt) mà mua thôi, vì thuế của vua Mô Đơ Rết rất điều độ, không làm giá cả tăng cao.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Neither small nor large in size, amount, degree, or strength.",
+        "meaning-example": "Không nhỏ cũng không lớn về kích thước, số lượng, mức độ hoặc sức mạnh.",
+        "ipa-example": "/ˈnaɪðər smɔl nɔr lɑrʤ ɪn saɪz, əˈmaʊnt, dɪˈgri, ɔr strɛŋkθ./"
+      },
+      {
+        "sentence": "A young woman’s cow had crossed the river in the morning when the water level was moderate.",
+        "meaning-example": "Con bò của một phụ nữ trẻ đã qua sông vào buổi sáng khi mực nước ở mức vừa phải.",
+        "ipa-example": "/ə jʌŋ ˈwʊmənz kaʊ hæd krɔst ðə ˈrɪvər ɪn ðə ˈmɔrnɪŋ wɛn ðə ˈwɔtər ˈlɛvəl wəz ˈmɑdərət./"
+      },
+      {
+        "sentence": "He is a man of moderate views.",
+        "meaning-example": "Ông ấy là một người có quan điểm ôn hòa.",
+        "ipa-example": "/hi ɪz ə mæn əv ˈmɑdərət vjuz./"
+      },
+      {
+        "sentence": "The hotel offers comfortable rooms at moderate prices.",
+        "meaning-example": "Khách sạn cung cấp các phòng tiện nghi với giá cả phải chăng.",
+        "ipa-example": "/ðə hoʊˈtɛl ˈɔfərz ˈkʌmfərtəbəl rumz æt ˈmɑdərət ˈpraɪsəz./"
+      }
+    ]
+  },
+  {
+    "word": "overwhelm",
+    "ipa": "/ˌəʊ.vəˈwelm/",
+    "meaning": "Làm choáng ngợp, áp đảo.",
+    "image": "eew-5-30/12.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "overwhelm",
+        "meaning-example": "Làm choáng ngợp, áp đảo.",
+        "ipa-example": "/ˌəʊ.vəˈwelm/"
+      },
+      {
+        "sentence": "Một cô học trò nhỏ lần đầu tiên bước vào thư viện hoàng gia. Nhìn thấy hàng ngàn cuốn sách cao đến tận trần nhà, cô bé choáng váng. Cô bé thốt lên với người thủ thư: \"Ôi, em (ô-vơ-oem) không biết phải bắt đầu từ đâu nữa! Số sách này thật sự đã làm choáng ngợp (overwhelm) em rồi.\" Cảm giác bị một thứ gì đó quá lớn, quá nhiều áp đảo hoàn toàn chính là overwhelm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To cause someone to feel sudden strong emotion.",
+        "meaning-example": "Gây cho ai đó cảm giác xúc động mạnh đột ngột.",
+        "ipa-example": "/tu kɑz ˈsʌmwʌn tu fil ˈsʌdən strɔŋ ɪˈmoʊʃən./"
+      },
+      {
+        "sentence": "But when the woman returned with her dog to get the cow, she was overwhelmed by how high the water had risen.",
+        "meaning-example": "Nhưng khi người phụ nữ quay lại cùng con chó của mình để dắt con bò về, cô đã bị choáng ngợp bởi mực nước dâng cao.",
+        "ipa-example": "/bʌt wɛn ðə ˈwʊmən rɪˈtɜrnd wɪθ hɜr dɔg tu gɛt ðə kaʊ, ʃi wəz ˌoʊvərˈwɛlmd baɪ haʊ haɪ ðə ˈwɔtər hæd ˈrɪzən./"
+      },
+      {
+        "sentence": "They were overwhelmed with grief when their father died.",
+        "meaning-example": "Họ choáng ngợp trong đau buồn khi cha họ qua đời.",
+        "ipa-example": "/ðeɪ wər ˌoʊvərˈwɛlmd wɪθ grif wɛn ðɛr ˈfɑðər daɪd./"
+      },
+      {
+        "sentence": "I was overwhelmed by all the beautiful flowers.",
+        "meaning-example": "Tôi đã bị choáng ngợp bởi tất cả những bông hoa xinh đẹp.",
+        "ipa-example": "/aɪ wəz ˌoʊvərˈwɛlmd baɪ ɔl ðə ˈbjutəfəl ˈflaʊərz./"
+      }
+    ]
+  },
+  {
+    "word": "perception",
+    "ipa": "/pəˈsep.ʃən/",
+    "meaning": "Sự nhận thức, cách nhìn nhận.",
+    "image": "eew-5-30/13.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "perception",
+        "meaning-example": "Sự nhận thức, cách nhìn nhận.",
+        "ipa-example": "/pəˈsep.ʃən/"
+      },
+      {
+        "sentence": "Một vị thiền sư dạy học trò: \"Để hiểu một vấn đề, các con không thể nhìn lướt qua. Các con phải xếp dần (pơ-sép-sần) các sự kiện, các chi tiết lại với nhau trong đầu. Khi đó, sự nhận thức (perception) của các con về nó mới trở nên sâu sắc và đúng đắn.\" Quá trình sắp xếp thông tin để hình thành nên cách nhìn và ý kiến riêng chính là perception.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The way you think about something and your idea of what it is like.",
+        "meaning-example": "Cách bạn nghĩ về một cái gì đó và ý tưởng của bạn về nó như thế nào.",
+        "ipa-example": "/ðə weɪ ju θɪŋk əˈbaʊt ˈsʌmθɪŋ ænd jʊər aɪˈdiə əv wʌt ɪt ɪz laɪk./"
+      },
+      {
+        "sentence": "The young woman’s perception of him was that he was a sociable person.",
+        "meaning-example": "Nhận thức của người phụ nữ trẻ về anh ta là một người hòa đồng.",
+        "ipa-example": "/ðə jʌŋ ˈwʊmənz pərˈsɛpʃən əv hɪm wəz ðæt hi wəz ə ˈsoʊʃəbəl ˈpɜrsən./"
+      },
+      {
+        "sentence": "My perception of the situation is quite different.",
+        "meaning-example": "Cách nhìn nhận của tôi về tình hình là hoàn toàn khác.",
+        "ipa-example": "/maɪ pərˈsɛpʃən əv ðə ˌsɪʧuˈeɪʃən ɪz kwaɪt ˈdɪfrənt./"
+      },
+      {
+        "sentence": "The public's perception of the government is changing.",
+        "meaning-example": "Nhận thức của công chúng về chính phủ đang thay đổi.",
+        "ipa-example": "/ðə ˈpʌblɪks pərˈsɛpʃən əv ðə ˈgʌvərnmənt ɪz ˈʧeɪnʤɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "reunion",
+    "ipa": "/ˌriːˈjuː.njən/",
+    "meaning": "Sự sum họp, cuộc hội ngộ.",
+    "image": "eew-5-30/14.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "reunion",
+        "meaning-example": "Sự sum họp, cuộc hội ngộ.",
+        "ipa-example": "/ˌriːˈjuː.njən/"
+      },
+      {
+        "sentence": "Sau nhiều năm xa cách vì chiến tranh, một gia đình cuối cùng cũng được đoàn tụ. Trong bữa tiệc, những đứa trẻ gặp lại nhau, chúng vui mừng chạy nhảy, nói cười ríu rít như chim non (ri-iu-ni-ần). Nhìn cảnh tượng đó, người ông mỉm cười nói: \"Đây mới thực sự là một cuộc sum họp (reunion) trọn vẹn.\" Từ đó, những cuộc gặp gỡ đầm ấm sau thời gian xa cách đều được gọi là reunion.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A social event for a group of people who have not seen each other for a long time.",
+        "meaning-example": "Một sự kiện xã hội cho một nhóm người đã lâu không gặp nhau.",
+        "ipa-example": "/ə ˈsoʊʃəl ɪˈvɛnt fɔr ə grup əv ˈpipəl hu hæv nɑt sin iʧ ˈʌðər fɔr ə lɔŋ taɪm./"
+      },
+      {
+        "sentence": "The woman tramped across the bridge to the other side and had a happy reunion with her dog and cow.",
+        "meaning-example": "Người phụ nữ lê bước qua cầu sang bờ bên kia và có một cuộc sum họp vui vẻ với con chó và con bò của mình.",
+        "ipa-example": "/ðə ˈwʊmən træmpt əˈkrɔs ðə brɪʤ tu ði ˈʌðər saɪd ænd hæd ə ˈhæpi riˈunjən wɪθ hɜr dɔg ænd kaʊ./"
+      },
+      {
+        "sentence": "We're having a family reunion next week.",
+        "meaning-example": "Chúng tôi sẽ có một buổi họp mặt gia đình vào tuần tới.",
+        "ipa-example": "/wɪr ˈhævɪŋ ə ˈfæməli riˈunjən nɛkst wik./"
+      },
+      {
+        "sentence": "She attended her high school reunion.",
+        "meaning-example": "Cô ấy đã tham dự buổi họp lớp trung học của mình.",
+        "ipa-example": "/ʃi əˈtɛndəd hɜr haɪ skul riˈunjən./"
+      }
+    ]
+  },
+  {
+    "word": "rig",
+    "ipa": "/rɪɡ/",
+    "meaning": "Dàn xếp, gian lận (kết quả).",
+    "image": "eew-5-30/15.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "rig",
+        "meaning-example": "Dàn xếp, gian lận (kết quả).",
+        "ipa-example": "/rɪɡ/"
+      },
+      {
+        "sentence": "Trong một cuộc đua ngựa, con ngựa của lão nhà giàu Rích luôn về nhất một cách đáng ngờ. Một người xem tinh ý đã nghe thấy tiếng rích rắc (rích) lạ phát ra từ yên ngựa của các đối thủ khác. Hóa ra lão Rích đã bí mật gắn thiết bị làm ngựa của họ chạy chậm lại. Lão đã dàn xếp gian lận (rig) kết quả cuộc đua. Hành động sắp đặt một cách không trung thực để có kết quả mong muốn được gọi là rig.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To arrange or control something in a dishonest way to get the result you want.",
+        "meaning-example": "Sắp xếp hoặc kiểm soát một cái gì đó một cách không trung thực để có được kết quả bạn muốn.",
+        "ipa-example": "/tu əˈreɪnʤ ɔr kənˈtroʊl ˈsʌmθɪŋ ɪn ə dɪˈsɑnɪst weɪ tu gɛt ðə rɪˈzʌlt ju wɑnt./"
+      },
+      {
+        "sentence": "She shivered because she realized that he had taken advantage of her innocence and rigged the deal somehow.",
+        "meaning-example": "Cô rùng mình vì nhận ra rằng anh ta đã lợi dụng sự ngây thơ của cô và đã dàn xếp gian lận thỏa thuận bằng cách nào đó.",
+        "ipa-example": "/ʃi ˈʃɪvərd bɪˈkɔz ʃi ˈriəˌlaɪzd ðæt hi hæd ˈteɪkən ədˈvæntɪʤ əv hɜr ˈɪnəsəns ænd rɪgd ðə dil ˈsʌmˌhaʊ./"
+      },
+      {
+        "sentence": "He claimed the election had been rigged.",
+        "meaning-example": "Anh ta cho rằng cuộc bầu cử đã bị gian lận.",
+        "ipa-example": "/hi kleɪmd ði ɪˈlɛkʃən hæd bɪn rɪgd./"
+      },
+      {
+        "sentence": "The competition was rigged from the start.",
+        "meaning-example": "Cuộc thi đã được dàn xếp ngay từ đầu.",
+        "ipa-example": "/ðə ˌkɑmpəˈtɪʃən wəz rɪgd frʌm ðə stɑrt./"
+      }
+    ]
+  },
+  {
+    "word": "shiver",
+    "ipa": "/ˈʃɪv.ər/",
+    "meaning": "Sự run rẩy (vì lạnh, sợ).",
+    "image": "eew-5-30/16.png",
+    "classes": "noun",
+    "example": [
+      {
+        "sentence": "shiver",
+        "meaning-example": "Sự run rẩy (vì lạnh, sợ).",
+        "ipa-example": "/ˈʃɪv.ər/"
+      },
+      {
+        "sentence": "Một nhà thám hiểm bị lạc trong cơn bão tuyết. Trời lạnh đến mức anh ta cảm thấy toàn thân run rẩy (shiver) không ngừng. Anh nhìn xuống chiếc áo len của mình và tưởng tượng rằng ngay cả từng sợi vơ (si-vơ) len cũng đang run lên vì lạnh. Cơn run bần bật vì lạnh hoặc sợ hãi đó chính là shiver.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A slight shaking movement of your body, for example because you are cold or frightened.",
+        "meaning-example": "Một chuyển động rung nhẹ của cơ thể bạn, ví dụ như vì bạn bị lạnh hoặc sợ hãi.",
+        "ipa-example": "/ə slaɪt ˈʃeɪkɪŋ ˈmuvmənt əv jʊər ˈbɑdi, fɔr ɪgˈzæmpəl bɪˈkɔz ju ɑr koʊld ɔr ˈfraɪtənd./"
+      },
+      {
+        "sentence": "She shivered because she realized that he had taken advantage of her innocence and rigged the deal somehow.",
+        "meaning-example": "Cô rùng mình vì nhận ra rằng anh ta đã lợi dụng sự ngây thơ của cô và đã dàn xếp gian lận thỏa thuận bằng cách nào đó.",
+        "ipa-example": "/ʃi ˈʃɪvərd bɪˈkɔz ʃi ˈriəˌlaɪzd ðæt hi hæd ˈteɪkən ədˈvæntɪʤ əv hɜr ˈɪnəsəns ænd rɪgd ðə dil ˈsʌmˌhaʊ./"
+      },
+      {
+        "sentence": "A shiver of excitement ran down her spine.",
+        "meaning-example": "Một cơn rùng mình vì phấn khích chạy dọc sống lưng cô.",
+        "ipa-example": "/ə ˈʃɪvər əv ɪkˈsaɪtmənt ræn daʊn hɜr spaɪn./"
+      },
+      {
+        "sentence": "He felt a shiver as he stepped out into the cold.",
+        "meaning-example": "Anh cảm thấy rùng mình khi bước ra ngoài trời lạnh.",
+        "ipa-example": "/hi fɛlt ə ˈʃɪvər æz hi stɛpt aʊt ˈɪntu ðə koʊld./"
+      }
+    ]
+  },
+  {
+    "word": "sociable",
+    "ipa": "/ˈsəʊ.ʃə.bəl/",
+    "meaning": "Hòa đồng, thích giao du.",
+    "image": "eew-5-30/17.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "sociable",
+        "meaning-example": "Hòa đồng, thích giao du.",
+        "ipa-example": "/ˈsəʊ.ʃə.bəl/"
+      },
+      {
+        "sentence": "Hoàng tử Sô Sơ Bồ nổi tiếng là người không thích sự yên tĩnh của hoàng cung. Chàng thích đến những nơi lễ hội ồn ào, náo nhiệt, những nơi xô bồ (sô-sơ-bồ) và đông người. Chàng thích trò chuyện, kết bạn và luôn là trung tâm của mọi bữa tiệc. Vì tính cách đó, mọi người đều nói rằng hoàng tử là một người cực kỳ hòa đồng, thích giao du (sociable).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Liking to be with people; friendly.",
+        "meaning-example": "Thích ở cùng mọi người; thân thiện.",
+        "ipa-example": "/ˈlaɪkɪŋ tu bi wɪθ ˈpipəl; ˈfrɛndli./"
+      },
+      {
+        "sentence": "The young woman’s perception of him was that he was a sociable person.",
+        "meaning-example": "Nhận thức của người phụ nữ trẻ về anh ta là một người hòa đồng.",
+        "ipa-example": "/ðə jʌŋ ˈwʊmənz pərˈsɛpʃən əv hɪm wəz ðæt hi wəz ə ˈsoʊʃəbəl ˈpɜrsən./"
+      },
+      {
+        "sentence": "She's a sociable child who'll talk to anyone.",
+        "meaning-example": "Cô bé là một đứa trẻ hòa đồng, sẽ nói chuyện với bất kỳ ai.",
+        "ipa-example": "/ʃiz ə ˈsoʊʃəbəl ʧaɪld hu tɔk tu ˈɛniˌwʌn./"
+      },
+      {
+        "sentence": "He is not a very sociable man.",
+        "meaning-example": "Anh ấy không phải là một người đàn ông hòa đồng cho lắm.",
+        "ipa-example": "/hi ɪz nɑt ə ˈvɛri ˈsoʊʃəbəl mæn./"
+      }
+    ]
+  },
+  {
+    "word": "talkative",
+    "ipa": "/ˈtɔː.kə.tɪv/",
+    "meaning": "Nói nhiều, hay chuyện.",
+    "image": "eew-5-30/18.png",
+    "classes": "adjective",
+    "example": [
+      {
+        "sentence": "talkative",
+        "meaning-example": "Nói nhiều, hay chuyện.",
+        "ipa-example": "/ˈtɔː.kə.tɪv/"
+      },
+      {
+        "sentence": "Trong lớp có một cô bé tên Típ. Cô bé có thể nói chuyện không ngừng nghỉ, từ chuyện trên trời dưới đất. Thầy giáo trêu cô bé: \"Những gì em nói trong một ngày có thể ghi ra thành to cả tệp (to-ka-típ) giấy đấy, Típ ạ!\". Cả lớp cười ồ lên. Ai cũng công nhận Típ là người nói nhiều (talkative) nhất mà họ từng gặp.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Liking to talk a lot.",
+        "meaning-example": "Thích nói nhiều.",
+        "ipa-example": "/ˈlaɪkɪŋ tu tɔk ə lɑt./"
+      },
+      {
+        "sentence": "He was talkative, yet something was strange about him.",
+        "meaning-example": "Anh ta nói nhiều, nhưng có điều gì đó kỳ lạ ở anh ta.",
+        "ipa-example": "/hi wəz ˈtɔkətɪv, jɛt ˈsʌmθɪŋ wəz streɪnʤ əˈbaʊt hɪm./"
+      },
+      {
+        "sentence": "My brother is very talkative, while I'm quiet.",
+        "meaning-example": "Anh trai tôi rất hay nói, trong khi tôi thì trầm tính.",
+        "ipa-example": "/maɪ ˈbrʌðər ɪz ˈvɛri ˈtɔkətɪv, waɪl aɪm ˈkwaɪət./"
+      },
+      {
+        "sentence": "She was in a talkative mood.",
+        "meaning-example": "Cô ấy đang có tâm trạng muốn nói chuyện.",
+        "ipa-example": "/ʃi wəz ɪn ə ˈtɔkətɪv mud./"
+      }
+    ]
+  },
+  {
+    "word": "tow",
+    "ipa": "/təʊ/",
+    "meaning": "Kéo, dắt (xe, tàu).",
+    "image": "eew-5-30/19.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "tow",
+        "meaning-example": "Kéo, dắt (xe, tàu).",
+        "ipa-example": "/təʊ/"
+      },
+      {
+        "sentence": "Một chiếc thuyền của vị quan bị hỏng động cơ giữa sông. Ông lo lắng nhìn vào bờ. May thay, một chiếc thuyền kéo đi qua. Vị quan liền chắp tay, nói lớn: \"Muôn tâu (tâu) người anh em, thuyền của ta bị hỏng rồi, phiền anh em dùng thuyền của mình để kéo (tow) thuyền của ta vào bờ được không?\". Hành động dùng một phương tiện để kéo một phương tiện khác được gọi là tow.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To pull another vehicle, using a rope or chain.",
+        "meaning-example": "Kéo một chiếc xe khác, bằng dây thừng hoặc dây xích.",
+        "ipa-example": "/tu pʊl əˈnʌðər ˈvihɪkəl, ˈjuzɪŋ ə roʊp ɔr ʧeɪn./"
+      },
+      {
+        "sentence": "Even if she crossed, she still couldn’t tow her cow back through the river.",
+        "meaning-example": "Ngay cả khi qua được sông, cô vẫn không thể kéo con bò của mình quay trở lại qua sông.",
+        "ipa-example": "/ˈivɪn ɪf ʃi krɔst, ʃi stɪl ˈkʊdənt toʊ hɜr kaʊ bæk θru ðə ˈrɪvər./"
+      },
+      {
+        "sentence": "The car had to be towed to the nearest garage.",
+        "meaning-example": "Chiếc xe phải được kéo đến gara gần nhất.",
+        "ipa-example": "/ðə kɑr hæd tu bi toʊd tu ðə ˈnɪrəst gəˈrɑʒ./"
+      },
+      {
+        "sentence": "Our boat was towed into the harbor.",
+        "meaning-example": "Thuyền của chúng tôi đã được kéo vào cảng.",
+        "ipa-example": "/ˈaʊər boʊt wəz toʊd ˈɪntu ðə ˈhɑrbər./"
+      }
+    ]
+  },
+  {
+    "word": "tramp",
+    "ipa": "/træmp/",
+    "meaning": "Đi bộ nặng nề, lê bước.",
+    "image": "eew-5-30/20.png",
+    "classes": "verb",
+    "example": [
+      {
+        "sentence": "tramp",
+        "meaning-example": "Đi bộ nặng nề, lê bước.",
+        "ipa-example": "/træmp/"
+      },
+      {
+        "sentence": "Có một người bộ hành nghèo đi lang thang khắp nơi. Ông không có tiền đi xe ngựa nên phải đi bộ từ trạm (trâm) nghỉ này đến trạm nghỉ khác. Vì đôi giày đã cũ và hành lý nặng nề, mỗi bước chân của ông đều rất nặng nhọc, tạo ra tiếng lết trên đường. Cách đi bộ nặng nề, lê bước như vậy được gọi là tramp.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To walk a long way, or to walk with heavy steps.",
+        "meaning-example": "Đi một quãng đường dài, hoặc đi với những bước chân nặng nề.",
+        "ipa-example": "/tu wɔk ə lɔŋ weɪ, ɔr tu wɔk wɪθ ˈhɛvi stɛps./"
+      },
+      {
+        "sentence": "The woman tramped across the bridge to the other side and had a happy reunion with her dog and cow.",
+        "meaning-example": "Người phụ nữ lê bước qua cầu sang bờ bên kia và có một cuộc sum họp vui vẻ với con chó và con bò của mình.",
+        "ipa-example": "/ðə ˈwʊmən træmpt əˈkrɔs ðə brɪʤ tu ði ˈʌðər saɪd ænd hæd ə ˈhæpi riˈunjən wɪθ hɜr dɔg ænd kaʊ./"
+      },
+      {
+        "sentence": "We tramped through the woods for hours.",
+        "meaning-example": "Chúng tôi đã đi bộ nặng nề qua khu rừng trong nhiều giờ.",
+        "ipa-example": "/wi træmpt θru ðə wʊdz fɔr ˈaʊərz./"
+      },
+      {
+        "sentence": "He tramped up the stairs in his muddy boots.",
+        "meaning-example": "Anh ta lê bước lên cầu thang với đôi ủng dính đầy bùn.",
+        "ipa-example": "/hi træmpt ʌp ðə stɛrz ɪn hɪz ˈmʌdi buts./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Demon’s Bridge",
+        "meaning-example": "Cây Cầu Của Quỷ",
+        "ipa-example": "/ðə ˈdimənz brɪʤ/"
+      },
+      {
+        "sentence": "A young woman’s cow had crossed the river in the morning when the water level was moderate.",
+        "meaning-example": "Con bò của một phụ nữ trẻ đã qua sông vào buổi sáng khi mực nước ở mức vừa phải.",
+        "ipa-example": "/ə jʌŋ ˈwʊmənz kaʊ hæd krɔst ðə ˈrɪvər ɪn ðə ˈmɔrnɪŋ wɛn ðə ˈwɔtər ˈlɛvəl wəz ˈmɑdərət./"
+      },
+      {
+        "sentence": "But when the woman returned with her dog to get the cow, she was overwhelmed by how high the water had risen.",
+        "meaning-example": "Nhưng khi người phụ nữ quay lại cùng con chó của mình để dắt con bò về, cô đã bị choáng ngợp bởi mực nước dâng cao.",
+        "ipa-example": "/bʌt wɛn ðə ˈwʊmən rɪˈtɜrnd wɪθ hɜr dɔg tu gɛt ðə kaʊ, ʃi wəz ˌoʊvərˈwɛlmd baɪ haʊ haɪ ðə ˈwɔtər hæd ˈrɪzən./"
+      },
+      {
+        "sentence": "Even if she crossed, she still couldn’t tow her cow back through the river.",
+        "meaning-example": "Ngay cả khi qua được sông, cô vẫn không thể kéo con bò của mình quay trở lại qua sông.",
+        "ipa-example": "/ˈivɪn ɪf ʃi krɔst, ʃi stɪl ˈkʊdənt toʊ hɜr kaʊ bæk θru ðə ˈrɪvər./"
+      },
+      {
+        "sentence": "“What am I going to do?” she wondered.",
+        "meaning-example": "“Mình phải làm gì bây giờ?” cô tự hỏi.",
+        "ipa-example": "/“wʌt æm aɪ ˈgoʊɪŋ tu du?” ʃi ˈwʌndərd./"
+      },
+      {
+        "sentence": "Suddenly, a man appeared across the river.",
+        "meaning-example": "Đột nhiên, một người đàn ông xuất hiện ở bên kia sông.",
+        "ipa-example": "/ˈsʌdənli, ə mæn əˈpɪrd əˈkrɔs ðə ˈrɪvər./"
+      },
+      {
+        "sentence": "“A fragile young lady like you shouldn’t have to struggle across a river,” he said.",
+        "meaning-example": "“Một tiểu thư mỏng manh như cô không nên phải vật lộn qua sông,” anh ta nói.",
+        "ipa-example": "/“ə ˈfræʤəl jʌŋ ˈleɪdi laɪk ju ˈʃʊdənt hæv tu ˈstrʌgəl əˈkrɔs ə ˈrɪvər,” hi sɛd./"
+      },
+      {
+        "sentence": "“I’ll build you a bridge.”",
+        "meaning-example": "“Ta sẽ xây cho cô một cây cầu.”",
+        "ipa-example": "/“aɪl bɪld ju ə brɪʤ.”/"
+      },
+      {
+        "sentence": "The man was an enigma.",
+        "meaning-example": "Người đàn ông đó là một điều bí ẩn.",
+        "ipa-example": "/ðə mæn wəz ən əˈnɪgmə./"
+      },
+      {
+        "sentence": "The young woman’s perception of him was that he was a sociable person.",
+        "meaning-example": "Nhận thức của người phụ nữ trẻ về anh ta là một người hòa đồng.",
+        "ipa-example": "/ðə jʌŋ ˈwʊmənz pərˈsɛpʃən əv hɪm wəz ðæt hi wəz ə ˈsoʊʃəbəl ˈpɜrsən./"
+      },
+      {
+        "sentence": "He was talkative, yet something was strange about him.",
+        "meaning-example": "Anh ta nói nhiều, nhưng có điều gì đó kỳ lạ ở anh ta.",
+        "ipa-example": "/hi wəz ˈtɔkətɪv, jɛt ˈsʌmθɪŋ wəz streɪnʤ əˈbaʊt hɪm./"
+      },
+      {
+        "sentence": "“I don’t want to be a burden to you, sir,” the woman replied.",
+        "meaning-example": "“Thưa ngài, tôi không muốn trở thành gánh nặng cho ngài,” người phụ nữ đáp.",
+        "ipa-example": "/“aɪ doʊnt wɑnt tu bi ə ˈbɜrdən tu ju, sɜr,” ðə ˈwʊmən rɪˈplaɪd./"
+      },
+      {
+        "sentence": "“Don’t worry,” he told her as he began crafting a bridge.",
+        "meaning-example": "“Đừng lo,” anh ta nói với cô khi bắt đầu chế tác một cây cầu.",
+        "ipa-example": "/“doʊnt ˈwɜri,” hi toʊld hɜr æz hi bɪˈgæn ˈkræftɪŋ ə brɪʤ./"
+      },
+      {
+        "sentence": "He merged the pieces of the bridge together with amazing speed.",
+        "meaning-example": "Anh ta hợp nhất các mảnh của cây cầu lại với nhau với tốc độ đáng kinh ngạc.",
+        "ipa-example": "/hi mɜrʤd ðə ˈpisəz əv ðə brɪʤ təˈgɛðər wɪθ əˈmeɪzɪŋ spid./"
+      },
+      {
+        "sentence": "Soon, it was finished.",
+        "meaning-example": "Chẳng mấy chốc, nó đã hoàn thành.",
+        "ipa-example": "/sun, ɪt wəz ˈfɪnɪʃt./"
+      },
+      {
+        "sentence": "“Oh, but how can I pay you for your work? Let’s compromise. I am sure that we can find a fair solution. What do you think?” The woman asked.",
+        "meaning-example": "“Ồ, nhưng làm sao tôi có thể trả công cho ngài được? Chúng ta hãy thỏa hiệp. Tôi chắc chắn rằng chúng ta có thể tìm ra một giải pháp công bằng. Ngài nghĩ sao?” Người phụ nữ hỏi.",
+        "ipa-example": "/“oʊ, bʌt haʊ kæn aɪ peɪ ju fɔr jʊər wɜrk? lɛts ˈkɑmprəˌmaɪz. aɪ æm ʃʊr ðæt wi kæn faɪnd ə fɛr səˈluʃən. wʌt du ju θɪŋk?” ðə ˈwʊmən æskt./"
+      },
+      {
+        "sentence": "“The only currency I need is the first living thing that crosses the bridge,” the man replied.",
+        "meaning-example": "“Loại tiền tệ duy nhất ta cần là sinh vật sống đầu tiên đi qua cây cầu,” người đàn ông đáp.",
+        "ipa-example": "/“ði ˈoʊnli ˈkɜrənsi aɪ nid ɪz ðə fɜrst ˈlɪvɪŋ θɪŋ ðæt ˈkrɔsɪz ðə brɪʤ,” ðə mæn rɪˈplaɪd./"
+      },
+      {
+        "sentence": "She thought, “This deal sounds weird. Maybe he’s actually a river demon.”",
+        "meaning-example": "Cô nghĩ, “Thỏa thuận này nghe thật kỳ lạ. Có lẽ anh ta thực sự là một con quỷ sông.”",
+        "ipa-example": "/ʃi θɔt, “ðɪs dil saʊndz wɪrd. ˈmeɪbi hiz ˈækʧuəli ə ˈrɪvər ˈdimən.”/"
+      },
+      {
+        "sentence": "She shivered because she realized that he had taken advantage of her innocence and rigged the deal somehow.",
+        "meaning-example": "Cô rùng mình vì nhận ra rằng anh ta đã lợi dụng sự ngây thơ của cô và đã dàn xếp gian lận thỏa thuận bằng cách nào đó.",
+        "ipa-example": "/ʃi ˈʃɪvərd bɪˈkɔz ʃi ˈriəˌlaɪzd ðæt hi hæd ˈteɪkən ədˈvæntɪʤ əv hɜr ˈɪnəsəns ænd rɪgd ðə dil ˈsʌmˌhaʊ./"
+      },
+      {
+        "sentence": "But she had a plan of her own.",
+        "meaning-example": "Nhưng cô đã có kế hoạch của riêng mình.",
+        "ipa-example": "/bʌt ʃi hæd ə plæn əv hɜr oʊn./"
+      },
+      {
+        "sentence": "She pulled a piece of bread from her pocket and threw it across the bridge.",
+        "meaning-example": "Cô rút một mẩu bánh mì từ trong túi ra và ném nó qua cầu.",
+        "ipa-example": "/ʃi pʊld ə pis əv brɛd frʌm hɜr ˈpɑkət ænd θru ɪt əˈkrɔs ðə brɪʤ./"
+      },
+      {
+        "sentence": "Her dog ran after it.",
+        "meaning-example": "Con chó của cô chạy theo nó.",
+        "ipa-example": "/hɜr dɔg ræn ˈæftər ɪt./"
+      },
+      {
+        "sentence": "“The dog is the first living thing across the bridge,” she said to the man.",
+        "meaning-example": "“Con chó là sinh vật sống đầu tiên qua cầu,” cô nói với người đàn ông.",
+        "ipa-example": "/“ðə dɔg ɪz ðə fɜrst ˈlɪvɪŋ θɪŋ əˈkrɔs ðə brɪʤ,” ʃi sɛd tu ðə mæn./"
+      },
+      {
+        "sentence": "The man was angry.",
+        "meaning-example": "Người đàn ông đã tức giận.",
+        "ipa-example": "/ðə mæn wəz ˈæŋgri./"
+      },
+      {
+        "sentence": "He suddenly changed into a hybrid of a human and a fish.",
+        "meaning-example": "Anh ta đột nhiên biến thành một sinh vật lai giữa người và cá.",
+        "ipa-example": "/hi ˈsʌdənli ʧeɪnʤd ˈɪntu ə ˈhaɪbrɪd əv ə ˈhjumən ænd ə fɪʃ./"
+      },
+      {
+        "sentence": "“You crook!” he shouted.",
+        "meaning-example": "“Đồ lừa đảo!” hắn ta hét lên.",
+        "ipa-example": "/“ju krʊk!” hi ˈʃaʊtəd./"
+      },
+      {
+        "sentence": "“You tricked me. I have no use for your dog!”",
+        "meaning-example": "“Cô đã lừa ta. Ta không cần con chó của cô!”",
+        "ipa-example": "/“ju trɪkt mi. aɪ hæv noʊ jus fɔr jʊər dɔg!”/"
+      },
+      {
+        "sentence": "He screamed and dove into the river.",
+        "meaning-example": "Hắn hét lên và lao xuống sông.",
+        "ipa-example": "/hi skrimd ænd doʊv ˈɪntu ðə ˈrɪvər./"
+      },
+      {
+        "sentence": "The woman tramped across the bridge to the other side and had a happy reunion with her dog and cow.",
+        "meaning-example": "Người phụ nữ lê bước qua cầu sang bờ bên kia và có một cuộc sum họp vui vẻ với con chó và con bò của mình.",
+        "ipa-example": "/ðə ˈwʊmən træmpt əˈkrɔs ðə brɪʤ tu ði ˈʌðər saɪd ænd hæd ə ˈhæpi riˈunjən wɪθ hɜr dɔg ænd kaʊ./"
+      }
+    ]
+  }
+]

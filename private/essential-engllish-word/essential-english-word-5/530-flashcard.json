@@ -1,0 +1,183 @@
+
+[
+  {
+    "question": "Gánh nặng.",
+    "classes": "n",
+    "answer": "burden",
+    "ipa": "/ˈbɜː.dən/",
+    "example": "“I don’t want to be a burden to you, sir,” the woman replied.",
+    "english-definition": "Something heavy that is carried; a load.",
+    "images": "eew-5-30/1.png"
+  },
+  {
+    "question": "Thỏa hiệp, dàn xếp.",
+    "classes": "v",
+    "answer": "compromise",
+    "ipa": "/ˈkɒm.prə.maɪz/",
+    "example": "Let’s compromise. I am sure that we can find a fair solution.",
+    "english-definition": "To reach an agreement in which each person or group gives up something that they wanted.",
+    "images": "eew-5-30/2.png"
+  },
+  {
+    "question": "Chế tác, làm thủ công.",
+    "classes": "v",
+    "answer": "craft",
+    "ipa": "/krɑːft/",
+    "example": "He told her as he began crafting a bridge.",
+    "english-definition": "To make something in a skillful way, especially with your hands.",
+    "images": "eew-5-30/3.png"
+  },
+  {
+    "question": "Kẻ lừa đảo, kẻ gian.",
+    "classes": "n",
+    "answer": "crook",
+    "ipa": "/krʊk/",
+    "example": "“You crook!” he shouted.",
+    "english-definition": "A dishonest person; a criminal.",
+    "images": "eew-5-30/4.png"
+  },
+  {
+    "question": "Tiền tệ.",
+    "classes": "n",
+    "answer": "currency",
+    "ipa": "/ˈkʌr.ən.si/",
+    "example": "The only currency I need is the first living thing that crosses the bridge.",
+    "english-definition": "The money that a country uses.",
+    "images": "eew-5-30/5.png"
+  },
+  {
+    "question": "Điều bí ẩn, người khó hiểu.",
+    "classes": "n",
+    "answer": "enigma",
+    "ipa": "/əˈnɪɡ.mə/",
+    "example": "The man was an enigma.",
+    "english-definition": "A person, place, or thing that is mysterious and difficult to understand.",
+    "images": "eew-5-30/6.png"
+  },
+  {
+    "question": "Mỏng manh, dễ vỡ.",
+    "classes": "adj",
+    "answer": "fragile",
+    "ipa": "/ˈfrædʒ.aɪl/",
+    "example": "“A fragile young lady like you shouldn’t have to struggle across a river,” he said.",
+    "english-definition": "Easily broken or damaged.",
+    "images": "eew-5-30/7.png"
+  },
+  {
+    "question": "Loài lai, vật lai.",
+    "classes": "n",
+    "answer": "hybrid",
+    "ipa": "/ˈhaɪ.brɪd/",
+    "example": "He suddenly changed into a hybrid of a human and a fish.",
+    "english-definition": "An animal or plant that has been produced from two different types of animal or plant.",
+    "images": "eew-5-30/8.png"
+  },
+  {
+    "question": "Sự ngây thơ, trong trắng.",
+    "classes": "n",
+    "answer": "innocence",
+    "ipa": "/ˈɪn.ə.səns/",
+    "example": "She shivered because she realized that he had taken advantage of her innocence and rigged the deal somehow.",
+    "english-definition": "The quality of not having much experience of the bad things in life.",
+    "images": "eew-5-30/9.png"
+  },
+  {
+    "question": "Sáp nhập, hợp nhất.",
+    "classes": "v",
+    "answer": "merge",
+    "ipa": "/mɜːdʒ/",
+    "example": "He merged the pieces of the bridge together with amazing speed.",
+    "english-definition": "To combine or join together, or to cause things to do this.",
+    "images": "eew-5-30/10.png"
+  },
+  {
+    "question": "Vừa phải, điều độ.",
+    "classes": "adj",
+    "answer": "moderate",
+    "ipa": "/ˈmɒd.ər.ət/",
+    "example": "A young woman’s cow had crossed the river in the morning when the water level was moderate.",
+    "english-definition": "Neither small nor large in size, amount, degree, or strength.",
+    "images": "eew-5-30/11.png"
+  },
+  {
+    "question": "Làm choáng ngợp, áp đảo.",
+    "classes": "v",
+    "answer": "overwhelm",
+    "ipa": "/ˌəʊ.vəˈwelm/",
+    "example": "But when the woman returned with her dog to get the cow, she was overwhelmed by how high the water had risen.",
+    "english-definition": "To cause someone to feel sudden strong emotion.",
+    "images": "eew-5-30/12.png"
+  },
+  {
+    "question": "Sự nhận thức, cách nhìn nhận.",
+    "classes": "n",
+    "answer": "perception",
+    "ipa": "/pəˈsep.ʃən/",
+    "example": "The young woman’s perception of him was that he was a sociable person.",
+    "english-definition": "The way you think about something and your idea of what it is like.",
+    "images": "eew-5-30/13.png"
+  },
+  {
+    "question": "Sự sum họp, cuộc hội ngộ.",
+    "classes": "n",
+    "answer": "reunion",
+    "ipa": "/ˌriːˈjuː.njən/",
+    "example": "The woman tramped across the bridge to the other side and had a happy reunion with her dog and cow.",
+    "english-definition": "A social event for a group of people who have not seen each other for a long time.",
+    "images": "eew-5-30/14.png"
+  },
+  {
+    "question": "Dàn xếp, gian lận (kết quả).",
+    "classes": "v",
+    "answer": "rig",
+    "ipa": "/rɪɡ/",
+    "example": "She shivered because she realized that he had taken advantage of her innocence and rigged the deal somehow.",
+    "english-definition": "To arrange or control something in a dishonest way to get the result you want.",
+    "images": "eew-5-30/15.png"
+  },
+  {
+    "question": "Sự run rẩy (vì lạnh, sợ).",
+    "classes": "n",
+    "answer": "shiver",
+    "ipa": "/ˈʃɪv.ər/",
+    "example": "She shivered because she realized that he had taken advantage of her innocence and rigged the deal somehow.",
+    "english-definition": "A slight shaking movement of your body, for example because you are cold or frightened.",
+    "images": "eew-5-30/16.png"
+  },
+  {
+    "question": "Hòa đồng, thích giao du.",
+    "classes": "adj",
+    "answer": "sociable",
+    "ipa": "/ˈsəʊ.ʃə.bəl/",
+    "example": "The young woman’s perception of him was that he was a sociable person.",
+    "english-definition": "Liking to be with people; friendly.",
+    "images": "eew-5-30/17.png"
+  },
+  {
+    "question": "Nói nhiều, hay chuyện.",
+    "classes": "adj",
+    "answer": "talkative",
+    "ipa": "/ˈtɔː.kə.tɪv/",
+    "example": "He was talkative, yet something was strange about him.",
+    "english-definition": "Liking to talk a lot.",
+    "images": "eew-5-30/18.png"
+  },
+  {
+    "question": "Kéo, dắt (xe, tàu).",
+    "classes": "v",
+    "answer": "tow",
+    "ipa": "/təʊ/",
+    "example": "Even if she crossed, she still couldn’t tow her cow back through the river.",
+    "english-definition": "To pull another vehicle, using a rope or chain.",
+    "images": "eew-5-30/19.png"
+  },
+  {
+    "question": "Đi bộ nặng nề, lê bước.",
+    "classes": "v",
+    "answer": "tramp",
+    "ipa": "/træmp/",
+    "example": "The woman tramped across the bridge to the other side and had a happy reunion with her dog and cow.",
+    "english-definition": "To walk a long way, or to walk with heavy steps.",
+    "images": "eew-5-30/20.png"
+  }
+]
