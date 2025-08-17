@@ -690,7 +690,7 @@
                  loadFlashcardsData(jsonFilePath);
 
                  // Extract chapter number from the JSON file name (e.g., "418-flashcard.json" -> 18)
-                 const match = jsonFileName.match(/^5(\d+)-flashcard\.json$/);
+                 const match = jsonFileName.match(/^6(\d+)-flashcard\.json$/);
                  if (match && match[1]) {
                      const chapterNumber = parseInt(match[1], 10);
                      // Construct the URL for the corresponding chapter.html page
