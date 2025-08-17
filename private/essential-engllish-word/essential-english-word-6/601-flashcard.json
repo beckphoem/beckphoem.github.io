@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Làm giảm bớt, làm dịu đi.",
+    "classes": "v",
+    "answer": "alleviate",
+    "ipa": "/əˈliː.vi.eɪt/",
+    "example": "When people get lost, it’s comforting to know that their problems can be alleviated by looking at the sky.",
+    "english-definition": "To make something bad such as pain or problems less severe.",
+    "images": "eew-6-1/1.png"
+  },
+  {
+    "question": "Chiêm tinh học.",
+    "classes": "n",
+    "answer": "astrology",
+    "ipa": "/əˈstrɒl.ə.dʒi/",
+    "example": "The Big Dipper, a constellation that is well known in astrology, appears to revolve around Polaris.",
+    "english-definition": "The study of the movements and positions of the sun, moon, planets, and stars in the belief that they affect the character and lives of people.",
+    "images": "eew-6-1/2.png"
+  },
+  {
+    "question": "Phân biệt, nhận ra sự khác biệt.",
+    "classes": "v",
+    "answer": "differentiate",
+    "ipa": "/ˌdɪf.əˈren.ʃi.eɪt/",
+    "example": "It’s not difficult to differentiate Polaris from other stars.",
+    "english-definition": "To show or find the difference between things that are compared.",
+    "images": "eew-6-1/3.png"
+  },
+  {
+    "question": "Làm gián đoạn, phá vỡ.",
+    "classes": "v",
+    "answer": "disrupt",
+    "ipa": "/dɪsˈrʌpt/",
+    "example": "They could disrupt entire journeys by blocking the view of Polaris.",
+    "english-definition": "To prevent something, especially a system, process, or event, from continuing as usual or as expected.",
+    "images": "eew-6-1/4.png"
+  },
+  {
+    "question": "Phương trình, công thức.",
+    "classes": "n",
+    "answer": "equation",
+    "ipa": "/ɪˈkweɪ.ʒən/",
+    "example": "As long as the equations weren’t erroneous, the results were very reliable.",
+    "english-definition": "A mathematical statement that shows that two amounts are equal.",
+    "images": "eew-6-1/5.png"
+  },
+  {
+    "question": "Phạm sai lầm, mắc lỗi.",
+    "classes": "v",
+    "answer": "err",
+    "ipa": "/ɜːr/",
+    "example": "A captain could err and make an inadvertent wrong turn.",
+    "english-definition": "To make a mistake or to do something wrong.",
+    "images": "eew-6-1/6.png"
+  },
+  {
+    "question": "Sai lầm, không chính xác.",
+    "classes": "adj",
+    "answer": "erroneous",
+    "ipa": "/ɪˈrəʊ.ni.əs/",
+    "example": "As long as the equations weren’t erroneous, the results were very reliable.",
+    "english-definition": "Wrong; incorrect.",
+    "images": "eew-6-1/7.png"
+  },
+  {
+    "question": "Điên cuồng, cuống cuồng.",
+    "classes": "adj",
+    "answer": "frantic",
+    "ipa": "/ˈfræn.tɪk/",
+    "example": "...the frantic captain would have no way to improvise to get the ship back on the right course.",
+    "english-definition": "Almost out of control because of extreme emotion, such as worry.",
+    "images": "eew-6-1/8.png"
+  },
+  {
+    "question": "Thân tàu, thân thuyền.",
+    "classes": "n",
+    "answer": "hull",
+    "ipa": "/hʌl/",
+    "example": "From the top of their hulls, sailors would look for Polaris to figure out their place at sea.",
+    "english-definition": "The main body of a ship or other vessel, including the bottom, sides, and deck.",
+    "images": "eew-6-1/9.png"
+  },
+  {
+    "question": "Vô ý, không cố ý.",
+    "classes": "adj",
+    "answer": "inadvertent",
+    "ipa": "/ˌɪn.ədˈvɜː.tənt/",
+    "example": "A captain could err and make an inadvertent wrong turn.",
+    "english-definition": "Not intentional.",
+    "images": "eew-6-1/10.png"
+  },
+  {
+    "question": "Ứng biến, làm tuỳ cơ ứng biến.",
+    "classes": "v",
+    "answer": "improvise",
+    "ipa": "/ˈɪm.prə.vaɪz/",
+    "example": "...the frantic captain would have no way to improvise to get the ship back on the right course.",
+    "english-definition": "To invent or make something, such as a speech or a meal, at the time when it is needed without already having planned it.",
+    "images": "eew-6-1/11.png"
+  },
+  {
+    "question": "Vĩ độ.",
+    "classes": "n",
+    "answer": "latitude",
+    "ipa": "/ˈlæt.ɪ.tʃuːd/",
+    "example": "They figured out the angle between the star and the horizon to determine their latitude.",
+    "english-definition": "The position north or south of the equator measured from 0° to 90°.",
+    "images": "eew-6-1/12.png"
+  },
+  {
+    "question": "Thủy thủ, người đi biển.",
+    "classes": "n",
+    "answer": "mariner",
+    "ipa": "/ˈmær.ɪ.nər/",
+    "example": "Before the invention of modern navigation tools, mariners relied on Polaris.",
+    "english-definition": "A sailor.",
+    "images": "eew-6-1/13.png"
+  },
+  {
+    "question": "Vô số, đám đông.",
+    "classes": "n",
+    "answer": "multitude",
+    "ipa": "/ˈmʌl.tɪ.tʃuːd/",
+    "example": "Among the multitude of stars in the universe, there are a couple that are of great importance to people on Earth.",
+    "english-definition": "A large number of people or things.",
+    "images": "eew-6-1/14.png"
+  },
+  {
+    "question": "Mối phiền toái, sự phiền phức.",
+    "classes": "n",
+    "answer": "nuisance",
+    "ipa": "/ˈnjuː.səns/",
+    "example": "To those who sail at night, volatile storms and dark clouds were more than nuisances.",
+    "english-definition": "Something or someone that annoys you or causes trouble for you.",
+    "images": "eew-6-1/15.png"
+  },
+  {
+    "question": "Sự lâu dài, sự vĩnh cửu.",
+    "classes": "n",
+    "answer": "permanence",
+    "ipa": "/ˈpɜː.mə.nəns/",
+    "example": "The permanence of Polaris in the north sky has helped countless people find their destinations.",
+    "english-definition": "The state of lasting for a long time or for all time.",
+    "images": "eew-6-1/16.png"
+  },
+  {
+    "question": "Xoay quanh, quay tròn.",
+    "classes": "v",
+    "answer": "revolve",
+    "ipa": "/rɪˈvɒlv/",
+    "example": "The Big Dipper, a constellation that is well known in astrology, appears to revolve around Polaris.",
+    "english-definition": "To move or cause something to move around a central point or line.",
+    "images": "eew-6-1/17.png"
+  },
+  {
+    "question": "Xoa dịu, làm dịu.",
+    "classes": "v",
+    "answer": "soothe",
+    "ipa": "/suːð/",
+    "example": "The mariner’s fears wouldn’t be soothed until the clouds cleared and Polaris came back into view.",
+    "english-definition": "To make someone feel calm or less worried.",
+    "images": "eew-6-1/18.png"
+  },
+  {
+    "question": "Bị mắc kẹt, bị bỏ lại.",
+    "classes": "adj",
+    "answer": "stranded",
+    "ipa": "/ˈstræn.dɪd/",
+    "example": "The ship could become stranded at sea...",
+    "english-definition": "Unable to leave somewhere because of a problem such as not having any transport or money.",
+    "images": "eew-6-1/19.png"
+  },
+  {
+    "question": "Dễ thay đổi, không ổn định, dễ bay hơi.",
+    "classes": "adj",
+    "answer": "volatile",
+    "ipa": "/ˈvɒl.ə.taɪl/",
+    "example": "To those who sail at night, volatile storms and dark clouds were more than nuisances.",
+    "english-definition": "Likely to change suddenly and unexpectedly, especially by getting worse.",
+    "images": "eew-6-1/20.png"
+  }
+]

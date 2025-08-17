@@ -1,0 +1,907 @@
+[
+  {
+    "word": "alleviate",
+    "ipa": "/əˈliː.vi.eɪt/",
+    "meaning": "Làm giảm bớt, làm dịu đi.",
+    "image": "eew-6-1/1.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "alleviate",
+        "meaning-example": "Làm giảm bớt, làm dịu đi.",
+        "ipa-example": "/əˈliː.vi.eɪt/"
+      },
+      {
+        "sentence": "Ngày xưa, dân làng phải đóng thuế rất nặng. Một cô gái tên Ly Vi quyết định yết kiến nhà vua. Cô tâu: \"*Ờ, Ly Vi yết* kiến bệ hạ để xin bệ hạ **làm giảm bớt** (alleviate) gánh nặng thuế khóa cho dân làng ạ.\" Nhà vua thấy cô gái can đảm và hợp lý nên đã đồng ý. Từ đó, `alleviate` mang ý nghĩa làm nhẹ bớt, làm dịu đi một nỗi đau hay khó khăn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make something bad such as pain or problems less severe.",
+        "meaning-example": "Làm cho một điều gì đó tồi tệ như nỗi đau hoặc vấn đề trở nên bớt nghiêm trọng hơn.",
+        "ipa-example": "/tuː meɪk ˈsʌmθɪŋ bæd sʌʧ æz peɪn ɔːr ˈprɒbləmz lɛs sɪˈvɪər./"
+      },
+      {
+        "sentence": "When people get lost, it’s comforting to know that their problems can be alleviated by looking at the sky.",
+        "meaning-example": "Khi mọi người bị lạc, thật an ủi khi biết rằng vấn đề của họ có thể được xoa dịu bằng cách nhìn lên bầu trời.",
+        "ipa-example": "/wɛn ˈpiːpl gɛt lɒst, ɪts ˈkʌmfətɪŋ tuː nəʊ ðæt ðeər ˈprɒbləmz kæn biː əˈliːvieɪtɪd baɪ ˈlʊkɪŋ æt ðə skaɪ./"
+      },
+      {
+        "sentence": "The drugs did nothing to alleviate her pain.",
+        "meaning-example": "Thuốc không có tác dụng gì trong việc làm giảm cơn đau của cô ấy.",
+        "ipa-example": "/ðə drʌgz dɪd ˈnʌθɪŋ tuː əˈliːvieɪt hɜː peɪn./"
+      },
+      {
+        "sentence": "A good massage can alleviate stress.",
+        "meaning-example": "Một buổi mát-xa tốt có thể làm giảm căng thẳng.",
+        "ipa-example": "/ə gʊd ˈmæsɑːʒ kæn əˈliːvieɪt strɛs./"
+      }
+    ]
+  },
+  {
+    "word": "astrology",
+    "ipa": "/əˈstrɒl.ə.dʒi/",
+    "meaning": "Chiêm tinh học.",
+    "image": "eew-6-1/2.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "astrology",
+        "meaning-example": "Chiêm tinh học.",
+        "ipa-example": "/əˈstrɒl.ə.dʒi/"
+      },
+      {
+        "sentence": "Có một ông thầy bói kỳ lạ, khi xem bói ông không dùng bài hay nhìn tay. Ông chỉ lên trời và nói: \"*Ơ, trời ló gì* (Ơ-stró-lơ-gi) thì số mệnh con như vậy.\" Thì ra, ông đang nhìn các vì sao để tiên đoán tương lai. Môn khoa học huyền bí nghiên cứu ảnh hưởng của các vì sao đến vận mệnh con người đó chính là **chiêm tinh học** (astrology).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The study of the movements and positions of the sun, moon, planets, and stars in the belief that they affect the character and lives of people.",
+        "meaning-example": "Nghiên cứu về chuyển động và vị trí của mặt trời, mặt trăng, các hành tinh và các vì sao với niềm tin rằng chúng ảnh hưởng đến tính cách và cuộc sống của con người.",
+        "ipa-example": "/ðə ˈstʌdi ɒv ðə ˈmuːvmənts ænd pəˈzɪʃənz ɒv ðə sʌn, muːn, ˈplænɪts, ænd stɑːz ɪn ðə bɪˈliːf ðæt ðeɪ əˈfɛkt ðə ˈkærɪktər ænd laɪvz ɒv ˈpiːpl./"
+      },
+      {
+        "sentence": "The Big Dipper, a constellation that is well known in astrology, appears to revolve around Polaris.",
+        "meaning-example": "Chòm sao Gấu Lớn, một chòm sao nổi tiếng trong chiêm tinh học, dường như xoay quanh sao Bắc Cực.",
+        "ipa-example": "/ðə bɪg ˈdɪpər, ə ˌkɒnstəˈleɪʃən ðæt ɪz wɛl nəʊn ɪn əsˈtrɒləʤi, əˈpɪəz tuː rɪˈvɒlv əˈraʊnd pəˈlɑːrɪs./"
+      },
+      {
+        "sentence": "He is a great believer in astrology.",
+        "meaning-example": "Anh ấy là một người rất tin vào chiêm tinh học.",
+        "ipa-example": "/hiː ɪz ə greɪt bɪˈliːvər ɪn əsˈtrɒləʤi./"
+      },
+      {
+        "sentence": "My horoscope is an important part of my daily astrology reading.",
+        "meaning-example": "Lá số tử vi của tôi là một phần quan trọng trong việc xem chiêm tinh hàng ngày của tôi.",
+        "ipa-example": "/maɪ ˈhɒrəskəʊp ɪz ən ɪmˈpɔːtənt pɑːt ɒv maɪ ˈdeɪli əsˈtrɒləʤi ˈriːdɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "differentiate",
+    "ipa": "/ˌdɪf.əˈren.ʃi.eɪt/",
+    "meaning": "Phân biệt, nhận ra sự khác biệt.",
+    "image": "eew-6-1/3.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "differentiate",
+        "meaning-example": "Phân biệt, nhận ra sự khác biệt.",
+        "ipa-example": "/ˌdɪf.əˈren.ʃi.eɪt/"
+      },
+      {
+        "sentence": "Một ông sếp yêu cầu nhân viên đi phơi ren. Ông dặn: \"*Đi phơi ren sếp ấy*, nhớ phải **phân biệt** (differentiate) rõ ràng ren lụa và ren cotton, phơi ở hai giàn khác nhau.\" Cậu nhân viên phải nhìn rất kỹ để nhận ra sự khác biệt giữa hai loại. Từ đó, `differentiate` có nghĩa là nhận ra hoặc chỉ ra sự khác biệt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To show or find the difference between things that are compared.",
+        "meaning-example": "Chỉ ra hoặc tìm thấy sự khác biệt giữa những thứ được so sánh.",
+        "ipa-example": "/tuː ʃəʊ ɔː faɪnd ðə ˈdɪfrəns bɪˈtwiːn θɪŋz ðætɑː kəmˈpeəd./"
+      },
+      {
+        "sentence": "It’s not difficult to differentiate Polaris from other stars.",
+        "meaning-example": "Không khó để phân biệt Polaris với các ngôi sao khác.",
+        "ipa-example": "/ɪts nɒt ˈdɪfɪkəlt tuː ˌdɪfəˈrɛnʃɪeɪt pəˈlɑːrɪs frɒm ˈʌðə stɑːz./"
+      },
+      {
+        "sentence": "It's difficult to differentiate between the two varieties.",
+        "meaning-example": "Thật khó để phân biệt giữa hai loại này.",
+        "ipa-example": "/ɪts ˈdɪfɪkəlt tuː ˌdɪfəˈrɛnʃɪeɪt bɪˈtwiːn ðə tuː vəˈraɪətiːz./"
+      },
+      {
+        "sentence": "A child may not differentiate between his own needs and the needs of others.",
+        "meaning-example": "Một đứa trẻ có thể không phân biệt được giữa nhu cầu của bản thân và nhu cầu của người khác.",
+        "ipa-example": "/ə ʧaɪld meɪ nɒt ˌdɪfəˈrɛnʃɪeɪt bɪˈtwiːn hɪz əʊn niːdz ænd ðə niːdz ɒv ˈʌðəz./"
+      }
+    ]
+  },
+  {
+    "word": "disrupt",
+    "ipa": "/dɪsˈrʌpt/",
+    "meaning": "Làm gián đoạn, phá vỡ.",
+    "image": "eew-6-1/4.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "disrupt",
+        "meaning-example": "Làm gián đoạn, phá vỡ.",
+        "ipa-example": "/dɪsˈrʌpt/"
+      },
+      {
+        "sentence": "Trong một buổi hòa nhạc trang trọng, một khán giả phía sau bỗng la lên: \"Cái ghế này **đít rắp** rồi, ngồi không được!\". Tiếng la hét của ông ta đã **làm gián đoạn** (disrupt) cả buổi biểu diễn, khiến mọi người mất tập trung. Hành động phá vỡ sự liên tục của một sự kiện chính là `disrupt`.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To prevent something, especially a system, process, or event, from continuing as usual or as expected.",
+        "meaning-example": "Ngăn cản một cái gì đó, đặc biệt là một hệ thống, quy trình hoặc sự kiện, tiếp tục diễn ra như bình thường hoặc như mong đợi.",
+        "ipa-example": "/tuː prɪˈvɛnt ˈsʌmθɪŋ, ɪsˈpɛʃəli ə ˈsɪstɪm, ˈprəʊsɛs, ɔːr ɪˈvɛnt, frɒm kənˈtɪnjuːɪŋ æz ˈjuːʒʊəl ɔːr æz ɪksˈpɛktɪd./"
+      },
+      {
+        "sentence": "They could disrupt entire journeys by blocking the view of Polaris.",
+        "meaning-example": "Chúng có thể làm gián đoạn toàn bộ hành trình bằng cách che khuất tầm nhìn tới Polaris.",
+        "ipa-example": "/ðeɪ kʊd dɪsˈrʌpt ɪnˈtaɪə ˈʤɜːniz baɪ ˈblɒkɪŋ ðə vjuː ɒv pəˈlɑːrɪs./"
+      },
+      {
+        "sentence": "A heavy snowfall disrupted the city's transport system.",
+        "meaning-example": "Tuyết rơi dày đã làm gián đoạn hệ thống giao thông của thành phố.",
+        "ipa-example": "/ə ˈhɛvi ˈsnəʊfɔːl dɪsˈrʌptɪd ðə ˈsɪtiz ˈtrænspɔːt ˈsɪstɪm./"
+      },
+      {
+        "sentence": "Please don't disrupt the class.",
+        "meaning-example": "Làm ơn đừng làm gián đoạn lớp học.",
+        "ipa-example": "/pliːz dəʊnt dɪsˈrʌpt ðə klɑːs./"
+      }
+    ]
+  },
+  {
+    "word": "equation",
+    "ipa": "/ɪˈkweɪ.ʒən/",
+    "meaning": "Phương trình, công thức.",
+    "image": "eew-6-1/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "equation",
+        "meaning-example": "Phương trình, công thức.",
+        "ipa-example": "/ɪˈkweɪ.ʒən/"
+      },
+      {
+        "sentence": "Một nhà toán học đang giảng bài, ông nói: \"*Y quên dần* (i-quây-sần) các con số rồi à? Để nhớ được mối quan hệ bằng nhau giữa các đại lượng, ta phải dùng **phương trình** (equation).\" Ông liền viết lên bảng công thức E=mc² để minh họa.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A mathematical statement that shows that two amounts are equal.",
+        "meaning-example": "Một phát biểu toán học cho thấy hai đại lượng bằng nhau.",
+        "ipa-example": "/ə ˌmæθɪˈmætɪkəl ˈsteɪtmənt ðæt ʃəʊz ðæt tuː əˈmaʊnts ɑːr ˈiːkwəl./"
+      },
+      {
+        "sentence": "As long as the equations weren’t erroneous, the results were very reliable.",
+        "meaning-example": "Miễn là các phương trình không sai sót, kết quả rất đáng tin cậy.",
+        "ipa-example": "/æz lɒŋ æz ðə ɪˈkweɪʒənz wɜːnt ɪˈrəʊniəs, ðə rɪˈzʌlts wɜː ˈvɛri rɪˈlaɪəbl./"
+      },
+      {
+        "sentence": "Can you solve this equation?",
+        "meaning-example": "Bạn có thể giải phương trình này không?",
+        "ipa-example": "/kæn juː sɒlv ðɪs ɪˈkweɪʒən?/"
+      },
+      {
+        "sentence": "In chemistry, a chemical equation shows the reaction between substances.",
+        "meaning-example": "Trong hóa học, một phương trình hóa học cho thấy phản ứng giữa các chất.",
+        "ipa-example": "/ɪn ˈkɛmɪstri, ə ˈkɛmɪkəl ɪˈkweɪʒən ʃəʊz ðə ri(ː)ˈækʃən bɪˈtwiːn ˈsʌbstənsɪz./"
+      }
+    ]
+  },
+  {
+    "word": "err",
+    "ipa": "/ɜːr/",
+    "meaning": "Phạm sai lầm, mắc lỗi.",
+    "image": "eew-6-1/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "err",
+        "meaning-example": "Phạm sai lầm, mắc lỗi.",
+        "ipa-example": "/ɜːr/"
+      },
+      {
+        "sentence": "Một cậu bé đang tập viết chữ. Cậu viết sai một chữ, rồi tự nói với mình: \"**Ơ**, mình lại **phạm sai lầm** (err) rồi!\". Âm thanh \"ơ\" thể hiện sự ngạc nhiên khi nhận ra mình đã mắc lỗi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make a mistake or to do something wrong.",
+        "meaning-example": "Mắc sai lầm hoặc làm điều gì đó sai trái.",
+        "ipa-example": "/tuː meɪk ə mɪsˈteɪk ɔː tuː duː ˈsʌmθɪŋ rɒŋ./"
+      },
+      {
+        "sentence": "A captain could err and make an inadvertent wrong turn.",
+        "meaning-example": "Một thuyền trưởng có thể mắc sai lầm và vô tình rẽ sai hướng.",
+        "ipa-example": "/ə ˈkæptɪn kʊd ɜːr ænd meɪk ən ˌɪnədˈvɜːtənt rɒŋ tɜːn./"
+      },
+      {
+        "sentence": "To err is human, to forgive is divine.",
+        "meaning-example": "Mắc sai lầm là bản tính con người, tha thứ là đức tính thần thánh.",
+        "ipa-example": "/tuː ɜːr ɪz ˈhjuːmən, tuː fəˈgɪv ɪz dɪˈvaɪn./"
+      },
+      {
+        "sentence": "He erred in his judgment.",
+        "meaning-example": "Anh ấy đã sai lầm trong phán đoán của mình.",
+        "ipa-example": "/hiː ɜːd ɪn hɪz ˈʤʌʤmənt./"
+      }
+    ]
+  },
+  {
+    "word": "erroneous",
+    "ipa": "/ɪˈrəʊ.ni.əs/",
+    "meaning": "Sai lầm, không chính xác.",
+    "image": "eew-6-1/7.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "erroneous",
+        "meaning-example": "Sai lầm, không chính xác.",
+        "ipa-example": "/ɪˈrəʊ.ni.əs/"
+      },
+      {
+        "sentence": "Một con rô-bốt bị hỏng, nó cứ đưa ra thông tin thời tiết sai bét. Chủ nhân của nó phàn nàn: \"*Y rô ni* (i-rô-ni-ợt), nó lại bảo hôm nay có tuyết rơi ở sa mạc. Toàn là thông tin **sai lầm** (erroneous).\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Wrong; incorrect.",
+        "meaning-example": "Sai; không chính xác.",
+        "ipa-example": "/rɒŋ; ˌɪnkəˈrɛkt./"
+      },
+      {
+        "sentence": "As long as the equations weren’t erroneous, the results were very reliable.",
+        "meaning-example": "Miễn là các phương trình không sai sót, kết quả rất đáng tin cậy.",
+        "ipa-example": "/æz lɒŋ æz ðə ɪˈkweɪʒənz wɜːnt ɪˈrəʊniəs, ðə rɪˈzʌlts wɜː ˈvɛri rɪˈlaɪəbl./"
+      },
+      {
+        "sentence": "He came to the erroneous conclusion that he was the smartest person in the room.",
+        "meaning-example": "Anh ta đã đi đến kết luận sai lầm rằng anh ta là người thông minh nhất trong phòng.",
+        "ipa-example": "/hiː keɪm tuː ði ɪˈrəʊniəs kənˈkluːʒən ðæt hiː wɒz ðə ˈsmɑːtɪst ˈpɜːsn ɪn ðə ruːm./"
+      },
+      {
+        "sentence": "The report was based on erroneous data.",
+        "meaning-example": "Báo cáo được dựa trên dữ liệu sai lệch.",
+        "ipa-example": "/ðə rɪˈpɔːt wɒz beɪst ɒn ɪˈrəʊniəs ˈdeɪtə./"
+      }
+    ]
+  },
+  {
+    "word": "frantic",
+    "ipa": "/ˈfræn.tɪk/",
+    "meaning": "Điên cuồng, cuống cuồng.",
+    "image": "eew-6-1/8.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "frantic",
+        "meaning-example": "Điên cuồng, cuống cuồng.",
+        "ipa-example": "/ˈfræn.tɪk/"
+      },
+      {
+        "sentence": "Một họa sĩ đánh đổ lọ mực lên bức tranh sắp hoàn thành. Ông trở nên **điên cuồng** (frantic), vội vàng dùng giẻ lau, miệng lẩm bẩm: \"Phen này hỏng thật rồi, phải tích cực lau đi!\". Ông lau một cách cuống cuồng, hoảng loạn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Almost out of control because of extreme emotion, such as worry.",
+        "meaning-example": "Gần như mất kiểm soát vì cảm xúc tột độ, chẳng hạn như lo lắng.",
+        "ipa-example": "/ˈɔːlməʊst aʊt ɒv kənˈtrəʊl bɪˈkɒz ɒv ɪksˈtriːm ɪˈməʊʃən, sʌʧ æz ˈwʌri./"
+      },
+      {
+        "sentence": "...the frantic captain would have no way to improvise to get the ship back on the right course.",
+        "meaning-example": "...vị thuyền trưởng cuống cuồng sẽ không có cách nào để ứng biến đưa con tàu trở lại đúng hướng.",
+        "ipa-example": "/...ðə ˈfræntɪk ˈkæptɪn wʊd hæv nəʊ weɪ tuː ˈɪmprəvaɪz tuː gɛt ðə ʃɪp bæk ɒn ðə raɪt kɔːs./"
+      },
+      {
+        "sentence": "She made a frantic dash for the train.",
+        "meaning-example": "Cô ấy đã chạy một cách điên cuồng để bắt kịp chuyến tàu.",
+        "ipa-example": "/ʃiː meɪd ə ˈfræntɪk dæʃ fɔː ðə treɪn./"
+      },
+      {
+        "sentence": "The frantic parents searched for their missing child.",
+        "meaning-example": "Những bậc cha mẹ điên cuồng tìm kiếm đứa con mất tích của họ.",
+        "ipa-example": "/ðə ˈfræntɪk ˈpeərənts sɜːʧt fɔː ðeə ˈmɪsɪŋ ʧaɪld./"
+      }
+    ]
+  },
+  {
+    "word": "hull",
+    "ipa": "/hʌl/",
+    "meaning": "Thân tàu, thân thuyền.",
+    "image": "eew-6-1/9.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "hull",
+        "meaning-example": "Thân tàu, thân thuyền.",
+        "ipa-example": "/hʌl/"
+      },
+      {
+        "sentence": "Một cậu bé lần đầu ra biển, chỉ vào phần dưới của con tàu và hỏi bố: \"**Hở**? Cái gì to thế kia ạ?\". Người bố trả lời: \"Đó là **thân tàu** (hull) đó con, là bộ phận chính của con tàu.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The main body of a ship or other vessel, including the bottom, sides, and deck.",
+        "meaning-example": "Phần thân chính của một con tàu hoặc phương tiện đi biển khác, bao gồm đáy, hai bên và boong tàu.",
+        "ipa-example": "/ðə meɪn ˈbɒdi ɒv ə ʃɪp ɔːr ˈʌðə ˈvɛsl, ɪnˈkluːdɪŋ ðə ˈbɒtəm, saɪdz, ænd dɛk./"
+      },
+      {
+        "sentence": "From the top of their hulls, sailors would look for Polaris to figure out their place at sea.",
+        "meaning-example": "Từ trên đỉnh thân tàu, các thủy thủ sẽ tìm kiếm Polaris để xác định vị trí của họ trên biển.",
+        "ipa-example": "/frɒm ðə tɒp ɒv ðeə hʌlz, ˈseɪləz wʊd lʊk fɔː pəˈlɑːrɪs tuː ˈfɪgər aʊt ðeə pleɪs æt siː./"
+      },
+      {
+        "sentence": "The hull of the ship was damaged in the storm.",
+        "meaning-example": "Thân tàu đã bị hư hỏng trong cơn bão.",
+        "ipa-example": "/ðə hʌl ɒv ðə ʃɪp wɒz ˈdæmɪʤd ɪn ðə stɔːm./"
+      },
+      {
+        "sentence": "They scraped the barnacles off the boat's hull.",
+        "meaning-example": "Họ cạo những con hàu bám trên thân thuyền.",
+        "ipa-example": "/ðeɪ skreɪpt ðə ˈbɑːnəklz ɒf ðə bəʊts hʌl./"
+      }
+    ]
+  },
+  {
+    "word": "inadvertent",
+    "ipa": "/ˌɪn.ədˈvɜː.tənt/",
+    "meaning": "Vô ý, không cố ý.",
+    "image": "eew-6-1/10.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "inadvertent",
+        "meaning-example": "Vô ý, không cố ý.",
+        "ipa-example": "/ˌɪn.ədˈvɜː.tənt/"
+      },
+      {
+        "sentence": "Một cô bé đang vẽ tranh thì một con vẹt bay tới và làm đổ lọ màu. Mẹ cô bé hỏi: \"Ai làm đổ màu vậy con?\". Cô bé chỉ vào con vẹt và nói: \"*Trong đó có con vẹt á tần*, nó làm đổ màu một cách **vô ý** (inadvertent) thôi mẹ ạ.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Not intentional.",
+        "meaning-example": "Không cố ý.",
+        "ipa-example": "/nɒt ɪnˈtɛnʃənl./"
+      },
+      {
+        "sentence": "A captain could err and make an inadvertent wrong turn.",
+        "meaning-example": "Một thuyền trưởng có thể mắc sai lầm và vô tình rẽ sai hướng.",
+        "ipa-example": "/ə ˈkæptɪn kʊd ɜːr ænd meɪk ən ˌɪnədˈvɜːtənt rɒŋ tɜːn./"
+      },
+      {
+        "sentence": "It was an inadvertent mistake.",
+        "meaning-example": "Đó là một sai lầm vô ý.",
+        "ipa-example": "/ɪt wɒz ən ˌɪnədˈvɜːtənt mɪsˈteɪk./"
+      },
+      {
+        "sentence": "All authors are liable to make inadvertent errors.",
+        "meaning-example": "Tất cả các tác giả đều có thể mắc phải những lỗi vô ý.",
+        "ipa-example": "/ɔːl ˈɔːθəz ɑː ˈlaɪəbl tuː meɪk ˌɪnədˈvɜːtənt ˈɛrəz./"
+      }
+    ]
+  },
+  {
+    "word": "improvise",
+    "ipa": "/ˈɪm.prə.vaɪz/",
+    "meaning": "Ứng biến, làm tuỳ cơ ứng biến.",
+    "image": "eew-6-1/11.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "improvise",
+        "meaning-example": "Ứng biến, làm tuỳ cơ ứng biến.",
+        "ipa-example": "/ˈɪm.prə.vaɪz/"
+      },
+      {
+        "sentence": "Trong một buổi biểu diễn, cây đàn guitar của nghệ sĩ bỗng đứt dây. Khán giả im phăng phắc. Người nghệ sĩ liền **ứng biến** (improvise), ông dùng chính thùng đàn và vỗ tay để tạo ra nhịp điệu. Mọi người trầm trồ: \"Thật là một người *pro*! Dù **im** lặng một chút nhưng đã ứng biến bằng **vai** và tay rất tuyệt.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To invent or make something, such as a speech or a meal, at the time when it is needed without already having planned it.",
+        "meaning-example": "Sáng tạo hoặc làm một cái gì đó, chẳng hạn như một bài phát biểu hoặc một bữa ăn, vào thời điểm cần thiết mà không có kế hoạch từ trước.",
+        "ipa-example": "/tuː ɪnˈvɛnt ɔː meɪk ˈsʌmθɪŋ, sʌʧ æz ə spiːʧ ɔːr ə miːl, æt ðə taɪm wɛn ɪt ɪz ˈniːdɪd wɪˈðaʊt ɔːlˈrɛdi ˈhævɪŋ plænd ɪt./"
+      },
+      {
+        "sentence": "...the frantic captain would have no way to improvise to get the ship back on the right course.",
+        "meaning-example": "...vị thuyền trưởng cuống cuồng sẽ không có cách nào để ứng biến đưa con tàu trở lại đúng hướng.",
+        "ipa-example": "/...ðə ˈfræntɪk ˈkæptɪn wʊd hæv nəʊ weɪ tuː ˈɪmprəvaɪz tuː gɛt ðə ʃɪp bæk ɒn ðə raɪt kɔːs./"
+      },
+      {
+        "sentence": "I hadn't prepared a speech, so I had to improvise.",
+        "meaning-example": "Tôi chưa chuẩn bị bài phát biểu, vì vậy tôi đã phải ứng biến.",
+        "ipa-example": "/aɪ ˈhædnt prɪˈpeəd ə spiːʧ, səʊ aɪ hæd tuː ˈɪmprəvaɪz./"
+      },
+      {
+        "sentence": "The chef had to improvise a meal with the few ingredients he had left.",
+        "meaning-example": "Đầu bếp đã phải ứng biến một bữa ăn với vài nguyên liệu còn lại.",
+        "ipa-example": "/ðə ʃɛf hæd tuː ˈɪmprəvaɪz ə miːl wɪð ðə fjuː ɪnˈgriːdiənts hiː hæd lɛft./"
+      }
+    ]
+  },
+  {
+    "word": "latitude",
+    "ipa": "/ˈlæt.ɪ.tʃuːd/",
+    "meaning": "Vĩ độ.",
+    "image": "eew-6-1/12.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "latitude",
+        "meaning-example": "Vĩ độ.",
+        "ipa-example": "/ˈlæt.ɪ.tʃuːd/"
+      },
+      {
+        "sentence": "Trên một con tàu, thuyền trưởng hét vào chiếc loa: \"*La to tút*! *La to tút*!\". Một thủy thủ trẻ thắc mắc. Thuyền trưởng giải thích: \"Ta đang dùng sóng âm để xác định **vĩ độ** (latitude) của chúng ta đấy.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The position north or south of the equator measured from 0° to 90°.",
+        "meaning-example": "Vị trí ở phía bắc hoặc nam của đường xích đạo được đo từ 0° đến 90°.",
+        "ipa-example": "/ðə pəˈzɪʃən nɔːθ ɔː saʊθ ɒv ði ɪˈkweɪtə ˈmɛʒəd frɒm zɪərəʊ tuː ˈnaɪnti dɪˈgriːz./"
+      },
+      {
+        "sentence": "They figured out the angle between the star and the horizon to determine their latitude.",
+        "meaning-example": "Họ đã tìm ra góc giữa ngôi sao và đường chân trời để xác định vĩ độ của mình.",
+        "ipa-example": "/ðeɪ ˈfɪgəd aʊt ði ˈæŋgl bɪˈtwiːn ðə stɑːr ænd ðə həˈraɪzn tuː dɪˈtɜːmɪn ðeə ˈlætɪtjuːd./"
+      },
+      {
+        "sentence": "The ship was sailing in the northern latitudes.",
+        "meaning-example": "Con tàu đang đi ở các vĩ độ phía bắc.",
+        "ipa-example": "/ðə ʃɪp wɒz ˈseɪlɪŋ ɪn ðə ˈnɔːðən ˈlætɪtjuːdz./"
+      },
+      {
+        "sentence": "At this latitude, the sun is very strong.",
+        "meaning-example": "Ở vĩ độ này, mặt trời rất gắt.",
+        "ipa-example": "/æt ðɪs ˈlætɪtjuːd, ðə sʌn ɪz ˈvɛri strɒŋ./"
+      }
+    ]
+  },
+  {
+    "word": "mariner",
+    "ipa": "/ˈmær.ɪ.nər/",
+    "meaning": "Thủy thủ, người đi biển.",
+    "image": "eew-6-1/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "mariner",
+        "meaning-example": "Thủy thủ, người đi biển.",
+        "ipa-example": "/ˈmær.ɪ.nər/"
+      },
+      {
+        "sentence": "Mỗi lần con trai ra khơi, người mẹ lại đứng trên bến cảng. Bà nói: \"**Mẹ rình** nó đi cho an toàn, vì nó là một **thủy thủ** (mariner) mà, nghề này nguy hiểm lắm.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A sailor.",
+        "meaning-example": "Một thủy thủ.",
+        "ipa-example": "/ə ˈseɪlə./"
+      },
+      {
+        "sentence": "Before the invention of modern navigation tools, mariners relied on Polaris.",
+        "meaning-example": "Trước khi phát minh ra các công cụ định vị hiện đại, các thủy thủ đã dựa vào Polaris.",
+        "ipa-example": "/bɪˈfɔː ði ɪnˈvɛnʃən ɒv ˈmɒdən ˌnævɪˈgeɪʃən tuːlz, ˈmærɪnəz rɪˈlaɪd ɒn pəˈlɑːrɪs./"
+      },
+      {
+        "sentence": "The ancient mariner sailed the seven seas.",
+        "meaning-example": "Người thủy thủ cổ đại đã đi khắp bảy biển.",
+        "ipa-example": "/ði ˈeɪnʃənt ˈmærɪnə seɪld ðə ˈsɛvn siːz./"
+      },
+      {
+        "sentence": "The story is about a mariner who was lost at sea.",
+        "meaning-example": "Câu chuyện kể về một thủy thủ bị lạc trên biển.",
+        "ipa-example": "/ðə ˈstɔːri ɪz əˈbaʊt ə ˈmærɪnə huː wɒz lɒst æt siː./"
+      }
+    ]
+  },
+  {
+    "word": "multitude",
+    "ipa": "/ˈmʌl.tɪ.tʃuːd/",
+    "meaning": "Vô số, đám đông.",
+    "image": "eew-6-1/14.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "multitude",
+        "meaning-example": "Vô số, đám đông.",
+        "ipa-example": "/ˈmʌl.tɪ.tʃuːd/"
+      },
+      {
+        "sentence": "Trong một cuộc thi sắc đẹp, **vô số** (multitude) thí sinh tham gia. Một giám khảo nhận xét: \"**Muôn** người đi **thi** mà ai cũng **tút** tát lại nhan sắc thì tạo ra một đám đông lộng lẫy.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A large number of people or things.",
+        "meaning-example": "Một số lượng lớn người hoặc vật.",
+        "ipa-example": "/ə lɑːʤ ˈnʌmbər ɒv ˈpiːpl ɔː θɪŋz./"
+      },
+      {
+        "sentence": "Among the multitude of stars in the universe, there are a couple that are of great importance to people on Earth.",
+        "meaning-example": "Giữa vô số các vì sao trong vũ trụ, có một vài ngôi sao có tầm quan trọng lớn đối với con người trên Trái Đất.",
+        "ipa-example": "/əˈmʌŋ ðə ˈmʌltɪtjuːd ɒv stɑːz ɪn ðə ˈjuːnɪvɜːs, ðeər ɑːr ə ˈkʌpl ðætɑːr ɒv greɪt ɪmˈpɔːtəns tuː ˈpiːpl ɒn ɜːθ./"
+      },
+      {
+        "sentence": "A multitude of people gathered in the square.",
+        "meaning-example": "Vô số người đã tập trung tại quảng trường.",
+        "ipa-example": "/ə ˈmʌltɪtjuːd ɒv ˈpiːpl ˈgæðəd ɪn ðə skweə./"
+      },
+      {
+        "sentence": "The library has a multitude of books on the subject.",
+        "meaning-example": "Thư viện có vô số sách về chủ đề này.",
+        "ipa-example": "/ðə ˈlaɪbrəri hæz ə ˈmʌltɪtjuːd ɒv bʊks ɒn ðə ˈsʌbʤɪkt./"
+      }
+    ]
+  },
+  {
+    "word": "nuisance",
+    "ipa": "/ˈnjuː.səns/",
+    "meaning": "Mối phiền toái, sự phiền phức.",
+    "image": "eew-6-1/15.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "nuisance",
+        "meaning-example": "Mối phiền toái, sự phiền phức.",
+        "ipa-example": "/ˈnjuː.səns/"
+      },
+      {
+        "sentence": "Một con ruồi cứ bay vo ve quanh mặt một người đang đọc sách. Ông ta bực mình đập tay xuống bàn và nói: \"Con ruồi này đúng là **mối phiền toái** (nuisance) thực sự, nó làm **nui** cái **sân** si trong lòng mình lên.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Something or someone that annoys you or causes trouble for you.",
+        "meaning-example": "Một cái gì đó hoặc ai đó làm phiền bạn hoặc gây rắc rối cho bạn.",
+        "ipa-example": "/ˈsʌmθɪŋ ɔː ˈsʌmwʌn ðæt əˈnɔɪz juː ɔː ˈkɔːzɪz ˈtrʌbl fɔː juː./"
+      },
+      {
+        "sentence": "To those who sail at night, volatile storms and dark clouds were more than nuisances.",
+        "meaning-example": "Đối với những người đi biển vào ban đêm, những cơn bão thất thường và những đám mây đen không chỉ là những mối phiền toái.",
+        "ipa-example": "/tuː ðəʊz huː seɪl æt naɪt, ˈvɒlətaɪl stɔːmz ænd dɑːk klaʊdz wɜː mɔː ðæn ˈnjuːsnsɪz./"
+      },
+      {
+        "sentence": "The loud music from next door is a real nuisance.",
+        "meaning-example": "Tiếng nhạc ồn ào từ nhà hàng xóm thực sự là một mối phiền toái.",
+        "ipa-example": "/ðə laʊd ˈmjuːzɪk frɒm nɛkst dɔːr ɪz ə rɪəl ˈnjuːsns./"
+      },
+      {
+        "sentence": "I hope you're not making a nuisance of yourself.",
+        "meaning-example": "Tôi hy vọng bạn không tự biến mình thành một kẻ phiền phức.",
+        "ipa-example": "/aɪ həʊp jɔː nɒt ˈmeɪkɪŋ ə ˈnjuːsns ɒv jɔːˈsɛlf./"
+      }
+    ]
+  },
+  {
+    "word": "permanence",
+    "ipa": "/ˈpɜː.mə.nəns/",
+    "meaning": "Sự lâu dài, sự vĩnh cửu.",
+    "image": "eew-6-1/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "permanence",
+        "meaning-example": "Sự lâu dài, sự vĩnh cửu.",
+        "ipa-example": "/ˈpɜː.mə.nəns/"
+      },
+      {
+        "sentence": "Một ông thợ rèn đang nắn một thanh sắt. Ông nói với cậu học trò: \"**Phải mài nắn** nó thật kỹ thì mới tạo ra được **sự lâu dài**, **sự vĩnh cửu** (permanence) cho sản phẩm.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The state of lasting for a long time or for all time.",
+        "meaning-example": "Trạng thái kéo dài trong một thời gian dài hoặc mãi mãi.",
+        "ipa-example": "/ðə steɪt ɒv ˈlɑːstɪŋ fɔːr ə lɒŋ taɪm ɔː fɔːr ɔːl taɪm./"
+      },
+      {
+        "sentence": "The permanence of Polaris in the north sky has helped countless people find their destinations.",
+        "meaning-example": "Sự tồn tại vĩnh cửu của Polaris trên bầu trời phương bắc đã giúp vô số người tìm thấy điểm đến của mình.",
+        "ipa-example": "/ðə ˈpɜːmənəns ɒv pəˈlɑːrɪs ɪn ðə nɔːθ skaɪ hæz hɛlpt ˈkaʊntlɪs ˈpiːpl faɪnd ðeə ˌdɛstɪˈneɪʃənz./"
+      },
+      {
+        "sentence": "The permanence of his love for her was unquestionable.",
+        "meaning-example": "Sự vĩnh cửu trong tình yêu anh dành cho cô là không thể nghi ngờ.",
+        "ipa-example": "/ðə ˈpɜːmənəns ɒv hɪz lʌv fɔː hɜː wɒz ʌnˈkwɛsʧənəbl./"
+      },
+      {
+        "sentence": "Nothing in this world has permanence.",
+        "meaning-example": "Không có gì trên thế giới này là vĩnh cửu.",
+        "ipa-example": "/ˈnʌθɪŋ ɪn ðɪs wɜːld hæz ˈpɜːmənəns./"
+      }
+    ]
+  },
+  {
+    "word": "revolve",
+    "ipa": "/rɪˈvɒlv/",
+    "meaning": "Xoay quanh, quay tròn.",
+    "image": "eew-6-1/17.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "revolve",
+        "meaning-example": "Xoay quanh, quay tròn.",
+        "ipa-example": "/rɪˈvɒlv/"
+      },
+      {
+        "sentence": "Một người cha dẫn con đi chơi công viên. Ông chỉ vào vòng quay ngựa gỗ và nói: \"**Đi vô** đó chơi đi con, nó **xoay quanh** (revolve) một cái trục ở giữa vui lắm.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To move or cause something to move around a central point or line.",
+        "meaning-example": "Di chuyển hoặc làm cho một cái gì đó di chuyển xung quanh một điểm hoặc một đường trung tâm.",
+        "ipa-example": "/tuː muːv ɔː kɔːz ˈsʌmθɪŋ tuː muːv əˈraʊnd ə ˈsɛntrəl pɔɪnt ɔː laɪn./"
+      },
+      {
+        "sentence": "The Big Dipper, a constellation that is well known in astrology, appears to revolve around Polaris.",
+        "meaning-example": "Chòm sao Gấu Lớn, một chòm sao nổi tiếng trong chiêm tinh học, dường như xoay quanh Polaris.",
+        "ipa-example": "/ðə bɪg ˈdɪpər, ə ˌkɒnstəˈleɪʃən ðæt ɪz wɛl nəʊn ɪn əsˈtrɒləʤi, əˈpɪəz tuː rɪˈvɒlv əˈraʊnd pəˈlɑːrɪs./"
+      },
+      {
+        "sentence": "The Earth revolves around the Sun.",
+        "meaning-example": "Trái Đất quay quanh Mặt Trời.",
+        "ipa-example": "/ði ɜːθ rɪˈvɒlvz əˈraʊnd ðə sʌn./"
+      },
+      {
+        "sentence": "The conversation revolved around their favorite movies.",
+        "meaning-example": "Cuộc trò chuyện xoay quanh những bộ phim yêu thích của họ.",
+        "ipa-example": "/ðə ˌkɒnvəˈseɪʃən rɪˈvɒlvd əˈraʊnd ðeə ˈfeɪvərɪt ˈmuːviz./"
+      }
+    ]
+  },
+  {
+    "word": "soothe",
+    "ipa": "/suːð/",
+    "meaning": "Xoa dịu, làm dịu.",
+    "image": "eew-6-1/18.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "soothe",
+        "meaning-example": "Xoa dịu, làm dịu.",
+        "ipa-example": "/suːð/"
+      },
+      {
+        "sentence": "Một em bé đang khóc. Mẹ bé bế em lên, hát ru và nói: \"Nín đi con, mẹ **xoa dịu** (soothe) cho con nhé. Ngoan rồi mẹ cho **sữa**.\" Lời nói nhẹ nhàng và hành động vỗ về của người mẹ đã làm dịu cơn khóc của em bé.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make someone feel calm or less worried.",
+        "meaning-example": "Làm cho ai đó cảm thấy bình tĩnh hoặc bớt lo lắng.",
+        "ipa-example": "/tuː meɪk ˈsʌmwʌn fiːl kɑːm ɔː lɛs ˈwʌrid./"
+      },
+      {
+        "sentence": "The mariner’s fears wouldn’t be soothed until the clouds cleared and Polaris came back into view.",
+        "meaning-example": "Nỗi sợ hãi của người thủy thủ sẽ không được xoa dịu cho đến khi mây tan và Polaris xuất hiện trở lại.",
+        "ipa-example": "/ðə ˈmærɪnəz fɪəz ˈwʊdnt biː suːðd ənˈtɪl ðə klaʊdz klɪəd ænd pəˈlɑːrɪs keɪm bæk ˈɪntuː vjuː./"
+      },
+      {
+        "sentence": "She played some music to soothe the crying baby.",
+        "meaning-example": "Cô ấy đã bật một chút nhạc để dỗ dành em bé đang khóc.",
+        "ipa-example": "/ʃiː pleɪd sʌm ˈmjuːzɪk tuː suːð ðə ˈkraɪɪŋ ˈbeɪbi./"
+      },
+      {
+        "sentence": "A hot bath will soothe your aching muscles.",
+        "meaning-example": "Tắm nước nóng sẽ làm dịu các cơ bắp đang đau nhức của bạn.",
+        "ipa-example": "/ə hɒt bɑːθ wɪl suːð jɔːr ˈeɪkɪŋ ˈmʌslz./"
+      }
+    ]
+  },
+  {
+    "word": "stranded",
+    "ipa": "/ˈstræn.dɪd/",
+    "meaning": "Bị mắc kẹt, bị bỏ lại.",
+    "image": "eew-6-1/19.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "stranded",
+        "meaning-example": "Bị mắc kẹt, bị bỏ lại.",
+        "ipa-example": "/ˈstræn.dɪd/"
+      },
+      {
+        "sentence": "Một nhóm du khách bị hỏng xe giữa sa mạc. Một người trong số họ nói đùa: \"Quả này thì **sờ trán** mà khóc thôi, chúng ta bị **mắc kẹt** (stranded) ở đây rồi.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Unable to leave somewhere because of a problem such as not having any transport or money.",
+        "meaning-example": "Không thể rời khỏi một nơi nào đó vì một vấn đề như không có phương tiện đi lại hoặc tiền bạc.",
+        "ipa-example": "/ʌnˈeɪbl tuː liːv ˈsʌmweə bɪˈkɒz ɒv ə ˈprɒbləm sʌʧ æz nɒt ˈhævɪŋ ˈɛni ˈtrænspɔːt ɔː ˈmʌni./"
+      },
+      {
+        "sentence": "The ship could become stranded at sea...",
+        "meaning-example": "Con tàu có thể bị mắc kẹt trên biển...",
+        "ipa-example": "/ðə ʃɪp kʊd bɪˈkʌm ˈstrændɪd æt siː.../"
+      },
+      {
+        "sentence": "Hundreds of passengers were left stranded at the airport.",
+        "meaning-example": "Hàng trăm hành khách đã bị mắc kẹt tại sân bay.",
+        "ipa-example": "/ˈhʌndrədz ɒv ˈpæsɪnʤəz wɜː lɛft ˈstrændɪd æt ði ˈeəpɔːt./"
+      },
+      {
+        "sentence": "The whale was stranded on the beach.",
+        "meaning-example": "Con cá voi bị mắc cạn trên bãi biển.",
+        "ipa-example": "/ðə weɪl wɒz ˈstrændɪd ɒn ðə biːʧ./"
+      }
+    ]
+  },
+  {
+    "word": "volatile",
+    "ipa": "/ˈvɒl.ə.taɪl/",
+    "meaning": "Dễ thay đổi, không ổn định, dễ bay hơi.",
+    "image": "eew-6-1/20.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "volatile",
+        "meaning-example": "Dễ thay đổi, không ổn định, dễ bay hơi.",
+        "ipa-example": "/ˈvɒl.ə.taɪl/"
+      },
+      {
+        "sentence": "Một nhà hóa học đang quan sát một chất lỏng trong ống nghiệm. Ông ghi chú: \"Chất này rất **dễ bay hơi**, tính chất **dễ thay đổi** (volatile). Phải cẩn thận, không thì nó **vỡ ra tai** hại.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Likely to change suddenly and unexpectedly, especially by getting worse.",
+        "meaning-example": "Có khả năng thay đổi đột ngột và bất ngờ, đặc biệt là theo chiều hướng xấu đi.",
+        "ipa-example": "/ˈlaɪkli tuː ʧeɪnʤ ˈsʌdnli ænd ˌʌnɪksˈpɛktɪdli, ɪsˈpɛʃəli baɪ ˈgɛtɪŋ wɜːs./"
+      },
+      {
+        "sentence": "To those who sail at night, volatile storms and dark clouds were more than nuisances.",
+        "meaning-example": "Đối với những người đi biển vào ban đêm, những cơn bão thất thường và những đám mây đen không chỉ là những mối phiền toái.",
+        "ipa-example": "/tuː ðəʊz huː seɪl æt naɪt, ˈvɒlətaɪl stɔːmz ænd dɑːk klaʊdz wɜː mɔː ðæn ˈnjuːsnsɪz./"
+      },
+      {
+        "sentence": "The political situation in the region is highly volatile.",
+        "meaning-example": "Tình hình chính trị trong khu vực rất bất ổn.",
+        "ipa-example": "/ðə pəˈlɪtɪkəl ˌsɪtjʊˈeɪʃən ɪn ðə ˈriːʤən ɪz ˈhaɪli ˈvɒlətaɪl./"
+      },
+      {
+        "sentence": "He has a volatile temper.",
+        "meaning-example": "Anh ấy có tính khí thất thường.",
+        "ipa-example": "/hiː hæz ə ˈvɒlətaɪl ˈtɛmpə./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The North Star",
+        "meaning-example": "Sao Bắc Cực",
+        "ipa-example": "/ðə nɔːθ stɑː/"
+      },
+      {
+        "sentence": "Among the multitude of stars in the universe, there are a couple that are of great importance to people on Earth.",
+        "meaning-example": "Giữa vô số các vì sao trong vũ trụ, có một vài ngôi sao có tầm quan trọng lớn đối với con người trên Trái Đất.",
+        "ipa-example": "/əˈmʌŋ ðə ˈmʌltɪtjuːd ɒv stɑːz ɪn ðə ˈjuːnɪvɜːs, ðeər ɑːr ə ˈkʌpl ðætɑːr ɒv greɪt ɪmˈpɔːtəns tuː ˈpiːpl ɒn ɜːθ./"
+      },
+      {
+        "sentence": "The sun, of course, is one of them.",
+        "meaning-example": "Mặt trời, tất nhiên, là một trong số đó.",
+        "ipa-example": "/ðə sʌn, ɒv kɔːs, ɪz wʌn ɒv ðɛm./"
+      },
+      {
+        "sentence": "The other is known as Polaris, the North Star.",
+        "meaning-example": "Ngôi sao còn lại được biết đến với tên gọi Polaris, Sao Bắc Cực.",
+        "ipa-example": "/ði ˈʌðər ɪz nəʊn æz pəˈlɑːrɪs, ðə nɔːθ stɑː./"
+      },
+      {
+        "sentence": "Polaris is special because it is the only star that always appears to be in the same place in the sky.",
+        "meaning-example": "Polaris đặc biệt vì nó là ngôi sao duy nhất dường như luôn ở cùng một vị trí trên bầu trời.",
+        "ipa-example": "/pəˈlɑːrɪs ɪz ˈspɛʃəl bɪˈkɒz ɪt ɪz ði ˈəʊnli stɑː ðæt ˈɔːlweɪz əˈpɪəz tuː biː ɪn ðə seɪm pleɪs ɪn ðə skaɪ./"
+      },
+      {
+        "sentence": "Therefore, Polaris is a great compass.",
+        "meaning-example": "Do đó, Polaris là một chiếc la bàn tuyệt vời.",
+        "ipa-example": "/ˈðeəfɔː, pəˈlɑːrɪs ɪz ə greɪt ˈkʌmpəs./"
+      },
+      {
+        "sentence": "When people in the northern hemisphere of Earth look toward Polaris, they can be certain that they are facing north.",
+        "meaning-example": "Khi những người ở bắc bán cầu của Trái Đất nhìn về phía Polaris, họ có thể chắc chắn rằng họ đang hướng về phía bắc.",
+        "ipa-example": "/wɛn ˈpiːpl ɪn ðə ˈnɔːðən ˈhɛmɪsfɪər ɒv ɜːθ lʊk təˈwɔːd pəˈlɑːrɪs, ðeɪ kæn biː ˈsɜːtn ðæt ðeɪ ɑː ˈfeɪsɪŋ nɔːθ./"
+      },
+      {
+        "sentence": "The permanence of Polaris in the north sky has helped countless people find their destinations.",
+        "meaning-example": "Sự tồn tại vĩnh cửu của Polaris trên bầu trời phương bắc đã giúp vô số người tìm thấy điểm đến của mình.",
+        "ipa-example": "/ðə ˈpɜːmənəns ɒv pəˈlɑːrɪs ɪn ðə nɔːθ skaɪ hæz hɛlpt ˈkaʊntlɪs ˈpiːpl faɪnd ðeə ˌdɛstɪˈneɪʃənz./"
+      },
+      {
+        "sentence": "Before the invention of modern navigation tools, mariners relied on Polaris.",
+        "meaning-example": "Trước khi phát minh ra các công cụ định vị hiện đại, các thủy thủ đã dựa vào Polaris.",
+        "ipa-example": "/bɪˈfɔː ði ɪnˈvɛnʃən ɒv ˈmɒdən ˌnævɪˈgeɪʃən tuːlz, ˈmærɪnəz rɪˈlaɪd ɒn pəˈlɑːrɪs./"
+      },
+      {
+        "sentence": "From the top of their hulls, sailors would look for Polaris to figure out their place at sea.",
+        "meaning-example": "Từ trên đỉnh thân tàu, các thủy thủ sẽ tìm kiếm Polaris để xác định vị trí của họ trên biển.",
+        "ipa-example": "/frɒm ðə tɒp ɒv ðeə hʌlz, ˈseɪləz wʊd lʊk fɔː pəˈlɑːrɪs tuː ˈfɪgər aʊt ðeə pleɪs æt siː./"
+      },
+      {
+        "sentence": "They figured out the angle between the star and the horizon to determine their latitude.",
+        "meaning-example": "Họ đã tìm ra góc giữa ngôi sao và đường chân trời để xác định vĩ độ của mình.",
+        "ipa-example": "/ðeɪ ˈfɪgəd aʊt ði ˈæŋgl bɪˈtwiːn ðə stɑːr ænd ðə həˈraɪzn tuː dɪˈtɜːmɪn ðeə ˈlætɪtjuːd./"
+      },
+      {
+        "sentence": "As long as the equations weren’t erroneous, the results were very reliable.",
+        "meaning-example": "Miễn là các phương trình không sai sót, kết quả rất đáng tin cậy.",
+        "ipa-example": "/æz lɒŋ æz ðə ɪˈkweɪʒənz wɜːnt ɪˈrəʊniəs, ðə rɪˈzʌlts wɜː ˈvɛri rɪˈlaɪəbl./"
+      },
+      {
+        "sentence": "Polaris also let sailors determine North, South, East, and West.",
+        "meaning-example": "Polaris cũng cho phép các thủy thủ xác định được các hướng Bắc, Nam, Đông và Tây.",
+        "ipa-example": "/pəˈlɑːrɪs ˈɔːlsəʊ lɛt ˈseɪləz dɪˈtɜːmɪn nɔːθ, saʊθ, iːst, ænd wɛst./"
+      },
+      {
+        "sentence": "By knowing directions and their location, mariners could easily navigate their ships.",
+        "meaning-example": "Bằng cách biết phương hướng và vị trí của mình, các thủy thủ có thể dễ dàng điều hướng tàu của họ.",
+        "ipa-example": "/baɪ ˈnəʊɪŋ dɪˈrɛkʃənz ænd ðeə ləʊˈkeɪʃən, ˈmærɪnəz kʊd ˈiːzɪli ˈnævɪgeɪt ðeə ʃɪps./"
+      },
+      {
+        "sentence": "To those who sail at night, volatile storms and dark clouds were more than nuisances.",
+        "meaning-example": "Đối với những người đi biển vào ban đêm, những cơn bão thất thường và những đám mây đen không chỉ là những mối phiền toái.",
+        "ipa-example": "/tuː ðəʊz huː seɪl æt naɪt, ˈvɒlətaɪl stɔːmz ænd dɑːk klaʊdz wɜː mɔː ðæn ˈnjuːsnsɪz./"
+      },
+      {
+        "sentence": "They could disrupt entire journeys by blocking the view of Polaris.",
+        "meaning-example": "Chúng có thể làm gián đoạn toàn bộ hành trình bằng cách che khuất tầm nhìn tới Polaris.",
+        "ipa-example": "/ðeɪ kʊd dɪsˈrʌpt ɪnˈtaɪə ˈʤɜːniz baɪ ˈblɒkɪŋ ðə vjuː ɒv pəˈlɑːrɪs./"
+      },
+      {
+        "sentence": "A captain could err and make an inadvertent wrong turn.",
+        "meaning-example": "Một thuyền trưởng có thể mắc sai lầm và vô tình rẽ sai hướng.",
+        "ipa-example": "/ə ˈkæptɪn kʊd ɜːr ænd meɪk ən ˌɪnədˈvɜːtənt rɒŋ tɜːn./"
+      },
+      {
+        "sentence": "The ship could become stranded at sea, and the frantic captain would have no way to improvise to get the ship back on the right course.",
+        "meaning-example": "Con tàu có thể bị mắc kẹt trên biển, và vị thuyền trưởng cuống cuồng sẽ không có cách nào để ứng biến đưa con tàu trở lại đúng hướng.",
+        "ipa-example": "/ðə ʃɪp kʊd bɪˈkʌm ˈstrændɪd æt siː, ænd ðə ˈfræntɪk ˈkæptɪn wʊd hæv nəʊ weɪ tuː ˈɪmprəvaɪz tuː gɛt ðə ʃɪp bæk ɒn ðə raɪt kɔːs./"
+      },
+      {
+        "sentence": "The mariner’s fears wouldn’t be soothed until the clouds cleared and Polaris came back into view.",
+        "meaning-example": "Nỗi sợ hãi của người thủy thủ sẽ không được xoa dịu cho đến khi mây tan và Polaris xuất hiện trở lại.",
+        "ipa-example": "/ðə ˈmærɪnəz fɪəz ˈwʊdnt biː suːðd ənˈtɪl ðə klaʊdz klɪəd ænd pəˈlɑːrɪs keɪm bæk ˈɪntuː vjuː./"
+      },
+      {
+        "sentence": "Even today, sailors sometimes opt to navigate by using Polaris on clear nights.",
+        "meaning-example": "Ngay cả ngày nay, các thủy thủ đôi khi vẫn chọn cách định vị bằng Polaris vào những đêm trời quang.",
+        "ipa-example": "/ˈiːvən təˈdeɪ, ˈseɪləz ˈsʌmtaɪmz ɒpt tuː ˈnævɪgeɪt baɪ ˈjuːzɪŋ pəˈlɑːrɪs ɒn klɪə naɪts./"
+      },
+      {
+        "sentence": "It’s not difficult to differentiate Polaris from other stars.",
+        "meaning-example": "Không khó để phân biệt Polaris với các ngôi sao khác.",
+        "ipa-example": "/ɪts nɒt ˈdɪfɪkəlt tuː ˌdɪfəˈrɛnʃɪeɪt pəˈlɑːrɪs frɒm ˈʌðə stɑːz./"
+      },
+      {
+        "sentence": "The Big Dipper, a constellation that is well known in astrology, appears to revolve around Polaris.",
+        "meaning-example": "Chòm sao Gấu Lớn, một chòm sao nổi tiếng trong chiêm tinh học, dường như xoay quanh Polaris.",
+        "ipa-example": "/ðə bɪg ˈdɪpər, ə ˌkɒnstəˈleɪʃən ðæt ɪz wɛl nəʊn ɪn əsˈtrɒləʤi, əˈpɪəz tuː rɪˈvɒlv əˈraʊnd pəˈlɑːrɪs./"
+      },
+      {
+        "sentence": "The handle of the Big Dipper always points to the North Star.",
+        "meaning-example": "Cán của chòm Gấu Lớn luôn chỉ về phía Sao Bắc Cực.",
+        "ipa-example": "/ðə ˈhændl ɒv ðə bɪg ˈdɪpər ˈɔːlweɪz pɔɪnts tuː ðə nɔːθ stɑː./"
+      },
+      {
+        "sentence": "When people get lost, it’s comforting to know that their problems can be alleviated by looking at the sky.",
+        "meaning-example": "Khi mọi người bị lạc, thật an ủi khi biết rằng vấn đề của họ có thể được xoa dịu bằng cách nhìn lên bầu trời.",
+        "ipa-example": "/wɛn ˈpiːpl gɛt lɒst, ɪts ˈkʌmfətɪŋ tuː nəʊ ðæt ðeər ˈprɒbləmz kæn biː əˈliːvieɪtɪd baɪ ˈlʊkɪŋ æt ðə skaɪ./"
+      }
+    ]
+  }
+]
