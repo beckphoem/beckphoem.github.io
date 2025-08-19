@@ -92,7 +92,9 @@ arduous, attain, coexist, conceive, dubious, ego, elastic, endeavor, engrave, ex
 ### IPA: /ˈɑː.dju.əs/
 ### Class: adj
 ### Câu truyện ẩn dụ:
-Một nhân viên than thở với đồng nghiệp: "*A, đưa sếp* cái báo cáo này đi, công việc này **gian khổ** (arduous), khó nhằn quá, làm mãi không xong."
+Để chinh phục được nàng công chúa, nhà vua ra một thử thách vô cùng **arduous** (gian khổ). Chàng hoàng tử phải thực hiện nhiệm vụ oái oăm là dạy cho một con ếch biết thả diều. Công việc của người **anhdiềuếch** này đòi hỏi nỗ lực phi thường. Chú ếch chẳng hợp tác, cứ nhảy lung tung làm rối dây, còn diều thì chao đảo. Đó thực sự là một quá trình gian nan, vất vả và tốn rất nhiều công sức.
+
+Mỗi khi đọc **arduous** /anh diều ếch/, bạn hãy nhớ ngay đến hình ảnh người anh vất vả dạy con ếch thả diều, một công việc cực kỳ **gian khổ**.
 
 ### Định nghĩa : 
 Gian khổ, khó khăn, đòi hỏi nhiều nỗ lực.
@@ -113,8 +115,10 @@ Such an endeavor would be too **arduous**.
 ### IPA: /əˈteɪn/
 ### Class: v
 ### Câu truyện ẩn dụ:
-Cảnh sát nói về một tên trộm thông minh: "*Ờ, tên* đó cuối cùng cũng **đạt được** (attain) mục tiêu lấy cắp viên kim cương mà không bị ai phát hiện."
 
+Sau nhiều tháng nỗ lực không ngừng nghỉ, cuối cùng An cũng đến ngày xem kết quả học bổng. Cậu hồi hộp chen vào đám đông, tim đập thình thịch, dò tìm trên bảng vàng danh dự. Bất chợt, cậu vỡ òa trong sung sướng khi thấy tên mình: “A, **ơtên** mình đây rồi!”. Giây phút reo lên ấy chính là khoảnh khắc cậu **attain** (đạt được) mục tiêu lớn nhất của mình. Cảm giác giành được thành quả sau bao cố gắng thật ngọt ngào.
+
+Mỗi khi đọc **attain** /ơ tên/, hãy nhớ đến cảm giác hạnh phúc khi thốt lên "A, **ơ tên** mình kìa!" lúc bạn **đạt được** một thành tựu quan trọng.
 ### Định nghĩa : 
 Đạt được, giành được.
 
@@ -134,8 +138,9 @@ When they were finished, they had **attained** a perfect skeleton.
 ### IPA: /ˌkəʊ.ɪɡˈzɪst/
 ### Class: v
 ### Câu truyện ẩn dụ:
-Trong một bệnh viện, vị giám đốc nói: "Tất cả mọi người *cùng y sĩ* phải học cách **cùng tồn tại** (coexist) hòa bình để phục vụ bệnh nhân tốt nhất."
+Trong một ngôi nhà nhỏ, có một tình bạn vô cùng kỳ lạ. Mọi người thường gọi đùa họ là bộ ba **côếchsít**: gồm **cô** chủ nhỏ, chú **ếch** xanh trong hồ và chú chó tên là **Sít**. Thay vì đuổi bắt nhau, chúng lại học cách sống chung một cách hòa thuận. Chú chó Sít không hề làm phiền chú ếch, còn cô chủ thì chăm sóc cho cả hai. Họ đã chứng minh rằng dù khác biệt đến đâu, mọi sinh vật đều có thể **coexist** (cùng tồn tại) bình yên bên nhau.
 
+Khi nghe từ **coexist** /cô-ếch-sít/, bạn hãy nhớ ngay đến câu chuyện về **cô** chủ, chú **ếch** và con chó tên **Sít** đã **cùng tồn tại** hòa bình.
 ### Định nghĩa : 
 Cùng tồn tại, chung sống.
 
@@ -155,8 +160,9 @@ They couldn’t **coexist** peacefully because their egos were too large.
 ### IPA: /kənˈsiːv/
 ### Class: v
 ### Câu truyện ẩn dụ:
-Mọi người trong công ty thường nói rằng "*con sếp*" lúc nào cũng **hình dung** (conceive) ra những ý tưởng kinh doanh rất độc đáo và mới lạ.
+Trong một cuộc họp dự án đang đi vào bế tắc, cả nhóm không tài nào **hình dung** nổi một chiến lược khả thi. Mọi ý tưởng đều rời rạc. Bỗng một nhân viên trẻ đập bàn và nói dõng dạc: “Mọi người, để thoát khỏi mớ bòng bong này, chúng ta **cầnsếp**!”. Họ tin rằng chỉ có sếp mới đủ tầm nhìn để giúp họ **hình thành ý tưởng** và vạch ra một kế hoạch hoàn chỉnh. Đúng như vậy, sự có mặt của sếp đã giúp cả đội **conceive** được một giải pháp sáng tạo.
 
+Khi nghe từ **conceive** /cần sếp/, bạn hãy liên tưởng ngay đến việc cả nhóm "cần sếp" để có thể **hình thành một ý tưởng** đột phá.
 ### Định nghĩa : 
 Hình dung, tưởng tượng, nhận thức.
 
@@ -176,8 +182,10 @@ Tim couldn’t **conceive** a plan to remove the huge skeleton all by himself.
 ### IPA: /ˈdʒuː.bi.əs/
 ### Class: adj
 ### Câu truyện ẩn dụ:
-Một người bạn rủ đi bơi, người kia đáp: "*Đi bơi ở* cái hồ này á? Tớ thấy hơi **đáng ngờ** (dubious) về độ an toàn của nó."
 
+Trong xóm có một lời thách đố kỳ lạ: ai dám trèo lên cây cao nhất sẽ được thưởng một túi quả đỏ bí ẩn. Một cậu bé hăng hái định tham gia, nhưng người bạn thân thì tỏ ra **dubious** (hoài nghi). Cậu kéo tay bạn lại và thì thầm: "Khoan đã, tao thấy chuyện này rất **đáng ngờ**. Nhỡ đây là một trò lừa, mày leo lên chỉ để **đubịớt** cay xè mắt thì sao?". Nghe đến viễn cảnh phải **đu** cành cây để rồi **bị ớt**, cậu bé kia cũng thấy lời đề nghị này thật không đáng tin cậy.
+
+Mỗi khi nghe **dubious** /đu bị ớt/, bạn hãy nhớ ngay đến lời thách đố **đáng ngờ** về việc **đu** cây để rồi **bị ớt**, một việc làm đầy hoài nghi và không chắc chắn.
 ### Định nghĩa : 
 Đáng ngờ, không chắc chắn, mơ hồ.
 
@@ -218,7 +226,10 @@ They couldn’t coexist peacefully because their **egos** were too large.
 ### IPA: /iˈlæs.tɪk/
 ### Class: n
 ### Câu truyện ẩn dụ:
-Người ta nói chị "*Y lanh tích*" trữ rất nhiều **dây thun** (elastic) để buộc tóc và gói quà.
+
+Trong giờ nghỉ, cô y tá tinh nghịch lấy ra một món đồ chơi tự chế: một cái ná cao su. Linh hồn của món đồ này chính là sợi dây **elastic** (dây thun) siêu co giãn. Khi đồng nghiệp tò mò hỏi cô định làm gì, cô nháy mắt ra vẻ bí mật rồi thì thầm: “Coi chừng nhé, **ytálátnữaxịt** một phát trúng ngay cái bảng tin bây giờ!”. Hình ảnh cô y tá chuẩn bị bắn dây thun khiến ai cũng bật cười và nhớ mãi đặc tính đàn hồi tuyệt vời của nó.
+
+Khi bạn nghe **elastic** /y tá lát xịt/, hãy nghĩ ngay đến hình ảnh cô **y tá** sắp **xịt** (bắn) một viên sỏi bằng sợi **dây thun** có độ **co giãn** hoàn hảo.
 
 ### Định nghĩa : 
 Dây thun, chất co giãn.
@@ -302,7 +313,8 @@ He took his shovel and carefully **excavated** the dirt around it.
 ### IPA: /ˈdʒæɡ.ɪd/
 ### Class: adj
 ### Câu truyện ẩn dụ:
-Cầm mảnh kính vỡ **nham nhở** (jagged) này cẩn thận không "*cháy túi*" vì phải đi viện khâu vết thương đó.
+
+Trong một trận chiến ác liệt, bọn **giặckịt** cứng đầu tìm cách trèo qua bức tường thành. Nhưng chúng không ngờ, trên đỉnh tường đã được cắm đầy những mảnh chai vỡ **jagged** (lởm chởm, sắc nhọn). Những cạnh sắc như răng cưa khiến chúng không thể tiến cũng chẳng thể lùi, bị mắc **kịt** lại một chỗ la hét thảm thiết. Bề mặt đầy chông gai này chính là trở ngại lớn nhất của chúng.
 
 ### Định nghĩa : 
 Lởm chởm, có nhiều cạnh sắc nhọn.
@@ -323,7 +335,8 @@ As he dug, he uncovered more **jagged** bones.
 ### IPA: /ləʊˈkɑːl/
 ### Class: n
 ### Câu truyện ẩn dụ:
-"*Lâu cá* không về" nên những người ngư dân phải đi tìm một **địa điểm** (locale) mới để đánh bắt.
+
+Cứ mỗi cuối tuần, hội bạn thân lại hẹn nhau tại một quán cà phê quen thuộc. Lần này, Tuấn hớn hở giơ ra một tờ giấy và reo lên: “Đây, cái **lôkèo** bóng đá tối nay đây! Đã chốt xong!”. Cả nhóm xúm lại xem, không khí trở nên vô cùng sôi nổi. Quán cà phê này đã trở thành **locale** (địa điểm) lý tưởng của họ, nơi họ vừa bàn chuyện bóng đá, vừa chia sẻ những câu chuyện vui buồn trong cuộc sống.
 
 ### Định nghĩa : 
 Nơi chốn, địa điểm (của một sự kiện).
@@ -365,8 +378,9 @@ They used plaster to make a **mold** of the dinosaur’s skull.
 ### IPA: /ˈaʊt.raɪt/
 ### Class: adj
 ### Câu truyện ẩn dụ:
-Người chủ đất khẳng định: "Cái *ao này* là tài sản của gia đình tôi một cách **hoàn toàn** (outright), không có tranh chấp gì cả."
+Nam định mặc lại chiếc áo cũ yêu thích, nhưng mẹ cậu đã ngăn lại. Bà cầm chiếc áo lên, chỉ vào vết sờn lớn và nói một cách **outright** (thẳng thừng), không chút do dự: “Cái **áorách** này hỏng **hoàn toàn** rồi, không sửa được nữa đâu con ạ. Vứt đi!”. Lời nhận xét dứt khoát của mẹ khiến Nam không thể phản bác. Nó đã bị phá hủy một cách toàn diện.
 
+Mỗi khi nghe **outright** /áo rách/, hãy nhớ đến lời nhận xét **thẳng thừng**, **dứt khoát** về chiếc **áo rách** đã hỏng **hoàn toàn**.
 ### Định nghĩa : 
 Hoàn toàn, thẳng thừng, dứt khoát.
 
@@ -386,8 +400,10 @@ Although Tim and Dean were quite similar, they were **outright** enemies.
 ### IPA: /pəˈrɪf.ər.i/
 ### Class: n
 ### Câu truyện ẩn dụ:
-Mẹ dặn con gái: "**Bơ đi phơi đi**, nhưng đừng phơi ở giữa sân, phơi ở **vùng ven** (periphery) thôi cho gọn."
 
+Mẹ tôi vừa hái xong một rổ dâu tằm chín mọng. Bà gọi tôi ra và bảo: “Con mang mấy quả **bơriphơiđi** cho khô nhé!”. Tôi lon ton chạy ra sân, tìm chỗ nhiều nắng nhất. A, chính là dải đất trống ở mép vườn, giáp với hàng rào. Đó chính là **periphery** (vùng rìa, ngoại vi) của khu vườn, nơi lý tưởng nhất để phơi mọi thứ.
+
+Mỗi khi nghe **periphery** /bơ ri phơi đi/, hãy nhớ ngay đến hình ảnh mang những quả **bơ-ri** ra **phơi** ở **vùng rìa** của khu vườn.
 ### Định nghĩa : 
 Vùng ngoại vi, vùng ven, chu vi.
 
