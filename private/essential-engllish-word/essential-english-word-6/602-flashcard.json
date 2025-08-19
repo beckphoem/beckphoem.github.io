@@ -1,0 +1,183 @@
+
+[
+  {
+    "question": "Gian khổ, khó khăn, đòi hỏi nhiều nỗ lực.",
+    "classes": "adj",
+    "answer": "arduous",
+    "ipa": "/ˈɑː.dju.əs/",
+    "example": "Such an endeavor would be too arduous.",
+    "english-definition": "Difficult, needing a lot of effort and energy.",
+    "images": "eew-6-2/1.png"
+  },
+  {
+    "question": "Đạt được, giành được.",
+    "classes": "v",
+    "answer": "attain",
+    "ipa": "/əˈteɪn/",
+    "example": "When they were finished, they had attained a perfect skeleton.",
+    "english-definition": "To reach or succeed in getting something.",
+    "images": "eew-6-2/2.png"
+  },
+  {
+    "question": "Cùng tồn tại, chung sống.",
+    "classes": "v",
+    "answer": "coexist",
+    "ipa": "/ˌkəʊ.ɪɡˈzɪst/",
+    "example": "They couldn’t coexist peacefully because their egos were too large.",
+    "english-definition": "To live or exist together at the same time or in the same place.",
+    "images": "eew-6-2/3.png"
+  },
+  {
+    "question": "Hình dung, tưởng tượng, nhận thức.",
+    "classes": "v",
+    "answer": "conceive",
+    "ipa": "/kənˈsiːv/",
+    "example": "Tim couldn’t conceive a plan to remove the huge skeleton all by himself.",
+    "english-definition": "To imagine something.",
+    "images": "eew-6-2/4.png"
+  },
+  {
+    "question": "Đáng ngờ, không chắc chắn, mơ hồ.",
+    "classes": "adj",
+    "answer": "dubious",
+    "ipa": "/ˈdʒuː.bi.əs/",
+    "example": "Dean thought that Tim’s claim might be dubious.",
+    "english-definition": "Thought not to be completely true or not able to be trusted.",
+    "images": "eew-6-2/5.png"
+  },
+  {
+    "question": "Cái tôi, lòng tự trọng.",
+    "classes": "n",
+    "answer": "ego",
+    "ipa": "/ˈiː.ɡəʊ/",
+    "example": "They couldn’t coexist peacefully because their egos were too large.",
+    "english-definition": "Your idea or opinion of yourself, especially your feeling of your own importance and ability.",
+    "images": "eew-6-2/6.png"
+  },
+  {
+    "question": "Dây thun, chất co giãn.",
+    "classes": "n",
+    "answer": "elastic",
+    "ipa": "/iˈlæs.tɪk/",
+    "example": "And to keep the bones together, they tied them with elastic strips.",
+    "english-definition": "A type of rubber that is able to stretch and return to its original size.",
+    "images": "eew-6-2/7.png"
+  },
+  {
+    "question": "Sự nỗ lực, sự cố gắng.",
+    "classes": "n",
+    "answer": "endeavor",
+    "ipa": "/enˈdev.ər/",
+    "example": "Such an endeavor would be too arduous.",
+    "english-definition": "An attempt to do something.",
+    "images": "eew-6-2/8.png"
+  },
+  {
+    "question": "Khắc, chạm trổ.",
+    "classes": "v",
+    "answer": "engrave",
+    "ipa": "/ɪnˈɡreɪv/",
+    "example": "They engraved their initials into it and gave it to the curator of a local museum.",
+    "english-definition": "To cut words, pictures, or patterns into the surface of a hard object.",
+    "images": "eew-6-2/9.png"
+  },
+  {
+    "question": "Đào, khai quật.",
+    "classes": "v",
+    "answer": "excavate",
+    "ipa": "/ˈek.skə.veɪt/",
+    "example": "He took his shovel and carefully excavated the dirt around it.",
+    "english-definition": "To remove earth that is covering very old objects buried in the ground in order to discover things about the past.",
+    "images": "eew-6-2/10.png"
+  },
+  {
+    "question": "Lởm chởm, có nhiều cạnh sắc nhọn.",
+    "classes": "adj",
+    "answer": "jagged",
+    "ipa": "/ˈdʒæɡ.ɪd/",
+    "example": "As he dug, he uncovered more jagged bones.",
+    "english-definition": "Rough and with sharp points.",
+    "images": "eew-6-2/11.png"
+  },
+  {
+    "question": "Nơi chốn, địa điểm (của một sự kiện).",
+    "classes": "n",
+    "answer": "locale",
+    "ipa": "/ləʊˈkɑːl/",
+    "example": "Tim excitedly showed Dean the skeleton’s locale.",
+    "english-definition": "A place where something happens or is set, or that has particular events associated with it.",
+    "images": "eew-6-2/12.png"
+  },
+  {
+    "question": "Khuôn đúc.",
+    "classes": "n",
+    "answer": "mold",
+    "ipa": "/məʊld/",
+    "example": "They used plaster to make a mold of the dinosaur’s skull.",
+    "english-definition": "A hollow container with a particular shape into which you pour a liquid substance so that it will become a solid in that shape.",
+    "images": "eew-6-2/13.png"
+  },
+  {
+    "question": "Hoàn toàn, thẳng thừng, dứt khoát.",
+    "classes": "adj",
+    "answer": "outright",
+    "ipa": "/ˈaʊt.raɪt/",
+    "example": "Although Tim and Dean were quite similar, they were outright enemies.",
+    "english-definition": "Complete and total.",
+    "images": "eew-6-2/14.png"
+  },
+  {
+    "question": "Vùng ngoại vi, vùng ven, chu vi.",
+    "classes": "n",
+    "answer": "periphery",
+    "ipa": "/pəˈrɪf.ər.i/",
+    "example": "One day, Tim was searching for fossils on the periphery of the city when he discovered a huge bone.",
+    "english-definition": "The outer edge of an area.",
+    "images": "eew-6-2/15.png"
+  },
+  {
+    "question": "Thạch cao.",
+    "classes": "n",
+    "answer": "plaster",
+    "ipa": "/ˈplɑː.stər/",
+    "example": "They used plaster to make a mold of the dinosaur’s skull.",
+    "english-definition": "A substance that becomes hard as it dries and is used especially for covering walls and ceilings and for making sculptures.",
+    "images": "eew-6-2/16.png"
+  },
+  {
+    "question": "Cái xẻng.",
+    "classes": "n",
+    "answer": "shovel",
+    "ipa": "/ˈʃʌv.əl/",
+    "example": "He took his shovel and carefully excavated the dirt around it.",
+    "english-definition": "A tool consisting of a wide, square metal blade attached to a handle, used for moving coal, earth, snow, etc.",
+    "images": "eew-6-2/17.png"
+  },
+  {
+    "question": "Thuộc về bộ xương, gầy trơ xương.",
+    "classes": "adj",
+    "answer": "skeletal",
+    "ipa": "/ˈskel.ə.təl/",
+    "example": "I’ve found the skeletal remains of a huge terrestrial animal.",
+    "english-definition": "Relating to the skeleton.",
+    "images": "eew-6-2/18.png"
+  },
+  {
+    "question": "(Sống) trên cạn, thuộc về trái đất.",
+    "classes": "adj",
+    "answer": "terrestrial",
+    "ipa": "/təˈres.tri.əl/",
+    "example": "...the skeletal remains of a huge terrestrial animal.",
+    "english-definition": "Relating to the Earth or to land; living on land.",
+    "images": "eew-6-2/19.png"
+  },
+  {
+    "question": "Hung dữ, xấu xa, tàn bạo.",
+    "classes": "adj",
+    "answer": "vicious",
+    "ipa": "/ˈvɪʃ.əs/",
+    "example": "The two men got into vicious arguments all the time.",
+    "english-definition": "Vicious people or actions show an intention or wish to hurt someone or something very badly.",
+    "images": "eew-6-2/20.png"
+  }
+]

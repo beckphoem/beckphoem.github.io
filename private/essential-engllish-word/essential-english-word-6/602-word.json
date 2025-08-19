@@ -1,0 +1,937 @@
+[
+  {
+    "word": "arduous",
+    "ipa": "/ˈɑː.dju.əs/",
+    "meaning": "Gian khổ, khó khăn, đòi hỏi nhiều nỗ lực.",
+    "image": "eew-6-2/1.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "arduous",
+        "meaning-example": "Gian khổ, khó khăn, đòi hỏi nhiều nỗ lực.",
+        "ipa-example": "/ˈɑː.dju.əs/"
+      },
+      {
+        "sentence": "Một nhân viên than thở với đồng nghiệp: \"*A, đưa sếp* cái báo cáo này đi, công việc này **gian khổ** (arduous), khó nhằn quá, làm mãi không xong.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Difficult, needing a lot of effort and energy.",
+        "meaning-example": "Khó khăn, cần nhiều nỗ lực và năng lượng.",
+        "ipa-example": "/ˈdɪf.ɪ.kəlt, ˈniː.dɪŋ ə lɒt əv ˈef.ət ənd ˈen.ə.dʒi./"
+      },
+      {
+        "sentence": "Such an endeavor would be too arduous.",
+        "meaning-example": "Một nỗ lực như vậy sẽ quá gian khổ.",
+        "ipa-example": "/sʌtʃ ən enˈdev.ər wʊd bi tuː ˈɑː.dju.əs./"
+      },
+      {
+        "sentence": "It was an arduous journey across the mountains.",
+        "meaning-example": "Đó là một hành trình gian khổ vượt qua những ngọn núi.",
+        "ipa-example": "/ɪt wəz ən ˈɑː.dju.əs ˈdʒɜː.ni əˈkrɒs ðə ˈmaʊn.tɪnz./"
+      },
+      {
+        "sentence": "He went through a long and arduous training program.",
+        "meaning-example": "Anh ấy đã trải qua một chương trình huấn luyện dài và gian khổ.",
+        "ipa-example": "/hi went θruː ə lɒŋ ənd ˈɑː.dju.əs ˈtreɪ.nɪŋ ˈprəʊ.ɡræm./"
+      }
+    ]
+  },
+  {
+    "word": "attain",
+    "ipa": "/əˈteɪn/",
+    "meaning": "Đạt được, giành được.",
+    "image": "eew-6-2/2.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "attain",
+        "meaning-example": "Đạt được, giành được.",
+        "ipa-example": "/əˈteɪn/"
+      },
+      {
+        "sentence": "Cảnh sát nói về một tên trộm thông minh: \"*Ờ, tên* đó cuối cùng cũng **đạt được** (attain) mục tiêu lấy cắp viên kim cương mà không bị ai phát hiện.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To reach or succeed in getting something.",
+        "meaning-example": "Đạt tới hoặc thành công trong việc có được thứ gì đó.",
+        "ipa-example": "/tuː riːtʃ ɔːr səkˈsiːd ɪn ˈɡet.ɪŋ ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "When they were finished, they had attained a perfect skeleton.",
+        "meaning-example": "Khi họ hoàn thành, họ đã có được một bộ xương hoàn hảo.",
+        "ipa-example": "/wen ðeɪ wɜːr ˈfɪn.ɪʃt, ðeɪ həd əˈteɪnd ə ˈpɜː.fekt ˈskel.ə.tən./"
+      },
+      {
+        "sentence": "He has attained the highest rank in his profession.",
+        "meaning-example": "Anh ấy đã đạt được cấp bậc cao nhất trong nghề của mình.",
+        "ipa-example": "/hi həz əˈteɪnd ðə ˈhaɪ.ɪst ræŋk ɪn hɪz prəˈfeʃ.ən./"
+      },
+      {
+        "sentence": "She was able to attain her goal of becoming a doctor.",
+        "meaning-example": "Cô ấy đã có thể đạt được mục tiêu trở thành bác sĩ.",
+        "ipa-example": "/ʃi wəz ˈeɪ.bəl tu əˈteɪn hɜːr ɡoʊl əv bɪˈkʌm.ɪŋ ə ˈdɒk.tər./"
+      }
+    ]
+  },
+  {
+    "word": "coexist",
+    "ipa": "/ˌkəʊ.ɪɡˈzɪst/",
+    "meaning": "Cùng tồn tại, chung sống.",
+    "image": "eew-6-2/3.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "coexist",
+        "meaning-example": "Cùng tồn tại, chung sống.",
+        "ipa-example": "/ˌkəʊ.ɪɡˈzɪst/"
+      },
+      {
+        "sentence": "Trong một bệnh viện, vị giám đốc nói: \"Tất cả mọi người *cùng y sĩ* phải học cách **cùng tồn tại** (coexist) hòa bình để phục vụ bệnh nhân tốt nhất.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To live or exist together at the same time or in the same place.",
+        "meaning-example": "Sống hoặc tồn tại cùng nhau tại cùng một thời điểm hoặc ở cùng một nơi.",
+        "ipa-example": "/tuː lɪv ɔːr ɪɡˈzɪst təˈɡeð.ər ət ðə seɪm taɪm ɔːr ɪn ðə seɪm pleɪs./"
+      },
+      {
+        "sentence": "They couldn’t coexist peacefully because their egos were too large.",
+        "meaning-example": "Họ không thể cùng tồn tại hòa bình vì cái tôi của họ quá lớn.",
+        "ipa-example": "/ðeɪ ˈkʊd.ənt ˌkoʊ.ɪɡˈzɪst ˈpiːs.fə.li bɪˈkəz ðer ˈiː.ɡoʊz wɜːr tuː lɑːrdʒ./"
+      },
+      {
+        "sentence": "Two different species can coexist in the same habitat.",
+        "meaning-example": "Hai loài khác nhau có thể cùng tồn tại trong cùng một môi trường sống.",
+        "ipa-example": "/tuː ˈdɪf.rənt ˈspiː.ʃiːz kən ˌkoʊ.ɪɡˈzɪst ɪn ðə seɪm ˈhæb.ɪ.tæt./"
+      },
+      {
+        "sentence": "It is possible for different cultures to coexist peacefully.",
+        "meaning-example": "Các nền văn hóa khác nhau có thể cùng tồn tại một cách hòa bình.",
+        "ipa-example": "/ɪt ɪz ˈpɒs.ə.bəl fɔːr ˈdɪf.rənt ˈkʌl.tʃərz tu ˌkoʊ.ɪɡˈzɪst ˈpiːs.fə.li./"
+      }
+    ]
+  },
+  {
+    "word": "conceive",
+    "ipa": "/kənˈsiːv/",
+    "meaning": "Hình dung, tưởng tượng, nhận thức.",
+    "image": "eew-6-2/4.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "conceive",
+        "meaning-example": "Hình dung, tưởng tượng, nhận thức.",
+        "ipa-example": "/kənˈsiːv/"
+      },
+      {
+        "sentence": "Mọi người trong công ty thường nói rằng \"*con sếp*\" lúc nào cũng **hình dung** (conceive) ra những ý tưởng kinh doanh rất độc đáo và mới lạ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To imagine something.",
+        "meaning-example": "Tưởng tượng ra điều gì đó.",
+        "ipa-example": "/tuː ɪˈmædʒ.ɪn ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "Tim couldn’t conceive a plan to remove the huge skeleton all by himself.",
+        "meaning-example": "Tim không thể hình dung ra một kế hoạch để tự mình di dời bộ xương khổng lồ.",
+        "ipa-example": "/tɪm ˈkʊd.ənt kənˈsiːv ə plæn tu rɪˈmuːv ðə hjuːdʒ ˈskel.ə.tən ɔːl baɪ hɪmˈself./"
+      },
+      {
+        "sentence": "I cannot conceive of a world without music.",
+        "meaning-example": "Tôi không thể tưởng tượng một thế giới không có âm nhạc.",
+        "ipa-example": "/aɪ ˈkæn.ɒt kənˈsiːv əv ə wɜːld wɪˈðaʊt ˈmjuː.zɪk./"
+      },
+      {
+        "sentence": "He couldn't conceive of a reason for her behavior.",
+        "meaning-example": "Anh ấy không thể hình dung ra lý do cho hành vi của cô ấy.",
+        "ipa-example": "/hi ˈkʊd.ənt kənˈsiːv əv ə ˈriː.zən fɔːr hɜːr bɪˈheɪ.vjər./"
+      }
+    ]
+  },
+  {
+    "word": "dubious",
+    "ipa": "/ˈdʒuː.bi.əs/",
+    "meaning": "Đáng ngờ, không chắc chắn, mơ hồ.",
+    "image": "eew-6-2/5.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "dubious",
+        "meaning-example": "Đáng ngờ, không chắc chắn, mơ hồ.",
+        "ipa-example": "/ˈdʒuː.bi.əs/"
+      },
+      {
+        "sentence": "Một người bạn rủ đi bơi, người kia đáp: \"*Đi bơi ở* cái hồ này á? Tớ thấy hơi **đáng ngờ** (dubious) về độ an toàn của nó.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Thought not to be completely true or not able to be trusted.",
+        "meaning-example": "Được cho là không hoàn toàn đúng hoặc không thể tin cậy được.",
+        "ipa-example": "/θɔːt nɒt tuː bi kəmˈpliːt.li truː ɔːr nɒt ˈeɪ.bəl tuː bi ˈtrʌs.tɪd./"
+      },
+      {
+        "sentence": "Dean thought that Tim’s claim might be dubious.",
+        "meaning-example": "Dean nghĩ rằng lời khẳng định của Tim có thể đáng ngờ.",
+        "ipa-example": "/diːn θɔːt ðæt tɪmz kleɪm maɪt bi ˈdʒuː.bi.əs./"
+      },
+      {
+        "sentence": "I'm dubious about his promises to change.",
+        "meaning-example": "Tôi nghi ngờ về những lời hứa thay đổi của anh ấy.",
+        "ipa-example": "/aɪm ˈdʒuː.bi.əs əˈbaʊt hɪz ˈprɒm.ɪ.sɪz tuː tʃeɪndʒ./"
+      },
+      {
+        "sentence": "The story seemed a bit dubious to me.",
+        "meaning-example": "Câu chuyện có vẻ hơi đáng ngờ đối với tôi.",
+        "ipa-example": "/ðə ˈstɔː.ri siːmd ə bɪt ˈdʒuː.bi.əs tuː miː./"
+      }
+    ]
+  },
+  {
+    "word": "ego",
+    "ipa": "/ˈiː.ɡəʊ/",
+    "meaning": "Cái tôi, lòng tự trọng.",
+    "image": "eew-6-2/6.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "ego",
+        "meaning-example": "Cái tôi, lòng tự trọng.",
+        "ipa-example": "/ˈiː.ɡəʊ/"
+      },
+      {
+        "sentence": "Mặt mũi anh ta trông \"*y gồ*\" ghề mà lúc nào cũng tự cho mình là đẹp trai nhất, đúng là **cái tôi** (ego) quá lớn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Your idea or opinion of yourself, especially your feeling of your own importance and ability.",
+        "meaning-example": "Ý tưởng hoặc quan điểm của bạn về bản thân, đặc biệt là cảm giác về tầm quan trọng và khả năng của chính bạn.",
+        "ipa-example": "/jɔːr aɪˈdɪə ɔːr əˈpɪn.jən əv jɔːˈself, ɪˈspeʃ.ə.li jɔːr ˈfiː.lɪŋ əv jɔːr oʊn ɪmˈpɔː.təns ənd əˈbɪl.ə.ti./"
+      },
+      {
+        "sentence": "They couldn’t coexist peacefully because their egos were too large.",
+        "meaning-example": "Họ không thể cùng tồn tại hòa bình vì cái tôi của họ quá lớn.",
+        "ipa-example": "/ðeɪ ˈkʊd.ənt ˌkoʊ.ɪɡˈzɪst ˈpiːs.fə.li bɪˈkəz ðer ˈiː.ɡoʊz wɜːr tuː lɑːrdʒ./"
+      },
+      {
+        "sentence": "He has a huge ego; he thinks he's the best at everything.",
+        "meaning-example": "Anh ta có cái tôi rất lớn; anh ta nghĩ mình là người giỏi nhất ở mọi thứ.",
+        "ipa-example": "/hi həz ə hjuːdʒ ˈiː.ɡoʊ; hi θɪŋks hiːz ðə best ət ˈev.ri.θɪŋ./"
+      },
+      {
+        "sentence": "That failure was a blow to my ego.",
+        "meaning-example": "Thất bại đó là một đòn giáng vào cái tôi của tôi.",
+        "ipa-example": "/ðæt ˈfeɪ.ljər wəz ə bloʊ tuː maɪ ˈiː.ɡoʊ./"
+      }
+    ]
+  },
+  {
+    "word": "elastic",
+    "ipa": "/iˈlæs.tɪk/",
+    "meaning": "Dây thun, chất co giãn.",
+    "image": "eew-6-2/7.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "elastic",
+        "meaning-example": "Dây thun, chất co giãn.",
+        "ipa-example": "/iˈlæs.tɪk/"
+      },
+      {
+        "sentence": "Người ta nói chị \"*Y lanh tích*\" trữ rất nhiều **dây thun** (elastic) để buộc tóc và gói quà.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A type of rubber that is able to stretch and return to its original size.",
+        "meaning-example": "Một loại cao su có thể co giãn và trở lại kích thước ban đầu.",
+        "ipa-example": "/ə taɪp əv ˈrʌb.ər ðæt ɪz ˈeɪ.bəl tuː stretʃ ənd rɪˈtɜːn tuː ɪts əˈrɪdʒ.ɪ.nəl saɪz./"
+      },
+      {
+        "sentence": "And to keep the bones together, they tied them with elastic strips.",
+        "meaning-example": "Và để giữ các khúc xương lại với nhau, họ đã buộc chúng bằng những dải dây thun.",
+        "ipa-example": "/ənd tuː kiːp ðə boʊnz təˈɡeð.ər, ðeɪ taɪd ðəm wɪð iˈlæs.tɪk strɪps./"
+      },
+      {
+        "sentence": "The waistband of these pants is made of elastic.",
+        "meaning-example": "Cạp quần của chiếc quần này được làm bằng thun.",
+        "ipa-example": "/ðə ˈweɪst.bænd əv ðiːz pænts ɪz meɪd əv iˈlæs.tɪk./"
+      },
+      {
+        "sentence": "She tied her hair back with an elastic.",
+        "meaning-example": "Cô ấy buộc tóc ra sau bằng một sợi dây thun.",
+        "ipa-example": "/ʃi taɪd hɜːr her bæk wɪð ən iˈlæs.tɪk./"
+      }
+    ]
+  },
+  {
+    "word": "endeavor",
+    "ipa": "/enˈdev.ər/",
+    "meaning": "Sự nỗ lực, sự cố gắng.",
+    "image": "eew-6-2/8.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "endeavor",
+        "meaning-example": "Sự nỗ lực, sự cố gắng.",
+        "ipa-example": "/enˈdev.ər/"
+      },
+      {
+        "sentence": "Một người chồng nói đùa: \"*Em đè vợ* dậy học bài mỗi sáng là cả một **sự nỗ lực** (endeavor) để giúp vợ thi đỗ.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An attempt to do something.",
+        "meaning-example": "Một sự cố gắng để làm điều gì đó.",
+        "ipa-example": "/ən əˈtempt tuː duː ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "Such an endeavor would be too arduous.",
+        "meaning-example": "Một nỗ lực như vậy sẽ quá gian khổ.",
+        "ipa-example": "/sʌtʃ ən enˈdev.ər wʊd bi tuː ˈɑː.dju.əs./"
+      },
+      {
+        "sentence": "Writing a book is a huge endeavor.",
+        "meaning-example": "Viết một cuốn sách là một nỗ lực to lớn.",
+        "ipa-example": "/ˈraɪ.tɪŋ ə bʊk ɪz ə hjuːdʒ enˈdev.ər./"
+      },
+      {
+        "sentence": "We wish you the best in your future endeavors.",
+        "meaning-example": "Chúng tôi chúc bạn những điều tốt đẹp nhất trong những nỗ lực trong tương lai của bạn.",
+        "ipa-example": "/wi wɪʃ juː ðə best ɪn jɔːr ˈfjuː.tʃər enˈdev.ərz./"
+      }
+    ]
+  },
+  {
+    "word": "engrave",
+    "ipa": "/ɪnˈɡreɪv/",
+    "meaning": "Khắc, chạm trổ.",
+    "image": "eew-6-2/9.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "engrave",
+        "meaning-example": "Khắc, chạm trổ.",
+        "ipa-example": "/ɪnˈɡreɪv/"
+      },
+      {
+        "sentence": "Người thợ kim hoàn nói với khách: \"Mẫu này *in rồi*, giờ tôi sẽ **khắc** (engrave) tên của anh lên chiếc nhẫn này.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To cut words, pictures, or patterns into the surface of a hard object.",
+        "meaning-example": "Cắt chữ, hình ảnh hoặc hoa văn lên bề mặt của một vật cứng.",
+        "ipa-example": "/tuː kʌt wɜːdz, ˈpɪk.tʃərz, ɔːr ˈpæt.ərnz ˈɪn.tuː ðə ˈsɜː.fɪs əv ə hɑːrd ˈɒb.dʒekt./"
+      },
+      {
+        "sentence": "They engraved their initials into it and gave it to the curator of a local museum.",
+        "meaning-example": "Họ đã khắc tên viết tắt của mình vào đó và tặng nó cho người phụ trách của một bảo tàng địa phương.",
+        "ipa-example": "/ðeɪ ɪnˈɡreɪvd ðer ɪˈnɪʃ.əlz ˈɪn.tuː ɪt ənd ɡeɪv ɪt tuː ðə kjʊəˈreɪ.tər əv ə ˈloʊ.kəl mjuːˈziː.əm./"
+      },
+      {
+        "sentence": "The trophy was engraved with the winner's name.",
+        "meaning-example": "Chiếc cúp được khắc tên người chiến thắng.",
+        "ipa-example": "/ðə ˈtroʊ.fi wəz ɪnˈɡreɪvd wɪð ðə ˈwɪn.ərz neɪm./"
+      },
+      {
+        "sentence": "He engraved the date on the back of the watch.",
+        "meaning-example": "Anh ấy đã khắc ngày tháng ở mặt sau của chiếc đồng hồ.",
+        "ipa-example": "/hi ɪnˈɡreɪvd ðə deɪt ɒn ðə bæk əv ðə wɒtʃ./"
+      }
+    ]
+  },
+  {
+    "word": "excavate",
+    "ipa": "/ˈek.skə.veɪt/",
+    "meaning": "Đào, khai quật.",
+    "image": "eew-6-2/10.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "excavate",
+        "meaning-example": "Đào, khai quật.",
+        "ipa-example": "/ˈek.skə.veɪt/"
+      },
+      {
+        "sentence": "Con ếch nói với con nhái: \"*Ếch sợ vầy* lắm nên chúng ta phải **đào** (excavate) một cái hang thật sâu để trốn thôi.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To remove earth that is covering very old objects buried in the ground in order to discover things about the past.",
+        "meaning-example": "Loại bỏ đất đang bao phủ các vật thể rất cũ bị chôn vùi trong lòng đất để khám phá những điều về quá khứ.",
+        "ipa-example": "/tuː rɪˈmuːv ɜːrθ ðæt ɪz ˈkʌv.ər.ɪŋ ˈver.i oʊld ˈɒb.dʒekts ˈber.id ɪn ðə ɡraʊnd ɪn ˈɔː.dər tuː dɪˈskʌv.ər θɪŋz əˈbaʊt ðə pɑːst./"
+      },
+      {
+        "sentence": "He took his shovel and carefully excavated the dirt around it.",
+        "meaning-example": "Anh ấy lấy xẻng và cẩn thận đào đất xung quanh nó.",
+        "ipa-example": "/hi tʊk hɪz ˈʃʌv.əl ənd ˈker.fə.li ˈek.skə.veɪ.tɪd ðə dɜːrt əˈraʊnd ɪt./"
+      },
+      {
+        "sentence": "Archaeologists are excavating a Roman villa.",
+        "meaning-example": "Các nhà khảo cổ đang khai quật một biệt thự La Mã.",
+        "ipa-example": "/ˌɑː.kiˈɒl.ə.dʒɪsts ɑːr ˈek.skə.veɪ.tɪŋ ə ˈroʊ.mən ˈvɪl.ə./"
+      },
+      {
+        "sentence": "They excavated a ditch to lay the new water pipes.",
+        "meaning-example": "Họ đã đào một con mương để đặt đường ống nước mới.",
+        "ipa-example": "/ðeɪ ˈek.skə.veɪ.tɪd ə dɪtʃ tuː leɪ ðə njuː ˈwɔː.tər paɪps./"
+      }
+    ]
+  },
+  {
+    "word": "jagged",
+    "ipa": "/ˈdʒæɡ.ɪd/",
+    "meaning": "Lởm chởm, có nhiều cạnh sắc nhọn.",
+    "image": "eew-6-2/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "jagged",
+        "meaning-example": "Lởm chởm, có nhiều cạnh sắc nhọn.",
+        "ipa-example": "/ˈdʒæɡ.ɪd/"
+      },
+      {
+        "sentence": "Cầm mảnh kính vỡ **nham nhở** (jagged) này cẩn thận không \"*cháy túi*\" vì phải đi viện khâu vết thương đó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Rough and with sharp points.",
+        "meaning-example": "Thô ráp và có nhiều điểm sắc nhọn.",
+        "ipa-example": "/rʌf ənd wɪð ʃɑːrp pɔɪnts./"
+      },
+      {
+        "sentence": "As he dug, he uncovered more jagged bones.",
+        "meaning-example": "Khi đào, anh phát hiện thêm nhiều khúc xương lởm chởm.",
+        "ipa-example": "/əz hi dʌɡ, hi ʌnˈkʌv.ərd mɔːr ˈdʒæɡ.ɪd boʊnz./"
+      },
+      {
+        "sentence": "The bottle broke, leaving a jagged edge.",
+        "meaning-example": "Cái chai bị vỡ, để lại một cạnh lởm chởm.",
+        "ipa-example": "/ðə ˈbɒt.əl broʊk, ˈliː.vɪŋ ə ˈdʒæɡ.ɪd edʒ./"
+      },
+      {
+        "sentence": "We hiked over jagged rocks.",
+        "meaning-example": "Chúng tôi đi bộ qua những tảng đá lởm chởm.",
+        "ipa-example": "/wi haɪkt ˈoʊ.vər ˈdʒæɡ.ɪd rɒks./"
+      }
+    ]
+  },
+  {
+    "word": "locale",
+    "ipa": "/ləʊˈkɑːl/",
+    "meaning": "Nơi chốn, địa điểm (của một sự kiện).",
+    "image": "eew-6-2/12.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "locale",
+        "meaning-example": "Nơi chốn, địa điểm (của một sự kiện).",
+        "ipa-example": "/ləʊˈkɑːl/"
+      },
+      {
+        "sentence": "\"*Lâu cá* không về\" nên những người ngư dân phải đi tìm một **địa điểm** (locale) mới để đánh bắt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A place where something happens or is set, or that has particular events associated with it.",
+        "meaning-example": "Một nơi mà điều gì đó xảy ra hoặc được dựng lên, hoặc nơi có các sự kiện đặc biệt liên quan đến nó.",
+        "ipa-example": "/ə pleɪs wer ˈsʌm.θɪŋ ˈhæp.ənz ɔːr ɪz set, ɔːr ðæt həz pərˈtɪk.jə.lər ɪˈvents əˈsoʊ.ʃi.eɪ.tɪd wɪð ɪt./"
+      },
+      {
+        "sentence": "Tim excitedly showed Dean the skeleton’s locale.",
+        "meaning-example": "Tim hào hứng chỉ cho Dean địa điểm của bộ xương.",
+        "ipa-example": "/tɪm ɪkˈsaɪ.tɪd.li ʃoʊd diːn ðə ˈskel.ə.tənz loʊˈkɑːl./"
+      },
+      {
+        "sentence": "The book's locale is a small town in the Midwest.",
+        "meaning-example": "Bối cảnh của cuốn sách là một thị trấn nhỏ ở miền Trung Tây.",
+        "ipa-example": "/ðə bʊks loʊˈkɑːl ɪz ə smɔːl taʊn ɪn ðə ˌmɪdˈwest./"
+      },
+      {
+        "sentence": "The film crew chose a beautiful tropical island as their locale.",
+        "meaning-example": "Đoàn làm phim đã chọn một hòn đảo nhiệt đới xinh đẹp làm bối cảnh.",
+        "ipa-example": "/ðə fɪlm kruː tʃoʊz ə ˈbjuː.tɪ.fəl ˈtrɒp.ɪ.kəl ˈaɪ.lənd əz ðer loʊˈkɑːl./"
+      }
+    ]
+  },
+  {
+    "word": "mold",
+    "ipa": "/məʊld/",
+    "meaning": "Khuôn đúc.",
+    "image": "eew-6-2/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "mold",
+        "meaning-example": "Khuôn đúc.",
+        "ipa-example": "/məʊld/"
+      },
+      {
+        "sentence": "Người thợ làm bánh nói: \"**Mời** anh xem, đây là cái **khuôn** (mold) tôi dùng để tạo ra những chiếc bánh xinh xắn này.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A hollow container with a particular shape into which you pour a liquid substance so that it will become a solid in that shape.",
+        "meaning-example": "Một vật chứa rỗng có hình dạng đặc biệt mà bạn đổ một chất lỏng vào để nó trở thành chất rắn theo hình dạng đó.",
+        "ipa-example": "/ə ˈhɒl.oʊ kənˈteɪ.nər wɪð ə pərˈtɪk.jə.lər ʃeɪp ˈɪn.tuː wɪtʃ juː pɔːr ə ˈlɪk.wɪd ˈsʌb.stəns soʊ ðæt ɪt wɪl bɪˈkʌm ə ˈsɒl.ɪd ɪn ðæt ʃeɪp./"
+      },
+      {
+        "sentence": "They used plaster to make a mold of the dinosaur’s skull.",
+        "meaning-example": "Họ đã dùng thạch cao để làm khuôn hộp sọ của khủng long.",
+        "ipa-example": "/ðeɪ juːzd ˈplɑː.stər tuː meɪk ə moʊld əv ðə ˈdaɪ.nə.sɔːrz skʌl./"
+      },
+      {
+        "sentence": "Pour the chocolate into a heart-shaped mold.",
+        "meaning-example": "Đổ sô cô la vào khuôn hình trái tim.",
+        "ipa-example": "/pɔːr ðə ˈtʃɒk.lət ˈɪn.tuː ə hɑːrt-ʃeɪpt moʊld./"
+      },
+      {
+        "sentence": "The statue was cast from a plaster mold.",
+        "meaning-example": "Bức tượng được đúc từ khuôn thạch cao.",
+        "ipa-example": "/ðə ˈstætʃ.uː wəz kɑːst frəm ə ˈplɑː.stər moʊld./"
+      }
+    ]
+  },
+  {
+    "word": "outright",
+    "ipa": "/ˈaʊt.raɪt/",
+    "meaning": "Hoàn toàn, thẳng thừng, dứt khoát.",
+    "image": "eew-6-2/14.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "outright",
+        "meaning-example": "Hoàn toàn, thẳng thừng, dứt khoát.",
+        "ipa-example": "/ˈaʊt.raɪt/"
+      },
+      {
+        "sentence": "Người chủ đất khẳng định: \"Cái *ao này* là tài sản của gia đình tôi một cách **hoàn toàn** (outright), không có tranh chấp gì cả.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Complete and total.",
+        "meaning-example": "Hoàn chỉnh và toàn bộ.",
+        "ipa-example": "/kəmˈpliːt ənd ˈtoʊ.təl./"
+      },
+      {
+        "sentence": "Although Tim and Dean were quite similar, they were outright enemies.",
+        "meaning-example": "Mặc dù Tim và Dean khá giống nhau, họ là kẻ thù hoàn toàn của nhau.",
+        "ipa-example": "/ɔːlˈðoʊ tɪm ənd diːn wɜːr kwaɪt ˈsɪm.ɪ.lər, ðeɪ wɜːr ˈaʊt.raɪt ˈen.ə.miz./"
+      },
+      {
+        "sentence": "It was an outright lie.",
+        "meaning-example": "Đó là một lời nói dối hoàn toàn.",
+        "ipa-example": "/ɪt wəz ən ˈaʊt.raɪt laɪ./"
+      },
+      {
+        "sentence": "He won the election outright.",
+        "meaning-example": "Anh ấy đã thắng cử một cách dứt khoát.",
+        "ipa-example": "/hi wʌn ði ɪˈlek.ʃən ˈaʊt.raɪt./"
+      }
+    ]
+  },
+  {
+    "word": "periphery",
+    "ipa": "/pəˈrɪf.ər.i/",
+    "meaning": "Vùng ngoại vi, vùng ven, chu vi.",
+    "image": "eew-6-2/15.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "periphery",
+        "meaning-example": "Vùng ngoại vi, vùng ven, chu vi.",
+        "ipa-example": "/pəˈrɪf.ər.i/"
+      },
+      {
+        "sentence": "Mẹ dặn con gái: \"**Bơ đi phơi đi**, nhưng đừng phơi ở giữa sân, phơi ở **vùng ven** (periphery) thôi cho gọn.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The outer edge of an area.",
+        "meaning-example": "Rìa ngoài của một khu vực.",
+        "ipa-example": "/ði ˈaʊ.tər edʒ əv ən ˈeə.ri.ə./"
+      },
+      {
+        "sentence": "One day, Tim was searching for fossils on the periphery of the city when he discovered a huge bone.",
+        "meaning-example": "Một ngày nọ, Tim đang tìm kiếm hóa thạch ở vùng ngoại ô thành phố thì phát hiện ra một khúc xương khổng lồ.",
+        "ipa-example": "/wʌn deɪ, tɪm wəz ˈsɜːr.tʃɪŋ fɔːr ˈfɒs.əlz ɒn ðə pəˈrɪf.ər.i əv ðə ˈsɪt.i wen hi dɪˈskʌv.ərd ə hjuːdʒ boʊn./"
+      },
+      {
+        "sentence": "The factory is located on the periphery of the town.",
+        "meaning-example": "Nhà máy nằm ở vùng ngoại ô của thị trấn.",
+        "ipa-example": "/ðə ˈfæk.tər.i ɪz loʊˈkeɪ.tɪd ɒn ðə pəˈrɪf.ər.i əv ðə taʊn./"
+      },
+      {
+        "sentence": "Many people live in the periphery and commute to the city for work.",
+        "meaning-example": "Nhiều người sống ở vùng ngoại ô và đi vào thành phố để làm việc.",
+        "ipa-example": "/ˈmen.i ˈpiː.pəl lɪv ɪn ðə pəˈrɪf.ər.i ənd kəˈmjuːt tuː ðə ˈsɪt.i fɔːr wɜːrk./"
+      }
+    ]
+  },
+  {
+    "word": "plaster",
+    "ipa": "/ˈplɑː.stər/",
+    "meaning": "Thạch cao.",
+    "image": "eew-6-2/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "plaster",
+        "meaning-example": "Thạch cao.",
+        "ipa-example": "/ˈplɑː.stər/"
+      },
+      {
+        "sentence": "Cậu bé than thở: \"Chân con *bị lát sơ* một chút thôi mà bác sĩ phải bó bột **thạch cao** (plaster) to thế này ạ?\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A substance that becomes hard as it dries and is used especially for covering walls and ceilings and for making sculptures.",
+        "meaning-example": "Một chất trở nên cứng khi khô và được sử dụng đặc biệt để trát tường, trần nhà và làm các tác phẩm điêu khắc.",
+        "ipa-example": "/ə ˈsʌb.stəns ðæt bɪˈkʌmz hɑːrd əz ɪt draɪz ənd ɪz juːzd ɪˈspeʃ.ə.li fɔːr ˈkʌv.ər.ɪŋ wɔːlz ənd ˈsiː.lɪŋz ənd fɔːr ˈmeɪ.kɪŋ ˈskʌlp.tʃərz./"
+      },
+      {
+        "sentence": "They used plaster to make a mold of the dinosaur’s skull.",
+        "meaning-example": "Họ đã dùng thạch cao để làm khuôn hộp sọ của khủng long.",
+        "ipa-example": "/ðeɪ juːzd ˈplɑː.stər tuː meɪk ə moʊld əv ðə ˈdaɪ.nə.sɔːrz skʌl./"
+      },
+      {
+        "sentence": "His leg was in plaster for six weeks.",
+        "meaning-example": "Chân anh ấy đã bị bó bột trong sáu tuần.",
+        "ipa-example": "/hɪz leɡ wəz ɪn ˈplɑː.stər fɔːr sɪks wiːks./"
+      },
+      {
+        "sentence": "The walls are made of plaster.",
+        "meaning-example": "Những bức tường được làm bằng thạch cao.",
+        "ipa-example": "/ðə wɔːlz ɑːr meɪd əv ˈplɑː.stər./"
+      }
+    ]
+  },
+  {
+    "word": "shovel",
+    "ipa": "/ˈʃʌv.əl/",
+    "meaning": "Cái xẻng.",
+    "image": "eew-6-2/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "shovel",
+        "meaning-example": "Cái xẻng.",
+        "ipa-example": "/ˈʃʌv.əl/"
+      },
+      {
+        "sentence": "Cậu bé nói: \"Cháu **sợ vãi** cả ra khi thấy người đàn ông cầm cái **xẻng** (shovel) đi trong đêm tối.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A tool consisting of a wide, square metal blade attached to a handle, used for moving coal, earth, snow, etc.",
+        "meaning-example": "Một công cụ bao gồm một lưỡi kim loại rộng, vuông được gắn vào một tay cầm, dùng để di chuyển than, đất, tuyết, v.v.",
+        "ipa-example": "/ə tuːl kənˈsɪs.tɪŋ əv ə waɪd, skwer ˈmet.əl bleɪd əˈtætʃt tuː ə ˈhæn.dəl, juːzd fɔːr ˈmuː.vɪŋ koʊl, ɜːrθ, snoʊ, etˈsetərə./"
+      },
+      {
+        "sentence": "He took his shovel and carefully excavated the dirt around it.",
+        "meaning-example": "Anh ấy lấy xẻng và cẩn thận đào đất xung quanh nó.",
+        "ipa-example": "/hi tʊk hɪz ˈʃʌv.əl ənd ˈker.fə.li ˈek.skə.veɪ.tɪd ðə dɜːrt əˈraʊnd ɪt./"
+      },
+      {
+        "sentence": "He used a shovel to clear the snow from the path.",
+        "meaning-example": "Anh ấy dùng xẻng để dọn tuyết khỏi lối đi.",
+        "ipa-example": "/hi juːzd ə ˈʃʌv.əl tuː klɪər ðə snoʊ frəm ðə pɑːθ./"
+      },
+      {
+        "sentence": "Dig a hole with a shovel.",
+        "meaning-example": "Đào một cái hố bằng xẻng.",
+        "ipa-example": "/dɪɡ ə hoʊl wɪð ə ˈʃʌv.əl./"
+      }
+    ]
+  },
+  {
+    "word": "skeletal",
+    "ipa": "/ˈskel.ə.təl/",
+    "meaning": "Thuộc về bộ xương, gầy trơ xương.",
+    "image": "eew-6-2/18.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "skeletal",
+        "meaning-example": "Thuộc về bộ xương, gầy trơ xương.",
+        "ipa-example": "/ˈskel.ə.təl/"
+      },
+      {
+        "sentence": "Nhìn anh ấy gầy \"*sơ keo tồ*\" đến mức trông như một bộ xương di động, đúng là **(thuộc) bộ xương** (skeletal).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to the skeleton.",
+        "meaning-example": "Liên quan đến bộ xương.",
+        "ipa-example": "/rɪˈleɪ.tɪŋ tuː ðə ˈskel.ə.tən./"
+      },
+      {
+        "sentence": "I’ve found the skeletal remains of a huge terrestrial animal.",
+        "meaning-example": "Tôi đã tìm thấy di cốt của một loài động vật trên cạn khổng lồ.",
+        "ipa-example": "/aɪv faʊnd ðə ˈskel.ə.təl rɪˈmeɪnz əv ə hjuːdʒ təˈres.tri.əl ˈæn.ɪ.məl./"
+      },
+      {
+        "sentence": "The museum has a collection of skeletal remains.",
+        "meaning-example": "Bảo tàng có một bộ sưu tập các di cốt.",
+        "ipa-example": "/ðə mjuːˈziː.əm həz ə kəˈlek.ʃən əv ˈskel.ə.təl rɪˈmeɪnz./"
+      },
+      {
+        "sentence": "The starving dog was almost skeletal.",
+        "meaning-example": "Con chó chết đói gần như chỉ còn trơ xương.",
+        "ipa-example": "/ðə ˈstɑːr.vɪŋ dɒɡ wəz ˈɔːl.moʊst ˈskel.ə.təl./"
+      }
+    ]
+  },
+  {
+    "word": "terrestrial",
+    "ipa": "/təˈres.tri.əl/",
+    "meaning": "(Sống) trên cạn, thuộc về trái đất.",
+    "image": "eew-6-2/19.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "terrestrial",
+        "meaning-example": "(Sống) trên cạn, thuộc về trái đất.",
+        "ipa-example": "/təˈres.tri.əl/"
+      },
+      {
+        "sentence": "Người hướng dẫn viên nói: \"**Tớ rẽ trái rồi** đi tiếp là đến khu bảo tồn các loài động vật **sống trên cạn** (terrestrial).\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to the Earth or to land; living on land.",
+        "meaning-example": "Liên quan đến Trái đất hoặc đất liền; sống trên cạn.",
+        "ipa-example": "/rɪˈleɪ.tɪŋ tuː ði ɜːrθ ɔːr tuː lænd; ˈlɪv.ɪŋ ɒn lænd./"
+      },
+      {
+        "sentence": "...the skeletal remains of a huge terrestrial animal.",
+        "meaning-example": "...di cốt của một loài động vật trên cạn khổng lồ.",
+        "ipa-example": "/ðə ˈskel.ə.təl rɪˈmeɪnz əv ə hjuːdʒ təˈres.tri.əl ˈæn.ɪ.məl./"
+      },
+      {
+        "sentence": "Lions are terrestrial animals.",
+        "meaning-example": "Sư tử là động vật trên cạn.",
+        "ipa-example": "/ˈlaɪ.ənz ɑːr təˈres.tri.əl ˈæn.ɪ.məlz./"
+      },
+      {
+        "sentence": "The movie is about an alien visiting a terrestrial planet.",
+        "meaning-example": "Bộ phim kể về một người ngoài hành tinh đến thăm một hành tinh giống Trái đất.",
+        "ipa-example": "/ðə ˈmuː.vi ɪz əˈbaʊt ən ˈeɪ.li.ən ˈvɪz.ɪ.tɪŋ ə təˈres.tri.əl ˈplæn.ɪt./"
+      }
+    ]
+  },
+  {
+    "word": "vicious",
+    "ipa": "/ˈvɪʃ.əs/",
+    "meaning": "Hung dữ, xấu xa, tàn bạo.",
+    "image": "eew-6-2/20.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "vicious",
+        "meaning-example": "Hung dữ, xấu xa, tàn bạo.",
+        "ipa-example": "/ˈvɪʃ.əs/"
+      },
+      {
+        "sentence": "Cậu bé giải thích: \"**Vì sợ** con chó **hung dữ** (vicious) đó nên con không dám đi vào nhà.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Vicious people or actions show an intention or wish to hurt someone or something very badly.",
+        "meaning-example": "Những người hoặc hành động độc ác thể hiện ý định hoặc mong muốn làm tổn thương ai đó hoặc điều gì đó rất nặng nề.",
+        "ipa-example": "/ˈvɪʃ.əs ˈpiː.pəl ɔːr ˈæk.ʃənz ʃoʊ ən ɪnˈten.ʃən ɔːr wɪʃ tuː hɜːrt ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ ˈver.i ˈbæd.li./"
+      },
+      {
+        "sentence": "The two men got into vicious arguments all the time.",
+        "meaning-example": "Hai người đàn ông liên tục có những cuộc tranh cãi nảy lửa.",
+        "ipa-example": "/ðə tuː men ɡɒt ˈɪn.tuː ˈvɪʃ.əs ˈɑːr.ɡjə.mənts ɔːl ðə taɪm./"
+      },
+      {
+        "sentence": "He was attacked by a vicious dog.",
+        "meaning-example": "Anh ta đã bị một con chó hung dữ tấn công.",
+        "ipa-example": "/hi wəz əˈtækt baɪ ə ˈvɪʃ.əs dɒɡ./"
+      },
+      {
+        "sentence": "She has a vicious temper.",
+        "meaning-example": "Cô ấy có tính khí rất hung dữ.",
+        "ipa-example": "/ʃi həz ə ˈvɪʃ.əs ˈtem.pər./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Fossil Hunters",
+        "meaning-example": "Những người săn hóa thạch",
+        "ipa-example": "/ðə ˈfɒsl ˈhʌntəz/"
+      },
+      {
+        "sentence": "Tim and Dean were great fossil hunters.",
+        "meaning-example": "Tim và Dean là những thợ săn hóa thạch vĩ đại.",
+        "ipa-example": "/tɪm ænd diːn wɜː greɪt ˈfɒsl ˈhʌntəz./"
+      },
+      {
+        "sentence": "They were the very best at finding dinosaur bones.",
+        "meaning-example": "Họ là những người giỏi nhất trong việc tìm kiếm xương khủng long.",
+        "ipa-example": "/ðeɪ wɜː ðə ˈvɛri bɛst æt ˈfaɪndɪŋ ˈdaɪnəsɔː bəʊnz./"
+      },
+      {
+        "sentence": "Although Tim and Dean were quite similar, they were outright enemies.",
+        "meaning-example": "Mặc dù Tim và Dean khá giống nhau, nhưng họ hoàn toàn là kẻ thù của nhau.",
+        "ipa-example": "/ɔːlˈðəʊ tɪm ænd diːn wɜː kwaɪt ˈsɪmɪlə, ðeɪ wɜː ˈaʊtraɪt ˈɛnəmiz./"
+      },
+      {
+        "sentence": "The two men got into vicious arguments all the time.",
+        "meaning-example": "Hai người đàn ông liên tục có những cuộc tranh cãi nảy lửa.",
+        "ipa-example": "/ðə tuː mɛn gɒt ˈɪntuː ˈvɪʃəs ˈɑːgjʊmənts ɔːl ðə taɪm./"
+      },
+      {
+        "sentence": "They couldn’t coexist peacefully because their egos were too large.",
+        "meaning-example": "Họ không thể cùng tồn tại hòa bình vì cái tôi của họ quá lớn.",
+        "ipa-example": "/ðeɪ ˈkʊdnt ˌkəʊɪgˈzɪst ˈpiːsfʊli bɪˈkɒz ðeər ˈiːgəʊz wɜː tuː lɑːʤ./"
+      },
+      {
+        "sentence": "Tim thought he was the best fossil hunter, while Dean was sure that he was much better than Tim.",
+        "meaning-example": "Tim nghĩ mình là thợ săn hóa thạch giỏi nhất, trong khi Dean chắc chắn rằng anh giỏi hơn Tim rất nhiều.",
+        "ipa-example": "/tɪm θɔːt hi wɒz ðə bɛst ˈfɒsl ˈhʌntə, waɪl diːn wɒz ʃʊə ðæt hi wɒz mʌʧ ˈbɛtə ðæn tɪm./"
+      },
+      {
+        "sentence": "One day, Tim was searching for fossils on the periphery of the city when he discovered a huge bone.",
+        "meaning-example": "Một ngày nọ, Tim đang tìm kiếm hóa thạch ở vùng ngoại vi thành phố thì phát hiện ra một khúc xương khổng lồ.",
+        "ipa-example": "/wʌn deɪ, tɪm wɒz ˈsɜːʧɪŋ fɔː ˈfɒslz ɒn ðə pəˈrɪfəri ɒv ðə ˈsɪti wɛn hi dɪsˈkʌvəd ə hjuːʤ bəʊn./"
+      },
+      {
+        "sentence": "He had never seen anything like it!",
+        "meaning-example": "Anh ấy chưa bao giờ nhìn thấy bất cứ thứ gì giống như vậy!",
+        "ipa-example": "/hi hæd ˈnɛvə siːn ˈɛnɪθɪŋ laɪk ɪt!/"
+      },
+      {
+        "sentence": "He took his shovel and carefully excavated the dirt around it.",
+        "meaning-example": "Anh ấy lấy xẻng và cẩn thận đào đất xung quanh nó.",
+        "ipa-example": "/hi tʊk hɪz ˈʃʌvl ænd ˈkeəfʊli ˈɛkskəveɪtɪd ðə dɜːt əˈraʊnd ɪt./"
+      },
+      {
+        "sentence": "As he dug, he uncovered more jagged bones.",
+        "meaning-example": "Khi đào, anh phát hiện thêm nhiều khúc xương lởm chởm.",
+        "ipa-example": "/æz hi dʌg, hi ʌnˈkʌvəd mɔː ˈʤægɪd bəʊnz./"
+      },
+      {
+        "sentence": "He realized that he had found an entire dinosaur skeleton!",
+        "meaning-example": "Anh nhận ra rằng mình đã tìm thấy cả một bộ xương khủng long!",
+        "ipa-example": "/hi ˈrɪəlaɪzd ðæt hi hæd faʊnd ən ɪnˈtaɪə ˈdaɪnəsɔː ˈskɛlɪtən!/"
+      },
+      {
+        "sentence": "Tim couldn’t conceive a plan to remove the huge skeleton all by himself.",
+        "meaning-example": "Tim không thể hình dung ra kế hoạch tự mình di dời bộ xương khổng lồ.",
+        "ipa-example": "/tɪm ˈkʊdnt kənˈsiːv ə plæn tuː rɪˈmuːv ðə hjuːʤ ˈskɛlɪtən ɔːl baɪ hɪmˈsɛlf./"
+      },
+      {
+        "sentence": "Such an endeavor would be too arduous.",
+        "meaning-example": "Một nỗ lực như vậy sẽ quá gian khổ.",
+        "ipa-example": "/sʌʧ ən ɪnˈdɛvə wʊd biː tuː ˈɑːdjʊəs./"
+      },
+      {
+        "sentence": "He needed help.",
+        "meaning-example": "Anh ấy cần sự giúp đỡ.",
+        "ipa-example": "/hi ˈniːdɪd hɛlp./"
+      },
+      {
+        "sentence": "He tried to think of people who would be capable of helping him remove the skeleton without breaking it.",
+        "meaning-example": "Anh cố gắng nghĩ đến những người có khả năng giúp anh di dời bộ xương mà không làm gãy nó.",
+        "ipa-example": "/hi traɪd tuː θɪŋk ɒv ˈpiːpl huː wʊd biː ˈkeɪpəbl ɒv ˈhɛlpɪŋ hɪm rɪˈmuːv ðə ˈskɛlɪtən wɪˈðaʊt ˈbreɪkɪŋ ɪt./"
+      },
+      {
+        "sentence": "The only person Tim could think of was Dean, his enemy.",
+        "meaning-example": "Người duy nhất mà Tim có thể nghĩ đến là Dean, kẻ thù của anh.",
+        "ipa-example": "/ði ˈəʊnli ˈpɜːsn tɪm kʊd θɪŋk ɒv wɒz diːn, hɪz ˈɛnəmi./"
+      },
+      {
+        "sentence": "Tim ran into the city to find Dean.",
+        "meaning-example": "Tim chạy vào thành phố để tìm Dean.",
+        "ipa-example": "/tɪm ræn ˈɪntuː ðə ˈsɪti tuː faɪnd diːn./"
+      },
+      {
+        "sentence": "Tim found him and said, “ Dean, I’ve found the skeletal remains of a huge terrestrial animal. But I can’t get the skeleton out by myself. Will you please help me?",
+        "meaning-example": "Tim tìm thấy anh ta và nói: “Dean, tôi đã tìm thấy di cốt của một loài động vật trên cạn khổng lồ. Nhưng tôi không thể tự mình lấy bộ xương ra được. Anh có thể vui lòng giúp tôi không?",
+        "ipa-example": "/tɪm faʊnd hɪm ænd sɛd, “ diːn, aɪv faʊnd ðə ˈskɛlɪtl rɪˈmeɪnz ɒv ə hjuːʤ təˈrɛstrɪəl ˈænɪməl. bʌt aɪ kɑːnt gɛt ðə ˈskɛlɪtən aʊt baɪ maɪˈsɛlf. wɪl juː pliːz hɛlp miː?/"
+      },
+      {
+        "sentence": "Dean thought that Tim’s claim might be dubious.",
+        "meaning-example": "Dean nghĩ rằng lời khẳng định của Tim có thể đáng ngờ.",
+        "ipa-example": "/diːn θɔːt ðæt tɪmz kleɪm maɪt biː ˈdjuːbɪəs./"
+      },
+      {
+        "sentence": "He replied, “ If you’re serious about the skeleton, I’ll help.”",
+        "meaning-example": "Anh ấy trả lời: “Nếu anh nghiêm túc về bộ xương, tôi sẽ giúp.”",
+        "ipa-example": "/hi rɪˈplaɪd, “ ɪf jʊə ˈsɪərɪəs əˈbaʊt ðə ˈskɛlɪtən, aɪl hɛlp.”/"
+      },
+      {
+        "sentence": "Tim excitedly showed Dean the skeleton’s locale.",
+        "meaning-example": "Tim hào hứng chỉ cho Dean địa điểm của bộ xương.",
+        "ipa-example": "/tɪm ɪkˈsaɪtɪdli ʃəʊd diːn ðə ˈskɛlɪtənz ləʊˈkɑːl./"
+      },
+      {
+        "sentence": "They worked together to carefully remove each bone.",
+        "meaning-example": "Họ đã làm việc cùng nhau để cẩn thận lấy ra từng chiếc xương.",
+        "ipa-example": "/ðeɪ wɜːkt təˈgɛðə tuː ˈkeəfʊli rɪˈmuːv iːʧ bəʊn./"
+      },
+      {
+        "sentence": "And to keep the bones together, they tied them with elastic strips.",
+        "meaning-example": "Và để giữ các khúc xương lại với nhau, họ đã buộc chúng bằng những dải dây thun.",
+        "ipa-example": "/ænd tuː kiːp ðə bəʊnz təˈgɛðə, ðeɪ taɪd ðɛm wɪð ɪˈlæstɪk strɪps./"
+      },
+      {
+        "sentence": "When they were finished, they had attained a perfect skeleton.",
+        "meaning-example": "Khi họ hoàn thành, họ đã có được một bộ xương hoàn hảo.",
+        "ipa-example": "/wɛn ðeɪ wɜː ˈfɪnɪʃt, ðeɪ hæd əˈteɪnd ə ˈpɜːfɪkt ˈskɛlɪtən./"
+      },
+      {
+        "sentence": "They used plaster to make a mold of the dinosaur’s skull.",
+        "meaning-example": "Họ đã dùng thạch cao để làm khuôn hộp sọ của khủng long.",
+        "ipa-example": "/ðeɪ juːzd ˈplɑːstə tuː meɪk ə məʊld ɒv ðə ˈdaɪnəsɔːz skʌl./"
+      },
+      {
+        "sentence": "They engraved their initials into it and gave it to the curator of a local museum.",
+        "meaning-example": "Họ đã khắc tên viết tắt của mình vào đó và tặng nó cho người phụ trách của một bảo tàng địa phương.",
+        "ipa-example": "/ðeɪ ɪnˈgreɪvd ðeər ɪˈnɪʃəlz ˈɪntuː ɪt ænd geɪv ɪt tuː ðə kjʊəˈreɪtər ɒv ə ˈləʊkəl mju(ː)ˈzɪəm./"
+      },
+      {
+        "sentence": "Tim and Dean found out that they could work very well together.",
+        "meaning-example": "Tim và Dean phát hiện ra rằng họ có thể làm việc rất tốt cùng nhau.",
+        "ipa-example": "/tɪm ænd diːn faʊnd aʊt ðæt ðeɪ kʊd wɜːk ˈvɛri wɛl təˈgɛðə./"
+      },
+      {
+        "sentence": "They decided to end their feud and become friends.",
+        "meaning-example": "Họ quyết định chấm dứt mối thù và trở thành bạn bè.",
+        "ipa-example": "/ðeɪ dɪˈsaɪdɪd tuː ɛnd ðeə fjuːd ænd bɪˈkʌm frɛndz./"
+      },
+      {
+        "sentence": "By combining their talents, the men became even greater than they were before.",
+        "meaning-example": "Bằng cách kết hợp tài năng của mình, những người đàn ông càng trở nên vĩ đại hơn trước đây.",
+        "ipa-example": "/baɪ kəmˈbaɪnɪŋ ðeə ˈtælənts, ðə mɛn bɪˈkeɪm ˈiːvən ˈgreɪtə ðæn ðeɪ wɜː bɪˈfɔː./"
+      }
+    ]
+  }
+]
