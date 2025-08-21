@@ -536,7 +536,7 @@
 
             recognition.onresult = (event) => {
                 const transcript = event.results[0][0].transcript.trim();
-                const correctAnswer = shuffledCards[currentCardIndex].answer.trim();
+                const correctAnswer = shuffledCards[currentCardIndex].question.trim();
 
                 // Tách từ và chuẩn hóa
                 const userWords = cleanText(transcript).split(/\s+/);
