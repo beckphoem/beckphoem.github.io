@@ -1,0 +1,182 @@
+[
+  {
+    "question": "attic",
+    "classes": "n",
+    "answer": "Gác xép, gác mái.",
+    "ipa": "/ˈæt.ɪk/",
+    "example": "First he went to the attic to get more chairs and tables.",
+    "english-definition": "A space or room just below the roof of a building.",
+    "images": "eew-6-4/1.png"
+  },
+  {
+    "question": "chunk",
+    "classes": "n",
+    "answer": "Một khúc, một miếng to.",
+    "ipa": "/tʃʌŋk/",
+    "example": "...and chopped some beef into chunks.",
+    "english-definition": "A large, solid piece of something.",
+    "images": "eew-6-4/2.png"
+  },
+  {
+    "question": "civic",
+    "classes": "adj",
+    "answer": "(thuộc) công dân, (thuộc) thành phố.",
+    "ipa": "/ˈsɪv.ɪk/",
+    "example": "The Superintendent of Civic Projects was a busy man.",
+    "english-definition": "Relating to a town or city or the people who live in it.",
+    "images": "eew-6-4/3.png"
+  },
+  {
+    "question": "descent",
+    "classes": "n",
+    "answer": "Sự đi xuống, sự hạ xuống.",
+    "ipa": "/dɪˈsent/",
+    "example": "But on his descent, he realized he needed to make the food.",
+    "english-definition": "The act of going or coming down.",
+    "images": "eew-6-4/4.png"
+  },
+  {
+    "question": "din",
+    "classes": "n",
+    "answer": "Tiếng ồn ào, huyên náo, inh tai.",
+    "ipa": "/dɪn/",
+    "example": "...and the party was filled with a din of complaints.",
+    "english-definition": "A loud, unpleasant, and prolonged noise.",
+    "images": "eew-6-4/5.png"
+  },
+  {
+    "question": "dissatisfy",
+    "classes": "v",
+    "answer": "Làm không hài lòng, làm thất vọng.",
+    "ipa": "/ˌdɪsˈsæt.ɪs.faɪ/",
+    "example": "Some guests were dissatisfied.",
+    "english-definition": "To make someone feel disappointed or not pleased.",
+    "images": "eew-6-4/6.png"
+  },
+  {
+    "question": "fuss",
+    "classes": "n",
+    "answer": "Sự ầm ĩ, sự om sòm, sự rối rít.",
+    "ipa": "/fʌs/",
+    "example": "They started to make a fuss...",
+    "english-definition": "A show of anger, worry, or excitement that is unnecessary or greater than the situation deserves.",
+    "images": "eew-6-4/7.png"
+  },
+  {
+    "question": "gourmet",
+    "classes": "adj",
+    "answer": "(thuộc) người sành ăn, (thuộc) ẩm thực chất lượng cao.",
+    "ipa": "/ˈɡɔː.meɪ/",
+    "example": "A gourmet dinner was necessary for such a party.",
+    "english-definition": "(of food) of very high quality.",
+    "images": "eew-6-4/8.png"
+  },
+  {
+    "question": "hence",
+    "classes": "adv",
+    "answer": "Do đó, vì vậy.",
+    "ipa": "/hens/",
+    "example": "Hence, while the superintendent slept soundly...",
+    "english-definition": "For this reason; as a result.",
+    "images": "eew-6-4/9.png"
+  },
+  {
+    "question": "intrinsic",
+    "classes": "adj",
+    "answer": "(thuộc) bản chất, bên trong, cố hữu.",
+    "ipa": "/ɪnˈtrɪn.zɪk/",
+    "example": "...his profession’s intrinsic nature demanded he never be outspoken.",
+    "english-definition": "Being an extremely important and basic characteristic of a person or thing.",
+    "images": "eew-6-4/10.png"
+  },
+  {
+    "question": "kettle",
+    "classes": "n",
+    "answer": "Ấm đun nước.",
+    "ipa": "/ˈket.əl/",
+    "example": "He boiled water in a kettle for soup...",
+    "english-definition": "A container with a lid, a handle, and a spout, used for boiling water.",
+    "images": "eew-6-4/11.png"
+  },
+  {
+    "question": "ministry",
+    "classes": "n",
+    "answer": "Bộ (trong chính phủ).",
+    "ipa": "/ˈmɪn.ɪ.stri/",
+    "example": "People from the ministry are coming.",
+    "english-definition": "A government department headed by a minister.",
+    "images": "eew-6-4/12.png"
+  },
+  {
+    "question": "ordeal",
+    "classes": "n",
+    "answer": "Thử thách gian nan, sự trải nghiệm đau khổ.",
+    "ipa": "/ɔːˈdɪəl/",
+    "example": "...then we could have avoided this whole ordeal.",
+    "english-definition": "A very unpleasant and painful or difficult experience.",
+    "images": "eew-6-4/13.png"
+  },
+  {
+    "question": "outspoken",
+    "classes": "adj",
+    "answer": "Thẳng thắn, nói thẳng.",
+    "ipa": "/ˌaʊtˈspəʊ.kən/",
+    "example": "...demanded he never be outspoken.",
+    "english-definition": "Expressing strong opinions very directly without worrying if other people are offended.",
+    "images": "eew-6-4/14.png"
+  },
+  {
+    "question": "overwork",
+    "classes": "v",
+    "answer": "Làm việc quá sức.",
+    "ipa": "/ˌəʊ.vəˈwɜːk/",
+    "example": "Sadly, though the butler was always overworked...",
+    "english-definition": "To work too hard or too much.",
+    "images": "eew-6-4/15.png"
+  },
+  {
+    "question": "particular",
+    "classes": "adj",
+    "answer": "Cụ thể, đặc biệt.",
+    "ipa": "/pəˈtɪk.jə.lər/",
+    "example": "This particular party is important.",
+    "english-definition": "Special, or this and not any other.",
+    "images": "eew-6-4/16.png"
+  },
+  {
+    "question": "pungent",
+    "classes": "adj",
+    "answer": "Hăng, nồng (mùi, vị).",
+    "ipa": "/ˈpʌn.dʒənt/",
+    "example": "...and the soup tasted too pungent.",
+    "english-definition": "Smelling or tasting very strong and sharp.",
+    "images": "eew-6-4/17.png"
+  },
+  {
+    "question": "snore",
+    "classes": "v",
+    "answer": "Ngáy.",
+    "ipa": "/snɔːr/",
+    "example": "...snoring loudly in his bed...",
+    "english-definition": "To breathe in a very noisy way while you are sleeping.",
+    "images": "eew-6-4/18.png"
+  },
+  {
+    "question": "soundly",
+    "classes": "adv",
+    "answer": "(ngủ) say, ngon lành.",
+    "ipa": "/ˈsaʊnd.li/",
+    "example": "...while the superintendent slept soundly...",
+    "english-definition": "(sleep) deeply and well.",
+    "images": "eew-6-4/19.png"
+  },
+  {
+    "question": "superintendent",
+    "classes": "n",
+    "answer": "Người giám thị, người trông nom, người quản lý.",
+    "ipa": "/ˌsuː.pər.ɪnˈten.dənt/",
+    "example": "The Superintendent of Civic Projects was a busy man.",
+    "english-definition": "A person who is in charge of a large organization, a particular area of work, or the place where they work.",
+    "images": "eew-6-4/20.png"
+  }
+]
