@@ -1,0 +1,182 @@
+[
+  {
+    "question": "alternate",
+    "classes": "v",
+    "answer": "xen kẽ, luân phiên.",
+    "ipa": "/ˈɒl.tə.neɪt/",
+    "example": "Cậu `anh ta` có cái `nết` kỳ lạ, lúc vui lúc buồn cứ **luân phiên** nhau. Mọi người không biết đâu mà lần.",
+    "english-definition": "To happen or exist one after the other repeatedly.",
+    "images": "eew-6-5/1.png"
+  },
+  {
+    "question": "apology",
+    "classes": "n",
+    "answer": "lời xin lỗi.",
+    "ipa": "/əˈpɒl.ə.dʒi/",
+    "example": "Cậu bé làm mất chiếc ba lô hàng hiệu. Cậu mếu máo: \"`Ơ, ba lô G` của bố mất rồi!\" và nói **lời xin lỗi** với bố.",
+    "english-definition": "An act of saying that you are sorry for something wrong you have done.",
+    "images": "eew-6-5/2.png"
+  },
+  {
+    "question": "boast",
+    "classes": "v",
+    "answer": "khoe khoang, khoác lác.",
+    "ipa": "/bəʊst/",
+    "example": "Anh chàng đi một đôi **bốt** mới, đi khắp nơi và **khoe khoang** với mọi người: \"Thấy đôi **bốt** của tôi không? Hàng hiệu đấy!\".",
+    "english-definition": "To speak too proudly or happily about what you have done or what you own.",
+    "images": "eew-6-5/3.png"
+  },
+  {
+    "question": "bored",
+    "classes": "adj",
+    "answer": "buồn chán, chán nản.",
+    "ipa": "/bɔːd/",
+    "example": "Cô gái ngồi một mình, cảm thấy rất **buồn chán** nên đã quyết định đi cắt tóc kiểu đầu `bo`.",
+    "english-definition": "Feeling unhappy because something is not interesting or because you have nothing to do.",
+    "images": "eew-6-5/4.png"
+  },
+  {
+    "question": "confident",
+    "classes": "adj",
+    "answer": "tự tin.",
+    "ipa": "/ˈkɒn.fɪ.dənt/",
+    "example": "Con cò rất **tự tin** vào khả năng bay lượn của mình, nó `phi đến` và đậu nhẹ nhàng trên cành cây.",
+    "english-definition": "Being certain of your abilities or having trust in people, plans, or the future.",
+    "images": "eew-6-5/5.png"
+  },
+  {
+    "question": "disagree",
+    "classes": "v",
+    "answer": "không đồng ý, bất đồng.",
+    "ipa": "/ˌdɪs.əˈɡriː/",
+    "example": "Bố bảo cậu bé đi xin lỗi con chó G-ri. Cậu bé nói: \"Cái `đít` con vẫn còn `sợ` con `G-ri`, con **không đồng ý** xin lỗi nó đâu!\".",
+    "english-definition": "To have a different opinion.",
+    "images": "eew-6-5/6.png"
+  },
+  {
+    "question": "eyebrow",
+    "classes": "n",
+    "answer": "lông mày.",
+    "ipa": "/ˈaɪ.braʊ/",
+    "example": "Mẹ thấy luống rau bị mất vài cây, mẹ cau **lông mày** lại và hỏi lớn: \"`Ai bẻ rau` của tôi?\".",
+    "english-definition": "The line of hair growing on the ridge above a person's eye.",
+    "images": "eew-6-5/7.png"
+  },
+  {
+    "question": "faith",
+    "classes": "n",
+    "answer": "niềm tin, sự tin tưởng.",
+    "ipa": "/feɪθ/",
+    "example": "Anh chàng có **niềm tin** mãnh liệt rằng chỉ cần bôi loại thuốc này lên là vết thương sẽ khỏi \"phăm `phết`\".",
+    "english-definition": "Great trust or confidence in something or someone.",
+    "images": "eew-6-5/8.png"
+  },
+  {
+    "question": "genius",
+    "classes": "n",
+    "answer": "thiên tài.",
+    "ipa": "/ˈdʒiː.ni.əs/",
+    "example": "Có một nhà bác học bị đòi nợ. Ông ta ngơ ngác hỏi: \"`Gì nợ` tớ cơ?\". Người đòi nợ đáp: \"Ông là **thiên tài** mà lại hay quên thế!\".",
+    "english-definition": "A person with very great and rare natural ability or skill, especially in a particular area.",
+    "images": "eew-6-5/9.png"
+  },
+  {
+    "question": "gentle",
+    "classes": "adj",
+    "answer": "dịu dàng, nhẹ nhàng.",
+    "ipa": "/ˈdʒen.təl/",
+    "example": "Anh chàng có cái `gien tồ` từ bố, trông có vẻ khù khờ nhưng thực ra anh ấy rất hiền lành và có một trái tim **dịu dàng, nhẹ nhàng**.",
+    "english-definition": "Calm, kind, or soft.",
+    "images": "eew-6-5/10.png"
+  },
+  {
+    "question": "gift",
+    "classes": "n",
+    "answer": "món quà.",
+    "ipa": "/ɡɪft/",
+    "example": "Ông già Noel lấy từ trong túi ra một chiếc xe `gíp` đồ chơi làm **món quà** cho cậu bé.",
+    "english-definition": "A present or something that is given.",
+    "images": "eew-6-5/11.png"
+  },
+  {
+    "question": "holy",
+    "classes": "adj",
+    "answer": "linh thiêng, thần thánh.",
+    "ipa": "/ˈhəʊ.li/",
+    "example": "Con `hồ ly` chín đuôi được coi là một sinh vật **linh thiêng, thần thánh** trong truyền thuyết.",
+    "english-definition": "Related to a religion or a god.",
+    "images": "eew-6-5/12.png"
+  },
+  {
+    "question": "interfere",
+    "classes": "v",
+    "answer": "can thiệp.",
+    "ipa": "/ˌɪn.təˈfɪər/",
+    "example": "Mẹ dặn con: \"Vào `trong` (`in`) mà lấy `tờ` giấy ở `phía` kia đi, đừng **can thiệp** vào chuyện của người lớn.\".",
+    "english-definition": "To involve yourself in a situation when your involvement is not wanted or is not helpful.",
+    "images": "eew-6-5/13.png"
+  },
+  {
+    "question": "light",
+    "classes": "n",
+    "answer": "ánh sáng.",
+    "ipa": "/laɪt/",
+    "example": "Người ta đã `lai` tạo ra một loại cây đặc biệt có thể phát ra **ánh sáng** vào ban đêm.",
+    "english-definition": "The brightness that comes from the sun, fire, etc. and allows things to be seen.",
+    "images": "eew-6-5/14.png"
+  },
+  {
+    "question": "notice",
+    "classes": "v",
+    "answer": "nhận thấy, chú ý.",
+    "ipa": "/ˈnəʊ.tɪs/",
+    "example": "Cô gái đeo một cái `nơ` ở `tít` trên cao, nhưng anh chàng vẫn **nhận thấy** và **chú ý** đến nó.",
+    "english-definition": "To see or become conscious of something or someone.",
+    "images": "eew-6-5/15.png"
+  },
+  {
+    "question": "patient",
+    "classes": "adj",
+    "answer": "kiên nhẫn.",
+    "ipa": "/ˈpeɪ.ʃənt/",
+    "example": "Một `bầy sên` đang bò rất chậm chạp. Để quan sát chúng di chuyển hết quãng đường, bạn cần phải rất **kiên nhẫn**.",
+    "english-definition": "Able to wait, or to continue doing something despite difficulties, or to suffer without complaining or becoming annoyed.",
+    "images": "eew-6-5/16.png"
+  },
+  {
+    "question": "positive",
+    "classes": "adj",
+    "answer": "tích cực.",
+    "ipa": "/ˈpɒz.ə.tɪv/",
+    "example": "Viên chỉ huy hô lớn: \"`Bỏ dép` vào trong `típ` xe đi! Nhanh lên!\". Anh ấy luôn giữ một thái độ **tích cực** và lạc quan ngay cả trong hoàn cảnh khó khăn.",
+    "english-definition": "Full of hope and confidence, or giving cause for hope and confidence.",
+    "images": "eew-6-5/17.png"
+  },
+  {
+    "question": "punish",
+    "classes": "v",
+    "answer": "trừng phạt.",
+    "ipa": "/ˈpʌn.ɪʃ/",
+    "example": "Tên tướng ra lệnh: \"Ai không tuân lệnh, `bắn` vào cái `nít` quần nó cho ta!\". Đó là một hình thức **trừng phạt** kỳ lạ.",
+    "english-definition": "To cause someone who has done something wrong or illegal to suffer by hurting them, forcing them to pay money, sending them to prison, etc.",
+    "images": "eew-6-5/18.png"
+  },
+  {
+    "question": "represent",
+    "classes": "v",
+    "answer": "đại diện, tượng trưng cho.",
+    "ipa": "/ˌrep.rɪˈzent/",
+    "example": "Ở một vương quốc nọ, chỉ có hoàng gia mới được đi `dép đi` `sen` (dép có hình hoa sen). Đôi dép này **đại diện** cho và **tượng trưng cho** quyền lực của họ.",
+    "english-definition": "To speak, act, or be present officially for another person or people.",
+    "images": "eew-6-5/19.png"
+  },
+  {
+    "question": "shake",
+    "classes": "v",
+    "answer": "rung, lắc.",
+    "ipa": "/ʃeɪk/",
+    "example": "Ông `sếp` tức giận, tay ông **rung** lên bần bật và ông **lắc** đầu nguầy nguậy.",
+    "english-definition": "To move backwards and forwards or up and down in quick, short movements, or to make something or someone do this.",
+    "images": "eew-6-5/20.png"
+  }
+]
