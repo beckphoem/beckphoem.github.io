@@ -1,781 +1,581 @@
 [
   {
-    "word": "attic",
-    "ipa": "/ˈæt.ɪk/",
-    "meaning": "Gác xép, gác mái.",
+    "word": "alternate",
+    "ipa": "/ˈɔːl.tə.neɪt/",
+    "meaning": "Luân phiên, xen kẽ.",
     "image": "eew-6-5/1.png",
-    "classes": "n",
+    "classes": "v",
     "example": [
       {
-        "sentence": "attic",
-        "meaning-example": "Gác xép, gác mái.",
-        "ipa-example": "/ˈæt.ɪk/"
+        "sentence": "alternate",
+        "meaning-example": "Luân phiên, xen kẽ.",
+        "ipa-example": "/ˈɔːl.tə.neɪt/"
       },
       {
-        "sentence": "Cậu bé tìm thấy một cuốn nhật ký cũ trên gác mái. Cậu tò mò, \"Ai mà ***ắt tích*** (ắt-tích) trữ đồ cũ trên này thế nhỉ?\" Hóa ra đó là kho báu kỷ niệm của ông nội, cất giấu trên **gác xép** (attic).",
+        "sentence": "`Anh tớ nết` (anh-tớ-nết) thay đổi thất thường, lúc vui lúc buồn, cứ **luân phiên, xen kẽ** nhau.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A space or room just below the roof of a building.",
-        "meaning-example": "Một không gian hoặc căn phòng ngay dưới mái của một tòa nhà.",
-        "ipa-example": "/ə speɪs ɔːr ruːm dʒʌst bɪˈləʊ ðə ruːf əv ə ˈbɪl.dɪŋ./"
+        "sentence": "To happen or exist one after the other repeatedly.",
+        "meaning-example": "Xảy ra hoặc tồn tại cái này sau cái kia một cách lặp đi lặp lại.",
+        "ipa-example": null
       },
       {
-        "sentence": "First he went to the attic to get more chairs and tables.",
-        "meaning-example": "Đầu tiên anh ấy lên gác mái để lấy thêm ghế và bàn.",
-        "ipa-example": "/fɜːst hi went tuː ðə ˈæt.ɪk tuː ɡet mɔːr tʃeərz ənd ˈteɪ.bəlz./"
-      },
-      {
-        "sentence": "The old house had a dusty attic full of forgotten treasures.",
-        "meaning-example": "Ngôi nhà cũ có một gác mái đầy bụi bặm chứa đầy những kho báu bị lãng quên.",
-        "ipa-example": "/ðə əʊld haʊs hæd ə ˈdʌs.ti ˈæt.ɪk fʊl əv fəˈɡɒt.ən ˈtreʒ.ərz./"
-      },
-      {
-        "sentence": "We converted the attic into a cozy bedroom.",
-        "meaning-example": "Chúng tôi đã cải tạo gác mái thành một phòng ngủ ấm cúng.",
-        "ipa-example": "/wi kənˈvɜː.tɪd ðə ˈæt.ɪk ˈɪn.tuː ə ˈkəʊ.zi ˈbed.ruːm./"
+        "sentence": "He gasped and his face alternated between brave and pained expressions.",
+        "meaning-example": "Anh ta thở hổn hển và khuôn mặt anh ta luân phiên giữa những biểu cảm dũng cảm và đau đớn.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "chunk",
-    "ipa": "/tʃʌŋk/",
-    "meaning": "Một khúc, một miếng to.",
+    "word": "apologetic",
+    "ipa": "/əˌpɒl.əˈdʒet.ɪk/",
+    "meaning": "Tỏ vẻ hối lỗi, xin lỗi.",
     "image": "eew-6-5/2.png",
-    "classes": "n",
+    "classes": "adj",
     "example": [
       {
-        "sentence": "chunk",
-        "meaning-example": "Một khúc, một miếng to.",
-        "ipa-example": "/tʃʌŋk/"
+        "sentence": "apologetic",
+        "meaning-example": "Tỏ vẻ hối lỗi, xin lỗi.",
+        "ipa-example": "/əˌpɒl.əˈdʒet.ɪk/"
       },
       {
-        "sentence": "Ngày Tết, mẹ cắt chiếc bánh **chưng** và đưa cho tôi một **khúc** rất to.",
+        "sentence": "`Ơ, ba lôgetic` (ơ-ba-lô-dgetic) thật đấy, con làm sai mà không xin lỗi. Sau khi bị mắng, cậu bé tỏ ra **hối lỗi, biết lỗi**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A large, solid piece of something.",
-        "meaning-example": "Một miếng lớn, rắn của một thứ gì đó.",
-        "ipa-example": "/ə lɑːdʒ, ˈsɒl.ɪd piːs əv ˈsʌm.θɪŋ./"
+        "sentence": "Showing that you feel sorry for something that has happened.",
+        "meaning-example": "Thể hiện rằng bạn cảm thấy tiếc về điều gì đó đã xảy ra.",
+        "ipa-example": null
       },
       {
-        "sentence": "...and chopped some beef into chunks.",
-        "meaning-example": "...và cắt một ít thịt bò thành từng miếng.",
-        "ipa-example": "/ənd tʃɒpt səm biːf ˈɪn.tuː tʃʌŋks./"
-      },
-      {
-        "sentence": "A large chunk of ice fell from the glacier.",
-        "meaning-example": "Một tảng băng lớn rơi ra từ sông băng.",
-        "ipa-example": "/ə lɑːdʒ tʃʌŋk əv aɪs fel frəm ðə ˈɡlæs.i.ər./"
-      },
-      {
-        "sentence": "He spends a good chunk of his day reading.",
-        "meaning-example": "Anh ấy dành một phần lớn thời gian trong ngày để đọc sách.",
-        "ipa-example": "/hi spendz ə ɡʊd tʃʌŋk əv hɪz deɪ ˈriː.dɪŋ./"
+        "sentence": "The next day she said in an apologetic voice...",
+        "meaning-example": "Ngày hôm sau, cô ấy nói bằng một giọng hối lỗi...",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "civic",
-    "ipa": "/ˈsɪv.ɪk/",
-    "meaning": "(thuộc) công dân, (thuộc) thành phố.",
+    "word": "benign",
+    "ipa": "/bɪˈnaɪn/",
+    "meaning": "Lành, hiền lành, nhân từ.",
     "image": "eew-6-5/3.png",
     "classes": "adj",
     "example": [
       {
-        "sentence": "civic",
-        "meaning-example": "(thuộc) công dân, (thuộc) thành phố.",
-        "ipa-example": "/ˈsɪv.ɪk/"
+        "sentence": "benign",
+        "meaning-example": "Lành, hiền lành, nhân từ.",
+        "ipa-example": "/bɪˈnaɪn/"
       },
       {
-        "sentence": "Chú vịt lái chiếc **xe** hình **vịt** đi quanh thành phố để tuyên truyền về nghĩa vụ **công dân**. Do đó, khi nghe civic (phát âm như /xe vịt/), bạn hãy nhớ ngay đến các vấn đề (thuộc) công dân và thành phố.",
+        "sentence": "Chú chó tên `Bi` rất `ngoan` (bi-nain). Nhìn nó to lớn vậy thôi chứ thực ra rất **lành, hiền lành**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "Relating to a town or city or the people who live in it.",
-        "meaning-example": "Liên quan đến một thị trấn hoặc thành phố hoặc những người sống trong đó.",
-        "ipa-example": "/rɪˈleɪ.tɪŋ tuː ə taʊn ɔːr ˈsɪt.i ɔːr ðə ˈpiː.pəl huː lɪv ɪn ɪt./"
+        "sentence": "Pleasant and kind; not harmful or severe.",
+        "meaning-example": "Dễ chịu và tốt bụng; không có hại hoặc nghiêm trọng.",
+        "ipa-example": null
       },
       {
-        "sentence": "The Superintendent of Civic Projects was a busy man.",
-        "meaning-example": "Giám đốc các dự án công ích là một người bận rộn.",
-        "ipa-example": "/ðə ˌsuː.pər.ɪnˈten.dənt əv ˈsɪv.ɪk ˈprɒdʒ.ekts wəz ə ˈbɪz.i mæn./"
-      },
-      {
-        "sentence": "It is your civic duty to vote in elections.",
-        "meaning-example": "Bỏ phiếu trong các cuộc bầu cử là nghĩa vụ công dân của bạn.",
-        "ipa-example": "/ɪt ɪz jɔːr ˈsɪv.ɪk ˈdʒuː.ti tuː vəʊt ɪn ɪˈlek.ʃənz./"
-      },
-      {
-        "sentence": "The mayor was praised for his civic leadership.",
-        "meaning-example": "Thị trưởng được ca ngợi vì sự lãnh đạo công dân của mình.",
-        "ipa-example": "/ðə meər wəz preɪzd fɔːr hɪz ˈsɪv.ɪk ˈliː.də.ʃɪp./"
+        "sentence": "The chili looked benign, but Becky knew it could cause a lot of pain.",
+        "meaning-example": "Quả ớt trông có vẻ lành tính, nhưng Becky biết nó có thể gây ra rất nhiều đau đớn.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "descent",
-    "ipa": "/dɪˈsent/",
-    "meaning": "Sự đi xuống, sự hạ xuống.",
+    "word": "char",
+    "ipa": "/tʃɑːr/",
+    "meaning": "Làm cháy, cháy thành than.",
     "image": "eew-6-5/4.png",
-    "classes": "n",
-    "example": [
-      {
-        "sentence": "descent",
-        "meaning-example": "Sự đi xuống, sự hạ xuống.",
-        "ipa-example": "/dɪˈsent/"
-      },
-      {
-        "sentence": "Cô gái tên **Sen** bắt đầu hành trình đi xuống một con **dốc núi**. Chuyến **đi** của **Sen** là để về thăm quê hương, nơi có dòng dõi tổ tiên.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "The act of going or coming down.",
-        "meaning-example": "Hành động đi hoặc xuống.",
-        "ipa-example": "/ði ækt əv ˈɡəʊ.ɪŋ ɔːr ˈkʌm.ɪŋ daʊn./"
-      },
-      {
-        "sentence": "But on his descent, he realized he needed to make the food.",
-        "meaning-example": "Nhưng trên đường đi xuống, anh nhận ra mình cần phải làm thức ăn.",
-        "ipa-example": "/bət ɒn hɪz dɪˈsent, hi ˈrɪə.laɪzd hi ˈniː.dɪd tuː meɪk ðə fuːd./"
-      },
-      {
-        "sentence": "The plane began its descent into the airport.",
-        "meaning-example": "Máy bay bắt đầu hạ độ cao xuống sân bay.",
-        "ipa-example": "/ðə pleɪn bɪˈɡæn ɪts dɪˈsent ˈɪn.tuː ði ˈeə.pɔːt./"
-      },
-      {
-        "sentence": "The descent down the mountain was steep and dangerous.",
-        "meaning-example": "Việc đi xuống núi rất dốc và nguy hiểm.",
-        "ipa-example": "/ðə dɪˈsent daʊn ðə ˈmaʊn.tɪn wəz stiːp ənd ˈdeɪn.dʒər.əs./"
-      }
-    ]
-  },
-  {
-    "word": "din",
-    "ipa": "/dɪn/",
-    "meaning": "Tiếng ồn ào, huyên náo, inh tai.",
-    "image": "eew-6-5/5.png",
-    "classes": "n",
-    "example": [
-      {
-        "sentence": "din",
-        "meaning-example": "Tiếng ồn ào, huyên náo, inh tai.",
-        "ipa-example": "/dɪn/"
-      },
-      {
-        "sentence": "Trong xưởng mộc, hàng chục người thợ cùng lúc dùng búa đóng **đinh**. Âm thanh này tạo thành một tiếng **ồn ào, inh tai** và rất khó chịu.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "A loud, unpleasant, and prolonged noise.",
-        "meaning-example": "Một tiếng ồn lớn, khó chịu và kéo dài.",
-        "ipa-example": "/ə laʊd, ʌnˈplez.ənt, ənd prəˈlɒŋd nɔɪz./"
-      },
-      {
-        "sentence": "...and the party was filled with a din of complaints.",
-        "meaning-example": "...và bữa tiệc tràn ngập tiếng phàn nàn ồn ào.",
-        "ipa-example": "/ənd ðə ˈpɑː.ti wəz fɪld wɪð ə dɪn əv kəmˈpleɪnts./"
-      },
-      {
-        "sentence": "I couldn't hear him speak over the din of the traffic.",
-        "meaning-example": "Tôi không thể nghe anh ấy nói qua tiếng ồn ào của giao thông.",
-        "ipa-example": "/aɪ ˈkʊd.ənt hɪər hɪm spiːk ˈəʊ.vər ðə dɪn əv ðə ˈtræf.ɪk./"
-      },
-      {
-        "sentence": "The children were making a terrible din in the classroom.",
-        "meaning-example": "Lũ trẻ đang làm ồn ào kinh khủng trong lớp học.",
-        "ipa-example": "/ðə ˈtʃɪl.drən wər ˈmeɪ.kɪŋ ə ˈter.ə.bəl dɪn ɪn ðə ˈklɑːs.ruːm./"
-      }
-    ]
-  },
-  {
-    "word": "dissatisfy",
-    "ipa": "/ˌdɪsˈsæt.ɪs.faɪ/",
-    "meaning": "Làm không hài lòng, làm thất vọng.",
-    "image": "eew-6-5/6.png",
     "classes": "v",
     "example": [
       {
-        "sentence": "dissatisfy",
-        "meaning-example": "Làm không hài lòng, làm thất vọng.",
-        "ipa-example": "/ˌdɪsˈsæt.ɪs.faɪ/"
+        "sentence": "char",
+        "meaning-example": "Làm cháy, cháy thành than.",
+        "ipa-example": "/tʃɑːr/"
       },
       {
-        "sentence": "Một vị khách gọi phở và bực mình chỉ vào cái **đĩa sa tế đã phai** màu. Ông nói: \"Cảnh tượng này làm tôi **không hài lòng**!\"",
+        "sentence": "Mẹ dặn con trông nồi thịt kho. Con mải chơi, thịt bị cháy `khét lẹt`. Mẹ hỏi \"thịt đâu?\", con `chà` tay vào nhau, đáp \"cháy rồi ạ\". Thịt đã bị **làm cháy, cháy thành than**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "To make someone feel disappointed or not pleased.",
-        "meaning-example": "Làm cho ai đó cảm thấy thất vọng hoặc không hài lòng.",
-        "ipa-example": "/tuː meɪk ˈsʌm.wʌn fiːl ˌdɪs.əˈpɔɪn.tɪd ɔːr nɒt pliːzd./"
+        "sentence": "To burn something slightly or partly, so that its surface becomes black.",
+        "meaning-example": "Đốt cháy một thứ gì đó một chút hoặc một phần, để bề mặt của nó trở nên đen.",
+        "ipa-example": null
       },
       {
-        "sentence": "Some guests were dissatisfied.",
-        "meaning-example": "Một số khách đã không hài lòng.",
-        "ipa-example": "/sʌm ɡests wər ˌdɪsˈsæt.ɪs.faɪd./"
-      },
-      {
-        "sentence": "The poor service at the restaurant dissatisfied many customers.",
-        "meaning-example": "Dịch vụ kém tại nhà hàng đã làm nhiều khách hàng không hài lòng.",
-        "ipa-example": "/ðə pɔːr ˈsɜː.vɪs ət ðə ˈres.trɒnt ˌdɪsˈsæt.ɪs.faɪd ˈmen.i ˈkʌs.tə.mərz./"
-      },
-      {
-        "sentence": "He was dissatisfied with his performance in the exam.",
-        "meaning-example": "Anh ấy không hài lòng với kết quả của mình trong kỳ thi.",
-        "ipa-example": "/hi wəz ˌdɪsˈsæt.ɪs.faɪd wɪð hɪz pəˈfɔː.məns ɪn ði ɪɡˈzæm./"
+        "sentence": "...except the meat’s charred.",
+        "meaning-example": "...ngoại trừ việc thịt bị cháy sém.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "fuss",
-    "ipa": "/fʌs/",
-    "meaning": "Sự ầm ĩ, sự om sòm, sự rối rít.",
+    "word": "clarify",
+    "ipa": "/ˈklær.ə.faɪ/",
+    "meaning": "Làm rõ, làm sáng tỏ.",
+    "image": "eew-6-5/5.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "clarify",
+        "meaning-example": "Làm rõ, làm sáng tỏ.",
+        "ipa-example": "/ˈklær.ə.faɪ/"
+      },
+      {
+        "sentence": "Cô giáo hỏi \"Các em `có le` (có lẽ) là `hiểu bài` chưa?\". Cả lớp im lặng. Cô nói: \"Vậy để cô **làm rõ, giảng giải lại** nhé.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make something clear or easier to understand by giving more details or a simpler explanation.",
+        "meaning-example": "Làm cho điều gì đó rõ ràng hoặc dễ hiểu hơn bằng cách cung cấp thêm chi tiết hoặc giải thích đơn giản hơn.",
+        "ipa-example": null
+      },
+      {
+        "sentence": "Fine, but to clarify, you’ll carry my books for the entire school year, right?",
+        "meaning-example": "Được thôi, nhưng để làm rõ, bạn sẽ mang sách cho tôi trong cả năm học, phải không?",
+        "ipa-example": null
+      }
+    ]
+  },
+  {
+    "word": "dogged",
+    "ipa": "/ˈdɒɡ.ɪd/",
+    "meaning": "Gan góc, kiên trì, bền bỉ.",
+    "image": "eew-6-5/6.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "dogged",
+        "meaning-example": "Gan góc, kiên trì, bền bỉ.",
+        "ipa-example": "/ˈdɒɡ.ɪd/"
+      },
+      {
+        "sentence": "Con chó (`dog`) cứ `gừ gừ` (dog-ged) đuổi theo tên trộm. Nó rất **gan góc, kiên trì**, không bỏ cuộc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Very determined to do something, even if it is very difficult.",
+        "meaning-example": "Rất quyết tâm làm điều gì đó, ngay cả khi nó rất khó khăn.",
+        "ipa-example": null
+      },
+      {
+        "sentence": "His dogged persuasion convinced her.",
+        "meaning-example": "Sự thuyết phục kiên trì của anh ấy đã thuyết phục được cô.",
+        "ipa-example": null
+      }
+    ]
+  },
+  {
+    "word": "distress",
+    "ipa": "/dɪˈstres/",
+    "meaning": "Sự đau buồn, phiền muộn, thống khổ.",
     "image": "eew-6-5/7.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "fuss",
-        "meaning-example": "Sự ầm ĩ, sự om sòm, sự rối rít.",
-        "ipa-example": "/fʌs/"
+        "sentence": "distress",
+        "meaning-example": "Sự đau buồn, phiền muộn, thống khổ.",
+        "ipa-example": "/dɪˈstres/"
       },
       {
-        "sentence": "Bà cụ làm ầm lên như một tên `phát xít` chỉ vì một hạt cơm rơi. Sự **om sòm, rùm beng** không cần thiết này của bà thật mệt mỏi.",
+        "sentence": "Anh chàng bị `đít` con `trét` đầy bùn khi ngã xe. Anh ta cảm thấy vô cùng **đau buồn, phiền muộn**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A show of anger, worry, or excitement that is unnecessary or greater than the situation deserves.",
-        "meaning-example": "Một sự thể hiện sự tức giận, lo lắng hoặc phấn khích không cần thiết hoặc lớn hơn mức mà tình huống đáng có.",
-        "ipa-example": "/ə ʃəʊ əv ˈæŋ.ɡər, ˈwʌr.i, ɔːr ɪkˈsaɪt.mənt ðət ɪz ʌnˈnes.ə.ser.i ɔːr ˈɡreɪ.tər ðən ðə ˌsɪtʃ.uˈeɪ.ʃən dɪˈzɜːvz./"
+        "sentence": "A feeling of extreme worry, sadness, or pain.",
+        "meaning-example": "Một cảm giác vô cùng lo lắng, buồn bã hoặc đau đớn.",
+        "ipa-example": null
       },
       {
-        "sentence": "They started to make a fuss...",
-        "meaning-example": "Họ bắt đầu làm ầm lên...",
-        "ipa-example": "/ðeɪ ˈstɑː.tɪd tuː meɪk ə fʌs.../"
-      },
-      {
-        "sentence": "She made such a fuss when he broke her favorite vase.",
-        "meaning-example": "Cô ấy đã làm ầm lên khi anh ấy làm vỡ chiếc bình yêu thích của cô.",
-        "ipa-example": "/ʃi meɪd sʌtʃ ə fʌs wen hi brəʊk hɜːr ˈfeɪ.vər.ɪt vɑːz./"
-      },
-      {
-        "sentence": "Don't make a fuss, it was just a small mistake.",
-        "meaning-example": "Đừng làm ầm lên, đó chỉ là một lỗi nhỏ thôi.",
-        "ipa-example": "/dəʊnt meɪk ə fʌs, ɪt wəz dʒʌst ə smɔːl mɪˈsteɪk./"
+        "sentence": "Immediately, he seemed to be in distress.",
+        "meaning-example": "Ngay lập tức, anh ta dường như đang đau khổ.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "gourmet",
-    "ipa": "/ˈɡɔː.meɪ/",
-    "meaning": "(thuộc) người sành ăn, (thuộc) ẩm thực chất lượng cao.",
+    "word": "ensue",
+    "ipa": "/ɪnˈsjuː/",
+    "meaning": "Xảy ra sau đó, nảy sinh ra.",
     "image": "eew-6-5/8.png",
-    "classes": "adj",
+    "classes": "v",
     "example": [
       {
-        "sentence": "gourmet",
-        "meaning-example": "(thuộc) người sành ăn, (thuộc) ẩm thực chất lượng cao.",
-        "ipa-example": "/ˈɡɔː.meɪ/"
+        "sentence": "ensue",
+        "meaning-example": "Xảy ra sau đó, nảy sinh ra.",
+        "ipa-example": "/ɪnˈsjuː/"
       },
       {
-        "sentence": "Anh `Gô` rất `mê` ẩm thực, nhưng chỉ ăn những món chất lượng cao. Ai cũng nói anh Gô Mê là một **người sành ăn** và chỉ thích ẩm thực cao cấp.",
+        "sentence": "Sau khi `em xù` lông nhím lên, một trận cãi vã đã **xảy ra sau đó**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "(of food) of very high quality.",
-        "meaning-example": "(của thực phẩm) có chất lượng rất cao.",
-        "ipa-example": "/(əv fuːd) əv ˈver.i haɪ ˈkwɒl.ə.ti./"
+        "sentence": "To happen after something else, especially as a result of it.",
+        "meaning-example": "Xảy ra sau một cái gì đó khác, đặc biệt là kết quả của nó.",
+        "ipa-example": null
       },
       {
-        "sentence": "A gourmet dinner was necessary for such a party.",
-        "meaning-example": "Một bữa tối thịnh soạn là cần thiết cho một bữa tiệc như vậy.",
-        "ipa-example": "/ə ˈɡɔː.meɪ ˈdɪn.ər wəz ˈnes.ə.ser.i fɔːr sʌtʃ ə ˈpɑː.ti./"
-      },
-      {
-        "sentence": "The restaurant is known for its gourmet cuisine.",
-        "meaning-example": "Nhà hàng nổi tiếng với ẩm thực cao cấp.",
-        "ipa-example": "/ðə ˈres.trɒnt ɪz nəʊn fɔːr ɪts ˈɡɔː.meɪ kwɪˈziːn./"
-      },
-      {
-        "sentence": "He bought some gourmet coffee for a special occasion.",
-        "meaning-example": "Anh ấy đã mua một ít cà phê sành điệu cho một dịp đặc biệt.",
-        "ipa-example": "/hi bɔːt səm ˈɡɔː.meɪ ˈkɒf.i fɔːr ə ˈspeʃ.əl əˈkeɪ.ʒən./"
+        "sentence": "An argument ensued about eating chilies.",
+        "meaning-example": "Một cuộc tranh cãi đã xảy ra sau đó về việc ăn ớt.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "hence",
-    "ipa": "/hens/",
-    "meaning": "Do đó, vì vậy.",
+    "word": "gasp",
+    "ipa": "/ɡɑːsp/",
+    "meaning": "Thở hổn hển, há hốc miệng (vì ngạc nhiên, đau đớn).",
     "image": "eew-6-5/9.png",
-    "classes": "adv",
+    "classes": "v",
     "example": [
       {
-        "sentence": "hence",
-        "meaning-example": "Do đó, vì vậy.",
-        "ipa-example": "/hens/"
+        "sentence": "gasp",
+        "meaning-example": "Thở hổn hển, há hốc miệng (vì ngạc nhiên, đau đớn).",
+        "ipa-example": "/ɡɑːsp/"
       },
       {
-        "sentence": "Anh sinh viên lười học nhưng lại rất `hên` vì trúng tủ ngay câu duy nhất đã học. Anh nghĩ: \"Mình `hên` quá, **do đó** mình sẽ làm được bài!\"",
+        "sentence": "Con `gà` thấy một con `rắn`, nó sợ hãi đến mức **thở hổn hển, há hốc miệng**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "For this reason; as a result.",
-        "meaning-example": "Vì lý do này; kết quả là.",
-        "ipa-example": "/fɔːr ðɪs ˈriː.zən; əz ə rɪˈzʌlt./"
+        "sentence": "To take a short, quick breath through the mouth, especially because of surprise, pain, or shock.",
+        "meaning-example": "Hít một hơi ngắn, nhanh qua miệng, đặc biệt là vì ngạc nhiên, đau đớn hoặc sốc.",
+        "ipa-example": null
       },
       {
-        "sentence": "Hence, while the superintendent slept soundly...",
-        "meaning-example": "Do đó, trong khi người quản lý ngủ say...",
-        "ipa-example": "/hens, waɪl ðə ˌsuː.pər.ɪnˈten.dənt slept ˈsaʊnd.li.../"
-      },
-      {
-        "sentence": "He was injured; hence, he could not play in the game.",
-        "meaning-example": "Anh ấy bị thương; do đó, anh ấy không thể thi đấu.",
-        "ipa-example": "/hi wəz ˈɪn.dʒəd; hens, hi kʊd nɒt pleɪ ɪn ðə ɡeɪm./"
-      },
-      {
-        "sentence": "The traffic was heavy, hence the delay.",
-        "meaning-example": "Giao thông đông đúc, vì vậy mới bị chậm trễ.",
-        "ipa-example": "/ðə ˈtræf.ɪk wəz ˈhev.i, hens ðə dɪˈleɪ./"
+        "sentence": "He gasped and his face alternated between brave and pained expressions.",
+        "meaning-example": "Anh ta thở hổn hển và khuôn mặt anh ta luân phiên giữa những biểu cảm dũng cảm và đau đớn.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "intrinsic",
-    "ipa": "/ɪnˈtrɪn.zɪk/",
-    "meaning": "(thuộc) bản chất, bên trong, cố hữu.",
+    "word": "negotiate",
+    "ipa": "/nəˈɡəʊ.ʃi.eɪt/",
+    "meaning": "Đàm phán, thương lượng.",
     "image": "eew-6-5/10.png",
-    "classes": "adj",
+    "classes": "v",
     "example": [
       {
-        "sentence": "intrinsic",
-        "meaning-example": "(thuộc) bản chất, bên trong, cố hữu.",
-        "ipa-example": "/ɪnˈtrɪn.zɪk/"
+        "sentence": "negotiate",
+        "meaning-example": "Đàm phán, thương lượng.",
+        "ipa-example": "/nəˈɡəʊ.ʃi.eɪt/"
       },
       {
-        "sentence": "Cỗ máy thần kỳ `in` ra hình ảnh cô `Trinh` cùng một sợi dây `xích`. Sợi xích đó tượng trưng cho lòng tốt, là giá trị bên trong, là **bản chất cố hữu** của cô.",
+        "sentence": "\"Nè, `gô` (go) `sỉ hết` (shi-ate) lô hàng này được không?\" - người bán hàng đang cố gắng **đàm phán, thương lượng** giá cả với khách.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "Being an extremely important and basic characteristic of a person or thing.",
-        "meaning-example": "Là một đặc điểm cực kỳ quan trọng và cơ bản của một người hoặc một vật.",
-        "ipa-example": "/ˈbiː.ɪŋ ən ɪkˈstriːm.li ɪmˈpɔː.tənt ənd ˈbeɪ.sɪk ˌkær.ək.təˈrɪs.tɪk əv ə ˈpɜː.sən ɔːr θɪŋ./"
+        "sentence": "To have formal discussions with someone in order to reach an agreement with them.",
+        "meaning-example": "Có các cuộc thảo luận chính thức với ai đó để đạt được thỏa thuận với họ.",
+        "ipa-example": null
       },
       {
-        "sentence": "...his profession’s intrinsic nature demanded he never be outspoken.",
-        "meaning-example": "...bản chất cố hữu của nghề nghiệp anh đòi hỏi anh không bao giờ được thẳng thắn.",
-        "ipa-example": "/hɪz prəˈfeʃ.ənz ɪnˈtrɪn.zɪk ˈneɪ.tʃər dɪˈmɑːn.dɪd hi ˈnev.ər bi ˌaʊtˈspəʊ.kən./"
-      },
-      {
-        "sentence": "The intrinsic value of a friendship is priceless.",
-        "meaning-example": "Giá trị nội tại của một tình bạn là vô giá.",
-        "ipa-example": "/ði ɪnˈtrɪn.zɪk ˈvæl.juː əv ə ˈfrend.ʃɪp ɪz ˈpraɪs.ləs./"
-      },
-      {
-        "sentence": "Creativity is intrinsic to the human spirit.",
-        "meaning-example": "Sáng tạo là bản chất cố hữu của tinh thần con người.",
-        "ipa-example": "/ˌkriː.eɪˈtɪv.ə.ti ɪz ɪnˈtrɪn.zɪk tuː ðə ˈhjuː.mən ˈspɪr.ɪt./"
+        "sentence": "She negotiated the details.",
+        "meaning-example": "Cô ấy đã thương lượng các chi tiết.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "kettle",
-    "ipa": "/ˈket.əl/",
-    "meaning": "Ấm đun nước.",
+    "word": "overdose",
+    "ipa": "/ˈəʊ.və.dəʊs/",
+    "meaning": "Sự quá liều (thuốc).",
     "image": "eew-6-5/11.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "kettle",
-        "meaning-example": "Ấm đun nước.",
-        "ipa-example": "/ˈket.əl/"
+        "sentence": "overdose",
+        "meaning-example": "Sự quá liều (thuốc).",
+        "ipa-example": "/ˈəʊ.və.dəʊs/"
       },
       {
-        "sentence": "Anh chàng tên `Tồ` đãng trí để quên **ấm đun nước** trên bếp cho đến khi nó bốc mùi `khét` lẹt.",
+        "sentence": "`Ôi vợ đâu!` - người chồng hốt hoảng khi thấy vợ mình dùng thuốc **quá liều**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A container with a lid, a handle, and a spout, used for boiling water.",
-        "meaning-example": "Một vật chứa có nắp, tay cầm và vòi, dùng để đun sôi nước.",
-        "ipa-example": "/ə kənˈteɪ.nər wɪð ə lɪd, ə ˈhæn.dəl, ənd ə spaʊt, juːzd fɔːr ˈbɔɪ.lɪŋ ˈwɔː.tər./"
+        "sentence": "Too much of a drug taken or given at one time, either intentionally or by accident.",
+        "meaning-example": "Dùng hoặc cho dùng quá nhiều một loại thuốc tại một thời điểm, dù cố ý hay vô tình.",
+        "ipa-example": null
       },
       {
-        "sentence": "He boiled water in a kettle for soup...",
-        "meaning-example": "Anh ấy đun nước trong ấm để nấu súp...",
-        "ipa-example": "/hi bɔɪld ˈwɔː.tər ɪn ə ˈket.əl fɔːr suːp.../"
-      },
-      {
-        "sentence": "Please put the kettle on for tea.",
-        "meaning-example": "Làm ơn bắc ấm nước lên để pha trà.",
-        "ipa-example": "/pliːz pʊt ðə ˈket.əl ɒn fɔːr tiː./"
-      },
-      {
-        "sentence": "The kettle is whistling, which means the water is boiling.",
-        "meaning-example": "Ấm nước đang réo, có nghĩa là nước đã sôi.",
-        "ipa-example": "/ðə ˈket.əl ɪz ˈwɪs.lɪŋ, wɪtʃ miːnz ðə ˈwɔː.tər ɪz ˈbɔɪ.lɪŋ./"
+        "sentence": "He experienced an overdose of spice.",
+        "meaning-example": "Anh ta đã trải qua một sự quá liều gia vị.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "ministry",
-    "ipa": "/ˈmɪn.ɪ.stri/",
-    "meaning": "Bộ (trong chính phủ).",
+    "word": "persuasion",
+    "ipa": "/pəˈsweɪ.ʒən/",
+    "meaning": "Sự thuyết phục, sự làm cho tin.",
     "image": "eew-6-5/12.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "ministry",
-        "meaning-example": "Bộ (trong chính phủ).",
-        "ipa-example": "/ˈmɪn.ɪ.stri/"
+        "sentence": "persuasion",
+        "meaning-example": "Sự thuyết phục, sự làm cho tin.",
+        "ipa-example": "/pəˈsweɪ.ʒən/"
       },
       {
-        "sentence": "Anh chàng tên `Minh Trí` vô cùng tài giỏi nên đã được tuyển vào làm việc tại một **Bộ** quan trọng của nhà nước.",
+        "sentence": "`Bơ` của `Sue` trông rất `ngon`. Cô ấy đã dùng tài **thuyết phục** của mình để bán hết chỗ bơ đó.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A government department headed by a minister.",
-        "meaning-example": "Một cơ quan chính phủ do một bộ trưởng đứng đầu.",
-        "ipa-example": "/ə ˈɡʌv.ən.mənt dɪˈpɑːt.mənt ˈhed.ɪd baɪ ə ˈmɪn.ɪ.stər./"
+        "sentence": "The action of persuading someone or of being persuaded.",
+        "meaning-example": "Hành động thuyết phục ai đó hoặc bị thuyết phục.",
+        "ipa-example": null
       },
       {
-        "sentence": "People from the ministry are coming.",
-        "meaning-example": "Người từ bộ đang đến.",
-        "ipa-example": "/ˈpiː.pəl frəm ðə ˈmɪn.ɪ.stri ɑːr ˈkʌm.ɪŋ./"
-      },
-      {
-        "sentence": "He works for the Ministry of Defense.",
-        "meaning-example": "Anh ấy làm việc cho Bộ Quốc phòng.",
-        "ipa-example": "/hi wɜːks fɔːr ðə ˈmɪn.ɪ.stri əv dɪˈfens./"
-      },
-      {
-        "sentence": "The Ministry of Health issued a new guideline.",
-        "meaning-example": "Bộ Y tế đã ban hành một hướng dẫn mới.",
-        "ipa-example": "/ðə ˈmɪn.ɪ.stri əv helθ ˈɪʃ.uːd ə njuː ˈɡaɪd.laɪn./"
+        "sentence": "His dogged persuasion convinced her.",
+        "meaning-example": "Sự thuyết phục kiên trì của anh ấy đã thuyết phục được cô.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "ordeal",
-    "ipa": "/ɔːˈdɪəl/",
-    "meaning": "Thử thách gian nan, sự trải nghiệm đau khổ.",
+    "word": "relay",
+    "ipa": "/ˈriː.leɪ/",
+    "meaning": "Cuộc chạy đua tiếp sức.",
     "image": "eew-6-5/13.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "ordeal",
-        "meaning-example": "Thử thách gian nan, sự trải nghiệm đau khổ.",
-        "ipa-example": "/ɔːˈdɪəl/"
+        "sentence": "relay",
+        "meaning-example": "Cuộc chạy đua tiếp sức.",
+        "ipa-example": "/ˈriː.leɪ/"
       },
       {
-        "sentence": "Chú bò lạc đàn kêu \"`ò... ò...`\" thảm thiết khi phải vượt qua một con `đèo` hiểm trở. Đó thật sự là một **thử thách gian nan, một trải nghiệm đau đớn**.",
+        "sentence": "`Đi lấy` gậy từ đồng đội và chạy tiếp thôi! Đây là cuộc thi chạy **tiếp sức**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A very unpleasant and painful or difficult experience.",
-        "meaning-example": "Một trải nghiệm rất khó chịu và đau đớn hoặc khó khăn.",
-        "ipa-example": "/ə ˈver.i ʌnˈplez.ənt ənd ˈpeɪn.fəl ɔːr ˈdɪf.ɪ.kəlt ɪkˈspɪə.ri.əns./"
+        "sentence": "A race between teams of runners, swimmers, etc., in which each member of the team runs or swims one part of the race.",
+        "meaning-example": "Một cuộc đua giữa các đội vận động viên chạy, bơi, v.v., trong đó mỗi thành viên của đội chạy hoặc bơi một phần của cuộc đua.",
+        "ipa-example": null
       },
       {
-        "sentence": "...then we could have avoided this whole ordeal.",
-        "meaning-example": "...thì chúng ta đã có thể tránh được cả thử thách gian nan này.",
-        "ipa-example": "/ðen wi kʊd həv əˈvɔɪ.dɪd ðɪs həʊl ɔːˈdɪəl./"
-      },
-      {
-        "sentence": "Being trapped in the elevator was a terrible ordeal for her.",
-        "meaning-example": "Bị kẹt trong thang máy là một thử thách khủng khiếp đối với cô ấy.",
-        "ipa-example": "/ˈbiː.ɪŋ træpt ɪn ði ˈel.ə.veɪ.tər wəz ə ˈter.ə.bəl ɔːˈdɪəl fɔːr hɜːr./"
-      },
-      {
-        "sentence": "He described his ordeal of being lost in the desert.",
-        "meaning-example": "Anh kể lại trải nghiệm đau khổ khi bị lạc trong sa mạc.",
-        "ipa-example": "/hi dɪˈskraɪbd hɪz ɔːˈdɪəl əv ˈbiː.ɪŋ lɒst ɪn ðə ˈdez.ət./"
+        "sentence": "Russell finished running a relay and joined his friend Becky in the cafeteria.",
+        "meaning-example": "Russell chạy xong một cuộc thi tiếp sức và cùng bạn mình là Becky vào căng tin.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "outspoken",
-    "ipa": "/ˌaʊtˈspəʊ.kən/",
-    "meaning": "Thẳng thắn, nói thẳng.",
+    "word": "reluctance",
+    "ipa": "/rɪˈlʌk.təns/",
+    "meaning": "Sự miễn cưỡng, sự bất đắc dĩ.",
     "image": "eew-6-5/14.png",
-    "classes": "adj",
+    "classes": "n",
     "example": [
       {
-        "sentence": "outspoken",
-        "meaning-example": "Thẳng thắn, nói thẳng.",
-        "ipa-example": "/ˌaʊtˈspəʊ.kən/"
+        "sentence": "reluctance",
+        "meaning-example": "Sự miễn cưỡng, sự bất đắc dĩ.",
+        "ipa-example": "/rɪˈlʌk.təns/"
       },
       {
-        "sentence": "Trong cuộc họp, không ai dám lên tiếng. Một anh chàng chỉ vào cái `ao sâu` và tuyên bố: \"`Cần` phải giải quyết ngay!\" Mọi người biết anh là người **thẳng thắn, nói thẳng**.",
+        "sentence": "`Đi lắc` hả? `Tớ` không đi đâu. Anh chàng thể hiện **sự miễn cưỡng, bất đắc dĩ** khi được rủ đi chơi.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "Expressing strong opinions very directly without worrying if other people are offended.",
-        "meaning-example": "Bày tỏ ý kiến mạnh mẽ một cách rất trực tiếp mà không lo lắng liệu người khác có bị xúc phạm hay không.",
-        "ipa-example": "/ɪkˈspres.ɪŋ strɒŋ əˈpɪn.jənz ˈver.i daɪˈrekt.li wɪðˈaʊt ˈwʌr.i.ɪŋ ɪf ˈʌð.ər ˈpiː.pəl ɑːr əˈfen.dɪd./"
+        "sentence": "An unwillingness to do something.",
+        "meaning-example": "Sự không sẵn lòng làm điều gì đó.",
+        "ipa-example": null
       },
       {
-        "sentence": "...demanded he never be outspoken.",
-        "meaning-example": "...đòi hỏi anh ấy không bao giờ được thẳng thắn.",
-        "ipa-example": "/dɪˈmɑːn.dɪd hi ˈnev.ər bi ˌaʊtˈspəʊ.kən./"
-      },
-      {
-        "sentence": "She has always been an outspoken critic of the government.",
-        "meaning-example": "Bà luôn là một nhà phê bình thẳng thắn đối với chính phủ.",
-        "ipa-example": "/ʃi həz ˈɔːl.weɪz biːn ən ˌaʊtˈspəʊ.kən ˈkrɪt.ɪk əv ðə ˈɡʌv.ən.mənt./"
-      },
-      {
-        "sentence": "He was outspoken in his opposition to the new law.",
-        "meaning-example": "Ông thẳng thắn phản đối luật mới.",
-        "ipa-example": "/hi wəz ˌaʊtˈspəʊ.kən ɪn hɪz ˌɒp.əˈzɪʃ.ən tuː ðə njuː lɔː./"
+        "sentence": "Despite her reluctance, she didn’t want to say no to the bet.",
+        "meaning-example": "Bất chấp sự miễn cưỡng của mình, cô không muốn từ chối vụ cá cược.",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "overwork",
-    "ipa": "/ˌəʊ.vəˈwɜːk/",
-    "meaning": "Làm việc quá sức.",
+    "word": "restate",
+    "ipa": "/ˌriːˈsteɪt/",
+    "meaning": "Phát biểu lại, trình bày lại.",
     "image": "eew-6-5/15.png",
     "classes": "v",
     "example": [
       {
-        "sentence": "overwork",
-        "meaning-example": "Làm việc quá sức.",
-        "ipa-example": "/ˌəʊ.vəˈwɜːk/"
+        "sentence": "restate",
+        "meaning-example": "Phát biểu lại, trình bày lại.",
+        "ipa-example": "/ˌriːˈsteɪt/"
       },
       {
-        "sentence": "Anh chồng đi làm về, mệt tới nỗi tay chân cứ `ô vờ quờ` vào mọi thứ. Anh than thở với vợ rằng mình đã phải **làm việc quá sức**.",
+        "sentence": "Thấy mọi người vẫn còn mơ hồ, sếp `đi` `state` (đi lại sân khấu) một lần nữa để **phát biểu lại, trình bày lại** kế hoạch cho rõ ràng.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "To work too hard or too much.",
-        "meaning-example": "Làm việc quá chăm chỉ hoặc quá nhiều.",
-        "ipa-example": "/tuː wɜːk tuː hɑːd ɔːr tuː mʌtʃ./"
+        "sentence": "To say something again or in a different way.",
+        "meaning-example": "Nói lại điều gì đó hoặc theo một cách khác.",
+        "ipa-example": null
       },
       {
-        "sentence": "Sadly, though the butler was always overworked...",
-        "meaning-example": "Đáng buồn thay, dù người quản gia luôn làm việc quá sức...",
-        "ipa-example": "/ˈsæd.li, ðəʊ ðə ˈbʌt.lər wəz ˈɔːl.weɪz ˌəʊ.vəˈwɜːkt.../"
-      },
-      {
-        "sentence": "Doctors often overwork and don't get enough sleep.",
-        "meaning-example": "Các bác sĩ thường làm việc quá sức và không ngủ đủ giấc.",
-        "ipa-example": "/ˈdɒk.tərz ˈɒf.ən ˌəʊ.vəˈwɜːk ənd dəʊnt ɡet ɪˈnʌf sliːp./"
-      },
-      {
-        "sentence": "She was suffering from stress caused by overwork.",
-        "meaning-example": "Cô ấy bị căng thẳng do làm việc quá sức.",
-        "ipa-example": "/ʃi wəz ˈsʌf.ər.ɪŋ frəm stres kɔːzd baɪ ˌəʊ.vəˈwɜːk./"
+        "sentence": "Russell restated the agreement...",
+        "meaning-example": "Russell đã trình bày lại thỏa thuận...",
+        "ipa-example": null
       }
     ]
   },
   {
-    "word": "particular",
-    "ipa": "/pəˈtɪk.jə.lər/",
-    "meaning": "Cụ thể, đặc biệt.",
+    "word": "sesame",
+    "ipa": "/ˈses.ə.mi/",
+    "meaning": "Vừng, mè.",
     "image": "eew-6-5/16.png",
-    "classes": "adj",
-    "example": [
-      {
-        "sentence": "particular",
-        "meaning-example": "Cụ thể, đặc biệt.",
-        "ipa-example": "/pəˈtɪk.jə.lər/"
-      },
-      {
-        "sentence": "Ông Ba rất kỹ tính về đồ ăn. Khi con cháu mời nhiều loại hạt, ông đều từ chối và nói: \"`Ba thích củ lạc`\". Ông chỉ muốn một loại **cụ thể** đó mà thôi.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "Special, or this and not any other.",
-        "meaning-example": "Đặc biệt, hoặc cái này chứ không phải cái nào khác.",
-        "ipa-example": "/ˈspeʃ.əl, ɔːr ðɪs ənd nɒt ˈen.i ˈʌð.ər./"
-      },
-      {
-        "sentence": "This particular party is important.",
-        "meaning-example": "Bữa tiệc đặc biệt này rất quan trọng.",
-        "ipa-example": "/ðɪs pəˈtɪk.jə.lər ˈpɑː.ti ɪz ɪmˈpɔː.tənt./"
-      },
-      {
-        "sentence": "Is there a particular restaurant you'd like to go to?",
-        "meaning-example": "Có nhà hàng cụ thể nào bạn muốn đến không?",
-        "ipa-example": "/ɪz ðeər ə pəˈtɪk.jə.lər ˈres.trɒnt juːd laɪk tuː ɡəʊ tuː?/"
-      },
-      {
-        "sentence": "She paid particular attention to the details of the contract.",
-        "meaning-example": "Cô ấy đặc biệt chú ý đến các chi tiết của hợp đồng.",
-        "ipa-example": "/ʃi peɪd pəˈtɪk.jə.lər əˈten.ʃən tuː ðə ˈdiː.teɪlz əv ðə ˈkɒn.trækt./"
-      }
-    ]
-  },
-  {
-    "word": "pungent",
-    "ipa": "/ˈpʌn.dʒənt/",
-    "meaning": "Hăng, nồng (mùi, vị).",
-    "image": "eew-6-5/17.png",
-    "classes": "adj",
-    "example": [
-      {
-        "sentence": "pungent",
-        "meaning-example": "Hăng, nồng (mùi, vị).",
-        "ipa-example": "/ˈpʌn.dʒənt/"
-      },
-      {
-        "sentence": "Mẹ nhờ cậu con trai `bưng` một bát `giấm`. Vừa bưng lên, **mùi hăng**, **nồng** đặc trưng của nó đã xộc thẳng vào mũi cậu bé, rất khó chịu.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "Smelling or tasting very strong and sharp.",
-        "meaning-example": "Mùi hoặc vị rất mạnh và hăng.",
-        "ipa-example": "/ˈsmel.ɪŋ ɔːr ˈteɪ.stɪŋ ˈver.i strɒŋ ənd ʃɑːp./"
-      },
-      {
-        "sentence": "...and the soup tasted too pungent.",
-        "meaning-example": "...và món súp có vị quá nồng.",
-        "ipa-example": "/ənd ðə suːp ˈteɪ.stɪd tuː ˈpʌn.dʒənt./"
-      },
-      {
-        "sentence": "The pungent smell of onions filled the kitchen.",
-        "meaning-example": "Mùi hăng của hành tây tràn ngập căn bếp.",
-        "ipa-example": "/ðə ˈpʌn.dʒənt smel əv ˈʌn.jənz fɪld ðə ˈkɪtʃ.ɪn./"
-      },
-      {
-        "sentence": "He enjoyed the pungent flavor of the blue cheese.",
-        "meaning-example": "Anh ấy thích hương vị nồng của phô mai xanh.",
-        "ipa-example": "/hi ɪnˈdʒɔɪd ðə ˈpʌn.dʒənt ˈfleɪ.vər əv ðə bluː tʃiːz./"
-      }
-    ]
-  },
-  {
-    "word": "snore",
-    "ipa": "/snɔːr/",
-    "meaning": "Ngáy.",
-    "image": "eew-6-5/18.png",
-    "classes": "v",
-    "example": [
-      {
-        "sentence": "snore",
-        "meaning-example": "Ngáy.",
-        "ipa-example": "/snɔːr/"
-      },
-      {
-        "sentence": "Ông chồng ăn `no` rồi ngủ, **ngáy** như sấm. Bà vợ không ngủ được, liền đưa tay `sờ` vào cái bụng `no` của ông để ông ngừng lại.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "To breathe in a very noisy way while you are sleeping.",
-        "meaning-example": "Thở một cách rất ồn ào khi bạn đang ngủ.",
-        "ipa-example": "/tuː briːð ɪn ə ˈver.i ˈnɔɪ.zi weɪ waɪl juː ɑːr ˈsliː.pɪŋ./"
-      },
-      {
-        "sentence": "...snoring loudly in his bed...",
-        "meaning-example": "...ngáy to trên giường...",
-        "ipa-example": "/ˈsnɔː.rɪŋ ˈlaʊd.li ɪn hɪz bed.../"
-      },
-      {
-        "sentence": "I couldn't sleep because my roommate was snoring.",
-        "meaning-example": "Tôi không ngủ được vì bạn cùng phòng của tôi ngáy.",
-        "ipa-example": "/aɪ ˈkʊd.ənt sliːp bɪˈkəz maɪ ˈruːm.meɪt wəz ˈsnɔː.rɪŋ./"
-      },
-      {
-        "sentence": "Sometimes my dad snores so loudly he wakes himself up.",
-        "meaning-example": "Đôi khi bố tôi ngáy to đến mức tự làm mình tỉnh giấc.",
-        "ipa-example": "/ˈsʌm.taɪmz maɪ dæd snɔːrz səʊ ˈlaʊd.li hi weɪks hɪmˈself ʌp./"
-      }
-    ]
-  },
-  {
-    "word": "soundly",
-    "ipa": "/ˈsaʊnd.li/",
-    "meaning": "(ngủ) say, ngon lành.",
-    "image": "eew-6-5/19.png",
-    "classes": "adv",
-    "example": [
-      {
-        "sentence": "soundly",
-        "meaning-example": "(ngủ) say, ngon lành.",
-        "ipa-example": "/ˈsaʊnd.li/"
-      },
-      {
-        "sentence": "Mẹ than thở: \"`Sao` con `lỳ` thế, dỗ mãi không ngủ!\" Nhưng khi cô bé đã ngủ, thì lại ngủ rất **say và ngon giấc**, không gì làm phiền được.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "(sleep) deeply and well.",
-        "meaning-example": "(ngủ) sâu và ngon giấc.",
-        "ipa-example": "/(sliːp) ˈdiːp.li ənd wel./"
-      },
-      {
-        "sentence": "...while the superintendent slept soundly...",
-        "meaning-example": "...trong khi người quản lý ngủ say...",
-        "ipa-example": "/waɪl ðə ˌsuː.pər.ɪnˈten.dənt slept ˈsaʊnd.li.../"
-      },
-      {
-        "sentence": "After a long day of hiking, I slept soundly.",
-        "meaning-example": "Sau một ngày dài đi bộ đường dài, tôi đã ngủ rất say.",
-        "ipa-example": "/ˈɑːf.tər ə lɒŋ deɪ əv ˈhaɪ.kɪŋ, aɪ slept ˈsaʊnd.li./"
-      },
-      {
-        "sentence": "The baby was sleeping soundly in her crib.",
-        "meaning-example": "Em bé đang ngủ ngon lành trong nôi.",
-        "ipa-example": "/ðə ˈbeɪ.bi wəz ˈsliː.pɪŋ ˈsaʊnd.li ɪn hɜːr krɪb./"
-      }
-    ]
-  },
-  {
-    "word": "superintendent",
-    "ipa": "/ˌsuː.pər.ɪnˈten.dənt/",
-    "meaning": "Người giám thị, người trông nom, người quản lý.",
-    "image": "eew-6-5/20.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "superintendent",
-        "meaning-example": "Người giám thị, người trông nom, người quản lý.",
-        "ipa-example": "/ˌsuː.pər.ɪnˈten.dənt/"
+        "sentence": "sesame",
+        "meaning-example": "Vừng, mè.",
+        "ipa-example": "/ˈses.ə.mi/"
       },
       {
-        "sentence": "Anh công nhân phát hiện bát `súp` của mình `bị ten` (rỉ sét). Anh la lớn: \"Phải `đền` bát khác! Gọi **người quản lý** ra đây!\"",
+        "sentence": "`Sợ sẽ mê` ly món bánh này lắm, vì nó có rất nhiều **vừng (mè)**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A person who is in charge of a large organization, a particular area of work, or the place where they work.",
-        "meaning-example": "Một người phụ trách một tổ chức lớn, một lĩnh vực công việc cụ thể hoặc nơi họ làm việc.",
-        "ipa-example": "/ə ˈpɜː.sən huː ɪz ɪn tʃɑːdʒ əv ə lɑːdʒ ˌɔː.ɡən.aɪˈzeɪ.ʃən, ə pəˈtɪk.jə.lər ˈeə.ri.ə əv wɜːk, ɔːr ðə pleɪs weər ðeɪ wɜːk./"
+        "sentence": "A small, flat seed, used in cooking and for its oil.",
+        "meaning-example": "Một loại hạt nhỏ, dẹt, được dùng trong nấu ăn và lấy dầu.",
+        "ipa-example": null
       },
       {
-        "sentence": "The Superintendent of Civic Projects was a busy man.",
-        "meaning-example": "Giám đốc các dự án công ích là một người bận rộn.",
-        "ipa-example": "/ðə ˌsuː.pər.ɪnˈten.dənt əv ˈsɪv.ɪk ˈprɒdʒ.ekts wəz ə ˈbɪz.i mæn./"
+        "sentence": "Sesame chicken.",
+        "meaning-example": "Gà sốt vừng.",
+        "ipa-example": null
+      }
+    ]
+  },
+  {
+    "word": "sip",
+    "ipa": "/sɪp/",
+    "meaning": "Nhấm nháp, hớp từng ngụm nhỏ.",
+    "image": "eew-6-5/17.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "sip",
+        "meaning-example": "Nhấm nháp, hớp từng ngụm nhỏ.",
+        "ipa-example": "/sɪp/"
       },
       {
-        "sentence": "He was the superintendent of the city's school system.",
-        "meaning-example": "Ông là người quản lý hệ thống trường học của thành phố.",
-        "ipa-example": "/hi wəz ðə ˌsuː.pər.ɪnˈten.dənt əv ðə ˈsɪt.iz skuːl ˈsɪs.təm./"
+        "sentence": "Cô gái `xinh` đang ngồi **nhấm nháp, hớp từng ngụm** ly trà chiều.",
+        "meaning-example": null,
+        "ipa-example": null
       },
       {
-        "sentence": "The building superintendent fixed the leaky faucet.",
-        "meaning-example": "Người quản lý tòa nhà đã sửa vòi nước bị rò rỉ.",
-        "ipa-example": "/ðə ˈbɪl.dɪŋ ˌsuː.pər.ɪnˈten.dənt fɪkst ðə ˈliː.ki ˈfɔː.sɪt./"
+        "sentence": "To drink, taking only a very small amount at a time.",
+        "meaning-example": "Uống, chỉ lấy một lượng rất nhỏ mỗi lần.",
+        "ipa-example": null
+      },
+      {
+        "sentence": "...continuing to sip from the glass.",
+        "meaning-example": "...tiếp tục nhấm nháp từ chiếc ly.",
+        "ipa-example": null
+      }
+    ]
+  },
+  {
+    "word": "verge",
+    "ipa": "/vɜːdʒ/",
+    "meaning": "Bờ, mép, bờ vực.",
+    "image": "eew-6-5/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "verge",
+        "meaning-example": "Bờ, mép, bờ vực.",
+        "ipa-example": "/vɜːdʒ/"
+      },
+      {
+        "sentence": "Con dốc này `vừa` dốc, `vừa` trơn. Anh ta đang ở **bên bờ, sắp sửa** bị ngã.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The edge or border of something.",
+        "meaning-example": "Cạnh hoặc đường viền của một cái gì đó.",
+        "ipa-example": null
+      },
+      {
+        "sentence": "He was on the verge of tears...",
+        "meaning-example": "Anh ấy sắp khóc...",
+        "ipa-example": null
+      }
+    ]
+  },
+  {
+    "word": "wary",
+    "ipa": "/ˈweə.ri/",
+    "meaning": "Thận trọng, cảnh giác, đề phòng.",
+    "image": "eew-6-5/19.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "wary",
+        "meaning-example": "Thận trọng, cảnh giác, đề phòng.",
+        "ipa-example": "/ˈweə.ri/"
+      },
+      {
+        "sentence": "Trong `quầy` bar `ri` (riêng) tư, anh ta vẫn tỏ ra **thận trọng, cảnh giác** với mọi người xung quanh.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Not completely trusting or certain about something or someone.",
+        "meaning-example": "Không hoàn toàn tin tưởng hoặc chắc chắn về một cái gì đó hoặc một ai đó.",
+        "ipa-example": null
+      },
+      {
+        "sentence": "Becky was wary of eating the pepper.",
+        "meaning-example": "Becky tỏ ra thận trọng khi ăn quả ớt.",
+        "ipa-example": null
+      }
+    ]
+  },
+  {
+    "word": "waver",
+    "ipa": "/ˈweɪ.vər/",
+    "meaning": "Dao động, phân vân, do dự.",
+    "image": "eew-6-5/20.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "waver",
+        "meaning-example": "Dao động, phân vân, do dự.",
+        "ipa-example": "/ˈweɪ.vər/"
+      },
+      {
+        "sentence": "Thấy con sóng (`wave`) dập dờn, lòng anh `vờ` như không sợ nhưng thực ra đang **dao động, phân vân** có nên ra khơi không.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To be or become uncertain in speech or mind; to fluctuate.",
+        "meaning-example": "Trở nên không chắc chắn trong lời nói hoặc suy nghĩ; dao động.",
+        "ipa-example": null
+      },
+      {
+        "sentence": "She wavered about whether to do it or not.",
+        "meaning-example": "Cô phân vân không biết có nên làm hay không.",
+        "ipa-example": null
       }
     ]
   },
@@ -783,154 +583,148 @@
     "word": "sentences of story",
     "example": [
       {
-        "sentence": "The Butler’s Bad Day",
-        "meaning-example": "Ngày Tồi Tệ Của Người Quản Gia",
-        "ipa-example": "/ðə ˈbʌt.lərz bæd deɪ/"
+        "sentence": "A Bet",
+        "meaning-example": "Một Vụ Cá Cược"
       },
       {
-        "sentence": "The Superintendent of Civic Projects was a busy man.",
-        "meaning-example": "Giám đốc các dự án công ích là một người bận rộn.",
-        "ipa-example": "/ðə ˌsuː.pər.ɪnˈten.dənt əv ˈsɪv.ɪk ˈprɒdʒ.ekts wəz ə ˈbɪz.i mæn./"
+        "sentence": "Russell finished running a relay and joined his friend Becky in the cafeteria.",
+        "meaning-example": "Russell chạy xong một cuộc thi tiếp sức và cùng bạn mình là Becky vào căng tin."
       },
       {
-        "sentence": "He worked every day of the week and had fancy parties at his house every night.",
-        "meaning-example": "Ông làm việc mọi ngày trong tuần và tổ chức những bữa tiệc sang trọng tại nhà mỗi tối.",
-        "ipa-example": "/hi wɜːkt ˈev.ri deɪ əv ðə wiːk ənd hæd ˈfæn.si ˈpɑː.tiz ət hɪz haʊs ˈev.ri naɪt./"
+        "sentence": "He asked, “What’s for lunch?”",
+        "meaning-example": "Cậu hỏi: “Bữa trưa có gì vậy?”"
       },
       {
-        "sentence": "However, if there was someone busier than him, it was his butler.",
-        "meaning-example": "Tuy nhiên, nếu có ai bận rộn hơn ông, đó chính là người quản gia của ông.",
-        "ipa-example": "/haʊˈev.ər, ɪf ðeər wəz ˈsʌm.wʌn ˈbɪz.i.ər ðən hɪm, ɪt wəz hɪz ˈbʌt.lər./"
+        "sentence": "“Sesame chicken.",
+        "meaning-example": "“Gà sốt vừng."
       },
       {
-        "sentence": "He worked all day organizing the superintendent’s parties and then cleaned up after them late at night.",
-        "meaning-example": "Anh ấy làm việc cả ngày để tổ chức các bữa tiệc của giám đốc và sau đó dọn dẹp sau đó vào đêm khuya.",
-        "ipa-example": "/hi wɜːkt ɔːl deɪ ˈɔː.ɡən.aɪ.zɪŋ ðə ˌsuː.pər.ɪnˈten.dənts ˈpɑː.tiz ənd ðen kliːnd ʌp ˈɑːf.tər ðəm leɪt ət naɪt./"
+        "sentence": "It’s OK, except the meat’s charred.",
+        "meaning-example": "Cũng được, ngoại trừ việc thịt bị cháy sém."
       },
       {
-        "sentence": "Hence, while the superintendent slept soundly, snoring loudly in his bed, the butler was still awake.",
-        "meaning-example": "Do đó, trong khi giám đốc ngủ say, ngáy to trên giường, người quản gia vẫn còn thức.",
-        "ipa-example": "/hens, waɪl ðə ˌsuː.pər.ɪnˈten.dənt slept ˈsaʊnd.li, ˈsnɔː.rɪŋ ˈlaʊd.li ɪn hɪz bed, ðə ˈbʌt.lər wəz stɪl əˈweɪk./"
+        "sentence": "Oh, and watch out for the chili peppers,” Becky said.",
+        "meaning-example": "Ồ, và cẩn thận với ớt,” Becky nói."
       },
       {
-        "sentence": "Sadly, though the butler was always overworked, his profession’s intrinsic nature demanded he never be outspoken.",
-        "meaning-example": "Đáng buồn thay, mặc dù người quản gia luôn làm việc quá sức, bản chất cố hữu của nghề nghiệp đòi hỏi anh không bao giờ được thẳng thắn.",
-        "ipa-example": "/ˈsæd.li, ðəʊ ðə ˈbʌt.lər wəz ˈɔːl.weɪz ˌəʊ.vəˈwɜːkt, hɪz prəˈfeʃ.ənz ɪnˈtrɪn.zɪk ˈneɪ.tʃər dɪˈmɑːn.dɪd hi ˈnev.ər bi ˌaʊtˈspəʊ.kən./"
+        "sentence": "“Chilies don’t bother me!” said Russell.",
+        "meaning-example": "“Ớt không làm phiền được tớ đâu!” Russell nói."
       },
       {
-        "sentence": "Therefore, his employer never knew the butler hadn’t slept for several days.",
-        "meaning-example": "Do đó, người chủ của anh không bao giờ biết người quản gia đã không ngủ trong vài ngày.",
-        "ipa-example": "/ˈðeə.fɔːr, hɪz ɪmˈplɔɪ.ər ˈnev.ər njuː ðə ˈbʌt.lər ˈhæd.ənt slept fɔːr ˈsev.rəl deɪz./"
+        "sentence": "“ My stepmother says you should be careful with them,” replied Becky.",
+        "meaning-example": "“Mẹ kế của tớ nói rằng bạn nên cẩn thận với chúng,” Becky trả lời."
       },
       {
-        "sentence": "On any day the butler might make a mistake.",
-        "meaning-example": "Vào bất kỳ ngày nào, người quản gia cũng có thể phạm sai lầm.",
-        "ipa-example": "/ɒn ˈen.i deɪ ðə ˈbʌt.lər maɪt meɪk ə mɪˈsteɪk./"
+        "sentence": "An argument ensued about eating chilies.",
+        "meaning-example": "Một cuộc tranh cãi đã xảy ra sau đó về việc ăn ớt."
       },
       {
-        "sentence": "One day, the superintendent said, “This particular party is important.",
-        "meaning-example": "Một ngày nọ, giám đốc nói: “Bữa tiệc đặc biệt này rất quan trọng.",
-        "ipa-example": "/wʌn deɪ, ðə ˌsuː.pər.ɪnˈten.dənt sed, “ðɪs pəˈtɪk.jə.lər ˈpɑː.ti ɪz ɪmˈpɔː.tənt./"
+        "sentence": "“Chilies aren’t so bad.",
+        "meaning-example": "“Ớt không tệ đến thế đâu."
       },
       {
-        "sentence": "People from the ministry are coming.",
-        "meaning-example": "Những người từ bộ đang đến.",
-        "ipa-example": "/ˈpiː.pəl frəm ðə ˈmɪn.ɪ.stri ɑːr ˈkʌm.ɪŋ./"
+        "sentence": "I bet I can take more bites of this chili than you,” Russell said.",
+        "meaning-example": "Tớ cá là tớ có thể ăn nhiều miếng ớt này hơn cậu,” Russell nói."
       },
       {
-        "sentence": "Everything must be perfect.”",
-        "meaning-example": "Mọi thứ phải hoàn hảo.”",
-        "ipa-example": "/ˈev.ri.θɪŋ məst bi ˈpɜː.fekt.”/"
+        "sentence": "Becky was wary of eating the pepper.",
+        "meaning-example": "Becky tỏ ra thận trọng khi ăn quả ớt."
       },
       {
-        "sentence": "The butler began preparing at once.",
-        "meaning-example": "Người quản gia bắt đầu chuẩn bị ngay lập tức.",
-        "ipa-example": "/ðə ˈbʌt.lər bɪˈɡæn prɪˈpeə.rɪŋ ət wʌns./"
+        "sentence": "Despite her reluctance, she didn’t want to say no to the bet.",
+        "meaning-example": "Bất chấp sự miễn cưỡng của mình, cô không muốn từ chối vụ cá cược."
       },
       {
-        "sentence": "First he went to the attic to get more chairs and tables.",
-        "meaning-example": "Đầu tiên, anh ấy lên gác mái để lấy thêm ghế và bàn.",
-        "ipa-example": "/fɜːst hi went tuː ðə ˈæt.ɪk tuː ɡet mɔːr tʃeərz ənd ˈteɪ.bəlz./"
+        "sentence": "She wavered about whether to do it or not.",
+        "meaning-example": "Cô phân vân không biết có nên làm hay không."
       },
       {
-        "sentence": "But on his descent, he realized he needed to make the food.",
-        "meaning-example": "Nhưng trên đường đi xuống, anh nhận ra mình cần phải chuẩn bị thức ăn.",
-        "ipa-example": "/bət ɒn hɪz dɪˈsent, hi ˈrɪə.laɪzd hi ˈniː.dɪd tuː meɪk ðə fuːd./"
+        "sentence": "She negotiated the details.",
+        "meaning-example": "Cô ấy đã thương lượng các chi tiết."
       },
       {
-        "sentence": "A gourmet dinner was necessary for such a party.",
-        "meaning-example": "Một bữa tối thịnh soạn là cần thiết cho một bữa tiệc như vậy.",
-        "ipa-example": "/ə ˈɡɔː.meɪ ˈdɪn.ər wəz ˈnes.ə.ser.i fɔːr sʌtʃ ə ˈpɑː.ti./"
+        "sentence": "“What will the winner get?” she asked.",
+        "meaning-example": "“Người thắng sẽ được gì?” cô hỏi."
       },
       {
-        "sentence": "He boiled water in a kettle for soup and chopped some beef into chunks.",
-        "meaning-example": "Anh đun nước trong ấm để nấu súp và cắt một ít thịt bò thành từng miếng.",
-        "ipa-example": "/hi bɔɪld ˈwɔː.tər ɪn ə ˈket.əl fɔːr suːp ənd tʃɒpt səm biːf ˈɪn.tuː tʃʌŋks./"
+        "sentence": "“The loser has to carry the winner’s books for a year!",
+        "meaning-example": "“Người thua phải mang sách cho người thắng trong một năm!"
       },
       {
-        "sentence": "Just as he was starting the soup, he remembered that he had to sweep the veranda.",
-        "meaning-example": "Ngay khi anh đang bắt đầu nấu súp, anh nhớ ra mình phải quét hiên nhà.",
-        "ipa-example": "/dʒʌst əz hi wəz ˈstɑː.tɪŋ ðə suːp, hi rɪˈmem.bəd ðət hi hæd tuː swiːp ðə vəˈræn.də./"
+        "sentence": "I’ll even let you go first.”",
+        "meaning-example": "Tớ thậm chí sẽ để cậu đi trước.”"
       },
       {
-        "sentence": "As he was sweeping the veranda, he realized that he had to clean the sauna.",
-        "meaning-example": "Khi đang quét hiên nhà, anh nhận ra mình phải dọn dẹp phòng tắm hơi.",
-        "ipa-example": "/əz hi wəz ˈswiː.pɪŋ ðə vəˈræn.də, hi ˈrɪə.laɪzd ðət hi hæd tuː kliːn ðə ˈsɔː.nə./"
+        "sentence": "Becky replied, “ Fine, but to clarify, you’ll carry my books for the entire school year, right?”",
+        "meaning-example": "Becky trả lời: “Được thôi, nhưng để làm rõ, bạn sẽ mang sách cho tôi trong cả năm học, phải không?”"
       },
       {
-        "sentence": "By this time, the first guests had arrived.",
-        "meaning-example": "Lúc này, những vị khách đầu tiên đã đến.",
-        "ipa-example": "/baɪ ðɪs taɪm, ðə fɜːst ɡests həd əˈraɪvd./"
+        "sentence": "Russell restated the agreement, “That’s right I’ll carry your books all year if you win—which you won’t!”",
+        "meaning-example": "Russell nhắc lại thỏa thuận, “Đúng vậy, tớ sẽ mang sách cho cậu cả năm nếu cậu thắng - điều mà cậu sẽ không làm được đâu!”"
       },
       {
-        "sentence": "The veranda was still dirty.",
-        "meaning-example": "Hiên nhà vẫn còn bẩn.",
-        "ipa-example": "/ðə vəˈræn.də wəz stɪl ˈdɜː.ti./"
+        "sentence": "His dogged persuasion convinced her.",
+        "meaning-example": "Sự thuyết phục kiên trì của anh ấy đã thuyết phục được cô."
       },
       {
-        "sentence": "There were not enough chairs for the guests to sit on, and the soup tasted too pungent.",
-        "meaning-example": "Không có đủ ghế cho khách ngồi, và món súp có vị quá nồng.",
-        "ipa-example": "/ðeər wər nɒt ɪˈnʌf tʃeərz fɔːr ðə ɡests tuː sɪt ɒn, ənd ðə suːp ˈteɪ.stɪd tuː ˈpʌn.dʒənt./"
+        "sentence": "The chili looked benign, but Becky knew it could cause a lot of pain.",
+        "meaning-example": "Quả ớt trông có vẻ lành tính, nhưng Becky biết nó có thể gây ra rất nhiều đau đớn."
       },
       {
-        "sentence": "Some guests were dissatisfied.",
-        "meaning-example": "Một số khách đã không hài lòng.",
-        "ipa-example": "/sʌm ɡests wər ˌdɪsˈsæt.ɪs.faɪd./"
+        "sentence": "She bit the bottom of the pepper.",
+        "meaning-example": "Cô cắn vào phần dưới của quả ớt."
       },
       {
-        "sentence": "They started to make a fuss, and the party was filled with a din of complaints.",
-        "meaning-example": "Họ bắt đầu làm ầm lên, và bữa tiệc tràn ngập tiếng phàn nàn ồn ào.",
-        "ipa-example": "/ðeɪ ˈstɑː.tɪd tuː meɪk ə fʌs, ənd ðə ˈpɑː.ti wəz fɪld wɪð ə dɪn əv kəmˈpleɪnts./"
+        "sentence": "Surprisingly, she felt nothing.",
+        "meaning-example": "Ngạc nhiên thay, cô không cảm thấy gì cả."
       },
       {
-        "sentence": "The superintendent’s party was a disaster.",
-        "meaning-example": "Bữa tiệc của giám đốc là một thảm họa.",
-        "ipa-example": "/ðə ˌsuː.pər.ɪnˈten.dənts ˈpɑː.ti wəz ə dɪˈzɑː.stər./"
+        "sentence": "“ My turn,” said Russell.",
+        "meaning-example": "“Đến lượt tớ,” Russell nói."
       },
       {
-        "sentence": "He wondered why his butler had made so many mistakes.",
-        "meaning-example": "Ông tự hỏi tại sao người quản gia của mình lại mắc quá nhiều sai lầm.",
-        "ipa-example": "/hi ˈwʌn.dəd waɪ hɪz ˈbʌt.lər hæd meɪd səʊ ˈmen.i mɪˈsteɪks./"
+        "sentence": "He bit the middle of the chili.",
+        "meaning-example": "Anh cắn vào giữa quả ớt."
       },
       {
-        "sentence": "At last, the butler admitted to being exhausted.",
-        "meaning-example": "Cuối cùng, người quản gia thừa nhận đã kiệt sức.",
-        "ipa-example": "/ət lɑːst, ðə ˈbʌt.lər ədˈmɪt.ɪd tuː ˈbiː.ɪŋ ɪɡˈzɔː.stɪd./"
+        "sentence": "Immediately, he seemed to be in distress.",
+        "meaning-example": "Ngay lập tức, anh ta dường như đang đau khổ."
       },
       {
-        "sentence": "His boss felt pity for the butler.",
-        "meaning-example": "Ông chủ của anh cảm thấy thương hại người quản gia.",
-        "ipa-example": "/hɪz bɒs felt ˈpɪt.i fɔːr ðə ˈbʌt.lər./"
+        "sentence": "He gasped and his face alternated between brave and pained expressions.",
+        "meaning-example": "Anh ta thở hổn hển và khuôn mặt anh ta luân phiên giữa những biểu cảm dũng cảm và đau đớn."
       },
       {
-        "sentence": "He had no idea the butler was so tired.",
-        "meaning-example": "Ông không hề biết người quản gia mệt mỏi đến vậy.",
-        "ipa-example": "/hi hæd nəʊ aɪˈdɪə ðə ˈbʌt.lər wəz səʊ ˈtaɪəd./"
+        "sentence": "He experienced an overdose of spice.",
+        "meaning-example": "Anh ta đã trải qua một sự quá liều gia vị."
       },
       {
-        "sentence": "He said, “You should have told me earlier, then we could have avoided this whole ordeal.”",
-        "meaning-example": "Ông nói: “Lẽ ra cậu nên nói với tôi sớm hơn, thì chúng ta đã có thể tránh được cả thử thách gian nan này.”",
-        "ipa-example": "/hi sed, “juː ʃʊd həv təʊld mi ˈɜː.li.ər, ðen wi kʊd həv əˈvɔɪ.dɪd ðɪs həʊl ɔːˈdɪəl.”/"
+        "sentence": "He was on the verge of tears and finally let out a horrible cry.",
+        "meaning-example": "Anh ấy sắp khóc và cuối cùng đã hét lên một tiếng khủng khiếp."
+      },
+      {
+        "sentence": "“Take this,” said Becky, handing him her drink.",
+        "meaning-example": "“Cầm lấy cái này,” Becky nói, đưa cho anh đồ uống của mình."
+      },
+      {
+        "sentence": "“That was awful!” he said, continuing to sip from the glass.",
+        "meaning-example": "“Thật kinh khủng!” anh ta nói, tiếp tục nhấm nháp từ chiếc ly."
+      },
+      {
+        "sentence": "That night, Becky researched chilies.",
+        "meaning-example": "Đêm đó, Becky đã nghiên cứu về ớt."
+      },
+      {
+        "sentence": "The next day she said in an apologetic voice, “ I read that the hot part of chilies is in the middle, where the seeds are.",
+        "meaning-example": "Ngày hôm sau, cô ấy nói bằng một giọng hối lỗi: “Tớ đã đọc rằng phần cay của ớt ở giữa, nơi có hạt."
+      },
+      {
+        "sentence": "I’m sorry—I feel like I cheated by going first.”",
+        "meaning-example": "Tớ xin lỗi—Tớ cảm thấy như mình đã gian lận khi đi trước.”"
+      },
+      {
+        "sentence": "Russell was relieved, not only did he learn something new about chilies, but he learned that Becky was a good friend.",
+        "meaning-example": "Russell cảm thấy nhẹ nhõm, không chỉ vì anh học được điều gì đó mới về ớt, mà anh còn biết rằng Becky là một người bạn tốt."
       }
     ]
   }
