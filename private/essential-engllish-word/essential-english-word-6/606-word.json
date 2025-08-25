@@ -1,0 +1,922 @@
+[
+  {
+    "word": "ashore",
+    "ipa": "/əˈʃɔːr/",
+    "meaning": "Lên bờ, vào bờ.",
+    "image": "eew-6-6/1.png",
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "ashore",
+        "meaning-example": "Lên bờ, vào bờ.",
+        "ipa-example": "/əˈʃɔːr/"
+      },
+      {
+        "sentence": "`Ơ, sò` ở đâu mà nhiều thế? Hóa ra là sóng đánh sò **lên bờ**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Towards or on the land from an area of water.",
+        "meaning-example": "Hướng về hoặc trên đất liền từ một vùng nước.",
+        "ipa-example": "/təˈwɔːdz ɔːr ɒn ðə lænd frəm ən ˈeə.ri.ə əv ˈwɔː.tər./"
+      },
+      {
+        "sentence": "When she comes ashore, she can reproduce by herself.",
+        "meaning-example": "Khi nó lên bờ, nó có thể tự sinh sản.",
+        "ipa-example": "/wen ʃi kʌmz əˈʃɔːr, ʃi kən ˌriː.prəˈdʒuːs baɪ hɜːˈself./"
+      },
+      {
+        "sentence": "The survivors swam ashore.",
+        "meaning-example": "Những người sống sót bơi vào bờ.",
+        "ipa-example": "/ðə səˈvaɪ.vəz swæm əˈʃɔːr./"
+      },
+      {
+        "sentence": "The storm washed a lot of debris ashore.",
+        "meaning-example": "Cơn bão đã cuốn trôi rất nhiều mảnh vỡ vào bờ.",
+        "ipa-example": "/ðə stɔːm wɒʃt ə lɒt əv ˈdeb.riː əˈʃɔːr./"
+      }
+    ]
+  },
+  {
+    "word": "contradict",
+    "ipa": "/ˌkɒn.trəˈdɪkt/",
+    "meaning": "Mâu thuẫn với, trái với, cãi lại.",
+    "image": "eew-6-6/2.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "contradict",
+        "meaning-example": "Mâu thuẫn với, trái với, cãi lại.",
+        "ipa-example": "/ˌkɒn.trəˈdɪkt/"
+      },
+      {
+        "sentence": "`Con tra đích` thị là đang **mâu thuẫn, cãi lại** lời bố mẹ nói.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To say the opposite of what someone else has said, or to be so different from another fact or statement that one of them must be wrong.",
+        "meaning-example": "Nói ngược lại những gì người khác đã nói, hoặc khác biệt đến mức một trong hai sự thật hoặc tuyên bố phải sai.",
+        "ipa-example": "/tuː seɪ ði ˈɒp.ə.zɪt əv wɒt ˈsʌm.wʌn els həz sed, ɔːr tuː bi səʊ ˈdɪf.ər.ənt frəm əˈnʌð.ər fækt ɔːr ˈsteɪt.mənt ðət wʌn əv ðəm məst bi rɒŋ./"
+      },
+      {
+        "sentence": "This contradicts what scientists know about how most animals have babies.",
+        "meaning-example": "Điều này mâu thuẫn với những gì các nhà khoa học biết về cách hầu hết các loài động vật sinh con.",
+        "ipa-example": "/ðɪs ˌkɒn.trəˈdɪkts wɒt ˈsaɪən.tɪsts nəʊ əˈbaʊt haʊ məʊst ˈæn.ɪ.məlz həv ˈbeɪ.biz./"
+      },
+      {
+        "sentence": "His actions contradict his words.",
+        "meaning-example": "Hành động của anh ta mâu thuẫn với lời nói của anh ta.",
+        "ipa-example": "/hɪz ˈæk.ʃənz ˌkɒn.trəˈdɪkt hɪz wɜːdz./"
+      },
+      {
+        "sentence": "The witness's statement contradicts the evidence.",
+        "meaning-example": "Lời khai của nhân chứng mâu thuẫn với bằng chứng.",
+        "ipa-example": "/ðə ˈwɪt.nəsɪz ˈsteɪt.mənt ˌkɒn.trəˈdɪkts ði ˈev.ɪ.dəns./"
+      }
+    ]
+  },
+  {
+    "word": "counterpart",
+    "ipa": "/ˈkaʊn.tə.pɑːt/",
+    "meaning": "Bên tương ứng, đối tác.",
+    "image": "eew-6-6/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "counterpart",
+        "meaning-example": "Bên tương ứng, đối tác.",
+        "ipa-example": "/ˈkaʊn.tə.pɑːt/"
+      },
+      {
+        "sentence": "Ở `quầy` (`counter`) bên này có một cái `bạt`. **Bên tương ứng** bên kia cũng có một cái y hệt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person or thing that has the same purpose as another one in a different place or organization.",
+        "meaning-example": "Một người hoặc vật có cùng mục đích với một người hoặc vật khác ở một địa điểm hoặc tổ chức khác.",
+        "ipa-example": "/ə ˈpɜː.sən ɔːr θɪŋ ðət həz ðə seɪm ˈpɜː.pəs əz əˈnʌð.ər wʌn ɪn ə ˈdɪf.ər.ənt pleɪs ɔːr ˌɔː.ɡən.aɪˈzeɪ.ʃən./"
+      },
+      {
+        "sentence": "...without the help of their male counterparts.",
+        "meaning-example": "...mà không cần sự giúp đỡ của các đối tác nam.",
+        "ipa-example": "/wɪðˈaʊt ðə help əv ðeər meɪl ˈkaʊn.tə.pɑːts./"
+      },
+      {
+        "sentence": "The prime minister is meeting with his German counterpart.",
+        "meaning-example": "Thủ tướng đang gặp gỡ người đồng cấp Đức của mình.",
+        "ipa-example": "/ðə praɪm ˈmɪn.ɪ.stər ɪz ˈmiː.tɪŋ wɪð hɪz ˈdʒɜː.mən ˈkaʊn.tə.pɑːt./"
+      },
+      {
+        "sentence": "The company's sales in Europe were down, but its American counterpart saw an increase.",
+        "meaning-example": "Doanh số của công ty ở châu Âu giảm, nhưng đối tác ở Mỹ lại tăng.",
+        "ipa-example": "/ðə ˈkʌm.pə.niz seɪlz ɪn ˈjʊə.rəp wər daʊn, bət ɪts əˈmer.ɪ.kən ˈkaʊn.tə.pɑːt sɔːr ən ˈɪn.kriːs./"
+      }
+    ]
+  },
+  {
+    "word": "devoid",
+    "ipa": "/dɪˈvɔɪd/",
+    "meaning": "Không có, trống rỗng.",
+    "image": "eew-6-6/4.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "devoid",
+        "meaning-example": "Không có, trống rỗng.",
+        "ipa-example": "/dɪˈvɔɪd/"
+      },
+      {
+        "sentence": "`Đi voi` khắp khu rừng này mà chẳng thấy con nào. Khu rừng này **không có**, **trống rỗng** bóng voi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To lack or be without something that is necessary or usual.",
+        "meaning-example": "Thiếu hoặc không có thứ gì đó cần thiết hoặc thông thường.",
+        "ipa-example": "/tuː læk ɔːr bi wɪðˈaʊt ˈsʌm.θɪŋ ðət ɪz ˈnes.ə.ser.i ɔːr ˈjuː.ʒu.əl./"
+      },
+      {
+        "sentence": "Also, they are devoid of any genetic problems.",
+        "meaning-example": "Ngoài ra, chúng không có bất kỳ vấn đề di truyền nào.",
+        "ipa-example": "/ˈɔːl.səʊ, ðeɪ ɑːr dɪˈvɔɪd əv ˈen.i dʒəˈnet.ɪk ˈprɒb.ləmz./"
+      },
+      {
+        "sentence": "His face was devoid of any emotion.",
+        "meaning-example": "Khuôn mặt anh ta không biểu lộ cảm xúc gì.",
+        "ipa-example": "/hɪz feɪs wəz dɪˈvɔɪd əv ˈen.i ɪˈməʊ.ʃən./"
+      },
+      {
+        "sentence": "The landscape was completely devoid of vegetation.",
+        "meaning-example": "Phong cảnh hoàn toàn không có thực vật.",
+        "ipa-example": "/ðə ˈlænd.skeɪp wəz kəmˈpliːt.li dɪˈvɔɪd əv ˌvedʒ.ɪˈteɪ.ʃən./"
+      }
+    ]
+  },
+  {
+    "word": "diverge",
+    "ipa": "/daɪˈvɜːdʒ/",
+    "meaning": "Phân ra, rẽ ra, khác nhau.",
+    "image": "eew-6-6/5.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "diverge",
+        "meaning-example": "Phân ra, rẽ ra, khác nhau.",
+        "ipa-example": "/daɪˈvɜːdʒ/"
+      },
+      {
+        "sentence": "Hai con thuyền cùng xuất phát nhưng sau đó **phân ra, rẽ ra** hai hướng khác nhau để `đi vớt` cá.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To follow a different direction, or to be or become different.",
+        "meaning-example": "Đi theo một hướng khác, hoặc là hoặc trở nên khác biệt.",
+        "ipa-example": "/tuː ˈfɒl.əʊ ə ˈdɪf.ər.ənt daɪˈrek.ʃən, ɔːr tuː bi ɔːr bɪˈkʌm ˈdɪf.ər.ənt./"
+      },
+      {
+        "sentence": "Over time, the genes within the population diverge.",
+        "meaning-example": "Theo thời gian, các gen trong quần thể phân hóa.",
+        "ipa-example": "/ˈəʊ.vər taɪm, ðə dʒiːnz wɪðˈɪn ðə ˌpɒp.jəˈleɪ.ʃən daɪˈvɜːdʒ./"
+      },
+      {
+        "sentence": "Their opinions diverge on this matter.",
+        "meaning-example": "Ý kiến của họ khác nhau về vấn đề này.",
+        "ipa-example": "/ðeər əˈpɪn.jənz daɪˈvɜːdʒ ɒn ðɪs ˈmæt.ər./"
+      },
+      {
+        "sentence": "The path diverges here; you can go left or right.",
+        "meaning-example": "Con đường rẽ ra ở đây; bạn có thể đi sang trái hoặc sang phải.",
+        "ipa-example": "/ðə pɑːθ daɪˈvɜːdʒɪz hɪər; juː kən ɡəʊ left ɔːr raɪt./"
+      }
+    ]
+  },
+  {
+    "word": "elude",
+    "ipa": "/iˈluːd/",
+    "meaning": "Lẩn trốn, lảng tránh.",
+    "image": "eew-6-6/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "elude",
+        "meaning-example": "Lẩn trốn, lảng tránh.",
+        "ipa-example": "/iˈluːd/"
+      },
+      {
+        "sentence": "Tên trộm `y` (hắn) **lẩn trốn, lảng tránh** cảnh sát bằng cách `lủi` vào con hẻm nhỏ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To manage to avoid or escape from someone or something, especially in a skillful way.",
+        "meaning-example": "Xoay xở để tránh hoặc thoát khỏi ai đó hoặc cái gì đó, đặc biệt là một cách khéo léo.",
+        "ipa-example": "/tuː ˈmæn.ɪdʒ tuː əˈvɔɪd ɔːr ɪˈskeɪp frəm ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ, ɪˈspeʃ.ə.li ɪn ə ˈskɪl.fəl weɪ./"
+      },
+      {
+        "sentence": "However, as long as one female eludes death, she can prolong the survival of the species.",
+        "meaning-example": "Tuy nhiên, miễn là một con cái thoát khỏi cái chết, nó có thể kéo dài sự tồn tại của loài.",
+        "ipa-example": "/haʊˈev.ər, əz lɒŋ əz wʌn ˈfiː.meɪl iˈluːdz deθ, ʃi kən prəˈlɒŋ ðə səˈvaɪ.vəl əv ðə ˈspiː.ʃiːz./"
+      },
+      {
+        "sentence": "The thief managed to elude the police.",
+        "meaning-example": "Tên trộm đã xoay sở để lẩn trốn cảnh sát.",
+        "ipa-example": "/ðə θiːf ˈmæn.ɪdʒd tuː iˈluːd ðə pəˈliːs./"
+      },
+      {
+        "sentence": "The answer to the problem continues to elude me.",
+        "meaning-example": "Câu trả lời cho vấn đề vẫn tiếp tục lảng tránh tôi.",
+        "ipa-example": "/ði ˈɑːn.sər tuː ðə ˈprɒb.ləm kənˈtɪn.juːz tuː iˈluːd miː./"
+      }
+    ]
+  },
+  {
+    "word": "embryo",
+    "ipa": "/ˈem.bri.əʊ/",
+    "meaning": "Phôi thai.",
+    "image": "eew-6-6/7.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "embryo",
+        "meaning-example": "Phôi thai.",
+        "ipa-example": "/ˈem.bri.əʊ/"
+      },
+      {
+        "sentence": "Mẹ lo lắng `em bị rỗ` mặt từ khi còn là **phôi thai**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An animal that is developing either in its mother's womb or in an egg.",
+        "meaning-example": "Một động vật đang phát triển trong bụng mẹ hoặc trong trứng.",
+        "ipa-example": "/ən ˈæn.ɪ.məl ðət ɪz dɪˈvel.ə.pɪŋ ˈaɪ.ðər ɪn ɪts ˈmʌð.əz wuːm ɔːr ɪn ən eɡ./"
+      },
+      {
+        "sentence": "For example, adult males and females carry different genes needed to make an embryo.",
+        "meaning-example": "Ví dụ, con đực và con cái trưởng thành mang các gen khác nhau cần thiết để tạo ra phôi thai.",
+        "ipa-example": "/fər ɪɡˈzɑːm.pəl, ˈæd.ʌlt meɪlz ənd ˈfiː.meɪlz ˈkær.i ˈdɪf.ər.ənt dʒiːnz ˈniː.dɪd tuː meɪk ən ˈem.bri.əʊ./"
+      },
+      {
+        "sentence": "The research involves the study of human embryos.",
+        "meaning-example": "Nghiên cứu này liên quan đến việc nghiên cứu phôi người.",
+        "ipa-example": "/ðə rɪˈsɜːtʃ ɪnˈvɒlvz ðə ˈstʌd.i əv ˈhjuː.mən ˈem.bri.əʊz./"
+      },
+      {
+        "sentence": "An embryo develops into a fetus after about eight weeks.",
+        "meaning-example": "Phôi thai phát triển thành thai nhi sau khoảng tám tuần.",
+        "ipa-example": "/ən ˈem.bri.əʊ dɪˈvel.əps ˌɪn.tuː ə ˈfiː.təs ˈɑːf.tər əˈbaʊt eɪt wiːks./"
+      }
+    ]
+  },
+  {
+    "word": "fend",
+    "ipa": "/fend/",
+    "meaning": "Chống đỡ, tự vệ, lo liệu.",
+    "image": "eew-6-6/8.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "fend",
+        "meaning-example": "Chống đỡ, tự vệ, lo liệu.",
+        "ipa-example": "/fend/"
+      },
+      {
+        "sentence": "Để **chống đỡ, tự vệ** khỏi đòn tấn công, võ sĩ phải đỡ hết `phen` này đến `phen` khác.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To take care of and provide for yourself without depending on anyone else.",
+        "meaning-example": "Tự chăm sóc và chu cấp cho bản thân mà không phụ thuộc vào bất kỳ ai khác.",
+        "ipa-example": "/tuː teɪk keər əv ənd prəˈvaɪd fɔːr jɔːˈself wɪðˈaʊt dɪˈpen.dɪŋ ɒn ˈen.i.wʌn els./"
+      },
+      {
+        "sentence": "Scientists theorize that Komodo dragons developed the ability because it helps the species fend off extinction.",
+        "meaning-example": "Các nhà khoa học đưa ra giả thuyết rằng rồng Komodo đã phát triển khả năng này vì nó giúp loài này chống lại sự tuyệt chủng.",
+        "ipa-example": "/ˈsaɪən.tɪsts ˈθɪə.raɪz ðət kəˈməʊ.dəʊ ˈdræɡ.ənz dɪˈvel.əpt ði əˈbɪl.ə.ti bɪˈkəz ɪt helps ðə ˈspiː.ʃiːz fend ɒf ɪkˈstɪŋk.ʃən./"
+      },
+      {
+        "sentence": "He had to fend for himself from a young age.",
+        "meaning-example": "Anh ấy đã phải tự lo liệu cho bản thân từ khi còn nhỏ.",
+        "ipa-example": "/hi hæd tuː fend fɔːr hɪmˈself frəm ə jʌŋ eɪdʒ./"
+      },
+      {
+        "sentence": "The knight used his shield to fend off the dragon's fire.",
+        "meaning-example": "Hiệp sĩ đã dùng khiên của mình để chống đỡ ngọn lửa của con rồng.",
+        "ipa-example": "/ðə naɪt juːzd hɪz ʃiːld tuː fend ɒf ðə ˈdræɡ.ənz ˈfaɪər./"
+      }
+    ]
+  },
+  {
+    "word": "fictitious",
+    "ipa": "/fɪkˈtɪʃ.əs/",
+    "meaning": "Hư cấu, không có thật, giả.",
+    "image": "eew-6-6/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "fictitious",
+        "meaning-example": "Hư cấu, không có thật, giả.",
+        "ipa-example": "/fɪkˈtɪʃ.əs/"
+      },
+      {
+        "sentence": "Cái `phích` nước biết nói chỉ là chuyện **hư cấu, không có thật**, đừng có `tí` là `sợ`.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Invented and not true or not existing.",
+        "meaning-example": "Được phát minh và không có thật hoặc không tồn tại.",
+        "ipa-example": "/ɪnˈven.tɪd ənd nɒt truː ɔːr nɒt ɪɡˈzɪs.tɪŋ./"
+      },
+      {
+        "sentence": "After the scientists publicized their discovery, many people thought it was fictitious.",
+        "meaning-example": "Sau khi các nhà khoa học công bố phát hiện của họ, nhiều người nghĩ rằng đó là hư cấu.",
+        "ipa-example": "/ˈɑːf.tər ðə ˈsaɪən.tɪsts ˈpʌb.lɪ.saɪzd ðeər dɪˈskʌv.ər.i, ˈmen.i ˈpiː.pəl θɔːt ɪt wəz fɪkˈtɪʃ.əs./"
+      },
+      {
+        "sentence": "He used a fictitious name to avoid being recognized.",
+        "meaning-example": "Anh ta đã dùng một cái tên giả để tránh bị nhận ra.",
+        "ipa-example": "/hi juːzd ə fɪkˈtɪʃ.əs neɪm tuː əˈvɔɪd ˈbiː.ɪŋ ˈrek.əɡ.naɪzd./"
+      },
+      {
+        "sentence": "All the characters in the book are fictitious.",
+        "meaning-example": "Tất cả các nhân vật trong sách đều là hư cấu.",
+        "ipa-example": "/ɔːl ðə ˈkær.ək.təz ɪn ðə bʊk ɑːr fɪkˈtɪʃ.əs./"
+      }
+    ]
+  },
+  {
+    "word": "gazette",
+    "ipa": "/ɡəˈzet/",
+    "meaning": "Công báo, tờ báo.",
+    "image": "eew-6-6/10.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "gazette",
+        "meaning-example": "Công báo, tờ báo.",
+        "ipa-example": "/ɡəˈzet/"
+      },
+      {
+        "sentence": "Con `gà` bị `rét` vì đọc **công báo, tờ báo** thời tiết nói hôm nay trời lạnh mà không mặc áo.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A newspaper or official journal.",
+        "meaning-example": "Một tờ báo hoặc tạp chí chính thức.",
+        "ipa-example": "/ə ˈnjuːzˌpeɪ.pər ɔːr əˈfɪʃ.əl ˈdʒɜː.nəl./"
+      },
+      {
+        "sentence": "Once, a British gazette had an unusual story.",
+        "meaning-example": "Ngày xửa ngày xưa, một tờ báo của Anh có một câu chuyện lạ.",
+        "ipa-example": "/wʌns, ə ˈbrɪt.ɪʃ ɡəˈzet hæd ən ʌnˈjuː.ʒu.əl ˈstɔː.ri./"
+      },
+      {
+        "sentence": "The local gazette is published weekly.",
+        "meaning-example": "Tờ báo địa phương được xuất bản hàng tuần.",
+        "ipa-example": "/ðə ˈləʊ.kəl ɡəˈzet ɪz ˈpʌb.lɪʃt ˈwiːk.li./"
+      },
+      {
+        "sentence": "The appointment was announced in the official gazette.",
+        "meaning-example": "Việc bổ nhiệm đã được công bố trên công báo chính thức.",
+        "ipa-example": "/ði əˈpɔɪnt.mənt wəz əˈnaʊnst ɪn ði əˈfɪʃ.əl ɡəˈzet./"
+      }
+    ]
+  },
+  {
+    "word": "homogeneous",
+    "ipa": "/ˌhɒm.əˈdʒiː.ni.əs/",
+    "meaning": "Đồng nhất, thuần nhất.",
+    "image": "eew-6-6/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "homogeneous",
+        "meaning-example": "Đồng nhất, thuần nhất.",
+        "ipa-example": "/ˌhɒm.əˈdʒiː.ni.əs/"
+      },
+      {
+        "sentence": "`Hôm` qua `mơ` `gì nhỉ`? À, `us` (chúng ta) đều mặc những bộ đồ **đồng nhất, thuần nhất**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Consisting of parts or people that are all of the same type.",
+        "meaning-example": "Bao gồm các bộ phận hoặc những người cùng một loại.",
+        "ipa-example": "/kənˈsɪs.tɪŋ əv pɑːts ɔːr ˈpiː.pəl ðət ɑːr ɔːl əv ðə seɪm taɪp./"
+      },
+      {
+        "sentence": "If the genes are homogeneous, the babies are weaker and have genetic problems.",
+        "meaning-example": "Nếu các gen đồng nhất, những đứa con sinh ra sẽ yếu hơn và có vấn đề về di truyền.",
+        "ipa-example": "/ɪf ðə dʒiːnz ɑːr ˌhɒm.əˈdʒiː.ni.əs, ðə ˈbeɪ.biz ɑːr ˈwiː.kər ənd həv dʒəˈnet.ɪk ˈprɒb.ləmz./"
+      },
+      {
+        "sentence": "The population of the village is very homogeneous.",
+        "meaning-example": "Dân số của ngôi làng rất đồng nhất.",
+        "ipa-example": "/ðə ˌpɒp.jəˈleɪ.ʃən əv ðə ˈvɪl.ɪdʒ ɪz ˈver.i ˌhɒm.əˈdʒiː.ni.əs./"
+      },
+      {
+        "sentence": "The ingredients were mixed until they became a homogeneous paste.",
+        "meaning-example": "Các thành phần được trộn cho đến khi chúng trở thành một hỗn hợp sền sệt đồng nhất.",
+        "ipa-example": "/ði ɪnˈɡriː.di.ənts wər mɪkst ənˈtɪl ðeɪ bɪˈkeɪm ə ˌhɒm.əˈdʒiː.ni.əs peɪst./"
+      }
+    ]
+  },
+  {
+    "word": "obstruct",
+    "ipa": "/əbˈstrʌkt/",
+    "meaning": "Cản trở, làm tắc nghẽn.",
+    "image": "eew-6-6/12.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "obstruct",
+        "meaning-example": "Cản trở, làm tắc nghẽn.",
+        "ipa-example": "/əbˈstrʌkt/"
+      },
+      {
+        "sentence": "Con đường bị những tảng đá `ọp` ẹp, `s` (xấu) xí, `trắc` trở gây **cản trở, làm tắc nghẽn** giao thông.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To try to stop something from happening or moving.",
+        "meaning-example": "Cố gắng ngăn chặn một cái gì đó xảy ra hoặc di chuyển.",
+        "ipa-example": "/tuː traɪ tuː stɒp ˈsʌm.θɪŋ frəm ˈhæp.ən.ɪŋ ɔːr ˈmuː.vɪŋ./"
+      },
+      {
+        "sentence": "In most cases, there are many things that can obstruct this type of reproduction.",
+        "meaning-example": "Trong hầu hết các trường hợp, có nhiều thứ có thể cản trở loại hình sinh sản này.",
+        "ipa-example": "/ɪn məʊst ˈkeɪ.sɪz, ðeər ɑːr ˈmen.i θɪŋz ðət kən əbˈstrʌkt ðɪs taɪp əv ˌriː.prəˈdʌk.ʃən./"
+      },
+      {
+        "sentence": "A fallen tree is obstructing the road.",
+        "meaning-example": "Một cái cây đổ đang cản trở con đường.",
+        "ipa-example": "/ə ˈfɔː.lən triː ɪz əbˈstrʌk.tɪŋ ðə rəʊd./"
+      },
+      {
+        "sentence": "He was charged with obstructing justice.",
+        "meaning-example": "Anh ta bị buộc tội cản trở công lý.",
+        "ipa-example": "/hi wəz tʃɑːdʒd wɪð əbˈstrʌk.tɪŋ ˈdʒʌs.tɪs./"
+      }
+    ]
+  },
+  {
+    "word": "plunge",
+    "ipa": "/plʌndʒ/",
+    "meaning": "Lao mình xuống, nhảy xuống.",
+    "image": "eew-6-6/13.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "plunge",
+        "meaning-example": "Lao mình xuống, nhảy xuống.",
+        "ipa-example": "/plʌndʒ/"
+      },
+      {
+        "sentence": "Anh ta đứng trên `bờ`, `lặn` xuống nước. Anh ấy đã **lao mình xuống, nhảy xuống** nước.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To (cause someone or something to) move or fall suddenly and often a long way forward, down, or into something.",
+        "meaning-example": "Làm cho (ai đó hoặc cái gì đó) di chuyển hoặc rơi đột ngột và thường là một quãng đường dài về phía trước, xuống hoặc vào một cái gì đó.",
+        "ipa-example": "/tuː (kɔːz ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ tuː) muːv ɔːr fɔːl ˈsʌd.ən.li ənd ˈɒf.ən ə lɒŋ weɪ ˈfɔː.wəd, daʊn, ɔːr ˌɪn.tuː ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "So the surviving female can plunge into the ocean and swim to another island.",
+        "meaning-example": "Vì vậy, con cái sống sót có thể lao xuống đại dương và bơi đến một hòn đảo khác.",
+        "ipa-example": "/səʊ ðə səˈvaɪ.vɪŋ ˈfiː.meɪl kən plʌndʒ ˌɪn.tuː ði ˈəʊ.ʃən ənd swɪm tuː əˈnʌð.ər ˈaɪ.lənd./"
+      },
+      {
+        "sentence": "The car plunged into the river.",
+        "meaning-example": "Chiếc xe đã lao xuống sông.",
+        "ipa-example": "/ðə kɑːr plʌndʒd ˌɪn.tuː ðə ˈrɪv.ər./"
+      },
+      {
+        "sentence": "Stock prices plunged after the announcement.",
+        "meaning-example": "Giá cổ phiếu đã lao dốc sau thông báo.",
+        "ipa-example": "/stɒk ˈpraɪ.sɪz plʌndʒd ˈɑːf.tər ði əˈnaʊns.mənt./"
+      }
+    ]
+  },
+  {
+    "word": "prolong",
+    "ipa": "/prəˈlɒŋ/",
+    "meaning": "Kéo dài.",
+    "image": "eew-6-6/14.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "prolong",
+        "meaning-example": "Kéo dài.",
+        "ipa-example": "/prəˈlɒŋ/"
+      },
+      {
+        "sentence": "Anh ấy `pro` (chuyên nghiệp) trong việc `lông` (long) nhong ngoài đường để **kéo dài** thời gian trước khi về nhà.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make something last for a longer time.",
+        "meaning-example": "Làm cho một cái gì đó kéo dài trong một thời gian dài hơn.",
+        "ipa-example": "/tuː meɪk ˈsʌm.θɪŋ lɑːst fɔːr ə ˈlɒŋ.ɡər taɪm./"
+      },
+      {
+        "sentence": "...she can prolong the survival of the species.",
+        "meaning-example": "...nó có thể kéo dài sự tồn tại của loài.",
+        "ipa-example": "/ʃi kən prəˈlɒŋ ðə səˈvaɪ.vəl əv ðə ˈspiː.ʃiːz./"
+      },
+      {
+        "sentence": "The treatment can prolong the patient's life.",
+        "meaning-example": "Phương pháp điều trị có thể kéo dài sự sống của bệnh nhân.",
+        "ipa-example": "/ðə ˈtriːt.mənt kən prəˈlɒŋ ðə ˈpeɪ.ʃənts laɪf./"
+      },
+      {
+        "sentence": "We shouldn't prolong the meeting unnecessarily.",
+        "meaning-example": "Chúng ta không nên kéo dài cuộc họp một cách không cần thiết.",
+        "ipa-example": "/wi ˈʃʊd.ənt prəˈlɒŋ ðə ˈmiː.tɪŋ ˌʌnˈnes.ə.ser.ɪ.li./"
+      }
+    ]
+  },
+  {
+    "word": "publicize",
+    "ipa": "/ˈpʌb.lɪ.saɪz/",
+    "meaning": "Công khai, quảng bá.",
+    "image": "eew-6-6/15.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "publicize",
+        "meaning-example": "Công khai, quảng bá.",
+        "ipa-example": "/ˈpʌb.lɪ.saɪz/"
+      },
+      {
+        "sentence": "Vụ việc `bắp` của nhà `lý` trưởng làm `sai` đã bị **công khai, quảng bá** cho cả làng biết.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make information about something available to the public.",
+        "meaning-example": "Công bố thông tin về một cái gì đó cho công chúng.",
+        "ipa-example": "/tuː meɪk ˌɪn.fəˈmeɪ.ʃən əˈbaʊt ˈsʌm.θɪŋ əˈveɪ.lə.bəl tuː ðə ˈpʌb.lɪk./"
+      },
+      {
+        "sentence": "After the scientists publicized their discovery, many people thought it was fictitious.",
+        "meaning-example": "Sau khi các nhà khoa học công bố phát hiện của họ, nhiều người nghĩ rằng đó là hư cấu.",
+        "ipa-example": "/ˈɑːf.tər ðə ˈsaɪən.tɪsts ˈpʌb.lɪ.saɪzd ðeər dɪˈskʌv.ər.i, ˈmen.i ˈpiː.pəl θɔːt ɪt wəz fɪkˈtɪʃ.əs./"
+      },
+      {
+        "sentence": "The company is using social media to publicize its new product.",
+        "meaning-example": "Công ty đang sử dụng mạng xã hội để quảng bá sản phẩm mới của mình.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni ɪz ˈjuː.zɪŋ ˈsəʊ.ʃəl ˈmiː.diə tuː ˈpʌb.lɪ.saɪz ɪts njuː ˈprɒd.ʌkt./"
+      },
+      {
+        "sentence": "They decided not to publicize the details of the agreement.",
+        "meaning-example": "Họ quyết định không công khai chi tiết của thỏa thuận.",
+        "ipa-example": "/ðeɪ dɪˈsaɪ.dɪd nɒt tuː ˈpʌb.lɪ.saɪz ðə ˈdiː.teɪlz əv ði əˈɡriː.mənt./"
+      }
+    ]
+  },
+  {
+    "word": "sparse",
+    "ipa": "/spɑːs/",
+    "meaning": "Thưa thớt, rải rác.",
+    "image": "eew-6-6/16.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "sparse",
+        "meaning-example": "Thưa thớt, rải rác.",
+        "ipa-example": "/spɑːs/"
+      },
+      {
+        "sentence": "Rừng cây **thưa thớt, rải rác** đến nỗi có thể `sờ` được cái `bát` ở phía bên kia.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Small in numbers or amount, often spread over a large area.",
+        "meaning-example": "Số lượng hoặc số lượng nhỏ, thường trải rộng trên một khu vực rộng lớn.",
+        "ipa-example": "/smɔːl ɪn ˈnʌm.bəz ɔːr əˈmaʊnt, ˈɒf.ən spred ˈəʊ.vər ə lɑːdʒ ˈeə.ri.ə./"
+      },
+      {
+        "sentence": "Then, the sparse population increases.",
+        "meaning-example": "Sau đó, dân số thưa thớt tăng lên.",
+        "ipa-example": "/ðen, ðə spɑːs ˌpɒp.jəˈleɪ.ʃən ɪnˈkriː.sɪz./"
+      },
+      {
+        "sentence": "The vegetation becomes sparse at higher altitudes.",
+        "meaning-example": "Thảm thực vật trở nên thưa thớt ở độ cao lớn hơn.",
+        "ipa-example": "/ðə ˌvedʒ.ɪˈteɪ.ʃən bɪˈkʌmz spɑːs ət ˈhaɪ.ər ˈæl.tɪ.tʃuːdz./"
+      },
+      {
+        "sentence": "Information on the subject is sparse.",
+        "meaning-example": "Thông tin về chủ đề này rất rải rác.",
+        "ipa-example": "/ˌɪn.fəˈmeɪ.ʃən ɒn ðə ˈsʌb.dʒekt ɪz spɑːs./"
+      }
+    ]
+  },
+  {
+    "word": "surplus",
+    "ipa": "/ˈsɜː.pləs/",
+    "meaning": "Sự thặng dư, số dư, phần dư thừa.",
+    "image": "eew-6-6/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "surplus",
+        "meaning-example": "Sự thặng dư, số dư, phần dư thừa.",
+        "ipa-example": "/ˈsɜː.pləs/"
+      },
+      {
+        "sentence": "`Sơ` sơ tính đã thấy `plus` (cộng) ra một khoản **thặng dư, dư thừa** lớn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An amount that is more than is needed.",
+        "meaning-example": "Một số lượng nhiều hơn mức cần thiết.",
+        "ipa-example": "/ən əˈmaʊnt ðət ɪz mɔːr ðən ɪz ˈniː.dɪd./"
+      },
+      {
+        "sentence": "Once again there is a surplus of lizards on one island.",
+        "meaning-example": "Một lần nữa lại có một lượng thằn lằn dư thừa trên một hòn đảo.",
+        "ipa-example": "/wʌns əˈɡen ðeər ɪz ə ˈsɜː.pləs əv ˈlɪz.ədz ɒn wʌn ˈaɪ.lənd./"
+      },
+      {
+        "sentence": "The country has a trade surplus of over $1 billion.",
+        "meaning-example": "Đất nước có thặng dư thương mại hơn 1 tỷ đô la.",
+        "ipa-example": "/ðə ˈkʌn.tri həz ə treɪd ˈsɜː.pləs əv ˈəʊ.vər wʌn ˈbɪl.jən ˈdɒl.əz./"
+      },
+      {
+        "sentence": "We have a surplus of food, so we will donate some to charity.",
+        "meaning-example": "Chúng tôi có thực phẩm dư thừa, vì vậy chúng tôi sẽ quyên góp một ít cho tổ chức từ thiện.",
+        "ipa-example": "/wi həv ə ˈsɜː.pləs əv fuːd, səʊ wi wɪl dəʊˈneɪt səm tuː ˈtʃær.ə.ti./"
+      }
+    ]
+  },
+  {
+    "word": "theorize",
+    "ipa": "/ˈθɪə.raɪz/",
+    "meaning": "Đưa ra lý thuyết, lý luận.",
+    "image": "eew-6-6/18.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "theorize",
+        "meaning-example": "Đưa ra lý thuyết, lý luận.",
+        "ipa-example": "/ˈθɪə.raɪz/"
+      },
+      {
+        "sentence": "Trong cuộc `thi`, `ơ`, `rai` (ai) cũng phải **đưa ra lý thuyết, lý luận** về vấn đề này.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To develop a set of ideas about something.",
+        "meaning-example": "Phát triển một tập hợp các ý tưởng về một cái gì đó.",
+        "ipa-example": "/tuː dɪˈvel.əp ə set əv aɪˈdɪəz əˈbaʊt ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "Scientists theorize that Komodo dragons developed the ability because it helps the species fend off extinction.",
+        "meaning-example": "Các nhà khoa học đưa ra giả thuyết rằng rồng Komodo đã phát triển khả năng này vì nó giúp loài này chống lại sự tuyệt chủng.",
+        "ipa-example": "/ˈsaɪən.tɪsts ˈθɪə.raɪz ðət kəˈməʊ.dəʊ ˈdræɡ.ənz dɪˈvel.əpt ði əˈbɪl.ə.ti bɪˈkəz ɪt helps ðə ˈspiː.ʃiːz fend ɒf ɪkˈstɪŋk.ʃən./"
+      },
+      {
+        "sentence": "Scientists theorize that the universe is still expanding.",
+        "meaning-example": "Các nhà khoa học đưa ra lý thuyết rằng vũ trụ vẫn đang giãn nở.",
+        "ipa-example": "/ˈsaɪən.tɪsts ˈθɪə.raɪz ðət ðə ˈjuː.nɪ.vɜːs ɪz stɪl ɪkˈspæn.dɪŋ./"
+      },
+      {
+        "sentence": "It's easy to theorize, but much harder to prove.",
+        "meaning-example": "Đưa ra lý thuyết thì dễ, nhưng chứng minh thì khó hơn nhiều.",
+        "ipa-example": "/ɪts ˈiː.zi tuː ˈθɪə.raɪz, bət mʌtʃ ˈhɑː.dər tuː pruːv./"
+      }
+    ]
+  },
+  {
+    "word": "verify",
+    "ipa": "/ˈver.ɪ.faɪ/",
+    "meaning": "Xác minh, kiểm lại, thẩm tra.",
+    "image": "eew-6-6/19.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "verify",
+        "meaning-example": "Xác minh, kiểm lại, thẩm tra.",
+        "ipa-example": "/ˈver.ɪ.faɪ/"
+      },
+      {
+        "sentence": "Chiếc `vé` này `rất` quan trọng, phải **xác minh, kiểm lại** xem nó có bị `phai` màu hay không.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To prove that something exists or is true, or to make certain that something is correct.",
+        "meaning-example": "Để chứng minh rằng một cái gì đó tồn tại hoặc là sự thật, hoặc để chắc chắn rằng một cái gì đó là chính xác.",
+        "ipa-example": "/tuː pruːv ðət ˈsʌm.θɪŋ ɪɡˈzɪsts ɔːr ɪz truː, ɔːr tuː meɪk ˈsɜː.tən ðət ˈsʌm.θɪŋ ɪz kəˈrekt./"
+      },
+      {
+        "sentence": "However, scientists verified that when Komodo babies are born, their genes aren’t the exact same genes as their mother.",
+        "meaning-example": "Tuy nhiên, các nhà khoa học đã xác minh rằng khi rồng Komodo con được sinh ra, gen của chúng không hoàn toàn giống gen của mẹ chúng.",
+        "ipa-example": "/haʊˈev.ər, ˈsaɪən.tɪsts ˈver.ɪ.faɪd ðət wen kəˈməʊ.dəʊ ˈbeɪ.biz ɑːr bɔːn, ðeər dʒiːnz ɑːnt ði ɪɡˈzækt seɪm dʒiːnz əz ðeər ˈmʌð.ər./"
+      },
+      {
+        "sentence": "Please verify your password by entering it again.",
+        "meaning-example": "Vui lòng xác minh mật khẩu của bạn bằng cách nhập lại.",
+        "ipa-example": "/pliːz ˈver.ɪ.faɪ jɔːr ˈpɑːs.wɜːd baɪ ˈen.tər.ɪŋ ɪt əˈɡen./"
+      },
+      {
+        "sentence": "We have no way to verify his story.",
+        "meaning-example": "Chúng tôi không có cách nào để xác minh câu chuyện của anh ta.",
+        "ipa-example": "/wi həv nəʊ weɪ tuː ˈver.ɪ.faɪ hɪz ˈstɔː.ri./"
+      }
+    ]
+  },
+  {
+    "word": "vigorous",
+    "ipa": "/ˈvɪɡ.ər.əs/",
+    "meaning": "Mạnh mẽ, cường tráng, đầy sinh lực.",
+    "image": "eew-6-6/20.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "vigorous",
+        "meaning-example": "Mạnh mẽ, cường tráng, đầy sinh lực.",
+        "ipa-example": "/ˈvɪɡ.ər.əs/"
+      },
+      {
+        "sentence": "Con `vi` khuẩn `gớm` này mà `rớt` vào người thì chỉ có người **mạnh mẽ, cường tráng** mới chống lại được.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Very forceful or energetic.",
+        "meaning-example": "Rất mạnh mẽ hoặc tràn đầy năng lượng.",
+        "ipa-example": "/ˈver.i ˈfɔːs.fəl ɔːr ˌen.əˈdʒet.ɪk./"
+      },
+      {
+        "sentence": "Luckily, Komodo dragons are vigorous swimmers.",
+        "meaning-example": "May mắn thay, rồng Komodo là những vận động viên bơi lội mạnh mẽ.",
+        "ipa-example": "/ˈlʌk.ɪ.li, kəˈməʊ.dəʊ ˈdræɡ.ənz ɑːr ˈvɪɡ.ər.əs ˈswɪm.ərz./"
+      },
+      {
+        "sentence": "He is a vigorous opponent of the new law.",
+        "meaning-example": "Ông là một người phản đối mạnh mẽ luật mới.",
+        "ipa-example": "/hi ɪz ə ˈvɪɡ.ər.əs əˈpəʊ.nənt əv ðə njuː lɔː./"
+      },
+      {
+        "sentence": "The doctor recommended vigorous exercise.",
+        "meaning-example": "Bác sĩ đã khuyến nghị tập thể dục cường độ cao.",
+        "ipa-example": "/ðə ˈdɒk.tər ˌrek.əˈmen.dɪd ˈvɪɡ.ər.əs ˈek.sə.saɪz./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "Amazing Komodo Dragons",
+        "meaning-example": "Những con rồng Komodo tuyệt vời",
+        "ipa-example": "/əˈmeɪ.zɪŋ kəˈməʊ.dəʊ ˈdræɡ.ənz/"
+      },
+      {
+        "sentence": "Once, a British gazette had an unusual story.",
+        "meaning-example": "Ngày xửa ngày xưa, một tờ báo của Anh có một câu chuyện lạ.",
+        "ipa-example": "/wʌns, ə ˈbrɪt.ɪʃ ɡəˈzet hæd ən ʌnˈjuː.ʒu.əl ˈstɔː.ri./"
+      },
+      {
+        "sentence": "Scientists at a zoo made a discovery about komodo dragons.",
+        "meaning-example": "Các nhà khoa học tại một sở thú đã có một khám phá về rồng komodo.",
+        "ipa-example": "/ˈsaɪən.tɪsts ət ə zuː meɪd ə dɪˈskʌv.ər.i əˈbaʊt kəˈməʊ.dəʊ ˈdræɡ.ənz./"
+      },
+      {
+        "sentence": "Komodo dragons are giant lizards that grow up to two and a half meters long.",
+        "meaning-example": "Rồng Komodo là loài thằn lằn khổng lồ có thể dài tới hai mét rưỡi.",
+        "ipa-example": "/kəˈməʊ.dəʊ ˈdræɡ.ənz ɑːr ˈdʒaɪ.ənt ˈlɪz.ədz ðət ɡrəʊ ʌp tuː tuː ənd ə hɑːf ˈmiː.təz lɒŋ./"
+      },
+      {
+        "sentence": "A female lizard at the zoo had babies.",
+        "meaning-example": "Một con thằn lằn cái tại sở thú đã sinh con.",
+        "ipa-example": "/ə ˈfiː.meɪl ˈlɪz.əd ət ə zuː hæd ˈbeɪ.biz./"
+      },
+      {
+        "sentence": "However, it had never been around a male lizard in its entire life.",
+        "meaning-example": "Tuy nhiên, nó chưa bao giờ ở gần một con thằn lằn đực nào trong suốt cuộc đời của nó.",
+        "ipa-example": "/haʊˈev.ər, ɪt hæd ˈnev.ər biːn əˈraʊnd ə meɪl ˈlɪz.əd ɪn ɪts ɪnˈtaɪər laɪf./"
+      },
+      {
+        "sentence": "After the scientists publicized their discovery, many people thought it was fictitious.",
+        "meaning-example": "Sau khi các nhà khoa học công bố phát hiện của họ, nhiều người nghĩ rằng đó là hư cấu.",
+        "ipa-example": "/ˈɑːf.tər ðə ˈsaɪən.tɪsts ˈpʌb.lɪ.saɪzd ðeər dɪˈskʌv.ər.i, ˈmen.i ˈpiː.pəl θɔːt ɪt wəz fɪkˈtɪʃ.əs./"
+      },
+      {
+        "sentence": "But it was true.",
+        "meaning-example": "Nhưng đó là sự thật.",
+        "ipa-example": "/bət ɪt wəz truː./"
+      },
+      {
+        "sentence": "It was discovered that female komodo dragons can have babies without the help of their male counterparts.",
+        "meaning-example": "Người ta phát hiện ra rằng rồng komodo cái có thể sinh con mà không cần sự giúp đỡ của các đối tác nam.",
+        "ipa-example": "/ɪt wəz dɪˈskʌv.əd ðət ˈfiː.meɪl kəˈməʊ.dəʊ ˈdræɡ.ənz kən həv ˈbeɪ.biz wɪðˈaʊt ðə help əv ðeər meɪl ˈkaʊn.tə.pɑːts./"
+      },
+      {
+        "sentence": "This contradicts what scientists know about how most animals have babies.",
+        "meaning-example": "Điều này mâu thuẫn với những gì các nhà khoa học biết về cách hầu hết các loài động vật sinh con.",
+        "ipa-example": "/ðɪs ˌkɒn.trəˈdɪkts wɒt ˈsaɪən.tɪsts nəʊ əˈbaʊt haʊ məʊst ˈæn.ɪ.məlz həv ˈbeɪ.biz./"
+      },
+      {
+        "sentence": "In most cases, there are many things that can obstruct this type of reproduction.",
+        "meaning-example": "Trong hầu hết các trường hợp, có nhiều thứ có thể cản trở loại hình sinh sản này.",
+        "ipa-example": "/ɪn məʊst ˈkeɪ.sɪz, ðeər ɑːr ˈmen.i θɪŋz ðət kən əbˈstrʌkt ðɪs taɪp əv ˌriː.prəˈdʌk.ʃən./"
+      },
+      {
+        "sentence": "For example, adult males and females carry different genes needed to make an embryo.",
+        "meaning-example": "Ví dụ, con đực và con cái trưởng thành mang các gen khác nhau cần thiết để tạo ra phôi thai.",
+        "ipa-example": "/fər ɪɡˈzɑːm.pəl, ˈæd.ʌlt meɪlz ənd ˈfiː.meɪlz ˈkær.i ˈdɪf.ər.ənt dʒiːnz ˈniː.dɪd tuː meɪk ən ˈem.bri.əʊ./"
+      },
+      {
+        "sentence": "If the genes are homogeneous, the babies are weaker and have genetic problems.",
+        "meaning-example": "Nếu các gen đồng nhất, những đứa con sinh ra sẽ yếu hơn và có vấn đề về di truyền.",
+        "ipa-example": "/ɪf ðə dʒiːnz ɑːr ˌhɒm.əˈdʒiː.ni.əs, ðə ˈbeɪ.biz ɑːr ˈwiː.kər ənd həv dʒəˈnet.ɪk ˈprɒb.ləmz./"
+      },
+      {
+        "sentence": "Over time, the weakened species dies out completely.",
+        "meaning-example": "Theo thời gian, loài bị suy yếu sẽ chết hoàn toàn.",
+        "ipa-example": "/ˈəʊ.vər taɪm, ðə ˈwiː.kənd ˈspiː.ʃiːz daɪz aʊt kəmˈpliːt.li./"
+      },
+      {
+        "sentence": "This makes it necessary for the male to be involved.",
+        "meaning-example": "Điều này làm cho con đực cần phải tham gia.",
+        "ipa-example": "/ðɪs meɪks ɪt ˈnes.ə.ser.i fɔːr ðə meɪl tuː bi ɪnˈvɒlvd./"
+      },
+      {
+        "sentence": "However, scientists verified that when Komodo babies are born, their genes aren’t the exact same genes as their mother.",
+        "meaning-example": "Tuy nhiên, các nhà khoa học đã xác minh rằng khi rồng Komodo con được sinh ra, gen của chúng không hoàn toàn giống gen của mẹ chúng.",
+        "ipa-example": "/haʊˈev.ər, ˈsaɪən.tɪsts ˈver.ɪ.faɪd ðət wen kəˈməʊ.dəʊ ˈbeɪ.biz ɑːr bɔːn, ðeər dʒiːnz ɑːnt ði ɪɡˈzækt seɪm dʒiːnz əz ðeər ˈmʌð.ər./"
+      },
+      {
+        "sentence": "Also, they are devoid of any genetic problems.",
+        "meaning-example": "Ngoài ra, chúng không có bất kỳ vấn đề di truyền nào.",
+        "ipa-example": "/ˈɔːl.səʊ, ðeɪ ɑːr dɪˈvɔɪd əv ˈen.i dʒəˈnet.ɪk ˈprɒb.ləmz./"
+      },
+      {
+        "sentence": "Scientists theorize that Komodo dragons developed the ability because it helps the species fend off extinction.",
+        "meaning-example": "Các nhà khoa học đưa ra giả thuyết rằng rồng Komodo đã phát triển khả năng này vì nó giúp loài này chống lại sự tuyệt chủng.",
+        "ipa-example": "/ˈsaɪən.tɪsts ˈθɪə.raɪz ðət kəˈməʊ.dəʊ ˈdræɡ.ənz dɪˈvel.əpt ði əˈbɪl.ə.ti bɪˈkəz ɪt helps ðə ˈspiː.ʃiːz fend ɒf ɪkˈstɪŋk.ʃən./"
+      },
+      {
+        "sentence": "If a volcano erupts, lava can kill all of the komodo dragons on an island.",
+        "meaning-example": "Nếu một ngọn núi lửa phun trào, dung nham có thể giết chết tất cả rồng komodo trên một hòn đảo.",
+        "ipa-example": "/ɪf ə vɒlˈkeɪ.nəʊ ɪˈrʌpts, ˈlɑː.və kən kɪl ɔːl əv ðə kəˈməʊ.dəʊ ˈdræɡ.ənz ɒn ən ˈaɪ.lənd./"
+      },
+      {
+        "sentence": "However, as long as one female eludes death, she can prolong the survival of the species.",
+        "meaning-example": "Tuy nhiên, miễn là một con cái thoát khỏi cái chết, nó có thể kéo dài sự tồn tại của loài.",
+        "ipa-example": "/haʊˈev.ər, əz lɒŋ əz wʌn ˈfiː.meɪl iˈluːdz deθ, ʃi kən prəˈlɒŋ ðə səˈvaɪ.vəl əv ðə ˈspiː.ʃiːz./"
+      },
+      {
+        "sentence": "Luckily, Komodo dragons are vigorous swimmers.",
+        "meaning-example": "May mắn thay, rồng Komodo là những vận động viên bơi lội mạnh mẽ.",
+        "ipa-example": "/ˈlʌk.ɪ.li, kəˈməʊ.dəʊ ˈdræɡ.ənz ɑːr ˈvɪɡ.ər.əs ˈswɪm.ərz./"
+      },
+      {
+        "sentence": "So the surviving female can plunge into the ocean and swim to another island.",
+        "meaning-example": "Vì vậy, con cái sống sót có thể lao xuống đại dương và bơi đến một hòn đảo khác.",
+        "ipa-example": "/səʊ ðə səˈvaɪ.vɪŋ ˈfiː.meɪl kən plʌndʒ ˌɪn.tuː ði ˈəʊ.ʃən ənd swɪm tuː əˈnʌð.ər ˈaɪ.lənd./"
+      },
+      {
+        "sentence": "When she comes ashore, she can reproduce by herself.",
+        "meaning-example": "Khi nó lên bờ, nó có thể tự sinh sản.",
+        "ipa-example": "/wen ʃi kʌmz əˈʃɔːr, ʃi kən ˌriː.prəˈdʒuːs baɪ hɜːˈself./"
+      },
+      {
+        "sentence": "Over time, the genes within the population diverge.",
+        "meaning-example": "Theo thời gian, các gen trong quần thể phân hóa.",
+        "ipa-example": "/ˈəʊ.vər taɪm, ðə dʒiːnz wɪðˈɪn ðə ˌpɒp.jəˈleɪ.ʃən daɪˈvɜːdʒ./"
+      },
+      {
+        "sentence": "Then, the sparse population increases.",
+        "meaning-example": "Sau đó, dân số thưa thớt tăng lên.",
+        "ipa-example": "/ðen, ðə spɑːs ˌpɒp.jəˈleɪ.ʃən ɪnˈkriː.sɪz./"
+      },
+      {
+        "sentence": "Once again there is a surplus of lizards on one island.",
+        "meaning-example": "Một lần nữa lại có một lượng thằn lằn dư thừa trên một hòn đảo.",
+        "ipa-example": "/wʌns əˈɡen ðeər ɪz ə ˈsɜː.pləs əv ˈlɪz.ədz ɒn wʌn ˈaɪ.lənd./"
+      },
+      {
+        "sentence": "Scientists think that this may be how the lizards took over all of the islands in that area.",
+        "meaning-example": "Các nhà khoa học nghĩ rằng đây có thể là cách mà loài thằn lằn đã chiếm lĩnh tất cả các hòn đảo trong khu vực đó.",
+        "ipa-example": "/ˈsaɪən.tɪsts θɪŋk ðət ðɪs meɪ bi haʊ ðə ˈlɪz.ədz tʊk ˈəʊ.vər ɔːl əv ði ˈaɪ.ləndz ɪn ðæt ˈeə.ri.ə./"
+      }
+    ]
+  }
+]
