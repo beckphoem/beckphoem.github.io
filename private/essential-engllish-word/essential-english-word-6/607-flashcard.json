@@ -1,0 +1,182 @@
+[
+  {
+    "question": "altar",
+    "classes": "n",
+    "answer": "Bàn thờ, bệ thờ.",
+    "ipa": "/ˈɔːl.tər/",
+    "example": "`Ông tơ` bà nguyệt se duyên cho các cặp đôi trên **bàn thờ** tình yêu.",
+    "english-definition": "A type of table used in religious ceremonies.",
+    "images": "eew-6-7/1.png"
+  },
+  {
+    "question": "arthritis",
+    "classes": "n",
+    "answer": "Bệnh viêm khớp.",
+    "ipa": "/ɑːˈθraɪ.tɪs/",
+    "example": "`A, phải trật` khớp rồi, đau quá! Chắc là bị **bệnh viêm khớp**.",
+    "english-definition": "A serious condition in which a person's joints become painful, swollen, and stiff.",
+    "images": "eew-6-7/2.png"
+  },
+  {
+    "question": "botany",
+    "classes": "n",
+    "answer": "Thực vật học.",
+    "ipa": "/ˈbɒt.ən.i/",
+    "example": "`Bó` `cỏ` `này` có gì đặc biệt mà cậu nghiên cứu kỹ thế? Tớ đang học **thực vật học** mà.",
+    "english-definition": "The scientific study of plants.",
+    "images": "eew-6-7/3.png"
+  },
+  {
+    "question": "credible",
+    "classes": "adj",
+    "answer": "Đáng tin, tin cậy.",
+    "ipa": "/ˈkred.ə.bəl/",
+    "example": "`Kẻo đi bồ` với anh ta là không được đâu, lời anh ta nói không **đáng tin, tin cậy** được.",
+    "english-definition": "Able to be believed or trusted.",
+    "images": "eew-6-7/4.png"
+  },
+  {
+    "question": "deceased",
+    "classes": "adj",
+    "answer": "Đã chết, quá cố.",
+    "ipa": "/dɪˈsiːst/",
+    "example": "`Đi siết` nợ mà chủ nợ đã **chết, quá cố** rồi thì làm sao đòi được nữa.",
+    "english-definition": "Dead.",
+    "images": "eew-6-7/5.png"
+  },
+  {
+    "question": "deception",
+    "classes": "n",
+    "answer": "Sự lừa dối, sự dối trá, sự lừa gạt.",
+    "ipa": "/dɪˈsep.ʃən/",
+    "example": "`Đi dép` `sần` sùi để che giấu thân phận là một **sự lừa dối, dối trá**.",
+    "english-definition": "The act of hiding the truth, especially to get an advantage.",
+    "images": "eew-6-7/6.png"
+  },
+  {
+    "question": "decipher",
+    "classes": "v",
+    "answer": "Giải mã, đọc (chữ khó, chữ cổ).",
+    "ipa": "/dɪˈsaɪ.fər/",
+    "example": "`Đi Sài Gòn` phải có bản đồ, nếu không sẽ rất khó **giải mã, đọc** được hệ thống đường sá phức tạp ở đây.",
+    "english-definition": "To discover the meaning of something written badly or in a difficult or hidden way.",
+    "images": "eew-6-7/7.png"
+  },
+  {
+    "question": "dung",
+    "classes": "n",
+    "answer": "Phân (động vật).",
+    "ipa": "/dʌŋ/",
+    "example": "`Đừng` giẫm vào đống **phân** bò kia!",
+    "english-definition": "Solid waste from a large animal.",
+    "images": "eew-6-7/8.png"
+  },
+  {
+    "question": "dusk",
+    "classes": "n",
+    "answer": "Lúc chạng vạng, lúc xẩm tối, hoàng hôn.",
+    "ipa": "/dʌsk/",
+    "example": "`Đất` trời chuyển màu, **lúc chạng vạng, hoàng hôn** buông xuống.",
+    "english-definition": "The time before night when it is not yet dark.",
+    "images": "eew-6-7/9.png"
+  },
+  {
+    "question": "gratify",
+    "classes": "v",
+    "answer": "Làm hài lòng, làm vừa lòng.",
+    "ipa": "/ˈɡræt.ɪ.faɪ/",
+    "example": "`Gà rán thì phải` ăn ngay lúc nóng mới **làm hài lòng, vừa lòng** thực khách.",
+    "english-definition": "To please someone, or to satisfy a wish or need.",
+    "images": "eew-6-7/10.png"
+  },
+  {
+    "question": "hone",
+    "classes": "v",
+    "answer": "Mài giũa, trau dồi (kỹ năng).",
+    "ipa": "/həʊn/",
+    "example": "Người thợ săn **mài giũa, trau dồi** kỹ năng săn bắn của mình mỗi ngày, `hôn` vào mũi tên để lấy may.",
+    "english-definition": "To make something perfect or completely suitable for its purpose.",
+    "images": "eew-6-7/11.png"
+  },
+  {
+    "question": "mash",
+    "classes": "v",
+    "answer": "Nghiền, giã nát.",
+    "ipa": "/mæʃ/",
+    "example": "Con `mèo` nghịch ngợm làm đổ bát khoai tây, khiến chúng bị **nghiền, giã nát**.",
+    "english-definition": "To crush food, usually after cooking it, so that it forms a soft mass.",
+    "images": "eew-6-7/12.png"
+  },
+  {
+    "question": "ornate",
+    "classes": "adj",
+    "answer": "Lộng lẫy, trang trí công phu.",
+    "ipa": "/ɔːˈneɪt/",
+    "example": "Chiếc váy của `cô nết` na được trang trí **lộng lẫy, công phu** bằng vàng và kim cương.",
+    "english-definition": "Having a lot of complicated decoration.",
+    "images": "eew-6-7/13.png"
+  },
+  {
+    "question": "pneumonia",
+    "classes": "n",
+    "answer": "Bệnh viêm phổi.",
+    "ipa": "/njuːˈməʊ.ni.ə/",
+    "example": "`Níu` `áo` `mẹ` đi, con bị **viêm phổi**, lạnh lắm.",
+    "english-definition": "A serious illness in which one or both lungs become red and swollen and filled with liquid.",
+    "images": "eew-6-7/14.png"
+  },
+  {
+    "question": "psychic",
+    "classes": "adj",
+    "answer": "(thuộc) tâm linh, siêu nhiên.",
+    "ipa": "/ˈsaɪ.kɪk/",
+    "example": "Nhà tiên tri `sai` `kích` thước viên đá ma thuật, nên khả năng **thuộc về tâm linh, siêu nhiên** của nó bị giảm sút.",
+    "english-definition": "Having a special mental ability, for example so that you are able to know what will happen in the future or what people are thinking.",
+    "images": "eew-6-7/15.png"
+  },
+  {
+    "question": "psychotic",
+    "classes": "adj",
+    "answer": "(bị) loạn thần kinh, điên.",
+    "ipa": "/saɪˈkɒt.ɪk/",
+    "example": "`Sai` một `cót` lúa là ông chủ nổi điên, la hét như một người **bị loạn thần kinh**.",
+    "english-definition": "Suffering from a serious mental illness that makes you act strangely or believe things that are not true.",
+    "images": "eew-6-7/16.png"
+  },
+  {
+    "question": "scope",
+    "classes": "n",
+    "answer": "Phạm vi, tầm (kiến thức, hoạt động).",
+    "ipa": "/skəʊp/",
+    "example": "`Sợ cốp` xe này nhỏ quá, không chứa hết đồ trong **phạm vi** cho phép.",
+    "english-definition": "The range of a subject covered by a book, program, discussion, class, etc.",
+    "images": "eew-6-7/17.png"
+  },
+  {
+    "question": "sinister",
+    "classes": "adj",
+    "answer": "Nham hiểm, độc ác, gở.",
+    "ipa": "/ˈsɪn.ɪ.stər/",
+    "example": "Tên trộm `xin ít` `tờ` tiền thôi, nhưng ánh mắt của hắn trông rất **nham hiểm, độc ác**.",
+    "english-definition": "Making you feel that something bad or evil might happen.",
+    "images": "eew-6-7/18.png"
+  },
+  {
+    "question": "strife",
+    "classes": "n",
+    "answer": "Sự xung đột, sự mâu thuẫn, sự cãi cọ.",
+    "ipa": "/straɪf/",
+    "example": "`Sợ trái` ý sếp nên nhân viên không dám cãi lại, tránh gây ra **sự xung đột, mâu thuẫn**.",
+    "english-definition": "Violent or angry disagreement.",
+    "images": "eew-6-7/19.png"
+  },
+  {
+    "question": "therapeutic",
+    "classes": "adj",
+    "answer": "(thuộc) chữa bệnh, trị liệu.",
+    "ipa": "/ˌθer.əˈpjuː.tɪk/",
+    "example": "`Xe ra` `bưu điện` để lấy thảo dược, chúng có tác dụng **chữa bệnh, trị liệu**.",
+    "english-definition": "Causing someone to feel happier and more relaxed or to be more healthy.",
+    "images": "eew-6-7/20.png"
+  }
+]
