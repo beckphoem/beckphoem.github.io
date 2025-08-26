@@ -1,0 +1,182 @@
+[
+  {
+    "question": "congested",
+    "classes": "adj",
+    "answer": "Đông nghịt, chật ních.",
+    "ipa": "/kənˈdʒes.tɪd/",
+    "example": "`Con ghét tịt` mũi vì đường phố **đông nghịt, chật ních** xe cộ và khói bụi.",
+    "english-definition": "Too blocked or crowded and causing difficulties.",
+    "images": "eew-6-8/1.png"
+  },
+  {
+    "question": "courier",
+    "classes": "n",
+    "answer": "Người đưa thư, người chuyển phát.",
+    "ipa": "/ˈkʊr.i.ər/",
+    "example": "`Cua ri` này ngon quá, phải gọi **người đưa thư** mang đến cho bạn bè thưởng thức mới được.",
+    "english-definition": "A person or company that takes messages, letters, or parcels from one person or place to another.",
+    "images": "eew-6-8/2.png"
+  },
+  {
+    "question": "deform",
+    "classes": "v",
+    "answer": "Làm cho méo mó, làm biến dạng.",
+    "ipa": "/dɪˈfɔːm/",
+    "example": "deform `Đi-phom `này mặc không vừa nữa rồi, nó đã bị **biến dạng** sau nhiều lần giặt.",
+    "english-definition": "To change the original shape of something, especially in a way that makes it ugly.",
+    "images": "eew-6-8/3.png"
+  },
+  {
+    "question": "etiquette",
+    "classes": "n",
+    "answer": "Nghi thức, phép xã giao.",
+    "ipa": "/ˈet.ɪ.ket/",
+    "example": "`Em đi kẹt` xe nên đến muộn, theo **nghi thức, phép xã giao**, em phải xin lỗi mọi người.",
+    "english-definition": "The set of rules or customs that control accepted behavior in particular social groups or social situations.",
+    "images": "eew-6-8/4.png"
+  },
+  {
+    "question": "exclusive",
+    "classes": "adj",
+    "answer": "Độc quyền, riêng biệt.",
+    "ipa": "/ɪkˈskluː.sɪv/",
+    "example": "`Ích kỷ lu bu` nên chỉ muốn hưởng những thứ **độc quyền, riêng biệt**.",
+    "english-definition": "Limited to only one person or group of people.",
+    "images": "eew-6-8/5.png"
+  },
+  {
+    "question": "freight",
+    "classes": "n",
+    "answer": "Hàng hóa (vận chuyển bằng tàu, máy bay, xe lửa).",
+    "ipa": "/freɪt/",
+    "example": "`Phải ráng` làm việc để có tiền gửi **hàng hóa** về cho gia đình.",
+    "english-definition": "Goods, but not passengers, that are carried from one place to another, by ship, aircraft, train, or truck.",
+    "images": "eew-6-8/6.png"
+  },
+  {
+    "question": "garment",
+    "classes": "n",
+    "answer": "Áo quần.",
+    "ipa": "/ˈɡɑː.mənt/",
+    "example": "`Gả mình` cho anh ta, cô dâu mặc bộ **quần áo** cưới lộng lẫy.",
+    "english-definition": "A piece of clothing.",
+    "images": "eew-6-8/7.png"
+  },
+  {
+    "question": "insomnia",
+    "classes": "n",
+    "answer": "Chứng mất ngủ.",
+    "ipa": "/ɪnˈsɒm.ni.ə/",
+    "example": "`In` `sóm` `ni` a cũng bị **chứng mất ngủ** vì tiếng ồn.",
+    "english-definition": "The condition of being unable to sleep, over a period of time.",
+    "images": "eew-6-8/8.png"
+  },
+  {
+    "question": "intuitive",
+    "classes": "adj",
+    "answer": "(thuộc) trực giác.",
+    "ipa": "/ɪnˈtʃuː.ɪ.tɪv/",
+    "example": "`In tu` `ít` `thôi`, vì anh ta có khả năng **(thuộc) trực giác**, biết hết mọi chuyện đó.",
+    "english-definition": "Based on feelings rather than facts or proof.",
+    "images": "eew-6-8/9.png"
+  },
+  {
+    "question": "liable",
+    "classes": "adj",
+    "answer": "Có khả năng xảy ra, có thể.",
+    "ipa": "/ˈlaɪ.ə.bəl/",
+    "example": "`Lái ẩu bồ` ơi, **có khả năng** gây tai nạn lắm đó.",
+    "english-definition": "Very likely to do something.",
+    "images": "eew-6-8/10.png"
+  },
+  {
+    "question": "obsess",
+    "classes": "v",
+    "answer": "Ám ảnh.",
+    "ipa": "/əbˈses/",
+    "example": "`Ợp sếp` quá nên lúc nào cũng **ám ảnh** về công việc.",
+    "english-definition": "To think about someone or something all the time.",
+    "images": "eew-6-8/11.png"
+  },
+  {
+    "question": "overboard",
+    "classes": "adv",
+    "answer": "Qua mạn tàu, xuống biển.",
+    "ipa": "/ˈəʊ.və.bɔːd/",
+    "example": "`Ở vơ` `bờ` đê mà không cẩn thận là ngã **xuống tàu, xuống biển** đó.",
+    "english-definition": "Over the side of a boat or ship and into the water.",
+    "images": "eew-6-8/12.png"
+  },
+  {
+    "question": "premium",
+    "classes": "n",
+    "answer": "Phí thêm, tiền thưởng, phần thưởng.",
+    "ipa": "/ˈpriː.mi.əm/",
+    "example": "`Bí mật em` phải trả một **khoản phí thêm** để được hưởng dịch vụ cao cấp.",
+    "english-definition": "An amount that is more than usual.",
+    "images": "eew-6-8/13.png"
+  },
+  {
+    "question": "privilege",
+    "classes": "n",
+    "answer": "Đặc quyền, đặc ân.",
+    "ipa": "/ˈprɪv.əl.ɪdʒ/",
+    "example": "`Bị V.I.P rít` một hơi thuốc là **đặc quyền** của người có tiền.",
+    "english-definition": "An advantage that only one person or group of people has, usually because of their position or because they are rich.",
+    "images": "eew-6-8/14.png"
+  },
+  {
+    "question": "propel",
+    "classes": "v",
+    "answer": "Đẩy đi.",
+    "ipa": "/prəˈpel/",
+    "example": "`Bỏ rổ meo` vào động cơ, nó sẽ không **đẩy** thuyền đi được đâu.",
+    "english-definition": "To push or move something somewhere, often with a lot of force.",
+    "images": "eew-6-8/15.png"
+  },
+  {
+    "question": "socialize",
+    "classes": "v",
+    "answer": "Giao thiệp, hòa mình (với xã hội).",
+    "ipa": "/ˈsəʊ.ʃəl.aɪz/",
+    "example": "`Sợ sờ` `lãi` nên anh ta không dám **giao thiệp, hòa mình** vào giới kinh doanh.",
+    "english-definition": "To spend time when you are not working with friends or with other people in order to enjoy yourself.",
+    "images": "eew-6-8/16.png"
+  },
+  {
+    "question": "suppress",
+    "classes": "v",
+    "answer": "Đàn áp, kìm nén.",
+    "ipa": "/səˈpres/",
+    "example": "`Sợ bị rết` cắn nên phải **đàn áp, kìm nén** nỗi sợ hãi lại.",
+    "english-definition": "To prevent something from being seen or expressed or from operating.",
+    "images": "eew-6-8/17.png"
+  },
+  {
+    "question": "tram",
+    "classes": "n",
+    "answer": "Xe điện, tàu điện.",
+    "ipa": "/træm/",
+    "example": "Đi **xe điện** rất `trầm` và êm.",
+    "english-definition": "An electric vehicle that transports people, usually in cities, and goes along metal tracks in the road.",
+    "images": "eew-6-8/18.png"
+  },
+  {
+    "question": "unsettle",
+    "classes": "v",
+    "answer": "Làm lo lắng, làm bối rối, làm bất an.",
+    "ipa": "/ʌnˈset.əl/",
+    "example": "`Ăn sét` `thồ` hàng làm tôi cảm thấy **bất an, lo lắng**.",
+    "english-definition": "To make someone feel anxious or slightly worried.",
+    "images": "eew-6-8/19.png"
+  },
+  {
+    "question": "warp",
+    "classes": "v",
+    "answer": "Làm cong, vênh.",
+    "ipa": "/wɔːp/",
+    "example": "Tấm ván gỗ bị `oạp` đi do trời mưa, giờ nó đã **cong, vênh**.",
+    "english-definition": "To become, or cause something to become, bent or twisted out of shape.",
+    "images": "eew-6-8/20.png"
+  }
+]
