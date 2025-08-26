@@ -258,7 +258,8 @@ To make something perfect or completely suitable for its purpose.
 ### IPA: /mæʃ/
 ### Class: v
 ### Câu truyện ẩn dụ:
-Con `mèo` nghịch ngợm làm đổ bát khoai tây, khiến chúng bị **nghiền, giã nát**.
+
+Người nghệ sĩ **nghiền nát, nhào nặn** những ý tưởng thô và nguồn cảm hứng của mình mỗi đêm, `gõ` vào bàn phím để gọi hồn con chữ.
 
 ### Định nghĩa : 
 Nghiền, giã nát.

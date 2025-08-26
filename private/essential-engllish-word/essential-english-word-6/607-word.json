@@ -1,213 +1,96 @@
 [
   {
-    "word": "decipher",
-    "ipa": "/dɪˈsaɪ.fər/",
-    "meaning": "Giải mã, đọc ra.",
+    "word": "altar",
+    "ipa": "/ˈɔːl.tər/",
+    "meaning": "Bàn thờ, bệ thờ.",
     "image": "eew-6-7/1.png",
-    "classes": "v",
+    "classes": "n",
     "example": [
       {
-        "sentence": "decipher",
-        "meaning-example": "Giải mã, đọc ra.",
-        "ipa-example": "/dɪˈsaɪ.fər/"
+        "sentence": "altar",
+        "meaning-example": "Bàn thờ, bệ thờ.",
+        "ipa-example": "/ˈɔːl.tər/"
       },
       {
-        "sentence": "`Đi` `sai` hướng nên phải `phờ` phạc cả người để **giải mã** bản đồ.",
+        "sentence": "`Ông tơ` bà nguyệt se duyên cho các cặp đôi trên **bàn thờ** tình yêu.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "To discover the meaning of something written badly or in a difficult or hidden way.",
-        "meaning-example": "Khám phá ý nghĩa của một cái gì đó được viết tệ hoặc theo một cách khó khăn hoặc ẩn giấu.",
-        "ipa-example": "/tuː dɪˈskʌv.ər ðə ˈmiː.nɪŋ əv ˈsʌm.θɪŋ ˈrɪt.ən ˈbæd.li ɔːr ɪn ə ˈdɪf.ɪ.kəlt ɔːr ˈhɪd.ən weɪ./"
+        "sentence": "A type of table used in religious ceremonies.",
+        "meaning-example": "Một loại bàn được sử dụng trong các nghi lễ tôn giáo.",
+        "ipa-example": "/ə taɪp əv ˈteɪ.bəl juːzd ɪn rɪˈlɪdʒ.əs ˈser.ə.mə.niz./"
       },
       {
-        "sentence": "After it was found in the Egyptian desert, it took experts years to decipher it.",
-        "meaning-example": "Sau khi được tìm thấy ở sa mạc Ai Cập, các chuyên gia đã mất nhiều năm để giải mã nó.",
-        "ipa-example": "/ˈɑːf.tər ɪt wəz faʊnd ɪn ði ɪˈdʒɪp.ʃən ˈdez.ət, ɪt tʊk ˈek.spɜːts jɪəz tuː dɪˈsaɪ.fər ɪt./"
+        "sentence": "...the magician should build an ornate altar.",
+        "meaning-example": "...nhà ảo thuật nên xây dựng một bàn thờ lộng lẫy.",
+        "ipa-example": "/...ðə məˈdʒɪʃ.ən ʃəd bɪld ən ɔːˈneɪt ˈɔːl.tər./"
       },
       {
-        "sentence": "I can't decipher his handwriting.",
-        "meaning-example": "Tôi không thể đọc được chữ viết tay của anh ấy.",
-        "ipa-example": "/aɪ kɑːnt dɪˈsaɪ.fər hɪz ˈhændˌraɪ.tɪŋ./"
+        "sentence": "The priest stood before the altar.",
+        "meaning-example": "Vị linh mục đứng trước bàn thờ.",
+        "ipa-example": "/ðə priːst stʊd bɪˈfɔːr ði ˈɔːl.tər./"
       },
       {
-        "sentence": "They were unable to decipher the enemy's code.",
-        "meaning-example": "Họ không thể giải mã được mật mã của kẻ thù.",
-        "ipa-example": "/ðeɪ wər ʌnˈeɪ.bəl tuː dɪˈsaɪ.fər ði ˈen.ə.miz kəʊd./"
+        "sentence": "They placed flowers on the church altar.",
+        "meaning-example": "Họ đặt hoa lên bàn thờ nhà thờ.",
+        "ipa-example": "/ðeɪ pleɪst ˈflaʊ.ərz ɒn ðə tʃɜːtʃ ˈɔːl.tər./"
       }
     ]
   },
   {
-    "word": "scope",
-    "ipa": "/skəʊp/",
-    "meaning": "Phạm vi, tầm.",
+    "word": "arthritis",
+    "ipa": "/ɑːˈθraɪ.tɪs/",
+    "meaning": "Bệnh viêm khớp.",
     "image": "eew-6-7/2.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "scope",
-        "meaning-example": "Phạm vi, tầm.",
-        "ipa-example": "/skəʊp/"
+        "sentence": "arthritis",
+        "meaning-example": "Bệnh viêm khớp.",
+        "ipa-example": "/ɑːˈθraɪ.tɪs/"
       },
       {
-        "sentence": "`Sợ` `cướp` nên anh ta giới hạn **phạm vi** hoạt động của mình.",
+        "sentence": "`A, phải trật` khớp rồi, đau quá! Chắc là bị **bệnh viêm khớp**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "The range of a subject covered by a book, program, discussion, class, etc.",
-        "meaning-example": "Phạm vi của một chủ đề được đề cập trong một cuốn sách, chương trình, cuộc thảo luận, lớp học, v.v.",
-        "ipa-example": "/ðə reɪndʒ əv ə ˈsʌb.dʒekt ˈkʌv.əd baɪ ə bʊk, ˈprəʊ.ɡræm, dɪˈskʌʃ.ən, klɑːs, ɪtˈset.ər.ə./"
+        "sentence": "A serious condition in which a person's joints become painful, swollen, and stiff.",
+        "meaning-example": "Một tình trạng nghiêm trọng trong đó các khớp của một người trở nên đau, sưng và cứng.",
+        "ipa-example": "/ə ˈsɪə.ri.əs kənˈdɪʃ.ən ɪn wɪtʃ ə ˈpɜː.sənz dʒɔɪnts bɪˈkʌm ˈpeɪn.fəl, ˈswəʊ.lən, ənd stɪf./"
       },
       {
-        "sentence": "After many years, experts realized it contained a number of spells that varied greatly in scope.",
-        "meaning-example": "Sau nhiều năm, các chuyên gia nhận ra nó chứa một số câu thần chú có phạm vi rất khác nhau.",
-        "ipa-example": "/ˈɑːf.tər ˈmen.i jɪəz, ˈek.spɜːts ˈrɪə.laɪzd ɪt kənˈteɪnd ə ˈnʌm.bər əv spelz ðət ˈveə.rɪd ˈɡreɪt.li ɪn skəʊp./"
+        "sentence": "For example, in order to cure arthritis...",
+        "meaning-example": "Ví dụ, để chữa bệnh viêm khớp...",
+        "ipa-example": "/fər ɪɡˈzɑːm.pəl, ɪn ˈɔː.dər tuː kjʊər ɑːˈθraɪ.tɪs.../"
       },
       {
-        "sentence": "The scope of the investigation is limited to the last two months.",
-        "meaning-example": "Phạm vi của cuộc điều tra được giới hạn trong hai tháng qua.",
-        "ipa-example": "/ðə skəʊp əv ði ɪnˌves.tɪˈɡeɪ.ʃən ɪz ˈlɪm.ɪ.tɪd tuː ðə lɑːst tuː mʌnθs./"
+        "sentence": "My grandmother suffers from severe arthritis in her hands.",
+        "meaning-example": "Bà tôi bị viêm khớp nặng ở tay.",
+        "ipa-example": "/maɪ ˈɡræn.mʌð.ər ˈsʌf.əz frəm sɪˈvɪər ɑːˈθraɪ.tɪs ɪn hər hændz./"
       },
       {
-        "sentence": "This topic is beyond the scope of this book.",
-        "meaning-example": "Chủ đề này nằm ngoài phạm vi của cuốn sách này.",
-        "ipa-example": "/ðɪs ˈtɒp.ɪk ɪz bɪˈjɒnd ðə skəʊp əv ðɪs bʊk./"
-      }
-    ]
-  },
-  {
-    "word": "pneumonia",
-    "ipa": "/njuːˈməʊ.ni.ə/",
-    "meaning": "Bệnh viêm phổi.",
-    "image": "eew-6-7/3.png",
-    "classes": "n",
-    "example": [
-      {
-        "sentence": "pneumonia",
-        "meaning-example": "Bệnh viêm phổi.",
-        "ipa-example": "/njuːˈməʊ.ni.ə/"
-      },
-      {
-        "sentence": "`Nhiều` `mô` `ni` `ờ` trong phổi bị tổn thương do **bệnh viêm phổi**.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "A serious illness in which one or both lungs become red and swollen and filled with liquid.",
-        "meaning-example": "Một căn bệnh nghiêm trọng trong đó một hoặc cả hai lá phổi trở nên đỏ, sưng và chứa đầy dịch.",
-        "ipa-example": "/ə ˈsɪə.ri.əs ˈɪl.nəs ɪn wɪtʃ wʌn ɔːr bəʊθ lʌŋz bɪˈkʌm red ənd ˈswəʊ.lən ənd fɪld wɪð ˈlɪk.wɪd./"
-      },
-      {
-        "sentence": "The most common types of magic in the collection dealt with healing illnesses like pneumonia.",
-        "meaning-example": "Các loại ma thuật phổ biến nhất trong bộ sưu tập đề cập đến việc chữa các bệnh như viêm phổi.",
-        "ipa-example": "/ðə məʊst ˈkɒm.ən taɪps əv ˈmædʒ.ɪk ɪn ðə kəˈlek.ʃən delt wɪð ˈhiː.lɪŋ ˈɪl.nəsɪz laɪk njuːˈməʊ.ni.ə./"
-      },
-      {
-        "sentence": "He was hospitalized with a severe case of pneumonia.",
-        "meaning-example": "Anh ấy đã phải nhập viện vì một ca viêm phổi nặng.",
-        "ipa-example": "/hi wəz ˈhɒs.pɪ.təl.aɪzd wɪð ə sɪˈvɪər keɪs əv njuːˈməʊ.ni.ə./"
-      },
-      {
-        "sentence": "Pneumonia can be very dangerous for elderly people.",
-        "meaning-example": "Viêm phổi có thể rất nguy hiểm đối với người già.",
-        "ipa-example": "/njuːˈməʊ.ni.ə kən bi ˈver.i ˈdeɪn.dʒər.əs fər ˈel.dəl.i ˈpiː.pəl./"
-      }
-    ]
-  },
-  {
-    "word": "psychotic",
-    "ipa": "/saɪˈkɒt.ɪk/",
-    "meaning": "Loạn thần, điên cuồng.",
-    "image": "eew-6-7/4.png",
-    "classes": "adj",
-    "example": [
-      {
-        "sentence": "psychotic",
-        "meaning-example": "Loạn thần, điên cuồng.",
-        "ipa-example": "/saɪˈkɒt.ɪk/"
-      },
-      {
-        "sentence": "Anh ta `sai` `cô` `tích` cực nên cô ấy trở nên **loạn thần**.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "Suffering from or relating to psychosis (a severe mental condition).",
-        "meaning-example": "Bị hoặc liên quan đến rối loạn tâm thần (một tình trạng tâm thần nghiêm trọng).",
-        "ipa-example": "/ˈsʌf.ər.ɪŋ frəm ɔːr rɪˈleɪ.tɪŋ tuː saɪˈkəʊ.sɪs (ə sɪˈvɪər ˈmen.təl kənˈdɪʃ.ən)./"
-      },
-      {
-        "sentence": "Some spells also gave advice for treating people with mental illnesses, such as those who became psychotic.",
-        "meaning-example": "Một số câu thần chú cũng đưa ra lời khuyên để điều trị cho những người mắc bệnh tâm thần, chẳng hạn như những người bị loạn thần.",
-        "ipa-example": "/sʌm spelz ˈɔːl.səʊ ɡeɪv ədˈvaɪs fɔːr ˈtriː.tɪŋ ˈpiː.pəl wɪð ˈmen.təl ˈɪl.nəsɪz, sʌtʃ əz ðəʊz huː bɪˈkeɪm saɪˈkɒt.ɪk./"
-      },
-      {
-        "sentence": "He had a psychotic episode and had to be institutionalized.",
-        "meaning-example": "Anh ta đã có một cơn loạn thần và phải được đưa vào viện.",
-        "ipa-example": "/hi hæd ə saɪˈkɒt.ɪk ˈep.ɪ.səʊd ənd hæd tuː bi ˌɪn.stɪˈtʃuː.ʃən.əl.aɪzd./"
-      },
-      {
-        "sentence": "The patient was showing psychotic symptoms like hallucinations.",
-        "meaning-example": "Bệnh nhân đang có những triệu chứng loạn thần như ảo giác.",
-        "ipa-example": "/ðə ˈpeɪ.ʃənt wəz ˈʃəʊ.ɪŋ saɪˈkɒt.ɪk ˈsɪmp.təmz laɪk həˌluː.sɪˈneɪ.ʃənz./"
-      }
-    ]
-  },
-  {
-    "word": "dung",
-    "ipa": "/dʌŋ/",
-    "meaning": "Phân (động vật).",
-    "image": "eew-6-7/5.png",
-    "classes": "n",
-    "example": [
-      {
-        "sentence": "dung",
-        "meaning-example": "Phân (động vật).",
-        "ipa-example": "/dʌŋ/"
-      },
-      {
-        "sentence": "Con bò `đứng` ì ra một chỗ để thải **phân**.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "Solid waste from a large animal.",
-        "meaning-example": "Chất thải rắn từ một con vật lớn.",
-        "ipa-example": "/ˈsɒl.ɪd weɪst frəm ə lɑːdʒ ˈæn.ɪ.məl./"
-      },
-      {
-        "sentence": "Some spells asked for unusual things, like crocodile dung.",
-        "meaning-example": "Một số câu thần chú yêu cầu những thứ bất thường, như phân cá sấu.",
-        "ipa-example": "/sʌm spelz ɑːskt fər ʌnˈjuː.ʒu.əl θɪŋz, laɪk ˈkrɒk.ə.daɪl dʌŋ./"
-      },
-      {
-        "sentence": "Farmers often use cow dung as fertilizer.",
-        "meaning-example": "Nông dân thường sử dụng phân bò làm phân bón.",
-        "ipa-example": "/ˈfɑː.məz ˈɒf.ən juːz kaʊ dʌŋ əz ˈfɜː.tɪ.laɪ.zər./"
-      },
-      {
-        "sentence": "The field was covered in sheep dung.",
-        "meaning-example": "Cánh đồng bị bao phủ bởi phân cừu.",
-        "ipa-example": "/ðə fiːld wəz ˈkʌv.əd ɪn ʃiːp dʌŋ./"
+        "sentence": "He takes medication to manage his arthritis pain.",
+        "meaning-example": "Anh ấy dùng thuốc để kiểm soát cơn đau do viêm khớp.",
+        "ipa-example": "/hi teɪks ˌmed.ɪˈkeɪ.ʃən tuː ˈmæn.ɪdʒ hɪz ɑːˈθraɪ.tɪs peɪn./"
       }
     ]
   },
   {
     "word": "botany",
-    "ipa": "/ˈbɒt.ə.ni/",
+    "ipa": "/ˈbɒt.ən.i/",
     "meaning": "Thực vật học.",
-    "image": "eew-6-7/6.png",
+    "image": "eew-6-7/3.png",
     "classes": "n",
     "example": [
       {
         "sentence": "botany",
         "meaning-example": "Thực vật học.",
-        "ipa-example": "/ˈbɒt.ə.ni/"
+        "ipa-example": "/ˈbɒt.ən.i/"
       },
       {
-        "sentence": "Nhà `bác` `Tư` `ni` chuyên nghiên cứu về **thực vật học**.",
+        "sentence": "`Bó` `cỏ` `này` có gì đặc biệt mà cậu nghiên cứu kỹ thế? Tớ đang học **thực vật học** mà.",
         "meaning-example": null,
         "ipa-example": null
       },
@@ -219,112 +102,385 @@
       {
         "sentence": "But botany was an important part of the magic.",
         "meaning-example": "Nhưng thực vật học là một phần quan trọng của ma thuật.",
-        "ipa-example": "/bət ˈbɒt.ə.ni wəz ən ɪmˈpɔː.tənt pɑːt əv ðə ˈmædʒ.ɪk./"
+        "ipa-example": "/bət ˈbɒt.ən.i wəz ən ɪmˈpɔː.tənt pɑːt əv ðə ˈmædʒ.ɪk./"
       },
       {
         "sentence": "She is studying botany at the university.",
         "meaning-example": "Cô ấy đang học thực vật học tại trường đại học.",
-        "ipa-example": "/ʃi ɪz ˈstʌd.i.ɪŋ ˈbɒt.ə.ni ət ðə ˌjuː.nɪˈvɜː.sə.ti./"
+        "ipa-example": "/ʃi ɪz ˈstʌd.i.ɪŋ ˈbɒt.ən.i ət ðə ˌjuː.nɪˈvɜː.sə.ti./"
       },
       {
-        "sentence": "The professor is a leading expert in the field of botany.",
-        "meaning-example": "Vị giáo sư là một chuyên gia hàng đầu trong lĩnh vực thực vật học.",
-        "ipa-example": "/ðə prəˈfes.ər ɪz ə ˈliː.dɪŋ ˈek.spɜːt ɪn ðə fiːld əv ˈbɒt.ə.ni./"
+        "sentence": "Botany involves classifying and identifying different plant species.",
+        "meaning-example": "Thực vật học bao gồm việc phân loại và xác định các loài thực vật khác nhau.",
+        "ipa-example": "/ˈbɒt.ən.i ɪnˈvɒlvz ˈklæs.ɪ.faɪ.ɪŋ ənd aɪˈden.tɪ.faɪ.ɪŋ ˈdɪf.ər.ənt plɑːnt ˈspiː.ʃiːz./"
       }
     ]
   },
   {
-    "word": "therapeutic",
-    "ipa": "/ˌθer.əˈpjuː.tɪk/",
-    "meaning": "(Thuộc) trị liệu, có tác dụng chữa bệnh.",
-    "image": "eew-6-7/7.png",
+    "word": "credible",
+    "ipa": "/ˈkred.ə.bəl/",
+    "meaning": "Đáng tin, tin cậy.",
+    "image": "eew-6-7/4.png",
     "classes": "adj",
     "example": [
       {
-        "sentence": "therapeutic",
-        "meaning-example": "(Thuộc) trị liệu, có tác dụng chữa bệnh.",
-        "ipa-example": "/ˌθer.əˈpjuː.tɪk/"
+        "sentence": "credible",
+        "meaning-example": "Đáng tin, tin cậy.",
+        "ipa-example": "/ˈkred.ə.bəl/"
       },
       {
-        "sentence": "`Xe ra` `piu` `tích` tắc để đi đến nơi **trị liệu**.",
+        "sentence": "`Kẻo đi bồ` với anh ta là không được đâu, lời anh ta nói không **đáng tin, tin cậy** được.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "Causing someone to feel happier and more relaxed or to be more healthy.",
-        "meaning-example": "Khiến ai đó cảm thấy hạnh phúc và thư giãn hơn hoặc khỏe mạnh hơn.",
-        "ipa-example": "/ˈkɔː.zɪŋ ˈsʌm.wʌn tuː fiːl ˈhæp.i.ər ənd mɔːr rɪˈlækst ɔːr tuː bi mɔːr ˈhel.θi./"
+        "sentence": "Able to be believed or trusted.",
+        "meaning-example": "Có thể tin hoặc tin tưởng.",
+        "ipa-example": "/ˈeɪ.bəl tuː bi bɪˈliːvd ɔːr ˈtrʌs.tɪd./"
       },
       {
-        "sentence": "Many healing spells gave instructions on how to use herbs and plants that were believed to be therapeutic.",
-        "meaning-example": "Nhiều câu thần chú chữa bệnh đã đưa ra hướng dẫn về cách sử dụng các loại thảo mộc và thực vật được cho là có tác dụng chữa bệnh.",
-        "ipa-example": "/ˈmen.i ˈhiː.lɪŋ spelz ɡeɪv ɪnˈstrʌk.ʃənz ɒn haʊ tuː juːz hɜːbz ənd plɑːnts ðət wər bɪˈliːvd tuː bi ˌθer.əˈpjuː.tɪk./"
+        "sentence": "...and how to give credible descriptions of the future.",
+        "meaning-example": "...và làm thế nào để đưa ra những mô tả đáng tin cậy về tương lai.",
+        "ipa-example": "/ənd haʊ tuː ɡɪv ˈkred.ə.bəl dɪˈskrɪp.ʃənz əv ðə ˈfjuː.tʃər./"
       },
       {
-        "sentence": "I find gardening very therapeutic.",
-        "meaning-example": "Tôi thấy việc làm vườn rất có tác dụng trị liệu.",
-        "ipa-example": "/aɪ faɪnd ˈɡɑː.dən.ɪŋ ˈver.i ˌθer.əˈpjuː.tɪk./"
+        "sentence": "The police received a credible threat against the mayor.",
+        "meaning-example": "Cảnh sát đã nhận được một lời đe dọa đáng tin cậy đối với thị trưởng.",
+        "ipa-example": "/ðə pəˈliːs rɪˈsiːvd ə ˈkred.ə.bəl θret əˈɡenst ðə meər./"
       },
       {
-        "sentence": "The spa offers various therapeutic treatments.",
-        "meaning-example": "Spa cung cấp nhiều phương pháp trị liệu khác nhau.",
-        "ipa-example": "/ðə spɑː ˈɒf.əz ˈveə.ri.əs ˌθer.əˈpjuː.tɪk ˈtriːt.mənts./"
+        "sentence": "We need a credible witness to support our case.",
+        "meaning-example": "Chúng tôi cần một nhân chứng đáng tin cậy để hỗ trợ vụ án của mình.",
+        "ipa-example": "/wi niːd ə ˈkred.ə.bəl ˈwɪt.nəs tuː səˈpɔːt ɑːr keɪs./"
       }
     ]
   },
   {
-    "word": "arthritis",
-    "ipa": "/ɑːˈθraɪ.tɪs/",
-    "meaning": "Bệnh viêm khớp.",
+    "word": "deceased",
+    "ipa": "/dɪˈsiːst/",
+    "meaning": "Đã chết, quá cố.",
+    "image": "eew-6-7/5.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "deceased",
+        "meaning-example": "Đã chết, quá cố.",
+        "ipa-example": "/dɪˈsiːst/"
+      },
+      {
+        "sentence": "`Đi siết` nợ mà chủ nợ đã **chết, quá cố** rồi thì làm sao đòi được nữa.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Dead.",
+        "meaning-example": "Chết.",
+        "ipa-example": "/ded./"
+      },
+      {
+        "sentence": "...makes the deceased come back to life.",
+        "meaning-example": "...làm cho người đã chết sống lại.",
+        "ipa-example": "/...meɪks ðə dɪˈsiːst kʌm bæk tuː laɪf./"
+      },
+      {
+        "sentence": "The will of the deceased was read to the family.",
+        "meaning-example": "Di chúc của người quá cố đã được đọc cho gia đình.",
+        "ipa-example": "/ðə wɪl əv ðə dɪˈsiːst wəz red tuː ðə ˈfæm.əl.i./"
+      },
+      {
+        "sentence": "All of his deceased relatives were mentioned in his speech.",
+        "meaning-example": "Tất cả những người thân đã khuất của anh đều được nhắc đến trong bài phát biểu.",
+        "ipa-example": "/ɔːl əv hɪz dɪˈsiːst ˈrel.ə.tɪvz wər ˈmen.ʃənd ɪn hɪz spiːtʃ./"
+      }
+    ]
+  },
+  {
+    "word": "deception",
+    "ipa": "/dɪˈsep.ʃən/",
+    "meaning": "Sự lừa dối, sự dối trá, sự lừa gạt.",
+    "image": "eew-6-7/6.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "deception",
+        "meaning-example": "Sự lừa dối, sự dối trá, sự lừa gạt.",
+        "ipa-example": "/dɪˈsep.ʃən/"
+      },
+      {
+        "sentence": "`Đi dép` `sần` sùi để che giấu thân phận là một **sự lừa dối, dối trá**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The act of hiding the truth, especially to get an advantage.",
+        "meaning-example": "Hành động che giấu sự thật, đặc biệt là để có được lợi thế.",
+        "ipa-example": "/ði ækt əv ˈhaɪ.dɪŋ ðə truːθ, ɪˈspeʃ.əl.i tuː ɡet ən ədˈvɑːn.tɪdʒ./"
+      },
+      {
+        "sentence": "It is meant to cause strife and deception.",
+        "meaning-example": "Nó có ý nghĩa gây ra xung đột và lừa dối.",
+        "ipa-example": "/ɪt ɪz ment tuː kɔːz straɪf ənd dɪˈsep.ʃən./"
+      },
+      {
+        "sentence": "He was accused of deception by his business partners.",
+        "meaning-example": "Anh ta bị các đối tác kinh doanh cáo buộc lừa dối.",
+        "ipa-example": "/hi wəz əˈkjuːzd əv dɪˈsep.ʃən baɪ hɪz ˈbɪz.nəs ˈpɑːt.nəz./"
+      },
+      {
+        "sentence": "The magic trick was a clever act of deception.",
+        "meaning-example": "Trò ảo thuật là một hành động lừa dối thông minh.",
+        "ipa-example": "/ðə ˈmædʒ.ɪk trɪk wəz ə ˈklev.ər ækt əv dɪˈsep.ʃən./"
+      }
+    ]
+  },
+  {
+    "word": "decipher",
+    "ipa": "/dɪˈsaɪ.fər/",
+    "meaning": "Giải mã, đọc (chữ khó, chữ cổ).",
+    "image": "eew-6-7/7.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "decipher",
+        "meaning-example": "Giải mã, đọc (chữ khó, chữ cổ).",
+        "ipa-example": "/dɪˈsaɪ.fər/"
+      },
+      {
+        "sentence": "`Đi Sài Gòn` phải có bản đồ, nếu không sẽ rất khó **giải mã, đọc** được hệ thống đường sá phức tạp ở đây.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To discover the meaning of something written badly or in a difficult or hidden way.",
+        "meaning-example": "Để khám phá ý nghĩa của một thứ gì đó được viết tồi hoặc theo một cách khó hoặc ẩn giấu.",
+        "ipa-example": "/tuː dɪˈskʌv.ər ðə ˈmiː.nɪŋ əv ˈsʌm.θɪŋ ˈrɪt.ən ˈbæd.li ɔːr ɪn ə ˈdɪf.ɪ.kəlt ɔːr ˈhɪd.ən weɪ./"
+      },
+      {
+        "sentence": "After it was found in the Egyptian desert, it took experts years to decipher it.",
+        "meaning-example": "Sau khi nó được tìm thấy ở sa mạc Ai Cập, các chuyên gia đã mất nhiều năm để giải mã nó.",
+        "ipa-example": "/ˈɑːf.tər ɪt wəz faʊnd ɪn ði ɪˈdʒɪp.ʃən ˈdez.ət, ɪt tʊk ˈek.spɜːts jɪəz tuː dɪˈsaɪ.fər ɪt./"
+      },
+      {
+        "sentence": "Can you decipher this doctor's handwriting?",
+        "meaning-example": "Bạn có thể đọc được chữ viết tay của bác sĩ này không?",
+        "ipa-example": "/kən juː dɪˈsaɪ.fər ðɪs ˈdɒk.təz ˈhændˌraɪ.tɪŋ?/"
+      },
+      {
+        "sentence": "It was difficult to decipher the ancient script.",
+        "meaning-example": "Rất khó để giải mã chữ viết cổ.",
+        "ipa-example": "/ɪt wəz ˈdɪf.ɪ.kəlt tuː dɪˈsaɪ.fər ði ˈeɪn.ʃənt skrɪpt./"
+      }
+    ]
+  },
+  {
+    "word": "dung",
+    "ipa": "/dʌŋ/",
+    "meaning": "Phân (động vật).",
     "image": "eew-6-7/8.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "arthritis",
-        "meaning-example": "Bệnh viêm khớp.",
-        "ipa-example": "/ɑːˈθraɪ.tɪs/"
+        "sentence": "dung",
+        "meaning-example": "Phân (động vật).",
+        "ipa-example": "/dʌŋ/"
       },
       {
-        "sentence": "`A`! `trai` `tít` mù tắp kia bị **bệnh viêm khớp**.",
+        "sentence": "`Đừng` giẫm vào đống **phân** bò kia!",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A serious condition in which a person's joints become painful, swollen, and stiff.",
-        "meaning-example": "Một tình trạng nghiêm trọng trong đó các khớp của một người trở nên đau, sưng và cứng.",
-        "ipa-example": "/ə ˈsɪə.ri.əs kənˈdɪʃ.ən ɪn wɪtʃ ə ˈpɜː.sənz dʒɔɪnts bɪˈkʌm ˈpeɪn.fəl, ˈswəʊ.lən, ənd stɪf./"
+        "sentence": "Solid waste from a large animal.",
+        "meaning-example": "Chất thải rắn từ một loài động vật lớn.",
+        "ipa-example": "/ˈsɒl.ɪd weɪst frəm ə lɑːdʒ ˈæn.ɪ.məl./"
       },
       {
-        "sentence": "For example, in order to cure arthritis, the book says that the magician should build an ornate altar.",
-        "meaning-example": "Ví dụ, để chữa bệnh viêm khớp, cuốn sách nói rằng pháp sư nên xây dựng một bàn thờ được trang trí công phu.",
-        "ipa-example": "/fər ɪɡˈzɑːm.pəl, ɪn ˈɔː.dər tuː kjʊər ɑːˈθraɪ.tɪs, ðə bʊk sez ðət ðə məˈdʒɪʃ.ən ʃəd bɪld ən ɔːˈneɪt ˈɔːl.tər./"
+        "sentence": "Some spells asked for unusual things, like crocodile dung.",
+        "meaning-example": "Một số câu thần chú yêu cầu những thứ bất thường, như phân cá sấu.",
+        "ipa-example": "/səm spelz ɑːskt fər ʌnˈjuː.ʒu.əl θɪŋz, laɪk ˈkrɒk.ə.daɪl dʌŋ./"
       },
       {
-        "sentence": "She suffers from severe arthritis in her knees.",
-        "meaning-example": "Bà ấy bị viêm khớp nặng ở đầu gối.",
-        "ipa-example": "/ʃi ˈsʌf.əz frəm sɪˈvɪər ɑːˈθraɪ.tɪs ɪn hɜːr niːz./"
+        "sentence": "The farmer used cow dung as fertilizer for his fields.",
+        "meaning-example": "Người nông dân dùng phân bò làm phân bón cho ruộng của mình.",
+        "ipa-example": "/ðə ˈfɑː.mər juːzd kaʊ dʌŋ əz ˈfɜː.tɪ.laɪ.zər fər hɪz fiːldz./"
       },
       {
-        "sentence": "There is no cure for arthritis, but the symptoms can be managed.",
-        "meaning-example": "Không có cách chữa khỏi bệnh viêm khớp, nhưng các triệu chứng có thể được kiểm soát.",
-        "ipa-example": "/ðeər ɪz nəʊ kjʊər fər ɑːˈθraɪ.tɪs, bət ðə ˈsɪmp.təmz kən bi ˈmæn.ɪdʒd./"
+        "sentence": "Be careful not to step in the horse dung.",
+        "meaning-example": "Cẩn thận đừng giẫm phải phân ngựa.",
+        "ipa-example": "/bi ˈkeə.fəl nɒt tuː step ɪn ðə hɔːs dʌŋ./"
+      }
+    ]
+  },
+  {
+    "word": "dusk",
+    "ipa": "/dʌsk/",
+    "meaning": "Lúc chạng vạng, lúc xẩm tối, hoàng hôn.",
+    "image": "eew-6-7/9.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "dusk",
+        "meaning-example": "Lúc chạng vạng, lúc xẩm tối, hoàng hôn.",
+        "ipa-example": "/dʌsk/"
+      },
+      {
+        "sentence": "`Đất` trời chuyển màu, **lúc chạng vạng, hoàng hôn** buông xuống.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The time before night when it is not yet dark.",
+        "meaning-example": "Thời gian trước ban đêm khi trời chưa tối hẳn.",
+        "ipa-example": "/ðə taɪm bɪˈfɔːr naɪt wen ɪt ɪz nɒt jet dɑːk./"
+      },
+      {
+        "sentence": "At dusk, he is supposed to say a spell...",
+        "meaning-example": "Vào lúc hoàng hôn, anh ta phải nói một câu thần chú...",
+        "ipa-example": "/ət dʌsk, hi ɪz səˈpəʊzd tuː seɪ ə spel.../"
+      },
+      {
+        "sentence": "We walked along the beach at dusk.",
+        "meaning-example": "Chúng tôi đi dạo dọc bãi biển lúc hoàng hôn.",
+        "ipa-example": "/wi wɔːkt əˈlɒŋ ðə biːtʃ ət dʌsk./"
+      },
+      {
+        "sentence": "The streetlights come on automatically at dusk.",
+        "meaning-example": "Đèn đường tự động bật sáng lúc chạng vạng.",
+        "ipa-example": "/ðə ˈstriːt.laɪts kʌm ɒn ˌɔː.təˈmæt.ɪ.kəl.i ət dʌsk./"
+      }
+    ]
+  },
+  {
+    "word": "gratify",
+    "ipa": "/ˈɡræt.ɪ.faɪ/",
+    "meaning": "Làm hài lòng, làm vừa lòng.",
+    "image": "eew-6-7/10.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "gratify",
+        "meaning-example": "Làm hài lòng, làm vừa lòng.",
+        "ipa-example": "/ˈɡræt.ɪ.faɪ/"
+      },
+      {
+        "sentence": "`Gà rán thì phải` ăn ngay lúc nóng mới **làm hài lòng, vừa lòng** thực khách.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To please someone, or to satisfy a wish or need.",
+        "meaning-example": "Làm hài lòng ai đó, hoặc thỏa mãn một mong muốn hoặc nhu cầu.",
+        "ipa-example": "/tuː pliːz ˈsʌm.wʌn, ɔːr tuː ˈsæt.ɪs.faɪ ə wɪʃ ɔːr niːd./"
+      },
+      {
+        "sentence": "...so the gods would be gratified.",
+        "meaning-example": "...để các vị thần sẽ được hài lòng.",
+        "ipa-example": "/...səʊ ðə ɡɒdz wəd bi ˈɡræt.ɪ.faɪd./"
+      },
+      {
+        "sentence": "It gratified him to see his students succeed.",
+        "meaning-example": "Anh ấy hài lòng khi thấy học sinh của mình thành công.",
+        "ipa-example": "/ɪt ˈɡræt.ɪ.faɪd hɪm tuː siː hɪz ˈstjuː.dənts səkˈsiːd./"
+      },
+      {
+        "sentence": "She only bought the car to gratify her own vanity.",
+        "meaning-example": "Cô ấy chỉ mua chiếc xe để thỏa mãn sự phù phiếm của bản thân.",
+        "ipa-example": "/ʃi ˈəʊn.li bɔːt ðə kɑːr tuː ˈɡræt.ɪ.faɪ hər əʊn ˈvæn.ɪ.ti./"
+      }
+    ]
+  },
+  {
+    "word": "hone",
+    "ipa": "/həʊn/",
+    "meaning": "Mài giũa, trau dồi (kỹ năng).",
+    "image": "eew-6-7/11.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "hone",
+        "meaning-example": "Mài giũa, trau dồi (kỹ năng).",
+        "ipa-example": "/həʊn/"
+      },
+      {
+        "sentence": "Người thợ săn **mài giũa, trau dồi** kỹ năng săn bắn của mình mỗi ngày, `hôn` vào mũi tên để lấy may.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make something perfect or completely suitable for its purpose.",
+        "meaning-example": "Để làm cho một cái gì đó hoàn hảo hoặc hoàn toàn phù hợp với mục đích của nó.",
+        "ipa-example": "/tuː meɪk ˈsʌm.θɪŋ ˈpɜː.fekt ɔːr kəmˈpliːt.li ˈsuː.tə.bəl fər ɪts ˈpɜː.pəs./"
+      },
+      {
+        "sentence": "...describe how to hone one’s psychic abilities...",
+        "meaning-example": "...mô tả cách trau dồi khả năng tâm linh của một người...",
+        "ipa-example": "/...dɪˈskraɪb haʊ tuː həʊn wʌnz ˈsaɪ.kɪk əˈbɪl.ə.tiz.../"
+      },
+      {
+        "sentence": "She honed her debating skills at the university club.",
+        "meaning-example": "Cô ấy đã trau dồi kỹ năng tranh luận của mình tại câu lạc bộ của trường đại học.",
+        "ipa-example": "/ʃi həʊnd hər dɪˈbeɪ.tɪŋ skɪlz ət ðə ˌjuː.nɪˈvɜː.sə.ti klʌb./"
+      },
+      {
+        "sentence": "The athlete spent years honing his technique.",
+        "meaning-example": "Vận động viên đã dành nhiều năm để mài giũa kỹ thuật của mình.",
+        "ipa-example": "/ði ˈæθ.liːt spent jɪəz ˈhəʊ.nɪŋ hɪz tekˈniːk./"
+      }
+    ]
+  },
+  {
+    "word": "mash",
+    "ipa": "/mæʃ/",
+    "meaning": "Nghiền, giã nát.",
+    "image": "eew-6-7/12.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "mash",
+        "meaning-example": "Nghiền, giã nát.",
+        "ipa-example": "/mæʃ/"
+      },
+      {
+        "sentence": "Con `mèo` nghịch ngợm làm đổ bát khoai tây, khiến chúng bị **nghiền, giã nát**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To crush food, usually after cooking it, so that it forms a soft mass.",
+        "meaning-example": "Để nghiền thức ăn, thường là sau khi nấu, để nó tạo thành một khối mềm.",
+        "ipa-example": "/tuː krʌʃ fuːd, ˈjuː.ʒu.ə.li ˈɑːf.tər ˈkʊk.ɪŋ ɪt, səʊ ðət ɪt fɔːmz ə sɒft mæs./"
+      },
+      {
+        "sentence": "Then he should mash different types of herbs and place them on top of it.",
+        "meaning-example": "Sau đó, anh ta nên nghiền nát các loại thảo mộc khác nhau và đặt chúng lên trên đó.",
+        "ipa-example": "/ðen hi ʃəd mæʃ ˈdɪf.ər.ənt taɪps əv hɜːbz ənd pleɪs ðəm ɒn tɒp əv ɪt./"
+      },
+      {
+        "sentence": "Could you mash the potatoes for dinner?",
+        "meaning-example": "Bạn có thể nghiền khoai tây cho bữa tối được không?",
+        "ipa-example": "/kəd juː mæʃ ðə pəˈteɪ.təʊz fər ˈdɪn.ər?/"
+      },
+      {
+        "sentence": "Mash the bananas with a fork before adding them to the batter.",
+        "meaning-example": "Nghiền chuối bằng nĩa trước khi cho vào bột.",
+        "ipa-example": "/mæʃ ðə bəˈnɑː.nəz wɪð ə fɔːk bɪˈfɔːr ˈæd.ɪŋ ðəm tuː ðə ˈbæt.ər./"
       }
     ]
   },
   {
     "word": "ornate",
     "ipa": "/ɔːˈneɪt/",
-    "meaning": "Trang trí công phu, lộng lẫy.",
-    "image": "eew-6-7/9.png",
+    "meaning": "Lộng lẫy, trang trí công phu.",
+    "image": "eew-6-7/13.png",
     "classes": "adj",
     "example": [
       {
         "sentence": "ornate",
-        "meaning-example": "Trang trí công phu, lộng lẫy.",
+        "meaning-example": "Lộng lẫy, trang trí công phu.",
         "ipa-example": "/ɔːˈneɪt/"
       },
       {
-        "sentence": "Chiếc bánh `ò` `nát` vì được **trang trí công phu** quá.",
+        "sentence": "Chiếc váy của `cô nết` na được trang trí **lộng lẫy, công phu** bằng vàng và kim cương.",
         "meaning-example": null,
         "ipa-example": null
       },
@@ -335,447 +491,291 @@
       },
       {
         "sentence": "...the magician should build an ornate altar.",
-        "meaning-example": "...pháp sư nên xây dựng một bàn thờ được trang trí công phu.",
-        "ipa-example": "/ðə məˈdʒɪʃ.ən ʃəd bɪld ən ɔːˈneɪt ˈɔːl.tər./"
+        "meaning-example": "...nhà ảo thuật nên xây dựng một bàn thờ lộng lẫy.",
+        "ipa-example": "/...ðə məˈdʒɪʃ.ən ʃəd bɪld ən ɔːˈneɪt ˈɔːl.tər./"
       },
       {
-        "sentence": "The church has an ornate ceiling.",
-        "meaning-example": "Nhà thờ có một trần nhà được trang trí lộng lẫy.",
-        "ipa-example": "/ðə tʃɜːtʃ həz ən ɔːˈneɪt ˈsiː.lɪŋ./"
+        "sentence": "The palace had an ornate golden gate.",
+        "meaning-example": "Cung điện có một cánh cổng vàng được trang trí công phu.",
+        "ipa-example": "/ðə ˈpæl.ɪs hæd ən ɔːˈneɪt ˈɡəʊl.dən ɡeɪt./"
       },
       {
-        "sentence": "She wore an ornate silver necklace.",
-        "meaning-example": "Cô ấy đeo một chiếc vòng cổ bằng bạc được trang trí công phu.",
-        "ipa-example": "/ʃi wɔːr ən ɔːˈneɪt ˈsɪl.vər ˈnek.ləs./"
+        "sentence": "She wore an ornate necklace with precious stones.",
+        "meaning-example": "Cô ấy đeo một chiếc vòng cổ được trang trí lộng lẫy bằng đá quý.",
+        "ipa-example": "/ʃi wɔːr ən ɔːˈneɪt ˈnek.ləs wɪð ˈpreʃ.əs stəʊnz./"
       }
     ]
   },
   {
-    "word": "altar",
-    "ipa": "/ˈɔːl.tər/",
-    "meaning": "Bàn thờ.",
-    "image": "eew-6-7/10.png",
+    "word": "pneumonia",
+    "ipa": "/njuːˈməʊ.ni.ə/",
+    "meaning": "Bệnh viêm phổi.",
+    "image": "eew-6-7/14.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "altar",
-        "meaning-example": "Bàn thờ.",
-        "ipa-example": "/ˈɔːl.tər/"
+        "sentence": "pneumonia",
+        "meaning-example": "Bệnh viêm phổi.",
+        "ipa-example": "/njuːˈməʊ.ni.ə/"
       },
       {
-        "sentence": "`Ô` tô to thế này mà cũng đặt lên **bàn thờ**.",
+        "sentence": "`Níu` `áo` `mẹ` đi, con bị **viêm phổi**, lạnh lắm.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A type of table used in religious ceremonies.",
-        "meaning-example": "Một loại bàn được sử dụng trong các nghi lễ tôn giáo.",
-        "ipa-example": "/ə taɪp əv ˈteɪ.bəl juːzd ɪn rɪˈlɪdʒ.əs ˈser.ɪ.mə.niz./"
+        "sentence": "A serious illness in which one or both lungs become red and swollen and filled with liquid.",
+        "meaning-example": "Một bệnh nghiêm trọng trong đó một hoặc cả hai lá phổi trở nên đỏ và sưng và chứa đầy dịch.",
+        "ipa-example": "/ə ˈsɪə.ri.əs ˈɪl.nəs ɪn wɪtʃ wʌn ɔːr bəʊθ lʌŋz bɪˈkʌm red ənd ˈswəʊ.lən ənd fɪld wɪð ˈlɪk.wɪd./"
       },
       {
-        "sentence": "...the magician should build an ornate altar.",
-        "meaning-example": "...pháp sư nên xây dựng một bàn thờ được trang trí công phu.",
-        "ipa-example": "/ðə məˈdʒɪʃ.ən ʃəd bɪld ən ɔːˈneɪt ˈɔːl.tər./"
+        "sentence": "The most common types of magic in the collection dealt with healing illnesses like pneumonia.",
+        "meaning-example": "Các loại ma thuật phổ biến nhất trong bộ sưu tập liên quan đến việc chữa các bệnh như viêm phổi.",
+        "ipa-example": "/ðə məʊst ˈkɒm.ən taɪps əv ˈmædʒ.ɪk ɪn ðə kəˈlek.ʃən delt wɪð ˈhiː.lɪŋ ˈɪl.nəs.ɪz laɪk njuːˈməʊ.ni.ə./"
       },
       {
-        "sentence": "The priest stood before the altar.",
-        "meaning-example": "Vị linh mục đứng trước bàn thờ.",
-        "ipa-example": "/ðə priːst stʊd bɪˈfɔːr ði ˈɔːl.tər./"
+        "sentence": "The elderly man was hospitalized with pneumonia.",
+        "meaning-example": "Người đàn ông lớn tuổi đã phải nhập viện vì bệnh viêm phổi.",
+        "ipa-example": "/ði ˈel.dəl.i mæn wəz ˈhɒs.pɪ.təl.aɪzd wɪð njuːˈməʊ.ni.ə./"
       },
       {
-        "sentence": "They placed flowers on the altar as an offering.",
-        "meaning-example": "Họ đặt hoa lên bàn thờ để cúng.",
-        "ipa-example": "/ðeɪ pleɪst ˈflaʊəz ɒn ði ˈɔːl.tər əz ən ˈɒf.ər.ɪŋ./"
-      }
-    ]
-  },
-  {
-    "word": "dusk",
-    "ipa": "/dʌsk/",
-    "meaning": "Lúc chạng vạng, lúc xẩm tối.",
-    "image": "eew-6-7/11.png",
-    "classes": "n",
-    "example": [
-      {
-        "sentence": "dusk",
-        "meaning-example": "Lúc chạng vạng, lúc xẩm tối.",
-        "ipa-example": "/dʌsk/"
-      },
-      {
-        "sentence": "Phải `đốt` đèn lên vì trời đã **xẩm tối**.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "The time at the end of the day just before dark.",
-        "meaning-example": "Thời gian cuối ngày ngay trước khi trời tối.",
-        "ipa-example": "/ðə taɪm ət ði end əv ðə deɪ dʒəst bɪˈfɔːr dɑːk./"
-      },
-      {
-        "sentence": "At dusk, he is supposed to say a spell, so the gods would be gratified.",
-        "meaning-example": "Vào lúc chạng vạng, anh ta phải đọc một câu thần chú, để các vị thần sẽ được hài lòng.",
-        "ipa-example": "/ət dʌsk, hi ɪz səˈpəʊzd tuː seɪ ə spel, səʊ ðə ɡɒdz wəd bi ˈɡræt.ɪ.faɪd./"
-      },
-      {
-        "sentence": "The streetlights come on at dusk.",
-        "meaning-example": "Đèn đường bật sáng vào lúc chạng vạng.",
-        "ipa-example": "/ðə ˈstriːt.laɪts kʌm ɒn ət dʌsk./"
-      },
-      {
-        "sentence": "We walked along the beach from dawn until dusk.",
-        "meaning-example": "Chúng tôi đi dạo dọc bãi biển từ lúc bình minh cho đến khi xẩm tối.",
-        "ipa-example": "/wi wɔːkt əˈlɒŋ ðə biːtʃ frəm dɔːn ənˈtɪl dʌsk./"
-      }
-    ]
-  },
-  {
-    "word": "gratified",
-    "ipa": "/ˈɡræt.ɪ.faɪd/",
-    "meaning": "Hài lòng, mãn nguyện.",
-    "image": "eew-6-7/12.png",
-    "classes": "adj",
-    "example": [
-      {
-        "sentence": "gratified",
-        "meaning-example": "Hài lòng, mãn nguyện.",
-        "ipa-example": "/ˈɡræt.ɪ.faɪd/"
-      },
-      {
-        "sentence": "`Giá` mà `tí` `phai` màu đi thì tôi sẽ **hài lòng**.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "Pleased or satisfied.",
-        "meaning-example": "Hài lòng hoặc thỏa mãn.",
-        "ipa-example": "/pliːzd ɔːr ˈsæt.ɪs.faɪd./"
-      },
-      {
-        "sentence": "...so the gods would be gratified.",
-        "meaning-example": "...để các vị thần sẽ được hài lòng.",
-        "ipa-example": "/səʊ ðə ɡɒdz wəd bi ˈɡræt.ɪ.faɪd./"
-      },
-      {
-        "sentence": "He was gratified to see the project succeed.",
-        "meaning-example": "Anh ấy hài lòng khi thấy dự án thành công.",
-        "ipa-example": "/hi wəz ˈɡræt.ɪ.faɪd tuː siː ðə ˈprɒdʒ.ekt səkˈsiːd./"
-      },
-      {
-        "sentence": "She felt gratified by the warm reception she received.",
-        "meaning-example": "Cô cảm thấy mãn nguyện trước sự đón tiếp nồng hậu mà mình nhận được.",
-        "ipa-example": "/ʃi felt ˈɡræt.ɪ.faɪd baɪ ðə wɔːm rɪˈsep.ʃən ʃi rɪˈsiːvd./"
-      }
-    ]
-  },
-  {
-    "word": "hone",
-    "ipa": "/həʊn/",
-    "meaning": "Mài giũa, rèn luyện.",
-    "image": "eew-6-7/13.png",
-    "classes": "v",
-    "example": [
-      {
-        "sentence": "hone",
-        "meaning-example": "Mài giũa, rèn luyện.",
-        "ipa-example": "/həʊn/"
-      },
-      {
-        "sentence": "Vận động viên **rèn luyện** ngày đêm để đoạt `huy chương`.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "To make something perfect or completely suitable for its purpose.",
-        "meaning-example": "Làm cho một cái gì đó trở nên hoàn hảo hoặc hoàn toàn phù hợp với mục đích của nó.",
-        "ipa-example": "/tuː meɪk ˈsʌm.θɪŋ ˈpɜː.fekt ɔːr kəmˈpliːt.li ˈsuː.tə.bəl fər ɪts ˈpɜː.pəs./"
-      },
-      {
-        "sentence": "Other parts of the collection describe how to hone one’s psychic abilities...",
-        "meaning-example": "Các phần khác của bộ sưu tập mô tả cách rèn luyện khả năng tâm linh của một người...",
-        "ipa-example": "/ˈʌð.ər pɑːts əv ðə kəˈlek.ʃən dɪˈskraɪb haʊ tuː həʊn wʌnz ˈsaɪ.kɪk əˈbɪl.ə.tiz/"
-      },
-      {
-        "sentence": "He honed his skills as a public speaker.",
-        "meaning-example": "Anh ấy đã mài giũa kỹ năng diễn thuyết trước công chúng của mình.",
-        "ipa-example": "/hi həʊnd hɪz skɪlz əz ə ˈpʌb.lɪk ˈspiː.kər./"
-      },
-      {
-        "sentence": "She needs to hone her writing style.",
-        "meaning-example": "Cô ấy cần rèn luyện phong cách viết của mình.",
-        "ipa-example": "/ʃi niːdz tuː həʊn hɜːr ˈraɪ.tɪŋ staɪl./"
+        "sentence": "Pneumonia can be a very dangerous illness for young children.",
+        "meaning-example": "Viêm phổi có thể là một căn bệnh rất nguy hiểm đối với trẻ nhỏ.",
+        "ipa-example": "/njuːˈməʊ.ni.ə kən bi ə ˈver.i ˈdeɪn.dʒər.əs ˈɪl.nəs fər jʌŋ ˈtʃɪl.drən./"
       }
     ]
   },
   {
     "word": "psychic",
     "ipa": "/ˈsaɪ.kɪk/",
-    "meaning": "(Thuộc) tâm linh, ngoại cảm.",
-    "image": "eew-6-7/14.png",
-    "classes": "adj",
-    "example": [
-      {
-        "sentence": "psychic",
-        "meaning-example": "(Thuộc) tâm linh, ngoại cảm.",
-        "ipa-example": "/ˈsaɪ.kɪk/"
-      },
-      {
-        "sentence": "Anh ta `sai` `kích` thước nhưng lại có khả năng **ngoại cảm**.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "Having a special mental ability, for example so that you are able to know what will happen in the future or know what people are thinking.",
-        "meaning-example": "Có khả năng tinh thần đặc biệt, ví dụ như bạn có thể biết điều gì sẽ xảy ra trong tương lai hoặc biết mọi người đang nghĩ gì.",
-        "ipa-example": "/ˈhæv.ɪŋ ə ˈspeʃ.əl ˈmen.təl əˈbɪl.ə.ti, fər ɪɡˈzɑːm.pəl səʊ ðət juː ɑːr ˈeɪ.bəl tuː nəʊ wɒt wɪl ˈhæp.ən ɪn ðə ˈfjuː.tʃər ɔːr nəʊ wɒt ˈpiː.pəl ɑːr ˈθɪŋ.kɪŋ./"
-      },
-      {
-        "sentence": "Other parts of the collection describe how to hone one’s psychic abilities...",
-        "meaning-example": "Các phần khác của bộ sưu tập mô tả cách rèn luyện khả năng tâm linh của một người...",
-        "ipa-example": "/ˈʌð.ər pɑːts əv ðə kəˈlek.ʃən dɪˈskraɪb haʊ tuː həʊn wʌnz ˈsaɪ.kɪk əˈbɪl.ə.tiz/"
-      },
-      {
-        "sentence": "She claims to have psychic powers.",
-        "meaning-example": "Cô ấy tuyên bố có năng lực ngoại cảm.",
-        "ipa-example": "/ʃi kleɪmz tuː həv ˈsaɪ.kɪk ˈpaʊəz./"
-      },
-      {
-        "sentence": "He went to a psychic to find out about his future.",
-        "meaning-example": "Anh ta đã đến gặp một nhà ngoại cảm để tìm hiểu về tương lai của mình.",
-        "ipa-example": "/hi went tuː ə ˈsaɪ.kɪk tuː faɪnd aʊt əˈbaʊt hɪz ˈfjuː.tʃər./"
-      }
-    ]
-  },
-  {
-    "word": "credible",
-    "ipa": "/ˈkred.ə.bəl/",
-    "meaning": "Đáng tin, tin cậy.",
+    "meaning": "(thuộc) tâm linh, siêu nhiên.",
     "image": "eew-6-7/15.png",
     "classes": "adj",
     "example": [
       {
-        "sentence": "credible",
-        "meaning-example": "Đáng tin, tin cậy.",
-        "ipa-example": "/ˈkred.ə.bəl/"
+        "sentence": "psychic",
+        "meaning-example": "(thuộc) tâm linh, siêu nhiên.",
+        "ipa-example": "/ˈsaɪ.kɪk/"
       },
       {
-        "sentence": "Nghe `có vẻ` `đồ` `bộ` này **đáng tin** cậy.",
+        "sentence": "Nhà tiên tri `sai` `kích` thước viên đá ma thuật, nên khả năng **thuộc về tâm linh, siêu nhiên** của nó bị giảm sút.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "Able to be believed or trusted.",
-        "meaning-example": "Có thể tin tưởng hoặc tin cậy.",
-        "ipa-example": "/ˈeɪ.bəl tuː bi bɪˈliːvd ɔːr ˈtrʌs.tɪd./"
+        "sentence": "Having a special mental ability, for example so that you are able to know what will happen in the future or what people are thinking.",
+        "meaning-example": "Có một khả năng tinh thần đặc biệt, ví dụ như bạn có thể biết điều gì sẽ xảy ra trong tương lai hoặc mọi người đang nghĩ gì.",
+        "ipa-example": "/ˈhæv.ɪŋ ə ˈspeʃ.əl ˈmen.təl əˈbɪl.ə.ti, fər ɪɡˈzɑːm.pəl səʊ ðət juː ɑːr ˈeɪ.bəl tuː nəʊ wɒt wɪl ˈhæp.ən ɪn ðə ˈfjuː.tʃər ɔːr wɒt ˈpiː.pəl ɑːr ˈθɪŋ.kɪŋ./"
       },
       {
-        "sentence": "...how to give credible descriptions of the future.",
-        "meaning-example": "...cách đưa ra những mô tả đáng tin cậy về tương lai.",
-        "ipa-example": "/haʊ tuː ɡɪv ˈkred.ə.bəl dɪˈskrɪp.ʃənz əv ðə ˈfjuː.tʃər./"
+        "sentence": "...describe how to hone one’s psychic abilities...",
+        "meaning-example": "...mô tả cách trau dồi khả năng tâm linh của một người...",
+        "ipa-example": "/...dɪˈskraɪb haʊ tuː həʊn wʌnz ˈsaɪ.kɪk əˈbɪl.ə.tiz.../"
       },
       {
-        "sentence": "The police have a credible witness.",
-        "meaning-example": "Cảnh sát có một nhân chứng đáng tin cậy.",
-        "ipa-example": "/ðə pəˈliːs həv ə ˈkred.ə.bəl ˈwɪt.nəs./"
+        "sentence": "She claims to have psychic powers and can predict the future.",
+        "meaning-example": "Cô ấy tuyên bố có sức mạnh tâm linh và có thể dự đoán tương lai.",
+        "ipa-example": "/ʃi kleɪmz tuː həv ˈsaɪ.kɪk ˈpaʊ.əz ənd kən prɪˈdɪkt ðə ˈfjuː.tʃər./"
       },
       {
-        "sentence": "We need to find a credible source of information.",
-        "meaning-example": "Chúng ta cần tìm một nguồn thông tin đáng tin cậy.",
-        "ipa-example": "/wi niːd tuː faɪnd ə ˈkred.ə.bəl sɔːs əv ˌɪn.fəˈmeɪ.ʃən./"
+        "sentence": "Many people are skeptical of psychic phenomena.",
+        "meaning-example": "Nhiều người hoài nghi về các hiện tượng tâm linh.",
+        "ipa-example": "/ˈmen.i ˈpiː.pəl ɑːr ˈskep.tɪ.kəl əv ˈsaɪ.kɪk fəˈnɒm.ɪ.nə./"
+      }
+    ]
+  },
+  {
+    "word": "psychotic",
+    "ipa": "/saɪˈkɒt.ɪk/",
+    "meaning": "(bị) loạn thần kinh, điên.",
+    "image": "eew-6-7/16.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "psychotic",
+        "meaning-example": "(bị) loạn thần kinh, điên.",
+        "ipa-example": "/saɪˈkɒt.ɪk/"
+      },
+      {
+        "sentence": "`Sai` một `cót` lúa là ông chủ nổi điên, la hét như một người **bị loạn thần kinh**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Suffering from a serious mental illness that makes you act strangely or believe things that are not true.",
+        "meaning-example": "Bị một bệnh tâm thần nghiêm trọng khiến bạn hành động kỳ lạ hoặc tin vào những điều không có thật.",
+        "ipa-example": "/ˈsʌf.ər.ɪŋ frəm ə ˈsɪə.ri.əs ˈmen.təl ˈɪl.nəs ðət meɪks juː ækt ˈstreɪndʒ.li ɔːr bɪˈliːv θɪŋz ðət ɑːr nɒt truː./"
+      },
+      {
+        "sentence": "...those who became psychotic.",
+        "meaning-example": "...những người bị loạn thần.",
+        "ipa-example": "/...ðəʊz huː bɪˈkeɪm saɪˈkɒt.ɪk./"
+      },
+      {
+        "sentence": "The character in the movie had a psychotic breakdown.",
+        "meaning-example": "Nhân vật trong phim bị suy sụp tinh thần.",
+        "ipa-example": "/ðə ˈkær.ək.tər ɪn ðə ˈmuː.vi hæd ə saɪˈkɒt.ɪk ˈbreɪk.daʊn./"
+      },
+      {
+        "sentence": "Psychotic episodes require immediate medical attention.",
+        "meaning-example": "Các cơn loạn thần cần được chăm sóc y tế ngay lập tức.",
+        "ipa-example": "/saɪˈkɒt.ɪk ˈep.ɪ.səʊdz rɪˈkwaɪər ɪˈmiː.di.ət ˈmed.ɪ.kəl əˈten.ʃən./"
+      }
+    ]
+  },
+  {
+    "word": "scope",
+    "ipa": "/skəʊp/",
+    "meaning": "Phạm vi, tầm (kiến thức, hoạt động).",
+    "image": "eew-6-7/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "scope",
+        "meaning-example": "Phạm vi, tầm (kiến thức, hoạt động).",
+        "ipa-example": "/skəʊp/"
+      },
+      {
+        "sentence": "`Sợ cốp` xe này nhỏ quá, không chứa hết đồ trong **phạm vi** cho phép.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The range of a subject covered by a book, program, discussion, class, etc.",
+        "meaning-example": "Phạm vi của một chủ đề được bao hàm bởi một cuốn sách, chương trình, cuộc thảo luận, lớp học, v.v.",
+        "ipa-example": "/ðə reɪndʒ əv ə ˈsʌb.dʒekt ˈkʌv.əd baɪ ə bʊk, ˈprəʊ.ɡræm, dɪˈskʌʃ.ən, klɑːs, etˈset.ər.ə./"
+      },
+      {
+        "sentence": "...spells that varied greatly in scope.",
+        "meaning-example": "...những câu thần chú có phạm vi rất khác nhau.",
+        "ipa-example": "/...spelz ðət ˈveə.rid ˈɡreɪt.li ɪn skəʊp./"
+      },
+      {
+        "sentence": "That question is beyond the scope of this lecture.",
+        "meaning-example": "Câu hỏi đó nằm ngoài phạm vi của bài giảng này.",
+        "ipa-example": "/ðæt ˈkwes.tʃən ɪz bɪˈjɒnd ðə skəʊp əv ðɪs ˈlek.tʃər./"
+      },
+      {
+        "sentence": "We need to define the scope of the project before we start.",
+        "meaning-example": "Chúng ta cần xác định phạm vi của dự án trước khi bắt đầu.",
+        "ipa-example": "/wi niːd tuː dɪˈfaɪn ðə skəʊp əv ðə ˈprɒdʒ.ekt bɪˈfɔːr wi stɑːt./"
       }
     ]
   },
   {
     "word": "sinister",
     "ipa": "/ˈsɪn.ɪ.stər/",
-    "meaning": "Nham hiểm, gở, độc ác.",
-    "image": "eew-6-7/16.png",
+    "meaning": "Nham hiểm, độc ác, gở.",
+    "image": "eew-6-7/18.png",
     "classes": "adj",
     "example": [
       {
         "sentence": "sinister",
-        "meaning-example": "Nham hiểm, gở, độc ác.",
+        "meaning-example": "Nham hiểm, độc ác, gở.",
         "ipa-example": "/ˈsɪn.ɪ.stər/"
       },
       {
-        "sentence": "Hắn `xin` `ít` `tờ` tiền với vẻ mặt **nham hiểm**.",
+        "sentence": "Tên trộm `xin ít` `tờ` tiền thôi, nhưng ánh mắt của hắn trông rất **nham hiểm, độc ác**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
         "sentence": "Making you feel that something bad or evil might happen.",
-        "meaning-example": "Khiến bạn cảm thấy rằng điều gì đó tồi tệ hoặc xấu xa có thể xảy ra.",
+        "meaning-example": "Làm bạn cảm thấy rằng một điều gì đó tồi tệ hoặc xấu xa có thể xảy ra.",
         "ipa-example": "/ˈmeɪ.kɪŋ juː fiːl ðət ˈsʌm.θɪŋ bæd ɔːr ˈiː.vəl maɪt ˈhæp.ən./"
       },
       {
         "sentence": "A small part of the book, however, is more sinister than the rest.",
-        "meaning-example": "Tuy nhiên, một phần nhỏ của cuốn sách lại nham hiểm hơn phần còn lại.",
+        "meaning-example": "Tuy nhiên, một phần nhỏ của cuốn sách thì nham hiểm hơn phần còn lại.",
         "ipa-example": "/ə smɔːl pɑːt əv ðə bʊk, haʊˈev.ər, ɪz mɔːr ˈsɪn.ɪ.stər ðən ðə rest./"
       },
       {
-        "sentence": "There was a sinister look in his eyes.",
-        "meaning-example": "Có một ánh nhìn nham hiểm trong mắt anh ta.",
-        "ipa-example": "/ðeər wəz ə ˈsɪn.ɪ.stər lʊk ɪn hɪz aɪz./"
+        "sentence": "The villain in the story had a sinister laugh.",
+        "meaning-example": "Nhân vật phản diện trong câu chuyện có một nụ cười nham hiểm.",
+        "ipa-example": "/ðə ˈvɪl.ən ɪn ðə ˈstɔː.ri hæd ə ˈsɪn.ɪ.stər lɑːf./"
       },
       {
-        "sentence": "A sinister atmosphere pervaded the old house.",
-        "meaning-example": "Một không khí gở bao trùm ngôi nhà cổ.",
-        "ipa-example": "/ə ˈsɪn.ɪ.stər ˈæt.mə.sfɪər pəˈveɪ.dɪd ði əʊld haʊs./"
+        "sentence": "There was something sinister about the dark, empty house.",
+        "meaning-example": "Có điều gì đó gở về ngôi nhà tối tăm, trống rỗng.",
+        "ipa-example": "/ðeər wəz ˈsʌm.θɪŋ ˈsɪn.ɪ.stər əˈbaʊt ðə dɑːk, ˈemp.ti haʊs./"
       }
     ]
   },
   {
     "word": "strife",
     "ipa": "/straɪf/",
-    "meaning": "Sự xung đột, sự bất hòa.",
-    "image": "eew-6-7/17.png",
-    "classes": "n",
-    "example": [
-      {
-        "sentence": "strife",
-        "meaning-example": "Sự xung đột, sự bất hòa.",
-        "ipa-example": "/straɪf/"
-      },
-      {
-        "sentence": "`Sợ` `trai` đẹp nên gây ra **sự xung đột** giữa các cô gái.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "Angry or violent disagreement between two or more people or groups.",
-        "meaning-example": "Sự bất đồng giận dữ hoặc bạo lực giữa hai hoặc nhiều người hoặc nhóm.",
-        "ipa-example": "/ˈæŋ.ɡri ɔːr ˈvaɪə.lənt ˌdɪs.əˈɡriː.mənt bɪˈtwiːn tuː ɔːr mɔːr ˈpiː.pəl ɔːr ɡruːps./"
-      },
-      {
-        "sentence": "It is meant to cause strife and deception.",
-        "meaning-example": "Nó có mục đích gây ra xung đột và lừa dối.",
-        "ipa-example": "/ɪt ɪz ment tuː kɔːz straɪf ənd dɪˈsep.ʃən./"
-      },
-      {
-        "sentence": "The country was torn apart by internal strife.",
-        "meaning-example": "Đất nước bị chia rẽ bởi xung đột nội bộ.",
-        "ipa-example": "/ðə ˈkʌn.tri wəz tɔːn əˈpɑːt baɪ ɪnˈtɜː.nəl straɪf./"
-      },
-      {
-        "sentence": "He tried to avoid strife with his neighbors.",
-        "meaning-example": "Anh ấy đã cố gắng tránh xung đột với hàng xóm của mình.",
-        "ipa-example": "/hi traɪd tuː əˈvɔɪd straɪf wɪð hɪz ˈneɪ.bəz./"
-      }
-    ]
-  },
-  {
-    "word": "deception",
-    "ipa": "/dɪˈsep.ʃən/",
-    "meaning": "Sự lừa dối, sự lừa gạt.",
-    "image": "eew-6-7/18.png",
-    "classes": "n",
-    "example": [
-      {
-        "sentence": "deception",
-        "meaning-example": "Sự lừa dối, sự lừa gạt.",
-        "ipa-example": "/dɪˈsep.ʃən/"
-      },
-      {
-        "sentence": "`Đi` `xếp` `hàng` mà vẫn bị lừa là một **sự lừa dối**.",
-        "meaning-example": null,
-        "ipa-example": null
-      },
-      {
-        "sentence": "The act of hiding the truth, especially to get an advantage.",
-        "meaning-example": "Hành động che giấu sự thật, đặc biệt là để có được lợi thế.",
-        "ipa-example": "/ði ækt əv ˈhaɪ.dɪŋ ðə truːθ, ɪˈspeʃ.ə.li tuː ɡet ən ədˈvɑːn.tɪdʒ./"
-      },
-      {
-        "sentence": "It is meant to cause strife and deception.",
-        "meaning-example": "Nó có mục đích gây ra xung đột và lừa dối.",
-        "ipa-example": "/ɪt ɪz ment tuː kɔːz straɪf ənd dɪˈsep.ʃən./"
-      },
-      {
-        "sentence": "He was accused of obtaining money by deception.",
-        "meaning-example": "Anh ta bị buộc tội lừa đảo để chiếm đoạt tiền.",
-        "ipa-example": "/hi wəz əˈkjuːzd əv əbˈteɪ.nɪŋ ˈmʌn.i baɪ dɪˈsep.ʃən./"
-      },
-      {
-        "sentence": "Her deception was eventually discovered.",
-        "meaning-example": "Sự lừa dối của cô ấy cuối cùng đã bị phát hiện.",
-        "ipa-example": "/hɜːr dɪˈsep.ʃən wəz ɪˈven.tʃu.ə.li dɪˈskʌv.əd./"
-      }
-    ]
-  },
-  {
-    "word": "warts",
-    "ipa": "/wɔːts/",
-    "meaning": "Mụn cóc.",
+    "meaning": "Sự xung đột, sự mâu thuẫn, sự cãi cọ.",
     "image": "eew-6-7/19.png",
     "classes": "n",
     "example": [
       {
-        "sentence": "warts",
-        "meaning-example": "Mụn cóc.",
-        "ipa-example": "/wɔːts/"
+        "sentence": "strife",
+        "meaning-example": "Sự xung đột, sự mâu thuẫn, sự cãi cọ.",
+        "ipa-example": "/straɪf/"
       },
       {
-        "sentence": "`What`'s this? Đây là **mụn cóc**.",
+        "sentence": "`Sợ trái` ý sếp nên nhân viên không dám cãi lại, tránh gây ra **sự xung đột, mâu thuẫn**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "A small, hard, benign growth on the skin, caused by a virus.",
-        "meaning-example": "Một khối u nhỏ, cứng, lành tính trên da, do vi-rút gây ra.",
-        "ipa-example": "/ə smɔːl, hɑːd, bɪˈnaɪn ɡrəʊθ ɒn ðə skɪn, kɔːzd baɪ ə ˈvaɪə.rəs./"
+        "sentence": "Violent or angry disagreement.",
+        "meaning-example": "Sự bất đồng dữ dội hoặc tức giận.",
+        "ipa-example": "/ˈvaɪə.lənt ɔːr ˈæŋ.ɡri ˌdɪs.əˈɡriː.mənt./"
       },
       {
-        "sentence": "For example, one tells how to give someone warts, while another will make all of the victim’s farm animals die.",
-        "meaning-example": "Ví dụ, một câu thần chú kể cách làm cho ai đó bị mụn cóc, trong khi một câu khác sẽ làm cho tất cả các con vật nuôi trong trang trại của nạn nhân chết.",
-        "ipa-example": "/fər ɪɡˈzɑːm.pəl, wʌn telz haʊ tuː ɡɪv ˈsʌm.wʌn wɔːts, waɪl əˈnʌð.ər wɪl meɪk ɔːl əv ðə ˈvɪk.tɪmz fɑːm ˈæn.ɪ.məlz daɪ./"
+        "sentence": "It is meant to cause strife and deception.",
+        "meaning-example": "Nó có ý nghĩa gây ra xung đột và lừa dối.",
+        "ipa-example": "/ɪt ɪz ment tuː kɔːz straɪf ənd dɪˈsep.ʃən./"
       },
       {
-        "sentence": "He has a wart on his finger.",
-        "meaning-example": "Anh ấy có một mụn cóc trên ngón tay.",
-        "ipa-example": "/hi həz ə wɔːt ɒn hɪz ˈfɪŋ.ɡər./"
+        "sentence": "The country was torn apart by years of civil strife.",
+        "meaning-example": "Đất nước bị chia cắt bởi nhiều năm xung đột dân sự.",
+        "ipa-example": "/ðə ˈkʌn.tri wəz tɔːn əˈpɑːt baɪ jɪəz əv ˈsɪv.əl straɪf./"
       },
       {
-        "sentence": "Some warts can be removed with special creams.",
-        "meaning-example": "Một số mụn cóc có thể được loại bỏ bằng các loại kem đặc biệt.",
-        "ipa-example": "/sʌm wɔːts kən bi rɪˈmuːvd wɪð ˈspeʃ.əl kriːmz./"
+        "sentence": "He wanted to avoid family strife at all costs.",
+        "meaning-example": "Anh ấy muốn tránh xung đột gia đình bằng mọi giá.",
+        "ipa-example": "/hi ˈwɒn.tɪd tuː əˈvɔɪd ˈfæm.əl.i straɪf ət ɔːl kɒsts./"
       }
     ]
   },
   {
-    "word": "deceased",
-    "ipa": "/dɪˈsiːst/",
-    "meaning": "Đã chết, người quá cố.",
+    "word": "therapeutic",
+    "ipa": "/ˌθer.əˈpjuː.tɪk/",
+    "meaning": "(thuộc) chữa bệnh, trị liệu.",
     "image": "eew-6-7/20.png",
     "classes": "adj",
     "example": [
       {
-        "sentence": "deceased",
-        "meaning-example": "Đã chết, người quá cố.",
-        "ipa-example": "/dɪˈsiːst/"
+        "sentence": "therapeutic",
+        "meaning-example": "(thuộc) chữa bệnh, trị liệu.",
+        "ipa-example": "/ˌθer.əˈpjuː.tɪk/"
       },
       {
-        "sentence": "`Đi` `sít` vào đây, đừng sợ người **đã chết**.",
+        "sentence": "`Xe ra` `bưu điện` để lấy thảo dược, chúng có tác dụng **chữa bệnh, trị liệu**.",
         "meaning-example": null,
         "ipa-example": null
       },
       {
-        "sentence": "Dead.",
-        "meaning-example": "Chết.",
-        "ipa-example": "/ded./"
+        "sentence": "Causing someone to feel happier and more relaxed or to be more healthy.",
+        "meaning-example": "Làm cho ai đó cảm thấy hạnh phúc hơn và thư giãn hơn hoặc khỏe mạnh hơn.",
+        "ipa-example": "/ˈkɔː.zɪŋ ˈsʌm.wʌn tuː fiːl ˈhæp.i.ər ənd mɔːr rɪˈlækst ɔːr tuː bi mɔːr ˈhel.θi./"
       },
       {
-        "sentence": "...he could ask a magician to perform magic that makes the deceased come back to life.",
-        "meaning-example": "...anh ta có thể yêu cầu một pháp sư thực hiện phép thuật làm cho người đã chết sống lại.",
-        "ipa-example": "/hi kəd ɑːsk ə məˈdʒɪʃ.ən tuː pəˈfɔːm ˈmædʒ.ɪk ðət meɪks ðə dɪˈsiːst kʌm bæk tuː laɪf./"
+        "sentence": "...plants that were believed to be therapeutic.",
+        "meaning-example": "...thực vật được cho là có tác dụng chữa bệnh.",
+        "ipa-example": "/...plɑːnts ðət wər bɪˈliːvd tuː bi ˌθer.əˈpjuː.tɪk./"
       },
       {
-        "sentence": "The deceased was a well-respected member of the community.",
-        "meaning-example": "Người quá cố là một thành viên rất được kính trọng trong cộng đồng.",
-        "ipa-example": "/ðə dɪˈsiːst wəz ə wel-rɪˈspek.tɪd ˈmem.bər əv ðə kəˈmjuː.nə.ti./"
+        "sentence": "Listening to music can have a therapeutic effect.",
+        "meaning-example": "Nghe nhạc có thể có tác dụng trị liệu.",
+        "ipa-example": "/ˈlɪs.nɪŋ tuː ˈmjuː.zɪk kən həv ə ˌθer.əˈpjuː.tɪk ɪˈfekt./"
       },
       {
-        "sentence": "All of the deceased's assets were left to his wife.",
-        "meaning-example": "Toàn bộ tài sản của người quá cố được để lại cho vợ ông.",
-        "ipa-example": "/ɔːl əv ðə dɪˈsiːsts ˈæs.ets wər left tuː hɪz waɪf./"
+        "sentence": "The spa offers a range of therapeutic treatments.",
+        "meaning-example": "Spa cung cấp một loạt các phương pháp trị liệu.",
+        "ipa-example": "/ðə spɑː ˈɒf.əz ə reɪndʒ əv ˌθer.əˈpjuː.tɪk ˈtriːt.mənts./"
       }
     ]
   },
@@ -784,13 +784,13 @@
     "example": [
       {
         "sentence": "Greek Magical Papyri",
-        "meaning-example": "Giấy cói ma thuật Hy Lạp",
-        "ipa-example": "/ɡriːk ˈmædʒ.ɪ.kəl pəˈpaɪə.raɪ/"
+        "meaning-example": "Giấy cói Phép thuật Hy Lạp",
+        "ipa-example": "/ɡriːk ˈmædʒ.ɪ.kəl pəˈpaɪ.raɪ/"
       },
       {
         "sentence": "The Greek Magical Papyri is a collection of writing about magic.",
-        "meaning-example": "Giấy cói ma thuật Hy Lạp là một bộ sưu tập các bài viết về ma thuật.",
-        "ipa-example": "/ðə ɡriːk ˈmædʒ.ɪ.kəl pəˈpaɪə.raɪ ɪz ə kəˈlek.ʃən əv ˈraɪ.tɪŋ əˈbaʊt ˈmædʒ.ɪk./"
+        "meaning-example": "Giấy cói Phép thuật Hy Lạp là một bộ sưu tập các bài viết về ma thuật.",
+        "ipa-example": "/ðə ɡriːk ˈmædʒ.ɪ.kəl pəˈpaɪ.raɪ ɪz ə kəˈlek.ʃən əv ˈraɪ.tɪŋ əˈbaʊt ˈmædʒ.ɪk./"
       },
       {
         "sentence": "After it was found in the Egyptian desert, it took experts years to decipher it.",
@@ -800,32 +800,32 @@
       {
         "sentence": "The text was written in at least three different ancient languages.",
         "meaning-example": "Văn bản được viết bằng ít nhất ba ngôn ngữ cổ khác nhau.",
-        "ipa-example": "/ðə tekst wəz ˈrɪt.ən ɪn ət liːst θriː ˈdɪf.ər.ənt ˈeɪn.ʃənt ˈlæŋ.ɡwɪdʒɪz./"
+        "ipa-example": "/ðə tekst wəz ˈrɪt.ən ɪn ət liːst θriː ˈdɪf.ər.ənt ˈeɪn.ʃənt ˈlæŋ.ɡwɪdʒ.ɪz./"
       },
       {
         "sentence": "After many years, experts realized it contained a number of spells that varied greatly in scope.",
         "meaning-example": "Sau nhiều năm, các chuyên gia nhận ra nó chứa một số câu thần chú có phạm vi rất khác nhau.",
-        "ipa-example": "/ˈɑːf.tər ˈmen.i jɪəz, ˈek.spɜːts ˈrɪə.laɪzd ɪt kənˈteɪnd ə ˈnʌm.bər əv spelz ðət ˈveə.rɪd ˈɡreɪt.li ɪn skəʊp./"
+        "ipa-example": "/ˈɑːf.tər ˈmen.i jɪəz, ˈek.spɜːts ˈrɪə.laɪzd ɪt kənˈteɪnd ə ˈnʌm.bər əv spelz ðət ˈveə.rid ˈɡreɪt.li ɪn skəʊp./"
       },
       {
         "sentence": "The most common types of magic in the collection dealt with healing illnesses like pneumonia.",
         "meaning-example": "Các loại ma thuật phổ biến nhất trong bộ sưu tập đề cập đến việc chữa các bệnh như viêm phổi.",
-        "ipa-example": "/ðə məʊst ˈkɒm.ən taɪps əv ˈmædʒ.ɪk ɪn ðə kəˈlek.ʃən delt wɪð ˈhiː.lɪŋ ˈɪl.nəsɪz laɪk njuːˈməʊ.ni.ə./"
+        "ipa-example": "/ðə məʊst ˈkɒm.ən taɪps əv ˈmædʒ.ɪk ɪn ðə kəˈlek.ʃən delt wɪð ˈhiː.lɪŋ ˈɪl.nəs.ɪz laɪk njuːˈməʊ.ni.ə./"
       },
       {
         "sentence": "Some spells also gave advice for treating people with mental illnesses, such as those who became psychotic.",
         "meaning-example": "Một số câu thần chú cũng đưa ra lời khuyên để điều trị cho những người mắc bệnh tâm thần, chẳng hạn như những người bị loạn thần.",
-        "ipa-example": "/sʌm spelz ˈɔːl.səʊ ɡeɪv ədˈvaɪs fɔːr ˈtriː.tɪŋ ˈpiː.pəl wɪð ˈmen.təl ˈɪl.nəsɪz, sʌtʃ əz ðəʊz huː bɪˈkeɪm saɪˈkɒt.ɪk./"
+        "ipa-example": "/səm spelz ˈɔːl.səʊ ɡeɪv ədˈvaɪs fər ˈtriː.tɪŋ ˈpiː.pəl wɪð ˈmen.təl ˈɪl.nəs.ɪz, sʌtʃ əz ðəʊz huː bɪˈkeɪm saɪˈkɒt.ɪk./"
       },
       {
         "sentence": "Some spells asked for unusual things, like crocodile dung.",
         "meaning-example": "Một số câu thần chú yêu cầu những thứ bất thường, như phân cá sấu.",
-        "ipa-example": "/sʌm spelz ɑːskt fər ʌnˈjuː.ʒu.əl θɪŋz, laɪk ˈkrɒk.ə.daɪl dʌŋ./"
+        "ipa-example": "/səm spelz ɑːskt fər ʌnˈjuː.ʒu.əl θɪŋz, laɪk ˈkrɒk.ə.daɪl dʌŋ./"
       },
       {
         "sentence": "But botany was an important part of the magic.",
         "meaning-example": "Nhưng thực vật học là một phần quan trọng của ma thuật.",
-        "ipa-example": "/bət ˈbɒt.ə.ni wəz ən ɪmˈpɔː.tənt pɑːt əv ðə ˈmædʒ.ɪk./"
+        "ipa-example": "/bət ˈbɒt.ən.i wəz ən ɪmˈpɔː.tənt pɑːt əv ðə ˈmædʒ.ɪk./"
       },
       {
         "sentence": "Many healing spells gave instructions on how to use herbs and plants that were believed to be therapeutic.",
@@ -834,7 +834,7 @@
       },
       {
         "sentence": "For example, in order to cure arthritis, the book says that the magician should build an ornate altar.",
-        "meaning-example": "Ví dụ, để chữa bệnh viêm khớp, cuốn sách nói rằng pháp sư nên xây dựng một bàn thờ được trang trí công phu.",
+        "meaning-example": "Ví dụ, để chữa bệnh viêm khớp, cuốn sách nói rằng nhà ảo thuật nên xây dựng một bàn thờ lộng lẫy.",
         "ipa-example": "/fər ɪɡˈzɑːm.pəl, ɪn ˈɔː.dər tuː kjʊər ɑːˈθraɪ.tɪs, ðə bʊk sez ðət ðə məˈdʒɪʃ.ən ʃəd bɪld ən ɔːˈneɪt ˈɔːl.tər./"
       },
       {
@@ -844,17 +844,17 @@
       },
       {
         "sentence": "At dusk, he is supposed to say a spell, so the gods would be gratified.",
-        "meaning-example": "Vào lúc chạng vạng, anh ta phải đọc một câu thần chú, để các vị thần sẽ được hài lòng.",
+        "meaning-example": "Vào lúc hoàng hôn, anh ta phải nói một câu thần chú, để các vị thần sẽ được hài lòng.",
         "ipa-example": "/ət dʌsk, hi ɪz səˈpəʊzd tuː seɪ ə spel, səʊ ðə ɡɒdz wəd bi ˈɡræt.ɪ.faɪd./"
       },
       {
         "sentence": "Other parts of the collection describe how to hone one’s psychic abilities and how to give credible descriptions of the future.",
-        "meaning-example": "Các phần khác của bộ sưu tập mô tả cách rèn luyện khả năng tâm linh của một người và cách đưa ra những mô tả đáng tin cậy về tương lai.",
+        "meaning-example": "Các phần khác của bộ sưu tập mô tả cách trau dồi khả năng tâm linh của một người và cách đưa ra những mô tả đáng tin cậy về tương lai.",
         "ipa-example": "/ˈʌð.ər pɑːts əv ðə kəˈlek.ʃən dɪˈskraɪb haʊ tuː həʊn wʌnz ˈsaɪ.kɪk əˈbɪl.ə.tiz ənd haʊ tuː ɡɪv ˈkred.ə.bəl dɪˈskrɪp.ʃənz əv ðə ˈfjuː.tʃər./"
       },
       {
         "sentence": "Often, the book advised people how to use different objects to tell the future, including tea leaves.",
-        "meaning-example": "Thông thường, cuốn sách khuyên mọi người cách sử dụng các đồ vật khác nhau để bói tương lai, bao gồm cả lá trà.",
+        "meaning-example": "Thông thường, cuốn sách khuyên mọi người cách sử dụng các đồ vật khác nhau để xem bói tương lai, bao gồm cả lá trà.",
         "ipa-example": "/ˈɒf.ən, ðə bʊk ədˈvaɪzd ˈpiː.pəl haʊ tuː juːz ˈdɪf.ər.ənt ˈɒb.dʒekts tuː tel ðə ˈfjuː.tʃər, ɪnˈkluː.dɪŋ tiː liːvz./"
       },
       {
@@ -864,27 +864,27 @@
       },
       {
         "sentence": "It gives advice for using dreams to tell the future.",
-        "meaning-example": "Nó đưa ra lời khuyên về việc sử dụng giấc mơ để bói tương lai.",
-        "ipa-example": "/ɪt ɡɪvz ədˈvaɪs fɔːr ˈjuː.zɪŋ driːmz tuː tel ðə ˈfjuː.tʃər./"
+        "meaning-example": "Nó đưa ra lời khuyên về việc sử dụng những giấc mơ để nói trước tương lai.",
+        "ipa-example": "/ɪt ɡɪvz ədˈvaɪs fər ˈjuː.zɪŋ driːmz tuː tel ðə ˈfjuː.tʃər./"
       },
       {
         "sentence": "A small part of the book, however, is more sinister than the rest.",
-        "meaning-example": "Tuy nhiên, một phần nhỏ của cuốn sách lại nham hiểm hơn phần còn lại.",
+        "meaning-example": "Tuy nhiên, một phần nhỏ của cuốn sách thì nham hiểm hơn phần còn lại.",
         "ipa-example": "/ə smɔːl pɑːt əv ðə bʊk, haʊˈev.ər, ɪz mɔːr ˈsɪn.ɪ.stər ðən ðə rest./"
       },
       {
         "sentence": "It is meant to cause strife and deception.",
-        "meaning-example": "Nó có mục đích gây ra xung đột và lừa dối.",
+        "meaning-example": "Nó có nghĩa là gây ra xung đột và lừa dối.",
         "ipa-example": "/ɪt ɪz ment tuː kɔːz straɪf ənd dɪˈsep.ʃən./"
       },
       {
         "sentence": "For example, one tells how to give someone warts, while another will make all of the victim’s farm animals die.",
-        "meaning-example": "Ví dụ, một câu thần chú kể cách làm cho ai đó bị mụn cóc, trong khi một câu khác sẽ làm cho tất cả các con vật nuôi trong trang trại của nạn nhân chết.",
+        "meaning-example": "Ví dụ, một câu thần chú cho biết cách làm cho ai đó bị mụn cóc, trong khi một câu khác sẽ làm cho tất cả gia súc của nạn nhân chết.",
         "ipa-example": "/fər ɪɡˈzɑːm.pəl, wʌn telz haʊ tuː ɡɪv ˈsʌm.wʌn wɔːts, waɪl əˈnʌð.ər wɪl meɪk ɔːl əv ðə ˈvɪk.tɪmz fɑːm ˈæn.ɪ.məlz daɪ./"
       },
       {
         "sentence": "However, if someone’s farm animals died as a result of a curse, he could ask a magician to perform magic that makes the deceased come back to life.",
-        "meaning-example": "Tuy nhiên, nếu vật nuôi trong trang trại của ai đó chết do một lời nguyền, anh ta có thể yêu cầu một pháp sư thực hiện phép thuật làm cho người đã chết sống lại.",
+        "meaning-example": "Tuy nhiên, nếu gia súc của ai đó chết do một lời nguyền, anh ta có thể yêu cầu một nhà ảo thuật thực hiện phép thuật làm cho người đã chết sống lại.",
         "ipa-example": "/haʊˈev.ər, ɪf ˈsʌm.wʌnz fɑːm ˈæn.ɪ.məlz daɪd əz ə rɪˈzʌlt əv ə kɜːs, hi kəd ɑːsk ə məˈdʒɪʃ.ən tuː pəˈfɔːm ˈmædʒ.ɪk ðət meɪks ðə dɪˈsiːst kʌm bæk tuː laɪf./"
       }
     ]
