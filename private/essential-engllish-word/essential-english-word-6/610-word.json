@@ -1,0 +1,752 @@
+[
+  {
+    "word": "accumulate",
+    "ipa": "/əˈkjuː.mjə.leɪt/",
+    "meaning": "Tích tụ, chất đống.",
+    "image": "eew-6-10/1.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "accumulate",
+        "meaning-example": "Tích tụ, chất đống.",
+        "ipa-example": "/əˈkjuː.mjə.leɪt/"
+      },
+      {
+        "sentence": "\"Ờ, kêu Miu lết lại đây!\" - bà chủ gọi con mèo lười. Con mèo lết từng bước, kéo theo một đống bụi bẩn **tích tụ** lại trên sàn nhà. Cứ \"ờ kêu Miu lết\" là **chất đống** thêm rác.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To collect a large number of things over a long period of time.",
+        "meaning-example": "Thu thập một số lượng lớn mọi thứ trong một khoảng thời gian dài.",
+        "ipa-example": "/tuː kəˈlekt ə lɑːdʒ ˈnʌm.bər əv θɪŋz ˈəʊ.vər ə lɒŋ ˈpɪə.ri.əd əv taɪm./"
+      },
+      {
+        "sentence": "If too much accumulated, it could cause an avalanche.",
+        "meaning-example": "Nếu tuyết tích tụ quá nhiều, nó có thể gây ra một trận lở tuyết.",
+        "ipa-example": "/ɪf tuː mʌtʃ əˈkjuː.mjə.leɪ.tɪd, ɪt kʊd kɔːz ən ˈæv.əl.ɑːnʃ./"
+      }
+    ]
+  },
+  {
+    "word": "aerial",
+    "ipa": "/ˈeə.ri.əl/",
+    "meaning": "(Thuộc) trên không, trên trời.",
+    "image": "eew-6-10/2.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "aerial",
+        "meaning-example": "(Thuộc) trên không, trên trời.",
+        "ipa-example": "/ˈeə.ri.əl/"
+      },
+      {
+        "sentence": "\"E ơi, rìu ở đâu?\" - người thợ mộc hỏi. Người kia chỉ lên trời: \"E ơi rìu ở trên kia kìa!\". Hóa ra là chiếc rìu được treo bởi một thiết bị cứu hộ **trên không**. Cứ \"e ơi rìu ở\" đâu là nhớ đến **trên không**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "In or from the air.",
+        "meaning-example": "Ở trong hoặc từ trên không.",
+        "ipa-example": "/ɪn ɔːr frəm ði eər./"
+      },
+      {
+        "sentence": "An aerial rescue team came quickly.",
+        "meaning-example": "Một đội cứu hộ trên không đã đến nhanh chóng.",
+        "ipa-example": "/ən ˈeə.ri.əl ˈres.kjuː tiːm keɪm ˈkwɪk.li./"
+      }
+    ]
+  },
+  {
+    "word": "apparatus",
+    "ipa": "/ˌæp.əˈreɪ.təs/",
+    "meaning": "Thiết bị, dụng cụ.",
+    "image": "eew-6-10/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "apparatus",
+        "meaning-example": "Thiết bị, dụng cụ.",
+        "ipa-example": "/ˌæp.əˈreɪ.təs/"
+      },
+      {
+        "sentence": "\"Áp ba ra Tết mới mua cho **thiết bị** này đó!\" - cậu bé khoe với bạn bè. Đó là một **dụng cụ** thí nghiệm phức tạp mà cậu ao ước từ lâu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A set of equipment or tools or a machine that is used for a particular purpose.",
+        "meaning-example": "Một bộ thiết bị hoặc công cụ hoặc một cỗ máy được sử dụng cho một mục đích cụ thể.",
+        "ipa-example": "/ə set əv ɪˈkwɪp.mənt ɔːr tuːlz ɔːr ə məˈʃiːn ðət ɪz juːzd fɔːr ə pəˈtɪk.jə.lər ˈpɜː.pəs./"
+      },
+      {
+        "sentence": "But Randy had an apparatus to get rid of the snow.",
+        "meaning-example": "Nhưng Randy có một thiết bị để dọn tuyết.",
+        "ipa-example": "/bət ˈræn.di həd ən ˌæp.əˈreɪ.təs tuː ɡet rɪd əv ðə snəʊ./"
+      }
+    ]
+  },
+  {
+    "word": "avalanche",
+    "ipa": "/ˈæv.əl.ɑːnʃ/",
+    "meaning": "Tuyết lở.",
+    "image": "eew-6-10/4.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "avalanche",
+        "meaning-example": "Tuyết lở.",
+        "ipa-example": "/ˈæv.əl.ɑːnʃ/"
+      },
+      {
+        "sentence": "\"A! Phải và lán ngay!\" - người leo núi hét lên khi thấy một khối tuyết khổng lồ đang đổ xuống. Cả nhóm vội vàng chạy vào lán trú ẩn để tránh trận **tuyết lở**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A large amount of ice, snow, and rock falling quickly down the side of a mountain.",
+        "meaning-example": "Một lượng lớn băng, tuyết và đá rơi nhanh xuống sườn núi.",
+        "ipa-example": "/ə lɑːdʒ əˈmaʊnt əv aɪs, snəʊ, ənd rɒk ˈfɔː.lɪŋ ˈkwɪk.li daʊn ðə saɪd əv ə ˈmaʊn.tɪn./"
+      },
+      {
+        "sentence": "If too much accumulated, it could cause an avalanche.",
+        "meaning-example": "Nếu tuyết tích tụ quá nhiều, nó có thể gây ra một trận lở tuyết.",
+        "ipa-example": "/ɪf tuː mʌtʃ əˈkjuː.mjə.leɪ.tɪd, ɪt kʊd kɔːz ən ˈæv.əl.ɑːnʃ./"
+      }
+    ]
+  },
+  {
+    "word": "consistency",
+    "ipa": "/kənˈsɪs.tən.si/",
+    "meaning": "Sự nhất quán, sự kiên định.",
+    "image": "eew-6-10/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "consistency",
+        "meaning-example": "Sự nhất quán, sự kiên định.",
+        "ipa-example": "/kənˈsɪs.tən.si/"
+      },
+      {
+        "sentence": "Để nấu được nồi chè ngon, người đầu bếp nói: \"Con cứ sờ tận tay, sờ đi sờ lại sẽ thấy **sự nhất quán**.\" Nghĩa là phải đảm bảo độ đặc của chè luôn giống nhau, thể hiện **sự kiên định** trong chất lượng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The quality of always behaving or performing in a similar way, or of always happening in a similar way.",
+        "meaning-example": "Phẩm chất luôn hành xử hoặc thực hiện theo một cách tương tự, hoặc luôn xảy ra theo một cách tương tự.",
+        "ipa-example": "/ðə ˈkwɒl.ə.ti əv ˈɔːl.weɪz bɪˈheɪ.vɪŋ ɔːr pəˈfɔː.mɪŋ ɪn ə ˈsɪm.ɪ.lər weɪ, ɔːr əv ˈɔːl.weɪz ˈhæp.ən.ɪŋ ɪn ə ˈsɪm.ɪ.lər weɪ./"
+      },
+      {
+        "sentence": "His upbringing had taught him consistency.",
+        "meaning-example": "Sự nuôi dạy đã dạy cho anh tính nhất quán.",
+        "ipa-example": "/hɪz ˈʌpˌbrɪŋ.ɪŋ həd tɔːt hɪm kənˈsɪs.tən.si./"
+      }
+    ]
+  },
+  {
+    "word": "convection",
+    "ipa": "/kənˈvek.ʃən/",
+    "meaning": "Sự đối lưu.",
+    "image": "eew-6-10/6.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "convection",
+        "meaning-example": "Sự đối lưu.",
+        "ipa-example": "/kənˈvek.ʃən/"
+      },
+      {
+        "sentence": "Thầy giáo vật lý giải thích: \"Không khí nóng đi lên, lạnh đi xuống, cứ như `con vẹt` bay `lượn` vậy đó. Quá trình đó gọi là **sự đối lưu**.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The movement of heat through a gas or liquid.",
+        "meaning-example": "Sự chuyển động của nhiệt qua chất khí hoặc chất lỏng.",
+        "ipa-example": "/ðə ˈmuːv.mənt əv hiːt θruː ə ɡæs ɔːr ˈlɪk.wɪd./"
+      },
+      {
+        "sentence": "Convection in the atmosphere is causing a lot of clouds to form.",
+        "meaning-example": "Sự đối lưu trong khí quyển đang gây ra rất nhiều mây hình thành.",
+        "ipa-example": "/kənˈvek.ʃən ɪn ði ˈæt.mə.sfɪər ɪz ˈkɔː.zɪŋ ə lɒt əv klaʊdz tuː fɔːm./"
+      }
+    ]
+  },
+  {
+    "word": "discharge",
+    "ipa": "/dɪsˈtʃɑːdʒ/",
+    "meaning": "Cho ra viện, cho xuất viện.",
+    "image": "eew-6-10/7.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "discharge",
+        "meaning-example": "Cho ra viện, cho xuất viện.",
+        "ipa-example": "/dɪsˈtʃɑːdʒ/"
+      },
+      {
+        "sentence": "Bệnh nhân vui mừng khoe: \"Bác sĩ vừa `đít` vào tờ giấy `chạc` một cái là tôi được **xuất viện** ngay!\" Cái dấu \"đít chạc\" đó chính là giấy phép cho ông được **ra viện**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To allow someone officially to leave somewhere, especially a hospital or a law court.",
+        "meaning-example": "Cho phép ai đó chính thức rời khỏi một nơi nào đó, đặc biệt là bệnh viện hoặc tòa án.",
+        "ipa-example": "/tuː əˈlaʊ ˈsʌm.wʌn əˈfɪʃ.əl.i tuː liːv ˈsʌm.weər, ɪˈspeʃ.əl.i ə ˈhɒs.pɪ.təl ɔːr ə lɔː kɔːt./"
+      },
+      {
+        "sentence": "After five days, Randy was discharged from the hospital.",
+        "meaning-example": "Sau năm ngày, Randy được xuất viện.",
+        "ipa-example": "/ˈɑːf.tər faɪv deɪz, ˈræn.di wəz dɪsˈtʃɑːdʒd frəm ðə ˈhɒs.pɪ.təl./"
+      }
+    ]
+  },
+  {
+    "word": "intact",
+    "ipa": "/ɪnˈtækt/",
+    "meaning": "Nguyên vẹn, không bị hư tổn.",
+    "image": "eew-6-10/8.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "intact",
+        "meaning-example": "Nguyên vẹn, không bị hư tổn.",
+        "ipa-example": "/ɪnˈtækt/"
+      },
+      {
+        "sentence": "Sau trận bão, người ta tìm thấy một cuốn sách cổ được `in` hình các `tác` phẩm nghệ thuật. Dù mọi thứ xung quanh đều hư hỏng, cuốn sách vẫn **nguyên vẹn**, không bị hề hấn gì.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Not damaged or broken; complete.",
+        "meaning-example": "Không bị hư hỏng hoặc vỡ; hoàn chỉnh.",
+        "ipa-example": "/nɒt ˈdæm.ɪdʒd ɔːr ˈbrəʊ.kən; kəmˈpliːt./"
+      },
+      {
+        "sentence": "But the rest of you is still reasonably intact.",
+        "meaning-example": "Nhưng phần còn lại của bạn vẫn còn khá nguyên vẹn.",
+        "ipa-example": "/bət ðə rest əv juː ɪz stɪl ˈriː.zən.ə.bli ɪnˈtækt./"
+      }
+    ]
+  },
+  {
+    "word": "mortal",
+    "ipa": "/ˈmɔː.təl/",
+    "meaning": "Phải chết, không thể sống mãi.",
+    "image": "eew-6-10/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "mortal",
+        "meaning-example": "Phải chết, không thể sống mãi.",
+        "ipa-example": "/ˈmɔː.təl/"
+      },
+      {
+        "sentence": "Một vị thần nói với con người: \"Các ngươi chỉ là những kẻ `mò` mẫm trong tăm tối và `tồ` tệch, vì các ngươi là **người trần mắt thịt**, không thể sống mãi được. Cuối cùng ai cũng **phải chết**.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "(Of a person) subject to death.",
+        "meaning-example": "(Về một người) phải chịu cái chết.",
+        "ipa-example": "/(əv ə ˈpɜː.sən) ˈsʌb.dʒekt tuː deθ./"
+      },
+      {
+        "sentence": "The experience had taught him a poignant lesson: he was a mortal, and nature was much more powerful than him.",
+        "meaning-example": "Trải nghiệm đó đã dạy cho anh một bài học thấm thía: anh là một người trần, và thiên nhiên mạnh hơn anh rất nhiều.",
+        "ipa-example": "/ði ɪkˈspɪə.ri.əns həd tɔːt hɪm ə ˈpɔɪ.njənt ˈles.ən: hiː wəz ə ˈmɔː.təl, ənd ˈneɪ.tʃər wəz mʌtʃ mɔːr ˈpaʊə.fəl ðən hɪm./"
+      }
+    ]
+  },
+  {
+    "word": "omen",
+    "ipa": "/ˈəʊ.mən/",
+    "meaning": "Điềm, điềm báo.",
+    "image": "eew-6-10/10.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "omen",
+        "meaning-example": "Điềm, điềm báo.",
+        "ipa-example": "/ˈəʊ.mən/"
+      },
+      {
+        "sentence": "\"Ô men!\" - một người đàn ông la lên khi thấy một con quạ đen đậu trên mái nhà. Anh ta tin rằng đó là một **điềm báo** không lành.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Something that is considered to be a sign of how a future event will take place.",
+        "meaning-example": "Một cái gì đó được coi là một dấu hiệu về cách một sự kiện trong tương lai sẽ diễn ra.",
+        "ipa-example": "/ˈsʌm.θɪŋ ðət ɪz kənˈsɪd.əd tuː biː ə saɪn əv haʊ ə ˈfjuː.tʃər ɪˈvent wɪl teɪk pleɪs./"
+      },
+      {
+        "sentence": "Anybody else would have taken the dark sky as an omen of a very bad storm...",
+        "meaning-example": "Bất kỳ ai khác cũng sẽ coi bầu trời tối sầm như một điềm báo của một cơn bão rất tồi tệ...",
+        "ipa-example": "/ˈen.i.bɒd.i els wʊd həv ˈteɪ.kən ðə dɑːk skaɪ əz ən ˈəʊ.mən əv ə ˈver.i bæd stɔːm.../"
+      }
+    ]
+  },
+  {
+    "word": "overcast",
+    "ipa": "/ˈəʊ.və.kɑːst/",
+    "meaning": "U ám, đầy mây.",
+    "image": "eew-6-10/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "overcast",
+        "meaning-example": "U ám, đầy mây.",
+        "ipa-example": "/ˈəʊ.və.kɑːst/"
+      },
+      {
+        "sentence": "Du khách châu `Âu` đến Việt Nam, họ `vơ cát` lên chơi nhưng rồi lại thất vọng vì bầu trời **u ám**, mây đen che kín. Một ngày nghỉ trên bãi biển mà trời **đầy mây** thì thật là buồn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "With clouds in the sky and therefore not bright and sunny.",
+        "meaning-example": "Có mây trên trời và do đó không sáng sủa và nắng.",
+        "ipa-example": "/wɪð klaʊdz ɪn ðə skaɪ ənd ˈðeə.fɔːr nɒt braɪt ənd ˈsʌn.i./"
+      },
+      {
+        "sentence": "He went outside and looked at the overcast sky.",
+        "meaning-example": "Anh ra ngoài và nhìn lên bầu trời u ám.",
+        "ipa-example": "/hiː went ˌaʊtˈsaɪd ənd lʊkt ət ði ˈəʊ.və.kɑːst skaɪ./"
+      }
+    ]
+  },
+  {
+    "word": "poignant",
+    "ipa": "/ˈpɔɪ.njənt/",
+    "meaning": "Sâu sắc, thấm thía.",
+    "image": "eew-6-10/12.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "poignant",
+        "meaning-example": "Sâu sắc, thấm thía.",
+        "ipa-example": "/ˈpɔɪ.njənt/"
+      },
+      {
+        "sentence": "Người lính già nhìn tấm ảnh đồng đội đã hy sinh, ông chỉ nói một câu: \"Thật `buốt nhói`!\". Đó là một kỷ niệm **sâu sắc**, một nỗi đau **thấm thía** mà ông không bao giờ quên.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Causing or having a very sharp feeling of sadness.",
+        "meaning-example": "Gây ra hoặc có một cảm giác buồn bã rất sâu sắc.",
+        "ipa-example": "/ˈkɔː.zɪŋ ɔːr ˈhæv.ɪŋ ə ˈver.i ʃɑːp ˈfiː.lɪŋ əv ˈsæd.nəs./"
+      },
+      {
+        "sentence": "The experience had taught him a poignant lesson...",
+        "meaning-example": "Trải nghiệm đó đã dạy cho anh một bài học thấm thía...",
+        "ipa-example": "/ði ɪkˈspɪə.ri.əns həd tɔːt hɪm ə ˈpɔɪ.njənt ˈles.ən.../"
+      }
+    ]
+  },
+  {
+    "word": "ranger",
+    "ipa": "/ˈreɪn.dʒər/",
+    "meaning": "Nhân viên kiểm lâm.",
+    "image": "eew-6-10/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "ranger",
+        "meaning-example": "Nhân viên kiểm lâm.",
+        "ipa-example": "/ˈreɪn.dʒər/"
+      },
+      {
+        "sentence": "Người **nhân viên kiểm lâm** bị lạc trong rừng. Anh ta chỉ biết ngồi xuống và `rên` rỉ `chờ` đợi đội cứu hộ đến.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person whose job is to protect a forest or natural park.",
+        "meaning-example": "Một người có công việc là bảo vệ một khu rừng hoặc công viên tự nhiên.",
+        "ipa-example": "/ə ˈpɜː.sən huːz dʒɒb ɪz tuː prəˈtekt ə ˈfɒr.ɪst ɔːr ˈnætʃ.ər.əl pɑːk./"
+      },
+      {
+        "sentence": "Randy was a forest ranger.",
+        "meaning-example": "Randy là một nhân viên kiểm lâm.",
+        "ipa-example": "/ˈræn.di wəz ə ˈfɒr.ɪst ˈreɪn.dʒər./"
+      }
+    ]
+  },
+  {
+    "word": "rubble",
+    "ipa": "/ˈrʌb.əl/",
+    "meaning": "Gạch vụn, đống đổ nát.",
+    "image": "eew-6-10/14.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "rubble",
+        "meaning-example": "Gạch vụn, đống đổ nát.",
+        "ipa-example": "/ˈrʌb.əl/"
+      },
+      {
+        "sentence": "Sau trận động đất, ngôi nhà chỉ còn là một đống **đổ nát**. Một người sống sót `rờ` vào những `bồ` xi măng vỡ vụn và bật khóc. Khắp nơi chỉ toàn là **gạch vụn**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The piles of broken stone and bricks, etc. that are left when a building falls down or is destroyed.",
+        "meaning-example": "Những đống đá và gạch vỡ, v.v. còn lại khi một tòa nhà bị sập hoặc bị phá hủy.",
+        "ipa-example": "/ðə paɪlz əv ˈbrəʊ.kən stəʊn ənd brɪks, etˈset.ər.ə ðət ɑːr left wen ə ˈbɪl.dɪŋ fɔːlz daʊn ɔːr ɪz dɪˈstrɔɪd./"
+      },
+      {
+        "sentence": "...he was knocked sideways and buried by the snow and rubble from an old cabin that had been destroyed.",
+        "meaning-example": "...anh ta bị hất sang một bên và bị vùi lấp bởi tuyết và đống đổ nát từ một căn nhà gỗ cũ đã bị phá hủy.",
+        "ipa-example": "/...hiː wəz nɒkt ˈsaɪd.weɪz ənd ˈber.id baɪ ðə snəʊ ənd ˈrʌb.əl frəm ən əʊld ˈkæb.ɪn ðət həd biːn dɪˈstrɔɪd./"
+      }
+    ]
+  },
+  {
+    "word": "seclude",
+    "ipa": "/sɪˈkluːd/",
+    "meaning": "Tách biệt, ẩn dật.",
+    "image": "eew-6-10/15.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "seclude",
+        "meaning-example": "Tách biệt, ẩn dật.",
+        "ipa-example": "/sɪˈkluːd/"
+      },
+      {
+        "sentence": "Ông lão sống một mình trong rừng, ông `sợ` sự `khờ` dại và `lúc` nhúc của đám đông ngoài kia. Vì vậy, ông chọn cách **tách biệt** bản thân, sống một cuộc đời **ẩn dật**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To keep someone or something away from other people or things.",
+        "meaning-example": "Giữ ai đó hoặc cái gì đó tránh xa những người hoặc những thứ khác.",
+        "ipa-example": "/tuː kiːp ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ əˈweɪ frəm ˈʌð.ər ˈpiː.pəl ɔːr θɪŋz./"
+      },
+      {
+        "sentence": "Because of his job, he was secluded in a cabin in the wilderness.",
+        "meaning-example": "Vì công việc, anh sống tách biệt trong một căn nhà gỗ nơi hoang dã.",
+        "ipa-example": "/bɪˈkəz əv hɪz dʒɒb, hiː wəz sɪˈkluː.dɪd ɪn ə ˈkæb.ɪn ɪn ðə ˈwɪl.də.nəs./"
+      }
+    ]
+  },
+  {
+    "word": "sideways",
+    "ipa": "/ˈsaɪd.weɪz/",
+    "meaning": "Theo chiều ngang, sang một bên.",
+    "image": "eew-6-10/16.png",
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "sideways",
+        "meaning-example": "Theo chiều ngang, sang một bên.",
+        "ipa-example": "/ˈsaɪd.weɪz/"
+      },
+      {
+        "sentence": "Cậu bé làm điều `sai quấy` nên khi bị mẹ gọi, cậu không dám nhìn thẳng mà chỉ lén lút đi **sang ngang**, liếc nhìn về một phía.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "In a direction to the left or right, not forwards or backwards.",
+        "meaning-example": "Theo hướng sang trái hoặc phải, không phải tiến hoặc lùi.",
+        "ipa-example": "/ɪn ə daɪˈrek.ʃən tuː ðə left ɔːr raɪt, nɒt ˈfɔː.wədz ɔːr ˈbæk.wədz./"
+      },
+      {
+        "sentence": "...he was knocked sideways and buried by the snow and rubble...",
+        "meaning-example": "...anh ấy bị hất sang một bên và bị vùi lấp bởi tuyết và đống đổ nát...",
+        "ipa-example": "/...hiː wəz nɒkt ˈsaɪd.weɪz ənd ˈber.id baɪ ðə snəʊ ənd ˈrʌb.əl.../"
+      }
+    ]
+  },
+  {
+    "word": "sob",
+    "ipa": "/sɒb/",
+    "meaning": "Khóc nức nở, thổn thức.",
+    "image": "eew-6-10/17.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "sob",
+        "meaning-example": "Khóc nức nở, thổn thức.",
+        "ipa-example": "/sɒb/"
+      },
+      {
+        "sentence": "Đứa trẻ bị mẹ mắng, nó buồn quá liền ngồi thu lu một góc, hai vai rung lên từng chặp. Tiếng khóc `sụt sịt` của nó nghe như tiếng `xốp` bị bóp, đó là tiếng **khóc nức nở**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To cry noisily, taking in deep, sudden breaths.",
+        "meaning-example": "Khóc một cách ồn ào, hít vào những hơi thở sâu và đột ngột.",
+        "ipa-example": "/tuː kraɪ ˈnɔɪ.zɪ.li, ˈteɪkɪŋ ɪn diːp, ˈsʌd.ən breθs./"
+      },
+      {
+        "sentence": "...and saw his wife sobbing.",
+        "meaning-example": "...và thấy vợ anh đang nức nở.",
+        "ipa-example": "/...ənd sɔː hɪz waɪf ˈsɒb.ɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "sober",
+    "ipa": "/ˈsəʊ.bər/",
+    "meaning": "Tỉnh táo, không say; nghiêm nghị.",
+    "image": "eew-6-10/18.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "sober",
+        "meaning-example": "Tỉnh táo, không say; nghiêm nghị.",
+        "ipa-example": "/ˈsəʊ.bər/"
+      },
+      {
+        "sentence": "Sau bữa tiệc, anh chàng say rượu chỉ muốn ăn một `tô bơ` để giã rượu. Anh ta nói: \"Ăn xong `tô bơ` này tôi sẽ **tỉnh táo** ngay!\". Gương mặt anh lúc đó cũng trở nên **nghiêm nghị** hơn hẳn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Not drunk or affected by alcohol; serious and calm.",
+        "meaning-example": "Không say rượu hoặc bị ảnh hưởng bởi rượu; nghiêm túc và bình tĩnh.",
+        "ipa-example": "/nɒt drʌŋk ɔːr əˈfek.tɪd baɪ ˈæl.kə.hɒl; ˈsɪə.ri.əs ənd kɑːm./"
+      },
+      {
+        "sentence": "He looked at the sober faces of the doctors...",
+        "meaning-example": "Anh nhìn những khuôn mặt nghiêm nghị của các bác sĩ...",
+        "ipa-example": "/hiː lʊkt ət ðə ˈsəʊ.bər ˈfeɪ.sɪz əv ðə ˈdɒk.təz.../"
+      }
+    ]
+  },
+  {
+    "word": "speck",
+    "ipa": "/spek/",
+    "meaning": "Đốm, vết, hạt (rất nhỏ).",
+    "image": "eew-6-10/19.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "speck",
+        "meaning-example": "Đốm, vết, hạt (rất nhỏ).",
+        "ipa-example": "/spek/"
+      },
+      {
+        "sentence": "\"Sao `sờ` vào `béc` thế này?\" - người thợ sửa xe càu nhàu khi thấy một **hạt bụi** nhỏ xíu kẹt trong vòi phun xăng. Chỉ một **đốm nhỏ** như vậy cũng có thể gây ra hỏng hóc lớn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A very small mark, piece, or amount.",
+        "meaning-example": "Một dấu, mẩu, hoặc lượng rất nhỏ.",
+        "ipa-example": "/ə ˈver.i smɔːl mɑːk, piːs, ɔːr əˈmaʊnt./"
+      },
+      {
+        "sentence": "Randy was just a speck amongst the great pile of snow...",
+        "meaning-example": "Randy chỉ là một đốm nhỏ giữa đống tuyết khổng lồ...",
+        "ipa-example": "/ˈræn.di wəz dʒəst ə spek əˈmʌŋst ðə ɡreɪt paɪl əv snəʊ.../"
+      }
+    ]
+  },
+  {
+    "word": "upbringing",
+    "ipa": "/ˈʌpˌbrɪŋ.ɪŋ/",
+    "meaning": "Sự giáo dục, sự nuôi dưỡng (khi còn nhỏ).",
+    "image": "eew-6-10/20.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "upbringing",
+        "meaning-example": "Sự giáo dục, sự nuôi dưỡng (khi còn nhỏ).",
+        "ipa-example": "/ˈʌpˌbrɪŋ.ɪŋ/"
+      },
+      {
+        "sentence": "Cha mẹ luôn `ắp` đầy tình yêu thương và `rinh` về những điều tốt đẹp nhất cho con cái. Đó chính là **sự nuôi dưỡng** và **giáo dục** tuyệt vời nhất mà họ có thể dành cho con mình.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The way in which you are treated and educated when young, especially by your parents.",
+        "meaning-example": "Cách bạn được đối xử và giáo dục khi còn nhỏ, đặc biệt là bởi cha mẹ của bạn.",
+        "ipa-example": "/ðə weɪ ɪn wɪtʃ juː ɑːr ˈtriː.tɪd ənd ˈed.jʊ.keɪ.tɪd wen jʌŋ, ɪˈspeʃ.əl.i baɪ jɔːr ˈpeə.rənts./"
+      },
+      {
+        "sentence": "His upbringing had taught him consistency.",
+        "meaning-example": "Sự nuôi dạy đã dạy cho anh tính nhất quán.",
+        "ipa-example": "/hɪz ˈʌpˌbrɪŋ.ɪŋ həd tɔːt hɪm kənˈsɪs.tən.si./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Avalanche",
+        "meaning-example": "Trận lở tuyết",
+        "ipa-example": "/ði ˈæv.əl.ɑːnʃ/"
+      },
+      {
+        "sentence": "Randy was a forest ranger.",
+        "meaning-example": "Randy là một nhân viên kiểm lâm.",
+        "ipa-example": "/ˈræn.di wəz ə ˈfɒr.ɪst ˈreɪn.dʒər./"
+      },
+      {
+        "sentence": "Because of his job, he was secluded in a cabin in the wilderness.",
+        "meaning-example": "Vì công việc, anh sống tách biệt trong một căn nhà gỗ nơi hoang dã.",
+        "ipa-example": "/bɪˈkəz əv hɪz dʒɒb, hiː wəz sɪˈkluː.dɪd ɪn ə ˈkæb.ɪn ɪn ðə ˈwɪl.də.nəs./"
+      },
+      {
+        "sentence": "One day, the radio reported, “Convection in the atmosphere is causing a lot of clouds to form.",
+        "meaning-example": "Một ngày nọ, đài phát thanh báo cáo, “Sự đối lưu trong khí quyển đang gây ra rất nhiều mây hình thành.",
+        "ipa-example": "/wʌn deɪ, ðə ˈreɪ.di.əʊ rɪˈpɔː.tɪd, “kənˈvek.ʃən ɪn ði ˈæt.mə.sfɪər ɪz ˈkɔː.zɪŋ ə lɒt əv klaʊdz tuː fɔːm./"
+      },
+      {
+        "sentence": "A serious storm ...” Suddenly, the radio went silent.",
+        "meaning-example": "Một cơn bão nghiêm trọng ...” Đột nhiên, đài phát thanh im bặt.",
+        "ipa-example": "/ə ˈsɪə.ri.əs stɔːm ...” ˈsʌd.ən.li, ðə ˈreɪ.di.əʊ went ˈsaɪ.lənt./"
+      },
+      {
+        "sentence": "The signal was lost.",
+        "meaning-example": "Tín hiệu đã bị mất.",
+        "ipa-example": "/ðə ˈsɪɡ.nəl wəz lɒst./"
+      },
+      {
+        "sentence": "He went outside and looked at the overcast sky.",
+        "meaning-example": "Anh ra ngoài và nhìn lên bầu trời u ám.",
+        "ipa-example": "/hiː went ˌaʊtˈsaɪd ənd lʊkt ət ði ˈəʊ.və.kɑːst skaɪ./"
+      },
+      {
+        "sentence": "Anybody else would have taken the dark sky as an omen of a very bad storm, but not Randy.",
+        "meaning-example": "Bất kỳ ai khác cũng sẽ coi bầu trời tối sầm như một điềm báo của một cơn bão rất tồi tệ, nhưng Randy thì không.",
+        "ipa-example": "/ˈen.i.bɒd.i els wʊd həv ˈteɪ.kən ðə dɑːk skaɪ əz ən ˈəʊ.mən əv ə ˈver.i bæd stɔːm, bət nɒt ˈræn.di./"
+      },
+      {
+        "sentence": "His upbringing had taught him consistency.",
+        "meaning-example": "Sự nuôi dạy đã dạy cho anh tính nhất quán.",
+        "ipa-example": "/hɪz ˈʌpˌbrɪŋ.ɪŋ həd tɔːt hɪm kənˈsɪs.tən.si./"
+      },
+      {
+        "sentence": "He had done this job for years, and nothing could stop him.",
+        "meaning-example": "Anh đã làm công việc này trong nhiều năm, và không gì có thể ngăn cản anh.",
+        "ipa-example": "/hiː həd dʌn ðɪs dʒɒb fɔːr jɪəz, ənd ˈnʌθ.ɪŋ kʊd stɒp hɪm./"
+      },
+      {
+        "sentence": "Besides, he thought nothing could hurt him.",
+        "meaning-example": "Bên cạnh đó, anh nghĩ không gì có thể làm hại anh.",
+        "ipa-example": "/bɪˈsaɪdz, hiː θɔːt ˈnʌθ.ɪŋ kʊd hɜːt hɪm./"
+      },
+      {
+        "sentence": "Today, he had a very important task to do.",
+        "meaning-example": "Hôm nay, anh có một nhiệm vụ rất quan trọng phải làm.",
+        "ipa-example": "/təˈdeɪ, hiː həd ə ˈver.i ɪmˈpɔː.tənt tɑːsk tuː duː./"
+      },
+      {
+        "sentence": "The snow was starting to pile up high on the mountain.",
+        "meaning-example": "Tuyết bắt đầu chất đống cao trên núi.",
+        "ipa-example": "/ðə snəʊ wəz ˈstɑː.tɪŋ tuː paɪl ʌp haɪ ɒn ðə ˈmaʊn.tɪn./"
+      },
+      {
+        "sentence": "If too much accumulated, it could cause an avalanche.",
+        "meaning-example": "Nếu tuyết tích tụ quá nhiều, nó có thể gây ra một trận lở tuyết.",
+        "ipa-example": "/ɪf tuː mʌtʃ əˈkjuː.mjə.leɪ.tɪd, ɪt kʊd kɔːz ən ˈæv.əl.ɑːnʃ./"
+      },
+      {
+        "sentence": "But Randy had an apparatus to get rid of the snow.",
+        "meaning-example": "Nhưng Randy có một thiết bị để dọn tuyết.",
+        "ipa-example": "/bət ˈræn.di həd ən ˌæp.əˈreɪ.təs tuː ɡet rɪd əv ðə snəʊ./"
+      },
+      {
+        "sentence": "It used dynamite to shake the snow and make the top layer of snow come down.",
+        "meaning-example": "Nó sử dụng thuốc nổ để làm rung chuyển tuyết và làm cho lớp tuyết trên cùng rơi xuống.",
+        "ipa-example": "/ɪt juːzd ˈdaɪ.nə.maɪt tuː ʃeɪk ðə snəʊ ənd meɪk ðə tɒp ˈleɪ.ər əv snəʊ kʌm daʊn./"
+      },
+      {
+        "sentence": "As the snow started falling, he thought about returning to the office until the storm stopped, but he decided not to.",
+        "meaning-example": "Khi tuyết bắt đầu rơi, anh nghĩ đến việc quay trở lại văn phòng cho đến khi cơn bão tan, nhưng anh đã quyết định không làm vậy.",
+        "ipa-example": "/əz ðə snəʊ ˈstɑː.tɪd ˈfɔː.lɪŋ, hiː θɔːt əˈbaʊt rɪˈtɜː.nɪŋ tuː ði ˈɒf.ɪs ənˈtɪl ðə stɔːm stɒpt, bət hiː dɪˈsaɪ.dɪd nɒt tuː./"
+      },
+      {
+        "sentence": "Suddenly, he heard a loud noise behind him.",
+        "meaning-example": "Đột nhiên, anh nghe thấy một tiếng động lớn sau lưng.",
+        "ipa-example": "/ˈsʌd.ən.li, hiː hɜːd ə laʊd nɔɪz bɪˈhaɪnd hɪm./"
+      },
+      {
+        "sentence": "It was an avalanche!",
+        "meaning-example": "Đó là một trận lở tuyết!",
+        "ipa-example": "/ɪt wəz ən ˈæv.əl.ɑːnʃ!/"
+      },
+      {
+        "sentence": "He started to run, but within seconds, he was knocked sideways and buried by the snow and rubble from an old cabin that had been destroyed.",
+        "meaning-example": "Anh bắt đầu chạy, nhưng trong vòng vài giây, anh bị hất sang một bên và bị vùi lấp bởi tuyết và đống đổ nát từ một căn nhà gỗ cũ đã bị phá hủy.",
+        "ipa-example": "/hiː ˈstɑː.tɪd tuː rʌn, bət wɪˈðɪn ˈsek.əndz, hiː wəz nɒkt ˈsaɪd.weɪz ənd ˈber.id baɪ ðə snəʊ ənd ˈrʌb.əl frəm ən əʊld ˈkæb.ɪn ðət həd biːn dɪˈstrɔɪd./"
+      },
+      {
+        "sentence": "An aerial rescue team came quickly.",
+        "meaning-example": "Một đội cứu hộ trên không đã đến nhanh chóng.",
+        "ipa-example": "/ən ˈeə.ri.əl ˈres.kjuː tiːm keɪm ˈkwɪk.li./"
+      },
+      {
+        "sentence": "Randy was just a speck amongst the great pile of snow, but the team found him thanks to his brightly colored jacket.",
+        "meaning-example": "Randy chỉ là một đốm nhỏ giữa đống tuyết khổng lồ, nhưng đội cứu hộ đã tìm thấy anh nhờ chiếc áo khoác màu sặc sỡ của anh.",
+        "ipa-example": "/ˈræn.di wəz dʒəst ə spek əˈmʌŋst ðə ɡreɪt paɪl əv snəʊ, bət ðə tiːm faʊnd hɪm θæŋks tuː hɪz ˈbraɪt.li ˈkʌl.əd ˈdʒæk.ɪt./"
+      },
+      {
+        "sentence": "They quickly took him to a hospital.",
+        "meaning-example": "Họ nhanh chóng đưa anh đến bệnh viện.",
+        "ipa-example": "/ðeɪ ˈkwɪk.li tʊk hɪm tuː ə ˈhɒs.pɪ.təl./"
+      },
+      {
+        "sentence": "After a few hours, Randy woke up in the hospital.",
+        "meaning-example": "Sau vài giờ, Randy tỉnh dậy trong bệnh viện.",
+        "ipa-example": "/ˈɑːf.tər ə fjuː aʊəz, ˈræn.di wəʊk ʌp ɪn ðə ˈhɒs.pɪ.təl./"
+      },
+      {
+        "sentence": "He looked at the sober faces of the doctors and saw his wife sobbing.",
+        "meaning-example": "Anh nhìn những khuôn mặt nghiêm nghị của các bác sĩ và thấy vợ mình đang nức nở.",
+        "ipa-example": "/hiː lʊkt ət ðə ˈsəʊ.bər ˈfeɪ.sɪz əv ðə ˈdɒk.təz ənd sɔː hɪz waɪf ˈsɒb.ɪŋ./"
+      },
+      {
+        "sentence": "“What’s wrong?” he asked.",
+        "meaning-example": "“Có chuyện gì vậy?” anh hỏi.",
+        "ipa-example": "/“wɒts rɒŋ?” hiː ɑːskt./"
+      },
+      {
+        "sentence": "He didn’t remember what had happened.",
+        "meaning-example": "Anh không nhớ chuyện gì đã xảy ra.",
+        "ipa-example": "/hiː dɪdnt rɪˈmem.bər wɒt həd ˈhæp.ənd./"
+      },
+      {
+        "sentence": "“You were almost killed!” his wife said.",
+        "meaning-example": "“Anh suýt chết đấy!” vợ anh nói.",
+        "ipa-example": "/“juː wər ˈɔːl.məʊst kɪld!” hɪz waɪf sed./"
+      },
+      {
+        "sentence": "“You broke several ribs.",
+        "meaning-example": "“Anh đã bị gãy vài cái xương sườn.",
+        "ipa-example": "/“juː brəʊk ˈsev.ər.əl rɪbz./"
+      },
+      {
+        "sentence": "But the rest of you is still reasonably intact.",
+        "meaning-example": "Nhưng phần còn lại của anh vẫn còn khá nguyên vẹn.",
+        "ipa-example": "/bət ðə rest əv juː ɪz stɪl ˈriː.zən.ə.bli ɪnˈtækt./"
+      },
+      {
+        "sentence": "You are really lucky to be alive,” the doctor said.",
+        "meaning-example": "Anh thật sự may mắn khi còn sống,” bác sĩ nói.",
+        "ipa-example": "/juː ɑːr ˈrɪə.li ˈlʌk.i tuː biː əˈlaɪv,” ðə ˈdɒk.tər sed./"
+      },
+      {
+        "sentence": "After five days, Randy was discharged from the hospital.",
+        "meaning-example": "Sau năm ngày, Randy được xuất viện.",
+        "ipa-example": "/ˈɑːf.tər faɪv deɪz, ˈræn.di wəz dɪsˈtʃɑːdʒd frəm ðə ˈhɒs.pɪ.təl./"
+      },
+      {
+        "sentence": "The experience had taught him a poignant lesson: he was a mortal, and nature was much more powerful than him.",
+        "meaning-example": "Trải nghiệm đó đã dạy cho anh một bài học thấm thía: anh là một người trần, và thiên nhiên mạnh hơn anh rất nhiều.",
+        "ipa-example": "/ði ɪkˈspɪə.ri.əns həd tɔːt hɪm ə ˈpɔɪ.njənt ˈles.ən: hiː wəz ə ˈmɔː.təl, ənd ˈneɪ.tʃər wəz mʌtʃ mɔːr ˈpaʊə.fəl ðən hɪm./"
+      }
+    ]
+  }
+]
