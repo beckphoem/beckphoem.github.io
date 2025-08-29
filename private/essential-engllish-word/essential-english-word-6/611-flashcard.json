@@ -1,0 +1,182 @@
+[
+  {
+    "question": "advocate",
+    "classes": "v",
+    "answer": "Biện hộ, ủng hộ, tán thành.",
+    "ipa": "/ˈæd.və.keɪt/",
+    "example": "\" `Áo đờ vô kẹt` rồi!\" - người luật sư la lên khi chiếc áo choàng của ông bị kẹt vào cửa. Dù vậy, ông vẫn cố gắng **biện hộ**, **ủng hộ** cho thân chủ của mình.",
+    "english-definition": "To publicly support or suggest an idea, development, or way of doing something.",
+    "images": "eew-6-11/1.png"
+  },
+  {
+    "question": "authorize",
+    "classes": "v",
+    "answer": "Cho phép, ủy quyền.",
+    "ipa": "/ˈɔː.θər.aɪz/",
+    "example": "Viên sĩ quan nói với lính của mình: \"Tao `cho` mày `rời` khỏi đây, nhưng phải có giấy **cho phép** của tao.\" Ông ta đang **ủy quyền** cho người lính được rời đi.",
+    "english-definition": "To give official permission for something to happen, or to give someone official permission to do something.",
+    "images": "eew-6-11/2.png"
+  },
+  {
+    "question": "civilian",
+    "classes": "n",
+    "answer": "Thường dân, dân thường.",
+    "ipa": "/səˈvɪl.jən/",
+    "example": "\"`Xe vỉa liền`\" - Xe của **thường dân** thì đậu liền trên vỉa hè, không giống như xe quân sự phải đậu đúng nơi quy định.",
+    "english-definition": "A person who is not a member of the police or the armed forces.",
+    "images": "eew-6-11/3.png"
+  },
+  {
+    "question": "commodity",
+    "classes": "n",
+    "answer": "Hàng hóa, mặt hàng.",
+    "ipa": "/kəˈmɒd.ə.ti/",
+    "example": "\"`Cứ mó đi tí`\" - người bán hàng nói với khách. Món **hàng hóa** này quý lắm, chỉ cho sờ một tí thôi. Đây là một loại **mặt hàng** có giá trị.",
+    "english-definition": "A substance or product that can be traded, bought, or sold.",
+    "images": "eew-6-11/4.png"
+  },
+  {
+    "question": "conquest",
+    "classes": "n",
+    "answer": "Sự chinh phục, sự xâm chiếm.",
+    "ipa": "/ˈkɒŋ.kwest/",
+    "example": "\"`Con quét`\" dọn sạch sẽ chiến trường sau khi giành được chiến thắng. **Sự chinh phục** này đã mang lại hòa bình, và giờ là lúc \"con quét\" dọn.",
+    "english-definition": "The act of conquering a country, area, or situation.",
+    "images": "eew-6-11/5.png"
+  },
+  {
+    "question": "disclose",
+    "classes": "v",
+    "answer": "Tiết lộ, phơi bày, vạch trần.",
+    "ipa": "/dɪˈskləʊz/",
+    "example": "Người điệp viên nói: \"Chỉ cần '`đít sờ lâu`' vào cái két sắt là nó sẽ mở ra và **tiết lộ** toàn bộ tài liệu mật.\"",
+    "english-definition": "To make something known publicly, or to show something that was hidden.",
+    "images": "eew-6-11/6.png"
+  },
+  {
+    "question": "dynamics",
+    "classes": "n",
+    "answer": "Động lực học, động lực.",
+    "ipa": "/daɪˈnæm.ɪks/",
+    "example": "\"`Đai nam míc`\" - chiếc đai đặc biệt của các nam ca sĩ có micro. **Động lực học** của chiếc đai này giúp họ di chuyển và hát một cách linh hoạt trên sân khấu, thể hiện các **động lực** của màn trình diễn.",
+    "english-definition": "Forces or properties that stimulate growth, development, or change within a system or process.",
+    "images": "eew-6-11/7.png"
+  },
+  {
+    "question": "enroll",
+    "classes": "v",
+    "answer": "Ghi danh, đăng ký vào học/tham gia.",
+    "ipa": "/ɪnˈrəʊl/",
+    "example": "\"`Em rồ lên`\" vì sung sướng khi được **ghi danh** vào trường đại học mơ ước. Cô ấy đã chính thức **đăng ký vào học**.",
+    "english-definition": "To put yourself or someone else onto the official list of members of a course, college, or group.",
+    "images": "eew-6-11/8.png"
+  },
+  {
+    "question": "envious",
+    "classes": "adj",
+    "answer": "Ghen tị, đố kỵ, thèm muốn.",
+    "ipa": "/ˈen.vi.əs/",
+    "example": "Cô gái `em vì` anh mà trở nên **ghen tị** với tất cả những người xung quanh anh. Cô ấy cảm thấy **đố kỵ** và **thèm muốn** những gì người khác có.",
+    "english-definition": "Wishing you had what another person has.",
+    "images": "eew-6-11/9.png"
+  },
+  {
+    "question": "euphoria",
+    "classes": "n",
+    "answer": "Trạng thái hưng phấn, phởn phơ.",
+    "ipa": "/juːˈfɔː.ri.ə/",
+    "example": "\"`Yêu phở ri à?`\" - \"Đúng vậy, ăn phở Hà Nội xong tôi cảm thấy một **trạng thái hưng phấn**, một niềm vui sướng tột độ.\"",
+    "english-definition": "A feeling of extreme happiness and excitement.",
+    "images": "eew-6-11/10.png"
+  },
+  {
+    "question": "festive",
+    "classes": "adj",
+    "answer": "Có không khí lễ hội, vui vẻ.",
+    "ipa": "/ˈfes.tɪv/",
+    "example": "\"`Phép tí`\" thôi là không khí trở nên **vui vẻ**, như ngày hội ngay. Chỉ cần một chút phép thuật là có ngay **không khí lễ hội**.",
+    "english-definition": "Relating to a festival; special and enjoyable.",
+    "images": "eew-6-11/11.png"
+  },
+  {
+    "question": "jolly",
+    "classes": "adj",
+    "answer": "Vui vẻ, vui tính.",
+    "ipa": "/ˈdʒɒl.i/",
+    "example": "\"`Cho ly`\" bia này là ông ấy sẽ trở nên **vui vẻ**, hồ hởi ngay. Ông già Noel là một người rất **vui tính**.",
+    "english-definition": "Happy and smiling.",
+    "images": "eew-6-11/12.png"
+  },
+  {
+    "question": "lentil",
+    "classes": "n",
+    "answer": "Đậu lăng.",
+    "ipa": "/ˈlen.tɪl/",
+    "example": "\"`Len thêu`\" hình hạt **đậu lăng** trông rất đẹp. Người ta dùng sợi len để thêu lên những hạt **đậu lăng** nhiều màu sắc.",
+    "english-definition": "A very small, round, flat seed, dried and used for food.",
+    "images": "eew-6-11/13.png"
+  },
+  {
+    "question": "marshal",
+    "classes": "v",
+    "answer": "Sắp xếp, tập hợp (quân đội).",
+    "ipa": "/ˈmɑː.ʃəl/",
+    "example": "Vị tướng ra lệnh: \"`Mã sồ` ra!\". Lập tức, toàn bộ kỵ binh **tập hợp** lại, **sắp xếp** đội hình để chuẩn bị xuất quân.",
+    "english-definition": "To arrange or assemble (a group of people, especially soldiers) in order.",
+    "images": "eew-6-11/14.png"
+  },
+  {
+    "question": "morale",
+    "classes": "n",
+    "answer": "Tinh thần, nhuệ khí.",
+    "ipa": "/məˈrɑːl/",
+    "example": "\"`Mơ rào`\" cản bị phá bỏ, **tinh thần** của cả đội dâng cao. Khi không còn rào cản, **nhuệ khí** của họ trở nên rất tốt.",
+    "english-definition": "The amount of confidence felt by a person or group of people, especially when in a dangerous or difficult situation.",
+    "images": "eew-6-11/15.png"
+  },
+  {
+    "question": "prophecy",
+    "classes": "n",
+    "answer": "Lời tiên tri, sự tiên tri.",
+    "ipa": "/ˈprɒf.ə.si/",
+    "example": "Vị tiên tri nói: \"`Rõ phết sờ sờ` ra đây, không sai được đâu!\". **Lời tiên tri** của ông ấy luôn chính xác, rõ ràng như sờ thấy được.",
+    "english-definition": "A statement that says what is going to happen in the future.",
+    "images": "eew-6-11/16.png"
+  },
+  {
+    "question": "sage",
+    "classes": "n",
+    "answer": "Nhà hiền triết, người thông thái.",
+    "ipa": "/seɪdʒ/",
+    "example": "Vị **nhà hiền triết** tuổi đã cao, da dẻ trông \"`xệ` cả\" rồi nhưng kiến thức của ông thì vô cùng uyên bác. Ông là một **người thông thái**.",
+    "english-definition": "A very wise person.",
+    "images": "eew-6-11/17.png"
+  },
+  {
+    "question": "senate",
+    "classes": "n",
+    "answer": "Thượng viện.",
+    "ipa": "/ˈsen.ət/",
+    "example": "\"`Xem net`\" ở **thượng viện** là không được phép. Các nghị sĩ phải tập trung vào việc thảo luận chính sách quốc gia.",
+    "english-definition": "The smaller and more important of the two parts of the government with the power to make laws, in countries such as the US, Australia, and France.",
+    "images": "eew-6-11/18.png"
+  },
+  {
+    "question": "sentiment",
+    "classes": "n",
+    "answer": "Quan điểm, ý kiến; tình cảm.",
+    "ipa": "/ˈsen.tɪ.mənt/",
+    "example": "\"`Sợ tình mình tan`\" - đó là một **tình cảm**, một **quan điểm** đầy lo lắng của cô gái khi yêu.",
+    "english-definition": "A thought, opinion, or idea based on a feeling about a situation, or a way of thinking about something.",
+    "images": "eew-6-11/19.png"
+  },
+  {
+    "question": "unrest",
+    "classes": "n",
+    "answer": "Sự náo động, tình trạng bất ổn.",
+    "ipa": "/ʌnˈrest/",
+    "example": "\"`Ăn rết`\" - người dân phải ăn cả rết vì đói khổ. Điều này đã dẫn đến **sự náo động**, **tình trạng bất ổn** trong cả vương quốc.",
+    "english-definition": "A state of dissatisfaction, disturbance, and agitation in a group of people, typically involving public demonstrations or disorder.",
+    "images": "eew-6-11/20.png"
+  }
+]

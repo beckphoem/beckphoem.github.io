@@ -1,0 +1,717 @@
+[
+  {
+    "word": "advocate",
+    "ipa": "/ˈæd.və.keɪt/",
+    "meaning": "Biện hộ, ủng hộ, tán thành.",
+    "image": "eew-6-11/1.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "advocate",
+        "meaning-example": "Biện hộ, ủng hộ, tán thành.",
+        "ipa-example": "/ˈæd.və.keɪt/"
+      },
+      {
+        "sentence": "\"Áo đờ vô kẹt rồi!\" - người luật sư la lên khi chiếc áo choàng của ông bị kẹt vào cửa. Dù vậy, ông vẫn cố gắng **biện hộ**, **ủng hộ** cho thân chủ của mình.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To publicly support or suggest an idea, development, or way of doing something.",
+        "meaning-example": "Công khai ủng hộ hoặc đề xuất một ý tưởng, sự phát triển hoặc một cách làm gì đó.",
+        "ipa-example": "/tuː ˈpʌb.lɪ.kli səˈpɔːt ɔːr səˈdʒest ən aɪˈdɪə, dɪˈvel.əp.mənt, ɔːr weɪ əv ˈduː.ɪŋ ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "He advocated starting war, but nobody shared his sentiment.",
+        "meaning-example": "Ông ta ủng hộ việc bắt đầu chiến tranh, nhưng không ai chia sẻ quan điểm của ông.",
+        "ipa-example": "/hiː ˈæd.və.keɪ.tɪd ˈstɑː.tɪŋ wɔː, bət ˈnəʊ.bə.di ʃeəd hɪz ˈsen.tɪ.mənt./"
+      }
+    ]
+  },
+  {
+    "word": "authorize",
+    "ipa": "/ˈɔː.θər.aɪz/",
+    "meaning": "Cho phép, ủy quyền.",
+    "image": "eew-6-11/2.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "authorize",
+        "meaning-example": "Cho phép, ủy quyền.",
+        "ipa-example": "/ˈɔː.θər.aɪz/"
+      },
+      {
+        "sentence": "Viên sĩ quan nói với lính của mình: \"Tao `cho` mày `rời` khỏi đây, nhưng phải có giấy **cho phép** của tao.\" Ông ta đang **ủy quyền** cho người lính được rời đi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To give official permission for something to happen, or to give someone official permission to do something.",
+        "meaning-example": "Cho phép chính thức để một việc gì đó xảy ra, hoặc cho ai đó sự cho phép chính thức để làm một việc gì đó.",
+        "ipa-example": "/tuː ɡɪv əˈfɪʃ.əl pəˈmɪʃ.ən fɔːr ˈsʌm.θɪŋ tuː ˈhæp.ən, ɔːr tuː ɡɪv ˈsʌm.wʌn əˈfɪʃ.əl pəˈmɪʃ.ən tuː duː ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "Soon, King Croesus authorized an attack against the Persians.",
+        "meaning-example": "Chẳng bao lâu, Vua Croesus đã cho phép một cuộc tấn công chống lại người Ba Tư.",
+        "ipa-example": "/suːn, kɪŋ ˈkriː.səs ˈɔː.θər.aɪzd ən əˈtæk əˈɡenst ðə ˈpɜː.ʃənz./"
+      }
+    ]
+  },
+  {
+    "word": "civilian",
+    "ipa": "/səˈvɪl.jən/",
+    "meaning": "Thường dân, dân thường.",
+    "image": "eew-6-11/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "civilian",
+        "meaning-example": "Thường dân, dân thường.",
+        "ipa-example": "/səˈvɪl.jən/"
+      },
+      {
+        "sentence": "\"Xe vỉa hè liền\" - Xe của **thường dân** thì đậu liền trên vỉa hè, không giống như xe quân sự phải đậu đúng nơi quy định.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who is not a member of the police or the armed forces.",
+        "meaning-example": "Một người không phải là thành viên của cảnh sát hoặc lực lượng vũ trang.",
+        "ipa-example": "/ə ˈpɜː.sən huː ɪz nɒt ə ˈmem.bər əv ðə pəˈliːs ɔːr ði ɑːmd ˈfɔː.sɪz./"
+      },
+      {
+        "sentence": "After hearing the Oracle’s prophecy, many civilians enrolled in the Lydian army.",
+        "meaning-example": "Sau khi nghe lời tiên tri của Oracle, nhiều thường dân đã gia nhập quân đội Lydian.",
+        "ipa-example": "/ˈɑːf.tər ˈhɪə.rɪŋ ði ˈɒr.ə.kəlz ˈprɒf.ə.si, ˈmen.i səˈvɪl.jənz ɪnˈrəʊld ɪn ðə ˈlɪd.i.ən ˈɑː.mi./"
+      }
+    ]
+  },
+  {
+    "word": "commodity",
+    "ipa": "/kəˈmɒd.ə.ti/",
+    "meaning": "Hàng hóa, mặt hàng.",
+    "image": "eew-6-11/4.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "commodity",
+        "meaning-example": "Hàng hóa, mặt hàng.",
+        "ipa-example": "/kəˈmɒd.ə.ti/"
+      },
+      {
+        "sentence": "\"Cứ mó đi tí\" - người bán hàng nói với khách. Món **hàng hóa** này quý lắm, chỉ cho sờ một tí thôi. Đây là một loại **mặt hàng** có giá trị.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A substance or product that can be traded, bought, or sold.",
+        "meaning-example": "Một chất hoặc sản phẩm có thể được giao dịch, mua hoặc bán.",
+        "ipa-example": "/ə ˈsʌb.stəns ɔːr ˈprɒd.ʌkt ðət kən biː ˈtreɪ.dɪd, bɔːt, ɔːr səʊld./"
+      },
+      {
+        "sentence": "He ruled over Lydia, an ancient empire located near modern-day Turkey and controlled a valuable commodity: gold.",
+        "meaning-example": "Ông cai trị Lydia, một đế chế cổ đại nằm gần Thổ Nhĩ Kỳ ngày nay và kiểm soát một mặt hàng có giá trị: vàng.",
+        "ipa-example": "/hiː ruːld ˈəʊ.vər ˈlɪd.i.ə, ən ˈeɪn.ʃənt ˈem.paɪər ləʊˈkeɪ.tɪd nɪər ˈmɒd.ən.deɪ ˈtɜː.ki ənd kənˈtrəʊld ə ˈvæl.jə.bəl kəˈmɒd.ə.ti: ɡəʊld./"
+      }
+    ]
+  },
+  {
+    "word": "conquest",
+    "ipa": "/ˈkɒŋ.kwest/",
+    "meaning": "Sự chinh phục, sự xâm chiếm.",
+    "image": "eew-6-11/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "conquest",
+        "meaning-example": "Sự chinh phục, sự xâm chiếm.",
+        "ipa-example": "/ˈkɒŋ.kwest/"
+      },
+      {
+        "sentence": "\"Con quét\" dọn sạch sẽ chiến trường sau khi giành được chiến thắng. **Sự chinh phục** này đã mang lại hòa bình, và giờ là lúc \"con quét\" dọn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The act of conquering a country, area, or situation.",
+        "meaning-example": "Hành động chinh phục một quốc gia, khu vực hoặc tình huống.",
+        "ipa-example": "/ði ækt əv ˈkɒŋ.kər.ɪŋ ə ˈkʌn.tri, ˈeə.ri.ə, ɔːr ˌsɪtʃ.uˈeɪ.ʃən./"
+      },
+      {
+        "sentence": "Many leaders were scared of the Persian conquest.",
+        "meaning-example": "Nhiều nhà lãnh đạo đã sợ hãi cuộc chinh phục của người Ba Tư.",
+        "ipa-example": "/ˈmen.i ˈliː.dəz wər skeəd əv ðə ˈpɜː.ʃən ˈkɒŋ.kwest./"
+      }
+    ]
+  },
+  {
+    "word": "disclose",
+    "ipa": "/dɪˈskləʊz/",
+    "meaning": "Tiết lộ, phơi bày, vạch trần.",
+    "image": "eew-6-11/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "disclose",
+        "meaning-example": "Tiết lộ, phơi bày, vạch trần.",
+        "ipa-example": "/dɪˈskləʊz/"
+      },
+      {
+        "sentence": "Người điệp viên nói: \"Chỉ cần 'đít sờ lâu' vào cái két sắt là nó sẽ mở ra và **tiết lộ** toàn bộ tài liệu mật.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make something known publicly, or to show something that was hidden.",
+        "meaning-example": "Công khai một cái gì đó, hoặc cho thấy một cái gì đó đã được che giấu.",
+        "ipa-example": "/tuː meɪk ˈsʌm.θɪŋ nəʊn ˈpʌb.lɪ.kli, ɔːr tuː ʃəʊ ˈsʌm.θɪŋ ðət wəz ˈhɪd.ən./"
+      },
+      {
+        "sentence": "One day, a messenger disclosed some interesting news: political unrest in Persia had weakened the empire.",
+        "meaning-example": "Một ngày nọ, một sứ giả đã tiết lộ một số tin tức thú vị: tình trạng bất ổn chính trị ở Ba Tư đã làm suy yếu đế chế.",
+        "ipa-example": "/wʌn deɪ, ə ˈmes.ɪn.dʒər dɪˈskləʊzd səm ˈɪn.trəs.tɪŋ njuːz: pəˈlɪt.ɪ.kəl ʌnˈrest ɪn ˈpɜː.ʃə həd ˈwiː.kənd ði ˈem.paɪər./"
+      }
+    ]
+  },
+  {
+    "word": "dynamics",
+    "ipa": "/daɪˈnæm.ɪks/",
+    "meaning": "Động lực học, động lực.",
+    "image": "eew-6-11/7.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "dynamics",
+        "meaning-example": "Động lực học, động lực.",
+        "ipa-example": "/daɪˈnæm.ɪks/"
+      },
+      {
+        "sentence": "\"Đai nam míc\" - chiếc đai đặc biệt của các nam ca sĩ có micro. **Động lực học** của chiếc đai này giúp họ di chuyển và hát một cách linh hoạt trên sân khấu, thể hiện các **động lực** của màn trình diễn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Forces or properties that stimulate growth, development, or change within a system or process.",
+        "meaning-example": "Các lực hoặc thuộc tính kích thích sự tăng trưởng, phát triển hoặc thay đổi trong một hệ thống hoặc quy trình.",
+        "ipa-example": "/ˈfɔː.sɪz ɔːr ˈprɒp.ə.tiz ðət ˈstɪm.jə.leɪt ɡrəʊθ, dɪˈvel.əp.mənt, ɔːr tʃeɪndʒ wɪˈðɪn ə ˈsɪs.təm ɔːr ˈprəʊ.ses./"
+      },
+      {
+        "sentence": "But King Croesus understood the dynamics of war better than most.",
+        "meaning-example": "Nhưng Vua Croesus hiểu động lực của chiến tranh hơn hầu hết mọi người.",
+        "ipa-example": "/bət kɪŋ ˈkriː.səs ˌʌn.dəˈstʊd ðə daɪˈnæm.ɪks əv wɔː ˈbet.ər ðən məʊst./"
+      }
+    ]
+  },
+  {
+    "word": "enroll",
+    "ipa": "/ɪnˈrəʊl/",
+    "meaning": "Ghi danh, đăng ký vào học/tham gia.",
+    "image": "eew-6-11/8.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "enroll",
+        "meaning-example": "Ghi danh, đăng ký vào học/tham gia.",
+        "ipa-example": "/ɪnˈrəʊl/"
+      },
+      {
+        "sentence": "\"Em rồ lên\" vì sung sướng khi được **ghi danh** vào trường đại học mơ ước. Cô ấy đã chính thức **đăng ký nhập học**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To put yourself or someone else onto the official list of members of a course, college, or group.",
+        "meaning-example": "Ghi tên bạn hoặc người khác vào danh sách thành viên chính thức của một khóa học, trường cao đẳng hoặc nhóm.",
+        "ipa-example": "/tuː pʊt jɔːˈself ɔːr ˈsʌm.wʌn els ˈɒn.tuː ði əˈfɪʃ.əl lɪst əv ˈmem.bəz əv ə kɔːs, ˈkɒl.ɪdʒ, ɔːr ɡruːp./"
+      },
+      {
+        "sentence": "After hearing the Oracle’s prophecy, many civilians enrolled in the Lydian army.",
+        "meaning-example": "Sau khi nghe lời tiên tri của Oracle, nhiều thường dân đã gia nhập quân đội Lydian.",
+        "ipa-example": "/ˈɑːf.tər ˈhɪə.rɪŋ ði ˈɒr.ə.kəlz ˈprɒf.ə.si, ˈmen.i səˈvɪl.jənz ɪnˈrəʊld ɪn ðə ˈlɪd.i.ən ˈɑː.mi./"
+      }
+    ]
+  },
+  {
+    "word": "envious",
+    "ipa": "/ˈen.vi.əs/",
+    "meaning": "Ghen tị, đố kỵ, thèm muốn.",
+    "image": "eew-6-11/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "envious",
+        "meaning-example": "Ghen tị, đố kỵ, thèm muốn.",
+        "ipa-example": "/ˈen.vi.əs/"
+      },
+      {
+        "sentence": "Cô gái `em vì` anh mà trở nên **ghen tị** với tất cả những người xung quanh anh. Cô ấy cảm thấy **đố kỵ** và thèm muốn những gì người khác có.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Wishing you had what another person has.",
+        "meaning-example": "Ước gì bạn có được những gì người khác có.",
+        "ipa-example": "/ˈwɪʃ.ɪŋ juː həd wɒt əˈnʌð.ər ˈpɜː.sən hæz./"
+      },
+      {
+        "sentence": "Many people were very envious of him.",
+        "meaning-example": "Nhiều người rất ghen tị với ông.",
+        "ipa-example": "/ˈmen.i ˈpiː.pəl wər ˈver.i ˈen.vi.əs əv hɪm./"
+      }
+    ]
+  },
+  {
+    "word": "euphoria",
+    "ipa": "/juːˈfɔː.ri.ə/",
+    "meaning": "Trạng thái hưng phấn, phởn phơ.",
+    "image": "eew-6-11/10.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "euphoria",
+        "meaning-example": "Trạng thái hưng phấn, phởn phơ.",
+        "ipa-example": "/juːˈfɔː.ri.ə/"
+      },
+      {
+        "sentence": "\"Yêu phở Hà Nội à?\" - \"Đúng vậy, ăn phở Hà Nội xong tôi cảm thấy một **trạng thái hưng phấn**, một niềm **vui sướng tột độ**.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A feeling of extreme happiness and excitement.",
+        "meaning-example": "Một cảm giác hạnh phúc và phấn khích tột độ.",
+        "ipa-example": "/ə ˈfiː.lɪŋ əv ɪkˈstriːm ˈhæp.i.nəs ənd ɪkˈsaɪt.mənt./"
+      },
+      {
+        "sentence": "The news filled Croesus with euphoria.",
+        "meaning-example": "Tin tức đó khiến Croesus tràn ngập trong sự hưng phấn.",
+        "ipa-example": "/ðə njuːz fɪld ˈkriː.səs wɪð juːˈfɔː.ri.ə./"
+      }
+    ]
+  },
+  {
+    "word": "festive",
+    "ipa": "/ˈfes.tɪv/",
+    "meaning": "Có không khí lễ hội, vui vẻ.",
+    "image": "eew-6-11/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "festive",
+        "meaning-example": "Có không khí lễ hội, vui vẻ.",
+        "ipa-example": "/ˈfes.tɪv/"
+      },
+      {
+        "sentence": "\"Phép tí\" thôi là không khí trở nên **vui vẻ**, như **ngày hội** ngay. Chỉ cần một chút phép thuật là có ngay không khí **lễ hội**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to a festival; special and enjoyable.",
+        "meaning-example": "Liên quan đến một lễ hội; đặc biệt và thú vị.",
+        "ipa-example": "/rɪˈleɪ.tɪŋ tuː ə ˈfes.tɪ.vəl; ˈspeʃ.əl ənd ɪnˈdʒɔɪ.ə.bəl./"
+      },
+      {
+        "sentence": "When the messenger came back, he was in a festive mood.",
+        "meaning-example": "Khi người đưa tin trở về, anh ta đang trong một tâm trạng vui vẻ.",
+        "ipa-example": "/wen ðə ˈmes.ɪn.dʒər keɪm bæk, hiː wəz ɪn ə ˈfes.tɪv muːd./"
+      }
+    ]
+  },
+  {
+    "word": "jolly",
+    "ipa": "/ˈdʒɒl.i/",
+    "meaning": "Vui vẻ, vui tính.",
+    "image": "eew-6-11/12.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "jolly",
+        "meaning-example": "Vui vẻ, vui tính.",
+        "ipa-example": "/ˈdʒɒl.i/"
+      },
+      {
+        "sentence": "\"Cho ly\" bia này là ông ấy sẽ trở nên **vui vẻ**, **hồ hởi** ngay. Ông già Noel là một người rất **vui tính**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Happy and smiling.",
+        "meaning-example": "Vui vẻ và mỉm cười.",
+        "ipa-example": "/ˈhæp.i ənd ˈsmaɪ.lɪŋ./"
+      },
+      {
+        "sentence": "The jolly messenger responded, “She said that if you attack Persia, you will destroy a great empire.”",
+        "meaning-example": "Người đưa tin vui vẻ trả lời: “Bà ấy nói rằng nếu ngài tấn công Ba Tư, ngài sẽ hủy diệt một đế chế vĩ đại.”",
+        "ipa-example": "/ðə ˈdʒɒl.i ˈmes.ɪn.dʒər rɪˈspɒn.dɪd, “ʃiː sed ðət ɪf juː əˈtæk ˈpɜː.ʃə, juː wɪl dɪˈstrɔɪ ə ɡreɪt ˈem.paɪə.”/"
+      }
+    ]
+  },
+  {
+    "word": "lentil",
+    "ipa": "/ˈlen.tɪl/",
+    "meaning": "Đậu lăng.",
+    "image": "eew-6-11/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "lentil",
+        "meaning-example": "Đậu lăng.",
+        "ipa-example": "/ˈlen.tɪl/"
+      },
+      {
+        "sentence": "\"Len thêu\" hình hạt **đậu lăng** trông rất đẹp. Người ta dùng sợi len để thêu lên những hạt **đậu lăng** nhiều màu sắc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A very small, round, flat seed, dried and used for food.",
+        "meaning-example": "Một loại hạt rất nhỏ, tròn, dẹt, được sấy khô và dùng làm thức ăn.",
+        "ipa-example": "/ə ˈver.i smɔːl, raʊnd, flæt siːd, draɪd ənd juːzd fɔːr fuːd./"
+      },
+      {
+        "sentence": "The messenger gave the Oracle jugs of wine and baskets of lentils in order to make her happy.",
+        "meaning-example": "Người đưa tin đã tặng Oracle những vò rượu và những giỏ đậu lăng để làm bà vui lòng.",
+        "ipa-example": "/ðə ˈmes.ɪn.dʒər ɡeɪv ði ˈɒr.ə.kəl dʒʌɡz əv waɪn ənd ˈbɑː.skɪts əv ˈlen.tɪlz ɪn ˈɔː.dər tuː meɪk hər ˈhæp.i./"
+      }
+    ]
+  },
+  {
+    "word": "marshal",
+    "ipa": "/ˈmɑː.ʃəl/",
+    "meaning": "Sắp xếp, tập hợp (quân đội).",
+    "image": "eew-6-11/14.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "marshal",
+        "meaning-example": "Sắp xếp, tập hợp (quân đội).",
+        "ipa-example": "/ˈmɑː.ʃəl/"
+      },
+      {
+        "sentence": "Vị tướng ra lệnh: \"Mã sồ ra!\". Lập tức, toàn bộ kỵ binh **tập hợp** lại, **sắp xếp** đội hình để chuẩn bị xuất quân.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To arrange or assemble (a group of people, especially soldiers) in order.",
+        "meaning-example": "Sắp xếp hoặc tập hợp (một nhóm người, đặc biệt là binh lính) theo thứ tự.",
+        "ipa-example": "/tuː əˈreɪndʒ ɔːr əˈsem.bəl (ə ɡruːp əv ˈpiː.pəl, ɪˈspeʃ.əl.i ˈsəʊl.dʒəz) ɪn ˈɔː.dər./"
+      },
+      {
+        "sentence": "The king marshaled his troops and prepared them for a war with Persia.",
+        "meaning-example": "Nhà vua tập hợp quân đội của mình và chuẩn bị cho họ một cuộc chiến với Ba Tư.",
+        "ipa-example": "/ðə kɪŋ ˈmɑː.ʃəld hɪz truːps ənd prɪˈpeəd ðəm fɔːr ə wɔː wɪð ˈpɜː.ʃə./"
+      }
+    ]
+  },
+  {
+    "word": "morale",
+    "ipa": "/məˈrɑːl/",
+    "meaning": "Tinh thần, nhuệ khí.",
+    "image": "eew-6-11/15.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "morale",
+        "meaning-example": "Tinh thần, nhuệ khí.",
+        "ipa-example": "/məˈrɑːl/"
+      },
+      {
+        "sentence": "\"Mơ rào\" cản bị phá bỏ, **tinh thần** của cả đội dâng cao. Khi không còn rào cản, **nhuệ khí** của họ trở nên rất tốt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The amount of confidence felt by a person or group of people, especially when in a dangerous or difficult situation.",
+        "meaning-example": "Mức độ tự tin của một người hoặc một nhóm người, đặc biệt là khi ở trong một tình huống nguy hiểm hoặc khó khăn.",
+        "ipa-example": "/ði əˈmaʊnt əv ˈkɒn.fɪ.dəns felt baɪ ə ˈpɜː.sən ɔːr ɡruːp əv ˈpiː.pəl, ɪˈspeʃ.əl.i wen ɪn ə ˈdeɪn.dʒər.əs ɔːr ˈdɪf.ɪ.kəlt ˌsɪtʃ.uˈeɪ.ʃən./"
+      },
+      {
+        "sentence": "Their morale was high because they were sure they would win.",
+        "meaning-example": "Tinh thần của họ rất cao vì họ chắc chắn rằng họ sẽ chiến thắng.",
+        "ipa-example": "/ðeər məˈrɑːl wəz haɪ bɪˈkəz ðeɪ wər ʃʊər ðeɪ wʊd wɪn./"
+      }
+    ]
+  },
+  {
+    "word": "prophecy",
+    "ipa": "/ˈprɒf.ə.si/",
+    "meaning": "Lời tiên tri, sự tiên tri.",
+    "image": "eew-6-11/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "prophecy",
+        "meaning-example": "Lời tiên tri, sự tiên tri.",
+        "ipa-example": "/ˈprɒf.ə.si/"
+      },
+      {
+        "sentence": "Vị tiên tri nói: \"**Rõ phết sờ sờ** ra đây, không sai được đâu!\". **Lời tiên tri** của ông ấy luôn chính xác, rõ ràng như sờ thấy được.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A statement that says what is going to happen in the future.",
+        "meaning-example": "Một câu nói cho biết điều gì sẽ xảy ra trong tương lai.",
+        "ipa-example": "/ə ˈsteɪt.mənt ðət sez wɒt ɪz ˈɡəʊ.ɪŋ tuː ˈhæp.ən ɪn ðə ˈfjuː.tʃər./"
+      },
+      {
+        "sentence": "“What was the Oracle’s prophecy?” asked King Croesus.",
+        "meaning-example": "“Lời tiên tri của Oracle là gì?” Vua Croesus hỏi.",
+        "ipa-example": "/“wɒt wəz ði ˈɒr.ə.kəlz ˈprɒf.ə.si?” ɑːskt kɪŋ ˈkriː.səs./"
+      }
+    ]
+  },
+  {
+    "word": "sage",
+    "ipa": "/seɪdʒ/",
+    "meaning": "Nhà hiền triết, người thông thái.",
+    "image": "eew-6-11/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "sage",
+        "meaning-example": "Nhà hiền triết, người thông thái.",
+        "ipa-example": "/seɪdʒ/"
+      },
+      {
+        "sentence": "Vị **nhà hiền triết** tuổi đã cao, da dẻ trông \"xệ cả\" rồi nhưng kiến thức của ông thì vô cùng uyên bác. Ông là một **người thông thái**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A very wise person.",
+        "meaning-example": "Một người rất khôn ngoan.",
+        "ipa-example": "/ə ˈver.i waɪz ˈpɜː.sən./"
+      },
+      {
+        "sentence": "The sage didn’t say whether he should attack the Persians or not.",
+        "meaning-example": "Nhà hiền triết không nói liệu ông có nên tấn công người Ba Tư hay không.",
+        "ipa-example": "/ðə seɪdʒ dɪdnt seɪ ˈweð.ər hiː ʃʊd əˈtæk ðə ˈpɜː.ʃənz ɔːr nɒt./"
+      }
+    ]
+  },
+  {
+    "word": "senate",
+    "ipa": "/ˈsen.ət/",
+    "meaning": "Thượng viện.",
+    "image": "eew-6-11/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "senate",
+        "meaning-example": "Thượng viện.",
+        "ipa-example": "/ˈsen.ət/"
+      },
+      {
+        "sentence": "\"Xem net\" ở **thượng viện** là không được phép. Các nghị sĩ phải tập trung vào việc thảo luận chính sách quốc gia.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The smaller and more important of the two parts of the government with the power to make laws, in countries such as the US, Australia, and France.",
+        "meaning-example": "Cơ quan nhỏ hơn và quan trọng hơn trong hai bộ phận của chính phủ có quyền làm luật, ở các nước như Mỹ, Úc và Pháp.",
+        "ipa-example": "/ðə ˈsmɔː.lər ənd mɔːr ɪmˈpɔː.tənt əv ðə tuː pɑːts əv ðə ˈɡʌv.ən.mənt wɪð ðə paʊər tuː meɪk lɔːz, ɪn ˈkʌn.triz sʌtʃ əz ðə juːˈes, ɒˈstreɪ.li.ə, ənd frɑːns./"
+      },
+      {
+        "sentence": "Then he asked a wise member of the senate who was visiting from Athens.",
+        "meaning-example": "Sau đó, ông hỏi một thành viên thông thái của thượng viện đang đến thăm từ Athens.",
+        "ipa-example": "/ðen hiː ɑːskt ə waɪz ˈmem.bər əv ðə ˈsen.ət huː wəz ˈvɪz.ɪ.tɪŋ frəm ˈæθ.ənz./"
+      }
+    ]
+  },
+  {
+    "word": "sentiment",
+    "ipa": "/ˈsen.tɪ.mənt/",
+    "meaning": "Quan điểm, ý kiến; tình cảm.",
+    "image": "eew-6-11/19.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "sentiment",
+        "meaning-example": "Quan điểm, ý kiến; tình cảm.",
+        "ipa-example": "/ˈsen.tɪ.mənt/"
+      },
+      {
+        "sentence": "\"Sợ tình mình tan\" - đó là một **tình cảm**, một **quan điểm** đầy lo lắng của cô gái khi yêu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A thought, opinion, or idea based on a feeling about a situation, or a way of thinking about something.",
+        "meaning-example": "Một suy nghĩ, quan điểm hoặc ý tưởng dựa trên cảm giác về một tình huống, hoặc một cách suy nghĩ về một cái gì đó.",
+        "ipa-example": "/ə θɔːt, əˈpɪn.jən, ɔːr aɪˈdɪə beɪst ɒn ə ˈfiː.lɪŋ əˈbaʊt ə ˌsɪtʃ.uˈeɪ.ʃən, ɔːr ə weɪ əv ˈθɪŋ.kɪŋ əˈbaʊt ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "He advocated starting war, but nobody shared his sentiment.",
+        "meaning-example": "Ông ta ủng hộ việc bắt đầu chiến tranh, nhưng không ai chia sẻ quan điểm của ông.",
+        "ipa-example": "/hiː ˈæd.və.keɪ.tɪd ˈstɑː.tɪŋ wɔː, bət ˈnəʊ.bə.di ʃeəd hɪz ˈsen.tɪ.mənt./"
+      }
+    ]
+  },
+  {
+    "word": "unrest",
+    "ipa": "/ʌnˈrest/",
+    "meaning": "Sự náo động, tình trạng bất ổn.",
+    "image": "eew-6-11/20.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "unrest",
+        "meaning-example": "Sự náo động, tình trạng bất ổn.",
+        "ipa-example": "/ʌnˈrest/"
+      },
+      {
+        "sentence": "\"Ăn rết\" - người dân phải ăn cả rết vì đói khổ. Điều này đã dẫn đến **sự náo động**, **tình trạng bất ổn** trong cả vương quốc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A state of dissatisfaction, disturbance, and agitation in a group of people, typically involving public demonstrations or disorder.",
+        "meaning-example": "Một trạng thái không hài lòng, xáo trộn và kích động trong một nhóm người, thường liên quan đến các cuộc biểu tình công khai hoặc gây rối.",
+        "ipa-example": "/ə steɪt əv ˌdɪs.sæt.ɪsˈfæk.ʃən, dɪˈstɜː.bəns, ənd ˌædʒ.ɪˈteɪ.ʃən ɪn ə ɡruːp əv ˈpiː.pəl, ˈtɪp.ɪ.kəli ɪnˈvɒlv.ɪŋ ˈpʌb.lɪk ˌdem.ənˈstreɪ.ʃənz ɔːr dɪˈsɔː.dər./"
+      },
+      {
+        "sentence": "One day, a messenger disclosed some interesting news: political unrest in Persia had weakened the empire.",
+        "meaning-example": "Một ngày nọ, một sứ giả đã tiết lộ một số tin tức thú vị: tình trạng bất ổn chính trị ở Ba Tư đã làm suy yếu đế chế.",
+        "ipa-example": "/wʌn deɪ, ə ˈmes.ɪn.dʒər dɪˈskləʊzd səm ˈɪn.trəs.tɪŋ njuːz: pəˈlɪt.ɪ.kəl ʌnˈrest ɪn ˈpɜː.ʃə həd ˈwiː.kənd ði ˈem.paɪər./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Lydian King",
+        "meaning-example": "Vua Lydian",
+        "ipa-example": "/ðə ˈlɪd.i.ən kɪŋ/"
+      },
+      {
+        "sentence": "King Croesus was once one of the richest kings in the world.",
+        "meaning-example": "Vua Croesus đã từng là một trong những vị vua giàu có nhất thế giới.",
+        "ipa-example": "/kɪŋ ˈkriː.səs wəz wʌns wʌn əv ðə ˈrɪtʃ.ɪst kɪŋz ɪn ðə wɜːld./"
+      },
+      {
+        "sentence": "He ruled over Lydia, an ancient empire located near modern-day Turkey and controlled a valuable commodity: gold.",
+        "meaning-example": "Ông cai trị Lydia, một đế chế cổ đại nằm gần Thổ Nhĩ Kỳ ngày nay và kiểm soát một mặt hàng có giá trị: vàng.",
+        "ipa-example": "/hiː ruːld ˈəʊ.vər ˈlɪd.i.ə, ən ˈeɪn.ʃənt ˈem.paɪər ləʊˈkeɪ.tɪd nɪər ˈmɒd.ən.deɪ ˈtɜː.ki ənd kənˈtrəʊld ə ˈvæl.jə.bəl kəˈmɒd.ə.ti: ɡəʊld./"
+      },
+      {
+        "sentence": "Many people were very envious of him.",
+        "meaning-example": "Nhiều người rất ghen tị với ông.",
+        "ipa-example": "/ˈmen.i ˈpiː.pəl wər ˈver.i ˈen.vi.əs əv hɪm./"
+      },
+      {
+        "sentence": "One day, a messenger disclosed some interesting news: political unrest in Persia had weakened the empire.",
+        "meaning-example": "Một ngày nọ, một sứ giả đã tiết lộ một số tin tức thú vị: tình trạng bất ổn chính trị ở Ba Tư đã làm suy yếu đế chế.",
+        "ipa-example": "/wʌn deɪ, ə ˈmes.ɪn.dʒər dɪˈskləʊzd səm ˈɪn.trəs.tɪŋ njuːz: pəˈlɪt.ɪ.kəl ʌnˈrest ɪn ˈpɜː.ʃə həd ˈwiː.kənd ði ˈem.paɪər./"
+      },
+      {
+        "sentence": "Before then, the Persians had taken over many countries.",
+        "meaning-example": "Trước đó, người Ba Tư đã chiếm đóng nhiều quốc gia.",
+        "ipa-example": "/bɪˈfɔːr ðen, ðə ˈpɜː.ʃənz həd ˈteɪ.kən ˈəʊ.vər ˈmen.i ˈkʌn.triz./"
+      },
+      {
+        "sentence": "Many leaders were scared of the Persian conquest.",
+        "meaning-example": "Nhiều nhà lãnh đạo đã sợ hãi cuộc chinh phục của người Ba Tư.",
+        "ipa-example": "/ˈmen.i ˈliː.dəz wər skeəd əv ðə ˈpɜː.ʃən ˈkɒŋ.kwest./"
+      },
+      {
+        "sentence": "But King Croesus understood the dynamics of war better than most.",
+        "meaning-example": "Nhưng Vua Croesus hiểu động lực của chiến tranh hơn hầu hết mọi người.",
+        "ipa-example": "/bət kɪŋ ˈkriː.səs ˌʌn.dəˈstʊd ðə daɪˈnæm.ɪks əv wɔː ˈbet.ər ðən məʊst./"
+      },
+      {
+        "sentence": "He decided that it would be a good time to try to beat the Persians while they were weak.",
+        "meaning-example": "Ông quyết định rằng đây sẽ là thời điểm tốt để cố gắng đánh bại người Ba Tư khi họ yếu thế.",
+        "ipa-example": "/hiː dɪˈsaɪ.dɪd ðət ɪt wʊd biː ə ɡʊd taɪm tuː traɪ tuː biːt ðə ˈpɜː.ʃənz waɪl ðeɪ wər wiːk./"
+      },
+      {
+        "sentence": "He advocated starting war, but nobody shared his sentiment.",
+        "meaning-example": "Ông ta ủng hộ việc bắt đầu chiến tranh, nhưng không ai chia sẻ quan điểm của ông.",
+        "ipa-example": "/hiː ˈæd.və.keɪ.tɪd ˈstɑː.tɪŋ wɔː, bət ˈnəʊ.bə.di ʃeəd hɪz ˈsen.tɪ.mənt./"
+      },
+      {
+        "sentence": "Then he asked a wise member of the senate who was visiting from Athens.",
+        "meaning-example": "Sau đó, ông hỏi một thành viên thông thái của thượng viện đang đến thăm từ Athens.",
+        "ipa-example": "/ðen hiː ɑːskt ə waɪz ˈmem.bər əv ðə ˈsen.ət huː wəz ˈvɪz.ɪ.tɪŋ frəm ˈæθ.ənz./"
+      },
+      {
+        "sentence": "The sage didn’t say whether he should attack the Persians or not.",
+        "meaning-example": "Nhà hiền triết không nói liệu ông có nên tấn công người Ba Tư hay không.",
+        "ipa-example": "/ðə seɪdʒ dɪdnt seɪ ˈweð.ər hiː ʃʊd əˈtæk ðə ˈpɜː.ʃənz ɔːr nɒt./"
+      },
+      {
+        "sentence": "He only warned him that his good luck wouldn’t last.",
+        "meaning-example": "Ông chỉ cảnh báo anh ta rằng may mắn của anh ta sẽ không kéo dài.",
+        "ipa-example": "/hiː ˈəʊn.li wɔːnd hɪm ðət hɪz ɡʊd lʌk ˈwʊdnt lɑːst./"
+      },
+      {
+        "sentence": "Finally, King Croesus sent a messenger to visit the Oracle, a special lady who could see the future.",
+        "meaning-example": "Cuối cùng, Vua Croesus đã cử một sứ giả đến thăm Oracle, một người phụ nữ đặc biệt có thể nhìn thấy tương lai.",
+        "ipa-example": "/ˈfaɪ.nə.li, kɪŋ ˈkriː.səs sent ə ˈmes.ɪn.dʒər tuː ˈvɪz.ɪt ði ˈɒr.ə.kəl, ə ˈspeʃ.əl ˈleɪ.di huː kʊd siː ðə ˈfjuː.tʃər./"
+      },
+      {
+        "sentence": "The messenger gave the Oracle jugs of wine and baskets of lentils in order to make her happy.",
+        "meaning-example": "Người đưa tin đã tặng Oracle những vò rượu và những giỏ đậu lăng để làm bà vui lòng.",
+        "ipa-example": "/ðə ˈmes.ɪn.dʒər ɡeɪv ði ˈɒr.ə.kəl dʒʌɡz əv waɪn ənd ˈbɑː.skɪts əv ˈlen.tɪlz ɪn ˈɔː.dər tuː meɪk hər ˈhæp.i./"
+      },
+      {
+        "sentence": "When the messenger came back, he was in a festive mood.",
+        "meaning-example": "Khi người đưa tin trở về, anh ta đang trong một tâm trạng vui vẻ.",
+        "ipa-example": "/wen ðə ˈmes.ɪn.dʒər keɪm bæk, hiː wəz ɪn ə ˈfes.tɪv muːd./"
+      },
+      {
+        "sentence": "“What was the Oracle’s prophecy?” asked King Croesus.",
+        "meaning-example": "“Lời tiên tri của Oracle là gì?” Vua Croesus hỏi.",
+        "ipa-example": "/“wɒt wəz ði ˈɒr.ə.kəlz ˈprɒf.ə.si?” ɑːskt kɪŋ ˈkriː.səs./"
+      },
+      {
+        "sentence": "The jolly messenger responded, “She said that if you attack Persia, you will destroy a great empire.”",
+        "meaning-example": "Người đưa tin vui vẻ trả lời, “Bà ấy nói rằng nếu ngài tấn công Ba Tư, ngài sẽ hủy diệt một đế chế vĩ đại.”",
+        "ipa-example": "/ðə ˈdʒɒl.i ˈmes.ɪn.dʒər rɪˈspɒn.dɪd, “ʃiː sed ðət ɪf juː əˈtæk ˈpɜː.ʃə, juː wɪl dɪˈstrɔɪ ə ɡreɪt ˈem.paɪə.”/"
+      },
+      {
+        "sentence": "The news filled Croesus with euphoria.",
+        "meaning-example": "Tin tức đó khiến Croesus tràn ngập trong sự hưng phấn.",
+        "ipa-example": "/ðə njuːz fɪld ˈkriː.səs wɪð juːˈfɔː.ri.ə./"
+      },
+      {
+        "sentence": "After hearing the Oracle’s prophecy, many civilians enrolled in the Lydian army.",
+        "meaning-example": "Sau khi nghe lời tiên tri của Oracle, nhiều thường dân đã gia nhập quân đội Lydian.",
+        "ipa-example": "/ˈɑːf.tər ˈhɪə.rɪŋ ði ˈɒr.ə.kəlz ˈprɒf.ə.si, ˈmen.i səˈvɪl.jənz ɪnˈrəʊld ɪn ðə ˈlɪd.i.ən ˈɑː.mi./"
+      },
+      {
+        "sentence": "The king marshaled his troops and prepared them for a war with Persia.",
+        "meaning-example": "Nhà vua tập hợp quân đội của mình và chuẩn bị cho họ một cuộc chiến với Ba Tư.",
+        "ipa-example": "/ðə kɪŋ ˈmɑː.ʃəld hɪz truːps ənd prɪˈpeəd ðəm fɔːr ə wɔː wɪð ˈpɜː.ʃə./"
+      },
+      {
+        "sentence": "Their morale was high because they were sure they would win.",
+        "meaning-example": "Tinh thần của họ rất cao vì họ chắc chắn rằng họ sẽ chiến thắng.",
+        "ipa-example": "/ðeər məˈrɑːl wəz haɪ bɪˈkəz ðeɪ wər ʃʊər ðeɪ wʊd wɪn./"
+      },
+      {
+        "sentence": "Soon, King Croesus authorized an attack against the Persians.",
+        "meaning-example": "Chẳng bao lâu, Vua Croesus đã cho phép một cuộc tấn công chống lại người Ba Tư.",
+        "ipa-example": "/suːn, kɪŋ ˈkriː.səs ˈɔː.θər.aɪzd ən əˈtæk əˈɡenst ðə ˈpɜː.ʃənz./"
+      },
+      {
+        "sentence": "However, the Persian army was still very strong.",
+        "meaning-example": "Tuy nhiên, quân đội Ba Tư vẫn còn rất mạnh.",
+        "ipa-example": "/haʊˈev.ər, ðə ˈpɜː.ʃən ˈɑː.mi wəz stɪl ˈver.i strɒŋ./"
+      },
+      {
+        "sentence": "After a few months of fighting, it was obvious that the Oracle’s prophecy had come true: by attacking the Persians, King Croesus had destroyed a great empire—his own!",
+        "meaning-example": "Sau vài tháng chiến đấu, rõ ràng là lời tiên tri của Oracle đã trở thành sự thật: bằng cách tấn công người Ba Tư, Vua Croesus đã hủy diệt một đế chế vĩ đại—chính là của ông!",
+        "ipa-example": "/ˈɑːf.tər ə fjuː mʌnθs əv ˈfaɪ.tɪŋ, ɪt wəz ˈɒb.vi.əs ðət ði ˈɒr.ə.kəlz ˈprɒf.ə.si həd kʌm truː: baɪ əˈtæk.ɪŋ ðə ˈpɜː.ʃənz, kɪŋ ˈkriː.səs həd dɪˈstrɔɪd ə ɡreɪt ˈem.paɪər—hɪz əʊn!/"
+      },
+      {
+        "sentence": "King Croesus should have considered the advice more carefully.",
+        "meaning-example": "Vua Croesus lẽ ra nên xem xét lời khuyên cẩn thận hơn.",
+        "ipa-example": "/kɪŋ ˈkriː.səs ʃʊd həv kənˈsɪd.əd ði ədˈvaɪs mɔːr ˈkeə.fəl.i./"
+      }
+    ]
+  }
+]
