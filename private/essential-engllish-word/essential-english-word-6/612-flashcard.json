@@ -1,0 +1,182 @@
+[
+  {
+    "question": "adorn",
+    "classes": "v",
+    "answer": "Tô điểm, trang trí.",
+    "ipa": "/əˈdɔːn/",
+    "example": "\"`Ờ, đo ni`\" - người thợ may nói, đo chiếc ni để làm một vật trang trí. Ông ấy đang **tô điểm**, **trang trí** cho chiếc váy.",
+    "english-definition": "To add something decorative to a person or thing.",
+    "images": "eew-6-12/1.png"
+  },
+  {
+    "question": "bliss",
+    "classes": "n",
+    "answer": "Hạnh phúc viên mãn, sung sướng tột độ.",
+    "ipa": "/blɪs/",
+    "example": "Cô gái \"`bị lịt`\" lưỡi vì quá **sung sướng**. Cô ấy đang ở trong trạng thái **hạnh phúc viên mãn**.",
+    "english-definition": "Perfect happiness.",
+    "images": "eew-6-12/2.png"
+  },
+  {
+    "question": "butler",
+    "classes": "n",
+    "answer": "Quản gia (nam).",
+    "ipa": "/ˈbʌt.lər/",
+    "example": "Người **quản gia** nói với chủ: \"`Bút lơ`\" mực rồi ạ, để tôi đi mua bút mới.",
+    "english-definition": "The main male servant in a large house.",
+    "images": "eew-6-12/3.png"
+  },
+  {
+    "question": "cramp",
+    "classes": "n",
+    "answer": "Chuột rút, sự co cứng cơ.",
+    "ipa": "/kræmp/",
+    "example": "Anh ấy bị **chuột rút** vì cứ \"`cờ ràm`\" (càm ràm) mãi một chỗ không chịu vận động.",
+    "english-definition": "A sudden, painful tightening of a muscle, which you cannot control.",
+    "images": "eew-6-12/4.png"
+  },
+  {
+    "question": "dilapidated",
+    "classes": "adj",
+    "answer": "Đổ nát, xiêu vẹo, ọp ẹp.",
+    "ipa": "/dɪˈlæp.ɪ.deɪ.tɪd/",
+    "example": "\"`Đi lắp đi đây tịt`\" - Ngôi nhà **đổ nát** này không lắp thêm được gì nữa, đi đâu cũng thấy tịt đường. Tòa nhà này trông rất **xiêu vẹo**.",
+    "english-definition": "Old and in poor condition.",
+    "images": "eew-6-12/5.png"
+  },
+  {
+    "question": "evoke",
+    "classes": "v",
+    "answer": "Gợi lên (ký ức, cảm xúc).",
+    "ipa": "/ɪˈvəʊk/",
+    "example": "\"`Y vốc`\" một nắm đất quê hương lên, hành động đó **gợi lên** trong anh nỗi nhớ nhà da diết.",
+    "english-definition": "To make someone remember something or feel an emotion.",
+    "images": "eew-6-12/6.png"
+  },
+  {
+    "question": "farewell",
+    "classes": "n",
+    "answer": "Lời chào tạm biệt.",
+    "ipa": "/ˌfeəˈwel/",
+    "example": "Khi **tạm biệt**, cô ấy nói: \"`Phải queo`\" lựa con đường tốt nhất mà đi nhé. Đây là **lời chào tạm biệt** của cô.",
+    "english-definition": "An occasion when someone says goodbye.",
+    "images": "eew-6-12/7.png"
+  },
+  {
+    "question": "faucet",
+    "classes": "n",
+    "answer": "Vòi nước.",
+    "ipa": "/ˈfɔː.sɪt/",
+    "example": "\"`Pho xịt`\" ra từ cái **vòi nước** này trông thật kinh khủng. Chắc là vòi nước bị hỏng rồi.",
+    "english-definition": "A device that controls the flow of liquid, especially water, from a pipe.",
+    "images": "eew-6-12/8.png"
+  },
+  {
+    "question": "filth",
+    "classes": "n",
+    "answer": "Rác rưởi, sự bẩn thỉu, dơ dáy.",
+    "ipa": "/fɪlθ/",
+    "example": "\"`Phim`\" này toàn **rác rưởi**, **bẩn thỉu**. Nội dung của nó thật là **dơ bẩn**.",
+    "english-definition": "Thick, unpleasant dirt.",
+    "images": "eew-6-12/9.png"
+  },
+  {
+    "question": "flaw",
+    "classes": "n",
+    "answer": "Thiếu sót, khuyết điểm, sai lầm.",
+    "ipa": "/flɔː/",
+    "example": "\"`Phờ lo`\" vì sản phẩm có **thiếu sót**. Anh ta sợ khách hàng sẽ phát hiện ra **khuyết điểm** này.",
+    "english-definition": "A fault, mistake, or weakness, especially one that happens while something is being planned or made, or that causes something not to be perfect.",
+    "images": "eew-6-12/10.png"
+  },
+  {
+    "question": "grin",
+    "classes": "v",
+    "answer": "Cười toe toét, cười nhe răng.",
+    "ipa": "/ɡrɪn/",
+    "example": "Anh ấy **cười toe toét** khi nhận được quà, \"`gờ rin`\" (green - màu xanh) cả mặt vì sung sướng.",
+    "english-definition": "To smile a wide smile.",
+    "images": "eew-6-12/11.png"
+  },
+  {
+    "question": "housekeeping",
+    "classes": "n",
+    "answer": "Công việc nội trợ, công việc quản gia.",
+    "ipa": "/ˈhaʊsˌkiː.pɪŋ/",
+    "example": "\"`Hao kíp tiền`\" vì **công việc nội trợ**. Việc **quản gia** tốn kém quá.",
+    "english-definition": "The management of a home and the work that needs to be done in it, such as cleaning.",
+    "images": "eew-6-12/12.png"
+  },
+  {
+    "question": "mound",
+    "classes": "n",
+    "answer": "Đống, ụ, gò.",
+    "ipa": "/maʊnd/",
+    "example": "\"`Mao đần`\" độn nên đã chất đất thành một **đống**, một **ụ** cao mà không biết dùng để làm gì.",
+    "english-definition": "A large pile of earth, stones, etc. like a small hill.",
+    "images": "eew-6-12/13.png"
+  },
+  {
+    "question": "numb",
+    "classes": "adj",
+    "answer": "Tê, tê cóng, không cảm giác.",
+    "ipa": "/nʌm/",
+    "example": "Ngồi lâu quá chân bị **tê**, \"`nằm`\" một lúc cho đỡ. Cảm giác **tê cóng** rất khó chịu.",
+    "english-definition": "If a part of your body is numb, you are unable to feel it, usually for a short time.",
+    "images": "eew-6-12/14.png"
+  },
+  {
+    "question": "reckless",
+    "classes": "adj",
+    "answer": "Liều lĩnh, táo bạo, coi thường nguy hiểm.",
+    "ipa": "/ˈrek.ləs/",
+    "example": "\"`Rách hết`\" cả quần áo vì hành động **liều lĩnh**, **coi thường nguy hiểm** của mình.",
+    "english-definition": "Doing something dangerous and not worrying about the risks and the possible results.",
+    "images": "eew-6-12/15.png"
+  },
+  {
+    "question": "slate",
+    "classes": "n",
+    "answer": "Đá phiến.",
+    "ipa": "/sleɪt/",
+    "example": "\"`Sợ lết`\" trên con đường lợp bằng **đá phiến** này vì nó rất trơn.",
+    "english-definition": "A dark grey rock that can be easily split into thin, flat layers.",
+    "images": "eew-6-12/16.png"
+  },
+  {
+    "question": "stool",
+    "classes": "n",
+    "answer": "Ghế đẩu, ghế không có lưng tựa.",
+    "ipa": "/stuːl/",
+    "example": "Cái **ghế đẩu** này \"`sờ tun`\" lạnh vì làm bằng sắt.",
+    "english-definition": "A seat without any support for the back or arms.",
+    "images": "eew-6-12/17.png"
+  },
+  {
+    "question": "testament",
+    "classes": "n",
+    "answer": "Bằng chứng, minh chứng.",
+    "ipa": "/ˈtes.tə.mənt/",
+    "example": "\"`Test tờ mình`\" - bài kiểm tra này là **minh chứng**, là **bằng chứng** cho sự nỗ lực học tập của mình.",
+    "english-definition": "Proof of something.",
+    "images": "eew-6-12/18.png"
+  },
+  {
+    "question": "timber",
+    "classes": "n",
+    "answer": "Gỗ xây dựng.",
+    "ipa": "/ˈtɪm.bər/",
+    "example": "\"`Tim bơ`\" phờ vì phải vác **gỗ** xây nhà. Khúc **gỗ xây dựng** này nặng quá.",
+    "english-definition": "Wood used for building.",
+    "images": "eew-6-12/19.png"
+  },
+  {
+    "question": "valve",
+    "classes": "n",
+    "answer": "Van (khóa nước, hơi...).",
+    "ipa": "/vælv/",
+    "example": "Cái **van** này \"`vẹo`\" rồi, không khóa nước được nữa.",
+    "english-definition": "A device that opens and closes to control the flow of liquids or gases.",
+    "images": "eew-6-12/20.png"
+  }
+]
