@@ -1,0 +1,728 @@
+[
+  {
+    "word": "camouflage",
+    "ipa": "/ˈkæm.ə.flɑːʒ/",
+    "meaning": "Sự ngụy trang.",
+    "image": "eew-6-14/1.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "camouflage",
+        "meaning-example": "Sự ngụy trang.",
+        "ipa-example": "/ˈkæm.ə.flɑːʒ/"
+      },
+      {
+        "sentence": "Ca múa flash\" (ca múa trong ánh đèn flash) trên sân khấu thật lộng lẫy, nhưng khi bước xuống, người nghệ sĩ lại mặc đồ rằn ri, hòa mình vào đám đông. Đó là cách anh ấy **ngụy trang** để tránh sự chú ý, giống như những người lính dùng trang phục để ẩn mình trong rừng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The use of leaves, branches, paints, and clothes for hiding soldiers or military equipment so that they cannot be seen against the area around them.",
+        "meaning-example": "Việc sử dụng lá cây, cành cây, sơn và quần áo để che giấu binh lính hoặc trang thiết bị quân sự để họ không bị nhìn thấy trong khu vực xung quanh.",
+        "ipa-example": "/ðə juːs əv liːvz, ˈbrɑːn.tʃɪz, peɪnts, ənd kləʊðz fɔːr ˈhaɪ.dɪŋ ˈsəʊl.dʒəz ɔːr ˈmɪl.ɪ.tər.i ɪˈkwɪp.mənt səʊ ðət ðeɪ ˈkæn.ɒt biː siːn əˈɡenst ði ˈeə.ri.ə əˈraʊnd ðəm./"
+      },
+      {
+        "sentence": "He searched for them, but because their outfits had camouflage, he couldn’t find them.",
+        "meaning-example": "Anh tìm kiếm họ, nhưng vì trang phục của họ có ngụy trang, anh không thể tìm thấy họ.",
+        "ipa-example": "/hiː sɜːtʃt fɔːr ðəm, bət bɪˈkɒz ðeər ˈaʊt.fɪts həd ˈkæm.ə.flɑːʒ, hiː ˈkʊd.ənt faɪnd ðəm./"
+      }
+    ]
+  },
+  {
+    "word": "contemplate",
+    "ipa": "/ˈkɒn.təm.pleɪt/",
+    "meaning": "Suy ngẫm, trầm ngâm.",
+    "image": "eew-6-14/2.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "contemplate",
+        "meaning-example": "Suy ngẫm, trầm ngâm.",
+        "ipa-example": "/ˈkɒn.təm.pleɪt/"
+      },
+      {
+        "sentence": "Ngồi bên \"còn tem प्लेट\" (đĩa tem cổ), nhà sưu tập già **suy ngẫm** về giá trị của thời gian. Mỗi con tem là một câu chuyện, một dấu ấn lịch sử, và ông dành hàng giờ để **trầm ngâm**, ngắm nghía từng chi tiết nhỏ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To spend time considering a possible future action, or to think very carefully about something for a long time.",
+        "meaning-example": "Dành thời gian xem xét một hành động có thể xảy ra trong tương lai, hoặc suy nghĩ rất cẩn thận về điều gì đó trong một thời gian dài.",
+        "ipa-example": "/tuː spend taɪm kənˈsɪd.ər.ɪŋ ə ˈpɒs.ə.bəl ˈfjuː.tʃər ˈæk.ʃən, ɔːr tuː θɪŋk ˈver.i ˈkeə.fəl.i əˈbaʊt ˈsʌm.θɪŋ fɔːr ə lɒŋ taɪm./"
+      },
+      {
+        "sentence": "Tom contemplated many different plans.",
+        "meaning-example": "Tom đã suy ngẫm về nhiều kế hoạch khác nhau.",
+        "ipa-example": "/tɒm ˈkɒn.təm.pleɪ.tɪd ˈmen.i ˈdɪf.ər.ənt plænz./"
+      }
+    ]
+  },
+  {
+    "word": "contend",
+    "ipa": "/kənˈtend/",
+    "meaning": "Đấu tranh, tranh giành.",
+    "image": "eew-6-14/3.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "contend",
+        "meaning-example": "Đấu tranh, tranh giành.",
+        "ipa-example": "/kənˈtend/"
+      },
+      {
+        "sentence": "\"Con tem\" này quá quý hiếm, nên hai nhà sưu tập đã phải **đấu tranh** quyết liệt trong phiên đấu giá. Họ liên tục đưa ra mức giá cao hơn để **tranh giành** quyền sở hữu nó, không ai chịu nhường ai.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To struggle against a difficulty or danger.",
+        "meaning-example": "Đấu tranh chống lại một khó khăn hoặc nguy hiểm.",
+        "ipa-example": "/tuː ˈstrʌɡ.əl əˈɡenst ə ˈdɪf.ɪ.kəl.ti ɔːr ˈdeɪn.dʒər./"
+      },
+      {
+        "sentence": "He couldn’t contend with his fear any longer.",
+        "meaning-example": "Anh không thể đấu tranh với nỗi sợ của mình được nữa.",
+        "ipa-example": "/hiː ˈkʊd.ənt kənˈtend wɪð hɪz fɪər ˈen.i ˈlɒŋ.ɡər./"
+      }
+    ]
+  },
+  {
+    "word": "cot",
+    "ipa": "/kɒt/",
+    "meaning": "Cái giường xếp, giường gấp.",
+    "image": "eew-6-14/4.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "cot",
+        "meaning-example": "Cái giường xếp, giường gấp.",
+        "ipa-example": "/kɒt/"
+      },
+      {
+        "sentence": "Chú bộ đội xa nhà, \"cót\" két tiếng giường gấp mỗi khi trở mình. Cái **giường xếp** đơn sơ ấy là người bạn đồng hành trong những đêm hành quân, tuy không êm ái nhưng mang lại giấc ngủ quý giá.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A small, light bed that you can fold and carry.",
+        "meaning-example": "Một chiếc giường nhỏ, nhẹ mà bạn có thể gấp lại và mang theo.",
+        "ipa-example": "/ə smɔːl, laɪt bed ðæt juː kən fəʊld ənd ˈkær.i./"
+      },
+      {
+        "sentence": "He wished he had his cot and a blanket.",
+        "meaning-example": "Anh ước mình có giường xếp và một cái chăn.",
+        "ipa-example": "/hiː wɪʃt hiː həd hɪz kɒt ənd ə ˈblæŋ.kɪt./"
+      }
+    ]
+  },
+  {
+    "word": "enlist",
+    "ipa": "/ɪnˈlɪst/",
+    "meaning": "Nhập ngũ, gia nhập.",
+    "image": "eew-6-14/5.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "enlist",
+        "meaning-example": "Nhập ngũ, gia nhập.",
+        "ipa-example": "/ɪnˈlɪst/"
+      },
+      {
+        "sentence": "Chàng trai trẻ \"in list\" (ghi tên vào danh sách) để **gia nhập** quân đội. Anh quyết định **nhập ngũ** với mong muốn cống hiến sức trẻ, bảo vệ tổ quốc và rèn luyện bản thân trở nên mạnh mẽ hơn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To join the armed forces.",
+        "meaning-example": "Gia nhập lực lượng vũ trang.",
+        "ipa-example": "/tuː dʒɔɪn ði ɑːmd ˈfɔː.sɪz./"
+      },
+      {
+        "sentence": "He enlisted in the army because he thought the military would teach him courage.",
+        "meaning-example": "Anh nhập ngũ vì nghĩ rằng quân đội sẽ dạy anh lòng dũng cảm.",
+        "ipa-example": "/hiː ɪnˈlɪs.tɪd ɪn ði ˈɑː.mi bɪˈkɒz hiː θɔːt ðə ˈmɪl.ɪ.tər.i wʊd tiːtʃ hɪm ˈkʌr.ɪdʒ./"
+      }
+    ]
+  },
+  {
+    "word": "frontier",
+    "ipa": "/ˈfrʌn.tɪər/",
+    "meaning": "Biên giới, biên cương.",
+    "image": "eew-6-14/6.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "frontier",
+        "meaning-example": "Biên giới, biên cương.",
+        "ipa-example": "/ˈfrʌn.tɪər/"
+      },
+      {
+        "sentence": "Những người lính \"phăng tia\" laze canh gác vùng **biên giới**. Họ ngày đêm tuần tra dọc theo đường **biên cương** của tổ quốc, đảm bảo sự an toàn và toàn vẹn lãnh thổ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A border between two countries.",
+        "meaning-example": "Biên giới giữa hai quốc gia.",
+        "ipa-example": "/ə ˈbɔː.dər bɪˈtwiːn tuː ˈkʌn.triz./"
+      },
+      {
+        "sentence": "During a march across a tract of wilderness near his country’s frontier, Tom strayed from his squad.",
+        "meaning-example": "Trong một cuộc hành quân qua một vùng hoang dã gần biên giới nước mình, Tom đã bị lạc khỏi đội.",
+        "ipa-example": "/ˈdʒʊə.rɪŋ ə mɑːtʃ əˈkrɒs ə trækt əv ˈwɪl.də.nəs nɪər hɪz ˈkʌn.triz ˈfrʌn.tɪər, tɒm streɪd frəm hɪz skwɒd./"
+      }
+    ]
+  },
+  {
+    "word": "handbook",
+    "ipa": "/ˈhænd.bʊk/",
+    "meaning": "Sổ tay hướng dẫn.",
+    "image": "eew-6-14/7.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "handbook",
+        "meaning-example": "Sổ tay hướng dẫn.",
+        "ipa-example": "/ˈhænd.bʊk/"
+      },
+      {
+        "sentence": "\"Tay xách\" (hand) cuốn \"sách\" (book) nhỏ, người lính mới luôn mang theo bên mình cuốn **sổ tay hướng dẫn**. Nó chứa đựng mọi quy định, kỹ năng cần thiết để sinh tồn và chiến đấu, là kim chỉ nam cho mọi hoạt động.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A small book giving useful facts.",
+        "meaning-example": "Một cuốn sách nhỏ cung cấp những thông tin hữu ích.",
+        "ipa-example": "/ə smɔːl bʊk ˈɡɪv.ɪŋ ˈjuːs.fəl fækts./"
+      },
+      {
+        "sentence": "All he had was a knife, a boomerang, and his handbook.",
+        "meaning-example": "Tất cả những gì anh có là một con dao, một chiếc boomerang và cuốn sổ tay của mình.",
+        "ipa-example": "/ɔːl hiː həd wəz ə naɪf, ə ˈbuː.mə.ræŋ, ənd hɪz ˈhænd.bʊk./"
+      }
+    ]
+  },
+  {
+    "word": "hesitant",
+    "ipa": "/ˈhez.ɪ.tənt/",
+    "meaning": "Do dự, ngập ngừng.",
+    "image": "eew-6-14/8.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "hesitant",
+        "meaning-example": "Do dự, ngập ngừng.",
+        "ipa-example": "/ˈhez.ɪ.tənt/"
+      },
+      {
+        "sentence": "Cậu bé \"he di tần\" (đi loanh quanh) trước cửa hàng đồ chơi, tỏ ra rất **do dự**. Cậu muốn mua món đồ chơi mới nhưng lại sợ tốn tiền, cứ đứng **ngập ngừng**, không quyết định được.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "If you are hesitant, you do not do something immediately or quickly because you are nervous or not certain.",
+        "meaning-example": "Nếu bạn do dự, bạn không làm điều gì đó ngay lập tức hoặc nhanh chóng vì bạn lo lắng hoặc không chắc chắn.",
+        "ipa-example": "/ɪf juː ɑːr ˈhez.ɪ.tənt, juː duː nɒt duː ˈsʌm.θɪŋ ɪˈmiː.di.ət.li ɔːr ˈkwɪk.li bɪˈkɒz juː ɑːr ˈnɜː.vəs ɔːr nɒt ˈsɜː.tən./"
+      },
+      {
+        "sentence": "He was hesitant to act.",
+        "meaning-example": "Anh do dự hành động.",
+        "ipa-example": "/hiː wəz ˈhez.ɪ.tənt tuː ækt./"
+      }
+    ]
+  },
+  {
+    "word": "lush",
+    "ipa": "/lʌʃ/",
+    "meaning": "Tươi tốt, sum suê.",
+    "image": "eew-6-14/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "lush",
+        "meaning-example": "Tươi tốt, sum suê.",
+        "ipa-example": "/lʌʃ/"
+      },
+      {
+        "sentence": "Cánh đồng lúa \"lất\" phất trong gió, xanh mướt và **tươi tốt**. Những bông lúa trĩu nặng, **sum suê** hứa hẹn một mùa màng bội thu, mang lại ấm no cho người nông dân.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A lush area has a lot of green, healthy plants, grass, and trees.",
+        "meaning-example": "Một khu vực tươi tốt có nhiều cây cối, cỏ và thực vật xanh, khỏe mạnh.",
+        "ipa-example": "/ə lʌʃ ˈeə.ri.ə həz ə lɒt əv ɡriːn, ˈhel.θi plɑːnts, ɡrɑːs, ənd triːz./"
+      },
+      {
+        "sentence": "He had stopped to gaze at a splendid view of a lush valley.",
+        "meaning-example": "Anh đã dừng lại để ngắm nhìn một khung cảnh tuyệt đẹp của một thung lũng tươi tốt.",
+        "ipa-example": "/hiː həd stɒpt tuː ɡeɪz ət ə ˈsplen.dɪd vjuː əv ə lʌʃ ˈvæl.i./"
+      }
+    ]
+  },
+  {
+    "word": "marrow",
+    "ipa": "/ˈmær.əʊ/",
+    "meaning": "Tủy xương.",
+    "image": "eew-6-14/10.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "marrow",
+        "meaning-example": "Tủy xương.",
+        "ipa-example": "/ˈmær.əʊ/"
+      },
+      {
+        "sentence": "Bác sĩ nói rằng để chữa bệnh, cần phải cấy ghép \"me râu\" (một loại cây thuốc quý). Nhưng thực ra, phương pháp hiệu quả nhất là cấy ghép **tủy xương**, phần tinh túy nhất nằm sâu trong xương.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The soft, fatty substance in the hollow centre of bones.",
+        "meaning-example": "Chất mềm, béo trong phần rỗng ở trung tâm của xương.",
+        "ipa-example": "/ðə sɒft, ˈfæt.i ˈsʌb.stəns ɪn ðə ˈhɒl.əʊ ˈsen.tər əv bəʊnz./"
+      },
+      {
+        "sentence": "He shook so much from fear that it felt like the marrow in his bones quivered.",
+        "meaning-example": "Anh run lên vì sợ hãi đến nỗi cảm thấy như tủy trong xương cũng run rẩy.",
+        "ipa-example": "/hiː ʃʊk səʊ mʌtʃ frəm fɪər ðət ɪt felt laɪk ðə ˈmær.əʊ ɪn hɪz bəʊnz ˈkwɪv.əd./"
+      }
+    ]
+  },
+  {
+    "word": "paw",
+    "ipa": "/pɔː/",
+    "meaning": "Chân (có móng vuốt của chó, mèo...).",
+    "image": "eew-6-14/11.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "paw",
+        "meaning-example": "Chân (có móng vuốt của chó, mèo...).",
+        "ipa-example": "/pɔː/"
+      },
+      {
+        "sentence": "Chú mèo \"bò\" nhẹ nhàng trên sàn nhà, để lại dấu **chân** nhỏ xíu. Nó dùng cái **chân có móng vuốt** mềm mại của mình để chơi đùa với cuộn len.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The foot of an animal that has claws or nails, such as a cat, dog, or bear.",
+        "meaning-example": "Bàn chân của một con vật có móng vuốt, chẳng hạn như mèo, chó hoặc gấu.",
+        "ipa-example": "/ðə fʊt əv ən ˈæn.ɪ.məl ðət həz klɔːz ɔːr neɪlz, sʌtʃ əz ə kæt, dɒɡ, ɔːr beər./"
+      },
+      {
+        "sentence": "An animal of substantial size had left a print from its paw in the dirt.",
+        "meaning-example": "Một con vật có kích thước đáng kể đã để lại một dấu chân trên đất.",
+        "ipa-example": "/ən ˈæn.ɪ.məl əv səbˈstæn.ʃəl saɪz həd left ə prɪnt frəm ɪts pɔː ɪn ðə dɜːt./"
+      }
+    ]
+  },
+  {
+    "word": "quiver",
+    "ipa": "/ˈkwɪv.ər/",
+    "meaning": "Run rẩy, rung lên.",
+    "image": "eew-6-14/12.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "quiver",
+        "meaning-example": "Run rẩy, rung lên.",
+        "ipa-example": "/ˈkwɪv.ər/"
+      },
+      {
+        "sentence": "\"Quy vờ\" (con rùa giả vờ) sợ hãi, toàn thân **run rẩy** khi thấy con cáo tiến lại gần. Nó rụt đầu vào mai, và cái mai cũng **rung lên** bần bật, trông rất tội nghiệp.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To shake slightly, often because of strong emotion.",
+        "meaning-example": "Rung nhẹ, thường là do cảm xúc mạnh.",
+        "ipa-example": "/tuː ʃeɪk ˈslaɪt.li, ˈɒf.ən bɪˈkɒz əv strɒŋ ɪˈməʊ.ʃən./"
+      },
+      {
+        "sentence": "He shook so much from fear that it felt like the marrow in his bones quivered.",
+        "meaning-example": "Anh run lên vì sợ hãi đến nỗi cảm thấy như tủy trong xương cũng run rẩy.",
+        "ipa-example": "/hiː ʃʊk səʊ mʌtʃ frəm fɪər ðət ɪt felt laɪk ðə ˈmær.əʊ ɪn hɪz bəʊnz ˈkwɪv.əd./"
+      }
+    ]
+  },
+  {
+    "word": "splendid",
+    "ipa": "/ˈsplen.dɪd/",
+    "meaning": "Tuyệt vời, lộng lẫy.",
+    "image": "eew-6-14/13.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "splendid",
+        "meaning-example": "Tuyệt vời, lộng lẫy.",
+        "ipa-example": "/ˈsplen.dɪd/"
+      },
+      {
+        "sentence": "\"Sờ lên đĩa\" pha lê, cô bé cảm nhận được sự tinh xảo của nó. Chiếc đĩa được chạm khắc công phu, dưới ánh đèn trông thật **lộng lẫy** và **tuyệt vời**, một tác phẩm nghệ thuật thực sự.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Excellent, or beautiful and impressive.",
+        "meaning-example": "Xuất sắc, hoặc đẹp và ấn tượng.",
+        "ipa-example": "/ˈek.səl.ənt, ɔːr ˈbjuː.tɪ.fəl ənd ɪmˈpres.ɪv./"
+      },
+      {
+        "sentence": "He had stopped to gaze at a splendid view of a lush valley.",
+        "meaning-example": "Anh đã dừng lại để ngắm nhìn một khung cảnh tuyệt đẹp của một thung lũng tươi tốt.",
+        "ipa-example": "/hiː həd stɒpt tuː ɡeɪz ət ə ˈsplen.dɪd vjuː əv ə lʌʃ ˈvæl.i./"
+      }
+    ]
+  },
+  {
+    "word": "stray",
+    "ipa": "/streɪ/",
+    "meaning": "Đi lạc, lạc đường.",
+    "image": "eew-6-14/14.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "stray",
+        "meaning-example": "Đi lạc, lạc đường.",
+        "ipa-example": "/streɪ/"
+      },
+      {
+        "sentence": "Chú chó con mải mê đuổi theo \"sợi rây\" (sợi dây) phấp phới trong gió nên đã **đi lạc** khỏi nhà. Nó ngơ ngác nhìn quanh, không biết đường về, trở thành một chú chó hoang.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To travel along a route that was not originally intended, or to move outside a limited area.",
+        "meaning-example": "Đi dọc theo một tuyến đường không được dự định ban đầu, hoặc di chuyển ra ngoài một khu vực giới hạn.",
+        "ipa-example": "/tuː ˈtræv.əl əˈlɒŋ ə ruːt ðət wəz nɒt əˈrɪdʒ.ən.əl.i ɪnˈten.dɪd, ɔːr tuː muːv ˌaʊtˈsaɪd ə ˈlɪm.ɪ.tɪd ˈeə.ri.ə./"
+      },
+      {
+        "sentence": "During a march across a tract of wilderness near his country’s frontier, Tom strayed from his squad.",
+        "meaning-example": "Trong một cuộc hành quân qua một vùng hoang dã gần biên giới nước mình, Tom đã bị lạc khỏi đội.",
+        "ipa-example": "/ˈdʒʊə.rɪŋ ə mɑːtʃ əˈkrɒs ə trækt əv ˈwɪl.də.nəs nɪər hɪz ˈkʌn.triz ˈfrʌn.tɪər, tɒm streɪd frəm hɪz skwɒd./"
+      }
+    ]
+  },
+  {
+    "word": "substantial",
+    "ipa": "/səbˈstæn.ʃəl/",
+    "meaning": "Lớn, đáng kể, quan trọng.",
+    "image": "eew-6-14/15.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "substantial",
+        "meaning-example": "Lớn, đáng kể, quan trọng.",
+        "ipa-example": "/səbˈstæn.ʃəl/"
+      },
+      {
+        "sentence": "\"Sếp tẩn sờ\" vào bản báo cáo, gật gù hài lòng. Anh nhân viên đã tạo ra một sự thay đổi **quan trọng** và **đáng kể** trong dự án, mang lại lợi nhuận **lớn** cho công ty.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Large in size, value, or importance.",
+        "meaning-example": "Lớn về kích thước, giá trị hoặc tầm quan trọng.",
+        "ipa-example": "/lɑːdʒ ɪn saɪz, ˈvæl.juː, ɔːr ɪmˈpɔː.təns./"
+      },
+      {
+        "sentence": "An animal of substantial size had left a print from its paw in the dirt.",
+        "meaning-example": "Một con vật có kích thước đáng kể đã để lại một dấu chân trên đất.",
+        "ipa-example": "/ən ˈæn.ɪ.məl əv səbˈstæn.ʃəl saɪz həd left ə prɪnt frəm ɪts pɔː ɪn ðə dɜːt./"
+      }
+    ]
+  },
+  {
+    "word": "torch",
+    "ipa": "/tɔːtʃ/",
+    "meaning": "Ngọn đuốc.",
+    "image": "eew-6-14/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "torch",
+        "meaning-example": "Ngọn đuốc.",
+        "ipa-example": "/tɔːtʃ/"
+      },
+      {
+        "sentence": "Vận động viên chạy \"tót\" lên đỉnh núi, tay giơ cao **ngọn đuốc** Olympic. Ánh lửa rực sáng soi đường trong đêm, biểu tượng cho tinh thần thể thao và hòa bình.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A thick stick with material that burns tied to the top of it, used for light.",
+        "meaning-example": "Một cây gậy dày có vật liệu cháy được buộc trên đỉnh, dùng để chiếu sáng.",
+        "ipa-example": "/ə θɪk stɪk wɪð məˈtɪə.ri.əl ðət bɜːnz taɪd tuː ðə tɒp əv ɪt, juːzd fɔːr laɪt./"
+      },
+      {
+        "sentence": "He made a torch and followed the prints.",
+        "meaning-example": "Anh làm một ngọn đuốc và đi theo những dấu chân.",
+        "ipa-example": "/hiː meɪd ə tɔːtʃ ənd ˈfɒl.əʊd ðə prɪnts./"
+      }
+    ]
+  },
+  {
+    "word": "tract",
+    "ipa": "/trækt/",
+    "meaning": "Vùng, dải (đất, nước).",
+    "image": "eew-6-14/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "tract",
+        "meaning-example": "Vùng, dải (đất, nước).",
+        "ipa-example": "/trækt/"
+      },
+      {
+        "sentence": "Chiếc máy kéo \"trắc\" trở đi qua một **vùng** đất rộng lớn. **Dải đất** này cằn cỗi và hoang sơ, kéo dài tít tắp đến tận chân trời, là một thử thách lớn đối với người nông dân.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An area of land, especially a large one.",
+        "meaning-example": "Một vùng đất, đặc biệt là vùng đất rộng lớn.",
+        "ipa-example": "/ən ˈeə.ri.ə əv lænd, ɪˈspeʃ.əl.i ə lɑːdʒ wʌn./"
+      },
+      {
+        "sentence": "During a march across a tract of wilderness near his country’s frontier, Tom strayed from his squad.",
+        "meaning-example": "Trong một cuộc hành quân qua một vùng hoang dã gần biên giới nước mình, Tom đã bị lạc khỏi đội.",
+        "ipa-example": "/ˈdʒʊə.rɪŋ ə mɑːtʃ əˈkrɒs ə trækt əv ˈwɪl.də.nəs nɪər hɪz ˈkʌn.triz ˈfrʌn.tɪər, tɒm streɪd frəm hɪz skwɒd./"
+      }
+    ]
+  },
+  {
+    "word": "vigil",
+    "ipa": "/ˈvɪdʒ.ɪl/",
+    "meaning": "Sự canh thức, phiên gác đêm.",
+    "image": "eew-6-14/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "vigil",
+        "meaning-example": "Sự canh thức, phiên gác đêm.",
+        "ipa-example": "/ˈvɪdʒ.ɪl/"
+      },
+      {
+        "sentence": "Người lính \"vi diệu\" có khả năng thức trắng nhiều đêm. Trong **phiên gác đêm** của mình, anh luôn tỉnh táo, mắt không rời khỏi khu vực tuần tra. **Sự canh thức** cẩn mật của anh đảm bảo an toàn cho cả đơn vị.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An act of staying awake, especially at night, in order to be with a person who is very ill or dying, or to make a protest, or to pray.",
+        "meaning-example": "Hành động thức, đặc biệt là vào ban đêm, để ở bên một người bị bệnh nặng hoặc sắp chết, hoặc để phản đối, hoặc để cầu nguyện.",
+        "ipa-example": "/ən ækt əv ˈsteɪ.ɪŋ əˈweɪk, ɪˈspeʃ.əl.i ət naɪt, ɪn ˈɔː.dər tuː biː wɪð ə ˈpɜː.sən huː ɪz ˈver.i ɪl ɔːr ˈdaɪ.ɪŋ, ɔːr tuː meɪk ə ˈprəʊ.test, ɔːr tuː preɪ./"
+      },
+      {
+        "sentence": "He decided to stay by the fire, but during his vigil, he heard more noises.",
+        "meaning-example": "Anh quyết định ở lại bên đống lửa, nhưng trong lúc canh thức, anh nghe thấy nhiều tiếng động hơn.",
+        "ipa-example": "/hiː dɪˈsaɪ.dɪd tuː steɪ baɪ ðə ˈfaɪər, bət ˈdʒʊə.rɪŋ hɪz ˈvɪdʒ.ɪl, hiː hɜːd mɔːr ˈnɔɪ.zɪz./"
+      }
+    ]
+  },
+  {
+    "word": "weary",
+    "ipa": "/ˈwɪə.ri/",
+    "meaning": "Mệt mỏi, mệt lử.",
+    "image": "eew-6-14/19.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "weary",
+        "meaning-example": "Mệt mỏi, mệt lử.",
+        "ipa-example": "/ˈwɪə.ri/"
+      },
+      {
+        "sentence": "Sau một ngày dài \"quơ rì\" (quơ cái rìu) đốn củi, người tiều phu cảm thấy vô cùng **mệt mỏi**. Anh lê bước về nhà, toàn thân **mệt lử**, chỉ muốn nằm xuống nghỉ ngơi ngay lập tức.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Very tired, especially after working hard for a long time.",
+        "meaning-example": "Rất mệt, đặc biệt là sau khi làm việc chăm chỉ trong một thời gian dài.",
+        "ipa-example": "/ˈver.i ˈtaɪəd, ɪˈspeʃ.əl.i ˈɑːf.tər ˈwɜː.kɪŋ hɑːd fɔːr ə lɒŋ taɪm./"
+      },
+      {
+        "sentence": "It was getting dark, and Tom grew weary.",
+        "meaning-example": "Trời đang tối dần, và Tom trở nên mệt mỏi.",
+        "ipa-example": "/ɪt wəz ˈɡet.ɪŋ dɑːk, ənd tɒm ɡruː ˈwɪə.ri./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Coward’s Lesson",
+        "meaning-example": "Bài học của kẻ hèn nhát",
+        "ipa-example": "/ðə ˈkaʊ.ədz ˈles.ən/"
+      },
+      {
+        "sentence": "Tom was easily frightened.",
+        "meaning-example": "Tom rất dễ sợ hãi.",
+        "ipa-example": "/tɒm wəz ˈiː.zɪ.li ˈfraɪ.tənd./"
+      },
+      {
+        "sentence": "He enlisted in the army because he thought the military would teach him courage.",
+        "meaning-example": "Anh nhập ngũ vì nghĩ rằng quân đội sẽ dạy anh lòng dũng cảm.",
+        "ipa-example": "/hiː ɪnˈlɪs.tɪd ɪn ði ˈɑː.mi bɪˈkɒz hiː θɔːt ðə ˈmɪl.ɪ.tər.i wʊd tiːtʃ hɪm ˈkʌr.ɪdʒ./"
+      },
+      {
+        "sentence": "And though he needed courage, he never imagined how he would learn it.",
+        "meaning-example": "Và mặc dù anh cần lòng dũng cảm, anh chưa bao giờ tưởng tượng mình sẽ học nó như thế nào.",
+        "ipa-example": "/ənd ðəʊ hiː ˈniː.dɪd ˈkʌr.ɪdʒ, hiː ˈnev.ər ɪˈmædʒ.ɪnd haʊ hiː wʊd lɜːn ɪt./"
+      },
+      {
+        "sentence": "During a march across a tract of wilderness near his country’s frontier, Tom strayed from his squad.",
+        "meaning-example": "Trong một cuộc hành quân qua một vùng hoang dã gần biên giới nước mình, Tom đã bị lạc khỏi đội.",
+        "ipa-example": "/ˈdʒʊə.rɪŋ ə mɑːtʃ əˈkrɒs ə trækt əv ˈwɪl.də.nəs nɪər hɪz ˈkʌn.triz ˈfrʌn.tɪər, tɒm streɪd frəm hɪz skwɒd./"
+      },
+      {
+        "sentence": "He had stopped to gaze at a splendid view of a lush valley.",
+        "meaning-example": "Anh đã dừng lại để ngắm nhìn một khung cảnh tuyệt đẹp của một thung lũng tươi tốt.",
+        "ipa-example": "/hiː həd stɒpt tuː ɡeɪz ət ə ˈsplen.dɪd vjuː əv ə lʌʃ ˈvæl.i./"
+      },
+      {
+        "sentence": "When he turned around, his squad was gone.",
+        "meaning-example": "Khi anh quay lại, đội của anh đã biến mất.",
+        "ipa-example": "/wen hiː tɜːnd əˈraʊnd, hɪz skwɒd wəz ɡɒn./"
+      },
+      {
+        "sentence": "He searched for them, but because their outfits had camouflage, he couldn’t find them.",
+        "meaning-example": "Anh tìm kiếm họ, nhưng vì trang phục của họ có ngụy trang, anh không thể tìm thấy họ.",
+        "ipa-example": "/hiː sɜːtʃt fɔːr ðəm, bət bɪˈkɒz ðeər ˈaʊt.fɪts həd ˈkæm.ə.flɑːʒ, hiː ˈkʊd.ənt faɪnd ðəm./"
+      },
+      {
+        "sentence": "It was getting dark, and Tom grew weary.",
+        "meaning-example": "Trời đang tối dần, và Tom trở nên mệt mỏi.",
+        "ipa-example": "/ɪt wəz ˈɡet.ɪŋ dɑːk, ənd tɒm ɡruː ˈwɪə.ri./"
+      },
+      {
+        "sentence": "All he had was a knife, a boomerang, and his handbook.",
+        "meaning-example": "Tất cả những gì anh có là một con dao, một chiếc boomerang và cuốn sổ tay của mình.",
+        "ipa-example": "/ɔːl hiː həd wəz ə naɪf, ə ˈbuː.mə.ræŋ, ənd hɪz ˈhænd.bʊk./"
+      },
+      {
+        "sentence": "He made a camp for the night.",
+        "meaning-example": "Anh dựng trại qua đêm.",
+        "ipa-example": "/hiː meɪd ə kæmp fɔːr ðə naɪt./"
+      },
+      {
+        "sentence": "It was cold, and the ground was hard.",
+        "meaning-example": "Trời lạnh và mặt đất thì cứng.",
+        "ipa-example": "/ɪt wəz kəʊld, ənd ðə ɡraʊnd wəz hɑːd./"
+      },
+      {
+        "sentence": "He wished he had his cot and a blanket.",
+        "meaning-example": "Anh ước mình có giường xếp và một cái chăn.",
+        "ipa-example": "/hiː wɪʃt hiː həd hɪz kɒt ənd ə ˈblæŋ.kɪt./"
+      },
+      {
+        "sentence": "Instead, he made a fire, wrapped himself tightly in his jacket, and fell asleep.",
+        "meaning-example": "Thay vào đó, anh nhóm lửa, quấn chặt mình trong áo khoác và ngủ thiếp đi.",
+        "ipa-example": "/ɪnˈsted, hiː meɪd ə ˈfaɪər, ræpt hɪmˈself ˈtaɪt.li ɪn hɪz ˈdʒæk.ɪt, ənd fel əˈsliːp./"
+      },
+      {
+        "sentence": "A loud noise roused him from his sleep.",
+        "meaning-example": "Một tiếng động lớn đã đánh thức anh khỏi giấc ngủ.",
+        "ipa-example": "/ə laʊd nɔɪz raʊzd hɪm frəm hɪz sliːp./"
+      },
+      {
+        "sentence": "“What was that?” he wondered.",
+        "meaning-example": "\"Cái gì vậy?\" anh tự hỏi.",
+        "ipa-example": "/wɒt wəz ðæt? hiː ˈwʌn.dəd./"
+      },
+      {
+        "sentence": "Then he noticed it.",
+        "meaning-example": "Sau đó, anh nhận thấy nó.",
+        "ipa-example": "/ðen hiː ˈnəʊ.tɪst ɪt./"
+      },
+      {
+        "sentence": "An animal of substantial size had left a print from its paw in the dirt.",
+        "meaning-example": "Một con vật có kích thước đáng kể đã để lại một dấu chân trên đất.",
+        "ipa-example": "/ən ˈæn.ɪ.məl əv səbˈstæn.ʃəl saɪz həd left ə prɪnt frəm ɪts pɔː ɪn ðə dɜːt./"
+      },
+      {
+        "sentence": "He sat closer to the fire and looked into the darkness.",
+        "meaning-example": "Anh ngồi gần lửa hơn và nhìn vào bóng tối.",
+        "ipa-example": "/hiː sæt ˈkləʊ.sər tuː ðə ˈfaɪər ənd lʊkt ˈɪn.tuː ðə ˈdɑːk.nəs./"
+      },
+      {
+        "sentence": "He imagined a large beast jumping from the gloom and attacking him.",
+        "meaning-example": "Anh tưởng tượng một con thú lớn nhảy ra từ bóng tối và tấn công anh.",
+        "ipa-example": "/hiː ɪˈmædʒ.ɪnd ə lɑːdʒ biːst ˈdʒʌm.pɪŋ frəm ðə ɡluːm ənd əˈtæk.ɪŋ hɪm./"
+      },
+      {
+        "sentence": "He shook so much from fear that it felt like the marrow in his bones quivered.",
+        "meaning-example": "Anh run lên vì sợ hãi đến nỗi cảm thấy như tủy trong xương cũng run rẩy.",
+        "ipa-example": "/hiː ʃʊk səʊ mʌtʃ frəm fɪər ðət ɪt felt laɪk ðə ˈmær.əʊ ɪn hɪz bəʊnz ˈkwɪv.əd./"
+      },
+      {
+        "sentence": "Tom contemplated many different plans.",
+        "meaning-example": "Tom đã suy ngẫm về nhiều kế hoạch khác nhau.",
+        "ipa-example": "/tɒm ˈkɒn.təm.pleɪ.tɪd ˈmen.i ˈdɪf.ər.ənt plænz./"
+      },
+      {
+        "sentence": "He was hesitant to act.",
+        "meaning-example": "Anh do dự hành động.",
+        "ipa-example": "/hiː wəz ˈhez.ɪ.tənt tuː ækt./"
+      },
+      {
+        "sentence": "He decided to stay by the fire, but during his vigil, he heard more noises.",
+        "meaning-example": "Anh quyết định ở lại bên đống lửa, nhưng trong lúc canh thức, anh nghe thấy nhiều tiếng động hơn.",
+        "ipa-example": "/hiː dɪˈsaɪ.dɪd tuː steɪ baɪ ðə ˈfaɪər, bət ˈdʒʊə.rɪŋ hɪz ˈvɪdʒ.ɪl, hiː hɜːd mɔːr ˈnɔɪ.zɪz./"
+      },
+      {
+        "sentence": "He couldn’t contend with his fear any longer.",
+        "meaning-example": "Anh không thể đấu tranh với nỗi sợ của mình được nữa.",
+        "ipa-example": "/hiː ˈkʊd.ənt kənˈtend wɪð hɪz fɪər ˈen.i ˈlɒŋ.ɡər./"
+      },
+      {
+        "sentence": "He knew what he had to do.",
+        "meaning-example": "Anh biết mình phải làm gì.",
+        "ipa-example": "/hiː njuː wɒt hiː həd tuː duː./"
+      },
+      {
+        "sentence": "He made a torch and followed the prints.",
+        "meaning-example": "Anh làm một ngọn đuốc và đi theo những dấu chân.",
+        "ipa-example": "/hiː meɪd ə tɔːtʃ ənd ˈfɒl.əʊd ðə prɪnts./"
+      },
+      {
+        "sentence": "He heard a twig snap very close ahead, but he bravely went on.",
+        "meaning-example": "Anh nghe thấy một cành cây gãy rất gần phía trước, nhưng anh dũng cảm tiếp tục đi.",
+        "ipa-example": "/hiː hɜːd ə twɪɡ snæp ˈver.i kləʊs əˈhed, bət hiː ˈbreɪv.li went ɒn./"
+      },
+      {
+        "sentence": "Seconds later, he discovered what had scared him.",
+        "meaning-example": "Vài giây sau, anh phát hiện ra thứ đã làm anh sợ hãi.",
+        "ipa-example": "/ˈsek.əndz ˈleɪ.tər, hiː dɪˈskʌv.əd wɒt həd skeəd hɪm./"
+      },
+      {
+        "sentence": "It was only a kangaroo.",
+        "meaning-example": "Đó chỉ là một con kangaroo.",
+        "ipa-example": "/ɪt wəz ˈəʊn.li ə ˌkæŋ.ɡəˈruː./"
+      },
+      {
+        "sentence": "Tom went back to his camp and slept.",
+        "meaning-example": "Tom quay trở lại trại của mình và ngủ.",
+        "ipa-example": "/tɒm went bæk tuː hɪz kæmp ənd slept./"
+      },
+      {
+        "sentence": "In the morning, he found his squad.",
+        "meaning-example": "Vào buổi sáng, anh đã tìm thấy đội của mình.",
+        "ipa-example": "/ɪn ðə ˈmɔː.nɪŋ, hiː faʊnd hɪz skwɒd./"
+      },
+      {
+        "sentence": "He had finally learned courage.",
+        "meaning-example": "Cuối cùng anh đã học được lòng dũng cảm.",
+        "ipa-example": "/hiː həd ˈfaɪ.nə.li lɜːnt ˈkʌr.ɪdʒ./"
+      },
+      {
+        "sentence": "He learned that he had to confront his fear in order to conquer it.",
+        "meaning-example": "Anh học được rằng anh phải đối mặt với nỗi sợ hãi của mình để chinh phục nó.",
+        "ipa-example": "/hiː lɜːnt ðət hiː həd tuː kənˈfrʌnt hɪz fɪər ɪn ˈɔː.dər tuː ˈkɒŋ.kər ɪt./"
+      }
+    ]
+  }
+]
