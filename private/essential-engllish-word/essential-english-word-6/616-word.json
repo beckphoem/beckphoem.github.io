@@ -1,0 +1,737 @@
+[
+  {
+    "word": "amid",
+    "ipa": "/əˈmɪd/",
+    "meaning": "Ở giữa, trong lúc.",
+    "image": "eew-6-16/1.png",
+    "classes": "prep",
+    "example": [
+      {
+        "sentence": "amid",
+        "meaning-example": "Ở giữa, trong lúc.",
+        "ipa-example": "/əˈmɪd/"
+      },
+      {
+        "sentence": "Hai người bạn đang đi dạo trên con đường làng yên tĩnh thì bất ngờ phải dừng lại. Một người chỉ xuống và kêu lên: \"`A, mít!`\". Thì ra, một quả mít lớn vừa rụng, nằm chình ình **ở giữa** lối đi, **trong bối cảnh** cây cối xum xuê hai bên.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "In the middle of or surrounded by.",
+        "meaning-example": "Ở giữa hoặc được bao quanh bởi.",
+        "ipa-example": "/ɪn ðə ˈmɪd.əl əv ɔːr səˈraʊn.dɪd baɪ./"
+      },
+      {
+        "sentence": "I fell down amid the tumult while everyone fled the fire.",
+        "meaning-example": "Tôi ngã xuống giữa sự hỗn loạn trong khi mọi người chạy trốn khỏi đám cháy.",
+        "ipa-example": "/aɪ fel daʊn əˈmɪd ðə ˈtʃuː.mʌlt waɪl ˈev.ri.wʌn fled ðə faɪər./"
+      }
+    ]
+  },
+  {
+    "word": "backstage",
+    "ipa": "/ˌbækˈsteɪdʒ/",
+    "meaning": "Ở hậu trường, phía sau sân khấu.",
+    "image": "eew-6-16/2.png",
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "backstage",
+        "meaning-example": "Ở hậu trường, phía sau sân khấu.",
+        "ipa-example": "/ˌbækˈsteɪdʒ/"
+      },
+      {
+        "sentence": "Trong một vở xiếc, người nghệ sĩ đu dây vừa thực hiện một cú nhào lộn khó và tiếp đất không thành công. Anh vội vã chạy vào trong cánh gà, mặt nhăn nhó vì đau. Một người đồng nghiệp chạy theo lo lắng hỏi: \"Anh có sao không?\". Người nghệ sĩ chỉ vào lưng mình và nói: \"Chắc bị va đập rồi, `bách sờ tấy` cả lên!\". Nơi anh đang đứng để kiểm tra vết thương chính là khu vực **hậu trường**, **phía sau sân khấu**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "In the area behind the stage in a theatre, including the rooms where the actors get dressed.",
+        "meaning-example": "Trong khu vực phía sau sân khấu của một nhà hát, bao gồm cả các phòng nơi diễn viên thay đồ.",
+        "ipa-example": "/ɪn ði ˈeə.ri.ə bɪˈhaɪnd ðə steɪdʒ ɪn ə ˈθɪə.tər, ɪnˈkluː.dɪŋ ðə ruːmz weər ði ˈæk.təz ɡet drest./"
+      },
+      {
+        "sentence": "It was soon revealed that the fire had started backstage, and only two people were in the area at the time.",
+        "meaning-example": "Người ta sớm tiết lộ rằng đám cháy đã bắt đầu ở hậu trường, và chỉ có hai người ở trong khu vực vào thời điểm đó.",
+        "ipa-example": "/ɪt wəz suːn rɪˈviːld ðət ðə faɪər həd ˈstɑː.tɪd ˌbækˈsteɪdʒ, ənd ˈəʊn.li tuː ˈpiː.pəl wər ɪn ði ˈeə.ri.ə ət ðə taɪm./"
+      }
+    ]
+  },
+  {
+    "word": "billionaire",
+    "ipa": "/ˌbɪl.jəˈneər/",
+    "meaning": "Tỷ phú.",
+    "image": "eew-6-16/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "billionaire",
+        "meaning-example": "Tỷ phú.",
+        "ipa-example": "/ˌbɪl.jəˈneər/"
+      },
+      {
+        "sentence": "Ông Ba, một người bán vé số nghèo, cuối ngày giữ lại cho mình một tờ vé số độc đắc duy nhất. Tối đó, khi đang dò kết quả trên TV, một người hàng xóm đi ngang qua hỏi vọng vào: \"Sao rồi Ba, có trúng không?\". Ông Ba đứng bật dậy, tay run run chỉ vào dãy số trên màn hình và hét lớn trong sung sướng: \"`Bị liền nè!`\". Kể từ giây phút đó, cuộc đời ông đã thay đổi hoàn toàn, ông chính thức trở thành một **tỷ phú**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who has money, property, etc. that is worth at least 1,000,000,000 dollars, pounds, euros, etc.",
+        "meaning-example": "Một người có tiền, tài sản, v.v. trị giá ít nhất 1.000.000.000 đô la, bảng Anh, euro, v.v.",
+        "ipa-example": "/ə ˈpɜː.sən huː həz ˈmʌn.i, ˈprɒp.ə.ti, etˈsetərə ðət ɪz wɜːθ ət liːst wʌn ˈbɪl.jən ˈdɒl.əz, paʊndz, ˈjʊə.rəʊz, etˈsetərə./"
+      },
+      {
+        "sentence": "One was the husband of the play’s star actress, the billionaire Henry Rich.",
+        "meaning-example": "Một người là chồng của nữ diễn viên ngôi sao của vở kịch, tỷ phú Henry Rich.",
+        "ipa-example": "/wʌn wəz ðə ˈhʌz.bənd əv ðə pleɪz stɑːr ˈæk.trəs, ðə ˌbɪl.jəˈneər ˈhen.ri rɪtʃ./"
+      }
+    ]
+  },
+  {
+    "word": "brute",
+    "ipa": "/bruːt/",
+    "meaning": "Kẻ vũ phu, người thô lỗ cục cằn.",
+    "image": "eew-6-16/4.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "brute",
+        "meaning-example": "Kẻ vũ phu, người thô lỗ cục cằn.",
+        "ipa-example": "/bruːt/"
+      },
+      {
+        "sentence": "Người ta kể rằng, sâu trong khu rừng Cấm có một con quái vật khổng lồ, không có trí khôn mà chỉ hành động theo bản năng hoang dã. Khi nó tóm được bất kỳ sinh vật nào, sức mạnh khủng khiếp trong bàn tay nó siết chặt đến nỗi nạn nhân có cảm giác như toàn bộ gân cốt của mình `bị rút` ra. Chính vì hành động tàn bạo đó, dân làng gọi nó là **kẻ vũ phu**, một con **quái vật** cục súc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A rough and sometimes violent man.",
+        "meaning-example": "Một người đàn ông thô lỗ và đôi khi bạo lực.",
+        "ipa-example": "/ə rʌf ənd ˈsʌm.taɪmz ˈvaɪə.lənt mæn./"
+      },
+      {
+        "sentence": "The other was the theater’s janitor, Bill, a large and strong man who looked like a brute.",
+        "meaning-example": "Người còn lại là người gác cổng của nhà hát, Bill, một người đàn ông to lớn và khỏe mạnh trông giống như một kẻ vũ phu.",
+        "ipa-example": "/ði ˈʌð.ər wəz ðə ˈθɪə.təz ˈdʒæn.ɪ.tər, bɪl, ə lɑːdʒ ənd strɒŋ mæn huː lʊkt laɪk ə bruːt./"
+      }
+    ]
+  },
+  {
+    "word": "clumsy",
+    "ipa": "/ˈklʌm.zi/",
+    "meaning": "Vụng về, lóng ngóng.",
+    "image": "eew-6-16/5.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "clumsy",
+        "meaning-example": "Vụng về, lóng ngóng.",
+        "ipa-example": "/ˈklʌm.zi/"
+      },
+      {
+        "sentence": "Trong buổi lễ diễu hành, anh lính mới được giao cầm một lá cờ lớn. Do quá hồi hộp, anh cầm không vững, khiến lá cờ cứ xiêu vẹo, suýt thì làm rơi. Vị chỉ huy nghiêm khắc tiến lại, gắt lên: \"`Cờ làm gì` mà run thế kia?\". Ai cũng thấy rõ sự **vụng về**, **lóng ngóng** của anh lính trẻ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Awkward in movement or handling things.",
+        "meaning-example": "Vụng về trong chuyển động hoặc xử lý mọi việc.",
+        "ipa-example": "/ˈɔː.kwəd ɪn ˈmuːv.mənt ɔːr ˈhænd.lɪŋ θɪŋz./"
+      },
+      {
+        "sentence": "I was going backstage to see my wife and was clumsy.",
+        "meaning-example": "Tôi đã đi ra hậu trường để gặp vợ và đã rất vụng về.",
+        "ipa-example": "/aɪ wəz ˈɡəʊ.ɪŋ ˌbækˈsteɪdʒ tuː siː maɪ waɪf ənd wəz ˈklʌm.zi./"
+      }
+    ]
+  },
+  {
+    "word": "collide",
+    "ipa": "/kəˈlaɪd/",
+    "meaning": "Va chạm, đụng nhau.",
+    "image": "eew-6-16/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "collide",
+        "meaning-example": "Va chạm, đụng nhau.",
+        "ipa-example": "/kəˈlaɪd/"
+      },
+      {
+        "sentence": "Trên con đường làng nhỏ hẹp, hai người nông dân lái xe công nông đi ngược chiều nhau. Gặp nhau ở khúc cua, không ai chịu nhường ai. Một người bực tức, rồ ga và lẩm bẩm: \"`Cứ lái` thẳng tới xem ai sợ!\". \"RẦM!\" - một tiếng động lớn vang lên. Hai chiếc xe đã **va chạm** mạnh vào nhau, chỉ vì sự cố chấp của cả hai.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "(especially of moving objects) to hit something violently.",
+        "meaning-example": "(đặc biệt là các vật thể đang chuyển động) đâm vào một cái gì đó một cách dữ dội.",
+        "ipa-example": "/(ɪˈspeʃ.ə.li əv ˈmuː.vɪŋ ˈɒb.dʒekts) tuː hɪt ˈsʌm.θɪŋ ˈvaɪə.lənt.li./"
+      },
+      {
+        "sentence": "I collided with a lamp, and it fell to the floor.",
+        "meaning-example": "Tôi đã va vào một cái đèn, và nó rơi xuống sàn.",
+        "ipa-example": "/aɪ kəˈlaɪ.dɪd wɪð ə læmp, ənd ɪt fel tuː ðə flɔːr./"
+      }
+    ]
+  },
+  {
+    "word": "culprit",
+    "ipa": "/ˈkʌl.prɪt/",
+    "meaning": "Thủ phạm, kẻ có tội.",
+    "image": "eew-6-16/7.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "culprit",
+        "meaning-example": "Thủ phạm, kẻ có tội.",
+        "ipa-example": "/ˈkʌl.prɪt/"
+      },
+      {
+        "sentence": "Một vụ trộm táo táo tợn vừa xảy ra trong vườn nhà phú ông, khiến ông vô cùng tức giận. Ông triệu tập tất cả gia nhân lại và tuyên bố: \"Ta sẽ treo thưởng lớn cho ai tìm ra kẻ đã `cào rách` hàng rào để vào đây ăn trộm!\". Lời nói của phú ông đã chỉ điểm rất rõ ràng, ai có hành động \"cào rách\" hàng rào, người đó chính là **thủ phạm**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who is responsible for a crime or other misdeed.",
+        "meaning-example": "Một người chịu trách nhiệm cho một tội ác hoặc hành vi sai trái khác.",
+        "ipa-example": "/ə ˈpɜː.sən huː ɪz rɪˈspɒn.sə.bəl fɔːr ə kraɪm ɔːr ˈʌð.ər ˌmɪsˈdiːd./"
+      },
+      {
+        "sentence": "The crowd segregated the two men and demanded to know who the culprit was.",
+        "meaning-example": "Đám đông tách hai người đàn ông ra và yêu cầu biết thủ phạm là ai.",
+        "ipa-example": "/ðə kraʊd ˈseɡ.rɪ.ɡeɪ.tɪd ðə tuː men ənd dɪˈmɑːn.dɪd tuː nəʊ huː ðə ˈkʌl.prɪt wɒz./"
+      }
+    ]
+  },
+  {
+    "word": "evacuate",
+    "ipa": "/ɪˈvæk.ju.eɪt/",
+    "meaning": "Sơ tán, di tản.",
+    "image": "eew-6-16/8.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "evacuate",
+        "meaning-example": "Sơ tán, di tản.",
+        "ipa-example": "/ɪˈvæk.ju.eɪt/"
+      },
+      {
+        "sentence": "Cơn bão lịch sử đang đổ bộ vào một làng chài ven biển. Nước biển dâng lên nhanh đến chóng mặt, sắp tràn qua cả con đê. Giữa khung cảnh hỗn loạn, vị trưởng làng hét lên với tất cả sức lực của mình: \"`Y, vác cua hết` đi bà con ơi!\". Lời hiệu triệu khẩn cấp đó là mệnh lệnh để tất cả mọi người phải lập tức **sơ tán**, **di tản** đến nơi an toàn trước khi quá muộn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To move people from a dangerous place to somewhere safer.",
+        "meaning-example": "Di chuyển mọi người từ một nơi nguy hiểm đến một nơi nào đó an toàn hơn.",
+        "ipa-example": "/tuː muːv ˈpiː.pəl frəm ə ˈdeɪn.dʒər.əs pleɪs tuː ˈsʌm.weər ˈseɪ.fər./"
+      },
+      {
+        "sentence": "The audience and actors evacuated the building.",
+        "meaning-example": "Khán giả và diễn viên đã sơ tán khỏi tòa nhà.",
+        "ipa-example": "/ði ˈɔː.di.əns ənd ˈæk.təz ɪˈvæk.ju.eɪ.tɪd ðə ˈbɪl.dɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "flammable",
+    "ipa": "/ˈflæm.ə.bəl/",
+    "meaning": "Dễ cháy, dễ bắt lửa.",
+    "image": "eew-6-16/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "flammable",
+        "meaning-example": "Dễ cháy, dễ bắt lửa.",
+        "ipa-example": "/ˈflæm.ə.bəl/"
+      },
+      {
+        "sentence": "Trong buổi cắm trại, người đội trưởng thấy một cậu bé mặc chiếc áo dính đầy dầu mỡ đang định đến gần đống lửa trại. Ông vội kéo cậu lại và nghiêm giọng cảnh báo: \"Không được! Áo cháu `phải lem mỡ` thế kia, lại gần lửa là nguy hiểm lắm!\". Ai cũng biết, quần áo dính dầu mỡ thì rất **dễ cháy**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Able to be burned easily.",
+        "meaning-example": "Có thể bị đốt cháy dễ dàng.",
+        "ipa-example": "/ˈeɪ.bəl tuː biː bɜːnd ˈiː.zə.li./"
+      },
+      {
+        "sentence": "The floor was flammable.",
+        "meaning-example": "Sàn nhà dễ cháy.",
+        "ipa-example": "/ðə flɔːr wəz ˈflæm.ə.bəl./"
+      }
+    ]
+  },
+  {
+    "word": "mob",
+    "ipa": "/mɒb/",
+    "meaning": "Đám đông hỗn loạn, giận dữ.",
+    "image": "eew-6-16/10.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "mob",
+        "meaning-example": "Đám đông hỗn loạn, giận dữ.",
+        "ipa-example": "/mɒb/"
+      },
+      {
+        "sentence": "Vị địa chủ vừa tuyên bố một khoản thuế vô lý, khiến tất cả dân làng nổi giận. Họ nhanh chóng tụ tập lại, vây quanh chiếc xe hơi bóng loáng của ông ta. Trong cơn phẫn nộ, họ xô đẩy, la hét và đập vào chiếc xe. Một lúc sau, người ta thấy cánh cửa xe đã bị `móp` méo xệch. Cảnh tượng đó chính là sức mạnh đáng sợ của một **đám đông giận dữ**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A large, angry, and often violent crowd of people.",
+        "meaning-example": "Một đám đông lớn, giận dữ và thường hung bạo.",
+        "ipa-example": "/ə lɑːdʒ, ˈæŋ.ɡri, ənd ˈɒf.ən ˈvaɪə.lənt kraʊd əv ˈpiː.pəl./"
+      },
+      {
+        "sentence": "Immediately, the audience assembled into an angry mob and demanded to know what had happened.",
+        "meaning-example": "Ngay lập tức, khán giả tập hợp thành một đám đông giận dữ và yêu cầu biết chuyện gì đã xảy ra.",
+        "ipa-example": "/ɪˈmiː.di.ət.li, ði ˈɔː.di.əns əˈsem.bəld ˈɪn.tuː ən ˈæŋ.ɡri mɒb ənd dɪˈmɑːn.dɪd tuː nəʊ wɒt həd ˈhæp.ənd./"
+      }
+    ]
+  },
+  {
+    "word": "premature",
+    "ipa": "/ˈprem.ə.tʃʊər/",
+    "meaning": "Sớm, vội vàng, hấp tấp (trước thời hạn).",
+    "image": "eew-6-16/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "premature",
+        "meaning-example": "Sớm, vội vàng, hấp tấp (trước thời hạn).",
+        "ipa-example": "/ˈprem.ə.tʃʊər/"
+      },
+      {
+        "sentence": "Một người thợ làm vườn đang ươm một giống hoa hồng quý hiếm. Ông chăm sóc nó rất kỹ, mong chờ đến ngày hoa nở. Tuy nhiên, cậu con trai nghịch ngợm của ông đã táy máy, bóc từng lớp cánh hoa non ra để xem bên trong có gì. Khi người cha phát hiện, ông đau lòng thốt lên: \"Sao con lại `bẻ ria méo` thế này!\". Hành động đó đã khiến bông hoa bị nở **sớm**, nở **non** một cách ép buộc, làm hỏng hết vẻ đẹp của nó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Happening or done too soon, especially before the natural or suitable time.",
+        "meaning-example": "Xảy ra hoặc được thực hiện quá sớm, đặc biệt là trước thời điểm tự nhiên hoặc thích hợp.",
+        "ipa-example": "/ˈhæp.ən.ɪŋ ɔːr dʌn tuː suːn, ɪˈspeʃ.ə.li bɪˈfɔːr ðə ˈnætʃ.ər.əl ɔːr ˈsuː.tə.bəl taɪm./"
+      },
+      {
+        "sentence": "“Your decision is premature,” she told the crowd.",
+        "meaning-example": "\"Quyết định của các vị là quá sớm,\" cô ấy nói với đám đông.",
+        "ipa-example": "/jɔːr dɪˈsɪʒ.ən ɪz ˈprem.ə.tʃʊər, ʃiː təʊld ðə kraʊd./"
+      }
+    ]
+  },
+  {
+    "word": "resent",
+    "ipa": "/rɪˈzent/",
+    "meaning": "Bực bội, phẫn uất.",
+    "image": "eew-6-16/12.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "resent",
+        "meaning-example": "Bực bội, phẫn uất.",
+        "ipa-example": "/rɪˈzent/"
+      },
+      {
+        "sentence": "Trong cuộc thi chạy của làng, Tí và Tèo là hai đối thủ ngang tài ngang sức. Về gần đến đích, Tèo bất ngờ dùng tiểu xảo, giẫm lên dây giày của Tí khiến cậu ngã sõng soài. Tèo về nhất trong sự ngỡ ngàng của mọi người. Sau cuộc thi, Tí nhìn Tèo với ánh mắt tóe lửa, trong đầu luôn nghĩ: \"`Rì xem`! Tôi sẽ không bao giờ tha thứ cho anh!\". Ánh mắt và suy nghĩ đó chứa đầy sự **phẫn uất**, **oán giận** vì hành động chơi xấu của Tèo.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To feel angry because you have been forced to accept someone or something that you do not like.",
+        "meaning-example": "Cảm thấy tức giận vì bạn đã bị buộc phải chấp nhận ai đó hoặc điều gì đó mà bạn không thích.",
+        "ipa-example": "/tuː fiːl ˈæŋ.ɡri bɪˈkɒz juː həv biːn fɔːst tuː əkˈsept ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ ðət juː duː nɒt laɪk./"
+      },
+      {
+        "sentence": "Bill resented this but said nothing.",
+        "meaning-example": "Bill phẫn uất về điều này nhưng không nói gì.",
+        "ipa-example": "/bɪl rɪˈzen.tɪd ðɪs bət sed ˈnʌθ.ɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "satire",
+    "ipa": "/ˈsæt.aɪər/",
+    "meaning": "Lời châm biếm, sự trào phúng.",
+    "image": "eew-6-16/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "satire",
+        "meaning-example": "Lời châm biếm, sự trào phúng.",
+        "ipa-example": "/ˈsæt.aɪər/"
+      },
+      {
+        "sentence": "Tại buổi chầu của nhà vua, một vị quan đại thần nổi tiếng chỉ biết nghe ngóng chuyện tầm phào mà không làm được việc gì. Anh hề của triều đình đã bắt chước y hệt dáng điệu của ông ta, đi khắp sân chầu, tay thì luôn đưa lên tai như đang hóng chuyện. Cuối cùng, anh hề tiến đến gần vị quan và hỏi một câu tỉnh bơ: \"`Sờ tai à?`\". Cả triều đình bật cười rần rần vì hiểu ngầm ý của anh hề. Hành động và câu hỏi đó chính là một lời **châm biếm** sâu cay, dùng sự hài hước để chỉ trích thói xấu của vị quan.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A way of criticizing people or ideas in a humorous way, especially in order to make a political point.",
+        "meaning-example": "Một cách chỉ trích người hoặc ý tưởng một cách hài hước, đặc biệt là để đưa ra một quan điểm chính trị.",
+        "ipa-example": "/ə weɪ əv ˈkrɪt.ɪ.saɪ.zɪŋ ˈpiː.pəl ɔːr aɪˈdɪəz ɪn ə ˈhjuː.mə.rəs weɪ, ɪˈspeʃ.ə.li ɪn ˈɔː.dər tuː meɪk ə pəˈlɪt.ɪ.kəl pɔɪnt./"
+      },
+      {
+        "sentence": "Hundreds of people had come to see a popular satire, but during the performance a fire started in the theater.",
+        "meaning-example": "Hàng trăm người đã đến xem một vở kịch châm biếm nổi tiếng, nhưng trong buổi biểu diễn, một đám cháy đã bùng lên trong nhà hát.",
+        "ipa-example": "/ˈhʌn.drədz əv ˈpiː.pəl həd kʌm tuː siː ə ˈpɒp.jə.lər ˈsæt.aɪər, bət ˈdʒʊə.rɪŋ ðə pəˈfɔː.məns ə faɪər ˈstɑː.tɪd ɪn ðə ˈθɪə.tər./"
+      }
+    ]
+  },
+  {
+    "word": "scrutiny",
+    "ipa": "/ˈskruː.tɪ.ni/",
+    "meaning": "Sự xem xét kỹ lưỡng, sự giám sát chặt chẽ.",
+    "image": "eew-6-16/14.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "scrutiny",
+        "meaning-example": "Sự xem xét kỹ lưỡng, sự giám sát chặt chẽ.",
+        "ipa-example": "/ˈskruː.tɪ.ni/"
+      },
+      {
+        "sentence": "Tại cửa khẩu an ninh, một nhân viên hải quan chặn một vị khách có vẻ ngoài khả nghi. Trong hành lý của người này có một bức tượng rùa ngọc bích cực kỳ nhỏ và tinh xảo. Nghi ngờ có điều bất thường, viên hải quan đeo găng tay trắng vào, cẩn thận cầm bức tượng lên. Ông nheo mắt, dùng đầu ngón tay `sờ con ru tí ni` này, xoay nó dưới ánh đèn, gõ nhẹ vào mai nó. Tất cả hành động của ông đều là một **sự xem xét kỹ lưỡng**, một **sự soi xét cẩn thận** để đảm bảo không có gì phi pháp được giấu bên trong.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The careful and detailed examination of something in order to get information about it.",
+        "meaning-example": "Sự kiểm tra cẩn thận và chi tiết một cái gì đó để có được thông tin về nó.",
+        "ipa-example": "/ðə ˈkeə.fəl ənd ˈdiː.teɪld ɪɡˌzæm.ɪˈneɪ.ʃən əv ˈsʌm.θɪŋ ɪn ˈɔː.dər tuː ɡet ˌɪn.fəˈmeɪ.ʃən əˈbaʊt ɪt./"
+      },
+      {
+        "sentence": "They felt that he had started the fire without ever subjecting him to any scrutiny.",
+        "meaning-example": "Họ cảm thấy rằng anh ta đã gây ra đám cháy mà không hề bị xem xét kỹ lưỡng.",
+        "ipa-example": "/ðeɪ felt ðət hiː həd ˈstɑː.tɪd ðə faɪər wɪˈðaʊt ˈev.ər səbˈdʒek.tɪŋ hɪm tuː ˈen.i ˈskruː.tɪ.ni./"
+      }
+    ]
+  },
+  {
+    "word": "segregate",
+    "ipa": "/ˈseɡ.rɪ.ɡeɪt/",
+    "meaning": "Tách riêng, cách ly.",
+    "image": "eew-6-16/15.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "segregate",
+        "meaning-example": "Tách riêng, cách ly.",
+        "ipa-example": "/ˈseɡ.rɪ.ɡeɪt/"
+      },
+      {
+        "sentence": "Một ông chủ nhà giàu có và cực kỳ khó tính coi bộ sưu tập siêu xe của mình như báu vật. Một ngày nọ, ông phát hiện người làm vườn đã đỗ chiếc xe máy cũ kỹ, dính đầy bùn đất ngay cạnh chiếc Lamborghini bóng loáng của mình. Ông đùng đùng nổi giận, chỉ tay vào chiếc xe máy và quát lớn: \"`Xe gì ghét` thế này! Mang nó ra khỏi đây ngay!\". Ngay sau đó, ông yêu cầu phải xây một khu vực riêng ở góc sân chỉ để đậu những chiếc xe \"không đẳng cấp\". Hành động này của ông chính là để **phân biệt** và **tách riêng** chúng ra.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To keep one group of people apart from another and treat them differently.",
+        "meaning-example": "Giữ một nhóm người tách biệt với nhóm khác và đối xử với họ một cách khác biệt.",
+        "ipa-example": "/tuː kiːp wʌn ɡruːp əv ˈpiː.pəl əˈpɑːt frəm əˈnʌð.ər ənd triːt ðəm ˈdɪf.ər.ənt.li./"
+      },
+      {
+        "sentence": "The crowd segregated the two men and demanded to know who the culprit was.",
+        "meaning-example": "Đám đông tách hai người đàn ông ra và yêu cầu biết thủ phạm là ai.",
+        "ipa-example": "/ðə kraʊd ˈseɡ.rɪ.ɡeɪ.tɪd ðə tuː men ənd dɪˈmɑːn.dɪd tuː nəʊ huː ðə ˈkʌl.prɪt wɒz./"
+      }
+    ]
+  },
+  {
+    "word": "subject",
+    "ipa": "/səbˈdʒekt/",
+    "meaning": "Bắt phải chịu, khiến cho phải chịu đựng.",
+    "image": "eew-6-16/16.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "subject",
+        "meaning-example": "Bắt phải chịu, khiến cho phải chịu đựng.",
+        "ipa-example": "/səbˈdʒekt/"
+      },
+      {
+        "sentence": "Trong một vương quốc cổ đại, có một tên bạo chúa tàn ác. Khi bắt được một hiệp sĩ dũng cảm của phe địch, thay vì xử tử ngay, hắn muốn bẻ gãy ý chí của người hiệp sĩ. Tên bạo chúa ra lệnh lột hết áo giáp và quần áo ấm của người hiệp sĩ, sau đó xích anh ta lên đỉnh núi cao nhất trong một trận bão tuyết. Bị cái lạnh cắt da cắt thịt hành hạ, cơ thể người hiệp sĩ dần mất đi cảm giác. Anh run rẩy, trong đầu chỉ còn một suy nghĩ duy nhất: \"Mình `sắp chết` rồi...\". Bằng hành động đó, tên bạo chúa đã **bắt anh phải chịu đựng** một thử thách khắc nghiệt và tàn khốc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To cause someone or something to experience something, especially something unpleasant.",
+        "meaning-example": "Làm cho ai đó hoặc cái gì đó trải qua một điều gì đó, đặc biệt là điều gì đó khó chịu.",
+        "ipa-example": "/tuː kɔːz ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ tuː ɪkˈspɪə.ri.əns ˈsʌm.θɪŋ, ɪˈspeʃ.ə.li ˈsʌm.θɪŋ ʌnˈplez.ənt./"
+      },
+      {
+        "sentence": "They felt that he had started the fire without ever subjecting him to any scrutiny.",
+        "meaning-example": "Họ cảm thấy rằng anh ta đã gây ra đám cháy mà không hề bị xem xét kỹ lưỡng.",
+        "ipa-example": "/ðeɪ felt ðət hiː həd ˈstɑː.tɪd ðə faɪər wɪˈðaʊt ˈev.ər səbˈdʒek.tɪŋ hɪm tuː ˈen.i ˈskruː.tɪ.ni./"
+      }
+    ]
+  },
+  {
+    "word": "testify",
+    "ipa": "/ˈtes.tɪ.faɪ/",
+    "meaning": "Làm chứng, khai.",
+    "image": "eew-6-16/17.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "testify",
+        "meaning-example": "Làm chứng, khai.",
+        "ipa-example": "/ˈtes.tɪ.faɪ/"
+      },
+      {
+        "sentence": "Chiếc bình gốm cổ mà mẹ yêu quý nhất đã vỡ tan tành trên sàn nhà. Hai anh em Tí và Tèo cứ đùn đẩy trách nhiệm cho nhau, không ai chịu nhận lỗi. Mất hết kiên nhẫn, người mẹ cầm cây roi mây lên, chỉ vào hai đứa và nói dứt khoát: \"Bây giờ, một là tự giác, hai là `tét thì phải` khai thật!\". Nghe đến đó, cậu em Tí sợ quá, liền lắp bắp nhận tội và kể lại toàn bộ sự việc. Lời đe dọa của mẹ đã buộc Tí phải đứng ra **làm chứng**, **khai báo** sự thật.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To speak seriously about something, especially in a law court, or to give or provide proof.",
+        "meaning-example": "Nói một cách nghiêm túc về một điều gì đó, đặc biệt là tại tòa án, hoặc để đưa ra hoặc cung cấp bằng chứng.",
+        "ipa-example": "/tuː spiːk ˈsɪə.ri.əs.li əˈbaʊt ˈsʌm.θɪŋ, ɪˈspeʃ.ə.li ɪn ə lɔː kɔːt, ɔːr tuː ɡɪv ɔːr prəˈvaɪd pruːf./"
+      },
+      {
+        "sentence": "Luckily, the billionaire’s wife testified in his defense.",
+        "meaning-example": "May mắn thay, vợ của nhà tỷ phú đã làm chứng để bào chữa cho ông.",
+        "ipa-example": "/ˈlʌk.ɪ.li, ðə ˌbɪl.jəˈneəz waɪf ˈtes.tɪ.faɪd ɪn hɪz dɪˈfens./"
+      }
+    ]
+  },
+  {
+    "word": "tumult",
+    "ipa": "/ˈtʃuː.mʌlt/",
+    "meaning": "Sự huyên náo, sự hỗn loạn.",
+    "image": "eew-6-16/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "tumult",
+        "meaning-example": "Sự huyên náo, sự hỗn loạn.",
+        "ipa-example": "/ˈtʃuː.mʌlt/"
+      },
+      {
+        "sentence": "Tại một lễ hội làng đông như nêm cối, bé Tú đang mải mê nhìn gian hàng tò he sặc sỡ, chỉ buông tay mẹ ra một thoáng. Khi cậu bé ngẩng lên, mẹ đã hòa vào dòng người đông đúc. Hoảng hốt, cậu bé mếu máo chạy quanh, miệng không ngừng gọi lớn: \"`Tú mất` mẹ rồi! `Tú mất` mẹ rồi!\". Tiếng la khóc của cậu bé đã ngay lập tức gây ra một **sự huyên náo**, **hỗn loạn** nhỏ giữa khu chợ. Mọi người xúm lại, tiếng hỏi han, tiếng bàn tán xôn xao, tạo nên một cảnh tượng vô cùng ồn ào.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A loud noise, especially that produced by that of a large crowd, or a state of confusion, change, or uncertainty.",
+        "meaning-example": "Một tiếng ồn lớn, đặc biệt là tiếng ồn do một đám đông lớn tạo ra, hoặc một trạng thái bối rối, thay đổi, hoặc không chắc chắn.",
+        "ipa-example": "/ə laʊd nɔɪz, ɪˈspeʃ.ə.li ðæt prəˈdjuːst baɪ ðæt əv ə lɑːdʒ kraʊd, ɔːr ə steɪt əv kənˈfjuː.ʒən, tʃeɪndʒ, ɔːr ʌnˈsɜː.tən.ti./"
+      },
+      {
+        "sentence": "I fell down amid the tumult while everyone fled the fire.",
+        "meaning-example": "Tôi ngã xuống giữa sự hỗn loạn trong khi mọi người chạy trốn khỏi đám cháy.",
+        "ipa-example": "/aɪ fel daʊn əˈmɪd ðə ˈtʃuː.mʌlt waɪl ˈev.ri.wʌn fled ðə faɪər./"
+      }
+    ]
+  },
+  {
+    "word": "underestimate",
+    "ipa": "/ˌʌn.dərˈes.tɪ.meɪt/",
+    "meaning": "Đánh giá thấp.",
+    "image": "eew-6-16/19.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "underestimate",
+        "meaning-example": "Đánh giá thấp.",
+        "ipa-example": "/ˌʌn.dərˈes.tɪ.meɪt/"
+      },
+      {
+        "sentence": "Tại một võ đường danh tiếng, có một võ sinh trẻ tên Kiên, võ công cao cường nhưng tính tình lại có phần kiêu ngạo. Một hôm, vị sư phụ già, dáng người nhỏ bé, yêu cầu anh giữ một thế tấn trung bình tấn trong vòng một nén hương. Kiên nhếch mép cười, cho rằng đây là bài tập cho trẻ con. Nhìn thái độ của anh, mấy người bạn đồng môn rỉ tai nhau: \"`Anh-đó-sợ-tí-mệt` nên mới coi thường bài tập này thôi.\" Thế nhưng, chỉ sau mười phút, chân anh bắt đầu run rẩy. Mồ hôi túa ra như tắm. Cuối cùng, anh ngã quỵ xuống sàn trước khi nén hương kịp tàn. Vị sư phụ ôn tồn nói: \"Con đã thất bại, không phải vì con yếu, mà vì con đã **đánh giá thấp** sức bền cần có cho một thử thách trông có vẻ đơn giản.\"",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To fail to guess or understand the real cost, size, difficulty, etc. of something.",
+        "meaning-example": "Không đoán hoặc hiểu được chi phí, kích thước, độ khó, v.v. thực sự của một cái gì đó.",
+        "ipa-example": "/tuː feɪl tuː ɡes ɔːr ˌʌn.dəˈstænd ðə rɪəl kɒst, saɪz, ˈdɪf.ɪ.kəl.ti, etˈsetərə əv ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "I think you underestimate his character.",
+        "meaning-example": "Tôi nghĩ bạn đã đánh giá thấp tính cách của anh ấy.",
+        "ipa-example": "/aɪ θɪŋk juː ˌʌn.dərˈes.tɪ.meɪt hɪz ˈkær.ək.tər./"
+      }
+    ]
+  },
+  {
+    "word": "uproar",
+    "ipa": "/ˈʌp.rɔːr/",
+    "meaning": "Sự náo động, tiếng la ó om sòm.",
+    "image": "eew-6-16/20.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "uproar",
+        "meaning-example": "Sự náo động, tiếng la ó om sòm.",
+        "ipa-example": "/ˈʌp.rɔːr/"
+      },
+      {
+        "sentence": "Trận chung kết bóng rổ đang ở những giây cuối cùng, tỉ số hoàn toàn cân bằng. Cầu thủ ngôi sao của đội nhà bật cao, thực hiện một cú \"`úp rổ`\" sấm sét, ghi điểm quyết định ngay khi tiếng còi kết thúc trận đấu vang lên. Thế nhưng, vị trọng tài lại phất tay, không công nhận bàn thắng với lý do bóng chưa hoàn toàn rời tay khi hết giờ. Quyết định đó ngay lập tức đã thổi bùng lên một **sự náo động ầm ĩ** trên khắp khán đài. Tiếng la ó, phản đối và giận dữ vang dội khắp nhà thi đấu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A situation in which a lot of people complain about something angrily or make a lot of noise.",
+        "meaning-example": "Một tình huống trong đó rất nhiều người phàn nàn về điều gì đó một cách tức giận hoặc làm ầm ĩ.",
+        "ipa-example": "/ə ˌsɪtʃ.uˈeɪ.ʃən ɪn wɪtʃ ə lɒt əv ˈpiː.pəl kəmˈpleɪn əˈbaʊt ˈsʌm.θɪŋ ˈæŋ.ɡrə.li ɔːr meɪk ə lɒt əv nɔɪz./"
+      },
+      {
+        "sentence": "“Wait,” the billionaire said over the uproar.",
+        "meaning-example": "\"Chờ đã,\" nhà tỷ phú nói át đi tiếng náo động.",
+        "ipa-example": "/weɪt, ðə ˌbɪl.jəˈneər sed ˈəʊ.vər ði ˈʌp.rɔːr./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Brute and the Billionaire",
+        "meaning-example": "Kẻ vũ phu và nhà tỷ phú",
+        "ipa-example": "/ðə bruːt ənd ðə ˌbɪl.jəˈneər./"
+      },
+      {
+        "sentence": "Hundreds of people had come to see a popular satire, but during the performance a fire started in the theater.",
+        "meaning-example": "Hàng trăm người đã đến xem một vở kịch châm biếm nổi tiếng, nhưng trong buổi biểu diễn, một đám cháy đã bùng lên trong nhà hát.",
+        "ipa-example": "/ˈhʌn.drədz əv ˈpiː.pəl həd kʌm tuː siː ə ˈpɒp.jə.lər ˈsæt.aɪər, bət ˈdʒʊə.rɪŋ ðə pəˈfɔː.məns ə faɪər ˈstɑː.tɪd ɪn ðə ˈθɪə.tər./"
+      },
+      {
+        "sentence": "The audience and actors evacuated the building.",
+        "meaning-example": "Khán giả và diễn viên đã sơ tán khỏi tòa nhà.",
+        "ipa-example": "/ði ˈɔː.di.əns ənd ˈæk.təz ɪˈvæk.ju.eɪ.tɪd ðə ˈbɪl.dɪŋ./"
+      },
+      {
+        "sentence": "Luckily, no one was hurt, and the fire was soon put out.",
+        "meaning-example": "May mắn thay, không ai bị thương, và đám cháy đã sớm được dập tắt.",
+        "ipa-example": "/ˈlʌk.ɪ.li, nəʊ wʌn wəz hɜːt, ənd ðə faɪər wəz suːn pʊt aʊt./"
+      },
+      {
+        "sentence": "Immediately, the audience assembled into an angry mob and demanded to know what had happened.",
+        "meaning-example": "Ngay lập tức, khán giả tập hợp thành một đám đông giận dữ và yêu cầu biết chuyện gì đã xảy ra.",
+        "ipa-example": "/ɪˈmiː.di.ət.li, ði ˈɔː.di.əns əˈsem.bəld ˈɪn.tuː ən ˈæŋ.ɡri mɒb ənd dɪˈmɑːn.dɪd tuː nəʊ wɒt həd ˈhæp.ənd./"
+      },
+      {
+        "sentence": "It was soon revealed that the fire had started backstage, and only two people were in the area at the time.",
+        "meaning-example": "Người ta sớm tiết lộ rằng đám cháy đã bắt đầu ở hậu trường, và chỉ có hai người ở trong khu vực vào thời điểm đó.",
+        "ipa-example": "/ɪt wəz suːn rɪˈviːld ðət ðə faɪər həd ˈstɑː.tɪd ˌbækˈsteɪdʒ, ənd ˈəʊn.li tuː ˈpiː.pəl wər ɪn ði ˈeə.ri.ə ət ðə taɪm./"
+      },
+      {
+        "sentence": "One was the husband of the play’s star actress, the billionaire Henry Rich.",
+        "meaning-example": "Một người là chồng của nữ diễn viên ngôi sao của vở kịch, tỷ phú Henry Rich.",
+        "ipa-example": "/wʌn wəz ðə ˈhʌz.bənd əv ðə pleɪz stɑːr ˈæk.trəs, ðə ˌbɪl.jəˈneər ˈhen.ri rɪtʃ./"
+      },
+      {
+        "sentence": "The other was the theater’s janitor, Bill, a large and strong man who looked like a brute.",
+        "meaning-example": "Người còn lại là người gác cổng của nhà hát, Bill, một người đàn ông to lớn và khỏe mạnh trông giống như một kẻ vũ phu.",
+        "ipa-example": "/ði ˈʌð.ər wəz ðə ˈθɪə.təz ˈdʒæn.ɪ.tər, bɪl, ə lɑːdʒ ənd strɒŋ mæn huː lʊkt laɪk ə bruːt./"
+      },
+      {
+        "sentence": "The crowd segregated the two men and demanded to know who the culprit was.",
+        "meaning-example": "Đám đông tách hai người đàn ông ra và yêu cầu biết thủ phạm là ai.",
+        "ipa-example": "/ðə kraʊd ˈseɡ.rɪ.ɡeɪ.tɪd ðə tuː men ənd dɪˈmɑːn.dɪd tuː nəʊ huː ðə ˈkʌl.prɪt wɒz./"
+      },
+      {
+        "sentence": "Most of the crowd thought that Bill was to blame.",
+        "meaning-example": "Hầu hết đám đông nghĩ rằng Bill là người đáng bị đổ lỗi.",
+        "ipa-example": "/məʊst əv ðə kraʊd θɔːt ðət bɪl wəz tuː bleɪm./"
+      },
+      {
+        "sentence": "They felt that he had started the fire without ever subjecting him to any scrutiny.",
+        "meaning-example": "Họ cảm thấy rằng anh ta đã gây ra đám cháy mà không hề bị xem xét kỹ lưỡng.",
+        "ipa-example": "/ðeɪ felt ðət hiː həd ˈstɑː.tɪd ðə faɪər wɪˈðaʊt ˈev.ər səbˈdʒek.tɪŋ hɪm tuː ˈen.i ˈskruː.tɪ.ni./"
+      },
+      {
+        "sentence": "Bill resented this but said nothing.",
+        "meaning-example": "Bill phẫn uất về điều này nhưng không nói gì.",
+        "ipa-example": "/bɪl rɪˈzen.tɪd ðɪs bət sed ˈnʌθ.ɪŋ./"
+      },
+      {
+        "sentence": "Luckily, the billionaire’s wife testified in his defense.",
+        "meaning-example": "May mắn thay, vợ của nhà tỷ phú đã làm chứng để bào chữa cho ông.",
+        "ipa-example": "/ˈlʌk.ɪ.li, ðə ˌbɪl.jəˈneəz waɪf ˈtes.tɪ.faɪd ɪn hɪz dɪˈfens./"
+      },
+      {
+        "sentence": "“Your decision is premature,” she told the crowd.",
+        "meaning-example": "\"Quyết định của các vị là quá sớm,\" cô ấy nói với đám đông.",
+        "ipa-example": "/jɔːr dɪˈsɪʒ.ən ɪz ˈprem.ə.tʃʊər, ʃiː təʊld ðə kraʊd./"
+      },
+      {
+        "sentence": "“ I fell down amid the tumult while everyone fled the fire.",
+        "meaning-example": "\"Tôi đã ngã xuống giữa sự hỗn loạn trong khi mọi người chạy trốn khỏi đám cháy.",
+        "ipa-example": "/aɪ fel daʊn əˈmɪd ðə ˈtʃuː.mʌlt waɪl ˈev.ri.wʌn fled ðə faɪər./"
+      },
+      {
+        "sentence": "Bill rescued me and carried me out of the building.",
+        "meaning-example": "Bill đã cứu tôi và đưa tôi ra khỏi tòa nhà.",
+        "ipa-example": "/bɪl ˈres.kjuːd miː ənd ˈkær.id miː aʊt əv ðə ˈbɪl.dɪŋ./"
+      },
+      {
+        "sentence": "I think you underestimate his character.",
+        "meaning-example": "Tôi nghĩ bạn đã đánh giá thấp tính cách của anh ấy.",
+        "ipa-example": "/aɪ θɪŋk juː ˌʌn.dərˈes.tɪ.meɪt hɪz ˈkær.ək.tər./"
+      },
+      {
+        "sentence": "Besides, in order to be close enough to save me, he couldn’t have been near the place where the fire began.”",
+        "meaning-example": "Bên cạnh đó, để ở đủ gần để cứu tôi, anh ấy không thể ở gần nơi đám cháy bắt đầu.\"",
+        "ipa-example": "/bɪˈsaɪdz, ɪn ˈɔː.dər tuː biː kləʊs ɪˈnʌf tuː seɪv miː, hiː ˈkʊd.ənt həv biːn nɪər ðə pleɪs weər ðə faɪər bɪˈɡæn./"
+      },
+      {
+        "sentence": "The crowd then turned their eyes to the billionaire.",
+        "meaning-example": "Đám đông sau đó hướng mắt về phía nhà tỷ phú.",
+        "ipa-example": "/ðə kraʊd ðen tɜːnd ðeər aɪz tuː ðə ˌbɪl.jəˈneər./"
+      },
+      {
+        "sentence": "“ He did it!” they shouted.",
+        "meaning-example": "\"Anh ta đã làm!\" họ hét lên.",
+        "ipa-example": "/hiː dɪd ɪt! ðeɪ ˈʃaʊ.tɪd./"
+      },
+      {
+        "sentence": "“Make him pay!”",
+        "meaning-example": "\"Bắt anh ta trả giá!\"",
+        "ipa-example": "/meɪk hɪm peɪ!/"
+      },
+      {
+        "sentence": "“Wait,” the billionaire said over the uproar.",
+        "meaning-example": "\"Chờ đã,\" nhà tỷ phú nói át đi tiếng náo động.",
+        "ipa-example": "/weɪt, ðə ˌbɪl.jəˈneər sed ˈəʊ.vər ði ˈʌp.rɔːr./"
+      },
+      {
+        "sentence": "“ I admit that I started the fire, but it was an accident.",
+        "meaning-example": "\"Tôi thừa nhận rằng tôi đã gây ra đám cháy, nhưng đó là một tai nạn.",
+        "ipa-example": "/aɪ ədˈmɪt ðət aɪ ˈstɑː.tɪd ðə faɪər, bət ɪt wəz ən ˈæk.sɪ.dənt./"
+      },
+      {
+        "sentence": "I was going backstage to see my wife and was clumsy.",
+        "meaning-example": "Tôi đã đi ra hậu trường để gặp vợ và đã rất vụng về.",
+        "ipa-example": "/aɪ wəz ˈɡəʊ.ɪŋ ˌbækˈsteɪdʒ tuː siː maɪ waɪf ənd wəz ˈklʌm.zi./"
+      },
+      {
+        "sentence": "I collided with a lamp, and it fell to the floor.",
+        "meaning-example": "Tôi đã va vào một cái đèn, và nó rơi xuống sàn.",
+        "ipa-example": "/aɪ kəˈlaɪ.dɪd wɪð ə læmp, ənd ɪt fel tuː ðə flɔːr./"
+      },
+      {
+        "sentence": "The floor was flammable.",
+        "meaning-example": "Sàn nhà dễ cháy.",
+        "ipa-example": "/ðə flɔːr wəz ˈflæm.ə.bəl./"
+      },
+      {
+        "sentence": "A fire started, and I fled.”",
+        "meaning-example": "Một đám cháy bùng lên, và tôi đã bỏ chạy.\"",
+        "ipa-example": "/ə faɪər ˈstɑː.tɪd, ənd aɪ fled./"
+      },
+      {
+        "sentence": "The mob was surprised.",
+        "meaning-example": "Đám đông đã rất ngạc nhiên.",
+        "ipa-example": "/ðə mɒb wəz səˈpraɪzd./"
+      },
+      {
+        "sentence": "The man they blamed was innocent, and the billionaire was guilty.",
+        "meaning-example": "Người đàn ông mà họ đổ lỗi là vô tội, và nhà tỷ phú mới là người có lỗi.",
+        "ipa-example": "/ðə mæn ðeɪ bleɪmd wəz ˈɪn.ə.sənt, ənd ðə ˌbɪl.jəˈneər wəz ˈɡɪl.ti./"
+      },
+      {
+        "sentence": "To pay for his error, the billionaire not only repaired the theater but had it remade to be better than before.",
+        "meaning-example": "Để trả giá cho lỗi lầm của mình, nhà tỷ phú không chỉ sửa chữa nhà hát mà còn cho xây dựng lại nó tốt hơn trước.",
+        "ipa-example": "/tuː peɪ fɔːr hɪz ˈer.ər, ðə ˌbɪl.jəˈneər nɒt ˈəʊn.li rɪˈpeəd ðə ˈθɪə.tər bət həd ɪt ˌriːˈmeɪd tuː biː ˈbet.ər ðən bɪˈfɔːr./"
+      }
+    ]
+  }
+]
