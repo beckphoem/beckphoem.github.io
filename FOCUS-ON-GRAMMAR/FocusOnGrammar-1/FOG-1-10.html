@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 10: Simple Present - Statements, Likes and Dislikes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #0056b3;
+        }
+        h1 { font-size: 2.5em; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { font-size: 2em; color: #2a7d2a; }
+        h3 { 
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            margin-top: 40px;
+        }
+        h4 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            font-size: 1.1em;
+        }
+        .exercise-block {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 25px;
+            border-radius: 8px;
+            background-color: #fdfdfd;
+        }
+        .exercise-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .exercise-instructions {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .image-grid-item p {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+        }
+        input[type="text"], textarea {
+            width: 90%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 5px 0;
+        }
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        .btn-container {
+            margin-top: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-right: 10px;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+        }
+        .reset-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+        .feedback {
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+        .outcomes-box {
+            background-color: #fffde7;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .outcomes-box h4 {
+            border: none;
+            margin-top: 0;
+            color: #8c6d07;
+        }
+        .grammar-note {
+            background-color: #e7f3ff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>UNIT 10: Simple Present: Statements</h1>
+    <h2>LIKES AND DISLIKES</h2>
+
+    <div class="outcomes-box">
+        <h4>OUTCOMES</h4>
+        <ul>
+            <li>Make simple present statements</li>
+            <li>Answer true/false sentences about a reading</li>
+            <li>Complete sentences about a conversation</li>
+            <li>Write a paragraph about a classmate</li>
+        </ul>
+    </div>
+
+    <!-- STEP 1 -->
+    <h3>STEP 1: GRAMMAR IN CONTEXT</h3>
+
+    <h4>BEFORE YOU READ</h4>
+    <div class="exercise-block" id="exercise-vocab">
+        <p class="exercise-title">A VOCABULARY</p>
+        <p class="exercise-instructions">Study the words. Then complete the sentences about you.</p>
+        <div class="image-grid">
+            <div class="image-grid-item">
+                <img src="FOG-1-10/1.png" alt="Man needing water in a desert">
+                <p>need</p>
+            </div>
+            <div class="image-grid-item">
+                <img src="FOG-1-10/2.png" alt="Girl wanting a pastry">
+                <p>want</p>
+            </div>
+            <div class="image-grid-item">
+                <img src="FOG-1-10/3.png" alt="Family in front of a house">
+                <p>live</p>
+            </div>
+            <div class="image-grid-item">
+                <img src="FOG-1-10/4.png" alt="Woman speaking at a conference">
+                <p>speak</p>
+            </div>
+        </div>
+        <p>1. I want <input type="text" id="vocab-q1" placeholder="a new phone, pizza, ..."></p>
+        <p>2. I need <input type="text" id="vocab-q2" placeholder="water, sleep, ..."></p>
+        <p>3. I live in <input type="text" id="vocab-q3" placeholder="a city, a house, ..."></p>
+        <p>4. I speak <input type="text" id="vocab-q4" placeholder="English, Spanish, ..."></p>
+        <p><em>(These are personal answers, no validation needed.)</em></p>
+        <hr>
+        <p><b>B</b> Work with a partner. Compare your answers in A.</p>
+    </div>
+
+    <h4>READ</h4>
+    <div class="exercise-block" id="exercise-read">
+        <p class="exercise-instructions">Read this article.</p>
+        <img src="FOG-1-10/5.png" alt="John and Larry" style="float: right; width: 300px; margin-left: 20px;">
+        <h3>Alike or Different?</h3>
+        <p>Some brothers are alike,<sup>1</sup> and some are different. John and Larry are good examples. They’re both tall, and they look alike. But they like different things.</p>
+        <p>John is 27 years old. Larry is 25. John lives in New York City. He likes big cities. Larry doesn’t like big cities. He lives in Grove City, a small town in Pennsylvania. Everyone needs friends. John has a lot of<sup>2</sup> friends but not many close friends. Larry doesn’t have a lot of friends, but he has a few<sup>3</sup> very good friends. John likes people, and he loves parties. Larry likes people too, but he doesn’t like parties very much.</p>
+        <p>John likes languages. He speaks English, Spanish, and Arabic. Larry just speaks English. John likes computers. He’s a computer programmer. Larry has a computer, but he doesn’t use it very much. He loves music, and he’s a music teacher.</p>
+        <p>John isn’t married, and he doesn’t want children. Larry is married. He and his wife don’t have children, but they want them.</p>
+        <p>John and Larry are very different, but they have fun together.</p>
+        <div style="font-size: 0.9em; color: #666; border-top: 1px solid #ccc; padding-top: 10px; clear: both;">
+            <p>1 <b>alike</b>: the same, similar<br>
+            2 <b>a lot of</b>: a large number of<br>
+            3 <b>a few</b>: a small number</p>
+        </div>
+    </div>
+    
+    <h4>AFTER YOU READ</h4>
+    <div class="exercise-block" id="exercise-comprehension">
+        <p class="exercise-title">A COMPREHENSION</p>
+        <p class="exercise-instructions">Look at the article again. For each statement, check (✓) True or False.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Statement</th>
+                    <th>True</th>
+                    <th>False</th>
+                    <th>Feedback</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1. John and Larry look alike.</td>
+                    <td><input type="radio" name="comp-q1" value="true"></td>
+                    <td><input type="radio" name="comp-q1" value="false"></td>
+                    <td><span class="feedback" id="feedback-comp-q1"></span></td>
+                </tr>
+                <tr>
+                    <td>2. Both John and Larry like big cities.</td>
+                    <td><input type="radio" name="comp-q2" value="true"></td>
+                    <td><input type="radio" name="comp-q2" value="false"></td>
+                    <td><span class="feedback" id="feedback-comp-q2"></span></td>
+                </tr>
+                <tr>
+                    <td>3. Larry speaks a lot of languages.</td>
+                    <td><input type="radio" name="comp-q3" value="true"></td>
+                    <td><input type="radio" name="comp-q3" value="false"></td>
+                    <td><span class="feedback" id="feedback-comp-q3"></span></td>
+                </tr>
+                <tr>
+                    <td>4. Larry is a musician.</td>
+                    <td><input type="radio" name="comp-q4" value="true"></td>
+                    <td><input type="radio" name="comp-q4" value="false"></td>
+                    <td><span class="feedback" id="feedback-comp-q4"></span></td>
+                </tr>
+                <tr>
+                    <td>5. Both John and Larry like people.</td>
+                    <td><input type="radio" name="comp-q5" value="true"></td>
+                    <td><input type="radio" name="comp-q5" value="false"></td>
+                    <td><span class="feedback" id="feedback-comp-q5"></span></td>
+                </tr>
+                <tr>
+                    <td>6. John and Larry are alike.</td>
+                    <td><input type="radio" name="comp-q6" value="true"></td>
+                    <td><input type="radio" name="comp-q6" value="false"></td>
+                    <td><span class="feedback" id="feedback-comp-q6"></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('exercise-comprehension')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('exercise-comprehension')">Làm lại</button>
+        </div>
+    </div>
+    
+    <!-- STEP 2 -->
+    <h3>STEP 2: GRAMMAR PRESENTATION</h3>
+    <h4>THE SIMPLE PRESENT: STATEMENTS</h4>
+    <table>
+        <caption><b>Affirmative Statements</b></caption>
+        <thead><tr><th>Subject</th><th>Verb</th><th></th></tr></thead>
+        <tbody>
+            <tr><td>I / You* / We / They</td><td>like</td><td>music.</td></tr>
+        </tbody>
+    </table>
+    <table>
+        <caption><b>Negative Statements</b></caption>
+        <thead><tr><th>Subject</th><th>Do not / Does not</th><th>Base Form of Verb</th><th></th></tr></thead>
+        <tbody>
+            <tr><td>I / You / We / They</td><td>do not (don't)</td><td>like</td><td>work.</td></tr>
+        </tbody>
+    </table>
+    <p><small>*You is both singular and plural.</small></p>
+
+    <table>
+        <caption><b>Affirmative Statements</b></caption>
+        <thead><tr><th>Subject</th><th>Verb</th><th></th></tr></thead>
+        <tbody>
+            <tr><td>He / She / Maria</td><td>likes</td><td>music.</td></tr>
+        </tbody>
+    </table>
+    <table>
+        <caption><b>Negative Statements</b></caption>
+        <thead><tr><th>Subject</th><th>Does not</th><th>Base Form of Verb</th><th></th></tr></thead>
+        <tbody>
+            <tr><td>He / She / Maria</td><td>does not (doesn't)</td><td>like</td><td>big cities.</td></tr>
+        </tbody>
+    </table>
+
+    <div class="grammar-note">
+        <h4>GRAMMAR NOTES</h4>
+        <p><b>1. Uses of the Simple Present</b></p>
+        <p>Use the simple present to talk about <b>facts</b> and things that <b>happen again and again</b>.</p>
+        <ul>
+            <li>I live in Redmond. (a fact)</li>
+            <li>Everyone needs food and water. (a fact)</li>
+            <li>He studies every evening. (a thing that happens again and again)</li>
+        </ul>
+        <p><b>2. Affirmative Statements</b></p>
+        <p>In affirmative statements, use the <b>base form</b> of the verb with <b>I, you, we,</b> and <b>they</b>.</p>
+        <p>The verb changes with <b>he, she,</b> and <b>it</b>:</p>
+        <ul>
+            <li>Add <b>-s</b> to most verbs. (He need<b>s</b> help.)</li>
+            <li>Add <b>-ies</b> to verbs that end in a consonant + <b>y</b>. (She stud<b>ies</b> hard.)</li>
+            <li>Add <b>-es</b> to verbs that end in <b>-ch, -o, -ss, -x, -s,</b> or <b>-z</b>. (Jomo go<b>es</b> to the university every day.)</li>
+        </ul>
+        <p><b>3. Negative Statements</b></p>
+        <p>In negative statements, use <b>do not</b> + the <b>base form</b> of the verb with <b>I, you, we,</b> and <b>they</b>.</p>
+        <p>Use <b>does not</b> + the <b>base form</b> of the verb with <b>he, she,</b> and <b>it</b>.</p>
+        <p>We often use the contractions <b>don't</b> and <b>doesn't</b> in speaking and informal writing.</p>
+        <p><b>4. Be and Have</b></p>
+        <p><b>Be</b> and <b>have</b> are irregular verbs.</p>
+        <ul>
+            <li>I <b>am</b> a student. Elena <b>is</b> a student, too.</li>
+            <li>I <b>have</b> a lot of friends. Bi-Yun <b>has</b> a lot of friends, too.</li>
+        </ul>
+    </div>
+
+
+    <!-- STEP 3 -->
+    <h3>STEP 3: FOCUSED PRACTICE</h3>
+
+    <div class="exercise-block" id="exercise-1">
+        <p class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</p>
+        <p class="exercise-instructions">Underline the simple present verbs. Then match the statements.</p>
+        <table>
+            <tr>
+                <td><u>e</u> 1. John and Larry <u>look</u> alike.</td>
+                <td>a. Yes. She is a very good student.</td>
+            </tr>
+            <tr>
+                <td><input type="text" size="1" id="ex1-q2"> 2. Sometimes I like rain.</td>
+                <td>b. No, thanks. I don’t need it.</td>
+            </tr>
+            <tr>
+                <td><input type="text" size="1" id="ex1-q3"> 3. Take some money.</td>
+                <td>c. Right. She wants tea.</td>
+            </tr>
+            <tr>
+                <td><input type="text" size="1" id="ex1-q4"> 4. Jessica is a musician.</td>
+                <td>d. It rains a lot in Seattle, too.</td>
+            </tr>
+            <tr>
+                <td><input type="text" size="1" id="ex1-q5"> 5. John speaks Arabic.</td>
+                <td>e. Yes. They both have dark hair.</td>
+            </tr>
+            <tr>
+                <td><input type="text" size="1" id="ex1-q6"> 6. Eun-Yung doesn’t want coffee.</td>
+                <td>f. Yes. He also speaks Spanish.</td>
+            </tr>
+            <tr>
+                <td><input type="text" size="1" id="ex1-q7"> 7. It rains a lot in New York.</td>
+                <td>g. Yes. I love her music.</td>
+            </tr>
+            <tr>
+                <td><input type="text" size="1" id="ex1-q8"> 8. Asha studies very hard.</td>
+                <td>h. Really? I don’t like rain at all.</td>
+            </tr>
+        </table>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('exercise-1')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('exercise-1')">Làm lại</button>
+        </div>
+    </div>
+    
+    <div class="exercise-block" id="exercise-2">
+        <p class="exercise-title">EXERCISE 2 AFFIRMATIVE STATEMENTS</p>
+        <p class="exercise-instructions">Write sentences about the people. Use the simple present forms of the verbs <i>live</i> and <i>like</i>.</p>
+        <p><b>1. Name: Heng</b><br>
+           Place: Beijing, China<br>
+           Favorite music: rock<br>
+           <u>Heng lives in Beijing, China.</u><br>
+           <u>She likes rock.</u>
+        </p>
+        <p><b>2. Name: Ali</b><br>
+           Place: Amman, Jordan<br>
+           Favorite sport: soccer<br>
+           <input type="text" id="ex2-q2a" placeholder="Sentence 1"> <span class="feedback" id="feedback-ex2-q2a"></span><br>
+           <input type="text" id="ex2-q2b" placeholder="Sentence 2"> <span class="feedback" id="feedback-ex2-q2b"></span>
+        </p>
+        <p><b>3. Names: Antonio and Rosa</b><br>
+           Place: Salvador, Brazil<br>
+           Favorite city: Rio de Janeiro<br>
+           <input type="text" id="ex2-q3a" placeholder="Sentence 1"> <span class="feedback" id="feedback-ex2-q3a"></span><br>
+           <input type="text" id="ex2-q3b" placeholder="Sentence 2"> <span class="feedback" id="feedback-ex2-q3b"></span>
+        </p>
+        <p><b>4. Name: Carmen</b><br>
+           Place: Santiago, Chile<br>
+           Favorite food: pizza<br>
+           <input type="text" id="ex2-q4a" placeholder="Sentence 1"> <span class="feedback" id="feedback-ex2-q4a"></span><br>
+           <input type="text" id="ex2-q4b" placeholder="Sentence 2"> <span class="feedback" id="feedback-ex2-q4b"></span>
+        </p>
+        <p><b>5. Names: Maureen and James</b><br>
+           Place: Dublin, Ireland<br>
+           Favorite activity: movies<br>
+           <input type="text" id="ex2-q5a" placeholder="Sentence 1"> <span class="feedback" id="feedback-ex2-q5a"></span><br>
+           <input type="text" id="ex2-q5b" placeholder="Sentence 2"> <span class="feedback" id="feedback-ex2-q5b"></span>
+        </p>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('exercise-2')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('exercise-2')">Làm lại</button>
+        </div>
+    </div>
+    
+    <div class="exercise-block" id="exercise-3">
+        <p class="exercise-title">EXERCISE 3 LIKES AND WANTS</p>
+        <p class="exercise-instructions">Complete the conversation. Use the simple present forms of the verbs <i>want</i> or <i>like</i>. Use the affirmative or negative. Use contractions.</p>
+        <p><b>WAITER:</b> Can I help you?</p>
+        <p><b>TIM:</b> Yes, thanks. The children <b>(1. want)</b> <u>want</u> ice cream. My son <b>(2. want)</b> <input type="text" id="ex3-q2"> chocolate. <span class="feedback" id="feedback-ex3-q2"></span></p>
+        <p><b>BEN:</b> No, Dad. I <b>(3. not / like)</b> <input type="text" id="ex3-q3"> chocolate. I <b>(4. want)</b> <input type="text" id="ex3-q4"> vanilla. <span class="feedback" id="feedback-ex3-q3"></span><span class="feedback" id="feedback-ex3-q4"></span></p>
+        <p><b>ANNIE:</b> I <b>(5. want)</b> <input type="text" id="ex3-q5"> chocolate. <span class="feedback" id="feedback-ex3-q5"></span></p>
+        <p><b>TIM:</b> OK. My son <b>(6. not / want)</b> <input type="text" id="ex3-q6"> chocolate. He <b>(7. want)</b> <input type="text" id="ex3-q7"> vanilla. My daughter <b>(8. want)</b> <input type="text" id="ex3-q8"> chocolate. <span class="feedback" id="feedback-ex3-q6"></span><span class="feedback" id="feedback-ex3-q7"></span><span class="feedback" id="feedback-ex3-q8"></span></p>
+        <p><b>WAITER:</b> And you, sir?</p>
+        <p><b>TIM:</b> I <b>(9. not / like)</b> <input type="text" id="ex3-q9"> ice cream, so I just <b>(10. want)</b> <input type="text" id="ex3-q10"> a soda. <span class="feedback" id="feedback-ex3-q9"></span><span class="feedback" id="feedback-ex3-q10"></span></p>
+        <p><b>WAITER:</b> Is that all?</p>
+        <p><b>TIM:</b> Yes, thanks.</p>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('exercise-3')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('exercise-3')">Làm lại</button>
+        </div>
+    </div>
+    
+    <div class="exercise-block" id="exercise-6">
+        <p class="exercise-title">EXERCISE 6 EDITING</p>
+        <p class="exercise-instructions">There are six mistakes in the email. The first mistake is corrected. Find and correct five more.</p>
+        <div style="border: 1px solid #ccc; padding: 15px; background: #f9f9f9;">
+            <p>To: Mary Beck<br>
+               Fr: Rose Mendoza<br>
+               Re: Greetings from Mexico</p>
+            <hr>
+            <p>Dear Mary,</p>
+            <p>Mexico is great. The people are friendly, but they <del>speaks</del> <u>speak</u> fast! Jim <input type="text" id="ex6-q1" placeholder="speak"> Spanish, but he <input type="text" id="ex6-q2" placeholder="don't understand"> everything. He understands a lot. I don't speak Spanish. <span class="feedback" id="feedback-ex6-q1"></span><span class="feedback" id="feedback-ex6-q2"></span></p>
+            <p>It's hot here! We're at my cousin's house. He and his wife <input type="text" id="ex6-q3" placeholder="lives"> in a beautiful apartment in Puebla. Juan <input type="text" id="ex6-q4" placeholder="work"> in an office downtown. His wife Alicia <input type="text" id="ex6-q5" placeholder="doesn't works">. She stays at home with the children. <span class="feedback" id="feedback-ex6-q3"></span><span class="feedback" id="feedback-ex6-q4"></span><span class="feedback" id="feedback-ex6-q5"></span></p>
+            <p>See you soon,<br>Rose</p>
+        </div>
+        <img src="FOG-1-10/6.png" alt="Puebla" style="margin-top: 20px;">
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('exercise-6')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('exercise-6')">Làm lại</button>
+        </div>
+    </div>
+    
+    <!-- STEP 4 -->
+    <h3>STEP 4: COMMUNICATION PRACTICE</h3>
+    <p><em>(Exercise 7 Listening is skipped as requested)</em></p>
+
+    <div class="exercise-block" id="exercise-8">
+        <p class="exercise-title">EXERCISE 8 TRUE OR FALSE?</p>
+        <p class="exercise-instructions">A GAME: Work with a partner. Use the words to make affirmative sentences in the simple present.</p>
+        <p><b>1. Most people / Beijing / speak Spanish</b><br>
+           <em>EXAMPLE: A: Most people in Beijing speak Spanish.<br>
+           B: False. Most people in Beijing speak Chinese.</em>
+        </p>
+        <p><b>2. Rihanna / come from / Barbados</b><br>
+           Sentence: Rihanna <input type="text" id="ex8-q2"> from Barbados. <span class="feedback" id="feedback-ex8-q2"></span>
+        </p>
+        <p><b>3. A lot of people / like / Rihanna's music</b><br>
+           Sentence: A lot of people <input type="text" id="ex8-q3"> Rihanna's music. <span class="feedback" id="feedback-ex8-q3"></span>
+        </p>
+        <p><b>4. People / Japan / drive / on the right</b><br>
+           Sentence: People in Japan <input type="text" id="ex8-q4"> on the right. <span class="feedback" id="feedback-ex8-q4"></span>
+        </p>
+        <p><b>5. People / Great Britain / drive / on the left</b><br>
+           Sentence: People in Great Britain <input type="text" id="ex8-q5"> on the left. <span class="feedback" id="feedback-ex8-q5"></span>
+        </p>
+        <p><b>6. People / live / at the North Pole</b><br>
+           Sentence: People <input type="text" id="ex8-q6"> at the North Pole. <span class="feedback" id="feedback-ex8-q6"></span>
+        </p>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('exercise-8')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('exercise-8')">Làm lại</button>
+        </div>
+    </div>
+    
+    <!-- FROM GRAMMAR TO WRITING -->
+    <h3>FROM GRAMMAR TO WRITING</h3>
+    <div class="exercise-block" id="writing-section">
+        <p class="exercise-title">A BEFORE YOU WRITE</p>
+        <p class="exercise-instructions">Read the paragraph. Underline verbs in the simple present. Then complete the chart about yourself.</p>
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <img src="FOG-1-10/7.png" alt="Abla reading" style="width: 200px;">
+            <p>Abla <u>is</u> from Tanzania. Abla <u>has</u> one brother and one sister. They <u>live</u> in Arusha. Abla <u>speaks</u> Swahili and English. She <u>likes</u> books, and she <u>reads</u> a lot of them. Abla <u>doesn't have</u> a job, but she <u>needs</u> a job. She <u>wants</u> a college degree.</p>
+        </div>
+        <h4>ABOUT ME</h4>
+        <table>
+            <tr><th>From</th><td><input type="text" placeholder="Your country"></td></tr>
+            <tr><th>Family</th><td><input type="text" placeholder="Your family details"></td></tr>
+            <tr><th>City</th><td><input type="text" placeholder="The city you live in"></td></tr>
+            <tr><th>Languages</th><td><input type="text" placeholder="Languages you speak"></td></tr>
+            <tr><th>Likes</th><td><input type="text" placeholder="Things you like"></td></tr>
+            <tr><th>Needs</th><td><input type="text" placeholder="Things you need"></td></tr>
+            <tr><th>Wants</th><td><input type="text" placeholder="Things you want"></td></tr>
+        </table>
+        
+        <p class="exercise-title">B WRITE</p>
+        <p class="exercise-instructions">Exchange charts with your partner. Write a paragraph about your partner. Use the simple present. Use the paragraph in A and your partner's chart to help you.</p>
+        <textarea placeholder="Write your paragraph here..."></textarea>
+    </div>
+
+    <!-- REVIEW -->
+    <h1>UNIT 10 REVIEW</h1>
+    <div class="exercise-block" id="review-a">
+        <p class="exercise-title">A Complete the sentences with the correct forms of the verbs in parentheses. Use contractions when possible.</p>
+        <p>1. My roommate <b>(like)</b> <input type="text" id="revA-q1a"> rap music. He <b>(not / like)</b> <input type="text" id="revA-q1b"> classical music. <span class="feedback" id="feedback-revA-q1a"></span> <span class="feedback" id="feedback-revA-q1b"></span></p>
+        <p>2. My children <b>(not / want)</b> <input type="text" id="revA-q2a"> apples. My son <b>(not / want)</b> <input type="text" id="revA-q2b"> ice cream. My daughter <b>(not / want)</b> <input type="text" id="revA-q2c"> chocolate. <span class="feedback" id="feedback-revA-q2a"></span> <span class="feedback" id="feedback-revA-q2b"></span> <span class="feedback" id="feedback-revA-q2c"></span></p>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('review-a')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('review-a')">Làm lại</button>
+        </div>
+    </div>
+    <div class="exercise-block" id="review-b">
+        <p class="exercise-title">B Complete the sentences. Circle the correct answers.</p>
+        <p>1. My sister and I 
+            <input type="radio" name="revB-q1" value="live"> live / 
+            <input type="radio" name="revB-q1" value="lives"> lives 
+            in different cities. <span class="feedback" id="feedback-revB-q1"></span></p>
+        <p>2. She 
+            <input type="radio" name="revB-q2a" value="like"> like / 
+            <input type="radio" name="revB-q2a" value="likes"> likes 
+            computers, and I 
+            <input type="radio" name="revB-q2b" value="like"> like / 
+            <input type="radio" name="revB-q2b" value="likes"> likes 
+            books. <span class="feedback" id="feedback-revB-q2a"></span> <span class="feedback" id="feedback-revB-q2b"></span></p>
+        <p>3. She 
+            <input type="radio" name="revB-q3a" value="has"> has / 
+            <input type="radio" name="revB-q3a" value="have"> have 
+            blue eyes, and I 
+            <input type="radio" name="revB-q3b" value="has"> has / 
+            <input type="radio" name="revB-q3b" value="have"> have 
+            brown eyes. <span class="feedback" id="feedback-revB-q3a"></span> <span class="feedback" id="feedback-revB-q3b"></span></p>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('review-b')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('review-b')">Làm lại</button>
+        </div>
+    </div>
+    <div class="exercise-block" id="review-c">
+        <p class="exercise-title">C Correct the sentences. There are five mistakes.</p>
+        <p>1. This is my brother Nelson. He don't look like me! <br>
+           <input type="text" id="revC-q1" placeholder="Correct sentence"> <span class="feedback" id="feedback-revC-q1"></span></p>
+        <p>2. Nelson and his wife, Laura, lives in Brazil.<br>
+           <input type="text" id="revC-q2" placeholder="Correct sentence"> <span class="feedback" id="feedback-revC-q2"></span></p>
+        <p>3. Laura is need a new car.<br>
+           <input type="text" id="revC-q3" placeholder="Correct sentence"> <span class="feedback" id="feedback-revC-q3"></span></p>
+        <p>4. Nelson work as a mechanic.<br>
+           <input type="text" id="revC-q4" placeholder="Correct sentence"> <span class="feedback" id="feedback-revC-q4"></span></p>
+        <p>5. They both speaks Portuguese.<br>
+           <input type="text" id="revC-q5" placeholder="Correct sentence"> <span class="feedback" id="feedback-revC-q5"></span></p>
+        <div class="btn-container">
+            <button class="submit-btn" onclick="checkAnswers('review-c')">Submit</button>
+            <button class="reset-btn" onclick="resetExercise('review-c')">Làm lại</button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    const answers = {
+        // Comprehension
+        'comp-q1': 'true',
+        'comp-q2': 'false',
+        'comp-q3': 'false',
+        'comp-q4': 'true',
+        'comp-q5': 'true',
+        'comp-q6': 'false',
+        // Exercise 1
+        'ex1-q2': 'h',
+        'ex1-q3': 'b',
+        'ex1-q4': 'g',
+        'ex1-q5': 'f',
+        'ex1-q6': 'c',
+        'ex1-q7': 'd',
+        'ex1-q8': 'a',
+        // Exercise 2
+        'ex2-q2a': 'ali lives in amman, jordan.',
+        'ex2-q2b': 'he likes soccer.',
+        'ex2-q3a': 'antonio and rosa live in salvador, brazil.',
+        'ex2-q3b': 'they like rio de janeiro.',
+        'ex2-q4a': 'carmen lives in santiago, chile.',
+        'ex2-q4b': 'she likes pizza.',
+        'ex2-q5a': 'maureen and james live in dublin, ireland.',
+        'ex2-q5b': 'they like movies.',
+        // Exercise 3
+        'ex3-q2': 'wants',
+        'ex3-q3': "don't like",
+        'ex3-q4': 'want',
+        'ex3-q5': 'want',
+        'ex3-q6': "doesn't want",
+        'ex3-q7': 'wants',
+        'ex3-q8': 'wants',
+        'ex3-q9': "don't like",
+        'ex3-q10': 'want',
+        // Exercise 6
+        'ex6-q1': 'speaks',
+        'ex6-q2': "doesn't understand",
+        'ex6-q3': 'live',
+        'ex6-q4': 'works',
+        'ex6-q5': "doesn't work",
+        // Exercise 8
+        'ex8-q2': 'comes',
+        'ex8-q3': 'like',
+        'ex8-q4': 'drive',
+        'ex8-q5': 'drive',
+        'ex8-q6': 'live',
+        // Review A
+        'revA-q1a': 'likes',
+        'revA-q1b': "doesn't like",
+        'revA-q2a': "don't want",
+        'revA-q2b': "doesn't want",
+        'revA-q2c': "doesn't want",
+        // Review B
+        'revB-q1': 'live',
+        'revB-q2a': 'likes',
+        'revB-q2b': 'like',
+        'revB-q3a': 'has',
+        'revB-q3b': 'have',
+        // Review C (allows for some variation)
+        'revC-q1': "he doesn't look like me!",
+        'revC-q2': 'nelson and his wife, laura, live in brazil.',
+        'revC-q3': 'laura needs a new car.',
+        'revC-q4': 'nelson works as a mechanic.',
+        'revC-q5': 'they both speak portuguese.',
+    };
+
+    function normalizeText(text) {
+        return text.trim().toLowerCase().replace(/[.,!?;]/g, '');
+    }
+
+    function checkAnswers(exerciseId) {
+        const exerciseBlock = document.getElementById(exerciseId);
+        const inputs = exerciseBlock.querySelectorAll('input[type="text"], input[type="radio"]');
+
+        inputs.forEach(input => {
+            let feedbackEl = null;
+            let isCorrect = false;
+            
+            if (input.type === 'text') {
+                feedbackEl = document.getElementById('feedback-' + input.id);
+                if (!feedbackEl) {
+                    feedbackEl = document.createElement('span');
+                    feedbackEl.className = 'feedback';
+                    feedbackEl.id = 'feedback-' + input.id;
+                    input.parentNode.insertBefore(feedbackEl, input.nextSibling);
+                }
+                const userAnswer = normalizeText(input.value);
+                const correctAnswer = answers[input.id];
+                isCorrect = (userAnswer === correctAnswer);
+                
+                input.style.borderColor = isCorrect ? 'green' : 'red';
+                feedbackEl.textContent = isCorrect ? 'Correct!' : 'Incorrect';
+                feedbackEl.className = isCorrect ? 'feedback correct' : 'feedback incorrect';
+            
+            } else if (input.type === 'radio') {
+                const groupName = input.name;
+                feedbackEl = document.getElementById('feedback-' + groupName);
+                if (input.checked) {
+                    const correctAnswer = answers[groupName];
+                    isCorrect = (input.value === correctAnswer);
+                    feedbackEl.textContent = isCorrect ? 'Correct!' : 'Incorrect';
+                    feedbackEl.className = isCorrect ? 'feedback correct' : 'feedback incorrect';
+                }
+            }
+        });
+    }
+
+    function resetExercise(exerciseId) {
+        const exerciseBlock = document.getElementById(exerciseId);
+        const inputs = exerciseBlock.querySelectorAll('input[type="text"], input[type="radio"]');
+        const feedbacks = exerciseBlock.querySelectorAll('.feedback');
+
+        inputs.forEach(input => {
+            if (input.type === 'text') {
+                input.value = '';
+                input.style.borderColor = '#ccc';
+            } else if (input.type === 'radio') {
+                input.checked = false;
+            }
+        });
+        
+        feedbacks.forEach(feedback => {
+            feedback.textContent = '';
+            feedback.className = 'feedback';
+        });
+    }
+</script>
+
+</body>
+</html>
