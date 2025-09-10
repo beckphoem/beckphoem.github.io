@@ -340,6 +340,99 @@
     font-weight: bold;
     min-height: 20px;
 }
+
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .section {
+            border: 1px solid #e0e0e0;
+            margin-bottom: 20px;
+        }
+        .section-header {
+            background-color: #8dc63f; /* Green color from the image */
+            color: white;
+            padding: 8px 15px;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .section-number {
+            background-color: white;
+            color: black;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .section-content {
+            padding: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: start;
+            border-top: 1px solid #e0e0e0;
+        }
+        .section-content.full-width {
+            grid-template-columns: 1fr;
+        }
+        .left-col, .right-col {
+            padding: 0;
+        }
+        .right-col {
+            border-left: 1px solid #ccc;
+            padding-left: 20px;
+        }
+        .left-col p, .right-col p {
+            margin: 0 0 15px 0;
+        }
+        .right-col p:last-child, .left-col p:last-child {
+            margin-bottom: 0;
+        }
+        .careful-box {
+            display: flex;
+            align-items: center;
+        }
+        .careful-tag {
+            background-color: #d9534f; /* Red color */
+            color: white;
+            padding: 2px 8px;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+        .not-correct {
+            color: #d9534f;
+            text-decoration: line-through;
+        }
+        b, strong {
+            color: #0056b3;
+        }
+        i, em {
+            font-style: italic;
+        }
 	</style>
 
 </head>
@@ -468,6 +561,106 @@
                         </div>
                     </div>
                 </div>
+
+
+				<h1>GRAMMAR NOTES</h1>
+
+    <!-- Section 1: Wh- Questions -->
+    <div class="section">
+        <div class="section-header">
+            <span class="section-number">1</span> Wh- Questions
+        </div>
+        <div class="section-content">
+            <div class="left-col">
+                <p><b>Wh- questions</b> ask for information. They often start with <b>how, when, where, what, why, who,</b> and <b>what time</b>.</p>
+                <p>To ask about reasons, use <b>why</b> + the verb.</p>
+                <p>Use <b>do</b> with <i>I, you, we,</i> and <i>they</i>. Use <b>does</b> with <i>he, she,</i> and <i>it</i>.</p>
+            </div>
+            <div class="right-col">
+                <p><b>What time do</b> you <b>start</b> class?</p>
+                <p><b>How do</b> I <b>get</b> there?</p>
+                <p><b>Where does</b> the parade <b>begin</b>?</p>
+                <p><b>How does</b> she <b>get</b> to school?</p>
+                <hr style="border: 0; border-top: 1px solid #ccc; margin: 15px 0;">
+                <p><b>Why do</b> you <b>work</b> late so much?</p>
+                <hr style="border: 0; border-top: 1px solid #ccc; margin: 15px 0;">
+                <p><b>What do</b> they <b>like</b>?</p>
+                <p><b>What does</b> she <b>mean</b>?</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2: Wh- Questions About the Subject -->
+    <div class="section">
+        <div class="section-header">
+            <span class="section-number">2</span> Wh- Questions About the Subject
+        </div>
+        <div class="section-content">
+            <div class="left-col">
+                <p>To ask a <b>question about the subject</b>, use <b>who</b> or <b>what</b> + the verb.</p>
+                <br>
+                <div class="careful-box">
+                    <span class="careful-tag">BE CAREFUL!</span>
+                    <p>Don't use <i>do</i> or <i>does</i> to ask about the subject.</p>
+                </div>
+            </div>
+            <div class="right-col">
+                <p><b>Who comes</b> to the celebrations?</p>
+                <p><b>What happens</b> on the 4th of July?</p>
+                <hr style="border: 0; border-top: 1px solid #ccc; margin: 15px 0;">
+                <p><b>Who cooks</b> your Thanksgiving dinner?</p>
+                <p>NOT <span class="not-correct">Who does cook your Thanksgiving dinner?</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3: Common Wh- Questions -->
+    <div class="section">
+        <div class="section-header">
+            <span class="section-number">3</span> Common Wh- Questions
+        </div>
+        <div class="section-content">
+            <div class="left-col">
+                <p>To ask about the meaning of a word, say, <b>What does ... mean?</b> To answer, use <b>means</b>.</p>
+                <p>To ask about the spelling of a word, say <b>How do you spell ...?</b></p>
+                <br>
+                 <div class="careful-box">
+                    <span class="careful-tag">BE CAREFUL!</span>
+                    <p>Don't say <i>what means</i> or <i>what does mean</i> to ask about the meaning of a word.</p>
+                </div>
+            </div>
+            <div class="right-col">
+                <p>A: <b>What does little mean?</b><br>B: Little <b>means</b> small.</p>
+                <hr style="border: 0; border-top: 1px solid #ccc; margin: 15px 0;">
+                <p>A: <b>How do you spell huge?</b><br>B: H-U-G-E.</p>
+                <hr style="border: 0; border-top: 1px solid #ccc; margin: 15px 0;">
+                <p><b>What does huge mean?</b></p>
+                <p>NOT <span class="not-correct">What means huge?</span></p>
+                <p>NOT <span class="not-correct">What does mean huge?</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: At and On -->
+    <div class="section">
+        <div class="section-header">
+            <span class="section-number">4</span> At and On
+        </div>
+        <div class="section-content">
+            <div class="left-col">
+                <p>To answer questions with <b>when</b> or <b>what time</b>, we can use prepositions of time like <b>at</b> and <b>on</b>.</p>
+                <p>Use <b>at</b> with exact times or with expressions like <b>at night</b>.</p>
+                <p>Use <b>on</b> with days of the week and dates.</p>
+            </div>
+            <div class="right-col">
+                <p>A: <b>What time do</b> you <b>eat</b> dinner?<br>B: <b>At</b> 7 p.m.</p>
+                <hr style="border: 0; border-top: 1px solid #ccc; margin: 15px 0;">
+                <p>A: <b>When do</b> you <b>see</b> fireworks?<br>B: <b>On</b> July 4th.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
 
                 <div class="sub-section" id="after-you-read">
                     <h3>AFTER YOU READ</h3>
