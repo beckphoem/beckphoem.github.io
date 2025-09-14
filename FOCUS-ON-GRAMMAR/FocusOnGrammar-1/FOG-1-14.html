@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit 14: Adjectives Describing People</title>
     <style>
+
+		 .practice-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fdfdfd;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        .practice-item p {
+            margin: 0 0 10px 0;
+        }
+        .practice-item input[type="text"], .practice-item select {
+            margin-left: 5px;
+            padding: 4px 6px;
+        }
+        .practice-item button {
+            font-size: 0.9em;
+            padding: 5px 10px;
+            margin-left: 10px;
+        }
+        .practice-item .feedback {
+            margin-top: 8px;
+            font-size: 0.9em;
+        }
+        .exercise-section-title {
+            font-size: 1.5em;
+            color: #d9534f;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -581,6 +614,35 @@
 
     </div>
 
+	 <h3 class="exercise-section-title">Part 1: Choose the Correct Word</h3>
+    <p>Select the correct option from the dropdown menu.</p>
+
+    <div id="additional-exercises-part1"></div>
+
+
+    <!-- PART 2: FILL IN THE BLANKS -->
+    <h3 class="exercise-section-title">Part 2: Fill in the Blanks</h3>
+    <p>Complete the sentences with the correct word (e.g., is, are, have, has, a, an).</p>
+
+    <div id="additional-exercises-part2"></div>
+
+
+    <!-- PART 3: UNSCRAMBLE THE SENTENCES -->
+    <h3 class="exercise-section-title">Part 3: Unscramble the Sentences</h3>
+    <p>Put the words in the correct order to form a sentence.</p>
+    
+    <div id="additional-exercises-part3"></div>
+
+
+    <!-- PART 4: FIND AND CORRECT THE MISTAKE -->
+    <h3 class="exercise-section-title">Part 4: Find and Correct the Mistake</h3>
+    <p>Each sentence has one mistake. Rewrite the sentence correctly.</p>
+
+    <div id="additional-exercises-part4"></div>
+
+</div>
+
+
     <script>
         function checkComprehension() {
             const answers = { q1: 'a', q2: 'b', q3: 'b', q4: 'a', q5: 'b', q6: 'a' };
@@ -807,6 +869,196 @@
             feedbackEl.className = 'feedback incorrect'; // Use 'incorrect' style for visibility
             feedbackEl.style.display = 'block';
         }
+
+		   // Data for all 100 questions
+    const additionalQuestions = [
+        // Part 1: Multiple Choice (25 questions)
+        { type: 'select', question: 'She is wearing ___ beautiful dress.', options: ['a', 'an'], answer: 'a' },
+        { type: 'select', question: 'My brothers are very ___.', options: ['tall', 'talls'], answer: 'tall' },
+        { type: 'select', question: 'I ___ twenty-five years old.', options: ['am', 'have'], answer: 'am' },
+        { type: 'select', question: 'He has ___ car.', options: ['a old', 'an old'], answer: 'an old' },
+        { type: 'select', question: 'They have two ___ dogs.', options: ['smalls', 'small'], answer: 'small' },
+        { type: 'select', question: 'What ___ your mother look like?', options: ['does', 'is'], answer: 'does' },
+        { type: 'select', question: 'Her hair ___ long and brown.', options: ['is', 'has'], answer: 'is' },
+        { type: 'select', question: 'That is ___ unusual name.', options: ['a', 'an'], answer: 'an' },
+        { type: 'select', question: 'My sister has ___.', options: ['hair red', 'red hair'], answer: 'red hair' },
+        { type: 'select', question: 'We ___ a new teacher.', options: ['are', 'have'], answer: 'have' },
+        { type: 'select', question: 'Is your father ___?', options: ['heavy', 'a heavy'], answer: 'heavy' },
+        { type: 'select', question: 'She ___ blue eyes.', options: ['is', 'has'], answer: 'has' },
+        { type: 'select', question: 'The movie was very ___.', options: ['interesting', 'interestings'], answer: 'interesting' },
+        { type: 'select', question: 'He is ___ English student.', options: ['a', 'an'], answer: 'an' },
+        { type: 'select', question: 'You have ___ nice smile.', options: ['a', 'an'], answer: 'a' },
+        { type: 'select', question: '___ they thin?', options: ['Are', 'Have'], answer: 'Are' },
+        { type: 'select', question: 'That man has a ___.', options: ['beard long', 'long beard'], answer: 'long beard' },
+        { type: 'select', question: 'This is not ___ easy exercise.', options: ['a', 'an'], answer: 'an' },
+        { type: 'select', question: 'His children are ___.', options: ['youngs', 'young'], answer: 'young' },
+        { type: 'select', question: 'My cousin ___ a funny person.', options: ['is', 'has'], answer: 'is' },
+        { type: 'select', question: 'Does she have ___ hair?', options: ['short', 'a short'], answer: 'short' },
+        { type: 'select', question: 'These books are ___.', options: ['heavy', 'heavies'], answer: 'heavy' },
+        { type: 'select', question: 'I need ___ new computer.', options: ['a', 'an'], answer: 'a' },
+        { type: 'select', question: 'How old ___ your parents?', options: ['are', 'have'], answer: 'are' },
+        { type: 'select', question: 'They live in ___ house.', options: ['a big', 'big a'], answer: 'a big' },
+        
+        // Part 2: Fill in the Blanks (25 questions)
+        { type: 'fill', question: 'They ______ green eyes. (use "have" or "has")', answer: 'have' },
+        { type: 'fill', question: 'My father ______ short hair.', answer: 'has' },
+        { type: 'fill', question: 'I ______ a student.', answer: 'am' },
+        { type: 'fill', question: 'She is ______ amazing artist.', answer: 'an' },
+        { type: 'fill', question: 'You ______ very tall.', answer: 'are' },
+        { type: 'fill', question: 'We ______ a beautiful garden.', answer: 'have' },
+        { type: 'fill', question: 'He ______ a football player.', answer: 'is' },
+        { type: 'fill', question: 'This is ______ old photo.', answer: 'an' },
+        { type: 'fill', question: 'Maria and Joe ______ married.', answer: 'are' },
+        { type: 'fill', question: 'The cat ______ long, white fur.', answer: 'has' },
+        { type: 'fill', question: 'What does your friend ______?', answer: 'have' },
+        { type: 'fill', question: 'My grandparents ______ not young.', answer: 'are' },
+        { type: 'fill', question: 'It is ______ very cold day.', answer: 'a' },
+        { type: 'fill', question: 'How many brothers ______ you have?', answer: 'do' },
+        { type: 'fill', question: 'He ______ a very interesting job.', answer: 'has' },
+        { type: 'fill', question: 'These flowers ______ beautiful.', answer: 'are' },
+        { type: 'fill', question: 'I don\'t ______ brown eyes.', answer: 'have' },
+        { type: 'fill', question: 'She doesn\'t ______ long hair.', answer: 'have' },
+        { type: 'fill', question: 'Is he ______ good student?', answer: 'a' },
+        { type: 'fill', question: 'My aunt ______ from Canada.', answer: 'is' },
+        { type: 'fill', question: 'My uncle and aunt ______ two children.', answer: 'have' },
+        { type: 'fill', question: 'What color ______ her eyes?', answer: 'are' },
+        { type: 'fill', question: 'He ______ a new phone.', answer: 'has' },
+        { type: 'fill', question: 'It is ______ expensive watch.', answer: 'an' },
+        { type: 'fill', question: 'They ______ average height.', answer: 'are' },
+
+        // Part 3: Unscramble (25 questions)
+        { type: 'unscramble', question: '(is / new / My / car)', answer: 'My car is new.' },
+        { type: 'unscramble', question: '(has / My / hair / friend / long / black)', answer: 'My friend has long black hair.' },
+        { type: 'unscramble', question: '(an / teacher / English / is / She)', answer: 'She is an English teacher.' },
+        { type: 'unscramble', question: '(don\'t / I / have / blue / eyes)', answer: 'I don\'t have blue eyes.' },
+        { type: 'unscramble', question: '(tall / man / is / a / He)', answer: 'He is a tall man.' },
+        { type: 'unscramble', question: '(are / heavy / boxes / These)', answer: 'These boxes are heavy.' },
+        { type: 'unscramble', question: '(a / has / nice / voice / She)', answer: 'She has a nice voice.' },
+        { type: 'unscramble', question: '(you / Are / student / a / ?)', answer: 'Are you a student?' },
+        { type: 'unscramble', question: '(red / have / They / a / car)', answer: 'They have a red car.' },
+        { type: 'unscramble', question: '(old / not / is / He)', answer: 'He is not old.' },
+        { type: 'unscramble', question: '(beautiful / are / Her / eyes)', answer: 'Her eyes are beautiful.' },
+        { type: 'unscramble', question: '(job / an / has / interesting / He)', answer: 'He has an interesting job.' },
+        { type: 'unscramble', question: '(my / very / is / family / large)', answer: 'My family is very large.' },
+        { type: 'unscramble', question: '(short / brother / My / is)', answer: 'My brother is short.' },
+        { type: 'unscramble', question: '(wear / glasses / I / big)', answer: 'I wear big glasses.' },
+        { type: 'unscramble', question: '(woman / is / a / She / thin)', answer: 'She is a thin woman.' },
+        { type: 'unscramble', question: '(are / friends / My / funny)', answer: 'My friends are funny.' },
+        { type: 'unscramble', question: '(blond / have / hair / you / Do / ?)', answer: 'Do you have blond hair?' },
+        { type: 'unscramble', question: '(a / He / mustache / has)', answer: 'He has a mustache.' },
+        { type: 'unscramble', question: '(is / an / It / animal / unusual)', answer: 'It is an unusual animal.' },
+        { type: 'unscramble', question: '(book / is / This / boring / a)', answer: 'This is a boring book.' },
+        { type: 'unscramble', question: '(average / weight / I / am)', answer: 'I am average weight.' },
+        { type: 'unscramble', question: '(has / face / a / round / He)', answer: 'He has a round face.' },
+        { type: 'unscramble', question: '(parents / old / my / How / are / ?)', answer: 'How old are my parents?' },
+        { type: 'unscramble', question: '(green / don\'t / eyes / have / They)', answer: 'They don\'t have green eyes.' },
+        
+        // Part 4: Correct the Mistake (25 questions)
+        { type: 'correct', question: 'He has hair long.', answer: 'He has long hair.' },
+        { type: 'correct', question: 'They are talls.', answer: 'They are tall.' },
+        { type: 'correct', question: 'I have 30 years old.', answer: 'I am 30 years old.' },
+        { type: 'correct', question: 'She is a old woman.', answer: 'She is an old woman.' },
+        { type: 'correct', question: 'He is tall man.', answer: 'He is a tall man.' },
+        { type: 'correct', question: 'Her eyes are greens.', answer: 'Her eyes are green.' },
+        { type: 'correct', question: 'My sister has a hair blond.', answer: 'My sister has blond hair.' },
+        { type: 'correct', question: 'Are they shorts?', answer: 'Are they short?' },
+        { type: 'correct', question: 'What is your dad look like?', answer: 'What does your dad look like?' },
+        { type: 'correct', question: 'He has a nice smile.', answer: 'He has a nice smile.' }, // No mistake, trick question
+        { type: 'correct', question: 'The woman has a dress red.', answer: 'The woman has a red dress.' },
+        { type: 'correct', question: 'You have a eyes beautiful.', answer: 'You have beautiful eyes.' },
+        { type: 'correct', question: 'He have brown hair.', answer: 'He has brown hair.' },
+        { type: 'correct', question: 'She is a thin.', answer: 'She is thin.' },
+        { type: 'correct', question: 'They are heavies.', answer: 'They are heavy.' },
+        { type: 'correct', question: 'I am need a new car.', answer: 'I need a new car.' },
+        { type: 'correct', question: 'He is a english teacher.', answer: 'He is an english teacher.' },
+        { type: 'correct', question: 'This buildings are very old.', answer: 'These buildings are very old.' },
+        { type: 'correct', question: 'My mother is a person very nice.', answer: 'My mother is a very nice person.' },
+        { type: 'correct', question: 'How old has she?', answer: 'How old is she?' },
+        { type: 'correct', question: 'He no have a beard.', answer: 'He doesn\'t have a beard.' },
+        { type: 'correct', question: 'This is book interesting.', answer: 'This is an interesting book.' },
+        { type: 'correct', question: 'My friends is funny.', answer: 'My friends are funny.' },
+        { type: 'correct', question: 'She has eyes blue.', answer: 'She has blue eyes.' },
+        { type: 'correct', question: 'They lives in a house big.', answer: 'They live in a big house.' }
+    ];
+
+    // Function to generate the HTML for the exercises
+    function generateExercises() {
+        const part1Container = document.getElementById('additional-exercises-part1');
+        const part2Container = document.getElementById('additional-exercises-part2');
+        const part3Container = document.getElementById('additional-exercises-part3');
+        const part4Container = document.getElementById('additional-exercises-part4');
+
+        additionalQuestions.forEach((q, index) => {
+            const qNum = index + 1;
+            let html = `<div class="practice-item">`;
+
+            if (q.type === 'select') {
+                let optionsHtml = '';
+                q.options.forEach(opt => {
+                    optionsHtml += `<option value="${opt}">${opt}</option>`;
+                });
+                html += `<p><strong>${qNum}.</strong> ${q.question.replace('___', `<select id="q${qNum}">${optionsHtml}</select>`)}</p>`;
+                part1Container.innerHTML += buildQuestionHtml(q, qNum);
+            } else if (q.type === 'fill') {
+                part2Container.innerHTML += buildQuestionHtml(q, qNum);
+            } else if (q.type === 'unscramble') {
+                part3Container.innerHTML += buildQuestionHtml(q, qNum);
+            } else if (q.type === 'correct') {
+                part4Container.innerHTML += buildQuestionHtml(q, qNum);
+            }
+        });
+    }
+    
+    function buildQuestionHtml(q, qNum) {
+        let html = `<div class="practice-item">`;
+        let inputHtml = `<input type="text" id="q${qNum}" size="30">`;
+
+        switch(q.type) {
+            case 'select':
+                let optionsHtml = q.options.map(opt => `<option value="${opt}">${opt}</option>`).join('');
+                const [start, end] = q.question.split('___');
+                html += `<p><strong>${qNum}.</strong> ${start} <select id="q${qNum}">${optionsHtml}</select> ${end || ''}</p>`;
+                break;
+            case 'fill':
+                 html += `<p><strong>${qNum}.</strong> ${q.question.replace('______', `<input type="text" id="q${qNum}" size="10">`)}</p>`;
+                 break;
+            case 'unscramble':
+                html += `<p><strong>${qNum}.</strong> ${q.question} <br> ${inputHtml}</p>`;
+                break;
+            case 'correct':
+                html += `<p><strong>${qNum}.</strong> <em>${q.question}</em> <br> ${inputHtml}</p>`;
+                break;
+        }
+
+        html += `<button onclick="checkAdditionalQuestion(${qNum})">Check</button>`;
+        html += `<div class="feedback" id="feedback-${qNum}"></div></div>`;
+        return html;
+    }
+
+
+    // Function to check a single additional question
+    function checkAdditionalQuestion(qNum) {
+        const questionData = additionalQuestions[qNum - 1];
+        const userAnswerEl = document.getElementById(`q${qNum}`);
+        const feedbackEl = document.getElementById(`feedback-${qNum}`);
+        
+        // Normalize answers to be case-insensitive and trim whitespace
+        // Also remove period at the end for sentence-based answers
+        const userAnswer = userAnswerEl.value.trim().toLowerCase().replace(/\.$/, '');
+        const correctAnswer = questionData.answer.trim().toLowerCase().replace(/\.$/, '');
+
+        if (userAnswer === correctAnswer) {
+            feedbackEl.innerHTML = '<strong>Correct!</strong> Well done.';
+            feedbackEl.className = 'feedback correct';
+        } else {
+            feedbackEl.innerHTML = `<strong>Incorrect.</strong> The correct answer is: <strong>${questionData.answer}</strong>`;
+            feedbackEl.className = 'feedback incorrect';
+        }
+        feedbackEl.style.display = 'block';
+    }
+    
+    // Generate the exercises when the page loads
+    document.addEventListener('DOMContentLoaded', generateExercises);
 
     </script>
 </body>
