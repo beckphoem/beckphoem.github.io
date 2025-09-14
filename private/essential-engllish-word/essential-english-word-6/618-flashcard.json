@@ -1,0 +1,183 @@
+
+[
+  {
+    "question": "vivacious",
+    "classes": "adj",
+    "answer": "Sôi nổi, hoạt bát, lanh lợi.",
+    "ipa": "/vɪˈveɪ.ʃəs/",
+    "example": "Một cô gái đi xem ca nhạc, cô `vì vé sớt` (vì mua được vé vớt) mà vui mừng khôn xiết, nhảy múa hát hò rất **sôi nổi**, **hoạt bát**.",
+    "english-definition": "Attractively lively and animated.",
+    "images": "eew-6-18/1.png"
+  },
+  {
+    "question": "chatter",
+    "classes": "v",
+    "answer": "Nói luôn mồm, nói huyên thuyên.",
+    "ipa": "/ˈtʃæt.ər/",
+    "example": "Đám trẻ con ngồi trong lớp, không chú ý nghe giảng mà cứ `chát tơ` (nhắn tin) với nhau, **nói huyên thuyên** đủ thứ chuyện trên trời dưới đất.",
+    "english-definition": "To talk for a long time about things that are not important.",
+    "images": "eew-6-18/2.png"
+  },
+  {
+    "question": "deteriorate",
+    "classes": "v",
+    "answer": "Xấu đi, tồi tệ đi, xuống cấp.",
+    "ipa": "/dɪˈtɪə.ri.ə.reɪt/",
+    "example": "Chiếc xe cũ để ngoài mưa nắng, `đi tia ria rết` (các tia ria, gỉ sét) xuất hiện ngày càng nhiều, khiến tình trạng của nó **tồi tệ đi** nhanh chóng.",
+    "english-definition": "To become worse.",
+    "images": "eew-6-18/3.png"
+  },
+  {
+    "question": "summon",
+    "classes": "v",
+    "answer": "Triệu tập, gọi đến.",
+    "ipa": "/ˈsʌm.ən/",
+    "example": "Vị vua muốn gặp vị tướng, liền sai lính mang theo một quả `sâm ngon` đến làm quà và **triệu tập** ông đến cung điện ngay lập tức.",
+    "english-definition": "To order someone to come to or be present at a particular place.",
+    "images": "eew-6-18/4.png"
+  },
+  {
+    "question": "monastery",
+    "classes": "n",
+    "answer": "Tu viện.",
+    "ipa": "/ˈmɒn.ə.stri/",
+    "example": "Các nhà sư sống trong **tu viện** rất giản dị, bữa ăn của họ chỉ có `món na sợ Tí` (món na mà Tí sợ), vì Tí không thích ăn chay.",
+    "english-definition": "A building in which monks live and worship.",
+    "images": "eew-6-18/5.png"
+  },
+  {
+    "question": "manor",
+    "classes": "n",
+    "answer": "Trang viên, thái ấp.",
+    "ipa": "/ˈmæn.ər/",
+    "example": "Người quản gia của **trang viên** rộng lớn luôn giữ thái độ, `manh nơ` (manner) lịch thiệp với tất cả mọi người.",
+    "english-definition": "A large old house in the country with land belonging to it.",
+    "images": "eew-6-18/6.png"
+  },
+  {
+    "question": "cove",
+    "classes": "n",
+    "answer": "Vịnh nhỏ, vũng.",
+    "ipa": "/kəʊv/",
+    "example": "Dân làng chài thường hay `khoe` (cove ~ khoe) về những mẻ cá lớn bắt được ở **vịnh nhỏ** gần làng.",
+    "english-definition": "A small bay or sheltered inlet.",
+    "images": "eew-6-18/7.png"
+  },
+  {
+    "question": "freeway",
+    "classes": "n",
+    "answer": "Đường cao tốc.",
+    "ipa": "/ˈfriː.weɪ/",
+    "example": "Trên **đường cao tốc**, bạn có thể đi lại một cách `free way` (tự do), không bị đèn đỏ hay giao cắt cản trở.",
+    "english-definition": "A wide road for fast-moving traffic.",
+    "images": "eew-6-18/8.png"
+  },
+  {
+    "question": "winding",
+    "classes": "adj",
+    "answer": "Quanh co, uốn lượn.",
+    "ipa": "/ˈwaɪn.dɪŋ/",
+    "example": "Con đường lên núi **quanh co**, uốn lượn như một sợi `dây đinh` khổng lồ bị vứt lung tung.",
+    "english-definition": "Following a twisting or curving course.",
+    "images": "eew-6-18/9.png"
+  },
+  {
+    "question": "trail",
+    "classes": "n",
+    "answer": "Đường mòn.",
+    "ipa": "/treɪl/",
+    "example": "Người đi rừng thường đi theo **đường mòn** để không bị lạc, họ tin rằng đó là con đường `trời yêu` dành cho họ.",
+    "english-definition": "A path through a countryside, mountain, or forest area.",
+    "images": "eew-6-18/10.png"
+  },
+  {
+    "question": "centigrade",
+    "classes": "n",
+    "answer": "Độ C, bách phân.",
+    "ipa": "/ˈsen.tɪ.ɡreɪd/",
+    "example": "Nhà khoa học đo nhiệt độ sôi của nước, ông reo lên: \"`Xen tí gạch` nữa thôi là đủ 100 **độ C** rồi!\".",
+    "english-definition": "A scale of temperature on which water freezes at 0° and boils at 100°.",
+    "images": "eew-6-18/11.png"
+  },
+  {
+    "question": "beforehand",
+    "classes": "adv",
+    "answer": "Trước, sẵn, trước đó.",
+    "ipa": "/bɪˈfɔː.hænd/",
+    "example": "Người đầu bếp thông thái luôn chuẩn bị mọi nguyên liệu **trước**, ông nói: \"Thịt bò kho phải `bì pho hầm` (bì và phô mai phải hầm) **sẵn** thì mới ngon\".",
+    "english-definition": "Earlier (than a particular time).",
+    "images": "eew-6-18/12.png"
+  },
+  {
+    "question": "zip",
+    "classes": "v",
+    "answer": "Kéo khóa (dây kéo).",
+    "ipa": "/zɪp/",
+    "example": "Con vẹt thấy cô chủ **kéo khóa** áo, nó liền bắt chước kêu \"`díp, díp`\" theo tiếng của dây kéo.",
+    "english-definition": "To fasten something with a zip.",
+    "images": "eew-6-18/13.png"
+  },
+  {
+    "question": "hood",
+    "classes": "n",
+    "answer": "Mũ trùm đầu (của áo).",
+    "ipa": "/hʊd/",
+    "example": "Trời mưa, cô bé trùm **mũ áo** lên đầu. Bạn cô trêu: \"Nhìn cậu giống như đang `hút` cả cái đầu vào trong áo vậy!\".",
+    "english-definition": "A part of a coat that you can pull up to cover your head and neck.",
+    "images": "eew-6-18/14.png"
+  },
+  {
+    "question": "hospitable",
+    "classes": "adj",
+    "answer": "Hiếu khách, mến khách.",
+    "ipa": "/hɒsˈpɪt.ə.bəl/",
+    "example": "Một người **hiếu khách** sẽ đối xử với bạn tốt như ở trong `hospital` (bệnh viện), luôn sẵn lòng chăm sóc và giúp đỡ.",
+    "english-definition": "Friendly and welcoming to guests and visitors.",
+    "images": "eew-6-18/15.png"
+  },
+  {
+    "question": "condense",
+    "classes": "v",
+    "answer": "Ngưng tụ, cô đọng.",
+    "ipa": "/kənˈdens/",
+    "example": "Hơi nước gặp lạnh liền **ngưng tụ** lại thành giọt. Cậu bé nhìn thấy và nói: \"A, `con đen sì` đang biến thành nước!\". Cậu đang chỉ vào một con bọ đen bị kẹt trong giọt nước ngưng tụ.",
+    "english-definition": "To change from a gas to a liquid or solid state.",
+    "images": "eew-6-18/16.png"
+  },
+  {
+    "question": "exterior",
+    "classes": "n",
+    "answer": "Bên ngoài, bề ngoài.",
+    "ipa": "/ɪkˈstɪə.ri.ər/",
+    "example": "`Ích tia ria` (ít tia sáng) có thể lọt vào trong nhà vì **bên ngoài** trời đang rất u ám.",
+    "english-definition": "The outside part of something.",
+    "images": "eew-6-18/17.png"
+  },
+  {
+    "question": "profile",
+    "classes": "n",
+    "answer": "Dáng nhìn nghiêng, hình bóng.",
+    "ipa": "/ˈprəʊ.faɪl/",
+    "example": "Người họa sĩ nói: \"Tôi `rồ` (mê mẩn) `phải` vẽ **dáng nhìn nghiêng** của cô ấy, nó thật hoàn hảo\".",
+    "english-definition": "A side view of a person's head.",
+    "images": "eew-6-18/18.png"
+  },
+  {
+    "question": "concerto",
+    "classes": "n",
+    "answer": "Bản công-xéc-tô.",
+    "ipa": "/kənˈtʃɜː.təʊ/",
+    "example": "Nhạc trưởng chỉ huy dàn nhạc, ông hô to: \"`Cần chế tớ` thành một nghệ sĩ vĩ đại hơn để chơi được **bản công-xéc-tô** này!\".",
+    "english-definition": "A long piece of music for one or more main solo instruments and an orchestra.",
+    "images": "eew-6-18/19.png"
+  },
+  {
+    "question": "persevere",
+    "classes": "v",
+    "answer": "Kiên trì, bền bỉ.",
+    "ipa": "/ˌpɜː.səˈvɪər/",
+    "example": "Dù bài tập rất khó, cậu học sinh vẫn `bơ đi mà làm, sợ gì`. Cậu ấy đã rất **kiên trì** và cuối cùng cũng giải được.",
+    "english-definition": "To continue making an effort to do or achieve something, despite difficulties.",
+    "images": "eew-6-18/20.png"
+  }
+]
