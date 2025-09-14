@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 14: Adjectives Describing People</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .unit-number {
+            font-size: 80px;
+            font-weight: bold;
+            color: #007bff;
+            margin-right: 20px;
+        }
+        .header-text h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .header-text h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #555;
+        }
+        .outcomes {
+            background-color: #e9f5ff;
+            border-left: 5px solid #007bff;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+        .step-header {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: #d9534f;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+        }
+        .vocabulary-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            text-align: center;
+        }
+        .person-card {
+            flex: 1;
+            min-width: 200px;
+        }
+        .person-card img {
+            max-width: 100%;
+            height: 300px;
+            object-fit: contain;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .input-line {
+            border: none;
+            border-bottom: 1px solid #333;
+            width: 90%;
+            margin: 5px auto;
+            text-align: center;
+            font-size: 1em;
+        }
+        .conversation {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .conversation p {
+            margin: 5px 0;
+        }
+
+        /* Grammar Presentation Styles */
+        .grammar-box {
+            border: 1px solid #ccc;
+            margin-top: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .grammar-box-title {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 12px;
+            font-weight: bold;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+        }
+        .grammar-notes {
+            background-color: #e6f7e9;
+            border: 2px solid #28a745;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .be-careful {
+            background-color: #f8d7da;
+            border: 2px solid #d9534f;
+            padding: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Exercise Styles */
+        .exercise {
+            margin-top: 25px;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+        .exercise-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .exercise ol, .exercise ul {
+            list-style-position: inside;
+            padding-left: 0;
+        }
+        .exercise li {
+            margin-bottom: 10px;
+        }
+        .exercise input[type="text"], .exercise select {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .exercise button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        .exercise button:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            display: none; /* Initially hidden */
+        }
+        .feedback.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .feedback.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .feedback ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+        .adjective-circle {
+            border: 2px solid #007bff;
+            border-radius: 15px;
+            padding: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- PAGE 1 -->
+        <header class="header">
+            <div class="unit-number">14</div>
+            <div class="header-text">
+                <h1>Adjectives</h1>
+                <h2>DESCRIBING PEOPLE</h2>
+            </div>
+        </header>
+
+        <div class="outcomes">
+            <strong>OUTCOMES:</strong>
+            <ul>
+                <li>Use adjectives to describe nouns</li>
+                <li>Use <i>be</i> and <i>have</i> with adjectives</li>
+                <li>Answer questions about a reading</li>
+                <li>Write sentences about a conversation</li>
+                <li>Describe people</li>
+                <li>Write descriptions of a classmate and a friend</li>
+            </ul>
+        </div>
+
+        <div class="step-header">
+            <span>STEP 1</span>
+            <span>GRAMMAR IN CONTEXT</span>
+        </div>
+
+        <h3 class="section-title">BEFORE YOU READ</h3>
+        <p><strong>A VOCABULARY</strong> Study the words. Then complete the sentences. Write the names of famous people or people you know.</p>
+
+        <div class="vocabulary-section">
+            <div class="person-card">
+                <img src="fog-1-14/1.png" alt="A tall man of average weight">
+                <input type="text" class="input-line" placeholder="Name..."> has short hair.
+            </div>
+            <div class="person-card">
+                <img src="fog-1-14/2.png" alt="A thin woman of average height with blond hair">
+                <input type="text" class="input-line" placeholder="Name..."> has blond hair.
+            </div>
+            <div class="person-card">
+                <img src="fog-1-14/3.png" alt="A heavy, short woman with dark hair">
+                <input type="text" class="input-line" placeholder="Name..."> has dark hair.
+            </div>
+        </div>
+         <div class="vocabulary-section">
+             <div class="person-card">
+                <input type="text" class="input-line" placeholder="Name..."> has long hair.
+             </div>
+             <div class="person-card">
+                <input type="text" class="input-line" placeholder="Name..."> is tall.
+             </div>
+             <div class="person-card">
+                <input type="text" class="input-line" placeholder="Name..."> is average height.
+             </div>
+        </div>
+
+        <h3 class="section-title">READ</h3>
+        <p>Read this conversation.</p>
+        <div class="conversation">
+            <h4>What Does She Look Like?</h4>
+            <p><strong>RICK:</strong> Are you in Music 101?</p>
+            <p><strong>JUDY:</strong> Uh-huh.... It’s a <strong>great</strong> class. I like it a lot.</p>
+            <p><strong>RICK:</strong> Could you please give these tickets to Sonia Jones? She’s in your class.</p>
+            <p><strong>JUDY:</strong> Sure. But I don’t know her. What does she look like?</p>
+            <p><strong>RICK:</strong> Well, she has <strong>dark</strong> hair and <strong>dark</strong> eyes.</p>
+            <p><strong>JUDY:</strong> Half the women have <strong>dark</strong> hair and <strong>dark</strong> eyes. It’s a <strong>huge</strong> class. There are 100 students in it!</p>
+            <p><strong>RICK:</strong> Well, she’s <strong>tall</strong> and <strong>thin</strong>.</p>
+            <p><strong>JUDY:</strong> OK, but a lot of women are <strong>tall</strong> and <strong>thin</strong>.</p>
+            <p><strong>RICK:</strong> She’s <strong>young</strong>.... She’s in her twenties. </p>
+            <p><strong>JUDY:</strong> Rick! Almost everyone at school is twenty-something. Is there something <strong>unusual</strong> about her?</p>
+            <p><strong>RICK:</strong> Well.... She has two heads!</p>
+            <p><strong>JUDY:</strong> What?!</p>
+            <p><strong>RICK:</strong> Sonia's eight months <strong>pregnant</strong>.</p>
+            <p><strong>JUDY:</strong> Oh! Now I know who she is!</p>
+        </div>
+
+        <!-- PAGE 2 -->
+        <h3 class="section-title">AFTER YOU READ</h3>
+        <div class="exercise" id="comprehension-ex">
+            <p class="exercise-title">A COMPREHENSION Look at the conversation again. Circle the correct answers.</p>
+            <ol>
+                <li>Is Sonia in Music 101?
+                    <br><input type="radio" name="q1" value="a"> a. Yes, she is.
+                    <br><input type="radio" name="q1" value="b"> b. No, she isn’t.
+                </li>
+                <li>Does Sonia have blond hair and blue eyes?
+                    <br><input type="radio" name="q2" value="a"> a. Yes, she does.
+                    <br><input type="radio" name="q2" value="b"> b. No, she doesn’t.
+                </li>
+                <li>Is Music 101 a small class?
+                    <br><input type="radio" name="q3" value="a"> a. Yes, it is.
+                    <br><input type="radio" name="q3" value="b"> b. No, it isn’t.
+                </li>
+                <li>Are most of the students between the ages of twenty and twenty-nine?
+                    <br><input type="radio" name="q4" value="a"> a. Yes, they are.
+                    <br><input type="radio" name="q4" value="b"> b. No, they aren’t.
+                </li>
+                <li>Does Sonia really have two heads?
+                    <br><input type="radio" name="q5" value="a"> a. Yes, she does.
+                    <br><input type="radio" name="q5" value="b"> b. No, she doesn’t.
+                </li>
+                <li>Is Sonia pregnant?
+                    <br><input type="radio" name="q6" value="a"> a. Yes, she is.
+                    <br><input type="radio" name="q6" value="b"> b. No, she isn’t.
+                </li>
+            </ol>
+            <button onclick="checkComprehension()">Kiểm tra</button>
+            <div class="feedback" id="comprehension-feedback"></div>
+        </div>
+
+        <!-- PAGE 3 & 4: Grammar -->
+        <div class="step-header">
+            <span>STEP 2</span>
+            <span>GRAMMAR PRESENTATION</span>
+        </div>
+
+        <div class="grammar-box">
+            <div class="grammar-box-title">Be + Adjective</div>
+            <table class="grammar-table">
+                <thead><tr><th>Subject</th><th>Be</th><th>Adjective</th></tr></thead>
+                <tbody>
+                    <tr><td>She</td><td>is</td><td>tall.</td></tr>
+                    <tr><td>They</td><td>are</td><td>tall.</td></tr>
+                    <tr><td>Mary and Joe</td><td>are</td><td>tall.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grammar-box">
+            <div class="grammar-box-title">Adjective + Noun</div>
+            <table class="grammar-table">
+                <thead><tr><th></th><th>Adjective</th><th>Noun</th></tr></thead>
+                <tbody>
+                    <tr><td>She is a</td><td></td><td>woman.</td></tr>
+                    <tr><td>They are</td><td>tall</td><td>women.</td></tr>
+                    <tr><td>I have a</td><td></td><td>face.</td></tr>
+                    <tr><td>We have</td><td>long</td><td>legs.</td></tr>
+                    <tr><td>He has an</td><td>old</td><td>computer.</td></tr>
+                    <tr><td>They have</td><td></td><td>computers.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grammar-notes">
+            <h4>GRAMMAR NOTES</h4>
+            
+            <p><strong>1. Adjectives: Form and Meaning</strong></p>
+            <p>Adjectives describe nouns. Adjectives can come <strong>after</strong> the verb <i>be</i> or <strong>before</strong> a noun.</p>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 15px 0; padding: 10px; background-color: #f8f9fa; border-radius: 5px;">
+                <div style="flex: 1; min-width: 200px;">
+                    <p style="border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-bottom: 5px;"><u>SUBJECT + BE + ADJECTIVE</u></p>
+                    <p>She <strong>is</strong> short.</p>
+                    <p>Mary <strong>is</strong> short.</p>
+                </div>
+                <div style="flex: 1; min-width: 200px;">
+                    <p style="border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-bottom: 5px;"><u>ADJECTIVE + NOUN</u></p>
+                    <p>He is a <strong>tall</strong> man.</p>
+                    <p>He has <strong>dark</strong> hair.</p>
+                </div>
+            </div>
+
+            <div class="be-careful">BE CAREFUL! Adjectives do NOT follow nouns.
+                <br><em>She is an <strong>old woman</strong>.</em> NOT <s>She is a woman old.</s>
+            </div>
+            <div class="be-careful">BE CAREFUL! Do not add -s to adjectives. They have the same form before singular and plural nouns.
+                <br><em>He is a <strong>thin</strong> man. (singular)</em>
+                <br><em>They are <strong>thin</strong> men. (plural)</em> NOT <s>They are thins men.</s>
+            </div>
+
+            <p style="margin-top: 20px;"><strong>2. A or An Before an Adjective</strong></p>
+            <p>When an adjective comes before a singular count noun, use <strong>a</strong> or <strong>an</strong> before the adjective. Use <strong>a</strong> if it begins with a consonant sound. Use <strong>an</strong> if it begins with a vowel sound.</p>
+            <div style="padding: 10px; background-color: #f8f9fa; border: 1px solid #eee; border-radius: 4px; margin-top: 10px;">
+                <p style="margin: 5px 0;">She's <strong>a</strong> tall woman.</p>
+                <p style="margin: 5px 0;">He has <strong>a</strong> long face.</p>
+                <p style="margin: 5px 0;">She has <strong>an</strong> old watch.</p>
+                <p style="margin: 5px 0;">It's <strong>an</strong> unusual name.</p>
+            </div>
+
+            <p style="margin-top: 20px;"><strong>3. Noun Modifiers</strong></p>
+            <p>Nouns can also describe nouns. The modifying nouns have the same form before singular and plural nouns.</p>
+            <table class="grammar-table" style="margin-top: 10px; max-width: 400px;">
+                <thead>
+                    <tr><th></th><th>NOUN</th><th>NOUN</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>He's a</td><td><strong>baseball</strong></td><td>player.</td></tr>
+                    <tr><td>They are</td><td><strong>baseball</strong></td><td>players.</td></tr>
+                    <tr><td>I have an</td><td><strong>English</strong></td><td>class.</td></tr>
+                    <tr><td>They are</td><td><strong>English</strong></td><td>teachers.</td></tr>
+                </tbody>
+            </table>
+
+            <p style="margin-top: 20px;"><strong>4. Be and Have + Adjectives</strong></p>
+            <p>Remember, <i>be</i> and <i>have</i> are common irregular verbs. These verbs are commonly used with adjectives or adjectives + nouns to describe people and things.</p>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 15px 0;">
+                <div style="flex: 1; min-width: 250px;">
+                    <p>We can use <strong>be + an adjective</strong> alone.</p>
+                    <table class="grammar-table">
+                        <thead><tr><th>VERB</th><th>ADJECTIVE</th></tr></thead>
+                        <tbody>
+                            <tr><td>I <strong>am</strong></td><td>short.</td></tr>
+                            <tr><td>He <strong>isn't</strong></td><td>tall.</td></tr>
+                            <tr><td>They <strong>are</strong></td><td>thin.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <p>We use <strong>have + an adjective + a noun</strong>.</p>
+                    <table class="grammar-table">
+                        <thead><tr><th>VERB</th><th>ADJECTIVE</th><th>NOUN</th></tr></thead>
+                        <tbody>
+                            <tr><td>I <strong>have</strong></td><td>blond</td><td>hair.</td></tr>
+                            <tr><td>They <strong>don't have</strong></td><td>long</td><td>hair.</td></tr>
+                            <tr><td>She <strong>has</strong></td><td>brown</td><td>hair.</td></tr>
+                            <tr><td>He <strong>doesn't have</strong></td><td>brown</td><td>hair.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="be-careful">BE CAREFUL! We use <i>be</i>, not <i>have</i>, to talk about age. (e.g., I <strong>am</strong> twenty-one years old. NOT <s>I have twenty-one years</s>)</div>
+        </div>
+
+        <!-- PAGE 5 -->
+        <div class="step-header">
+            <span>STEP 3</span>
+            <span>FOCUSED PRACTICE</span>
+        </div>
+
+        <div class="exercise" id="ex1">
+            <p class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</p>
+            <p><strong>A</strong> Read the conversation. Circle the adjectives.</p>
+            <div class="conversation">
+                <p><strong>JUDY:</strong> So, Rick, how was the concert?</p>
+                <p><strong>RICK:</strong> It was <span class="adjective-circle">great</span> but <span class="adjective-circle">long</span>.</p>
+                <p><strong>JUDY:</strong> Was Sonia there with her husband?</p>
+                <p><strong>RICK:</strong> Yes, they were both there.</p>
+                <p><strong>JUDY:</strong> What does her husband look like?</p>
+                <p><strong>RICK:</strong> He’s <span class="adjective-circle">tall</span> and <span class="adjective-circle">heavy</span>. He has <span class="adjective-circle">brown</span> hair and <span class="adjective-circle">green</span> eyes.</p>
+                <p><strong>JUDY:</strong> What does he do?</p>
+                <p><strong>RICK:</strong> I think he’s a football player.</p>
+                <p><strong>JUDY:</strong> That’s an <span class="adjective-circle">interesting</span> job.</p>
+            </div>
+            <p><strong>B</strong> Write the adjectives from A and the nouns they describe.</p>
+            <table style="width: 80%;">
+                <tr><th>Adjective</th><th>Noun</th></tr>
+                <tr><td><input type="text" id="ex1-adj1" value="great"></td><td><input type="text" id="ex1-noun1" value="concert"></td></tr>
+                <tr><td><input type="text" id="ex1-adj2"></td><td><input type="text" id="ex1-noun2"></td></tr>
+                <tr><td><input type="text" id="ex1-adj3"></td><td><input type="text" id="ex1-noun3"></td></tr>
+                <tr><td><input type="text" id="ex1-adj4"></td><td><input type="text" id="ex1-noun4"></td></tr>
+                <tr><td><input type="text" id="ex1-adj5"></td><td><input type="text" id="ex1-noun5"></td></tr>
+                <tr><td><input type="text" id="ex1-adj6"></td><td><input type="text" id="ex1-noun6"></td></tr>
+            </table>
+             <button onclick="checkEx1()">Kiểm tra</button>
+             <div class="feedback" id="ex1-feedback"></div>
+        </div>
+
+        <div class="exercise" id="ex2">
+            <p class="exercise-title">EXERCISE 2 ADJECTIVES WITH A OR AN</p>
+            <ol>
+                <li>She has <select id="ex2-q1"><option>a beautiful</option><option>beautiful</option></select> face.</li>
+                <li>He is a <select id="ex2-q2"><option>tall</option><option>tall a</option></select>.</li>
+                <li>They are <select id="ex2-q3"><option>a tall</option><option>tall</option></select> men.</li>
+                <li>He is a <select id="ex2-q4"><option>short</option><option>short a</option></select> man.</li>
+                <li>She is a <select id="ex2-q5"><option>beautiful</option><option>beautiful a</option></select> woman.</li>
+                <li>Her eyes are <select id="ex2-q6"><option>a blue</option><option>blue</option></select>.</li>
+                <li>He has a <select id="ex2-q7"><option>red</option><option>red a</option></select> hair.</li>
+                <li>I need an <select id="ex2-q8"><option>unusual</option><option>a unusual</option></select> gift.</li>
+            </ol>
+            <button onclick="checkEx2()">Kiểm tra</button>
+            <div class="feedback" id="ex2-feedback"></div>
+        </div>
+
+        <!-- PAGE 6 -->
+        <div class="exercise" id="ex3">
+            <p class="exercise-title">EXERCISE 3 WORD ORDER OF ADJECTIVES AND NOUNS</p>
+            <p>Write sentences. Put the words in the correct order.</p>
+            <ol>
+                <li>My sister has blue eyes and red hair. (has / blue / hair / My sister / eyes / and red)</li>
+                <li>(sister / I / funny / a / have) <br> <input type="text" id="ex3-q2" size="40"></li>
+                <li>(men / heavy / are / They) <br> <input type="text" id="ex3-q3" size="40"></li>
+                <li>(has / an / job / exciting / He) <br> <input type="text" id="ex3-q4" size="40"></li>
+                <li>(smile / has / beautiful / She / a) <br> <input type="text" id="ex3-q5" size="40"></li>
+                <li>(I'm / teacher / an / English) <br> <input type="text" id="ex3-q6" size="40"></li>
+            </ol>
+            <button onclick="checkEx3()">Kiểm tra</button>
+            <div class="feedback" id="ex3-feedback"></div>
+        </div>
+        
+        <div class="exercise" id="ex4">
+            <p class="exercise-title">EXERCISE 4 ADJECTIVES, A, AN, BE, HAVE</p>
+            <p>Complete the conversation. Use the words in the box.</p>
+            <div style="padding:10px; background:#eef; border:1px solid #cce; text-align:center; margin-bottom:15px;">
+                a &nbsp;&nbsp; an &nbsp;&nbsp; blue &nbsp;&nbsp; brown &nbsp;&nbsp; good &nbsp;&nbsp; hair &nbsp;&nbsp; has &nbsp;&nbsp; is &nbsp;&nbsp; photo
+            </div>
+            <p><strong>MARK:</strong> This is my cousin, Francisco.</p>
+            <p><strong>JUDY:</strong> That’s a <input type="text" id="ex4-1" size="5" value="good"> 1. <input type="text" id="ex4-2" size="5"> of him.</p>
+            <p>How old <input type="text" id="ex4-3" size="3"> he?</p>
+            <p><strong>MARK:</strong> Twenty-five years old. He lives in São Paulo.</p>
+            <p><strong>JUDY:</strong> Is he a writer, like you?</p>
+            <p><strong>MARK:</strong> No. He’s <input type="text" id="ex4-4" size="3"> successful businessman.</p>
+            <p><strong>JUDY:</strong> He looks like you.</p>
+            <p><strong>MARK:</strong> I know. He has <input type="text" id="ex4-5" size="5"> <input type="text" id="ex4-6" size="5"> and blue eyes. He has a beard, too.</p>
+            <p><strong>JUDY:</strong> He has <input type="text" id="ex4-7" size="3"> interesting face. Does he have a girlfriend?</p>
+            <p><strong>MARK:</strong> He’s married. He <input type="text" id="ex4-8" size="3"> <input type="text" id="ex4-9" size="3"> a beautiful wife.</p>
+            <button onclick="checkEx4()">Kiểm tra</button>
+            <div class="feedback" id="ex4-feedback"></div>
+        </div>
+        
+        <!-- PAGE 12 REVIEW SECTION -->
+        <div class="step-header" style="background-color: #f0ad4e; margin-top: 50px;">
+            <span>UNIT 14</span>
+            <span>REVIEW</span>
+        </div>
+
+        <div class="exercise" id="reviewA">
+            <p class="exercise-title">A Complete the questions. Circle the correct answers.</p>
+            <ol>
+                <li>Who has hair <select id="revA-1"><option>short</option><option>short hair</option></select>?</li>
+                <li>Is Music 101 <select id="revA-2"><option>a</option><option>an</option></select> interesting class?</li>
+                <li>How old <select id="revA-3"><option>has</option><option>is</option></select> she?</li>
+                <li>Are they <select id="revA-4"><option>thin</option><option>thins</option></select>?</li>
+                <li>Is he <select id="revA-5"><option>heavy</option><option>a heavy</option></select>?</li>
+            </ol>
+            <button onclick="checkReviewA()">Kiểm tra Review A</button>
+            <div class="feedback" id="reviewA-feedback"></div>
+        </div>
+
+        <div class="exercise" id="reviewB">
+            <p class="exercise-title">B Write sentences. Put the words in the correct order.</p>
+            <ol>
+                <li>(long / My roommate / has / a / face) <br> <input type="text" id="revB-1" size="50"></li>
+                <li>(average / are / height / They) <br> <input type="text" id="revB-2" size="50"></li>
+                <li>(an / is / person / unusual / He) <br> <input type="text" id="revB-3" size="50"></li>
+                <li>(is / book / It / a / short) <br> <input type="text" id="revB-4" size="50"></li>
+                <li>(a / nice / has / He / smile) <br> <input type="text" id="revB-5" size="50"></li>
+            </ol>
+            <button onclick="checkReviewB()">Kiểm tra Review B</button>
+            <div class="feedback" id="reviewB-feedback"></div>
+        </div>
+        
+        <div class="exercise" id="reviewC">
+            <p class="exercise-title">C Correct the conversation. There are five mistakes.</p>
+            <div class="conversation">
+                <p><strong>A:</strong> What does your sister look like?</p>
+                <p><strong>B:</strong> She is thin, and she has hair brown and a green eyes.</p>
+                <p><strong>A:</strong> Is she tall or short?</p>
+                <p><strong>B:</strong> She is a short.</p>
+                <p><strong>A:</strong> What about your parents? Are they shorts?</p>
+                <p><strong>B:</strong> No, they’re both talls.</p>
+            </div>
+            <p>Rewrite the corrected conversation below:</p>
+            <textarea id="revC-textarea" rows="8" cols="80" placeholder="Viết lại đoạn hội thoại đã sửa lỗi ở đây..."></textarea><br>
+            <button onclick="showReviewC()">Hiển thị đáp án Review C</button>
+            <div class="feedback" id="reviewC-feedback"></div>
+        </div>
+
+
+    </div>
+
+    <script>
+        function checkComprehension() {
+            const answers = { q1: 'a', q2: 'b', q3: 'b', q4: 'a', q5: 'b', q6: 'a' };
+            let correctCount = 0;
+            let feedbackHtml = '<ul>';
+            
+            for (let i = 1; i <= 6; i++) {
+                const question = 'q' + i;
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (userAnswer && userAnswer.value === answers[question]) {
+                    correctCount++;
+                    feedbackHtml += `<li>Câu ${i}: Đúng!</li>`;
+                } else {
+                    feedbackHtml += `<li>Câu ${i}: Sai. Đáp án đúng là <strong>${answers[question] == 'a' ? 'a' : 'b'}</strong>.</li>`;
+                }
+            }
+            feedbackHtml += '</ul>';
+
+            const feedbackEl = document.getElementById('comprehension-feedback');
+            feedbackEl.innerHTML = `Bạn đã trả lời đúng ${correctCount}/6 câu.<br>${feedbackHtml}`;
+            feedbackEl.className = 'feedback ' + (correctCount === 6 ? 'correct' : 'incorrect');
+            feedbackEl.style.display = 'block';
+        }
+
+        function checkEx1() {
+            const answers = {
+                adj2: "long", noun2: "concert",
+                adj3: "tall", noun3: "He (husband)",
+                adj4: "heavy", noun4: "He (husband)",
+                adj5: "brown", noun5: "hair",
+                adj6: "green", noun6: "eyes"
+            };
+            let allCorrect = true;
+            let feedbackHtml = '<ul>';
+            for (const id in answers) {
+                const userInput = document.getElementById(`ex1-${id}`).value.trim().toLowerCase();
+                if (userInput !== answers[id]) {
+                    allCorrect = false;
+                    const fieldType = id.includes('adj') ? 'Adjective' : 'Noun';
+                    feedbackHtml += `<li>Dòng ${Math.ceil(Object.keys(answers).indexOf(id)/2)+2}: ${fieldType} sai. Gợi ý: ${answers[id]}</li>`;
+                }
+            }
+            if(allCorrect) {
+                feedbackHtml = 'Tuyệt vời! Tất cả đều đúng.';
+            } else {
+                feedbackHtml += '</ul>';
+            }
+            
+            const feedbackEl = document.getElementById('ex1-feedback');
+            feedbackEl.innerHTML = feedbackHtml;
+            feedbackEl.className = 'feedback ' + (allCorrect ? 'correct' : 'incorrect');
+            feedbackEl.style.display = 'block';
+        }
+        
+        function checkEx2() {
+            const answers = {
+                'ex2-q1': 'a beautiful', 'ex2-q2': 'tall', 'ex2-q3': 'tall', 'ex2-q4': 'short',
+                'ex2-q5': 'beautiful', 'ex2-q6': 'blue', 'ex2-q7': 'red', 'ex2-q8': 'unusual'
+            };
+            let correctCount = 0;
+            let feedbackHtml = '<ul>';
+            
+            for (let i = 1; i <= 8; i++) {
+                const selectId = 'ex2-q' + i;
+                const userAnswer = document.getElementById(selectId).value;
+                if (userAnswer === answers[selectId]) {
+                    correctCount++;
+                } else {
+                    feedbackHtml += `<li>Câu ${i}: Sai. Gợi ý: "${answers[selectId]}"</li>`;
+                }
+            }
+            
+            const feedbackEl = document.getElementById('ex2-feedback');
+            if (correctCount === 8) {
+                feedbackEl.innerHTML = 'Xuất sắc! Tất cả đều đúng.';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Bạn đã đúng ${correctCount}/8 câu. Xem lại các câu sau:<br>${feedbackHtml}</ul>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+
+        function checkEx3() {
+            const answers = {
+                'ex3-q2': 'I have a funny sister.',
+                'ex3-q3': 'They are heavy men.',
+                'ex3-q4': 'He has an exciting job.',
+                'ex3-q5': 'She has a beautiful smile.',
+                'ex3-q6': "I'm an English teacher."
+            };
+            let correctCount = 0;
+            let feedbackHtml = '<ul>';
+
+            function normalize(str) {
+                return str.trim().toLowerCase().replace(/[.']/g, '');
+            }
+
+            for (let i = 2; i <= 6; i++) {
+                const inputId = 'ex3-q' + i;
+                const userAnswer = normalize(document.getElementById(inputId).value);
+                const correctAnswer = normalize(answers[inputId]);
+                if (userAnswer === correctAnswer) {
+                    correctCount++;
+                } else {
+                    feedbackHtml += `<li>Câu ${i}: Chưa đúng. Đáp án gợi ý: <strong>${answers[inputId]}</strong></li>`;
+                }
+            }
+
+            const feedbackEl = document.getElementById('ex3-feedback');
+            if (correctCount === 5) {
+                feedbackEl.innerHTML = 'Làm tốt lắm! Các câu đều đúng.';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Bạn đã đúng ${correctCount}/5 câu. Xem lại các câu sau:<br>${feedbackHtml}</ul>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+        
+        function checkEx4() {
+            const answers = ["photo", "is", "a", "brown", "hair", "an", "has", "a"];
+            let correctCount = 0;
+            let feedbackHtml = '<ul>';
+            
+            for (let i = 1; i <= 9; i++) {
+                if(i==1) continue; // Skip the pre-filled one
+                const id = `ex4-${i-1}`;
+                 const userInput = document.getElementById(id).value.trim().toLowerCase();
+                 if (userInput === answers[i-2]) {
+                     correctCount++;
+                 } else {
+                     feedbackHtml += `<li>Chỗ trống số ${i-1}: Sai. Gợi ý: <strong>${answers[i-2]}</strong></li>`;
+                 }
+            }
+            
+            const feedbackEl = document.getElementById('ex4-feedback');
+            if (correctCount === 8) {
+                 feedbackEl.innerHTML = 'Hoàn hảo!';
+                 feedbackEl.className = 'feedback correct';
+            } else {
+                 feedbackEl.innerHTML = `Bạn đúng ${correctCount}/8 chỗ trống. Gợi ý cho các chỗ sai:<br>${feedbackHtml}</ul>`;
+                 feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+        
+        function checkReviewA() {
+            const answers = { 1: "short", 2: "an", 3: "is", 4: "thin", 5: "heavy" };
+            let correctCount = 0;
+            let feedbackHtml = '<ul>';
+            for (let i = 1; i <= 5; i++) {
+                const userAnswer = document.getElementById(`revA-${i}`).value;
+                if (userAnswer === answers[i]) {
+                    correctCount++;
+                } else {
+                    feedbackHtml += `<li>Câu ${i}: Sai. Đáp án đúng là <strong>${answers[i]}</strong>.</li>`;
+                }
+            }
+            const feedbackEl = document.getElementById('reviewA-feedback');
+            if (correctCount === 5) {
+                feedbackEl.innerHTML = 'Tất cả đều đúng!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Bạn đúng ${correctCount}/5. Các câu sai:<br>${feedbackHtml}</ul>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+
+        function checkReviewB() {
+            const answers = {
+                1: 'My roommate has a long face.',
+                2: 'They are average height.',
+                3: 'He is an unusual person.',
+                4: 'It is a short book.',
+                5: 'He has a nice smile.'
+            };
+            let correctCount = 0;
+            let feedbackHtml = '<ul>';
+            
+            function normalize(str) { return str.trim().toLowerCase().replace(/[.']/g, ''); }
+
+            for (let i = 1; i <= 5; i++) {
+                const userAnswer = normalize(document.getElementById(`revB-${i}`).value);
+                if (userAnswer === normalize(answers[i])) {
+                    correctCount++;
+                } else {
+                    feedbackHtml += `<li>Câu ${i}: Chưa đúng. Gợi ý: <strong>${answers[i]}</strong></li>`;
+                }
+            }
+            const feedbackEl = document.getElementById('reviewB-feedback');
+            if (correctCount === 5) {
+                feedbackEl.innerHTML = 'Tuyệt vời!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Bạn đúng ${correctCount}/5. Gợi ý cho các câu sai:<br>${feedbackHtml}</ul>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+
+        function showReviewC() {
+            const feedbackEl = document.getElementById('reviewC-feedback');
+            feedbackEl.innerHTML = `
+                <h4>Đáp án gợi ý:</h4>
+                <div class="conversation">
+                    <p><strong>A:</strong> What does your sister look like?</p>
+                    <p><strong>B:</strong> She is thin, and she has <strong>brown hair</strong> and <strong>green eyes</strong>.</p>
+                    <p><strong>A:</strong> Is she tall or short?</p>
+                    <p><strong>B:</strong> She is <strong>short</strong>.</p>
+                    <p><strong>A:</strong> What about your parents? Are they <strong>short</strong>?</p>
+                    <p><strong>B:</strong> No, they’re both <strong>tall</strong>.</p>
+                </div>
+                <p><strong>Các lỗi đã sửa:</strong></p>
+                <ul>
+                    <li>"hair brown" -> "brown hair" (tính từ đứng trước danh từ)</li>
+                    <li>"a green eyes" -> "green eyes" (không dùng 'a' với danh từ số nhiều)</li>
+                    <li>"is a short" -> "is short" (không dùng 'a' sau động từ 'to be' và tính từ)</li>
+                    <li>"shorts" -> "short" (tính từ không có dạng số nhiều)</li>
+                    <li>"talls" -> "tall" (tính từ không có dạng số nhiều)</li>
+                </ul>
+            `;
+            feedbackEl.className = 'feedback incorrect'; // Use 'incorrect' style for visibility
+            feedbackEl.style.display = 'block';
+        }
+
+    </script>
+</body>
+</html>
