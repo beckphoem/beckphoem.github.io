@@ -249,6 +249,76 @@
             font-weight: normal;
             color: #555;
         }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+        .grammar-note {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .grammar-header {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #5cb85c;
+            padding: 10px 15px;
+            margin: -20px -20px 20px -20px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .grammar-header span {
+            display: inline-block;
+            background-color: #4a934a;
+            padding: 5px 8px;
+            margin-right: 10px;
+            border-radius: 4px;
+        }
+        .content-wrapper {
+            display: flex;
+            gap: 30px;
+        }
+        .plural-list {
+            flex: 1;
+        }
+        .example-sentences {
+            flex: 2;
+            border-left: 1px solid #eee;
+            padding-left: 30px;
+        }
+        .example-sentences p {
+            margin: 0 0 12px 0;
+            font-size: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        th {
+            font-weight: bold;
+            color: #0056b3;
+        }
+        strong {
+            color: #d9534f;
+        }
+        h3 {
+            margin-top: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            color: #333;
+        }
     </style>
 </head>
 <body>
@@ -464,6 +534,90 @@
                 </div>
             </div>
         </section>
+
+        
+<div class="grammar-note">
+    <div class="grammar-header"><span>4</span> Special Plural Forms</div>
+    <p>Some nouns have special plural forms. Here are common examples:</p>
+    
+    <div class="content-wrapper">
+        <div class="plural-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>SINGULAR</th>
+                        <th>PLURAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Original words -->
+                    <tr><td>child</td><td>children</td></tr>
+                    <tr><td>knife</td><td>knives</td></tr>
+                    <tr><td>man</td><td>men</td></tr>
+                    <tr><td>person</td><td>people</td></tr>
+                    <!-- Added common words -->
+                    <tr><td>woman</td><td>women</td></tr>
+                    <tr><td>foot</td><td>feet</td></tr>
+                    <tr><td>tooth</td><td>teeth</td></tr>
+                    <tr><td>goose</td><td>geese</td></tr>
+                    <tr><td>mouse</td><td>mice</td></tr>
+                    <tr><td>leaf</td><td>leaves</td></tr>
+                    <tr><td>life</td><td>lives</td></tr>
+                    <tr><td>wife</td><td>wives</td></tr>
+                    <tr><td>wolf</td><td>wolves</td></tr>
+                    <tr><td>ox</td><td>oxen</td></tr>
+                    <tr><td>crisis</td><td>crises</td></tr>
+                    <tr><td>phenomenon</td><td>phenomena</td></tr>
+                    
+                </tbody>
+            </table>
+            
+            <h3>Nouns with the Same Singular and Plural Form</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SINGULAR</th>
+                        <th>PLURAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     <tr><td>fish</td><td>fish</td></tr>
+                     <tr><td>sheep</td><td>sheep</td></tr>
+                     <tr><td>deer</td><td>deer</td></tr>
+                     <tr><td>series</td><td>series</td></tr>
+                     <tr><td>species</td><td>species</td></tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="example-sentences">
+            <p>I have a <strong>child</strong>. She has two <strong>children</strong>.</p>
+            <p>This is a <strong>knife</strong>. These are <strong>knives</strong>.</p>
+            <p>This <strong>man</strong> is American. These <strong>men</strong> are Canadian.</p>
+            <p>I am a <strong>person</strong>. We are <strong>people</strong>.</p>
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 15px 0;">
+            <p>That <strong>woman</strong> is a doctor. Those <strong>women</strong> are doctors.</p>
+            <p>My <strong>foot</strong> is sore. Both of my <strong>feet</strong> are sore.</p>
+            <p>I need to brush my <strong>tooth</strong>. You should brush all your <strong>teeth</strong>.</p>
+            <p>There is a <strong>goose</strong> by the lake. Look at all the <strong>geese</strong>!</p>
+            <p>A <strong>mouse</strong> is in the kitchen. I hope there are no more <strong>mice</strong>.</p>
+            <p>A green <strong>leaf</strong> fell from the tree. In autumn, all the <strong>leaves</strong> fall.</p>
+            <p>It was a wonderful <strong>life</strong>. Many <strong>lives</strong> were changed by the event.</p>
+            <p>The man has a <strong>wife</strong>. The two men introduced their <strong>wives</strong>.</p>
+            <p>A <strong>wolf</strong> is howling. I can hear a pack of <strong>wolves</strong>.</p>
+            <p>The farmer has one <strong>ox</strong>. In the past, farmers used two <strong>oxen</strong> to plow fields.</p>
+            <p>The company faced a financial <strong>crisis</strong>. There were many <strong>crises</strong> last year.</p>
+            <p>A rainbow is a natural <strong>phenomenon</strong>. We are studying weather <strong>phenomena</strong>.</p>
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 15px 0;">
+            <p>I caught one <strong>fish</strong>. We caught a lot of <strong>fish</strong> today.</p>
+            <p>The farmer has a black <strong>sheep</strong>. All the <strong>sheep</strong> are in the field.</p>
+            <p>A <strong>deer</strong> is in our garden. We saw three <strong>deer</strong> in the forest.</p>
+            <p>I watched a TV <strong>series</strong>. I like watching crime <strong>series</strong>.</p>
+            <p>This is a rare <strong>species</strong> of bird. Many <strong>species</strong> are endangered.</p>
+        </div>
+    </div>
+</div>
+
 
         <section id="step3">
             <header class="step-header"><span class="step-label">STEP 3</span> FOCUSED PRACTICE</header>
