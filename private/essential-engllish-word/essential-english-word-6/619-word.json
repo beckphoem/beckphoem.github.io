@@ -1,0 +1,682 @@
+[
+  {
+    "word": "faculty",
+    "ipa": "/ˈfæk.əl.ti/",
+    "meaning": "Khoa (trong trường đại học); đội ngũ giảng viên.",
+    "image": "eew-6-19/1.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "faculty",
+        "meaning-example": "Khoa (trong trường đại học); đội ngũ giảng viên.",
+        "ipa-example": "/ˈfæk.əl.ti/"
+      },
+      {
+        "sentence": "Anh ấy `phải cần tí` kiên nhẫn để làm việc với toàn bộ **đội ngũ giảng viên** trong **khoa**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The group of teachers in a school or college.",
+        "meaning-example": "Nhóm giáo viên trong một trường học hoặc trường cao đẳng.",
+        "ipa-example": "/ðə ɡruːp əv ˈtiː.tʃəz ɪn ə skuːl ɔːr ˈkɒl.ɪdʒ./"
+      },
+      {
+        "sentence": "Her final thesis was for the science faculty.",
+        "meaning-example": "Luận văn cuối khóa của cô ấy là cho khoa khoa học.",
+        "ipa-example": "/hɜːr ˈfaɪ.nəl ˈθiː.sɪs wəz fər ðə ˈsaɪ.əns ˈfæk.əl.ti./"
+      }
+    ]
+  },
+  {
+    "word": "undergraduate",
+    "ipa": "/ˌʌn.dəˈɡrædʒ.u.ət/",
+    "meaning": "Sinh viên chưa tốt nghiệp, sinh viên đại học.",
+    "image": "eew-6-19/2.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "undergraduate",
+        "meaning-example": "Sinh viên chưa tốt nghiệp, sinh viên đại học.",
+        "ipa-example": "/ˌʌn.dəˈɡrædʒ.u.ət/"
+      },
+      {
+        "sentence": "Anh `ăn đỡ quả đu đủ ếch` trong lúc còn là **sinh viên đại học**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A student who is studying for their first degree at a college or university.",
+        "meaning-example": "Một sinh viên đang theo học để lấy bằng cấp đầu tiên tại một trường cao đẳng hoặc đại học.",
+        "ipa-example": "/ə ˈstjuː.dənt huː ɪz ˈstʌd.i.ɪŋ fɔːr ðeər fɜːst dɪˈɡriː æt ə ˈkɒl.ɪdʒ ɔːr ˌjuː.nɪˈvɜː.sə.ti./"
+      },
+      {
+        "sentence": "An was an undergraduate student at a large university.",
+        "meaning-example": "An là một sinh viên đại học tại một trường đại học lớn.",
+        "ipa-example": "/ən wəz ən ˌʌn.dəˈɡrædʒ.u.ət ˈstjuː.dənt æt ə lɑːdʒ ˌjuː.nɪˈvɜː.sə.ti./"
+      }
+    ]
+  },
+  {
+    "word": "tutor",
+    "ipa": "/ˈtjuː.tər/",
+    "meaning": "Gia sư, người dạy kèm.",
+    "image": "eew-6-19/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "tutor",
+        "meaning-example": "Gia sư, người dạy kèm.",
+        "ipa-example": "/ˈtjuː.tər/"
+      },
+      {
+        "sentence": "Tiếng chuông `tút tơ` báo hiệu **gia sư** đã đến.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A private teacher, typically one who teaches a single student or a very small group.",
+        "meaning-example": "Một giáo viên dạy riêng, điển hình là người dạy một học sinh hoặc một nhóm rất nhỏ.",
+        "ipa-example": "/ə ˈpraɪ.vət ˈtiː.tʃər, ˈtɪp.ɪ.kə.li wʌn huː ˈtiː.tʃɪz ə ˈsɪŋ.ɡəl ˈstjuː.dənt ɔːr ə ˈver.i smɔːl ɡruːp./"
+      },
+      {
+        "sentence": "She had a wonderful tutor who helped her.",
+        "meaning-example": "Cô ấy có một người gia sư tuyệt vời đã giúp đỡ cô ấy.",
+        "ipa-example": "/ʃiː həd ə ˈwʌn.də.fəl ˈtjuː.tər huː helpt hɜːr./"
+      }
+    ]
+  },
+  {
+    "word": "thesis",
+    "ipa": "/ˈθiː.sɪs/",
+    "meaning": "Luận văn, luận án.",
+    "image": "eew-6-19/4.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "thesis",
+        "meaning-example": "Luận văn, luận án.",
+        "ipa-example": "/ˈθiː.sɪs/"
+      },
+      {
+        "sentence": "Anh ấy `thi sít` sao trong kỳ bảo vệ **luận văn**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A long piece of writing on a particular subject, especially one that is done for a higher college or university degree.",
+        "meaning-example": "Một bài viết dài về một chủ đề cụ thể, đặc biệt là bài viết được thực hiện để lấy bằng cao đẳng hoặc đại học cao hơn.",
+        "ipa-example": "/ə lɒŋ piːs əv ˈraɪ.tɪŋ ɒn ə pəˈtɪk.jə.lər ˈsʌb.dʒekt, ɪˈspeʃ.ə.li wʌn ðæt ɪz dʌn fər ə ˈhaɪ.ər ˈkɒl.ɪdʒ ɔːr ˌjuː.nɪˈvɜː.sə.ti dɪˈɡriː./"
+      },
+      {
+        "sentence": "Her final thesis was for the science faculty.",
+        "meaning-example": "Luận văn cuối khóa của cô ấy là cho khoa khoa học.",
+        "ipa-example": "/hɜːr ˈfaɪ.nəl ˈθiː.sɪs wəz fər ðə ˈsaɪ.əns ˈfæk.əl.ti./"
+      }
+    ]
+  },
+  {
+    "word": "outline",
+    "ipa": "/ˈaʊt.laɪn/",
+    "meaning": "Dàn ý, đề cương.",
+    "image": "eew-6-19/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "outline",
+        "meaning-example": "Dàn ý, đề cương.",
+        "ipa-example": "/ˈaʊt.laɪn/"
+      },
+      {
+        "sentence": "Anh ấy đi `ra ngoài` (out) `xếp hàng` (line) các ý tưởng để tạo thành **dàn ý**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A description of the main facts about something.",
+        "meaning-example": "Một mô tả về những sự kiện chính về một cái gì đó.",
+        "ipa-example": "/ə dɪˈskrɪp.ʃən əv ðə meɪn fækts əˈbaʊt ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "She first wrote an outline of her ideas.",
+        "meaning-example": "Đầu tiên cô ấy đã viết một dàn ý cho các ý tưởng của mình.",
+        "ipa-example": "/ʃiː fɜːst rəʊt ən ˈaʊt.laɪn əv hər aɪˈdɪəz./"
+      }
+    ]
+  },
+  {
+    "word": "contaminate",
+    "ipa": "/kənˈtæm.ɪ.neɪt/",
+    "meaning": "Làm bẩn, làm ô uế.",
+    "image": "eew-6-19/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "contaminate",
+        "meaning-example": "Làm bẩn, làm ô uế.",
+        "ipa-example": "/kənˈtæm.ɪ.neɪt/"
+      },
+      {
+        "sentence": "`Con tem mì nếp` đã bị rơi xuống đất và **làm bẩn** cả bát mì.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make something less pure or make it poisonous.",
+        "meaning-example": "Làm cho một cái gì đó kém tinh khiết hoặc làm cho nó độc hại.",
+        "ipa-example": "/tuː meɪk ˈsʌm.θɪŋ les pjʊər ɔːr meɪk ɪt ˈpɔɪ.zən.əs./"
+      },
+      {
+        "sentence": "The thesis was about how pollution can contaminate food.",
+        "meaning-example": "Luận văn nói về việc ô nhiễm có thể làm ô uế thực phẩm như thế nào.",
+        "ipa-example": "/ðə ˈθiː.sɪs wəz əˈbaʊt haʊ pəˈluː.ʃən kæn kənˈtæm.ɪ.neɪt fuːd./"
+      }
+    ]
+  },
+  {
+    "word": "deceive",
+    "ipa": "/dɪˈsiːv/",
+    "meaning": "Lừa dối, lừa gạt.",
+    "image": "eew-6-19/7.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "deceive",
+        "meaning-example": "Lừa dối, lừa gạt.",
+        "ipa-example": "/dɪˈsiːv/"
+      },
+      {
+        "sentence": "Hắn ta `đi dép` lê rách để **lừa dối** mọi người rằng mình nghèo khổ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To persuade someone that something false is the truth.",
+        "meaning-example": "Thuyết phục ai đó rằng một điều gì đó sai là sự thật.",
+        "ipa-example": "/tuː pəˈsweɪd ˈsʌm.wʌn ðæt ˈsʌm.θɪŋ fɔːls ɪz ðə truːθ./"
+      },
+      {
+        "sentence": "Her research showed that some companies try to deceive the public.",
+        "meaning-example": "Nghiên cứu của cô cho thấy một số công ty cố gắng lừa dối công chúng.",
+        "ipa-example": "/hɜːr rɪˈsɜːtʃ ʃəʊd ðæt səm ˈkʌm.pə.niz traɪ tuː dɪˈsiːv ðə ˈpʌb.lɪk./"
+      }
+    ]
+  },
+  {
+    "word": "manifest",
+    "ipa": "/ˈmæn.ɪ.fest/",
+    "meaning": "Biểu hiện, biểu lộ.",
+    "image": "eew-6-19/8.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "manifest",
+        "meaning-example": "Biểu hiện, biểu lộ.",
+        "ipa-example": "/ˈmæn.ɪ.fest/"
+      },
+      {
+        "sentence": "Tại `lễ hội ma ní` (Ma Ní Fest), các giá trị văn hóa được **biểu hiện** rõ rệt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To show something clearly, through signs or actions.",
+        "meaning-example": "Để thể hiện một cái gì đó rõ ràng, thông qua các dấu hiệu hoặc hành động.",
+        "ipa-example": "/tuː ʃəʊ ˈsʌm.θɪŋ ˈklɪə.li, θruː saɪnz ɔːr ˈæk.ʃənz./"
+      },
+      {
+        "sentence": "But after a long time, the problems would manifest in people's health.",
+        "meaning-example": "Nhưng sau một thời gian dài, các vấn đề sẽ biểu hiện ra ở sức khỏe của mọi người.",
+        "ipa-example": "/bət ˈɑːf.tər ə lɒŋ taɪm, ðə ˈprɒb.ləmz wʊd ˈmæn.ɪ.fest ɪn ˈpiː.pəlz helθ./"
+      }
+    ]
+  },
+  {
+    "word": "explicit",
+    "ipa": "/ɪkˈsplɪs.ɪt/",
+    "meaning": "Rõ ràng, dứt khoát.",
+    "image": "eew-6-19/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "explicit",
+        "meaning-example": "Rõ ràng, dứt khoát.",
+        "ipa-example": "/ɪkˈsplɪs.ɪt/"
+      },
+      {
+        "sentence": "Bài báo `ích lợi sít` sao vì chứa những thông tin rất **rõ ràng**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Clear and exact.",
+        "meaning-example": "Rõ ràng và chính xác.",
+        "ipa-example": "/klɪər ənd ɪɡˈzækt./"
+      },
+      {
+        "sentence": "They don't give explicit information about their products.",
+        "meaning-example": "Họ không cung cấp thông tin rõ ràng về sản phẩm của mình.",
+        "ipa-example": "/ðeɪ dəʊnt ɡɪv ɪkˈsplɪs.ɪt ˌɪn.fəˈmeɪ.ʃən əˈbaʊt ðeər ˈprɒd.ʌkts./"
+      }
+    ]
+  },
+  {
+    "word": "subtle",
+    "ipa": "/ˈsʌt.əl/",
+    "meaning": "Tinh tế, khó thấy.",
+    "image": "eew-6-19/10.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "subtle",
+        "meaning-example": "Tinh tế, khó thấy.",
+        "ipa-example": "/ˈsʌt.əl/"
+      },
+      {
+        "sentence": "Cô ấy là một `sát thủ` trong việc đưa ra những gợi ý **tinh tế, khó thấy**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Not loud, bright, noticeable, or obvious in any way.",
+        "meaning-example": "Không ồn ào, sáng sủa, đáng chú ý, hoặc rõ ràng theo bất kỳ cách nào.",
+        "ipa-example": "/nɒt laʊd, braɪt, ˈnəʊ.tɪ.sə.bəl, ɔːr ˈɒb.vi.əs ɪn ˈen.i weɪ./"
+      },
+      {
+        "sentence": "The negative effects of the pollution were often subtle.",
+        "meaning-example": "Những tác động tiêu cực của ô nhiễm thường khó thấy.",
+        "ipa-example": "/ðə ˈneɡ.ə.tɪv ɪˈfekts əv ðə pəˈluː.ʃən wər ˈɒf.ən ˈsʌt.əl./"
+      }
+    ]
+  },
+  {
+    "word": "metropolitan",
+    "ipa": "/ˌmet.rəˈpɒl.ɪ.tən/",
+    "meaning": "Thuộc về đô thị, thủ đô.",
+    "image": "eew-6-19/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "metropolitan",
+        "meaning-example": "Thuộc về đô thị, thủ đô.",
+        "ipa-example": "/ˌmet.rəˈpɒl.ɪ.tən/"
+      },
+      {
+        "sentence": "`Mẹ cho bồ ly rượu` ở một quán bar **thuộc về đô thị**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to a large city.",
+        "meaning-example": "Liên quan đến một thành phố lớn.",
+        "ipa-example": "/rɪˈleɪ.tɪŋ tuː ə lɑːdʒ ˈsɪt.i./"
+      },
+      {
+        "sentence": "An was an undergraduate student at a large metropolitan university.",
+        "meaning-example": "An là sinh viên đại học tại một trường đại học đô thị lớn.",
+        "ipa-example": "/ən wəz ən ˌʌn.dəˈɡrædʒ.u.ət ˈstjuː.dənt æt ə lɑːdʒ ˌmet.rəˈpɒl.ɪ.tən ˌjuː.nɪˈvɜː.sə.ti./"
+      }
+    ]
+  },
+  {
+    "word": "urban",
+    "ipa": "/ˈɜː.bən/",
+    "meaning": "Thuộc thành thị, đô thị.",
+    "image": "eew-6-19/12.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "urban",
+        "meaning-example": "Thuộc thành thị, đô thị.",
+        "ipa-example": "/ˈɜː.bən/"
+      },
+      {
+        "sentence": "`Ơ kìa, bần` tiện quá, sống ở **thành thị** mà keo kiệt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Of or in a city or town.",
+        "meaning-example": "Của hoặc trong một thành phố hoặc thị trấn.",
+        "ipa-example": "/əv ɔːr ɪn ə ˈsɪt.i ɔːr taʊn./"
+      },
+      {
+        "sentence": "She lived in a rural area far from the urban campus.",
+        "meaning-example": "Cô sống ở một vùng nông thôn xa khu học xá đô thị.",
+        "ipa-example": "/ʃiː lɪvd ɪn ə ˈrʊə.rəl ˈeə.ri.ə fɑːr frəm ði ˈɜː.bən ˈkæm.pəs./"
+      }
+    ]
+  },
+  {
+    "word": "rural",
+    "ipa": "/ˈrʊə.rəl/",
+    "meaning": "Thuộc nông thôn.",
+    "image": "eew-6-19/13.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "rural",
+        "meaning-example": "Thuộc nông thôn.",
+        "ipa-example": "/ˈrʊə.rəl/"
+      },
+      {
+        "sentence": "Về **nông thôn**, mẹ `ru rờ` đầu con ngủ thật yên bình.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "In, of, or like the countryside.",
+        "meaning-example": "Ở, của, hoặc giống như nông thôn.",
+        "ipa-example": "/ɪn, əv, ɔːr laɪk ðə ˈkʌn.tri.saɪd./"
+      },
+      {
+        "sentence": "She lived in a rural area.",
+        "meaning-example": "Cô sống ở một vùng nông thôn.",
+        "ipa-example": "/ʃiː lɪvd ɪn ə ˈrʊə.rəl ˈeə.ri.ə./"
+      }
+    ]
+  },
+  {
+    "word": "commute",
+    "ipa": "/kəˈmjuːt/",
+    "meaning": "Đi lại (giữa nhà và nơi làm việc).",
+    "image": "eew-6-19/14.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "commute",
+        "meaning-example": "Đi lại (giữa nhà và nơi làm việc).",
+        "ipa-example": "/kəˈmjuːt/"
+      },
+      {
+        "sentence": "Tôi `cảm thấy mút` kem ngon hơn khi **đi lại** trên xe buýt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make the same journey regularly between work and home.",
+        "meaning-example": "Thực hiện cùng một hành trình thường xuyên giữa nơi làm việc và nhà.",
+        "ipa-example": "/tuː meɪk ðə seɪm ˈdʒɜː.ni ˈreɡ.jə.lə.li bɪˈtwiːn wɜːk ənd həʊm./"
+      },
+      {
+        "sentence": "Every day, she had to commute a long way.",
+        "meaning-example": "Mỗi ngày, cô phải đi lại một quãng đường dài.",
+        "ipa-example": "/ˈev.ri deɪ, ʃiː həd tuː kəˈmjuːt ə lɒŋ weɪ./"
+      }
+    ]
+  },
+  {
+    "word": "pedestrian",
+    "ipa": "/pəˈdes.tri.ən/",
+    "meaning": "Người đi bộ.",
+    "image": "eew-6-19/15.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "pedestrian",
+        "meaning-example": "Người đi bộ.",
+        "ipa-example": "/pəˈdes.tri.ən/"
+      },
+      {
+        "sentence": "`Bé dest tri ân` chú cảnh sát giao thông đã giúp **người đi bộ** qua đường.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who is walking, especially in an area also used by cars.",
+        "meaning-example": "Một người đang đi bộ, đặc biệt là trong một khu vực cũng được ô tô sử dụng.",
+        "ipa-example": "/ə ˈpɜː.sən huː ɪz ˈwɔː.kɪŋ, ɪˈspeʃ.ə.li ɪn ən ˈeə.ri.ə ˈɔːl.səʊ juːzd baɪ kɑːz./"
+      },
+      {
+        "sentence": "When she got to the city, she became a pedestrian.",
+        "meaning-example": "Khi đến thành phố, cô trở thành một người đi bộ.",
+        "ipa-example": "/wen ʃiː ɡɒt tuː ðə ˈsɪt.i, ʃiː bɪˈkeɪm ə pəˈdes.tri.ən./"
+      }
+    ]
+  },
+  {
+    "word": "interstate",
+    "ipa": "/ˈɪn.tə.steɪt/",
+    "meaning": "Đường cao tốc liên bang, liên tiểu bang.",
+    "image": "eew-6-19/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "interstate",
+        "meaning-example": "Đường cao tốc liên bang, liên tiểu bang.",
+        "ipa-example": "/ˈɪn.tə.steɪt/"
+      },
+      {
+        "sentence": "Cô ấy `in tơ` và `tết` tóc trong lúc xe chạy trên **đường cao tốc liên bang**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A main road that connects states.",
+        "meaning-example": "Một con đường chính nối các tiểu bang.",
+        "ipa-example": "/ə meɪn rəʊd ðæt kəˈnekts steɪts./"
+      },
+      {
+        "sentence": "She usually took an interstate bus.",
+        "meaning-example": "Cô ấy thường đi xe buýt liên tiểu bang.",
+        "ipa-example": "/ʃiː ˈjuː.ʒu.ə.li tʊk ən ˈɪn.tə.steɪt bʌs./"
+      }
+    ]
+  },
+  {
+    "word": "pavement",
+    "ipa": "/ˈpeɪv.mənt/",
+    "meaning": "Vỉa hè, lề đường.",
+    "image": "eew-6-19/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "pavement",
+        "meaning-example": "Vỉa hè, lề đường.",
+        "ipa-example": "/ˈpeɪv.mənt/"
+      },
+      {
+        "sentence": "`Bảy mần` việc dọn dẹp **vỉa hè** cả ngày.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A path with a hard surface on one or both sides of a road, that people walk on.",
+        "meaning-example": "Một con đường có bề mặt cứng ở một hoặc cả hai bên đường, nơi mọi người đi bộ.",
+        "ipa-example": "/ə pɑːθ wɪð ə hɑːd ˈsɜː.fɪs ɒn wʌn ɔːr bəʊθ saɪdz əv ə rəʊd, ðæt ˈpiː.pəl wɔːk ɒn./"
+      },
+      {
+        "sentence": "She was walking on the crowded pavement.",
+        "meaning-example": "Cô ấy đang đi bộ trên vỉa hè đông đúc.",
+        "ipa-example": "/ʃiː wəz ˈwɔː.kɪŋ ɒn ðə ˈkraʊ.dɪd ˈpeɪv.mənt./"
+      }
+    ]
+  },
+  {
+    "word": "utensil",
+    "ipa": "/juːˈten.səl/",
+    "meaning": "Dụng cụ (nhà bếp).",
+    "image": "eew-6-19/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "utensil",
+        "meaning-example": "Dụng cụ (nhà bếp).",
+        "ipa-example": "/juːˈten.səl/"
+      },
+      {
+        "sentence": "`Du ten sồ` lên khi thấy bộ **dụng cụ** nhà bếp mới.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A tool with a particular use, especially in a kitchen.",
+        "meaning-example": "Một công cụ có công dụng đặc biệt, đặc biệt là trong nhà bếp.",
+        "ipa-example": "/ə tuːl wɪð ə pəˈtɪk.jə.lər juːs, ɪˈspeʃ.ə.li ɪn ə ˈkɪtʃ.ən./"
+      },
+      {
+        "sentence": "She put out each utensil and a clean napkin.",
+        "meaning-example": "Cô ấy đặt ra mỗi dụng cụ và một chiếc khăn ăn sạch.",
+        "ipa-example": "/ʃiː pʊt aʊt iːtʃ juːˈten.səl ənd ə kliːn ˈnæp.kɪn./"
+      }
+    ]
+  },
+  {
+    "word": "napkin",
+    "ipa": "/ˈnæp.kɪn/",
+    "meaning": "Khăn ăn.",
+    "image": "eew-6-19/19.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "napkin",
+        "meaning-example": "Khăn ăn.",
+        "ipa-example": "/ˈnæp.kɪn/"
+      },
+      {
+        "sentence": "Cái `nắp kìn` kìn được lau sạch bằng **khăn ăn**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A square piece of cloth or paper used for protecting your clothes and for cleaning your hands and lips during a meal.",
+        "meaning-example": "Một miếng vải hoặc giấy hình vuông dùng để bảo vệ quần áo và lau tay, miệng trong bữa ăn.",
+        "ipa-example": "/ə skweər piːs əv klɒθ ɔːr ˈpeɪ.pər juːzd fər prəˈtek.tɪŋ jɔːr kləʊðz ənd fər ˈkliː.nɪŋ jɔːr hændz ənd lɪps ˈdʒʊə.rɪŋ ə miːl./"
+      },
+      {
+        "sentence": "She put out each utensil and a clean napkin.",
+        "meaning-example": "Cô ấy đặt ra mỗi dụng cụ và một chiếc khăn ăn sạch.",
+        "ipa-example": "/ʃiː pʊt aʊt iːtʃ juːˈten.səl ənd ə kliːn ˈnæp.kɪn./"
+      }
+    ]
+  },
+  {
+    "word": "recipe",
+    "ipa": "/ˈres.ɪ.pi/",
+    "meaning": "Công thức (nấu ăn).",
+    "image": "eew-6-19/20.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "recipe",
+        "meaning-example": "Công thức (nấu ăn).",
+        "ipa-example": "/ˈres.ɪ.pi/"
+      },
+      {
+        "sentence": "`Re si` vào tai tôi **công thức** nấu ăn bí truyền đi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A set of instructions telling you how to prepare and cook food.",
+        "meaning-example": "Một bộ hướng dẫn cho bạn biết cách chế biến và nấu thức ăn.",
+        "ipa-example": "/ə set əv ɪnˈstrʌk.ʃənz ˈtel.ɪŋ juː haʊ tuː prɪˈpeər ənd kʊk fuːd./"
+      },
+      {
+        "sentence": "They followed a new recipe.",
+        "meaning-example": "Họ đã làm theo một công thức mới.",
+        "ipa-example": "/ðeɪ ˈfɒl.əʊd ə njuː ˈres.ɪ.pi./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "An's Thesis",
+        "meaning-example": "Luận văn của An",
+        "ipa-example": "/ænz ˈθiː.sɪs/"
+      },
+      {
+        "sentence": "An was an undergraduate student at a large metropolitan university.",
+        "meaning-example": "An là sinh viên đại học tại một trường đại học đô thị lớn.",
+        "ipa-example": "/ən wəz ən ˌʌn.dəˈɡrædʒ.u.ət ˈstjuː.dənt æt ə lɑːdʒ ˌmet.rəˈpɒl.ɪ.tən ˌjuː.nɪˈvɜː.sə.ti./"
+      },
+      {
+        "sentence": "However, she lived in a rural area far from the urban campus.",
+        "meaning-example": "Tuy nhiên, cô sống ở một vùng nông thôn xa khu học xá đô thị.",
+        "ipa-example": "/haʊˈev.ər, ʃiː lɪvd ɪn ə ˈrʊə.rəl ˈeə.ri.ə fɑːr frəm ði ˈɜː.bən ˈkæm.pəs./"
+      },
+      {
+        "sentence": "Every day, she had to commute a long way to get to her classes.",
+        "meaning-example": "Mỗi ngày, cô phải đi lại một quãng đường dài để đến lớp.",
+        "ipa-example": "/ˈev.ri deɪ, ʃiː həd tuː kəˈmjuːt ə lɒŋ weɪ tuː ɡet tuː hɜːr ˈklɑː.sɪz./"
+      },
+      {
+        "sentence": "She usually took an interstate bus.",
+        "meaning-example": "Cô ấy thường đi xe buýt liên tiểu bang.",
+        "ipa-example": "/ʃiː ˈjuː.ʒu.ə.li tʊk ən ˈɪn.tə.steɪt bʌs./"
+      },
+      {
+        "sentence": "When she got to the city, she became a pedestrian, walking on the crowded pavement to the university.",
+        "meaning-example": "Khi đến thành phố, cô trở thành một người đi bộ, đi trên vỉa hè đông đúc để đến trường đại học.",
+        "ipa-example": "/wen ʃiː ɡɒt tuː ðə ˈsɪt.i, ʃiː bɪˈkeɪm ə pəˈdes.tri.ən, ˈwɔː.kɪŋ ɒn ðə ˈkraʊ.dɪd ˈpeɪv.mənt tuː ðə ˌjuː.nɪˈvɜː.sə.ti./"
+      },
+      {
+        "sentence": "Her final thesis was for the science faculty.",
+        "meaning-example": "Luận văn cuối khóa của cô ấy là cho khoa khoa học.",
+        "ipa-example": "/hɜːr ˈfaɪ.nəl ˈθiː.sɪs wəz fər ðə ˈsaɪ.əns ˈfæk.əl.ti./"
+      },
+      {
+        "sentence": "She had a wonderful tutor who helped her.",
+        "meaning-example": "Cô ấy có một người gia sư tuyệt vời đã giúp đỡ cô ấy.",
+        "ipa-example": "/ʃiː həd ə ˈwʌn.də.fəl ˈtjuː.tər huː helpt hɜːr./"
+      },
+      {
+        "sentence": "The thesis was about how pollution can contaminate food.",
+        "meaning-example": "Luận văn nói về việc ô nhiễm có thể làm ô uế thực phẩm như thế nào.",
+        "ipa-example": "/ðə ˈθiː.sɪs wəz əˈbaʊt haʊ pəˈluː.ʃən kæn kənˈtæm.ɪ.neɪt fuːd./"
+      },
+      {
+        "sentence": "She first wrote an outline of her ideas.",
+        "meaning-example": "Đầu tiên cô ấy đã viết một dàn ý cho các ý tưởng của mình.",
+        "ipa-example": "/ʃiː fɜːst rəʊt ən ˈaʊt.laɪn əv hər aɪˈdɪəz./"
+      },
+      {
+        "sentence": "Her research showed that some companies try to deceive the public.",
+        "meaning-example": "Nghiên cứu của cô cho thấy một số công ty cố gắng lừa dối công chúng.",
+        "ipa-example": "/hɜːr rɪˈsɜːtʃ ʃəʊd ðæt səm ˈkʌm.pə.niz traɪ tuː dɪˈsiːv ðə ˈpʌb.lɪk./"
+      },
+      {
+        "sentence": "They don't give explicit information about their products.",
+        "meaning-example": "Họ không cung cấp thông tin rõ ràng về sản phẩm của mình.",
+        "ipa-example": "/ðeɪ dəʊnt ɡɪv ɪkˈsplɪs.ɪt ˌɪn.fəˈmeɪ.ʃən əˈbaʊt ðeər ˈprɒd.ʌkts./"
+      },
+      {
+        "sentence": "The negative effects of the pollution were often subtle and difficult to see at first.",
+        "meaning-example": "Những tác động tiêu cực của ô nhiễm thường khó thấy và khó nhận ra lúc đầu.",
+        "ipa-example": "/ðə ˈneɡ.ə.tɪv ɪˈfekts əv ðə pəˈluː.ʃən wər ˈɒf.ən ˈsʌt.əl ənd ˈdɪf.ɪ.kəlt tuː siː ət fɜːst./"
+      },
+      {
+        "sentence": "But after a long time, the problems would manifest in people's health.",
+        "meaning-example": "Nhưng sau một thời gian dài, các vấn đề sẽ biểu hiện ra ở sức khỏe của mọi người.",
+        "ipa-example": "/bət ˈɑːf.tər ə lɒŋ taɪm, ðə ˈprɒb.ləmz wʊd ˈmæn.ɪ.fest ɪn ˈpiː.pəlz helθ./"
+      },
+      {
+        "sentence": "One evening, An went home to help her mom cook.",
+        "meaning-example": "Một buổi tối, An về nhà giúp mẹ nấu ăn.",
+        "ipa-example": "/wʌn ˈiːv.nɪŋ, ən went həʊm tuː help hɜːr mɒm kʊk./"
+      },
+      {
+        "sentence": "They followed a new recipe.",
+        "meaning-example": "Họ đã làm theo một công thức mới.",
+        "ipa-example": "/ðeɪ ˈfɒl.əʊd ə njuː ˈres.ɪ.pi./"
+      },
+      {
+        "sentence": "An set the table.",
+        "meaning-example": "An dọn bàn ăn.",
+        "ipa-example": "/ən set ðə ˈteɪ.bəl./"
+      },
+      {
+        "sentence": "She put out each utensil and a clean napkin.",
+        "meaning-example": "Cô ấy đặt ra mỗi dụng cụ và một chiếc khăn ăn sạch.",
+        "ipa-example": "/ʃiː pʊt aʊt iːtʃ juːˈten.səl ənd ə kliːn ˈnæp.kɪn./"
+      },
+      {
+        "sentence": "She was tired, but she was happy to be working on something so important.",
+        "meaning-example": "Cô ấy mệt nhưng cô ấy vui vì được làm một việc quan trọng như vậy.",
+        "ipa-example": "/ʃiː wəz ˈtaɪəd, bət ʃiː wəz ˈhæp.i tuː biː ˈwɜː.kɪŋ ɒn ˈsʌm.θɪŋ səʊ ɪmˈpɔː.tənt./"
+      }
+    ]
+  }
+]
