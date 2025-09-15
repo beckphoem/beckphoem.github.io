@@ -249,75 +249,78 @@
             font-weight: normal;
             color: #555;
         }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            padding: 20px;
+body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #f4f7f6;
         }
-        .grammar-note {
+        h1, h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        .exercise-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .exercise-item {
             background-color: #ffffff;
             border: 1px solid #ddd;
+            padding: 15px 20px;
             border-radius: 8px;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
-        .grammar-header {
-            font-size: 20px;
-            font-weight: bold;
-            color: #ffffff;
-            background-color: #5cb85c;
-            padding: 10px 15px;
-            margin: -20px -20px 20px -20px;
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
+        .exercise-item p {
+            margin: 0 0 10px 0;
         }
-        .grammar-header span {
-            display: inline-block;
-            background-color: #4a934a;
-            padding: 5px 8px;
-            margin-right: 10px;
-            border-radius: 4px;
-        }
-        .content-wrapper {
-            display: flex;
-            gap: 30px;
-        }
-        .plural-list {
-            flex: 1;
-        }
-        .example-sentences {
-            flex: 2;
-            border-left: 1px solid #eee;
-            padding-left: 30px;
-        }
-        .example-sentences p {
-            margin: 0 0 12px 0;
-            font-size: 15px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            text-align: left;
+        input[type="text"] {
+            border: 1px solid #ccc;
             padding: 8px;
-            border-bottom: 1px solid #f0f0f0;
+            border-radius: 4px;
+            font-size: 1em;
         }
-        th {
+        .fill-in-blank-input {
+            width: 150px;
+            margin: 0 5px;
+        }
+        .rewrite-sentence-input {
+            width: 95%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
             font-weight: bold;
-            color: #0056b3;
         }
-        strong {
-            color: #d9534f;
+        .submit-btn:hover {
+            background-color: #218838;
         }
-        h3 {
-            margin-top: 30px;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-            color: #333;
+        .feedback {
+            font-size: 0.9em;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .correct {
+            color: #28a745;
+        }
+        .incorrect {
+            color: #dc3545;
+        }
+        .hint {
+            font-style: italic;
+            font-weight: normal;
+            color: #555;
         }
     </style>
 </head>
@@ -568,6 +571,8 @@
                     <tr><td>ox</td><td>oxen</td></tr>
                     <tr><td>crisis</td><td>crises</td></tr>
                     <tr><td>phenomenon</td><td>phenomena</td></tr>
+                    <tr><td>shelf</td><td>shelves</td></tr>
+
                     
                 </tbody>
             </table>
@@ -608,12 +613,14 @@
             <p>The farmer has one <strong>ox</strong>. In the past, farmers used two <strong>oxen</strong> to plow fields.</p>
             <p>The company faced a financial <strong>crisis</strong>. There were many <strong>crises</strong> last year.</p>
             <p>A rainbow is a natural <strong>phenomenon</strong>. We are studying weather <strong>phenomena</strong>.</p>
+            <p>There is a <strong>shelf</strong> in the bathroom. We need more <strong>shelves</strong> in the kitchen.</p>
             <hr style="border: 0; border-top: 1px solid #eee; margin: 15px 0;">
             <p>I caught one <strong>fish</strong>. We caught a lot of <strong>fish</strong> today.</p>
             <p>The farmer has a black <strong>sheep</strong>. All the <strong>sheep</strong> are in the field.</p>
             <p>A <strong>deer</strong> is in our garden. We saw three <strong>deer</strong> in the forest.</p>
             <p>I watched a TV <strong>series</strong>. I like watching crime <strong>series</strong>.</p>
             <p>This is a rare <strong>species</strong> of bird. Many <strong>species</strong> are endangered.</p>
+
         </div>
     </div>
 </div>
@@ -740,12 +747,13 @@
             </div>
         </section>
 
-    </main>
-
+        
         <div class="exercise-container">
 
         <!-- Section 1: A vs. An -->
         </div>
+    </main>
+
     <script>
         function checkAnswer(inputId, correctAnswer, feedbackId) {
             const userAnswer = document.getElementById(inputId).value.trim().toLowerCase();
@@ -912,189 +920,210 @@
              checkAnswer('revC4', 'Three people are in school.', 'feedback-revC4');
              checkAnswer('revC5', 'These are knives.', 'feedback-revC5');
         }
-        const exercises = [
-                // A vs An (25 questions)
-                { q: "She is __ teacher.", a: "a" },
-                { q: "I have __ orange.", a: "an" },
-                { q: "That is __ big house.", a: "a" },
-                { q: "He is eating __ apple.", a: "an" },
-                { q: "This is __ eraser.", a: "an" },
-                { q: "My father is __ engineer.", a: "an" },
-                { q: "It's __ beautiful day.", a: "a" },
-                { q: "I need __ new computer.", a: "a" },
-                { q: "She has __ interesting idea.", a: "an" },
-                { q: "That is __ old book.", a: "an" },
-                { q: "Is this __ university?", a: "a" },
-                { q: "We waited for __ hour.", a: "an" },
-                { q: "He is __ honest man.", a: "an" },
-                { q: "There is __ spoon on the table.", a: "a" },
-                { q: "I saw __ eagle in the sky.", a: "an" },
-                { q: "She bought __ umbrella.", a: "an" },
-                { q: "He is wearing __ uniform.", a: "a" },
-                { q: "This is __ oven.", a: "an" },
-                { q: "I need __ pen.", a: "a" },
-                { q: "Elena is __ student.", a: "a" },
-                { q: "That is __ fantastic movie.", a: "a" },
-                { q: "I have __ exam tomorrow.", a: "an" },
-                { q: "What __ amazing view!", a: "an" },
-                { q: "It's __ one-way street.", a: "a" },
-                { q: "He is __ European tourist.", a: "a" },
+         const exercises = [
+            // A vs An (25 questions)
+            { q: "She is __ teacher.", a: "a" },
+            { q: "I have __ orange.", a: "an" },
+            { q: "That is __ big house.", a: "a" },
+            { q: "He is eating __ apple.", a: "an" },
+            { q: "This is __ eraser.", a: "an" },
+            { q: "My father is __ engineer.", a: "an" },
+            { q: "It's __ beautiful day.", a: "a" },
+            { q: "I need __ new computer.", a: "a" },
+            { q: "She has __ interesting idea.", a: "an" },
+            { q: "That is __ old book.", a: "an" },
+            { q: "Is this __ university?", a: "a" },
+            { q: "We waited for __ hour.", a: "an" },
+            { q: "He is __ honest man.", a: "an" },
+            { q: "There is __ spoon on the table.", a: "a" },
+            { q: "I saw __ eagle in the sky.", a: "an" },
+            { q: "She bought __ umbrella.", a: "an" },
+            { q: "He is wearing __ uniform.", a: "a" },
+            { q: "This is __ oven.", a: "an" },
+            { q: "I need __ pen.", a: "a" },
+            { q: "Elena is __ student.", a: "a" },
+            { q: "That is __ fantastic movie.", a: "a" },
+            { q: "I have __ exam tomorrow.", a: "an" },
+            { q: "What __ amazing view!", a: "an" },
+            { q: "It's __ one-way street.", a: "a" },
+            { q: "He is __ European tourist.", a: "a" },
 
-                // Section 2: Singular to Plural (35 questions)
-                { type: 'header', title: 'Phần 2: Viết dạng số nhiều của danh từ' },
-                { q: "one book → two __", a: "books" },
-                { q: "one glass → three __", a: "glasses" },
-                { q: "one man → ten __", a: "men" },
-                { q: "one child → many __", a: "children" },
-                { q: "one knife → some __", a: "knives" },
-                { q: "one person → two __", a: "people" },
-                { q: "one teacher → five __", a: "teachers" },
-                { q: "one box → four __", a: "boxes" },
-                { q: "one watch → two __", a: "watches" },
-                { q: "one country → several __", a: "countries" },
-                { q: "one key → a lot of __", a: "keys" },
-                { q: "one potato → some __", a: "potatoes" },
-                { q: "one woman → six __", a: "women" },
-                { q: "one fork → many __", a: "forks" },
-                { q: "one class → two __", a: "classes" },
-                { q: "one student → thirty __", a: "students" },
-                { q: "one chair → fifteen __", a: "chairs" },
-                { q: "one desk → ten __", a: "desks" },
-                { q: "one bus → three __", a: "buses" },
-                { q: "one life → many __", a: "lives" },
-                { q: "one family → two __", a: "families" },
-                { q: "one foot → two __", a: "feet" },
-                { q: "one tooth → all my __", a: "teeth" },
-                { q: "one city → big __", a: "cities" },
-                { q: "one sandwich → four __", a: "sandwiches" },
-                { q: "one boy → a group of __", a: "boys" },
-                { q: "one tomato → red __", a: "tomatoes" },
-                { q: "one dish → clean the __", a: "dishes" },
-                { q: "one story → telling __", a: "stories" },
-                { q: "one baby → cute __", a: "babies" },
-                { q: "one party → weekend __", a: "parties" },
-                { q: "one wolf → a pack of __", a: "wolves" },
-                { q: "one leaf → falling __", a: "leaves" },
-                { q: "one mouse → three __", a: "mice" },
-                { q: "one shelf → two __", a: "shelves" },
+            // Section 2: Singular to Plural (35 questions)
+            { type: 'header', title: 'Phần 2: Viết dạng số nhiều của danh từ' },
+            { q: "one book → two __", a: "books" },
+            { q: "one glass → three __", a: "glasses" },
+            { q: "one man → ten __", a: "men" },
+            { q: "one child → many __", a: "children" },
+            { q: "one knife → some __", a: "knives" },
+            { q: "one person → two __", a: "people" },
+            { q: "one teacher → five __", a: "teachers" },
+            { q: "one box → four __", a: "boxes" },
+            { q: "one watch → two __", a: "watches" },
+            { q: "one country → several __", a: "countries" },
+            { q: "one key → a lot of __", a: "keys" },
+            { q: "one potato → some __", a: "potatoes" },
+            { q: "one woman → six __", a: "women" },
+            { q: "one fork → many __", a: "forks" },
+            { q: "one class → two __", a: "classes" },
+            { q: "one student → thirty __", a: "students" },
+            { q: "one chair → fifteen __", a: "chairs" },
+            { q: "one desk → ten __", a: "desks" },
+            { q: "one bus → three __", a: "buses" },
+            { q: "one life → many __", a: "lives" },
+            { q: "one family → two __", a: "families" },
+            { q: "one foot → two __", a: "feet" },
+            { q: "one tooth → all my __", a: "teeth" },
+            { q: "one city → big __", a: "cities" },
+            { q: "one sandwich → four __", a: "sandwiches" },
+            { q: "one boy → a group of __", a: "boys" },
+            { q: "one tomato → red __", a: "tomatoes" },
+            { q: "one dish → clean the __", a: "dishes" },
+            { q: "one story → telling __", a: "stories" },
+            { q: "one baby → cute __", a: "babies" },
+            { q: "one party → weekend __", a: "parties" },
+            { q: "one wolf → a pack of __", a: "wolves" },
+            { q: "one leaf → falling __", a: "leaves" },
+            { q: "one mouse → three __", a: "mice" },
+            { q: "one shelf → two __", a: "shelves" },
+            
+            // Section 3: Proper Nouns (15 questions)
+            { type: 'header', title: 'Phần 3: Viết lại câu với danh từ riêng được viết hoa đúng' },
+            { q: "my name is elena. __", a: "My name is Elena.", caseSensitive: true },
+            { q: "she is from brazil.", a: "She is from Brazil.", caseSensitive: true },
+            { q: "we live in new york.", a: "We live in New York.", caseSensitive: true },
+            { q: "his teacher is mr. brown.", a: "His teacher is Mr. Brown.", caseSensitive: true },
+            { q: "i speak english and spanish.", a: "I speak English and Spanish.", caseSensitive: true },
+            { q: "they are going to paris in july.", a: "They are going to Paris in July.", caseSensitive: true },
+            { q: "is judy from canada?", a: "Is Judy from Canada?", caseSensitive: true },
+            { q: "são paulo is a big city.", a: "São Paulo is a big city.", caseSensitive: true },
+            { q: "my birthday is on monday.", a: "My birthday is on Monday.", caseSensitive: true },
+            { q: "we visited the eiffel tower.", a: "We visited the Eiffel Tower.", caseSensitive: true },
+            { q: "my friend, maria, is from mexico.", a: "My friend, Maria, is from Mexico.", caseSensitive: true },
+            { q: "the amazon river is very long.", a: "The Amazon River is very long.", caseSensitive: true },
+            { q: "i have a dog named max.", a: "I have a dog named Max.", caseSensitive: true },
+            { q: "school starts in september.", a: "School starts in September.", caseSensitive: true },
+            { q: "he is reading a book by william shakespeare.", a: "He is reading a book by William Shakespeare.", caseSensitive:true },
+
+            // Section 4: Sentence Correction (25 questions)
+            { type: 'header', title: 'Phần 4: Sửa lỗi trong các câu sau' },
+            { q: "These are a books.", a: "These are books." },
+            { q: "This is an glasses.", a: "This is a glass." },
+            { q: "He have two childs.", a: "He has two children." },
+            { q: "She is a engineer.", a: "She is an engineer." },
+            { q: "They are from a Brazil.", a: "They are from Brazil." },
+            { q: "There are three person here.", a: "There are three people here." },
+            { q: "This is a oranges.", a: "This is an orange." },
+            { q: "Those are knifes.", a: "Those are knives." },
+            { q: "I see two mans.", a: "I see two men." },
+            { q: "It's a oven.", a: "It's an oven." },
+            { q: "These is my friends.", a: "These are my friends." },
+            { q: "This is an university.", a: "This is a university." },
+            { q: "My foots are cold.", a: "My feet are cold." },
+            { q: "She is from United States.", a: ["She is from the United States.", "She is from The United States."] },
+            { q: "What are this?", a: "What is this?" },
+            { q: "He needs a new shoes.", a: "He needs new shoes." },
+            { q: "I have a interesting books.", a: "I have an interesting book." },
+            { q: "Two womans are in the kitchen.", a: "Two women are in the kitchen." },
+            { q: "This is a eggs.", a: "This is an egg." },
+            { q: "A people are waiting.", a: "People are waiting." },
+            { q: "This is a apple.", a: "This is an apple." },
+            { q: "My teacher, Mister jones, is nice.", a: "My teacher, Mr. Jones, is nice.", caseSensitive: true },
+            { q: "These are my two sister.", a: "These are my two sisters." },
+            { q: "We have three class today.", a: "We have three classes today." },
+            { q: "He is a actor.", a: "He is an actor." },
+        ];
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.querySelector('.exercise-container');
+            let exerciseHTML = '';
+            let exerciseCounter = 0;
+
+            exercises.forEach((ex, index) => {
+                if (ex.type === 'header') {
+                    exerciseHTML += `<h2>${ex.title}</h2>`;
+                    return;
+                }
                 
-                // Section 3: Proper Nouns (15 questions)
-                { type: 'header', title: 'Phần 3: Viết lại câu với danh từ riêng được viết hoa đúng' },
-                { q: "my name is elena.", a: "My name is Elena.", caseSensitive: true },
-                { q: "she is from brazil.", a: "She is from Brazil.", caseSensitive: true },
-                { q: "we live in new york.", a: "We live in New York.", caseSensitive: true },
-                { q: "his teacher is mr. brown.", a: "His teacher is Mr. Brown.", caseSensitive: true },
-                { q: "i speak english and spanish.", a: "I speak English and Spanish.", caseSensitive: true },
-                { q: "they are going to paris in july.", a: "They are going to Paris in July.", caseSensitive: true },
-                { q: "is judy from canada?", a: "Is Judy from Canada?", caseSensitive: true },
-                { q: "são paulo is a big city.", a: "São Paulo is a big city.", caseSensitive: true },
-                { q: "my birthday is on monday.", a: "My birthday is on Monday.", caseSensitive: true },
-                { q: "we visited the eiffel tower.", a: "We visited the Eiffel Tower.", caseSensitive: true },
-                { q: "my friend, maria, is from mexico.", a: "My friend, Maria, is from Mexico.", caseSensitive: true },
-                { q: "the amazon river is very long.", a: "The Amazon River is very long.", caseSensitive: true },
-                { q: "i have a dog named max.", a: "I have a dog named Max.", caseSensitive: true },
-                { q: "school starts in september.", a: "School starts in September.", caseSensitive: true },
-                { q: "he is reading a book by william shakespeare.", a: "He is reading a book by William Shakespeare.", caseSensitive:true },
+                exerciseCounter++;
+                const questionNumber = exerciseCounter;
+                let questionContent = '';
 
-                // Section 4: Sentence Correction (25 questions)
-                { type: 'header', title: 'Phần 4: Sửa lỗi trong các câu sau' },
-                { q: "These are a books.", a: "These are books." },
-                { q: "This is an glasses.", a: "This is a glass." },
-                { q: "He have two childs.", a: "He has two children." },
-                { q: "She is a engineer.", a: "She is an engineer." },
-                { q: "They are from a Brazil.", a: "They are from Brazil." },
-                { q: "There are three person here.", a: "There are three people here." },
-                { q: "This is a oranges.", a: "This is an orange." },
-                { q: "Those are knifes.", a: "Those are knives." },
-                { q: "I see two mans.", a: "I see two men." },
-                { q: "It's a oven.", a: "It's an oven." },
-                { q: "These is my friends.", a: "These are my friends." },
-                { q: "This is an university.", a: "This is a university." },
-                { q: "My foots are cold.", a: "My feet are cold." },
-                { q: "She is from United States.", a: ["She is from the United States.", "She is from The United States."] },
-                { q: "What are this?", a: "What is this?" },
-                { q: "He needs a new shoes.", a: "He needs new shoes." },
-                { q: "I have a interesting books.", a: "I have an interesting book." },
-                { q: "Two womans are in the kitchen.", a: "Two women are in the kitchen." },
-                { q: "This is a eggs.", a: "This is an egg." },
-                { q: "A people are waiting.", a: "People are waiting." },
-                { q: "This is a apple.", a: "This is an apple." },
-                { q: "My teacher, Mister jones, is nice.", a: "My teacher, Mr. Jones, is nice.", caseSensitive: true },
-                { q: "These are my two sister.", a: "These are my two sisters." },
-                { q: "We have three class today.", a: "We have three classes today." },
-                { q: "He is a actor.", a: "He is an actor." },
-            ];
-
-            // This script will generate the HTML for the exercises
-            document.addEventListener('DOMContentLoaded', () => {
-                const container = document.querySelector('.exercise-container');
-                let exerciseHTML = '';
-                let currentHeader = '';
-
-                exercises.forEach((ex, index) => {
-                    const questionNumber = index + 1;
-                    if (ex.type === 'header') {
-                        if (currentHeader !== '') {
-                             // close previous section if exists
-                        }
-                        currentHeader = ex.title;
-                        exerciseHTML += `<h2>${ex.title}</h2>`;
-                        return; // Skip to next item in loop
-                    }
-
-                    exerciseHTML += `
-                        <div class="exercise-item">
-                            <p><strong>${questionNumber}.</strong> ${ex.q.replace('__', `<input type="text" id="q${questionNumber}" autocomplete="off">`)}</p>
-                            <button class="submit-btn" onclick="checkAnswer(${questionNumber})">Submit</button>
-                            <span class="feedback" id="feedback${questionNumber}"></span>
-                        </div>
+                // *** FIX IS HERE ***
+                // Check if the question is a "fill-in-the-blank" or a "rewrite" type.
+                if (ex.q.includes('__')) {
+                    // It's a fill-in-the-blank question. Replace __ with an input field.
+                    questionContent = `<p><strong>${questionNumber}.</strong> ${ex.q.replace('__', `<input type="text" id="q${questionNumber}" class="fill-in-blank-input" autocomplete="off">`)}</p>`;
+                } else {
+                    // It's a rewrite question. Show the question text and a separate, larger input field below it.
+                    questionContent = `
+                        <p><strong>${questionNumber}.</strong> ${ex.q}</p>
+                        <input type="text" id="q${questionNumber}" class="rewrite-sentence-input" autocomplete="off" placeholder="Viết lại câu đúng vào đây...">
                     `;
-                });
-                
-                container.innerHTML = exerciseHTML;
+                }
+
+                exerciseHTML += `
+                    <div class="exercise-item">
+                        ${questionContent}
+                        <button class="submit-btn" onclick="checkAnswer(${index})">Submit</button>
+                        <span class="feedback" id="feedback${index}"></span>
+                    </div>
+                `;
             });
             
-            function checkAnswer(questionNumber) {
-                const exercise = exercises[questionNumber - 1];
-                const inputId = `q${questionNumber}`;
-                const feedbackId = `feedback${questionNumber}`;
-                
-                const inputEl = document.getElementById(inputId);
-                const feedbackEl = document.getElementById(feedbackId);
-                
-                let userAnswer = inputEl.value.trim();
-                let correctAnswer = exercise.a;
-                let caseSensitive = exercise.caseSensitive || false;
-
-                let isCorrect = false;
-
-                // Handle multiple possible answers
-                const correctAnswersArray = Array.isArray(correctAnswer) ? correctAnswer : [correctAnswer];
-                
-                for (let correctAns of correctAnswersArray) {
-                    let comparisonUser = caseSensitive ? userAnswer : userAnswer.toLowerCase();
-                    let comparisonCorrect = caseSensitive ? correctAns : correctAns.toLowerCase();
-                    // Remove period at the end for more flexible checking
-                    if (comparisonUser.endsWith('.')) {
-                        comparisonUser = comparisonUser.slice(0, -1);
-                    }
-                     if (comparisonCorrect.endsWith('.')) {
-                        comparisonCorrect = comparisonCorrect.slice(0, -1);
-                    }
-                    if(comparisonUser === comparisonCorrect) {
-                        isCorrect = true;
-                        break;
-                    }
-                }
-                
-                if (isCorrect) {
-                    feedbackEl.textContent = 'Correct!';
-                    feedbackEl.className = 'feedback correct';
-                } else {
-                    feedbackEl.innerHTML = `Incorrect. <span class="hint">Hint: The correct answer is "${correctAnswersArray[0]}".</span>`;
-                    feedbackEl.className = 'feedback incorrect';
+            container.innerHTML = exerciseHTML;
+        });
+        
+        // The checkAnswer function now needs the original index to find the correct exercise data.
+        function checkAnswer(exerciseIndex) {
+            const exercise = exercises[exerciseIndex];
+            // We need to find the correct question number displayed on the page.
+            let questionNumber = 0;
+            for(let i = 0; i <= exerciseIndex; i++) {
+                if(exercises[i].type !== 'header') {
+                    questionNumber++;
                 }
             }
-    </script>
+
+            const inputId = `q${questionNumber}`;
+            const feedbackId = `feedback${exerciseIndex}`;
+            
+            const inputEl = document.getElementById(inputId);
+            const feedbackEl = document.getElementById(feedbackId);
+            
+            let userAnswer = inputEl.value.trim();
+            let correctAnswer = exercise.a;
+            let caseSensitive = exercise.caseSensitive || false;
+
+            let isCorrect = false;
+
+            const correctAnswersArray = Array.isArray(correctAnswer) ? correctAnswer : [correctAnswer];
+            
+            for (let correctAns of correctAnswersArray) {
+                let comparisonUser = caseSensitive ? userAnswer : userAnswer.toLowerCase();
+                let comparisonCorrect = caseSensitive ? correctAns : correctAns.toLowerCase();
+                
+                // For sentence answers, ignore the final period for more flexible checking.
+                if (comparisonUser.endsWith('.')) {
+                    comparisonUser = comparisonUser.slice(0, -1);
+                }
+                if (comparisonCorrect.endsWith('.')) {
+                    comparisonCorrect = comparisonCorrect.slice(0, -1);
+                }
+                
+                if(comparisonUser === comparisonCorrect) {
+                    isCorrect = true;
+                    break;
+                }
+            }
+            
+            if (isCorrect) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Incorrect. <span class="hint">Hint: The correct answer is "${correctAnswersArray[0]}".</span>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+        </script>
 </body>
 </html>
