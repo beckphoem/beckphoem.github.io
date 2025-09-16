@@ -1,0 +1,732 @@
+[
+  {
+    "word": "adhesive",
+    "ipa": "/ədˈhiː.sɪv/",
+    "meaning": "Chất kết dính, keo dán.",
+    "image": "eew-6-20/1.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "adhesive",
+        "meaning-example": "Chất kết dính, keo dán.",
+        "ipa-example": "/ədˈhiː.sɪv/"
+      },
+      {
+        "sentence": "`Ở đây ship` (adhesive) hàng dễ vỡ nên người ta phải dùng rất nhiều **chất kết dính** để dán thùng hàng cho chắc.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A substance used for sticking objects or materials together; glue.",
+        "meaning-example": "Một chất dùng để dán các vật thể hoặc vật liệu lại với nhau; keo dán.",
+        "ipa-example": "/ə ˈsʌb.stəns juːzd fɔːr ˈstɪk.ɪŋ ˈɒb.dʒekts ɔːr məˈtɪə.ri.əlz təˈɡeð.ər; ɡluː./"
+      },
+      {
+        "sentence": "He tried to dump some of the pollen, but it acted as an adhesive.",
+        "meaning-example": "Anh ấy đã cố gắng vứt bỏ một ít phấn hoa, nhưng nó lại hoạt động như một chất kết dính.",
+        "ipa-example": "/hiː traɪd tuː dʌmp sʌm əv ðə ˈpɒl.ən, bʌt ɪt ˈæk.tɪd æz ən ədˈhiː.sɪv./"
+      }
+    ]
+  },
+  {
+    "word": "adverse",
+    "ipa": "/ˈæd.vɜːs/",
+    "meaning": "Bất lợi, có hại.",
+    "image": "eew-6-20/2.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "adverse",
+        "meaning-example": "Bất lợi, có hại.",
+        "ipa-example": "/ˈæd.vɜːs/"
+      },
+      {
+        "sentence": "Quảng cáo (`ad`) `vớ vẩn` (verse) sẽ gây ra những tác động **bất lợi**, tiêu cực cho thương hiệu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Preventing success or development; harmful; unfavorable.",
+        "meaning-example": "Ngăn cản thành công hoặc sự phát triển; có hại; không thuận lợi.",
+        "ipa-example": "/prɪˈven.tɪŋ səkˈses ɔːr dɪˈvel.əp.mənt; ˈhɑːm.fəl; ʌnˈfeɪ.vər.ə.bəl./"
+      },
+      {
+        "sentence": "But when he was flying back home, he realized that all the pollen had an adverse effect.",
+        "meaning-example": "Nhưng khi bay về nhà, nó nhận ra rằng tất cả phấn hoa đã gây ra một tác dụng bất lợi.",
+        "ipa-example": "/bʌt wen hiː wəz ˈflaɪ.ɪŋ bæk həʊm, hiː ˈrɪə.laɪzd ðæt ɔːl ðə ˈpɒl.ən həd ən ˈæd.vɜːs ɪˈfekt./"
+      }
+    ]
+  },
+  {
+    "word": "dependency",
+    "ipa": "/dɪˈpen.dən.si/",
+    "meaning": "Sự phụ thuộc, sự lệ thuộc.",
+    "image": "eew-6-20/3.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "dependency",
+        "meaning-example": "Sự phụ thuộc, sự lệ thuộc.",
+        "ipa-example": "/dɪˈpen.dən.si/"
+      },
+      {
+        "sentence": "`Đi Ben đi City` (dependency) đều là những lựa chọn tốt, nhưng **sự phụ thuộc** vào xe hơi khiến môi trường ô nhiễm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A state of being dependent on a particular person or thing.",
+        "meaning-example": "Trạng thái phụ thuộc vào một người hoặc một vật cụ thể.",
+        "ipa-example": "/ə steɪt əv ˈbiː.ɪŋ dɪˈpen.dənt ɒn ə pəˈtɪk.jə.lər ˈpɜː.sən ɔːr θɪŋ./"
+      },
+      {
+        "sentence": "Bees had an important dependency on pollen.",
+        "meaning-example": "Ong có một sự phụ thuộc quan trọng vào phấn hoa.",
+        "ipa-example": "/biːz həd ən ɪmˈpɔː.tənt dɪˈpen.dən.si ɒn ˈpɒl.ən./"
+      }
+    ]
+  },
+  {
+    "word": "dump",
+    "ipa": "/dʌmp/",
+    "meaning": "Vứt bỏ, đổ đi.",
+    "image": "eew-6-20/4.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "dump",
+        "meaning-example": "Vứt bỏ, đổ đi.",
+        "ipa-example": "/dʌmp/"
+      },
+      {
+        "sentence": "Chiếc xe tải `đâm` (dump) vào gốc cây rồi **đổ**, **vứt bỏ** hết hàng hóa xuống đường.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To get rid of something unwanted, especially by leaving it in a place where it is not allowed to be.",
+        "meaning-example": "Để loại bỏ một thứ gì đó không mong muốn, đặc biệt là bằng cách để nó ở một nơi không được phép.",
+        "ipa-example": "/tuː ɡet rɪd əv ˈsʌm.θɪŋ ʌnˈwɒn.tɪd, ɪˈspeʃ.ə.li baɪ ˈliː.vɪŋ ɪt ɪn ə pleɪs weər ɪt ɪz nɒt əˈlaʊd tuː biː./"
+      },
+      {
+        "sentence": "He tried to dump some of the pollen, but it acted as an adhesive.",
+        "meaning-example": "Anh ấy đã cố gắng vứt bỏ một ít phấn hoa, nhưng nó lại hoạt động như một chất kết dính.",
+        "ipa-example": "/hiː traɪd tuː dʌmp sʌm əv ðə ˈpɒl.ən, bʌt ɪt ˈæk.tɪd æz ən ədˈhiː.sɪv./"
+      }
+    ]
+  },
+  {
+    "word": "eternal",
+    "ipa": "/ɪˈtɜː.nəl/",
+    "meaning": "Vĩnh cửu, bất diệt.",
+    "image": "eew-6-20/5.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "eternal",
+        "meaning-example": "Vĩnh cửu, bất diệt.",
+        "ipa-example": "/ɪˈtɜː.nəl/"
+      },
+      {
+        "sentence": "Tình yêu của họ không `ít tơ non` (eternal) nớt mà là một tình yêu **vĩnh cửu**, sâu đậm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Lasting or existing forever; without end or beginning.",
+        "meaning-example": "Kéo dài hoặc tồn tại mãi mãi; không có kết thúc hay bắt đầu.",
+        "ipa-example": "/ˈlɑː.stɪŋ ɔːr ɪɡˈzɪs.tɪŋ fəˈrev.ər; wɪˈðaʊt end ɔːr bɪˈɡɪn.ɪŋ./"
+      },
+      {
+        "sentence": "From the beginning of time, bees’ eternal task was to gather pollen and make honey with it.",
+        "meaning-example": "Từ thuở sơ khai, nhiệm vụ vĩnh cửu của loài ong là thu thập phấn hoa và làm mật ong.",
+        "ipa-example": "/frəm ðə bɪˈɡɪn.ɪŋ əv taɪm, biːz ɪˈtɜː.nəl tɑːsk wəz tuː ˈɡæð.ər ˈpɒl.ən ənd meɪk ˈhʌn.i wɪð ɪt./"
+      }
+    ]
+  },
+  {
+    "word": "fluctuate",
+    "ipa": "/ˈflʌk.tʃu.eɪt/",
+    "meaning": "Dao động, biến động.",
+    "image": "eew-6-20/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "fluctuate",
+        "meaning-example": "Dao động, biến động.",
+        "ipa-example": "/ˈflʌk.tʃu.eɪt/"
+      },
+      {
+        "sentence": "Cái `phích lắc chuối` (fluctuate) làm cho mực nước bên trong cứ **dao động** lên xuống.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To rise and fall irregularly in number or amount.",
+        "meaning-example": "Tăng và giảm không đều về số lượng hoặc số lượng.",
+        "ipa-example": "/tuː raɪz ənd fɔːl ɪˈreɡ.jə.lə.li ɪn ˈnʌm.bər ɔːr əˈmaʊnt./"
+      },
+      {
+        "sentence": "The intermittent wind fluctuated in power.",
+        "meaning-example": "Cơn gió gián đoạn dao động về sức mạnh.",
+        "ipa-example": "/ði ˌɪn.təˈmɪt.ənt wɪnd ˈflʌk.tʃu.eɪ.tɪd ɪn ˈpaʊ.ər./"
+      }
+    ]
+  },
+  {
+    "word": "fro",
+    "ipa": "/frəʊ/",
+    "meaning": "Qua lại, tới lui (thường đi với \"to and fro\").",
+    "image": "eew-6-20/7.png",
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "fro",
+        "meaning-example": "Qua lại, tới lui (thường đi với \"to and fro\").",
+        "ipa-example": "/frəʊ/"
+      },
+      {
+        "sentence": "Cô bé `phờ râu` (fro) vì phải chạy đi chạy lại, **qua lại** giữa hai đầu sân.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Backwards and forwards.",
+        "meaning-example": "Tới và lui.",
+        "ipa-example": "/ˈbæk.wədz ənd ˈfɔː.wədz./"
+      },
+      {
+        "sentence": "He was blown to and fro.",
+        "meaning-example": "Anh ấy bị thổi qua thổi lại.",
+        "ipa-example": "/hiː wəz bləʊn tuː ənd frəʊ./"
+      }
+    ]
+  },
+  {
+    "word": "inclusion",
+    "ipa": "/ɪnˈkluː.ʒən/",
+    "meaning": "Sự bao gồm, sự kể cả.",
+    "image": "eew-6-20/8.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "inclusion",
+        "meaning-example": "Sự bao gồm, sự kể cả.",
+        "ipa-example": "/ɪnˈkluː.ʒən/"
+      },
+      {
+        "sentence": "`In cả lu sành` (inclusion) vào bức tranh là một **sự bao gồm**, sự thêm vào rất táo bạo của người họa sĩ.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The action or state of including or of being included within a group or structure.",
+        "meaning-example": "Hành động hoặc trạng thái bao gồm hoặc được bao gồm trong một nhóm hoặc cấu trúc.",
+        "ipa-example": "/ði ˈæk.ʃən ɔːr steɪt əv ɪnˈkluː.dɪŋ ɔːr əv ˈbiː.ɪŋ ɪnˈkluː.dɪd wɪˈðɪn ə ɡruːp ɔːr ˈstrʌk.tʃər./"
+      },
+      {
+        "sentence": "Since he passed his exams, the little bee had earned his inclusion in the swarms that gathered pollen.",
+        "meaning-example": "Kể từ khi vượt qua kỳ thi, chú ong nhỏ đã được tham gia vào đàn ong đi lấy phấn hoa.",
+        "ipa-example": "/sɪns hiː pɑːst hɪz ɪɡˈzæmz, ðə ˈlɪt.əl biː həd ɜːnd hɪz ɪnˈkluː.ʒən ɪn ðə swɔːmz ðæt ˈɡæð.əd ˈpɒl.ən./"
+      }
+    ]
+  },
+  {
+    "word": "intermediate",
+    "ipa": "/ˌɪn.təˈmiː.di.ət/",
+    "meaning": "Trung cấp, ở giữa.",
+    "image": "eew-6-20/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "intermediate",
+        "meaning-example": "Trung cấp, ở giữa.",
+        "ipa-example": "/ˌɪn.təˈmiː.di.ət/"
+      },
+      {
+        "sentence": "`Trong tớ mì đi ết` (intermediate) là món ăn ưa thích ở trình độ **trung cấp** khi còn là sinh viên.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Being between two other related things, levels, or points.",
+        "meaning-example": "Nằm giữa hai sự vật, cấp độ hoặc điểm liên quan khác.",
+        "ipa-example": "/ˈbiː.ɪŋ bɪˈtwiːn tuː ˈʌð.ər rɪˈleɪ.tɪd θɪŋz, ˈlev.əlz, ɔːr pɔɪnts./"
+      },
+      {
+        "sentence": "A young bee had passed his intermediate level exams.",
+        "meaning-example": "Một chú ong non đã vượt qua kỳ thi trình độ trung cấp.",
+        "ipa-example": "/ə jʌŋ biː həd pɑːst hɪz ˌɪn.təˈmiː.di.ət ˈlev.əl ɪɡˈzæmz./"
+      }
+    ]
+  },
+  {
+    "word": "intermittent",
+    "ipa": "/ˌɪn.təˈmɪt.ənt/",
+    "meaning": "Gián đoạn, không liên tục.",
+    "image": "eew-6-20/10.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "intermittent",
+        "meaning-example": "Gián đoạn, không liên tục.",
+        "ipa-example": "/ˌɪn.təˈmɪt.ənt/"
+      },
+      {
+        "sentence": "`Trong tớ mít` (intermittent) mọc **không liên tục**, lúc có quả lúc không.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Occurring at irregular intervals; not continuous or steady.",
+        "meaning-example": "Xảy ra ở những khoảng thời gian không đều; không liên tục hoặc ổn định.",
+        "ipa-example": "/əˈkɜː.rɪŋ æt ɪˈreɡ.jə.lər ˈɪn.tə.vəlz; nɒt kənˈtɪn.ju.əs ɔːr ˈsted.i./"
+      },
+      {
+        "sentence": "The intermittent wind fluctuated in power.",
+        "meaning-example": "Cơn gió gián đoạn dao động về sức mạnh.",
+        "ipa-example": "/ði ˌɪn.təˈmɪt.ənt wɪnd ˈflʌk.tʃu.eɪ.tɪd ɪn ˈpaʊ.ər./"
+      }
+    ]
+  },
+  {
+    "word": "mentor",
+    "ipa": "/ˈmen.tɔːr/",
+    "meaning": "Người hướng dẫn, người cố vấn.",
+    "image": "eew-6-20/11.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "mentor",
+        "meaning-example": "Người hướng dẫn, người cố vấn.",
+        "ipa-example": "/ˈmen.tɔːr/"
+      },
+      {
+        "sentence": "Anh ấy là **người hướng dẫn** của tôi, `men` (man) `tốt` (tor) lắm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "An experienced and trusted adviser.",
+        "meaning-example": "Một cố vấn có kinh nghiệm và đáng tin cậy.",
+        "ipa-example": "/ən ɪkˈspɪə.ri.ənst ənd ˈtrʌs.tɪd ədˈvaɪ.zər./"
+      },
+      {
+        "sentence": "Just then, his mentor landed next to him and began cleaning the excess pollen off the little bee.",
+        "meaning-example": "Ngay lúc đó, người hướng dẫn của nó đã đáp xuống bên cạnh và bắt đầu lau sạch phấn hoa thừa trên người chú ong nhỏ.",
+        "ipa-example": "/dʒʌst ðen, hɪz ˈmen.tɔːr ˈlæn.dɪd nekst tuː hɪm ənd bɪˈɡæn ˈkliː.nɪŋ ði ɪkˈses ˈpɒl.ən ɒf ðə ˈlɪt.əl biː./"
+      }
+    ]
+  },
+  {
+    "word": "phoenix",
+    "ipa": "/ˈfiː.nɪks/",
+    "meaning": "Phượng hoàng.",
+    "image": "eew-6-20/12.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "phoenix",
+        "meaning-example": "Phượng hoàng.",
+        "ipa-example": "/ˈfiː.nɪks/"
+      },
+      {
+        "sentence": "Con **phượng hoàng** `phí ních` (phoenix) phụ vì nó có thể tái sinh từ tro tàn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "(in classical mythology) a unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.",
+        "meaning-example": "(trong thần thoại cổ điển) một loài chim độc nhất sống năm hoặc sáu thế kỷ ở sa mạc Ả Rập, sau thời gian này tự thiêu trên giàn thiêu và sống lại từ tro tàn với tuổi trẻ được đổi mới để sống qua một chu kỳ khác.",
+        "ipa-example": "/(ɪn ˈklæs.ɪ.kəl mɪˈθɒl.ə.dʒi) ə juːˈniːk bɜːd ðæt lɪvd fɔːr faɪv ɔːr sɪks ˈsen.tʃər.iz ɪn ði əˈreɪ.bi.ən ˈdez.ət, ˈɑːf.tər ðɪs taɪm ˈbɜːn.ɪŋ ɪtˈself ɒn ə ˈfjuː.nər.əl paɪər ənd ˈraɪ.zɪŋ frəm ði ˈæʃ.ɪz wɪð rɪˈnjuːd juːθ tuː lɪv θruː əˈnʌð.ər ˈsaɪ.kəl./"
+      },
+      {
+        "sentence": "...and like a phoenix, the young bee flew back into the air.",
+        "meaning-example": "...và như một con phượng hoàng, chú ong non đã bay trở lại không trung.",
+        "ipa-example": "/ənd laɪk ə ˈfiː.nɪks, ðə jʌŋ biː fluː bæk ˈɪn.tuː ði eər./"
+      }
+    ]
+  },
+  {
+    "word": "photosynthesis",
+    "ipa": "/ˌfəʊ.təʊˈsɪn.θə.sɪs/",
+    "meaning": "Sự quang hợp.",
+    "image": "eew-6-20/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "photosynthesis",
+        "meaning-example": "Sự quang hợp.",
+        "ipa-example": "/ˌfəʊ.təʊˈsɪn.θə.sɪs/"
+      },
+      {
+        "sentence": "`Phơi tô xin tí thịt` (photosynthesis) để có năng lượng, giống như cây cần **sự quang hợp** để tạo ra năng lượng.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigment.",
+        "meaning-example": "Quá trình mà thực vật xanh và một số sinh vật khác sử dụng ánh sáng mặt trời để tổng hợp thức ăn với sự trợ giúp của sắc tố diệp lục.",
+        "ipa-example": "/ðə ˈprəʊ.ses baɪ wɪtʃ ɡriːn plɑːnts ənd sʌm ˈʌð.ər ˈɔː.ɡən.ɪ.zəmz juːz ˈsʌn.laɪt tuː ˈsɪn.θə.saɪz fuːdz wɪð ðə help əv ˈklɒr.ə.fɪl ˈpɪɡ.mənt./"
+      },
+      {
+        "sentence": "He understood how they used photosynthesis to make oxygen...",
+        "meaning-example": "Nó hiểu cách chúng sử dụng quang hợp để tạo ra oxy...",
+        "ipa-example": "/hiː ˌʌn.dəˈstʊd haʊ ðeɪ juːzd ˌfəʊ.təʊˈsɪn.θə.sɪs tuː meɪk ˈɒk.sɪ.dʒən.../"
+      }
+    ]
+  },
+  {
+    "word": "pollen",
+    "ipa": "/ˈpɒl.ən/",
+    "meaning": "Phấn hoa.",
+    "image": "eew-6-20/14.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "pollen",
+        "meaning-example": "Phấn hoa.",
+        "ipa-example": "/ˈpɒl.ən/"
+      },
+      {
+        "sentence": "`Bỏ lên` (pollen) đĩa một ít **phấn hoa** để trang trí món ăn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A fine powdery substance, typically yellow, consisting of microscopic grains discharged from the male part of a flower or from a male cone.",
+        "meaning-example": "Một chất bột mịn, thường có màu vàng, bao gồm các hạt nhỏ li ti được thải ra từ phần đực của hoa hoặc từ nón đực.",
+        "ipa-example": "/ə faɪn ˈpaʊ.dər.i ˈsʌb.stəns, ˈtɪp.ɪ.kə.li ˈjel.əʊ, kənˈsɪs.tɪŋ əv ˌmaɪ.krəˈskɒp.ɪk ɡreɪnz dɪsˈtʃɑːdʒd frəm ðə meɪl pɑːt əv ə ˈflaʊ.ər ɔːr frəm ə meɪl kəʊn./"
+      },
+      {
+        "sentence": "...and which ones produced the best pollen.",
+        "meaning-example": "...và loại nào tạo ra phấn hoa tốt nhất.",
+        "ipa-example": "/ənd wɪtʃ wʌnz prəˈdjuːst ðə best ˈpɒl.ən./"
+      }
+    ]
+  },
+  {
+    "word": "regain",
+    "ipa": "/rɪˈɡeɪn/",
+    "meaning": "Lấy lại, giành lại.",
+    "image": "eew-6-20/15.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "regain",
+        "meaning-example": "Lấy lại, giành lại.",
+        "ipa-example": "/rɪˈɡeɪn/"
+      },
+      {
+        "sentence": "Anh ấy `đi ghen` (regain) với tình địch, nhưng sau đó đã **lấy lại** được bình tĩnh và niềm tin.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To get back something that you no longer have.",
+        "meaning-example": "Để lấy lại thứ gì đó mà bạn không còn có nữa.",
+        "ipa-example": "/tuː ɡet bæk ˈsʌm.θɪŋ ðæt juː nəʊ ˈlɒŋ.ɡər hæv./"
+      },
+      {
+        "sentence": "...the bee easily regained his strength...",
+        "meaning-example": "...con ong dễ dàng lấy lại sức lực...",
+        "ipa-example": "/ðə biː ˈiː.zə.li rɪˈɡeɪnd hɪz streŋθ.../"
+      }
+    ]
+  },
+  {
+    "word": "reverse",
+    "ipa": "/rɪˈvɜːs/",
+    "meaning": "Đảo ngược, đảo chiều.",
+    "image": "eew-6-20/16.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "reverse",
+        "meaning-example": "Đảo ngược, đảo chiều.",
+        "ipa-example": "/rɪˈvɜːs/"
+      },
+      {
+        "sentence": "Bác tài xế `đi vớt` (reverse) chiếc xe bị rơi xuống sông bằng cách **đảo ngược** hướng cần cẩu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To change the direction, order, position, result, etc. of something to its opposite.",
+        "meaning-example": "Để thay đổi hướng, thứ tự, vị trí, kết quả, v.v. của một cái gì đó sang hướng ngược lại.",
+        "ipa-example": "/tuː tʃeɪndʒ ðə dɪˈrek.ʃən, ˈɔː.dər, pəˈzɪʃ.ən, rɪˈzʌlt, etˈset.ər.ə əv ˈsʌm.θɪŋ tuː ɪts ˈɒp.ə.zɪt./"
+      },
+      {
+        "sentence": "...the next minute the wind had reversed his course.",
+        "meaning-example": "...phút tiếp theo, cơn gió đã đảo ngược hướng đi của nó.",
+        "ipa-example": "/ðə nekst ˈmɪn.ɪt ðə wɪnd həd rɪˈvɜːst hɪz kɔːs./"
+      }
+    ]
+  },
+  {
+    "word": "swarm",
+    "ipa": "/swɔːm/",
+    "meaning": "Đàn, bầy (côn trùng).",
+    "image": "eew-6-20/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "swarm",
+        "meaning-example": "Đàn, bầy (côn trùng).",
+        "ipa-example": "/swɔːm/"
+      },
+      {
+        "sentence": "`Sợ quá` (swarm) khi thấy một **đàn** ong bay về phía mình.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A large or dense group of insects, especially flying ones.",
+        "meaning-example": "Một nhóm lớn hoặc dày đặc côn trùng, đặc biệt là những loài biết bay.",
+        "ipa-example": "/ə lɑːdʒ ɔːr dens ɡruːp əv ˈɪn.sekts, ɪˈspeʃ.ə.li ˈflaɪ.ɪŋ wʌnz./"
+      },
+      {
+        "sentence": "He left with the next swarm and was determined to find the perfect flower.",
+        "meaning-example": "Nó rời đi cùng đàn ong tiếp theo và quyết tâm tìm được bông hoa hoàn hảo.",
+        "ipa-example": "/hiː left wɪð ðə nekst swɔːm ənd wəz dɪˈtɜː.mɪnd tuː faɪnd ðə ˈpɜː.fekt ˈflaʊ.ər./"
+      }
+    ]
+  },
+  {
+    "word": "texture",
+    "ipa": "/ˈteks.tʃər/",
+    "meaning": "Kết cấu, bề mặt.",
+    "image": "eew-6-20/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "texture",
+        "meaning-example": "Kết cấu, bề mặt.",
+        "ipa-example": "/ˈteks.tʃər/"
+      },
+      {
+        "sentence": "`Té-sờ` (texture) vào bề mặt vải để cảm nhận **kết cấu** và độ mịn của nó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The feel, appearance, or consistency of a surface or a substance.",
+        "meaning-example": "Cảm giác, hình thức hoặc sự nhất quán của một bề mặt hoặc một chất.",
+        "ipa-example": "/ðə fiːl, əˈpɪə.rəns, ɔːr kənˈsɪs.tən.si əv ə ˈsɜː.fɪs ɔːr ə ˈsʌb.stəns./"
+      },
+      {
+        "sentence": "The fine texture of the pollen tickled when it stuck to his body.",
+        "meaning-example": "Kết cấu mịn màng của phấn hoa gây nhột khi dính vào cơ thể nó.",
+        "ipa-example": "/ðə faɪn ˈteks.tʃər əv ðə ˈpɒl.ən ˈtɪk.əld wen ɪt stʌk tuː hɪz ˈbɒd.i./"
+      }
+    ]
+  },
+  {
+    "word": "tickle",
+    "ipa": "/ˈtɪk.əl/",
+    "meaning": "Làm nhột, cù lét.",
+    "image": "eew-6-20/19.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "tickle",
+        "meaning-example": "Làm nhột, cù lét.",
+        "ipa-example": "/ˈtɪk.əl/"
+      },
+      {
+        "sentence": "Cái lông gà `tí tẹo` (tickle) mà **làm nhột** tôi quá.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To lightly touch or stroke a part of a person's body in a way that causes mild discomfort or itching and often laughter.",
+        "meaning-example": "Chạm nhẹ hoặc vuốt ve một bộ phận cơ thể của một người theo cách gây khó chịu nhẹ hoặc ngứa và thường gây ra tiếng cười.",
+        "ipa-example": "/tuː ˈlaɪt.li tʌtʃ ɔːr strəʊk ə pɑːt əv ə ˈpɜː.sənz ˈbɒd.i ɪn ə weɪ ðæt ˈkɔː.zɪz maɪld dɪsˈkʌm.fət ɔːr ˈɪtʃ.ɪŋ ənd ˈɒf.ən ˈlɑːf.tər./"
+      },
+      {
+        "sentence": "The fine texture of the pollen tickled when it stuck to his body.",
+        "meaning-example": "Kết cấu mịn màng của phấn hoa gây nhột khi dính vào cơ thể nó.",
+        "ipa-example": "/ðə faɪn ˈteks.tʃər əv ðə ˈpɒl.ən ˈtɪk.əld wen ɪt stʌk tuː hɪz ˈbɒd.i./"
+      }
+    ]
+  },
+  {
+    "word": "vibrant",
+    "ipa": "/ˈvaɪ.brənt/",
+    "meaning": "Rực rỡ, đầy sức sống.",
+    "image": "eew-6-20/20.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "vibrant",
+        "meaning-example": "Rực rỡ, đầy sức sống.",
+        "ipa-example": "/ˈvaɪ.brənt/"
+      },
+      {
+        "sentence": "`Vai bự rận` (vibrant) nhưng anh ấy vẫn mặc chiếc áo màu sắc **rực rỡ**, đầy sức sống.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Full of energy and enthusiasm.",
+        "meaning-example": "Tràn đầy năng lượng và nhiệt huyết.",
+        "ipa-example": "/fʊl əv ˈen.ə.dʒi ənd ɪnˈθjuː.zi.æz.əm./"
+      },
+      {
+        "sentence": "Soon he saw a large, vibrant flower full of pollen.",
+        "meaning-example": "Chẳng bao lâu, nó đã nhìn thấy một bông hoa lớn, rực rỡ đầy phấn hoa.",
+        "ipa-example": "/suːn hiː sɔː ə lɑːdʒ, ˈvaɪ.brənt ˈflaʊ.ər fʊl əv ˈpɒl.ən./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Greedy Bee",
+        "meaning-example": "Con Ong Tham Lam",
+        "ipa-example": "/ðə ˈɡriː.di biː/"
+      },
+      {
+        "sentence": "A young bee had passed his intermediate level exams.",
+        "meaning-example": "Một chú ong non đã vượt qua kỳ thi trình độ trung cấp.",
+        "ipa-example": "/ə jʌŋ biː həd pɑːst hɪz ˌɪn.təˈmiː.di.ət ˈlev.əl ɪɡˈzæmz./"
+      },
+      {
+        "sentence": "He now knew everything about flowers.",
+        "meaning-example": "Bây giờ nó đã biết mọi thứ về hoa.",
+        "ipa-example": "/hiː naʊ njuː ˈev.ri.θɪŋ əˈbaʊt ˈflaʊ.əz./"
+      },
+      {
+        "sentence": "He understood how they used photosynthesis to make oxygen and which ones produced the best pollen.",
+        "meaning-example": "Nó hiểu cách chúng sử dụng quang hợp để tạo ra oxy và loại nào tạo ra phấn hoa tốt nhất.",
+        "ipa-example": "/hiː ˌʌn.dəˈstʊd haʊ ðeɪ juːzd ˌfəʊ.təʊˈsɪn.θə.sɪs tuː meɪk ˈɒk.sɪ.dʒən ənd wɪtʃ wʌnz prəˈdjuːst ðə best ˈpɒl.ən./"
+      },
+      {
+        "sentence": "Bees had an important dependency on pollen.",
+        "meaning-example": "Ong có một sự phụ thuộc quan trọng vào phấn hoa.",
+        "ipa-example": "/biːz həd ən ɪmˈpɔː.tənt dɪˈpen.dən.si ɒn ˈpɒl.ən./"
+      },
+      {
+        "sentence": "From the beginning of time, bees’ eternal task was to gather pollen and make honey with it.",
+        "meaning-example": "Từ thuở sơ khai, nhiệm vụ vĩnh cửu của loài ong là thu thập phấn hoa và làm mật ong.",
+        "ipa-example": "/frəm ðə bɪˈɡɪn.ɪŋ əv taɪm, biːz ɪˈtɜː.nəl tɑːsk wəz tuː ˈɡæð.ər ˈpɒl.ən ənd meɪk ˈhʌn.i wɪð ɪt./"
+      },
+      {
+        "sentence": "Since he passed his exams, the little bee had earned his inclusion in the swarms that gathered pollen.",
+        "meaning-example": "Kể từ khi vượt qua kỳ thi, chú ong nhỏ đã được tham gia vào đàn ong đi lấy phấn hoa.",
+        "ipa-example": "/sɪns hiː pɑːst hɪz ɪɡˈzæmz, ðə ˈlɪt.əl biː həd ɜːnd hɪz ɪnˈkluː.ʒən ɪn ðə swɔːmz ðæt ˈɡæð.əd ˈpɒl.ən./"
+      },
+      {
+        "sentence": "He was excited because he was finally allowed to leave the hive.",
+        "meaning-example": "Nó rất phấn khích vì cuối cùng cũng được phép rời khỏi tổ.",
+        "ipa-example": "/hiː wəz ɪkˈsaɪ.tɪd bɪˈkɒz hiː wəz ˈfaɪ.nə.li əˈlaʊd tuː liːv ðə haɪv./"
+      },
+      {
+        "sentence": "He left with the next swarm and was determined to find the perfect flower.",
+        "meaning-example": "Nó rời đi cùng đàn ong tiếp theo và quyết tâm tìm được bông hoa hoàn hảo.",
+        "ipa-example": "/hiː left wɪð ðə nekst swɔːm ənd wəz dɪˈtɜː.mɪnd tuː faɪnd ðə ˈpɜː.fekt ˈflaʊ.ər./"
+      },
+      {
+        "sentence": "Soon he saw a large, vibrant flower full of pollen.",
+        "meaning-example": "Chẳng bao lâu, nó đã nhìn thấy một bông hoa lớn, rực rỡ đầy phấn hoa.",
+        "ipa-example": "/suːn hiː sɔː ə lɑːdʒ, ˈvaɪ.brənt ˈflaʊ.ər fʊl əv ˈpɒl.ən./"
+      },
+      {
+        "sentence": "He landed on a petal and walked toward the pollen at the flower’s center.",
+        "meaning-example": "Nó đáp xuống một cánh hoa và đi về phía phấn hoa ở trung tâm bông hoa.",
+        "ipa-example": "/hiː ˈlæn.dɪd ɒn ə ˈpet.əl ənd wɔːkt təˈwɔːd ðə ˈpɒl.ən æt ðə ˈflaʊ.əz ˈsen.tər./"
+      },
+      {
+        "sentence": "Immediately, he began rolling in the pollen, gathering it on his legs and wings.",
+        "meaning-example": "Ngay lập tức, nó bắt đầu lăn lộn trong phấn hoa, thu thập nó trên chân và cánh.",
+        "ipa-example": "/ɪˈmiː.di.ət.li, hiː bɪˈɡæn ˈrəʊ.lɪŋ ɪn ðə ˈpɒl.ən, ˈɡæð.ər.ɪŋ ɪt ɒn hɪz leɡz ənd wɪŋz./"
+      },
+      {
+        "sentence": "The fine texture of the pollen tickled when it stuck to his body.",
+        "meaning-example": "Kết cấu mịn màng của phấn hoa gây nhột khi dính vào cơ thể nó.",
+        "ipa-example": "/ðə faɪn ˈteks.tʃər əv ðə ˈpɒl.ən ˈtɪk.əld wen ɪt stʌk tuː hɪz ˈbɒd.i./"
+      },
+      {
+        "sentence": "It was the best experience the little bee had ever had.",
+        "meaning-example": "Đó là trải nghiệm tuyệt vời nhất mà chú ong nhỏ từng có.",
+        "ipa-example": "/ɪt wəz ðə best ɪkˈspɪə.ri.əns ðə ˈlɪt.əl biː həd ˈev.ər hæd./"
+      },
+      {
+        "sentence": "He gathered as much as he could.",
+        "meaning-example": "Nó thu thập nhiều nhất có thể.",
+        "ipa-example": "/hiː ˈɡæð.əd æz mʌtʃ æz hiː kʊd./"
+      },
+      {
+        "sentence": "But when he was flying back home, he realized that all the pollen had an adverse effect.",
+        "meaning-example": "Nhưng khi bay về nhà, nó nhận ra rằng tất cả phấn hoa đã gây ra một tác dụng bất lợi.",
+        "ipa-example": "/bʌt wen hiː wəz ˈflaɪ.ɪŋ bæk həʊm, hiː ˈrɪə.laɪzd ðæt ɔːl ðə ˈpɒl.ən həd ən ˈæd.vɜːs ɪˈfekt./"
+      },
+      {
+        "sentence": "He had no control over his flight.",
+        "meaning-example": "Nó không thể kiểm soát được chuyến bay của mình.",
+        "ipa-example": "/hiː həd nəʊ kənˈtrəʊl ˈəʊ.vər hɪz flaɪt./"
+      },
+      {
+        "sentence": "The intermittent wind fluctuated in power.",
+        "meaning-example": "Cơn gió gián đoạn dao động về sức mạnh.",
+        "ipa-example": "/ði ˌɪn.təˈmɪt.ənt wɪnd ˈflʌk.tʃu.eɪ.tɪd ɪn ˈpaʊ.ər./"
+      },
+      {
+        "sentence": "He was blown to and fro.",
+        "meaning-example": "Nó bị thổi qua thổi lại.",
+        "ipa-example": "/hiː wəz bləʊn tuː ənd frəʊ./"
+      },
+      {
+        "sentence": "One minute he was flying straight, and the next minute the wind had reversed his course.",
+        "meaning-example": "Một phút nó đang bay thẳng, và phút tiếp theo cơn gió đã đảo ngược hướng đi của nó.",
+        "ipa-example": "/wʌn ˈmɪn.ɪt hiː wəz ˈflaɪ.ɪŋ streɪt, ənd ðə nekst ˈmɪn.ɪt ðə wɪnd həd rɪˈvɜːst hɪz kɔːs./"
+      },
+      {
+        "sentence": "He tried to dump some of the pollen, but it acted as an adhesive.",
+        "meaning-example": "Nó đã cố gắng vứt bỏ một ít phấn hoa, nhưng nó lại hoạt động như một chất kết dính.",
+        "ipa-example": "/hiː traɪd tuː dʌmp sʌm əv ðə ˈpɒl.ən, bʌt ɪt ˈæk.tɪd æz ən ədˈhiː.sɪv./"
+      },
+      {
+        "sentence": "He couldn’t get it off.",
+        "meaning-example": "Nó không thể gỡ nó ra được.",
+        "ipa-example": "/hiː ˈkʊd.ənt ɡet ɪt ɒf./"
+      },
+      {
+        "sentence": "He became tired and fell to the ground.",
+        "meaning-example": "Nó trở nên mệt mỏi và rơi xuống đất.",
+        "ipa-example": "/hiː bɪˈkeɪm ˈtaɪəd ənd fel tuː ðə ɡraʊnd./"
+      },
+      {
+        "sentence": "“What am I going to do now?” he thought.",
+        "meaning-example": "“Bây giờ mình sẽ làm gì đây?” nó nghĩ.",
+        "ipa-example": "/ˈwɒt əm aɪ ˈɡəʊ.ɪŋ tuː duː naʊ? hiː θɔːt./"
+      },
+      {
+        "sentence": "Just then, his mentor landed next to him and began cleaning the excess pollen off the little bee.",
+        "meaning-example": "Ngay lúc đó, người hướng dẫn của nó đã đáp xuống bên cạnh và bắt đầu lau sạch phấn hoa thừa trên người chú ong nhỏ.",
+        "ipa-example": "/dʒʌst ðen, hɪz ˈmen.tɔːr ˈlæn.dɪd nekst tuː hɪm ənd bɪˈɡæn ˈkliː.nɪŋ ði ɪkˈses ˈpɒl.ən ɒf ðə ˈlɪt.əl biː./"
+      },
+      {
+        "sentence": "“You shouldn’t have taken so much,” his mentor said.",
+        "meaning-example": "“Con không nên lấy nhiều như vậy,” người hướng dẫn của nó nói.",
+        "ipa-example": "/juː ˈʃʊd.ənt həv ˈteɪ.kən səʊ mʌtʃ, hɪz ˈmen.tɔːr sed./"
+      },
+      {
+        "sentence": "Finally, with the pollen off of him, the bee easily regained his strength, and like a phoenix, the young bee flew back into the air.",
+        "meaning-example": "Cuối cùng, khi phấn hoa được lau sạch, chú ong dễ dàng lấy lại sức lực, và như một con phượng hoàng, chú ong non bay trở lại không trung.",
+        "ipa-example": "/ˈfaɪ.nə.li, wɪð ðə ˈpɒl.ən ɒf əv hɪm, ðə biː ˈiː.zə.li rɪˈɡeɪnd hɪz streŋθ, ənd laɪk ə ˈfiː.nɪks, ðə jʌŋ biː fluː bæk ˈɪn.tuː ði eər./"
+      },
+      {
+        "sentence": "When he returned to the hive, he turned to his mentor and said, “ I learned an important lesson today.",
+        "meaning-example": "Khi trở về tổ, nó quay sang người hướng dẫn và nói: “Hôm nay con đã học được một bài học quan trọng.",
+        "ipa-example": "/wen hiː rɪˈtɜːnd tuː ðə haɪv, hiː tɜːnd tuː hɪz ˈmen.tɔːr ənd sed, aɪ lɜːnd ən ɪmˈpɔː.tənt ˈles.ən təˈdeɪ./"
+      },
+      {
+        "sentence": "I will never be greedy again.”",
+        "meaning-example": "Con sẽ không bao giờ tham lam nữa.”",
+        "ipa-example": "/aɪ wɪl ˈnev.ər biː ˈɡriː.di əˈɡen./"
+      }
+    ]
+  }
+]

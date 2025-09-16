@@ -1,0 +1,182 @@
+[
+	{
+	  "question": "adhesive",
+	  "classes": "n",
+	  "answer": "Chất kết dính, keo dán.",
+	  "ipa": "/ədˈhiː.sɪv/",
+	  "example": "`Ở đây ship` (adhesive) hàng dễ vỡ nên người ta phải dùng rất nhiều **chất kết dính** để dán thùng hàng cho chắc.",
+	  "english-definition": "A substance used for sticking objects or materials together; glue.",
+	  "images": "eew-6-20/1.png"
+	},
+	{
+	  "question": "adverse",
+	  "classes": "adj",
+	  "answer": "Bất lợi, có hại.",
+	  "ipa": "/ˈæd.vɜːs/",
+	  "example": "Quảng cáo (`ad`) `vớ vẩn` (verse) sẽ gây ra những tác động **bất lợi**, tiêu cực cho thương hiệu.",
+	  "english-definition": "Preventing success or development; harmful; unfavorable.",
+	  "images": "eew-6-20/2.png"
+	},
+	{
+	  "question": "dependency",
+	  "classes": "n",
+	  "answer": "Sự phụ thuộc, sự lệ thuộc.",
+	  "ipa": "/dɪˈpen.dən.si/",
+	  "example": "`Đi Ben đi City` (dependency) đều là những lựa chọn tốt, nhưng **sự phụ thuộc** vào xe hơi khiến môi trường ô nhiễm.",
+	  "english-definition": "A state of being dependent on a particular person or thing.",
+	  "images": "eew-6-20/3.png"
+	},
+	{
+	  "question": "dump",
+	  "classes": "v",
+	  "answer": "Vứt bỏ, đổ đi.",
+	  "ipa": "/dʌmp/",
+	  "example": "Chiếc xe tải `đâm` (dump) vào gốc cây rồi **đổ**, **vứt bỏ** hết hàng hóa xuống đường.",
+	  "english-definition": "To get rid of something unwanted, especially by leaving it in a place where it is not allowed to be.",
+	  "images": "eew-6-20/4.png"
+	},
+	{
+	  "question": "eternal",
+	  "classes": "adj",
+	  "answer": "Vĩnh cửu, bất diệt.",
+	  "ipa": "/ɪˈtɜː.nəl/",
+	  "example": "Tình yêu của họ không `ít tơ non` (eternal) nớt mà là một tình yêu **vĩnh cửu**, sâu đậm.",
+	  "english-definition": "Lasting or existing forever; without end or beginning.",
+	  "images": "eew-6-20/5.png"
+	},
+	{
+	  "question": "fluctuate",
+	  "classes": "v",
+	  "answer": "Dao động, biến động.",
+	  "ipa": "/ˈflʌk.tʃu.eɪt/",
+	  "example": "Cái `phích lắc chuối` (fluctuate) làm cho mực nước bên trong cứ **dao động** lên xuống.",
+	  "english-definition": "To rise and fall irregularly in number or amount.",
+	  "images": "eew-6-20/6.png"
+	},
+	{
+	  "question": "fro",
+	  "classes": "adv",
+	  "answer": "Qua lại, tới lui (thường đi với \"to and fro\").",
+	  "ipa": "/frəʊ/",
+	  "example": "Cô bé `phờ râu` (fro) vì phải chạy đi chạy lại, **qua lại** giữa hai đầu sân.",
+	  "english-definition": "Backwards and forwards.",
+	  "images": "eew-6-20/7.png"
+	},
+	{
+	  "question": "inclusion",
+	  "classes": "n",
+	  "answer": "Sự bao gồm, sự kể cả.",
+	  "ipa": "/ɪnˈkluː.ʒən/",
+	  "example": "`In cả lu sành` (inclusion) vào bức tranh là một **sự bao gồm**, sự thêm vào rất táo bạo của người họa sĩ.",
+	  "english-definition": "The action or state of including or of being included within a group or structure.",
+	  "images": "eew-6-20/8.png"
+	},
+	{
+	  "question": "intermediate",
+	  "classes": "adj",
+	  "answer": "Trung cấp, ở giữa.",
+	  "ipa": "/ˌɪn.təˈmiː.di.ət/",
+	  "example": "`Trong tớ mì đi ết` (intermediate) là món ăn ưa thích ở trình độ **trung cấp** khi còn là sinh viên.",
+	  "english-definition": "Being between two other related things, levels, or points.",
+	  "images": "eew-6-20/9.png"
+	},
+	{
+	  "question": "intermittent",
+	  "classes": "adj",
+	  "answer": "Gián đoạn, không liên tục.",
+	  "ipa": "/ˌɪn.təˈmɪt.ənt/",
+	  "example": "`Trong tớ mít` (intermittent) mọc **không liên tục**, lúc có quả lúc không.",
+	  "english-definition": "Occurring at irregular intervals; not continuous or steady.",
+	  "images": "eew-6-20/10.png"
+	},
+	{
+	  "question": "mentor",
+	  "classes": "n",
+	  "answer": "Người hướng dẫn, người cố vấn.",
+	  "ipa": "/ˈmen.tɔːr/",
+	  "example": "Anh ấy là **người hướng dẫn** của tôi, `men` (man) `tốt` (tor) lắm.",
+	  "english-definition": "An experienced and trusted adviser.",
+	  "images": "eew-6-20/11.png"
+	},
+	{
+	  "question": "phoenix",
+	  "classes": "n",
+	  "answer": "Phượng hoàng.",
+	  "ipa": "/ˈfiː.nɪks/",
+	  "example": "Con **phượng hoàng** `phí ních` (phoenix) phụ vì nó có thể tái sinh từ tro tàn.",
+	  "english-definition": "(in classical mythology) a unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral pyre and rising from the ashes with renewed youth to live through another cycle.",
+	  "images": "eew-6-20/12.png"
+	},
+	{
+	  "question": "photosynthesis",
+	  "classes": "n",
+	  "answer": "Sự quang hợp.",
+	  "ipa": "/ˌfəʊ.təʊˈsɪn.θə.sɪs/",
+	  "example": "`Phơi tô xin tí thịt` (photosynthesis) để có năng lượng, giống như cây cần **sự quang hợp** để tạo ra năng lượng.",
+	  "english-definition": "The process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll pigment.",
+	  "images": "eew-6-20/13.png"
+	},
+	{
+	  "question": "pollen",
+	  "classes": "n",
+	  "answer": "Phấn hoa.",
+	  "ipa": "/ˈpɒl.ən/",
+	  "example": "`Bỏ lên` (pollen) đĩa một ít **phấn hoa** để trang trí món ăn.",
+	  "english-definition": "A fine powdery substance, typically yellow, consisting of microscopic grains discharged from the male part of a flower or from a male cone.",
+	  "images": "eew-6-20/14.png"
+	},
+	{
+	  "question": "regain",
+	  "classes": "v",
+	  "answer": "Lấy lại, giành lại.",
+	  "ipa": "/rɪˈɡeɪn/",
+	  "example": "Anh ấy `đi ghen` (regain) với tình địch, nhưng sau đó đã **lấy lại** được bình tĩnh và niềm tin.",
+	  "english-definition": "To get back something that you no longer have.",
+	  "images": "eew-6-20/15.png"
+	},
+	{
+	  "question": "reverse",
+	  "classes": "v",
+	  "answer": "Đảo ngược, đảo chiều.",
+	  "ipa": "/rɪˈvɜːs/",
+	  "example": "Bác tài xế `đi vớt` (reverse) chiếc xe bị rơi xuống sông bằng cách **đảo ngược** hướng cần cẩu.",
+	  "english-definition": "To change the direction, order, position, result, etc. of something to its opposite.",
+	  "images": "eew-6-20/16.png"
+	},
+	{
+	  "question": "swarm",
+	  "classes": "n",
+	  "answer": "Đàn, bầy (côn trùng).",
+	  "ipa": "/swɔːm/",
+	  "example": "`Sợ quá` (swarm) khi thấy một **đàn** ong bay về phía mình.",
+	  "english-definition": "A large or dense group of insects, especially flying ones.",
+	  "images": "eew-6-20/17.png"
+	},
+	{
+	  "question": "texture",
+	  "classes": "n",
+	  "answer": "Kết cấu, bề mặt.",
+	  "ipa": "/ˈteks.tʃər/",
+	  "example": "`Té-sờ` (texture) vào bề mặt vải để cảm nhận **kết cấu** và độ mịn của nó.",
+	  "english-definition": "The feel, appearance, or consistency of a surface or a substance.",
+	  "images": "eew-6-20/18.png"
+	},
+	{
+	  "question": "tickle",
+	  "classes": "v",
+	  "answer": "Làm nhột, cù lét.",
+	  "ipa": "/ˈtɪk.əl/",
+	  "example": "Cái lông gà `tí tẹo` (tickle) mà **làm nhột** tôi quá.",
+	  "english-definition": "To lightly touch or stroke a part of a person's body in a way that causes mild discomfort or itching and often laughter.",
+	  "images": "eew-6-20/19.png"
+	},
+	{
+	  "question": "vibrant",
+	  "classes": "adj",
+	  "answer": "Rực rỡ, đầy sức sống.",
+	  "ipa": "/ˈvaɪ.brənt/",
+	  "example": "`Vai bự rận` (vibrant) nhưng anh ấy vẫn mặc chiếc áo màu sắc **rực rỡ**, đầy sức sống.",
+	  "english-definition": "Full of energy and enthusiasm.",
+	  "images": "eew-6-20/20.png"
+	}
+  ]
