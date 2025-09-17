@@ -1,0 +1,737 @@
+[
+  {
+    "word": "abolish",
+    "ipa": "/əˈbɒl.ɪʃ/",
+    "meaning": "Hủy bỏ, bãi bỏ (một luật lệ, hệ thống).",
+    "image": "eew-6-21/1.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "abolish",
+        "meaning-example": "Hủy bỏ, bãi bỏ (một luật lệ, hệ thống).",
+        "ipa-example": "/əˈbɒl.ɪʃ/"
+      },
+      {
+        "sentence": "`Ơ bồ` (abo) `lít` (lish) rượu này đi, chúng ta nên **hủy bỏ** thói quen nhậu nhẹt.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To formally put an end to a system, practice, or institution.",
+        "meaning-example": "Chính thức chấm dứt một hệ thống, một tập quán, hoặc một thể chế.",
+        "ipa-example": "/tuː ˈfɔː.mə.li pʊt ən end tuː ə ˈsɪs.təm, ˈpræk.tɪs, ɔːr ˌɪn.stɪˈtʃuː.ʃən./"
+      },
+      {
+        "sentence": "He abolished Mr. Jones’s law, and he was willing to talk openly with everyone.",
+        "meaning-example": "Ông đã bãi bỏ luật của ông Jones, và ông sẵn lòng nói chuyện cởi mở với mọi người.",
+        "ipa-example": "/hiː əˈbɒl.ɪʃt ˈmɪs.tər dʒəʊnz lɔː, ənd hiː wəz ˈwɪl.ɪŋ tuː tɔːk ˈəʊ.pən.li wɪð ˈev.ri.wʌn./"
+      }
+    ]
+  },
+  {
+    "word": "amend",
+    "ipa": "/əˈmend/",
+    "meaning": "Sửa đổi, cải thiện (văn bản, luật pháp).",
+    "image": "eew-6-21/2.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "amend",
+        "meaning-example": "Sửa đổi, cải thiện (văn bản, luật pháp).",
+        "ipa-example": "/əˈmend/"
+      },
+      {
+        "sentence": "`Ơ mèn` (amend) ơi, cái luật này sai quá, phải **sửa đổi** lại thôi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make minor changes to a text, piece of legislation, etc., in order to make it fairer, more accurate, or more up-to-date.",
+        "meaning-example": "Thực hiện những thay đổi nhỏ đối với một văn bản, một phần luật pháp, v.v., để làm cho nó công bằng hơn, chính xác hơn, hoặc cập nhật hơn.",
+        "ipa-example": "/tuː meɪk ˈmaɪ.nər ˈtʃeɪn.dʒɪz tuː ə tekst, piːs əv ˌledʒ.ɪˈsleɪ.ʃən, etˈset.ər.ə, ɪn ˈɔː.dər tuː meɪk ɪt ˈfeə.rər, mɔːr ˈæk.jə.rət, ɔːr mɔːr ʌp.tə.deɪt./"
+      },
+      {
+        "sentence": "He tackled important issues and amended unfair laws in the city’s charter.",
+        "meaning-example": "Ông đã giải quyết các vấn đề quan trọng và sửa đổi các luật không công bằng trong hiến chương của thành phố.",
+        "ipa-example": "/hiː ˈtæk.əld ɪmˈpɔː.tənt ˈɪʃ.uːz ənd əˈmen.dɪd ʌnˈfeər lɔːz ɪn ðə ˈsɪt.iz ˈtʃɑː.tər./"
+      }
+    ]
+  },
+  {
+    "word": "aspire",
+    "ipa": "/əˈspaɪər/",
+    "meaning": "Khao khát, mong muốn.",
+    "image": "eew-6-21/3.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "aspire",
+        "meaning-example": "Khao khát, mong muốn.",
+        "ipa-example": "/əˈspaɪər/"
+      },
+      {
+        "sentence": "`Ơ spa` (aspire) này, tôi **khao khát** được làm việc ở đây.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To have a strong wish or hope to do or have something.",
+        "meaning-example": "Có một mong muốn hoặc hy vọng mạnh mẽ để làm hoặc có một cái gì đó.",
+        "ipa-example": "/tuː həv ə strɒŋ wɪʃ ɔːr həʊp tuː duː ɔːr həv ˈsʌm.θɪŋ./"
+      },
+      {
+        "sentence": "Two men aspired to become mayor: Mr. Jones and Mr. Webb.",
+        "meaning-example": "Hai người đàn ông khao khát trở thành thị trưởng: Ông Jones và ông Webb.",
+        "ipa-example": "/tuː men əˈspaɪəd tuː bɪˈkʌm meər: ˈmɪs.tər dʒəʊnz ənd ˈmɪs.tər web./"
+      }
+    ]
+  },
+  {
+    "word": "censor",
+    "ipa": "/ˈsen.sər/",
+    "meaning": "Kiểm duyệt (sách, báo, phim ảnh).",
+    "image": "eew-6-21/4.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "censor",
+        "meaning-example": "Kiểm duyệt (sách, báo, phim ảnh).",
+        "ipa-example": "/ˈsen.sər/"
+      },
+      {
+        "sentence": "`Xe sơ` (censor) sài quá nên bị **kiểm duyệt** và cấm lưu hành.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To examine books, movies, etc., and remove things that are considered to be offensive, immoral, or harmful.",
+        "meaning-example": "Kiểm tra sách, phim, v.v., và loại bỏ những thứ được coi là xúc phạm, vô đạo đức hoặc có hại.",
+        "ipa-example": "/tuː ɪɡˈzæm.ɪn bʊks, ˈmuː.viz, etˈset.ər.ə, ənd rɪˈmuːv θɪŋz ðæt ɑːr kənˈsɪd.əd tuː biː əˈfen.sɪv, ɪˈmɒr.əl, ɔːr ˈhɑːm.fəl./"
+      },
+      {
+        "sentence": "He even censored newspapers that tried to disseminate information about his inability to help the people.",
+        "meaning-example": "Ông ta thậm chí còn kiểm duyệt những tờ báo cố gắng phổ biến thông tin về việc ông ta không có khả năng giúp đỡ người dân.",
+        "ipa-example": "/hiː ˈiː.vən ˈsen.səd ˈnjuːzˌpeɪ.pəz ðæt traɪd tuː dɪˈsem.ɪ.neɪt ˌɪn.fəˈmeɪ.ʃən əˈbaʊt hɪz ˌɪn.əˈbɪl.ə.ti tuː help ðə ˈpiː.pəl./"
+      }
+    ]
+  },
+  {
+    "word": "charter",
+    "ipa": "/ˈtʃɑː.tər/",
+    "meaning": "Hiến chương, điều lệ.",
+    "image": "eew-6-21/5.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "charter",
+        "meaning-example": "Hiến chương, điều lệ.",
+        "ipa-example": "/ˈtʃɑː.tər/"
+      },
+      {
+        "sentence": "Người `cha tớ` (charter) đã viết ra bản **hiến chương** cho công ty.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A formal statement of the rights of a country's people, or of an organization or a particular social group, that is agreed by or given to them by a ruler or government.",
+        "meaning-example": "Một tuyên bố chính thức về các quyền của người dân một quốc gia, hoặc của một tổ chức hay một nhóm xã hội cụ thể, được một nhà cầm quyền hoặc chính phủ đồng ý hoặc ban cho họ.",
+        "ipa-example": "/ə ˈfɔː.məl ˈsteɪt.mənt əv ðə raɪts əv ə ˈkʌn.triz ˈpiː.pəl, ɔːr əv ən ˌɔː.ɡən.aɪˈzeɪ.ʃən ɔːr ə pəˈtɪk.jə.lər ˈsəʊ.ʃəl ɡruːp, ðæt ɪz əˈɡriːd baɪ ɔːr ˈɡɪv.ən tuː ðəm baɪ ə ˈruː.lər ɔːr ˈɡʌv.ən.mənt./"
+      },
+      {
+        "sentence": "He tackled important issues and amended unfair laws in the city’s charter.",
+        "meaning-example": "Ông đã giải quyết các vấn đề quan trọng và sửa đổi các luật không công bằng trong hiến chương của thành phố.",
+        "ipa-example": "/hiː ˈtæk.əld ɪmˈpɔː.tənt ˈɪʃ.uːz ənd əˈmen.dɪd ʌnˈfeər lɔːz ɪn ðə ˈsɪt.iz ˈtʃɑː.tər./"
+      }
+    ]
+  },
+  {
+    "word": "constitution",
+    "ipa": "/ˌkɒn.stɪˈtʃuː.ʃən/",
+    "meaning": "Hiến pháp.",
+    "image": "eew-6-21/6.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "constitution",
+        "meaning-example": "Hiến pháp.",
+        "ipa-example": "/ˌkɒn.stɪˈtʃuː.ʃən/"
+      },
+      {
+        "sentence": "`Con sợ tí tu sờn` (constitution) rách mất quyển **hiến pháp** quý giá này.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The set of political principles by which a state or organization is governed, especially in relation to the rights of the people it governs.",
+        "meaning-example": "Tập hợp các nguyên tắc chính trị mà một nhà nước hoặc tổ chức được quản lý theo đó, đặc biệt là liên quan đến các quyền của người dân mà nó cai trị.",
+        "ipa-example": "/ðə set əv pəˈlɪt.ɪ.kəl ˈprɪn.sə.pəlz baɪ wɪtʃ ə steɪt ɔːr ˌɔː.ɡən.aɪˈzeɪ.ʃən ɪz ˈɡʌv.ənd, ɪˈspeʃ.ə.li ɪn rɪˈleɪ.ʃən tuː ðə raɪts əv ðə ˈpiː.pəl ɪt ˈɡʌv.ənz./"
+      },
+      {
+        "sentence": "He added a law to the city’s constitution that prevented citizens from seeing the mayor.",
+        "meaning-example": "Ông ta đã thêm một luật vào hiến pháp của thành phố ngăn cản công dân gặp thị trưởng.",
+        "ipa-example": "/hiː ˈæd.ɪd ə lɔː tuː ðə ˈsɪt.iz ˌkɒn.stɪˈtʃuː.ʃən ðæt prɪˈven.tɪd ˈsɪt.ɪ.zənz frəm ˈsiː.ɪŋ ðə meər./"
+      }
+    ]
+  },
+  {
+    "word": "cosmopolitan",
+    "ipa": "/ˌkɒz.məˈpɒl.ɪ.tən/",
+    "meaning": "Thuộc toàn thế giới, quốc tế.",
+    "image": "eew-6-21/7.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "cosmopolitan",
+        "meaning-example": "Thuộc toàn thế giới, quốc tế.",
+        "ipa-example": "/ˌkɒz.məˈpɒl.ɪ.tən/"
+      },
+      {
+        "sentence": "`Có mô` (cosmo) `bồ ly Tần` (politan) Thủy Hoàng không? Ở thành phố **toàn thế giới** này chắc là có.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Containing or having experience of people and things from many different parts of the world.",
+        "meaning-example": "Chứa đựng hoặc có kinh nghiệm về con người và sự vật từ nhiều nơi khác nhau trên thế giới.",
+        "ipa-example": "/kənˈteɪn.ɪŋ ɔːr ˈhæv.ɪŋ ɪkˈspɪə.ri.əns əv ˈpiː.pəl ənd θɪŋz frəm ˈmen.i ˈdɪf.ər.ənt pɑːts əv ðə wɜːld./"
+      },
+      {
+        "sentence": "The cosmopolitan city of Sherman needed to elect a new mayor.",
+        "meaning-example": "Thành phố quốc tế Sherman cần bầu một thị trưởng mới.",
+        "ipa-example": "/ðə ˌkɒz.məˈpɒl.ɪ.tən ˈsɪt.i əv ˈʃɜː.mən ˈniː.dɪd tuː ɪˈlekt ə njuː meər./"
+      }
+    ]
+  },
+  {
+    "word": "disseminate",
+    "ipa": "/dɪˈsem.ɪ.neɪt/",
+    "meaning": "Phổ biến, gieo rắc (thông tin, ý tưởng).",
+    "image": "eew-6-21/8.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "disseminate",
+        "meaning-example": "Phổ biến, gieo rắc (thông tin, ý tưởng).",
+        "ipa-example": "/dɪˈsem.ɪ.neɪt/"
+      },
+      {
+        "sentence": "`Đi xem mi nết` (disseminate) tốt thì phải **phổ biến**, **gieo rắc** cho mọi người học tập.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To spread or give out something, especially news, information, ideas, etc., to a lot of people.",
+        "meaning-example": "Lan truyền hoặc cung cấp một cái gì đó, đặc biệt là tin tức, thông tin, ý tưởng, v.v., cho nhiều người.",
+        "ipa-example": "/tuː spred ɔːr ɡɪv aʊt ˈsʌm.θɪŋ, ɪˈspeʃ.ə.li njuːz, ˌɪn.fəˈmeɪ.ʃən, aɪˈdɪəz, etˈset.ər.ə, tuː ə lɒt əv ˈpiː.pəl./"
+      },
+      {
+        "sentence": "He even censored newspapers that tried to disseminate information about his inability to help the people.",
+        "meaning-example": "Ông ta thậm chí còn kiểm duyệt những tờ báo cố gắng phổ biến thông tin về việc ông ta không có khả năng giúp đỡ người dân.",
+        "ipa-example": "/hiː ˈiː.vən ˈsen.səd ˈnjuːzˌpeɪ.pəz ðæt traɪd tuː dɪˈsem.ɪ.neɪt ˌɪn.fəˈmeɪ.ʃən əˈbaʊt hɪz ˌɪn.əˈbɪl.ə.ti tuː help ðə ˈpiː.pəl./"
+      }
+    ]
+  },
+  {
+    "word": "flatter",
+    "ipa": "/ˈflæt.ər/",
+    "meaning": "Tâng bốc, nịnh bợ.",
+    "image": "eew-6-21/9.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "flatter",
+        "meaning-example": "Tâng bốc, nịnh bợ.",
+        "ipa-example": "/ˈflæt.ər/"
+      },
+      {
+        "sentence": "Cái bánh `phá lấu tơ` (flatter) này ngon quá, tôi không phải đang **nịnh bợ** đâu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To praise someone in order to make them feel attractive or important, sometimes in a way that is not sincere.",
+        "meaning-example": "Khen ngợi ai đó để làm cho họ cảm thấy hấp dẫn hoặc quan trọng, đôi khi theo một cách không chân thành.",
+        "ipa-example": "/tuː preɪz ˈsʌm.wʌn ɪn ˈɔː.dər tuː meɪk ðəm fiːl əˈtræk.tɪv ɔːr ɪmˈpɔː.tənt, ˈsʌm.taɪmz ɪn ə weɪ ðæt ɪz nɒt sɪnˈsɪər./"
+      },
+      {
+        "sentence": "He was a pathological liar who merely flattered people with his words.",
+        "meaning-example": "Anh ta là một kẻ nói dối bệnh hoạn, chỉ biết tâng bốc người khác bằng lời nói của mình.",
+        "ipa-example": "/hiː wəz ə ˌpæθ.əˈlɒdʒ.ɪ.kəl ˈlaɪər huː ˈmɪə.li ˈflæt.əd ˈpiː.pəl wɪð hɪz wɜːdz./"
+      }
+    ]
+  },
+  {
+    "word": "infamous",
+    "ipa": "/ˈɪn.fə.məs/",
+    "meaning": "Khét tiếng, tai tiếng.",
+    "image": "eew-6-21/10.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "infamous",
+        "meaning-example": "Khét tiếng, tai tiếng.",
+        "ipa-example": "/ˈɪn.fə.məs/"
+      },
+      {
+        "sentence": "`Trong phim` (infam) `Mỹ` (ous), hắn là một tên tội phạm **khét tiếng**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Famous for something considered bad.",
+        "meaning-example": "Nổi tiếng vì một điều gì đó bị coi là xấu.",
+        "ipa-example": "/ˈfeɪ.məs fɔːr ˈsʌm.θɪŋ kənˈsɪd.əd bæd./"
+      },
+      {
+        "sentence": "Soon, however, Mr. Jones became infamous for his poor leadership.",
+        "meaning-example": "Tuy nhiên, chẳng bao lâu sau, ông Jones đã trở nên khét tiếng vì sự lãnh đạo yếu kém của mình.",
+        "ipa-example": "/suːn, haʊˈev.ər, ˈmɪs.tər dʒəʊnz bɪˈkeɪm ˈɪn.fə.məs fɔːr hɪz pʊər ˈliː.də.ʃɪp./"
+      }
+    ]
+  },
+  {
+    "word": "lame",
+    "ipa": "/leɪm/",
+    "meaning": "Què, khập khiễng.",
+    "image": "eew-6-21/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "lame",
+        "meaning-example": "Què, khập khiễng.",
+        "ipa-example": "/leɪm/"
+      },
+      {
+        "sentence": "Anh ấy bị ngã xe nên chân đi **què**, `lêm` (lame) khêm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "(of a person or animal) unable to walk normally because of an injury or illness affecting the leg or foot.",
+        "meaning-example": "(về người hoặc động vật) không thể đi lại bình thường do chấn thương hoặc bệnh tật ảnh hưởng đến chân hoặc bàn chân.",
+        "ipa-example": "/(əv ə ˈpɜː.sən ɔːr ˈæn.ɪ.məl) ʌnˈeɪ.bəl tuː wɔːk ˈnɔː.mə.li bɪˈkɒz əv ən ˈɪn.dʒər.i ɔːr ˈɪl.nəs əˈfek.tɪŋ ðə leɡ ɔːr fʊt./"
+      },
+      {
+        "sentence": "He was lame and limped when he walked.",
+        "meaning-example": "Ông ấy bị què và đi khập khiễng.",
+        "ipa-example": "/hiː wəz leɪm ənd lɪmpt wen hiː wɔːkt./"
+      }
+    ]
+  },
+  {
+    "word": "limp",
+    "ipa": "/lɪmp/",
+    "meaning": "Đi khập khiễng.",
+    "image": "eew-6-21/12.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "limp",
+        "meaning-example": "Đi khập khiễng.",
+        "ipa-example": "/lɪmp/"
+      },
+      {
+        "sentence": "Chân đau nên anh ấy phải **đi khập khiễng**, trông như đang múa `li-m` (limp) bo.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To walk with difficulty because of a damaged or stiff leg or foot.",
+        "meaning-example": "Đi lại khó khăn do chân hoặc bàn chân bị tổn thương hoặc cứng.",
+        "ipa-example": "/tuː wɔːk wɪð ˈdɪf.ɪ.kəl.ti bɪˈkɒz əv ə ˈdæm.ɪdʒd ɔːr stɪf leɡ ɔːr fʊt./"
+      },
+      {
+        "sentence": "He was lame and limped when he walked.",
+        "meaning-example": "Ông ấy bị què và đi khập khiễng.",
+        "ipa-example": "/hiː wəz leɪm ənd lɪmpt wen hiː wɔːkt./"
+      }
+    ]
+  },
+  {
+    "word": "outburst",
+    "ipa": "/ˈaʊt.bɜːst/",
+    "meaning": "Sự bùng nổ (cảm xúc).",
+    "image": "eew-6-21/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "outburst",
+        "meaning-example": "Sự bùng nổ (cảm xúc).",
+        "ipa-example": "/ˈaʊt.bɜːst/"
+      },
+      {
+        "sentence": "`Ngoài bớt` (outburst) nóng giận đi, **sự bùng nổ** cảm xúc này không giải quyết được gì đâu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A sudden forceful expression of emotion, especially anger.",
+        "meaning-example": "Một sự thể hiện cảm xúc mạnh mẽ đột ngột, đặc biệt là sự tức giận.",
+        "ipa-example": "/ə ˈsʌd.ən ˈfɔːs.fəl ɪkˈspreʃ.ən əv ɪˈməʊ.ʃən, ɪˈspeʃ.ə.li ˈæŋ.ɡər./"
+      },
+      {
+        "sentence": "There was an outburst of anger among the citizens.",
+        "meaning-example": "Đã có một sự bùng nổ tức giận trong dân chúng.",
+        "ipa-example": "/ðeər wəz ən ˈaʊt.bɜːst əv ˈæŋ.ɡər əˈmʌŋ ðə ˈsɪt.ɪ.zənz./"
+      }
+    ]
+  },
+  {
+    "word": "pathological",
+    "ipa": "/ˌpæθ.əˈlɒdʒ.ɪ.kəl/",
+    "meaning": "Bệnh hoạn, không bình thường (về hành vi).",
+    "image": "eew-6-21/14.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "pathological",
+        "meaning-example": "Bệnh hoạn, không bình thường (về hành vi).",
+        "ipa-example": "/ˌpæθ.əˈlɒdʒ.ɪ.kəl/"
+      },
+      {
+        "sentence": "`Bà thỏ lò dí cồ` (pathological) vào lửa là một hành động **bệnh hoạn**, không bình thường.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "(of a person) unable to control part of their behavior; unreasonable.",
+        "meaning-example": "(về một người) không thể kiểm soát một phần hành vi của họ; vô lý.",
+        "ipa-example": "/(əv ə ˈpɜː.sən) ʌnˈeɪ.bəl tuː kənˈtrəʊl pɑːt əv ðeər bɪˈheɪ.vjər; ʌnˈriː.zən.ə.bəl./"
+      },
+      {
+        "sentence": "He was a pathological liar who merely flattered people with his words.",
+        "meaning-example": "Anh ta là một kẻ nói dối bệnh hoạn, chỉ biết tâng bốc người khác bằng lời nói của mình.",
+        "ipa-example": "/hiː wəz ə ˌpæθ.əˈlɒdʒ.ɪ.kəl ˈlaɪər huː ˈmɪə.li ˈflæt.əd ˈpiː.pəl wɪð hɪz wɜːdz./"
+      }
+    ]
+  },
+  {
+    "word": "phenomenal",
+    "ipa": "/fəˈnɒm.ɪ.nəl/",
+    "meaning": "Phi thường, ấn tượng.",
+    "image": "eew-6-21/15.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "phenomenal",
+        "meaning-example": "Phi thường, ấn tượng.",
+        "ipa-example": "/fəˈnɒm.ɪ.nəl/"
+      },
+      {
+        "sentence": "`Phí nọ mì nờ` (phenomenal) là bao nhiêu cho một bữa ăn **phi thường** như thế này?",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Extremely successful or special, especially in a surprising way.",
+        "meaning-example": "Cực kỳ thành công hoặc đặc biệt, đặc biệt là một cách đáng ngạc nhiên.",
+        "ipa-example": "/ɪkˈstriːm.li səkˈses.fəl ɔːr ˈspeʃ.əl, ɪˈspeʃ.ə.li ɪn ə səˈpraɪ.zɪŋ weɪ./"
+      },
+      {
+        "sentence": "He was a phenomenal speaker, and the citizens loved him.",
+        "meaning-example": "Ông là một diễn giả phi thường, và các công dân yêu mến ông.",
+        "ipa-example": "/hiː wəz ə fəˈnɒm.ɪ.nəl ˈspiː.kər, ənd ðə ˈsɪt.ɪ.zənz lʌvd hɪm./"
+      }
+    ]
+  },
+  {
+    "word": "poll",
+    "ipa": "/pəʊl/",
+    "meaning": "Cuộc thăm dò ý kiến, cuộc bỏ phiếu.",
+    "image": "eew-6-21/16.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "poll",
+        "meaning-example": "Cuộc thăm dò ý kiến, cuộc bỏ phiếu.",
+        "ipa-example": "/pəʊl/"
+      },
+      {
+        "sentence": "Cuộc **thăm dò ý kiến** cho thấy mọi người thích ăn `bò` (po) `lúc lắc` (ll) hơn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A study in which people are asked for their opinions about a subject or person.",
+        "meaning-example": "Một nghiên cứu trong đó mọi người được hỏi ý kiến về một chủ đề hoặc một người nào đó.",
+        "ipa-example": "/ə ˈstʌd.i ɪn wɪtʃ ˈpiː.pəl ɑːr ɑːskt fɔːr ðeər əˈpɪn.jənz əˈbaʊt ə ˈsʌb.dʒekt ɔːr ˈpɜː.sən./"
+      },
+      {
+        "sentence": "All the polls predicted that Mr. Jones would win the election.",
+        "meaning-example": "Tất cả các cuộc thăm dò đều dự đoán rằng ông Jones sẽ thắng cử.",
+        "ipa-example": "/ɔːl ðə pəʊlz prɪˈdɪk.tɪd ðæt ˈmɪs.tər dʒəʊnz wʊd wɪn ði ɪˈlek.ʃən./"
+      }
+    ]
+  },
+  {
+    "word": "remorse",
+    "ipa": "/rɪˈmɔːs/",
+    "meaning": "Sự ăn năn, hối hận.",
+    "image": "eew-6-21/17.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "remorse",
+        "meaning-example": "Sự ăn năn, hối hận.",
+        "ipa-example": "/rɪˈmɔːs/"
+      },
+      {
+        "sentence": "Anh ta tỏ ra **hối hận** vì đã `rì mót` (remorse) hết đồ ăn của bạn.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A feeling of sadness and being sorry for something you have done.",
+        "meaning-example": "Cảm giác buồn bã và hối tiếc về điều gì đó bạn đã làm.",
+        "ipa-example": "/ə ˈfiː.lɪŋ əv ˈsæd.nəs ənd ˈbiː.ɪŋ ˈsɒr.i fɔːr ˈsʌm.θɪŋ juː həv dʌn./"
+      },
+      {
+        "sentence": "They were full of remorse for their misguided decision to elect an ignorant mayor.",
+        "meaning-example": "Họ vô cùng hối hận vì quyết định sai lầm của mình khi bầu một thị trưởng ngu dốt.",
+        "ipa-example": "/ðeɪ wər fʊl əv rɪˈmɔːs fɔːr ðeər mɪsˈɡaɪ.dɪd dɪˈsɪʒ.ən tuː ɪˈlekt ən ˈɪɡ.nər.ənt meər./"
+      }
+    ]
+  },
+  {
+    "word": "secrecy",
+    "ipa": "/ˈsiː.krə.si/",
+    "meaning": "Sự bí mật, sự giữ kín.",
+    "image": "eew-6-21/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "secrecy",
+        "meaning-example": "Sự bí mật, sự giữ kín.",
+        "ipa-example": "/ˈsiː.krə.si/"
+      },
+      {
+        "sentence": "`Sợ cờ ra xi` (secrecy) nên họ phải hành động trong **sự bí mật**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The state of being secret or of keeping something secret.",
+        "meaning-example": "Trạng thái bí mật hoặc giữ kín một điều gì đó.",
+        "ipa-example": "/ðə steɪt əv ˈbiː.ɪŋ ˈsiː.krət ɔːr əv ˈkiː.pɪŋ ˈsʌm.θɪŋ ˈsiː.krət./"
+      },
+      {
+        "sentence": "He tried to hide his ignorance by working in secrecy.",
+        "meaning-example": "Anh ta đã cố gắng che giấu sự ngu dốt của mình bằng cách làm việc trong bí mật.",
+        "ipa-example": "/hiː traɪd tuː haɪd hɪz ˈɪɡ.nər.əns baɪ ˈwɜːk.ɪŋ ɪn ˈsiː.krə.si./"
+      }
+    ]
+  },
+  {
+    "word": "tackle",
+    "ipa": "/ˈtæk.əl/",
+    "meaning": "Giải quyết, xử lý (một vấn đề).",
+    "image": "eew-6-21/19.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "tackle",
+        "meaning-example": "Giải quyết, xử lý (một vấn đề).",
+        "ipa-example": "/ˈtæk.əl/"
+      },
+      {
+        "sentence": "Để **giải quyết** vấn đề, anh ấy đã `tắc cồ` (tackle) họng đối thủ trong trận đấu.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To try to deal with something or someone.",
+        "meaning-example": "Cố gắng đối phó với một cái gì đó hoặc một ai đó.",
+        "ipa-example": "/tuː traɪ tuː diːl wɪð ˈsʌm.θɪŋ ɔːr ˈsʌm.wʌn./"
+      },
+      {
+        "sentence": "He tackled important issues and amended unfair laws in the city’s charter.",
+        "meaning-example": "Ông đã giải quyết các vấn đề quan trọng và sửa đổi các luật không công bằng trong hiến chương của thành phố.",
+        "ipa-example": "/hiː ˈtæk.əld ɪmˈpɔː.tənt ˈɪʃ.uːz ənd əˈmen.dɪd ʌnˈfeər lɔːz ɪn ðə ˈsɪt.iz ˈtʃɑː.tər./"
+      }
+    ]
+  },
+  {
+    "word": "trance",
+    "ipa": "/trɑːns/",
+    "meaning": "Trạng thái mê mẩn, hôn mê.",
+    "image": "eew-6-21/20.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "trance",
+        "meaning-example": "Trạng thái mê mẩn, hôn mê.",
+        "ipa-example": "/trɑːns/"
+      },
+      {
+        "sentence": "Anh ấy nhìn cô gái đẹp như đang ở trong **trạng thái mê mẩn**, `trán` (trance) đẫm mồ hôi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A state in which you are not aware of what is happening around you, but are able to think, see, etc.",
+        "meaning-example": "Một trạng thái mà bạn không nhận thức được những gì đang xảy ra xung quanh mình, nhưng có thể suy nghĩ, nhìn thấy, v.v.",
+        "ipa-example": "/ə steɪt ɪn wɪtʃ juː ɑːr nɒt əˈweər əv wɒt ɪz ˈhæp.ən.ɪŋ əˈraʊnd juː, bʌt ɑːr ˈeɪ.bəl tuː θɪŋk, siː, etˈset.ər.ə./"
+      },
+      {
+        "sentence": "His pretty words put people in a trance.",
+        "meaning-example": "Những lời lẽ tốt đẹp của anh ta khiến mọi người mê mẩn.",
+        "ipa-example": "/hɪz ˈprɪt.i wɜːdz pʊt ˈpiː.pəl ɪn ə trɑːns./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Mayor of Sherman",
+        "meaning-example": "Thị trưởng của Sherman",
+        "ipa-example": "/ðə meər əv ˈʃɜː.mən/"
+      },
+      {
+        "sentence": "The cosmopolitan city of Sherman needed to elect a new mayor.",
+        "meaning-example": "Thành phố quốc tế Sherman cần bầu một thị trưởng mới.",
+        "ipa-example": "/ðə ˌkɒz.məˈpɒl.ɪ.tən ˈsɪt.i əv ˈʃɜː.mən ˈniː.dɪd tuː ɪˈlekt ə njuː meər./"
+      },
+      {
+        "sentence": "Two men aspired to become mayor: Mr. Jones and Mr. Webb.",
+        "meaning-example": "Hai người đàn ông khao khát trở thành thị trưởng: Ông Jones và ông Webb.",
+        "ipa-example": "/tuː men əˈspaɪəd tuː bɪˈkʌm meər: ˈmɪs.tər dʒəʊnz ənd ˈmɪs.tər web./"
+      },
+      {
+        "sentence": "Mr. Jones was a tall, handsome man.",
+        "meaning-example": "Ông Jones là một người đàn ông cao lớn, đẹp trai.",
+        "ipa-example": "/ˈmɪs.tər dʒəʊnz wəz ə tɔːl, ˈhæn.səm mæn./"
+      },
+      {
+        "sentence": "He was a phenomenal speaker, and the citizens loved him.",
+        "meaning-example": "Ông là một diễn giả phi thường, và các công dân yêu mến ông.",
+        "ipa-example": "/hiː wəz ə fəˈnɒm.ɪ.nəl ˈspiː.kər, ənd ðə ˈsɪt.ɪ.zənz lʌvd hɪm./"
+      },
+      {
+        "sentence": "However, Mr. Jones didn’t know much about running a city.",
+        "meaning-example": "Tuy nhiên, ông Jones không biết nhiều về việc điều hành một thành phố.",
+        "ipa-example": "/haʊˈev.ər, ˈmɪs.tər dʒəʊnz ˈdɪd.ənt nəʊ mʌtʃ əˈbaʊt ˈrʌn.ɪŋ ə ˈsɪt.i./"
+      },
+      {
+        "sentence": "He was a pathological liar who merely flattered people with his words.",
+        "meaning-example": "Ông ta là một kẻ nói dối bệnh hoạn, chỉ biết tâng bốc người khác bằng lời nói của mình.",
+        "ipa-example": "/hiː wəz ə ˌpæθ.əˈlɒdʒ.ɪ.kəl ˈlaɪər huː ˈmɪə.li ˈflæt.əd ˈpiː.pəl wɪð hɪz wɜːdz./"
+      },
+      {
+        "sentence": "Mr. Webb was very different.",
+        "meaning-example": "Ông Webb thì rất khác.",
+        "ipa-example": "/ˈmɪs.tər web wəz ˈver.i ˈdɪf.ər.ənt./"
+      },
+      {
+        "sentence": "He was a small, unattractive man.",
+        "meaning-example": "Ông là một người đàn ông nhỏ bé, không hấp dẫn.",
+        "ipa-example": "/hiː wəz ə smɔːl, ʌn.əˈtræk.tɪv mæn./"
+      },
+      {
+        "sentence": "He was lame and limped when he walked.",
+        "meaning-example": "Ông bị què và đi khập khiễng.",
+        "ipa-example": "/hiː wəz leɪm ənd lɪmpt wen hiː wɔːkt./"
+      },
+      {
+        "sentence": "But he was an expert on politics and knew what was best for the people.",
+        "meaning-example": "Nhưng ông là một chuyên gia về chính trị và biết điều gì là tốt nhất cho người dân.",
+        "ipa-example": "/bʌt hiː wəz ən ˈek.spɜːt ɒn ˈpɒl.ə.tɪks ənd njuː wɒt wəz best fɔːr ðə ˈpiː.pəl./"
+      },
+      {
+        "sentence": "The citizens of Sherman didn’t care about what the politicians had to say.",
+        "meaning-example": "Các công dân của Sherman không quan tâm đến những gì các chính trị gia phải nói.",
+        "ipa-example": "/ðə ˈsɪt.ɪ.zənz əv ˈʃɜː.mən ˈdɪd.ənt keər əˈbaʊt wɒt ðə ˌpɒl.ɪˈtɪʃ.ənz həd tuː seɪ./"
+      },
+      {
+        "sentence": "No one listened to Mr. Webb, even though he had great ideas.",
+        "meaning-example": "Không ai nghe ông Webb, mặc dù ông có những ý tưởng tuyệt vời.",
+        "ipa-example": "/nəʊ wʌn ˈlɪs.ənd tuː ˈmɪs.tər web, ˈiː.vən ðəʊ hiː həd ɡreɪt aɪˈdɪəz./"
+      },
+      {
+        "sentence": "They cheered when Mr. Jones spoke, although he didn’t talk about important things.",
+        "meaning-example": "Họ reo hò khi ông Jones nói, mặc dù ông không nói về những điều quan trọng.",
+        "ipa-example": "/ðeɪ tʃɪəd wen ˈmɪs.tər dʒəʊnz spəʊk, ɔːlˈðəʊ hiː ˈdɪd.ənt tɔːk əˈbaʊt ɪmˈpɔː.tənt θɪŋz./"
+      },
+      {
+        "sentence": "His pretty words put people in a trance.",
+        "meaning-example": "Những lời lẽ tốt đẹp của ông ta khiến mọi người mê mẩn.",
+        "ipa-example": "/hɪz ˈprɪt.i wɜːdz pʊt ˈpiː.pəl ɪn ə trɑːns./"
+      },
+      {
+        "sentence": "All the polls predicted that Mr. Jones would win the election.",
+        "meaning-example": "Tất cả các cuộc thăm dò đều dự đoán rằng ông Jones sẽ thắng cử.",
+        "ipa-example": "/ɔːl ðə pəʊlz prɪˈdɪk.tɪd ðæt ˈmɪs.tər dʒəʊnz wʊd wɪn ði ɪˈlek.ʃən./"
+      },
+      {
+        "sentence": "When the votes were totaled, Mr. Jones won easily.",
+        "meaning-example": "Khi các phiếu bầu được kiểm, ông Jones đã thắng một cách dễ dàng.",
+        "ipa-example": "/wen ðə vəʊts wər ˈtəʊ.təld, ˈmɪs.tər dʒəʊnz wʌn ˈiː.zə.li./"
+      },
+      {
+        "sentence": "But when he took office, he didn’t know what to do!",
+        "meaning-example": "Nhưng khi nhậm chức, ông ta không biết phải làm gì!",
+        "ipa-example": "/bʌt wen hiː tʊk ˈɒf.ɪs, hiː ˈdɪd.ənt nəʊ wɒt tuː duː!/"
+      },
+      {
+        "sentence": "He tried to hide his ignorance by working in secrecy.",
+        "meaning-example": "Ông ta đã cố gắng che giấu sự ngu dốt của mình bằng cách làm việc trong bí mật.",
+        "ipa-example": "/hiː traɪd tuː haɪd hɪz ˈɪɡ.nər.əns baɪ ˈwɜːk.ɪŋ ɪn ˈsiː.krə.si./"
+      },
+      {
+        "sentence": "He added a law to the city’s constitution that prevented citizens from seeing the mayor.",
+        "meaning-example": "Ông ta đã thêm một luật vào hiến pháp của thành phố ngăn cản công dân gặp thị trưởng.",
+        "ipa-example": "/hiː ˈæd.ɪd ə lɔː tuː ðə ˈsɪt.iz ˌkɒn.stɪˈtʃuː.ʃən ðæt prɪˈven.tɪd ˈsɪt.ɪ.zənz frəm ˈsiː.ɪŋ ðə meər./"
+      },
+      {
+        "sentence": "He even censored newspapers that tried to disseminate information about his inability to help the people.",
+        "meaning-example": "Ông ta thậm chí còn kiểm duyệt những tờ báo cố gắng phổ biến thông tin về việc ông ta không có khả năng giúp đỡ người dân.",
+        "ipa-example": "/hiː ˈiː.vən ˈsen.səd ˈnjuːzˌpeɪ.pəz ðæt traɪd tuː dɪˈsem.ɪ.neɪt ˌɪn.fəˈmeɪ.ʃən əˈbaʊt hɪz ˌɪn.əˈbɪl.ə.ti tuː help ðə ˈpiː.pəl./"
+      },
+      {
+        "sentence": "Soon, however, Mr. Jones became infamous for his poor leadership.",
+        "meaning-example": "Tuy nhiên, chẳng bao lâu sau, ông Jones đã trở nên khét tiếng vì sự lãnh đạo yếu kém của mình.",
+        "ipa-example": "/suːn, haʊˈev.ər, ˈmɪs.tər dʒəʊnz bɪˈkeɪm ˈɪn.fə.məs fɔːr hɪz pʊər ˈliː.də.ʃɪp./"
+      },
+      {
+        "sentence": "There was an outburst of anger among the citizens.",
+        "meaning-example": "Đã có một sự bùng nổ tức giận trong dân chúng.",
+        "ipa-example": "/ðeər wəz ən ˈaʊt.bɜːst əv ˈæŋ.ɡər əˈmʌŋ ðə ˈsɪt.ɪ.zənz./"
+      },
+      {
+        "sentence": "They were full of remorse for their misguided decision to elect an ignorant mayor.",
+        "meaning-example": "Họ vô cùng hối hận vì quyết định sai lầm của mình khi bầu một thị trưởng ngu dốt.",
+        "ipa-example": "/ðeɪ wər fʊl əv rɪˈmɔːs fɔːr ðeər mɪsˈɡaɪ.dɪd dɪˈsɪʒ.ən tuː ɪˈlekt ən ˈɪɡ.nər.ənt meər./"
+      },
+      {
+        "sentence": "They voted to remove Mr. Jones and let Mr. Webb take over.",
+        "meaning-example": "Họ đã bỏ phiếu để loại bỏ ông Jones và để ông Webb tiếp quản.",
+        "ipa-example": "/ðeɪ ˈvəʊ.tɪd tuː rɪˈmuːv ˈmɪs.tər dʒəʊnz ənd let ˈmɪs.tər web teɪk ˈəʊ.vər./"
+      },
+      {
+        "sentence": "Immediately, Mr. Webb proved that he was a great mayor.",
+        "meaning-example": "Ngay lập tức, ông Webb đã chứng tỏ mình là một thị trưởng tuyệt vời.",
+        "ipa-example": "/ɪˈmiː.di.ət.li, ˈmɪs.tər web pruːvd ðæt hiː wəz ə ɡreɪt meər./"
+      },
+      {
+        "sentence": "He abolished Mr. Jones’s law, and he was willing to talk openly with everyone.",
+        "meaning-example": "Ông đã bãi bỏ luật của ông Jones, và ông sẵn lòng nói chuyện cởi mở với mọi người.",
+        "ipa-example": "/hiː əˈbɒl.ɪʃt ˈmɪs.tər dʒəʊnz lɔː, ənd hiː wəz ˈwɪl.ɪŋ tuː tɔːk ˈəʊ.pən.li wɪð ˈev.ri.wʌn./"
+      },
+      {
+        "sentence": "He tackled important issues and amended unfair laws in the city’s charter.",
+        "meaning-example": "Ông đã giải quyết các vấn đề quan trọng và sửa đổi các luật không công bằng trong hiến chương của thành phố.",
+        "ipa-example": "/hiː ˈtæk.əld ɪmˈpɔː.tənt ˈɪʃ.uːz ənd əˈmen.dɪd ʌnˈfeər lɔːz ɪn ðə ˈsɪt.iz ˈtʃɑː.tər./"
+      },
+      {
+        "sentence": "The citizens learned that a pleasant appearance and nice words do not make a good leader.",
+        "meaning-example": "Các công dân đã học được rằng một vẻ ngoài dễ chịu và những lời nói hay không làm nên một nhà lãnh đạo tốt.",
+        "ipa-example": "/ðə ˈsɪt.ɪ.zənz lɜːnd ðæt ə ˈplez.ənt əˈpɪə.rəns ənd naɪs wɜːdz duː nɒt meɪk ə ɡʊd ˈliː.dər./"
+      },
+      {
+        "sentence": "The most important qualities are intelligence and a desire to help others.",
+        "meaning-example": "Những phẩm chất quan trọng nhất là trí thông minh và mong muốn giúp đỡ người khác.",
+        "ipa-example": "/ðə məʊst ɪmˈpɔː.tənt ˈkwɒl.ə.tiz ɑːr ɪnˈtel.ɪ.dʒəns ənd ə dɪˈzaɪər tuː help ˈʌð.əz./"
+      }
+    ]
+  }
+]

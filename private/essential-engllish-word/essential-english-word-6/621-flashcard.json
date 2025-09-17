@@ -1,0 +1,182 @@
+[
+	{
+	  "question": "abolish",
+	  "classes": "v",
+	  "answer": "Hủy bỏ, bãi bỏ (một luật lệ, hệ thống).",
+	  "ipa": "/əˈbɒl.ɪʃ/",
+	  "example": "`Ơ bồ` (abo) `lít` (lish) rượu này đi, chúng ta nên **hủy bỏ** thói quen nhậu nhẹt.",
+	  "english-definition": "To formally put an end to a system, practice, or institution.",
+	  "images": "eew-6-21/1.png"
+	},
+	{
+	  "question": "amend",
+	  "classes": "v",
+	  "answer": "Sửa đổi, cải thiện (văn bản, luật pháp).",
+	  "ipa": "/əˈmend/",
+	  "example": "`Ơ mèn` (amend) ơi, cái luật này sai quá, phải **sửa đổi** lại thôi.",
+	  "english-definition": "To make minor changes to a text, piece of legislation, etc., in order to make it fairer, more accurate, or more up-to-date.",
+	  "images": "eew-6-21/2.png"
+	},
+	{
+	  "question": "aspire",
+	  "classes": "v",
+	  "answer": "Khao khát, mong muốn.",
+	  "ipa": "/əˈspaɪər/",
+	  "example": "`Ơ spa` (aspire) này, tôi **khao khát** được làm việc ở đây.",
+	  "english-definition": "To have a strong wish or hope to do or have something.",
+	  "images": "eew-6-21/3.png"
+	},
+	{
+	  "question": "censor",
+	  "classes": "v",
+	  "answer": "Kiểm duyệt (sách, báo, phim ảnh).",
+	  "ipa": "/ˈsen.sər/",
+	  "example": "`Xe sơ` (censor) sài quá nên bị **kiểm duyệt** và cấm lưu hành.",
+	  "english-definition": "To examine books, movies, etc., and remove things that are considered to be offensive, immoral, or harmful.",
+	  "images": "eew-6-21/4.png"
+	},
+	{
+	  "question": "charter",
+	  "classes": "n",
+	  "answer": "Hiến chương, điều lệ.",
+	  "ipa": "/ˈtʃɑː.tər/",
+	  "example": "Người `cha tớ` (charter) đã viết ra bản **hiến chương** cho công ty.",
+	  "english-definition": "A formal statement of the rights of a country's people, or of an organization or a particular social group, that is agreed by or given to them by a ruler or government.",
+	  "images": "eew-6-21/5.png"
+	},
+	{
+	  "question": "constitution",
+	  "classes": "n",
+	  "answer": "Hiến pháp.",
+	  "ipa": "/ˌkɒn.stɪˈtʃuː.ʃən/",
+	  "example": "`Con sợ tí tu sờn` (constitution) rách mất quyển **hiến pháp** quý giá này.",
+	  "english-definition": "The set of political principles by which a state or organization is governed, especially in relation to the rights of the people it governs.",
+	  "images": "eew-6-21/6.png"
+	},
+	{
+	  "question": "cosmopolitan",
+	  "classes": "adj",
+	  "answer": "Thuộc toàn thế giới, quốc tế.",
+	  "ipa": "/ˌkɒz.məˈpɒl.ɪ.tən/",
+	  "example": "`Có mô` (cosmo) `bồ ly Tần` (politan) Thủy Hoàng không? Ở thành phố **toàn thế giới** này chắc là có.",
+	  "english-definition": "Containing or having experience of people and things from many different parts of the world.",
+	  "images": "eew-6-21/7.png"
+	},
+	{
+	  "question": "disseminate",
+	  "classes": "v",
+	  "answer": "Phổ biến, gieo rắc (thông tin, ý tưởng).",
+	  "ipa": "/dɪˈsem.ɪ.neɪt/",
+	  "example": "`Đi xem mi nết` (disseminate) tốt thì phải **phổ biến**, **gieo rắc** cho mọi người học tập.",
+	  "english-definition": "To spread or give out something, especially news, information, ideas, etc., to a lot of people.",
+	  "images": "eew-6-21/8.png"
+	},
+	{
+	  "question": "flatter",
+	  "classes": "v",
+	  "answer": "Tâng bốc, nịnh bợ.",
+	  "ipa": "/ˈflæt.ər/",
+	  "example": "Cái bánh `phá lấu tơ` (flatter) này ngon quá, tôi không phải đang **nịnh bợ** đâu.",
+	  "english-definition": "To praise someone in order to make them feel attractive or important, sometimes in a way that is not sincere.",
+	  "images": "eew-6-21/9.png"
+	},
+	{
+	  "question": "infamous",
+	  "classes": "adj",
+	  "answer": "Khét tiếng, tai tiếng.",
+	  "ipa": "/ˈɪn.fə.məs/",
+	  "example": "`Trong phim` (infam) `Mỹ` (ous), hắn là một tên tội phạm **khét tiếng**.",
+	  "english-definition": "Famous for something considered bad.",
+	  "images": "eew-6-21/10.png"
+	},
+	{
+	  "question": "lame",
+	  "classes": "adj",
+	  "answer": "Què, khập khiễng.",
+	  "ipa": "/leɪm/",
+	  "example": "Anh ấy bị ngã xe nên chân đi **què**, `lêm` (lame) khêm.",
+	  "english-definition": "(of a person or animal) unable to walk normally because of an injury or illness affecting the leg or foot.",
+	  "images": "eew-6-21/11.png"
+	},
+	{
+	  "question": "limp",
+	  "classes": "v",
+	  "answer": "Đi khập khiễng.",
+	  "ipa": "/lɪmp/",
+	  "example": "Chân đau nên anh ấy phải **đi khập khiễng**, trông như đang múa `li-m` (limp) bo.",
+	  "english-definition": "To walk with difficulty because of a damaged or stiff leg or foot.",
+	  "images": "eew-6-21/12.png"
+	},
+	{
+	  "question": "outburst",
+	  "classes": "n",
+	  "answer": "Sự bùng nổ (cảm xúc).",
+	  "ipa": "/ˈaʊt.bɜːst/",
+	  "example": "`Ngoài bớt` (outburst) nóng giận đi, **sự bùng nổ** cảm xúc này không giải quyết được gì đâu.",
+	  "english-definition": "A sudden forceful expression of emotion, especially anger.",
+	  "images": "eew-6-21/13.png"
+	},
+	{
+	  "question": "pathological",
+	  "classes": "adj",
+	  "answer": "Bệnh hoạn, không bình thường (về hành vi).",
+	  "ipa": "/ˌpæθ.əˈlɒdʒ.ɪ.kəl/",
+	  "example": "`Bà thỏ lò dí cồ` (pathological) vào lửa là một hành động **bệnh hoạn**, không bình thường.",
+	  "english-definition": "(of a person) unable to control part of their behavior; unreasonable.",
+	  "images": "eew-6-21/14.png"
+	},
+	{
+	  "question": "phenomenal",
+	  "classes": "adj",
+	  "answer": "Phi thường, ấn tượng.",
+	  "ipa": "/fəˈnɒm.ɪ.nəl/",
+	  "example": "`Phí nọ mì nờ` (phenomenal) là bao nhiêu cho một bữa ăn **phi thường** như thế này?",
+	  "english-definition": "Extremely successful or special, especially in a surprising way.",
+	  "images": "eew-6-21/15.png"
+	},
+	{
+	  "question": "poll",
+	  "classes": "n",
+	  "answer": "Cuộc thăm dò ý kiến, cuộc bỏ phiếu.",
+	  "ipa": "/pəʊl/",
+	  "example": "Cuộc **thăm dò ý kiến** cho thấy mọi người thích ăn `bò` (po) `lúc lắc` (ll) hơn.",
+	  "english-definition": "A study in which people are asked for their opinions about a subject or person.",
+	  "images": "eew-6-21/16.png"
+	},
+	{
+	  "question": "remorse",
+	  "classes": "n",
+	  "answer": "Sự ăn năn, hối hận.",
+	  "ipa": "/rɪˈmɔːs/",
+	  "example": "Anh ta tỏ ra **hối hận** vì đã `rì mót` (remorse) hết đồ ăn của bạn.",
+	  "english-definition": "A feeling of sadness and being sorry for something you have done.",
+	  "images": "eew-6-21/17.png"
+	},
+	{
+	  "question": "secrecy",
+	  "classes": "n",
+	  "answer": "Sự bí mật, sự giữ kín.",
+	  "ipa": "/ˈsiː.krə.si/",
+	  "example": "`Sợ cờ ra xi` (secrecy) nên họ phải hành động trong **sự bí mật**.",
+	  "english-definition": "The state of being secret or of keeping something secret.",
+	  "images": "eew-6-21/18.png"
+	},
+	{
+	  "question": "tackle",
+	  "classes": "v",
+	  "answer": "Giải quyết, xử lý (một vấn đề).",
+	  "ipa": "/ˈtæk.əl/",
+	  "example": "Để **giải quyết** vấn đề, anh ấy đã `tắc cồ` (tackle) họng đối thủ trong trận đấu.",
+	  "english-definition": "To try to deal with something or someone.",
+	  "images": "eew-6-21/19.png"
+	},
+	{
+	  "question": "trance",
+	  "classes": "n",
+	  "answer": "Trạng thái mê mẩn, hôn mê.",
+	  "ipa": "/trɑːns/",
+	  "example": "Anh ấy nhìn cô gái đẹp như đang ở trong **trạng thái mê mẩn**, `trán` (trance) đẫm mồ hôi.",
+	  "english-definition": "A state in which you are not aware of what is happening around you, but are able to think, see, etc.",
+	  "images": "eew-6-21/20.png"
+	}
+]
