@@ -1,0 +1,733 @@
+
+[
+  {
+    "word": "coward",
+    "ipa": "/ˈkaʊ.əd/",
+    "meaning": "Người nhát gan, kẻ hèn nhát.",
+    "image": "eew-6-22/1.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "coward",
+        "meaning-example": "Người nhát gan, kẻ hèn nhát.",
+        "ipa-example": "/ˈkaʊ.əd/"
+      },
+      {
+        "sentence": "Con `coward` (coward) này thật **nhát gan**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who lacks courage.",
+        "meaning-example": "Một người thiếu can đảm.",
+        "ipa-example": "/ə ˈpɜː.sən huː læks ˈkʌr.ɪdʒ./"
+      },
+      {
+        "sentence": "A coward is a person who is not brave.",
+        "meaning-example": "Kẻ hèn nhát là người không dũng cảm.",
+        "ipa-example": "/ə ˈkaʊ.əd ɪz ə ˈpɜː.sən huː ɪz nɒt breɪv./"
+      }
+    ]
+  },
+  {
+    "word": "delete",
+    "ipa": "/dɪˈliːt/",
+    "meaning": "Xóa bỏ.",
+    "image": "eew-6-22/2.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "delete",
+        "meaning-example": "Xóa bỏ.",
+        "ipa-example": "/dɪˈliːt/"
+      },
+      {
+        "sentence": "`Đi lít` (delete) nước tiểu xong nhớ **xóa bỏ** dấu vết.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To remove something, especially from a computer's memory.",
+        "meaning-example": "Để loại bỏ một cái gì đó, đặc biệt là khỏi bộ nhớ của máy tính.",
+        "ipa-example": "/tuː rɪˈmuːv ˈsʌm.θɪŋ, ɪˈspeʃ.ə.li frəm ə kəmˈpjuː.təz ˈmem.ər.i./"
+      },
+      {
+        "sentence": "He deleted the file from his computer.",
+        "meaning-example": "Anh ấy đã xóa tập tin khỏi máy tính của mình.",
+        "ipa-example": "/hiː dɪˈliː.tɪd ðə faɪl frəm hɪz kəmˈpjuː.tər./"
+      }
+    ]
+  },
+  {
+    "word": "firsthand",
+    "ipa": "/ˌfɜːstˈhænd/",
+    "meaning": "Trực tiếp, tận mắt.",
+    "image": "eew-6-22/3.png",
+    "classes": "adv",
+    "example": [
+      {
+        "sentence": "firsthand",
+        "meaning-example": "Trực tiếp, tận mắt.",
+        "ipa-example": "/ˌfɜːstˈhænd/"
+      },
+      {
+        "sentence": "`Phớt tay` (firsthand) khi nhìn thấy **trực tiếp** cảnh tượng đó.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "From the original source or experience.",
+        "meaning-example": "Từ nguồn gốc hoặc kinh nghiệm ban đầu.",
+        "ipa-example": "/frəm ði əˈrɪdʒ.ən.əl sɔːs ɔːr ɪkˈspɪə.ri.əns./"
+      },
+      {
+        "sentence": "He has firsthand experience of poverty.",
+        "meaning-example": "Anh ấy có kinh nghiệm trực tiếp về sự nghèo đói.",
+        "ipa-example": "/hiː həz ˌfɜːstˈhænd ɪkˈspɪə.ri.əns əv ˈpɒv.ə.ti./"
+      }
+    ]
+  },
+  {
+    "word": "earnest",
+    "ipa": "/ˈɜː.nɪst/",
+    "meaning": "Đứng đắn, nghiêm túc.",
+    "image": "eew-6-22/4.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "earnest",
+        "meaning-example": "Đứng đắn, nghiêm túc.",
+        "ipa-example": "/ˈɜː.nɪst/"
+      },
+      {
+        "sentence": "`Ơn ít` (earnest) thì nhận, nhưng phải với thái độ **đứng đắn, nghiêm túc**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Serious and determined.",
+        "meaning-example": "Nghiêm túc và quyết tâm.",
+        "ipa-example": "/ˈsɪə.ri.əs ənd dɪˈtɜː.mɪnd./"
+      },
+      {
+        "sentence": "The earnest student finished his homework early.",
+        "meaning-example": "Cậu học sinh nghiêm túc đã hoàn thành bài tập về nhà sớm.",
+        "ipa-example": "/ði ˈɜː.nɪst ˈstjuː.dənt ˈfɪn.ɪʃt hɪz ˈhəʊm.wɜːk ˈɜː.li./"
+      }
+    ]
+  },
+  {
+    "word": "ethnic",
+    "ipa": "/ˈeθ.nɪk/",
+    "meaning": "Thuộc dân tộc, mang bản sắc dân tộc.",
+    "image": "eew-6-22/5.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "ethnic",
+        "meaning-example": "Thuộc dân tộc, mang bản sắc dân tộc.",
+        "ipa-example": "/ˈeθ.nɪk/"
+      },
+      {
+        "sentence": "`Ếch nít` (ethnic) là món ăn mang đậm bản sắc **dân tộc**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to a particular race of people.",
+        "meaning-example": "Liên quan đến một chủng tộc người cụ thể.",
+        "ipa-example": "/rɪˈleɪt.ɪŋ tuː ə pəˈtɪk.jə.lər reɪs əv ˈpiː.pəl./"
+      },
+      {
+        "sentence": "There are many different ethnic groups in the United States.",
+        "meaning-example": "Có rất nhiều nhóm dân tộc khác nhau ở Hoa Kỳ.",
+        "ipa-example": "/ðeər ɑːr ˈmen.i ˈdɪf.ər.ənt ˈeθ.nɪk ɡruːps ɪn ðə jʊˈnaɪ.tɪd steɪts./"
+      }
+    ]
+  },
+  {
+    "word": "exclude",
+    "ipa": "/ɪkˈskluːd/",
+    "meaning": "Loại trừ, không bao gồm.",
+    "image": "eew-6-22/6.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "exclude",
+        "meaning-example": "Loại trừ, không bao gồm.",
+        "ipa-example": "/ɪkˈskluːd/"
+      },
+      {
+        "sentence": "`Ích kỉ` (exclu) nên anh ta bị **loại trừ** khỏi nhóm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To prevent someone or something from entering a place or taking part in an activity.",
+        "meaning-example": "Ngăn cản ai đó hoặc cái gì đó vào một nơi hoặc tham gia một hoạt động.",
+        "ipa-example": "/tuː prɪˈvent ˈsʌm.wʌn ɔːr ˈsʌm.θɪŋ frəm ˈen.tər.ɪŋ ə pleɪs ɔːr ˈteɪk.ɪŋ pɑːt ɪn ən ækˈtɪv.ə.ti./"
+      },
+      {
+        "sentence": "They excluded the woman from their meeting.",
+        "meaning-example": "Họ đã loại trừ người phụ nữ đó ra khỏi cuộc họp của họ.",
+        "ipa-example": "/ðeɪ ɪkˈskluː.dɪd ðə ˈwʊm.ən frəm ðeər ˈmiː.tɪŋ./"
+      }
+    ]
+  },
+  {
+    "word": "fluent",
+    "ipa": "/ˈfluː.ənt/",
+    "meaning": "Lưu loát, trôi chảy.",
+    "image": "eew-6-22/7.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "fluent",
+        "meaning-example": "Lưu loát, trôi chảy.",
+        "ipa-example": "/ˈfluː.ənt/"
+      },
+      {
+        "sentence": "`Phờ lu ân` (fluent) nặng rồi, nói không **lưu loát** được nữa.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Able to speak a language easily and well.",
+        "meaning-example": "Có khả năng nói một ngôn ngữ một cách dễ dàng và tốt.",
+        "ipa-example": "/ˈeɪ.bəl tuː spiːk ə ˈlæŋ.ɡwɪdʒ ˈiː.zə.li ənd wel./"
+      },
+      {
+        "sentence": "The man was fluent in French.",
+        "meaning-example": "Người đàn ông đó nói tiếng Pháp lưu loát.",
+        "ipa-example": "/ðə mæn wəz ˈfluː.ənt ɪn frentʃ./"
+      }
+    ]
+  },
+  {
+    "word": "imperial",
+    "ipa": "/ɪmˈpɪə.ri.əl/",
+    "meaning": "Thuộc về đế quốc, hoàng gia.",
+    "image": "eew-6-22/8.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "imperial",
+        "meaning-example": "Thuộc về đế quốc, hoàng gia.",
+        "ipa-example": "/ɪmˈpɪə.ri.əl/"
+      },
+      {
+        "sentence": "`Im đi` (impe), đây là cung điện **hoàng gia** (`ri ồ` (rial)).",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Belonging or relating to an emperor or empress.",
+        "meaning-example": "Thuộc về hoặc liên quan đến một hoàng đế hoặc nữ hoàng.",
+        "ipa-example": "/bɪˈlɒŋ.ɪŋ ɔːr rɪˈleɪt.ɪŋ tuː ən ˈem.pər.ər ɔːr ˈem.prəs./"
+      },
+      {
+        "sentence": "The imperial palace was very large.",
+        "meaning-example": "Cung điện hoàng gia rất lớn.",
+        "ipa-example": "/ði ɪmˈpɪə.ri.əl ˈpæl.əs wəz ˈver.i lɑːdʒ./"
+      }
+    ]
+  },
+  {
+    "word": "inclusive",
+    "ipa": "/ɪnˈkluː.sɪv/",
+    "meaning": "Bao gồm, kể cả.",
+    "image": "eew-6-22/9.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "inclusive",
+        "meaning-example": "Bao gồm, kể cả.",
+        "ipa-example": "/ɪnˈkluː.sɪv/"
+      },
+      {
+        "sentence": "`Trong khu` (inclu) `sịp` (sive) này **bao gồm** nhiều thứ lắm.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Including all the services or items normally expected or required.",
+        "meaning-example": "Bao gồm tất cả các dịch vụ hoặc mặt hàng thường được mong đợi hoặc yêu cầu.",
+        "ipa-example": "/ɪnˈkluː.dɪŋ ɔːl ðə ˈsɜː.vɪs.ɪz ɔːr ˈaɪ.təmz ˈnɔː.mə.li ɪkˈspek.tɪd ɔːr rɪˈkwaɪəd./"
+      },
+      {
+        "sentence": "The price is inclusive of all charges.",
+        "meaning-example": "Giá đã bao gồm tất cả các khoản phí.",
+        "ipa-example": "/ðə praɪs ɪz ɪnˈkluː.sɪv əv ɔːl ˈtʃɑː.dʒɪz./"
+      }
+    ]
+  },
+  {
+    "word": "legislature",
+    "ipa": "/ˈledʒ.ɪ.slə.tʃər/",
+    "meaning": "Cơ quan lập pháp.",
+    "image": "eew-6-22/10.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "legislature",
+        "meaning-example": "Cơ quan lập pháp.",
+        "ipa-example": "/ˈledʒ.ɪ.slə.tʃər/"
+      },
+      {
+        "sentence": "`Lễ chỉ có trà` (legislature) là quy định của **cơ quan lập pháp**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The group of people in a country or part of a country who have the power to make and change laws.",
+        "meaning-example": "Nhóm người trong một quốc gia hoặc một phần của một quốc gia có quyền lực để tạo ra và thay đổi luật pháp.",
+        "ipa-example": "/ðə ɡruːp əv ˈpiː.pəl ɪn ə ˈkʌn.tri ɔːr pɑːt əv ə ˈkʌn.tri huː həv ðə ˈpaʊər tuː meɪk ənd tʃeɪndʒ lɔːz./"
+      },
+      {
+        "sentence": "The legislature makes the laws for the state.",
+        "meaning-example": "Cơ quan lập pháp làm ra luật cho tiểu bang.",
+        "ipa-example": "/ðə ˈledʒ.ɪ.slə.tʃər meɪks ðə lɔːz fɔːr ðə steɪt./"
+      }
+    ]
+  },
+  {
+    "word": "linguistic",
+    "ipa": "/lɪŋˈɡwɪs.tɪk/",
+    "meaning": "Thuộc về ngôn ngữ học.",
+    "image": "eew-6-22/11.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "linguistic",
+        "meaning-example": "Thuộc về ngôn ngữ học.",
+        "ipa-example": "/lɪŋˈɡwɪs.tɪk/"
+      },
+      {
+        "sentence": "`Linh quý` (linguis) `tích` (tic) cóp kiến thức **ngôn ngữ học**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Connected with language or the study of language.",
+        "meaning-example": "Liên quan đến ngôn ngữ hoặc việc nghiên cứu ngôn ngữ.",
+        "ipa-example": "/kəˈnek.tɪd wɪð ˈlæŋ.ɡwɪdʒ ɔːr ðə ˈstʌd.i əv ˈlæŋ.ɡwɪdʒ./"
+      },
+      {
+        "sentence": "He is a linguistic expert.",
+        "meaning-example": "Ông ấy là một chuyên gia ngôn ngữ học.",
+        "ipa-example": "/hiː ɪz ə lɪŋˈɡwɪs.tɪk ˈek.spɜːt./"
+      }
+    ]
+  },
+  {
+    "word": "monolingual",
+    "ipa": "/ˌmɒn.əˈlɪŋ.ɡwəl/",
+    "meaning": "Đơn ngữ.",
+    "image": "eew-6-22/12.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "monolingual",
+        "meaning-example": "Đơn ngữ.",
+        "ipa-example": "/ˌmɒn.əˈlɪŋ.ɡwəl/"
+      },
+      {
+        "sentence": "`Mô nô linh` (monolin) `gồ` (gual) lên vì chỉ biết **một ngôn ngữ**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Speaking or writing only one language.",
+        "meaning-example": "Chỉ nói hoặc viết một ngôn ngữ.",
+        "ipa-example": "/ˈspiːk.ɪŋ ɔːr ˈraɪt.ɪŋ ˈəʊn.li wʌn ˈlæŋ.ɡwɪdʒ./"
+      },
+      {
+        "sentence": "In a monolingual country, everyone speaks the same language.",
+        "meaning-example": "Ở một quốc gia đơn ngữ, mọi người đều nói cùng một ngôn ngữ.",
+        "ipa-example": "/ɪn ə ˌmɒn.əˈlɪŋ.ɡwəl ˈkʌn.tri, ˈev.ri.wʌn spiːks ðə seɪm ˈlæŋ.ɡwɪdʒ./"
+      }
+    ]
+  },
+  {
+    "word": "nationality",
+    "ipa": "/ˌnæʃ.ənˈæl.ə.ti/",
+    "meaning": "Quốc tịch.",
+    "image": "eew-6-22/13.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "nationality",
+        "meaning-example": "Quốc tịch.",
+        "ipa-example": "/ˌnæʃ.ənˈæl.ə.ti/"
+      },
+      {
+        "sentence": "`Nát sần` (nation) vì `lít ty` (ality) rượu, mất cả **quốc tịch**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The official right to belong to a particular country.",
+        "meaning-example": "Quyền chính thức thuộc về một quốc gia cụ thể.",
+        "ipa-example": "/ði əˈfɪʃ.əl raɪt tuː bɪˈlɒŋ tuː ə pəˈtɪk.jə.lər ˈkʌn.tri./"
+      },
+      {
+        "sentence": "His nationality is German.",
+        "meaning-example": "Quốc tịch của anh ấy là Đức.",
+        "ipa-example": "/hɪz ˌnæʃ.ənˈæl.ə.ti ɪz ˈdʒɜː.mən./"
+      }
+    ]
+  },
+  {
+    "word": "patriot",
+    "ipa": "/ˈpæt.ri.ət/",
+    "meaning": "Người yêu nước.",
+    "image": "eew-6-22/14.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "patriot",
+        "meaning-example": "Người yêu nước.",
+        "ipa-example": "/ˈpæt.ri.ət/"
+      },
+      {
+        "sentence": "`Ba` (pa) `trị` (tri) `ớt` (ot) là một **người yêu nước**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "A person who loves their country and is ready to defend it against an enemy.",
+        "meaning-example": "Một người yêu đất nước của họ và sẵn sàng bảo vệ nó chống lại kẻ thù.",
+        "ipa-example": "/ə ˈpɜː.sən huː lʌvz ðeər ˈkʌn.tri ənd ɪz ˈred.i tuː dɪˈfend ɪt əˈɡenst ən ˈen.ə.mi./"
+      },
+      {
+        "sentence": "The patriot was loyal to his country.",
+        "meaning-example": "Người yêu nước trung thành với đất nước của mình.",
+        "ipa-example": "/ðə ˈpæt.ri.ət wəz ˈlɔɪ.əl tuː hɪz ˈkʌn.tri./"
+      }
+    ]
+  },
+  {
+    "word": "prosecute",
+    "ipa": "/ˈprɒs.ɪ.kjuːt/",
+    "meaning": "Truy tố, khởi tố.",
+    "image": "eew-6-22/15.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "prosecute",
+        "meaning-example": "Truy tố, khởi tố.",
+        "ipa-example": "/ˈprɒs.ɪ.kjuːt/"
+      },
+      {
+        "sentence": "`Pro sẽ kute` (prosecute) hơn nếu không bị **truy tố**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To officially accuse someone of committing a crime in a law court.",
+        "meaning-example": "Chính thức buộc tội ai đó phạm tội tại tòa án.",
+        "ipa-example": "/tuː əˈfɪʃ.ə.li əˈkjuːz ˈsʌm.wʌn əv kəˈmɪt.ɪŋ ə kraɪm ɪn ə lɔː kɔːt./"
+      },
+      {
+        "sentence": "They will prosecute the man for theft.",
+        "meaning-example": "Họ sẽ truy tố người đàn ông đó vì tội trộm cắp.",
+        "ipa-example": "/ðeɪ wɪl ˈprɒs.ɪ.kjuːt ðə mæn fɔːr θeft./"
+      }
+    ]
+  },
+  {
+    "word": "racial",
+    "ipa": "/ˈreɪ.ʃəl/",
+    "meaning": "Thuộc chủng tộc.",
+    "image": "eew-6-22/16.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "racial",
+        "meaning-example": "Thuộc chủng tộc.",
+        "ipa-example": "/ˈreɪ.ʃəl/"
+      },
+      {
+        "sentence": "`Ray sờ` (racial) vào người khác màu da là hành vi phân biệt **chủng tộc**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Relating to the relationships between different races of people.",
+        "meaning-example": "Liên quan đến mối quan hệ giữa các chủng tộc người khác nhau.",
+        "ipa-example": "/rɪˈleɪt.ɪŋ tuː ðə rɪˈleɪ.ʃən.ʃɪps bɪˈtwiːn ˈdɪf.ər.ənt ˈreɪsɪz əv ˈpiː.pəl./"
+      },
+      {
+        "sentence": "The company has a policy against racial discrimination.",
+        "meaning-example": "Công ty có chính sách chống phân biệt chủng tộc.",
+        "ipa-example": "/ðə ˈkʌm.pə.ni həz ə ˈpɒl.ə.si əˈɡenst ˈreɪ.ʃəl dɪˌskrɪm.ɪˈneɪ.ʃən./"
+      }
+    ]
+  },
+  {
+    "word": "solemn",
+    "ipa": "/ˈsɒl.əm/",
+    "meaning": "Trang nghiêm, long trọng.",
+    "image": "eew-6-22/17.png",
+    "classes": "adj",
+    "example": [
+      {
+        "sentence": "solemn",
+        "meaning-example": "Trang nghiêm, long trọng.",
+        "ipa-example": "/ˈsɒl.əm/"
+      },
+      {
+        "sentence": "`So Lem` (solemn) vào đi, buổi lễ sắp bắt đầu **trang nghiêm** rồi.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Serious and without any humor.",
+        "meaning-example": "Nghiêm túc và không có chút hài hước nào.",
+        "ipa-example": "/ˈsɪə.ri.əs ənd wɪˈðaʊt ˈen.i ˈhjuː.mər./"
+      },
+      {
+        "sentence": "The man spoke in a solemn voice.",
+        "meaning-example": "Người đàn ông nói bằng một giọng trang nghiêm.",
+        "ipa-example": "/ðə mæn spəʊk ɪn ə ˈsɒl.əm vɔɪs./"
+      }
+    ]
+  },
+  {
+    "word": "solidarity",
+    "ipa": "/ˌsɒl.ɪˈdær.ə.ti/",
+    "meaning": "Sự đoàn kết.",
+    "image": "eew-6-22/18.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "solidarity",
+        "meaning-example": "Sự đoàn kết.",
+        "ipa-example": "/ˌsɒl.ɪˈdær.ə.ti/"
+      },
+      {
+        "sentence": "`Só liền đi ra đi` (solidarity) để thể hiện **sự đoàn kết**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "Agreement between and support for the members of a group.",
+        "meaning-example": "Sự đồng lòng và hỗ trợ cho các thành viên của một nhóm.",
+        "ipa-example": "/əˈɡriː.mənt bɪˈtwiːn ənd səˈpɔːt fɔːr ðə ˈmem.bəz əv ə ɡruːp./"
+      },
+      {
+        "sentence": "The team showed solidarity by wearing the same jerseys.",
+        "meaning-example": "Đội đã thể hiện sự đoàn kết bằng cách mặc cùng một loại áo.",
+        "ipa-example": "/ðə tiːm ʃəʊd ˌsɒl.ɪˈdær.ə.ti baɪ ˈweə.rɪŋ ðə seɪm ˈdʒɜː.ziz./"
+      }
+    ]
+  },
+  {
+    "word": "tact",
+    "ipa": "/tækt/",
+    "meaning": "Sự khéo léo, tế nhị.",
+    "image": "eew-6-22/19.png",
+    "classes": "n",
+    "example": [
+      {
+        "sentence": "tact",
+        "meaning-example": "Sự khéo léo, tế nhị.",
+        "ipa-example": "/tækt/"
+      },
+      {
+        "sentence": "Lấy cái `tắc` (tact) ra khỏi họng anh ta một cách **khéo léo**.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "The ability to say or do the right thing without making anyone unhappy or angry.",
+        "meaning-example": "Khả năng nói hoặc làm điều đúng đắn mà không làm ai không vui hoặc tức giận.",
+        "ipa-example": "/ði əˈbɪl.ə.ti tuː seɪ ɔːr duː ðə raɪt θɪŋ wɪˈðaʊt ˈmeɪk.ɪŋ ˈen.i.wʌn ʌnˈhæp.i ɔːr ˈæŋ.ɡri./"
+      },
+      {
+        "sentence": "She handled the situation with tact and diplomacy.",
+        "meaning-example": "Cô ấy đã xử lý tình huống một cách khéo léo và ngoại giao.",
+        "ipa-example": "/ʃiː ˈhæn.dəld ðə ˌsɪtʃ.uˈeɪ.ʃən wɪð tækt ənd dɪˈpləʊ.mə.si./"
+      }
+    ]
+  },
+  {
+    "word": "undermine",
+    "ipa": "/ˌʌn.dəˈmaɪn/",
+    "meaning": "Làm suy yếu, phá hoại ngầm.",
+    "image": "eew-6-22/20.png",
+    "classes": "v",
+    "example": [
+      {
+        "sentence": "undermine",
+        "meaning-example": "Làm suy yếu, phá hoại ngầm.",
+        "ipa-example": "/ˌʌn.dəˈmaɪn/"
+      },
+      {
+        "sentence": "`Ăn đờ mai` (undermine) phục để **phá hoại ngầm** kế hoạch.",
+        "meaning-example": null,
+        "ipa-example": null
+      },
+      {
+        "sentence": "To make someone less confident, less powerful, or less likely to succeed, or to make something weaker, often gradually.",
+        "meaning-example": "Làm cho ai đó kém tự tin, kém quyền lực, hoặc ít có khả năng thành công hơn, hoặc làm cho cái gì đó yếu đi, thường là dần dần.",
+        "ipa-example": "/tuː meɪk ˈsʌm.wʌn les ˈkɒn.fɪ.dənt, les ˈpaʊə.fəl, ɔːr les ˈlaɪk.li tuː səkˈsiːd, ɔːr tuː meɪk ˈsʌm.θɪŋ ˈwiː.kər, ˈɒf.ən ˈɡrædʒ.u.ə.li./"
+      },
+      {
+        "sentence": "The constant criticism undermined her confidence.",
+        "meaning-example": "Sự chỉ trích liên tục đã làm suy yếu sự tự tin của cô ấy.",
+        "ipa-example": "/ðə ˈkɒn.stənt ˈkrɪt.ɪ.sɪ.zəm ˌʌn.dəˈmaɪnd hər ˈkɒn.fɪ.dəns./"
+      }
+    ]
+  },
+  {
+    "word": "sentences of story",
+    "example": [
+      {
+        "sentence": "The Cowardly Lion",
+        "meaning-example": "Sư tử hèn nhát",
+        "ipa-example": "/ðə ˈkaʊədli ˈlaɪən/"
+      },
+      {
+        "sentence": "Dorothy and her friends, the Scarecrow and the Tin Man, were walking through a forest.",
+        "meaning-example": "Dorothy và những người bạn của cô, Bù nhìn và Người Thiếc, đang đi bộ qua một khu rừng.",
+        "ipa-example": "/ˈdɒrəθi ænd hɜː frendz, ðə ˈskeəkrəʊ ænd ðə tɪn mæn, wɜː ˈwɔːkɪŋ θruː ə ˈfɒrɪst./"
+      },
+      {
+        "sentence": "Suddenly, a lion jumped out in front of them.",
+        "meaning-example": "Bất ngờ, một con sư tử nhảy ra trước mặt họ.",
+        "ipa-example": "/ˈsʌdənli, ə ˈlaɪən dʒʌmpt aʊt ɪn frʌnt əv ðəm./"
+      },
+      {
+        "sentence": "It seemed very fierce.",
+        "meaning-example": "Nó có vẻ rất hung dữ.",
+        "ipa-example": "/ɪt siːmd ˈveri fɪəs./"
+      },
+      {
+        "sentence": "In an earnest voice, it said, “I am the king of the forest!”",
+        "meaning-example": "Bằng một giọng nghiêm túc, nó nói: \"Ta là vua của khu rừng!\"",
+        "ipa-example": "/ɪn ən ˈɜːnɪst vɔɪs, ɪt sed, “aɪ əm ðə kɪŋ əv ðə ˈfɒrɪst!”/"
+      },
+      {
+        "sentence": "After the lion’s solemn announcement, Dorothy’s little dog, Toto, ran up to the lion.",
+        "meaning-example": "Sau lời tuyên bố trang nghiêm của con sư tử, chú chó nhỏ của Dorothy, Toto, chạy đến gần con sư tử.",
+        "ipa-example": "/ˈɑːftə ðə ˈlaɪənz ˈsɒləm əˈnaʊnsmənt, ˈdɒrəθiz ˈlɪtl dɒɡ, ˈtəʊtəʊ, ræn ʌp tuː ðə ˈlaɪən./"
+      },
+      {
+        "sentence": "He started to bark.",
+        "meaning-example": "Nó bắt đầu sủa.",
+        "ipa-example": "/hiː ˈstɑːtɪd tuː bɑːk./"
+      },
+      {
+        "sentence": "The lion was so scared that it jumped back.",
+        "meaning-example": "Con sư tử sợ hãi đến mức nó nhảy lùi lại.",
+        "ipa-example": "/ðə ˈlaɪən wəz səʊ skeəd ðət ɪt dʒʌmpt bæk./"
+      },
+      {
+        "sentence": "Then Dorothy noticed something strange.",
+        "meaning-example": "Rồi Dorothy nhận thấy một điều kỳ lạ.",
+        "ipa-example": "/ðen ˈdɒrəθi ˈnəʊtɪst ˈsʌmθɪŋ streɪndʒ./"
+      },
+      {
+        "sentence": "The lion was crying.",
+        "meaning-example": "Con sư tử đang khóc.",
+        "ipa-example": "/ðə ˈlaɪən wəz ˈkraɪɪŋ./"
+      },
+      {
+        "sentence": "“Why are you crying?” she asked.",
+        "meaning-example": "\"Tại sao bạn lại khóc?\" cô hỏi.",
+        "ipa-example": "/“waɪ ə juː ˈkraɪɪŋ?” ʃiː ɑːskt./"
+      },
+      {
+        "sentence": "“I’m crying because I am a coward,” the lion said.",
+        "meaning-example": "\"Tôi đang khóc vì tôi là một kẻ hèn nhát,\" con sư tử nói.",
+        "ipa-example": "/“aɪm ˈkraɪɪŋ bɪˈkɒz aɪ əm ə ˈkaʊəd,” ðə ˈlaɪən sed./"
+      },
+      {
+        "sentence": "“I make a big noise, but I am afraid of everything.”",
+        "meaning-example": "\"Tôi tạo ra tiếng ồn lớn, nhưng tôi sợ mọi thứ.\"",
+        "ipa-example": "/“aɪ meɪk ə bɪɡ nɔɪz, bət aɪ əm əˈfreɪd əv ˈevriθɪŋ.”/"
+      },
+      {
+        "sentence": "The lion told them about his problem.",
+        "meaning-example": "Con sư tử kể cho họ nghe về vấn đề của mình.",
+        "ipa-example": "/ðə ˈlaɪən təʊld ðəm əˈbaʊt hɪz ˈprɒbləm./"
+      },
+      {
+        "sentence": "“I have a beautiful roar,” he said, “but it doesn’t mean anything.",
+        "meaning-example": "\"Tôi có một tiếng gầm rất đẹp,\" nó nói, \"nhưng nó chẳng có ý nghĩa gì cả.",
+        "ipa-example": "/“aɪ həv ə ˈbjuːtəfəl rɔː,” hiː sed, “bət ɪt ˈdʌznt miːn ˈeniθɪŋ./"
+      },
+      {
+        "sentence": "Anytime there is danger, I am scared.”",
+        "meaning-example": "Bất cứ khi nào có nguy hiểm, tôi đều sợ hãi.\"",
+        "ipa-example": "/ˈenitaɪm ðeər ɪz ˈdeɪndʒə, aɪ əm skeəd.”/"
+      },
+      {
+        "sentence": "The Tin Man felt sorry for the lion.",
+        "meaning-example": "Người Thiếc cảm thấy tội nghiệp cho con sư tử.",
+        "ipa-example": "/ðə tɪn mæn felt ˈsɒri fə ðə ˈlaɪən./"
+      },
+      {
+        "sentence": "“I have firsthand knowledge of this problem,” he said.",
+        "meaning-example": "\"Tôi có kinh nghiệm trực tiếp về vấn đề này,\" anh nói.",
+        "ipa-example": "/“aɪ həv ˌfɜːstˈhænd ˈnɒlɪdʒ əv ðɪs ˈprɒbləm,” hiː sed./"
+      },
+      {
+        "sentence": "“I know what it’s like to be scared.",
+        "meaning-example": "\"Tôi biết cảm giác sợ hãi là như thế nào.",
+        "ipa-example": "/“aɪ nəʊ wɒt ɪts laɪk tuː biː skeəd./"
+      },
+      {
+        "sentence": "You should come with us to see the Wizard of Oz.",
+        "meaning-example": "Bạn nên đi cùng chúng tôi đến gặp Phù thủy xứ Oz.",
+        "ipa-example": "/juː ʃəd kʌm wɪð əs tuː siː ðə ˈwɪzəd əv ɒz./"
+      },
+      {
+        "sentence": "He can give you courage.”",
+        "meaning-example": "Ông ấy có thể cho bạn lòng dũng cảm.\"",
+        "ipa-example": "/hiː kən ɡɪv juː ˈkʌrɪdʒ.”/"
+      },
+      {
+        "sentence": "The lion agreed.",
+        "meaning-example": "Con sư tử đồng ý.",
+        "ipa-example": "/ðə ˈlaɪən əˈɡriːd./"
+      },
+      {
+        "sentence": "So the Cowardly Lion joined them.",
+        "meaning-example": "Vậy là Sư tử hèn nhát đã tham gia cùng họ.",
+        "ipa-example": "/səʊ ðə ˈkaʊədli ˈlaɪən dʒɔɪnd ðəm./"
+      },
+      {
+        "sentence": "He used his loud roar to help them.",
+        "meaning-example": "Nó đã dùng tiếng gầm lớn của mình để giúp họ.",
+        "ipa-example": "/hiː juːzd hɪz laʊd rɔː tuː help ðəm./"
+      },
+      {
+        "sentence": "For example, he scared away some dangerous animals.",
+        "meaning-example": "Ví dụ, nó đã dọa một số loài động vật nguy hiểm bỏ đi.",
+        "ipa-example": "/fərɪɡˈzɑːmpl, hiː skeəd əˈweɪ səm ˈdeɪndʒərəs ˈænɪməlz./"
+      },
+      {
+        "sentence": "They showed solidarity.",
+        "meaning-example": "Họ đã thể hiện sự đoàn kết.",
+        "ipa-example": "/ðeɪ ʃəʊd ˌsɒlɪˈdærəti./"
+      },
+      {
+        "sentence": "Each one of them had a problem.",
+        "meaning-example": "Mỗi người trong số họ đều có một vấn đề.",
+        "ipa-example": "/iːtʃ wʌn əv ðəm hæd ə ˈprɒbləm./"
+      },
+      {
+        "sentence": "They hoped the Wizard could delete their problems.",
+        "meaning-example": "Họ hy vọng Phù thủy có thể xóa bỏ các vấn đề của họ.",
+        "ipa-example": "/ðeɪ həʊpt ðə ˈwɪzəd kəd dɪˈliːt ðeə ˈprɒbləmz./"
+      },
+      {
+        "sentence": "But they used their special abilities, inclusive of the lion’s roar, to help each other.",
+        "meaning-example": "Nhưng họ đã sử dụng những khả năng đặc biệt của mình, bao gồm cả tiếng gầm của sư tử, để giúp đỡ lẫn nhau.",
+        "ipa-example": "/bət ðeɪ juːzd ðeə ˈspeʃl əˈbɪlətiz, ɪnˈkluːsɪv əv ðə ˈlaɪənz rɔː, tuː help iːtʃ ˈʌðə./"
+      }
+    ]
+  }
+]

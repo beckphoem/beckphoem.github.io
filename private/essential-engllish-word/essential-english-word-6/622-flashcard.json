@@ -1,0 +1,182 @@
+[
+	{
+	  "question": "coward",
+	  "classes": "n",
+	  "answer": "Sự hèn nhát, nhút nhát.",
+	  "ipa": "/ˈkaʊ.əd/",
+	  "example": "`Con bò` (cow) `quạ` (ard) đó rất **hèn nhát**.",
+	  "english-definition": "A person who is not brave and is too eager to avoid danger, difficulty, or pain.",
+	  "images": "eew-6-22/1.png"
+	},
+	{
+	  "question": "delete",
+	  "classes": "v",
+	  "answer": "Xóa bỏ.",
+	  "ipa": "/dɪˈliːt/",
+	  "example": "`Đi lít` (delete) nước tiểu xong nhớ dội nước **xóa bỏ** mùi hôi nhé.",
+	  "english-definition": "To remove something, especially from a computer's memory or a written text.",
+	  "images": "eew-6-22/2.png"
+	},
+	{
+	  "question": "deliberate",
+	  "classes": "adj",
+	  "answer": "Cố ý, có chủ tâm; thận trọng, không vội vã.",
+	  "ipa": "/dɪˈlɪb.ər.ət/",
+	  "example": "`Đi lượm` (deli) `bơ रेट` (berate) là một hành động **cố ý** để gây sự chú ý.",
+	  "english-definition": "(of an action or a decision) intentional or planned; done carefully without hurrying.",
+	  "images": "eew-6-22/3.png"
+	},
+	{
+	  "question": "destitute",
+	  "classes": "adj",
+	  "answer": "Bần cùng, nghèo túng.",
+	  "ipa": "/ˈdes.tɪ.tʃuːt/",
+	  "example": "Nhà `đất đi tuốt` (destitute) nên giờ anh ấy trở nên **bần cùng**.",
+	  "english-definition": "Without money, food, a home, or possessions.",
+	  "images": "eew-6-22/4.png"
+	},
+	{
+	  "question": "deviate",
+	  "classes": "v",
+	  "answer": "Đi chệch hướng, lệch hướng.",
+	  "ipa": "/ˈdiː.vi.eɪt/",
+	  "example": "`Đi vị ếch` (deviate) làm tôi **đi chệch hướng** so với kế hoạch ban đầu.",
+	  "english-definition": "To do something that is different from the usual or common way of behaving.",
+	  "images": "eew-6-22/5.png"
+	},
+	{
+	  "question": "dilemma",
+	  "classes": "n",
+	  "answer": "Tình thế tiến thoái lưỡng nan, tình thế khó xử.",
+	  "ipa": "/daɪˈlem.ə/",
+	  "example": "`Đi lẹ mà` (dilemma) không được, tôi đang ở trong **tình thế khó xử**.",
+	  "english-definition": "A situation in which a difficult choice has to be made between two different things you could do.",
+	  "images": "eew-6-22/6.png"
+	},
+	{
+	  "question": "dimension",
+	  "classes": "n",
+	  "answer": "Kích thước, chiều.",
+	  "ipa": "/daɪˈmen.ʃən/",
+	  "example": "`Đi mừng sinh` (dimension) nhật, tôi tặng bạn một hộp quà có **kích thước** lớn.",
+	  "english-definition": "A measurement of something in a particular direction, especially its height, length, or width.",
+	  "images": "eew-6-22/7.png"
+	},
+	{
+	  "question": "diminish",
+	  "classes": "v",
+	  "answer": "Giảm bớt, thu nhỏ.",
+	  "ipa": "/dɪˈmɪn.ɪʃ/",
+	  "example": "`Đi minish` (diminish) game này khó quá, làm **giảm bớt** hứng thú của tôi.",
+	  "english-definition": "To reduce or be reduced in size or importance.",
+	  "images": "eew-6-22/8.png"
+	},
+	{
+	  "question": "discrete",
+	  "classes": "adj",
+	  "answer": "Rời rạc, riêng biệt.",
+	  "ipa": "/dɪˈskriːt/",
+	  "example": "`Dĩa cờ rít` (discrete) này có các ô **rời rạc** nhau.",
+	  "english-definition": "Clearly separate or different in shape or form.",
+	  "images": "eew-6-22/9.png"
+	},
+	{
+	  "question": "discriminate",
+	  "classes": "v",
+	  "answer": "Phân biệt đối xử.",
+	  "ipa": "/dɪˈskrɪm.ɪ.neɪt/",
+	  "example": "`Đĩa क्रीम` (discrim) `i này` (inate) màu trắng, đừng **phân biệt đối xử** với nó.",
+	  "english-definition": "To treat a person or particular group of people differently, especially in a worse way from the way in which you treat other people, because of their skin colour, sex, sexuality, etc.",
+	  "images": "eew-6-22/10.png"
+	},
+	{
+	  "question": "displace",
+	  "classes": "v",
+	  "answer": "Thay thế, chiếm chỗ; làm cho phải rời đi.",
+	  "ipa": "/dɪsˈpleɪs/",
+	  "example": "`Dĩa` (dis) `bơ` (p) `lấy` (lace) đi, nó đã **chiếm chỗ** của món chính.",
+	  "english-definition": "To force something or someone out of its usual or original position.",
+	  "images": "eew-6-22/11.png"
+	},
+	{
+	  "question": "dispute",
+	  "classes": "n, v",
+	  "answer": "(n) Cuộc tranh cãi, tranh chấp; (v) Tranh cãi, tranh chấp.",
+	  "ipa": "/dɪˈspjuːt/",
+	  "example": "`Đít bựt` (dispute) ra khỏi quần là chủ đề của **cuộc tranh cãi**.",
+	  "english-definition": "An argument or disagreement, especially an official one between, for example, workers and employers or two countries with a common border.",
+	  "images": "eew-6-22/12.png"
+	},
+	{
+	  "question": "diverse",
+	  "classes": "adj",
+	  "answer": "Đa dạng.",
+	  "ipa": "/daɪˈvɜːs/",
+	  "example": "`Đi vớt` (diverse) rác trên bãi biển, chúng tôi thấy rác rất **đa dạng**.",
+	  "english-definition": "Including many different types of people or things.",
+	  "images": "eew-6-22/13.png"
+	},
+	{
+	  "question": "domain",
+	  "classes": "n",
+	  "answer": "Lĩnh vực, phạm vi.",
+	  "ipa": "/dəˈmeɪn/",
+	  "example": "`Đỗ mền` (domain) là một **lĩnh vực** anh ấy rất giỏi.",
+	  "english-definition": "An area of interest or an area over which a person has control.",
+	  "images": "eew-6-22/14.png"
+	},
+	{
+	  "question": "domestic",
+	  "classes": "adj",
+	  "answer": "Trong nước, nội địa; thuộc về gia đình.",
+	  "ipa": "/dəˈmes.tɪk/",
+	  "example": "`Đồ mệt` (dome) `sờ` (s) `tí` (tic) nữa là xong việc **trong gia đình**.",
+	  "english-definition": "Relating to a person's own country; relating to the home, house, or family.",
+	  "images": "eew-6-22/15.png"
+	},
+	{
+	  "question": "dominant",
+	  "classes": "adj",
+	  "answer": "Chiếm ưu thế, thống trị, át, trội.",
+	  "ipa": "/ˈdɒm.ɪ.nənt/",
+	  "example": "`Đom đóm` (domi) `nắng` (nant) là loài **chiếm ưu thế** vào ban đêm.",
+	  "english-definition": "More important, strong, or noticeable than anything else of the same type.",
+	  "images": "eew-6-22/16.png"
+	},
+	{
+	  "question": "draft",
+	  "classes": "n, v",
+	  "answer": "(n) Bản nháp; (v) Soạn thảo.",
+	  "ipa": "/drɑːft/",
+	  "example": "`Ráp` (draft) xong bản **nháp** này là có thể đi ngủ.",
+	  "english-definition": "A piece of text, a formal suggestion, or a drawing in its original state, often containing the main ideas and intentions but not the developed form.",
+	  "images": "eew-6-22/17.png"
+	},
+	{
+	  "question": "drama",
+	  "classes": "n",
+	  "answer": "Kịch, tuồng; sự việc kịch tính.",
+	  "ipa": "/ˈdrɑː.mə/",
+	  "example": "`Rửa mà` (drama) không sạch là có **kịch** hay để xem.",
+	  "english-definition": "A play in a theatre or on television or radio, or plays and acting generally.",
+	  "images": "eew-6-22/18.png"
+	},
+	{
+	  "question": "duration",
+	  "classes": "n",
+	  "answer": "Khoảng thời gian (mà một sự việc tồn tại).",
+	  "ipa": "/dʒuˈreɪ.ʃən/",
+	  "example": "`Điu rây sành` (duration) trong **khoảng thời gian** bao lâu thì nó vỡ?",
+	  "english-definition": "The length of time that something lasts.",
+	  "images": "eew-6-22/19.png"
+	},
+	{
+	  "question": "dynamic",
+	  "classes": "adj",
+	  "answer": "Năng động, năng nổ, sôi nổi.",
+	  "ipa": "/daɪˈnæm.ɪk/",
+	  "example": "`Đai nam mic` (dynamic) này dành cho những người **năng động**.",
+	  "english-definition": "Having a lot of ideas and enthusiasm; energetic and forceful.",
+	  "images": "eew-6-22/20.png"
+	}
+]
