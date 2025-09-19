@@ -1,101 +1,98 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit 9: Imperatives - Giving Directions</title>
     <style>
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --success-color: #28a745;
+            --danger-color: #dc3545;
+            --warning-color: #ffc107;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
+            --grammar-bg: #e7f4e4;
+            --grammar-border: #a8d59c;
+            --step-bg: #4a4a4a;
+            --step-color: #ffffff;
+            --header-bg: #f9a602;
+        }
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
             margin: 0;
             padding: 0;
+            background-color: var(--light-color);
+            color: var(--dark-color);
         }
-
         .container {
             max-width: 900px;
             margin: 20px auto;
+            padding: 20px;
             background-color: #fff;
-            padding: 25px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
             border-radius: 8px;
         }
-
-        h1, h2, h3, h4 {
-            color: #0056b3;
-            margin-bottom: 0.5em;
-        }
-
         .unit-header {
+            background-color: var(--header-bg);
+            color: var(--dark-color);
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
             display: flex;
             align-items: center;
-            border-bottom: 4px solid #0056b3;
-            padding-bottom: 15px;
-            margin-bottom: 20px;
+            justify-content: space-between;
+            border-bottom: 5px solid #e09500;
         }
-
-        .unit-number {
-            font-size: 6rem;
+        .unit-header .unit-number {
+            font-size: 5rem;
             font-weight: bold;
-            color: #0056b3;
-            margin-right: 20px;
-            line-height: 1;
+            color: rgba(255, 255, 255, 0.8);
         }
-
-        .unit-title h1 {
+        .unit-header .unit-title h1 {
             margin: 0;
             font-size: 2.5rem;
-            color: #333;
         }
-        .unit-title h2 {
+        .unit-header .unit-title p {
             margin: 0;
-            font-size: 1.5rem;
-            color: #555;
-            font-weight: normal;
+            font-size: 1.2rem;
         }
-
         .outcomes {
-            background-color: #e7f3ff;
-            border: 1px solid #99caff;
-            border-radius: 5px;
+            background-color: #fffbeb;
+            border: 1px solid #f9e2af;
             padding: 15px;
-            margin-bottom: 25px;
+            margin-top: -10px;
+            margin-bottom: 20px;
+            border-radius: 0 0 8px 8px;
         }
-
-        .outcomes h3 {
+        .outcomes h4 {
             margin-top: 0;
-            color: #0056b3;
+            color: var(--header-bg);
         }
-
         .outcomes ul {
-            margin: 0;
+            list-style-type: '• ';
             padding-left: 20px;
+            margin: 0;
         }
-
-        .step-header {
-            background-color: #4CAF50;
-            color: white;
+        h2 {
+            background-color: var(--step-bg);
+            color: var(--step-color);
             padding: 10px 15px;
             border-radius: 5px;
+            font-size: 1.5rem;
+            margin-top: 40px;
+        }
+        h3 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
             margin-top: 30px;
-            margin-bottom: 20px;
-            display: inline-block;
         }
-        .step-header h2 {
-            margin: 0;
-            font-size: 1.4rem;
-            color: white;
+        .section {
+            margin-bottom: 30px;
         }
-        
-        .section-header {
-            font-weight: bold;
-            color: #d9534f;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        
         .image-gallery {
             display: flex;
             flex-wrap: wrap;
@@ -103,873 +100,905 @@
             justify-content: center;
             margin-bottom: 20px;
         }
-
-        .image-gallery .image-item {
+        .image-gallery figure {
+            margin: 0;
             text-align: center;
-            flex-basis: 150px;
+            width: 120px;
         }
-
         .image-gallery img {
             max-width: 100%;
-            height: auto;
-            border: 1px solid #ccc;
+            height: 80px;
+            object-fit: cover;
+            border: 1px solid #ddd;
             border-radius: 4px;
+            margin-bottom: 5px;
         }
-        
-        .dialogue {
-            background: #f9f9f9;
-            border-left: 5px solid #4CAF50;
-            padding: 15px;
-            margin: 20px 0;
+        .directions-container {
+            display: flex;
+            gap: 30px;
+            justify-content: space-around;
         }
-
-        .dialogue p {
+        .conversation p {
             margin: 5px 0;
         }
-        
-        .speaker {
-            font-weight: bold;
-            color: #0056b3;
+        .conversation strong {
+            color: var(--primary-color);
         }
-
-        .grammar-box {
-            border: 2px solid #4CAF50;
-            border-radius: 8px;
-            margin: 20px 0;
-            overflow: hidden;
-        }
-        .grammar-box h3 {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
-            margin: 0;
-        }
-        .grammar-box-content {
-            padding: 15px;
-        }
-
-        .grammar-notes table {
+        .grammar-table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 10px;
+            margin: 20px 0;
         }
-        .grammar-notes th, .grammar-notes td {
+        .grammar-table th, .grammar-table td {
             border: 1px solid #ddd;
-            padding: 8px;
+            padding: 12px;
             text-align: left;
         }
-        .grammar-notes th {
-            background-color: #e7f3ff;
-        }
-        
-        .usage-note {
-            background-color: #fffbe6;
-            border: 1px solid #ffeeba;
-            padding: 10px;
-            font-size: 0.9em;
-            margin-top: 10px;
-            border-radius: 4px;
-        }
-
-        .exercise {
-            margin-top: 25px;
-            padding: 15px;
-            border-top: 2px solid #eee;
-        }
-        
-        .exercise-title {
+        .grammar-table th {
+            background-color: #e9ecef;
             font-weight: bold;
-            font-size: 1.2rem;
         }
-
+        .grammar-note {
+            background-color: var(--grammar-bg);
+            border-left: 5px solid var(--grammar-border);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .grammar-note .usage-note {
+            background-color: #e0eaff;
+            border-left: 5px solid #b3c7ff;
+            padding: 10px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .exercise {
+            margin-bottom: 25px;
+        }
         .question {
             margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fdfdfd;
+            border: 1px solid #eee;
         }
-        
-        input[type="text"] {
+        .question-content {
+             display: flex;
+             align-items: center;
+             flex-wrap: wrap;
+             gap: 10px;
+        }
+        input[type="text"], select {
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            margin: 0 5px;
-            width: 150px;
-        }
-
-        button {
-            padding: 8px 15px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-        
-        button:hover {
-            background-color: #0056b3;
-        }
-        
-        button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
-        
-        .feedback {
-            margin-left: 10px;
-            font-weight: bold;
-            font-size: 0.9em;
-        }
-
-        .feedback.correct {
-            color: #28a745;
-        }
-
-        .feedback.incorrect {
-            color: #dc3545;
-        }
-
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            line-height: 1.6;
-            background-color: #f8f9fa;
-            color: #212529;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #ffffff;
-            padding: 20px 30px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            border-radius: 10px;
-        }
-        h1 {
-            color: #0056b3;
-            text-align: center;
-            border-bottom: 2px solid #dee2e6;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #4CAF50;
-            margin-top: 40px;
-            border-bottom: 1px solid #e9ecef;
-            padding-bottom: 5px;
-        }
-        .exercise-section {
-            margin-bottom: 30px;
-        }
-        .instructions {
-            background-color: #e7f3ff;
-            border-left: 4px solid #007bff;
-            padding: 10px 15px;
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-        ol {
-            list-style-type: none;
-            counter-reset: exercise-counter;
-            padding-left: 0;
-        }
-        li {
-            background-color: #fdfdfd;
-            border: 1px solid #e9ecef;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            counter-increment: exercise-counter;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        li::before {
-            content: counter(exercise-counter) ". ";
-            font-weight: bold;
-            margin-right: 10px;
-            color: #0056b3;
-        }
-        .question-content {
-            flex-grow: 1;
-        }
-        input[type="text"] {
-            padding: 8px;
-            border: 1px solid #ced4da;
-            border-radius: 4px;
-            margin: 0 5px;
-            width: 180px;
-            transition: border-color 0.2s;
-        }
-        input[type="text"]:focus {
-            border-color: #007bff;
-            outline: none;
+            font-size: 1rem;
         }
         button {
             padding: 8px 15px;
-            background-color: #007bff;
-            color: white;
             border: none;
+            background-color: var(--primary-color);
+            color: white;
             border-radius: 4px;
             cursor: pointer;
-            margin-left: 10px;
+            font-size: 1rem;
             transition: background-color 0.2s;
         }
         button:hover {
             background-color: #0056b3;
         }
-        button:disabled {
-            background-color: #adb5bd;
-            cursor: not-allowed;
-        }
         .feedback {
-            margin-left: 15px;
-            font-weight: bold;
-            font-size: 0.9em;
-            flex-basis: 100%;
             margin-top: 5px;
-            padding-left: 25px; /* space for number */
+            padding: 5px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
         }
-        .feedback.correct {
-            color: #28a745;
+        .correct {
+            color: var(--success-color);
         }
-        .feedback.incorrect {
-            color: #dc3545;
+        .incorrect {
+            color: var(--danger-color);
         }
-
+        .map-image {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .exercise3-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .exercise3-grid img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .instruction-box {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <header class="unit-header">
-        <div class="unit-number">9</div>
-        <div class="unit-title">
-            <h1>Imperatives</h1>
-            <h2>GIVING DIRECTIONS</h2>
-        </div>
-    </header>
-
-    <main>
+    <div class="container">
+        <header class="unit-header">
+            <div class="unit-title">
+                <h1>Imperatives</h1>
+                <p>GIVING DIRECTIONS</p>
+            </div>
+            <div class="unit-number">9</div>
+        </header>
         <div class="outcomes">
-            <h3>OUTCOMES</h3>
+            <h4>OUTCOMES</h4>
             <ul>
-                <li>Use the imperative to give directions, instructions, requests, and suggestions.</li>
-                <li>Draw a route on a map using information from a reading.</li>
-                <li>Give directions using information from a conversation.</li>
-                <li>Make requests.</li>
-                <li>Give directions to places on a map.</li>
-                <li>Write directions on how to get to a place.</li>
+                <li>Use the imperative to give directions, instructions, requests, and suggestions</li>
+                <li>Draw a route on a map using information from a reading</li>
+                <li>Give directions using information from a conversation</li>
+                <li>Make requests</li>
+                <li>Give directions to places on a map</li>
+                <li>Write directions on how to get to a place</li>
             </ul>
         </div>
 
-        <section id="step1">
-            <div class="step-header"><h2>STEP 1: GRAMMAR IN CONTEXT</h2></div>
-            <h3 class="section-header">BEFORE YOU READ</h3>
-            <p><strong>A.</strong> Study the words. Then complete the directions to the zoo.</p>
-
-            <div class="image-gallery">
-                <div class="image-item"><img src="FOG-1-9/1.png" alt="Car driving on a road"><p>drive</p></div>
-                <div class="image-item"><img src="FOG-1-9/2.png" alt="Man walking on a crosswalk"><p>walk</p></div>
-                <div class="image-item"><img src="FOG-1-9/3.png" alt="People inside a bus"><p>take the bus</p></div>
-                <div class="image-item"><img src="FOG-1-9/4.png" alt="Car parking"><p>park</p></div>
-                <div class="image-item"><img src="FOG-1-9/5.png" alt="Turn left and turn right sign"><p>turn left / turn right</p></div>
-            </div>
-
-            <div class="exercise">
-                <h4>Directions by Car</h4>
-                <div class="question">
-                    1. <input type="text" id="q1-1"> to Exit 10 on Route 4. 
-                    <button onclick="checkAnswer(this, 'q1-1', 'drive', 'Use a verb from the pictures.')">Submit</button>
-                    <span class="feedback"></span>
-                </div>
-                <div class="question">
-                    2. <input type="text" id="q1-2"> right on Elm Street.
-                    <button onclick="checkAnswer(this, 'q1-2', 'turn', 'What action do you do at a corner?')">Submit</button>
-                    <span class="feedback"></span>
-                </div>
-                <div class="question">
-                    3. <input type="text" id="q1-3"> your car at the zoo entrance.
-                    <button onclick="checkAnswer(this, 'q1-3', 'park', 'What do you do with your car when you arrive?')">Submit</button>
-                    <span class="feedback"></span>
-                </div>
-            </div>
-
-            <div class="exercise">
-                <h4>Directions by Bus</h4>
-                <div class="question">
-                    1. <input type="text" id="q1-4"> the number 4 bus to the zoo. Get off at Elm Street.
-                    <button onclick="checkAnswer(this, 'q1-4', 'take', 'Look at the picture for buses.')">Submit</button>
-                    <span class="feedback"></span>
-                </div>
-                <div class="question">
-                    2. <input type="text" id="q1-5"> to the zoo entrance.
-                    <button onclick="checkAnswer(this, 'q1-5', 'walk', 'After the bus, how do you get to the entrance?')">Submit</button>
-                    <span class="feedback"></span>
-                </div>
-            </div>
-
-            <h3 class="section-header">READ</h3>
-            <p>Read this conversation.</p>
-            <div class="dialogue">
-                <h4>Don't Park Here</h4>
-                <p><span class="speaker">MARK:</span> Is the restaurant near here? I'm hungry.</p>
-                <p><span class="speaker">STEVE:</span> Yes, it is.</p>
-                <p><span class="speaker">MARK:</span> Is it good?</p>
-                <p><span class="speaker">STEVE:</span> <strong>Don't worry.</strong> It's very good. It's Indian food.</p>
-                <p><span class="speaker">MARK:</span> Great! I love Indian food.</p>
-                <p><span class="speaker">STEVE:</span> Now <strong>drive</strong> to the corner and <strong>turn</strong> left at Jackson Street.</p>
-                <p><span class="speaker">MARK:</span> At the gas station?</p>
-                <p><span class="speaker">STEVE:</span> Yes. Then <strong>go</strong> two blocks on Jackson.</p>
-                <p><span class="speaker">MARK:</span> Got it.¹</p>
-                <p><span class="speaker">STEVE:</span> OK. <strong>Turn</strong> right at the next corner. At Third Avenue?</p>
-                <p><span class="speaker">MARK:</span> Yes. The restaurant is on the corner on your right.</p>
-                <p><span class="speaker">STEVE:</span> Is that it?</p>
-                <p><span class="speaker">MARK:</span> Yes, it is. <strong>Don't park</strong> here. It's a bus stop. <strong>Park</strong> behind the truck.</p>
-                <p><span class="speaker">STEVE:</span> OK. Please <strong>hand</strong> me² my jacket. ... Uh, wait a second. ... Steve? The restaurant is empty.</p>
-                <p><span class="speaker">MARK:</span> Really? It's usually packed.³</p>
-                <p><span class="speaker">STEVE:</span> Is that a sign on the door?</p>
-                <p><span class="speaker">MARK:</span> Uh-huh. ... Closed for vacation.</p>
-                <small>¹ got it: I understand | ² hand me: give me | ³ packed: full of people</small>
-            </div>
+        <!-- STEP 1 -->
+        <section id="step1" class="section">
+            <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+            
+            <h3>BEFORE YOU READ</h3>
+            <p><strong>A:</strong> Study the words. Then complete the directions to the zoo.</p>
             
             <div class="image-gallery">
-                 <div class="image-item"><img src="FOG-1-9/6.png" alt="Map 1"></div>
-                 <div class="image-item"><img src="FOG-1-9/7.png" alt="Map 2"></div>
-                 <div class="image-item"><img src="FOG-1-9/8.png" alt="Map 3"></div>
+                <figure><img src="FOG-1-9/1.png" alt="Driving a car"><figcaption>drive</figcaption></figure>
+                <figure><img src="FOG-1-9/2.png" alt="Man walking"><figcaption>walk</figcaption></figure>
+                <figure><img src="FOG-1-9/3.png" alt="People on a bus"><figcaption>take the bus</figcaption></figure>
+                <figure><img src="FOG-1-9/4.png" alt="Cars parked"><figcaption>park</figcaption></figure>
+                <figure><img src="FOG-1-9/5.png" alt="Road sign"><figcaption>turn left / turn right</figcaption></figure>
             </div>
 
-            <h3 class="section-header">AFTER YOU READ</h3>
-            <p><strong>A. COMPREHENSION:</strong> Look at the conversation again. Then look at the map. Draw Mark's route. Draw an X at the restaurant.</p>
-             <div class="image-gallery">
-                 <div class="image-item" style="flex-basis: 100%;"><img src="FOG-1-9/9.png" alt="Comprehension map"></div>
-            </div>
-        </section>
-
-        <section id="step2">
-            <div class="step-header"><h2>STEP 2: GRAMMAR PRESENTATION</h2></div>
-            
-            <div class="grammar-box">
-                <h3>IMPERATIVES</h3>
-                <div class="grammar-box-content">
-                    <table class="grammar-notes">
-                        <thead>
-                            <tr>
-                                <th>Affirmative</th>
-                                <th>Negative</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Turn left.</td>
-                                <td>Don't turn right.</td>
-                            </tr>
-                            <tr>
-                                <td>Park here.</td>
-                                <td>Don't park there.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="grammar-box">
-                <h3>GRAMMAR NOTES</h3>
-                <div class="grammar-box-content">
-                    <h4>1. Imperative</h4>
-                    <p>Use the imperative for <strong>directions, instructions, requests, and suggestions.</strong></p>
-                    <ul>
-                        <li><strong>Turn left.</strong> (direction)</li>
-                        <li><strong>Answer the questions.</strong> (instruction)</li>
-                        <li><strong>Please hand me my jacket.</strong> (request)</li>
-                        <li><strong>Try this cake.</strong> (suggestion)</li>
-                    </ul>
-                    <p>Use the <strong>base form</strong> of the verb for the imperative.</p>
-                    <ul>
-                        <li><strong>Open</strong> the door.</li>
-                    </ul>
-                    <div class="usage-note">
-                        <strong>USAGE NOTE:</strong> <em>Please</em> makes a request more polite. <em>Please</em> comes at the beginning or the end of the sentence.
-                        <br><strong>Please</strong> help me. / Help me, <strong>please</strong>.
+            <div class="directions-container">
+                <div class="directions-by-car">
+                    <h4>Directions by Car</h4>
+                    <div class="question">
+                        <div class="question-content">
+                            <span>1. </span>
+                            <input type="text" id="q1-1" placeholder="...">
+                            <button onclick="checkAnswer(this, 'drive', 'q1-1')">Submit</button>
+                            <span> to Exit 10 on Route 4.</span>
+                        </div>
+                        <div class="feedback"></div>
                     </div>
-
-                    <h4 style="margin-top: 20px;">2. Negative Form of the Imperative</h4>
-                    <p>Use <strong>do not + the base form</strong> for the negative.</p>
-                    <ul>
-                        <li><strong>Do not park here.</strong></li>
-                    </ul>
-                    <p><em>Don't</em> is the short form (contraction) of <em>do not</em>.</p>
-                    <ul>
-                        <li><strong>Don't park here.</strong></li>
-                    </ul>
+                     <div class="question">
+                        <div class="question-content">
+                            <span>2. </span>
+                            <input type="text" id="q1-2" placeholder="...">
+                            <button onclick="checkAnswer(this, 'turn', 'q1-2')">Submit</button>
+                            <span> right on Elm Street.</span>
+                        </div>
+                        <div class="feedback"></div>
+                    </div>
+                     <div class="question">
+                        <div class="question-content">
+                            <span>3. </span>
+                            <input type="text" id="q1-3" placeholder="...">
+                            <button onclick="checkAnswer(this, 'park', 'q1-3')">Submit</button>
+                            <span> your car at the zoo entrance.</span>
+                        </div>
+                        <div class="feedback"></div>
+                    </div>
                 </div>
+                <div class="directions-by-bus">
+                    <h4>Directions by Bus</h4>
+                    <div class="question">
+                        <div class="question-content">
+                            <span>1. </span>
+                            <input type="text" id="q1-4" placeholder="...">
+                            <button onclick="checkAnswer(this, 'take', 'q1-4')">Submit</button>
+                            <span> the number 4 bus to the zoo. Get off at Elm Street.</span>
+                        </div>
+                        <div class="feedback"></div>
+                    </div>
+                     <div class="question">
+                        <div class="question-content">
+                            <span>2. </span>
+                            <input type="text" id="q1-5" placeholder="...">
+                            <button onclick="checkAnswer(this, 'walk', 'q1-5')">Submit</button>
+                            <span> to the zoo entrance.</span>
+                        </div>
+                        <div class="feedback"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3>READ</h3>
+            <p>Read this conversation.</p>
+            <div style="display: flex; gap: 20px; align-items: flex-start;">
+                <div class="conversation" style="flex: 1;">
+                    <h4>Don't Park Here</h4>
+                    <p><strong>MARK:</strong> Is the restaurant near here? I'm hungry.</p>
+                    <p><strong>STEVE:</strong> Yes, it is.</p>
+                    <p><strong>MARK:</strong> Is it good?</p>
+                    <p><strong>STEVE:</strong> <strong>Don't worry</strong>. It's very good. It's Indian food.</p>
+                    <p><strong>MARK:</strong> Great! I love Indian food.</p>
+                    <p><strong>STEVE:</strong> Now <strong>drive</strong> to the corner and <strong>turn</strong> left at Jackson Street.</p>
+                    <p><strong>MARK:</strong> At the gas station?</p>
+                    <p><strong>STEVE:</strong> Yes. Then <strong>go</strong> two blocks on Jackson.</p>
+                    <p><strong>MARK:</strong> Got it.</p>
+                    <p><strong>STEVE:</strong> OK. <strong>Turn</strong> right at the next corner.</p>
+                    <p><strong>MARK:</strong> At Third Avenue?</p>
+                    <p><strong>STEVE:</strong> Yes. The restaurant is on the corner on your right.</p>
+                    <p><strong>MARK:</strong> Is that it?</p>
+                    <p><strong>STEVE:</strong> Yes, it is. <strong>Don't park</strong> here. It's a bus stop. <strong>Park</strong> behind the truck.</p>
+                    <p><strong>MARK:</strong> OK. Please <strong>hand me</strong> my jacket. ... Uh, wait a second. ... Steve? The restaurant is empty.</p>
+                    <p><strong>STEVE:</strong> Really? It's usually packed.</p>
+                    <p><strong>MARK:</strong> Is that a sign on the door?</p>
+                    <p><strong>STEVE:</strong> Uh-huh. ... Closed for vacation.</p>
+                </div>
+                <div style="flex: 1;">
+                    <img src="FOG-1-9/6.png" alt="Map of the route to the restaurant" class="map-image">
+                </div>
+            </div>
+
+            <h3>AFTER YOU READ</h3>
+            <p><strong>A:</strong> Look at the conversation again. Then look at the map. Draw Mark's route. Draw an X at the restaurant.</p>
+            <img src="FOG-1-9/7.png" alt="Map for comprehension activity" class="map-image">
+            <p><em>(Solution: The route starts at "You are here," goes up to Jackson Street, turns left, goes two blocks to Third Avenue, turns right, and the restaurant "India Gardens" is on the corner of Third and Jackson.)</em></p>
+        </section>
+
+        <!-- STEP 2 -->
+        <section id="step2" class="section">
+            <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+            
+            <h3>IMPERATIVES</h3>
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Affirmative</th>
+                        <th>Negative</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Turn left.</td>
+                        <td>Don't turn right.</td>
+                    </tr>
+                    <tr>
+                        <td>Park here.</td>
+                        <td>Don't park there.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>GRAMMAR NOTES</h3>
+            <div class="grammar-note">
+                <h4>1. Imperative</h4>
+                <p>Use the imperative for <strong>directions, instructions, requests,</strong> and <strong>suggestions</strong>.</p>
+                <ul>
+                    <li><strong>Turn left.</strong> (direction)</li>
+                    <li><strong>Answer the questions.</strong> (instruction)</li>
+                    <li><strong>Please hand me my jacket.</strong> (request)</li>
+                    <li><strong>Try this cake.</strong> (suggestion)</li>
+                </ul>
+                <p>Use the <strong>base form</strong> of the verb for the imperative.</p>
+                <ul>
+                    <li><strong>Open</strong> the door.</li>
+                </ul>
+                <div class="usage-note">
+                    <strong>USAGE NOTE:</strong> <em>Please</em> makes a request more polite. <em>Please</em> comes at the beginning or the end of the sentence.
+                    <br><strong>Please help me.</strong>
+                    <br><strong>Help me, please.</strong>
+                </div>
+            </div>
+
+            <div class="grammar-note">
+                <h4>2. Negative Form of the Imperative</h4>
+                <p>Use <strong>do not + the base form</strong> for the negative.</p>
+                <ul>
+                    <li><strong>Do not park here.</strong></li>
+                </ul>
+                <p><em>Don't</em> is the short form (contraction) of <em>do not</em>.</p>
+                 <ul>
+                    <li><strong>Don't park here.</strong></li>
+                </ul>
             </div>
         </section>
-        
-        <section id="step3">
-            <div class="step-header"><h2>STEP 3: FOCUSED PRACTICE</h2></div>
 
+        <!-- STEP 3 -->
+        <section id="step3" class="section">
+            <h2>STEP 3: FOCUSED PRACTICE</h2>
+
+            <h3>EXERCISE 1: DISCOVER THE GRAMMAR</h3>
             <div class="exercise">
-                <p class="exercise-title">EXERCISE 1: DISCOVER THE GRAMMAR</p>
-                <p>Read the sentences. Check the box for the negative imperatives.</p>
+                <p>Read the sentences. Underline the negative imperatives. Then match the sentences.</p>
                 <div class="question">
-                    <input type="checkbox" id="ex1-1"> 1. Don't walk. 
-                    <input type="checkbox" id="ex1-a"> a. Walk. The restaurant is near here.
+                    <div class="question-content">
+                        <span>1. <u>Don't walk.</u></span>
+                        <select id="ex1-1">
+                            <option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option><option value="f">f</option>
+                        </select>
+                        <button onclick="checkAnswer(this, 'c', 'ex1-1')">Submit</button>
+                        <span>c. Take the bus.</span>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                <div class="question">
+                    <div class="question-content">
+                        <span>2. <u>Don't park there.</u></span>
+                        <select id="ex1-2">
+                            <option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option><option value="f">f</option>
+                        </select>
+                        <button onclick="checkAnswer(this, 'd', 'ex1-2')">Submit</button>
+                        <span>d. It's a bus stop.</span>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                <div class="question">
+                    <div class="question-content">
+                        <span>3. <u>Don't drive to the restaurant.</u></span>
+                        <select id="ex1-3">
+                            <option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option><option value="f">f</option>
+                        </select>
+                        <button onclick="checkAnswer(this, 'a', 'ex1-3')">Submit</button>
+                        <span>a. Walk. The restaurant is near here.</span>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                <div class="question">
+                    <div class="question-content">
+                        <span>4. <u>Don't turn left at the corner.</u></span>
+                         <select id="ex1-4">
+                            <option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option><option value="f">f</option>
+                        </select>
+                        <button onclick="checkAnswer(this, 'b', 'ex1-4')">Submit</button>
+                        <span>b. Turn right.</span>
+                    </div>
+                    <div class="feedback"></div>
                 </div>
                  <div class="question">
-                    <input type="checkbox" id="ex1-2"> 2. Don't park there.
-                    <input type="checkbox" id="ex1-b"> b. Turn right.
+                    <div class="question-content">
+                        <span>5. <u>Don't worry.</u></span>
+                         <select id="ex1-5">
+                            <option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option><option value="f">f</option>
+                        </select>
+                        <button onclick="checkAnswer(this, 'e', 'ex1-5')">Submit</button>
+                        <span>e. It's next to you.</span>
+                    </div>
+                    <div class="feedback"></div>
                 </div>
                  <div class="question">
-                    <input type="checkbox" id="ex1-3"> 3. Don't drive to the restaurant.
-                    <input type="checkbox"id="ex1-c"> c. Take the bus.
+                    <div class="question-content">
+                        <span>6. Please hand me the dictionary.</span>
+                         <select id="ex1-6">
+                            <option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option><option value="f">f</option>
+                        </select>
+                        <button onclick="checkAnswer(this, 'f', 'ex1-6')">Submit</button>
+                        <span>f. You're not late. (Note: The book's matching seems odd. 'f' is likely a typo for another option, but we'll follow the book's letters. A better match for "Don't worry" would be "We have plenty of time.")</span>
+                    </div>
+                    <div class="feedback"></div>
                 </div>
-                 <div class="question">
-                    <input type="checkbox" id="ex1-4"> 4. Don't turn left at the corner.
-                    <input type="checkbox" id="ex1-d"> d. It's a bus stop.
-                </div>
-                 <div class="question">
-                    <input type="checkbox" id="ex1-5"> 5. Don't worry.
-                    <input type="checkbox" id="ex1-e"> e. It's next to you.
-                </div>
-                 <div class="question">
-                    <input type="checkbox" id="ex1-6"> 6. Please hand me the dictionary.
-                    <input type="checkbox" id="ex1-f"> f. You're not late.
-                </div>
-                <button onclick="checkCheckboxes()">Check Answers</button>
-                <span id="ex1-feedback" class="feedback"></span>
             </div>
 
-             <div class="exercise">
-                <p class="exercise-title">EXERCISE 2: AFFIRMATIVE AND NEGATIVE IMPERATIVES</p>
-                <p>Complete the conversations with the correct form of the imperatives. Use contractions.</p>
+            <h3>EXERCISE 2: AFFIRMATIVE AND NEGATIVE IMPERATIVES</h3>
+            <div class="exercise">
                 <h4>Conversation 1</h4>
-                <p><strong>AMANDA:</strong> Is the restaurant far?</p>
-                <p><strong>MARK:</strong> Yes, it is. (1. not / walk) <input type="text" id="ex2-1">. (2. take) <input type="text" id="ex2-2"> the bus.
-                <button onclick="checkConversation1()">Check 1 & 2</button><span class="feedback" id="fb2-1"></span></p>
-                <p><strong>AMANDA:</strong> OK. So, where's the closest bus stop?</p>
-                <p><strong>MARK:</strong> (3. walk) <input type="text" id="ex2-3"> to the corner. Then (4. turn) <input type="text" id="ex2-4"> left. The bus stop is at the corner. But (5. not / take) <input type="text" id="ex2-5"> the number 4 bus. (6. take) <input type="text" id="ex2-6"> the number 7. (7. get) <input type="text" id="ex2-7"> off at Oak Street. The number 7 stops right in front of the restaurant. The number 4 bus stops a few blocks away.
-                <button onclick="checkConversation2()">Check 3-7</button><span class="feedback" id="fb2-2"></span></p>
-                <p><strong>AMANDA:</strong> OK. Thanks.</p>
+                <div class="question">
+                    AMANDA: Is the restaurant far?<br>
+                    MARK: Yes, it is. <strong>Don't walk</strong> (1. not / walk). 
+                    <input type="text" id="ex2-2" placeholder="(2. take)">
+                    <button onclick="checkAnswer(this, 'Take', 'ex2-2')">Submit</button>
+                     the bus.
+                </div>
+                <div class="feedback"></div>
+
+                <div class="question">
+                    AMANDA: OK. So, where's the closest bus stop?<br>
+                    MARK: 
+                    <input type="text" id="ex2-3" placeholder="(3. walk)">
+                    <button onclick="checkAnswer(this, 'Walk', 'ex2-3')">Submit</button>
+                     to the corner. Then 
+                    <input type="text" id="ex2-4" placeholder="(4. turn)">
+                    <button onclick="checkAnswer(this, 'turn', 'ex2-4')">Submit</button>
+                     left. The bus stop is at the corner. But
+                    <input type="text" id="ex2-5" placeholder="(5. not / take)">
+                    <button onclick="checkAnswer(this, 'don\'t take', 'ex2-5')">Submit</button>
+                     the number 4 bus. 
+                    <input type="text" id="ex2-6" placeholder="(6. take)">
+                    <button onclick="checkAnswer(this, 'Take', 'ex2-6')">Submit</button>
+                     the number 7.
+                    <input type="text" id="ex2-7" placeholder="(7. get)">
+                    <button onclick="checkAnswer(this, 'Get', 'ex2-7')">Submit</button>
+                     off at Oak Street. The number 7 stops right in front of the restaurant. The number 4 bus stops a few blocks away.
+                </div>
+                <div class="feedback"></div>
+                <p>AMANDA: OK. Thanks.</p>
                 
                 <h4>Conversation 2</h4>
-                <p><strong>STEVE:</strong> Where's the bookstore?</p>
-                <p><strong>JESSICA:</strong> It's on First Street. (8. drive) <input type="text" id="ex2-8"> to Main Street. Then (9. turn) <input type="text" id="ex2-9"> right on First. It's on the right side of the street.
-                <button onclick="checkConversation3()">Check 8 & 9</button><span class="feedback" id="fb2-3"></span></p>
-                <p><strong>STEVE:</strong> It's 6 o'clock. Is the bookstore still open?</p>
-                <p><strong>JESSICA:</strong> (10. not / worry) <input type="text" id="ex2-10">. It's open until 9 p.m. today.
-                <button onclick="checkConversation4()">Check 10</button><span class="feedback" id="fb2-4"></span></p>
-                <p><strong>STEVE:</strong> Thanks.</p>
+                <div class="question">
+                     STEVE: Where's the bookstore?<br>
+                     JESSICA: It's on First Street. 
+                     <input type="text" id="ex2-8" placeholder="(8. drive)">
+                     <button onclick="checkAnswer(this, 'Drive', 'ex2-8')">Submit</button>
+                      to Main Street. Then 
+                     <input type="text" id="ex2-9" placeholder="(9. turn)">
+                     <button onclick="checkAnswer(this, 'turn', 'ex2-9')">Submit</button>
+                      right on First. It's on the right side of the street.
+                </div>
+                <div class="feedback"></div>
+                 <div class="question">
+                     STEVE: It's 6 o'clock. Is the bookstore still open?<br>
+                     JESSICA: 
+                     <input type="text" id="ex2-10" placeholder="(10. not / worry)">
+                     <button onclick="checkAnswer(this, 'Don\'t worry', 'ex2-10')">Submit</button>
+                     . It's open until 9 p.m. today.
+                </div>
+                <div class="feedback"></div>
+                 <p>STEVE: Thanks.</p>
+            </div>
+
+            <h3>EXERCISE 3: IMPERATIVE FOR INSTRUCTIONS, REQUESTS, AND SUGGESTIONS</h3>
+            <div class="exercise exercise3-grid">
+                <div class="question">
+                    <img src="FOG-1-9/8.png" alt="Woman gesturing to a man to sit on a couch">
+                    <div class="question-content">
+                        <span>1. </span>
+                        <input type="text" id="ex3-1" placeholder="Write the sentence...">
+                        <button onclick="checkAnswer(this, 'Please sit down.', 'ex3-1')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <img src="FOG-1-9/9.png" alt="Woman telling child to close a window">
+                    <div class="question-content">
+                        <span>2. </span>
+                        <input type="text" id="ex3-2" placeholder="Write the sentence...">
+                        <button onclick="checkAnswer(this, 'Close the window, please.', 'ex3-2')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <img src="FOG-1-9/10.png" alt="Man gesturing to another man not to smoke">
+                    <div class="question-content">
+                        <span>3. </span>
+                        <input type="text" id="ex3-3" placeholder="Write the sentence...">
+                        <button onclick="checkAnswer(this, 'Please don\'t smoke.', 'ex3-3')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <img src="FOG-1-9/11.png" alt="Teacher pointing to a page in a book">
+                    <div class="question-content">
+                        <span>4. </span>
+                        <input type="text" id="ex3-4" placeholder="Write the sentence...">
+                        <button onclick="checkAnswer(this, 'Please turn to page six.', 'ex3-4')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <img src="FOG-1-9/12.png" alt="Man telling a child not to go in deep water">
+                    <div class="question-content">
+                        <span>5. </span>
+                        <input type="text" id="ex3-5" placeholder="Write the sentence...">
+                        <button onclick="checkAnswer(this, 'Don\'t go in the deep water.', 'ex3-5')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <img src="FOG-1-9/13.png" alt="Woman offering a piece of cake to a child">
+                    <div class="question-content">
+                        <span>6. </span>
+                        <input type="text" id="ex3-6" placeholder="Write the sentence...">
+                        <button onclick="checkAnswer(this, 'Try this cake.', 'ex3-6')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+
+            <h3>EXERCISE 4: IMPERATIVE FOR INSTRUCTIONS</h3>
+            <div class="exercise">
+                <p><strong>A:</strong> Look at the sentence. Follow the instructions.</p>
+                <div class="instruction-box">
+                    <strong>Do not turn at the corner.</strong>
+                    <ol>
+                        <li>Underline the word <em>turn</em>.</li>
+                        <li>Change the word <em>corner</em> to <em>stop sign</em>.</li>
+                        <li>Change <em>Do not</em> to the contraction (short form).</li>
+                        <li>Write the new sentence on the line.</li>
+                    </ol>
+                </div>
+                <div class="question">
+                    <div class="question-content">
+                        <input type="text" id="ex4-A" style="width: 100%;" placeholder="Write the new sentence...">
+                        <button onclick="checkAnswer(this, 'Don\'t turn at the stop sign.', 'ex4-A')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+
+                <p><strong>B:</strong> Look at the sentence. Follow the instructions.</p>
+                <div class="instruction-box">
+                    <strong>Do not park in the driveway.</strong>
+                    <ol>
+                        <li>Add <em>please</em> to the sentence.</li>
+                        <li>Change <em>do not</em> to the short form.</li>
+                        <li>Change <em>driveway</em> to <em>garage</em>.</li>
+                        <li>Write the new sentence on the line.</li>
+                    </ol>
+                </div>
+                <div class="question">
+                    <div class="question-content">
+                        <input type="text" id="ex4-B" style="width: 100%;" placeholder="Write the new sentence...">
+                        <button onclick="checkAnswer(this, ['Please don\'t park in the garage.', 'Don\'t park in the garage, please.'], 'ex4-B')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
             </div>
             
+            <h3>EXERCISE 5: EDITING</h3>
             <div class="exercise">
-                <p class="exercise-title">EXERCISE 3: IMPERATIVE FOR INSTRUCTIONS, REQUESTS, AND SUGGESTIONS</p>
-                <p>Look at the pictures. What are the people saying? Write the correct sentences from the box.</p>
-                <div class="usage-note" style="text-align:center;">
-                    Close the window, please. | Don't go in the deep water. | Please don't smoke. <br>
-                    Please sit down. | Please turn to page six. | Try this cake.
+                <p>There are six mistakes in the sentences. The first mistake is corrected. Find and correct five more.</p>
+                 <div class="question">
+                    <div class="question-content">
+                        <span>1. Please not to open your book. -> </span>
+                        <input type="text" id="ex5-1" value="Please don't open your book.">
+                        <button onclick="checkAnswer(this, 'Please don\'t open your book.', 'ex5-1')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
                 </div>
-                <div class="image-gallery">
-                    <div class="image-item" style="flex-basis: 45%;">
-                        <img src="FOG-1-9/10.png" alt="Woman gesturing to a sofa">
-                        <p>1. <strong>Please sit down.</strong> (Example)</p>
+                <div class="question">
+                    <div class="question-content">
+                        <span>2. You no sit here. It's not your seat. -> </span>
+                        <input type="text" id="ex5-2" placeholder="Correct the sentence...">
+                        <button onclick="checkAnswer(this, 'Don\'t sit here.', 'ex5-2')">Submit</button>
                     </div>
-                    <div class="image-item" style="flex-basis: 45%;">
-                        <img src="FOG-1-9/11.png" alt="Woman and child by a window">
-                        <p>2. <input type="text" id="ex3-2" style="width:90%">
-                        <button onclick="checkAnswer(this, 'ex3-2', 'close the window, please', 'The child might be cold.')">Submit</button><span class="feedback"></span></p>
-                    </div>
-                    <div class="image-item" style="flex-basis: 45%;">
-                        <img src="FOG-1-9/12.png" alt="Man stopping another man from lighting something">
-                        <p>3. <input type="text" id="ex3-3" style="width:90%">
-                        <button onclick="checkAnswer(this, 'ex3-3', 'please don\'t smoke', 'This is a health request.')">Submit</button><span class="feedback"></span></p>
-                    </div>
-                    <div class="image-item" style="flex-basis: 45%;">
-                        <img src="FOG-1-9/13.png" alt="Teacher pointing to a book with number 6">
-                        <p>4. <input type="text" id="ex3-4" style="width:90%">
-                        <button onclick="checkAnswer(this, 'ex3-4', 'please turn to page six', 'What does a teacher say?')">Submit</button><span class="feedback"></span></p>
-                    </div>
-                    <div class="image-item" style="flex-basis: 45%;">
-                        <img src="FOG-1-9/14.png" alt="Adult stopping a child from going into water">
-                        <p>5. <input type="text" id="ex3-5" style="width:90%">
-                        <button onclick="checkAnswer(this, 'ex3-5', 'don\'t go in the deep water', 'This is a warning about safety.')">Submit</button><span class="feedback"></span></p>
-                    </div>
-                    <div class="image-item" style="flex-basis: 45%;">
-                        <img src="FOG-1-9/15.png" alt="Woman offering cake to a girl">
-                        <p>6. <input type="text" id="ex3-6" style="width:90%">
-                        <button onclick="checkAnswer(this, 'ex3-6', 'try this cake', 'This is a suggestion.')">Submit</button><span class="feedback"></span></p>
-                    </div>
+                    <div class="feedback"></div>
                 </div>
+                 <div class="question">
+                    <div class="question-content">
+                        <span>3. Turn please to page 3. -> </span>
+                        <input type="text" id="ex5-3" placeholder="Correct the sentence...">
+                        <button onclick="checkAnswer(this, ['Please turn to page 3.', 'Turn to page 3, please.'], 'ex5-3')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <div class="question-content">
+                        <span>4. Completes the sentences. -> </span>
+                        <input type="text" id="ex5-4" placeholder="Correct the sentence...">
+                        <button onclick="checkAnswer(this, 'Complete the sentences.', 'ex5-4')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <div class="question-content">
+                        <span>5. No close the window. Keep it open. -> </span>
+                        <input type="text" id="ex5-5" placeholder="Correct the sentence...">
+                        <button onclick="checkAnswer(this, 'Don\'t close the window.', 'ex5-5')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+                 <div class="question">
+                    <div class="question-content">
+                        <span>6. Don't to park there. Park at the corner. -> </span>
+                        <input type="text" id="ex5-6" placeholder="Correct the sentence...">
+                        <button onclick="checkAnswer(this, 'Don\'t park there.', 'ex5-6')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEW -->
+        <section id="review" class="section">
+            <h2>UNIT 9 REVIEW</h2>
+            
+            <h3>A: Complete the sentences</h3>
+             <div class="question">
+                <div class="question-content">
+                    <span>1. Please </span>
+                    <input type="text" id="revA-1" placeholder="not / open">
+                    <button onclick="checkAnswer(this, 'don\'t open', 'revA-1')">Submit</button>
+                    <span> the window. It's cold.</span>
+                </div>
+                <div class="feedback"></div>
+            </div>
+             <div class="question">
+                <div class="question-content">
+                    <span>2. </span>
+                    <input type="text" id="revA-2" placeholder="walk">
+                    <button onclick="checkAnswer(this, 'Walk', 'revA-2')">Submit</button>
+                    <span> to the corner. Then turn left.</span>
+                </div>
+                <div class="feedback"></div>
+            </div>
+             <div class="question">
+                <div class="question-content">
+                    <span>3. </span>
+                    <input type="text" id="revA-3" placeholder="not / eat">
+                    <button onclick="checkAnswer(this, 'Don\'t eat', 'revA-3')">Submit</button>
+                    <span> those cookies. They're terrible.</span>
+                </div>
+                <div class="feedback"></div>
+            </div>
+             <div class="question">
+                <div class="question-content">
+                    <span>4. </span>
+                    <input type="text" id="revA-4" placeholder="not / worry">
+                    <button onclick="checkAnswer(this, 'Don\'t worry', 'revA-4')">Submit</button>
+                    <span>. We aren't late.</span>
+                </div>
+                <div class="feedback"></div>
+            </div>
+             <div class="question">
+                <div class="question-content">
+                    <span>5. </span>
+                    <input type="text" id="revA-5" placeholder="turn">
+                    <button onclick="checkAnswer(this, 'Turn', 'revA-5')">Submit</button>
+                    <span> left at the next corner.</span>
+                </div>
+                <div class="feedback"></div>
+            </div>
+            
+            <h3>B: Look at the sentence. Follow the instructions.</h3>
+            <div class="instruction-box">
+                <strong>Do not start Unit 9.</strong>
+                <ol>
+                    <li>Add <em>please</em> to the sentence.</li>
+                    <li>Underline the word <em>start</em>.</li>
+                    <li>Change <em>do not</em> to the short form.</li>
+                    <li>Change the number <em>9</em> to <em>10</em>.</li>
+                    <li>Write the new sentence on the line.</li>
+                </ol>
+            </div>
+            <div class="question">
+                <div class="question-content">
+                    <input type="text" id="revB" style="width: 100%;" placeholder="Write the new sentence...">
+                    <button onclick="checkAnswer(this, ['Please don\'t start Unit 10.', 'Don\'t start Unit 10, please.'], 'revB')">Submit</button>
+                </div>
+                <div class="feedback"></div>
+            </div>
+
+            <h3>C: Correct the sentences. There are five mistakes.</h3>
+             <div class="question">
+                <div class="question-content">
+                    <span>1. Please to stop at the corner. -> </span>
+                    <input type="text" id="revC-1" placeholder="Correct the sentence...">
+                    <button onclick="checkAnswer(this, 'Please stop at the corner.', 'revC-1')">Submit</button>
+                </div>
+                <div class="feedback"></div>
+            </div>
+             <div class="question">
+                <div class="question-content">
+                    <span>2. You not turn left. -> </span>
+                    <input type="text" id="revC-2" placeholder="Correct the sentence...">
+                    <button onclick="checkAnswer(this, 'Don\'t turn left.', 'revC-2')">Submit</button>
+                </div>
+                <div class="feedback"></div>
+            </div>
+             <div class="question">
+                <div class="question-content">
+                    <span>3. Turns right, please. -> </span>
+                    <input type="text" id="revC-3" placeholder="Correct the sentence...">
+                    <button onclick="checkAnswer(this, 'Turn right, please.', 'revC-3')">Submit</button>
+                </div>
+                <div class="feedback"></div>
+            </div>
+             <div class="question">
+                <div class="question-content">
+                    <span>4. Don't please park here. -> </span>
+                    <input type="text" id="revC-4" placeholder="Correct the sentence...">
+                    <button onclick="checkAnswer(this, 'Please don\'t park here.', 'revC-4')">Submit</button>
+                </div>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                <div class="question-content">
+                    <span>5. Don't takes the bus. -> </span>
+                    <input type="text" id="revC-5" placeholder="Correct the sentence...">
+                    <button onclick="checkAnswer(this, 'Don\'t take the bus.', 'revC-5')">Submit</button>
+                </div>
+                <div class="feedback"></div>
             </div>
 
         </section>
 
-        <section id="review">
-            <div class="step-header" style="background-color: #f0ad4e;"><h2>UNIT 9 REVIEW</h2></div>
-            <p>Test yourself on the grammar of the unit.</p>
-            
-            <div class="exercise">
-                <p><strong>A.</strong> Complete the sentences. Use the correct forms of the words in the box.</p>
-                <div class="usage-note" style="text-align:center;">
-                    not / eat | not / open | not / worry | turn | walk
-                </div>
-                <div class="question">
-                    1. Please <input type="text" id="revA-1"> the window. It's cold.
-                    <button onclick="checkAnswer(this, 'revA-1', 'don\'t open', 'Use the negative form.')">Submit</button><span class="feedback"></span>
-                </div>
-                <div class="question">
-                    2. <input type="text" id="revA-2"> to the school. Then turn left.
-                    <button onclick="checkAnswer(this, 'revA-2', 'walk', 'This is a direction.')">Submit</button><span class="feedback"></span>
-                </div>
-                <div class="question">
-                    3. <input type="text" id="revA-3"> those cookies. They're terrible.
-                    <button onclick="checkAnswer(this, 'revA-3', 'don\'t eat', 'This is a negative suggestion.')">Submit</button><span class="feedback"></span>
-                </div>
-                <div class="question">
-                    4. <input type="text" id="revA-4">. We aren't late.
-                    <button onclick="checkAnswer(this, 'revA-4', 'don\'t worry', 'Reassuring someone.')">Submit</button><span class="feedback"></span>
-                </div>
-                <div class="question">
-                    5. <input type="text" id="revA-5"> left at the next corner.
-                    <button onclick="checkAnswer(this, 'revA-5', 'turn', 'A common direction.')">Submit</button><span class="feedback"></span>
-                </div>
-            </div>
-
-            <div class="exercise">
-                <p><strong>B.</strong> Correct the sentences. There are five mistakes.</p>
-                <div class="question">
-                    1. Please to stop at the corner. <br>
-                    Corrected: <input type="text" id="revC-1" style="width: 250px;">
-                    <button onclick="checkAnswer(this, 'revC-1', 'please stop at the corner', 'The imperative uses the base form of the verb.')">Submit</button><span class="feedback"></span>
-                </div>
-                 <div class="question">
-                    2. You not turn left. <br>
-                    Corrected: <input type="text" id="revC-2" style="width: 250px;">
-                    <button onclick="checkAnswer(this, 'revC-2', 'don\'t turn left', 'How do you make a negative imperative?')">Submit</button><span class="feedback"></span>
-                </div>
-                 <div class="question">
-                    3. Turns right, please. <br>
-                    Corrected: <input type="text" id="revC-3" style="width: 250px;">
-                    <button onclick="checkAnswer(this, 'revC-3', 'turn right, please', 'The imperative uses the base form of the verb.')">Submit</button><span class="feedback"></span>
-                </div>
-                 <div class="question">
-                    4. Don't please park here. <br>
-                    Corrected: <input type="text" id="revC-4" style="width: 250px;">
-                    <button onclick="checkAnswer(this, 'revC-4', ['please don\'t park here', 'don\'t park here, please'], 'Where can `please` go in a sentence?')">Submit</button><span class="feedback"></span>
-                </div>
-                 <div class="question">
-                    5. Don't takes the bus. <br>
-                    Corrected: <input type="text" id="revC-5" style="width: 250px;">
-                    <button onclick="checkAnswer(this, 'revC-5', 'don\'t take the bus', 'What verb form follows `don\'t`?')">Submit</button><span class="feedback"></span>
-                </div>
-            </div>
-
-        </section>
-    </main>
-</div>
-
-<div class="container">
-    <h1>Unit 9: Imperatives - 100 Additional Exercises</h1>
-
-    <!-- Section 1: Affirmative Imperatives -->
-    <div class="exercise-section">
-        <h2>Section 1: Fill-in-the-Blank (Affirmative)</h2>
-        <p class="instructions">Complete the sentences with the correct imperative form of the verb in parentheses.</p>
-        <ol>
-            <li><div class="question-content">(Turn) <input type="text" id="ex1_1"> right at the traffic light.</div><button onclick="checkAnswer(this, 'ex1_1', 'turn', 'Use the base form of the verb for commands.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Open) <input type="text" id="ex1_2"> your books to page 10.</div><button onclick="checkAnswer(this, 'ex1_2', 'open', 'This is an instruction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Be) <input type="text" id="ex1_3"> quiet in the library.</div><button onclick="checkAnswer(this, 'ex1_3', 'be', 'The base form of this verb is just `be`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Listen) <input type="text" id="ex1_4"> to me carefully.</div><button onclick="checkAnswer(this, 'ex1_4', 'listen', 'What do you do with your ears?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Drive) <input type="text" id="ex1_5"> slowly. There is ice on the road.</div><button onclick="checkAnswer(this, 'ex1_5', 'drive', 'Use the verb for operating a car.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Take) <input type="text" id="ex1_6"> the first exit at the roundabout.</div><button onclick="checkAnswer(this, 'ex1_6', 'take', 'This verb is often used for exits and turns.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Write) <input type="text" id="ex1_7"> your name at the top of the paper.</div><button onclick="checkAnswer(this, 'ex1_7', 'write', 'What do you do with a pen?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Park) <input type="text" id="ex1_8"> the car in the garage.</div><button onclick="checkAnswer(this, 'ex1_8', 'park', 'What do you do when you arrive at your destination?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Go) <input type="text" id="ex1_9"> straight for two blocks.</div><button onclick="checkAnswer(this, 'ex1_9', 'go', 'This is a common direction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Try) <input type="text" id="ex1_10"> this cake. It's delicious!</div><button onclick="checkAnswer(this, 'ex1_10', 'try', 'This is a suggestion to taste something.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Close) <input type="text" id="ex1_11"> the door when you leave.</div><button onclick="checkAnswer(this, 'ex1_11', 'close', 'The opposite of `open`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Wait) <input type="text" id="ex1_12"> here for a moment.</div><button onclick="checkAnswer(this, 'ex1_12', 'wait', 'What do you do when you are early?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Call) <input type="text" id="ex1_13"> me when you get home.</div><button onclick="checkAnswer(this, 'ex1_13', 'call', 'Use a phone to do this.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Read) <input type="text" id="ex1_14"> the instructions before you begin.</div><button onclick="checkAnswer(this, 'ex1_14', 'read', 'What do you do with a book?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Have) <input type="text" id="ex1_15"> a great day!</div><button onclick="checkAnswer(this, 'ex1_15', 'have', 'This is a common polite expression.')">Submit</button><span class="feedback"></span></li>
-        </ol>
     </div>
 
-    <!-- Section 2: Negative Imperatives -->
-    <div class="exercise-section">
-        <h2>Section 2: Fill-in-the-Blank (Negative)</h2>
-        <p class="instructions">Complete the sentences with the correct negative imperative form (e.g., Don't walk).</p>
-        <ol start="16">
-            <li><div class="question-content">(not / forget) <input type="text" id="ex2_1"> your keys!</div><button onclick="checkAnswer(this, 'ex2_1', ['don\'t forget', 'do not forget'], 'Use "Don\'t" + the base verb.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / touch) <input type="text" id="ex2_2"> the hot stove.</div><button onclick="checkAnswer(this, 'ex2_2', ['don\'t touch', 'do not touch'], 'This is a warning.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / be) <input type="text" id="ex2_3"> late for class.</div><button onclick="checkAnswer(this, 'ex2_3', ['don\'t be', 'do not be'], 'Use the negative form with the verb "be".')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / worry) <input type="text" id="ex2_4"> about the test. You will do fine.</div><button onclick="checkAnswer(this, 'ex2_4', ['don\'t worry', 'do not worry'], 'This is to make someone feel better.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / eat) <input type="text" id="ex2_5"> too much candy.</div><button onclick="checkAnswer(this, 'ex2_5', ['don\'t eat', 'do not eat'], 'This is advice about food.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / shout) <input type="text" id="ex2_6">. I can hear you.</div><button onclick="checkAnswer(this, 'ex2_6', ['don\'t shout', 'do not shout'], 'Use a word for speaking very loudly.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / open) <input type="text" id="ex2_7"> that window. It's stuck.</div><button onclick="checkAnswer(this, 'ex2_7', ['don\'t open', 'do not open'], 'The opposite of `close`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / turn) <input type="text" id="ex2_8"> left here; it's a one-way street.</div><button onclick="checkAnswer(this, 'ex2_8', ['don\'t turn', 'do not turn'], 'Use a negative direction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / park) <input type="text" id="ex2_9"> in front of the gate.</div><button onclick="checkAnswer(this, 'ex2_9', ['don\'t park', 'do not park'], 'This is a rule about where to leave your car.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / give) <input type="text" id="ex2_10"> up! You can do it.</div><button onclick="checkAnswer(this, 'ex2_10', ['don\'t give', 'do not give'], 'This is for encouragement.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / run) <input type="text" id="ex2_11"> in the hallways.</div><button onclick="checkAnswer(this, 'ex2_11', ['don\'t run', 'do not run'], 'A common rule in schools.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / talk) <input type="text" id="ex2_12"> during the movie.</div><button onclick="checkAnswer(this, 'ex2_12', ['don\'t talk', 'do not talk'], 'A rule in a cinema.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / use) <input type="text" id="ex2_13"> your phone in the airplane.</div><button onclick="checkAnswer(this, 'ex2_13', ['don\'t use', 'do not use'], 'A rule for electronic devices.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / be) <input type="text" id="ex2_14"> afraid of the dog. It's friendly.</div><button onclick="checkAnswer(this, 'ex2_14', ['don\'t be', 'do not be'], 'To tell someone not to feel scared.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / hesitate) <input type="text" id="ex2_15"> to ask for help.</div><button onclick="checkAnswer(this, 'ex2_15', ['don\'t hesitate', 'do not hesitate'], 'An encouraging phrase.')">Submit</button><span class="feedback"></span></li>
-        </ol>
-    </div>
-
-    <!-- Section 3: Choose the Correct Verb -->
-    <div class="exercise-section">
-        <h2>Section 3: Choose the Correct Verb</h2>
-        <p class="instructions">Write the correct verb to complete the sentence. Choose from the words in parentheses.</p>
-        <ol start="31">
-            <li><div class="question-content">(Park / Drive / Turn) <input type="text" id="ex3_1"> your car in the designated area.</div><button onclick="checkAnswer(this, 'ex3_1', 'park', 'This is about leaving your car somewhere.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Go / Get / Be) <input type="text" id="ex3_2"> off the bus at the next stop.</div><button onclick="checkAnswer(this, 'ex3_2', 'get', 'The phrasal verb is `get off`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Close / Stop / Open) <input type="text" id="ex3_3"> the window, please. I'm cold.</div><button onclick="checkAnswer(this, 'ex3_3', 'close', 'What do you do if you are cold?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Take / Walk / Make) <input type="text" id="ex3_4"> this medicine twice a day.</div><button onclick="checkAnswer(this, 'ex3_4', 'take', 'This is the verb we use for medicine.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Look / See / Watch) <input type="text" id="ex3_5"> both ways before you cross the street.</div><button onclick="checkAnswer(this, 'ex3_5', 'look', 'This is an instruction for safety.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Pass / Hand / Give) <input type="text" id="ex3_6"> me the salt, please.</div><button onclick="checkAnswer(this, 'ex3_6', ['pass', 'hand', 'give'], 'All three are acceptable here. What do you say at the dinner table?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Speak / Tell / Say) <input type="text" id="ex3_7"> slowly and clearly.</div><button onclick="checkAnswer(this, 'ex3_7', 'speak', 'This is about the manner of talking.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Don't / Not / No) <input type="text" id="ex3_8"> be silly.</div><button onclick="checkAnswer(this, 'ex3_8', 'don\'t', 'What word starts a negative imperative?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Add / Put / Mix) <input type="text" id="ex3_9"> some sugar to the tea.</div><button onclick="checkAnswer(this, 'ex3_9', ['add', 'put'], 'Both are fine. What is a common cooking instruction?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Try / Do / Make) <input type="text" id="ex3_10"> to relax before your presentation.</div><button onclick="checkAnswer(this, 'ex3_10', 'try', 'This is advice or a suggestion.')">Submit</button><span class="feedback"></span></li>
-        </ol>
-    </div>
-
-    <!-- Section 4: Affirmative or Negative? -->
-    <div class="exercise-section">
-        <h2>Section 4: Affirmative or Negative?</h2>
-        <p class="instructions">Read the situation and complete the sentence with the affirmative or negative imperative of the verb in parentheses.</p>
-        <ol start="41">
-            <li><div class="question-content">The floor is wet. (walk) <input type="text" id="ex4_1"> on it!</div><button onclick="checkAnswer(this, 'ex4_1', ['don\'t walk', 'do not walk'], 'Is this a warning to do something or not to do something?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">You look hungry. (have) <input type="text" id="ex4_2"> a sandwich.</div><button onclick="checkAnswer(this, 'ex4_2', 'have', 'This is an offer.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">The movie starts in one minute. (hurry) <input type="text" id="ex4_3"> up!</div><button onclick="checkAnswer(this, 'ex4_3', 'hurry', 'You need to be quick.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">That's a secret. (tell) <input type="text" id="ex4_4"> anyone.</div><button onclick="checkAnswer(this, 'ex4_4', ['don\'t tell', 'do not tell'], 'Should you share a secret?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">The light is green. (go) <input type="text" id="ex4_5"> now.</div><button onclick="checkAnswer(this, 'ex4_5', 'go', 'What does a green light mean?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">The animal is wild. (get) <input type="text" id="ex4_6"> too close.</div><button onclick="checkAnswer(this, 'ex4_6', ['don\'t get', 'do not get'], 'Is it safe to get close to a wild animal?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">I can't hear the music. (turn) <input type="text" id="ex4_7"> it up.</div><button onclick="checkAnswer(this, 'ex4_7', 'turn', 'You want the volume to be louder.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">You have an exam tomorrow. (stay) <input type="text" id="ex4_8"> up too late.</div><button onclick="checkAnswer(this, 'ex4_8', ['don\'t stay', 'do not stay'], 'What is good advice before an exam?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Your hands are dirty. (wash) <input type="text" id="ex4_9"> them before dinner.</div><button onclick="checkAnswer(this, 'ex4_9', 'wash', 'This is a hygiene instruction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">The answer is on the next page. (look) <input type="text" id="ex4_10"> yet!</div><button onclick="checkAnswer(this, 'ex4_10', ['don\'t look', 'do not look'], 'Should you cheat?')">Submit</button><span class="feedback"></span></li>
-        </ol>
-    </div>
-    
-    <!-- Section 5: Add 'Please' -->
-    <div class="exercise-section">
-        <h2>Section 5: Add 'Please' for Politeness</h2>
-        <p class="instructions">Rewrite the sentence to make it more polite using "please" as instructed.</p>
-        <ol start="51">
-            <li><div class="question-content">Help me. (Add 'please' to the beginning) <input type="text" id="ex5_1"></div><button onclick="checkAnswer(this, 'ex5_1', 'please help me', 'Put the word `please` at the start.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Close the door. (Add 'please' to the end) <input type="text" id="ex5_2"></div><button onclick="checkAnswer(this, 'ex5_2', 'close the door, please', 'Remember to add a comma before `please` at the end.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Don't talk so loudly. (Add 'please' to the beginning) <input type="text" id="ex5_3"></div><button onclick="checkAnswer(this, 'ex5_3', 'please don\'t talk so loudly', '`Please` comes before `don\'t`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Pass the sugar. (Add 'please' to the end) <input type="text" id="ex5_4"></div><button onclick="checkAnswer(this, 'ex5_4', 'pass the sugar, please', 'Don\'t forget the comma.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Sit down. (Add 'please' to the beginning) <input type="text" id="ex5_5"></div><button onclick="checkAnswer(this, 'ex5_5', 'please sit down', 'Make the invitation polite.')">Submit</button><span class="feedback"></span></li>
-        </ol>
-    </div>
-    
-    <!-- Section 6: Correct the Mistake -->
-    <div class="exercise-section">
-        <h2>Section 6: Correct the Mistake</h2>
-        <p class="instructions">Find the mistake in each sentence and write the correct sentence.</p>
-        <ol start="56">
-            <li><div class="question-content">Incorrect: <em>You don't be late.</em><br>Correct: <input type="text" id="ex6_1"></div><button onclick="checkAnswer(this, 'ex6_1', ['don\'t be late', 'do not be late'], 'Imperatives don\'t use a subject like "You".')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Incorrect: <em>To open the window.</em><br>Correct: <input type="text" id="ex6_2"></div><button onclick="checkAnswer(this, 'ex6_2', 'open the window', 'Use the base form of the verb, not the infinitive `to`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Incorrect: <em>No parking here.</em><br>Correct: <input type="text" id="ex6_3"></div><button onclick="checkAnswer(this, 'ex6_3', ['don\'t park here', 'do not park here'], 'Use "Don\'t" for a negative command, not "No".')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Incorrect: <em>Please comes here.</em><br>Correct: <input type="text" id="ex6_4"></div><button onclick="checkAnswer(this, 'ex6_4', 'please come here', 'Imperatives never use the "-s" form of the verb.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Incorrect: <em>Don't to worry.</em><br>Correct: <input type="text" id="ex6_5"></div><button onclick="checkAnswer(this, 'ex6_5', ['don\'t worry', 'do not worry'], 'After "Don\'t", use the base form, not the infinitive.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Incorrect: <em>Be careful please you.</em><br>Correct: <input type="text" id="ex6_6"></div><button onclick="checkAnswer(this, 'ex6_6', ['be careful, please', 'please be careful'], 'Remove the subject "you" and place "please" correctly.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Incorrect: <em>Turns left at the corner.</em><br>Correct: <input type="text" id="ex6_7"></div><button onclick="checkAnswer(this, 'ex6_7', 'turn left at the corner', 'The verb should be in its base form.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Incorrect: <em>Lets go now.</em><br>Correct: <input type="text" id="ex6_8"></div><button onclick="checkAnswer(this, 'ex6_8', 'let\'s go now', '`Let\'s` is a suggestion and is a contraction of `let us`.')">Submit</button><span class="feedback"></span></li>
-        </ol>
-    </div>
-
-    <!-- Section 7: Mixed Practice -->
-    <div class="exercise-section">
-        <h2>Section 7: Mixed Practice</h2>
-        <p class="instructions">Complete the following sentences using everything you've learned.</p>
-        <ol start="64">
-            <li><div class="question-content">(not / make) <input type="text" id="ex7_1"> a mess. Clean up after yourself.</div><button onclick="checkAnswer(this, 'ex7_1', ['don\'t make', 'do not make'], 'This is a negative instruction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Rewrite politely: <em>Give me the book.</em> <input type="text" id="ex7_2"></div><button onclick="checkAnswer(this, 'ex7_2', ['please give me the book', 'give me the book, please'], 'Add `please` to make the request polite.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Correct the mistake: <em>You listen to the teacher.</em> <input type="text" id="ex7_3"></div><button onclick="checkAnswer(this, 'ex7_3', 'listen to the teacher', 'Imperatives do not have a subject pronoun.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">The food is ready. (come) <input type="text" id="ex7_4"> and eat!</div><button onclick="checkAnswer(this, 'ex7_4', 'come', 'This is an invitation.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(follow) <input type="text" id="ex7_5"> the signs to the exit.</div><button onclick="checkAnswer(this, 'ex7_5', 'follow', 'This is a direction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">It's a beautiful day. (not / stay) <input type="text" id="ex7_6"> inside. Go out and play!</div><button onclick="checkAnswer(this, 'ex7_6', ['don\'t stay', 'do not stay'], 'This is a suggestion about what not to do.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Correct the mistake: <em>Don't talking in class.</em> <input type="text" id="ex7_7"></div><button onclick="checkAnswer(this, 'ex7_7', ['don\'t talk', 'do not talk'], 'After "don\'t", use the base form of the verb, not the -ing form.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(be) <input type="text" id="ex7_8"> patient. The doctor will see you soon.</div><button onclick="checkAnswer(this, 'ex7_8', 'be', 'This is advice.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Rewrite politely: <em>Don't shout.</em> <input type="text" id="ex7_9"></div><button onclick="checkAnswer(this, 'ex7_9', ['please don\'t shout', 'don\'t shout, please'], 'Add `please` to make the command less harsh.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(check) <input type="text" id="ex7_10"> your answers before you hand in the test.</div><button onclick="checkAnswer(this, 'ex7_10', 'check', 'This is an important instruction.')">Submit</button><span class="feedback"></span></li>
-            <!-- Continuing to 100 -->
-            <li><div class="question-content">(Sign) <input type="text" id="ex7_11"> here, please.</div><button onclick="checkAnswer(this, 'ex7_11', 'sign', 'What do you do on a contract line?')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / worry) <input type="text" id="ex7_12">, be happy.</div><button onclick="checkAnswer(this, 'ex7_12', ['don\'t worry', 'do not worry'], 'A famous song lyric and good advice.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Stir) <input type="text" id="ex7_13"> the soup so it doesn't stick.</div><button onclick="checkAnswer(this, 'ex7_13', 'stir', 'A cooking instruction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Correct the mistake: <em>To be careful.</em> <input type="text" id="ex7_14"></div><button onclick="checkAnswer(this, 'ex7_14', 'be careful', 'Imperatives use the base form, not the infinitive.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Buckle) <input type="text" id="ex7_15"> your seatbelt.</div><button onclick="checkAnswer(this, 'ex7_15', 'buckle', 'A safety instruction in a car or plane.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / litter) <input type="text" id="ex7_16">. Use the trash can.</div><button onclick="checkAnswer(this, 'ex7_16', ['don\'t litter', 'do not litter'], 'A rule to keep places clean.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Take) <input type="text" id="ex7_17"> a deep breath and relax.</div><button onclick="checkAnswer(this, 'ex7_17', 'take', 'Advice for when you are nervous.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Explain) <input type="text" id="ex7_18"> your answer in more detail.</div><button onclick="checkAnswer(this, 'ex7_18', 'explain', 'What a teacher might ask you to do.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Correct the mistake: <em>No run!</em> <input type="text" id="ex7_19"></div><button onclick="checkAnswer(this, 'ex7_19', ['don\'t run', 'do not run'], 'Use "Don\'t" for a negative command.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Choose) <input type="text" id="ex7_20"> an answer, A, B, or C.</div><button onclick="checkAnswer(this, 'ex7_20', 'choose', 'An instruction on a multiple-choice test.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Fill) <input type="text" id="ex7_21"> in the blanks.</div><button onclick="checkAnswer(this, 'ex7_21', 'fill', 'A common exercise instruction.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / interrupt) <input type="text" id="ex7_22"> while others are speaking.</div><button onclick="checkAnswer(this, 'ex7_22', ['don\'t interrupt', 'do not interrupt'], 'A rule of polite conversation.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Mind) <input type="text" id="ex7_23"> the gap between the train and the platform.</div><button onclick="checkAnswer(this, 'ex7_23', 'mind', 'A famous announcement in the London Underground.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Hold) <input type="text" id="ex7_24"> the line, please. I'll connect you.</div><button onclick="checkAnswer(this, 'ex7_24', 'hold', 'What a receptionist says on the phone.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / feed) <input type="text" id="ex7_25"> the animals at the zoo.</div><button onclick="checkAnswer(this, 'ex7_25', ['don\'t feed', 'do not feed'], 'A common rule at the zoo.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Keep) <input type="text" id="ex7_26"> off the grass.</div><button onclick="checkAnswer(this, 'ex7_26', 'keep', 'A sign you often see in parks.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Press) <input type="text" id="ex7_27"> the button to start.</div><button onclick="checkAnswer(this, 'ex7_27', 'press', 'An instruction for a machine.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">Correct the mistake: <em>Waits here.</em> <input type="text" id="ex7_28"></div><button onclick="checkAnswer(this, 'ex7_28', 'wait here', 'Imperatives use the base form of the verb, without "-s".')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Pay) <input type="text" id="ex7_29"> attention in class.</div><button onclick="checkAnswer(this, 'ex7_29', 'pay', 'The expression is `pay attention`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / copy) <input type="text" id="ex7_30"> from your neighbor during the test.</div><button onclick="checkAnswer(this, 'ex7_30', ['don\'t copy', 'do not copy'], 'A rule against cheating.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Lower) <input type="text" id="ex7_31"> your voice. This is a hospital.</div><button onclick="checkAnswer(this, 'ex7_31', 'lower', 'The opposite of `raise`.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Consider) <input type="text" id="ex7_32"> all the options before you decide.</div><button onclick="checkAnswer(this, 'ex7_32', 'consider', 'Advice for making a decision.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Step) <input type="text" id="ex7_33"> away from the vehicle.</div><button onclick="checkAnswer(this, 'ex7_33', 'step', 'A command a police officer might give.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(not / lean) <input type="text" id="ex7_34"> against the doors on the subway.</div><button onclick="checkAnswer(this, 'ex7_34', ['don\'t lean', 'do not lean'], 'A safety warning on public transport.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Make) <input type="text" id="ex7_35"> yourself at home.</div><button onclick="checkAnswer(this, 'ex7_35', 'make', 'A polite phrase to a guest.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Enjoy) <input type="text" id="ex7_36"> your meal!</div><button onclick="checkAnswer(this, 'ex7_36', 'enjoy', 'What a waiter says when they bring food.')">Submit</button><span class="feedback"></span></li>
-            <li><div class="question-content">(Let) <input type="text" id="ex7_37"> me know if you need anything.</div><button onclick="checkAnswer(this, 'ex7_37', 'let', 'A polite offer of help.')">Submit</button><span class="feedback"></span></li>
-        </ol>
-    </div>
-
-</div>
-
-<script>
-    function checkAnswer(button, inputId, correctAnswer, hint) {
-        const inputElement = document.getElementById(inputId);
-        const feedbackElement = button.nextElementSibling;
-        const userAnswer = inputElement.value.trim().toLowerCase().replace(/[.,!?;]/g, "");
-
-        let isCorrect = false;
-        if (Array.isArray(correctAnswer)) {
-            isCorrect = correctAnswer.some(ans => ans.toLowerCase() === userAnswer);
-        } else {
-            isCorrect = (userAnswer === correctAnswer.toLowerCase());
-        }
-
-        if (isCorrect) {
-            feedbackElement.textContent = "Correct! Well done.";
-            feedbackElement.className = "feedback correct";
-            inputElement.disabled = true;
-            button.disabled = true;
-            inputElement.style.borderColor = '#28a745';
-        } else {
-            feedbackElement.textContent = `Not quite. Hint: ${hint}`;
-            feedbackElement.className = "feedback incorrect";
-            inputElement.style.borderColor = '#dc3545';
-        }
-    }
-
-    // Special checker for Exercise 1
-    function checkCheckboxes() {
-        const correctAnswers = ['ex1-1', 'ex1-2', 'ex1-3', 'ex1-4', 'ex1-5'];
-        const incorrectAnswers = ['ex1-a', 'ex1-b', 'ex1-c', 'ex1-d', 'ex1-e', 'ex1-f', 'ex1-6'];
-        let score = 0;
-        let total = correctAnswers.length;
-
-        correctAnswers.forEach(id => {
-            if (document.getElementById(id).checked) {
-                score++;
-            }
-        });
-
-        incorrectAnswers.forEach(id => {
-            if (document.getElementById(id).checked) {
-                score--; // Penalize for checking wrong boxes
-            }
-        });
+<section>
+        <div class="container">
+        <h1>100 Bài Tập Thực Hành: Câu Mệnh Lệnh (Imperatives)</h1>
+        <p>Hoàn thành các câu sau bằng cách sử dụng dạng đúng của câu mệnh lệnh. Nhấn "Submit" để kiểm tra câu trả lời của bạn. Nếu sai, bạn sẽ nhận được gợi ý.</p>
         
-        const feedback = document.getElementById('ex1-feedback');
-        if (score === total) {
-            feedback.textContent = "Perfect! You found all the negative imperatives.";
-            feedback.className = "feedback correct";
-        } else if (score > 0) {
-            feedback.textContent = `You're on the right track! You found ${score}/${total}. Remember, negative imperatives usually start with "Don't".`;
-            feedback.className = "feedback incorrect";
-        } else {
-            feedback.textContent = `Try again. Look for sentences that start with "Don't".`;
-            feedback.className = "feedback incorrect";
-        }
-    }
-    
-    // Custom functions for multi-part Exercise 2
-    function checkConversation1() {
-        const a1 = document.getElementById('ex2-1').value.trim().toLowerCase().replace(/[.,!?;]/g, "");
-        const a2 = document.getElementById('ex2-2').value.trim().toLowerCase().replace(/[.,!?;]/g, "");
-        const fb = document.getElementById('fb2-1');
-        if (a1 === "don't walk" && a2 === "take") {
-            fb.textContent = "Correct!";
-            fb.className = "feedback correct";
-        } else {
-            fb.textContent = "Check both answers. Use 'Don't' for negative.";
-            fb.className = "feedback incorrect";
-        }
-    }
+        <div id="exercise-list" class="exercise-container">
+            <!-- Questions will be dynamically generated here by JavaScript -->
+        </div>
+    </div>
 
-    function checkConversation2() {
-        const answers = {
-            'ex2-3': 'walk', 'ex2-4': 'turn', 'ex2-5': 'don\'t take', 'ex2-6': 'take', 'ex2-7': 'get'
-        };
-        let allCorrect = true;
-        for (const id in answers) {
-            const userAnswer = document.getElementById(id).value.trim().toLowerCase().replace(/[.,!?;]/g, "");
-            if (userAnswer !== answers[id]) {
-                allCorrect = false;
-                break;
+    <script>
+
+        const exercises = [
+            // Category: Fill-in-the-blank (Affirmative)
+            { type: 'fill', prompt: '____ (Open) the door, please.', answer: 'Open' },
+            { type: 'fill', prompt: '____ (Turn) right at the traffic lights.', answer: 'Turn' },
+            { type: 'fill', prompt: '____ (Be) quiet in the library.', answer: 'Be' },
+            { type: 'fill', prompt: '____ (Listen) to the teacher carefully.', answer: 'Listen' },
+            { type: 'fill', prompt: '____ (Take) this medicine twice a day.', answer: 'Take' },
+            { type: 'fill', prompt: '____ (Show) me your passport.', answer: 'Show' },
+            { type: 'fill', prompt: '____ (Park) the car over there.', answer: 'Park' },
+            { type: 'fill', prompt: 'Please ____ (pass) the salt.', answer: 'pass' },
+            { type: 'fill', prompt: '____ (Try) this cake. It\'s delicious.', answer: 'Try' },
+            { type: 'fill', prompt: '____ (Write) your name at the top of the page.', answer: 'Write' },
+            { type: 'fill', prompt: '____ (Go) straight for two blocks.', answer: 'Go' },
+            { type: 'fill', prompt: '____ (Have) a great day!', answer: 'Have' },
+            { type: 'fill', prompt: '____ (Help) me with this heavy box.', answer: 'Help' },
+            { type: 'fill', prompt: 'Please ____ (wait) here.', answer: 'wait' },
+            { type: 'fill', prompt: '____ (Read) the instructions before you start.', answer: 'Read' },
+
+            // Category: Fill-in-the-blank (Negative)
+            { type: 'fill', prompt: '____ (not / touch) the paintings.', answer: 'Don\'t touch' },
+            { type: 'fill', prompt: '____ (not / worry) about the test.', answer: 'Don\'t worry' },
+            { type: 'fill', prompt: '____ (not / be) late for the meeting.', answer: 'Don\'t be' },
+            { type: 'fill', prompt: '____ (not / forget) to buy milk.', answer: 'Don\'t forget' },
+            { type: 'fill', prompt: '____ (not / eat) in the classroom.', answer: 'Don\'t eat' },
+            { type: 'fill', prompt: 'Please ____ (not / talk) so loudly.', answer: 'don\'t talk' },
+            { type: 'fill', prompt: '____ (not / park) here. It\'s a bus stop.', answer: 'Don\'t park' },
+            { type: 'fill', prompt: '____ (not / use) your phone during the movie.', answer: 'Don\'t use' },
+            { type: 'fill', prompt: '____ (not / open) that window. It\'s cold.', answer: 'Don\'t open' },
+            { type: 'fill', prompt: '____ (not / run) in the hallway.', answer: 'Don\'t run' },
+            { type: 'fill', prompt: '____ (not / drive) too fast.', answer: 'Don\'t drive' },
+            { type: 'fill', prompt: '____ (not / be) afraid to ask questions.', answer: 'Don\'t be' },
+            { type: 'fill', prompt: '____ (not / leave) your bag here.', answer: 'Don\'t leave' },
+            { type: 'fill', prompt: '____ (not / shout) at me.', answer: 'Don\'t shout' },
+            { type: 'fill', prompt: 'Please ____ (not / close) the door.', answer: 'don\'t close' },
+
+            // Category: Sentence Correction
+            { type: 'correct', prompt: 'You no talk in here.', answer: 'Don\'t talk in here.' },
+            { type:- 'correct', prompt: 'Turns left.', answer: 'Turn left.' },
+            { type: 'correct', prompt: 'Please to sit down.', answer: ['Please sit down.', 'Sit down, please.'] },
+            { type: 'correct', prompt: 'Don\'t to worry.', answer: 'Don\'t worry.' },
+            { type: 'correct', prompt: 'Be carefuls.', answer: 'Be careful.' },
+            { type: 'correct', prompt: 'No park here.', answer: 'Don\'t park here.' },
+            { type: 'correct', prompt: 'Listens to me.', answer: 'Listen to me.' },
+            { type: 'correct', prompt: 'Don\'t being silly.', answer: 'Don\'t be silly.' },
+            { type: 'correct', prompt: 'Gives me the book.', answer: 'Give me the book.' },
+            { type: 'correct', prompt: 'Wait please for me.', answer: ['Please wait for me.', 'Wait for me, please.'] },
+            { type: 'correct', prompt: 'You not forget your keys.', answer: 'Don\'t forget your keys.' },
+            { type: 'correct', prompt: 'Reads this article.', answer: 'Read this article.' },
+            { type: 'correct', prompt: 'Don\'t to open the gift yet.', answer: 'Don\'t open the gift yet.' },
+            { type: 'correct', prompt: 'Please helping me.', answer: ['Please help me.', 'Help me, please.'] },
+            { type: 'correct', prompt: 'No be late.', answer: 'Don\'t be late.' },
+
+            // Category: Scrambled Sentences
+            { type: 'unscramble', prompt: 'the / close / window / please', answer: ['Please close the window.', 'Close the window, please.'] },
+            { type: 'unscramble', prompt: 'don\'t / door / the / open', answer: 'Don\'t open the door.' },
+            { type: 'unscramble', prompt: 'your / book / to / turn / page 10', answer: 'Turn to page 10 in your book.' },
+            { type: 'unscramble', prompt: 'here / park / don\'t', answer: 'Don\'t park here.' },
+            { type: 'unscramble', prompt: 'me / hand / jacket / my / please', answer: ['Please hand me my jacket.', 'Hand me my jacket, please.'] },
+            { type: 'unscramble', prompt: 'the / corner / at / left / turn', answer: 'Turn left at the corner.' },
+            { type: 'unscramble', prompt: 'worry / don\'t / it / about', answer: 'Don\'t worry about it.' },
+            { type: 'unscramble', prompt: 'be / careful', answer: 'Be careful.' },
+            { type: 'unscramble', prompt: 'bus / the / number 5 / take', answer: 'Take the number 5 bus.' },
+            { type: 'unscramble', prompt: 'please / quiet / be', answer: ['Please be quiet.', 'Be quiet, please.'] },
+            { type: 'unscramble', prompt: 'don\'t / street / cross / the / now', answer: 'Don\'t cross the street now.' },
+            { type: 'unscramble', prompt: 'your / wash / hands', answer: 'Wash your hands.' },
+            { type: 'unscramble', prompt: 'a / break / take', answer: 'Take a break.' },
+            { type: 'unscramble', prompt: 'dinner / don\'t / for / be / late', answer: 'Don\'t be late for dinner.' },
+            { type: 'unscramble', prompt: 'me / tell / story / a', answer: 'Tell me a story.' },
+            
+            // Mix of all types for the remaining questions
+            { type: 'fill', prompt: '____ (Click) on this link for more information.', answer: 'Click' },
+            { type: 'fill', prompt: '____ (not / put) your feet on the table.', answer: 'Don\'t put' },
+            { type: 'correct', prompt: 'Drives slowly in the school zone.', answer: 'Drive slowly in the school zone.' },
+            { type: 'unscramble', prompt: 'the / music / down / turn / please', answer: ['Please turn the music down.', 'Turn the music down, please.'] },
+            { type: 'fill', prompt: '____ (Follow) the signs to the exit.', answer: 'Follow' },
+            { type: 'fill', prompt: '____ (not / interrupt) me when I am speaking.', answer: 'Don\'t interrupt' },
+            { type: 'correct', prompt: 'You no running in the museum.', answer: 'Don\'t run in the museum.' },
+            { type: 'unscramble', prompt: 'your / vegetables / eat', answer: 'Eat your vegetables.' },
+            { type: 'fill', prompt: '____ (Answer) the phone, please.', answer: 'Answer' },
+            { type: 'fill', prompt: '____ (not / lean) against the door.', answer: 'Don\'t lean' },
+            { type: 'correct', prompt: 'Waits for the green light.', answer: 'Wait for the green light.' },
+            { type: 'unscramble', prompt: 'the / cat / don\'t / feed', answer: 'Don\'t feed the cat.' },
+            { type: 'fill', prompt: 'Please ____ (fasten) your seatbelt.', answer: 'fasten' },
+            { type: 'fill', prompt: '____ (not / be) rude to the guests.', answer: 'Don\'t be' },
+            { type: 'correct', prompt: 'Please to come here.', answer: ['Please come here.', 'Come here, please.'] },
+            { type: 'unscramble', prompt: 'on / TV / the / turn', answer: 'Turn on the TV.' },
+            { type: 'fill', prompt: '____ (Get) off the bus at the next stop.', answer: 'Get' },
+            { type: 'fill', prompt: '____ (not / play) with matches.', answer: 'Don\'t play' },
+            { type: 'correct', prompt: 'Looks both ways before crossing.', answer: 'Look both ways before crossing.' },
+            { type: 'unscramble', prompt: 'a / wish / make', answer: 'Make a wish.' },
+            { type: 'fill', prompt: '____ (Add) a little sugar to my coffee, please.', answer: 'Add' },
+            { type: 'fill', prompt: '____ (not / copy) from your friend\'s paper.', answer: 'Don\'t copy' },
+            { type: 'correct', prompt: 'No be shy.', answer: 'Don\'t be shy.' },
+            { type: 'unscramble', prompt: 'me / show / the / way / please', answer: ['Please show me the way.', 'Show me the way, please.'] },
+            { type: 'fill', prompt: '____ (Mix) the ingredients together.', answer: 'Mix' },
+            { type: 'fill', prompt: '____ (not / stand) so close to the edge.', answer: 'Don\'t stand' },
+            { type: 'correct', prompt: 'You no make so much noise.', answer: 'Don\'t make so much noise.' },
+            { type: 'unscramble', prompt: 'your / homework / do', answer: 'Do your homework.' },
+            { type: 'fill', prompt: '____ (Hold) the door for me, please.', answer: 'Hold' },
+            { type: 'fill', prompt: '____ (not / give up) on your dreams.', answer: 'Don\'t give up' },
+            { type: 'correct', prompt: 'Don\'t to be sad.', answer: 'Don\'t be sad.' },
+            { type: 'unscramble', prompt: 'off / lights / the / turn / please', answer: ['Please turn off the lights.', 'Turn off the lights, please.'] },
+            { type: 'fill', prompt: '____ (Mind) the gap between the train and the platform.', answer: 'Mind' },
+            { type: 'fill', prompt: '____ (not / walk) on the grass.', answer: 'Don\'t walk' },
+            { type: 'correct', prompt: 'Takes an umbrella. It\'s raining.', answer: 'Take an umbrella. It\'s raining.' },
+            { type: 'unscramble', prompt: 'your / time / take', answer: 'Take your time.' }
+        ];
+
+        const exerciseList = document.getElementById('exercise-list');
+
+        exercises.forEach((exercise, index) => {
+            const questionId = `q${index}`;
+            let questionHtml = '';
+            
+            let promptText = '';
+            if (exercise.type === 'fill') {
+                promptText = `Điền vào chỗ trống: ${exercise.prompt}`;
+            } else if (exercise.type === 'correct') {
+                promptText = `Sửa lỗi sai: "${exercise.prompt}"`;
+            } else if (exercise.type === 'unscramble') {
+                promptText = `Sắp xếp các từ sau: "${exercise.prompt}"`;
+            }
+
+            questionHtml = `
+                <div class="question" id="q-container-${index}">
+                    <div class="question-content">
+                        <span class="question-text">${index + 1}. ${promptText}</span>
+                        <input type="text" id="${questionId}" placeholder="Câu trả lời của bạn...">
+                        <button onclick="checkAnswer(this, '${questionId}')">Submit</button>
+                    </div>
+                    <div class="feedback"></div>
+                </div>
+            `;
+            
+            exerciseList.innerHTML += questionHtml;
+        });
+
+        
+        function checkAnswer(button, inputId) {
+            const index = parseInt(inputId.replace('q', ''));
+            const exercise = exercises[index];
+            const correctAnswer = exercise.answer;
+
+            const inputElement = document.getElementById(inputId);
+            const feedbackElement = button.closest('.question').querySelector('.feedback');
+            const userAnswer = inputElement.value.trim();
+
+            let isCorrect = false;
+
+            // Normalize user answer (remove period at the end)
+            const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\.$/, '');
+
+            if (Array.isArray(correctAnswer)) {
+                isCorrect = correctAnswer.some(answer => 
+                    answer.toLowerCase().replace(/\.$/, '') === normalizedUserAnswer
+                );
+            } else {
+                isCorrect = correctAnswer.toLowerCase().replace(/\.$/, '') === normalizedUserAnswer;
+            }
+
+            if (isCorrect) {
+                feedbackElement.textContent = 'Chính xác! Làm tốt lắm.';
+                feedbackElement.className = 'feedback correct';
+                inputElement.style.borderColor = 'var(--success-color)';
+            } else {
+                const hint = Array.isArray(correctAnswer) ? correctAnswer.join(' hoặc ') : correctAnswer;
+                feedbackElement.innerHTML = `Chưa đúng. Vui lòng thử lại. <br><em>Gợi ý: Đáp án đúng là "<strong>${hint}</strong>"</em>`;
+                feedbackElement.className = 'feedback incorrect';
+                inputElement.style.borderColor = 'var(--danger-color)';
             }
         }
-        const fb = document.getElementById('fb2-2');
-        if(allCorrect) {
-            fb.textContent = "All correct!";
-            fb.className = "feedback correct";
-        } else {
-            fb.textContent = "One or more answers are incorrect. Please review.";
-            fb.className = "feedback incorrect";
-        }
-    }
+        
+    </script>
 
-    function checkConversation3() {
-        const a8 = document.getElementById('ex2-8').value.trim().toLowerCase().replace(/[.,!?;]/g, "");
-        const a9 = document.getElementById('ex2-9').value.trim().toLowerCase().replace(/[.,!?;]/g, "");
-        const fb = document.getElementById('fb2-3');
-        if (a8 === "drive" && a9 === "turn") {
-            fb.textContent = "Correct!";
-            fb.className = "feedback correct";
-        } else {
-            fb.textContent = "Check both answers. Use the base form of the verb.";
-            fb.className = "feedback incorrect";
-        }
-    }
+</section>
 
-    function checkConversation4() {
-        checkAnswer(document.querySelector('#ex2-10 + button'), 'ex2-10', "don't worry", "Use the negative form to reassure someone.");
-    }
 
 
     
-    function checkAnswer(button, inputId, correctAnswer, hint) {
-        const inputElement = document.getElementById(inputId);
-        const feedbackElement = button.nextElementSibling;
-        const userAnswer = inputElement.value.trim().toLowerCase().replace(/[.,!?;]/g, "");
-
-        let isCorrect = false;
-        if (Array.isArray(correctAnswer)) {
-            // Allow for answers with or without commas for politeness exercises
-            const cleanedAnswers = correctAnswer.map(ans => ans.toLowerCase().replace(/[.,!?;]/g, ""));
-            isCorrect = cleanedAnswers.includes(userAnswer);
-        } else {
-            const cleanedCorrectAnswer = correctAnswer.toLowerCase().replace(/[.,!?;]/g, "");
-            isCorrect = (userAnswer === cleanedCorrectAnswer);
-        }
-
-        if (isCorrect) {
-            feedbackElement.textContent = "Correct! Well done.";
-            feedbackElement.className = "feedback correct";
-            inputElement.style.border = '1px solid #28a745';
-            inputElement.disabled = true;
-            button.disabled = true;
-        } else {
-            feedbackElement.textContent = `Not quite. Hint: ${hint}`;
-            feedbackElement.className = "feedback incorrect";
-            inputElement.style.border = '1px solid #dc3545';
-        }
-    }
-
-</script>
 
 </body>
 </html>
