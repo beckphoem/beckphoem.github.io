@@ -1,0 +1,183 @@
+
+[
+	{
+	  "question": "economy",
+	  "classes": "n",
+	  "answer": "Nền kinh tế.",
+	  "ipa": "/iˈkɒn.ə.mi/",
+	  "example": "`Ê có` (eco) `nơ` (no) `mi` (my) không? Tao hết tiền rồi, **nền kinh tế** của tao đang khó khăn.",
+	  "english-definition": "The system of trade and industry by which the wealth of a country is made and used.",
+	  "images": "eew-6-23/1.png"
+	},
+	{
+	  "question": "edit",
+	  "classes": "v",
+	  "answer": "Chỉnh sửa.",
+	  "ipa": "/ˈed.ɪt/",
+	  "example": "`É đít` (edit) con chó để **chỉnh sửa** cho nó đẹp hơn.",
+	  "english-definition": "To make changes to a text or film, deciding what will be removed and what will be kept in, in order to prepare it for being printed or shown.",
+	  "images": "eew-6-23/2.png"
+	},
+	{
+	  "question": "element",
+	  "classes": "n",
+	  "answer": "Yếu tố.",
+	  "ipa": "/ˈel.ɪ.mənt/",
+	  "example": "`É le` (ele) `mần` (ment) gì cũng được, đó là **yếu tố** quan trọng để thành công.",
+	  "english-definition": "A part of something.",
+	  "images": "eew-6-23/3.png"
+	},
+	{
+	  "question": "eliminate",
+	  "classes": "v",
+	  "answer": "Loại bỏ, loại trừ.",
+	  "ipa": "/iˈlɪm.ɪ.neɪt/",
+	  "example": "`Y lỳ` (eli) `mà nết` (minate) tốt thì cũng không bị **loại bỏ**.",
+	  "english-definition": "To remove or take away someone or something.",
+	  "images": "eew-6-23/4.png"
+	},
+	{
+	  "question": "emerge",
+	  "classes": "v",
+	  "answer": "Nổi lên, hiện ra.",
+	  "ipa": "/ɪˈmɜːdʒ/",
+	  "example": "`Y mệt` (emerge) quá nên **nổi lên** mặt nước để thở.",
+	  "english-definition": "To appear by coming out of something or out from behind something.",
+	  "images": "eew-6-23/5.png"
+	},
+	{
+	  "question": "emphasis",
+	  "classes": "n",
+	  "answer": "Sự nhấn mạnh.",
+	  "ipa": "/ˈem.fə.sɪs/",
+	  "example": "`Em và sếp` (emphasis) đều có **sự nhấn mạnh** về tầm quan trọng của dự án này.",
+	  "english-definition": "The particular importance or attention that is given to something.",
+	  "images": "eew-6-23/6.png"
+	},
+	{
+	  "question": "empirical",
+	  "classes": "adj",
+	  "answer": "Dựa trên kinh nghiệm, thực nghiệm.",
+	  "ipa": "/ɪmˈpɪr.ɪ.kəl/",
+	  "example": "`Em đirical` (empirical) là một phương pháp học tập **dựa trên kinh nghiệm**.",
+	  "english-definition": "Based on what is experienced or seen rather than on theory.",
+	  "images": "eew-6-23/7.png"
+	},
+	{
+	  "question": "enable",
+	  "classes": "v",
+	  "answer": "Làm cho có thể, cho phép.",
+	  "ipa": "/ɪˈneɪ.bəl/",
+	  "example": "`Y nên bồ` (enable) tát nó một cái để **cho phép** nó tỉnh ra.",
+	  "english-definition": "To make someone able to do something, or to make something possible.",
+	  "images": "eew-6-23/8.png"
+	},
+	{
+	  "question": "encounter",
+	  "classes": "v, n",
+	  "answer": "(v) Bắt gặp, chạm trán; (n) Sự bắt gặp, sự chạm trán.",
+	  "ipa": "/ɪnˈkaʊn.tər/",
+	  "example": "`In counter` (encounter) strike, tôi đã **bắt gặp** một đối thủ rất mạnh.",
+	  "english-definition": "To meet someone unexpectedly.",
+	  "images": "eew-6-23/9.png"
+	},
+	{
+	  "question": "energy",
+	  "classes": "n",
+	  "answer": "Năng lượng.",
+	  "ipa": "/ˈen.ə.dʒi/",
+	  "example": "`Éc, nơ` (ene) `gì` (rgy) mà to thế, chắc chứa nhiều **năng lượng** lắm.",
+	  "english-definition": "The power and ability to be physically and mentally active.",
+	  "images": "eew-6-23/10.png"
+	},
+	{
+	  "question": "enforce",
+	  "classes": "v",
+	  "answer": "Thi hành, thực thi.",
+	  "ipa": "/ɪnˈfɔːs/",
+	  "example": "`En` (en) `phọt` (force) nước bọt ra để **thực thi** luật lệ.",
+	  "english-definition": "To make people obey a law, or to make a particular situation happen or be accepted.",
+	  "images": "eew-6-23/11.png"
+	},
+	{
+	  "question": "enhance",
+	  "classes": "v",
+	  "answer": "Nâng cao, tăng cường.",
+	  "ipa": "/ɪnˈhɑːns/",
+	  "example": "`In hằn` (enhance) lên da để **nâng cao** vẻ đẹp.",
+	  "english-definition": "To improve the quality, amount, or strength of something.",
+	  "images": "eew-6-23/12.png"
+	},
+	{
+	  "question": "enormous",
+	  "classes": "adj",
+	  "answer": "To lớn, khổng lồ.",
+	  "ipa": "/ɪˈnɔː.məs/",
+	  "example": "`Y no mệt` (enormous) vì ăn một bữa ăn **khổng lồ**.",
+	  "english-definition": "Extremely large.",
+	  "images": "eew-6-23/13.png"
+	},
+	{
+	  "question": "ensure",
+	  "classes": "v",
+	  "answer": "Đảm bảo.",
+	  "ipa": "/ɪnˈʃɔːr/",
+	  "example": "`In sua` (ensure) lên áo để **đảm bảo** không ai lấy nhầm.",
+	  "english-definition": "To make something certain to happen.",
+	  "images": "eew-6-23/14.png"
+	},
+	{
+	  "question": "entity",
+	  "classes": "n",
+	  "answer": "Thực thể, sự tồn tại.",
+	  "ipa": "/ˈen.tɪ.ti/",
+	  "example": "`En ty ty` (entity) là một **thực thể** sống.",
+	  "english-definition": "Something that exists apart from other things, having its own independent existence.",
+	  "images": "eew-6-23/15.png"
+	},
+	{
+	  "question": "environment",
+	  "classes": "n",
+	  "answer": "Môi trường.",
+	  "ipa": "/ɪnˈvaɪ.rən.mənt/",
+	  "example": "`In vai` (envi) `rờn` (ron) `mạnh` (ment) là một hành động gây ô nhiễm **môi trường**.",
+	  "english-definition": "The air, water, and land in or on which people, animals, and plants live.",
+	  "images": "eew-6-23/16.png"
+	},
+	{
+	  "question": "equate",
+	  "classes": "v",
+	  "answer": "Coi như, đánh đồng.",
+	  "ipa": "/ɪˈkweɪt/",
+	  "example": "`Y quẹt` (equate) thẻ là hành động được **coi như** thanh toán.",
+	  "english-definition": "To consider one thing to be the same as or equal to another thing.",
+	  "images": "eew-6-23/17.png"
+	},
+	{
+	  "question": "equip",
+	  "classes": "v",
+	  "answer": "Trang bị.",
+	  "ipa": "/ɪˈkwɪp/",
+	  "example": "`Y kíp` (equip) này được **trang bị** đầy đủ dụng cụ.",
+	  "english-definition": "To provide a person or a place with objects that are necessary for a particular purpose.",
+	  "images": "eew-6-23/18.png"
+	},
+	{
+	  "question": "equivalent",
+	  "classes": "adj, n",
+	  "answer": "(adj) Tương đương; (n) Vật tương đương.",
+	  "ipa": "/ɪˈkwɪv.əl.ənt/",
+	  "example": "`Y quy` (equi) `và` (va) `lợn` (lent) có giá trị **tương đương** nhau.",
+	  "english-definition": "Having the same amount, value, purpose, qualities, etc.",
+	  "images": "eew-6-23/19.png"
+	},
+	{
+	  "question": "erode",
+	  "classes": "v",
+	  "answer": "Xói mòn, ăn mòn.",
+	  "ipa": "/ɪˈrəʊd/",
+	  "example": "`Y rốt` (erode) cuộc cũng bị **xói mòn** bởi thời gian.",
+	  "english-definition": "To rub or be rubbed away gradually.",
+	  "images": "eew-6-23/20.png"
+	}
+]
