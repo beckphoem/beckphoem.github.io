@@ -200,6 +200,39 @@
 			margin-left: 10px;
 		}
 
+        .video-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            /* Tỷ lệ khung hình 16:9 phổ biến cho video */
+            aspect-ratio: 16 / 9; 
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .comic-strip {
+            margin-top: 20px;
+        }
+
+        .comic-strip img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Xóa bỏ style cũ không cần thiết nữa */
+
 	</style>
 </head>
 
@@ -278,6 +311,16 @@
                     <img src="FOG-1-15/5.png" alt="Friends dancing at a party">
                 </div>
             </div>
+
+        <div class="video-container">
+        <iframe 
+            src="https://www.youtube.com/embed/BJ_-c1Qez94" 
+            title="Unit 15 Conversation Audio" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
         </section>
 
         <!-- ==================== STEP 2: GRAMMAR PRESENTATION ==================== -->
@@ -372,6 +415,37 @@
                     <li>bad → <strong>worse</strong></li>
                     <li>fun → <strong>more fun</strong></li>
                 </ul>
+
+                <h4>5. Irregular Comparatives</h4>
+    <p>Some common adjectives have irregular comparative forms that you need to memorize. Here are the most frequent ones:</p>
+    <ul>
+        <li><strong>good → better</strong>
+            <p><em>Example: Pop music is <strong>better</strong> than rap for dancing.</em></p>
+        </li>
+        <li><strong>bad → worse</strong>
+            <p><em>Example: The traffic is <strong>worse</strong> on Saturday.</em></p>
+        </li>
+        <li><strong>fun → more fun</strong>
+            <p><em>Example: Video games are <strong>more fun</strong> than movies.</em></p>
+        </li>
+        <li><strong>far → farther / further</strong>
+            <p>Use <strong>farther</strong> for physical distance and <strong>further</strong> for metaphorical or abstract distance.</p>
+            <p><em>Example (distance): The park is <strong>farther</strong> than the supermarket.</em></p>
+            <p><em>Example (abstract): Do you have any <strong>further</strong> questions?</em></p>
+        </li>
+        <li><strong>little → less</strong>
+            <p><em>Example: I have <strong>less</strong> time for hobbies than I used to.</em></p>
+        </li>
+        <li><strong>many / much → more</strong>
+            <p><em>Example (many): She reads <strong>more</strong> books than her brother.</em></p>
+            <p><em>Example (much): He has <strong>more</strong> money, but I have <strong>more</strong> free time.</em></p>
+        </li>
+        <li><strong>old → older / elder</strong>
+             <p>Use <strong>older</strong> for general comparisons. Use <strong>elder</strong> only for people in a family (e.g., elder brother/sister). You cannot use "than" after <strong>elder</strong>.</p>
+             <p><em>Example (general): My car is <strong>older</strong> than yours.</em></p>
+             <p><em>Example (family): My <strong>elder</strong> sister is a teacher. (NOT: My sister is elder than me.)</em></p>
+        </li>
+    </ul>
             </div>
             <div class="grammar-note">
                 <h4>6. Which and Who</h4>
@@ -460,11 +534,524 @@
 
         </section>
 
+
+        <!-- ==================== ADDITIONAL PRACTICE EXERCISES ==================== -->
+<section id="additional-practice">
+    <h1>ADDITIONAL PRACTICE</h1>
+    <p>Complete the following exercises to master comparative adjectives.</p>
+
+    <!-- PART D: Short (One-Syllable) Adjectives -->
+    <div class="exercise-block">
+        <h4>D. Complete with the correct -er form.</h4>
+        <div class="exercise-item">
+            <p>1. My car is <input type="text" id="addExD-1" data-answer="faster"> (fast) than yours.</p>
+            <button class="submit-btn" data-target="addExD-1">Submit</button>
+            <span class="feedback" id="feedback-addExD-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. This box is <input type="text" id="addExD-2" data-answer="larger"> (large) than that one.</p>
+            <button class="submit-btn" data-target="addExD-2">Submit</button>
+            <span class="feedback" id="feedback-addExD-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. The sun is <input type="text" id="addExD-3" data-answer="brighter"> (bright) today.</p>
+            <button class="submit-btn" data-target="addExD-3">Submit</button>
+            <span class="feedback" id="feedback-addExD-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. My brother is <input type="text" id="addExD-4" data-answer="taller"> (tall) than me.</p>
+            <button class="submit-btn" data-target="addExD-4">Submit</button>
+            <span class="feedback" id="feedback-addExD-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. Winter is <input type="text" id="addExD-5" data-answer="colder"> (cold) than summer.</p>
+            <button class="submit-btn" data-target="addExD-5">Submit</button>
+            <span class="feedback" id="feedback-addExD-5"></span>
+        </div>
+         <div class="exercise-item">
+            <p>6. This room is <input type="text" id="addExD-6" data-answer="warmer"> (warm) than the hallway.</p>
+            <button class="submit-btn" data-target="addExD-6">Submit</button>
+            <span class="feedback" id="feedback-addExD-6"></span>
+        </div>
+        <div class="exercise-item">
+            <p>7. Her new phone is <input type="text" id="addExD-7" data-answer="nicer"> (nice) than her old one.</p>
+            <button class="submit-btn" data-target="addExD-7">Submit</button>
+            <span class="feedback" id="feedback-addExD-7"></span>
+        </div>
+        <div class="exercise-item">
+            <p>8. He is <input type="text" id="addExD-8" data-answer="stronger"> (strong) than he looks.</p>
+            <button class="submit-btn" data-target="addExD-8">Submit</button>
+            <span class="feedback" id="feedback-addExD-8"></span>
+        </div>
+        <div class="exercise-item">
+            <p>9. The train is often <input type="text" id="addExD-9" data-answer="cheaper"> (cheap) than the plane.</p>
+            <button class="submit-btn" data-target="addExD-9">Submit</button>
+            <span class="feedback" id="feedback-addExD-9"></span>
+        </div>
+        <div class="exercise-item">
+            <p>10. My grandfather is <input type="text" id="addExD-10" data-answer="older"> (old) than my grandmother.</p>
+            <button class="submit-btn" data-target="addExD-10">Submit</button>
+            <span class="feedback" id="feedback-addExD-10"></span>
+        </div>
+    </div>
+
+    <!-- PART E: Adjectives Ending in -y -->
+    <div class="exercise-block">
+        <h4>E. Complete with the correct -ier form.</h4>
+        <div class="exercise-item">
+            <p>1. This test was <input type="text" id="addExE-1" data-answer="easier"> (easy) than the last one.</p>
+            <button class="submit-btn" data-target="addExE-1">Submit</button>
+            <span class="feedback" id="feedback-addExE-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. My dog is <input type="text" id="addExE-2" data-answer="happier"> (happy) when we go to the park.</p>
+            <button class="submit-btn" data-target="addExE-2">Submit</button>
+            <span class="feedback" id="feedback-addExE-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. The city is <input type="text" id="addExE-3" data-answer="busier"> (busy) on weekends.</p>
+            <button class="submit-btn" data-target="addExE-3">Submit</button>
+            <span class="feedback" id="feedback-addExE-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. My bag is <input type="text" id="addExE-4" data-answer="heavier"> (heavy) than yours.</p>
+            <button class="submit-btn" data-target="addExE-4">Submit</button>
+            <span class="feedback" id="feedback-addExE-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. The comedian was <input type="text" id="addExE-5" data-answer="funnier"> (funny) than the opening act.</p>
+            <button class="submit-btn" data-target="addExE-5">Submit</button>
+            <span class="feedback" id="feedback-addExE-5"></span>
+        </div>
+        <div class="exercise-item">
+            <p>6. Today is <input type="text" id="addExE-6" data-answer="sunnier"> (sunny) than yesterday.</p>
+            <button class="submit-btn" data-target="addExE-6">Submit</button>
+            <span class="feedback" id="feedback-addExE-6"></span>
+        </div>
+        <div class="exercise-item">
+            <p>7. The library is <input type="text" id="addExE-7" data-answer="noisier"> (noisy) than usual today.</p>
+            <button class="submit-btn" data-target="addExE-7">Submit</button>
+            <span class="feedback" id="feedback-addExE-7"></span>
+        </div>
+        <div class="exercise-item">
+            <p>8. This apple is <input type="text" id="addExE-8" data-answer="tastier"> (tasty) than that orange.</p>
+            <button class="submit-btn" data-target="addExE-8">Submit</button>
+            <span class="feedback" id="feedback-addExE-8"></span>
+        </div>
+        <div class="exercise-item">
+            <p>9. I wake up <input type="text" id="addExE-9" data-answer="earlier"> (early) than my sister.</p>
+            <button class="submit-btn" data-target="addExE-9">Submit</button>
+            <span class="feedback" id="feedback-addExE-9"></span>
+        </div>
+        <div class="exercise-item">
+            <p>10. She looks <input type="text" id="addExE-10" data-answer="prettier"> (pretty) with her hair up.</p>
+            <button class="submit-btn" data-target="addExE-10">Submit</button>
+            <span class="feedback" id="feedback-addExE-10"></span>
+        </div>
+    </div>
+    
+    <!-- PART F: Long Adjectives -->
+    <div class="exercise-block">
+        <h4>F. Complete with "more" and the adjective.</h4>
+        <div class="exercise-item">
+            <p>1. This book is <input type="text" id="addExF-1" data-answer="more interesting"> (interesting) than the movie.</p>
+            <button class="submit-btn" data-target="addExF-1">Submit</button>
+            <span class="feedback" id="feedback-addExF-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. A sports car is <input type="text" id="addExF-2" data-answer="more expensive"> (expensive) than a bicycle.</p>
+            <button class="submit-btn" data-target="addExF-2">Submit</button>
+            <span class="feedback" id="feedback-addExF-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. The new sofa is <input type="text" id="addExF-3" data-answer="more comfortable"> (comfortable) than the old one.</p>
+            <button class="submit-btn" data-target="addExF-3">Submit</button>
+            <span class="feedback" id="feedback-addExF-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. Health is <input type="text" id="addExF-4" data-answer="more important"> (important) than money.</p>
+            <button class="submit-btn" data-target="addExF-4">Submit</button>
+            <span class="feedback" id="feedback-addExF-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. That painting is <input type="text" id="addExF-5" data-answer="more beautiful"> (beautiful) than this one.</p>
+            <button class="submit-btn" data-target="addExF-5">Submit</button>
+            <span class="feedback" id="feedback-addExF-5"></span>
+        </div>
+        <div class="exercise-item">
+            <p>6. Math is <input type="text" id="addExF-6" data-answer="more difficult"> (difficult) for me than history.</p>
+            <button class="submit-btn" data-target="addExF-6">Submit</button>
+            <span class="feedback" id="feedback-addExF-6"></span>
+        </div>
+        <div class="exercise-item">
+            <p>7. The concert was <input type="text" id="addExF-7" data-answer="more exciting"> (exciting) than I expected.</p>
+            <button class="submit-btn" data-target="addExF-7">Submit</button>
+            <span class="feedback" id="feedback-addExF-7"></span>
+        </div>
+        <div class="exercise-item">
+            <p>8. She is <input type="text" id="addExF-8" data-answer="more careful"> (careful) than her brother.</p>
+            <button class="submit-btn" data-target="addExF-8">Submit</button>
+            <span class="feedback" id="feedback-addExF-8"></span>
+        </div>
+        <div class="exercise-item">
+            <p>9. Italian food is <input type="text" id="addExF-9" data-answer="more popular"> (popular) than Vietnamese food in my city.</p>
+            <button class="submit-btn" data-target="addExF-9">Submit</button>
+            <span class="feedback" id="feedback-addExF-9"></span>
+        </div>
+        <div class="exercise-item">
+            <p>10. I think documentaries are <input type="text" id="addExF-10" data-answer="more boring"> (boring) than action movies.</p>
+            <button class="submit-btn" data-target="addExF-10">Submit</button>
+            <span class="feedback" id="feedback-addExF-10"></span>
+        </div>
+    </div>
+    
+    <!-- PART G: Irregular Adjectives -->
+    <div class="exercise-block">
+        <h4>G. Complete with the correct irregular form.</h4>
+        <div class="exercise-item">
+            <p>1. The weather today is <input type="text" id="addExG-1" data-answer="better"> (good) than yesterday.</p>
+            <button class="submit-btn" data-target="addExG-1">Submit</button>
+            <span class="feedback" id="feedback-addExG-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. My headache is <input type="text" id="addExG-2" data-answer="worse"> (bad) than it was this morning.</p>
+            <button class="submit-btn" data-target="addExG-2">Submit</button>
+            <span class="feedback" id="feedback-addExG-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. Playing games is <input type="text" id="addExG-3" data-answer="more fun"> (fun) than studying.</p>
+            <button class="submit-btn" data-target="addExG-3">Submit</button>
+            <span class="feedback" id="feedback-addExG-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. Your score on the test was <input type="text" id="addExG-4" data-answer="better"> (good) than mine.</p>
+            <button class="submit-btn" data-target="addExG-4">Submit</button>
+            <span class="feedback" id="feedback-addExG-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. The traffic is <input type="text" id="addExG-5" data-answer="worse"> (bad) during rush hour.</p>
+            <button class="submit-btn" data-target="addExG-5">Submit</button>
+            <span class="feedback" id="feedback-addExG-5"></span>
+        </div>
+    </div>
+    
+    <!-- PART H: Mixed Practice -->
+    <div class="exercise-block">
+        <h4>H. Complete with the correct comparative form (Mixed).</h4>
+        <div class="exercise-item">
+            <p>1. A tiger is <input type="text" id="addExH-1" data-answer="stronger"> (strong) than a cat.</p>
+            <button class="submit-btn" data-target="addExH-1">Submit</button>
+            <span class="feedback" id="feedback-addExH-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. This homework is <input type="text" id="addExH-2" data-answer="more difficult"> (difficult) than the last one.</p>
+            <button class="submit-btn" data-target="addExH-2">Submit</button>
+            <span class="feedback" id="feedback-addExH-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. Orange juice is <input type="text" id="addExH-3" data-answer="healthier"> (healthy) than soda.</p>
+            <button class="submit-btn" data-target="addExH-3">Submit</button>
+            <span class="feedback" id="feedback-addExH-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. His new movie is <input type="text" id="addExH-4" data-answer="worse"> (bad) than his old one.</p>
+            <button class="submit-btn" data-target="addExH-4">Submit</button>
+            <span class="feedback" id="feedback-addExH-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. Living in the city is <input type="text" id="addExH-5" data-answer="more expensive"> (expensive) than living in the countryside.</p>
+            <button class="submit-btn" data-target="addExH-5">Submit</button>
+            <span class="feedback" id="feedback-addExH-5"></span>
+        </div>
+         <div class="exercise-item">
+            <p>6. I think swimming is <input type="text" id="addExH-6" data-answer="more fun"> (fun) than running.</p>
+            <button class="submit-btn" data-target="addExH-6">Submit</button>
+            <span class="feedback" id="feedback-addExH-6"></span>
+        </div>
+        <div class="exercise-item">
+            <p>7. The Pacific Ocean is <input type="text" id="addExH-7" data-answer="larger"> (large) than the Atlantic Ocean.</p>
+            <button class="submit-btn" data-target="addExH-7">Submit</button>
+            <span class="feedback" id="feedback-addExH-7"></span>
+        </div>
+        <div class="exercise-item">
+            <p>8. Chocolate cake is <input type="text" id="addExH-8" data-answer="tastier"> (tasty) than vanilla cake.</p>
+            <button class="submit-btn" data-target="addExH-8">Submit</button>
+            <span class="feedback" id="feedback-addExH-8"></span>
+        </div>
+        <div class="exercise-item">
+            <p>9. My new job is <input type="text" id="addExH-9" data-answer="better"> (good) than my last job.</p>
+            <button class="submit-btn" data-target="addExH-9">Submit</button>
+            <span class="feedback" id="feedback-addExH-9"></span>
+        </div>
+        <div class="exercise-item">
+            <p>10. Airplanes are <input type="text" id="addExH-10" data-answer="faster"> (fast) than trains.</p>
+            <button class="submit-btn" data-target="addExH-10">Submit</button>
+            <span class="feedback" id="feedback-addExH-10"></span>
+        </div>
+        <div class="exercise-item">
+            <p>11. The final exam was <input type="text" id="addExH-11" data-answer="harder"> (hard) than the midterm.</p>
+            <button class="submit-btn" data-target="addExH-11">Submit</button>
+            <span class="feedback" id="feedback-addExH-11"></span>
+        </div>
+        <div class="exercise-item">
+            <p>12. She is <input type="text" id="addExH-12" data-answer="more famous"> (famous) now than she was five years ago.</p>
+            <button class="submit-btn" data-target="addExH-12">Submit</button>
+            <span class="feedback" id="feedback-addExH-12"></span>
+        </div>
+        <div class="exercise-item">
+            <p>13. This neighborhood is <input type="text" id="addExH-13" data-answer="safer"> (safe) than the one we used to live in.</p>
+            <button class="submit-btn" data-target="addExH-13">Submit</button>
+            <span class="feedback" id="feedback-addExH-13"></span>
+        </div>
+        <div class="exercise-item">
+            <p>14. Learning English grammar is <input type="text" id="addExH-14" data-answer="easier"> (easy) with practice.</p>
+            <button class="submit-btn" data-target="addExH-14">Submit</button>
+            <span class="feedback" id="feedback-addExH-14"></span>
+        </div>
+        <div class="exercise-item">
+            <p>15. I think the blue dress is <input type="text" id="addExH-15" data-answer="prettier"> (pretty) than the red one.</p>
+            <button class="submit-btn" data-target="addExH-15">Submit</button>
+            <span class="feedback" id="feedback-addExH-15"></span>
+        </div>
+    </div>
+
+    <!-- PART I: Sentence Reordering -->
+    <div class="exercise-block">
+        <h4>I. Put the words in the correct order.</h4>
+        <div class="exercise-item">
+            <p>1. (than / is / My sister / me / older)</p>
+            <input type="text" id="addExI-1" data-answer="My sister is older than me.">
+            <button class="submit-btn" data-target="addExI-1">Submit</button>
+            <span class="feedback" id="feedback-addExI-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. (cars / are / than / expensive / Bicycles / more)</p>
+            <input type="text" id="addExI-2" data-answer="Cars are more expensive than bicycles.">
+            <button class="submit-btn" data-target="addExI-2">Submit</button>
+            <span class="feedback" id="feedback-addExI-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. (better / is / Chocolate / than / vanilla)</p>
+            <input type="text" id="addExI-3" data-answer="Chocolate is better than vanilla.">
+            <button class="submit-btn" data-target="addExI-3">Submit</button>
+            <span class="feedback" id="feedback-addExI-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. (your / than / My bag / heavier / is / bag)</p>
+            <input type="text" id="addExI-4" data-answer="My bag is heavier than your bag.">
+            <button class="submit-btn" data-target="addExI-4">Submit</button>
+            <span class="feedback" id="feedback-addExI-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. (are / than / Movies / interesting / books / more)</p>
+            <input type="text" id="addExI-5" data-answer="Books are more interesting than movies.">
+            <button class="submit-btn" data-target="addExI-5">Submit</button>
+            <span class="feedback" id="feedback-addExI-5"></span>
+        </div>
+    </div>
+    
+    <!-- PART J: Question Formation -->
+    <div class="exercise-block">
+        <h4>J. Make questions with the words provided.</h4>
+        <div class="exercise-item">
+            <p>1. (Which / fast / a car or a bike)</p>
+            <input type="text" id="addExJ-1" data-answer="Which is faster, a car or a bike?">
+            <button class="submit-btn" data-target="addExJ-1">Submit</button>
+            <span class="feedback" id="feedback-addExJ-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. (Who / tall / you or your father)</p>
+            <input type="text" id="addExJ-2" data-answer="Who is taller, you or your father?">
+            <button class="submit-btn" data-target="addExJ-2">Submit</button>
+            <span class="feedback" id="feedback-addExJ-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. (Which / expensive / a hotel or a hostel)</p>
+            <input type="text" id="addExJ-3" data-answer="Which is more expensive, a hotel or a hostel?">
+            <button class="submit-btn" data-target="addExJ-3">Submit</button>
+            <span class="feedback" id="feedback-addExJ-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. (Who / young / Maria or her sister)</p>
+            <input type="text" id="addExJ-4" data-answer="Who is younger, Maria or her sister?">
+            <button class="submit-btn" data-target="addExJ-4">Submit</button>
+            <span class="feedback" id="feedback-addExJ-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. (Which / good / tea or coffee)</p>
+            <input type="text" id="addExJ-5" data-answer="Which is better, tea or coffee?">
+            <button class="submit-btn" data-target="addExJ-5">Submit</button>
+            <span class="feedback" id="feedback-addExJ-5"></span>
+        </div>
+    </div>
+
+    <!-- PART K: Error Correction -->
+    <div class="exercise-block">
+        <h4>K. Find and correct the mistake in each sentence.</h4>
+        <div class="exercise-item">
+            <p>1. This apple is more red than that one. -> <input type="text" id="addExK-1" data-answer="redder"></p>
+            <button class="submit-btn" data-target="addExK-1">Submit</button>
+            <span class="feedback" id="feedback-addExK-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. She is happyer than her friend. -> <input type="text" id="addExK-2" data-answer="happier"></p>
+            <button class="submit-btn" data-target="addExK-2">Submit</button>
+            <span class="feedback" id="feedback-addExK-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. Today's homework is more easy. -> <input type="text" id="addExK-3" data-answer="easier"></p>
+            <button class="submit-btn" data-target="addExK-3">Submit</button>
+            <span class="feedback" id="feedback-addExK-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. My phone is gooder than yours. -> <input type="text" id="addExK-4" data-answer="better"></p>
+            <button class="submit-btn" data-target="addExK-4">Submit</button>
+            <span class="feedback" id="feedback-addExK-4"></span>
+        </div>
+        <div class="exercise-item">
+            <p>5. The movie was bader than the book. -> <input type="text" id="addExK-5" data-answer="worse"></p>
+            <button class="submit-btn" data-target="addExK-5">Submit</button>
+            <span class="feedback" id="feedback-addExK-5"></span>
+        </div>
+        <div class="exercise-item">
+            <p>6. He runs more fast than I do. -> <input type="text" id="addExK-6" data-answer="faster"></p>
+            <button class="submit-btn" data-target="addExK-6">Submit</button>
+            <span class="feedback" id="feedback-addExK-6"></span>
+        </div>
+        <div class="exercise-item">
+            <p>7. This car is comfortabler than that one. -> <input type="text" id="addExK-7" data-answer="more comfortable"></p>
+            <button class="submit-btn" data-target="addExK-7">Submit</button>
+            <span class="feedback" id="feedback-addExK-7"></span>
+        </div>
+        <div class="exercise-item">
+            <p>8. Going to the beach is funner than staying home. -> <input type="text" id="addExK-8" data-answer="more fun"></p>
+            <button class="submit-btn" data-target="addExK-8">Submit</button>
+            <span class="feedback" id="feedback-addExK-8"></span>
+        </div>
+        <div class="exercise-item">
+            <p>9. My house is more big than her house. -> <input type="text" id="addExK-9" data-answer="bigger"></p>
+            <button class="submit-btn" data-target="addExK-9">Submit</button>
+            <span class="feedback" id="feedback-addExK-9"></span>
+        </div>
+        <div class="exercise-item">
+            <p>10. The weather is more hot today. -> <input type="text" id="addExK-10" data-answer="hotter"></p>
+            <button class="submit-btn" data-target="addExK-10">Submit</button>
+            <span class="feedback" id="feedback-addExK-10"></span>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== PART L: Advanced Irregular Comparatives ==================== -->
+<div class="exercise-block">
+    <h4>L. Practice with Advanced Irregular Comparatives.</h4>
+    <p>Complete the sentences using the correct form: farther, further, less, more, older, or elder.</p>
+    
+    <div class="exercise-item">
+        <p>1. The airport is <input type="text" id="addExL-1" data-answer="farther"> (far) from here than the train station.</p>
+        <button class="submit-btn" data-target="addExL-1">Submit</button>
+        <span class="feedback" id="feedback-addExL-1"></span>
+    </div>
+    <div class="exercise-item">
+        <p>2. I have <input type="text" id="addExL-2" data-answer="less"> (little) sugar in my coffee than you do.</p>
+        <button class="submit-btn" data-target="addExL-2">Submit</button>
+        <span class="feedback" id="feedback-addExL-2"></span>
+    </div>
+    <div class="exercise-item">
+        <p>3. Do you have any <input type="text" id="addExL-3" data-answer="further"> (far) questions for me?</p>
+        <button class="submit-btn" data-target="addExL-3">Submit</button>
+        <span class="feedback" id="feedback-addExL-3"></span>
+    </div>
+    <div class="exercise-item">
+        <p>4. She has <input type="text" id="addExL-4" data-answer="more"> (many) books in her library than I do.</p>
+        <button class="submit-btn" data-target="addExL-4">Submit</button>
+        <span class="feedback" id="feedback-addExL-4"></span>
+    </div>
+    <div class="exercise-item">
+        <p>5. My <input type="text" id="addExL-5" data-answer="elder"> (old) sister is a doctor. </p>
+        <button class="submit-btn" data-target="addExL-5">Submit</button>
+        <span class="feedback" id="feedback-addExL-5"></span>
+    </div>
+    <div class="exercise-item">
+        <p>6. This new phone has <input type="text" id="addExL-6" data-answer="more"> (much) memory than my old one.</p>
+        <button class="submit-btn" data-target="addExL-6">Submit</button>
+        <span class="feedback" id="feedback-addExL-6"></span>
+    </div>
+    <div class="exercise-item">
+        <p>7. We need to walk a little <input type="text" id="addExL-7" data-answer="farther"> (far) to reach the beach.</p>
+        <button class="submit-btn" data-target="addExL-7">Submit</button>
+        <span class="feedback" id="feedback-addExL-7"></span>
+    </div>
+    <div class="exercise-item">
+        <p>8. The new manager wants to make <input type="text" id="addExL-8" data-answer="further"> (far) improvements.</p>
+        <button class="submit-btn" data-target="addExL-8">Submit</button>
+        <span class="feedback" id="feedback-addExL-8"></span>
+    </div>
+    <div class="exercise-item">
+        <p>9. My grandfather is <input type="text" id="addExL-9" data-answer="older"> (old) than my grandmother.</p>
+        <button class="submit-btn" data-target="addExL-9">Submit</button>
+        <span class="feedback" id="feedback-addExL-9"></span>
+    </div>
+    <div class="exercise-item">
+        <p>10. There is <input type="text" id="addExL-10" data-answer="less"> (little) traffic on Sundays.</p>
+        <button class="submit-btn" data-target="addExL-10">Submit</button>
+        <span class="feedback" id="feedback-addExL-10"></span>
+    </div>
+    <div class="exercise-item">
+        <p>11. He needs <input type="text" id="addExL-11" data-answer="more"> (much) time to finish the project.</p>
+        <button class="submit-btn" data-target="addExL-11">Submit</button>
+        <span class="feedback" id="feedback-addExL-11"></span>
+    </div>
+    <div class="exercise-item">
+        <p>12. Who is the <input type="text" id="addExL-12" data-answer="elder"> (old) of the two brothers?</p>
+        <button class="submit-btn" data-target="addExL-12">Submit</button>
+        <span class="feedback" id="feedback-addExL-12"></span>
+    </div>
+    <div class="exercise-item">
+        <p>13. I am three years <input type="text" id="addExL-13" data-answer="older"> (old) than my cousin.</p>
+        <button class="submit-btn" data-target="addExL-13">Submit</button>
+        <span class="feedback" id="feedback-addExL-13"></span>
+    </div>
+    <div class="exercise-item">
+        <p>14. For <input type="text" id="addExL-14" data-answer="further"> (far) details, contact customer service.</p>
+        <button class="submit-btn" data-target="addExL-14">Submit</button>
+        <span class="feedback" id="feedback-addExL-14"></span>
+    </div>
+    <div class="exercise-item">
+        <p>15. There are <input type="text" id="addExL-15" data-answer="less"> (little) people in the park today because of the rain.</p>
+        <button class="submit-btn" data-target="addExL-15">Submit</button>
+        <span class="feedback" id="feedback-addExL-15"></span>
+    </div>
+    <div class="exercise-item">
+        <p>16. The city of Rome is much <input type="text" id="addExL-16" data-answer="older"> (old) than New York City.</p>
+        <button class="submit-btn" data-target="addExL-16">Submit</button>
+        <span class="feedback" id="feedback-addExL-16"></span>
+    </div>
+    <div class="exercise-item">
+        <p>17. We need to go <input type="text" id="addExL-17" data-answer="further"> (far) into the topic to understand it completely.</p>
+        <button class="submit-btn" data-target="addExL-17">Submit</button>
+        <span class="feedback" id="feedback-addExL-17"></span>
+    </div>
+    <div class="exercise-item">
+        <p>18. A bicycle costs much <input type="text" id="addExL-18" data-answer="less"> (little) than a car.</p>
+        <button class="submit-btn" data-target="addExL-18">Submit</button>
+        <span class="feedback" id="feedback-addExL-18"></span>
+    </div>
+    <div class="exercise-item">
+        <p>19. The sun is <input type="text" id="addExL-19" data-answer="farther"> (far) from Earth than the moon is.</p>
+        <button class="submit-btn" data-target="addExL-19">Submit</button>
+        <span class="feedback" id="feedback-addExL-19"></span>
+    </div>
+    <div class="exercise-item">
+        <p>20. I want to buy a computer with <input type="text" id="addExL-20" data-answer="more"> (much) power.</p>
+        <button class="submit-btn" data-target="addExL-20">Submit</button>
+        <span class="feedback" id="feedback-addExL-20"></span>
+    </div>
+</div>
     </main>
 
-    <footer>
-        <p>End of Unit 15</p>
-    </footer>
+    
+
 
     <script>
 
