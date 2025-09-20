@@ -1,0 +1,183 @@
+
+[
+	{
+	  "question": "abide",
+	  "classes": "v",
+	  "answer": "Tuân theo, chịu đựng.",
+	  "ipa": "/əˈbaɪd/",
+	  "example": "`Ở bãi` (abide) xe, mọi người phải **tuân theo** quy định.",
+	  "english-definition": "To accept or act in accordance with a rule, decision, or recommendation.",
+	  "images": "eew-6-24/1.png"
+	},
+	{
+	  "question": "conversion",
+	  "classes": "n",
+	  "answer": "Sự chuyển đổi.",
+	  "ipa": "/kənˈvɜː.ʃən/",
+	  "example": "`Con` (con) `vờ` (ver) `sờn` (sion) cả lông sau **sự chuyển đổi** thành quái vật.",
+	  "english-definition": "The process of changing something from one form to another.",
+	  "images": "eew-6-24/2.png"
+	},
+	{
+	  "question": "cram",
+	  "classes": "v",
+	  "answer": "Nhồi nhét.",
+	  "ipa": "/kræm/",
+	  "example": "Ăn `kem` (cram) thì phải **nhồi nhét** thật nhiều vào ly mới đã.",
+	  "english-definition": "To force a lot of things into a small space.",
+	  "images": "eew-6-24/3.png"
+	},
+	{
+	  "question": "defer",
+	  "classes": "v",
+	  "answer": "Trì hoãn.",
+	  "ipa": "/dɪˈfɜːr/",
+	  "example": "`Đi phượt` (defer) thôi, đừng **trì hoãn** nữa.",
+	  "english-definition": "To delay something until a later time.",
+	  "images": "eew-6-24/4.png"
+	},
+	{
+	  "question": "export",
+	  "classes": "v",
+	  "answer": "Xuất khẩu.",
+	  "ipa": "/ɪkˈspɔːt/",
+	  "example": "`Ếch` (ex) `bò` (port) ra cảng để được **xuất khẩu**.",
+	  "english-definition": "To send goods to another country in order to sell them there.",
+	  "images": "eew-6-24/5.png"
+	},
+	{
+	  "question": "fume",
+	  "classes": "n",
+	  "answer": "Khói, hơi.",
+	  "ipa": "/fjuːm/",
+	  "example": "Nhà máy `phiun` (fume) ra rất nhiều **khói** độc.",
+	  "english-definition": "Strong, unpleasant, and sometimes dangerous gas or smoke.",
+	  "images": "eew-6-24/6.png"
+	},
+	{
+	  "question": "habitual",
+	  "classes": "adj",
+	  "answer": "Theo thói quen, thường xuyên.",
+	  "ipa": "/həˈbɪtʃ.u.əl/",
+	  "example": "`Hà` (ha) `bị chuồn` (bitual) là việc **thường xuyên** xảy ra ở lớp học này.",
+	  "english-definition": "Done or doing constantly or as a habit.",
+	  "images": "eew-6-24/7.png"
+	},
+	{
+	  "question": "justify",
+	  "classes": "v",
+	  "answer": "Bào chữa, biện minh.",
+	  "ipa": "/ˈdʒʌs.tɪ.faɪ/",
+	  "example": "`Chờ tí phai` (justify) màu thì không cần phải **bào chữa** đâu.",
+	  "english-definition": "To show or prove to be right or reasonable.",
+	  "images": "eew-6-24/8.png"
+	},
+	{
+	  "question": "output",
+	  "classes": "n",
+	  "answer": "Sản lượng, đầu ra.",
+	  "ipa": "/ˈaʊt.pʊt/",
+	  "example": "`Ao` (out) `bụt` (put) cho **sản lượng** cá rất cao.",
+	  "english-definition": "The amount of something produced by a person, machine, or industry.",
+	  "images": "eew-6-24/9.png"
+	},
+	{
+	  "question": "overpopulation",
+	  "classes": "n",
+	  "answer": "Sự quá tải dân số.",
+	  "ipa": "/ˌəʊ.və.pɒp.jəˈleɪ.ʃən/",
+	  "example": "`Ở vơ` (over) `bóp ví lấy` (popula) `sần` (tion) cả tay vì **sự quá tải dân số**.",
+	  "english-definition": "The fact of a country or city having too many people for the amount of food, materials, and space available.",
+	  "images": "eew-6-24/10.png"
+	},
+	{
+	  "question": "patent",
+	  "classes": "n",
+	  "answer": "Bằng sáng chế.",
+	  "ipa": "/ˈpæt.ənt/",
+	  "example": "`Ba tớ` (patent) vừa nhận được **bằng sáng chế**.",
+	  "english-definition": "The official legal right to make or sell an invention for a particular number of years.",
+	  "images": "eew-6-24/11.png"
+	},
+	{
+	  "question": "penalize",
+	  "classes": "v",
+	  "answer": "Trừng phạt, xử phạt.",
+	  "ipa": "/ˈpiː.nəl.aɪz/",
+	  "example": "`Bí nợ lại` (penalize) nên bị **xử phạt**.",
+	  "english-definition": "To cause someone to suffer for breaking a rule or law.",
+	  "images": "eew-6-24/12.png"
+	},
+	{
+	  "question": "petroleum",
+	  "classes": "n",
+	  "answer": "Dầu mỏ.",
+	  "ipa": "/pəˈtrəʊ.li.əm/",
+	  "example": "`Bé trô li` (petroli) `ầm` (um) ầm để đi tìm **dầu mỏ**.",
+	  "english-definition": "A dark, thick oil obtained from under the ground and made into fuels such as petrol and paraffin.",
+	  "images": "eew-6-24/13.png"
+	},
+	{
+	  "question": "prototype",
+	  "classes": "n",
+	  "answer": "Nguyên mẫu, vật mẫu đầu tiên.",
+	  "ipa": "/ˈprəʊ.tə.taɪp/",
+	  "example": "`Pro` (pro) `tô` (to) `tay` (type) lên **nguyên mẫu**.",
+	  "english-definition": "The first example of something, such as a machine or other industrial product, from which all later forms are developed.",
+	  "images": "eew-6-24/14.png"
+	},
+	{
+	  "question": "scrap",
+	  "classes": "n",
+	  "answer": "Mảnh vụn, phế liệu.",
+	  "ipa": "/skræp/",
+	  "example": "Xe `sờ` (s) `cạp` (crap) vào tường tạo ra một đống **phế liệu**.",
+	  "english-definition": "Old cars and machines or pieces of metal, etc. that are not wanted but have a value for the metal they contain.",
+	  "images": "eew-6-24/15.png"
+	},
+	{
+	  "question": "sector",
+	  "classes": "n",
+	  "answer": "Khu vực, lĩnh vực.",
+	  "ipa": "/ˈsek.tər/",
+	  "example": "`Sếp tớ` (sector) quản lý **khu vực** này.",
+	  "english-definition": "One of the areas into which the economic activity of a country is divided.",
+	  "images": "eew-6-24/16.png"
+	},
+	{
+	  "question": "subscribe",
+	  "classes": "v",
+	  "answer": "Đăng ký (theo dõi).",
+	  "ipa": "/səbˈskraɪb/",
+	  "example": "`Súp` (sub) `cờ rai` (scribe) ngon quá, phải **đăng ký** kênh của đầu bếp này.",
+	  "english-definition": "To pay money to an organization in order to receive a product, use a service regularly, or support the organization.",
+	  "images": "eew-6-24/17.png"
+	},
+	{
+	  "question": "subsist",
+	  "classes": "v",
+	  "answer": "Tồn tại, sinh sống.",
+	  "ipa": "/səbˈsɪst/",
+	  "example": "`Sếp` (sub) `xít` (sist) vào gần nhau để **tồn tại** qua mùa đông.",
+	  "english-definition": "To get enough food or money to stay alive, but no more.",
+	  "images": "eew-6-24/18.png"
+	},
+	{
+	  "question": "suspend",
+	  "classes": "v",
+	  "answer": "Đình chỉ, treo.",
+	  "ipa": "/səˈspend/",
+	  "example": "`Sờ` (su) `bút` (spend) của bạn nên cậu bé bị **đình chỉ** học.",
+	  "english-definition": "To stop something from being active, either temporarily or permanently.",
+	  "images": "eew-6-24/19.png"
+	},
+	{
+	  "question": "synthesis",
+	  "classes": "n",
+	  "answer": "Sự tổng hợp.",
+	  "ipa": "/ˈsɪn.θə.sɪs/",
+	  "example": "`Xin` (syn) `thơ` (the) `sít` (sis) lại gần nhau để tạo thành một **sự tổng hợp** hoàn hảo.",
+	  "english-definition": "The production of a substance from simpler materials after a chemical reaction.",
+	  "images": "eew-6-24/20.png"
+	}
+]
