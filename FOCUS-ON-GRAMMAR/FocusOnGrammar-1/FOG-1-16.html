@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 16: Present Progressive</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        /* Header Styling */
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid #f2b700; /* Yellow */
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .unit-number {
+            font-size: 6em;
+            font-weight: bold;
+            color: #f2b700;
+            margin-right: 20px;
+        }
+        .unit-title h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .unit-title h2 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #555;
+            font-weight: normal;
+        }
+        .outcomes {
+            background-color: #eef7f2;
+            border-left: 5px solid #4caf50; /* Green */
+            padding: 15px;
+            margin-bottom: 25px;
+        }
+        .outcomes h3 {
+            margin-top: 0;
+            color: #4caf50;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* Section Styling */
+        .step-header {
+            background-color: #4caf50; /* Green */
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .step-header h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .exercise-title {
+            font-weight: bold;
+            color: #d9534f; /* Red */
+            margin-bottom: 10px;
+        }
+
+        /* Interactive Elements */
+        .question-container {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-left: 3px solid #eee;
+        }
+        input[type="text"], input[type="number"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            width: 80px;
+        }
+        .submit-btn {
+            padding: 8px 15px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .feedback-correct {
+            color: #4caf50;
+        }
+        .feedback-incorrect {
+            color: #d9534f;
+        }
+
+        /* Image and Vocabulary Section */
+        .vocab-images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .vocab-item {
+            text-align: center;
+            width: 48%;
+        }
+        .vocab-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .vocab-item figcaption {
+            margin-top: 5px;
+            font-style: italic;
+        }
+        
+        /* Reading Section */
+        .email-content {
+            background: #fafafa;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .comprehension-options label {
+            margin-right: 15px;
+        }
+
+        /* Grammar Presentation Section */
+        .grammar-presentation {
+            background: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #e7e7e7;
+            border-radius: 8px;
+        }
+        .grammar-presentation h3 {
+            color: #4caf50;
+            border-bottom: 2px solid #4caf50;
+            padding-bottom: 5px;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+        }
+        .grammar-note {
+            margin-top: 20px;
+        }
+        .be-careful {
+            background-color: #fffbe6;
+            border: 1px solid #ffe58f;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .be-careful::before {
+            content: "BE CAREFUL! ";
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .long-input {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- UNIT HEADER -->
+        <header class="unit-header">
+            <div class="unit-number">16</div>
+            <div class="unit-title">
+                <h1>Present Progressive: Statements</h1>
+                <h2>FRIENDS FROM LONG AGO</h2>
+            </div>
+        </header>
+
+        <div class="outcomes">
+            <h3>OUTCOMES</h3>
+            <ul>
+                <li>Use the present progressive to talk about events that are happening now.</li>
+                <li>Complete sentences about an email.</li>
+                <li>Identify true and false sentences about a conversation.</li>
+                <li>Describe pictures and talk about what is happening in them.</li>
+                <li>Write a conversation about what is happening in photos.</li>
+            </ul>
+        </div>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <section id="step1">
+            <div class="step-header">
+                <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+            </div>
+            <p class="exercise-title">A. VOCABULARY</p>
+            <p>Study the words. Then complete the sentences. Write the picture numbers.</p>
+
+            <div class="vocab-images">
+                <figure class="vocab-item">
+                    <img src="FOG-1-16/1.png" alt="Woman looking for keys">
+                    <figcaption>1. look for</figcaption>
+                </figure>
+                <figure class="vocab-item">
+                    <img src="FOG-1-16/2.png" alt="Two women looking at a phone">
+                    <figcaption>2. look at</figcaption>
+                </figure>
+                <figure class="vocab-item">
+                    <img src="FOG-1-16/3.png" alt="Man waiting for a friend">
+                    <figcaption>3. wait for</figcaption>
+                </figure>
+                <figure class="vocab-item">
+                    <img src="FOG-1-16/4.png" alt="Woman winning a race">
+                    <figcaption>4. win / lose</figcaption>
+                </figure>
+            </div>
+            
+            <div id="exercise-A-vocab">
+                <div class="question-container">
+                    1. In picture <input type="number" id="q1a-input" min="1" max="4">, she is winning the race.
+                    <button class="submit-btn" onclick="checkAnswer('vocabA', 0, 'q1a-input')">Submit</button>
+                    <span class="feedback" id="feedback-vocabA-0"></span>
+                </div>
+                <div class="question-container">
+                    2. In picture <input type="number" id="q2a-input" min="1" max="4">, she is looking for her keys.
+                    <button class="submit-btn" onclick="checkAnswer('vocabA', 1, 'q2a-input')">Submit</button>
+                    <span class="feedback" id="feedback-vocabA-1"></span>
+                </div>
+                <div class="question-container">
+                    3. In picture <input type="number" id="q3a-input" min="1" max="4">, he is waiting for a friend.
+                    <button class="submit-btn" onclick="checkAnswer('vocabA', 2, 'q3a-input')">Submit</button>
+                    <span class="feedback" id="feedback-vocabA-2"></span>
+                </div>
+                <div class="question-container">
+                    4. In picture <input type="number" id="q4a-input" min="1" max="4">, they are looking at a photo.
+                    <button class="submit-btn" onclick="checkAnswer('vocabA', 3, 'q4a-input')">Submit</button>
+                    <span class="feedback" id="feedback-vocabA-3"></span>
+                </div>
+                <div class="question-container">
+                    5. In picture <input type="number" id="q5a-input" min="1" max="4">, he is losing the race.
+                    <button class="submit-btn" onclick="checkAnswer('vocabA', 4, 'q5a-input')">Submit</button>
+                    <span class="feedback" id="feedback-vocabA-4"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- READ SECTION -->
+        <section id="read">
+            <div class="step-header">
+                <h2>READ</h2>
+            </div>
+            <h3>A Friend from Long Ago</h3>
+            <div class="email-content">
+                <p><strong>Dear Lauren,</strong></p>
+                <p>I was so happy to hear from you. Of course I remember you. You were one of my best friends in high school!</p>
+                <p>I'm living in Redmond now with my husband and children. Here are some photos of us.</p>
+                <p>Tim is my husband. He's in the first photo. He has brown hair, and he's wearing a gray sweatshirt. He's sitting next to my brother, Steve. They're watching a baseball game. They're not smiling because their team is losing. I'm sure you remember Steve. Believe it or not, he's a professor now.</p>
+                <p>I'm in the second photo between my mom and dad. We're not smiling because we're hungry. We're waiting for the game to end.</p>
+                <p>In the last photo, my son Jeremy is in the chair. He's fifteen. He's looking at his phone, and he's texting friends. He loves that phone! Annie and Ben are playing cards. Annie is ten, and Ben is seven. They keep us busy.</p>
+                <p>Call when you're in Seattle. I can't wait to see you. Maybe we can see our old friend Sylvia, too. I know she lives in Seattle. I don't have her phone number, but I can look for it.</p>
+                <p>Your friend from long ago,<br><strong>Jessica</strong></p>
+            </div>
+        </section>
+        
+        <!-- AFTER YOU READ -->
+        <section id="after-read">
+             <div class="step-header">
+                <h2>AFTER YOU READ</h2>
+            </div>
+            <p class="exercise-title">A. COMPREHENSION</p>
+            <p>Look at Jessica's email again. Complete the sentences. Circle the correct answers.</p>
+            <div id="exercise-B-comprehension">
+                <!-- Questions will be generated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <section id="step2">
+            <div class="step-header">
+                <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+            </div>
+            <div class="grammar-presentation">
+                <h3>PRESENT PROGRESSIVE: STATEMENTS</h3>
+
+                <h4>Affirmative Statements</h4>
+                <table class="grammar-table">
+                    <thead>
+                        <tr>
+                            <th>Am</th>
+                            <th>Is</th>
+                            <th>Are</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I <strong>am</strong> listening.</td>
+                            <td>He <strong>is</strong> standing.</td>
+                            <td>We <strong>are</strong> sitting.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>She <strong>is</strong> sitting.</td>
+                            <td>You <strong>are</strong> standing.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>It <strong>is</strong> raining.</td>
+                            <td>They <strong>are</strong> smiling.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h4>Contractions</h4>
+                 <table class="grammar-table">
+                    <tbody>
+                        <tr>
+                            <td>I<strong>'m</strong> listening.</td>
+                            <td>He<strong>'s</strong> standing.</td>
+                            <td>We<strong>'re</strong> sitting.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>She<strong>'s</strong> sitting.</td>
+                            <td>You<strong>'re</strong> standing.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>It<strong>'s</strong> raining.</td>
+                            <td>They<strong>'re</strong> smiling.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h4>Negative Statements</h4>
+                <table class="grammar-table">
+                     <thead>
+                        <tr>
+                            <th>Am not</th>
+                            <th>Is not</th>
+                            <th>Are not</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I <strong>am not</strong> talking.</td>
+                            <td>He <strong>is not</strong> standing.</td>
+                            <td>We <strong>are not</strong> working.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>She <strong>is not</strong> reading.</td>
+                            <td>You <strong>are not</strong> listening.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>It <strong>is not</strong> snowing.</td>
+                            <td>They <strong>are not</strong> working.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h4>Contractions</h4>
+                <table class="grammar-table">
+                    <tbody>
+                        <tr>
+                            <td>I<strong>'m not</strong> talking.</td>
+                            <td>He<strong>'s not</strong> standing. / He <strong>isn't</strong> standing.</td>
+                            <td>We<strong>'re not</strong> working. / We <strong>aren't</strong> working.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>She<strong>'s not</strong> sitting. / She <strong>isn't</strong> sitting.</td>
+                            <td>You<strong>'re not</strong> talking. / You <strong>aren't</strong> talking.</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>It<strong>'s not</strong> snowing. / It <strong>isn't</strong> snowing.</td>
+                            <td>They<strong>'re not</strong> working. / They <strong>aren't</strong> working.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="grammar-note">
+                    <h3>GRAMMAR NOTES</h3>
+                    
+                    <h4>1. Present Progressive: Uses</h4>
+                    <p>Use the <strong>present progressive</strong> to talk about an action or event that is <strong>happening now</strong>.</p>
+                    <p><em>Examples:</em></p>
+                    <ul>
+                        <li>I <strong>am sitting</strong> next to Maria.</li>
+                        <li>Jon <strong>is texting</strong>.</li>
+                        <li>We <strong>are talking</strong>.</li>
+                    </ul>
+
+                    <h4>2. Affirmative Statements</h4>
+                    <p>Use a form of <strong>be + the verb + -ing</strong> to form the present progressive.</p>
+                    <p>If the base form of the verb ends in <strong>-e</strong>, drop the <strong>-e</strong> and add <strong>-ing</strong>. (e.g., write → writing)</p>
+                    <p>If the base form of the verb is one syllable and it ends in <strong>consonant + vowel + consonant</strong>, double the last consonant. Then add <strong>-ing</strong>. (e.g., run → running, sit → sitting)</p>
+                    <div class="be-careful">
+                        Do not double the last consonant if the verb ends in -w, -x, or -y. (e.g., grow → growing, fix → fixing, play → playing)
+                    </div>
+                     <div class="be-careful">
+                        When one subject refers to two verbs, do not repeat a form of <em>be</em>. (e.g., He's eating and watching TV. <span style="text-decoration: line-through;">NOT He's eating and is watching TV.</span>)
+                    </div>
+
+                    <h4>3. Negative Statements</h4>
+                    <p>Use a form of <strong>be + not + the verb + -ing</strong> for negative statements.</p>
+                    <p>We usually use contractions in speaking and informal writing.</p>
+                    <p>There are two contractions for <em>is not</em> (<strong>isn't</strong>, <strong>'s not</strong>) and <em>are not</em> (<strong>aren't</strong>, <strong>'re not</strong>).</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- EXERCISE 2: AFFIRMATIVE STATEMENTS -->
+        <section id="step3-ex2">
+            <div class="step-header">
+                <h2>EXERCISE 2: AFFIRMATIVE STATEMENTS</h2>
+            </div>
+            <p>Complete the sentences. Use the present progressive forms of the verbs in the box. Do not use contractions.</p>
+            <div style="background:#eee; padding: 10px; text-align:center; margin-bottom: 20px;">
+                carry &nbsp;•&nbsp; cook &nbsp;•&nbsp; fix &nbsp;•&nbsp; listen to &nbsp;•&nbsp; look at &nbsp;•&nbsp; look for &nbsp;•&nbsp; play &nbsp;•&nbsp; rain &nbsp;•&nbsp; wait for &nbsp;•&nbsp; write
+            </div>
+            <div id="exercise-C-affirmative">
+                <!-- Questions generated by JS -->
+            </div>
+        </section>
+        
+        <!-- EXERCISE 4: AFFIRMATIVE AND NEGATIVE -->
+        <section id="step3-ex4">
+            <div class="step-header">
+                <h2>EXERCISE 4: AFFIRMATIVE AND NEGATIVE STATEMENTS</h2>
+            </div>
+            <p>Look at the pictures. Complete the sentences. Use the words in parentheses. Write one affirmative and one negative sentence.</p>
+            <div class="vocab-images">
+                 <!-- Assume images 1-6 are available -->
+                 <figure class="vocab-item"><img src="FOG-1-16/ex4-1.png" alt="Woman pushing luggage"></figure>
+                 <figure class="vocab-item"><img src="FOG-1-16/ex4-2.png" alt="Man listening to music"></figure>
+                 <figure class="vocab-item"><img src="FOG-1-16/ex4-3.png" alt="Man reading a paper"></figure>
+                 <figure class="vocab-item"><img src="FOG-1-16/ex4-4.png" alt="Man drinking coffee"></figure>
+                 <figure class="vocab-item"><img src="FOG-1-16/ex4-5.png" alt="People hugging"></figure>
+                 <figure class="vocab-item"><img src="FOG-1-16/ex4-6.png" alt="People waiting for a bus"></figure>
+            </div>
+            <div id="exercise-D-affneg">
+                <!-- Questions generated by JS -->
+            </div>
+        </section>
+
+                <!-- UNIT 16 REVIEW SECTION -->
+        <section id="unit-review">
+            <div class="step-header" style="background-color: #d9534f;"> <!-- Red header for review -->
+                <h2>UNIT 16 REVIEW</h2>
+            </div>
+            <p>Test yourself on the grammar of the unit.</p>
+
+            <!-- Exercise A -->
+            <p class="exercise-title">A. Complete the sentences. Circle the correct answers.</p>
+            <div id="exercise-review-A">
+                <!-- Questions for Review A will be generated here by JavaScript -->
+            </div>
+
+            <!-- Exercise B -->
+            <p class="exercise-title" style="margin-top: 30px;">B. Complete the conversation. Use the present progressive form of the words in parentheses. Do not use contractions.</p>
+            <div id="exercise-review-B">
+                <!-- Questions for Review B will be generated here by JavaScript -->
+            </div>
+            
+            <!-- Exercise C -->
+            <p class="exercise-title" style="margin-top: 30px;">C. Correct the sentences. There are four mistakes. Use contractions.</p>
+            <div id="exercise-review-C">
+                <!-- Questions for Review C will be generated here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- BONUS EXERCISES SECTION -->
+        <section id="bonus-exercises">
+            <div class="step-header" style="background-color: #007bff;"> <!-- Blue header for bonus -->
+                <h2>BONUS EXERCISES (100 SENTENCES)</h2>
+            </div>
+            
+            <!-- Exercise 1: Affirmative Statements -->
+            <h3>Exercise 1: Affirmative Statements (Fill in the blanks)</h3>
+            <p>Complete the sentences with the correct present progressive form of the verb in parentheses.</p>
+            <div id="exercise-bonus-A"></div>
+
+            <!-- Exercise 2: Negative Statements -->
+            <h3>Exercise 2: Negative Statements (Fill in the blanks)</h3>
+            <p>Complete the sentences with the correct negative present progressive form. Use contractions (e.g., isn't, aren't, 'm not).</p>
+            <div id="exercise-bonus-B"></div>
+
+            <!-- Exercise 3: Spelling Rules Focus -->
+            <h3>Exercise 3: Spelling Rules Focus</h3>
+            <p>Pay close attention to the spelling of the -ing form.</p>
+            <div id="exercise-bonus-C"></div>
+            
+            <!-- Exercise 4: Mixed Affirmative & Negative -->
+            <h3>Exercise 4: Mixed Affirmative & Negative</h3>
+            <p>Decide if the sentence should be affirmative (+) or negative (-).</p>
+            <div id="exercise-bonus-D"></div>
+            
+            <!-- Exercise 5: Error Correction -->
+            <h3>Exercise 5: Error Correction</h3>
+            <p>Find the mistake in each sentence and rewrite the correct sentence.</p>
+            <div id="exercise-bonus-E"></div>
+
+            <!-- Exercise 6: Sentence Building -->
+            <h3>Exercise 6: Sentence Building</h3>
+            <p>Use the words to make a correct present progressive sentence.</p>
+            <div id="exercise-bonus-F"></div>
+
+        </section>
+    </div>
+
+    <script>
+        const unitContent = {
+            vocabA: {
+                questions: [
+                    { correctAnswer: "4" },
+                    { correctAnswer: "1" },
+                    { correctAnswer: "3" },
+                    { correctAnswer: "2" },
+                    { correctAnswer: "4" }
+                ]
+            },
+            comprehensionB: {
+                questions: [
+                    { q: "1. Tim is wearing a", options: ["gray sweatshirt", "gray pants"], answer: "gray sweatshirt" },
+                    { q: "2. Steve and Tim are watching", options: ["soccer", "baseball"], answer: "baseball" },
+                    { q: "3. Steve and Tim are not smiling because", options: ["their team isn't winning", "they're hungry"], answer: "their team isn't winning" },
+                    { q: "4. Jessica is standing between her mom and dad /", options: ["her son and daughter"], answer: "her mom and dad" },
+                    { q: "5. Jeremy is texting", options: ["friends", "classmates"], answer: "friends" },
+                    { q: "6. Annie and Ben are playing", options: ["ball", "cards"], answer: "cards" }
+                ]
+            },
+            affirmativeC: {
+                questions: [
+                    { q: "1. Joe ______ his brother.", verbs: ["is", "waiting for"], answers: ["is", "waiting for"] },
+                    { q: "2. Li Heng ______ computer games with a friend in China.", verbs: ["is", "playing"], answers: ["is", "playing"] },
+                    { q: "3. Eduarda ______ her book bag. Is it under the table?", verbs: ["is", "looking for"], answers: ["is", "looking for"] },
+                    { q: "4. Bea ______ chicken and rice.", verbs: ["is", "cooking"], answers: ["is", "cooking"] },
+                    { q: "5. Grandpa and Dad ______ the car.", verbs: ["are", "fixing"], answers: ["are", "fixing"] },
+                    { q: "6. Maria ______ an email to her friend.", verbs: ["is", "writing"], answers: ["is", "writing"] },
+                    { q: "7. It ______ outside.", verbs: ["is", "raining"], answers: ["is", "raining"] },
+                    { q: "8. People ______ umbrellas.", verbs: ["are", "carrying"], answers: ["are", "carrying"] },
+                    { q: "9. Oscar ______ music. Music helps him relax.", verbs: ["is", "listening to"], answers: ["is", "listening to"] },
+                    { q: "10. My aunt ______ pictures from long ago.", verbs: ["is", "looking at"], answers: ["is", "looking at"] }
+                ]
+            },
+            affnegD: {
+                questions: [
+                    { q: "1. In picture 1, a woman ______ (push) her bags. She ______ (not/pull) them.", answers: ["is pushing", "isn't pulling"] },
+                    { q: "2. In picture 2, a young man ______ (listen to) music. He ______ (not/sing).", answers: ["is listening to", "isn't singing"] },
+                    { q: "3. In picture 3, a man ______ (read) a paper. He ______ (not/talk) to anyone.", answers: ["is reading", "isn't talking"] },
+                    { q: "4. In picture 4, a man ______ (drink) coffee. He ______ (not/hold) a cup.", answers: ["is drinking", "isn't holding"] },
+                    { q: "5. In picture 5, people ______ (hug). They ______ (not/shake) hands.", answers: ["are hugging", "aren't shaking"] },
+                    { q: "6. In picture 6, people ______ (wait for) a bus. They ______ (not/take) the bus.", answers: ["are waiting for", "aren't taking"] }
+                ]
+            },
+            reviewA: {
+        questions: [
+            { q: "1. Jeremy is", options: ["listen", "listening"], answer: "listening", rest: "to music." },
+            { q: "2. Ben and Annie", options: ["is playing", "are playing"], answer: "are playing", rest: "cards." },
+            { q: "3. It", options: ["not raining", "isn't raining"], answer: "isn't raining", rest: "outside." },
+            { q: "4. They're", options: ["watching", "watching"], answer: "watching", rest: "a ball game." }, // Note: Both options are the same in the book, so we accept 'watching'.
+            { q: "5. I'm", options: ["no looking", "not looking"], answer: "not looking", rest: "for my cell phone." }
+        ]
+    },
+    reviewB: {
+        questions: [
+            { q: "1. Ben ______ (play) baseball in the park.", answers: ["is playing"] },
+            { q: "2. Jeremy and his friend ______ (visit) a friend in college.", answers: ["are visiting"] },
+            { q: "3. Jessica and Tim ______ (walk) a friend's dog.", answers: ["are walking"] },
+            { q: "4. Annie ______ (sleep).", answers: ["is sleeping"] },
+            { q: "5. Steve ______ (sit) and ______ (read) in the living room.", answers: ["is sitting", "reading"] }
+        ]
+    },
+    reviewC: {
+        questions: [
+            { q: "1. He not standing. He's sitting.", correctAnswer: "He's not standing." },
+            { q: "2. Bob and Maya are wait for us.", correctAnswer: "Bob and Maya are waiting for us." },
+            { q: "3. They're listen to a CD.", correctAnswer: "They're listening to a CD." },
+            { q: "4. We not playing cards.", correctAnswer: "We're not playing cards." }
+        ]
+    },
+    bonusExercises: {
+        affirmative: {
+            questions: [
+                { q: "1. I ______ (study) for my English exam right now.", answers: ["am studying"] },
+                { q: "2. The children ______ (play) in the garden.", answers: ["are playing"] },
+                { q: "3. She ______ (listen) to her favorite podcast.", answers: ["is listening"] },
+                { q: "4. We ______ (wait) for the bus to arrive.", answers: ["are waiting"] },
+                { q: "5. He ______ (fix) the broken chair in the garage.", answers: ["is fixing"] },
+                { q: "6. My mother ______ (cook) dinner in the kitchen.", answers: ["is cooking"] },
+                { q: "7. The sun ______ (shine) brightly today.", answers: ["is shining"] },
+                { q: "8. They ______ (build) a new house across the street.", answers: ["are building"] },
+                { q: "9. You ______ (do) a great job!", answers: ["are doing"] },
+                { q: "10. The cat ______ (sleep) on the sofa.", answers: ["is sleeping"] },
+                { q: "11. David ______ (wash) his car.", answers: ["is washing"] },
+                { q: "12. The birds ______ (sing) outside my window.", answers: ["are singing"] },
+                { q: "13. I ______ (read) a very interesting book.", answers: ["am reading"] },
+                { q: "14. My friends and I ______ (watch) a movie.", answers: ["are watching"] },
+                { q: "15. It ______ (get) dark outside.", answers: ["is getting"] }
+            ]
+        },
+        negative: {
+            questions: [
+                { q: "1. I ______ (not / feel) well today.", answers: ["'m not feeling"] },
+                { q: "2. They ______ (not / come) to the party tonight.", answers: ["aren't coming"] },
+                { q: "3. He ______ (not / work) today. It's his day off.", answers: ["isn't working"] },
+                { q: "4. We ______ (not / go) to the beach because it ______ (rain).", answers: ["aren't going", "is raining"] },
+                { q: "5. She ______ (not / wear) her glasses now.", answers: ["isn't wearing"] },
+                { q: "6. You ______ (not / listen) to me!", answers: ["aren't listening"] },
+                { q: "7. The computer ______ (not / work) properly.", answers: ["isn't working"] },
+                { q: "8. The students ______ (not / pay) attention.", answers: ["aren't paying"] },
+                { q: "9. I ______ (not / joke). I'm serious.", answers: ["'m not joking"] },
+                { q: "10. My dad ______ (not / watch) the news.", answers: ["isn't watching"] },
+                { q: "11. The store ______ (not / sell) that brand anymore.", answers: ["isn't selling"] },
+                { q: "12. We ______ (not / plan) a vacation this year.", answers: ["aren't planning"] },
+                { q: "13. It ______ (not / snow) right now.", answers: ["isn't snowing"] },
+                { q: "14. The players ______ (not / practice) today.", answers: ["aren't practicing"] },
+                { q: "15. He ______ (not / take) a shower at the moment.", answers: ["isn't taking"] }
+            ]
+        },
+        spelling: {
+             questions: [
+                { q: "1. She is ______ (write) a letter.", answers: ["writing"] },
+                { q: "2. Why are you ______ (run) so fast?", answers: ["running"] },
+                { q: "3. They are ______ (swim) in the lake.", answers: ["swimming"] },
+                { q: "4. I am ______ (make) a cake for my sister.", answers: ["making"] },
+                { q: "5. He is ______ (sit) on my chair!", answers: ["sitting"] },
+                { q: "6. We are ______ (shop) for new clothes.", answers: ["shopping"] },
+                { q: "7. The team is ______ (win) the game.", answers: ["winning"] },
+                { q: "8. Stop ______ (hit) your brother!", answers: ["hitting"] },
+                { q: "9. I am ______ (plan) a surprise party.", answers: ["planning"] },
+                { q: "10. She is ______ (dance) beautifully.", answers: ["dancing"] },
+                { q: "11. He is ______ (use) my computer.", answers: ["using"] },
+                { q: "12. They are ______ (begin) a new chapter.", answers: ["beginning"] },
+                { q: "13. She is ______ (lie) on the beach. (to lie -> lying)", answers: ["lying"] },
+                { q: "14. My dog is ______ (dig) a hole in the yard.", answers: ["digging"] },
+                { q: "15. We are ______ (travel) to Spain this summer.", answers: ["traveling"] }
+             ]
+        },
+        mixed: {
+            questions: [
+                 { q: "1. Look! Maria ______ (+) a beautiful song.", verb: "(sing)", answers: ["is singing"] },
+                 { q: "2. Shhh, be quiet. The baby ______ (+).", verb: "(sleep)", answers: ["is sleeping"] },
+                 { q: "3. I can't talk now. I ______ (+) dinner.", verb: "(eat)", answers: ["am eating"] },
+                 { q: "4. He ______ (-) his homework. He's playing video games.", verb: "(do)", answers: ["isn't doing"] },
+                 { q: "5. They are on vacation, so they ______ (-) this week.", verb: "(work)", answers: ["aren't working"] },
+                 { q: "6. 'Where are the kids?' 'They ______ (+) in the park.'", verb: "(run)", answers: ["are running"] },
+                 { q: "7. You can turn off the radio. I ______ (-) to it.", verb: "(listen)", answers: ["'m not listening"] },
+                 { q: "8. Please wait. The chef ______ (+) our meal now.", verb: "(prepare)", answers: ["is preparing"] },
+                 { q: "9. She ______ (-) a coat because it's warm outside.", verb: "(wear)", answers: ["isn't wearing"] },
+                 { q: "10. We ______ (+) a great time at the concert.", verb: "(have)", answers: ["are having"] },
+                 { q: "11. My phone is broken, so it ______ (-).", verb: "(ring)", answers: ["isn't ringing"] },
+                 { q: "12. The mechanic ______ (+) my car at the moment.", verb: "(repair)", answers: ["is repairing"] },
+                 { q: "13. They are speaking too quietly. We ______ (-) them.", verb: "(hear)", answers: ["aren't hearing"] }, // Note: 'hear' is a state verb, but used here colloquially
+                 { q: "14. It ______ (+) to get cold. Please close the window.", verb: "(start)", answers: ["is starting"] },
+                 { q: "15. I ______ (-) for anyone. I'm just enjoying the view.", verb: "(wait)", answers: ["'m not waiting"] },
+                 { q: "16. Why ______ you (+) that strange hat?", verb: "(wear)", answers: ["are wearing"] },
+                 { q: "17. The wind ______ (+) strongly today.", verb: "(blow)", answers: ["is blowing"] },
+                 { q: "18. The company ______ (-) money this year.", verb: "(lose)", answers: ["is losing"] },
+                 { q: "19. My team ______ (+), and I'm so happy!", verb: "(win)", answers: ["is winning"] },
+                 { q: "20. He ______ (-) attention in class and the teacher is angry.", verb: "(pay)", answers: ["isn't paying"] }
+            ]
+        },
+        errorCorrection: {
+            questions: [
+                { q: "1. She are playing the piano.", correctAnswer: "She is playing the piano." },
+                { q: "2. I is not watching TV.", correctAnswer: "I am not watching TV." },
+                { q: "3. They're studing for the test.", correctAnswer: "They're studying for the test." },
+                { q: "4. He swiming in the pool.", correctAnswer: "He is swimming in the pool." },
+                { q: "5. We no are eating now.", correctAnswer: "We are not eating now." },
+                { q: "6. You're makeing a lot of noise.", correctAnswer: "You're making a lot of noise." },
+                { q: "7. The dog runing in the park.", correctAnswer: "The dog is running in the park." },
+                { q: "8. Is she write an email?", correctAnswer: "Is she writing an email?" },
+                { q: "9. My parents is traveling to Italy.", correctAnswer: "My parents are traveling to Italy." },
+                { q: "10. Why you are crying?", correctAnswer: "Why are you crying?" },
+                { q: "11. I'm siting on the wrong chair.", correctAnswer: "I'm sitting on the wrong chair." },
+                { q: "12. He not is helping us.", correctAnswer: "He is not helping us." },
+                { q: "13. They is building a sandcastle.", correctAnswer: "They are building a sandcastle." },
+                { q: "14. The phone ring. Can you answer it?", correctAnswer: "The phone is ringing." },
+                { q: "15. We are plan our holiday.", correctAnswer: "We are planning our holiday." }
+            ]
+        },
+        sentenceBuilding: {
+            questions: [
+                { q: "1. ( I / watch / a documentary )", correctAnswer: "I am watching a documentary." },
+                { q: "2. ( she / not / read / a book )", correctAnswer: "She is not reading a book." },
+                { q: "3. ( they / play / chess )", correctAnswer: "They are playing chess." },
+                { q: "4. ( he / listen / to the radio )", correctAnswer: "He is listening to the radio." },
+                { q: "5. ( we / not / have / dinner now )", correctAnswer: "We are not having dinner now." },
+                { q: "6. ( the cat / chase / a mouse )", correctAnswer: "The cat is chasing a mouse." },
+                { q: "7. ( my friends / wait / for me )", correctAnswer: "My friends are waiting for me." },
+                { q: "8. ( it / get / late )", correctAnswer: "It is getting late." },
+                { q: "9. ( you / not / wear / a jacket )", correctAnswer: "You are not wearing a jacket." },
+                { q: "10. ( the children / make / a mess )", correctAnswer: "The children are making a mess." },
+                { q: "11. ( I / try / to concentrate )", correctAnswer: "I am trying to concentrate." },
+                { q: "12. ( she / take / a photo )", correctAnswer: "She is taking a photo." },
+                { q: "13. ( they / not / study / French )", correctAnswer: "They are not studying French." },
+                { q: "14. ( the chef / chop / vegetables )", correctAnswer: "The chef is chopping vegetables." },
+                { q: "15. ( we / drive / to the city )", correctAnswer: "We are driving to the city." }
+            ]
+        }
+    }
+
+        };
+
+        function checkAnswer(exerciseKey, questionIndex, inputId) {
+            const exercise = unitContent[exerciseKey];
+            const question = exercise.questions[questionIndex];
+            const feedbackEl = document.getElementById(`feedback-${exerciseKey}-${questionIndex}`);
+            
+            let userAnswer;
+            let isCorrect = false;
+
+            if (Array.isArray(question.answers)) { // For fill-in-the-blanks with multiple inputs
+                let allCorrect = true;
+                for (let i = 0; i < question.answers.length; i++) {
+                    const singleInput = document.getElementById(`${inputId}-${i}`);
+                    userAnswer = singleInput.value.trim().toLowerCase();
+                    if (userAnswer !== question.answers[i].toLowerCase()) {
+                        allCorrect = false;
+                    }
+                }
+                isCorrect = allCorrect;
+                
+                if (!isCorrect) {
+                    feedbackEl.innerHTML = `Incorrect. Correct answer: <strong>${question.answers.join(', ')}</strong>`;
+                    feedbackEl.className = 'feedback feedback-incorrect';
+                }
+
+            } else if (question.options) { // For multiple choice (radio buttons)
+                 const radioButtons = document.getElementsByName(inputId);
+                 for (const radio of radioButtons) {
+                     if (radio.checked) {
+                         userAnswer = radio.value;
+                         break;
+                     }
+                 }
+                 isCorrect = (userAnswer === question.answer);
+                 if (!isCorrect) {
+                     feedbackEl.innerHTML = `Incorrect. Correct answer: <strong>${question.answer}</strong>`;
+                     feedbackEl.className = 'feedback feedback-incorrect';
+                 }
+            } else { // For single text/number input
+                const inputEl = document.getElementById(inputId);
+                userAnswer = inputEl.value.trim().toLowerCase();
+                isCorrect = (userAnswer === question.correctAnswer.toLowerCase());
+                 if (!isCorrect) {
+                    feedbackEl.innerHTML = `Incorrect. Correct answer: <strong>${question.correctAnswer}</strong>`;
+                    feedbackEl.className = 'feedback feedback-incorrect';
+                }
+            }
+
+            if (isCorrect) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback feedback-correct';
+            }
+        }
+        
+        // --- DYNAMICALLY GENERATE QUESTIONS ---
+
+        // Generate Comprehension Questions
+        const comprehensionContainer = document.getElementById('exercise-B-comprehension');
+        unitContent.comprehensionB.questions.forEach((q, i) => {
+            const qContainer = document.createElement('div');
+            qContainer.className = 'question-container';
+            
+            let optionsHTML = '';
+            q.options.forEach((opt, j) => {
+                optionsHTML += `
+                    <label>
+                        <input type="radio" name="q-comp-${i}" value="${opt}">
+                        ${opt}
+                    </label>
+                `;
+            });
+
+            qContainer.innerHTML = `
+                <span>${q.q}</span>
+                <span class="comprehension-options">${optionsHTML}</span>
+                <button class="submit-btn" onclick="checkAnswer('comprehensionB', ${i}, 'q-comp-${i}')">Submit</button>
+                <span class="feedback" id="feedback-comprehensionB-${i}"></span>
+            `;
+            comprehensionContainer.appendChild(qContainer);
+        });
+        
+        // Generate Affirmative Statement Questions
+        const affirmativeContainer = document.getElementById('exercise-C-affirmative');
+        unitContent.affirmativeC.questions.forEach((q, i) => {
+            const qContainer = document.createElement('div');
+            qContainer.className = 'question-container';
+            
+            const parts = q.q.split('______');
+            qContainer.innerHTML = `
+                <span>${parts[0]}</span>
+                <input type="text" id="q-affirm-${i}-0" size="5">
+                <input type="text" id="q-affirm-${i}-1" class="long-input">
+                <span>${parts[1]}</span>
+                <button class="submit-btn" onclick="checkAnswer('affirmativeC', ${i}, 'q-affirm-${i}')">Submit</button>
+                <span class="feedback" id="feedback-affirmativeC-${i}"></span>
+            `;
+            affirmativeContainer.appendChild(qContainer);
+        });
+        
+        // Generate Affirmative/Negative Questions
+        const affnegContainer = document.getElementById('exercise-D-affneg');
+        unitContent.affnegD.questions.forEach((q, i) => {
+            const qContainer = document.createElement('div');
+            qContainer.className = 'question-container';
+            
+            const parts = q.q.split('______');
+            qContainer.innerHTML = `
+                <span>${parts[0]}</span>
+                <input type="text" id="q-affneg-${i}-0" class="long-input">
+                <span>${parts[1]}</span>
+                <input type="text" id="q-affneg-${i}-1" class="long-input">
+                <span>${parts[2]}</span>
+                <button class="submit-btn" onclick="checkAnswer('affnegD', ${i}, 'q-affneg-${i}')">Submit</button>
+                <span class="feedback" id="feedback-affnegD-${i}"></span>
+            `;
+            affnegContainer.appendChild(qContainer);
+        });
+
+        // new 
+
+        // --- ADD THE FOLLOWING SCRIPT TO GENERATE REVIEW QUESTIONS ---
+
+// Generate Review A Questions (Multiple Choice)
+const reviewAContainer = document.getElementById('exercise-review-A');
+unitContent.reviewA.questions.forEach((q, i) => {
+    const qContainer = document.createElement('div');
+    qContainer.className = 'question-container';
+    
+    let optionsHTML = '';
+    q.options.forEach((opt, j) => {
+        // Create a unique ID for each radio button for better accessibility if needed
+        const radioId = `review-A-${i}-${j}`;
+        optionsHTML += `
+            <label for="${radioId}">
+                <input type="radio" id="${radioId}" name="q-review-A-${i}" value="${opt}">
+                ${opt}
+            </label> / 
+        `;
+    });
+    // Remove the last " / "
+    optionsHTML = optionsHTML.slice(0, -2);
+
+    qContainer.innerHTML = `
+        <span>${q.q} ${optionsHTML} ${q.rest}</span>
+        <button class="submit-btn" onclick="checkAnswer('reviewA', ${i}, 'q-review-A-${i}')">Submit</button>
+        <span class="feedback" id="feedback-reviewA-${i}"></span>
+    `;
+    reviewAContainer.appendChild(qContainer);
+});
+
+// Generate Review B Questions (Fill-in-the-blank)
+const reviewBContainer = document.getElementById('exercise-review-B');
+unitContent.reviewB.questions.forEach((q, i) => {
+    const qContainer = document.createElement('div');
+    qContainer.className = 'question-container';
+    
+    let questionHTML = q.q;
+    q.answers.forEach((ans, j) => {
+        questionHTML = questionHTML.replace('______', `<input type="text" id="q-reviewB-${i}-${j}" class="long-input">`);
+    });
+
+    qContainer.innerHTML = `
+        ${questionHTML}
+        <button class="submit-btn" onclick="checkAnswer('reviewB', ${i}, 'q-reviewB-${i}')">Submit</button>
+        <span class="feedback" id="feedback-reviewB-${i}"></span>
+    `;
+    reviewBContainer.appendChild(qContainer);
+});
+
+// Generate Review C Questions (Error Correction)
+const reviewCContainer = document.getElementById('exercise-review-C');
+unitContent.reviewC.questions.forEach((q, i) => {
+    const qContainer = document.createElement('div');
+    qContainer.className = 'question-container';
+
+    qContainer.innerHTML = `
+        <p style="margin: 0; font-style: italic;">${q.q}</p>
+        <input type="text" id="q-reviewC-${i}" class="long-input" style="width: 300px;">
+        <button class="submit-btn" onclick="checkAnswer('reviewC', ${i}, 'q-reviewC-${i}')">Submit</button>
+        <span class="feedback" id="feedback-reviewC-${i}"></span>
+    `;
+    reviewCContainer.appendChild(qContainer);
+});
+        
+
+function generateBonusQuestions(exerciseKey, containerId) {
+    const exerciseData = unitContent.bonusExercises[exerciseKey];
+    const container = document.getElementById(containerId);
+    if (!exerciseData || !container) return;
+
+    exerciseData.questions.forEach((q, i) => {
+        const qContainer = document.createElement('div');
+        qContainer.className = 'question-container';
+        let questionHTML = q.q;
+
+        // Handle fill-in-the-blanks and mixed questions
+        if (q.answers) {
+            let blankCounter = 0;
+            questionHTML = questionHTML.replace(/______/g, () => {
+                const inputId = `q-bonus-${exerciseKey}-${i}-${blankCounter}`;
+                blankCounter++;
+                return `<input type="text" id="${inputId}" class="long-input">`;
+            });
+            if(q.verb) {
+                questionHTML += ` <i style="color: #555;">${q.verb}</i>`;
+            }
+             qContainer.innerHTML = `
+                ${questionHTML}
+                <button class="submit-btn" onclick="checkAnswer('bonusExercises.${exerciseKey}', ${i}, 'q-bonus-${exerciseKey}-${i}')">Submit</button>
+                <span class="feedback" id="feedback-bonusExercises.${exerciseKey}-${i}"></span>
+            `;
+        } 
+        // Handle error correction and sentence building
+        else if (q.correctAnswer) {
+             qContainer.innerHTML = `
+                <p style="margin: 0; font-style: italic;">${q.q}</p>
+                <input type="text" id="q-bonus-${exerciseKey}-${i}" class="long-input" style="width: 350px;">
+                <button class="submit-btn" onclick="checkAnswer('bonusExercises.${exerciseKey}', ${i}, 'q-bonus-${exerciseKey}-${i}')">Submit</button>
+                <span class="feedback" id="feedback-bonusExercises.${exerciseKey}-${i}"></span>
+            `;
+        }
+
+        container.appendChild(qContainer);
+    });
+}
+
+// Modify the main checkAnswer function slightly to handle nested objects in the key
+// Find your original checkAnswer function and replace the first line with this:
+/* 
+    Original: const exercise = unitContent[exerciseKey];
+    Replace with:
+    const exercise = exerciseKey.includes('.') 
+        ? exerciseKey.split('.').reduce((o, k) => o[k], unitContent) 
+        : unitContent[exerciseKey];
+*/
+// I will just add a new checkAnswer function for simplicity for now, but integrating is better.
+// Let's create a wrapper to make it easier.
+function checkAnswer(fullExerciseKey, questionIndex, inputId) {
+    const keys = fullExerciseKey.split('.');
+    const mainKey = keys[0];
+    let exercise;
+
+    if (keys.length > 1) {
+        exercise = keys.reduce((obj, key) => (obj && obj[key] !== 'undefined') ? obj[key] : undefined, unitContent);
+    } else {
+        exercise = unitContent[mainKey];
+    }
+    
+    const question = exercise.questions[questionIndex];
+    const feedbackEl = document.getElementById(`feedback-${fullExerciseKey}-${questionIndex}`);
+    
+    let userAnswer;
+    let isCorrect = false;
+
+    if (Array.isArray(question.answers)) {
+        let allCorrect = true;
+        let userAnswersForHint = [];
+        for (let i = 0; i < question.answers.length; i++) {
+            const singleInput = document.getElementById(`${inputId}-${i}`);
+            userAnswer = singleInput.value.trim();
+            userAnswersForHint.push(userAnswer);
+            // Allow for multiple correct answers, like full form and contraction
+            const correctOptions = question.answers[i].split(' / ').map(opt => opt.trim().toLowerCase());
+            if (!correctOptions.includes(userAnswer.toLowerCase())) {
+                allCorrect = false;
+            }
+        }
+        isCorrect = allCorrect;
+        
+        if (!isCorrect) {
+            feedbackEl.innerHTML = `Incorrect. Correct answer: <strong>${question.answers.join(', ')}</strong>`;
+            feedbackEl.className = 'feedback feedback-incorrect';
+        }
+    } else if (question.options) {
+         const radioButtons = document.getElementsByName(inputId);
+         for (const radio of radioButtons) {
+             if (radio.checked) {
+                 userAnswer = radio.value;
+                 break;
+             }
+         }
+         isCorrect = (userAnswer === question.answer);
+         if (!isCorrect) {
+             feedbackEl.innerHTML = `Incorrect. Correct answer: <strong>${question.answer}</strong>`;
+             feedbackEl.className = 'feedback feedback-incorrect';
+         }
+    } else { // Single input for error correction, sentence building etc.
+        const inputEl = document.getElementById(inputId);
+        userAnswer = inputEl.value.trim();
+        // Remove trailing period for easier checking
+        if (userAnswer.endsWith('.')) {
+            userAnswer = userAnswer.slice(0, -1);
+        }
+        let correctAnswer = question.correctAnswer;
+        if (correctAnswer.endsWith('.')) {
+            correctAnswer = correctAnswer.slice(0, -1);
+        }
+        isCorrect = (userAnswer.toLowerCase() === correctAnswer.toLowerCase());
+         if (!isCorrect) {
+            feedbackEl.innerHTML = `Incorrect. Correct answer: <strong>${question.correctAnswer}</strong>`;
+            feedbackEl.className = 'feedback feedback-incorrect';
+        }
+    }
+
+    if (isCorrect) {
+        feedbackEl.textContent = 'Correct!';
+        feedbackEl.className = 'feedback feedback-correct';
+    }
+}
+
+
+// Generate all bonus exercises on page load
+generateBonusQuestions('affirmative', 'exercise-bonus-A');
+generateBonusQuestions('negative', 'exercise-bonus-B');
+generateBonusQuestions('spelling', 'exercise-bonus-C');
+generateBonusQuestions('mixed', 'exercise-bonus-D');
+generateBonusQuestions('errorCorrection', 'exercise-bonus-E');
+generateBonusQuestions('sentenceBuilding', 'exercise-bonus-F');
+    </script>
+</body>
+</html>

@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 17: Present Progressive: Yes/No Questions</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header Styles */
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid #f39c12;
+            margin-bottom: 20px;
+        }
+
+        .unit-number {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #4a678a;
+            margin-right: 20px;
+        }
+
+        .unit-title h1 {
+            color: #4a678a;
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .unit-title h2 {
+            color: #555;
+            margin: 0;
+            font-weight: normal;
+            font-size: 1.5rem;
+        }
+
+        .outcomes {
+            background-color: #fef9e7;
+            border-left: 5px solid #f39c12;
+            padding: 10px 15px;
+            font-size: 0.9em;
+        }
+
+        .outcomes ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        /* Section Styles */
+        .step-header {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .step-header.blue {
+            background-color: #4a678a;
+        }
+        
+        .section-subheader {
+            color: #d35400;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #f1c40f;
+            padding-bottom: 5px;
+        }
+        
+        /* Vocabulary Section */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .vocab-item {
+            text-align: center;
+        }
+
+        .vocab-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .vocab-item p {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        
+        /* Exercise & Interaction Styles */
+        .exercise {
+            background-color: #e8f6f3;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        .exercise-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .question {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #ccc;
+        }
+        .question:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .question-line {
+             display: flex;
+             align-items: center;
+             gap: 10px;
+             flex-wrap: wrap;
+        }
+
+        input[type="text"], select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+        
+        .hint-button {
+            background-color: #f39c12;
+        }
+        .hint-button:hover {
+            background-color: #e67e22;
+        }
+
+        .feedback {
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .feedback.correct {
+            color: #27ae60;
+        }
+
+        .feedback.incorrect {
+            color: #c0392b;
+        }
+        
+        /* Reading Section */
+        .conversation {
+            background: #fdfefe;
+            padding: 20px;
+            border: 1px solid #e5e7e9;
+            border-radius: 8px;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        .conversation-text {
+            flex: 2;
+        }
+        .conversation-images {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .conversation-images img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .speaker {
+            font-weight: bold;
+        }
+        
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #bdc3c7;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #ecf0f1;
+        }
+        
+        .grammar-note {
+            background-color: #eaf2f8;
+            border: 1px solid #aed6f1;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .grammar-note.be-careful {
+             background-color: #f9ebea;
+             border-color: #e6b0aa;
+        }
+        .grammar-note h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .grammar-note.be-careful h3 {
+             color: #c0392b;
+        }
+        
+        /* Cartoon */
+        .cartoon-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cartoon-container img {
+            max-width: 70%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+        
+        /* Editing Exercise */
+        .editable-text {
+            background: #f7f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            line-height: 2;
+        }
+        
+        .correction {
+            text-decoration: line-through;
+            color: red;
+        }
+        
+        .corrected {
+            color: green;
+            font-weight: bold;
+        }
+
+		.video-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            /* Tỷ lệ khung hình 16:9 phổ biến cho video */
+            aspect-ratio: 16 / 9; 
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .comic-strip {
+            margin-top: 20px;
+        }
+
+        .comic-strip img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header class="unit-header">
+        <div class="unit-number">17</div>
+        <div class="unit-title">
+            <h1>Present Progressive: Yes/No Questions</h1>
+            <h2>ARE YOU BABYSITTING?</h2>
+        </div>
+    </header>
+
+    <div class="outcomes">
+        <strong>OUTCOMES</strong>
+        <ul>
+            <li>Ask and answer yes/no questions in the present progressive</li>
+            <li>Answer questions about a reading and conversation</li>
+            <li>Ask and answer questions about events that are happening now</li>
+            <li>Write a conversation about what family members are doing</li>
+        </ul>
+    </div>
+
+    <!-- STEP 1 -->
+    <div class="step-header">STEP 1 GRAMMAR IN CONTEXT</div>
+
+    <h3 class="section-subheader">BEFORE YOU READ</h3>
+    <p><strong>A VOCABULARY</strong> Study the words. Then match the beginnings of the sentences with the endings.</p>
+
+    <div class="vocab-grid">
+        <div class="vocab-item">
+            <img src="FOG-1-17/1.png" alt="A woman babysitting two children">
+            <p>babysit</p>
+        </div>
+        <div class="vocab-item">
+            <img src="FOG-1-17/2.png" alt="A woman getting a haircut">
+            <p>get a haircut</p>
+        </div>
+        <div class="vocab-item">
+            <img src="FOG-1-17/3.png" alt="A family cleaning their house">
+            <p>clean</p>
+        </div>
+        <div class="vocab-item">
+            <img src="FOG-1-17/4.png" alt="A man doing laundry">
+            <p>do laundry</p>
+        </div>
+    </div>
+
+    <div class="exercise">
+        <div class="question">
+            1. The woman with long hair 
+            <select id="vocab-1">
+                <option value="">...</option>
+                <option value="a">a. is doing laundry.</option>
+                <option value="b">b. are cleaning.</option>
+                <option value="c">c. is babysitting.</option>
+                <option value="d">d. is getting a haircut.</option>
+            </select>
+            <button onclick="checkAnswer('vocab', 1, 'c')">Submit</button>
+            <span class="feedback" id="feedback-vocab-1"></span>
+        </div>
+        <div class="question">
+            2. The woman in a blue shirt
+            <select id="vocab-2">
+                <option value="">...</option>
+                <option value="a">a. is doing laundry.</option>
+                <option value="b">b. are cleaning.</option>
+                <option value="c">c. is babysitting.</option>
+                <option value="d">d. is getting a haircut.</option>
+            </select>
+            <button onclick="checkAnswer('vocab', 2, 'd')">Submit</button>
+            <span class="feedback" id="feedback-vocab-2"></span>
+        </div>
+        <div class="question">
+            3. The father, the son, and the daughter
+            <select id="vocab-3">
+                <option value="">...</option>
+                <option value="a">a. is doing laundry.</option>
+                <option value="b">b. are cleaning.</option>
+                <option value="c">c. is babysitting.</option>
+                <option value="d">d. is getting a haircut.</option>
+            </select>
+            <button onclick="checkAnswer('vocab', 3, 'b')">Submit</button>
+            <span class="feedback" id="feedback-vocab-3"></span>
+        </div>
+        <div class="question">
+            4. The man in a white t-shirt
+            <select id="vocab-4">
+                <option value="">...</option>
+                <option value="a">a. is doing laundry.</option>
+                <option value="b">b. are cleaning.</option>
+                <option value="c">c. is babysitting.</option>
+                <option value="d">d. is getting a haircut.</option>
+            </select>
+            <button onclick="checkAnswer('vocab', 4, 'a')">Submit</button>
+            <span class="feedback" id="feedback-vocab-4"></span>
+        </div>
+    </div>
+    
+    <h3 class="section-subheader">READ</h3>
+    <p>Read these conversations.</p>
+    
+    <div class="conversation">
+        <div class="conversation-text">
+            <h4>A Night Out</h4>
+            <p><span class="speaker">TIM:</span> Hi, hon. Happy anniversary!¹</p>
+            <p><span class="speaker">JESSICA:</span> Thanks!</p>
+            <p><span class="speaker">TIM:</span> Is everyone OK at home? Is Jeremy watching Ben and Annie?</p>
+            <p><span class="speaker">JESSICA:</span> No. Jeremy’s at a basketball game with Steve.</p>
+            <p><span class="speaker">TIM:</span> Oh. So, are your parents watching them?</p>
+            <p><span class="speaker">JESSICA:</span> No. Their party is tomorrow. So they’re cooking and doing laundry.</p>
+            <p><span class="speaker">TIM:</span> Oh, right. Is Mrs. Brown babysitting?</p>
+            <p><span class="speaker">JESSICA:</span> No. She’s busy, too. Her granddaughter Kelly is watching the kids.</p>
+            <p><em>(Later, Jessica calls Kelly.)</em></p>
+            <p><span class="speaker">KELLY:</span> Hello?</p>
+            <p><span class="speaker">JESSICA:</span> Hi, Kelly. This is Mrs. Olson. How’s everything? Are the children listening to you?</p>
+            <p><span class="speaker">KELLY:</span> Sure. Everything’s fine.</p>
+            <p><span class="speaker">JESSICA:</span> Are you helping Ben with his math? Is he doing all his homework?</p>
+            <p><span class="speaker">KELLY:</span> No, not now. He’s cooking something. It’s for you.</p>
+            <p><span class="speaker">JESSICA:</span> Oh? Is he cleaning up, too? I hope so.</p>
+            <p><span class="speaker">JESSICA:</span> What about Annie? Is she studying for her science test?</p>
+            <p><span class="speaker">KELLY:</span> I think so. Her friend Gail is here. They’re in Annie’s room and it’s quiet. They’re probably studying.</p>
+            <p><span class="speaker">JESSICA:</span> Kelly, please go to her room and check.</p>
+            <p><span class="speaker">KELLY:</span> OK, Mrs. Olson. Look. Don’t worry. Everything’s cool.² Enjoy your anniversary dinner.</p>
+            <p><span class="speaker">JESSICA:</span> Thanks, Kelly. See you at around 10:00.</p>
+            <p><span class="speaker">KELLY:</span> See you then. Bye.</p>
+            <hr>
+            <p><small>1 anniversary: the month and day that two people got married</small><br>
+            <small>2 cool: OK</small></p>
+        </div>
+        <div class="conversation-images">
+            <img src="FOG-1-17/5.png" alt="Tim and Jessica at a restaurant">
+            <img src="FOG-1-17/6.png" alt="Ben cooking in the kitchen">
+            <img src="FOG-1-17/7.png" alt="Annie and Gail getting haircuts">
+        </div>
+
+    </div>
+
+	<div class="video-container">
+        <iframe 
+            src="https://www.youtube.com/embed/watch?v=MPdfXoN3_4E&list=PLuvQK_JBZi5ZVKwRWVhT2TsSoUvhCiLhI" 
+            title="Unit 15 Conversation Audio" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <h3 class="section-subheader">AFTER YOU READ</h3>
+    <p><strong>A COMPREHENSION</strong> Look at the conversations again. Circle the correct answers.</p>
+    <div class="exercise">
+        <div class="question" id="comprehension-1">
+            <p>1. Are Tim and Jessica celebrating their anniversary?</p>
+            <input type="radio" name="q1" value="a"> a. Yes, they are.
+            <input type="radio" name="q1" value="b"> b. No, they aren't.
+            <button onclick="checkRadio('comprehension', 1, 'a')">Submit</button>
+            <span class="feedback" id="feedback-comprehension-1"></span>
+        </div>
+        <div class="question" id="comprehension-2">
+            <p>2. Is Mrs. Brown babysitting?</p>
+            <input type="radio" name="q2" value="a"> a. Yes, she is.
+            <input type="radio" name="q2" value="b"> b. No, she isn't.
+            <button onclick="checkRadio('comprehension', 2, 'b')">Submit</button>
+            <span class="feedback" id="feedback-comprehension-2"></span>
+        </div>
+        <div class="question" id="comprehension-3">
+            <p>3. Who is Kelly?</p>
+            <input type="radio" name="q3" value="a"> a. Jessica's daughter
+            <input type="radio" name="q3" value="b"> b. Mrs. Brown's granddaughter
+            <button onclick="checkRadio('comprehension', 3, 'b')">Submit</button>
+            <span class="feedback" id="feedback-comprehension-3"></span>
+        </div>
+        <div class="question" id="comprehension-4">
+            <p>4. Is Kelly helping Ben with his math?</p>
+            <input type="radio" name="q4" value="a"> a. No, she isn't.
+            <input type="radio" name="q4" value="b"> b. Yes, she is.
+            <button onclick="checkRadio('comprehension', 4, 'a')">Submit</button>
+            <span class="feedback" id="feedback-comprehension-4"></span>
+        </div>
+        <div class="question" id="comprehension-5">
+            <p>5. Are Annie and Gail studying?</p>
+            <input type="radio" name="q5" value="a"> a. Yes, they are.
+            <input type="radio" name="q5" value="b"> b. No, they aren't.
+            <button onclick="checkRadio('comprehension', 5, 'b')">Submit</button>
+            <span class="feedback" id="feedback-comprehension-5"></span>
+        </div>
+        <div class="question" id="comprehension-6">
+            <p>6. Is Gail getting a haircut?</p>
+            <input type="radio" name="q6" value="a"> a. Yes, she is.
+            <input type="radio" name="q6" value="b"> b. No, she isn't.
+            <button onclick="checkRadio('comprehension', 6, 'a')">Submit</button>
+            <span class="feedback" id="feedback-comprehension-6"></span>
+        </div>
+    </div>
+
+
+    <!-- STEP 2 -->
+    <div class="step-header blue">STEP 2 GRAMMAR PRESENTATION</div>
+
+    <h4>PRESENT PROGRESSIVE: YES/NO QUESTIONS</h4>
+    <table class="grammar-table">
+        <thead>
+            <tr>
+                <th>Yes/No Questions</th>
+                <th colspan="3">Short Answers</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Am</strong> I making a mess?</td>
+                <td>Yes, <strong>you are</strong>.</td>
+                <td>No, <strong>you're not</strong>.</td>
+                <td>or No, <strong>you aren't</strong>.</td>
+            </tr>
+            <tr>
+                <td><strong>Is</strong> he studying?</td>
+                <td>Yes, <strong>he is</strong>.</td>
+                <td>No, <strong>he's not</strong>.</td>
+                <td>or No, <strong>he isn't</strong>.</td>
+            </tr>
+            <tr>
+                <td><strong>Are</strong> they playing?</td>
+                <td>Yes, <strong>they are</strong>.</td>
+                <td>No, <strong>they're not</strong>.</td>
+                <td>or No, <strong>they aren't</strong>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="grammar-note">
+        <h3>GRAMMAR NOTE 1: Present Progressive: Yes/No Questions</h3>
+        <p>In a <strong>yes/no question</strong> in the present progressive, put <strong>am, is,</strong> or <strong>are</strong> before the subject.</p>
+        <p><u>SUBJECT</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VERB<br>
+           <strong>You</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>are working</strong>. (statement)</p>
+        <p>VERB &nbsp;&nbsp;&nbsp;<u>SUBJECT</u><br>
+           <strong>Are</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>you</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;working? (question)</p>
+    </div>
+
+    <div class="grammar-note">
+        <h3>GRAMMAR NOTE 2: Short Answers</h3>
+        <p>We often use <strong>short answers</strong> in speaking and informal writing.</p>
+        <p>A: Are you doing your homework?<br>
+           B: <strong>Yes, I am.</strong> or <strong>Yes.</strong><br>
+           C: <strong>No, I'm not.</strong> or <strong>No.</strong></p>
+    </div>
+    
+    <div class="grammar-note be-careful">
+        <h3>BE CAREFUL!</h3>
+        <p>Don't use contractions in affirmative short answers.</p>
+        <p>A: Is he reading?<br>
+           B: <strong>Yes, he is.</strong><br>
+           <span style="color: red;">NOT</span> <del>Yes, he's.</del></p>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step-header">STEP 3 FOCUSED PRACTICE</div>
+
+    <h4>EXERCISE 1: DISCOVER THE GRAMMAR</h4>
+    <p><strong>A GRAMMAR NOTES 1-2</strong> Underline the questions in the present progressive. Then look at the cartoon. Match the questions and answers.</p>
+    
+    <div class="exercise">
+        <div class="question">
+            1. <u>Are the parents going out?</u>
+            <select id="ex1-1">
+                <option value="">...</option>
+                <option value="a">a. No, they aren't.</option>
+                <option value="b">b. Yes, he is.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. Yes, they are.</option>
+                <option value="e">e. No, she isn't.</option>
+                <option value="f">f. Yes, she is.</option>
+            </select>
+            <button onclick="checkAnswer('ex1', 1, 'd')">Submit</button>
+            <span class="feedback" id="feedback-ex1-1"></span>
+        </div>
+        <div class="question">
+            2. <u>Are the parents coming home?</u>
+            <select id="ex1-2">
+                <option value="">...</option>
+                <option value="a">a. No, they aren't.</option>
+                <option value="b">b. Yes, he is.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. Yes, they are.</option>
+                <option value="e">e. No, she isn't.</option>
+                <option value="f">f. Yes, she is.</option>
+            </select>
+            <button onclick="checkAnswer('ex1', 2, 'a')">Submit</button>
+            <span class="feedback" id="feedback-ex1-2"></span>
+        </div>
+        <div class="question">
+            3. <u>Is the babysitter asleep?</u>
+            <select id="ex1-3">
+                <option value="">...</option>
+                <option value="a">a. No, they aren't.</option>
+                <option value="b">b. Yes, he is.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. Yes, they are.</option>
+                <option value="e">e. No, she isn't.</option>
+                <option value="f">f. Yes, she is.</option>
+            </select>
+            <button onclick="checkAnswer('ex1', 3, 'f')">Submit</button>
+            <span class="feedback" id="feedback-ex1-3"></span>
+        </div>
+        <div class="question">
+            4. <u>Is the babysitter reading?</u>
+            <select id="ex1-4">
+                <option value="">...</option>
+                <option value="a">a. No, they aren't.</option>
+                <option value="b">b. Yes, he is.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. Yes, they are.</option>
+                <option value="e">e. No, she isn't.</option>
+                <option value="f">f. Yes, she is.</option>
+            </select>
+            <button onclick="checkAnswer('ex1', 4, 'e')">Submit</button>
+            <span class="feedback" id="feedback-ex1-4"></span>
+        </div>
+        <div class="question">
+            5. <u>Is the little boy eating a sandwich?</u>
+            <select id="ex1-5">
+                <option value="">...</option>
+                <option value="a">a. No, they aren't.</option>
+                <option value="b">b. Yes, he is.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. Yes, they are.</option>
+                <option value="e">e. No, she isn't.</option>
+                <option value="f">f. Yes, she is.</option>
+            </select>
+            <button onclick="checkAnswer('ex1', 5, 'c')">Submit</button>
+            <span class="feedback" id="feedback-ex1-5"></span>
+        </div>
+        <div class="question">
+            6. <u>Is the little boy asleep?</u>
+            <select id="ex1-6">
+                <option value="">...</option>
+                <option value="a">a. No, they aren't.</option>
+                <option value="b">b. Yes, he is.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. Yes, they are.</option>
+                <option value="e">e. No, she isn't.</option>
+                <option value="f">f. Yes, she is.</option>
+            </select>
+            <button onclick="checkAnswer('ex1', 6, 'c')">Submit</button>
+            <span class="feedback" id="feedback-ex1-6"></span>
+        </div>
+    </div>
+    
+    <div class="cartoon-container">
+        <img src="FOG-1-17/8.png" alt="Dennis the Menace cartoon">
+        <p>"The sitter is sleeping. Now you need to pay me. Right?"</p>
+    </div>
+
+    <p><strong>B</strong> Look at the cartoon again. Why does the little boy say, "Now you need to pay me. Right?" Check (✓) the correct answer.</p>
+    <div class="exercise" id="ex1-b">
+        <input type="radio" name="cartoon" value="a"> The babysitter is not babysitting. <br>
+        <input type="radio" name="cartoon" value="b"> The little boy is not sleeping. <br>
+        <button onclick="checkRadio('ex1-b', '', 'a')">Submit</button>
+        <span class="feedback" id="feedback-ex1-b"></span>
+    </div>
+
+    <h4>EXERCISE 2: YES/NO QUESTIONS</h4>
+    <p><strong>GRAMMAR NOTE 1</strong> Complete the questions with the present progressive of the verbs in parentheses.</p>
+    <div class="exercise">
+        <div class="question">
+            1. (get) A: <input type="text" id="ex2-1a" size="3"> Victor <input type="text" id="ex2-1b" size="8"> a haircut?
+            <button onclick="checkMultiAnswer('ex2', 1, ['is', 'getting'])">Submit</button>
+            <span class="feedback" id="feedback-ex2-1"></span><br>
+            B: Yes, he is. His hair was really long.
+        </div>
+        <div class="question">
+            2. (do) A: <input type="text" id="ex2-2a" size="3"> the kids <input type="text" id="ex2-2b" size="5"> homework?
+            <button onclick="checkMultiAnswer('ex2', 2, ['are', 'doing'])">Submit</button>
+            <span class="feedback" id="feedback-ex2-2"></span><br>
+            B: No. They're playing outside.
+        </div>
+        <div class="question">
+            3. (clean) A: <input type="text" id="ex2-3a" size="3"> your brother <input type="text" id="ex2-3b" size="7">?
+            <button onclick="checkMultiAnswer('ex2', 3, ['is', 'cleaning'])">Submit</button>
+            <span class="feedback" id="feedback-ex2-3"></span><br>
+            B: No. He's watching TV. He never cleans. I always do.
+        </div>
+        <div class="question">
+            4. (help) A: <input type="text" id="ex2-4a" size="3"> you <input type="text" id="ex2-4b" size="8"> Grandpa in the garden?
+            <button onclick="checkMultiAnswer('ex2', 4, ['are', 'helping'])">Submit</button>
+            <span class="feedback" id="feedback-ex2-4"></span><br>
+            B: Yes, we are, Mom.
+        </div>
+        <div class="question">
+            5. (sleep) A: <input type="text" id="ex2-5a" size="3"> Jay <input type="text" id="ex2-5b" size="8"> at our house today?
+            <button onclick="checkMultiAnswer('ex2', 5, ['is', 'sleeping'])">Submit</button>
+            <span class="feedback" id="feedback-ex2-5"></span><br>
+            B: I don't know. Ask Bill.
+        </div>
+        <div class="question">
+            6. (rain) A: <input type="text" id="ex2-6a" size="3"> it <input type="text" id="ex2-6b" size="8"> in California now?
+            <button onclick="checkMultiAnswer('ex2', 6, ['is', 'raining'])">Submit</button>
+            <span class="feedback" id="feedback-ex2-6"></span><br>
+            B: Yes, it is.
+        </div>
+    </div>
+    
+    <h4>EXERCISE 4: YES/NO QUESTIONS AND SHORT ANSWERS</h4>
+    <p><strong>GRAMMAR NOTES 1–2</strong> Write yes/no questions and short answers. Use the present progressive and the correct forms of the words in parentheses. Use contractions when possible.</p>
+    <div class="exercise">
+        <div class="question">
+            <img src="FOG-1-17/9.png" alt="Man sleeping on a couch" style="max-width:300px; float: right; margin-left: 15px;">
+            1. (Dad / watch / the game?)<br>
+            A: <input type="text" id="ex4-1a" size="30" value="Is Dad watching the game?"><br>
+            B: <input type="text" id="ex4-1b" size="30" value="No, he isn't.">
+            <button onclick="checkMultiAnswer('ex4', 1, ['is dad watching the game?', 'no, he isn\'t.'])">Submit</button>
+            <span class="feedback" id="feedback-ex4-1"></span>
+        </div>
+        <div class="question">
+            2. (the kids / eat / chips?)<br>
+            A: <input type="text" id="ex4-2a" size="30"><br>
+            B: No, <input type="text" id="ex4-2b" size="20">.
+            <button onclick="checkMultiAnswer('ex4', 2, ['are the kids eating chips?', 'they aren\'t'])">Submit</button>
+            <span class="feedback" id="feedback-ex4-2"></span>
+        </div>
+        <div class="question">
+            3. (it / rain?)<br>
+            A: <input type="text" id="ex4-3a" size="30"><br>
+            B: Yes, <input type="text" id="ex4-3b" size="20">.
+            <button onclick="checkMultiAnswer('ex4', 3, ['is it raining?', 'it is'])">Submit</button>
+            <span class="feedback" id="feedback-ex4-3"></span>
+        </div>
+        <div class="question">
+            4. (Dan / get / a haircut?)<br>
+            A: <input type="text" id="ex4-4a" size="30"><br>
+            B: No, <input type="text" id="ex4-4b" size="20">.
+            <button onclick="checkMultiAnswer('ex4', 4, ['is dan getting a haircut?', 'he isn\'t'])">Submit</button>
+            <span class="feedback" id="feedback-ex4-4"></span>
+        </div>
+         <div class="question">
+            5. (Dahlia and Jonathan / celebrate / their anniversary?)<br>
+            A: <input type="text" id="ex4-5a" size="40"><br>
+            B: Yes, <input type="text" id="ex4-5b" size="20">.
+            <button onclick="checkMultiAnswer('ex4', 5, ['are dahlia and jonathan celebrating their anniversary?', 'they are'])">Submit</button>
+            <span class="feedback" id="feedback-ex4-5"></span>
+        </div>
+    </div>
+
+
+    <!-- UNIT REVIEW -->
+    <div class="step-header blue">UNIT 17 REVIEW</div>
+    <p>Test yourself on the grammar of the unit.</p>
+    
+    <p><strong>A Match the questions and answers.</strong></p>
+    <div class="exercise">
+        <div class="question">
+            1. Is Jon cooking?
+            <select id="reviewA-1">
+                <option value="">...</option>
+                <option value="a">a. Yes, you are. Thank you.</option>
+                <option value="b">b. No, they aren't.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. No, I'm not. I'm reading.</option>
+                <option value="e">e. Yes, she is. She's watching Bobby.</option>
+            </select>
+            <button onclick="checkAnswer('reviewA', 1, 'c')">Submit</button>
+            <span class="feedback" id="feedback-reviewA-1"></span>
+        </div>
+        <div class="question">
+            2. Is your sister babysitting?
+            <select id="reviewA-2">
+                 <option value="">...</option>
+                <option value="a">a. Yes, you are. Thank you.</option>
+                <option value="b">b. No, they aren't.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. No, I'm not. I'm reading.</option>
+                <option value="e">e. Yes, she is. She's watching Bobby.</option>
+            </select>
+            <button onclick="checkAnswer('reviewA', 2, 'e')">Submit</button>
+            <span class="feedback" id="feedback-reviewA-2"></span>
+        </div>
+        <div class="question">
+            3. Are you doing your homework?
+            <select id="reviewA-3">
+                 <option value="">...</option>
+                <option value="a">a. Yes, you are. Thank you.</option>
+                <option value="b">b. No, they aren't.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. No, I'm not. I'm reading.</option>
+                <option value="e">e. Yes, she is. She's watching Bobby.</option>
+            </select>
+            <button onclick="checkAnswer('reviewA', 3, 'd')">Submit</button>
+            <span class="feedback" id="feedback-reviewA-3"></span>
+        </div>
+        <div class="question">
+            4. Am I helping you?
+            <select id="reviewA-4">
+                 <option value="">...</option>
+                <option value="a">a. Yes, you are. Thank you.</option>
+                <option value="b">b. No, they aren't.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. No, I'm not. I'm reading.</option>
+                <option value="e">e. Yes, she is. She's watching Bobby.</option>
+            </select>
+            <button onclick="checkAnswer('reviewA', 4, 'a')">Submit</button>
+            <span class="feedback" id="feedback-reviewA-4"></span>
+        </div>
+        <div class="question">
+            5. Are they studying Spanish?
+            <select id="reviewA-5">
+                 <option value="">...</option>
+                <option value="a">a. Yes, you are. Thank you.</option>
+                <option value="b">b. No, they aren't.</option>
+                <option value="c">c. No, he isn't.</option>
+                <option value="d">d. No, I'm not. I'm reading.</option>
+                <option value="e">e. Yes, she is. She's watching Bobby.</option>
+            </select>
+            <button onclick="checkAnswer('reviewA', 5, 'b')">Submit</button>
+            <span class="feedback" id="feedback-reviewA-5"></span>
+        </div>
+    </div>
+    
+    <p><strong>B Write questions and complete the answers.</strong> Use the present progressive and the words in parentheses. Use contractions whenever possible.</p>
+    <div class="exercise">
+        <div class="question">
+            1. (Ron / get a haircut) <br>
+            A: <input type="text" id="reviewB-1a" size="30">?<br>
+            B: Yes, <input type="text" id="reviewB-1b" size="10">.
+            <button onclick="checkMultiAnswer('reviewB', 1, ['is ron getting a haircut', 'he is'])">Submit</button>
+            <span class="feedback" id="feedback-reviewB-1"></span>
+        </div>
+        <div class="question">
+            2. (Dan and Janet / celebrate their anniversary) <br>
+            A: <input type="text" id="reviewB-2a" size="50">?<br>
+            B: No, <input type="text" id="reviewB-2b" size="10">. They're celebrating Janet's birthday.
+            <button onclick="checkMultiAnswer('reviewB', 2, ['are dan and janet celebrating their anniversary', 'they aren\'t'])">Submit</button>
+            <span class="feedback" id="feedback-reviewB-2"></span>
+        </div>
+        <div class="question">
+            3. (it / rain) <br>
+            A: <input type="text" id="reviewB-3a" size="30">?<br>
+            B: Yes, <input type="text" id="reviewB-3b" size="10">. Take your umbrella.
+            <button onclick="checkMultiAnswer('reviewB', 3, ['is it raining', 'it is'])">Submit</button>
+            <span class="feedback" id="feedback-reviewB-3"></span>
+        </div>
+    </div>
+    
+    <p><strong>C Correct the conversations.</strong> There are four mistakes.</p>
+    <div class="exercise">
+        <div class="question">
+            1. A: <span class="correction">Is Annie clean</span> <input type="text" id="reviewC-1" placeholder="Correction..." size="20"> her room? <br>
+            B: No, she not. She's writing a story. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            she <input type="text" id="reviewC-2" placeholder="Correction..." size="5">.
+            <button onclick="checkMultiAnswer('reviewC', 1, ['is annie cleaning', 'isn\'t'])">Submit</button>
+            <span class="feedback" id="feedback-reviewC-1"></span>
+        </div>
+        <div class="question">
+            2. A: Is Ben and Jeremy doing homework? <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="reviewC-3" placeholder="Correction..." size="5"> Ben and Jeremy... <br>
+            B: No, they isn't. But it's OK. Tomorrow is a school holiday.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            they <input type="text" id="reviewC-4" placeholder="Correction..." size="5">.
+            <button onclick="checkMultiAnswer('reviewC', 2, ['are', 'aren\'t'])">Submit</button>
+            <span class="feedback" id="feedback-reviewC-2"></span>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="step-header blue">LUYỆN TẬP THÊM (ADDITIONAL PRACTICE)</div>
+    <p>Hoàn thành 100 câu bài tập dưới đây để củng cố kiến thức về câu hỏi Yes/No trong thì Hiện tại Tiếp diễn.</p>
+
+    <!-- PART 1: COMPLETE THE QUESTIONS (30 questions) -->
+    <h4>Phần 1: Hoàn thành câu hỏi</h4>
+    <p>Điền dạng đúng của 'be' và động từ 'verb-ing' vào chỗ trống.</p>
+    <div class="exercise">
+        <!-- Q1-10 -->
+        <div class="question">1. A: <input type="text" id="addEx-q1-a" size="3"> you <input type="text" id="addEx-q1-b" size="10"> (listen) to me? <button onclick="checkAdditionalMultiAnswer(1, ['are', 'listening'])">Submit</button><span class="feedback" id="addEx-q1-feedback"></span><br>B: Yes, of course I am.</div>
+        <div class="question">2. A: <input type="text" id="addEx-q2-a" size="3"> he <input type="text" id="addEx-q2-b" size="10"> (sleep) right now? <button onclick="checkAdditionalMultiAnswer(2, ['is', 'sleeping'])">Submit</button><span class="feedback" id="addEx-q2-feedback"></span><br>B: No, he's watching a movie.</div>
+        <div class="question">3. A: <input type="text" id="addEx-q3-a" size="3"> they <input type="text" id="addEx-q3-b" size="10"> (play) video games? <button onclick="checkAdditionalMultiAnswer(3, ['are', 'playing'])">Submit</button><span class="feedback" id="addEx-q3-feedback"></span><br>B: Yes, they are.</div>
+        <div class="question">4. A: <input type="text" id="addEx-q4-a" size="3"> she <input type="text" id="addEx-q4-b" size="10"> (do) her homework? <button onclick="checkAdditionalMultiAnswer(4, ['is', 'doing'])">Submit</button><span class="feedback" id="addEx-q4-feedback"></span><br>B: No, she's talking on the phone.</div>
+        <div class="question">5. A: <input type="text" id="addEx-q5-a" size="3"> it <input type="text" id="addEx-q5-b" size="10"> (rain) outside? <button onclick="checkAdditionalMultiAnswer(5, ['is', 'raining'])">Submit</button><span class="feedback" id="addEx-q5-feedback"></span><br>B: Yes, take an umbrella.</div>
+        <div class="question">6. A: <input type="text" id="addEx-q6-a" size="3"> we <input type="text" id="addEx-q6-b" size="10"> (go) in the right direction? <button onclick="checkAdditionalMultiAnswer(6, ['are', 'going'])">Submit</button><span class="feedback" id="addEx-q6-feedback"></span><br>B: I think so.</div>
+        <div class="question">7. A: <input type="text" id="addEx-q7-a" size="3"> I <input type="text" id="addEx-q7-b" size="10"> (talk) too fast? <button onclick="checkAdditionalMultiAnswer(7, ['am', 'talking'])">Submit</button><span class="feedback" id="addEx-q7-feedback"></span><br>B: No, you're fine.</div>
+        <div class="question">8. A: <input type="text" id="addEx-q8-a" size="3"> your brother <input type="text" id="addEx-q8-b" size="10"> (work) today? <button onclick="checkAdditionalMultiAnswer(8, ['is', 'working'])">Submit</button><span class="feedback" id="addEx-q8-feedback"></span><br>B: No, it's his day off.</div>
+        <div class="question">9. A: <input type="text" id="addEx-q9-a" size="3"> the children <input type="text" id="addEx-q9-b" size="10"> (watch) TV? <button onclick="checkAdditionalMultiAnswer(9, ['are', 'watching'])">Submit</button><span class="feedback" id="addEx-q9-feedback"></span><br>B: Yes, they are.</div>
+        <div class="question">10. A: <input type="text" id="addEx-q10-a" size="3"> Maria <input type="text" id="addEx-q10-b" size="10"> (cook) dinner? <button onclick="checkAdditionalMultiAnswer(10, ['is', 'cooking'])">Submit</button><span class="feedback" id="addEx-q10-feedback"></span><br>B: Yes, it smells delicious!</div>
+        <!-- Q11-20 -->
+        <div class="question">11. A: <input type="text" id="addEx-q11-a" size="3"> you <input type="text" id="addEx-q11-b" size="10"> (wear) a new jacket? <button onclick="checkAdditionalMultiAnswer(11, ['are', 'wearing'])">Submit</button><span class="feedback" id="addEx-q11-feedback"></span><br>B: Yes, I bought it yesterday.</div>
+        <div class="question">12. A: <input type="text" id="addEx-q12-a" size="3"> the cat <input type="text" id="addEx-q12-b" size="10"> (eat) its food? <button onclick="checkAdditionalMultiAnswer(12, ['is', 'eating'])">Submit</button><span class="feedback" id="addEx-q12-feedback"></span><br>B: No, it's sleeping on the sofa.</div>
+        <div class="question">13. A: <input type="text" id="addEx-q13-a" size="3"> your parents <input type="text" id="addEx-q13-b" size="10"> (drive) here? <button onclick="checkAdditionalMultiAnswer(13, ['are', 'driving'])">Submit</button><span class="feedback" id="addEx-q13-feedback"></span><br>B: No, they're taking the train.</div>
+        <div class="question">14. A: <input type="text" id="addEx-q14-a" size="3"> someone <input type="text" id="addEx-q14-b" size="10"> (use) the computer? <button onclick="checkAdditionalMultiAnswer(14, ['is', 'using'])">Submit</button><span class="feedback" id="addEx-q14-feedback"></span><br>B: Yes, my sister is.</div>
+        <div class="question">15. A: <input type="text" id="addEx-q15-a" size="3"> we <input type="text" id="addEx-q15-b" size="10"> (wait) for the right bus? <button onclick="checkAdditionalMultiAnswer(15, ['are', 'waiting'])">Submit</button><span class="feedback" id="addEx-q15-feedback"></span><br>B: Yes, this is bus number 5.</div>
+        <div class="question">16. A: <input type="text" id="addEx-q16-a" size="3"> Tom <input type="text" id="addEx-q16-b" size="10"> (get) a haircut? <button onclick="checkAdditionalMultiAnswer(16, ['is', 'getting'])">Submit</button><span class="feedback" id="addEx-q16-feedback"></span><br>B: Yes, he is.</div>
+        <div class="question">17. A: <input type="text" id="addEx-q17-a" size="3"> the students <input type="text" id="addEx-q17-b" size="10"> (write) the test? <button onclick="checkAdditionalMultiAnswer(17, ['are', 'writing'])">Submit</button><span class="feedback" id="addEx-q17-feedback"></span><br>B: Yes, please be quiet.</div>
+        <div class="question">18. A: <input type="text" id="addEx-q18-a" size="3"> this phone <input type="text" id="addEx-q18-b" size="10"> (work) correctly? <button onclick="checkAdditionalMultiAnswer(18, ['is', 'working'])">Submit</button><span class="feedback" id="addEx-q18-feedback"></span><br>B: No, I think it's broken.</div>
+        <div class="question">19. A: <input type="text" id="addEx-q19-a" size="3"> you <input type="text" id="addEx-q19-b" size="10"> (make) coffee? <button onclick="checkAdditionalMultiAnswer(19, ['are', 'making'])">Submit</button><span class="feedback" id="addEx-q19-feedback"></span><br>B: Yes, do you want a cup?</div>
+        <div class="question">20. A: <input type="text" id="addEx-q20-a" size="3"> Sarah and Ben <input type="text" id="addEx-q20-b" size="10"> (study) together? <button onclick="checkAdditionalMultiAnswer(20, ['are', 'studying'])">Submit</button><span class="feedback" id="addEx-q20-feedback"></span><br>B: Yes, they're at the library.</div>
+        <!-- Q21-30 -->
+        <div class="question">21. A: <input type="text" id="addEx-q21-a" size="3"> the dog <input type="text" id="addEx-q21-b" size="10"> (bark)? <button onclick="checkAdditionalMultiAnswer(21, ['is', 'barking'])">Submit</button><span class="feedback" id="addEx-q21-feedback"></span><br>B: No, it's very quiet.</div>
+        <div class="question">22. A: <input type="text" id="addEx-q22-a" size="3"> your friend <input type="text" id="addEx-q22-b" size="10"> (come) to the party? <button onclick="checkAdditionalMultiAnswer(22, ['is', 'coming'])">Submit</button><span class="feedback" id="addEx-q22-feedback"></span><br>B: Yes, she'll be here soon.</div>
+        <div class="question">23. A: <input type="text" id="addEx-q23-a" size="3"> I <input type="text" id="addEx-q23-b" size="10"> (sit) in your chair? <button onclick="checkAdditionalMultiAnswer(23, ['am', 'sitting'])">Submit</button><span class="feedback" id="addEx-q23-feedback"></span><br>B: No, that's fine.</div>
+        <div class="question">24. A: <input type="text" id="addEx-q24-a" size="3"> they <input type="text" id="addEx-q24-b" size="10"> (clean) the house? <button onclick="checkAdditionalMultiAnswer(24, ['are', 'cleaning'])">Submit</button><span class="feedback" id="addEx-q24-feedback"></span><br>B: Yes, for the guests.</div>
+        <div class="question">25. A: <input type="text" id="addEx-q25-a" size="3"> it <input type="text" id="addEx-q25-b" size="10"> (get) dark outside? <button onclick="checkAdditionalMultiAnswer(25, ['is', 'getting'])">Submit</button><span class="feedback" id="addEx-q25-feedback"></span><br>B: Yes, it's almost 7 PM.</div>
+        <div class="question">26. A: <input type="text" id="addEx-q26-a" size="3"> you <input type="text" id="addEx-q26-b" size="10"> (feel) better now? <button onclick="checkAdditionalMultiAnswer(26, ['are', 'feeling'])">Submit</button><span class="feedback" id="addEx-q26-feedback"></span><br>B: Yes, much better, thanks.</div>
+        <div class="question">27. A: <input type="text" id="addEx-q27-a" size="3"> David <input type="text" id="addEx-q27-b" size="10"> (fix) the car? <button onclick="checkAdditionalMultiAnswer(27, ['is', 'fixing'])">Submit</button><span class="feedback" id="addEx-q27-feedback"></span><br>B: No, he's calling a mechanic.</div>
+        <div class="question">28. A: <input type="text" id="addEx-q28-a" size="3"> we <input type="text" id="addEx-q28-b" size="10"> (have) dinner soon? <button onclick="checkAdditionalMultiAnswer(28, ['are', 'having'])">Submit</button><span class="feedback" id="addEx-q28-feedback"></span><br>B: Yes, in five minutes.</div>
+        <div class="question">29. A: <input type="text" id="addEx-q29-a" size="3"> the teacher <input type="text" id="addEx-q29-b" size="10"> (explain) the rules? <button onclick="checkAdditionalMultiAnswer(29, ['is', 'explaining'])">Submit</button><span class="feedback" id="addEx-q29-feedback"></span><br>B: Yes, listen carefully.</div>
+        <div class="question">30. A: <input type="text" id="addEx-q30-a" size="3"> your team <input type="text" id="addEx-q30-b" size="10"> (win) the game? <button onclick="checkAdditionalMultiAnswer(30, ['is', 'winning'])">Submit</button><span class="feedback" id="addEx-q30-feedback"></span><br>B: No, we're losing.</div>
+    </div>
+
+    <!-- PART 2: WRITE QUESTIONS AND SHORT ANSWERS (40 questions) -->
+    <h4>Phần 2: Viết câu hỏi và câu trả lời ngắn</h4>
+    <p>Dựa vào gợi ý, viết câu hỏi hoàn chỉnh và câu trả lời ngắn. Sử dụng dạng viết tắt nếu có thể.</p>
+    <div class="exercise">
+        <!-- Q31-40 -->
+        <div class="question">31. (you / study / English?) (Yes) <br> A: <input type="text" id="addEx-q31-a" size="30"> <br> B: <input type="text" id="addEx-q31-b" size="15"> <button onclick="checkAdditionalMultiAnswer(31, ['are you studying english?', 'yes, i am.'])">Submit</button><span class="feedback" id="addEx-q31-feedback"></span></div>
+        <div class="question">32. (he / watch / a movie?) (No) <br> A: <input type="text" id="addEx-q32-a" size="30"> <br> B: <input type="text" id="addEx-q32-b" size="15"> <button onclick="checkAdditionalMultiAnswer(32, ['is he watching a movie?', 'no, he isn\'t.'])">Submit</button><span class="feedback" id="addEx-q32-feedback"></span></div>
+        <div class="question">33. (they / eat / pizza?) (Yes) <br> A: <input type="text" id="addEx-q33-a" size="30"> <br> B: <input type="text" id="addEx-q33-b" size="15"> <button onclick="checkAdditionalMultiAnswer(33, ['are they eating pizza?', 'yes, they are.'])">Submit</button><span class="feedback" id="addEx-q33-feedback"></span></div>
+        <div class="question">34. (it / snow?) (No) <br> A: <input type="text" id="addEx-q34-a" size="30"> <br> B: <input type="text" id="addEx-q34-b" size="15"> <button onclick="checkAdditionalMultiAnswer(34, ['is it snowing?', 'no, it isn\'t.'])">Submit</button><span class="feedback" id="addEx-q34-feedback"></span></div>
+        <div class="question">35. (she / read / a book?) (Yes) <br> A: <input type="text" id="addEx-q35-a" size="30"> <br> B: <input type="text" id="addEx-q35-b" size="15"> <button onclick="checkAdditionalMultiAnswer(35, ['is she reading a book?', 'yes, she is.'])">Submit</button><span class="feedback" id="addEx-q35-feedback"></span></div>
+        <div class="question">36. (we / leave / now?) (Yes) <br> A: <input type="text" id="addEx-q36-a" size="30"> <br> B: <input type="text" id="addEx-q36-b" size="15"> <button onclick="checkAdditionalMultiAnswer(36, ['are we leaving now?', 'yes, we are.'])">Submit</button><span class="feedback" id="addEx-q36-feedback"></span></div>
+        <div class="question">37. (the baby / sleep?) (No) <br> A: <input type="text" id="addEx-q37-a" size="30"> <br> B: <input type="text" id="addEx-q37-b" size="15"> <button onclick="checkAdditionalMultiAnswer(37, ['is the baby sleeping?', 'no, it isn\'t.'])">Submit</button><span class="feedback" id="addEx-q37-feedback"></span></div>
+        <div class="question">38. (your friends / wait / for you?) (Yes) <br> A: <input type="text" id="addEx-q38-a" size="35"> <br> B: <input type="text" id="addEx-q38-b" size="15"> <button onclick="checkAdditionalMultiAnswer(38, ['are your friends waiting for you?', 'yes, they are.'])">Submit</button><span class="feedback" id="addEx-q38-feedback"></span></div>
+        <div class="question">39. (you / do / laundry?) (No) <br> A: <input type="text" id="addEx-q39-a" size="30"> <br> B: <input type="text" id="addEx-q39-b" size="15"> <button onclick="checkAdditionalMultiAnswer(39, ['are you doing laundry?', 'no, i\'m not.'])">Submit</button><span class="feedback" id="addEx-q39-feedback"></span></div>
+        <div class="question">40. (I / bother / you?) (No) <br> A: <input type="text" id="addEx-q40-a" size="30"> <br> B: <input type="text" id="addEx-q40-b" size="15"> <button onclick="checkAdditionalMultiAnswer(40, ['am i bothering you?', 'no, you aren\'t.'])">Submit</button><span class="feedback" id="addEx-q40-feedback"></span></div>
+        <!-- Q41-50 -->
+        <div class="question">41. (Anna / take / a photo?) (Yes) <br> A: <input type="text" id="addEx-q41-a" size="30"> <br> B: <input type="text" id="addEx-q41-b" size="15"> <button onclick="checkAdditionalMultiAnswer(41, ['is anna taking a photo?', 'yes, she is.'])">Submit</button><span class="feedback" id="addEx-q41-feedback"></span></div>
+        <div class="question">42. (the boys / swim?) (No) <br> A: <input type="text" id="addEx-q42-a" size="30"> <br> B: <input type="text" id="addEx-q42-b" size="15"> <button onclick="checkAdditionalMultiAnswer(42, ['are the boys swimming?', 'no, they aren\'t.'])">Submit</button><span class="feedback" id="addEx-q42-feedback"></span></div>
+        <div class="question">43. (the phone / ring?) (Yes) <br> A: <input type="text" id="addEx-q43-a" size="30"> <br> B: <input type="text" id="addEx-q43-b" size="15"> <button onclick="checkAdditionalMultiAnswer(43, ['is the phone ringing?', 'yes, it is.'])">Submit</button><span class="feedback" id="addEx-q43-feedback"></span></div>
+        <div class="question">44. (you and I / go / to the same class?) (Yes) <br> A: <input type="text" id="addEx-q44-a" size="45"> <br> B: <input type="text" id="addEx-q44-b" size="15"> <button onclick="checkAdditionalMultiAnswer(44, ['are you and i going to the same class?', 'yes, we are.'])">Submit</button><span class="feedback" id="addEx-q44-feedback"></span></div>
+        <div class="question">45. (your dad / wash / the car?) (No) <br> A: <input type="text" id="addEx-q45-a" size="30"> <br> B: <input type="text" id="addEx-q45-b" size="15"> <button onclick="checkAdditionalMultiAnswer(45, ['is your dad washing the car?', 'no, he isn\'t.'])">Submit</button><span class="feedback" id="addEx-q45-feedback"></span></div>
+        <div class="question">46. (the girls / dance?) (Yes) <br> A: <input type="text" id="addEx-q46-a" size="30"> <br> B: <input type="text" id="addEx-q46-b" size="15"> <button onclick="checkAdditionalMultiAnswer(46, ['are the girls dancing?', 'yes, they are.'])">Submit</button><span class="feedback" id="addEx-q46-feedback"></span></div>
+        <div class="question">47. (Mark / run / a marathon?) (No) <br> A: <input type="text" id="addEx-q47-a" size="30"> <br> B: <input type="text" id="addEx-q47-b" size="15"> <button onclick="checkAdditionalMultiAnswer(47, ['is mark running a marathon?', 'no, he isn\'t.'])">Submit</button><span class="feedback" id="addEx-q47-feedback"></span></div>
+        <div class="question">48. (the sun / shine?) (Yes) <br> A: <input type="text" id="addEx-q48-a" size="30"> <br> B: <input type="text" id="addEx-q48-b" size="15"> <button onclick="checkAdditionalMultiAnswer(48, ['is the sun shining?', 'yes, it is.'])">Submit</button><span class="feedback" id="addEx-q48-feedback"></span></div>
+        <div class="question">49. (the chefs / cook / pasta?) (Yes) <br> A: <input type="text" id="addEx-q49-a" size="30"> <br> B: <input type="text" id="addEx-q49-b" size="15"> <button onclick="checkAdditionalMultiAnswer(49, ['are the chefs cooking pasta?', 'yes, they are.'])">Submit</button><span class="feedback" id="addEx-q49-feedback"></span></div>
+        <div class="question">50. (you / listen / to a podcast?) (No) <br> A: <input type="text" id="addEx-q50-a" size="35"> <br> B: <input type="text" id="addEx-q50-b" size="15"> <button onclick="checkAdditionalMultiAnswer(50, ['are you listening to a podcast?', 'no, i\'m not.'])">Submit</button><span class="feedback" id="addEx-q50-feedback"></span></div>
+         <!-- Q51-60 -->
+        <div class="question">51. (your mother / shop / for groceries?) (Yes) <br> A: <input type="text" id="addEx-q51-a" size="40"> <br> B: <input type="text" id="addEx-q51-b" size="15"> <button onclick="checkAdditionalMultiAnswer(51, ['is your mother shopping for groceries?', 'yes, she is.'])">Submit</button><span class="feedback" id="addEx-q51-feedback"></span></div>
+        <div class="question">52. (the students / pay / attention?) (No) <br> A: <input type="text" id="addEx-q52-a" size="35"> <br> B: <input type="text" id="addEx-q52-b" size="15"> <button onclick="checkAdditionalMultiAnswer(52, ['are the students paying attention?', 'no, they aren\'t.'])">Submit</button><span class="feedback" id="addEx-q52-feedback"></span></div>
+        <div class="question">53. (the printer / make / a strange noise?) (Yes) <br> A: <input type="text" id="addEx-q53-a" size="45"> <br> B: <input type="text" id="addEx-q53-b" size="15"> <button onclick="checkAdditionalMultiAnswer(53, ['is the printer making a strange noise?', 'yes, it is.'])">Submit</button><span class="feedback" id="addEx-q53-feedback"></span></div>
+        <div class="question">54. (he / build / a sandcastle?) (Yes) <br> A: <input type="text" id="addEx-q54-a" size="35"> <br> B: <input type="text" id="addEx-q54-b" size="15"> <button onclick="checkAdditionalMultiAnswer(54, ['is he building a sandcastle?', 'yes, he is.'])">Submit</button><span class="feedback" id="addEx-q54-feedback"></span></div>
+        <div class="question">55. (they / travel / to Spain?) (No) <br> A: <input type="text" id="addEx-q55-a" size="30"> <br> B: <input type="text" id="addEx-q55-b" size="15"> <button onclick="checkAdditionalMultiAnswer(55, ['are they traveling to spain?', 'no, they aren\'t.'])">Submit</button><span class="feedback" id="addEx-q55-feedback"></span></div>
+        <div class="question">56. (she / paint / a picture?) (Yes) <br> A: <input type="text" id="addEx-q56-a" size="30"> <br> B: <input type="text" id="addEx-q56-b" size="15"> <button onclick="checkAdditionalMultiAnswer(56, ['is she painting a picture?', 'yes, she is.'])">Submit</button><span class="feedback" id="addEx-q56-feedback"></span></div>
+        <div class="question">57. (the children / hide?) (No) <br> A: <input type="text" id="addEx-q57-a" size="30"> <br> B: <input type="text" id="addEx-q57-b" size="15"> <button onclick="checkAdditionalMultiAnswer(57, ['are the children hiding?', 'no, they aren\'t.'])">Submit</button><span class="feedback" id="addEx-q57-feedback"></span></div>
+        <div class="question">58. (you / look / for your keys?) (Yes) <br> A: <input type="text" id="addEx-q58-a" size="35"> <br> B: <input type="text" id="addEx-q58-b" size="15"> <button onclick="checkAdditionalMultiAnswer(58, ['are you looking for your keys?', 'yes, i am.'])">Submit</button><span class="feedback" id="addEx-q58-feedback"></span></div>
+        <div class="question">59. (this machine / work?) (No) <br> A: <input type="text" id="addEx-q59-a" size="30"> <br> B: <input type="text" id="addEx-q59-b" size="15"> <button onclick="checkAdditionalMultiAnswer(59, ['is this machine working?', 'no, it isn\'t.'])">Submit</button><span class="feedback" id="addEx-q59-feedback"></span></div>
+        <div class="question">60. (the band / play / our favorite song?) (Yes) <br> A: <input type="text" id="addEx-q60-a" size="45"> <br> B: <input type="text" id="addEx-q60-b" size="15"> <button onclick="checkAdditionalMultiAnswer(60, ['is the band playing our favorite song?', 'yes, it is.'])">Submit</button><span class="feedback" id="addEx-q60-feedback"></span></div>
+         <!-- Q61-70 -->
+        <div class="question">61. (I / dream?) (No) <br> A: <input type="text" id="addEx-q61-a" size="30"> <br> B: <input type="text" id="addEx-q61-b" size="15"> <button onclick="checkAdditionalMultiAnswer(61, ['am i dreaming?', 'no, you aren\'t.'])">Submit</button><span class="feedback" id="addEx-q61-feedback"></span></div>
+        <div class="question">62. (he / wear / glasses?) (Yes) <br> A: <input type="text" id="addEx-q62-a" size="30"> <br> B: <input type="text" id="addEx-q62-b" size="15"> <button onclick="checkAdditionalMultiAnswer(62, ['is he wearing glasses?', 'yes, he is.'])">Submit</button><span class="feedback" id="addEx-q62-feedback"></span></div>
+        <div class="question">63. (the guests / arrive?) (No) <br> A: <input type="text" id="addEx-q63-a" size="30"> <br> B: <input type="text" id="addEx-q63-b" size="15"> <button onclick="checkAdditionalMultiAnswer(63, ['are the guests arriving?', 'no, they aren\'t.'])">Submit</button><span class="feedback" id="addEx-q63-feedback"></span></div>
+        <div class="question">64. (it / get / colder?) (Yes) <br> A: <input type="text" id="addEx-q64-a" size="30"> <br> B: <input type="text" id="addEx-q64-b" size="15"> <button onclick="checkAdditionalMultiAnswer(64, ['is it getting colder?', 'yes, it is.'])">Submit</button><span class="feedback" id="addEx-q64-feedback"></span></div>
+        <div class="question">65. (she / practice / the piano?) (Yes) <br> A: <input type="text" id="addEx-q65-a" size="35"> <br> B: <input type="text" id="addEx-q65-b" size="15"> <button onclick="checkAdditionalMultiAnswer(65, ['is she practicing the piano?', 'yes, she is.'])">Submit</button><span class="feedback" id="addEx-q65-feedback"></span></div>
+        <div class="question">66. (you / joke?) (No) <br> A: <input type="text" id="addEx-q66-a" size="30"> <br> B: <input type="text" id="addEx-q66-b" size="15"> <button onclick="checkAdditionalMultiAnswer(66, ['are you joking?', 'no, i\'m not.'])">Submit</button><span class="feedback" id="addEx-q66-feedback"></span></div>
+        <div class="question">67. (the birds / sing?) (Yes) <br> A: <input type="text" id="addEx-q67-a" size="30"> <br> B: <input type="text" id="addEx-q67-b" size="15"> <button onclick="checkAdditionalMultiAnswer(67, ['are the birds singing?', 'yes, they are.'])">Submit</button><span class="feedback" id="addEx-q67-feedback"></span></div>
+        <div class="question">68. (the mechanic / check / the engine?) (Yes) <br> A: <input type="text" id="addEx-q68-a" size="45"> <br> B: <input type="text" id="addEx-q68-b" size="15"> <button onclick="checkAdditionalMultiAnswer(68, ['is the mechanic checking the engine?', 'yes, he is.'])">Submit</button><span class="feedback" id="addEx-q68-feedback"></span></div>
+        <div class="question">69. (they / plan / a surprise party?) (Yes) <br> A: <input type="text" id="addEx-q69-a" size="40"> <br> B: <input type="text" id="addEx-q69-b" size="15"> <button onclick="checkAdditionalMultiAnswer(69, ['are they planning a surprise party?', 'yes, they are.'])">Submit</button><span class="feedback" id="addEx-q69-feedback"></span></div>
+        <div class="question">70. (she / babysit / tonight?) (No) <br> A: <input type="text" id="addEx-q70-a" size="30"> <br> B: <input type="text" id="addEx-q70-b" size="15"> <button onclick="checkAdditionalMultiAnswer(70, ['is she babysitting tonight?', 'no, she isn\'t.'])">Submit</button><span class="feedback" id="addEx-q70-feedback"></span></div>
+    </div>
+    
+    <!-- PART 3: CHOOSE THE CORRECT OPTION (30 questions) -->
+    <h4>Phần 3: Chọn đáp án đúng</h4>
+    <p>Chọn câu hỏi hoặc câu trả lời đúng ngữ pháp.</p>
+    <div class="exercise">
+        <!-- Q71-80 -->
+        <div class="question" id="addEx-q71-div">71. <input type="radio" name="addEx-q71" value="a"> You are watching TV? <input type="radio" name="addEx-q71" value="b"> Are you watching TV? <button onclick="checkAdditionalRadio(71, 'b')">Submit</button><span class="feedback" id="addEx-q71-feedback"></span></div>
+        <div class="question" id="addEx-q72-div">72. A: Is he reading? B: <input type="radio" name="addEx-q72" value="a"> Yes, he's. <input type="radio" name="addEx-q72" value="b"> Yes, he is. <button onclick="checkAdditionalRadio(72, 'b')">Submit</button><span class="feedback" id="addEx-q72-feedback"></span></div>
+        <div class="question" id="addEx-q73-div">73. <input type="radio" name="addEx-q73" value="a"> Are they come? <input type="radio" name="addEx-q73" value="b"> Are they coming? <button onclick="checkAdditionalRadio(73, 'b')">Submit</button><span class="feedback" id="addEx-q73-feedback"></span></div>
+        <div class="question" id="addEx-q74-div">74. A: Is she working? B: <input type="radio" name="addEx-q74" value="a"> No, she isn't. <input type="radio" name="addEx-q74" value="b"> No, she's not working. <input type="radio" name="addEx-q74" value="c"> Both are correct. <button onclick="checkAdditionalRadio(74, 'c')">Submit</button><span class="feedback" id="addEx-q74-feedback"></span></div>
+        <div class="question" id="addEx-q75-div">75. <input type="radio" name="addEx-q75" value="a"> Is the children playing? <input type="radio" name="addEx-q75" value="b"> Are the children playing? <button onclick="checkAdditionalRadio(75, 'b')">Submit</button><span class="feedback" id="addEx-q75-feedback"></span></div>
+        <div class="question" id="addEx-q76-div">76. A: Are you listening? B: <input type="radio" name="addEx-q76" value="a"> Yes, I'm. <input type="radio" name="addEx-q76" value="b"> Yes, I am. <button onclick="checkAdditionalRadio(76, 'b')">Submit</button><span class="feedback" id="addEx-q76-feedback"></span></div>
+        <div class="question" id="addEx-q77-div">77. <input type="radio" name="addEx-q77" value="a"> Does it raining? <input type="radio" name="addEx-q77" value="b"> Is it raining? <button onclick="checkAdditionalRadio(77, 'b')">Submit</button><span class="feedback" id="addEx-q77-feedback"></span></div>
+        <div class="question" id="addEx-q78-div">78. A: Are they studying? B: <input type="radio" name="addEx-q78" value="a"> No, they aren't. <input type="radio" name="addEx-q78" value="b"> No, they not. <button onclick="checkAdditionalRadio(78, 'a')">Submit</button><span class="feedback" id="addEx-q78-feedback"></span></div>
+        <div class="question" id="addEx-q79-div">79. <input type="radio" name="addEx-q79" value="a"> Am I doing this right? <input type="radio" name="addEx-q79" value="b"> I am doing this right? <button onclick="checkAdditionalRadio(79, 'a')">Submit</button><span class="feedback" id="addEx-q79-feedback"></span></div>
+        <div class="question" id="addEx-q80-div">80. <input type="radio" name="addEx-q80" value="a"> Why is he laughing? <input type="radio" name="addEx-q80" value="b"> Is he laughing? <small>(This is a Yes/No question unit)</small> <button onclick="checkAdditionalRadio(80, 'b')">Submit</button><span class="feedback" id="addEx-q80-feedback"></span></div>
+        <!-- Q81-90 -->
+        <div class="question" id="addEx-q81-div">81. <input type="radio" name="addEx-q81" value="a"> Is your mom cooking? <input type="radio" name="addEx-q81" value="b"> Are your mom cooking? <button onclick="checkAdditionalRadio(81, 'a')">Submit</button><span class="feedback" id="addEx-q81-feedback"></span></div>
+        <div class="question" id="addEx-q82-div">82. A: Are we late? B: <input type="radio" name="addEx-q82" value="a"> No, we not. <input type="radio" name="addEx-q82" value="b"> No, we aren't. <button onclick="checkAdditionalRadio(82, 'b')">Submit</button><span class="feedback" id="addEx-q82-feedback"></span></div>
+        <div class="question" id="addEx-q83-div">83. <input type="radio" name="addEx-q83" value="a"> Is he wear a hat? <input type="radio" name="addEx-q83" value="b"> Is he wearing a hat? <button onclick="checkAdditionalRadio(83, 'b')">Submit</button><span class="feedback" id="addEx-q83-feedback"></span></div>
+        <div class="question" id="addEx-q84-div">84. A: Is the computer on? B: <input type="radio" name="addEx-q84" value="a"> No, it isn't. <input type="radio" name="addEx-q84" value="b"> No, it's not. <input type="radio" name="addEx-q84" value="c"> Both are correct. <button onclick="checkAdditionalRadio(84, 'c')">Submit</button><span class="feedback" id="addEx-q84-feedback"></span></div>
+        <div class="question" id="addEx-q85-div">85. <input type="radio" name="addEx-q85" value="a"> Are your parents traveling? <input type="radio" name="addEx-q85" value="b"> Is your parents traveling? <button onclick="checkAdditionalRadio(85, 'a')">Submit</button><span class="feedback" id="addEx-q85-feedback"></span></div>
+        <div class="question" id="addEx-q86-div">86. A: Am I interrupting? B: <input type="radio" name="addEx-q86" value="a"> No, you're not. <input type="radio" name="addEx-q86" value="b"> No, you not. <button onclick="checkAdditionalRadio(86, 'a')">Submit</button><span class="feedback" id="addEx-q86-feedback"></span></div>
+        <div class="question" id="addEx-q87-div">87. <input type="radio" name="addEx-q87" value="a"> She is crying? <input type="radio" name="addEx-q87" value="b"> Is she crying? <button onclick="checkAdditionalRadio(87, 'b')">Submit</button><span class="feedback" id="addEx-q87-feedback"></span></div>
+        <div class="question" id="addEx-q88-div">88. A: Are the dogs barking? B: <input type="radio" name="addEx-q88" value="a"> Yes, they're. <input type="radio" name="addEx-q88" value="b"> Yes, they are. <button onclick="checkAdditionalRadio(88, 'b')">Submit</button><span class="feedback" id="addEx-q88-feedback"></span></div>
+        <div class="question" id="addEx-q89-div">89. <input type="radio" name="addEx-q89" value="a"> Is everybody listening? <input type="radio" name="addEx-q89" value="b"> Are everybody listening? <button onclick="checkAdditionalRadio(89, 'a')">Submit</button><span class="feedback" id="addEx-q89-feedback"></span></div>
+        <div class="question" id="addEx-q90-div">90. <input type="radio" name="addEx-q90" value="a"> Are you make dinner? <input type="radio" name="addEx-q90" value="b"> Are you making dinner? <button onclick="checkAdditionalRadio(90, 'b')">Submit</button><span class="feedback" id="addEx-q90-feedback"></span></div>
+        <!-- Q91-100 -->
+        <div class="question" id="addEx-q91-div">91. <input type="radio" name="addEx-q91" value="a"> Is that man looking at us? <input type="radio" name="addEx-q91" value="b"> That man is looking at us? <button onclick="checkAdditionalRadio(91, 'a')">Submit</button><span class="feedback" id="addEx-q91-feedback"></span></div>
+        <div class="question" id="addEx-q92-div">92. A: Is it getting late? B: <input type="radio" name="addEx-q92" value="a"> Yes, it's. <input type="radio" name="addEx-q92" value="b"> Yes, it is. <button onclick="checkAdditionalRadio(92, 'b')">Submit</button><span class="feedback" id="addEx-q92-feedback"></span></div>
+        <div class="question" id="addEx-q93-div">93. <input type="radio" name="addEx-q93" value="a"> Are those people waiting for the bus? <input type="radio" name="addEx-q93" value="b"> Is those people waiting for the bus? <button onclick="checkAdditionalRadio(93, 'a')">Submit</button><span class="feedback" id="addEx-q93-feedback"></span></div>
+        <div class="question" id="addEx-q94-div">94. A: Is your sister studying? B: <input type="radio" name="addEx-q94" value="a"> No, she no is. <input type="radio" name="addEx-q94" value="b"> No, she isn't. <button onclick="checkAdditionalRadio(94, 'b')">Submit</button><span class="feedback" id="addEx-q94-feedback"></span></div>
+        <div class="question" id="addEx-q95-div">95. <input type="radio" name="addEx-q95" value="a"> Is the water boiling? <input type="radio" name="addEx-q95" value="b"> Does the water boiling? <button onclick="checkAdditionalRadio(95, 'a')">Submit</button><span class="feedback" id="addEx-q95-feedback"></span></div>
+        <div class="question" id="addEx-q96-div">96. A: Are they winning? B: <input type="radio" name="addEx-q96" value="a"> No, they're not. <input type="radio" name="addEx-q96" value="b"> No, they not are. <button onclick="checkAdditionalRadio(96, 'a')">Submit</button><span class="feedback" id="addEx-q96-feedback"></span></div>
+        <div class="question" id="addEx-q97-div">97. <input type="radio" name="addEx-q97" value="a"> You are having a good time? <input type="radio" name="addEx-q97" value="b"> Are you having a good time? <button onclick="checkAdditionalRadio(97, 'b')">Submit</button><span class="feedback" id="addEx-q97-feedback"></span></div>
+        <div class="question" id="addEx-q98-div">98. A: Is James coming with us? B: <input type="radio" name="addEx-q98" value="a"> Yes, he's. <input type="radio" name="addEx-q98" value="b"> Yes, he is. <button onclick="checkAdditionalRadio(98, 'b')">Submit</button><span class="feedback" id="addEx-q98-feedback"></span></div>
+        <div class="question" id="addEx-q99-div">99. <input type="radio" name="addEx-q99" value="a"> Are the kids making a mess? <input type="radio" name="addEx-q99" value="b"> The kids are making a mess? <button onclick="checkAdditionalRadio(99, 'a')">Submit</button><span class="feedback" id="addEx-q99-feedback"></span></div>
+        <div class="question" id="addEx-q100-div">100. A: Am I pronouncing this word correctly? B: <input type="radio" name="addEx-q100" value="a"> Yes, you are. <input type="radio" name="addEx-q100" value="b"> Yes, you're. <button onclick="checkAdditionalRadio(100, 'a')">Submit</button><span class="feedback" id="addEx-q100-feedback"></span></div>
+    </div>
+</div>
+
+<script>
+// NOTE: This new script block can coexist with the old one.
+// The functions are uniquely named to avoid conflicts.
+// The helper functions `normalizeAnswer` and `showHint` are general and can be reused,
+// so they are not redeclared here assuming they exist from the previous script block.
+// If this were a standalone file, they would be included here.
+
+function checkAdditionalMultiAnswer(questionIndex, correctAnswers) {
+    const feedbackElement = document.getElementById(`addEx-q${questionIndex}-feedback`);
+    let allCorrect = true;
+
+    for (let i = 0; i < correctAnswers.length; i++) {
+        const inputId = `addEx-q${questionIndex}-${String.fromCharCode(97 + i)}`;
+        const inputElement = document.getElementById(inputId);
+        const userAnswer = normalizeAnswer(inputElement.value);
+        const correctAnswer = normalizeAnswer(correctAnswers[i]);
+
+        // Flexible checking for contractions (e.g., "isn't" vs "is not")
+        const altCorrectAnswer = correctAnswer.replace(/'/g, "").replace(/\s+/g, "");
+        const normalizedUserAnswer = userAnswer.replace(/'/g, "").replace(/\s+/g, "");
+
+        if (normalizedUserAnswer === altCorrectAnswer) {
+             inputElement.style.borderColor = '#27ae60';
+        } else {
+            inputElement.style.borderColor = '#c0392b';
+            allCorrect = false;
+        }
+    }
+    
+    if (allCorrect) {
+        feedbackElement.textContent = 'Chính xác!';
+        feedbackElement.className = 'feedback correct';
+    } else {
+        feedbackElement.textContent = 'Chưa đúng. ';
+        feedbackElement.className = 'feedback incorrect';
+        // The existing showHint function will work here.
+        showHint(feedbackElement, correctAnswers);
+    }
+}
+
+
+function checkAdditionalRadio(questionIndex, correctAnswer) {
+    const feedbackElement = document.getElementById(`addEx-q${questionIndex}-feedback`);
+    const radioButtons = document.getElementsByName(`addEx-q${questionIndex}`);
+    let userAnswer = '';
+    
+    for (const radio of radioButtons) {
+        if (radio.checked) {
+            userAnswer = radio.value;
+            break;
+        }
+    }
+
+    if (userAnswer === correctAnswer) {
+        feedbackElement.textContent = 'Chính xác!';
+        feedbackElement.className = 'feedback correct';
+    } else if (userAnswer === '') {
+        feedbackElement.textContent = 'Vui lòng chọn một đáp án.';
+        feedbackElement.className = 'feedback incorrect';
+    } else {
+        feedbackElement.textContent = 'Chưa đúng. ';
+        feedbackElement.className = 'feedback incorrect';
+        
+        // Find the correct label text to show as a hint
+        let correctLabelText = '...';
+        const container = document.getElementById(`addEx-q${questionIndex}-div`);
+        const correctRadio = container.querySelector(`input[value="${correctAnswer}"]`);
+        if(correctRadio && correctRadio.nextSibling) {
+            correctLabelText = correctRadio.nextSibling.textContent.trim();
+        }
+        showHint(feedbackElement, correctLabelText);
+    }
+}
+</script>
+</div> <!-- end container -->
+
+<script>
+    function normalizeAnswer(answer) {
+        if (typeof answer !== 'string') return answer;
+        return answer.trim().toLowerCase().replace(/[.,?]/g, '');
+    }
+
+    function showHint(feedbackElement, correctAnswers) {
+        let hintButton = document.createElement('button');
+        hintButton.textContent = 'Gợi ý';
+        hintButton.className = 'hint-button';
+        hintButton.onclick = function() {
+            let answerText = Array.isArray(correctAnswers) ? correctAnswers.join(', ') : correctAnswers;
+            feedbackElement.innerHTML = `Đáp án đúng: <strong>${answerText}</strong>`;
+            feedbackElement.className = 'feedback';
+        };
+        feedbackElement.appendChild(hintButton);
+    }
+
+    function checkAnswer(exerciseId, questionIndex, correctAnswer) {
+        const inputElement = document.getElementById(`${exerciseId}-${questionIndex}`);
+        const feedbackElement = document.getElementById(`feedback-${exerciseId}-${questionIndex}`);
+        const userAnswer = normalizeAnswer(inputElement.value);
+
+        if (userAnswer === normalizeAnswer(correctAnswer)) {
+            feedbackElement.textContent = 'Chính xác!';
+            feedbackElement.className = 'feedback correct';
+            inputElement.style.borderColor = '#27ae60';
+        } else {
+            feedbackElement.textContent = 'Chưa đúng. ';
+            feedbackElement.className = 'feedback incorrect';
+            inputElement.style.borderColor = '#c0392b';
+            showHint(feedbackElement, correctAnswer.toUpperCase());
+        }
+    }
+    
+    function checkRadio(exerciseId, questionIndex, correctAnswer) {
+        const qId = questionIndex ? `${exerciseId}-${questionIndex}` : exerciseId;
+        const feedbackElement = document.getElementById(`feedback-${qId}`);
+        const radioButtons = document.getElementsByName(`q${questionIndex || ''}`);
+        let userAnswer = '';
+        
+        // Special case for ex1-b which has no questionIndex
+        if (exerciseId === 'ex1-b') {
+            const container = document.getElementById('ex1-b');
+            const checkedRadio = container.querySelector('input[name="cartoon"]:checked');
+            if (checkedRadio) {
+                userAnswer = checkedRadio.value;
+            }
+        } else {
+             for (const radio of radioButtons) {
+                if (radio.checked) {
+                    userAnswer = radio.value;
+                    break;
+                }
+            }
+        }
+
+        if (userAnswer === correctAnswer) {
+            feedbackElement.textContent = 'Chính xác!';
+            feedbackElement.className = 'feedback correct';
+        } else {
+            feedbackElement.textContent = 'Chưa đúng. ';
+            feedbackElement.className = 'feedback incorrect';
+            showHint(feedbackElement, correctAnswer.toUpperCase());
+        }
+    }
+
+    function checkMultiAnswer(exerciseId, questionIndex, correctAnswers) {
+        const feedbackElement = document.getElementById(`feedback-${exerciseId}-${questionIndex}`);
+        let allCorrect = true;
+
+        for (let i = 0; i < correctAnswers.length; i++) {
+            const inputId = `${exerciseId}-${questionIndex}${String.fromCharCode(97 + i)}`;
+            const inputElement = document.getElementById(inputId);
+            const userAnswer = normalizeAnswer(inputElement.value);
+            const correctAnswer = normalizeAnswer(correctAnswers[i]);
+            
+            // Allow for contracted forms like isn't/is not
+            const altCorrectAnswer = correctAnswer.replace("'", "").replace(" ", "");
+            const normalizedUserAnswer = userAnswer.replace("'", "").replace(" ", "");
+
+            if (normalizedUserAnswer === altCorrectAnswer || userAnswer === correctAnswer) {
+                 inputElement.style.borderColor = '#27ae60';
+            } else {
+                inputElement.style.borderColor = '#c0392b';
+                allCorrect = false;
+            }
+        }
+        
+        // For Review C, IDs are numerical
+        if(exerciseId === 'reviewC'){
+            const startId = questionIndex === 1 ? 1 : 3;
+            for (let i = 0; i < correctAnswers.length; i++) {
+                const inputId = `${exerciseId}-${startId + i}`;
+                const inputElement = document.getElementById(inputId);
+                const userAnswer = normalizeAnswer(inputElement.value);
+                const correctAnswer = normalizeAnswer(correctAnswers[i]);
+                
+                const altCorrectAnswer = correctAnswer.replace("'", "").replace(" ", "");
+                const normalizedUserAnswer = userAnswer.replace("'", "").replace(" ", "");
+
+                if (normalizedUserAnswer === altCorrectAnswer || userAnswer === correctAnswer) {
+                    inputElement.style.borderColor = '#27ae60';
+                } else {
+                    inputElement.style.borderColor = '#c0392b';
+                    allCorrect = false;
+                }
+            }
+        }
+
+        if (allCorrect) {
+            feedbackElement.textContent = 'Chính xác!';
+            feedbackElement.className = 'feedback correct';
+        } else {
+            feedbackElement.textContent = 'Có lỗi sai. ';
+            feedbackElement.className = 'feedback incorrect';
+            showHint(feedbackElement, correctAnswers);
+        }
+    }
+</script>
+
+</body>
+</html>
