@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Unit 15: Comparative Adjectives</title>
+
+	<style>
+		
+		:root {
+			--primary-color: #1e4269;
+			--secondary-color: #f0a500;
+			--text-color: #333;
+			--bg-color: #f9f9f9;
+			--border-color: #ddd;
+			--correct-color: #28a745;
+			--incorrect-color: #dc3545;
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+			color: var(--text-color);
+			background-color: var(--bg-color);
+			margin: 0;
+			padding: 0;
+		}
+
+		header, footer {
+			background-color: #9ca5a5;
+			color: white;
+			text-align: center;
+			padding: 1rem;
+		}
+
+		header h1, header h2 {
+			margin: 0;
+		}
+
+		main {
+			max-width: 900px;
+			margin: 20px auto;
+			padding: 20px;
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			border-radius: 8px;
+		}
+
+		section {
+			margin-bottom: 40px;
+			padding-bottom: 20px;
+			border-bottom: 2px solid var(--border-color);
+		}
+
+		section:last-child {
+			border-bottom: none;
+		}
+
+		h1, h2, h3, h4 {
+			color: var(--primary-color);
+		}
+
+		h2 {
+			border-bottom: 2px solid var(--secondary-color);
+			padding-bottom: 10px;
+		}
+
+		.image-gallery {
+			display: flex;
+			justify-content: space-around;
+			gap: 15px;
+			margin: 20px 0;
+			text-align: center;
+		}
+
+		.image-gallery figure {
+			margin: 0;
+		}
+
+		.image-gallery img {
+			max-width: 100%;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 8px;
+			border: 2px solid var(--border-color);
+		}
+
+		.conversation-layout {
+			display: flex;
+			gap: 20px;
+		}
+
+		.conversation-text {
+			flex: 2;
+		}
+
+		.conversation-images {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+		}
+		.conversation-images img {
+			width: 100%;
+			border-radius: 8px;
+		}
+
+		.highlight {
+			background-color: #fff3cd;
+			font-weight: bold;
+			padding: 2px 4px;
+			border-radius: 3px;
+		}
+
+		.grammar-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin: 20px 0;
+		}
+
+		.grammar-table td {
+			border: 1px solid var(--border-color);
+			padding: 10px;
+			text-align: center;
+		}
+		.grammar-table .comparative {
+			font-weight: bold;
+			color: var(--primary-color);
+		}
+
+		.grammar-note {
+			background-color: #e9ecef;
+			border-left: 5px solid var(--secondary-color);
+			padding: 15px;
+			margin: 15px 0;
+			border-radius: 5px;
+		}
+
+		.exercise-block {
+			margin-top: 30px;
+			padding: 20px;
+			border: 1px solid #e0e0e0;
+			border-radius: 8px;
+			background-color: #fafafa;
+		}
+		.exercise-item {
+			margin-bottom: 15px;
+		}
+
+		input[type="text"] {
+			padding: 8px;
+			border: 1px solid var(--border-color);
+			border-radius: 4px;
+			font-size: 1rem;
+			width: 250px;
+		}
+		input[type="text"].correction-input {
+			width: 100px;
+			text-align: center;
+		}
+
+		.submit-btn, #submit-all-corrections {
+			padding: 8px 15px;
+			background-color: var(--primary-color);
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 0.9rem;
+			margin-left: 10px;
+			transition: background-color 0.2s;
+		}
+
+		.submit-btn:hover, #submit-all-corrections:hover {
+			background-color: #0056b3;
+		}
+
+		.feedback {
+			margin-left: 10px;
+			font-weight: bold;
+		}
+
+		.feedback.correct {
+			color: var(--correct-color);
+		}
+
+		.feedback.incorrect {
+			color: var(--incorrect-color);
+		}
+
+		.hint-btn {
+			padding: 5px 10px;
+			background-color: var(--secondary-color);
+			color: #333;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 0.8rem;
+			margin-left: 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+	
+    <header>
+        <h1>UNIT 15: Comparative Adjectives</h1>
+        <h2>ENTERTAINMENT</h2>
+    </header>
+
+    <main>
+        <!-- ==================== STEP 1: GRAMMAR IN CONTEXT ==================== -->
+        <section id="step1">
+            <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+            <h3>BEFORE YOU READ</h3>
+            <h4>A. VOCABULARY</h4>
+            <p>Study the words. Then complete the conversations with your opinions.</p>
+            
+            <div class="image-gallery">
+                <figure>
+                    <img src="FOG-1-15/1.png" alt="Rap music concert">
+                    <figcaption>rap music</figcaption>
+                </figure>
+                <figure>
+                    <img src="FOG-1-15/2.png" alt="Person playing video games">
+                    <figcaption>video games</figcaption>
+                </figure>
+                <figure>
+                    <img src="FOG-1-15/3.png" alt="Barbecue grill with food">
+                    <figcaption>barbecue</figcaption>
+                </figure>
+            </div>
+
+            <div class="conversation-block">
+                <p><strong>Conversation 1</strong></p>
+                <p><strong>A:</strong> Which is better for dancing, rap music or pop music?</p>
+                <p><strong>B:</strong> I think <input type="text" placeholder="your opinion..."> is better.</p>
+            </div>
+            <div class="conversation-block">
+                <p><strong>Conversation 2</strong></p>
+                <p><strong>A:</strong> Which are more fun, video games or movies?</p>
+                <p><strong>B:</strong> I think <input type="text" placeholder="your opinion..."> are more fun.</p>
+            </div>
+            <div class="conversation-block">
+                <p><strong>Conversation 3</strong></p>
+                <p><strong>A:</strong> Which is cheaper, a barbecue at home or dinner at a restaurant?</p>
+                <p><strong>B:</strong> I think <input type="text" placeholder="your opinion..."> is cheaper.</p>
+            </div>
+        </section>
+
+        <!-- ==================== READ ==================== -->
+        <section id="read">
+            <h2>READ</h2>
+            <p>Read the conversation.</p>
+            <div class="conversation-layout">
+                <div class="conversation-text">
+                    <p><strong>MARTY:</strong> We need some entertainment for the party. What do you want to do?</p>
+                    <p><strong>LAURA:</strong> We can listen to music.</p>
+                    <p><strong>KEN:</strong> Let’s dance. That’s <span class="highlight">more fun</span>. I have a lot of great music.</p>
+                    <p><strong>MARTY:</strong> OK, but don’t bring your rap music. Pop music is <span class="highlight">better than</span> rap for dancing.</p>
+                    <p><strong>MI YOUNG:</strong> That’s not true! Pop music is <span class="highlight">worse than</span> rap. I love rap!</p>
+                    <p><strong>LAURA:</strong> Yes, I love rap and hip-hop, too. My <span class="highlight">older</span> brother has a lot of hip-hop.</p>
+                    <p><strong>KEN:</strong> Hip-hop is good. And we can have a barbecue. I can buy some steaks.</p>
+                    <p><strong>MI YOUNG:</strong> Let’s get hamburgers. They’re <span class="highlight">easier</span> and <span class="highlight">quicker than</span> steaks. And they’re <span class="highlight">cheaper</span>.</p>
+                    <p><strong>LAURA:</strong> OK. What about snacks? How about chips?</p>
+                    <p><strong>KEN:</strong> I think nuts are <span class="highlight">tastier than</span> chips.</p>
+                    <p><strong>MI YOUNG:</strong> Yeah, but chips are <span class="highlight">more popular than</span> nuts.</p>
+                    <p><strong>LAURA:</strong> OK, let’s have chips and nuts. And what about desserts and drinks?</p>
+                    <p><strong>MI YOUNG:</strong> We have ice cream, and we have soda and juice.</p>
+                    <p><strong>MARTY:</strong> Do we want to watch movies at the party, too? After we dance?</p>
+                    <p><strong>LAURA:</strong> Well ... I’m kind of tired of them. Video games are <span class="highlight">more fun than</span> movies.</p>
+                    <p><strong>KEN:</strong> Hey, I know a really great new video game. It’s called, “Who’s <span class="highlight">faster</span>?” We can play that.</p>
+                </div>
+                <div class="conversation-images">
+                    <img src="FOG-1-15/4.png" alt="Friends talking at a table">
+                    <img src="FOG-1-15/5.png" alt="Friends dancing at a party">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== STEP 2: GRAMMAR PRESENTATION ==================== -->
+        <section id="step2">
+            <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+            <h3>COMPARATIVE ADJECTIVES</h3>
+
+            <h4>Comparative Adjectives with -er</h4>
+            <table class="grammar-table">
+                <tr>
+                    <td>The train</td>
+                    <td>is</td>
+                    <td class="comparative">quicker</td>
+                    <td>than</td>
+                    <td>the bus.</td>
+                </tr>
+                <tr>
+                    <td>The bus</td>
+                    <td>is</td>
+                    <td class="comparative">cheaper.</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h4>Comparative Adjectives with More</h4>
+            <table class="grammar-table">
+                <tr>
+                    <td>Movies</td>
+                    <td>are</td>
+                    <td class="comparative">more interesting</td>
+                    <td>than</td>
+                    <td>television.</td>
+                </tr>
+                <tr>
+                    <td>Cars</td>
+                    <td>are</td>
+                    <td class="comparative">more expensive</td>
+                    <td>than</td>
+                    <td>motorcycles.</td>
+                </tr>
+            </table>
+
+            <h4>Which / Who</h4>
+            <table class="grammar-table">
+                <tr>
+                    <td>Which</td>
+                    <td></td>
+                    <td class="comparative">more interesting,</td>
+                    <td>movies or TV shows?</td>
+                </tr>
+                <tr>
+                    <td>Who</td>
+                    <td>is</td>
+                    <td class="comparative">older,</td>
+                    <td>Ken or Laura?</td>
+                </tr>
+            </table>
+
+            <h3>GRAMMAR NOTES</h3>
+            <div class="grammar-note">
+                <h4>1. Uses of Comparative Adjectives</h4>
+                <p>Use the comparative form of an adjective + <strong>than</strong> to compare two people, places, or things.</p>
+                <p><em>Example: Ken is <strong>taller than</strong> Laura.</em></p>
+                <p>We can omit <strong>than</strong> if the meaning is clear.</p>
+                <p><em>Example: They're also <strong>cheaper</strong>. (cheaper than steak)</em></p>
+            </div>
+            <div class="grammar-note">
+                <h4>2. Comparatives of Short Adjectives</h4>
+                <p>To form the comparative of short (one-syllable) adjectives, add <strong>-er</strong>.</p>
+                <p><em>young → young<strong>er</strong></em></p>
+                 <p>If the adjective ends in -e, just add <strong>-r</strong>.</p>
+                <p><em>large → large<strong>r</strong></em></p>
+            </div>
+            <div class="grammar-note">
+                <h4>3. Comparatives of Two-Syllable Adjectives Ending in -y</h4>
+                <p>To form the comparative, change the <strong>y</strong> to <strong>i</strong> and add <strong>-er</strong>.</p>
+                <p><em>easy → eas<strong>ier</strong></em></p>
+                <p><em>tasty → tast<strong>ier</strong></em></p>
+            </div>
+            <div class="grammar-note">
+                 <h4>4. Comparatives of Long Adjectives</h4>
+                <p>To form the comparatives of most adjectives of two or more syllables, use <strong>more</strong> before the adjective.</p>
+                <p><em>crowded → <strong>more</strong> crowded</em></p>
+                <p><em>interesting → <strong>more</strong> interesting</em></p>
+            </div>
+            <div class="grammar-note">
+                 <h4>5. Irregular Comparatives</h4>
+                <p>The adjectives <strong>good</strong>, <strong>bad</strong>, and <strong>fun</strong> have irregular comparative forms.</p>
+                <ul>
+                    <li>good → <strong>better</strong></li>
+                    <li>bad → <strong>worse</strong></li>
+                    <li>fun → <strong>more fun</strong></li>
+                </ul>
+            </div>
+            <div class="grammar-note">
+                <h4>6. Which and Who</h4>
+                <p>Use <strong>which</strong> to ask about a comparison of things or places.</p>
+                <p><em>A: <strong>Which</strong> is better, soda or juice? B: I think juice is <strong>better</strong> (than soda).</em></p>
+                <p>Use <strong>who</strong> to ask about people.</p>
+                <p><em>A: <strong>Who</strong>'s older, you or your cousin? B: I am. I'm twenty-five, and he's twenty-three.</em></p>
+            </div>
+        </section>
+
+        <!-- ==================== UNIT 15 REVIEW ==================== -->
+        <section id="review">
+            <h1>UNIT 15 REVIEW</h1>
+            <p>Test yourself on the grammar of the unit.</p>
+            
+            <div class="exercise-block">
+                <h4>A. Complete the sentences. Use the comparative forms of the words in parentheses.</h4>
+                <div class="exercise-item">
+                    <p>1. Board games are <input type="text" id="exA-1" data-answer="more fun"> (fun) than card games.</p>
+                    <button class="submit-btn" data-target="exA-1">Submit</button>
+                    <span class="feedback" id="feedback-exA-1"></span>
+                </div>
+                <div class="exercise-item">
+                    <p>2. Plays are sometimes <input type="text" id="exA-2" data-answer="more exciting"> (exciting) than movies.</p>
+                    <button class="submit-btn" data-target="exA-2">Submit</button>
+                    <span class="feedback" id="feedback-exA-2"></span>
+                </div>
+                <div class="exercise-item">
+                    <p>3. Video games are <input type="text" id="exA-3" data-answer="harder"> (hard) than card games.</p>
+                    <button class="submit-btn" data-target="exA-3">Submit</button>
+                    <span class="feedback" id="feedback-exA-3"></span>
+                </div>
+                <div class="exercise-item">
+                    <p>4. The book was <input type="text" id="exA-4" data-answer="better"> (good) than the movie.</p>
+                    <button class="submit-btn" data-target="exA-4">Submit</button>
+                    <span class="feedback" id="feedback-exA-4"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p>5. The weather is <input type="text" id="exA-5" data-answer="worse"> (bad) this week than it was last week.</p>
+                    <button class="submit-btn" data-target="exA-5">Submit</button>
+                    <span class="feedback" id="feedback-exA-5"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p>6. Chips are <input type="text" id="exA-6" data-answer="tastier"> (tasty) than nuts.</p>
+                    <button class="submit-btn" data-target="exA-6">Submit</button>
+                    <span class="feedback" id="feedback-exA-6"></span>
+                </div>
+            </div>
+
+            <div class="exercise-block">
+                <h4>B. Put the words in the correct order. Make questions.</h4>
+                <div class="exercise-item">
+                    <p>1. (entertaining, / is / Which / New York / or / Los Angeles / more)</p>
+                    <input type="text" id="exB-1" data-answer="Which is more entertaining, New York or Los Angeles?">
+                    <button class="submit-btn" data-target="exB-1">Submit</button>
+                    <span class="feedback" id="feedback-exB-1"></span>
+                </div>
+                <div class="exercise-item">
+                    <p>2. (than / Are amusement parks / interesting / more / museums)</p>
+                    <input type="text" id="exB-2" data-answer="Are amusement parks more interesting than museums?">
+                    <button class="submit-btn" data-target="exB-2">Submit</button>
+                    <span class="feedback" id="feedback-exB-2"></span>
+                </div>
+                <div class="exercise-item">
+                    <p>3. (sister / older, / your / you or / Who / is)</p>
+                    <input type="text" id="exB-3" data-answer="Who is older, you or your sister?">
+                    <button class="submit-btn" data-target="exB-3">Submit</button>
+                    <span class="feedback" id="feedback-exB-3"></span>
+                </div>
+            </div>
+
+            <div class="exercise-block">
+                <h4>C. Correct the description. There are six mistakes.</h4>
+                <p>I have two interesting pen pals—Jomo and Abla. They are brother and sister, and they live in Tanzania. 
+                   Jomo is <input type="text" class="correction-input" id="exC-1" data-answer="older"> (more older) than Abla, and he is also 
+                   <input type="text" class="correction-input" id="exC-2" data-answer="larger"> (more large). He’s 
+                   <input type="text" class="correction-input" id="exC-3" data-answer="taller"> (more tall) and he’s 
+                   <input type="text" class="correction-input" id="exC-4" data-answer="heavier"> (heavyer). Abla is a 
+                   <input type="text" class="correction-input" id="exC-5" data-answer="better"> (gooder) student, but she’s 
+                   <input type="text" class="correction-input" id="exC-6" data-answer="worse"> (more bad) than Jomo at sports. 
+                   They go to the same school. It’s more crowded than my school.
+                </p>
+                <button id="submit-all-corrections">Check All Corrections</button>
+                <span class="feedback" id="feedback-exC-all"></span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>End of Unit 15</p>
+    </footer>
+
+    <script>
+
+				document.addEventListener('DOMContentLoaded', () => {
+
+			// Xử lý các nút submit riêng lẻ
+			const submitButtons = document.querySelectorAll('.submit-btn');
+			submitButtons.forEach(button => {
+				button.addEventListener('click', () => {
+					checkSingleAnswer(button);
+				});
+			});
+
+			// Xử lý nút submit cho bài tập sửa lỗi
+			const checkAllCorrectionsBtn = document.getElementById('submit-all-corrections');
+			if (checkAllCorrectionsBtn) {
+				checkAllCorrectionsBtn.addEventListener('click', () => {
+					checkAllCorrections();
+				});
+			}
+
+			// Xử lý các sự kiện click trên toàn bộ document (cho nút hint)
+			document.addEventListener('click', (event) => {
+				if (event.target.classList.contains('hint-btn')) {
+					showHint(event.target);
+				}
+			});
+
+		});
+
+		function checkSingleAnswer(button) {
+			const targetId = button.dataset.target;
+			const inputElement = document.getElementById(targetId);
+			const feedbackElement = document.getElementById(`feedback-${targetId}`);
+			
+			// Xóa hint cũ nếu có
+			const oldHint = feedbackElement.nextElementSibling;
+			if (oldHint && oldHint.classList.contains('hint-btn')) {
+				oldHint.remove();
+			}
+
+			const userAnswer = inputElement.value.trim().toLowerCase().replace(/[.?]/g, '');
+			const correctAnswer = inputElement.dataset.answer.toLowerCase();
+
+			if (userAnswer === correctAnswer) {
+				feedbackElement.textContent = '✔ Correct!';
+				feedbackElement.className = 'feedback correct';
+			} else {
+				feedbackElement.textContent = '❌ Incorrect. Try again.';
+				feedbackElement.className = 'feedback incorrect';
+				
+				// Tạo nút gợi ý
+				const hintButton = document.createElement('button');
+				hintButton.textContent = 'Show Answer';
+				hintButton.className = 'hint-btn';
+				hintButton.dataset.answer = inputElement.dataset.answer;
+				hintButton.dataset.feedbackTarget = `feedback-${targetId}`;
+				feedbackElement.parentNode.insertBefore(hintButton, feedbackElement.nextSibling);
+			}
+		}
+
+		function checkAllCorrections() {
+			let correctCount = 0;
+			const totalCorrections = 6;
+			const feedbackElement = document.getElementById('feedback-exC-all');
+
+			for (let i = 1; i <= totalCorrections; i++) {
+				const inputElement = document.getElementById(`exC-${i}`);
+				const userAnswer = inputElement.value.trim().toLowerCase();
+				const correctAnswer = inputElement.dataset.answer.toLowerCase();
+
+				if (userAnswer === correctAnswer) {
+					inputElement.style.borderColor = 'var(--correct-color)';
+					correctCount++;
+				} else {
+					inputElement.style.borderColor = 'var(--incorrect-color)';
+				}
+			}
+
+			if (correctCount === totalCorrections) {
+				feedbackElement.textContent = '✔ Excellent! All corrections are correct.';
+				feedbackElement.className = 'feedback correct';
+			} else {
+				feedbackElement.textContent = `❌ You found ${correctCount} out of ${totalCorrections}. Keep trying!`;
+				feedbackElement.className = 'feedback incorrect';
+			}
+		}
+
+
+		function showHint(hintButton) {
+			const feedbackTargetId = hintButton.dataset.feedbackTarget;
+			const feedbackElement = document.getElementById(feedbackTargetId);
+			const correctAnswer = hintButton.dataset.answer;
+
+			feedbackElement.innerHTML = `The correct answer is: <strong>${correctAnswer}</strong>`;
+			feedbackElement.className = 'feedback'; // Reset màu sắc
+			hintButton.remove(); // Xóa nút hint sau khi đã hiển thị đáp án
+		}
+	</script>
+</body>
+</html>
