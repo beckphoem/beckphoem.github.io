@@ -1,0 +1,174 @@
+
+[
+	{
+	  "question": "acrobat",
+	  "classes": "n",
+	  "answer": "Người nhào lộn, diễn viên xiếc.",
+	  "ipa": "/ˈæk.rə.bæt/",
+	  "example": "`A cờ` (acro) `bát` (bat) úp lên đầu để làm trò **người nhào lộn**.",
+	  "english-definition": "An entertainer who performs spectacular gymnastic feats.",
+	  "images": "eew-6-25/1.png"
+	},
+	{
+	  "question": "advocacy",
+	  "classes": "n",
+	  "answer": "Sự ủng hộ, sự bào chữa công khai cho một chính sách.",
+	  "ipa": "/ˈæd.və.kə.si/",
+	  "example": "`Áo đó` (advo) `có Sỳ` (cacy) nên tôi phải lên tiếng **ủng hộ**.",
+	  "english-definition": "Public support for or recommendation of a particular cause or policy.",
+	  "images": "eew-6-25/2.png"
+	},
+	{
+	  "question": "communal",
+	  "classes": "adj",
+	  "answer": "Chung, công cộng; của chung.",
+	  "ipa": "/kəˈmjuː.nəl/",
+	  "example": "`Cơm` (com) `mù` (mu) `nồi` (nal) này là tài sản **chung** của cả làng.",
+	  "english-definition": "Shared by all members of a community; for common use.",
+	  "images": "eew-6-25/3.png"
+	},
+	{
+	  "question": "fluid",
+	  "classes": "adj",
+	  "answer": "Mềm dẻo, uyển chuyển, linh hoạt.",
+	  "ipa": "/ˈfluː.ɪd/",
+	  "example": "`Phờ lu` (flu) cả người vì tập những động tác **uyển chuyển** này.",
+	  "english-definition": "Smooth and elegant or graceful.",
+	  "images": "eew-6-25/4.png"
+	},
+	{
+	  "question": "harmonize",
+	  "classes": "v",
+	  "answer": "Làm hài hoà, làm cân đối.",
+	  "ipa": "/ˈhɑː.mə.naɪz/",
+	  "example": "`Hà mơ` (harmo) `nai` (nize) về sẽ **làm hài hòa** khu rừng.",
+	  "english-definition": "To bring into harmony, accord, or agreement.",
+	  "images": "eew-6-25/5.png"
+	},
+	{
+	  "question": "industrious",
+	  "classes": "adj",
+	  "answer": "Cần cù, siêng năng.",
+	  "ipa": "/ɪnˈdʌs.tri.əs/",
+	  "example": "`In dust` (indus) `try` (tri) `ớt` (ous) là một công việc đòi hỏi sự **cần cù**.",
+	  "english-definition": "Diligent and hard-working.",
+	  "images": "eew-6-25/6.png"
+	},
+	{
+	  "question": "inventive",
+	  "classes": "adj",
+	  "answer": "Có tài phát minh, sáng tạo.",
+	  "ipa": "/ɪnˈven.tɪv/",
+	  "example": "`In ven` (inven) `típ` (tive) tiền cho người có đầu óc **sáng tạo**.",
+	  "english-definition": "Having the ability to create or design new things or to think originally.",
+	  "images": "eew-6-25/7.png"
+	},
+	{
+	  "question": "judicial",
+	  "classes": "adj",
+	  "answer": "Thuộc về tư pháp, tòa án.",
+	  "ipa": "/dʒuːˈdɪʃ.əl/",
+	  "example": "`Du đi` (judi) `sợ` (cial) vì đây là khu vực **thuộc về tòa án**.",
+	  "english-definition": "Of, by, or appropriate to a court or judge.",
+	  "images": "eew-6-25/8.png"
+	},
+	{
+	  "question": "mandarin",
+	  "classes": "n",
+	  "answer": "Tiếng Quan Thoại (tiếng Trung phổ thông).",
+	  "ipa": "/ˈmæn.dər.ɪn/",
+	  "example": "`Man` (man) `đá` (da) `rình` (rin) học **tiếng Quan Thoại**.",
+	  "english-definition": "The standard literary and official form of Chinese based on the Beijing dialect.",
+	  "images": "eew-6-25/9.png"
+	},
+	{
+	  "question": "metropolitan",
+	  "classes": "adj",
+	  "answer": "Thuộc về đô thị, thủ phủ.",
+	  "ipa": "/ˌmet.rəˈpɒl.ɪ.tən/",
+	  "example": "`Mẹ` (me) `trô` (tro) `bỏ đi` (poli) `tận` (tan) khu **đô thị** lớn.",
+	  "english-definition": "Relating to or characteristic of a metropolis or a major city.",
+	  "images": "eew-6-25/10.png"
+	},
+	{
+	  "question": "mimic",
+	  "classes": "v",
+	  "answer": "Bắt chước, nhại lại.",
+	  "ipa": "/ˈmɪm.ɪk/",
+	  "example": "`Mi` (mi) cầm `mic` (mic) để **bắt chước** ca sĩ.",
+	  "english-definition": "To imitate (someone or their actions or words), especially in order to entertain or ridicule.",
+	  "images": "eew-6-25/11.png"
+	},
+	{
+	  "question": "misguided",
+	  "classes": "adj",
+	  "answer": "Sai lầm, do hiểu lầm.",
+	  "ipa": "/ˌmɪsˈɡaɪ.dɪd/",
+	  "example": "`Mít` (mis) `gai` (gui) `đầy` (ded) là một quan niệm **sai lầm**.",
+	  "english-definition": "Having or showing faulty judgment or reasoning.",
+	  "images": "eew-6-25/12.png"
+	},
+	{
+	  "question": "rehearse",
+	  "classes": "v",
+	  "answer": "Diễn tập, tập dượt.",
+	  "ipa": "/rəˈhɜːs/",
+	  "example": "`Đi hớt` (rehearse) tóc trước buổi **diễn tập**.",
+	  "english-definition": "To practice a play, piece of music, or other work for later public performance.",
+	  "images": "eew-6-25/13.png"
+	},
+	{
+	  "question": "scorn",
+	  "classes": "v",
+	  "answer": "Khinh bỉ, khinh miệt.",
+	  "ipa": "/skɔːn/",
+	  "example": "`Sờ` (sco) `con` (rn) rắn này nên bị mọi người **khinh bỉ**.",
+	  "english-definition": "To feel or express contempt or derision for.",
+	  "images": "eew-6-25/14.png"
+	},
+	{
+	  "question": "sensory",
+	  "classes": "adj",
+	  "answer": "Thuộc về cảm giác, giác quan.",
+	  "ipa": "/ˈsen.sər.i/",
+	  "example": "`Sen sợ đi` (sensory) vì **giác quan** mách bảo có nguy hiểm.",
+	  "english-definition": "Relating to sensation or the physical senses; transmitted or perceived by the senses.",
+	  "images": "eew-6-25/15.png"
+	},
+	{
+	  "question": "stature",
+	  "classes": "n",
+	  "answer": "Tầm vóc; uy thế, địa vị cao.",
+	  "ipa": "/ˈstætʃ.ər/",
+	  "example": "`Sờ ta` (sta) `chờ` (ture) xem **tầm vóc** của anh ta thế nào.",
+	  "english-definition": "Importance or reputation gained by ability or achievement.",
+	  "images": "eew-6-25/16.png"
+	},
+	{
+	  "question": "veteran",
+	  "classes": "n",
+	  "answer": "Người kỳ cựu, người có kinh nghiệm lâu năm.",
+	  "ipa": "/ˈvet.ər.ən/",
+	  "example": "`Vét` (vet) `ơ` (er) `rần` (an) rần cả làng vì **người kỳ cựu** này trở về.",
+	  "english-definition": "A person who has had long experience in a particular field.",
+	  "images": "eew-6-25/17.png"
+	},
+	{
+	  "question": "villain",
+	  "classes": "n",
+	  "answer": "Kẻ hung ác, nhân vật phản diện.",
+	  "ipa": "/ˈvɪl.ən/",
+	  "example": "`Vì lần` (villain) này, hắn đã trở thành **nhân vật phản diện**.",
+	  "english-definition": "A character whose evil actions or motives are important to the plot.",
+	  "images": "eew-6-25/18.png"
+	},
+	{
+	  "question": "vine",
+	  "classes": "n",
+	  "answer": "Cây leo.",
+	  "ipa": "/vaɪn/",
+	  "example": "`Vai` (vi) `nơ` (ne) vướng vào **cây leo**.",
+	  "english-definition": "A climbing or trailing woody-stemmed plant of the grape family.",
+	  "images": "eew-6-25/19.png"
+	}
+]
