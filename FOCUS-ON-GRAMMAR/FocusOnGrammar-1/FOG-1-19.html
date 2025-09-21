@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 19: Can and Can't</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: #1a237e; /* Dark Blue */
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            color: #004d40; /* Dark Teal */
+            border-bottom: 3px solid #ffab00; /* Orange */
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            background-color: #558b2f; /* Green */
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1.8em;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #d84315; /* Deep Orange */
+            border-bottom: 2px solid #fdd835; /* Yellow */
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        h4 {
+             color: #455a64; /* Blue Grey */
+        }
+        
+        strong {
+            color: #0d47a1; /* Indigo */
+        }
+
+        /* Vocabulary Section */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .vocab-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .vocab-item p {
+            margin-top: 8px;
+            font-weight: bold;
+            color: #37474f;
+        }
+        
+        /* Reading Section */
+        .conversation-container {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #fafafa;
+        }
+        .conversation-container img {
+            max-width: 400px;
+            display: block;
+            margin: 0 auto 20px auto;
+            border-radius: 8px;
+        }
+        .footnotes {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 15px;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        /* Grammar Presentation */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #1e88e5; /* Blue */
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        /* Grammar Notes */
+        .grammar-note {
+            background-color: #e3f2fd; /* Light Blue */
+            border-left: 5px solid #1976d2; /* Blue */
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .be-careful {
+            background-color: #ffebee; /* Light Red */
+            border-left: 5px solid #d32f2f; /* Red */
+        }
+        .be-careful span {
+            text-decoration: line-through;
+        }
+        .pronunciation-note {
+            background-color: #fff3e0; /* Light Orange */
+            border-left: 5px solid #f57c00; /* Orange */
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-top: 30px;
+        }
+        .exercise-question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+        }
+        .exercise-question p, .exercise-question label {
+            margin: 0 0 10px 0;
+        }
+        .exercise-question input[type="text"], .exercise-question input[type="number"] {
+            border: none;
+            border-bottom: 2px solid #90caf9;
+            padding: 5px;
+            font-size: 1em;
+            width: 150px;
+        }
+        .exercise-question input[type="text"]:focus {
+            outline: none;
+            border-bottom-color: #1976d2;
+        }
+        .exercise-question button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-top: 5px;
+            transition: background-color 0.3s;
+        }
+        .exercise-question button:hover {
+            background-color: #45a049;
+        }
+        .feedback {
+            margin-top: 10px;
+            font-weight: bold;
+            padding: 8px;
+            border-radius: 4px;
+            display: none; /* Hidden by default */
+        }
+        .feedback.correct {
+            color: #2e7d32; /* Dark Green */
+            background-color: #c8e6c9; /* Light Green */
+            display: block;
+        }
+        .feedback.incorrect {
+            color: #c62828; /* Dark Red */
+            background-color: #ffcdd2; /* Light Red */
+            display: block;
+        }
+        .word-box {
+            background-color: #f5f5f5;
+            border: 1px dashed #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-family: monospace;
+            font-size: 1.1em;
+            word-spacing: 15px;
+            text-align: center;
+        }
+        
+        .editing-mistake {
+            text-decoration: line-through;
+            color: #d32f2f;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNIT 19: Can and Can't - ABILITIES</h1>
+        
+        <!-- ==================== STEP 1 ==================== -->
+        <section id="step1">
+            <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+            <h3>BEFORE YOU READ</h3>
+            <h4>A VOCABULARY</h4>
+            <p>Study the words. Then work with a partner. Read the statements. Check (✓) True or False. (This is a self-assessment exercise).</p>
+
+            <div class="vocab-grid">
+                <div class="vocab-item">
+                    <img src="FOG-1-19/1.png" alt="A group of people giving a presentation">
+                    <p>give a presentation</p>
+                </div>
+                <div class="vocab-item">
+                    <img src="FOG-1-19/2.png" alt="A man playing the piano">
+                    <p>play the piano</p>
+                </div>
+                <div class="vocab-item">
+                    <img src="FOG-1-19/3.png" alt="A woman playing the guitar">
+                    <p>play the guitar</p>
+                </div>
+                <div class="vocab-item">
+                    <img src="FOG-1-19/4.png" alt="A woman singing into a microphone">
+                    <p>sing</p>
+                </div>
+                <div class="vocab-item">
+                    <img src="FOG-1-19/5.png" alt="A man breakdancing">
+                    <p>dance</p>
+                </div>
+            </div>
+            <p style="text-align:center; font-style: italic;">Playing the piano and guitar are examples of "play an instrument".</p>
+            
+            <ol>
+                <li>I can give a presentation to many people.</li>
+                <li>I can play the piano.</li>
+                <li>I can play the guitar.</li>
+                <li>I can't play an instrument.</li>
+                <li>I can sing a song in English.</li>
+                <li>I can't dance.</li>
+            </ol>
+        </section>
+
+        <!-- ==================== READ ==================== -->
+        <section id="read">
+            <h3>READ</h3>
+            <p>Read this conversation.</p>
+            <div class="conversation-container">
+                <img src="FOG-1-19/6.png" alt="Cartoon of two people discussing Spanish conversation">
+                <h4>Help with Spanish</h4>
+                <p><strong>JESSICA:</strong> What's the matter, Jeremy? You look really down.¹</p>
+                <p><strong>JEREMY:</strong> My Spanish teacher, and he <strong>can't understand</strong> me. My pronunciation² isn't good. I need to give a presentation on Friday. I <strong>can't do</strong> it.</p>
+                <p><strong>JESSICA:</strong> But last year you were so good in Spanish.</p>
+                <p><strong>JEREMY:</strong> It wasn't a conversation class. I <strong>can read</strong>. I just <strong>can't speak</strong>.</p>
+                <p><strong>JESSICA:</strong> <strong>Can someone</strong> in the class <strong>help</strong>?</p>
+                <p><strong>JEREMY:</strong> Hmm.... Well, Rose is good at Spanish. Actually, Rose is good at everything. She <strong>can give</strong> a presentation in Spanish. She <strong>can understand</strong> sign language.³ She <strong>can play</strong> the piano, and she <strong>can dance</strong>.</p>
+                <p><strong>JESSICA:</strong> Wow.</p>
+                <p><strong>JEREMY:</strong> But there's a problem. She's taking a Chinese class at the college after school, so she's very busy this year. ... Hmm. Maybe Jorge <strong>can help</strong> me. He <strong>can speak</strong> Spanish, and he's a really nice guy. You know, he's not good at math. Maybe I <strong>can help</strong> him in math. I'm a whiz at⁴ math, you know. Then he <strong>can help</strong> me in Spanish.</p>
+                <p><strong>JESSICA:</strong> There you go.</p>
+
+                <div class="footnotes">
+                    <p>¹ <strong>look really down</strong>: look sad<br>
+                    ² <strong>pronunciation</strong>: way of speaking<br>
+                    ³ <strong>sign language</strong>: language for people who cannot hear or talk<br>
+                    ⁴ <strong>a whiz at</strong>: very good at</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== AFTER YOU READ ==================== -->
+        <section id="after-read">
+            <h3>AFTER YOU READ</h3>
+            <h4>A COMPREHENSION</h4>
+            <p>Look at the conversation again. Circle the correct answers.</p>
+            
+            <div class="exercise">
+                <div class="exercise-question" id="comp-q1">
+                    <p><strong>1. Why is Jeremy unhappy?</strong></p>
+                    <label><input type="radio" name="comp-q1" value="a"> a. His teacher can't speak Spanish.</label><br>
+                    <label><input type="radio" name="comp-q1" value="b"> b. He can't understand his Spanish teacher.</label><br>
+                    <button onclick="checkRadio('comp-q1', 'b')">Submit</button>
+                    <p class="feedback" id="feedback-comp-q1"></p>
+                </div>
+                
+                <div class="exercise-question" id="comp-q2">
+                    <p><strong>2. Why was Jeremy good in Spanish last year?</strong></p>
+                    <label><input type="radio" name="comp-q2" value="a"> a. It wasn't a conversation class.</label><br>
+                    <label><input type="radio" name="comp-q2" value="b"> b. It was an easy class.</label><br>
+                    <button onclick="checkRadio('comp-q2', 'a')">Submit</button>
+                    <p class="feedback" id="feedback-comp-q2"></p>
+                </div>
+
+                <div class="exercise-question" id="comp-q3">
+                    <p><strong>3. What instrument can Rose play?</strong></p>
+                    <label><input type="radio" name="comp-q3" value="a"> a. She can play the piano.</label><br>
+                    <label><input type="radio" name="comp-q3" value="b"> b. She can play the guitar.</label><br>
+                    <button onclick="checkRadio('comp-q3', 'a')">Submit</button>
+                    <p class="feedback" id="feedback-comp-q3"></p>
+                </div>
+                
+                <div class="exercise-question" id="comp-q4">
+                    <p><strong>4. Why is Rose busy?</strong></p>
+                    <label><input type="radio" name="comp-q4" value="a"> a. She's teaching Chinese after school.</label><br>
+                    <label><input type="radio" name="comp-q4" value="b"> b. She's learning Chinese after school.</label><br>
+                    <button onclick="checkRadio('comp-q4', 'b')">Submit</button>
+                    <p class="feedback" id="feedback-comp-q4"></p>
+                </div>
+
+                <div class="exercise-question" id="comp-q5">
+                    <p><strong>5. How can Jeremy help Jorge?</strong></p>
+                    <label><input type="radio" name="comp-q5" value="a"> a. He can help him with math.</label><br>
+                    <label><input type="radio" name="comp-q5" value="b"> b. He can help him with Spanish.</label><br>
+                    <button onclick="checkRadio('comp-q5', 'a')">Submit</button>
+                    <p class="feedback" id="feedback-comp-q5"></p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== STEP 2 ==================== -->
+        <section id="step2">
+            <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+            <h3>CAN AND CAN'T</h3>
+            
+            <h4>Affirmative and Negative Statements</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Can/Can't</th>
+                        <th>Base Form of Verb</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I / You / He / She / We / You / They</td>
+                        <td><strong>can</strong><br><strong>can't</strong></td>
+                        <td>speak Russian.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>Yes/No Questions and Short Answers</h4>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Yes/No Questions</th>
+                        <th>Short Answers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Can</strong> you <strong>do</strong> me a favor?</td>
+                        <td>Yes, I <strong>can</strong>.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Can</strong> he <strong>understand</strong> French?</td>
+                        <td>No, he <strong>can't</strong>.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>Wh- Questions and Answers</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Wh- Questions</th>
+                        <th>Answers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>What <strong>can</strong> I <strong>do</strong>?</td>
+                        <td>You <strong>can carry</strong> the boxes. (Carry the boxes.)</td>
+                    </tr>
+                    <tr>
+                        <td>Who <strong>can help</strong>?</td>
+                        <td>Pierre <strong>can help</strong>. (Pierre can.)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- ==================== GRAMMAR NOTES ==================== -->
+        <section id="grammar-notes">
+            <h3>GRAMMAR NOTES</h3>
+            
+            <div class="grammar-note">
+                <h4>1 Can</h4>
+                <p><strong>Can</strong> has different meanings. We use <strong>can</strong> to talk about <strong>ability</strong> and <strong>possibility</strong>.</p>
+                <p><em>Example (ability):</em> I <strong>can understand</strong> Korean.</p>
+                <p><em>Example (possibility):</em> I <strong>can meet</strong> you at 4:00.</p>
+                <p><strong>Can</strong> comes before the verb. The verb is always in the <strong>base form</strong>.</p>
+                <p><em>Example:</em> He <strong>can dance</strong>.</p>
+                <div class="be-careful">
+                    <p><strong>BE CAREFUL!</strong> Do not use <strong>to</strong> after <strong>can</strong>. Do not add <strong>-s</strong> or <strong>-ing</strong> to verbs that follow <strong>can</strong>.</p>
+                    <p><strong>CORRECT:</strong> He <strong>can speak</strong> English.</p>
+                    <p><strong>NOT:</strong> He can <span>to speak</span> English.</p>
+                    <p><strong>NOT:</strong> He can <span>speaks</span> English.</p>
+                    <p><strong>NOT:</strong> He can <span>speaking</span> English.</p>
+                </div>
+            </div>
+            
+            <div class="grammar-note">
+                <h4>2 Can't</h4>
+                <p>The negative of <strong>can</strong> is <strong>can't</strong>.</p>
+                <p><em>Example:</em> I <strong>can't understand</strong> you.</p>
+                <p><strong>USAGE NOTE:</strong> <strong>Cannot</strong> is a form of the negative. It is not very common in speaking.</p>
+                <p><em>Example:</em> I <strong>cannot</strong> understand you.</p>
+            </div>
+            
+            <div class="grammar-note">
+                 <h4>3 Yes/No Questions and Answers</h4>
+                 <p>For <strong>yes/no questions</strong>, put <strong>can</strong> before the subject. We use short answers in speaking.</p>
+                 <p>Q: <strong>Can</strong> they <strong>speak</strong> Russian?</p>
+                 <p>A: Yes, they <strong>can</strong>. or Yes.</p>
+                 <p>Q: <strong>Can</strong> she <strong>write</strong> well?</p>
+                 <p>A: No, she <strong>can't</strong>. or No.</p>
+            </div>
+            
+            <div class="grammar-note">
+                <h4>4 Wh- Questions and Answers</h4>
+                <p>For most <strong>wh- questions</strong>, use a wh- question word + <strong>can</strong> + the subject + the base form of the verb.</p>
+                <p>Q: When <strong>can</strong> you <strong>work</strong>?</p>
+                <p>A: I <strong>can work</strong> in the morning.</p>
+                <p>For questions about the <strong>subject</strong>, use a wh- question word + <strong>can</strong> + the base form of the verb.</p>
+                <p>Q: Who <strong>can sing</strong>?</p>
+                <p>A: Rosa <strong>can sing</strong>. or Rosa can.</p>
+            </div>
+            
+            <div class="pronunciation-note">
+                <h4>PRONUNCIATION NOTE: Stress on Can and Can't</h4>
+                <p>When <strong>can</strong> comes before a base form of the verb, we usually pronounce it /kən/ or /kn/ and stress the verb.<br>
+                <em>Example:</em> She can <strong>SING</strong>.</p>
+                <p>When <strong>can't</strong> comes before a base form of the verb, we usually pronounce it /kænt/ and stress both <strong>can't</strong> and the verb.<br>
+                <em>Example:</em> She <strong>CAN'T SING</strong>.</p>
+            </div>
+        </section>
+
+        <!-- ==================== STEP 3 ==================== -->
+        <section id="step3">
+            <h2>STEP 3: FOCUSED PRACTICE</h2>
+            
+            <div class="exercise">
+                <h3>EXERCISE 2 CAN AND CAN'T</h3>
+                <p>Complete the sentences. Use <strong>can</strong> or <strong>can't</strong> and the verbs in parentheses.</p>
+                
+                <div class="exercise-question" id="ex2-q1">
+                    <p>1. I <input type="text" id="input-ex2-q1"> your name. Can you repeat it? (not / pronounce)</p>
+                    <button onclick="checkFillIn('input-ex2-q1', ['can\'t pronounce', 'cannot pronounce'])">Submit</button>
+                    <p class="feedback" id="feedback-ex2-q1"></p>
+                </div>
+                
+                <div class="exercise-question" id="ex2-q2">
+                    <p>2. I don't want to be in the school chorus because I <input type="text" id="input-ex2-q2">. (not / sing)</p>
+                    <button onclick="checkFillIn('input-ex2-q2', ['can\'t sing', 'cannot sing'])">Submit</button>
+                    <p class="feedback" id="feedback-ex2-q2"></p>
+                </div>
+
+                <div class="exercise-question" id="ex2-q3">
+                    <p>3. Ali <input type="text" id="input-ex2-q3"> 100 laps. He's a great swimmer. (swim)</p>
+                    <button onclick="checkFillIn('input-ex2-q3', ['can swim'])">Submit</button>
+                    <p class="feedback" id="feedback-ex2-q3"></p>
+                </div>
+
+                <div class="exercise-question" id="ex2-q4">
+                    <p>4. Maria and Pedro <input type="text" id="input-ex2-q4"> for hours. They love to dance. (dance)</p>
+                    <button onclick="checkFillIn('input-ex2-q4', ['can dance'])">Submit</button>
+                    <p class="feedback" id="feedback-ex2-q4"></p>
+                </div>
+
+                <div class="exercise-question" id="ex2-q5">
+                    <p>5. She <input type="text" id="input-ex2-q5"> tennis, but she's a good soccer player. (not / play)</p>
+                    <button onclick="checkFillIn('input-ex2-q5', ['can\'t play', 'cannot play'])">Submit</button>
+                    <p class="feedback" id="feedback-ex2-q5"></p>
+                </div>
+            </div>
+            
+            <div class="exercise">
+                <h3>EXERCISE 4 CAN AND CAN'T: STATEMENTS</h3>
+                <p>Complete the sentences. Use <strong>can</strong> or <strong>can't</strong> and the correct verbs from the box.</p>
+                <div class="word-box">
+                    find &nbsp; give &nbsp; open &nbsp; play &nbsp; speak &nbsp; understand
+                </div>
+                <img src="FOG-1-19/7.png" alt="A woman thinking" style="float: right; max-width: 150px; margin-left: 20px;">
+
+                <div class="exercise-question" id="ex4-q1">
+                    <p>1. I'm looking for my phone. I <input type="text" id="input-ex4-q1"> it anywhere.</p>
+                    <button onclick="checkFillIn('input-ex4-q1', ['can\'t find', 'cannot find'])">Submit</button>
+                    <p class="feedback" id="feedback-ex4-q1"></p>
+                </div>
+
+                <div class="exercise-question" id="ex4-q2">
+                    <p>2. When John travels in Spain and Italy, he talks to everyone because he <input type="text" id="input-ex4-q2"> Spanish and Italian.</p>
+                    <button onclick="checkFillIn('input-ex4-q2', ['can speak'])">Submit</button>
+                    <p class="feedback" id="feedback-ex4-q2"></p>
+                </div>
+
+                <div class="exercise-question" id="ex4-q3">
+                    <p>3. Our classroom is locked. We <input type="text" id="input-ex4-q3"> the door.</p>
+                    <button onclick="checkFillIn('input-ex4-q3', ['can\'t open', 'cannot open'])">Submit</button>
+                    <p class="feedback" id="feedback-ex4-q3"></p>
+                </div>
+
+                <div class="exercise-question" id="ex4-q4">
+                    <p>4. I <input type="text" id="input-ex4-q4"> a presentation about the moon. I don't know anything about it.</p>
+                    <button onclick="checkFillIn('input-ex4-q4', ['can\'t give', 'cannot give'])">Submit</button>
+                    <p class="feedback" id="feedback-ex4-q4"></p>
+                </div>
+                
+                <div class="exercise-question" id="ex4-q5">
+                    <p>5. We <input type="text" id="input-ex4-q5"> you. Please speak slowly.</p>
+                    <button onclick="checkFillIn('input-ex4-q5', ['can\'t understand', 'cannot understand'])">Submit</button>
+                    <p class="feedback" id="feedback-ex4-q5"></p>
+                </div>
+                
+                <div class="exercise-question" id="ex4-q6">
+                    <p>6. He's a good athlete. He <input type="text" id="input-ex4-q6"> baseball and soccer well. He's on the baseball and soccer teams.</p>
+                    <button onclick="checkFillIn('input-ex4-q6', ['can play'])">Submit</button>
+                    <p class="feedback" id="feedback-ex4-q6"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== UNIT REVIEW ==================== -->
+        <section id="review">
+            <h2 style="background-color:#c62828;">UNIT 19 REVIEW</h2>
+            
+            <div class="exercise">
+                <h3>C Correct the sentences. There are five mistakes.</h3>
+                
+                <div class="exercise-question" id="rev-c1">
+                    <p><strong>A:</strong> Pietro <span class="editing-mistake">can't dances</span>, but he can to play the piano.</p>
+                    <input type="text" id="input-rev-c1" style="width: 100%;" placeholder="Rewrite the corrected sentence here...">
+                    <button onclick="checkFillIn('input-rev-c1', ['Pietro can\'t dance, but he can play the piano.'])">Submit</button>
+                    <p class="feedback" id="feedback-rev-c1"></p>
+                </div>
+
+                <div class="exercise-question" id="rev-c2">
+                    <p><strong>B:</strong> <span class="editing-mistake">Can he to sing</span>?</p>
+                    <input type="text" id="input-rev-c2" style="width: 100%;" placeholder="Rewrite the corrected sentence here...">
+                    <button onclick="checkFillIn('input-rev-c2', ['Can he sing?'])">Submit</button>
+                    <p class="feedback" id="feedback-rev-c2"></p>
+                </div>
+
+                <div class="exercise-question" id="rev-c3">
+                    <p><strong>A:</strong> Yes, he can. <span class="editing-mistake">He can also to teach</span> music.</p>
+                    <input type="text" id="input-rev-c3" style="width: 100%;" placeholder="Rewrite the corrected sentence here...">
+                    <button onclick="checkFillIn('input-rev-c3', ['He can also teach music.'])">Submit</button>
+                    <p class="feedback" id="feedback-rev-c3"></p>
+                </div>
+                
+                <div class="exercise-question" id="rev-c4">
+                    <p><strong>B:</strong> Then he can helping me. I want a music teacher for my son. <span class="editing-mistake">Can he teach on weekends</span>?</p>
+                    <p style="font-style:italic;">(Mistake is 'he can helping me')</p>
+                    <input type="text" id="input-rev-c4" style="width: 100%;" placeholder="Rewrite the first corrected sentence...">
+                    <button onclick="checkFillIn('input-rev-c4', ['Then he can help me.'])">Submit</button>
+                    <p class="feedback" id="feedback-rev-c4"></p>
+                </div>
+
+                <div class="exercise-question" id="rev-c5">
+                    <p><strong>A:</strong> No, <span class="editing-mistake">he no can teach</span> on weekends. He never works on weekends.</p>
+                    <input type="text" id="input-rev-c5" style="width: 100%;" placeholder="Rewrite the corrected sentence here...">
+                    <button onclick="checkFillIn('input-rev-c5', ['he can\'t teach', 'he cannot teach'])">Submit</button>
+                    <p class="feedback" id="feedback-rev-c5"></p>
+                </div>
+                
+            </div>
+        </section>
+
+    </div>
+
+
+	        <!-- ==================== EXTENDED PRACTICE ==================== -->
+        <section id="extended-practice">
+            <h2 style="background-color: #0d47a1;">Extended Practice Exercises (100 Questions)</h2>
+            <p>Test your knowledge of "can" and "can't" with these additional exercises. Use the verb in parentheses.</p>
+            
+            <div class="exercise">
+                <!-- Part 1: Affirmative Sentences -->
+                <h3>Part 1: Affirmative Statements</h3>
+                <div class="exercise-question" id="ext-q-1">
+                    <p>1. A bird ___ in the sky. (fly)</p>
+                    <input type="text" id="input-ext-q-1"><button onclick="checkFillIn('input-ext-q-1', ['can fly'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-1"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-2">
+                    <p>2. He is very strong. He ___ lift that heavy box. (lift)</p>
+                    <input type="text" id="input-ext-q-2"><button onclick="checkFillIn('input-ext-q-2', ['can lift'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-2"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-3">
+                    <p>3. She has a beautiful voice. She ___ sing very well. (sing)</p>
+                    <input type="text" id="input-ext-q-3"><button onclick="checkFillIn('input-ext-q-3', ['can sing'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-3"></p>
+                </div>
+                 <div class="exercise-question" id="ext-q-4">
+                    <p>4. I have a computer. I ___ send an email. (send)</p>
+                    <input type="text" id="input-ext-q-4"><button onclick="checkFillIn('input-ext-q-4', ['can send'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-4"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-5">
+                    <p>5. They are good students. They ___ understand the teacher. (understand)</p>
+                    <input type="text" id="input-ext-q-5"><button onclick="checkFillIn('input-ext-q-5', ['can understand'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-5"></p>
+                </div>
+                 <div class="exercise-question" id="ext-q-6">
+                    <p>6. My father is a chef. He ___ cook delicious meals. (cook)</p>
+                    <input type="text" id="input-ext-q-6"><button onclick="checkFillIn('input-ext-q-6', ['can cook'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-6"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-7">
+                    <p>7. You have a driver's license, so you ___ drive a car. (drive)</p>
+                    <input type="text" id="input-ext-q-7"><button onclick="checkFillIn('input-ext-q-7', ['can drive'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-7"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-8">
+                    <p>8. A fish ___ swim in the water. (swim)</p>
+                    <input type="text" id="input-ext-q-8"><button onclick="checkFillIn('input-ext-q-8', ['can swim'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-8"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-9">
+                    <p>9. We have tickets. We ___ go to the concert. (go)</p>
+                    <input type="text" id="input-ext-q-9"><button onclick="checkFillIn('input-ext-q-9', ['can go'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-9"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-10">
+                    <p>10. I finished my homework. I ___ watch TV now. (watch)</p>
+                    <input type="text" id="input-ext-q-10"><button onclick="checkFillIn('input-ext-q-10', ['can watch'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-10"></p>
+                </div>
+
+                <!-- Part 2: Negative Sentences -->
+                <h3>Part 2: Negative Statements</h3>
+                 <div class="exercise-question" id="ext-q-11">
+                    <p>11. A dog ___ climb a tree like a cat. (not / climb)</p>
+                    <input type="text" id="input-ext-q-11"><button onclick="checkFillIn('input-ext-q-11', ['can\'t climb', 'cannot climb'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-11"></p>
+                </div>
+                 <div class="exercise-question" id="ext-q-12">
+                    <p>12. I am very tired. I ___ run any farther. (not / run)</p>
+                    <input type="text" id="input-ext-q-12"><button onclick="checkFillIn('input-ext-q-12', ['can\'t run', 'cannot run'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-12"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-13">
+                    <p>13. He doesn't have a key. He ___ open the door. (not / open)</p>
+                    <input type="text" id="input-ext-q-13"><button onclick="checkFillIn('input-ext-q-13', ['can\'t open', 'cannot open'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-13"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-14">
+                    <p>14. It is raining heavily. We ___ play outside. (not / play)</p>
+                    <input type="text" id="input-ext-q-14"><button onclick="checkFillIn('input-ext-q-14', ['can\'t play', 'cannot play'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-14"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-15">
+                    <p>15. My baby brother is only six months old. He ___ talk yet. (not / talk)</p>
+                    <input type="text" id="input-ext-q-15"><button onclick="checkFillIn('input-ext-q-15', ['can\'t talk', 'cannot talk'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-15"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-16">
+                    <p>16. Sorry, the music is too loud. I ___ hear you. (not / hear)</p>
+                    <input type="text" id="input-ext-q-16"><button onclick="checkFillIn('input-ext-q-16', ['can\'t hear', 'cannot hear'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-16"></p>
+                </div>
+                 <div class="exercise-question" id="ext-q-17">
+                    <p>17. She is sick today. She ___ come to school. (not / come)</p>
+                    <input type="text" id="input-ext-q-17"><button onclick="checkFillIn('input-ext-q-17', ['can\'t come', 'cannot come'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-17"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-18">
+                    <p>18. You ___ park your car here. It's a no-parking zone. (not / park)</p>
+                    <input type="text" id="input-ext-q-18"><button onclick="checkFillIn('input-ext-q-18', ['can\'t park', 'cannot park'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-18"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-19">
+                    <p>19. I don't know the answer. I ___ help you with this question. (not / help)</p>
+                    <input type="text" id="input-ext-q-19"><button onclick="checkFillIn('input-ext-q-19', ['can\'t help', 'cannot help'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-19"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-20">
+                    <p>20. People ___ live without water. (not / live)</p>
+                    <input type="text" id="input-ext-q-20"><button onclick="checkFillIn('input-ext-q-20', ['can\'t live', 'cannot live'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-20"></p>
+                </div>
+
+                <!-- Part 3: Mixed Affirmative and Negative -->
+                <h3>Part 3: Mixed Statements</h3>
+                 <div class="exercise-question" id="ext-q-21">
+                    <p>21. He ___ play the guitar, but he ___ play the piano. (play, not / play)</p>
+                    <input type="text" id="input-ext-q-21" placeholder="can play, can't play"><button onclick="checkFillIn('input-ext-q-21', ['can play, can\'t play', 'can play, cannot play'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-21"></p>
+                </div>
+                 <div class="exercise-question" id="ext-q-22">
+                    <p>22. The library is open, so we ___ borrow books. (borrow)</p>
+                    <input type="text" id="input-ext-q-22"><button onclick="checkFillIn('input-ext-q-22', ['can borrow'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-22"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-23">
+                    <p>23. I'm sorry, I'm busy right now. I ___ talk to you. (not / talk)</p>
+                    <input type="text" id="input-ext-q-23"><button onclick="checkFillIn('input-ext-q-23', ['can\'t talk', 'cannot talk'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-23"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-24">
+                    <p>24. She speaks French fluently. She ___ translate this letter for you. (translate)</p>
+                    <input type="text" id="input-ext-q-24"><button onclick="checkFillIn('input-ext-q-24', ['can translate'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-24"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-25">
+                    <p>25. My computer is broken. I ___ check my email. (not / check)</p>
+                    <input type="text" id="input-ext-q-25"><button onclick="checkFillIn('input-ext-q-25', ['can\'t check', 'cannot check'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-25"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-26">
+                    <p>26. The weather is beautiful. We ___ have a picnic in the park. (have)</p>
+                    <input type="text" id="input-ext-q-26"><button onclick="checkFillIn('input-ext-q-26', ['can have'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-26"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-27">
+                    <p>27. He has a test tomorrow, so he ___ go to the party tonight. (not / go)</p>
+                    <input type="text" id="input-ext-q-27"><button onclick="checkFillIn('input-ext-q-27', ['can\'t go', 'cannot go'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-27"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-28">
+                    <p>28. If you are quiet, you ___ hear the birds singing. (hear)</p>
+                    <input type="text" id="input-ext-q-28"><button onclick="checkFillIn('input-ext-q-28', ['can hear'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-28"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-29">
+                    <p>29. I don't have enough money. I ___ buy that expensive watch. (not / buy)</p>
+                    <input type="text" id="input-ext-q-29"><button onclick="checkFillIn('input-ext-q-29', ['can\'t buy', 'cannot buy'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-29"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-30">
+                    <p>30. This box is not heavy. You ___ carry it easily. (carry)</p>
+                    <input type="text" id="input-ext-q-30"><button onclick="checkFillIn('input-ext-q-30', ['can carry'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-30"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-31">
+                    <p>31. The museum is closed on Mondays. We ___ visit it today. (not / visit)</p>
+                    <input type="text" id="input-ext-q-31"><button onclick="checkFillIn('input-ext-q-31', ['can\'t visit', 'cannot visit'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-31"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-32">
+                    <p>32. My sister is an artist. She ___ draw amazing pictures. (draw)</p>
+                    <input type="text" id="input-ext-q-32"><button onclick="checkFillIn('input-ext-q-32', ['can draw'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-32"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-33">
+                    <p>33. He forgot his password. He ___ log in to his account. (not / log in)</p>
+                    <input type="text" id="input-ext-q-33"><button onclick="checkFillIn('input-ext-q-33', ['can\'t log in', 'cannot log in'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-33"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-34">
+                    <p>34. It's my day off tomorrow. I ___ sleep late. (sleep)</p>
+                    <input type="text" id="input-ext-q-34"><button onclick="checkFillIn('input-ext-q-34', ['can sleep'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-34"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-35">
+                    <p>35. The store is out of milk. You ___ buy any here. (not / buy)</p>
+                    <input type="text" id="input-ext-q-35"><button onclick="checkFillIn('input-ext-q-35', ['can\'t buy', 'cannot buy'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-35"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-36">
+                    <p>36. There is a bridge over the river, so you ___ cross it. (cross)</p>
+                    <input type="text" id="input-ext-q-36"><button onclick="checkFillIn('input-ext-q-36', ['can cross'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-36"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-37">
+                    <p>37. I have a toothache. I ___ eat hard food. (not / eat)</p>
+                    <input type="text" id="input-ext-q-37"><button onclick="checkFillIn('input-ext-q-37', ['can\'t eat', 'cannot eat'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-37"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-38">
+                    <p>38. The sun is shining. We ___ see the mountains clearly. (see)</p>
+                    <input type="text" id="input-ext-q-38"><button onclick="checkFillIn('input-ext-q-38', ['can see'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-38"></p>
+                </div>
+                 <div class="exercise-question" id="ext-q-39">
+                    <p>39. You ___ smoke in the hospital. It's forbidden. (not / smoke)</p>
+                    <input type="text" id="input-ext-q-39"><button onclick="checkFillIn('input-ext-q-39', ['can\'t smoke', 'cannot smoke'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-39"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-40">
+                    <p>40. I have a map. I ___ find the way to the station. (find)</p>
+                    <input type="text" id="input-ext-q-40"><button onclick="checkFillIn('input-ext-q-40', ['can find'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-40"></p>
+                </div>
+                
+                <!-- Part 4: Forming Questions -->
+                <h3>Part 4: Questions</h3>
+                <p>Complete the questions with Can, What, Where, Who, or When.</p>
+                <div class="exercise-question" id="ext-q-41">
+                    <p>41. A: ___ you help me? B: Of course.</p>
+                    <input type="text" id="input-ext-q-41"><button onclick="checkFillIn('input-ext-q-41', ['Can'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-41"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-42">
+                    <p>42. A: ___ can I buy a ticket? B: At the ticket office over there.</p>
+                    <input type="text" id="input-ext-q-42"><button onclick="checkFillIn('input-ext-q-42', ['Where'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-42"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-43">
+                    <p>43. A: ___ can play the guitar in your family? B: My brother can.</p>
+                    <input type="text" id="input-ext-q-43"><button onclick="checkFillIn('input-ext-q-43', ['Who'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-43"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-44">
+                    <p>44. A: ___ can we start the meeting? B: We can start at 10 AM.</p>
+                    <input type="text" id="input-ext-q-44"><button onclick="checkFillIn('input-ext-q-44', ['When'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-44"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-45">
+                    <p>45. A: ___ can I do for you? B: I need some information.</p>
+                    <input type="text" id="input-ext-q-45"><button onclick="checkFillIn('input-ext-q-45', ['What'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-45"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-46">
+                    <p>46. A: ___ she speak Spanish? B: No, she can't.</p>
+                    <input type="text" id="input-ext-q-46"><button onclick="checkFillIn('input-ext-q-46', ['Can'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-46"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-47">
+                    <p>47. A: ___ can fix this computer? B: I think Tom can.</p>
+                    <input type="text" id="input-ext-q-47"><button onclick="checkFillIn('input-ext-q-47', ['Who'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-47"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-48">
+                    <p>48. A: ___ can we find a good restaurant? B: There's a great one on Main Street.</p>
+                    <input type="text" id="input-ext-q-48"><button onclick="checkFillIn('input-ext-q-48', ['Where'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-48"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-49">
+                    <p>49. A: ___ they come to the meeting? B: Yes, they can.</p>
+                    <input type="text" id="input-ext-q-49"><button onclick="checkFillIn('input-ext-q-49', ['Can'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-49"></p>
+                </div>
+                <div class="exercise-question" id="ext-q-50">
+                    <p>50. A: ___ can you tell me about the project? B: It's going very well.</p>
+                    <input type="text" id="input-ext-q-50"><button onclick="checkFillIn('input-ext-q-50', ['What'])">Submit</button>
+                    <p class="feedback" id="feedback-ext-q-50"></p>
+                </div>
+                <!-- ... adding more questions of various types -->
+                <div class="exercise-question" id="ext-q-51"><p>51. A horse ___ run fast. (run)</p><input type="text" id="input-ext-q-51"><button onclick="checkFillIn('input-ext-q-51', ['can run'])">Submit</button><p class="feedback" id="feedback-ext-q-51"></p></div>
+                <div class="exercise-question" id="ext-q-52"><p>52. I'm sorry, the manager is busy. You ___ see him now. (not / see)</p><input type="text" id="input-ext-q-52"><button onclick="checkFillIn('input-ext-q-52', ['can\'t see', 'cannot see'])">Submit</button><p class="feedback" id="feedback-ext-q-52"></p></div>
+                <div class="exercise-question" id="ext-q-53"><p>53. ___ we take a break now? (we / take)</p><input type="text" id="input-ext-q-53"><button onclick="checkFillIn('input-ext-q-53', ['Can we take'])">Submit</button><p class="feedback" id="feedback-ext-q-53"></p></div>
+                <div class="exercise-question" id="ext-q-54"><p>54. He studied hard for the test, so he ___ pass it. (pass)</p><input type="text" id="input-ext-q-54"><button onclick="checkFillIn('input-ext-q-54', ['can pass'])">Submit</button><p class="feedback" id="feedback-ext-q-54"></p></div>
+                <div class="exercise-question" id="ext-q-55"><p>55. It's too foggy. We ___ see the road. (not / see)</p><input type="text" id="input-ext-q-55"><button onclick="checkFillIn('input-ext-q-55', ['can\'t see', 'cannot see'])">Submit</button><p class="feedback" id="feedback-ext-q-55"></p></div>
+                <div class="exercise-question" id="ext-q-56"><p>56. What languages ___ you speak? (you / speak)</p><input type="text" id="input-ext-q-56"><button onclick="checkFillIn('input-ext-q-56', ['can you speak'])">Submit</button><p class="feedback" id="feedback-ext-q-56"></p></div>
+                <div class="exercise-question" id="ext-q-57"><p>57. Penguins are birds, but they ___ fly. (not / fly)</p><input type="text" id="input-ext-q-57"><button onclick="checkFillIn('input-ext-q-57', ['can\'t fly', 'cannot fly'])">Submit</button><p class="feedback" id="feedback-ext-q-57"></p></div>
+                <div class="exercise-question" id="ext-q-58"><p>58. The internet is working, so you ___ search for information. (search)</p><input type="text" id="input-ext-q-58"><button onclick="checkFillIn('input-ext-q-58', ['can search'])">Submit</button><p class="feedback" id="feedback-ext-q-58"></p></div>
+                <div class="exercise-question" id="ext-q-59"><p>59. I don't have a pen. I ___ write my name. (not / write)</p><input type="text" id="input-ext-q-59"><button onclick="checkFillIn('input-ext-q-59', ['can\'t write', 'cannot write'])">Submit</button><p class="feedback" id="feedback-ext-q-59"></p></div>
+                <div class="exercise-question" id="ext-q-60"><p>60. Who ___ answer this difficult question? (answer)</p><input type="text" id="input-ext-q-60"><button onclick="checkFillIn('input-ext-q-60', ['can answer'])">Submit</button><p class="feedback" id="feedback-ext-q-60"></p></div>
+                <div class="exercise-question" id="ext-q-61"><p>61. She is on vacation. She ___ relax all day. (relax)</p><input type="text" id="input-ext-q-61"><button onclick="checkFillIn('input-ext-q-61', ['can relax'])">Submit</button><p class="feedback" id="feedback-ext-q-61"></p></div>
+                <div class="exercise-question" id="ext-q-62"><p>62. You ___ touch the paintings in the museum. (not / touch)</p><input type="text" id="input-ext-q-62"><button onclick="checkFillIn('input-ext-q-62', ['can\'t touch', 'cannot touch'])">Submit</button><p class="feedback" id="feedback-ext-q-62"></p></div>
+                <div class="exercise-question" id="ext-q-63"><p>63. My hands are full. I ___ open the door. (not / open)</p><input type="text" id="input-ext-q-63"><button onclick="checkFillIn('input-ext-q-63', ['can\'t open', 'cannot open'])">Submit</button><p class="feedback" id="feedback-ext-q-63"></p></div>
+                <div class="exercise-question" id="ext-q-64"><p>64. Where ___ I park my car? (I / park)</p><input type="text" id="input-ext-q-64"><button onclick="checkFillIn('input-ext-q-64', ['can I park'])">Submit</button><p class="feedback" id="feedback-ext-q-64"></p></div>
+                <div class="exercise-question" id="ext-q-65"><p>65. I have a camera. I ___ take a picture. (take)</p><input type="text" id="input-ext-q-65"><button onclick="checkFillIn('input-ext-q-65', ['can take'])">Submit</button><p class="feedback" id="feedback-ext-q-65"></p></div>
+                <div class="exercise-question" id="ext-q-66"><p>66. He has a headache. He ___ concentrate on his work. (not / concentrate)</p><input type="text" id="input-ext-q-66"><button onclick="checkFillIn('input-ext-q-66', ['can\'t concentrate', 'cannot concentrate'])">Submit</button><p class="feedback" id="feedback-ext-q-66"></p></div>
+                <div class="exercise-question" id="ext-q-67"><p>67. ___ you make a promise and keep it? (you / make)</p><input type="text" id="input-ext-q-67"><button onclick="checkFillIn('input-ext-q-67', ['Can you make'])">Submit</button><p class="feedback" id="feedback-ext-q-67"></p></div>
+                <div class="exercise-question" id="ext-q-68"><p>68. The road is closed. Cars ___ pass. (not / pass)</p><input type="text" id="input-ext-q-68"><button onclick="checkFillIn('input-ext-q-68', ['can\'t pass', 'cannot pass'])">Submit</button><p class="feedback" id="feedback-ext-q-68"></p></div>
+                <div class="exercise-question" id="ext-q-69"><p>69. With a telescope, you ___ see the stars more clearly. (see)</p><input type="text" id="input-ext-q-69"><button onclick="checkFillIn('input-ext-q-69', ['can see'])">Submit</button><p class="feedback" id="feedback-ext-q-69"></p></div>
+                <div class="exercise-question" id="ext-q-70"><p>70. When ___ you finish the report? (you / finish)</p><input type="text" id="input-ext-q-70"><button onclick="checkFillIn('input-ext-q-70', ['can you finish'])">Submit</button><p class="feedback" id="feedback-ext-q-70"></p></div>
+                <div class="exercise-question" id="ext-q-71"><p>71. He's an expert. He ___ solve the problem. (solve)</p><input type="text" id="input-ext-q-71"><button onclick="checkFillIn('input-ext-q-71', ['can solve'])">Submit</button><p class="feedback" id="feedback-ext-q-71"></p></div>
+                <div class="exercise-question" id="ext-q-72"><p>72. I don't understand this word. ___ you explain it? (you / explain)</p><input type="text" id="input-ext-q-72"><button onclick="checkFillIn('input-ext-q-72', ['Can you explain'])">Submit</button><p class="feedback" id="feedback-ext-q-72"></p></div>
+                <div class="exercise-question" id="ext-q-73"><p>73. She is afraid of heights. She ___ climb the ladder. (not / climb)</p><input type="text" id="input-ext-q-73"><button onclick="checkFillIn('input-ext-q-73', ['can\'t climb', 'cannot climb'])">Submit</button><p class="feedback" id="feedback-ext-q-73"></p></div>
+                <div class="exercise-question" id="ext-q-74"><p>74. We have free time. We ___ play a game. (play)</p><input type="text" id="input-ext-q-74"><button onclick="checkFillIn('input-ext-q-74', ['can play'])">Submit</button><p class="feedback" id="feedback-ext-q-74"></p></div>
+                <div class="exercise-question" id="ext-q-75"><p>75. What ___ we do to help the environment? (we / do)</p><input type="text" id="input-ext-q-75"><button onclick="checkFillIn('input-ext-q-75', ['can we do'])">Submit</button><p class="feedback" id="feedback-ext-q-75"></p></div>
+                
+                <!-- Part 5: Error Correction -->
+                <h3>Part 5: Correct the mistakes</h3>
+                <p>Rewrite the sentences correctly.</p>
+                <div class="exercise-question" id="ext-q-76"><p>76. He can plays the piano.</p><input type="text" id="input-ext-q-76"><button onclick="checkFillIn('input-ext-q-76', ['He can play the piano.'])">Submit</button><p class="feedback" id="feedback-ext-q-76"></p></div>
+                <div class="exercise-question" id="ext-q-77"><p>77. She no can come.</p><input type="text" id="input-ext-q-77"><button onclick="checkFillIn('input-ext-q-77', ['She can\'t come.', 'She cannot come.'])">Submit</button><p class="feedback" id="feedback-ext-q-77"></p></div>
+                <div class="exercise-question" id="ext-q-78"><p>78. Can you to help me?</p><input type="text" id="input-ext-q-78"><button onclick="checkFillIn('input-ext-q-78', ['Can you help me?'])">Submit</button><p class="feedback" id="feedback-ext-q-78"></p></div>
+                <div class="exercise-question" id="ext-q-79"><p>79. They can running very fast.</p><input type="text" id="input-ext-q-79"><button onclick="checkFillIn('input-ext-q-79', ['They can run very fast.'])">Submit</button><p class="feedback" id="feedback-ext-q-79"></p></div>
+                <div class="exercise-question" id="ext-q-80"><p>80. I can't to understand this.</p><input type="text" id="input-ext-q-80"><button onclick="checkFillIn('input-ext-q-80', ['I can\'t understand this.'])">Submit</button><p class="feedback" id="feedback-ext-q-80"></p></div>
+                <div class="exercise-question" id="ext-q-81"><p>81. What you can do?</p><input type="text" id="input-ext-q-81"><button onclick="checkFillIn('input-ext-q-81', ['What can you do?'])">Submit</button><p class="feedback" id="feedback-ext-q-81"></p></div>
+                <div class="exercise-question" id="ext-q-82"><p>82. He cans speak three languages.</p><input type="text" id="input-ext-q-82"><button onclick="checkFillIn('input-ext-q-82', ['He can speak three languages.'])">Submit</button><p class="feedback" id="feedback-ext-q-82"></p></div>
+                <div class="exercise-question" id="ext-q-83"><p>83. We can't found the keys.</p><input type="text" id="input-ext-q-83"><button onclick="checkFillIn('input-ext-q-83', ['We can\'t find the keys.'])">Submit</button><p class="feedback" id="feedback-ext-q-83"></p></div>
+                <div class="exercise-question" id="ext-q-84"><p>84. You can to sit here.</p><input type="text" id="input-ext-q-84"><button onclick="checkFillIn('input-ext-q-84', ['You can sit here.'])">Submit</button><p class="feedback" id="feedback-ext-q-84"></p></div>
+                <div class="exercise-question" id="ext-q-85"><p>85. She can't dances well.</p><input type="text" id="input-ext-q-85"><button onclick="checkFillIn('input-ext-q-85', ['She can\'t dance well.'])">Submit</button><p class="feedback" id="feedback-ext-q-85"></p></div>
+                <div class="exercise-question" id="ext-q-86"><p>86. I'm busy. I ___ meet you tomorrow. (not / meet)</p><input type="text" id="input-ext-q-86"><button onclick="checkFillIn('input-ext-q-86', ['can\'t meet', 'cannot meet'])">Submit</button><p class="feedback" id="feedback-ext-q-86"></p></div>
+                <div class="exercise-question" id="ext-q-87"><p>87. The recipe is easy. You ___ make this cake. (make)</p><input type="text" id="input-ext-q-87"><button onclick="checkFillIn('input-ext-q-87', ['can make'])">Submit</button><p class="feedback" id="feedback-ext-q-87"></p></div>
+                <div class="exercise-question" id="ext-q-88"><p>88. How ___ I get to the city center? (I / get)</p><input type="text" id="input-ext-q-88"><button onclick="checkFillIn('input-ext-q-88', ['can I get'])">Submit</button><p class="feedback" id="feedback-ext-q-88"></p></div>
+                <div class="exercise-question" id="ext-q-89"><p>89. The child is sleeping. You ___ be quiet. (be)</p><input type="text" id="input-ext-q-89"><button onclick="checkFillIn('input-ext-q-89', ['can be'])">Submit</button><p class="feedback" id="feedback-ext-q-89"></p></div>
+                <div class="exercise-question" id="ext-q-90"><p>90. This shirt is too small. I ___ wear it. (not / wear)</p><input type="text" id="input-ext-q-90"><button onclick="checkFillIn('input-ext-q-90', ['can\'t wear', 'cannot wear'])">Submit</button><p class="feedback" id="feedback-ext-q-90"></p></div>
+                <div class="exercise-question" id="ext-q-91"><p>91. A spider ___ spin a web. (spin)</p><input type="text" id="input-ext-q-91"><button onclick="checkFillIn('input-ext-q-91', ['can spin'])">Submit</button><p class="feedback" id="feedback-ext-q-91"></p></div>
+                <div class="exercise-question" id="ext-q-92"><p>92. He doesn't have a bike, so he ___ ride with us. (not / ride)</p><input type="text" id="input-ext-q-92"><button onclick="checkFillIn('input-ext-q-92', ['can\'t ride', 'cannot ride'])">Submit</button><p class="feedback" id="feedback-ext-q-92"></p></div>
+                <div class="exercise-question" id="ext-q-93"><p>93. ___ you lend me your pencil? (you / lend)</p><input type="text" id="input-ext-q-93"><button onclick="checkFillIn('input-ext-q-93', ['Can you lend'])">Submit</button><p class="feedback" id="feedback-ext-q-93"></p></div>
+                <div class="exercise-question" id="ext-q-94"><p>94. We ___ see the show because all the tickets were sold. (not / see)</p><input type="text" id="input-ext-q-94"><button onclick="checkFillIn('input-ext-q-94', ['can\'t see', 'couldn\'t see', 'could not see'])">Submit</button><p class="feedback" id="feedback-ext-q-94"></p></div>
+                <div class="exercise-question" id="ext-q-95"><p>95. The instructions are clear. I ___ assemble it myself. (assemble)</p><input type="text" id="input-ext-q-95"><button onclick="checkFillIn('input-ext-q-95', ['can assemble'])">Submit</button><p class="feedback" id="feedback-ext-q-95"></p></div>
+                <div class="exercise-question" id="ext-q-96"><p>96. My phone has no battery. I ___ make a call. (not / make)</p><input type="text" id="input-ext-q-96"><button onclick="checkFillIn('input-ext-q-96', ['can\'t make', 'cannot make'])">Submit</button><p class="feedback" id="feedback-ext-q-96"></p></div>
+                <div class="exercise-question" id="ext-q-97"><p>97. If you study, you ___ improve your English. (improve)</p><input type="text" id="input-ext-q-97"><button onclick="checkFillIn('input-ext-q-97', ['can improve'])">Submit</button><p class="feedback" id="feedback-ext-q-97"></p></div>
+                <div class="exercise-question" id="ext-q-98"><p>98. What other things ___ a computer do? (a computer / do)</p><input type="text" id="input-ext-q-98"><button onclick="checkFillIn('input-ext-q-98', ['can a computer do'])">Submit</button><p class="feedback" id="feedback-ext-q-98"></p></div>
+                <div class="exercise-question" id="ext-q-99"><p>99. The water is too cold. We ___ swim today. (not / swim)</p><input type="text" id="input-ext-q-99"><button onclick="checkFillIn('input-ext-q-99', ['can\'t swim', 'cannot swim'])">Submit</button><p class="feedback" id="feedback-ext-q-99"></p></div>
+                <div class="exercise-question" id="ext-q-100"><p>100. ___ we finish this project by Friday? (we / finish)</p><input type="text" id="input-ext-q-100"><button onclick="checkFillIn('input-ext-q-100', ['Can we finish'])">Submit</button><p class="feedback" id="feedback-ext-q-100"></p></div>
+
+            </div>
+        </section>
+		
+    <script>
+        function checkRadio(questionId, correctAnswer) {
+            const feedbackEl = document.getElementById(`feedback-${questionId}`);
+            const selectedOption = document.querySelector(`input[name="${questionId}"]:checked`);
+
+            if (!selectedOption) {
+                feedbackEl.textContent = 'Please select an answer.';
+                feedbackEl.className = 'feedback incorrect';
+                return;
+            }
+
+            if (selectedOption.value === correctAnswer) {
+                feedbackEl.textContent = 'Correct! Well done.';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. The correct answer is option ${correctAnswer.toUpperCase()}.`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+
+        function checkFillIn(inputId, correctAnswers) {
+            // Ensure correctAnswers is always an array for consistent logic
+            if (!Array.isArray(correctAnswers)) {
+                 correctAnswers = [correctAnswers];
+            }
+
+            const inputEl = document.getElementById(inputId);
+            const feedbackEl = document.getElementById(inputId.replace('input-', 'feedback-'));
+            const userAnswer = inputEl.value.trim().toLowerCase().replace(/\s+/g, ' ').replace(/\./g, ''); // Normalize user input
+
+            // Normalize correct answers for comparison
+            const normalizedCorrectAnswers = correctAnswers.map(ans => ans.toLowerCase().replace(/\./g, ''));
+
+            if (userAnswer === '') {
+                feedbackEl.textContent = 'Please enter an answer.';
+                feedbackEl.className = 'feedback incorrect';
+                return;
+            }
+
+            if (normalizedCorrectAnswers.includes(userAnswer)) {
+                feedbackEl.textContent = 'Correct! Great job.';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Not quite. The correct answer is: "${correctAnswers[0]}"`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+    </script>
+
+</body>
+</html>
