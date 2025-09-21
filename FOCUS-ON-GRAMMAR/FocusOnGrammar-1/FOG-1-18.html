@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 18: Present Progressive: Wh- Questions</title>
+    <style>
+
+		body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .exercise-section {
+            margin-bottom: 40px;
+        }
+        .practice-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        .practice-item p {
+            margin: 0 0 10px 0;
+        }
+        .practice-item input[type="text"] {
+            width: calc(100% - 100px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .practice-item button {
+            padding: 8px 15px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .practice-item button:hover {
+            background-color: #229954;
+        }
+        .feedback {
+            margin-top: 8px;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            display: none; /* Hidden by default */
+        }
+        .feedback.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+        .feedback.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+        .answer-context {
+            font-style: italic;
+            color: #555;
+            margin-left: 10px;
+        }
+		
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Header Styles */
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid #f39c12;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .unit-number {
+            font-size: 80px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-right: 20px;
+        }
+        .unit-title-group h1 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 28px;
+        }
+        .unit-title-group p {
+            margin: 0;
+            font-size: 20px;
+            color: #7f8c8d;
+        }
+        .outcomes {
+            background-color: #fef9e7;
+            border-left: 5px solid #f1c40f;
+            padding: 15px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* Section Header Styles */
+        .step-header {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 30px 0 20px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .sub-header {
+            font-weight: bold;
+            color: #c0392b;
+            margin-top: 25px;
+            text-transform: uppercase;
+        }
+
+        /* Vocabulary Section */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .vocab-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Reading Section */
+        .conversation {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .conversation p { margin: 5px 0; }
+        .conversation strong { color: #2980b9; }
+        .convo-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .convo-images img {
+            max-width: 45%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+
+        /* Grammar Section */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #bdc3c7;
+            padding: 12px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #34495e;
+            color: white;
+        }
+        .grammar-table tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+        .grammar-notes {
+            margin-top: 20px;
+        }
+        .note-box {
+            background-color: #e8f6f3;
+            border-left: 5px solid #1abc9c;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .note-box-example {
+            background: #f2f2f2;
+            padding: 10px;
+            font-family: monospace;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .be-careful {
+            background-color: #f9ebea;
+            border-left: 5px solid #e74c3c;
+            padding: 15px;
+        }
+        .be-careful strong { color: #c0392b; }
+        .not-correct { text-decoration: line-through; }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .exercise h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .question-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .question-item input[type="text"], .question-item select {
+            padding: 8px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            min-width: 200px;
+        }
+        .question-item button {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .question-item button:hover {
+            background-color: #2980b9;
+        }
+        .feedback {
+            margin-top: 5px;
+            padding: 8px;
+            border-radius: 4px;
+            display: none; /* Hidden by default */
+        }
+        .feedback.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+        .feedback.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+        .exercise-image {
+            max-width: 400px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="unit-header">
+            <div class="unit-number">18</div>
+            <div class="unit-title-group">
+                <h1>Present Progressive: Wh- Questions</h1>
+                <p>GETTING AROUND</p>
+            </div>
+        </header>
+        <div class="outcomes">
+            <strong>OUTCOMES</strong>
+            <ul>
+                <li>Ask and answer wh- questions in the present progressive</li>
+                <li>Answer questions about a reading and a conversation</li>
+                <li>Ask and answer questions about where people are going</li>
+                <li>Ask and answer questions about what is happening in photos</li>
+                <li>Write a conversation between people meeting at an airport</li>
+            </ul>
+        </div>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <section>
+            <div class="step-header">STEP 1: GRAMMAR IN CONTEXT</div>
+            <h2 class="sub-header">BEFORE YOU READ</h2>
+            <p><strong>VOCABULARY</strong> Study the words. Then work with a partner. Ask and answer yes/no questions about the people in each picture. Take turns.</p>
+            <p><strong>EXAMPLE:</strong> (Student A points to Picture 1.)<br>A: Is he taking a train?<br>B: No, he's not. He's riding a bike.</p>
+
+            <div class="vocab-grid">
+                <div class="vocab-item">
+                    <img src="FOG-1-18/1.png" alt="Man riding a bike">
+                    <p>1. ride a bike</p>
+                </div>
+                <div class="vocab-item">
+                    <img src="FOG-1-18/2.png" alt="Man taking the subway">
+                    <p>2. take the subway / take the metro</p>
+                </div>
+                <div class="vocab-item">
+                    <img src="FOG-1-18/3.png" alt="Man taking a train">
+                    <p>3. take a train</p>
+                </div>
+                <div class="vocab-item">
+                    <img src="FOG-1-18/4.png" alt="Woman flying on a plane">
+                    <p>4. fly</p>
+                </div>
+            </div>
+
+            <h2 class="sub-header">READ</h2>
+            <p>Read this conversation.</p>
+            <h3>Nick's Travels</h3>
+            <div class="conversation">
+                <p><strong>MARK:</strong> Hello?</p>
+                <p><strong>NICK:</strong> Hey, little brother . . . what's happening?</p>
+                <p><strong>MARK:</strong> Nick? Is it really you?</p>
+                <p><strong>NICK:</strong> Yes. This is your big brother.</p>
+                <p><strong>MARK:</strong> I don't believe this. Why are you calling me? You hate phones.</p>
+                <p><strong>NICK:</strong> I know. . . . But you don't answer your emails.</p>
+                <p><strong>MARK:</strong> What are you doing? Are you still in Kenya?</p>
+                <p><strong>NICK:</strong> No, I'm back in the United States. I'm going to a job interview¹ in San Francisco.</p>
+                <p><strong>MARK:</strong> In California? Wow! Do you want to leave Kenya?</p>
+                <p><strong>NICK:</strong> I'm not sure. Maybe.</p>
+                <p><strong>MARK:</strong> How are you getting to San Francisco? I think I hear a car engine. Are you taking a bus?</p>
+                <p><strong>NICK:</strong> No, I'm riding a bike.</p>
+                <p><strong>MARK:</strong> Come on!</p>
+                <p><strong>NICK:</strong> OK, I'm taking the subway.</p>
+                <p><strong>MARK:</strong> Get serious, Nick!</p>
+                <p><strong>NICK:</strong> OK. You still have good ears. Right now we're driving through Utah.</p>
+                <p><strong>MARK:</strong> It's a long way from Utah to San Francisco. People usually fly. Why are you driving?</p>
+                <p><strong>NICK:</strong> I'm spending time with an old friend. Do you remember Jerry Gomez? He's driving me to San Francisco.</p>
+                <p><strong>MARK:</strong> Sure, I remember him. How's Jerry these days?</p>
+                <p><strong>NICK:</strong> He's fine. Hey, here's an idea. Come and visit us in San Francisco.</p>
+                <p><strong>MARK:</strong> Good idea, but I don't want to fly. It's too expensive.</p>
+                <p><strong>NICK:</strong> Take a train. It's not so expensive.</p>
+                <p><strong>MARK:</strong> I'll think about it.</p>
+            </div>
+            <div class="convo-images">
+                 <img src="FOG-1-18/5.png" alt="Conversation between Nick and Mark">
+            </div>
+        </section>
+
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <section>
+            <div class="step-header">STEP 2: GRAMMAR PRESENTATION</div>
+            <h3>PRESENT PROGRESSIVE: WH- QUESTIONS</h3>
+            
+            <h4>Wh- Questions</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Wh- Word</th>
+                        <th>Be</th>
+                        <th>Subject</th>
+                        <th>Verb + -ing</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>What</td>
+                        <td>are</td>
+                        <td>you</td>
+                        <td>making?</td>
+                        <td>Coffee.</td>
+                    </tr>
+                    <tr>
+                        <td>Where</td>
+                        <td>are</td>
+                        <td>you</td>
+                        <td>going?</td>
+                        <td>To an interview.</td>
+                    </tr>
+                    <tr>
+                        <td>Why</td>
+                        <td>are</td>
+                        <td>you</td>
+                        <td>smiling?</td>
+                        <td>I'm happy.</td>
+                    </tr>
+                    <tr>
+                        <td>Who</td>
+                        <td>are</td>
+                        <td>you</td>
+                        <td>talking to?</td>
+                        <td>Nick.</td>
+                    </tr>
+                     <tr>
+                        <td>How</td>
+                        <td>are</td>
+                        <td>you</td>
+                        <td>doing?</td>
+                        <td>Fine.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>Wh- Questions About the Subject</h4>
+             <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Wh- Word</th>
+                        <th>Be</th>
+                        <th>Verb + -ing</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Who</td>
+                        <td>is</td>
+                        <td>calling?</td>
+                        <td>Nick. or Nick is.</td>
+                    </tr>
+                    <tr>
+                        <td>What</td>
+                        <td>is</td>
+                        <td>happening?</td>
+                        <td>Nothing.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>GRAMMAR NOTES</h3>
+            <div class="grammar-notes">
+                <div class="note-box">
+                    <strong>1. Wh- Questions: Form</strong>
+                    <p>Most wh- questions in the present progressive begin with a question word such as <em>what, where, why, who,</em> or <em>how</em>. We use a <strong>wh- question word + am, is,</strong> or <strong>are + subject + the -ing form</strong> of the verb.</p>
+                    <div class="note-box-example">
+                        WH- WORD + BE + SUBJECT + -ING FORM<br>
+                        <strong>What are you doing?</strong><br>
+                        <strong>Who are you talking to?</strong>
+                    </div>
+                </div>
+
+                <div class="note-box">
+                    <strong>2. Wh- Questions About the Subject</strong>
+                    <p>To ask present progressive wh- questions about the <strong>subject</strong> of a sentence, use a <strong>wh- question word + am, is,</strong> or <strong>are + the -ing form</strong> of the verb. Remember that we can use <strong>who</strong> or <strong>what</strong> to ask questions about the subject.</p>
+                     <div class="note-box-example">
+                        WH- WORD + BE + -ING FORM<br>
+                        <strong>Who is driving?</strong><br>
+                        <strong>What is happening?</strong>
+                    </div>
+                </div>
+
+                <div class="note-box">
+                    <strong>3. Short Answers</strong>
+                    <p>We usually use short answers in conversation and informal writing.</p>
+                    <div class="note-box-example">
+                        A: <strong>Where is Nick going?</strong><br>
+                        B: <strong>To San Francisco.</strong>
+                        <br><br>
+                        A: <strong>Who is driving?</strong><br>
+                        B: <strong>His friend.</strong>
+                    </div>
+                </div>
+
+                <div class="be-careful">
+                    <strong>BE CAREFUL!</strong> Remember not to use contractions in affirmative short answers.
+                    <div class="note-box-example">
+                        A: Who's driving?<br>
+                        B: <strong>Jerry.</strong> or <strong>Jerry is.</strong><br>
+                        NOT <span class="not-correct">Jerry's.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 3: FOCUSED PRACTICE -->
+        <section>
+            <div class="step-header">STEP 3: FOCUSED PRACTICE</div>
+            
+            <div class="exercise">
+                <h3>EXERCISE 1: DISCOVER THE GRAMMAR</h3>
+                <p>Circle the wh- question words. Then match the questions and the answers.</p>
+                <div class="question-item">
+                    1. (Where) are you going? 
+                    <select id="ex1-q1">
+                        <option value="">Select answer...</option>
+                        <option value="a">a</option> <option value="b">b</option> <option value="c">c</option>
+                        <option value="d">d</option> <option value="e">e</option> <option value="f">f</option>
+                    </select>
+                    <button onclick="checkAnswer('ex1-q1', 'd', 'feedback-1-1', 'Correct answer is d. To the office.')">Submit</button>
+                    <p class="feedback" id="feedback-1-1"></p>
+                </div>
+                <div class="question-item">
+                    2. How are you getting there? 
+                    <select id="ex1-q2">
+                        <option value="">Select answer...</option>
+                        <option value="a">a</option> <option value="b">b</option> <option value="c">c</option>
+                        <option value="d">d</option> <option value="e">e</option> <option value="f">f</option>
+                    </select>
+                    <button onclick="checkAnswer('ex1-q2', 'c', 'feedback-1-2', 'Correct answer is c. I\'m taking the subway.')">Submit</button>
+                    <p class="feedback" id="feedback-1-2"></p>
+                </div>
+                <div class="question-item">
+                    3. Why is she driving to Chicago? 
+                    <select id="ex1-q3">
+                        <option value="">Select answer...</option>
+                        <option value="a">a</option> <option value="b">b</option> <option value="c">c</option>
+                        <option value="d">d</option> <option value="e">e</option> <option value="f">f</option>
+                    </select>
+                    <button onclick="checkAnswer('ex1-q3', 'b', 'feedback-1-3', 'Correct answer is b. Planes are very expensive.')">Submit</button>
+                    <p class="feedback" id="feedback-1-3"></p>
+                </div>
+                <div class="question-item">
+                    4. How's the trip going? 
+                    <select id="ex1-q4">
+                        <option value="">Select answer...</option>
+                        <option value="a">a</option> <option value="b">b</option> <option value="c">c</option>
+                        <option value="d">d</option> <option value="e">e</option> <option value="f">f</option>
+                    </select>
+                    <button onclick="checkAnswer('ex1-q4', 'e', 'feedback-1-4', 'Correct answer is e. It\'s going great! She loves road trips.')">Submit</button>
+                    <p class="feedback" id="feedback-1-4"></p>
+                </div>
+                <div class="question-item">
+                    5. Who is he talking to? 
+                    <select id="ex1-q5">
+                        <option value="">Select answer...</option>
+                        <option value="a">a</option> <option value="b">b</option> <option value="c">c</option>
+                        <option value="d">d</option> <option value="e">e</option> <option value="f">f</option>
+                    </select>
+                    <button onclick="checkAnswer('ex1-q5', 'f', 'feedback-1-5', 'Correct answer is f. His friend Rashid Jama.')">Submit</button>
+                    <p class="feedback" id="feedback-1-5"></p>
+                </div>
+                <div class="question-item">
+                    6. What are they doing right now? 
+                    <select id="ex1-q6">
+                        <option value="">Select answer...</option>
+                        <option value="a">a</option> <option value="b">b</option> <option value="c">c</option>
+                        <option value="d">d</option> <option value="e">e</option> <option value="f">f</option>
+                    </select>
+                    <button onclick="checkAnswer('ex1-q6', 'a', 'feedback-1-6', 'Correct answer is a. They\'re playing a board game.')">Submit</button>
+                    <p class="feedback" id="feedback-1-6"></p>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <h3>EXERCISE 2: WH- QUESTION WORDS</h3>
+                <p>Complete the sentences. Circle the correct answers.</p>
+                <img src="FOG-1-18/6.png" alt="Woman on a bus" class="exercise-image">
+                <div class="question-item">
+                    1. A: (Why / <strong>Where</strong>) are you going? <br> B: To the university.
+                    <input type="text" id="ex2-q1" placeholder="Type Why or Where">
+                    <button onclick="checkAnswer('ex2-q1', 'Where', 'feedback-2-1', 'The answer asks for a place (university), so use Where.')">Submit</button>
+                    <p class="feedback" id="feedback-2-1"></p>
+                </div>
+                 <div class="question-item">
+                    2. A: (<strong>How</strong> / Why) are you traveling? <br> B: I'm taking the bus.
+                    <input type="text" id="ex2-q2" placeholder="Type How or Why">
+                    <button onclick="checkAnswer('ex2-q2', 'How', 'feedback-2-2', 'The answer describes the method of travel, so use How.')">Submit</button>
+                    <p class="feedback" id="feedback-2-2"></p>
+                </div>
+                 <div class="question-item">
+                    3. A: (How / <strong>Why</strong>) are you taking the bus? <br> B: My car isn't working.
+                    <input type="text" id="ex2-q3" placeholder="Type How or Why">
+                    <button onclick="checkAnswer('ex2-q3', 'Why', 'feedback-2-3', 'The answer gives a reason, so use Why.')">Submit</button>
+                    <p class="feedback" id="feedback-2-3"></p>
+                </div>
+                 <div class="question-item">
+                    4. A: (Who / <strong>What</strong>) are you doing with your phone? <br> B: I'm texting.
+                    <input type="text" id="ex2-q4" placeholder="Type Who or What">
+                    <button onclick="checkAnswer('ex2-q4', 'What', 'feedback-2-4', 'The question is about an activity, so use What.')">Submit</button>
+                    <p class="feedback" id="feedback-2-4"></p>
+                </div>
+                 <div class="question-item">
+                    5. A: (What / <strong>Who</strong>) are you texting? <br> B: My friend James.
+                    <input type="text" id="ex2-q5" placeholder="Type What or Who">
+                    <button onclick="checkAnswer('ex2-q5', 'Who', 'feedback-2-5', 'The answer is a person, so use Who.')">Submit</button>
+                    <p class="feedback" id="feedback-2-5"></p>
+                </div>
+                 <div class="question-item">
+                    6. A: (Who / <strong>What</strong>) are you and James texting about? <br> B: My birthday party!
+                    <input type="text" id="ex2-q6" placeholder="Type Who or What">
+                    <button onclick="checkAnswer('ex2-q6', 'What', 'feedback-2-6', 'The question is about a topic/thing, so use What.')">Submit</button>
+                    <p class="feedback" id="feedback-2-6"></p>
+                </div>
+            </div>
+
+             <div class="exercise">
+                <h3>EXERCISE 3: PRESENT PROGRESSIVE QUESTIONS</h3>
+                <p>Write questions in the present progressive. Use the correct forms of the words in parentheses. Then match the questions and answers.</p>
+                <div class="question-item">
+                    1. (Why / you / wear / a suit) <br>
+                    <input type="text" id="ex3-q1" size="30" value="Why are you wearing a suit?"> (matches d. I have a job interview.)
+                </div>
+                <div class="question-item">
+                    2. (How / your parents / travel / to New York) <br>
+                    <input type="text" id="ex3-q2" size="30" placeholder="Type the question...">
+                    <select id="ex3-match2">
+                        <option value="">Match...</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="e">e</option>
+                    </select>
+                    <button onclick="checkAnswer('ex3-q2', 'How are your parents traveling to New York?', 'feedback-3-2', 'Correct question: How are your parents traveling to New York? It matches with e. They\'re taking the train.', 'ex3-match2', 'e')">Submit</button>
+                    <p class="feedback" id="feedback-3-2"></p>
+                </div>
+                 <div class="question-item">
+                    3. (Who / drive / you / to work today) <br>
+                    <input type="text" id="ex3-q3" size="30" placeholder="Type the question...">
+                    <select id="ex3-match3">
+                        <option value="">Match...</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="e">e</option>
+                    </select>
+                    <button onclick="checkAnswer('ex3-q3', 'Who is driving you to work today?', 'feedback-3-3', 'Correct question: Who is driving you to work today? It matches with a. My dad is driving me.', 'ex3-match3', 'a')">Submit</button>
+                    <p class="feedback" id="feedback-3-3"></p>
+                </div>
+                 <div class="question-item">
+                    4. (Where / your brother / go) <br>
+                    <input type="text" id="ex3-q4" size="30" placeholder="Type the question...">
+                    <select id="ex3-match4">
+                        <option value="">Match...</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="e">e</option>
+                    </select>
+                    <button onclick="checkAnswer('ex3-q4', 'Where is your brother going?', 'feedback-3-4', 'Correct question: Where is your brother going? It matches with b. He\'s going to a concert.', 'ex3-match4', 'b')">Submit</button>
+                    <p class="feedback" id="feedback-3-4"></p>
+                </div>
+                 <div class="question-item">
+                    5. (Who / Eun Young / talk to) <br>
+                    <input type="text" id="ex3-q5" size="30" placeholder="Type the question...">
+                     <select id="ex3-match5">
+                        <option value="">Match...</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="e">e</option>
+                    </select>
+                    <button onclick="checkAnswer('ex3-q5', 'Who is Eun Young talking to?', 'feedback-3-5', 'Correct question: Who is Eun Young talking to? It matches with c. She\'s talking to her friend.', 'ex3-match5', 'c')">Submit</button>
+                    <p class="feedback" id="feedback-3-5"></p>
+                </div>
+            </div>
+
+            <div class="exercise">
+                 <h3>EXERCISE 4: WH- QUESTIONS AND ANSWERS</h3>
+                 <p>Look at the photo. Write questions. Use the wh- words in the box and the present progressive forms of the verbs in parentheses. Use some words in the box two times.</p>
+                 <p style="text-align:center; font-weight:bold; background-color:#eee; padding: 5px;">how | what | where | who | why</p>
+                 <img src="FOG-1-18/7.png" alt="Man on a bike in a suit" class="exercise-image">
+
+                 <div class="question-item">
+                     1. A: <input type="text" id="ex4-q1" value="Where are you going right now?" size="30"> (you / go / right now)<br>
+                        B: To the store.
+                 </div>
+                 <div class="question-item">
+                     2. A: <input type="text" id="ex4-q2" placeholder="Write question..." size="30"> (you / ride a bike)<br>
+                        B: I need some exercise.
+                    <button onclick="checkAnswer('ex4-q2', 'Why are you riding a bike?', 'feedback-4-2', 'The answer gives a reason, so the question should start with Why. Correct: Why are you riding a bike?')">Submit</button>
+                    <p class="feedback" id="feedback-4-2"></p>
+                 </div>
+                 <!-- Add more questions based on the pattern if needed -->
+            </div>
+        </section>
+
+    </div>
+
+	
+<div class="container">
+    <h1>Unit 18 - Additional Practice Exercises</h1>
+    <p>Test your knowledge of Present Progressive Wh- Questions.</p>
+
+    <!-- Section A: Choose the correct Wh-word -->
+    <div class="exercise-section">
+        <h2>Part A: Choose the Correct Wh-Word</h2>
+        <p>Complete the question with <strong>What, Where, When, Why, Who,</strong> or <strong>How</strong>.</p>
+        
+        <script>
+            const partA = [
+                { q: "___ are you going? <span class='answer-context'>Answer: To the supermarket.</span>", a: "Where", h: "The answer is a place." },
+                { q: "___ is he crying? <span class='answer-context'>Answer: Because he lost his toy.</span>", a: "Why", h: "The answer gives a reason." },
+                { q: "___ are they eating? <span class='answer-context'>Answer: They're eating pizza.</span>", a: "What", h: "The answer is a thing." },
+                { q: "___ are you calling? <span class='answer-context'>Answer: I'm calling my mom.</span>", a: "Who", h: "The answer is a person." },
+                { q: "___ is she getting to the airport? <span class='answer-context'>Answer: By taxi.</span>", a: "How", h: "The answer describes a method." },
+                { q: "___ are you wearing that jacket? <span class='answer-context'>Answer: Because it's cold.</span>", a: "Why", h: "The answer gives a reason." },
+                { q: "___ is making that noise? <span class='answer-context'>Answer: My brother is.</span>", a: "Who", h: "The question asks about the person doing the action." },
+                { q: "___ are you doing? <span class='answer-context'>Answer: I'm reading a book.</span>", a: "What", h: "The answer describes an activity." },
+                { q: "___ are the children playing? <span class='answer-context'>Answer: In the garden.</span>", a: "Where", h: "The answer is a location." },
+                { q: "___ is the bus leaving? <span class='answer-context'>Answer: At 10 AM.</span>", a: "When", h: "The answer is a time." },
+                { q: "___ are you feeling today? <span class='answer-context'>Answer: I'm feeling great.</span>", a: "How", h: "The question asks about condition or manner." },
+                { q: "___ is cooking dinner tonight? <span class='answer-context'>Answer: Dad is cooking.</span>", a: "Who", h: "The question asks about the person." },
+                { q: "___ are you studying English? <span class='answer-context'>Answer: For my job.</span>", a: "Why", h: "The answer provides a purpose or reason." },
+                { q: "___ are they building over there? <span class='answer-context'>Answer: A new school.</span>", a: "What", h: "The question asks about the object being built." },
+                { q: "___ is she traveling to? <span class='answer-context'>Answer: To Paris.</span>", a: "Where", h: "The answer is a destination." },
+                { q: "___ are you listening to? <span class='answer-context'>Answer: My favorite podcast.</span>", a: "What", h: "The answer is a thing (podcast)." },
+                { q: "___ is driving the car? <span class='answer-context'>Answer: My sister is.</span>", a: "Who", h: "The subject of the action is a person." },
+                { q: "___ are they moving the furniture? <span class='answer-context'>Answer: To redecorate the room.</span>", a: "Why", h: "The answer gives a reason." },
+                { q: "___ is the team practicing? <span class='answer-context'>Answer: At the stadium.</span>", a: "Where", h: "The answer is a place." },
+                { q: "___ are you getting there so fast? <span class='answer-context'>Answer: I'm running.</span>", a: "How", h: "The answer describes the method." }
+            ];
+            for (let i = 0; i < partA.length; i++) {
+                document.write(`
+                    <div class="practice-item">
+                        <p>${i + 1}. <input type="text" id="practice-a${i}" placeholder="Wh-word..."> ${partA[i].q}</p>
+                        <button onclick="checkPracticeAnswer('practice-a${i}', '${partA[i].a}', 'feedback-pa${i}', '${partA[i].h}')">Submit</button>
+                        <div class="feedback" id="feedback-pa${i}"></div>
+                    </div>
+                `);
+            }
+        </script>
+    </div>
+
+    <!-- Section B: Form the full question -->
+    <div class="exercise-section">
+        <h2>Part B: Write the Full Question</h2>
+        <p>Use the words in parentheses to form a question in the present progressive.</p>
+        <script>
+            const partB = [
+                { q: "(What / you / do)", a: "What are you doing?", h: "Structure: Wh-word + are + you + verb-ing?" },
+                { q: "(Where / he / go)", a: "Where is he going?", h: "Use 'is' for 'he'. Add '-ing' to 'go'." },
+                { q: "(Why / they / laugh)", a: "Why are they laughing?", h: "Use 'are' for 'they'. Add '-ing' to 'laugh'." },
+                { q: "(Who / she / talk to)", a: "Who is she talking to?", h: "Structure: Who + is + she + verb-ing + to?" },
+                { q: "(How / you / travel)", a: "How are you traveling?", h: "Use 'are' for 'you'." },
+                { q: "(What / I / do / here)", a: "What am I doing here?", h: "Use 'am' with 'I'." },
+                { q: "(Where / your parents / stay)", a: "Where are your parents staying?", h: "'Your parents' is plural, so use 'are'." },
+                { q: "(Why / the baby / cry)", a: "Why is the baby crying?", h: "'The baby' is singular, so use 'is'." },
+                { q: "(Who / drive / the bus)", a: "Who is driving the bus?", h: "This question asks about the subject. Structure: Who + is + verb-ing?" },
+                { q: "(What / we / watch)", a: "What are we watching?", h: "Use 'are' for 'we'." },
+                { q: "(How / Maria / make / this cake)", a: "How is Maria making this cake?", h: "'Maria' is singular." },
+                { q: "(When / the train / arrive)", a: "When is the train arriving?", h: "'The train' is singular." },
+                { q: "(Why / you / wear / a coat)", a: "Why are you wearing a coat?", h: "Standard question with 'you'." },
+                { q: "(Where / the students / have / lunch)", a: "Where are the students having lunch?", h: "'Students' is plural. Remember to drop the 'e' in 'have'." },
+                { q: "(Who / sing / that song)", a: "Who is singing that song?", h: "Question about the subject." },
+                { q: "(What / happen)", a: "What is happening?", h: "Question about the subject event." },
+                { q: "(Why / he / run / so fast)", a: "Why is he running so fast?", h: "Remember to double the 'n' in 'run'." },
+                { q: "(Where / I / put / my keys)", a: "Where am I putting my keys?", h: "Use 'am' with 'I'." },
+                { q: "(How / they / build / that house)", a: "How are they building that house?", h: "'they' -> 'are'." },
+                { q: "(What / she / read)", a: "What is she reading?", h: "'she' -> 'is'." },
+                { q: "(Who / you / wait for)", a: "Who are you waiting for?", h: "Question with a preposition at the end." },
+                { q: "(Why / we / stop / here)", a: "Why are we stopping here?", h: "Double the 'p' in 'stop'." },
+                { q: "(Where / the dog / sleep)", a: "Where is the dog sleeping?", h: "'The dog' is singular." },
+                { q: "(What / your friend / think / about)", a: "What is your friend thinking about?", h: "'Your friend' is singular." },
+                { q: "(How / the kids / get / to school)", a: "How are the kids getting to school?", h: "'The kids' is plural." },
+                { q: "(When / you / leave)", a: "When are you leaving?", h: "Drop the 'e' in 'leave'." },
+                { q: "(Why / she / learn / Japanese)", a: "Why is she learning Japanese?", h: "'she' -> 'is'." },
+                { q: "(Who / fix / the computer)", a: "Who is fixing the computer?", h: "Question about the subject." },
+                { q: "(What / they / discuss)", a: "What are they discussing?", h: "'they' -> 'are'." },
+                { q: "(Where / you / fly / to)", a: "Where are you flying to?", h: "Standard question with 'you'." },
+                { q: "(How / he / feel)", a: "How is he feeling?", h: "'he' -> 'is'." },
+                { q: "(Why / I / always / lose / my things)", a: "Why am I always losing my things?", h: "Adverb 'always' goes between 'am' and the verb." },
+                { q: "(What / the chef / cook)", a: "What is the chef cooking?", h: "'The chef' is singular." },
+                { q: "(Where / your sister / work / now)", a: "Where is your sister working now?", h: "'Your sister' is singular." },
+                { q: "(Who / sit / on my chair)", a: "Who is sitting on my chair?", h: "Question about the subject. Double the 't' in 'sit'." },
+            ];
+
+            for (let i = 0; i < partB.length; i++) {
+                document.write(`
+                    <div class="practice-item">
+                        <p>${i + 21}. ${partB[i].q}</p>
+                        <input type="text" id="practice-b${i}" placeholder="Write the full question...">
+                        <button onclick="checkPracticeAnswer('practice-b${i}', '${partB[i].a}', 'feedback-pb${i}', 'Correct answer: ${partB[i].a}')">Submit</button>
+                        <div class="feedback" id="feedback-pb${i}"></div>
+                    </div>
+                `);
+            }
+        </script>
+    </div>
+
+    <!-- Section C: Unscramble the words -->
+    <div class="exercise-section">
+        <h2>Part C: Unscramble the Words</h2>
+        <p>Put the words in the correct order to make a question.</p>
+        <script>
+            const partC = [
+                { q: "(is / watching / he / what)", a: "What is he watching?", h: "Start with the Wh-word 'What'." },
+                { q: "(to / are / talking / who / you)", a: "Who are you talking to?", h: "The preposition 'to' usually goes at the end." },
+                { q: "(are / going / where / they)", a: "Where are they going?", h: "Structure: Wh-word + be + subject + verb-ing?" },
+                { q: "(laughing / she / is / why)", a: "Why is she laughing?", h: "Start with 'Why'." },
+                { q: "(doing / how / you / are)", a: "How are you doing?", h: "A common greeting." },
+                { q: "(is / coming / who / to the party)", a: "Who is coming to the party?", h: "This asks for the subject." },
+                { q: "(you / are / leaving / when)", a: "When are you leaving?", h: "Start with 'When'." },
+                { q: "(what / for / looking / are / they)", a: "What are they looking for?", h: "'look for' is a phrasal verb." },
+                { q: "(is / it / raining / why)", a: "Why is it raining?", h: "Use 'it' for weather." },
+                { q: "(is / he / where / hiding)", a: "Where is he hiding?", h: "Start with 'Where'." },
+                { q: "(are / making / what / you)", a: "What are you making?", h: "Start with 'What'." },
+                { q: "(that noise / who / making / is)", a: "Who is making that noise?", h: "Question about the subject." },
+                { q: "(we / going / are / which way)", a: "Which way are we going?", h: "'Which way' acts as the Wh-phrase." },
+                { q: "(you / wearing / are / why / sunglasses)", a: "Why are you wearing sunglasses?", h: "Start with 'Why'." },
+                { q: "(the children / what / are / playing)", a: "What are the children playing?", h: "The subject is 'the children'." },
+                { q: "(are / how / you / feeling)", a: "How are you feeling?", h: "Start with 'How'." },
+                { q: "(is / where / the cat / sleeping)", a: "Where is the cat sleeping?", h: "The subject is 'the cat'." },
+                { q: "(talking about / what / they / are)", a: "What are they talking about?", h: "End with the preposition 'about'." },
+                { q: "(is / who / the phone / on / talking)", a: "Who is talking on the phone?", h: "Question about the subject." },
+                { q: "(are / you / studying / what / now)", a: "What are you studying now?", h: "Start with 'What'." }
+            ];
+
+             for (let i = 0; i < partC.length; i++) {
+                document.write(`
+                    <div class="practice-item">
+                        <p>${i + 56}. ${partC[i].q}</p>
+                        <input type="text" id="practice-c${i}" placeholder="Unscramble the words...">
+                        <button onclick="checkPracticeAnswer('practice-c${i}', '${partC[i].a}', 'feedback-pc${i}', 'Correct answer: ${partC[i].a}')">Submit</button>
+                        <div class="feedback" id="feedback-pc${i}"></div>
+                    </div>
+                `);
+            }
+        </script>
+    </div>
+
+    <!-- Section D: Write a question for the answer -->
+    <div class="exercise-section">
+        <h2>Part D: Write a Question for the Answer</h2>
+        <p>Read the answer and write a suitable question in the present progressive.</p>
+        <script>
+            const partD = [
+                { q: "Answer: I'm going to the cinema.", a: "Where are you going?", h: "The answer is a place, so ask 'Where?'" },
+                { q: "Answer: She is wearing a red dress.", a: "What is she wearing?", h: "The answer is a thing, so ask 'What?'" },
+                { q: "Answer: They are leaving because they are tired.", a: "Why are they leaving?", h: "The answer gives a reason, so ask 'Why?'" },
+                { q: "Answer: He's talking to his boss.", a: "Who is he talking to?", h: "The answer is a person, so ask 'Who?'" },
+                { q: "Answer: We are traveling by train.", a: "How are you traveling?", h: "The answer is a method, so ask 'How?'" },
+                { q: "Answer: My father is driving the car.", a: "Who is driving the car?", h: "The answer is the person doing the action (subject)." },
+                { q: "Answer: I'm studying for my exam.", a: "What are you doing?", h: "A general question about activity." },
+                { q: "Answer: The kids are playing in the park.", a: "Where are the kids playing?", h: "The answer is a location." },
+                { q: "Answer: I'm feeling much better, thank you.", a: "How are you feeling?", h: "The answer describes a condition." },
+                { q: "Answer: She's cooking pasta for dinner.", a: "What is she cooking?", h: "Ask about the object." },
+                { q: "Answer: We are waiting for the bus.", a: "What are you waiting for?", h: "Ask about the object of the phrasal verb." },
+                { q: "Answer: He's listening to music.", a: "What is he listening to?", h: "Ask about the thing being listened to." },
+                { q: "Answer: I'm moving to a new city for a new job.", a: "Why are you moving?", h: "Ask for the reason." },
+                { q: "Answer: My sister is using the computer.", a: "Who is using the computer?", h: "Ask about the person (subject)." },
+                { q: "Answer: They are arriving next Tuesday.", a: "When are they arriving?", h: "The answer is a time." },
+                { q: "Answer: I'm thinking about my vacation.", a: "What are you thinking about?", h: "Ask about the topic." },
+                { q: "Answer: He is running because he is late.", a: "Why is he running?", h: "The answer gives a reason." },
+                { q: "Answer: The team is practicing their new strategy.", a: "What is the team practicing?", h: "Ask about the object." },
+                { q: "Answer: I'm sitting in the library.", a: "Where are you sitting?", h: "The answer is a place." },
+                { q: "Answer: My friend Anna is calling me.", a: "Who is calling you?", h: "Ask about the person (subject)." },
+                { q: "Answer: The sun is shining brightly today.", a: "How is the sun shining?", h: "Ask about the manner." },
+                { q: "Answer: We are visiting our grandparents this weekend.", a: "Who are you visiting?", h: "Ask about the person (object)." },
+                { q: "Answer: She is taking photos of the sunset.", a: "What is she taking photos of?", h: "Ask about the object of the action." },
+                { q: "Answer: He is working at the new cafe downtown.", a: "Where is he working?", h: "Ask about the location." },
+                { q: "Answer: They are learning Spanish for their trip to Mexico.", a: "Why are they learning Spanish?", h: "Ask for the reason." },
+            ];
+             for (let i = 0; i < partD.length; i++) {
+                document.write(`
+                    <div class="practice-item">
+                        <p>${i + 76}. ${partD[i].q}</p>
+                        <input type="text" id="practice-d${i}" placeholder="Write the question...">
+                        <button onclick="checkPracticeAnswer('practice-d${i}', '${partD[i].a}', 'feedback-pd${i}', 'A possible question is: ${partD[i].a}')">Submit</button>
+                        <div class="feedback" id="feedback-pd${i}"></div>
+                    </div>
+                `);
+            }
+        </script>
+    </div>
+
+</div>
+
+    <script>
+		
+    function normalizePracticeAnswer(answer) {
+        // Remove punctuation from the end (?.!), trim whitespace, and convert to lower case
+        return answer.trim().replace(/[.?!]$/, '').toLowerCase();
+    }
+
+    function checkPracticeAnswer(inputId, correctAnswer, feedbackId, hint) {
+        const inputElement = document.getElementById(inputId);
+        const feedbackElement = document.getElementById(feedbackId);
+        let userAnswer = inputElement.value;
+        
+        let isCorrect = normalizePracticeAnswer(userAnswer) === normalizePracticeAnswer(correctAnswer);
+
+        if (isCorrect) {
+            feedbackElement.textContent = "Correct!";
+            feedbackElement.className = 'feedback correct';
+        } else {
+            feedbackElement.innerHTML = `Incorrect. Hint: ${hint}`;
+            feedbackElement.className = 'feedback incorrect';
+        }
+    }
+
+        function normalizeAnswer(answer) {
+            // Remove punctuation from the end, trim whitespace, and convert to lower case
+            return answer.trim().replace(/[.?]$/, '').toLowerCase();
+        }
+
+        function checkAnswer(inputId, correctAnswer, feedbackId, hint, matchInputId = null, correctMatch = null) {
+            const inputElement = document.getElementById(inputId);
+            const feedbackElement = document.getElementById(feedbackId);
+            let userAnswer = inputElement.value;
+            
+            let isCorrect = false;
+            let isMatchCorrect = true; // Assume match is correct if not applicable
+
+            // For text inputs, normalize both user answer and correct answer
+            if (inputElement.type === 'text' || inputElement.type === 'textarea') {
+                isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(correctAnswer);
+            } else { // For select dropdowns
+                isCorrect = userAnswer === correctAnswer;
+            }
+
+            // Check matching part if it exists
+            if (matchInputId) {
+                const matchElement = document.getElementById(matchInputId);
+                let userMatch = matchElement.value;
+                isMatchCorrect = userMatch === correctMatch;
+            }
+
+            if (isCorrect && isMatchCorrect) {
+                feedbackElement.textContent = "Correct!";
+                feedbackElement.className = 'feedback correct';
+            } else {
+                let feedbackMessage = 'Incorrect. ';
+                if (!isCorrect) {
+                     feedbackMessage += `Hint for the question: ${hint} `;
+                }
+                if (matchInputId && !isMatchCorrect) {
+                    feedbackMessage += `Hint for matching: The correct match is '${correctMatch}'.`;
+                }
+                feedbackElement.innerHTML = feedbackMessage;
+                feedbackElement.className = 'feedback incorrect';
+            }
+        }
+    </script>
+
+</body>
+</html>
