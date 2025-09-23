@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 21: Count and Non-Count Nouns; Some and Any</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .unit-number {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #007bff;
+            margin-right: 20px;
+            line-height: 1;
+        }
+
+        .unit-title h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: #333;
+        }
+
+        .unit-title h2 {
+            margin: 5px 0 0;
+            font-size: 1.5rem;
+            color: #555;
+            font-weight: normal;
+        }
+        
+        .outcomes {
+            background-color: #e9f5ff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .outcomes h4 {
+            margin-top: 0;
+        }
+
+        .outcomes ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* Section Headers */
+        .step-header {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 30px 0 20px;
+            text-transform: uppercase;
+        }
+
+        .step-header h2 {
+            margin: 0;
+            font-size: 1.4rem;
+        }
+        
+        .section-title {
+            color: #d9534f;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Vocabulary Section */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .vocab-item img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .vocab-item p {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        
+        /* Reading Section */
+        .interview-text {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .interview-text p {
+            margin: 0 0 10px 0;
+        }
+
+        .interview-text span {
+            font-weight: bold;
+        }
+
+        .video-placeholder {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #007bff;
+            color: white;
+        }
+        .grammar-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .grammar-note-box {
+            background-color: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .grammar-note-box h3 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        .usage-note {
+            background-color: #e3f2fd;
+            border: 1px dashed #90caf9;
+            padding: 10px;
+            font-style: italic;
+        }
+        .be-careful {
+            background-color: #ffebee;
+            border: 1px solid #ef9a9a;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .be-careful span { color: #c62828; }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .exercise-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        
+        .question {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        
+        .question label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .question input[type="text"], .question select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+
+        .question button {
+            padding: 5px 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .question button:hover {
+            background-color: #0056b3;
+        }
+
+        .feedback {
+            display: none;
+            margin-top: 5px;
+            padding: 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .feedback.correct {
+            color: #155724;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+        }
+        .feedback.incorrect {
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .hint {
+            display: none;
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555;
+            font-style: italic;
+        }
+
+        /* Specific Exercise Styles */
+        #exercise1-paragraph {
+            line-height: 1.8;
+        }
+        #exercise1-paragraph .quantifier {
+            border-radius: 10px;
+            padding: 2px 5px;
+            background-color: #ffffcc;
+            border: 1px solid #f0e68c;
+        }
+        #exercise1-paragraph .noun {
+            text-decoration: underline;
+        }
+        
+        #exercise4-list u {
+            font-weight: bold;
+            text-decoration-color: #007bff;
+        }
+        
+        .editing-input {
+            width: 150px;
+        }
+
+        .review-paragraph-input {
+            width: 120px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="unit-number">21</div>
+            <div class="unit-title">
+                <h1>Count and Non-Count Nouns; Some and Any</h1>
+                <h2>FOOD</h2>
+            </div>
+        </header>
+
+        <div class="outcomes">
+            <h4>OUTCOMES</h4>
+            <ul>
+                <li>Use count and non-count nouns</li>
+                <li>Use quantifiers with count and non-count nouns</li>
+                <li>Ask and answer questions with some and any</li>
+                <li>Identify true and false sentences about a conversation</li>
+                <li>Talk about food you like and dislike</li>
+                <li>Role-play ordering food in a restaurant</li>
+                <li>Write a paragraph about your favorite meal</li>
+            </ul>
+        </div>
+        
+        <!-- ====================================================== -->
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <!-- ====================================================== -->
+        <section id="step1">
+            <div class="step-header">
+                <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+            </div>
+            
+            <h3>BEFORE YOU READ</h3>
+            <p><span class="section-title">A VOCABULARY</span> Study the words. Then work with a partner. Talk about what you usually have for breakfast, lunch, or dinner.</p>
+            <p><strong>EXAMPLE: A:</strong> I usually have eggs, toast, and coffee for breakfast.<br><strong>B:</strong> I usually have rice and vegetables for dinner.</p>
+
+            <div class="vocab-container">
+                <h4>Breakfast</h4>
+                <div class="vocab-grid">
+                    <div class="vocab-item"><img src="FOG-1-21/1.png" alt="Breakfast platter"><p>fruit, coffee, juice, toast, eggs</p></div>
+                    <div class="vocab-item"><img src="FOG-1-21/2.png" alt="Tea"><p>tea</p></div>
+                    <div class="vocab-item"><img src="FOG-1-21/3.png" alt="Milk"><p>milk</p></div>
+                    <div class="vocab-item"><img src="FOG-1-21/4.png" alt="Cereal"><p>cereal</p></div>
+                    <div class="vocab-item"><img src="FOG-1-21/5.png" alt="Yogurt"><p>yogurt</p></div>
+                </div>
+                <h4>Lunch</h4>
+                <div class="vocab-grid">
+                     <div class="vocab-item"><img src="FOG-1-21/6.png" alt="Sandwich"><p>a sandwich</p></div>
+                     <div class="vocab-item"><img src="FOG-1-21/7.png" alt="Soup"><p>soup</p></div>
+                     <div class="vocab-item"><img src="FOG-1-21/8.png" alt="Salad"><p>salad</p></div>
+                </div>
+                <h4>Dinner</h4>
+                <div class="vocab-grid">
+                    <div class="vocab-item"><img src="FOG-1-21/9.png" alt="Steak"><p>steak</p></div>
+                    <div class="vocab-item"><img src="FOG-1-21/10.png" alt="Rice"><p>rice</p></div>
+                    <div class="vocab-item"><img src="FOG-1-21/11.png" alt="Pasta"><p>pasta</p></div>
+                    <div class="vocab-item"><img src="FOG-1-21/12.png" alt="Vegetables"><p>vegetables</p></div>
+                </div>
+            </div>
+
+            <hr>
+
+            <h3>READ</h3>
+            <p>Read these interviews.</p>
+            <h4>A Healthy Meal?</h4>
+            <div class="interview-text">
+                <p><span>JESSICA:</span> Hello, everyone. This morning we're interviewing people about their eating habits. . . . Excuse me, sir, do you eat breakfast?</p>
+                <p><span>MAN:</span> Yes, I do.</p>
+                <p><span>JESSICA:</span> What do you have?</p>
+                <p><span>MAN:</span> I usually have a slice of toast and a cup of tea.</p>
+                <p><span>JESSICA:</span> That's all? Do you have any juice or anything else to drink?</p>
+                <p><span>MAN:</span> Not usually. Once in a while I have coffee instead of tea. I'm always in a hurry. Bye.</p>
+                <p><span>JESSICA:</span> OK. Thanks. Bye. Now, here's our next person. Ma'am, do you eat lunch?</p>
+                <p><span>WOMAN 1:</span> Yes, I do. I usually have a sandwich and some soup and a glass of juice.</p>
+                <p><span>JESSICA:</span> That's a light lunch. Is that all you have?</p>
+                <p><span>WOMAN 1:</span> Yes. I'm on a diet. I'm always on a diet.</p>
+                <p><span>JESSICA:</span> OK. Thank you. . . . And what about you, ma'am? What do you have for dinner?</p>
+                <p><span>WOMAN 2:</span> Well, I usually have some meat—maybe steak or chicken—and some rice or pasta.</p>
+                <p><span>JESSICA:</span> Do you eat any vegetables?</p>
+                <p><span>WOMAN 2:</span> Oh, yes, I always have vegetables—maybe some peas, or beans, or carrots.</p>
+                <p><span>JESSICA:</span> Hmm. That sounds healthy.</p>
+                <p><span>WOMAN 2:</span> Yes, I always eat a good dinner.</p>
+                <p><span>JESSICA:</span> All right, thanks. Let's see what our next person says . . .</p>
+            </div>
+            
+            <div class="video-placeholder">
+                <p>VIDEO VỀ BÀI HỘI THOẠI SẼ ĐƯỢC NHÚNG VÀO ĐÂY</p>
+                <p>(Link YouTube sẽ được cập nhật sau)</p>
+            </div>
+
+            <h3>AFTER YOU READ</h3>
+            <div class="exercise">
+                <p class="exercise-title">A COMPREHENSION Look at the interviews again. Complete the sentences. Circle the correct answers.</p>
+                
+                <div class="question" data-correct-answer="a">
+                    <p>1. It is ____.</p>
+                    <label><input type="radio" name="q1" value="a"> a. morning</label>
+                    <label><input type="radio" name="q1" value="b"> b. afternoon</label>
+                    <label><input type="radio" name="q1" value="c"> c. evening</label>
+                    <button onclick="checkRadio(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Đáp án đúng: a. morning (Jessica nói "This morning we're interviewing...")</div>
+                </div>
+
+                <div class="question" data-correct-answer="b">
+                    <p>2. The man has ____.</p>
+                    <label><input type="radio" name="q2" value="a"> a. a big breakfast</label>
+                    <label><input type="radio" name="q2" value="b"> b. a small breakfast</label>
+                    <label><input type="radio" name="q2" value="c"> c. no breakfast at all</label>
+                    <button onclick="checkRadio(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Đáp án đúng: b. a small breakfast (Anh ấy chỉ ăn một lát bánh mì nướng và uống trà.)</div>
+                </div>
+                
+                <div class="question" data-correct-answer="c">
+                    <p>3. He usually drinks ____.</p>
+                    <label><input type="radio" name="q3" value="a"> a. water</label>
+                    <label><input type="radio" name="q3" value="b"> b. coffee</label>
+                    <label><input type="radio" name="q3" value="c"> c. tea</label>
+                    <button onclick="checkRadio(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Đáp án đúng: c. tea (Anh ấy nói "a cup of tea.")</div>
+                </div>
+
+                <div class="question" data-correct-answer="b">
+                    <p>4. The first woman ____ has lunch.</p>
+                    <label><input type="radio" name="q4" value="a"> a. never</label>
+                    <label><input type="radio" name="q4" value="b"> b. always</label>
+                    <label><input type="radio" name="q4" value="c"> c. sometimes</label>
+                    <button onclick="checkRadio(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Đáp án đúng: b. always (Cô ấy nói "Yes, I do. I usually have...")</div>
+                </div>
+
+                <div class="question" data-correct-answer="a">
+                    <p>5. The second woman has ____ for dinner.</p>
+                    <label><input type="radio" name="q5" value="a"> a. rice or pasta</label>
+                    <label><input type="radio" name="q5" value="b"> b. french fries</label>
+                    <label><input type="radio" name="q5" value="c"> c. eggs</label>
+                    <button onclick="checkRadio(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Đáp án đúng: a. rice or pasta (Cô ấy nói "...and some rice or pasta.")</div>
+                </div>
+
+                <div class="question" data-correct-answer="c">
+                    <p>6. Jessica thinks the ____ has a healthy dinner.</p>
+                    <label><input type="radio" name="q6" value="a"> a. man</label>
+                    <label><input type="radio" name="q6" value="b"> b. first woman</label>
+                    <label><input type="radio" name="q6" value="c"> c. second woman</label>
+                    <button onclick="checkRadio(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Đáp án đúng: c. second woman (Jessica nói "Hmm. That sounds healthy." sau khi người phụ nữ thứ hai nói về bữa tối của mình.)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <!-- ====================================================== -->
+        <section id="step2">
+            <div class="step-header">
+                <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+            </div>
+            <h3>COUNT AND NON-COUNT NOUNS; SOME AND ANY</h3>
+            
+            <table class="grammar-table">
+                <thead>
+                    <tr><th colspan="2">Count Nouns</th><th rowspan="2">Non-count Nouns</th></tr>
+                    <tr><th>Article + Singular Noun</th><th>Plural Noun</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><b>a</b> sandwich</td><td>sandwiches</td><td>bread</td></tr>
+                    <tr><td><b>an</b> orange</td><td>oranges</td><td>yogurt</td></tr>
+                    <tr><td></td><td></td><td>water</td></tr>
+                </tbody>
+            </table>
+
+            <table class="grammar-table">
+                <thead><tr><th colspan="2">Quantifiers: Some and Any</th></tr></thead>
+                <tbody>
+                    <tr><th>Count Nouns</th><th>Non-count Nouns</th></tr>
+                    <tr>
+                        <td><b>A:</b> Do you have <b>any</b> oranges? <br><b>B:</b> Yes, I have <b>some</b>. or No, I don't have <b>any</b>.</td>
+                        <td><b>A:</b> Do you have <b>any</b> bread? <br><b>B:</b> Yes, I have <b>some</b>. or No, I don't have <b>any</b>.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>GRAMMAR NOTES</h3>
+
+            <div class="grammar-note-box">
+                <h3>1. Count Nouns</h3>
+                <p>Count nouns are easy to count. They have a <strong>singular</strong> and a <strong>plural</strong> form.</p>
+                <ul>
+                    <li>To form the plural of most count nouns, add <strong>-s</strong> or <strong>-es</strong>.</li>
+                    <li>Remember that we use <strong>a</strong> and <strong>an</strong> before singular count nouns. Use <strong>a</strong> before a word that starts with a <strong>consonant</strong> sound. Use <strong>an</strong> before a word that starts with a <strong>vowel</strong> sound.</li>
+                </ul>
+            </div>
+
+            <div class="grammar-note-box">
+                <h3>2. Non-Count Nouns</h3>
+                <p>We cannot count <strong>non-count nouns</strong> in their basic meaning.</p>
+                <ul>
+                    <li>We use <strong>singular verbs</strong> with non-count nouns.</li>
+                </ul>
+                <div class="usage-note">
+                    USAGE NOTE: We use <strong>plural count nouns</strong> or <strong>non-count nouns</strong> to talk about things we like or don't like.
+                </div>
+                 <div class="be-careful">
+                    BE CAREFUL! Don't use <em>a, an,</em> or <em>some</em> to talk about things you like or don't like.<br>
+                    I like <strong>bananas</strong>. <span>NOT</span> I like a banana.<br>
+                    I don't like <strong>yogurt</strong>. <span>NOT</span> I don't like some yogurt.
+                </div>
+            </div>
+
+            <div class="grammar-note-box">
+                <h3>3. Quantifiers</h3>
+                <p>We use <strong>quantifiers</strong> to help us count non-count nouns. Some quantifiers are:<br>
+                <em>a bag of, a cup of, a bottle of, a glass of, a slice of</em>
+                </p>
+                <p>Please bring me <strong>a bowl of cereal</strong>.<br>
+                I want <strong>a cup of coffee</strong>.<br>
+                Please bring him <strong>a slice of bread</strong>.
+                </p>
+            </div>
+            
+             <div class="grammar-note-box">
+                <h3>4. Some and Any</h3>
+                <p><strong>Some</strong> and <strong>any</strong> are also quantifiers.</p>
+                 <ul>
+                    <li>Use <strong>some</strong> in <strong>affirmative</strong> statements.</li>
+                    <li>Use <strong>any</strong> in <strong>negative</strong> statements.</li>
+                    <li>Use both <strong>some</strong> and <strong>any</strong> in questions.</li>
+                </ul>
+                <p>We use <strong>some</strong> and <strong>any</strong> with both <strong>count</strong> and <strong>non-count nouns</strong>.</p>
+                 <div class="usage-note">
+                    USAGE NOTE: We usually use <strong>some</strong> in questions when we are <strong>offering</strong> something.<br>
+                    <em>Do you want <strong>some</strong> tea? (an offer)</em>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- STEP 3: FOCUSED PRACTICE -->
+        <!-- ====================================================== -->
+        <section id="step3">
+            <div class="step-header">
+                <h2>STEP 3: FOCUSED PRACTICE</h2>
+            </div>
+            
+            <div class="exercise">
+                <p class="exercise-title">EXERCISE 1 DISCOVER THE GRAMMAR</p>
+                <p><strong>A.</strong> Read the paragraph. Underline the sixteen nouns that are food and drinks. Circle the quantifiers.</p>
+                <div id="exercise1-paragraph">
+                    My favorite <span class="noun">meal</span> is <span class="noun">lunch</span>—my big <span class="noun">meal</span> of the day. I start with <span class="quantifier">a bowl of</span> <span class="noun">soup</span>, and I usually have <span class="noun">crackers</span> with it. Next, I have <span class="quantifier">some</span> <span class="noun">meat</span>. I also have <span class="noun">vegetables</span>: maybe <span class="noun">carrots</span>, <span class="noun">peas</span>, or <span class="noun">beans</span>. I almost always have <span class="noun">rice</span>. For dessert, I sometimes have a <span class="noun">cookie</span>, and I usually have <span class="quantifier">some</span> <span class="noun">fruit</span>—<span class="quantifier">an</span> <span class="noun">orange</span>, or <span class="quantifier">an</span> <span class="noun">apple</span>, or <span class="quantifier">a</span> <span class="noun">banana</span>. Sometimes I have <span class="quantifier">a bowl of</span> <span class="noun">ice cream</span>. I usually drink <span class="quantifier">a cup of</span> <span class="noun">coffee</span>, but once in a while I have <span class="noun">tea</span>. I'm never hungry after <span class="noun">lunch</span>.
+                </div>
+                
+                <p style="margin-top: 20px;"><strong>B.</strong> Look at the paragraph in A again. Write the underlined nouns in the correct columns in the chart.</p>
+                <table class="grammar-table">
+                    <thead><tr><th>Count Nouns</th><th>Non-Count Nouns</th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>crackers, vegetables, carrots, peas, beans, cookie, orange, apple, banana</td>
+                            <td>soup, meat, rice, fruit, ice cream, coffee, tea</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">EXERCISE 2 QUANTIFIERS</p>
+                <p>Complete the conversation. Circle the correct answers.</p>
+                <div class="conversation">
+                    <p><strong>SERVER:</strong> All right, folks. What do you want to order?</p>
+                    <div class="question" data-correct-answer="some">
+                        <strong>MARY:</strong> I want a bag of / <select id="q2-1"><option value="">--</option><option value="some">some</option><option value="a_bag_of">a bag of</option></select> chicken and rice and 
+                        <select id="q2-2"><option value="">--</option><option value="a">a</option><option value="some">some</option></select> mixed vegetables. And please bring me
+                        <select id="q2-3"><option value="">--</option><option value="a_cup_of">a cup of</option><option value="a_bowl_of">a bowl of</option></select> hot tea to drink.
+                        <button onclick="checkSelect(this, ['q2-1', 'q2-2', 'q2-3'], ['some', 'some', 'a_cup_of'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: some, some, a cup of</div>
+                    </div>
+                    <p><strong>SERVER:</strong> Of course. And for you, young man?</p>
+                     <div class="question" data-correct-answer="a">
+                        <strong>BEN:</strong> I want
+                        <select id="q2-4"><option value="">--</option><option value="a">a</option><option value="some">some</option></select> tuna sandwich. Is that OK, Grandma?
+                        <button onclick="checkSelect(this, ['q2-4'], ['a'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: a</div>
+                    </div>
+                     <div class="question" data-correct-answer="any">
+                        <strong>MARY:</strong> Yes, that's fine. But how about
+                        <select id="q2-5"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> salad to go with it?
+                        <button onclick="checkSelect(this, ['q2-5'], ['any'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: any (Dùng trong câu hỏi)</div>
+                    </div>
+                    <div class="question" data-correct-answer="any,a">
+                        <strong>BEN:</strong> I don't want 
+                        <select id="q2-6"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> salad, Grandma. I don't like
+                        <select id="q2-7"><option value="">--</option><option value="a">a</option><option value="Ø">Ø</option></select> salad.
+                        <button onclick="checkSelect(this, ['q2-6', 'q2-7'], ['any', 'Ø'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: any (phủ định), Ø (nói chung chung)</div>
+                    </div>
+                    <div class="question" data-correct-answer="some,some">
+                        <strong>MARY:</strong> All right. But you need something green. Or
+                        <select id="q2-8"><option value="">--</option><option value="a">a</option><option value="some">some</option></select> fruit. Maybe
+                        <select id="q2-9"><option value="">--</option><option value="any">any</option><option value="some">some</option></select> fruit salad?
+                        <button onclick="checkSelect(this, ['q2-8', 'q2-9'], ['some', 'some'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: some (khẳng định), some (câu hỏi đề nghị)</div>
+                    </div>
+                     <div class="question" data-correct-answer="some">
+                        <strong>BEN:</strong> OK, Grandma. I like Ø /
+                        <select id="q2-10"><option value="">--</option><option value="Ø">Ø</option><option value="some">some</option></select> fruit salad.
+                        <button onclick="checkSelect(this, ['q2-10'], ['some'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: some</div>
+                    </div>
+                    <p><strong>SERVER:</strong> All right. For you, young lady?</p>
+                     <div class="question" data-correct-answer="a_slice_of,some">
+                        <strong>ANNIE:</strong> I want
+                        <select id="q2-11"><option value="">--</option><option value="a_slice_of">a slice of</option><option value="a_bowl_of">a bowl of</option></select> soup. And
+                        <select id="q2-12"><option value="">--</option><option value="any">any</option><option value="some">some</option></select> salad.
+                        <button onclick="checkSelect(this, ['q2-11', 'q2-12'], ['a_bowl_of', 'some'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: a bowl of, some</div>
+                    </div>
+                    <p><strong>SERVER:</strong> Of course. And to drink?</p>
+                     <div class="question" data-correct-answer="a_glass_of">
+                        <strong>MARY:</strong> Can you bring them each a /
+                        <select id="q2-13"><option value="">--</option><option value="a">a</option><option value="a_glass_of">a glass of</option></select> milk?
+                        <button onclick="checkSelect(this, ['q2-13'], ['a_glass_of'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: a glass of</div>
+                    </div>
+                    <p><strong>SERVER:</strong> Certainly.</p>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">EXERCISE 3 SOME OR ANY</p>
+                <p>Complete the conversation. Use <em>some</em> or <em>any</em> and the nouns in parentheses.</p>
+                <div class="conversation">
+                     <div class="question" data-correct-answer="some,things">
+                        <strong>AMANDA:</strong> Josh, we need <input type="text" id="q3-1" size="5"> <input type="text" id="q3-2" size="8"> for the party tonight. Can you go to the store now?
+                        <button onclick="checkText(this, ['q3-1', 'q3-2'], ['some', 'things'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: some things</div>
+                    </div>
+                    <div class="question" data-correct-answer="any,soda">
+                        <strong>JOSH:</strong> Sure. I know we don't have <input type="text" id="q3-3" size="5"> <input type="text" id="q3-4" size="8">. And we don't have <input type="text" id="q3-5" size="5"> <input type="text" id="q3-6" size="8">. What else?
+                        <button onclick="checkText(this, ['q3-3', 'q3-4', 'q3-5', 'q3-6'], ['any', 'soda', 'any', 'chips'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: any soda... any chips</div>
+                    </div>
+                    <div class="question" data-correct-answer="some,fruit,some,olives">
+                        <strong>AMANDA:</strong> We need <input type="text" id="q3-7" size="5"> <input type="text" id="q3-8" size="8">. And we need <input type="text" id="q3-9" size="5"> <input type="text" id="q3-10" size="8">. But let me check.... Oh, yes! Get <input type="text" id="q3-11" size="5"> <input type="text" id="q3-12" size="8">. Don't get <input type="text" id="q3-13" size="5"> <input type="text" id="q3-14" size="8">.
+                        <button onclick="checkText(this, ['q3-7', 'q3-8', 'q3-9', 'q3-10', 'q3-11', 'q3-12', 'q3-13', 'q3-14'], ['some', 'fruit', 'some', 'olives', 'some', 'black olives', 'any', 'green olives'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: some fruit... some olives... some black olives... any green olives.</div>
+                    </div>
+                     <div class="question" data-correct-answer="any,candy">
+                        <strong>JOSH:</strong> OK. Anything else? Do you want <input type="text" id="q3-15" size="5"> <input type="text" id="q3-16" size="8">?
+                        <button onclick="checkText(this, ['q3-15', 'q3-16'], ['any', 'candy'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: any candy</div>
+                    </div>
+                     <div class="question" data-correct-answer="some,chocolate candy">
+                        <strong>AMANDA:</strong> Good idea. Get <input type="text" id="q3-17" size="5"> <input type="text" id="q3-18" size="15">.
+                        <button onclick="checkText(this, ['q3-17', 'q3-18'], ['some', 'chocolate candy'])">Submit</button>
+                        <div class="feedback"></div>
+                        <div class="hint">Đáp án đúng: some chocolate candy</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">EXERCISE 5 EDITING</p>
+                <p>There are six mistakes in the conversations. The first mistake is corrected. Find and correct five more.</p>
+                <div class="question" data-correct-answer="a sandwich">
+                    <p>1. A: Do you like <del>a bagel</del> bagels?</p>
+                    <p>B: No, I don't. But I like <input class="editing-input" type="text" value="a sandwich">.</p>
+                    <button onclick="checkSimpleText(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Sửa thành: a sandwich. (Khi nói thích cái gì đó cụ thể, dùng "a/an")</div>
+                </div>
+                 <div class="question" data-correct-answer="any coffee">
+                    <p>2. A: Can I bring you some coffee?</p>
+                    <p>B: No, thanks. I don't drink <input class="editing-input" type="text" value="a coffee">.</p>
+                    <button onclick="checkSimpleText(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Sửa thành: any coffee. (Dùng "any" trong câu phủ định với danh từ không đếm được)</div>
+                </div>
+                 <div class="question" data-correct-answer="an egg">
+                    <p>3. A: Are we having <input class="editing-input" type="text" value="egg"> for lunch?</p>
+                    <p>B: Yes, we are. We're also having a yogurt.</p>
+                    <button onclick="checkSimpleText(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Sửa thành: an egg. (Egg là danh từ đếm được số ít, cần mạo từ)</div>
+                </div>
+                 <div class="question" data-correct-answer="yogurt">
+                    <p>4. A: Do we need milk?</p>
+                    <p>B: No, we don't need some milk. We're also having <input class="editing-input" type="text" value="a yogurt">.</p>
+                    <button onclick="checkSimpleText(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Sửa thành: yogurt. (Yogurt là danh từ không đếm được, không dùng "a")</div>
+                </div>
+                 <div class="question" data-correct-answer="any milk">
+                    <p>5. (From conversation 4)</p>
+                    <p>B: No, we don't need <input class="editing-input" type="text" value="some milk">.</p>
+                    <button onclick="checkSimpleText(this)">Submit</button>
+                    <div class="feedback"></div>
+                    <div class="hint">Sửa thành: any milk. (Dùng "any" trong câu phủ định)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- UNIT REVIEW -->
+        <!-- ====================================================== -->
+        <section id="review">
+            <div class="step-header">
+                <h2>UNIT 21 REVIEW</h2>
+            </div>
+            
+            <div class="exercise">
+                <p class="exercise-title">A Complete the phrases. Circle the correct answers.</p>
+                <div class="question" data-correct-answer="coffee">1. a cup of <label><input type="radio" name="r1" value="eggs"> eggs</label> / <label><input type="radio" name="r1" value="chicken"> chicken</label> / <label><input type="radio" name="r1" value="coffee"> coffee</label> / <label><input type="radio" name="r1" value="pizza"> pizza</label> <button onclick="checkRadio(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: coffee</div></div>
+                <div class="question" data-correct-answer="cereal">2. a bowl of <label><input type="radio" name="r2" value="pizza"> pizza</label> / <label><input type="radio" name="r2" value="toast"> toast</label> / <label><input type="radio" name="r2" value="cereal"> cereal</label> / <label><input type="radio" name="r2" value="steak"> steak</label> <button onclick="checkRadio(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: cereal</div></div>
+                <div class="question" data-correct-answer="pizza">3. a slice of <label><input type="radio" name="r3" value="yogurt"> yogurt</label> / <label><input type="radio" name="r3" value="candy"> candy</label> / <label><input type="radio" name="r3" value="pizza"> pizza</label> / <label><input type="radio" name="r3" value="chocolate"> chocolate</label> <button onclick="checkRadio(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: pizza</div></div>
+                <div class="question" data-correct-answer="water">4. a bottle of <label><input type="radio" name="r4" value="fruit"> fruit</label> / <label><input type="radio" name="r4" value="water"> water</label> / <label><input type="radio" name="r4" value="rice"> rice</label> / <label><input type="radio" name="r4" value="chicken"> chicken</label> <button onclick="checkRadio(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: water</div></div>
+                <div class="question" data-correct-answer="milk">5. a glass of <label><input type="radio" name="r5" value="milk"> milk</label> / <label><input type="radio" name="r5" value="salad"> salad</label> / <label><input type="radio" name="r5" value="olives"> olives</label> / <label><input type="radio" name="r5" value="eggs"> eggs</label> <button onclick="checkRadio(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: milk</div></div>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">B Complete the conversation. Circle the correct answers.</p>
+                <div class="conversation">
+                    <p><strong>A:</strong> What do you want to order?</p>
+                    <div class="question" data-correct-answer="an"><strong>B:</strong> I want <select id="rb-1"><option value="a">a</option><option value="an">an</option></select> egg salad sandwich. <button onclick="checkSelect(this, ['rb-1'], ['an'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: an (trước 'egg')</div></div>
+                    <div class="question" data-correct-answer="any,a"><strong>A:</strong> Sorry, we don't have <select id="rb-2"><option value="some">some</option><option value="any">any</option></select> eggs. How about <select id="rb-3"><option value="a">a</option><option value="an">an</option></select> chicken sandwich? <button onclick="checkSelect(this, ['rb-2', 'rb-3'], ['any', 'a'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any (phủ định), a (trước 'chicken')</div></div>
+                    <div class="question" data-correct-answer="Ø,a_cup_of"><strong>B:</strong> No, I don't like <select id="rb-4"><option value="some">some</option><option value="Ø">Ø</option></select> chicken. Just bring me a <select id="rb-5"><option value="bowl_of">bowl of</option><option value="cup_of">cup of</option></select> coffee. <button onclick="checkSelect(this, ['rb-4', 'rb-5'], ['Ø', 'cup_of'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø (nói chung chung), a cup of (đi với coffee)</div></div>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">C Correct the paragraph. There are five mistakes.</p>
+                <div class="question">
+                <p>
+                    I always drink two <input class="review-paragraph-input" type="text" value="cup" data-correct-answer="cups"> of coffee for breakfast. Usually I have an <input class="review-paragraph-input" type="text" value="cereal" data-correct-answer="cereal"> and <input class="review-paragraph-input" type="text" value="slice" data-correct-answer="a slice"> of toast. Sometimes I have fruit, like a <input class="review-paragraph-input" type="text" value="bananas" data-correct-answer="banana">. I also like any <input class="review-paragraph-input" type="text" value="milk" data-correct-answer="milk"> and yogurt.
+                </p>
+                 <button onclick="checkAllInputs(this)">Submit All Corrections</button>
+                 <div class="feedback"></div>
+                 <div class="hint">Đáp án đúng: cups, cereal, a slice, banana, milk. (Lưu ý: "cereal" không dùng "an", "milk" không dùng "any" khi nói về sở thích)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- WRITING SECTION (Placeholder as requested) -->
+        <!-- ====================================================== -->
+        <section id="writing">
+            <div class="step-header">
+                <h2>WRITING</h2>
+            </div>
+            <p>Write a paragraph about your favorite meal. What do you usually eat and drink?</p>
+            
+            <h4>Example Paragraph:</h4>
+            <div class="interview-text">
+                <p>My favorite meal of the day is dinner. I usually have dinner with my family around 7:00 p.m. I don't eat a very big meal. I often have some chicken or fish. I always have a lot of vegetables, like broccoli or carrots. Sometimes I have a bowl of rice, but I don't eat pasta. For a drink, I usually have a big glass of water. I love my dinners!</p>
+            </div>
+            
+            <div class="video-placeholder">
+                <p>VIDEO HƯỚNG DẪN VIẾT ĐOẠN VĂN SẼ ĐƯỢC NHÚNG VÀO ĐÂY</p>
+                <p>(Link YouTube sẽ được cập nhật sau)</p>
+            </div>
+        </section>
+
+		<!-- ====================================================== -->
+<!-- ADDITIONAL PRACTICE EXERCISES (100 QUESTIONS) -->
+<!-- ====================================================== -->
+<section id="extra-practice">
+    <div class="step-header">
+        <h2>Additional Practice Exercises</h2>
+    </div>
+
+    <!-- PART 1: SOME or ANY -->
+    <h3>Part 1: Choose "Some" or "Any" (Questions 1-25)</h3>
+    <div class="exercise">
+        <div class="question" data-correct-answer="some">
+            <p>1. I need to buy <select id="ex-q1"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> bread for dinner.</p>
+            <button onclick="checkSelect(this, ['ex-q1'], ['some'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div>
+        </div>
+        <div class="question" data-correct-answer="any">
+            <p>2. Do you have <select id="ex-q2"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> questions for me?</p>
+            <button onclick="checkSelect(this, ['ex-q2'], ['any'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: any. Dùng "any" trong câu hỏi.</div>
+        </div>
+        <div class="question" data-correct-answer="any">
+            <p>3. We don't have <select id="ex-q3"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> milk left in the fridge.</p>
+            <button onclick="checkSelect(this, ['ex-q3'], ['any'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định.</div>
+        </div>
+        <div class="question" data-correct-answer="some">
+            <p>4. Would you like <select id="ex-q4"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> more coffee? (Offer)</p>
+            <button onclick="checkSelect(this, ['ex-q4'], ['some'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: some. Dùng "some" trong câu hỏi mang tính chất mời/đề nghị.</div>
+        </div>
+        <div class="question" data-correct-answer="some">
+            <p>5. She bought <select id="ex-q5"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> beautiful flowers at the market.</p>
+            <button onclick="checkSelect(this, ['ex-q5'], ['some'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div>
+        </div>
+        <div class="question" data-correct-answer="any">
+            <p>6. Is there <select id="ex-q6"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> sugar in this tea?</p>
+            <button onclick="checkSelect(this, ['ex-q6'], ['any'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: any. Dùng "any" trong câu hỏi.</div>
+        </div>
+        <div class="question" data-correct-answer="any">
+            <p>7. I can't find <select id="ex-q7"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> clean socks.</p>
+            <button onclick="checkSelect(this, ['ex-q7'], ['any'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định.</div>
+        </div>
+        <div class="question" data-correct-answer="some">
+            <p>8. There are <select id="ex-q8"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> letters for you on the table.</p>
+            <button onclick="checkSelect(this, ['ex-q8'], ['some'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div>
+        </div>
+        <div class="question" data-correct-answer="any">
+            <p>9. He left without saying <select id="ex-q9"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> word.</p>
+            <button onclick="checkSelect(this, ['ex-q9'], ['any'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định (without...).</div>
+        </div>
+        <div class="question" data-correct-answer="some">
+            <p>10. Can I have <select id="ex-q10"><option value="">--</option><option value="some">some</option><option value="any">any</option></select> water, please? (Request)</p>
+            <button onclick="checkSelect(this, ['ex-q10'], ['some'])">Submit</button>
+            <div class="feedback"></div>
+            <div class="hint">Đáp án đúng: some. Dùng "some" trong câu hỏi mang tính chất yêu cầu.</div>
+        </div>
+        <!-- Add more questions 11-25 following the pattern -->
+        <div class="question" data-correct-answer="any"><p>11. Are there <input type="text" size="4" id="ex-q11"> good movies playing tonight?</p><button onclick="checkText(this, ['ex-q11'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu hỏi.</div></div>
+        <div class="question" data-correct-answer="some"><p>12. I have <input type="text" size="4" id="ex-q12"> news for you.</p><button onclick="checkText(this, ['ex-q12'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div></div>
+        <div class="question" data-correct-answer="any"><p>13. My brother never does <input type="text" size="4" id="ex-q13"> homework.</p><button onclick="checkText(this, ['ex-q13'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định (never).</div></div>
+        <div class="question" data-correct-answer="some"><p>14. We need <input type="text" size="4" id="ex-q14"> help with this project.</p><button onclick="checkText(this, ['ex-q14'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div></div>
+        <div class="question" data-correct-answer="any"><p>15. There isn't <input type="text" size="4" id="ex-q15"> time to waste.</p><button onclick="checkText(this, ['ex-q15'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định.</div></div>
+        <div class="question" data-correct-answer="some"><p>16. Please put <input type="text" size="4" id="ex-q16"> salt in the soup.</p><button onclick="checkText(this, ['ex-q16'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định/yêu cầu.</div></div>
+        <div class="question" data-correct-answer="any"><p>17. I didn't eat <input type="text" size="4" id="ex-q17"> breakfast this morning.</p><button onclick="checkText(this, ['ex-q17'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định.</div></div>
+        <div class="question" data-correct-answer="some"><p>18. They made <input type="text" size="4" id="ex-q18"> delicious cookies.</p><button onclick="checkText(this, ['ex-q18'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div></div>
+        <div class="question" data-correct-answer="any"><p>19. Did you see <input type="text" size="4" id="ex-q19"> birds in the park?</p><button onclick="checkText(this, ['ex-q19'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu hỏi.</div></div>
+        <div class="question" data-correct-answer="some"><p>20. Could you lend me <input type="text" size="4" id="ex-q20"> money? (Request)</p><button onclick="checkText(this, ['ex-q20'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong câu hỏi mang tính yêu cầu.</div></div>
+        <div class="question" data-correct-answer="any"><p>21. I don't want <input type="text" size="4" id="ex-q21"> trouble.</p><button onclick="checkText(this, ['ex-q21'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định.</div></div>
+        <div class="question" data-correct-answer="some"><p>22. There's <input type="text" size="4" id="ex-q22"> yogurt in the fridge if you're hungry.</p><button onclick="checkText(this, ['ex-q22'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div></div>
+        <div class="question" data-correct-answer="any"><p>23. Have you read <input type="text" size="4" id="ex-q23"> good books recently?</p><button onclick="checkText(this, ['ex-q23'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu hỏi.</div></div>
+        <div class="question" data-correct-answer="any"><p>24. She doesn't have <input type="text" size="4" id="ex-q24"> brothers or sisters.</p><button onclick="checkText(this, ['ex-q24'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định.</div></div>
+        <div class="question" data-correct-answer="some"><p>25. Let's listen to <input type="text" size="4" id="ex-q25"> music.</p><button onclick="checkText(this, ['ex-q25'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong câu khẳng định.</div></div>
+    </div>
+
+    <!-- PART 2: a/an/some/Ø -->
+    <h3>Part 2: Choose "a", "an", "some", or "Ø" (no article) (Questions 26-50)</h3>
+    <div class="exercise">
+        <div class="question" data-correct-answer="an"><p>26. She is eating <select id="ex-q26"><option value="a">a</option><option value="an">an</option><option value="some">some</option><option value="Ø">Ø</option></select> apple.</p><button onclick="checkSelect(this, ['ex-q26'], ['an'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: an. Dùng "an" trước danh từ đếm được số ít bắt đầu bằng nguyên âm.</div></div>
+        <div class="question" data-correct-answer="Ø"><p>27. I like <select id="ex-q27"><option value="a">a</option><option value="an">an</option><option value="some">some</option><option value="Ø">Ø</option></select> cheese.</p><button onclick="checkSelect(this, ['ex-q27'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø. Không dùng mạo từ khi nói về sở thích chung với danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="some"><p>28. I need to buy <select id="ex-q28"><option value="a">a</option><option value="an">an</option><option value="some">some</option><option value="Ø">Ø</option></select> water.</p><button onclick="checkSelect(this, ['ex-q28'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" với danh từ không đếm được trong câu khẳng định.</div></div>
+        <div class="question" data-correct-answer="a"><p>29. He is <select id="ex-q29"><option value="a">a</option><option value="an">an</option><option value="some">some</option><option value="Ø">Ø</option></select> doctor.</p><button onclick="checkSelect(this, ['ex-q29'], ['a'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a. Dùng "a" trước danh từ đếm được số ít chỉ nghề nghiệp.</div></div>
+        <div class="question" data-correct-answer="Ø"><p>30. <select id="ex-q30"><option value="a">a</option><option value="an">an</option><option value="some">some</option><option value="Ø">Ø</option></select> dogs are friendly animals.</p><button onclick="checkSelect(this, ['ex-q30'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø. Không dùng mạo từ khi nói về một nhóm chung (danh từ đếm được số nhiều).</div></div>
+        <!-- Add more questions 31-50 -->
+        <div class="question" data-correct-answer="some"><p>31. Can you give me <input type="text" size="4" id="ex-q31"> advice?</p><button onclick="checkText(this, ['ex-q31'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. 'Advice' là danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="an"><p>32. It was <input type="text" size="4" id="ex-q32"> interesting movie.</p><button onclick="checkText(this, ['ex-q32'], ['an'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: an. Bắt đầu bằng nguyên âm "i".</div></div>
+        <div class="question" data-correct-answer="a"><p>33. I saw <input type="text" size="4" id="ex-q33"> beautiful bird in the garden.</p><button onclick="checkText(this, ['ex-q33'], ['a'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a. Bắt đầu bằng phụ âm "b".</div></div>
+        <div class="question" data-correct-answer="Ø"><p>34. <input type="text" size="4" id="ex-q34"> information is key to success.</p><button onclick="checkText(this, ['ex-q34'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø (hoặc Some). Khi nói chung chung, không cần mạo từ. 'Information' là danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="some"><p>35. We need to buy <input type="text" size="4" id="ex-q35"> new furniture.</p><button onclick="checkText(this, ['ex-q35'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. 'Furniture' là danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="a"><p>36. I have <input type="text" size="4" id="ex-q36"> great idea!</p><button onclick="checkText(this, ['ex-q36'], ['a'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a. 'Idea' là danh từ đếm được số ít.</div></div>
+        <div class="question" data-correct-answer="Ø"><p>37. She loves listening to <input type="text" size="4" id="ex-q37"> music.</p><button onclick="checkText(this, ['ex-q37'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø. Khi nói về sở thích chung với danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="an"><p>38. My father is <input type="text" size="4" id="ex-q38"> honest man.</p><button onclick="checkText(this, ['ex-q38'], ['an'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: an. 'Honest' bắt đầu bằng âm câm /h/, nên tính theo nguyên âm /o/.</div></div>
+        <div class="question" data-correct-answer="some"><p>39. There is <input type="text" size="4" id="ex-q39"> pasta left for you.</p><button onclick="checkText(this, ['ex-q39'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. 'Pasta' là danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="Ø"><p>40. I don't drink <input type="text" size="4" id="ex-q40"> coffee.</p><button onclick="checkText(this, ['ex-q40'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø. Khi nói về thói quen/sở thích chung. (Any coffee cũng có thể chấp nhận trong văn nói).</div></div>
+        <div class="question" data-correct-answer="a"><p>41. That is <input type="text" size="4" id="ex-q41"> university.</p><button onclick="checkText(this, ['ex-q41'], ['a'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a. 'University' bắt đầu bằng âm /j/, là một phụ âm.</div></div>
+        <div class="question" data-correct-answer="some"><p>42. He put <input type="text" size="4" id="ex-q42"> sugar in his tea.</p><button onclick="checkText(this, ['ex-q42'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. 'Sugar' là danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="Ø"><p>43. <input type="text" size="4" id="ex-q43"> children need love and care.</p><button onclick="checkText(this, ['ex-q43'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø. Nói chung về trẻ em.</div></div>
+        <div class="question" data-correct-answer="an"><p>44. I need to make <input type="text" size="4" id="ex-q44"> urgent phone call.</p><button onclick="checkText(this, ['ex-q44'], ['an'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: an. 'Urgent' bắt đầu bằng nguyên âm.</div></div>
+        <div class="question" data-correct-answer="some"><p>45. There were <input type="text" size="4" id="ex-q45"> people waiting outside.</p><button onclick="checkText(this, ['ex-q45'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng với danh từ đếm được số nhiều.</div></div>
+        <div class="question" data-correct-answer="a"><p>46. What <input type="text" size="4" id="ex-q46"> lovely day!</p><button onclick="checkText(this, ['ex-q46'], ['a'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a. Dùng trong câu cảm thán với danh từ đếm được số ít.</div></div>
+        <div class="question" data-correct-answer="Ø"><p>47. Do you speak <input type="text" size="4" id="ex-q47"> English?</p><button onclick="checkText(this, ['ex-q47'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø. Không dùng mạo từ trước tên ngôn ngữ.</div></div>
+        <div class="question" data-correct-answer="some"><p>48. Can I have <input type="text" size="4" id="ex-q48"> rice with my chicken?</p><button onclick="checkText(this, ['ex-q48'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. 'Rice' là danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="an"><p>49. It takes about <input type="text" size="4" id="ex-q49"> hour to get there.</p><button onclick="checkText(this, ['ex-q49'], ['an'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: an. 'Hour' bắt đầu bằng âm câm /h/.</div></div>
+        <div class="question" data-correct-answer="Ø"><p>50. <input type="text" size="4" id="ex-q50"> life can be complicated.</p><button onclick="checkText(this, ['ex-q50'], ['Ø'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: Ø. Khi nói về "life" một cách chung chung, trừu tượng.</div></div>
+    </div>
+
+    <!-- PART 3: Countable (plural) vs Uncountable nouns -->
+    <h3>Part 3: Fill in the blanks with the correct noun form (Questions 51-70)</h3>
+    <div class="exercise">
+        <div class="question" data-correct-answer="potatoes"><p>51. We need three (potato) <input type="text" id="ex-q51" size="10"> for the soup.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: potatoes. Danh từ đếm được, số nhiều.</div></div>
+        <div class="question" data-correct-answer="information"><p>52. Can you give me some (information) <input type="text" id="ex-q52" size="12"> about the hotel?</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: information. Danh từ không đếm được, không có số nhiều.</div></div>
+        <div class="question" data-correct-answer="sandwiches"><p>53. She made two (sandwich) <input type="text" id="ex-q53" size="12"> for lunch.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: sandwiches. Danh từ đếm được, số nhiều.</div></div>
+        <div class="question" data-correct-answer="advice"><p>54. My teacher gave me some good (advice) <input type="text" id="ex-q54" size="8">.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: advice. Danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="children"><p>55. The (child) <input type="text" id="ex-q55" size="10"> are playing in the park.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: children. Đây là danh từ số nhiều bất quy tắc.</div></div>
+        <!-- Add more questions 56-70 -->
+        <div class="question" data-correct-answer="teeth"><p>56. You should brush your (tooth) <input type="text" id="ex-q56" size="6"> twice a day.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: teeth. Số nhiều bất quy tắc.</div></div>
+        <div class="question" data-correct-answer="money"><p>57. How much (money) <input type="text" id="ex-q57" size="7"> do you have?</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: money. Danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="tomatoes"><p>58. I bought some fresh (tomato) <input type="text" id="ex-q58" size="10">.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: tomatoes. Số nhiều của 'tomato'.</div></div>
+        <div class="question" data-correct-answer="news"><p>59. The (news) <input type="text" id="ex-q59" size="6"> is on at 6 p.m.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: news. Danh từ không đếm được, luôn đi với động từ số ít.</div></div>
+        <div class="question" data-correct-answer="loaves"><p>60. Please buy two (loaf) <input type="text" id="ex-q60" size="8"> of bread.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: loaves. Số nhiều của 'loaf'.</div></div>
+        <div class="question" data-correct-answer="sheep"><p>61. The farmer has a lot of (sheep) <input type="text" id="ex-q61" size="8">.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: sheep. Số ít và số nhiều như nhau.</div></div>
+        <div class="question" data-correct-answer="parties"><p>62. We are going to two (party) <input type="text" id="ex-q62" size="8"> this weekend.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: parties. Số nhiều của 'party'.</div></div>
+        <div class="question" data-correct-answer="luggage"><p>63. My (luggage) <input type="text" id="ex-q63" size="10"> is very heavy.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: luggage. Danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="people"><p>64. How many (person) <input type="text" id="ex-q64" size="8"> are coming?</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: people. Số nhiều bất quy tắc.</div></div>
+        <div class="question" data-correct-answer="fruit"><p>65. You should eat more (fruit) <input type="text" id="ex-q65" size="7"> and vegetables.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: fruit. Thường dùng như danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="boxes"><p>66. There are three (box) <input type="text" id="ex-q66" size="7"> on the floor.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: boxes. Số nhiều của 'box'.</div></div>
+        <div class="question" data-correct-answer="homework"><p>67. I have a lot of (homework) <input type="text" id="ex-q67" size="10"> to do.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: homework. Danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="women"><p>68. Two (woman) <input type="text" id="ex-q68" size="7"> were talking at the bus stop.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: women. Số nhiều bất quy tắc.</div></div>
+        <div class="question" data-correct-answer="rice"><p>69. Would you like some (rice) <input type="text" id="ex-q69" size="6"> with your meal?</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: rice. Danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="leaves"><p>70. The (leaf) <input type="text" id="ex-q70" size="8"> are turning yellow in autumn.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: leaves. Số nhiều của 'leaf'.</div></div>
+    </div>
+    
+    <!-- PART 4: Quantifying phrases -->
+    <h3>Part 4: Use Quantifying Phrases (a cup of, a slice of, etc.) (Questions 71-85)</h3>
+    <div class="exercise">
+        <div class="question" data-correct-answer="a cup of"><p>71. I always start my day with <input type="text" id="ex-q71" size="10"> coffee.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a cup of. Dùng cho đồ uống nóng.</div></div>
+        <div class="question" data-correct-answer="a slice of"><p>72. Can I have <input type="text" id="ex-q72" size="10"> pizza?</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a slice of. Dùng cho pizza, bánh mì, bánh ngọt.</div></div>
+        <div class="question" data-correct-answer="a glass of"><p>73. He drank <input type="text" id="ex-q73" size="10"> water after running.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a glass of. Dùng cho đồ uống lạnh.</div></div>
+        <div class="question" data-correct-answer="a bowl of"><p>74. She is eating <input type="text" id="ex-q74" size="10"> soup.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a bowl of. Dùng cho súp, ngũ cốc, cơm.</div></div>
+        <div class="question" data-correct-answer="a bottle of"><p>75. We bought <input type="text" id="ex-q75" size="12"> mineral water at the store.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a bottle of. Nước đóng chai.</div></div>
+        <!-- Add more questions 76-85 -->
+        <div class="question" data-correct-answer="a piece of"><p>76. He gave me <input type="text" id="ex-q76" size="12"> good advice.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a piece of. Dùng để đếm danh từ không đếm được như advice, information, furniture.</div></div>
+        <div class="question" data-correct-answer="a loaf of"><p>77. My mom baked <input type="text" id="ex-q77" size="10"> bread.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a loaf of. Dùng cho ổ bánh mì.</div></div>
+        <div class="question" data-correct-answer="a can of"><p>78. I need <input type="text" id="ex-q78" size="8"> soda.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a can of. Nước ngọt đóng lon.</div></div>
+        <div class="question" data-correct-answer="a bar of"><p>79. I'd like to buy <input type="text" id="ex-q79" size="8"> chocolate.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a bar of. Sô cô la dạng thanh.</div></div>
+        <div class="question" data-correct-answer="a bag of"><p>80. We need <input type="text" id="ex-q80" size="8"> rice.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a bag of. Gạo, khoai tây chiên, đường thường được đóng gói trong túi.</div></div>
+        <div class="question" data-correct-answer="a carton of"><p>81. Please get <input type="text" id="ex-q81" size="12"> milk from the store.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a carton of. Sữa, nước trái cây thường được đóng trong hộp giấy.</div></div>
+        <div class="question" data-correct-answer="a jar of"><p>82. There is <input type="text" id="ex-q82" size="8"> jam in the cupboard.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a jar of. Mứt, mật ong thường được đựng trong lọ thủy tinh.</div></div>
+        <div class="question" data-correct-answer="a bowl of"><p>83. My favorite breakfast is <input type="text" id="ex-q83" size="10"> cereal.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a bowl of.</div></div>
+        <div class="question" data-correct-answer="a slice of"><p>84. Would you like <input type="text" id="ex-q84" size="10"> toast with your eggs?</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a slice of.</div></div>
+        <div class="question" data-correct-answer="a piece of"><p>85. The table is <input type="text" id="ex-q85" size="10"> furniture.</p><button onclick="checkSimpleText(this)">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a piece of.</div></div>
+    </div>
+
+    <!-- PART 5: Error Correction -->
+    <h3>Part 5: Find and Correct the Mistake (Questions 86-100)</h3>
+    <div class="exercise">
+        <div class="question" data-correct-answer="any"><p>86. I don't have <input type="text" value="some" size="4" id="ex-q86"> money. (Correct the wrong word)</p><button onclick="checkText(this, ['ex-q86'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng "any" trong câu phủ định.</div></div>
+        <div class="question" data-correct-answer="a glass of water"><p>87. Can I have <input type="text" value="a water" size="15" id="ex-q87">, please? (Correct the phrase)</p><button onclick="checkText(this, ['ex-q87'], ['a glass of water'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a glass of water. Phải dùng cụm từ định lượng với 'water'.</div></div>
+        <div class="question" data-correct-answer="information"><p>88. He gave me a lot of <input type="text" value="informations" size="12" id="ex-q88">. (Correct the noun)</p><button onclick="checkText(this, ['ex-q88'], ['information'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: information. Là danh từ không đếm được, không có 's'.</div></div>
+        <div class="question" data-correct-answer="an"><p>89. She is <input type="text" value="a" size="2" id="ex-q89"> honest person. (Correct the article)</p><button onclick="checkText(this, ['ex-q89'], ['an'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: an. 'Honest' bắt đầu bằng âm câm /h/.</div></div>
+        <div class="question" data-correct-answer="is"><p>90. The news <input type="text" value="are" size="3" id="ex-q90"> very interesting. (Correct the verb)</p><button onclick="checkText(this, ['ex-q90'], ['is'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: is. 'News' là danh từ không đếm được, đi với động từ số ít.</div></div>
+        <!-- Add more questions 91-100 -->
+        <div class="question" data-correct-answer="homework"><p>91. I have too many <input type="text" value="homeworks" size="10" id="ex-q91">. (Correct the noun)</p><button onclick="checkText(this, ['ex-q91'], ['homework'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: homework. Là danh từ không đếm được. Dùng 'much homework'.</div></div>
+        <div class="question" data-correct-answer="some"><p>92. Would you like <input type="text" value="any" size="4" id="ex-q92"> more tea? (Correct the word)</p><button onclick="checkText(this, ['ex-q92'], ['some'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: some. Dùng "some" trong lời mời.</div></div>
+        <div class="question" data-correct-answer="potatoes"><p>93. I like <input type="text" value="potato" size="8" id="ex-q93">. (Correct the noun)</p><button onclick="checkText(this, ['ex-q93'], ['potatoes'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: potatoes. Khi nói về sở thích chung, dùng danh từ số nhiều.</div></div>
+        <div class="question" data-correct-answer="advice"><p>94. Can you give me an <input type="text" value="advices" size="8" id="ex-q94">? (Correct the noun)</p><button onclick="checkText(this, ['ex-q94'], ['advice'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: advice. Không đếm được. Dùng 'some advice' hoặc 'a piece of advice'.</div></div>
+        <div class="question" data-correct-answer="a cup of tea"><p>95. I'd like <input type="text" value="a tea" size="12" id="ex-q95">. (Correct the phrase)</p><button onclick="checkText(this, ['ex-q95'], ['a cup of tea'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a cup of tea. Phải dùng cụm từ định lượng.</div></div>
+        <div class="question" data-correct-answer="any"><p>96. There aren't <input type="text" value="some" size="5" id="ex-q96"> chairs in the room. (Correct the word)</p><button onclick="checkText(this, ['ex-q96'], ['any'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: any. Dùng trong câu phủ định.</div></div>
+        <div class="question" data-correct-answer="luggage"><p>97. Where is my <input type="text" value="luggages" size="10" id="ex-q97">? (Correct the noun)</p><button onclick="checkText(this, ['ex-q97'], ['luggage'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: luggage. Là danh từ không đếm được.</div></div>
+        <div class="question" data-correct-answer="a"><p>98. He is <input type="text" value="an" size="3" id="ex-q98"> European student. (Correct the article)</p><button onclick="checkText(this, ['ex-q98'], ['a'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: a. 'European' bắt đầu bằng âm /j/, là một phụ âm.</div></div>
+        <div class="question" data-correct-answer="people"><p>99. There are many <input type="text" value="persons" size="8" id="ex-q99"> here. (Correct the noun)</p><button onclick="checkText(this, ['ex-q99'], ['people'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: people. Là dạng số nhiều phổ biến hơn của 'person'.</div></div>
+        <div class="question" data-correct-answer="is"><p>100. The furniture in this room <input type="text" value="are" size="3" id="ex-q100"> very old. (Correct the verb)</p><button onclick="checkText(this, ['ex-q100'], ['is'])">Submit</button><div class="feedback"></div><div class="hint">Đáp án đúng: is. 'Furniture' là danh từ không đếm được, đi với động từ số ít.</div></div>
+    </div>
+</section>
+
+    </div>
+
+    <script>
+        function showFeedback(element, isCorrect, hintText) {
+            const feedbackEl = element.querySelector('.feedback');
+            const hintEl = element.querySelector('.hint');
+            
+            feedbackEl.style.display = 'block';
+            if (isCorrect) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+                if (hintEl) hintEl.style.display = 'none';
+            } else {
+                feedbackEl.textContent = 'Incorrect. Try again.';
+                feedbackEl.className = 'feedback incorrect';
+                if (hintEl) {
+                    hintEl.textContent = hintText;
+                    hintEl.style.display = 'block';
+                }
+            }
+        }
+
+        function checkRadio(button) {
+            const questionDiv = button.closest('.question');
+            const correctAnswer = questionDiv.dataset.correctAnswer;
+            const selected = questionDiv.querySelector('input[type="radio"]:checked');
+            const hintText = questionDiv.querySelector('.hint').textContent;
+
+            if (!selected) {
+                alert('Please select an answer.');
+                return;
+            }
+            
+            showFeedback(questionDiv, selected.value === correctAnswer, hintText);
+        }
+
+        function checkSelect(button, selectIds, correctAnswers) {
+            const questionDiv = button.closest('.question');
+            const hintText = questionDiv.querySelector('.hint').textContent;
+            let allCorrect = true;
+
+            for (let i = 0; i < selectIds.length; i++) {
+                const selectEl = document.getElementById(selectIds[i]);
+                if (selectEl.value.toLowerCase().trim() !== correctAnswers[i].toLowerCase().trim()) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+            showFeedback(questionDiv, allCorrect, hintText);
+        }
+
+        function checkText(button, inputIds, correctAnswers) {
+            const questionDiv = button.closest('.question');
+            const hintText = questionDiv.querySelector('.hint').textContent;
+            let allCorrect = true;
+
+            for (let i = 0; i < inputIds.length; i++) {
+                const inputEl = document.getElementById(inputIds[i]);
+                if (inputEl.value.toLowerCase().trim() !== correctAnswers[i].toLowerCase().trim()) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+            showFeedback(questionDiv, allCorrect, hintText);
+        }
+
+        function checkSimpleText(button) {
+            const questionDiv = button.closest('.question');
+            const inputEl = questionDiv.querySelector('input[type="text"]');
+            const correctAnswer = inputEl.dataset.correctAnswer || questionDiv.dataset.correctAnswer;
+            const hintText = questionDiv.querySelector('.hint').textContent;
+            
+            const isCorrect = inputEl.value.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
+            showFeedback(questionDiv, isCorrect, hintText);
+        }
+
+        function checkAllInputs(button) {
+             const questionDiv = button.closest('.question');
+             const inputs = questionDiv.querySelectorAll('input[type="text"]');
+             const hintText = questionDiv.querySelector('.hint').textContent;
+             let allCorrect = true;
+
+             inputs.forEach(input => {
+                 const correctAnswer = input.dataset.correctAnswer;
+                 if (input.value.trim().toLowerCase() !== correctAnswer.trim().toLowerCase()) {
+                     allCorrect = false;
+                     // Optional: style the incorrect input
+                     input.style.border = '2px solid red';
+                 } else {
+                     input.style.border = '1px solid #ccc';
+                 }
+             });
+
+             showFeedback(questionDiv, allCorrect, hintText);
+        }
+
+    </script>
+
+</body>
+</html>
