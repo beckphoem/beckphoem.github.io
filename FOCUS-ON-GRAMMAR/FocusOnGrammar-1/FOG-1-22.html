@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 22: A, An, and The; One and Ones</title>
+    <style>
+        :root {
+            --primary-color: #005a9e;
+            --secondary-color: #f7941d;
+            --accent-color: #8dc63f;
+            --text-color: #333;
+            --light-bg: #f4f4f9;
+            --border-color: #ddd;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            background-color: #e9eef2;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Header Styles --- */
+        .unit-header {
+            display: flex;
+            align-items: flex-start;
+            border-bottom: 4px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .unit-number {
+            font-size: 8rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            line-height: 0.8;
+            margin-right: 20px;
+        }
+
+        .unit-title-group {
+            flex-grow: 1;
+        }
+
+        .unit-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .unit-subtitle {
+            font-size: 1.5rem;
+            color: #555;
+            margin: 5px 0 0 0;
+        }
+
+        .outcomes {
+            background-color: var(--light-bg);
+            border-left: 5px solid var(--accent-color);
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .outcomes h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .outcomes ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* --- Section Styles --- */
+        .step-header {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .step-header .step {
+            background-color: #333;
+            padding: 5px 15px;
+            border-radius: 3px;
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .section-title {
+            background-color: #f0f0f0;
+            color: var(--secondary-color);
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        /* --- Vocabulary Section --- */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .vocab-item {
+            text-align: center;
+        }
+
+        .vocab-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .vocab-item p {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+        /* --- Reading Section --- */
+        .reading-article {
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            columns: 2;
+            column-gap: 30px;
+        }
+
+        .reading-article h2, .reading-article h3 {
+             column-span: all;
+        }
+        
+        .reading-article p, .reading-article ul {
+            break-inside: avoid;
+        }
+        
+        .video-container {
+            margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* --- Grammar Presentation --- */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        .grammar-table td {
+            background-color: #f9f9f9;
+        }
+        
+        .grammar-note, .pronunciation-note {
+            background: #eef7ff;
+            border-left: 5px solid var(--primary-color);
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .pronunciation-note {
+            background: #fff8e1;
+            border-left-color: var(--secondary-color);
+        }
+        
+        .grammar-note h3 {
+            margin-top: 0;
+        }
+        
+        .example {
+            border: 1px dashed var(--border-color);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background: #fff;
+        }
+        .be-careful {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* --- Exercises --- */
+        .exercise-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: var(--light-bg);
+            border-radius: 8px;
+        }
+        
+        .exercise-item ol, .exercise-item ul {
+            padding-left: 20px;
+        }
+
+        .exercise-item li {
+            margin-bottom: 15px;
+        }
+
+        input[type="text"], select {
+            padding: 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            margin: 0 5px;
+            min-width: 100px;
+        }
+        
+        .submit-btn {
+            padding: 8px 15px;
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #e68a00;
+        }
+
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .feedback-correct {
+            color: #28a745;
+            background-color: #e9f7eb;
+        }
+        .feedback-incorrect {
+            color: #dc3545;
+            background-color: #fdecea;
+        }
+        
+        .conversation {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        
+        .conversation p { margin: 5px 0; }
+        .conversation strong { color: var(--primary-color); }
+        
+        /* Writing Section */
+        #writing-analysis-output ol {
+            background: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #writing-analysis-output li {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #ccc;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ==================== HEADER ==================== -->
+        <header class="unit-header">
+            <div class="unit-number">22</div>
+            <div class="unit-title-group">
+                <h1 class="unit-title">A, An, and The; One and Ones</h1>
+                <h2 class="unit-subtitle">SHOPPING</h2>
+                <div class="outcomes">
+                    <h3>OUTCOMES</h3>
+                    <ul>
+                        <li>Use the indefinite articles <strong>an/a</strong> and the definite article <strong>the</strong></li>
+                        <li>Use <strong>one</strong> to replace a singular noun and <strong>ones</strong> to replace a plural noun</li>
+                        <li>Identify true and false sentences about a reading</li>
+                        <li>Complete sentences about a conversation</li>
+                        <li>Talk about shopping</li>
+                        <li>Write a conversation about things you want to buy</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- ==================== STEP 1: GRAMMAR IN CONTEXT ==================== -->
+            <section id="step1">
+                <div class="step-header"><span class="step">STEP 1</span> GRAMMAR IN CONTEXT</div>
+                <h3 class="section-title">BEFORE YOU READ</h3>
+                <h4>A VOCABULARY</h4>
+                <p>Study the words. Then complete the sentences with the words.</p>
+                <div class="vocab-grid">
+                    <div class="vocab-item">
+                        <img src="FOG-1-22/1.png" alt="A woman ordering something online with a credit card.">
+                        <p>order online</p>
+                    </div>
+                    <div class="vocab-item">
+                        <img src="FOG-1-22/2.png" alt="A woman trying on a yellow dress in front of a mirror.">
+                        <p>try on</p>
+                    </div>
+                    <div class="vocab-item">
+                        <img src="FOG-1-22/3.png" alt="A man paying for a shirt at a store counter.">
+                        <p>pay for</p>
+                    </div>
+                    <div class="vocab-item">
+                        <img src="FOG-1-22/4.png" alt="A woman returning an item to a store clerk.">
+                        <p>return</p>
+                    </div>
+                </div>
+
+                <div class="exercise-item">
+                    <ol>
+                        <li><input type="text" id="vocab-1-input"> that shirt before you buy it. It looks big.
+                            <button class="submit-btn" onclick="checkAnswer('vocab-1-input', 'Try on', 'vocab-1-feedback')">Submit</button>
+                            <span class="feedback" id="vocab-1-feedback"></span>
+                        </li>
+                        <li>I <input type="text" id="vocab-2-input"> things with my credit card.
+                            <button class="submit-btn" onclick="checkAnswer('vocab-2-input', 'pay for', 'vocab-2-feedback')">Submit</button>
+                            <span class="feedback" id="vocab-2-feedback"></span>
+                        </li>
+                        <li>I don't like this phone. I want to <input type="text" id="vocab-3-input"> it.
+                            <button class="submit-btn" onclick="checkAnswer('vocab-3-input', 'return', 'vocab-3-feedback')">Submit</button>
+                            <span class="feedback" id="vocab-3-feedback"></span>
+                        </li>
+                        <li>You use your computer to <input type="text" id="vocab-4-input">.
+                            <button class="submit-btn" onclick="checkAnswer('vocab-4-input', 'order online', 'vocab-4-feedback')">Submit</button>
+                            <span class="feedback" id="vocab-4-feedback"></span>
+                        </li>
+                    </ol>
+                </div>
+                
+                <h3 class="section-title">READ</h3>
+                <p>Read this article.</p>
+                <article class="reading-article">
+                    <h2>Online or at a Store?</h2>
+                    <p>Here's <strong>a question:</strong> You need a new <strong>suit</strong> very soon. Do you order <strong>the</strong> new <strong>suit</strong> online, or do you go to <strong>a store?</strong> Both kinds of shopping have their pros and cons.<sup>1</sup></p>
+                    
+                    <h3>Online Shopping: The Pros</h3>
+                    <ul>
+                        <li>The Internet never closes, so you can order things anytime, day or night.</li>
+                        <li>There is <strong>a good selection</strong><sup>2</sup> online.</li>
+                        <li>You don't need <strong>a car.</strong> You don't need money for gas.</li>
+                        <li>It's easy to send gifts to family members or friends far away.</li>
+                        <li>It's easy to pay for things with <strong>a credit card.</strong></li>
+                    </ul>
+
+                    <h3>Online Shopping: The Cons</h3>
+                    <ul>
+                        <li>Online companies send you the things you buy. That costs money, and it can take <strong>a long time.</strong></li>
+                        <li>Sometimes packages get lost, and you don't receive them.</li>
+                        <li>Sometimes it's hard to return things online.</li>
+                    </ul>
+
+                    <h3>Shopping at a Store: The Pros</h3>
+                    <ul>
+                        <li>You can see and touch things in <strong>a store.</strong></li>
+                        <li>You can try on many clothes, and you can buy only <strong>the good ones.</strong> You don't make mistakes and buy <strong>the wrong ones.</strong></li>
+                    </ul>
+                    
+                    <h3>Shopping at a Store: The Cons</h3>
+                    <ul>
+                        <li>You need to go back to <strong>the store</strong> to return things, and you need <strong>a receipt.</strong><sup>3</sup></li>
+                        <li>Stores aren't always open. <strong>The store hours</strong> aren't always good for us.</li>
+                        <li>Sometimes stores don't have <strong>a good selection.</strong> For example, they have suits, but they don't always have <strong>a good one.</strong></li>
+                    </ul>
+                    <p>Which is better, online shopping or shopping at <strong>a store?</strong> Actually, they're both good, and bad, in their own ways.</p>
+                </article>
+                
+                <div class="video-container">
+                    <!-- TODO: Thay thế YOUR_YOUTUBE_VIDEO_ID_HERE bằng ID video của bạn -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_HERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+
+                <h3 class="section-title">AFTER YOU READ</h3>
+                <h4>A COMPREHENSION</h4>
+                <p>Look at the article again. For each statement, check (✓) True or False.</p>
+                <div class="exercise-item">
+                    <ol>
+                        <li>The Internet sometimes closes. 
+                            <input type="radio" name="comp1" value="True"> True 
+                            <input type="radio" name="comp1" value="False"> False
+                            <button class="submit-btn" onclick="checkRadio('comp1', 'False', 'comp1-feedback')">Submit</button>
+                            <span class="feedback" id="comp1-feedback"></span>
+                        </li>
+                        <li>We can use a credit card to pay for things online.
+                             <input type="radio" name="comp2" value="True"> True 
+                             <input type="radio" name="comp2" value="False"> False
+                            <button class="submit-btn" onclick="checkRadio('comp2', 'True', 'comp2-feedback')">Submit</button>
+                            <span class="feedback" id="comp2-feedback"></span>
+                        </li>
+                        <li>It is sometimes difficult to return things online.
+                             <input type="radio" name="comp3" value="True"> True 
+                             <input type="radio" name="comp3" value="False"> False
+                            <button class="submit-btn" onclick="checkRadio('comp3', 'True', 'comp3-feedback')">Submit</button>
+                            <span class="feedback" id="comp3-feedback"></span>
+                        </li>
+                        <li>You need a receipt when you return something to a store.
+                             <input type="radio" name="comp4" value="True"> True 
+                             <input type="radio" name="comp4" value="False"> False
+                            <button class="submit-btn" onclick="checkRadio('comp4', 'True', 'comp4-feedback')">Submit</button>
+                            <span class="feedback" id="comp4-feedback"></span>
+                        </li>
+                        <li>Stores are always open.
+                             <input type="radio" name="comp5" value="True"> True 
+                             <input type="radio" name="comp5" value="False"> False
+                            <button class="submit-btn" onclick="checkRadio('comp5', 'False', 'comp5-feedback')">Submit</button>
+                            <span class="feedback" id="comp5-feedback"></span>
+                        </li>
+                        <li>Stores don't always have a lot of things.
+                             <input type="radio" name="comp6" value="True"> True 
+                             <input type="radio" name="comp6" value="False"> False
+                            <button class="submit-btn" onclick="checkRadio('comp6', 'True', 'comp6-feedback')">Submit</button>
+                            <span class="feedback" id="comp6-feedback"></span>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- ==================== STEP 2: GRAMMAR PRESENTATION ==================== -->
+            <section id="step2">
+                <div class="step-header"><span class="step">STEP 2</span> GRAMMAR PRESENTATION</div>
+                <h3>A, AN, AND THE; ONE AND ONES</h3>
+
+                <h4>Indefinite Articles (A and An)</h4>
+                <table class="grammar-table">
+                    <thead>
+                        <tr>
+                            <th>Singular Nouns</th>
+                            <th>Plural Nouns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I'm looking for <strong>a suit</strong>.</td>
+                            <td>Suits are expensive.</td>
+                        </tr>
+                        <tr>
+                            <td>I have <strong>an interview</strong> tomorrow.</td>
+                            <td>I don't like interviews.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h4>The Definite Article (The)</h4>
+                <table class="grammar-table">
+                    <thead>
+                        <tr>
+                            <th>Singular Nouns</th>
+                            <th>Plural Nouns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I like <strong>the blue suit</strong>.</td>
+                            <td>I don't like <strong>the black suits</strong>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h4>One and Ones</h4>
+                <table class="grammar-table">
+                    <thead>
+                        <tr>
+                            <th>Singular Pronouns</th>
+                            <th>Plural Pronouns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>I hope my interview is <strong>a good one</strong>.</td>
+                            <td>They sell some <strong>good ones</strong>.</td>
+                        </tr>
+                        <tr>
+                            <td>I like <strong>the blue one</strong>.</td>
+                            <td>I don't like <strong>the black ones</strong>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="section-title">GRAMMAR NOTES</h3>
+                <div class="grammar-note">
+                    <h3>1 A and An</h3>
+                    <p><strong>A</strong> and <strong>an</strong> are indefinite articles. Use <strong>a</strong> or <strong>an</strong> to talk about a person or thing for the first time. You can also use it to talk about people or things in general, when it is not clear which person or thing you mean.</p>
+                    <div class="example">
+                        <p>We have <strong>a</strong> new car.</p>
+                        <p>Jomo is wearing <strong>an</strong> orange shirt.</p>
+                    </div>
+                    <p>Remember that we use <strong>a</strong> before a consonant sound. Use <strong>an</strong> before a vowel sound.</p>
+                     <div class="example">
+                        <p>A: Do you have <strong>a</strong> house?</p>
+                        <p>B: No, we live in <strong>an</strong> apartment.</p>
+                    </div>
+                    <p><span class="be-careful">BE CAREFUL!</span> Don't put <strong>a</strong> or <strong>an</strong> before a plural noun or a non-count noun.</p>
+                    <div class="example">
+                        <p>He's reading a book. <br>NOT <del>He's reading a books.</del></p>
+                        <p>She's eating meat. <br>NOT <del>She's eating a meat.</del></p>
+                    </div>
+                </div>
+
+                <div class="grammar-note">
+                    <h3>2 The</h3>
+                    <p><strong>The</strong> is the definite article. Use <strong>the</strong> when you are talking about a specific person or thing. It is clear which person or thing you mean.</p>
+                     <div class="example">
+                        <p>Our car is <strong>the</strong> red car.</p>
+                        <p>Abla is in <strong>the</strong> kitchen.</p>
+                    </div>
+                    <p>You can use <strong>the</strong> before singular count nouns, plural count nouns, and non-count nouns.</p>
+                    <div class="example">
+                        <p><strong>The</strong> teacher is funny.</p>
+                        <p><strong>The</strong> students like her.</p>
+                        <p><strong>The</strong> air is fresh and clean today.</p>
+                    </div>
+                </div>
+                
+                <div class="grammar-note">
+                    <h3>3 One and Ones</h3>
+                    <p>We use <strong>one</strong> to replace a singular noun.</p>
+                    <div class="example">
+                        <p>A: Do you have a car?</p>
+                        <p>B: Yes, I have <strong>one</strong>.</p>
+                    </div>
+                    <p>We often use <strong>a</strong> or <strong>an</strong> + an adjective before <strong>one</strong>.</p>
+                    <div class="example">
+                        <p>A: Is this Miryam's phone?</p>
+                        <p>B: No, she has a <strong>new one</strong>.</p>
+                    </div>
+                    <p>We also use <strong>the</strong> + an adjective before <strong>one</strong>.</p>
+                    <div class="example">
+                        <p>They have two suits on sale. I like <strong>the blue one</strong>, but I don't like <strong>the brown one</strong>.</p>
+                    </div>
+                    <p>We use <strong>ones</strong> to replace a plural noun.</p>
+                     <div class="example">
+                        <p>They sell a lot of chairs here. I like <strong>the expensive ones</strong>, but I also like <strong>the cheap ones</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="pronunciation-note">
+                    <h3>PRONUNCIATION NOTE</h3>
+                    <h4>A and An Before Singular Count Nouns</h4>
+                    <p>We use <strong>a</strong> before a consonant sound and <strong>an</strong> before a vowel sound. But sometimes consonants have vowel sounds, and vowels have consonant sounds. We sometimes use <strong>a</strong> before singular count nouns that start with vowels, and <strong>an</strong> before singular count nouns that start with consonants.</p>
+                    <ul>
+                        <li>Singular count nouns that start with <strong>h</strong>:
+                            <ul>
+                                <li>When the <strong>h</strong> sounds like /h/, we use <strong>a</strong>. (I need <strong>a hat</strong>.)</li>
+                                <li>When the <strong>h</strong> is silent, we use <strong>an</strong>. (The trip takes <strong>an hour</strong>.)</li>
+                            </ul>
+                        </li>
+                         <li>Singular count nouns that start with <strong>u</strong>:
+                            <ul>
+                                <li>When the <strong>u</strong> sounds like /yu/, we use <strong>a</strong>. (We have <strong>a university</strong> in our town.)</li>
+                                <li>When the <strong>u</strong> sounds like /ʌ/, we use <strong>an</strong>. (He needs <strong>an umbrella</strong>.)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- ==================== FROM GRAMMAR TO WRITING ==================== -->
+            <section id="writing">
+                <div class="step-header"><span class="step"></span> FROM GRAMMAR TO WRITING</div>
+                <h3 class="section-title">BEFORE YOU WRITE</h3>
+                <p>Read the conversation. Underline the articles <u>a, an, and the</u>. Circle the words <strong>one</strong> and <strong>ones</strong>.</p>
+                <div class="conversation" id="writing-convo-text">
+                    <p><strong>NANCY:</strong> Larry, I want <u>a</u> bike. Where can I buy <strong>one</strong>?</p>
+                    <p><strong>LARRY:</strong> What kind of bike do you want?</p>
+                    <p><strong>NANCY:</strong> I want <u>a</u> new <strong>one</strong>. But I don't want <u>an</u> expensive <strong>one</strong>. Maybe I need <u>an</u> older <strong>one</strong>.</p>
+                    <p><strong>LARRY:</strong> Is <u>the</u> bike's color important?</p>
+                    <p><strong>NANCY:</strong> No. I just want <u>a</u> good <strong>one</strong>.</p>
+                    <p><strong>LARRY:</strong> Bob's Bike-O-Rama is <u>a</u> good store for bikes. They sell some nice <strong>ones</strong>. I was there yesterday. They have <u>an</u> older red bike. <u>The</u> price is good.</p>
+                    <p><strong>NANCY:</strong> Great! Let's go to Bob's.</p>
+                </div>
+                
+                <h3 class="section-title">Writing Script</h3>
+                <p>Nhấn vào nút bên dưới để tách đoạn hội thoại trên thành từng câu riêng lẻ.</p>
+                <button class="submit-btn" onclick="analyzeWritingSample()">Tách câu</button>
+                <div id="writing-analysis-output" style="margin-top: 20px;"></div>
+            </section>
+            
+            <!-- ==================== UNIT REVIEW ==================== -->
+            <section id="review">
+                <div class="step-header"><span class="step"></span> UNIT 22 REVIEW</div>
+                 <p>Test yourself on the grammar of the unit.</p>
+                
+                <h4>A Match the questions and answers.</h4>
+                <div class="exercise-item">
+                    <ol>
+                        <li>Which is your jacket? 
+                            <select id="match-1">
+                                <option value="">...</option>
+                                <option value="a">a. The white ones.</option>
+                                <option value="b">b. No, I need larger ones.</option>
+                                <option value="c">c. No, I like the green one.</option>
+                                <option value="d">d. The brown one.</option>
+                            </select>
+                            <button class="submit-btn" onclick="checkAnswer('match-1', 'd', 'match-1-feedback')">Submit</button>
+                            <span class="feedback" id="match-1-feedback"></span>
+                        </li>
+                        <li>Do you like that orange tie?
+                             <select id="match-2">
+                                <option value="">...</option>
+                                <option value="a">a. The white ones.</option>
+                                <option value="b">b. No, I need larger ones.</option>
+                                <option value="c">c. No, I like the green one.</option>
+                                <option value="d">d. The brown one.</option>
+                            </select>
+                            <button class="submit-btn" onclick="checkAnswer('match-2', 'c', 'match-2-feedback')">Submit</button>
+                            <span class="feedback" id="match-2-feedback"></span>
+                        </li>
+                        <li>Which are your shoes?
+                            <select id="match-3">
+                                <option value="">...</option>
+                                <option value="a">a. The white ones.</option>
+                                <option value="b">b. No, I need larger ones.</option>
+                                <option value="c">c. No, I like the green one.</option>
+                                <option value="d">d. The brown one.</option>
+                            </select>
+                            <button class="submit-btn" onclick="checkAnswer('match-3', 'a', 'match-3-feedback')">Submit</button>
+                            <span class="feedback" id="match-3-feedback"></span>
+                        </li>
+                        <li>Do those shoes fit?
+                            <select id="match-4">
+                                <option value="">...</option>
+                                <option value="a">a. The white ones.</option>
+                                <option value="b">b. No, I need larger ones.</option>
+                                <option value="c">c. No, I like the green one.</option>
+                                <option value="d">d. The brown one.</option>
+                            </select>
+                            <button class="submit-btn" onclick="checkAnswer('match-4', 'b', 'match-4-feedback')">Submit</button>
+                            <span class="feedback" id="match-4-feedback"></span>
+                        </li>
+                    </ol>
+                </div>
+
+                <h4>B Complete the sentences with a, an, the, one, or ones.</h4>
+                <div class="exercise-item">
+                    <ol>
+                        <li>It's raining. I need to buy <input type="text" id="fill-1-input"> new umbrella.
+                            <button class="submit-btn" onclick="checkAnswer('fill-1-input', 'a', 'fill-1-feedback')">Submit</button>
+                            <span class="feedback" id="fill-1-feedback"></span>
+                        </li>
+                        <li>They sell a lot of chairs here. I don't like the white chairs, but I like the black <input type="text" id="fill-2-input">.
+                            <button class="submit-btn" onclick="checkAnswer('fill-2-input', 'ones', 'fill-2-feedback')">Submit</button>
+                            <span class="feedback" id="fill-2-feedback"></span>
+                        </li>
+                         <li>Look at these T-shirts. Do you like <input type="text" id="fill-3-input"> black one?
+                            <button class="submit-btn" onclick="checkAnswer('fill-3-input', 'the', 'fill-3-feedback')">Submit</button>
+                            <span class="feedback" id="fill-3-feedback"></span>
+                        </li>
+                        <li>I have a hat, but I need to get a better <input type="text" id="fill-4-input">.
+                            <button class="submit-btn" onclick="checkAnswer('fill-4-input', 'one', 'fill-4-feedback')">Submit</button>
+                            <span class="feedback" id="fill-4-feedback"></span>
+                        </li>
+                         <li>I have <input type="text" id="fill-5-input"> old computer.
+                            <button class="submit-btn" onclick="checkAnswer('fill-5-input', 'an', 'fill-5-feedback')">Submit</button>
+                            <span class="feedback" id="fill-5-feedback"></span>
+                        </li>
+                         <li>She has a laptop. <input type="text" id="fill-6-input"> laptop is new.
+                            <button class="submit-btn" onclick="checkAnswer('fill-6-input', 'The', 'fill-6-feedback')">Submit</button>
+                            <span class="feedback" id="fill-6-feedback"></span>
+                        </li>
+                    </ol>
+                </div>
+                
+                <h4>C Correct the sentences. There are five mistakes.</h4>
+                <div class="exercise-item">
+                    <p><strong>Original Text:</strong></p>
+                    <p>Bozo's shoes are very strange. Shoes are orange and yellow. An orange shoe is big, and the yellow ones is small. He's wearing the funny hat, too. He looks like the clown!</p>
+                    <p><strong>Your Corrections:</strong></p>
+                    <p>
+                    Bozo's shoes are very strange. 
+                    <input type="text" id="correct-1-input" placeholder="Correction 1"> Shoes are orange and yellow. 
+                    <input type="text" id="correct-2-input" placeholder="Correction 2"> orange shoe is big, 
+                    and the yellow <input type="text" id="correct-3-input" placeholder="Correction 3"> is small. 
+                    He's wearing <input type="text" id="correct-4-input" placeholder="Correction 4"> funny hat, too. 
+                    He looks like <input type="text" id="correct-5-input" placeholder="Correction 5"> clown!
+                    </p>
+                    <button class="submit-btn" onclick="checkCorrections()">Submit All Corrections</button>
+                    <div id="corrections-feedback" style="margin-top: 10px;"></div>
+                </div>
+
+            </section>
+
+			<!-- ==================== ADDITIONAL PRACTICE EXERCISES (100 Questions) ==================== -->
+<section id="additional-practice">
+    <div class="step-header"><span class="step"></span> ADDITIONAL PRACTICE EXERCISES</div>
+    
+    <!-- === Part 1: A vs. An === -->
+    <h3 class="section-title">Part 1: A vs. An</h3>
+    <p>Complete the sentences with <strong>a</strong> or <strong>an</strong>.</p>
+    <div class="exercise-item">
+        <ol>
+            <li>I need to buy <input type="text" id="ex-1-input"> new umbrella. <button class="submit-btn" onclick="checkAnswer('ex-1-input', 'a', 'ex-1-feedback')">Submit</button> <span class="feedback" id="ex-1-feedback"></span></li>
+            <li>She is eating <input type="text" id="ex-2-input"> apple. <button class="submit-btn" onclick="checkAnswer('ex-2-input', 'an', 'ex-2-feedback')">Submit</button> <span class="feedback" id="ex-2-feedback"></span></li>
+            <li>He is <input type="text" id="ex-3-input"> honest man. <button class="submit-btn" onclick="checkAnswer('ex-3-input', 'an', 'ex-3-feedback')">Submit</button> <span class="feedback" id="ex-3-feedback"></span></li>
+            <li>We saw <input type="text" id="ex-4-input"> eagle at the zoo. <button class="submit-btn" onclick="checkAnswer('ex-4-input', 'an', 'ex-4-feedback')">Submit</button> <span class="feedback" id="ex-4-feedback"></span></li>
+            <li>My father is <input type="text" id="ex-5-input"> doctor. <button class="submit-btn" onclick="checkAnswer('ex-5-input', 'a', 'ex-5-feedback')">Submit</button> <span class="feedback" id="ex-5-feedback"></span></li>
+            <li>It takes about <input type="text" id="ex-6-input"> hour to get there. <button class="submit-btn" onclick="checkAnswer('ex-6-input', 'an', 'ex-6-feedback')">Submit</button> <span class="feedback" id="ex-6-feedback"></span></li>
+            <li>I study at <input type="text" id="ex-7-input"> university in the city. <button class="submit-btn" onclick="checkAnswer('ex-7-input', 'a', 'ex-7-feedback')">Submit</button> <span class="feedback" id="ex-7-feedback"></span></li>
+            <li>Can I have <input type="text" id="ex-8-input"> glass of water? <button class="submit-btn" onclick="checkAnswer('ex-8-input', 'a', 'ex-8-feedback')">Submit</button> <span class="feedback" id="ex-8-feedback"></span></li>
+            <li>This is <input type="text" id="ex-9-input"> very interesting book. <button class="submit-btn" onclick="checkAnswer('ex-9-input', 'a', 'ex-9-feedback')">Submit</button> <span class="feedback" id="ex-9-feedback"></span></li>
+            <li>She wants to be <input type="text" id="ex-10-input"> engineer. <button class="submit-btn" onclick="checkAnswer('ex-10-input', 'an', 'ex-10-feedback')">Submit</button> <span class="feedback" id="ex-10-feedback"></span></li>
+            <li>He bought <input type="text" id="ex-11-input"> expensive car. <button class="submit-btn" onclick="checkAnswer('ex-11-input', 'an', 'ex-11-feedback')">Submit</button> <span class="feedback" id="ex-11-feedback"></span></li>
+            <li>There is <input type="text" id="ex-12-input"> beautiful park near my house. <button class="submit-btn" onclick="checkAnswer('ex-12-input', 'a', 'ex-12-feedback')">Submit</button> <span class="feedback" id="ex-12-feedback"></span></li>
+            <li>It was <input type="text" id="ex-13-input"> unusual situation. <button class="submit-btn" onclick="checkAnswer('ex-13-input', 'an', 'ex-13-feedback')">Submit</button> <span class="feedback" id="ex-13-feedback"></span></li>
+            <li>Do you have <input type="text" id="ex-14-input"> pet? <button class="submit-btn" onclick="checkAnswer('ex-14-input', 'a', 'ex-14-feedback')">Submit</button> <span class="feedback" id="ex-14-feedback"></span></li>
+            <li>I need <input type="text" id="ex-15-input"> new pair of shoes. <button class="submit-btn" onclick="checkAnswer('ex-15-input', 'a', 'ex-15-feedback')">Submit</button> <span class="feedback" id="ex-15-feedback"></span></li>
+            <li>He wore <input type="text" id="ex-16-input"> uniform to school. <button class="submit-btn" onclick="checkAnswer('ex-16-input', 'a', 'ex-16-feedback')">Submit</button> <span class="feedback" id="ex-16-feedback"></span></li>
+            <li>She found <input type="text" id="ex-17-input"> old coin on the street. <button class="submit-btn" onclick="checkAnswer('ex-17-input', 'an', 'ex-17-feedback')">Submit</button> <span class="feedback" id="ex-17-feedback"></span></li>
+            <li>That is <input type="text" id="ex-18-input"> huge building. <button class="submit-btn" onclick="checkAnswer('ex-18-input', 'a', 'ex-18-feedback')">Submit</button> <span class="feedback" id="ex-18-feedback"></span></li>
+            <li>Is there <input type="text" id="ex-19-input"> airport in this city? <button class="submit-btn" onclick="checkAnswer('ex-19-input', 'an', 'ex-19-feedback')">Submit</button> <span class="feedback" id="ex-19-feedback"></span></li>
+            <li>I have <input type="text" id="ex-20-input"> great idea! <button class="submit-btn" onclick="checkAnswer('ex-20-input', 'a', 'ex-20-feedback')">Submit</button> <span class="feedback" id="ex-20-feedback"></span></li>
+            <li>This is <input type="text" id="ex-21-input"> European country. <button class="submit-btn" onclick="checkAnswer('ex-21-input', 'a', 'ex-21-feedback')">Submit</button> <span class="feedback" id="ex-21-feedback"></span></li>
+            <li>He is holding <input type="text" id="ex-22-input"> orange umbrella. <button class="submit-btn" onclick="checkAnswer('ex-22-input', 'an', 'ex-22-feedback')">Submit</button> <span class="feedback" id="ex-22-feedback"></span></li>
+            <li>She is <input type="text" id="ex-23-input"> amazing singer. <button class="submit-btn" onclick="checkAnswer('ex-23-input', 'an', 'ex-23-feedback')">Submit</button> <span class="feedback" id="ex-23-feedback"></span></li>
+            <li>We need to make <input type="text" id="ex-24-input"> decision soon. <button class="submit-btn" onclick="checkAnswer('ex-24-input', 'a', 'ex-24-feedback')">Submit</button> <span class="feedback" id="ex-24-feedback"></span></li>
+            <li>It's <input type="text" id="ex-25-input"> honor to meet you. <button class="submit-btn" onclick="checkAnswer('ex-25-input', 'an', 'ex-25-feedback')">Submit</button> <span class="feedback" id="ex-25-feedback"></span></li>
+        </ol>
+    </div>
+
+    <!-- === Part 2: A/An vs. The === -->
+    <h3 class="section-title">Part 2: A/An vs. The</h3>
+    <p>Complete the sentences with <strong>a</strong>, <strong>an</strong>, or <strong>the</strong>.</p>
+    <div class="exercise-item">
+        <ol start="26">
+            <li>I saw <input type="text" id="ex-26-input"> movie last night. <button class="submit-btn" onclick="checkAnswer('ex-26-input', 'a', 'ex-26-feedback')">Submit</button> <span class="feedback" id="ex-26-feedback"></span></li>
+            <li><input type="text" id="ex-27-input"> movie I saw was very funny. <button class="submit-btn" onclick="checkAnswer('ex-27-input', 'The', 'ex-27-feedback')">Submit</button> <span class="feedback" id="ex-27-feedback"></span></li>
+            <li>Can you open <input type="text" id="ex-28-input"> window, please? It's hot in here. <button class="submit-btn" onclick="checkAnswer('ex-28-input', 'the', 'ex-28-feedback')">Submit</button> <span class="feedback" id="ex-28-feedback"></span></li>
+            <li>My sister has two children: <input type="text" id="ex-29-input"> boy and a girl. <button class="submit-btn" onclick="checkAnswer('ex-29-input', 'a', 'ex-29-feedback')">Submit</button> <span class="feedback" id="ex-29-feedback"></span></li>
+            <li><input type="text" id="ex-30-input"> boy is seven years old. <button class="submit-btn" onclick="checkAnswer('ex-30-input', 'The', 'ex-30-feedback')">Submit</button> <span class="feedback" id="ex-30-feedback"></span></li>
+            <li>What is <input type="text" id="ex-31-input"> name of the main character? <button class="submit-btn" onclick="checkAnswer('ex-31-input', 'the', 'ex-31-feedback')">Submit</button> <span class="feedback" id="ex-31-feedback"></span></li>
+            <li>I need to find <input type="text" id="ex-32-input"> new apartment. <button class="submit-btn" onclick="checkAnswer('ex-32-input', 'a', 'ex-32-feedback')">Submit</button> <span class="feedback" id="ex-32-feedback"></span></li>
+            <li>She is <input type="text" id="ex-33-input"> best student in our class. <button class="submit-btn" onclick="checkAnswer('ex-33-input', 'the', 'ex-33-feedback')">Submit</button> <span class="feedback" id="ex-33-feedback"></span></li>
+            <li><input type="text" id="ex-34-input"> sun is very bright today. <button class="submit-btn" onclick="checkAnswer('ex-34-input', 'The', 'ex-34-feedback')">Submit</button> <span class="feedback" id="ex-34-feedback"></span></li>
+            <li>He is reading <input type="text" id="ex-35-input"> interesting book. <button class="submit-btn" onclick="checkAnswer('ex-35-input', 'an', 'ex-35-feedback')">Submit</button> <span class="feedback" id="ex-35-feedback"></span></li>
+            <li>I have <input type="text" id="ex-36-input"> cat and a dog. <button class="submit-btn" onclick="checkAnswer('ex-36-input', 'a', 'ex-36-feedback')">Submit</button> <span class="feedback" id="ex-36-feedback"></span></li>
+            <li><input type="text" id="ex-37-input"> dog is much bigger than the cat. <button class="submit-btn" onclick="checkAnswer('ex-37-input', 'The', 'ex-37-feedback')">Submit</button> <span class="feedback" id="ex-37-feedback"></span></li>
+            <li>We went to <input type="text" id="ex-38-input"> restaurant that you recommended. <button class="submit-btn" onclick="checkAnswer('ex-38-input', 'the', 'ex-38-feedback')">Submit</button> <span class="feedback" id="ex-38-feedback"></span></li>
+            <li>Is there <input type="text" id="ex-39-input"> post office near here? <button class="submit-btn" onclick="checkAnswer('ex-39-input', 'a', 'ex-39-feedback')">Submit</button> <span class="feedback" id="ex-39-feedback"></span></li>
+            <li><input type="text" id="ex-40-input"> president will give a speech tonight. <button class="submit-btn" onclick="checkAnswer('ex-40-input', 'The', 'ex-40-feedback')">Submit</button> <span class="feedback" id="ex-40-feedback"></span></li>
+            <li>She wants to buy <input type="text" id="ex-41-input"> new dress for the party. <button class="submit-btn" onclick="checkAnswer('ex-41-input', 'a', 'ex-41-feedback')">Submit</button> <span class="feedback" id="ex-41-feedback"></span></li>
+            <li>I'd like to ask you <input type="text" id="ex-42-input"> question. <button class="submit-btn" onclick="checkAnswer('ex-42-input', 'a', 'ex-42-feedback')">Submit</button> <span class="feedback" id="ex-42-feedback"></span></li>
+            <li><input type="text" id="ex-43-input"> question is about our project. <button class="submit-btn" onclick="checkAnswer('ex-43-input', 'The', 'ex-43-feedback')">Submit</button> <span class="feedback" id="ex-43-feedback"></span></li>
+            <li>He works as <input type="text" id="ex-44-input"> electrician. <button class="submit-btn" onclick="checkAnswer('ex-44-input', 'an', 'ex-44-feedback')">Submit</button> <span class="feedback" id="ex-44-feedback"></span></li>
+            <li>I looked up at <input type="text" id="ex-45-input"> moon. <button class="submit-btn" onclick="checkAnswer('ex-45-input', 'the', 'ex-45-feedback')">Submit</button> <span class="feedback" id="ex-45-feedback"></span></li>
+            <li>We live in <input type="text" id="ex-46-input"> small house. <button class="submit-btn" onclick="checkAnswer('ex-46-input', 'a', 'ex-46-feedback')">Submit</button> <span class="feedback" id="ex-46-feedback"></span></li>
+            <li>There's <input type="text" id="ex-47-input"> bird singing outside my window. <button class="submit-btn" onclick="checkAnswer('ex-47-input', 'a', 'ex-47-feedback')">Submit</button> <span class="feedback" id="ex-47-feedback"></span></li>
+            <li>Could you pass me <input type="text" id="ex-48-input"> salt, please? <button class="submit-btn" onclick="checkAnswer('ex-48-input', 'the', 'ex-48-feedback')">Submit</button> <span class="feedback" id="ex-48-feedback"></span></li>
+            <li>London is <input type="text" id="ex-49-input"> capital of England. <button class="submit-btn" onclick="checkAnswer('ex-49-input', 'the', 'ex-49-feedback')">Submit</button> <span class="feedback" id="ex-49-feedback"></span></li>
+            <li>This is <input type="text" id="ex-50-input"> third time I've called you. <button class="submit-btn" onclick="checkAnswer('ex-50-input', 'the', 'ex-50-feedback')">Submit</button> <span class="feedback" id="ex-50-feedback"></span></li>
+        </ol>
+    </div>
+
+    <!-- === Part 3: One vs. Ones === -->
+    <h3 class="section-title">Part 3: One vs. Ones</h3>
+    <p>Complete the sentences with <strong>one</strong> or <strong>ones</strong>.</p>
+    <div class="exercise-item">
+        <ol start="51">
+            <li>I don't like this shirt. I prefer the blue <input type="text" id="ex-51-input">. <button class="submit-btn" onclick="checkAnswer('ex-51-input', 'one', 'ex-51-feedback')">Submit</button> <span class="feedback" id="ex-51-feedback"></span></li>
+            <li>These shoes are uncomfortable. Do you have any other <input type="text" id="ex-52-input">? <button class="submit-btn" onclick="checkAnswer('ex-52-input', 'ones', 'ex-52-feedback')">Submit</button> <span class="feedback" id="ex-52-feedback"></span></li>
+            <li>My phone is old. I need a new <input type="text" id="ex-53-input">. <button class="submit-btn" onclick="checkAnswer('ex-53-input', 'one', 'ex-53-feedback')">Submit</button> <span class="feedback" id="ex-53-feedback"></span></li>
+            <li>Which glasses are yours? The black <input type="text" id="ex-54-input">? <button class="submit-btn" onclick="checkAnswer('ex-54-input', 'ones', 'ex-54-feedback')">Submit</button> <span class="feedback" id="ex-54-feedback"></span></li>
+            <li>A: Do you have a pen? B: Yes, I have <input type="text" id="ex-55-input">. <button class="submit-btn" onclick="checkAnswer('ex-55-input', 'one', 'ex-55-feedback')">Submit</button> <span class="feedback" id="ex-55-feedback"></span></li>
+            <li>I like the red apples, not the green <input type="text" id="ex-56-input">. <button class="submit-btn" onclick="checkAnswer('ex-56-input', 'ones', 'ex-56-feedback')">Submit</button> <span class="feedback" id="ex-56-feedback"></span></li>
+            <li>That was a great movie. It's the best <input type="text" id="ex-57-input"> I've seen this year. <button class="submit-btn" onclick="checkAnswer('ex-57-input', 'one', 'ex-57-feedback')">Submit</button> <span class="feedback" id="ex-57-feedback"></span></li>
+            <li>He has three jackets: a black <input type="text" id="ex-58-input"> and two blue <input type="text" id="ex-58b-input">. <button class="submit-btn" onclick="checkAnswer('ex-58-input', 'one', 'ex-58-feedback'); checkAnswer('ex-58b-input', 'ones', 'ex-58b-feedback');">Submit</button> <span class="feedback" id="ex-58-feedback"></span><span class="feedback" id="ex-58b-feedback"></span></li>
+            <li>I need new batteries for my remote. The old <input type="text" id="ex-59-input"> are dead. <button class="submit-btn" onclick="checkAnswer('ex-59-input', 'ones', 'ex-59-feedback')">Submit</button> <span class="feedback" id="ex-59-feedback"></span></li>
+            <li>Which car is yours? The big, red <input type="text" id="ex-60-input">? <button class="submit-btn" onclick="checkAnswer('ex-60-input', 'one', 'ex-60-feedback')">Submit</button> <span class="feedback" id="ex-60-feedback"></span></li>
+            <li>These pants are too long. I need shorter <input type="text" id="ex-61-input">. <button class="submit-btn" onclick="checkAnswer('ex-61-input', 'ones', 'ex-61-feedback')">Submit</button> <span class="feedback" id="ex-61-feedback"></span></li>
+            <li>She doesn't want a big cake, just a small <input type="text" id="ex-62-input">. <button class="submit-btn" onclick="checkAnswer('ex-62-input', 'one', 'ex-62-feedback')">Submit</button> <span class="feedback" id="ex-62-feedback"></span></li>
+            <li>The questions on this test are harder than the <input type="text" id="ex-63-input"> on the last test. <button class="submit-btn" onclick="checkAnswer('ex-63-input', 'ones', 'ex-63-feedback')">Submit</button> <span class="feedback" id="ex-63-feedback"></span></li>
+            <li>My laptop is broken. I'm borrowing my sister's <input type="text" id="ex-64-input"> for now. <button class="submit-btn" onclick="checkAnswer('ex-64-input', 'one', 'ex-64-feedback')">Submit</button> <span class="feedback" id="ex-64-feedback"></span></li>
+            <li>I prefer fresh vegetables to frozen <input type="text" id="ex-65-input">. <button class="submit-btn" onclick="checkAnswer('ex-65-input', 'ones', 'ex-65-feedback')">Submit</button> <span class="feedback" id="ex-65-feedback"></span></li>
+            <li>If you need a ticket, I have an extra <input type="text" id="ex-66-input">. <button class="submit-btn" onclick="checkAnswer('ex-66-input', 'one', 'ex-66-feedback')">Submit</button> <span class="feedback" id="ex-66-feedback"></span></li>
+            <li>He sells old books and new <input type="text" id="ex-67-input">. <button class="submit-btn" onclick="checkAnswer('ex-67-input', 'ones', 'ex-67-feedback')">Submit</button> <span class="feedback" id="ex-67-feedback"></span></li>
+            <li>This cup is dirty. Can I have a clean <input type="text" id="ex-68-input">? <button class="submit-btn" onclick="checkAnswer('ex-68-input', 'one', 'ex-68-feedback')">Submit</button> <span class="feedback" id="ex-68-feedback"></span></li>
+            <li>There are many hotels in the city. The cheapest <input type="text" id="ex-69-input"> are near the station. <button class="submit-btn" onclick="checkAnswer('ex-69-input', 'ones', 'ex-69-feedback')">Submit</button> <span class="feedback" id="ex-69-feedback"></span></li>
+            <li>That's not my key. Mine is the shiny <input type="text" id="ex-70-input">. <button class="submit-btn" onclick="checkAnswer('ex-70-input', 'one', 'ex-70-feedback')">Submit</button> <span class="feedback" id="ex-70-feedback"></span></li>
+        </ol>
+    </div>
+
+    <!-- === Part 4: Mixed Practice === -->
+    <h3 class="section-title">Part 4: Mixed Practice</h3>
+    <p>Complete the sentences with <strong>a</strong>, <strong>an</strong>, <strong>the</strong>, <strong>one</strong>, or <strong>ones</strong>.</p>
+    <div class="exercise-item">
+        <ol start="71">
+            <li>I need <input type="text" id="ex-71-input"> new computer. My old <input type="text" id="ex-71b-input"> is too slow. <button class="submit-btn" onclick="checkAnswer('ex-71-input', 'a', 'ex-71-feedback'); checkAnswer('ex-71b-input', 'one', 'ex-71b-feedback');">Submit</button> <span class="feedback" id="ex-71-feedback"></span><span class="feedback" id="ex-71b-feedback"></span></li>
+            <li>He bought <input type="text" id="ex-72-input"> book from the store. It was <input type="text" id="ex-72b-input"> most expensive <input type="text" id="ex-72c-input"> they had. <button class="submit-btn" onclick="checkAnswer('ex-72-input', 'a', 'ex-72-feedback'); checkAnswer('ex-72b-input', 'the', 'ex-72b-feedback'); checkAnswer('ex-72c-input', 'one', 'ex-72c-feedback');">Submit</button> <span class="feedback" id="ex-72-feedback"></span><span class="feedback" id="ex-72b-feedback"></span><span class="feedback" id="ex-72c-feedback"></span></li>
+            <li>She saw two dresses, <input type="text" id="ex-73-input"> red <input type="text" id="ex-73b-input"> and a blue <input type="text" id="ex-73c-input">. She chose <input type="text" id="ex-73d-input"> red <input type="text" id="ex-73e-input">. <button class="submit-btn" onclick="checkAnswer('ex-73-input', 'a', 'ex-73-feedback'); checkAnswer('ex-73b-input', 'one', 'ex-73b-feedback'); checkAnswer('ex-73c-input', 'one', 'ex-73c-feedback'); checkAnswer('ex-73d-input', 'the', 'ex-73d-feedback'); checkAnswer('ex-73e-input', 'one', 'ex-73e-feedback');">Submit</button> <span class="feedback" id="ex-73-feedback"></span><span class="feedback" id="ex-73b-feedback"></span><span class="feedback" id="ex-73c-feedback"></span><span class="feedback" id="ex-73d-feedback"></span><span class="feedback" id="ex-73e-feedback"></span></li>
+            <li>I don't like these cookies. Do you have different <input type="text" id="ex-74-input">? <button class="submit-btn" onclick="checkAnswer('ex-74-input', 'ones', 'ex-74-feedback')">Submit</button> <span class="feedback" id="ex-74-feedback"></span></li>
+            <li>"Which phone is yours?" "<input type="text" id="ex-75-input"> new <input type="text" id="ex-75b-input"> on the table." <button class="submit-btn" onclick="checkAnswer('ex-75-input', 'The', 'ex-75-feedback'); checkAnswer('ex-75b-input', 'one', 'ex-75b-feedback');">Submit</button> <span class="feedback" id="ex-75-feedback"></span><span class="feedback" id="ex-75b-feedback"></span></li>
+            <li>There is <input type="text" id="ex-76-input"> university in our city. It's <input type="text" id="ex-76b-input"> very good <input type="text" id="ex-76c-input">. <button class="submit-btn" onclick="checkAnswer('ex-76-input', 'a', 'ex-76-feedback'); checkAnswer('ex-76b-input', 'a', 'ex-76b-feedback'); checkAnswer('ex-76c-input', 'one', 'ex-76c-feedback');">Submit</button> <span class="feedback" id="ex-76-feedback"></span><span class="feedback" id="ex-76b-feedback"></span><span class="feedback" id="ex-76c-feedback"></span></li>
+            <li><input type="text" id="ex-77-input"> Earth goes around <input type="text" id="ex-77b-input"> Sun. <button class="submit-btn" onclick="checkAnswer('ex-77-input', 'The', 'ex-77-feedback'); checkAnswer('ex-77b-input', 'the', 'ex-77b-feedback');">Submit</button> <span class="feedback" id="ex-77-feedback"></span><span class="feedback" id="ex-77b-feedback"></span></li>
+            <li>He needs <input type="text" id="ex-78-input"> hour to finish his homework. <button class="submit-btn" onclick="checkAnswer('ex-78-input', 'an', 'ex-78-feedback')">Submit</button> <span class="feedback" id="ex-78-feedback"></span></li>
+            <li>I have many T-shirts, but my favorite <input type="text" id="ex-79-input"> are the blue <input type="text" id="ex-79b-input">. <button class="submit-btn" onclick="checkAnswer('ex-79-input', 'ones', 'ex-79-feedback'); checkAnswer('ex-79b-input', 'ones', 'ex-79b-feedback');">Submit</button> <span class="feedback" id="ex-79-feedback"></span><span class="feedback" id="ex-79b-feedback"></span></li>
+            <li>This isn't my bag. Mine is <input type="text" id="ex-80-input"> black <input type="text" id="ex-80b-input"> over there. <button class="submit-btn" onclick="checkAnswer('ex-80-input', 'the', 'ex-80-feedback'); checkAnswer('ex-80b-input', 'one', 'ex-80b-feedback');">Submit</button> <span class="feedback" id="ex-80-feedback"></span><span class="feedback" id="ex-80b-feedback"></span></li>
+            <li>She has <input type="text" id="ex-81-input"> interview tomorrow. She hopes it's <input type="text" id="ex-81b-input"> easy <input type="text" id="ex-81c-input">. <button class="submit-btn" onclick="checkAnswer('ex-81-input', 'an', 'ex-81-feedback'); checkAnswer('ex-81b-input', 'an', 'ex-81b-feedback'); checkAnswer('ex-81c-input', 'one', 'ex-81c-feedback');">Submit</button> <span class="feedback" id="ex-81-feedback"></span><span class="feedback" id="ex-81b-feedback"></span><span class="feedback" id="ex-81c-feedback"></span></li>
+            <li>"I need to buy some apples." "Get <input type="text" id="ex-82-input"> red <input type="text" id="ex-82b-input">. They are sweeter." <button class="submit-btn" onclick="checkAnswer('ex-82-input', 'the', 'ex-82-feedback'); checkAnswer('ex-82b-input', 'ones', 'ex-82b-feedback');">Submit</button> <span class="feedback" id="ex-82-feedback"></span><span class="feedback" id="ex-82b-feedback"></span></li>
+            <li>He found <input type="text" id="ex-83-input"> wallet on the street. He took <input type="text" id="ex-83b-input"> wallet to the police station. <button class="submit-btn" onclick="checkAnswer('ex-83-input', 'a', 'ex-83-feedback'); checkAnswer('ex-83b-input', 'the', 'ex-83b-feedback');">Submit</button> <span class="feedback" id="ex-83-feedback"></span><span class="feedback" id="ex-83b-feedback"></span></li>
+            <li>I have <input type="text" id="ex-84-input"> expensive camera and <input type="text" id="ex-84b-input"> cheap <input type="text" id="ex-84c-input">. <button class="submit-btn" onclick="checkAnswer('ex-84-input', 'an', 'ex-84-feedback'); checkAnswer('ex-84b-input', 'a', 'ex-84b-feedback'); checkAnswer('ex-84c-input', 'one', 'ex-84c-feedback');">Submit</button> <span class="feedback" id="ex-84-feedback"></span><span class="feedback" id="ex-84b-feedback"></span><span class="feedback" id="ex-84c-feedback"></span></li>
+            <li><input type="text" id="ex-85-input"> students in this class are very smart. <button class="submit-btn" onclick="checkAnswer('ex-85-input', 'The', 'ex-85-feedback')">Submit</button> <span class="feedback" id="ex-85-feedback"></span></li>
+            <li><input type="text" id="ex-86-input"> information you gave me was very helpful. <button class="submit-btn" onclick="checkAnswer('ex-86-input', 'The', 'ex-86-feedback')">Submit</button> <span class="feedback" id="ex-86-feedback"></span></li>
+            <li>He is <input type="text" id="ex-87-input"> only person who can help. <button class="submit-btn" onclick="checkAnswer('ex-87-input', 'the', 'ex-87-feedback')">Submit</button> <span class="feedback" id="ex-87-feedback"></span></li>
+            <li>I need to buy <input type="text" id="ex-88-input"> car. I don't care which <input type="text" id="ex-88b-input"> it is, as long as it's cheap. <button class="submit-btn" onclick="checkAnswer('ex-88-input', 'a', 'ex-88-feedback'); checkAnswer('ex-88b-input', 'one', 'ex-88b-feedback');">Submit</button> <span class="feedback" id="ex-88-feedback"></span><span class="feedback" id="ex-88b-feedback"></span></li>
+            <li>These aren't my keys. Mine are <input type="text" id="ex-89-input"> small <input type="text" id="ex-89b-input"> on the hook. <button class="submit-btn" onclick="checkAnswer('ex-89-input', 'the', 'ex-89-feedback'); checkAnswer('ex-89b-input', 'ones', 'ex-89b-feedback');">Submit</button> <span class="feedback" id="ex-89-feedback"></span><span class="feedback" id="ex-89b-feedback"></span></li>
+            <li>She's wearing <input type="text" id="ex-90-input"> beautiful dress. It's <input type="text" id="ex-90b-input"> silk <input type="text" id="ex-90c-input"> from India. <button class="submit-btn" onclick="checkAnswer('ex-90-input', 'a', 'ex-90-feedback'); checkAnswer('ex-90b-input', 'a', 'ex-90b-feedback'); checkAnswer('ex-90c-input', 'one', 'ex-90c-feedback');">Submit</button> <span class="feedback" id="ex-90-feedback"></span><span class="feedback" id="ex-90b-feedback"></span><span class="feedback" id="ex-90c-feedback"></span></li>
+            <li>My brother is <input type="text" id="ex-91-input"> artist. <button class="submit-btn" onclick="checkAnswer('ex-91-input', 'an', 'ex-91-feedback')">Submit</button> <span class="feedback" id="ex-91-feedback"></span></li>
+            <li><input type="text" id="ex-92-input"> apartment next to mine is empty. <button class="submit-btn" onclick="checkAnswer('ex-92-input', 'The', 'ex-92-feedback')">Submit</button> <span class="feedback" id="ex-92-feedback"></span></li>
+            <li>This test was difficult, but <input type="text" id="ex-93-input"> next <input type="text" id="ex-93b-input"> will be easier. <button class="submit-btn" onclick="checkAnswer('ex-93-input', 'the', 'ex-93-feedback'); checkAnswer('ex-93b-input', 'one', 'ex-93b-feedback');">Submit</button> <span class="feedback" id="ex-93-feedback"></span><span class="feedback" id="ex-93b-feedback"></span></li>
+            <li>I need to go to <input type="text" id="ex-94-input"> bank to get some cash. <button class="submit-btn" onclick="checkAnswer('ex-94-input', 'the', 'ex-94-feedback')">Submit</button> <span class="feedback" id="ex-94-feedback"></span></li>
+            <li>He told me <input type="text" id="ex-95-input"> funny joke. <button class="submit-btn" onclick="checkAnswer('ex-95-input', 'a', 'ex-95-feedback')">Submit</button> <span class="feedback" id="ex-95-feedback"></span></li>
+            <li>Do you sell stamps? I need <input type="text" id="ex-96-input"> for this letter. <button class="submit-btn" onclick="checkAnswer('ex-96-input', 'one', 'ex-96-feedback')">Submit</button> <span class="feedback" id="ex-96-feedback"></span></li>
+            <li>I prefer stories with happy endings to sad <input type="text" id="ex-97-input">. <button class="submit-btn" onclick="checkAnswer('ex-97-input', 'ones', 'ex-97-feedback')">Submit</button> <span class="feedback" id="ex-97-feedback"></span></li>
+            <li>Can you give me <input type="text" id="ex-98-input"> example? <button class="submit-btn" onclick="checkAnswer('ex-98-input', 'an', 'ex-98-feedback')">Submit</button> <span class="feedback" id="ex-98-feedback"></span></li>
+            <li><input type="text" id="ex-99-input"> cars are parked on the street. <button class="submit-btn" onclick="checkAnswer('ex-99-input', 'The', 'ex-99-feedback')">Submit</button> <span class="feedback" id="ex-99-feedback"></span></li>
+            <li>A: What kind of job are you looking for? B: I want <input type="text" id="ex-100-input"> interesting <input type="text" id="ex-100b-input"> with good pay. <button class="submit-btn" onclick="checkAnswer('ex-100-input', 'an', 'ex-100-feedback'); checkAnswer('ex-100b-input', 'one', 'ex-100b-feedback');">Submit</button> <span class="feedback" id="ex-100-feedback"></span><span class="feedback" id="ex-100b-feedback"></span></li>
+        </ol>
+    </div>
+</section>
+        </main>
+    </div>
+
+    <script>
+        // Function to check text input, select dropdowns
+        function checkAnswer(inputId, correctAnswer, feedbackId) {
+            const userInputEl = document.getElementById(inputId);
+            const feedbackEl = document.getElementById(feedbackId);
+            const userAnswer = userInputEl.value.trim();
+
+            if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                feedbackEl.textContent = 'Correct! ✔️';
+                feedbackEl.className = 'feedback feedback-correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. ❌ The correct answer is "${correctAnswer}".`;
+                feedbackEl.className = 'feedback feedback-incorrect';
+                // Show the correct answer in the input for learning
+                userInputEl.value = correctAnswer; 
+            }
+        }
+
+        // Function to check radio buttons
+        function checkRadio(radioGroupName, correctAnswer, feedbackId) {
+            const feedbackEl = document.getElementById(feedbackId);
+            const selectedRadio = document.querySelector(`input[name="${radioGroupName}"]:checked`);
+            
+            if (!selectedRadio) {
+                feedbackEl.textContent = 'Please select an answer.';
+                feedbackEl.className = 'feedback feedback-incorrect';
+                return;
+            }
+
+            if (selectedRadio.value === correctAnswer) {
+                feedbackEl.textContent = 'Correct! ✔️';
+                feedbackEl.className = 'feedback feedback-correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. ❌ The correct answer is "${correctAnswer}".`;
+                feedbackEl.className = 'feedback feedback-incorrect';
+            }
+        }
+
+        // Function for the sentence correction exercise
+        function checkCorrections() {
+            const answers = {
+                'correct-1-input': 'The',
+                'correct-2-input': 'The',
+                'correct-3-input': 'one',
+                'correct-4-input': 'a',
+                'correct-5-input': 'a'
+            };
+            
+            let allCorrect = true;
+            let feedbackHTML = '<ul>';
+
+            for (const inputId in answers) {
+                const userInputEl = document.getElementById(inputId);
+                const userAnswer = userInputEl.value.trim();
+                const correctAnswer = answers[inputId];
+
+                if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                    feedbackHTML += `<li><strong>Correction for "${inputId.replace('-input', '')}":</strong> Correct! ✔️</li>`;
+                    userInputEl.style.borderColor = 'green';
+                } else {
+                    feedbackHTML += `<li><strong>Correction for "${inputId.replace('-input', '')}":</strong> Incorrect. ❌ It should be "<strong>${correctAnswer}</strong>".</li>`;
+                    userInputEl.style.borderColor = 'red';
+                    allCorrect = false;
+                }
+            }
+            feedbackHTML += '</ul>';
+
+            const feedbackContainer = document.getElementById('corrections-feedback');
+            feedbackContainer.innerHTML = feedbackHTML;
+        }
+        
+        // Function for the writing analysis script
+        function analyzeWritingSample() {
+            const conversationText = document.getElementById('writing-convo-text').innerText;
+            const outputDiv = document.getElementById('writing-analysis-output');
+            
+            // Regex to split by sentences, keeping the punctuation with the sentence
+            const sentences = conversationText.match(/[^.?!]+[.?!]+/g);
+
+            if (sentences) {
+                let html = '<ol>';
+                sentences.forEach(sentence => {
+                    // Trim whitespace from each sentence
+                    const cleanSentence = sentence.trim();
+                    if(cleanSentence) {
+                       html += `<li>${cleanSentence}</li>`;
+                    }
+                });
+                html += '</ol>';
+                outputDiv.innerHTML = html;
+            } else {
+                 outputDiv.innerHTML = '<p>Could not find sentences to analyze.</p>';
+            }
+        }
+
+    </script>
+</body>
+</html>
