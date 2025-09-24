@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 23: Subject and Object Pronouns</title>
+    <style>
+        /* --- General Styling --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #0056b3;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            color: #fff;
+            background-color: #007bff;
+            padding: 20px;
+            margin: -25px -25px 25px -25px;
+            border-radius: 8px 8px 0 0;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            color: #17a2b8;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        p, li {
+            font-size: 1em;
+        }
+        
+        /* --- Section Styling --- */
+        section {
+            margin-bottom: 40px;
+        }
+
+        .outcomes {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .outcomes ul {
+            list-style-type: disc;
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        /* --- Grammar & Conversation Styling --- */
+        .conversation {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .conversation p {
+            margin: 5px 0;
+        }
+
+        .conversation strong {
+            color: #0056b3;
+        }
+
+        .vocabulary-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .vocabulary-images figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        .vocabulary-images img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #007bff;
+            color: white;
+        }
+        .grammar-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .grammar-notes {
+            background-color: #e9f7ef;
+            border-left: 5px solid #28a745;
+            padding: 1px 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        /* --- Exercise Styling --- */
+        .exercise {
+            margin-top: 25px;
+            padding: 20px;
+            background: #fdfdfd;
+            border: 1px solid #e3e3e3;
+            border-radius: 5px;
+        }
+        .exercise-question {
+            margin-bottom: 15px;
+        }
+        
+        .exercise-question label {
+            margin-right: 15px;
+        }
+        
+        .exercise-question input[type="radio"], .exercise-question input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .exercise-question input[type="text"] {
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+
+        .submit-btn {
+            background-color: #17a2b8;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+            font-size: 0.9em;
+        }
+
+        .submit-btn:hover {
+            background-color: #138496;
+        }
+        
+        .feedback {
+            font-weight: bold;
+            margin-left: 15px;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .feedback.correct {
+            color: #155724;
+            background-color: #d4edda;
+        }
+
+        .feedback.incorrect {
+            color: #721c24;
+            background-color: #f8d7da;
+        }
+
+        .choice-circle {
+            display: inline-block;
+            cursor: pointer;
+            padding: 2px 8px;
+            border-radius: 12px;
+            border: 1px solid #ccc;
+            margin: 0 2px;
+        }
+
+        .choice-circle.selected {
+            background-color: #007bff;
+            color: white;
+            border-color: #0056b3;
+        }
+
+        .editing-box {
+            background: #fff;
+            border: 1px dashed #ccc;
+            padding: 20px;
+            margin: 20px 0;
+            position: relative;
+            background-image: url('FOG-1-23/7.png'); /* Balloons image */
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain;
+            min-height: 250px;
+            padding-left: 150px; /* Space for balloons */
+        }
+        .editing-box textarea {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        
+        /* --- Writing Section --- */
+        #writing-output {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #eef;
+            border-left: 5px solid #667eea;
+            border-radius: 5px;
+        }
+        #writing-output p {
+            margin: 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>UNIT 23: Subject and Object Pronouns<br><small>GIFTS AND FAVORS</small></h1>
+            <div class="outcomes">
+                <strong>OUTCOMES</strong>
+                <ul>
+                    <li>Use subject and object pronouns</li>
+                    <li>Identify true and false sentences about a reading</li>
+                    <li>Complete a conversation with information from a conversation</li>
+                    <li>Ask and answer questions about gifts</li>
+                    <li>Role-play asking for a favor in a conversation</li>
+                    <li>Write a paragraph about a gift for someone you know</li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <!-- ======================= STEP 1: GRAMMAR IN CONTEXT ======================= -->
+            <section id="step1">
+                <h2>STEP 1 GRAMMAR IN CONTEXT</h2>
+                
+                <div id="before-you-read">
+                    <h3>BEFORE YOU READ</h3>
+                    <h4>A VOCABULARY</h4>
+                    <p>Study the words. Then work with a partner. Practice the conversation.</p>
+                    
+                    <div class="conversation">
+                        <p><strong>A:</strong> It's your birthday. What gift do you want?</p>
+                        <p><strong>B:</strong> I want a gift card. What about you?</p>
+                        <p><strong>A:</strong> I want flowers.</p>
+                        <p><strong>B:</strong> Flowers are nice.</p>
+                    </div>
+
+                    <div class="vocabulary-images">
+                        <figure>
+                            <img src="FOG-1-23/1.png" alt="A collage of gifts: flowers, gift card, tickets, and a box of chocolates.">
+                            <figcaption>flowers, gift card, tickets, box of chocolates</figcaption>
+                        </figure>
+                    </div>
+
+                    <h4>B Now practice the other words in A.</h4>
+                    <div class="conversation">
+                        <p><strong>A:</strong> It's your birthday. What gift do you want?</p>
+                        <p><strong>B:</strong> I want ________. What about you?</p>
+                        <p><strong>A:</strong> I want ________.</p>
+                        <p><strong>B:</strong> ________.</p>
+                    </div>
+                </div>
+
+                <div id="read">
+                    <h3>READ</h3>
+                    <p>Read this conversation.</p>
+                    <h4>An Appropriate Gift</h4>
+
+                    <div class="conversation" style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="flex: 2;">
+                            <p><strong>CARLOS:</strong> Judy, you're an American. What's a good gift?</p>
+                            <p><strong>JUDY:</strong> For what?</p>
+                            <p><strong>CARLOS:</strong> For the party at Bill's house on Saturday. I want to get <strong>him</strong> a gift.</p>
+                            <p><strong>JUDY:</strong> Right. Let <strong>me</strong> think.</p>
+                            <p><strong>CARLOS:</strong> How about flowers?</p>
+                            <p><strong>JUDY:</strong> Well, I guess flowers are nice. But <strong>you</strong> don't usually give flowers to a man.</p>
+                            <p><strong>CARLOS:</strong> <strong>He</strong> has a wife. Can I give <strong>them</strong> to <strong>her</strong>?</p>
+                            <p><strong>JUDY:</strong> Hmm. I'm not sure.</p>
+                            <p><strong>CARLOS:</strong> What about tickets for a concert? I know <strong>he</strong> likes music. Or maybe a gift card?</p>
+                            <p><strong>JUDY:</strong> No. Not appropriate. <strong>You</strong> don't give your boss tickets or a gift card.</p>
+                            <p><strong>CARLOS:</strong> Well, what do <strong>you</strong> suggest?</p>
+                            <p><strong>JUDY:</strong> Why don't <strong>you</strong> give <strong>him</strong> some chocolates? <strong>He</strong>'s always eating <strong>them</strong> at his desk.</p>
+                            <p><strong>CARLOS:</strong> OK, good idea. A box of chocolates. Now, can <strong>you</strong> do <strong>me</strong> a favor?</p>
+                            <p><strong>JUDY:</strong> Sure. What?</p>
+                            <p><strong>CARLOS:</strong> Tomiko and I need a ride to the party. Our car isn't working. Can <strong>you</strong> take <strong>us</strong>?</p>
+                            <p><strong>JUDY:</strong> For a price.</p>
+                            <p><strong>CARLOS:</strong> For a price? What do <strong>you</strong> mean?</p>
+                            <p><strong>JUDY:</strong> Get <strong>me</strong> a box of chocolates, too.</p>
+                            <p><strong>CARLOS:</strong> I don't believe <strong>you</strong>. <strong>You</strong>'re kidding!</p>
+                            <p><strong>JUDY:</strong> <strong>You</strong>'re right! I can pick <strong>you</strong> up at 6:30 on Saturday. OK?</p>
+                        </div>
+                        <div style="flex: 1;">
+                            <img src="FOG-1-23/2.png" alt="Carlos and Judy talking at a table" style="width: 100%; border-radius: 8px;">
+                        </div>
+                    </div>
+                    
+                    <!-- YOUTUBE VIDEO EMBED -->
+                    <div class="video-container" style="margin-top: 20px; text-align:center;">
+                        <h4>Video liên quan</h4>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_HERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div id="after-you-read">
+                    <h3>AFTER YOU READ</h3>
+                    <h4>A COMPREHENSION</h4>
+                    <p>Look at the conversation again. For each statement, check (✓) True or False.</p>
+                    
+                    <div id="comprehension-check">
+                        <!-- Questions will be generated by JS -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ======================= STEP 2: GRAMMAR PRESENTATION ======================= -->
+            <section id="step2">
+                <h2>STEP 2 GRAMMAR PRESENTATION</h2>
+                <h3>SUBJECT AND OBJECT PRONOUNS</h3>
+                <table class="grammar-table">
+                    <thead>
+                        <tr>
+                            <th>Subject Pronouns</th>
+                            <th>Example Sentences</th>
+                            <th>Object Pronouns</th>
+                            <th>Example Sentences</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>I</td><td><strong>I</strong> like flowers.</td><td>Me</td><td>Maria usually calls <strong>me</strong>.</td></tr>
+                        <tr><td>You</td><td><strong>You</strong> have the tickets.</td><td>You</td><td>Yusuf likes <strong>you</strong>.</td></tr>
+                        <tr><td>He</td><td><strong>He</strong>'s my boss.</td><td>Him</td><td>Please ask <strong>him</strong>.</td></tr>
+                        <tr><td>She</td><td><strong>She</strong> needs help.</td><td>Her</td><td>Kei knows <strong>her</strong> very well.</td></tr>
+                        <tr><td>It</td><td><strong>It</strong>'s for a party.</td><td>It</td><td>Bring <strong>it</strong> to the party.</td></tr>
+                        <tr><td>We</td><td><strong>We</strong> don't know Bill.</td><td>Us</td><td>Jim is giving <strong>us</strong> a ride.</td></tr>
+                        <tr><td>You</td><td><strong>You</strong> seem very happy.</td><td>You</td><td>I can see <strong>you</strong> this afternoon.</td></tr>
+                        <tr><td>They</td><td><strong>They</strong>'re a good gift.</td><td>Them</td><td>The boss loves <strong>them</strong>.</td></tr>
+                    </tbody>
+                </table>
+
+                <div class="grammar-notes">
+                    <h4>GRAMMAR NOTES</h4>
+                    <p><strong>1 Subject Pronouns</strong><br>
+                    <strong>I, you, he, she, it, we,</strong> and <strong>they</strong> are subject pronouns. They replace a subject noun.</p>
+                    <p><strong>2 Object Pronouns</strong><br>
+                    <strong>Me, you, him, her, it, us,</strong> and <strong>them</strong> are object pronouns. They replace an object noun. Object pronouns often come after verbs and after prepositions like <em>to</em> or <em>for</em>.</p>
+                    <p><strong>3 You and It</strong><br>
+                    <strong>You</strong> and <strong>it</strong> are both subject and object pronouns. The pronoun <strong>you</strong> is the same for singular and plural.</p>
+                </div>
+            </section>
+
+            <!-- ======================= STEP 3: FOCUSED PRACTICE ======================= -->
+            <section id="step3">
+                <h2>STEP 3 FOCUSED PRACTICE</h2>
+                
+                <div class="exercise" id="ex2">
+                    <h3>EXERCISE 2 SUBJECT AND OBJECT PRONOUNS</h3>
+                    <p>Complete the sentences. Circle the correct answers.</p>
+                    <div id="exercise-2-questions">
+                        <!-- Questions will be generated by JS -->
+                    </div>
+                </div>
+
+                <div class="exercise" id="ex3">
+                    <h3>EXERCISE 3 SUBJECT AND OBJECT PRONOUNS</h3>
+                    <p>Complete the conversations. Use subject and object pronouns.</p>
+                    <div id="exercise-3-questions">
+                        <!-- Questions will be generated by JS -->
+                    </div>
+                </div>
+                
+                 <div class="exercise" id="ex4">
+                    <h3>EXERCISE 4 OBJECT PRONOUNS</h3>
+                    <p>In the pictures, the people are talking about buying presents for people they know. For each picture, continue the conversation. Use the nouns in parentheses.</p>
+                    
+                    <div class="exercise-question" data-question-id="ex4-1">
+                        <img src="FOG-1-23/3.png" alt="Couple in a bookstore" style="max-width:300px;">
+                        <p><strong>1. A:</strong> Why don't you get a travel book for <u>them</u>? (a travel book)</p>
+                        <p>
+                            <strong>B:</strong> They don't like travel books. I can get 
+                            <input type="text" size="10" data-answer="a CD for them">. (a CD)
+                            <button class="submit-btn">Kiểm tra</button>
+                            <span class="feedback"></span>
+                        </p>
+                    </div>
+
+                    <div class="exercise-question" data-question-id="ex4-2">
+                        <img src="FOG-1-23/4.png" alt="Couple looking at tennis rackets" style="max-width:300px;">
+                        <p><strong>2. A:</strong> 
+                            <input type="text" size="40" data-answer="Why don't you get a soccer ball for her?">? (a soccer ball)
+                        </p>
+                        <p>
+                            <strong>B:</strong> She has a soccer ball. I can get 
+                            <input type="text" size="30" data-answer="this tennis racquet for her">. (this tennis racquet)
+                            <button class="submit-btn">Kiểm tra</button>
+                            <span class="feedback"></span>
+                        </p>
+                    </div>
+
+                    <div class="exercise-question" data-question-id="ex4-3">
+                         <img src="FOG-1-23/5.png" alt="Couple looking at clothes" style="max-width:300px;">
+                        <p><strong>3. A:</strong> 
+                            <input type="text" size="40" data-answer="Why don't you get a vest for him?">? (a vest)
+                        </p>
+                        <p>
+                            <strong>B:</strong> He doesn't wear vests. I can get 
+                            <input type="text" size="30" data-answer="a jacket for him">. (a jacket)
+                            <button class="submit-btn">Kiểm tra</button>
+                            <span class="feedback"></span>
+                        </p>
+                    </div>
+
+                     <div class="exercise-question" data-question-id="ex4-4">
+                        <img src="FOG-1-23/6.png" alt="Couple looking at DVDs" style="max-width:300px;">
+                        <p><strong>4. A:</strong> 
+                             <input type="text" size="40" data-answer="Why don't you get a DVD for him?">? (a DVD)
+                        </p>
+                        <p>
+                            <strong>B:</strong> You already have a lot of DVDs. I can get 
+                            <input type="text" size="30" data-answer="a video game for you">. (a video game)
+                            <button class="submit-btn">Kiểm tra</button>
+                            <span class="feedback"></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="exercise" id="ex5">
+                    <h3>EXERCISE 5 EDITING</h3>
+                    <p>There are six mistakes in the invitation. The first mistake is corrected. Find and correct five more.</p>
+                    <div class="editing-box">
+                        <textarea id="editing-text">
+Dear Sarah,
+
+Jim and me are having a party on Saturday, June 10, at 3:00. Is for our son, Bob, and our daughter, Sally. Them both have birthdays in June. You and Stan are invited. Please don't bring they any presents. Us have lots of gifts already. Can you come? Give I a call.
+
+See you soon.
+Doris
+                        </textarea>
+                    </div>
+                    <button class="submit-btn" id="editing-submit">Hiển thị đáp án</button>
+                    <div class="feedback" id="editing-feedback"></div>
+                </div>
+            </section>
+            
+             <!-- ======================= FROM GRAMMAR TO WRITING ======================= -->
+            <section id="writing">
+                <h2>FROM GRAMMAR TO WRITING</h2>
+                <h3>A BEFORE YOU WRITE</h3>
+                <p>Read the paragraph. Underline subject pronouns and circle object pronouns. Then think about a gift for someone you know. Complete the chart. Work with a partner. Tell your partner about the person and the gift.</p>
+                <div class="conversation" id="writing-sample">
+                    <p>My sister's seventeenth birthday is this month. What can <u>I</u> buy for <span class="choice-circle">her</span>? <u>I</u> have only $30 for a gift. <u>I</u> know! <u>I</u> can get <span class="choice-circle">her</span> some books. <u>She</u> loves books, and <u>they</u> aren't very expensive. <u>I</u> can get <span class="choice-circle">them</span> at my favorite bookstore. <u>It</u> has a lot of good books.</p>
+                </div>
+                
+                <h3>B Sentence Splitter</h3>
+                <p>Đây là các câu từ đoạn văn trên, được tách ra để bạn dễ phân tích:</p>
+                <div id="writing-output">
+                    <!-- Sentences will be populated by JS -->
+                </div>
+            </section>
+
+            <!-- ======================= UNIT 23 REVIEW ======================= -->
+            <section id="review">
+                <h2>UNIT 23 REVIEW</h2>
+                <div class="exercise">
+                    <h3>A Complete the conversations. Circle the correct answers.</h3>
+                    <div id="review-a-questions">
+                        <!-- Review A questions will be generated by JS -->
+                    </div>
+                </div>
+                <div class="exercise">
+                    <h3>B Look at the nouns in parentheses. Complete the suggestions with the correct object pronouns.</h3>
+                     <div id="review-b-questions">
+                        <!-- Review B questions will be generated by JS -->
+                    </div>
+                </div>
+                <div class="exercise">
+                    <h3>C Correct the note. There are five mistakes.</h3>
+                    <div class="editing-box" style="background-image: none; padding-left: 20px;">
+                        <textarea id="review-editing-text">
+Dear Doris and Jim,
+
+Thank you for inviting we to the party on June 10. Us can bring some cookies for dessert. It are really good, and everyone likes they. I don't have your address. Can you please email them to us?
+
+See you on Saturday!
+Sarah and Stan
+                        </textarea>
+                    </div>
+                    <button class="submit-btn" id="review-editing-submit">Hiển thị đáp án</button>
+                    <div class="feedback" id="review-editing-feedback"></div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ======================= BÀI TẬP BỔ SUNG ======================= -->
+<section id="extra-practice">
+    <h2>BÀI TẬP BỔ SUNG (100 CÂU)</h2>
+    <p>Luyện tập thêm về Đại từ chủ ngữ và tân ngữ. Chọn hoặc điền câu trả lời đúng.</p>
+    <div id="additional-practice-container">
+        <!-- 100 câu hỏi sẽ được tạo bởi JavaScript và chèn vào đây -->
+    </div>
+</section>
+
+    </div> <!-- end .container -->
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        // --- Data for Exercises ---
+        const comprehensionQuestions = [
+            { text: "1. Bill is Carlos's boss.", answer: 'True' },
+            { text: "2. Judy says people often give flowers to a man.", answer: 'False' },
+            { text: "3. Judy says tickets are a good gift for a boss.", answer: 'False' },
+            { text: "4. Carlos's boss likes chocolates.", answer: 'True' },
+            { text: "5. Judy has a car.", answer: 'True' },
+            { text: "6. Judy doesn't like chocolate.", answer: 'False' }
+        ];
+
+        const exercise2Questions = [
+            { text: "1. Jenny needs a ride. Drive <span class='choice-circle'>she</span> / <span class='choice-circle'>her</span> to the train station.", answer: "her" },
+            { text: "2. Josh and I love tennis. Can you play with <span class='choice-circle'>we</span> / <span class='choice-circle'>us</span>?", answer: "us" },
+            { text: "3. Steve loves books. Why don't you get <span class='choice-circle'>he</span> / <span class='choice-circle'>him</span> one?", answer: "him" },
+            { text: "4. Jessica and Tim are at a restaurant. <span class='choice-circle'>They</span> / <span class='choice-circle'>Them</span> are celebrating their anniversary.", answer: "They" },
+            { text: "5. <span class='choice-circle'>I</span> / <span class='choice-circle'>Me</span> need to go shopping for Steve's birthday present.", answer: "I" },
+            { text: "6. <span class='choice-circle'>We</span> / <span class='circle-choice'>Us</span> are going to the party. Do you need a ride?", answer: "We" },
+            { text: "7. How about some bagels? I know you like <span class='choice-circle'>it</span> / <span class='choice-circle'>them</span>.", answer: "them" },
+            { text: "8. Ana loves shopping at the mall. I can give <span class='choice-circle'>her</span> / <span class='choice-circle'>him</span> a gift card from a store there.", answer: "her" }
+        ];
+        
+        const exercise3Questions = [
+            { q: "1. A: It's Jessica's birthday on Sunday. What's a good gift for ____?", a: "her", b: "B: How about a DVD? ____ loves movies.", a2: "She"},
+            { q: "2. A: I need to buy a present for Mark's birthday next week. What's a good present?", a: "", b: "B: Well, ____ likes music. Get ____ some concert tickets.", a2: "He", a3: "him"},
+            { q: "3. A: Our car isn't working. Can ____ give ____ a ride to the party?", a: "you", a2: "us", b: "B: Sure. I'll pick ____ up at 5:00.", a3: "you"},
+            { q: "4. A: The Johnsons are having a party on Saturday. What's a good gift for ____?", a: "them", b: "B: ____ love flowers.", a2: "They"},
+            { q: "5. A: Hello? Steve? Is ____ raining there? Do I need my umbrella?", a: "it", b: "B: Yes, bring ____. It's raining hard.", a2: "it"},
+            { q: "6. A: My friends are visiting from Portland. ____'re a lot of fun.", a: "They", b: "B: Well, bring ____ on Saturday. We have a lot of food.", a2: "them"}
+        ];
+
+        const reviewAQuestions = [
+            { text: "1. A: It's Steve's birthday on Sunday. What's a good gift for <span class='choice-circle'>he</span> / <span class='choice-circle'>him</span>?<br>B: How about a gift card from a movie theater? <span class='choice-circle'>He</span> / <span class='choice-circle'>Him</span> really likes movies.", answers: ["him", "He"] },
+            { text: "2. A: What's a good gift for the children? Do <span class='choice-circle'>they</span> / <span class='choice-circle'>them</span> like games?<br>B: Yes, buy <span class='choice-circle'>they</span> / <span class='choice-circle'>them</span> games. <span class='choice-circle'>We</span> / <span class='choice-circle'>Us</span> all love games!", answers: ["they", "them", "We"] }
+        ];
+
+        const reviewBQuestions = [
+            { text: "1. Why don't you get flowers for ________? (your wife)", answer: "her" },
+            { text: "2. Why don't you get a tie for ________? (Uncle Toshi)", answer: "him" },
+            { text: "3. Why don't you take chocolates to ________? (your cousins)", answer: "them" },
+            { text: "4. Why don't we give a gift card to ________? (John's sister)", answer: "her" },
+            { text: "5. Why don't you buy a new TV for ________? (Grandma and Grandpa)", answer: "them" }
+        ];
+
+        // --- Function to Create Exercises ---
+
+        function createTrueFalseExercise(containerId, questions) {
+            const container = document.getElementById(containerId);
+            questions.forEach((q, index) => {
+                const qDiv = document.createElement('div');
+                qDiv.className = 'exercise-question';
+                qDiv.innerHTML = `
+                    <p>${q.text}
+                        <label><input type="radio" name="q${index}" value="True"> True</label>
+                        <label><input type="radio" name="q${index}" value="False"> False</label>
+                        <button class="submit-btn" data-answer="${q.answer}">Kiểm tra</button>
+                        <span class="feedback"></span>
+                    </p>
+                `;
+                container.appendChild(qDiv);
+            });
+        }
+
+        function createMultipleChoiceExercise(containerId, questions) {
+            const container = document.getElementById(containerId);
+            questions.forEach((q, index) => {
+                const qDiv = document.createElement('div');
+                qDiv.className = 'exercise-question';
+                qDiv.innerHTML = `<p>${q.text}</p>`;
+                const btn = document.createElement('button');
+                btn.className = 'submit-btn';
+                btn.textContent = 'Kiểm tra';
+                const feedback = document.createElement('span');
+                feedback.className = 'feedback';
+
+                qDiv.appendChild(btn);
+                qDiv.appendChild(feedback);
+                container.appendChild(qDiv);
+
+                const choices = qDiv.querySelectorAll('.choice-circle');
+                choices.forEach(choice => {
+                    choice.addEventListener('click', () => {
+                        choices.forEach(c => c.classList.remove('selected'));
+                        choice.classList.add('selected');
+                    });
+                });
+
+                btn.addEventListener('click', () => {
+                    const selected = qDiv.querySelector('.choice-circle.selected');
+                    if (!selected) {
+                        feedback.textContent = 'Vui lòng chọn một đáp án.';
+                        feedback.className = 'feedback incorrect';
+                        return;
+                    }
+                    if (selected.textContent === q.answer) {
+                        feedback.textContent = 'Chính xác!';
+                        feedback.className = 'feedback correct';
+                    } else {
+                        feedback.textContent = `Sai rồi. Đáp án đúng là "${q.answer}".`;
+                        feedback.className = 'feedback incorrect';
+                    }
+                });
+            });
+        }
+        
+         function createFillInBlankExercise(containerId, questions) {
+            const container = document.getElementById(containerId);
+            questions.forEach((q, index) => {
+                const qDiv = document.createElement('div');
+                qDiv.className = 'exercise-question';
+                let html = `<p>${q.q.replace(/____/g, '<input type="text" size="5">')}</p>`;
+                if (q.b) {
+                    html += `<p>${q.b.replace(/____/g, '<input type="text" size="5">')}</p>`;
+                }
+                qDiv.innerHTML = html;
+                const btn = document.createElement('button');
+                btn.className = 'submit-btn';
+                btn.textContent = 'Kiểm tra';
+                const feedback = document.createElement('span');
+                feedback.className = 'feedback';
+                
+                qDiv.appendChild(btn);
+                qDiv.appendChild(feedback);
+                container.appendChild(qDiv);
+
+                const inputs = qDiv.querySelectorAll('input[type="text"]');
+                const answers = Object.values(q).filter(val => typeof val === 'string' && val !== q.q && val !== q.b);
+
+                btn.addEventListener('click', () => {
+                    let allCorrect = true;
+                    inputs.forEach((input, i) => {
+                        if (input.value.trim().toLowerCase() !== answers[i].toLowerCase()) {
+                            allCorrect = false;
+                            input.style.borderColor = 'red';
+                        } else {
+                            input.style.borderColor = 'green';
+                        }
+                    });
+
+                    if (allCorrect) {
+                        feedback.textContent = 'Chính xác!';
+                        feedback.className = 'feedback correct';
+                    } else {
+                        feedback.textContent = `Hãy thử lại. Gợi ý: ${answers.join(', ')}`;
+                        feedback.className = 'feedback incorrect';
+                    }
+                });
+            });
+        }
+        
+        function createReviewA(containerId, questions) {
+            const container = document.getElementById(containerId);
+            questions.forEach((q, index) => {
+                const qDiv = document.createElement('div');
+                qDiv.className = 'exercise-question';
+                qDiv.innerHTML = `<p>${q.text}</p>`;
+                const btn = document.createElement('button');
+                btn.className = 'submit-btn';
+                btn.textContent = 'Kiểm tra';
+                const feedback = document.createElement('span');
+                feedback.className = 'feedback';
+                qDiv.appendChild(btn);
+                qDiv.appendChild(feedback);
+                container.appendChild(qDiv);
+
+                const choiceGroups = q.text.split('<br>');
+                const choices = qDiv.querySelectorAll('.choice-circle');
+
+                choices.forEach(choice => {
+                    choice.addEventListener('click', () => {
+                         // Find parent group and deselect others in the same group
+                        const parentText = choice.closest('p').innerHTML;
+                        const choicesInGroup = qDiv.querySelectorAll('.choice-circle');
+                        let inFirstGroup = parentText.includes(choiceGroups[0]);
+
+                        choicesInGroup.forEach(c => {
+                             let cInFirstGroup = c.closest('p').innerHTML.includes(choiceGroups[0]);
+                             if(inFirstGroup && cInFirstGroup) c.classList.remove('selected');
+                             if(!inFirstGroup && !cInFirstGroup) c.classList.remove('selected');
+                        });
+                        choice.classList.add('selected');
+                    });
+                });
+                
+                btn.addEventListener('click', () => {
+                    const selected = qDiv.querySelectorAll('.choice-circle.selected');
+                    if (selected.length < q.answers.length) {
+                        feedback.textContent = 'Vui lòng chọn đủ đáp án.';
+                        feedback.className = 'feedback incorrect';
+                        return;
+                    }
+                    
+                    let allCorrect = true;
+                    selected.forEach((sel, i) => {
+                        // A simple check assuming order is maintained.
+                        if (sel.textContent.toLowerCase() !== q.answers[i].toLowerCase()) {
+                            allCorrect = false;
+                        }
+                    });
+
+                    if (allCorrect) {
+                        feedback.textContent = 'Chính xác!';
+                        feedback.className = 'feedback correct';
+                    } else {
+                        feedback.textContent = `Sai rồi. Đáp án đúng là: ${q.answers.join(', ')}`;
+                        feedback.className = 'feedback incorrect';
+                    }
+                });
+            });
+        }
+
+        function createReviewB(containerId, questions) {
+            const container = document.getElementById(containerId);
+            questions.forEach((q, index) => {
+                const qDiv = document.createElement('div');
+                qDiv.className = 'exercise-question';
+                qDiv.innerHTML = `
+                    <p>${q.text.replace('________', `<input type="text" size="10" data-answer="${q.answer}">`)}
+                        <button class="submit-btn">Kiểm tra</button>
+                        <span class="feedback"></span>
+                    </p>`;
+                container.appendChild(qDiv);
+            });
+        }
+
+        // --- Populate Exercises ---
+        createTrueFalseExercise('comprehension-check', comprehensionQuestions);
+        createMultipleChoiceExercise('exercise-2-questions', exercise2Questions);
+        createFillInBlankExercise('exercise-3-questions', exercise3Questions);
+        createReviewA('review-a-questions', reviewAQuestions);
+        createReviewB('review-b-questions', reviewBQuestions);
+        
+        // --- Generic Event Listener for Submit Buttons ---
+        document.body.addEventListener('click', function(e) {
+            if (e.target.classList.contains('submit-btn')) {
+                const questionDiv = e.target.closest('.exercise-question');
+                const feedbackSpan = questionDiv.querySelector('.feedback');
+                
+                // For True/False
+                const radio = questionDiv.querySelector('input[type="radio"]:checked');
+                if (radio) {
+                    const correctAnswer = e.target.dataset.answer;
+                    if (radio.value === correctAnswer) {
+                        feedbackSpan.textContent = 'Chính xác!';
+                        feedbackSpan.className = 'feedback correct';
+                    } else {
+                        feedbackSpan.textContent = `Sai rồi. Đáp án đúng là ${correctAnswer}.`;
+                        feedbackSpan.className = 'feedback incorrect';
+                    }
+                }
+
+                // For single fill-in-the-blank (like Review B)
+                const textInput = questionDiv.querySelector('input[type="text"]');
+                if (textInput && textInput.dataset.answer) {
+                     const correctAnswer = textInput.dataset.answer;
+                     if (textInput.value.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+                         feedbackSpan.textContent = 'Chính xác!';
+                         feedbackSpan.className = 'feedback correct';
+                         textInput.style.borderColor = 'green';
+                     } else {
+                         feedbackSpan.textContent = `Sai rồi. Đáp án đúng là "${correctAnswer}".`;
+                         feedbackSpan.className = 'feedback incorrect';
+                         textInput.style.borderColor = 'red';
+                     }
+                }
+                
+                // For Exercise 4 (multiple inputs)
+                const ex4Inputs = questionDiv.querySelectorAll('input[type="text"]');
+                if (questionDiv.dataset.questionId && ex4Inputs.length > 0) {
+                     let allCorrect = true;
+                     ex4Inputs.forEach(input => {
+                        const correctAnswer = input.dataset.answer;
+                        if(input.value.trim().toLowerCase() !== correctAnswer.toLowerCase()) {
+                            allCorrect = false;
+                            input.style.borderColor = 'red';
+                        } else {
+                            input.style.borderColor = 'green';
+                        }
+                     });
+                     if (allCorrect) {
+                        feedbackSpan.textContent = 'Chính xác!';
+                        feedbackSpan.className = 'feedback correct';
+                     } else {
+                         const answers = Array.from(ex4Inputs).map(i => i.dataset.answer).join('; ');
+                         feedbackSpan.textContent = `Hãy thử lại. Gợi ý: ${answers}`;
+                         feedbackSpan.className = 'feedback incorrect';
+                     }
+                }
+            }
+        });
+
+        // --- Exercise 5: Editing ---
+        document.getElementById('editing-submit').addEventListener('click', function() {
+            const correctedText = `Dear Sarah,
+
+Jim and <strong>I</strong> are having a party on Saturday, June 10, at 3:00. <strong>It</strong>'s for our son, Bob, and our daughter, Sally. <strong>They</strong> both have birthdays in June. You and Stan are invited. Please don't bring <strong>them</strong> any presents. <strong>We</strong> have lots of gifts already. Can you come? Give <strong>me</strong> a call.
+
+See you soon.
+Doris`;
+            const feedbackDiv = document.getElementById('editing-feedback');
+            feedbackDiv.innerHTML = '<h4>Đáp án đã sửa:</h4><pre>' + correctedText + '</pre>';
+            feedbackDiv.className = 'feedback correct';
+        });
+
+        // --- Review C: Editing ---
+        document.getElementById('review-editing-submit').addEventListener('click', function() {
+            const correctedText = `Dear Doris and Jim,
+
+Thank you for inviting <strong>us</strong> to the party on June 10. <strong>We</strong> can bring some cookies for dessert. <strong>They</strong> are really good, and everyone likes <strong>them</strong>. I don't have your address. Can you please email <strong>it</strong> to us?
+
+See you on Saturday!
+Sarah and Stan`;
+            const feedbackDiv = document.getElementById('review-editing-feedback');
+            feedbackDiv.innerHTML = '<h4>Đáp án đã sửa:</h4><pre>' + correctedText + '</pre>';
+            feedbackDiv.className = 'feedback correct';
+        });
+
+        // --- Writing Section: Sentence Splitter ---
+        const writingSample = document.getElementById('writing-sample').textContent;
+        const sentences = writingSample.split('.').filter(sentence => sentence.trim().length > 0);
+        const outputDiv = document.getElementById('writing-output');
+        sentences.forEach(sentence => {
+            const p = document.createElement('p');
+            p.textContent = sentence.trim() + '.';
+            outputDiv.appendChild(p);
+        });
+
+    });
+
+    /*
+=====================================================================
+PHẦN CODE MỚI CHO 100 CÂU BÀI TẬP BỔ SUNG
+=====================================================================
+*/
+
+// --- Dữ liệu cho 100 câu hỏi mới ---
+const additionalPracticeQuestions = [
+    // Multiple Choice Questions (70 questions)
+    { type: 'choice', text: "1. Maria is my friend. I see __CHOICE__ every day.", choices: ['she', 'her'], answer: 'her' },
+    { type: 'choice', text: "2. The books are on the table. Can you give __CHOICE__ to me?", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "3. My brother and __CHOICE__ are going to the cinema.", choices: ['I', 'me'], answer: 'I' },
+    { type: 'choice', text: "4. The teacher wants to speak to __CHOICE__.", choices: ['you', 'your'], answer: 'you' },
+    { type: 'choice', text: "5. __CHOICE__ is a very intelligent student.", choices: ['He', 'Him'], answer: 'He' },
+    { type: 'choice', text: "6. Can you help __CHOICE__ with this homework?", choices: ['we', 'us'], answer: 'us' },
+    { type: 'choice', text: "7. This present is for __CHOICE__.", choices: ['he', 'him'], answer: 'him' },
+    { type: 'choice', text: "8. __CHOICE__ don't understand the question.", choices: ['They', 'Them'], answer: 'They' },
+    { type: 'choice', text: "9. Please don't wait for __CHOICE__. __CHOICE__ will be late.", choices: ['I / Me', 'Me / I'], answer: 'Me / I' },
+    { type: 'choice', text: "10. __CHOICE__ works in a large office.", choices: ['She', 'Her'], answer: 'She' },
+    { type: 'choice', text: "11. I am talking to __CHOICE__, but they are not listening.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "12. Is that your new car? __CHOICE__ is beautiful.", choices: ['It', 'Its'], answer: 'It' },
+    { type: 'choice', text: "13. The cat is hungry. Give __CHOICE__ some food.", choices: ['it', 'him'], answer: 'it' },
+    { type: 'choice', text: "14. My parents are coming. Let's meet __CHOICE__ at the station.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "15. Sarah and John are here. Ask __CHOICE__ to come in.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "16. My sister called __CHOICE__ last night.", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "17. __CHOICE__ and his friends play soccer on Saturdays.", choices: ['He', 'Him'], answer: 'He' },
+    { type: 'choice', text: "18. The decision is up to __CHOICE__.", choices: ['we', 'us'], answer: 'us' },
+    { type: 'choice', text: "19. Why is __CHOICE__ looking at me like that?", choices: ['she', 'her'], answer: 'she' },
+    { type: 'choice', text: "20. I bought a gift for you and __CHOICE__.", choices: ['he', 'him'], answer: 'him' },
+    { type: 'choice', text: "21. Let's go to the party. __CHOICE__ are all invited.", choices: ['We', 'Us'], answer: 'We' },
+    { type: 'choice', text: "22. The dog belongs to __CHOICE__. It follows them everywhere.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "23. Can __CHOICE__ tell me the time?", choices: ['you', 'your'], answer: 'you' },
+    { type: 'choice', text: "24. I don't believe __CHOICE__. __CHOICE__ are lying.", choices: ['They / Them', 'Them / They'], answer: 'Them / They' },
+    { type: 'choice', text: "25. This is a secret between you and __CHOICE__.", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "26. __CHOICE__ is always raining in this city.", choices: ['It', 'He'], answer: 'It' },
+    { type: 'choice', text: "27. My friends and __CHOICE__ are planning a trip.", choices: ['I', 'me'], answer: 'I' },
+    { type: 'choice', text: "28. The flowers are for __CHOICE__.", choices: ['she', 'her'], answer: 'her' },
+    { type: 'choice', text: "29. Where are my keys? I can't find __CHOICE__.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "30. __CHOICE__ gave me a beautiful scarf.", choices: ['She', 'Her'], answer: 'She' },
+    { type: 'choice', text: "31. Our teacher is proud of __CHOICE__.", choices: ['we', 'us'], answer: 'us' },
+    { type: 'choice', text: "32. __CHOICE__ are my best friends.", choices: ['They', 'Them'], answer: 'They' },
+    { type: 'choice', text: "33. Please pass __CHOICE__ the sugar.", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "34. My grandparents live in the countryside. I visit __CHOICE__ often.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "35. Paul is a doctor. __CHOICE__ helps many people.", choices: ['He', 'Him'], answer: 'He' },
+    { type: 'choice', text: "36. I want to buy a new phone. I really like __CHOICE__.", choices: ['it', 'its'], answer: 'it' },
+    { type: 'choice', text: "37. Did you see David? I need to ask __CHOICE__ a question.", choices: ['he', 'him'], answer: 'him' },
+    { type: 'choice', text: "38. This music is great. Do you like __CHOICE__?", choices: ['it', 'its'], answer: 'it' },
+    { type: 'choice', text: "39. __CHOICE__ and __CHOICE__ are going to the concert.", choices: ['He / I', 'Him / me'], answer: 'He / I' },
+    { type: 'choice', text: "40. Can you wait for __CHOICE__ and __CHOICE__?", choices: ['she / I', 'her / me'], answer: 'her / me' },
+    { type: 'choice', text: "41. The manager hired __CHOICE__ for the new project.", choices: ['we', 'us'], answer: 'us' },
+    { type: 'choice', text: "42. __CHOICE__ should finish our work before leaving.", choices: ['We', 'Us'], answer: 'We' },
+    { type: 'choice', text: "43. The cake looks delicious. Can I have a piece of __CHOICE__?", choices: ['it', 'him'], answer: 'it' },
+    { type: 'choice', text: "44. I don't know the answer. Can you tell __CHOICE__?", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "45. __CHOICE__ are going on vacation next week.", choices: ['They', 'Them'], answer: 'They' },
+    { type: 'choice', text: "46. My little sister is crying. I need to comfort __CHOICE__.", choices: ['she', 'her'], answer: 'her' },
+    { type: 'choice', text: "47. If you see Mr. Smith, please give this letter to __CHOICE__.", choices: ['he', 'him'], answer: 'him' },
+    { type: 'choice', text: "48. The coach chose you and __CHOICE__ for the team.", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "49. __CHOICE__ is very good at playing the piano.", choices: ['She', 'Her'], answer: 'She' },
+    { type: 'choice', text: "50. All the students passed the exam. The teacher congratulated __CHOICE__.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "51. Between you and __CHOICE__, I think you are right.", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "52. My parents gave __CHOICE__ a new bicycle for my birthday.", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "53. Let __CHOICE__ go to the beach this weekend.", choices: ['we', 'us'], answer: 'us' },
+    { type: 'choice', text: "54. __CHOICE__ is a nice day today, isn't it?", choices: ['It', 'She'], answer: 'It' },
+    { type: 'choice', text: "55. The children are playing in the garden. I am watching __CHOICE__.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "56. I have a problem. Can you advise __CHOICE__?", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "57. __CHOICE__ is my car over there.", choices: ['That', 'It'], answer: 'It' },
+    { type: 'choice', text: "58. Tell __CHOICE__ the story you told me yesterday.", choices: ['he', 'him'], answer: 'him' },
+    { type: 'choice', text: "59. __CHOICE__ are excited about the school trip.", choices: ['We', 'Us'], answer: 'We' },
+    { type: 'choice', text: "60. The cat caught a mouse and played with __CHOICE__.", choices: ['it', 'him'], answer: 'it' },
+    { type: 'choice', text: "61. Nobody except __CHOICE__ knew the secret.", choices: ['she', 'her'], answer: 'her' },
+    { type: 'choice', text: "62. My boss invited my wife and __CHOICE__ to dinner.", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "63. Is this for __CHOICE__ or for __CHOICE__?", choices: ['we / they', 'us / them'], answer: 'us / them' },
+    { type: 'choice', text: "64. __CHOICE__ need to buy some groceries.", choices: ['I', 'Me'], answer: 'I' },
+    { type: 'choice', text: "65. The movie was fantastic. __CHOICE__ all enjoyed it.", choices: ['We', 'Us'], answer: 'We' },
+    { type: 'choice', text: "66. Her parents support __CHOICE__ in everything she does.", choices: ['she', 'her'], answer: 'her' },
+    { type: 'choice', text: "67. He sent __CHOICE__ an email last week.", choices: ['they', 'them'], answer: 'them' },
+    { type: 'choice', text: "68. Why did you lie to __CHOICE__?", choices: ['we', 'us'], answer: 'us' },
+    { type: 'choice', text: "69. Could you please show __CHOICE__ how to use this machine?", choices: ['I', 'me'], answer: 'me' },
+    { type: 'choice', text: "70. All of __CHOICE__ agreed to the plan.", choices: ['they', 'them'], answer: 'them' },
+
+    // Fill-in-the-Blank Questions (30 questions)
+    { type: 'fill', text: "71. My father is an engineer. ______ works for a big company.", answer: 'He' },
+    { type: 'fill', text: "72. I can't find my glasses. Have you seen ______?", answer: 'them' },
+    { type: 'fill', text: "73. Jane and Tom are my cousins. I like ______ a lot.", answer: 'them' },
+    { type: 'fill', text: "74. ______ are going to the party tonight. Do you want to come with ______?", answer: 'We/us' },
+    { type: 'fill', text: "75. This is my favorite song. I love ______.", answer: 'it' },
+    { type: 'fill', text: "76. Your bag is heavy. Let ______ help you.", answer: 'me' },
+    { type: 'fill', text: "77. My friends are waiting for me. I need to go and meet ______.", answer: 'them' },
+    { type: 'fill', text: "78. That's Mr. Evans. Do you know ______?", answer: 'him' },
+    { type: 'fill', text: "79. ______ need to talk to you about something important.", answer: 'I' },
+    { type: 'fill', text: "80. This is a picture of my family. That's my dad, and that's ______ next to him.", answer: 'me' },
+    { type: 'fill', text: "81. The students are working quietly. ______ are preparing for the test.", answer: 'They' },
+    { type: 'fill', text: "82. Susan is very kind. Everyone likes ______.", answer: 'her' },
+    { type: 'fill', text: "83. The car won't start. There is something wrong with ______.", answer: 'it' },
+    { type: 'fill', text: "84. My sister and I have a great relationship. ______ tell each other everything.", answer: 'We' },
+    { type: 'fill', text: "85. The manager wants to see you. Please go to ______ office.", answer: 'his' }, // Tricky, but context implies his/her. Let's stick to pronouns. "Please go see him." would be better. Let's rephrase.
+    { type: 'fill', text: "85. The manager wants to see you. Please go and talk to ______.", answer: 'him' },
+    { type: 'fill', text: "86. I'm thirsty. Could you get ______ a glass of water?", answer: 'me' },
+    { type: 'fill', text: "87. The dogs are barking. Can you see what's wrong with ______?", answer: 'them' },
+    { type: 'fill', text: "88. My mother made this cake for ______.", answer: 'us' },
+    { type: 'fill', text: "89. That's a nice idea. Let's do ______!", answer: 'it' },
+    { type: 'fill', text: "90. ______ am very happy to meet you.", answer: 'I' },
+    { type: 'fill', text: "91. She told ______ a secret and asked me not to tell anyone.", answer: 'me' },
+    { type: 'fill', text: "92. Look at those birds! ______ are flying so high.", answer: 'They' },
+    { type: 'fill', text: "93. Alex is not here. I haven't seen ______ today.", answer: 'him' },
+    { type: 'fill', text: "94. ______ is important to be on time.", answer: 'It' },
+    { type: 'fill', text: "95. Our neighbors are very friendly. We often have dinner with ______.", answer: 'them' },
+    { type: 'fill', text: "96. My brother is older than ______. (I)", answer: 'me' },
+    { type: 'fill', text: "97. She invited all of ______ to her wedding.", answer: 'us' },
+    { type: 'fill', text: "98. This is their house. ______ bought it last year.", answer: 'They' },
+    { type: 'fill', text: "99. My phone is ringing. Can you answer ______ for me?", answer: 'it' },
+    { type: 'fill', text: "100. That's my sister over there. The person with ______ is her husband.", answer: 'her' }
+];
+
+// --- Function to create and inject the new exercises ---
+function createAdditionalPractice(containerId, questions) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    questions.forEach((q, index) => {
+        const qDiv = document.createElement('div');
+        qDiv.className = 'exercise-question';
+        qDiv.setAttribute('data-answer', q.answer); // Store answer on the div
+
+        let questionHTML = '';
+        if (q.type === 'choice') {
+            let choiceHTML = '';
+            if (q.choices.length === 2 && q.choices[0].includes('/')) { // Handle cases like "I / Me"
+                const parts1 = q.choices[0].split(' / ');
+                const parts2 = q.choices[1].split(' / ');
+                choiceHTML = `(<span class="choice-circle">${parts1[0]}</span> / <span class="choice-circle">${parts1[1]}</span>) or (<span class="choice-circle">${parts2[0]}</span> / <span class="choice-circle">${parts2[1]}</span>)`;
+                // This is a bit complex for simple selection, let's simplify the data or handler
+                // For now, we'll reformat the question text to be simpler.
+                 choiceHTML = `<span class="choice-circle">${q.choices[0]}</span> / <span class="choice-circle">${q.choices[1]}</span>`;
+                 questionHTML = `<p>${q.text.replace('__CHOICE__', choiceHTML)}</p>`;
+            } else {
+                const choices = q.choices.map(c => `<span class="choice-circle">${c}</span>`).join(' / ');
+                questionHTML = `<p>${q.text.replace('__CHOICE__', `(${choices})`)}</p>`;
+            }
+        } else if (q.type === 'fill') {
+            const blank = `<input type="text" size="10" placeholder="điền vào đây">`;
+            const parts = q.answer.split('/');
+            if(parts.length > 1) {
+                 const twoBlanks = `${blank} / ${blank}`;
+                 questionHTML = `<p>${q.text.replace('______', blank).replace('______', blank)}</p>`;
+            } else {
+                 questionHTML = `<p>${q.text.replace('______', blank)}</p>`;
+            }
+        }
+
+        qDiv.innerHTML = questionHTML;
+        
+        const submitBtn = document.createElement('button');
+        submitBtn.className = 'submit-btn';
+        submitBtn.textContent = 'Kiểm tra';
+        
+        const feedbackSpan = document.createElement('span');
+        feedbackSpan.className = 'feedback';
+
+        qDiv.appendChild(submitBtn);
+        qDiv.appendChild(feedbackSpan);
+        container.appendChild(qDiv);
+    });
+}
+
+// --- Event listeners for the new section ---
+document.addEventListener('DOMContentLoaded', function() {
+    // Create the additional practice questions
+    createAdditionalPractice('additional-practice-container', additionalPracticeQuestions);
+
+    const practiceContainer = document.getElementById('additional-practice-container');
+    if (practiceContainer) {
+        // Handle clicks on choice circles
+        practiceContainer.addEventListener('click', function(e) {
+            if (e.target.classList.contains('choice-circle')) {
+                const questionDiv = e.target.closest('.exercise-question');
+                const allChoices = questionDiv.querySelectorAll('.choice-circle');
+                // Deselect all choices in the same question
+                allChoices.forEach(c => c.classList.remove('selected'));
+                // Select the clicked one
+                e.target.classList.add('selected');
+            }
+        });
+
+        // Handle clicks on submit buttons
+        practiceContainer.addEventListener('click', function(e) {
+            if (e.target.classList.contains('submit-btn')) {
+                const questionDiv = e.target.closest('.exercise-question');
+                const feedbackSpan = questionDiv.querySelector('.feedback');
+                const correctAnswer = questionDiv.dataset.answer;
+                
+                // Logic for Multiple Choice
+                const selectedChoice = questionDiv.querySelector('.choice-circle.selected');
+                if (selectedChoice) {
+                    if (selectedChoice.textContent.trim() === correctAnswer) {
+                        feedbackSpan.textContent = 'Chính xác!';
+                        feedbackSpan.className = 'feedback correct';
+                    } else {
+                        feedbackSpan.textContent = `Sai rồi. Đáp án đúng là "${correctAnswer}".`;
+                        feedbackSpan.className = 'feedback incorrect';
+                    }
+                }
+
+                // Logic for Fill-in-the-Blank
+                const inputs = questionDiv.querySelectorAll('input[type="text"]');
+                if (inputs.length > 0) {
+                    let userAnswers = [];
+                    inputs.forEach(input => {
+                        userAnswers.push(input.value.trim().toLowerCase());
+                    });
+                    const userAnswer = userAnswers.join('/');
+
+                    if (userAnswer === correctAnswer.toLowerCase()) {
+                        feedbackSpan.textContent = 'Chính xác!';
+                        feedbackSpan.className = 'feedback correct';
+                        inputs.forEach(input => input.style.borderColor = 'green');
+                    } else {
+                        feedbackSpan.textContent = `Sai rồi. Gợi ý: "${correctAnswer}".`;
+                        feedbackSpan.className = 'feedback incorrect';
+                        inputs.forEach(input => input.style.borderColor = 'red');
+                    }
+                }
+            }
+        });
+    }
+});
+    </script>
+
+</body>
+</html>

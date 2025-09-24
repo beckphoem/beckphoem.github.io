@@ -1,0 +1,182 @@
+[
+	{
+	  "question": "analogy",
+	  "classes": "n",
+	  "answer": "Phép loại suy, sự tương tự.",
+	  "ipa": "/əˈnæl.ə.dʒi/",
+	  "example": "`A na` `lơ đi` (analogy) sự **so sánh tương tự** này.",
+	  "english-definition": "A comparison between two things, typically for the purpose of explanation or clarification.",
+	  "images": "eew-6-27/1.png"
+	},
+	{
+	  "question": "ancestry",
+	  "classes": "n",
+	  "answer": "Tổ tiên, dòng dõi.",
+	  "ipa": "/ˈæn.ses.tri/",
+	  "example": "`Ăn` `sét` `try` (ancestry) là truyền thống của **tổ tiên** nhà này.",
+	  "english-definition": "One's family or ethnic descent.",
+	  "images": "eew-6-27/2.png"
+	},
+	{
+	  "question": "archer",
+	  "classes": "n",
+	  "answer": "Xạ thủ, người bắn cung.",
+	  "ipa": "/ˈɑːr.tʃɚ/",
+	  "example": "`Á` `chờ` (archer) mãi mới thấy **xạ thủ**.",
+	  "english-definition": "A person who shoots with a bow and arrows.",
+	  "images": "eew-6-27/3.png"
+	},
+	{
+	  "question": "conspiracy",
+	  "classes": "n",
+	  "answer": "Âm mưu, sự cấu kết.",
+	  "ipa": "/kənˈspɪr.ə.si/",
+	  "example": "`Con` `sợ` `bị` `rờ` `xe` (conspiracy) vì dính vào **âm mưu** này.",
+	  "english-definition": "A secret plan by a group to do something unlawful or harmful.",
+	  "images": "eew-6-27/4.png"
+	},
+	{
+	  "question": "deputy",
+	  "classes": "n",
+	  "answer": "Người đại diện, phó.",
+	  "ipa": "/ˈdep.jə.ti/",
+	  "example": "`Đẹp` `như ti` (deputy)ên là vị **phó**, người đại diện.",
+	  "english-definition": "A person who is appointed to undertake the duties of a superior in the superior's absence.",
+	  "images": "eew-6-27/5.png"
+	},
+	{
+	  "question": "earl",
+	  "classes": "n",
+	  "answer": "Bá tước.",
+	  "ipa": "/ɜːrl/",
+	  "example": "`Ơ` (earl) kìa, **bá tước** tới.",
+	  "english-definition": "A British nobleman of a rank above a viscount and below a marquess.",
+	  "images": "eew-6-27/6.png"
+	},
+	{
+	  "question": "fragrant",
+	  "classes": "adj",
+	  "answer": "Thơm, thơm ngát.",
+	  "ipa": "/ˈfreɪ.ɡrənt/",
+	  "example": "`Phải` `ráng` (fragrant) ngửi mùi **thơm** này.",
+	  "english-definition": "Having a pleasant or sweet smell.",
+	  "images": "eew-6-27/7.png"
+	},
+	{
+	  "question": "funnel",
+	  "classes": "n",
+	  "answer": "Cái phễu.",
+	  "ipa": "/ˈfʌn.əl/",
+	  "example": "`Phải` `nồ` (funnel) lực để đổ nước qua **cái phễu** này.",
+	  "english-definition": "A tube or pipe that is wide at the top and narrow at the bottom, used for guiding liquid or powder into a small opening.",
+	  "images": "eew-6-27/8.png"
+	},
+	{
+	  "question": "hereditary",
+	  "classes": "adj",
+	  "answer": "Di truyền.",
+	  "ipa": "/həˈred.ɪ.ter.i/",
+	  "example": "`Hè` `ra đi` `tới` `nơi` (hereditary) này là một truyền thống **di truyền**.",
+	  "english-definition": "(of a characteristic or disease) determined by genetic factors and therefore able to be passed on from parents to their offspring.",
+	  "images": "eew-6-27/9.png"
+	},
+	{
+	  "question": "hymn",
+	  "classes": "n",
+	  "answer": "Thánh ca, bài hát ca ngợi.",
+	  "ipa": "/hɪm/",
+	  "example": "`Him` (hymn) ta đang hát **thánh ca**.",
+	  "english-definition": "A religious song or poem of praise to God or a god.",
+	  "images": "eew-6-27/10.png"
+	},
+	{
+	  "question": "invert",
+	  "classes": "v",
+	  "answer": "Lộn ngược, đảo ngược.",
+	  "ipa": "/ɪnˈvɜːrt/",
+	  "example": "`In` `vớt` (invert) ra rồi **lộn ngược** lại.",
+	  "english-definition": "To put upside down or in the opposite position, order, or arrangement.",
+	  "images": "eew-6-27/11.png"
+	},
+	{
+	  "question": "prey",
+	  "classes": "n",
+	  "answer": "Con mồi.",
+	  "ipa": "/preɪ/",
+	  "example": "`Phải` `rầy` (prey) con mèo vì vồ **con mồi**.",
+	  "english-definition": "An animal that is hunted and killed by another for food.",
+	  "images": "eew-6-27/12.png"
+	},
+	{
+	  "question": "procession",
+	  "classes": "n",
+	  "answer": "Đám rước, đám diễu hành.",
+	  "ipa": "/prəˈseʃ.ən/",
+	  "example": "`Bờ` `rồ` `sợ` `sần` (procession) sùi nên không dám đi trong **đám rước**.",
+	  "english-definition": "A number of people or vehicles moving forward in an orderly fashion, especially as part of a ceremony or festival.",
+	  "images": "eew-6-27/13.png"
+	},
+	{
+	  "question": "prophet",
+	  "classes": "n",
+	  "answer": "Nhà tiên tri.",
+	  "ipa": "/ˈprɒf.ɪt/",
+	  "example": "`Rờ` `phít` (prophet) vào tay **nhà tiên tri**.",
+	  "english-definition": "A person regarded as an inspired teacher or proclaimer of the will of God.",
+	  "images": "eew-6-27/14.png"
+	},
+	{
+	  "question": "sarcastic",
+	  "classes": "adj",
+	  "answer": "Mỉa mai, châm biếm.",
+	  "ipa": "/sɑːrˈkæs.tɪk/",
+	  "example": "`Sa` `cá` `tích` (sarcastic) cực là một lời **mỉa mai**.",
+	  "english-definition": "Marked by or given to using irony in order to mock or convey contempt.",
+	  "images": "eew-6-27/15.png"
+	},
+	{
+	  "question": "seasoning",
+	  "classes": "n",
+	  "answer": "Gia vị.",
+	  "ipa": "/ˈsiː.zən.ɪŋ/",
+	  "example": "`See` `sợ` `ninh` (seasoning) lâu mất hết **gia vị**.",
+	  "english-definition": "Salt, herbs, or spices added to food to enhance the flavor.",
+	  "images": "eew-6-27/16.png"
+	},
+	{
+	  "question": "sodium",
+	  "classes": "n",
+	  "answer": "Natri.",
+	  "ipa": "/ˈsoʊ.di.əm/",
+	  "example": "`Sô` `đi` `ùm` (sodium) xuống biển đầy **natri**.",
+	  "english-definition": "The chemical element of atomic number 11, a soft silver-white reactive metal.",
+	  "images": "eew-6-27/17.png"
+	},
+	{
+	  "question": "tyranny",
+	  "classes": "n",
+	  "answer": "Sự chuyên chế, sự bạo ngược.",
+	  "ipa": "/ˈtɪr.ə.ni/",
+	  "example": "`Tí` `ra đi` (tyranny) để thoát khỏi **sự chuyên chế**.",
+	  "english-definition": "Cruel and oppressive government or rule.",
+	  "images": "eew-6-27/18.png"
+	},
+	{
+	  "question": "tyrant",
+	  "classes": "n",
+	  "answer": "Kẻ bạo chúa, kẻ chuyên quyền.",
+	  "ipa": "/ˈtaɪ.rənt/",
+	  "example": "`Tai` `rần` (tyrant) rần khi nghe tin về **kẻ bạo chúa**.",
+	  "english-definition": "A cruel and oppressive ruler.",
+	  "images": "eew-6-27/19.png"
+	},
+	{
+	  "question": "vinegar",
+	  "classes": "n",
+	  "answer": "Giấm.",
+	  "ipa": "/ˈvɪn.ɪ.ɡər/",
+	  "example": "`Vì` `ni` `gơ` (vinegar) mới phải ăn **giấm**.",
+	  "english-definition": "A sour-tasting liquid containing acetic acid, obtained by fermenting dilute alcoholic liquids.",
+	  "images": "eew-6-27/20.png"
+	}
+]
