@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 27: How many and How much; Quantity Expressions</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Headers */
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .unit-number {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #0056b3;
+            margin-right: 20px;
+            line-height: 1;
+        }
+
+        .unit-title-group h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .unit-title-group h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: #555;
+        }
+
+        .outcomes {
+            background-color: #e7f3fe;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+        
+        .section-header {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            margin: 30px 0 15px 0;
+            border-radius: 5px;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .sub-header {
+            font-weight: bold;
+            color: #d9534f;
+            margin-top: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        /* Vocabulary Section */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .vocab-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .vocab-item p {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        
+        /* Reading Section */
+        .conversation {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eee;
+        }
+        .conversation p {
+            margin: 5px 0;
+        }
+        .conversation strong {
+            color: #0056b3;
+        }
+        .map-image {
+            max-width: 300px;
+            float: right;
+            margin-left: 15px;
+        }
+        .video-container {
+            margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .grammar-note {
+            background-color: #fffbe6;
+            border: 1px solid #ffeeba;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .usage-note {
+            background-color: #eef7ee;
+            border: 1px solid #c3e6cb;
+            padding: 10px;
+        }
+        .be-careful {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+        }
+        .example {
+            margin-left: 20px;
+            font-style: italic;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 25px;
+        }
+        .exercise-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-left: 3px solid #eee;
+        }
+        .exercise-item:focus-within {
+            border-left-color: #007bff;
+        }
+        .exercise-item label, .exercise-item .question {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        .exercise-item input[type="text"], .exercise-item select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .exercise-item button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .exercise-item button:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .correct {
+            color: #28a745;
+        }
+        .incorrect {
+            color: #dc3545;
+        }
+        .circle-option {
+            cursor: pointer;
+            padding: 2px 5px;
+            border-radius: 10px;
+            transition: background-color 0.2s;
+        }
+        .circle-option:hover {
+            background-color: #e7f3fe;
+        }
+        .selected {
+            background-color: #007bff;
+            color: white;
+        }
+        
+        /* Writing Section */
+        #sentence-output {
+            margin-top: 20px;
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+         #sentence-output p {
+            margin: 5px 0;
+            padding: 5px;
+            border-bottom: 1px dotted #ccc;
+         }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- PHẦN MỞ ĐẦU -->
+    <header class="unit-header">
+        <div class="unit-number">27</div>
+        <div class="unit-title-group">
+            <h1>How many and How much; Quantity Expressions</h1>
+            <h2>A TRIP</h2>
+        </div>
+    </header>
+    <div class="outcomes">
+        <strong>OUTCOMES</strong>
+        <ul>
+            <li>Use <em>how many</em> and <em>how much</em> to ask questions</li>
+            <li>Use <em>a few, not many, a little,</em> and <em>not much</em> to answer questions</li>
+            <li>Answer questions about a reading</li>
+            <li>Identify true and false sentences about a news report</li>
+            <li>Ask and answer questions about traveling and everyday activities</li>
+            <li>Write a conversation about a place you visited</li>
+        </ul>
+    </div>
+
+    <!-- BƯỚC 1: NGỮ PHÁP TRONG NGỮ CẢNH -->
+    <section id="step1">
+        <div class="section-header">STEP 1: GRAMMAR IN CONTEXT</div>
+        
+        <h3 class="sub-header">A. VOCABULARY</h3>
+        <p>Study the words. Then complete the sentences with the words.</p>
+        
+        <div class="vocab-grid">
+            <div class="vocab-item">
+                <img src="FOG-1-26/1.png" alt="An island">
+                <p>an island</p>
+            </div>
+            <div class="vocab-item">
+                <img src="FOG-1-26/2.png" alt="An animal">
+                <p>an animal</p>
+            </div>
+            <div class="vocab-item">
+                <img src="FOG-1-26/3.png" alt="A plant">
+                <p>a plant</p>
+            </div>
+            <div class="vocab-item">
+                <img src="FOG-1-26/4.png" alt="A flight">
+                <p>a flight</p>
+            </div>
+        </div>
+
+        <div class="exercise">
+            <div class="exercise-item">
+                <label for="q1-1">1. We can take a(n) <input type="text" id="q1-1"> to Ecuador.</label>
+                <button onclick="checkAnswer('q1-1', 'flight', 'f1-1')">Submit</button>
+                <span id="f1-1" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="q1-2">2. A place with water all around is a(n) <input type="text" id="q1-2">.</label>
+                <button onclick="checkAnswer('q1-2', 'island', 'f1-2')">Submit</button>
+                <span id="f1-2" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="q1-3">3. A(n) <input type="text" id="q1-3"> has leaves and needs water and sun to grow.</label>
+                <button onclick="checkAnswer('q1-3', 'plant', 'f1-3')">Submit</button>
+                <span id="f1-3" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="q1-4">4. A dog is a(n) <input type="text" id="q1-4">.</label>
+                <button onclick="checkAnswer('q1-4', 'animal', 'f1-4')">Submit</button>
+                <span id="f1-4" class="feedback"></span>
+            </div>
+        </div>
+
+        <h3 class="sub-header">READ</h3>
+        <p>Read this conversation.</p>
+        
+        <div class="conversation">
+            <img src="FOG-1-26/5.png" alt="Map of Ecuador and Galapagos Islands" class="map-image">
+            <h3>A Great Trip</h3>
+            <p><strong>STEVE:</strong> So how was Ecuador?</p>
+            <p><strong>JESSICA:</strong> Great.</p>
+            <p><strong>STEVE:</strong> How many days were you away?</p>
+            <p><strong>JESSICA:</strong> Ten. We were in Guayaquil, and we were on the Galápagos Islands, too.</p>
+            <p><strong>MARK:</strong> The Galápagos Islands? That sounds exciting. How much time did you spend there?</p>
+            <p><strong>TIM:</strong> Not much. Only four days. But it was fantastic. We took hundreds of photos of the plants and animals. We slept and ate on a boat.</p>
+            <p><strong>MARK:</strong> Really? How many people were on the boat?</p>
+            <p><strong>JESSICA:</strong> Twelve.</p>
+            <p><strong>STEVE:</strong> How much did the trip cost?</p>
+            <p><strong>JESSICA:</strong> Just a little. Tim won it. We only paid for our food.</p>
+            <p><strong>MARK:</strong> Was the flight free, too?</p>
+            <p><strong>JESSICA:</strong> Yes, it was.</p>
+            <p><strong>MARK:</strong> Lucky you! I love to travel.</p>
+            <p><strong>TIM:</strong> I agree. Nothing beats travel.</p>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_HERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3 class="sub-header">AFTER YOU READ</h3>
+        <h4>A. COMPREHENSION</h4>
+        <p>Look at the conversation again. Answer the questions. Use the words from the box.</p>
+        <p><em>A little | Hundreds | Two | Ten | Twelve</em></p>
+
+        <div class="exercise">
+            <div class="exercise-item">
+                <label for="q2-1">1. How many photos did Steve and Jessica take?</label>
+                <input type="text" id="q2-1">
+                <button onclick="checkAnswer('q2-1', 'Hundreds', 'f2-1')">Submit</button>
+                <span id="f2-1" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="q2-2">2. How many days did Steve and Jessica spend in Ecuador?</label>
+                <input type="text" id="q2-2">
+                <button onclick="checkAnswer('q2-2', 'Ten', 'f2-2')">Submit</button>
+                <span id="f2-2" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="q2-3">3. How much money did Steve and Jessica spend?</label>
+                <input type="text" id="q2-3">
+                <button onclick="checkAnswer('q2-3', 'A little', 'f2-3')">Submit</button>
+                <span id="f2-3" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="q2-4">4. How many people were on the boat?</label>
+                <input type="text" id="q2-4">
+                <button onclick="checkAnswer('q2-4', 'Twelve', 'f2-4')">Submit</button>
+                <span id="f2-4" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="q2-5">5. How many places did Steve and Jessica visit?</label>
+                <input type="text" id="q2-5">
+                <button onclick="checkAnswer('q2-5', 'Two', 'f2-5')">Submit</button>
+                <span id="f2-5" class="feedback"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- BƯỚC 2: TRÌNH BÀY NGỮ PHÁP -->
+    <section id="step2">
+        <div class="section-header">STEP 2: GRAMMAR PRESENTATION</div>
+        <h3>HOW MANY AND HOW MUCH; QUANTITY EXPRESSIONS</h3>
+
+        <h4>How many + Count Nouns</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>How many</th>
+                    <th>photos</th>
+                    <th>did you take?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">
+                        <strong>Quantity Expressions</strong><br>
+                        A lot. <br>
+                        Not many. <br>
+                        A few. <br>
+                        Sixty.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>How much + Non-Count Nouns</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>How much</th>
+                    <th>time</th>
+                    <th>did you spend there?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">
+                        <strong>Quantity Expressions</strong><br>
+                        A lot. <br>
+                        Not much. <br>
+                        A little.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>GRAMMAR NOTES</h3>
+        <div class="grammar-note">
+            <strong>1. How many and How much</strong>
+            <p>Use <strong>how many</strong> or <strong>how much</strong> to ask about the quantity of something.</p>
+            <ul>
+                <li>Use <strong>how many</strong> before a plural count noun.
+                    <p class="example">A: <strong>How many days</strong> were you there?<br>B: Fifteen.</p>
+                </li>
+                <li>Use <strong>how much</strong> before a non-count noun.
+                    <p class="example">A: <strong>How much rain</strong> do they usually get in May?<br>B: Not much.</p>
+                </li>
+            </ul>
+            <div class="usage-note">
+                <strong>USAGE NOTE:</strong> Use <strong>how much</strong> to ask about the cost of something. When we talk about cost, we often use <strong>how much</strong> without a noun. The reader or listener knows we're asking about the cost.
+                <p class="example">A: <strong>How much</strong> was your flight?<br>B: Three hundred dollars.</p>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <strong>2. A lot of</strong>
+            <p>To answer questions with <strong>how many</strong> or <strong>how much</strong>, use <strong>a lot</strong> or <strong>a lot of</strong> for large quantities or amounts.</p>
+            <ul>
+                <li>Use <strong>a lot of</strong> before plural count nouns and non-count nouns.
+                    <p class="example">A: How many people live in Quito?<br>B: <strong>A lot</strong>. or <strong>A lot of</strong> people live in Quito.</p>
+                </li>
+            </ul>
+            <div class="be-careful">
+                <strong>BE CAREFUL!</strong> Use <strong>a lot</strong> without <em>of</em> for short answers.
+                <p class="example">A: How much time did you spend on the boat?<br>B: <strong>A lot.</strong><br>NOT <del>A lot of.</del></p>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <strong>3. A few, Not many, A little, Not much</strong>
+            <p>To answer questions with <strong>how many</strong> or <strong>how much</strong>, use <strong>a few, not many, a little,</strong> and <strong>a little</strong> for small amounts.</p>
+            <ul>
+                <li>Use <strong>a few</strong> or <strong>not many</strong> before plural count nouns.
+                    <p class="example">A: How many people were on the boat?<br>B: A <strong>few people</strong> were on the boat. or <strong>A few.</strong></p>
+                    <p class="example">A: How many days did you go swimming?<br>B: <strong>Not many.</strong> (We didn't swim many days.)</p>
+                </li>
+                <li>Use <strong>a little</strong> or <strong>not much</strong> before non-count nouns.
+                    <p class="example">A: How much tea did you drink?<br>B: I drank <strong>a little tea</strong>. or <strong>A little.</strong></p>
+                    <p class="example">A: How much time did you spend in Guayaquil?<br>B: <strong>Not much.</strong></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- BƯỚC 3: LUYỆN TẬP TẬP TRUNG -->
+    <section id="step3">
+        <div class="section-header">STEP 3: FOCUSED PRACTICE</div>
+        <h3 class="sub-header">EXERCISE 3: A LOT, A FEW, A LITTLE, NOT MANY, NOT MUCH</h3>
+        <p>Read the questions. Complete the answers. Circle the correct words.</p>
+        <div class="exercise">
+            <div class="exercise-item">
+                <p class="question">1. A: How much time do you spend with your parents?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'Not much')">Not many</span> / <span class="circle-option" onclick="selectOption(this, 'Not much')">Not much</span>) I live in New York, and they live in Mazatlán, Mexico.</p>
+                <button onclick="checkSelection(this, 'Not much')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                 <p class="question">2. A: How much does a flight to Mazatlán cost?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'A lot')">A lot</span> / <span class="circle-option" onclick="selectOption(this, 'A lot')">Not many</span>). It costs more than $700.</p>
+                <button onclick="checkSelection(this, 'A lot')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                 <p class="question">3. A: How many trips to Mexico do you take every year?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'A few')">A few</span> / <span class="circle-option" onclick="selectOption(this, 'A few')">A little</span>). I usually visit Mazatlán three times a year.</p>
+                <button onclick="checkSelection(this, 'A few')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                 <p class="question">4. A: How much money do you spend when you're in Mexico?<br>
+                B: Just (<span class="circle-option" onclick="selectOption(this, 'a little')">a little</span> / <span class="circle-option" onclick="selectOption(this, 'a little')">a few</span>). I always stay with my parents, and we all cook at their house.</p>
+                <button onclick="checkSelection(this, 'a little')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                 <p class="question">5. A: How many people live in your parents' house?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'Not many')">Not many</span> / <span class="circle-option" onclick="selectOption(this, 'Not many')">Not much</span>). Just my parents and my sister.</p>
+                <button onclick="checkSelection(this, 'Not many')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                 <p class="question">6. A: On your last trip, how many days did you go to the beach?<br>
+                B: Only (<span class="circle-option" onclick="selectOption(this, 'a few')">a few</span> / <span class="circle-option" onclick="selectOption(this, 'a few')">a little</span>). I don't like the beach. I like shopping more.</p>
+                <button onclick="checkSelection(this, 'a few')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                 <p class="question">7. A: How many photos did you take?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'Not many')">Not many</span> / <span class="circle-option" onclick="selectOption(this, 'Not many')">Not much</span>). My sister usually takes a lot of photos, but I don't.</p>
+                <button onclick="checkSelection(this, 'Not many')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                 <p class="question">8. A: How much sunny weather did you have?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'A lot')">A lot</span> / <span class="circle-option" onclick="selectOption(this, 'A lot')">A little</span>). It's usually hot in Mazatlán.</p>
+                <button onclick="checkSelection(this, 'A lot')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+        </div>
+        <img src="FOG-1-26/6.png" alt="Mazatlan, Mexico" style="max-width:100%; border-radius: 5px;">
+    </section>
+
+    <!-- PHẦN VIẾT -->
+    <section id="writing">
+        <div class="section-header">FROM GRAMMAR TO WRITING</div>
+        <h3 class="sub-header">A. BEFORE YOU WRITE</h3>
+        <p>Read this conversation about Washington, D.C. Then think about a place you visited.</p>
+        <div class="conversation">
+            <div id="sample-text">
+                <p><strong>A:</strong> I was in Washington, D.C., last August.</p>
+                <p><strong>B:</strong> Oh. How was it?</p>
+                <p><strong>A:</strong> Great. But it rained a lot.</p>
+                <p><strong>B:</strong> Did you visit any museums?</p>
+                <p><strong>A:</strong> Oh, yes. I loved the Smithsonian.</p>
+                <p><strong>B:</strong> How much did it cost?</p>
+                <p><strong>A:</strong> Nothing. It's free.</p>
+                <p><strong>B:</strong> That's good. Was the Metro crowded?</p>
+                <p><strong>A:</strong> Yes, sometimes.</p>
+                <p><strong>B:</strong> How many people live in Washington, D.C.?</p>
+                <p><strong>A:</strong> A lot. About 700,000. Over 20 million people visit it each year.</p>
+                <p><strong>B:</strong> How many?</p>
+                <p><strong>A:</strong> Over 20 million.</p>
+                <p><strong>B:</strong> Wow. That's a lot of tourists.</p>
+            </div>
+        </div>
+        
+        <h3 class="sub-header">B. WRITE</h3>
+        <p>Write a conversation about the place you talked about in A. Include three how many or how much questions and answers. Include quantifiers in your answers.</p>
+        <p><em>(Đây là phần thực hành tự do, dưới đây là một script để tách đoạn văn mẫu trên thành các câu riêng lẻ.)</em></p>
+        <button onclick="splitSentences()">Tách đoạn văn mẫu thành câu</button>
+        <div id="sentence-output"></div>
+    </section>
+    
+    <!-- PHẦN ÔN TẬP -->
+    <section id="review">
+        <div class="section-header">UNIT 27 REVIEW</div>
+        <h3 class="sub-header">A. Complete the conversations with how many or how much.</h3>
+        <div class="exercise">
+            <div class="exercise-item">
+                <label for="revA-1">1. A: <input type="text" id="revA-1"> time did you spend away from home? B: A lot. Four weeks.</label>
+                <button onclick="checkAnswer('revA-1', 'How much', 'frevA-1')">Submit</button>
+                <span id="frevA-1" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="revA-2">2. A: <input type="text" id="revA-2"> countries did you visit last summer? B: Four countries.</label>
+                <button onclick="checkAnswer('revA-2', 'How many', 'frevA-2')">Submit</button>
+                <span id="frevA-2" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <label for="revA-3">3. A: <input type="text" id="revA-3"> days were you in Spain? B: Five days.</label>
+                <button onclick="checkAnswer('revA-3', 'How many', 'frevA-3')">Submit</button>
+                <span id="frevA-3" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <label for="revA-4">4. A: <input type="text" id="revA-4"> rain was there in Spain? B: Not much.</label>
+                <button onclick="checkAnswer('revA-4', 'How much', 'frevA-4')">Submit</button>
+                <span id="frevA-4" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <label for="revA-5">5. A: <input type="text" id="revA-5"> did your trip cost? B: A lot.</label>
+                <button onclick="checkAnswer('revA-5', 'How much', 'frevA-5')">Submit</button>
+                <span id="frevA-5" class="feedback"></span>
+            </div>
+        </div>
+
+        <h3 class="sub-header">B. Complete the conversations. Circle the correct answers.</h3>
+        <div class="exercise">
+             <div class="exercise-item">
+                <p class="question">1. A: How much water do you need?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'A lot')">A lot</span> / <span class="circle-option" onclick="selectOption(this, 'A lot')">Much</span>). About ten bottles.</p>
+                <button onclick="checkSelection(this, 'A lot')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p class="question">2. A: How many miles is the hike?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'Not many')">Not many</span> / <span class="circle-option" onclick="selectOption(this, 'Not many')">Not much</span>). Just five.</p>
+                <button onclick="checkSelection(this, 'Not many')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p class="question">3. A: How much cheese did you bring?<br>
+                B: Just (<span class="circle-option" onclick="selectOption(this, 'a little')">a little</span> / <span class="circle-option" onclick="selectOption(this, 'a little')">a few</span>).</p>
+                <button onclick="checkSelection(this, 'a little')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p class="question">4. A: How many people want to join you?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'A lot')">A lot</span> / <span class="circle-option" onclick="selectOption(this, 'A lot')">Much</span>). Almost thirty.</p>
+                <button onclick="checkSelection(this, 'A lot')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p class="question">5. A: How much bread do you want?<br>
+                B: (<span class="circle-option" onclick="selectOption(this, 'Not much')">Not much</span> / <span class="circle-option" onclick="selectOption(this, 'Not much')">Not many</span>).</p>
+                <button onclick="checkSelection(this, 'Not much')">Submit</button>
+                <span class="feedback"></span>
+            </div>
+        </div>
+    </section>
+
+	<!-- BẮT ĐẦU PHẦN BÀI TẬP BỔ SUNG -->
+<section id="additional-practice">
+    <div class="section-header">ADDITIONAL PRACTICE</div>
+    <p>Test your knowledge with 100 more questions on "How many," "How much," and quantity expressions.</p>
+
+    <!-- Part 1: How many vs. How much -->
+    <h3 class="sub-header">Part 1: Complete with "How many" or "How much"</h3>
+    <div class="exercise">
+        <!-- Questions 1-25 -->
+        <div class="exercise-item">
+            <label for="add-q-1">1. <input type="text" id="add-q-1"> students are in your English class?</label>
+            <button onclick="checkAnswer('add-q-1', 'How many', 'add-fb-1')">Submit</button>
+            <span id="add-fb-1" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-2">2. <input type="text" id="add-q-2"> water do you drink every day?</label>
+            <button onclick="checkAnswer('add-q-2', 'How much', 'add-fb-2')">Submit</button>
+            <span id="add-fb-2" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-3">3. <input type="text" id="add-q-3"> did your new phone cost?</label>
+            <button onclick="checkAnswer('add-q-3', 'How much', 'add-fb-3')">Submit</button>
+            <span id="add-fb-3" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-4">4. <input type="text" id="add-q-4"> countries have you visited?</label>
+            <button onclick="checkAnswer('add-q-4', 'How many', 'add-fb-4')">Submit</button>
+            <span id="add-fb-4" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-5">5. <input type="text" id="add-q-5"> information do we need for the report?</label>
+            <button onclick="checkAnswer('add-q-5', 'How much', 'add-fb-5')">Submit</button>
+            <span id="add-fb-5" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-6">6. <input type="text" id="add-q-6"> time do you need to finish the project?</label>
+            <button onclick="checkAnswer('add-q-6', 'How much', 'add-fb-6')">Submit</button>
+            <span id="add-fb-6" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-7">7. <input type="text" id="add-q-7"> chairs are in this room?</label>
+            <button onclick="checkAnswer('add-q-7', 'How many', 'add-fb-7')">Submit</button>
+            <span id="add-fb-7" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-8">8. <input type="text" id="add-q-8"> sugar should I add to the tea?</label>
+            <button onclick="checkAnswer('add-q-8', 'How much', 'add-fb-8')">Submit</button>
+            <span id="add-fb-8" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-9">9. <input type="text" id="add-q-9"> photos did you take on vacation?</label>
+            <button onclick="checkAnswer('add-q-9', 'How many', 'add-fb-9')">Submit</button>
+            <span id="add-fb-9" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-10">10. <input type="text" id="add-q-10"> luggage can I check in for free?</label>
+            <button onclick="checkAnswer('add-q-10', 'How much', 'add-fb-10')">Submit</button>
+            <span id="add-fb-10" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-11">11. <input type="text" id="add-q-11"> people were at the concert?</label>
+            <button onclick="checkAnswer('add-q-11', 'How many', 'add-fb-11')">Submit</button>
+            <span id="add-fb-11" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-12">12. <input type="text" id="add-q-12"> furniture is in their new apartment?</label>
+            <button onclick="checkAnswer('add-q-12', 'How much', 'add-fb-12')">Submit</button>
+            <span id="add-fb-12" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-13">13. <input type="text" id="add-q-13"> languages can you speak?</label>
+            <button onclick="checkAnswer('add-q-13', 'How many', 'add-fb-13')">Submit</button>
+            <span id="add-fb-13" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-14">14. <input type="text" id="add-q-14"> rice is left in the bag?</label>
+            <button onclick="checkAnswer('add-q-14', 'How much', 'add-fb-14')">Submit</button>
+            <span id="add-fb-14" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-15">15. <input type="text" id="add-q-15"> times have you seen that movie?</label>
+            <button onclick="checkAnswer('add-q-15', 'How many', 'add-fb-15')">Submit</button>
+            <span id="add-fb-15" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-16">16. <input type="text" id="add-q-16"> does it cost to fly to Boston?</label>
+            <button onclick="checkAnswer('add-q-16', 'How much', 'add-fb-16')">Submit</button>
+            <span id="add-fb-16" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-17">17. <input type="text" id="add-q-17"> employees work in this company?</label>
+            <button onclick="checkAnswer('add-q-17', 'How many', 'add-fb-17')">Submit</button>
+            <span id="add-fb-17" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-18">18. <input type="text" id="add-q-18"> patience do you have?</label>
+            <button onclick="checkAnswer('add-q-18', 'How much', 'add-fb-18')">Submit</button>
+            <span id="add-fb-18" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-19">19. <input type="text" id="add-q-19"> emails do you receive daily?</label>
+            <button onclick="checkAnswer('add-q-19', 'How many', 'add-fb-19')">Submit</button>
+            <span id="add-fb-19" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-20">20. <input type="text" id="add-q-20"> sleep did you get last night?</label>
+            <button onclick="checkAnswer('add-q-20', 'How much', 'add-fb-20')">Submit</button>
+            <span id="add-fb-20" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-21">21. <input type="text" id="add-q-21"> potatoes do we need for the soup?</label>
+            <button onclick="checkAnswer('add-q-21', 'How many', 'add-fb-21')">Submit</button>
+            <span id="add-fb-21" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-22">22. <input type="text" id="add-q-22"> traffic was there this morning?</label>
+            <button onclick="checkAnswer('add-q-22', 'How much', 'add-fb-22')">Submit</button>
+            <span id="add-fb-22" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-23">23. <input type="text" id="add-q-23"> pairs of shoes do you own?</label>
+            <button onclick="checkAnswer('add-q-23', 'How many', 'add-fb-23')">Submit</button>
+            <span id="add-fb-23" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-24">24. <input type="text" id="add-q-24"> money do you have in your wallet?</label>
+            <button onclick="checkAnswer('add-q-24', 'How much', 'add-fb-24')">Submit</button>
+            <span id="add-fb-24" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-25">25. <input type="text" id="add-q-25"> windows are in your house?</label>
+            <button onclick="checkAnswer('add-q-25', 'How many', 'add-fb-25')">Submit</button>
+            <span id="add-fb-25" class="feedback"></span>
+        </div>
+    </div>
+
+    <!-- Part 2: Choose the correct quantifier -->
+    <h3 class="sub-header">Part 2: Choose the correct word</h3>
+    <div class="exercise">
+        <!-- Questions 26-65 -->
+        <div class="exercise-item">
+            <p class="question">26. I don't have (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) time before the meeting.</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">27. There are only (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) cookies left in the jar.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">28. Can I have (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) milk in my coffee, please?</p>
+            <button onclick="checkSelection(this, 'a little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">29. We saw (<span class="circle-option" onclick="selectOption(this)">a lot of</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) animals at the zoo.</p>
+            <button onclick="checkSelection(this, 'a lot of')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">30. There isn't (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) space in this car.</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">31. He has (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) good friends.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">32. How (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) people are coming to the party?</p>
+            <button onclick="checkSelection(this, 'many')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">33. I need (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) help with this box.</p>
+            <button onclick="checkSelection(this, 'a little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">34. She speaks very (<span class="circle-option" onclick="selectOption(this)">few</span> / <span class="circle-option" onclick="selectOption(this)">little</span>) English.</p>
+            <button onclick="checkSelection(this, 'little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">35. Not (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) tourists visit this town in the winter.</p>
+            <button onclick="checkSelection(this, 'many')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">36. He spent (<span class="circle-option" onclick="selectOption(this)">a lot of</span> / <span class="circle-option" onclick="selectOption(this)">many</span>) money on his car.</p>
+            <button onclick="checkSelection(this, 'a lot of')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">37. There are (<span class="circle-option" onclick="selectOption(this)">too many</span> / <span class="circle-option" onclick="selectOption(this)">too much</span>) cars on the road today.</p>
+            <button onclick="checkSelection(this, 'too many')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">38. We need to buy (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) groceries.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">39. I have very (<span class="circle-option" onclick="selectOption(this)">few</span> / <span class="circle-option" onclick="selectOption(this)">little</span>) time for hobbies.</p>
+            <button onclick="checkSelection(this, 'little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">40. How (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) information did you find?</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">41. I ate (<span class="circle-option" onclick="selectOption(this)">too many</span> / <span class="circle-option" onclick="selectOption(this)">too much</span>) cake and now I feel sick.</p>
+            <button onclick="checkSelection(this, 'too much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">42. Only (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) students passed the difficult exam.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">43. There isn't (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) hope of finding survivors.</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">44. I need (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) more minutes to get ready.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">45. She has (<span class="circle-option" onclick="selectOption(this)">a lot of</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) experience in marketing.</p>
+            <button onclick="checkSelection(this, 'a lot of')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">46. How (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) pages are in this book?</p>
+            <button onclick="checkSelection(this, 'many')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">47. Add (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) salt to the soup.</p>
+            <button onclick="checkSelection(this, 'a little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">48. There were not (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) people at the museum today.</p>
+            <button onclick="checkSelection(this, 'many')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">49. I learned (<span class="circle-option" onclick="selectOption(this)">a lot</span> / <span class="circle-option" onclick="selectOption(this)">a lot of</span>) on my trip. (short answer)</p>
+            <button onclick="checkSelection(this, 'a lot')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">50. We don't have (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) bread left.</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">51. Are there (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) good restaurants in this area?</p>
+            <button onclick="checkSelection(this, 'many')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">52. Just (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) of the apples are ripe.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">53. There's (<span class="circle-option" onclick="selectOption(this)">too many</span> / <span class="circle-option" onclick="selectOption(this)">too much</span>) noise in here! I can't concentrate.</p>
+            <button onclick="checkSelection(this, 'too much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">54. We had (<span class="circle-option" onclick="selectOption(this)">a lot of</span> / <span class="circle-option" onclick="selectOption(this)">many</span>) fun at the beach.</p>
+            <button onclick="checkSelection(this, 'a lot of')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">55. How (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) luggage did you bring?</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">56. My teacher gave us (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) advice before the test.</p>
+            <button onclick="checkSelection(this, 'a little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">57. There are (<span class="circle-option" onclick="selectOption(this)">few</span> / <span class="circle-option" onclick="selectOption(this)">little</span>) people who can solve this puzzle. (meaning 'not many')</p>
+            <button onclick="checkSelection(this, 'few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">58. I need to get (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) things from the store.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">59. They have so (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) beautiful furniture.</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">60. Very (<span class="circle-option" onclick="selectOption(this)">few</span> / <span class="circle-option" onclick="selectOption(this)">little</span>) is known about this ancient city. (meaning 'not much')</p>
+            <button onclick="checkSelection(this, 'little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">61. How (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) work do you have to do?</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">62. We only have (<span class="circle-option" onclick="selectOption(this)">a few</span> / <span class="circle-option" onclick="selectOption(this)">a little</span>) days of vacation left.</p>
+            <button onclick="checkSelection(this, 'a few')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">63. I don't get (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) chances to travel.</p>
+            <button onclick="checkSelection(this, 'many')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">64. She put (<span class="circle-option" onclick="selectOption(this)">a little</span> / <span class="circle-option" onclick="selectOption(this)">a few</span>) effort into her homework, so she got a bad grade.</p>
+            <button onclick="checkSelection(this, 'a little')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <p class="question">65. There was so (<span class="circle-option" onclick="selectOption(this)">many</span> / <span class="circle-option" onclick="selectOption(this)">much</span>) rain last night.</p>
+            <button onclick="checkSelection(this, 'much')">Submit</button>
+            <span class="feedback"></span>
+        </div>
+    </div>
+
+    <!-- Part 3: Fill in the Blanks -->
+    <h3 class="sub-header">Part 3: Complete with a suitable quantifier</h3>
+    <div class="exercise">
+        <!-- Questions 66-90 -->
+        <div class="exercise-item">
+            <label for="add-q-66">66. The room was almost empty. There were only <input type="text" id="add-q-66"> people. (small quantity, countable)</label>
+            <button onclick="checkAnswer('add-q-66', 'a few', 'add-fb-66')">Submit</button>
+            <span id="add-fb-66" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-67">67. I'm not very thirsty. I'll just have <input type="text" id="add-q-67"> water. (small quantity, uncountable)</label>
+            <button onclick="checkAnswer('add-q-67', 'a little', 'add-fb-67')">Submit</button>
+            <span id="add-fb-67" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-68">68. The concert was sold out. There were <input type="text" id="add-q-68"> people there. (large quantity, countable)</label>
+            <button onclick="checkAnswer('add-q-68', 'a lot of', 'add-fb-68')">Submit</button>
+            <span id="add-fb-68" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-69">69. How much time do we have? B: Not <input type="text" id="add-q-69">. Only ten minutes.</label>
+            <button onclick="checkAnswer('add-q-69', 'much', 'add-fb-69')">Submit</button>
+            <span id="add-fb-69" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-70">70. Were there many problems? B: No, not <input type="text" id="add-q-70">.</label>
+            <button onclick="checkAnswer('add-q-70', 'many', 'add-fb-70')">Submit</button>
+            <span id="add-fb-70" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-71">71. She has <input type="text" id="add-q-71"> patience for rude customers. (zero/very small quantity)</label>
+            <button onclick="checkAnswer('add-q-71', 'little', 'add-fb-71')">Submit</button>
+            <span id="add-fb-71" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-72">72. I need to buy <input type="text" id="add-q-72"> tomatoes for the salad.</label>
+            <button onclick="checkAnswer('add-q-72', 'a few', 'add-fb-72')">Submit</button>
+            <span id="add-fb-72" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-73">73. There is <input type="text" id="add-q-73"> of pollution in big cities. (large quantity)</label>
+            <button onclick="checkAnswer('add-q-73', 'a lot', 'add-fb-73')">Submit</button>
+            <span id="add-fb-73" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-74">74. I have <input type="text" id="add-q-74"> reasons for my decision. (a small number)</label>
+            <button onclick="checkAnswer('add-q-74', 'a few', 'add-fb-74')">Submit</button>
+            <span id="add-fb-74" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-75">75. Don't worry, there's still <input type="text" id="add-q-75"> time left. (a small amount)</label>
+            <button onclick="checkAnswer('add-q-75', 'a little', 'add-fb-75')">Submit</button>
+            <span id="add-fb-75" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-76">76. How many mistakes did you make? B: Not <input type="text" id="add-q-76">, just two or three.</label>
+            <button onclick="checkAnswer('add-q-76', 'many', 'add-fb-76')">Submit</button>
+            <span id="add-fb-76" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-77">77. It's a very dry region. They get very <input type="text" id="add-q-77"> rain. (almost no)</label>
+            <button onclick="checkAnswer('add-q-77', 'little', 'add-fb-77')">Submit</button>
+            <span id="add-fb-77" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-78">78. The test was easy. <input type="text" id="add-q-78"> students failed it. (almost none)</label>
+            <button onclick="checkAnswer('add-q-78', 'Few', 'add-fb-78')">Submit</button>
+            <span id="add-fb-78" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-79">79. I saved <input type="text" id="add-q-79"> money last month to buy a gift.</label>
+            <button onclick="checkAnswer('add-q-79', 'a little', 'add-fb-79')">Submit</button>
+            <span id="add-fb-79" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-80">80. The new manager made <input type="text" id="add-q-80"> changes to the team.</label>
+            <button onclick="checkAnswer('add-q-80', 'a few', 'add-fb-80')">Submit</button>
+            <span id="add-fb-80" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-81">81. He doesn't have <input type="text" id="add-q-81"> experience for the job. (not enough)</label>
+            <button onclick="checkAnswer('add-q-81', 'much', 'add-fb-81')">Submit</button>
+            <span id="add-fb-81" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-82">82. Did you eat a lot? B: No, just <input type="text" id="add-q-82">.</label>
+            <button onclick="checkAnswer('add-q-82', 'a little', 'add-fb-82')">Submit</button>
+            <span id="add-fb-82" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-83">83. There are <input type="text" id="add-q-83"> opportunities for young people here. (not a large number)</label>
+            <button onclick="checkAnswer('add-q-83', 'not many', 'add-fb-83')">Submit</button>
+            <span id="add-fb-83" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-84">84. We spent <input type="text" id="add-q-84"> of money on our house. (large amount)</label>
+            <button onclick="checkAnswer('add-q-84', 'a lot', 'add-fb-84')">Submit</button>
+            <span id="add-fb-84" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-85">85. I have <input type="text" id="add-q-85"> books on history. Would you like to borrow one?</label>
+            <button onclick="checkAnswer('add-q-85', 'a few', 'add-fb-85')">Submit</button>
+            <span id="add-fb-85" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-86">86. There isn't <input type="text" id="add-q-86"> electricity during the storm.</label>
+            <button onclick="checkAnswer('add-q-86', 'much', 'add-fb-86')">Submit</button>
+            <span id="add-fb-86" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-87">87. A: Did you take a lot of photos? B: No, just <input type="text" id="add-q-87">.</label>
+            <button onclick="checkAnswer('add-q-87', 'a few', 'add-fb-87')">Submit</button>
+            <span id="add-fb-87" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-88">88. I understand the problem better now. I just need <input type="text" id="add-q-88"> more information.</label>
+            <button onclick="checkAnswer('add-q-88', 'a little', 'add-fb-88')">Submit</button>
+            <span id="add-fb-88" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-89">89. The bus was crowded. There were too <input type="text" id="add-q-89"> people.</label>
+            <button onclick="checkAnswer('add-q-89', 'many', 'add-fb-89')">Submit</button>
+            <span id="add-fb-89" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-90">90. This soup has too <input type="text" id="add-q-90"> salt in it.</label>
+            <button onclick="checkAnswer('add-q-90', 'much', 'add-fb-90')">Submit</button>
+            <span id="add-fb-90" class="feedback"></span>
+        </div>
+    </div>
+
+    <!-- Part 4: Error Correction -->
+    <h3 class="sub-header">Part 4: Find and correct the mistake (type the correct word)</h3>
+    <div class="exercise">
+        <!-- Questions 91-100 -->
+        <div class="exercise-item">
+            <label for="add-q-91">91. How <u>much</u> eggs do you need for the cake? -> <input type="text" id="add-q-91"></label>
+            <button onclick="checkAnswer('add-q-91', 'many', 'add-fb-91')">Submit</button>
+            <span id="add-fb-91" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-92">92. There isn't <u>many</u> milk left in the fridge. -> <input type="text" id="add-q-92"></label>
+            <button onclick="checkAnswer('add-q-92', 'much', 'add-fb-92')">Submit</button>
+            <span id="add-fb-92" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-93">93. I have only a <u>little</u> friends here. -> <input type="text" id="add-q-93"></label>
+            <button onclick="checkAnswer('add-q-93', 'few', 'add-fb-93')">Submit</button>
+            <span id="add-fb-93" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-94">94. How <u>many</u> does this jacket cost? -> <input type="text" id="add-q-94"></label>
+            <button onclick="checkAnswer('add-q-94', 'much', 'add-fb-94')">Submit</button>
+            <span id="add-fb-94" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-95">95. She needs a <u>few</u> help with her luggage. -> <input type="text" id="add-q-95"></label>
+            <button onclick="checkAnswer('add-q-95', 'little', 'add-fb-95')">Submit</button>
+            <span id="add-fb-95" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-96">96. There are too <u>much</u> people on this train. -> <input type="text" id="add-q-96"></label>
+            <button onclick="checkAnswer('add-q-96', 'many', 'add-fb-96')">Submit</button>
+            <span id="add-fb-96" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-97">97. He has <u>many</u> interest in art. -> <input type="text" id="add-q-97"></label>
+            <button onclick="checkAnswer('add-q-97', 'much', 'add-fb-97')">Submit</button>
+            <span id="add-fb-97" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-98">98. We don't have <u>a lot</u> of time. (incorrect use in a negative sentence, better option) -> <input type="text" id="add-q-98"></label>
+            <button onclick="checkAnswer('add-q-98', 'much', 'add-fb-98')">Submit</button>
+            <span id="add-fb-98" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-99">99. How <u>many</u> research have you done? -> <input type="text" id="add-q-99"></label>
+            <button onclick="checkAnswer('add-q-99', 'much', 'add-fb-99')">Submit</button>
+            <span id="add-fb-99" class="feedback"></span>
+        </div>
+        <div class="exercise-item">
+            <label for="add-q-100">100. There are <u>a little</u> books on the shelf. -> <input type="text" id="add-q-100"></label>
+            <button onclick="checkAnswer('add-q-100', 'a few', 'add-fb-100')">Submit</button>
+            <span id="add-fb-100" class="feedback"></span>
+        </div>
+    </div>
+</section>
+<!-- KẾT THÚC PHẦN BÀI TẬP BỔ SUNG -->
+
+</div>
+
+<script>
+    // Hàm chung để kiểm tra câu trả lời dạng text input
+    function checkAnswer(inputId, correctAnswer, feedbackId) {
+        const userInput = document.getElementById(inputId).value.trim();
+        const feedbackEl = document.getElementById(feedbackId);
+        
+        // So sánh không phân biệt hoa thường
+        if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+            feedbackEl.textContent = "Correct!";
+            feedbackEl.className = "feedback correct";
+        } else {
+            feedbackEl.textContent = `Incorrect. The correct answer is: ${correctAnswer}`;
+            feedbackEl.className = "feedback incorrect";
+        }
+    }
+    
+    // Hàm cho bài tập chọn từ (circling)
+    let lastSelected = {};
+    function selectOption(element, groupIdentifier) {
+        // Xóa lựa chọn cũ trong cùng một câu hỏi
+        const parent = element.parentNode;
+        const options = parent.querySelectorAll('.circle-option');
+        options.forEach(opt => opt.classList.remove('selected'));
+        
+        // Đánh dấu lựa chọn mới
+        element.classList.add('selected');
+    }
+
+    function checkSelection(button, correctAnswer) {
+        const parent = button.parentNode;
+        const feedbackEl = parent.querySelector('.feedback');
+        const selectedOption = parent.querySelector('.selected');
+
+        if (!selectedOption) {
+            feedbackEl.textContent = 'Please select an answer.';
+            feedbackEl.className = 'feedback incorrect';
+            return;
+        }
+
+        if (selectedOption.textContent.trim() === correctAnswer) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback correct';
+        } else {
+            feedbackEl.textContent = `Incorrect. The correct answer is: ${correctAnswer}`;
+            feedbackEl.className = 'feedback incorrect';
+        }
+    }
+
+    // Hàm cho phần Writing: tách câu
+    function splitSentences() {
+        const sampleTextContainer = document.getElementById('sample-text');
+        const outputContainer = document.getElementById('sentence-output');
+        
+        // Lấy toàn bộ text, thay thế các tag <p> bằng dấu chấm để đảm bảo tách đúng
+        let text = sampleTextContainer.innerHTML
+            .replace(/<strong>.*?<\/strong>/g, '') // Bỏ tag strong
+            .replace(/<p>/g, '')
+            .replace(/<\/p>/g, '. ') // Thay thế thẻ đóng p bằng dấu chấm
+            .replace(/\.\s*\./g, '.') // Dọn dẹp dấu chấm thừa
+            .trim();
+
+        const sentences = text.split('.').filter(sentence => sentence.trim() !== '');
+        
+        outputContainer.innerHTML = '<h4>Sentences from the sample text:</h4>';
+        sentences.forEach((sentence, index) => {
+            const p = document.createElement('p');
+            p.textContent = `${index + 1}. ${sentence.trim()}.`;
+            outputContainer.appendChild(p);
+        });
+    }
+
+</script>
+
+</body>
+</html>
