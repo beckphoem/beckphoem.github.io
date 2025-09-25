@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 25: Simple Past: Irregular Verbs; Yes/No Questions</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        
+        /* Headers */
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #f0ad4e;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .unit-number {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #0275d8;
+            margin-right: 20px;
+        }
+
+        .unit-title h1 {
+            color: #000;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .unit-title h2 {
+            color: #555;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        .outcomes {
+            background-color: #fef8e1;
+            border-left: 5px solid #f0ad4e;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* Section Titles */
+        .step-title {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .step-title h2 {
+            margin: 0;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .section-subtitle {
+            font-weight: bold;
+            color: #d9534f;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+        
+        /* Vocabulary Section */
+        .vocab-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .vocab-item {
+            flex-basis: 30%;
+        }
+        .vocab-item img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+        }
+        .exercise-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .exercise-instruction {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .question {
+            margin-bottom: 15px;
+        }
+
+        .question-line {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .question-line label, .question-line span {
+            margin-right: 5px;
+        }
+
+        input[type="text"] {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 8px;
+            font-size: 1em;
+            width: 150px;
+        }
+        
+        .long-input {
+            width: 250px;
+        }
+        
+        button.submit-btn {
+            background-color: #0275d8;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        button.submit-btn:hover {
+            background-color: #025aa5;
+        }
+
+        .feedback {
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        .feedback.correct {
+            color: #5cb85c;
+        }
+        .feedback.incorrect {
+            color: #d9534f;
+        }
+        .hint {
+            font-style: italic;
+            color: #777;
+        }
+
+        /* Reading Section */
+        .reading-article {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 25px;
+            align-items: start;
+        }
+        .reading-article img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .reading-article p {
+            text-align: justify;
+        }
+        .footnotes {
+            font-size: 0.8em;
+            color: #555;
+            border-top: 1px solid #eee;
+            margin-top: 15px;
+            padding-top: 10px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-top: 25px;
+            border-radius: 8px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Comprehension (Multiple Choice) */
+        .mcq-option {
+            margin-left: 20px;
+        }
+
+        /* Grammar Presentation */
+        .grammar-presentation {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .grammar-box {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .grammar-table-container {
+            flex: 1;
+        }
+
+        table.grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95em;
+        }
+        table.grammar-table th, table.grammar-table td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        table.grammar-table th {
+            background-color: #e9ecef;
+        }
+        table.grammar-table .affirmative-header { background-color: #d4edda; }
+        table.grammar-table .negative-header { background-color: #f8d7da; }
+
+        .grammar-notes {
+            margin-top: 20px;
+        }
+        .grammar-note {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #0275d8;
+        }
+        .grammar-note .note-title {
+            font-weight: bold;
+            color: #0275d8;
+        }
+        .be-careful {
+            background-color: #f8d7da;
+            border-left-color: #d9534f;
+            color: #721c24;
+        }
+        .be-careful .note-title {
+            color: #d9534f;
+        }
+        .example-text {
+            font-style: italic;
+            color: #555;
+            margin-left: 15px;
+        }
+
+        /* Writing Section */
+        #writing-paragraph {
+            background: #eef;
+            padding: 15px;
+            border-left: 4px solid #66f;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        #sentence-output ul {
+            list-style-type: decimal;
+        }
+        #sentence-output li {
+            padding: 5px;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .reading-article {
+                grid-template-columns: 1fr;
+            }
+            .grammar-box {
+                flex-direction: column;
+            }
+            .vocab-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="unit-header">
+            <div class="unit-number">25</div>
+            <div class="unit-title">
+                <h1>Simple Past: Irregular Verbs; Yes/No Questions</h1>
+                <h2>HELPING OTHERS</h2>
+            </div>
+        </header>
+
+        <section class="outcomes">
+            <strong>OUTCOMES</strong>
+            <ul>
+                <li>Use regular and irregular verbs in the simple past</li>
+                <li>Ask and answer yes/no questions in the simple past</li>
+                <li>Complete sentences about a reading</li>
+                <li>Identify true and false statements about a conversation</li>
+                <li>Talk about the lives of famous people</li>
+                <li>Interview your classmates about what they did last week</li>
+                <li>Write a paragraph about a famous person who helped others</li>
+            </ul>
+        </section>
+
+        <!-- =========== STEP 1: GRAMMAR IN CONTEXT =========== -->
+        <div id="step-1-grammar-in-context">
+            <div class="step-title"><h2>STEP 1: GRAMMAR IN CONTEXT</h2></div>
+            <h3 class="section-subtitle">BEFORE YOU READ</h3>
+            
+            <div class="exercise">
+                <p class="exercise-title">A VOCABULARY</p>
+                <p class="exercise-instruction">Study the words. Then complete the sentences with the words.</p>
+                <div class="vocab-container">
+                    <div class="vocab-item">
+                        <img src="FOG-1-25/1.png" alt="A man and a woman acting in a movie scene">
+                        <p><strong>act</strong></p>
+                    </div>
+                    <div class="vocab-item">
+                        <img src="FOG-1-25/2.png" alt="A parent protecting a child in a car seat">
+                        <p><strong>protect</strong></p>
+                    </div>
+                    <div class="vocab-item">
+                        <img src="FOG-1-25/3.png" alt="A nurse taking care of a young patient in a hospital bed">
+                        <p><strong>take care of</strong></p>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div class="question-line">
+                        <span>1. Nurses</span>
+                        <input type="text" id="vocab1" data-answer="take care of">
+                        <span>sick people in hospitals.</span>
+                        <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                        <span class="feedback"></span>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-line">
+                        <span>2. People</span>
+                        <input type="text" id="vocab2" data-answer="act">
+                        <span>when they play characters in movies or plays.</span>
+                        <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                        <span class="feedback"></span>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-line">
+                        <span>3. Parents</span>
+                        <input type="text" id="vocab3" data-answer="protect">
+                        <span>their children when they ride in cars.</span>
+                        <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                        <span class="feedback"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =========== READ =========== -->
+        <div id="reading-section">
+            <h3 class="section-subtitle">READ</h3>
+            <p class="exercise-instruction">Read the article.</p>
+            <div class="reading-article">
+                <div class="article-text">
+                    <h2>Who Is Lupita Nyong'o?</h2>
+                    <p>
+                        LUPITA NYONG'O is a Mexican-Kenyan actress, film director, and fashion star. She <strong>became</strong> famous after she <strong>acted</strong> in the movie <em>Twelve Years a Slave</em>.<sup>1</sup> She <strong>played</strong> Patsey, a slave girl in the American South. Her acting <strong>was</strong> very good, and she <strong>inspired</strong><sup>2</sup> many people.
+                    </p>
+                    <p>
+                        In her movies, Lupita often plays strong and helpful characters. In 2015, she <strong>was</strong> Maz Kanata in <em>Star Wars: The Force Awakens</em>. In 2016, she <strong>did</strong> the voice of a mother wolf<sup>3</sup> in <em>The Jungle Book</em>. The wolf takes care of a human boy. Also in 2016, she <strong>played</strong> Phiona Mutesi's mother in <em>Queen of Katwe</em>. This is a true story about a poor young Ugandan girl. She <strong>didn't have</strong> enough to eat, but she <strong>became</strong> very good at the game of chess.
+                    </p>
+                    <p>
+                        Lupita is much more than a movie star. She also helps and protects animals. People kill many animals in Africa. Recently, Lupita <strong>went</strong> to Kenya to visit elephants. She <strong>said</strong> it <strong>was</strong> a wonderful experience, but she <strong>was</strong> sad when she <strong>saw</strong> many baby elephants with no mothers. Lupita wants everyone to help her save elephants and other animals.
+                    </p>
+                     <p>
+                        Lupita also helps girls and women around the world. Recently, Lupita <strong>became</strong> a member of Mother Health International. This organization helps poor mothers and their children in Africa.
+                    </p>
+                    <p>
+                        Lupita Nyong'o's film career is important. But she also protects animals and helps girls, women, and babies. That work is even more important.
+                    </p>
+                    <div class="footnotes">
+                        <p><sup>1</sup> <strong>slave</strong>: a person who is not free</p>
+                        <p><sup>2</sup> <strong>inspired</strong>: made people have a special, good feeling</p>
+                        <p><sup>3</sup> <strong>wolf</strong>: a wild animal similar to a big dog</p>
+                    </div>
+                </div>
+                <div class="article-images">
+                    <img src="FOG-1-25/4.png" alt="Lupita Nyong'o in a floral dress.">
+                    <img src="FOG-1-25/5.png" alt="A scene from the movie Queen of Katwe showing people playing chess.">
+                </div>
+            </div>
+
+            <div class="video-container">
+                 <!-- Bạn có thể thay đổi link video này -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/au_b_tWdYmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- =========== AFTER YOU READ =========== -->
+        <div id="after-you-read">
+            <h3 class="section-subtitle">AFTER YOU READ</h3>
+            <div class="exercise">
+                <p class="exercise-title">A COMPREHENSION</p>
+                <p class="exercise-instruction">Look at the article again. Complete the sentences. Circle the correct answers.</p>
+                
+                <div class="question">
+                    <p>1. Lupita Nyong'o became famous after she was in the movie ____.</p>
+                    <div class="mcq-options" data-answer="b">
+                        <label><input type="radio" name="comp_q1" value="a"> a. Star Wars: The Force Awakens</label><br>
+                        <label><input type="radio" name="comp_q1" value="b"> b. Twelve Years a Slave</label>
+                    </div>
+                    <button class="submit-btn" onclick="checkRadio(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+
+                <div class="question">
+                    <p>2. The movie <em>Queen of Katwe</em> is about ____.</p>
+                    <div class="mcq-options" data-answer="b">
+                        <label><input type="radio" name="comp_q2" value="a"> a. a mother wolf</label><br>
+                        <label><input type="radio" name="comp_q2" value="b"> b. a chess player</label>
+                    </div>
+                    <button class="submit-btn" onclick="checkRadio(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+
+                <div class="question">
+                    <p>3. In Kenya, Lupita visited ____.</p>
+                    <div class="mcq-options" data-answer="a">
+                        <label><input type="radio" name="comp_q3" value="a"> a. elephants</label><br>
+                        <label><input type="radio" name="comp_q3" value="b"> b. girls</label>
+                    </div>
+                    <button class="submit-btn" onclick="checkRadio(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+
+                <div class="question">
+                    <p>4. Elephants are in danger from ____.</p>
+                    <div class="mcq-options" data-answer="b">
+                        <label><input type="radio" name="comp_q4" value="a"> a. other animals</label><br>
+                        <label><input type="radio" name="comp_q4" value="b"> b. people</label>
+                    </div>
+                    <button class="submit-btn" onclick="checkRadio(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+                
+                <div class="question">
+                    <p>5. Mother Health International is an organization for ____.</p>
+                    <div class="mcq-options" data-answer="b">
+                        <label><input type="radio" name="comp_q5" value="a"> a. all mothers</label><br>
+                        <label><input type="radio" name="comp_q5" value="b"> b. poor mothers</label>
+                    </div>
+                    <button class="submit-btn" onclick="checkRadio(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- =========== STEP 2: GRAMMAR PRESENTATION =========== -->
+        <div id="step-2-grammar-presentation">
+            <div class="step-title"><h2>STEP 2: GRAMMAR PRESENTATION</h2></div>
+            <div class="grammar-presentation">
+                <h3>SIMPLE PAST STATEMENTS (IRREGULAR VERBS)</h3>
+                <div class="grammar-box">
+                    <div class="grammar-table-container">
+                        <table class="grammar-table">
+                            <thead>
+                                <tr><th class="affirmative-header">Statements - Affirmative</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>He <strong>ate</strong> bread.</td></tr>
+                                <tr><td>They <strong>got</strong> married in June.</td></tr>
+                                <tr><td>You <strong>had</strong> time to help.</td></tr>
+                                <tr><td>She <strong>drank</strong> water.</td></tr>
+                                <tr><td>She <strong>went</strong> to Kenya.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="grammar-table-container">
+                        <table class="grammar-table">
+                            <thead>
+                                <tr><th class="negative-header">Negative</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>He <strong>did not eat</strong> regular meals.</td></tr>
+                                <tr><td>They <strong>didn't get</strong> married in July.</td></tr>
+                                <tr><td>You <strong>didn't have</strong> time to help.</td></tr>
+                                <tr><td>She <strong>didn't drink</strong> coffee.</td></tr>
+                                <tr><td>She <strong>didn't go</strong> to Egypt.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <h3>SIMPLE PAST YES/NO QUESTIONS</h3>
+                 <div class="grammar-box">
+                    <div class="grammar-table-container">
+                         <table class="grammar-table">
+                            <thead>
+                                <tr><th colspan="4">Yes/No Questions</th></tr>
+                                <tr><th>Did</th><th>Subject</th><th>Base Form</th><th></th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td rowspan="6">Did</td><td>I</td><td>wake</td><td>you up?</td></tr>
+                                <tr><td>you</td><td>take care of</td><td>the kids yesterday?</td></tr>
+                                <tr><td>he</td><td>help</td><td>his grandfather?</td></tr>
+                                <tr><td>it</td><td>rain</td><td>last night?</td></tr>
+                                <tr><td>we</td><td>eat</td><td>all the cookies?</td></tr>
+                                <tr><td>they</td><td>cook</td><td>for the hungry people?</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="grammar-table-container">
+                        <table class="grammar-table">
+                            <thead>
+                                <tr><th colspan="2">Short Answers</th></tr>
+                                <tr><th class="affirmative-header">Affirmative</th><th class="negative-header">Negative</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Yes, you did.</td><td>No, you didn't.</td></tr>
+                                <tr><td>Yes, I did.</td><td>No, I didn't.</td></tr>
+                                <tr><td>Yes, we did.</td><td>No, we didn't.</td></tr>
+                                <tr><td>Yes, he did.</td><td>No, he didn't.</td></tr>
+                                <tr><td>Yes, it did.</td><td>No, it didn't.</td></tr>
+                                <tr><td>Yes, they did.</td><td>No, they didn't.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="grammar-notes">
+                    <h4>GRAMMAR NOTES</h4>
+                    <div class="grammar-note">
+                        <p class="note-title">1 Irregular Verbs</p>
+                        <p>Irregular verbs have different forms in the simple past.</p>
+                        <p>Here are several common irregular verbs and their past forms.</p>
+                        <ul>
+                            <li>become → became</li>
+                            <li>do → did</li>
+                            <li>grow → grew</li>
+                            <li>say → said</li>
+                            <li>see → saw</li>
+                            <li>send → sent</li>
+                            <li>sit → sat</li>
+                            <li>take → took</li>
+                            <li>win → won</li>
+                            <li>write → wrote</li>
+                        </ul>
+                        <p class="example-text">Jaime <strong>became</strong> a teacher.<br>I <strong>did</strong> a lot of work yesterday.</p>
+                        <p>Remember that the simple past forms of <strong>be</strong> are <strong>was, wasn't, were,</strong> and <strong>weren't</strong>.</p>
+                        <p class="example-text">She <strong>was</strong> born in Mexico.<br>We <strong>were</strong> born in Canada.</p>
+                    </div>
+                    <div class="grammar-note">
+                        <p class="note-title">2 Negative Forms of Simple Past Verbs</p>
+                        <p>To make negative sentences with both regular and irregular verbs in the simple past, use <strong>did not + the base form</strong> of the verb.</p>
+                        <p class="example-text">He <strong>did not eat</strong> much.</p>
+                        <p>Use the contraction <strong>didn't + the base form</strong> in conversation and informal writing.</p>
+                        <p class="example-text">He <strong>didn't eat</strong> much.</p>
+                        <div class="grammar-note be-careful">
+                            <p class="note-title">BE CAREFUL!</p>
+                             <p>Don't use <em>did</em> or <em>didn't</em> with the past form of the verb. Use the base form.</p>
+                             <p class="example-text">He <strong>didn't have</strong> breakfast.<br><strong>NOT</strong> He didn't <strike>had</strike> breakfast.</p>
+                        </div>
+                    </div>
+                     <div class="grammar-note">
+                        <p class="note-title">3 Yes/No Questions and Short Answers in the Simple Past</p>
+                        <p>To make <strong>yes/no</strong> questions in the simple past, use <strong>did + the subject + the base form</strong> of the verb.</p>
+                        <p class="example-text"><strong>Did</strong> you <strong>stop</strong> for lunch?</p>
+                        <p>You can use <strong>did</strong> or <strong>didn't</strong> in the short answer to a question in the simple past. You can also use just the word <strong>yes</strong> or <strong>no</strong>.</p>
+                        <p class="example-text">A: <strong>Did</strong> it <strong>rain</strong>?<br>B: Yes, it <strong>did</strong>. or <strong>Yes</strong>.<br> &nbsp; &nbsp; No, it <strong>didn't</strong>. or <strong>No</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =========== STEP 3: FOCUSED PRACTICE =========== -->
+        <div id="step-3-focused-practice">
+            <div class="step-title"><h2>STEP 3: FOCUSED PRACTICE</h2></div>
+
+            <div class="exercise">
+                <p class="exercise-title">EXERCISE 2 REGULAR AND IRREGULAR VERBS</p>
+                <p class="exercise-instruction">GRAMMAR NOTES 1-2 Complete the paragraph. Use the simple past form of the verbs in parentheses.</p>
+                <img src="FOG-1-25/6.png" alt="Lupita Nyong'o" style="float:left; margin-right: 15px; width: 120px;">
+                <p>
+                    Lupita Nyong'o (1. be born) <input type="text" data-answer="was born"> in Mexico in 1983. Her family (2. not / live) <input type="text" data-answer="didn't live"> in Mexico very long. After three years, they (3. go) <input type="text" data-answer="went"> to Kenya, where they were from. Lupita (4. grow) <input type="text" data-answer="grew"> up there. When Lupita was sixteen, her parents (5. send) <input type="text" data-answer="sent"> her back to Mexico to learn Spanish.
+                    <br><br>
+                    Lupita later (6. move) <input type="text" data-answer="moved"> to the United States. She (7. attend) <input type="text" data-answer="attended"> Hampshire College and then Yale University. She (8. get) <input type="text" data-answer="got"> a bachelor's degree from Hampshire College and a master's degree from Yale. Then Lupita (9. begin) <input type="text" data-answer="began"> to act in movies. Many people (10. see) <input type="text" data-answer="saw"> Lupita in the movie <em>Twelve Years a Slave</em>. She (11. win) <input type="text" data-answer="won"> an award for that movie. She also (12. have) <input type="text" data-answer="had"> roles in the movies <em>Star Wars: The Force Awakens</em> and <em>Queen of Katwe</em>.
+                </p>
+                 <button class="submit-btn" onclick="checkAllInParent(this)">Check All</button>
+                 <span class="feedback"></span>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">EXERCISE 3 YES/NO QUESTIONS</p>
+                <p class="exercise-instruction">GRAMMAR NOTE 3 Complete the conversations with yes/no questions. Use the correct forms of the words in parentheses.</p>
+                 <div class="question">
+                    <p class="question-line">1. A: <input type="text" class="long-input" data-answer="Did you have"> (have / you) breakfast this morning, Bi-Yun?</p>
+                    <p>B: No. I had to drive my mother to work.</p>
+                     <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                     <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p class="question-line">2. A: <input type="text" class="long-input" data-answer="Did she write"> (write / she) her paper on Lupita Nyong'o?</p>
+                    <p>B: No, she didn't. She wrote it on Antonio Banderas.</p>
+                     <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                     <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p class="question-line">3. A: <input type="text" class="long-input" data-answer="Did it take"> (take / it) you a long time to help your grandfather?</p>
+                    <p>B: Yes, it took me about three hours.</p>
+                     <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                     <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p class="question-line">4. A: <input type="text" class="long-input" data-answer="Did you work"> (work / you) at the old people's home?</p>
+                    <p>B: No, I didn't. I worked at the library.</p>
+                     <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                     <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p class="question-line">5. A: <input type="text" class="long-input" data-answer="Did you see"> (see / you) the movie <em>Twelve Years a Slave</em>?</p>
+                    <p>B: Yes, I did. I saw it in 2014.</p>
+                     <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                     <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p class="question-line">6. A: <input type="text" class="long-input" data-answer="Did I help"> (help / I) you with your father in the garden?</p>
+                    <p>B: Yes, I did. We worked for three hours.</p>
+                     <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                     <span class="feedback"></span>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">EXERCISE 5 EDITING</p>
+                <p class="exercise-instruction">GRAMMAR NOTES 1-3 There are six mistakes in the conversations. The first mistake is corrected. Find and correct five more.</p>
+                
+                <div class="question">
+                    <p>1. A: Yukiko, did you <input type="text" value="worked" data-answer="work"> at the school yesterday?</p>
+                    <p>B: Yes, I <input type="text" value="do" data-answer="did">. I worked all afternoon.</p>
+                    <button class="submit-btn" onclick="checkAllInParent(this)">Check Question 1</button>
+                    <span class="feedback"></span>
+                </div>
+                <div class="question">
+                    <p>2. A: Jessica, Jeremy helped you with the garden?</p>
+                    <p><em>(Correction: Write the full correct question)</em> <input type="text" class="long-input" data-answer="Did Jeremy help you with the garden?"></p>
+                    <p>B: Yes, and he <input type="text" value="does" data-answer="did"> a good job.</p>
+                    <button class="submit-btn" onclick="checkAllInParent(this)">Check Question 2</button>
+                    <span class="feedback"></span>
+                </div>
+                <div class="question">
+                    <p>3. A: How many movies you saw last month?</p>
+                    <p><em>(Correction: Write the full correct question)</em> <input type="text" class="long-input" data-answer="How many movies did you see last month?"></p>
+                    <p>B: I saw four movies.</p>
+                    <button class="submit-btn" onclick="checkAllInParent(this)">Check Question 3</button>
+                    <span class="feedback"></span>
+                </div>
+                <div class="question">
+                    <p>4. A: I think Lupita Nyong'o <input type="text" value="go" data-answer="went"> back to Kenya.</p>
+                    <p>B: Yes, she only lived in Mexico for three years.</p>
+                    <button class="submit-btn" onclick="checkAllInParent(this)">Check Question 4</button>
+                    <span class="feedback"></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- =========== FROM GRAMMAR TO WRITING =========== -->
+        <div id="from-grammar-to-writing">
+            <div class="step-title"><h2>FROM GRAMMAR TO WRITING</h2></div>
+            <div class="exercise">
+                <p class="exercise-title">A BEFORE YOU WRITE</p>
+                <p class="exercise-instruction">Read the paragraph. Underline simple past verbs. Guess who the paragraph is about.</p>
+
+                <div id="writing-paragraph">
+                    <p>This person <strong>was</strong> born on July 18, 1918, in Transkei, South Africa. In South Africa, white people <strong>had</strong> power. Black Africans <strong>were</strong> poor and <strong>didn't have</strong> rights. This person <strong>didn't like</strong> that. He <strong>tried</strong> to change the laws in South Africa. The South African government <strong>didn't like</strong> him. They <strong>arrested</strong> him in 1956. He <strong>was</strong> in prison for twenty-seven years. After he <strong>got</strong> out of prison, he <strong>won</strong> the Nobel Peace Prize in 1993. In 1994, he <strong>became</strong> the first black president of South Africa. He <strong>was</strong> president until 1998. He <strong>died</strong> on December 5, 2013, in Johannesburg. He <strong>was</strong> ninety-five years old. Who was this person?</p>
+                    <p><em>(The person is Nelson Mandela)</em></p>
+                </div>
+
+                <button id="split-btn">Tách đoạn văn thành từng câu</button>
+                <div id="sentence-output" style="margin-top: 15px;"></div>
+            </div>
+        </div>
+
+        <!-- =========== UNIT 25 REVIEW =========== -->
+        <div id="unit-review">
+            <div class="step-title"><h2>UNIT 25 REVIEW</h2></div>
+            <p>Test yourself on the grammar of the unit.</p>
+
+            <div class="exercise">
+                <p class="exercise-title">A</p>
+                <p class="exercise-instruction">Complete the paragraph. Use the simple past form of the verbs in parentheses.</p>
+                <p>
+                    Yesterday I (1. get) <input type="text" data-answer="got"> home about 5:30 p.m. It was my turn, so I (2. make) <input type="text" data-answer="made"> dinner for my wife. We (3. eat) <input type="text" data-answer="ate"> dinner. Then we (4. see) <input type="text" data-answer="saw"> my mother in the hospital. At home later, I (5. write) <input type="text" data-answer="wrote"> an email to our son at the university. Finally, at 11:00 p.m., I (6. go) <input type="text" data-answer="went"> to bed.
+                </p>
+                 <button class="submit-btn" onclick="checkAllInParent(this)">Check All</button>
+                 <span class="feedback"></span>
+            </div>
+
+            <div class="exercise">
+                <p class="exercise-title">B</p>
+                <p class="exercise-instruction">Complete the conversations with simple past yes/no questions. Use the correct forms of the words in the box.</p>
+                <p style="background:#eee; padding: 5px; text-align:center;">you / get | Alicia / take care of | Jack / babysit | you / take</p>
+
+                <div class="question">
+                    <p>1. A: <input type="text" class="long-input" data-answer="Did you take"> Chris to the soccer game on Saturday?</p>
+                    <p>B: Yes, I took him in my car.</p>
+                    <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p>2. A: <input type="text" class="long-input" data-answer="Did you get"> gifts for your children?</p>
+                    <p>B: Yes, I got them some nice things.</p>
+                    <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p>3. A: <input type="text" class="long-input" data-answer="Did Alicia take care of"> her grandmother yesterday?</p>
+                    <p>B: Yes, she did. Her grandmother was in an accident.</p>
+                    <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+                 <div class="question">
+                    <p>4. A: <input type="text" class="long-input" data-answer="Did Jack babysit"> for your children last night?</p>
+                    <p>B: Yes, he did. He's a great babysitter.</p>
+                    <button class="submit-btn" onclick="checkAnswer(this)">Submit</button>
+                    <span class="feedback"></span>
+                </div>
+            </div>
+        </div>
+
+		<!-- BẮT ĐẦU PHẦN BÀI TẬP BỔ SUNG -->
+<div id="extra-practice-section" class="container" style="margin-top: 40px; border-top: 5px solid #0275d8;">
+    <div class="step-title"><h2>Additional Practice Exercises (100 Questions)</h2></div>
+    <p>Test your knowledge of the simple past with these extra exercises.</p>
+
+    <!-- ========= PART 1: Fill in the Blanks (Affirmative Irregular Verbs) ========= -->
+    <div class="exercise">
+        <h3 class="section-subtitle" style="color: #5cb85c;">PART 1: Fill in the Blanks (Affirmative)</h3>
+        <p class="exercise-instruction">Complete the sentences with the simple past form of the irregular verb in parentheses.</p>
+        
+        <div id="extra-practice-part1">
+            <!-- Questions 1-40 -->
+            <div class="question"><div class="question-line">1. She <input type="text" id="ex_q1" data-answer="wore"> (wear) a beautiful dress to the party. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">2. We <input type="text" id="ex_q2" data-answer="ate"> (eat) pizza for dinner last night. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">3. He <input type="text" id="ex_q3" data-answer="drove"> (drive) his new car to work. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">4. I <input type="text" id="ex_q4" data-answer="saw"> (see) a great movie yesterday. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">5. They <input type="text" id="ex_q5" data-answer="went"> (go) to the beach on Sunday. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">6. My brother <input type="text" id="ex_q6" data-answer="broke"> (break) his leg while playing soccer. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">7. She <input type="text" id="ex_q7" data-answer="gave"> (give) me a wonderful birthday gift. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">8. The students <input type="text" id="ex_q8" data-answer="did"> (do) their homework very quickly. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">9. I <input type="text" id="ex_q9" data-answer="found"> (find) my keys under the sofa. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">10. He <input type="text" id="ex_q10" data-answer="became"> (become) a doctor in 2010. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">11. We <input type="text" id="ex_q11" data-answer="swam"> (swim) in the ocean for hours. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">12. She <input type="text" id="ex_q12" data-answer="wrote"> (write) a long email to her friend. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">13. My father <input type="text" id="ex_q13" data-answer="taught"> (teach) me how to ride a bike. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">14. They <input type="text" id="ex_q14" data-answer="built"> (build) a new house last year. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">15. I <input type="text" id="ex_q15" data-answer="slept"> (sleep) for nine hours. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">16. The team <input type="text" id="ex_q16" data-answer="won"> (win) the championship. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">17. He <input type="text" id="ex_q17" data-answer="took"> (take) many photos on his vacation. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">18. She <input type="text" id="ex_q18" data-answer="said"> (say) hello to everyone. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">19. We <input type="text" id="ex_q19" data-answer="met"> (meet) our new neighbors. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">20. I <input type="text" id="ex_q20" data-answer="knew"> (know) the answer to the question. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">21. He <input type="text" id="ex_q21" data-answer="bought"> (buy) some groceries at the store. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">22. They <input type="text" id="ex_q22" data-answer="came"> (come) to my house for a visit. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">23. She <input type="text" id="ex_q23" data-answer="ran"> (run) a marathon last month. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">24. I <input type="text" id="ex_q24" data-answer="read"> (read) an interesting book. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">25. He <input type="text" id="ex_q25" data-answer="spoke"> (speak) to his boss about the project. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">26. We <input type="text" id="ex_q26" data-answer="had"> (have) a great time at the concert. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">27. The sun <input type="text" id="ex_q27" data-answer="rose"> (rise) at 6 a.m. this morning. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">28. She <input type="text" id="ex_q28" data-answer="sent"> (send) the package yesterday. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">29. They <input type="text" id="ex_q29" data-answer="left"> (leave) the party early. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">30. I <input type="text" id="ex_q30" data-answer="thought"> (think) about your suggestion. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">31. He <input type="text" id="ex_q31" data-answer="drank"> (drink) a cup of coffee. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">32. The bird <input type="text" id="ex_q32" data-answer="flew"> (fly) away when I got close. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">33. We <input type="text" id="ex_q33" data-answer="got"> (get) married five years ago. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">34. She <input type="text" id="ex_q34" data-answer="lost"> (lose) her phone at the mall. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">35. He <input type="text" id="ex_q35" data-answer="made"> (make) a delicious cake. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">36. I <input type="text" id="ex_q36" data-answer="paid"> (pay) for the tickets with my credit card. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">37. They <input type="text" id="ex_q37" data-answer="sat"> (sit) on the park bench. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">38. She <input type="text" id="ex_q38" data-answer="told"> (tell) me a funny story. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">39. I <input type="text" id="ex_q39" data-answer="woke"> (wake) up late today. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">40. He <input type="text" id="ex_q40" data-answer="understood"> (understand) the lesson completely. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+        </div>
+    </div>
+
+    <!-- ========= PART 2: Fill in the Blanks (Negative) ========= -->
+    <div class="exercise">
+        <h3 class="section-subtitle" style="color: #d9534f;">PART 2: Fill in the Blanks (Negative)</h3>
+        <p class="exercise-instruction">Complete the sentences with the negative simple past form (didn't + base verb).</p>
+
+        <div id="extra-practice-part2">
+            <!-- Questions 41-65 -->
+            <div class="question"><div class="question-line">41. I <input type="text" id="ex_q41" data-answer="didn't see"> (not see) you at the party. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">42. She <input type="text" id="ex_q42" data-answer="didn't go"> (not go) on vacation last year. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">43. We <input type="text" id="ex_q43" data-answer="didn't eat"> (not eat) all the food. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">44. He <input type="text" id="ex_q44" data-answer="didn't finish"> (not finish) his report on time. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">45. They <input type="text" id="ex_q45" data-answer="didn't buy"> (not buy) any souvenirs. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">46. I <input type="text" id="ex_q46" data-answer="didn't have"> (not have) breakfast this morning. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">47. She <input type="text" id="ex_q47" data-answer="didn't tell"> (not tell) me her secret. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">48. The movie <input type="text" id="ex_q48" data-answer="didn't begin"> (not begin) at 8:00 PM. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">49. He <input type="text" id="ex_q49" data-answer="didn't work"> (not work) last weekend. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">50. We <input type="text" id="ex_q50" data-answer="didn't know"> (not know) the way to the station. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">51. You <input type="text" id="ex_q51" data-answer="didn't call"> (not call) me yesterday. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">52. The children <input type="text" id="ex_q52" data-answer="didn't sleep"> (not sleep) well last night. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">53. I <input type="text" id="ex_q53" data-answer="didn't get"> (not get) your email. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">54. She <input type="text" id="ex_q54" data-answer="didn't take"> (not take) the bus. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">55. They <input type="text" id="ex_q55" data-answer="didn't visit"> (not visit) their grandparents. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">56. He <input type="text" id="ex_q56" data-answer="didn't want"> (not want) to come with us. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">57. I <input type="text" id="ex_q57" data-answer="didn't understand"> (not understand) the instructions. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">58. The weather <input type="text" id="ex_q58" data-answer="wasn't"> (not be) good yesterday. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">59. My friends <input type="text" id="ex_q59" data-answer="weren't"> (not be) at home. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">60. She <input type="text" id="ex_q60" data-answer="didn't wear"> (not wear) her new shoes. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">61. He <input type="text" id="ex_q61" data-answer="didn't write"> (not write) the report himself. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">62. We <input type="text" id="ex_q62" data-answer="didn't watch"> (not watch) TV last night. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">63. The store <input type="text" id="ex_q63" data-answer="didn't open"> (not open) until 10 a.m. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">64. I <input type="text" id="ex_q64" data-answer="didn't drink"> (not drink) coffee today. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line">65. They <input type="text" id="ex_q65" data-answer="didn't leave"> (not leave) a message. <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+        </div>
+    </div>
+
+    <!-- ========= PART 3: Create Yes/No Questions ========= -->
+    <div class="exercise">
+        <h3 class="section-subtitle" style="color: #0275d8;">PART 3: Create Yes/No Questions</h3>
+        <p class="exercise-instruction">Write a yes/no question in the simple past using the words provided.</p>
+        
+        <div id="extra-practice-part3">
+            <!-- Questions 66-85 -->
+            <div class="question"><div class="question-line"><input type="text" id="ex_q66" data-answer="Did you finish your work?" class="long-input"> (you / finish / your work?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q67" data-answer="Did she call her parents?" class="long-input"> (she / call / her parents?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q68" data-answer="Did it rain last night?" class="long-input"> (it / rain / last night?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q69" data-answer="Did they go to the concert?" class="long-input"> (they / go / to the concert?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q70" data-answer="Did he eat breakfast?" class="long-input"> (he / eat / breakfast?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q71" data-answer="Did you see the news?" class="long-input"> (you / see / the news?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q72" data-answer="Did we meet before?" class="long-input"> (we / meet / before?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q73" data-answer="Did she find her keys?" class="long-input"> (she / find / her keys?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q74" data-answer="Did they enjoy the movie?" class="long-input"> (they / enjoy / the movie?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q75" data-answer="Did he buy a new phone?" class="long-input"> (he / buy / a new phone?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q76" data-answer="Did you sleep well?" class="long-input"> (you / sleep / well?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q77" data-answer="Did the children play outside?" class="long-input"> (the children / play / outside?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q78" data-answer="Did she write a book?" class="long-input"> (she / write / a book?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q79" data-answer="Did he take a taxi?" class="long-input"> (he / take / a taxi?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q80" data-answer="Did you have a good day?" class="long-input"> (you / have / a good day?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q81" data-answer="Did they leave on time?" class="long-input"> (they / leave / on time?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q82" data-answer="Did she visit Paris?" class="long-input"> (she / visit / Paris?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q83" data-answer="Did he get the job?" class="long-input"> (he / get / the job?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q84" data-answer="Did we win the game?" class="long-input"> (we / win / the game?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+            <div class="question"><div class="question-line"><input type="text" id="ex_q85" data-answer="Did you understand the question?" class="long-input"> (you / understand / the question?) <button class="submit-btn" onclick="checkAnswer(this)">Submit</button><span class="feedback"></span></div></div>
+        </div>
+    </div>
+    
+    <!-- ========= PART 4: Choose the Correct Short Answer ========= -->
+    <div class="exercise">
+        <h3 class="section-subtitle" style="color: #f0ad4e;">PART 4: Choose the Correct Short Answer</h3>
+        <p class="exercise-instruction">Read the question and choose the grammatically correct short answer.</p>
+        
+        <div id="extra-practice-part4">
+            <!-- Questions 86-100 -->
+            <div class="question"><p>86. Did you go to the store?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q86" value="a"> a. Yes, I did.</label><br><label><input type="radio" name="ex_q86" value="b"> b. Yes, I went.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>87. Did she finish her project?</p><div class="mcq-options" data-answer="b"><label><input type="radio" name="ex_q87" value="a"> a. No, she didn't finished.</label><br><label><input type="radio" name="ex_q87" value="b"> b. No, she didn't.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>88. Did they eat all the cookies?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q88" value="a"> a. Yes, they did.</label><br><label><input type="radio" name="ex_q88" value="b"> b. Yes, they ate.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>89. Did he see the message?</p><div class="mcq-options" data-answer="b"><label><input type="radio" name="ex_q89" value="a"> a. No, he didn't saw it.</label><br><label><input type="radio" name="ex_q89" value="b"> b. No, he didn't.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>90. Did it rain yesterday?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q90" value="a"> a. Yes, it did.</label><br><label><input type="radio" name="ex_q90" value="b"> b. Yes, it's rained.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>91. Did you call your brother?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q91" value="a"> a. No, I didn't.</label><br><label><input type="radio" name="ex_q91" value="b"> b. No, I not call.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>92. Did they win the match?</p><div class="mcq-options" data-answer="b"><label><input type="radio" name="ex_q92" value="a"> a. Yes, they won.</label><br><label><input type="radio" name="ex_q92" value="b"> b. Yes, they did.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>93. Did she buy the red shoes?</p><div class="mcq-options" data-answer="b"><label><input type="radio" name="ex_q93" value="a"> a. No, she didn't bought them.</label><br><label><input type="radio" name="ex_q93" value="b"> b. No, she didn't.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>94. Did he take the early train?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q94" value="a"> a. Yes, he did.</label><br><label><input type="radio" name="ex_q94" value="b"> b. Yes, he taked.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>95. Did you understand the movie?</p><div class="mcq-options" data-answer="b"><label><input type="radio" name="ex_q95" value="a"> a. No, I didn't understood.</label><br><label><input type="radio" name="ex_q95" value="b"> b. No, I didn't.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>96. Did the package arrive?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q96" value="a"> a. Yes, it did.</label><br><label><input type="radio" name="ex_q96" value="b"> b. Yes, it arrived.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>97. Did she speak to the manager?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q97" value="a"> a. No, she didn't.</label><br><label><input type="radio" name="ex_q97" value="b"> b. No, she no speak.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>98. Did we lock the door?</p><div class="mcq-options" data-answer="b"><label><input type="radio" name="ex_q98" value="a"> a. Yes, we did locked it.</label><br><label><input type="radio" name="ex_q98" value="b"> b. Yes, we did.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>99. Did you get my text?</p><div class="mcq-options" data-answer="a"><label><input type="radio" name="ex_q99" value="a"> a. Yes, I did.</label><br><label><input type="radio" name="ex_q99" value="b"> b. Yes, I gotten it.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+            <div class="question"><p>100. Did he help you?</p><div class="mcq-options" data-answer="b"><label><input type="radio" name="ex_q100" value="a"> a. No, he didn't helped.</label><br><label><input type="radio" name="ex_q100" value="b"> b. No, he didn't.</label></div><button class="submit-btn" onclick="checkRadio(this)">Submit</button><span class="feedback"></span></div>
+        </div>
+    </div>
+</div>
+<!-- KẾT THÚC PHẦN BÀI TẬP BỔ SUNG -->
+
+    </div>
+
+    <script>
+        // Function to check text input answers
+        function checkAnswer(button) {
+            const questionDiv = button.closest('.question-line, .question');
+            const input = questionDiv.querySelector('input[type="text"]');
+            const feedback = questionDiv.querySelector('.feedback');
+            const userAnswer = input.value.trim().toLowerCase().replace(/\s+/g, ' ');
+            const correctAnswer = input.dataset.answer.trim().toLowerCase().replace(/\s+/g, ' ');
+
+            if (userAnswer === correctAnswer) {
+                feedback.textContent = 'Correct!';
+                feedback.className = 'feedback correct';
+            } else {
+                feedback.innerHTML = `Incorrect. <span class="hint">Hint: ${input.dataset.answer}</span>`;
+                feedback.className = 'feedback incorrect';
+            }
+        }
+        
+        // Function to check multiple inputs within a parent element
+        function checkAllInParent(button) {
+            const parent = button.parentElement;
+            const inputs = parent.querySelectorAll('input[type="text"]');
+            const feedback = parent.querySelector('.feedback');
+            let allCorrect = true;
+            let incorrectCount = 0;
+
+            inputs.forEach(input => {
+                const userAnswer = input.value.trim().toLowerCase().replace(/\s+/g, ' ');
+                const correctAnswer = input.dataset.answer.trim().toLowerCase().replace(/\s+/g, ' ');
+                if (userAnswer !== correctAnswer) {
+                    allCorrect = false;
+                    incorrectCount++;
+                    input.style.border = '2px solid #d9534f'; // Highlight incorrect answers
+                } else {
+                    input.style.border = '2px solid #5cb85c'; // Highlight correct answers
+                }
+            });
+
+            if (allCorrect) {
+                feedback.textContent = 'All correct! Well done!';
+                feedback.className = 'feedback correct';
+            } else {
+                feedback.textContent = `Incorrect. You have ${incorrectCount} error(s) to fix.`;
+                feedback.className = 'feedback incorrect';
+            }
+        }
+
+        // Function to check radio button answers
+        function checkRadio(button) {
+            const questionDiv = button.closest('.question');
+            const optionsDiv = questionDiv.querySelector('.mcq-options');
+            const feedback = questionDiv.querySelector('.feedback');
+            const correctAnswer = optionsDiv.dataset.answer;
+            const selectedOption = questionDiv.querySelector('input[type="radio"]:checked');
+
+            if (selectedOption) {
+                if (selectedOption.value === correctAnswer) {
+                    feedback.textContent = 'Correct!';
+                    feedback.className = 'feedback correct';
+                } else {
+                    feedback.innerHTML = `Incorrect. <span class="hint">The correct answer is option ${correctAnswer}.</span>`;
+                    feedback.className = 'feedback incorrect';
+                }
+            } else {
+                feedback.textContent = 'Please select an answer.';
+                feedback.className = 'feedback incorrect';
+            }
+        }
+        
+        // Script for the writing section
+        document.getElementById('split-btn').addEventListener('click', function() {
+            const paragraphText = document.getElementById('writing-paragraph').textContent;
+            const outputDiv = document.getElementById('sentence-output');
+            
+            // A more robust split that handles different sentence endings
+            const sentences = paragraphText.match(/[^.!?]+[.!?]+/g) || [];
+            
+            if (sentences.length > 0) {
+                let html = '<ul>';
+                sentences.forEach(sentence => {
+                    const cleanSentence = sentence.replace(/(\(The person is Nelson Mandela\))/g, '').trim();
+                    if(cleanSentence) {
+                       html += `<li>${cleanSentence}</li>`;
+                    }
+                });
+                html += '</ul>';
+                outputDiv.innerHTML = html;
+            } else {
+                outputDiv.innerHTML = '<p>Could not find any sentences to display.</p>';
+            }
+        });
+    </script>
+
+</body>
+</html>

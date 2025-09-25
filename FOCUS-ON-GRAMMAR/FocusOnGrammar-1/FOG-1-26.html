@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 26: Simple Past: Wh- Questions</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h2.step-header {
+            background-color: #5d9d49;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        /* Header */
+        header {
+            border-bottom: 3px solid #f0ad4e;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header h1 .unit-number {
+            font-size: 2em;
+            color: #2980b9;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        .outcomes {
+            border: 2px solid #f0ad4e;
+            background-color: #fef9e7;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            max-width: 350px;
+        }
+        .outcomes h3 {
+            margin-top: 0;
+            font-size: 1.1em;
+            color: #c0392b;
+        }
+        .outcomes ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        /* Vocabulary Section */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .vocab-item figure {
+            margin: 0;
+        }
+        .vocab-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .vocab-item figcaption {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+        /* Conversation and Reading */
+        .conversation {
+            background-color: #eaf2f8;
+            border-left: 5px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .conversation p { margin: 5px 0; }
+        .reading-section {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        .reading-text { flex: 2; }
+        .reading-image { flex: 1; }
+        .reading-image img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .footnotes {
+            font-size: 0.8em;
+            color: #555;
+            margin-top: 15px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+
+        /* Grammar Presentation */
+        table.grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table.grammar-table th, table.grammar-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        table.grammar-table th {
+            background-color: #34495e;
+            color: white;
+        }
+        table.grammar-table td .answer-box {
+            border: 1px solid #777;
+            background-color: #f9f9f9;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .grammar-note, .usage-note, .be-careful {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            border-left-width: 5px;
+            border-left-style: solid;
+        }
+        .grammar-note { border-color: #16a085; background-color: #e8f6f3; }
+        .usage-note { border-color: #2980b9; background-color: #ebf5fb; }
+        .be-careful { border-color: #c0392b; background-color: #fdedec; }
+        .be-careful code { color: #c0392b; text-decoration: line-through; }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .exercise h3 {
+            margin-top: 0;
+            border-bottom: 2px solid #5d9d49;
+            padding-bottom: 5px;
+        }
+        .exercise-item {
+            margin-bottom: 15px;
+        }
+        .exercise-item p {
+            margin: 0 0 8px 0;
+        }
+        .exercise-item input[type="text"], .exercise-item select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            min-width: 100px;
+        }
+        .exercise-item button {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .exercise-item button:hover {
+            background-color: #2980b9;
+        }
+        .feedback {
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .feedback.correct {
+            color: #27ae60;
+        }
+        .feedback.incorrect {
+            color: #c0392b;
+        }
+        .conversation-text {
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* YouTube video */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* Writing Practice */
+        #writing-practice textarea {
+            width: 100%;
+            min-height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        #writing-practice button {
+            padding: 10px 20px;
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        #sentence-output p {
+            background: #fdf2e9;
+            padding: 8px;
+            border-left: 3px solid #e67e22;
+            margin: 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="unit-number">26</span> Simple Past: Wh- Questions<br>AN ACCIDENT</h1>
+            <div class="outcomes">
+                <h3>OUTCOMES</h3>
+                <ul>
+                    <li>Ask and answer wh- questions in the simple past</li>
+                    <li>Talk about an accident using a reading and a conversation</li>
+                    <li>Ask and answer questions about accidents</li>
+                    <li>Ask and answer questions about a news report</li>
+                    <li>Write a conversation about what you saw on your way to school</li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <section id="step1">
+            <h2 class="step-header">STEP 1: GRAMMAR IN CONTEXT</h2>
+            
+            <h3>BEFORE YOU READ</h3>
+            <h4>A VOCABULARY</h4>
+            <p>Study the words. Then work with a partner. Practice the conversation.</p>
+            <div class="vocab-grid">
+                <div class="vocab-item">
+                    <figure>
+                        <img src="FOG-1-26/1.png" alt="A car accident">
+                        <figcaption>a car accident</figcaption>
+                    </figure>
+                </div>
+                <div class="vocab-item">
+                    <figure>
+                        <img src="FOG-1-26/2.png" alt="A broken headlight">
+                        <figcaption>a broken headlight</figcaption>
+                    </figure>
+                </div>
+                <div class="vocab-item">
+                    <figure>
+                        <img src="FOG-1-26/3.png" alt="A dent in a car">
+                        <figcaption>a dent</figcaption>
+                    </figure>
+                </div>
+                 <div class="vocab-item">
+                    <figure>
+                        <img src="FOG-1-26/4.png" alt="A scratch on a car door">
+                        <figcaption>a scratch</figcaption>
+                    </figure>
+                </div>
+            </div>
+             <div class="vocab-grid" style="margin-top: 20px;">
+                <div class="vocab-item">
+                     <figure>
+                        <img src="FOG-1-26/5.png" alt="Parts of a car">
+                        <figcaption>a headlight, a bumper, a tire</figcaption>
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="conversation">
+                <h4>Conversation</h4>
+                <p><strong>A:</strong> I was in a car accident.</p>
+                <p><strong>B:</strong> Oh, no! What happened?</p>
+                <p><strong>A:</strong> I drove into a car. I have a broken headlight.</p>
+            </div>
+
+            <h4>B Now talk about other accidents. Use the words in A or other words.</h4>
+            <div class="conversation">
+                <p><strong>A:</strong> I was in ______.</p>
+                <p><strong>B:</strong> Oh, no! What happened?</p>
+                <p><strong>A:</strong> I have ______.</p>
+            </div>
+
+            <h3>READ</h3>
+            <p>Read Amanda's phone conversation with her brother Rob and her husband Josh.</p>
+            
+            <div class="reading-section">
+                <div class="reading-text">
+                    <h3>Rob's Accident</h3>
+                    <p><strong>AMANDA:</strong> Hi, Rob. What's up? ... Are you OK? ... Well, that's good. When did it happen? ... Where did it happen? ... Are you there now? ... Why did you drive? ... Does Dad know?</p>
+                    <p><em>(Amanda says goodbye to Rob and talks to Josh.)</em></p>
+                    <p><strong>JOSH:</strong> What happened?</p>
+                    <p><strong>AMANDA:</strong> Rob had a car accident this morning.</p>
+                    <p><strong>JOSH:</strong> How is he?</p>
+                    <p><strong>AMANDA:</strong> He's fine, but the car isn't.</p>
+                    <p><strong>JOSH:</strong> What happened to the car?</p>
+                    <p><strong>AMANDA:</strong> There's a big dent in the bumper, and a headlight is broken.</p>
+                    <p><strong>JOSH:</strong> How did the accident happen?</p>
+                    <p><strong>AMANDA:</strong> I guess the road was slippery.¹ The car hit a sign.</p>
+                    <p><strong>JOSH:</strong> That's too bad.</p>
+                    <p><strong>AMANDA:</strong> The thing is, Rob took Dad's car because he didn't want to walk to the supermarket in the rain. But he didn't ask Dad first.</p>
+                    <p><strong>JOSH:</strong> Uh-oh.</p>
+                    <p><strong>AMANDA:</strong> Rob is at Charlie's Auto Repair Shop² now. The mechanic replaced³ the headlight and fixed the dent. He also replaced a tire and fixed some scratches on the car. Now the mechanic wants $1,000.</p>
+                    <p><strong>JOSH:</strong> A thousand dollars? Poor Dad.</p>
+                    <p><strong>AMANDA:</strong> What do you mean, “Poor Dad?” Poor Rob.</p>
+                    <div class="footnotes">
+                        <p>¹ slippery: smooth and easy to fall or have an accident on</p>
+                        <p>² auto repair shop: place that fixes cars</p>
+                        <p>³ replaced: got a new thing in place of an old thing</p>
+                    </div>
+                </div>
+                <div class="reading-image">
+                    <img src="FOG-1-26/6.png" alt="Worried woman on the phone">
+                    <img src="FOG-1-26/7.png" alt="Car accident in a parking lot">
+                    <img src="FOG-1-26/8.png" alt="At the auto repair shop">
+                </div>
+            </div>
+
+            <!-- YouTube Video Placeholder -->
+            <h4>Video: Related News Report</h4>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_GOES_HERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h3>AFTER YOU READ</h3>
+            <h4>A COMPREHENSION</h4>
+            <p>Look at the conversations again. Answer the questions.</p>
+            <div class="exercise">
+                <div class="exercise-item">
+                    <p><strong>1. When did the accident happen?</strong></p>
+                    <input type="radio" name="q1" value="a"> a. In the morning.
+                    <input type="radio" name="q1" value="b"> b. In the afternoon.
+                    <button onclick="checkRadio('q1', 'a')">Submit</button>
+                    <span id="q1-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>2. What happened to Rob in the accident?</strong></p>
+                    <input type="radio" name="q2" value="a"> a. He got hurt.
+                    <input type="radio" name="q2" value="b"> b. Nothing. He didn't get hurt.
+                    <button onclick="checkRadio('q2', 'b')">Submit</button>
+                    <span id="q2-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>3. Who was the driver?</strong></p>
+                    <input type="radio" name="q3" value="a"> a. Rob was.
+                    <input type="radio" name="q3" value="b"> b. Dad was.
+                    <button onclick="checkRadio('q3', 'a')">Submit</button>
+                    <span id="q3-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>4. How did the accident happen?</strong></p>
+                    <input type="radio" name="q4" value="a"> a. The car hit another car.
+                    <input type="radio" name="q4" value="b"> b. The car hit a sign.
+                    <button onclick="checkRadio('q4', 'b')">Submit</button>
+                    <span id="q4-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>5. Where did Rob take the car after the accident?</strong></p>
+                    <input type="radio" name="q5" value="a"> a. To his father's office.
+                    <input type="radio" name="q5" value="b"> b. To Charlie's Auto Repair Shop.
+                    <button onclick="checkRadio('q5', 'b')">Submit</button>
+                    <span id="q5-feedback" class="feedback"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <section id="step2">
+            <h2 class="step-header">STEP 2: GRAMMAR PRESENTATION</h2>
+            <h3>SIMPLE PAST: WH- QUESTIONS</h3>
+            
+            <h4>Questions</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Wh- Question Word</th>
+                        <th>Did</th>
+                        <th>Subject</th>
+                        <th>Base Form of Verb</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Why</td><td>did</td><td>Rob</td><td>go</td><td>to the store?</td></tr>
+                    <tr><td>How long</td><td>did</td><td>he</td><td>stay</td><td>at the store?</td></tr>
+                    <tr><td>Who</td><td>did</td><td>he</td><td>go</td><td>with?</td></tr>
+                    <tr><td>Where</td><td>did</td><td>the accident</td><td>happen?</td><td></td></tr>
+                    <tr><td>When</td><td>did</td><td>it</td><td>happen?</td><td></td></tr>
+                    <tr><td>What time</td><td>did</td><td>it</td><td>happen?</td><td></td></tr>
+                    <tr><td>How</td><td>did</td><td>it</td><td>happen?</td><td></td></tr>
+                </tbody>
+            </table>
+            <h4>Answers</h4>
+            <div class="answer-box">
+                <p>He wanted to get some food.</p>
+                <p>Half an hour.</p>
+                <p>Nobody. He was alone.</p>
+                <p>In front of the supermarket.</p>
+                <p>In the morning.</p>
+                <p>At 10:00 a.m.</p>
+                <p>The car hit a sign.</p>
+            </div>
+
+            <h4>Questions About the Subject</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Wh- Question Word</th>
+                        <th>Simple Past Verb</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>What</td><td>happened?</td><td></td></tr>
+                    <tr><td>Who</td><td>drove</td><td>the car?</td></tr>
+                </tbody>
+            </table>
+            <h4>Answers</h4>
+            <div class="answer-box">
+                <p>Rob <strong>had</strong> a car accident.</p>
+                <p>Rob <strong>(did)</strong>.</p>
+            </div>
+
+            <h3>GRAMMAR NOTES</h3>
+            <div class="grammar-note">
+                <h4>1 Simple Past Wh- Questions: Form</h4>
+                <p>To make most <strong>wh-</strong> questions in the simple past, use a <strong>wh- word + did + the subject + the base form of the verb</strong>.</p>
+                <p><strong>A:</strong> When <strong>did</strong> he <strong>call</strong>?<br><strong>B:</strong> In the morning.</p>
+                <p><strong>A:</strong> Where <strong>did</strong> she <strong>go</strong>?<br><strong>B:</strong> To the store.</p>
+            </div>
+            <div class="usage-note">
+                <h4>USAGE NOTE</h4>
+                <p>We often use <strong>wh- question words + a noun</strong> to get more exact information.</p>
+                <ul>
+                    <li><strong>What time</strong></li>
+                    <li><strong>What day</strong></li>
+                </ul>
+                 <p><strong>A:</strong> <strong>What time</strong> did the accident happen?<br><strong>B:</strong> 10:00 a.m.</p>
+            </div>
+             <div class="grammar-note">
+                <h4>2 Wh- Questions About the Subject</h4>
+                <p>To make <strong>wh-</strong> questions about the subject, use a <strong>wh- word + the simple past form of the verb</strong>.</p>
+                <p><strong>A:</strong> Who called?<br><strong>B:</strong> My brother called.</p>
+                 <p><strong>A:</strong> What happened?<br><strong>B:</strong> I had a car accident.</p>
+            </div>
+            <div class="be-careful">
+                <h4>BE CAREFUL!</h4>
+                <p>Do not use <strong>did</strong> with questions about the subject.</p>
+                <p>Who drove? <br> NOT <code>Who did drive?</code></p>
+            </div>
+        </section>
+
+        <!-- STEP 3: FOCUSED PRACTICE -->
+        <section id="step3">
+            <h2 class="step-header">STEP 3: FOCUSED PRACTICE</h2>
+            
+            <div class="exercise">
+                <h3>EXERCISE 1 DISCOVER THE GRAMMAR</h3>
+                <h4>A Read the conversation. Underline all the wh- questions in the past. Circle questions about the subject.</h4>
+                <div class="conversation-text">
+                    <p><strong>GINA:</strong> Why are you late? <u>What happened?</u></p>
+                    <p><strong>CAMERON:</strong> There was an accident on my way here. Traffic was awful.</p>
+                    <p><strong>GINA:</strong> Oh. <u>Where did the accident happen?</u></p>
+                    <p><strong>CAMERON:</strong> Just before Exit 6 on the highway.</p>
+                    <p><strong>GINA:</strong> <u>What caused¹ the accident?</u></p>
+                    <p><strong>CAMERON:</strong> A box fell off² a truck, and it hit a car. The car stopped, and another car hit it.</p>
+                    <p><strong>GINA:</strong> <u>What time did it happen?</u></p>
+                    <p><strong>CAMERON:</strong> About 3:30 p.m.</p>
+                    <p><strong>GINA:</strong> Did anyone call the police?</p>
+                    <p><strong>CAMERON:</strong> Yes. The police were there.</p>
+                    <p><strong>GINA:</strong> <u>What did the police do?</u></p>
+                    <p><strong>CAMERON:</strong> They closed two lanes of the highway.</p>
+                    <p><strong>GINA:</strong> Did anyone get hurt?</p>
+                    <p><strong>CAMERON:</strong> No, but the cars had a lot of damage.</p>
+                </div>
+
+                <h4>B Read the conversation in A again. Circle the correct answers.</h4>
+                <div class="exercise-item">
+                    <p><strong>1. Why did Cameron come late?</strong></p>
+                    <input type="radio" name="ex1q1" value="a"> a. He was in an accident.
+                    <input type="radio" name="ex1q1" value="b"> b. He saw an accident.
+                    <button onclick="checkRadio('ex1q1', 'b')">Submit</button>
+                    <span id="ex1q1-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>2. When did the accident happen?</strong></p>
+                    <input type="radio" name="ex1q2" value="a"> a. in the morning
+                    <input type="radio" name="ex1q2" value="b"> b. in the afternoon
+                    <button onclick="checkRadio('ex1q2', 'b')">Submit</button>
+                    <span id="ex1q2-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>3. What did the police close?</strong></p>
+                    <input type="radio" name="ex1q3" value="a"> a. two lanes of the highway
+                    <input type="radio" name="ex1q3" value="b"> b. the highway
+                    <button onclick="checkRadio('ex1q3', 'a')">Submit</button>
+                    <span id="ex1q3-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>4. Who got hurt?</strong></p>
+                    <input type="radio" name="ex1q4" value="a"> a. one of the drivers
+                    <input type="radio" name="ex1q4" value="b"> b. nobody
+                    <button onclick="checkRadio('ex1q4', 'b')">Submit</button>
+                    <span id="ex1q4-feedback" class="feedback"></span>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <h3>EXERCISE 2 WH- QUESTION WORDS</h3>
+                <div class="exercise-item">
+                    <p><strong>1. A:</strong> <input type="text" id="ex2q1" data-answer="What"> time did the accident occur? <strong>B:</strong> At nine o’clock in the morning.</p>
+                    <button onclick="checkAnswer('ex2q1')">Submit</button>
+                    <span id="ex2q1-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>2. A:</strong> <input type="text" id="ex2q2" data-answer="Where"> did it happen? <strong>B:</strong> On the corner of Maple and Elm Street.</p>
+                    <button onclick="checkAnswer('ex2q2')">Submit</button>
+                    <span id="ex2q2-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>3. A:</strong> <input type="text" id="ex2q3" data-answer="When"> did the police arrive? <strong>B:</strong> They came at 9:10.</p>
+                    <button onclick="checkAnswer('ex2q3')">Submit</button>
+                    <span id="ex2q3-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>4. A:</strong> <input type="text" id="ex2q4" data-answer="What"> did the police do? <strong>B:</strong> They asked the drivers a lot of questions.</p>
+                    <button onclick="checkAnswer('ex2q4')">Submit</button>
+                    <span id="ex2q4-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>5. A:</strong> <input type="text" id="ex2q5" data-answer="What"> did the drivers say? <strong>B:</strong> The sun was in their eyes.</p>
+                    <button onclick="checkAnswer('ex2q5')">Submit</button>
+                    <span id="ex2q5-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>6. A:</strong> <input type="text" id="ex2q6" data-answer="Who"> called the police? <strong>B:</strong> An old woman.</p>
+                    <button onclick="checkAnswer('ex2q6')">Submit</button>
+                    <span id="ex2q6-feedback" class="feedback"></span>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <h3>EXERCISE 6 WORD ORDER OF WH- QUESTIONS</h3>
+                 <div class="exercise-item">
+                    <p><strong>1. (you / when / do / that?)</strong><br>
+                    <input type="text" id="ex6q1" data-answer="When did you do that?" size="30">
+                    <button onclick="checkAnswer('ex6q1', true)">Submit</button>
+                    <span id="ex6q1-feedback" class="feedback"></span></p>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>2. (you / why / there / did / drive?)</strong><br>
+                    <input type="text" id="ex6q2" data-answer="Why did you drive there?" size="30">
+                    <button onclick="checkAnswer('ex6q2', true)">Submit</button>
+                    <span id="ex6q2-feedback" class="feedback"></span></p>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>3. (happened / what?)</strong><br>
+                    <input type="text" id="ex6q3" data-answer="What happened?" size="30">
+                    <button onclick="checkAnswer('ex6q3', true)">Submit</button>
+                    <span id="ex6q3-feedback" class="feedback"></span></p>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>4. (the drive / how long / did / take?)</strong><br>
+                    <input type="text" id="ex6q4" data-answer="How long did the drive take?" size="30">
+                    <button onclick="checkAnswer('ex6q4', true)">Submit</button>
+                    <span id="ex6q4-feedback" class="feedback"></span></p>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>5. (your parents / did / say / what?)</strong><br>
+                    <input type="text" id="ex6q5" data-answer="What did your parents say?" size="30">
+                    <button onclick="checkAnswer('ex6q5', true)">Submit</button>
+                    <span id="ex6q5-feedback" class="feedback"></span></p>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <h3>EXERCISE 8 EDITING</h3>
+                <p>There are five mistakes in the conversation. The first mistake is corrected. Find and correct four more.</p>
+                <div class="conversation-text">
+                    <p><strong>ROB:</strong> Hello, this is Rob Peck. I’d like to report an accident.</p>
+                    <p><strong>GAIL:</strong> Thank you, Mr. Peck. What time <del>the accident happen</del> <strong>did the accident happen</strong>?</p>
+                    <p><strong>ROB:</strong> It did happen at 9:30 this morning.</p>
+                    <p><strong>GAIL:</strong> Where <input type="text" id="ex8q1" data-answer="did it happen" size="15">?</p>
+                    <p><strong>ROB:</strong> On Oak Street between First and Second Avenues.</p>
+                    <p><strong>GAIL:</strong> <input type="text" id="ex8q2" data-answer="How did it happen" size="18">?</p>
+                    <p><strong>ROB:</strong> A cat ran into the street and the car in front of me stopped. I hit the car. The police came and wrote a report.</p>
+                    <p><strong>GAIL:</strong> <input type="text" id="ex8q3" data-answer="Who called" size="12"> the police?</p>
+                    <p><strong>ROB:</strong> I did. And I <input type="text" id="ex8q4" data-answer="took" size="5"> pictures, too.</p>
+                    <p><strong>GAIL:</strong> Thank you for reporting the accident.</p>
+                </div>
+                 <button onclick="checkMultiple(['ex8q1', 'ex8q2', 'ex8q3', 'ex8q4'])">Check All Mistakes</button>
+            </div>
+        </section>
+
+        <!-- UNIT 26 REVIEW -->
+        <section id="review">
+            <h2 class="step-header">UNIT 26 REVIEW</h2>
+            <div class="exercise">
+                <h3>A Match the questions and answers.</h3>
+                <div class="exercise-item">
+                    <p><strong>1. Who got a job yesterday?</strong> 
+                    <select id="revAq1" data-answer="c"><option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option></select>
+                    <button onclick="checkSelect('revAq1')">Submit</button>
+                    <span id="revAq1-feedback" class="feedback"></span></p>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>2. Where did he get a job?</strong> 
+                    <select id="revAq2" data-answer="b"><option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option></select>
+                    <button onclick="checkSelect('revAq2')">Submit</button>
+                    <span id="revAq2-feedback" class="feedback"></span></p>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>3. Why did he get a job?</strong> 
+                    <select id="revAq3" data-answer="e"><option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option></select>
+                    <button onclick="checkSelect('revAq3')">Submit</button>
+                    <span id="revAq3-feedback" class="feedback"></span></p>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>4. When did he start his job?</strong> 
+                    <select id="revAq4" data-answer="a"><option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option></select>
+                    <button onclick="checkSelect('revAq4')">Submit</button>
+                    <span id="revAq4-feedback" class="feedback"></span></p>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>5. Who hired him?</strong> 
+                    <select id="revAq5" data-answer="b"><option value="">--</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option><option value="e">e</option></select>
+                    <button onclick="checkSelect('revAq5')">Submit</button>
+                    <span id="revAq5-feedback" class="feedback"></span></p>
+                </div>
+            </div>
+
+             <div class="exercise">
+                <h3>B Put the words in the correct order. Write simple past wh- questions.</h3>
+                 <div class="exercise-item">
+                    <p><strong>1. (the accident / happen / did / When)</strong><br>
+                    <input type="text" id="revBq1" data-answer="When did the accident happen?" size="40">
+                    <button onclick="checkAnswer('revBq1', true)">Submit</button>
+                    <span id="revBq1-feedback" class="feedback"></span></p>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>2. (happen / did / How / the accident)</strong><br>
+                    <input type="text" id="revBq2" data-answer="How did the accident happen?" size="40">
+                    <button onclick="checkAnswer('revBq2', true)">Submit</button>
+                    <span id="revBq2-feedback" class="feedback"></span></p>
+                </div>
+             </div>
+        </section>
+
+        <!-- WRITING PRACTICE SECTION -->
+        <section id="writing-practice">
+             <h2 class="step-header">WRITING PRACTICE</h2>
+             <p>This tool splits a paragraph into individual sentences. You can use it to analyze sentence structure.</p>
+             <textarea id="sample-text">A box fell off a truck, and it hit a car. The car stopped, and another car hit it. The police were there. They closed two lanes of the highway. No, but the cars had a lot of damage.</textarea>
+             <button onclick="splitSentences()">Split Sentences</button>
+             <div id="sentence-output"></div>
+        </section>
+
+		        <!-- ======================================================= -->
+        <!-- ==        PHẦN BÀI TẬP BỔ SUNG (100 CÂU)            == -->
+        <!-- ======================================================= -->
+        <section id="extra-practice">
+            <h2 class="step-header">ADDITIONAL PRACTICE (100 EXERCISES)</h2>
+            <p>Test your knowledge with 100 more questions covering all aspects of Simple Past Wh- Questions.</p>
+
+            <!-- PART 1: FILL IN THE WH-WORD -->
+            <div class="exercise">
+                <h3>Part 1: Complete the questions with a Wh- word (What, Where, When, Why, Who, How, How long).</h3>
+                
+                <div class="exercise-item">
+                    <p><strong>1.</strong> <input type="text" id="extra-ex-q1" data-answer="Where"> did you go on vacation? <strong>B:</strong> To the beach.</p>
+                    <button onclick="checkAnswer('extra-ex-q1')">Submit</button> <span id="extra-ex-q1-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>2.</strong> <input type="text" id="extra-ex-q2" data-answer="Why"> did he miss the bus? <strong>B:</strong> Because he woke up late.</p>
+                    <button onclick="checkAnswer('extra-ex-q2')">Submit</button> <span id="extra-ex-q2-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>3.</strong> <input type="text" id="extra-ex-q3" data-answer="When"> did the concert start? <strong>B:</strong> It started at 8 p.m.</p>
+                    <button onclick="checkAnswer('extra-ex-q3')">Submit</button> <span id="extra-ex-q3-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>4.</strong> <input type="text" id="extra-ex-q4" data-answer="What"> did you buy at the mall? <strong>B:</strong> A new pair of shoes.</p>
+                    <button onclick="checkAnswer('extra-ex-q4')">Submit</button> <span id="extra-ex-q4-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>5.</strong> <input type="text" id="extra-ex-q5" data-answer="Who"> did you see at the party? <strong>B:</strong> I saw my friend, Maria.</p>
+                    <button onclick="checkAnswer('extra-ex-q5')">Submit</button> <span id="extra-ex-q5-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>6.</strong> <input type="text" id="extra-ex-q6" data-answer="How"> did you fix the computer? <strong>B:</strong> I followed a tutorial on YouTube.</p>
+                    <button onclick="checkAnswer('extra-ex-q6')">Submit</button> <span id="extra-ex-q6-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>7.</strong> <input type="text" id="extra-ex-q7" data-answer="How long"> did the movie last? <strong>B:</strong> About two hours.</p>
+                    <button onclick="checkAnswer('extra-ex-q7')">Submit</button> <span id="extra-ex-q7-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>8.</strong> <input type="text" id="extra-ex-q8" data-answer="What time"> did you get home last night? <strong>B:</strong> Around midnight.</p>
+                    <button onclick="checkAnswer('extra-ex-q8')">Submit</button> <span id="extra-ex-q8-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>9.</strong> <input type="text" id="extra-ex-q9" data-answer="Where"> did they find the lost keys? <strong>B:</strong> Under the sofa.</p>
+                    <button onclick="checkAnswer('extra-ex-q9')">Submit</button> <span id="extra-ex-q9-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>10.</strong> <input type="text" id="extra-ex-q10" data-answer="Who"> called you this morning? <strong>B:</strong> My boss called me.</p>
+                    <button onclick="checkAnswer('extra-ex-q10')">Submit</button> <span id="extra-ex-q10-feedback" class="feedback"></span>
+                </div>
+                <!-- ... Adding 10 more for variety -->
+                <div class="exercise-item">
+                    <p><strong>11.</strong> <input type="text" id="extra-ex-q11" data-answer="Why"> did the baby cry? <strong>B:</strong> Because she was hungry.</p>
+                    <button onclick="checkAnswer('extra-ex-q11')">Submit</button> <span id="extra-ex-q11-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>12.</strong> <input type="text" id="extra-ex-q12" data-answer="What"> did the teacher say? <strong>B:</strong> She explained the homework.</p>
+                    <button onclick="checkAnswer('extra-ex-q12')">Submit</button> <span id="extra-ex-q12-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>13.</strong> <input type="text" id="extra-ex-q13" data-answer="How"> did she learn Japanese so fast? <strong>B:</strong> She studied every day.</p>
+                    <button onclick="checkAnswer('extra-ex-q13')">Submit</button> <span id="extra-ex-q13-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>14.</strong> <input type="text" id="extra-ex-q14" data-answer="Where"> did you put my glasses? <strong>B:</strong> On the kitchen table.</p>
+                    <button onclick="checkAnswer('extra-ex-q14')">Submit</button> <span id="extra-ex-q14-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>15.</strong> <input type="text" id="extra-ex-q15" data-answer="When"> did you finish your project? <strong>B:</strong> Last Friday.</p>
+                    <button onclick="checkAnswer('extra-ex-q15')">Submit</button> <span id="extra-ex-q15-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>16.</strong> <input type="text" id="extra-ex-q16" data-answer="Who"> did you travel with? <strong>B:</strong> With my family.</p>
+                    <button onclick="checkAnswer('extra-ex-q16')">Submit</button> <span id="extra-ex-q16-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>17.</strong> <input type="text" id="extra-ex-q17" data-answer="Why"> did they cancel the game? <strong>B:</strong> Due to the heavy rain.</p>
+                    <button onclick="checkAnswer('extra-ex-q17')">Submit</button> <span id="extra-ex-q17-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>18.</strong> <input type="text" id="extra-ex-q18" data-answer="What"> happened to your arm? <strong>B:</strong> I fell off my bike.</p>
+                    <button onclick="checkAnswer('extra-ex-q18')">Submit</button> <span id="extra-ex-q18-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>19.</strong> <input type="text" id="extra-ex-q19" data-answer="How long"> did you wait for the bus? <strong>B:</strong> For twenty minutes.</p>
+                    <button onclick="checkAnswer('extra-ex-q19')">Submit</button> <span id="extra-ex-q19-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>20.</strong> <input type="text" id="extra-ex-q20" data-answer="Where"> were you yesterday afternoon? <strong>B:</strong> I was at work.</p>
+                    <button onclick="checkAnswer('extra-ex-q20')">Submit</button> <span id="extra-ex-q20-feedback" class="feedback"></span>
+                </div>
+
+            </div>
+            
+            <!-- PART 2: PUT WORDS IN CORRECT ORDER -->
+            <div class="exercise">
+                <h3>Part 2: Put the words in the correct order to make questions.</h3>
+                
+                <div class="exercise-item">
+                    <p><strong>21. (did / you / where / live)</strong>? <input type="text" id="extra-ex-q21" data-answer="Where did you live?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q21', true)">Submit</button> <span id="extra-ex-q21-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>22. (the meeting / what time / start / did)</strong>? <input type="text" id="extra-ex-q22" data-answer="What time did the meeting start?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q22', true)">Submit</button> <span id="extra-ex-q22-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>23. (why / late / did / she / arrive)</strong>? <input type="text" id="extra-ex-q23" data-answer="Why did she arrive late?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q23', true)">Submit</button> <span id="extra-ex-q23-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>24. (that noise / what / made)</strong>? <input type="text" id="extra-ex-q24" data-answer="What made that noise?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q24', true)">Submit</button> <span id="extra-ex-q24-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>25. (with / go / who / you / did)</strong>? <input type="text" id="extra-ex-q25" data-answer="Who did you go with?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q25', true)">Submit</button> <span id="extra-ex-q25-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>26. (your homework / you / when / did / finish)</strong>? <input type="text" id="extra-ex-q26" data-answer="When did you finish your homework?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q26', true)">Submit</button> <span id="extra-ex-q26-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>27. (how / did / the cake / she / make)</strong>? <input type="text" id="extra-ex-q27" data-answer="How did she make the cake?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q27', true)">Submit</button> <span id="extra-ex-q27-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>28. (he / for lunch / what / did / have)</strong>? <input type="text" id="extra-ex-q28" data-answer="What did he have for lunch?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q28', true)">Submit</button> <span id="extra-ex-q28-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>29. (broke / the window / who)</strong>? <input type="text" id="extra-ex-q29" data-answer="Who broke the window?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q29', true)">Submit</button> <span id="extra-ex-q29-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>30. (how long / they / stay / did / there)</strong>? <input type="text" id="extra-ex-q30" data-answer="How long did they stay there?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q30', true)">Submit</button> <span id="extra-ex-q30-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>31. (the car / how / did / the accident / happen)</strong>? <input type="text" id="extra-ex-q31" data-answer="How did the car accident happen?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q31', true)">Submit</button> <span id="extra-ex-q31-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>32. (say / about it / what / your parents / did)</strong>? <input type="text" id="extra-ex-q32" data-answer="What did your parents say about it?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q32', true)">Submit</button> <span id="extra-ex-q32-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>33. (yesterday / did / you / do / what)</strong>? <input type="text" id="extra-ex-q33" data-answer="What did you do yesterday?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q33', true)">Submit</button> <span id="extra-ex-q33-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>34. (won / the game / who)</strong>? <input type="text" id="extra-ex-q34" data-answer="Who won the game?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q34', true)">Submit</button> <span id="extra-ex-q34-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>35. (did / for his birthday / get / he / what)</strong>? <input type="text" id="extra-ex-q35" data-answer="What did he get for his birthday?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q35', true)">Submit</button> <span id="extra-ex-q35-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>36. (why / so sad / look / did / you)</strong>? <input type="text" id="extra-ex-q36" data-answer="Why did you look so sad?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q36', true)">Submit</button> <span id="extra-ex-q36-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>37. (where / that beautiful dress / did / she / buy)</strong>? <input type="text" id="extra-ex-q37" data-answer="Where did she buy that beautiful dress?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q37', true)">Submit</button> <span id="extra-ex-q37-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>38. (the book / ate / who / all)</strong>? <input type="text" id="extra-ex-q38" data-answer="Who read the book?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q38', true)">Submit</button> <span id="extra-ex-q38-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>39. (did / the exam / how / go)</strong>? <input type="text" id="extra-ex-q39" data-answer="How did the exam go?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q39', true)">Submit</button> <span id="extra-ex-q39-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>40. (when / they / arrive / did / at the airport)</strong>? <input type="text" id="extra-ex-q40" data-answer="When did they arrive at the airport?" size="30"></p>
+                    <button onclick="checkAnswer('extra-ex-q40', true)">Submit</button> <span id="extra-ex-q40-feedback" class="feedback"></span>
+                </div>
+            </div>
+
+            <!-- PART 3: COMPLETE WITH CORRECT VERB FORM -->
+            <div class="exercise">
+                <h3>Part 3: Complete the questions with the correct form of the verb.</h3>
+                
+                <div class="exercise-item">
+                    <p><strong>41.</strong> Where <input type="text" id="extra-ex-q41" data-answer="did you go"> last weekend? (you / go)</p>
+                    <button onclick="checkAnswer('extra-ex-q41')">Submit</button> <span id="extra-ex-q41-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>42.</strong> What <input type="text" id="extra-ex-q42" data-answer="did she wear"> to the party? (she / wear)</p>
+                    <button onclick="checkAnswer('extra-ex-q42')">Submit</button> <span id="extra-ex-q42-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>43.</strong> Who <input type="text" id="extra-ex-q43" data-answer="ate"> all the cookies? (eat)</p>
+                    <button onclick="checkAnswer('extra-ex-q43')">Submit</button> <span id="extra-ex-q43-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>44.</strong> Why <input type="text" id="extra-ex-q44" data-answer="did they leave"> so early? (they / leave)</p>
+                    <button onclick="checkAnswer('extra-ex-q44')">Submit</button> <span id="extra-ex-q44-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>45.</strong> How much money <input type="text" id="extra-ex-q45" data-answer="did you spend">? (you / spend)</p>
+                    <button onclick="checkAnswer('extra-ex-q45')">Submit</button> <span id="extra-ex-q45-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>46.</strong> When <input type="text" id="extra-ex-q46" data-answer="did he call"> you? (he / call)</p>
+                    <button onclick="checkAnswer('extra-ex-q46')">Submit</button> <span id="extra-ex-q46-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>47.</strong> What <input type="text" id="extra-ex-q47" data-answer="happened"> after I left? (happen)</p>
+                    <button onclick="checkAnswer('extra-ex-q47')">Submit</button> <span id="extra-ex-q47-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>48.</strong> Who <input type="text" id="extra-ex-q48" data-answer="took"> my pen? (take)</p>
+                    <button onclick="checkAnswer('extra-ex-q48')">Submit</button> <span id="extra-ex-q48-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>49.</strong> What movie <input type="text" id="extra-ex-q49" data-answer="did you watch">? (you / watch)</p>
+                    <button onclick="checkAnswer('extra-ex-q49')">Submit</button> <span id="extra-ex-q49-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>50.</strong> How <input type="text" id="extra-ex-q50" data-answer="did you learn"> to swim? (you / learn)</p>
+                    <button onclick="checkAnswer('extra-ex-q50')">Submit</button> <span id="extra-ex-q50-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>51.</strong> Who <input type="text" id="extra-ex-q51" data-answer="drove"> the car? (drive)</p>
+                    <button onclick="checkAnswer('extra-ex-q51')">Submit</button> <span id="extra-ex-q51-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>52.</strong> What time <input type="text" id="extra-ex-q52" data-answer="did the plane land">? (the plane / land)</p>
+                    <button onclick="checkAnswer('extra-ex-q52')">Submit</button> <span id="extra-ex-q52-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>53.</strong> Why <input type="text" id="extra-ex-q53" data-answer="did the teacher get"> angry? (the teacher / get)</p>
+                    <button onclick="checkAnswer('extra-ex-q53')">Submit</button> <span id="extra-ex-q53-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>54.</strong> Who <input type="text" id="extra-ex-q54" data-answer="cleaned"> this room? (clean)</p>
+                    <button onclick="checkAnswer('extra-ex-q54')">Submit</button> <span id="extra-ex-q54-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>55.</strong> Where <input type="text" id="extra-ex-q55" data-answer="did she find"> her wallet? (she / find)</p>
+                    <button onclick="checkAnswer('extra-ex-q55')">Submit</button> <span id="extra-ex-q55-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>56.</strong> What <input type="text" id="extra-ex-q56" data-answer="did they talk"> about? (they / talk)</p>
+                    <button onclick="checkAnswer('extra-ex-q56')">Submit</button> <span id="extra-ex-q56-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>57.</strong> How long <input type="text" id="extra-ex-q57" data-answer="did it take"> to get there? (it / take)</p>
+                    <button onclick="checkAnswer('extra-ex-q57')">Submit</button> <span id="extra-ex-q57-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>58.</strong> Who <input type="text" id="extra-ex-q58" data-answer="sent"> you those flowers? (send)</p>
+                    <button onclick="checkAnswer('extra-ex-q58')">Submit</button> <span id="extra-ex-q58-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>59.</strong> What language <input type="text" id="extra-ex-q59" data-answer="did he speak">? (he / speak)</p>
+                    <button onclick="checkAnswer('extra-ex-q59')">Submit</button> <span id="extra-ex-q59-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>60.</strong> Why <input type="text" id="extra-ex-q60" data-answer="did you choose"> that color? (you / choose)</p>
+                    <button onclick="checkAnswer('extra-ex-q60')">Submit</button> <span id="extra-ex-q60-feedback" class="feedback"></span>
+                </div>
+            </div>
+
+            <!-- PART 4: MIXED PRACTICE -->
+            <div class="exercise">
+                <h3>Part 4: Mixed Practice - Create a question for the answer.</h3>
+                 <div class="exercise-item">
+                    <p><strong>61.</strong> A: <input type="text" id="extra-ex-q61" data-answer="Where did you go?" size="30"> B: I went to the park.</p>
+                    <button onclick="checkAnswer('extra-ex-q61', true)">Submit</button> <span id="extra-ex-q61-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>62.</strong> A: <input type="text" id="extra-ex-q62" data-answer="What did you eat?" size="30"> B: I ate a sandwich for lunch.</p>
+                    <button onclick="checkAnswer('extra-ex-q62', true)">Submit</button> <span id="extra-ex-q62-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>63.</strong> A: <input type="text" id="extra-ex-q63" data-answer="Who called you?" size="30"> B: My mother called me.</p>
+                    <button onclick="checkAnswer('extra-ex-q63', true)">Submit</button> <span id="extra-ex-q63-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>64.</strong> A: <input type="text" id="extra-ex-q64" data-answer="Why did you cry?" size="30"> B: I cried because the movie was sad.</p>
+                    <button onclick="checkAnswer('extra-ex-q64', true)">Submit</button> <span id="extra-ex-q64-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>65.</strong> A: <input type="text" id="extra-ex-q65" data-answer="When did you arrive?" size="30"> B: I arrived at 10 a.m.</p>
+                    <button onclick="checkAnswer('extra-ex-q65', true)">Submit</button> <span id="extra-ex-q65-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>66.</strong> A: <input type="text" id="extra-ex-q66" data-answer="How did you travel?" size="30"> B: I traveled by train.</p>
+                    <button onclick="checkAnswer('extra-ex-q66', true)">Submit</button> <span id="extra-ex-q66-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>67.</strong> A: <input type="text" id="extra-ex-q67" data-answer="What happened?" size="30"> B: There was a small fire.</p>
+                    <button onclick="checkAnswer('extra-ex-q67', true)">Submit</button> <span id="extra-ex-q67-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>68.</strong> A: <input type="text" id="extra-ex-q68" data-answer="Who did you meet?" size="30"> B: I met the new manager.</p>
+                    <button onclick="checkAnswer('extra-ex-q68', true)">Submit</button> <span id="extra-ex-q68-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>69.</strong> A: <input type="text" id="extra-ex-q69" data-answer="How long did you study?" size="30"> B: I studied for three hours.</p>
+                    <button onclick="checkAnswer('extra-ex-q69', true)">Submit</button> <span id="extra-ex-q69-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>70.</strong> A: <input type="text" id="extra-ex-q70" data-answer="What did he say?" size="30"> B: He said he was sorry.</p>
+                    <button onclick="checkAnswer('extra-ex-q70', true)">Submit</button> <span id="extra-ex-q70-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>71.</strong> A: <input type="text" id="extra-ex-q71" data-answer="Where did she put the book?" size="30"> B: She put the book on the shelf.</p>
+                    <button onclick="checkAnswer('extra-ex-q71', true)">Submit</button> <span id="extra-ex-q71-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>72.</strong> A: <input type="text" id="extra-ex-q72" data-answer="Who won the race?" size="30"> B: Tom won the race.</p>
+                    <button onclick="checkAnswer('extra-ex-q72', true)">Submit</button> <span id="extra-ex-q72-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>73.</strong> A: <input type="text" id="extra-ex-q73" data-answer="Why did they sell their car?" size="30"> B: They sold their car because they needed money.</p>
+                    <button onclick="checkAnswer('extra-ex-q73', true)">Submit</button> <span id="extra-ex-q73-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>74.</strong> A: <input type="text" id="extra-ex-q74" data-answer="What time did the store close?" size="30"> B: The store closed at 9 p.m.</p>
+                    <button onclick="checkAnswer('extra-ex-q74', true)">Submit</button> <span id="extra-ex-q74-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>75.</strong> A: <input type="text" id="extra-ex-q75" data-answer="How did he break his leg?" size="30"> B: He broke his leg while skiing.</p>
+                    <button onclick="checkAnswer('extra-ex-q75', true)">Submit</button> <span id="extra-ex-q75-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>76.</strong> A: <input type="text" id="extra-ex-q76" data-answer="What did they build?" size="30"> B: They built a new hospital.</p>
+                    <button onclick="checkAnswer('extra-ex-q76', true)">Submit</button> <span id="extra-ex-q76-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>77.</strong> A: <input type="text" id="extra-ex-q77" data-answer="Who designed this building?" size="30"> B: A famous architect designed this building.</p>
+                    <button onclick="checkAnswer('extra-ex-q77', true)">Submit</button> <span id="extra-ex-q77-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>78.</strong> A: <input type="text" id="extra-ex-q78" data-answer="Where did you find this dog?" size="30"> B: I found this dog on the street.</p>
+                    <button onclick="checkAnswer('extra-ex-q78', true)">Submit</button> <span id="extra-ex-q78-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>79.</strong> A: <input type="text" id="extra-ex-q79" data-answer="When did the Roman Empire fall?" size="30"> B: The Roman Empire fell many centuries ago.</p>
+                    <button onclick="checkAnswer('extra-ex-q79', true)">Submit</button> <span id="extra-ex-q79-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>80.</strong> A: <input type="text" id="extra-ex-q80" data-answer="Who did you invite to your party?" size="30"> B: I invited all my friends.</p>
+                    <button onclick="checkAnswer('extra-ex-q80', true)">Submit</button> <span id="extra-ex-q80-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>81.</strong> A: <input type="text" id="extra-ex-q81" data-answer="Why did he quit his job?" size="30"> B: He quit his job for a better opportunity.</p>
+                    <button onclick="checkAnswer('extra-ex-q81', true)">Submit</button> <span id="extra-ex-q81-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>82.</strong> A: <input type="text" id="extra-ex-q82" data-answer="What caused the power outage?" size="30"> B: A storm caused the power outage.</p>
+                    <button onclick="checkAnswer('extra-ex-q82', true)">Submit</button> <span id="extra-ex-q82-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>83.</strong> A: <input type="text" id="extra-ex-q83" data-answer="How did they escape?" size="30"> B: They escaped through a back window.</p>
+                    <button onclick="checkAnswer('extra-ex-q83', true)">Submit</button> <span id="extra-ex-q83-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>84.</strong> A: <input type="text" id="extra-ex-q84" data-answer="Who gave you that necklace?" size="30"> B: My grandmother gave it to me.</p>
+                    <button onclick="checkAnswer('extra-ex-q84', true)">Submit</button> <span id="extra-ex-q84-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>85.</strong> A: <input type="text" id="extra-ex-q85" data-answer="How long did they know each other?" size="30"> B: They knew each other for ten years.</p>
+                    <button onclick="checkAnswer('extra-ex-q85', true)">Submit</button> <span id="extra-ex-q85-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>86.</strong> A: <input type="text" id="extra-ex-q86" data-answer="Where did Columbus sail from?" size="30"> B: Columbus sailed from Spain.</p>
+                    <button onclick="checkAnswer('extra-ex-q86', true)">Submit</button> <span id="extra-ex-q86-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>87.</strong> A: <input type="text" id="extra-ex-q87" data-answer="What did you think of the book?" size="30"> B: I thought the book was very interesting.</p>
+                    <button onclick="checkAnswer('extra-ex-q87', true)">Submit</button> <span id="extra-ex-q87-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>88.</strong> A: <input type="text" id="extra-ex-q88" data-answer="Who invented the telephone?" size="30"> B: Alexander Graham Bell invented the telephone.</p>
+                    <button onclick="checkAnswer('extra-ex-q88', true)">Submit</button> <span id="extra-ex-q88-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>89.</strong> A: <input type="text" id="extra-ex-q89" data-answer="Why did she feel so happy?" size="30"> B: She felt happy because she passed her exam.</p>
+                    <button onclick="checkAnswer('extra-ex-q89', true)">Submit</button> <span id="extra-ex-q89-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>90.</strong> A: <input type="text" id="extra-ex-q90" data-answer="When did World War II end?" size="30"> B: World War II ended in 1945.</p>
+                    <button onclick="checkAnswer('extra-ex-q90', true)">Submit</button> <span id="extra-ex-q90-feedback" class="feedback"></span>
+                </div>
+                 <div class="exercise-item">
+                    <p><strong>91.</strong> A: <input type="text" id="extra-ex-q91" data-answer="How did you know my name?" size="30"> B: Your friend told me your name.</p>
+                    <button onclick="checkAnswer('extra-ex-q91', true)">Submit</button> <span id="extra-ex-q91-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>92.</strong> A: <input type="text" id="extra-ex-q92" data-answer="What did the police find?" size="30"> B: The police found some important clues.</p>
+                    <button onclick="checkAnswer('extra-ex-q92', true)">Submit</button> <span id="extra-ex-q92-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>93.</strong> A: <input type="text" id="extra-ex-q93" data-answer="Who helped you with the project?" size="30"> B: My brother helped me with the project.</p>
+                    <button onclick="checkAnswer('extra-ex-q93', true)">Submit</button> <span id="extra-ex-q93-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>94.</strong> A: <input type="text" id="extra-ex-q94" data-answer="Where did you lose your phone?" size="30"> B: I lost my phone on the bus.</p>
+                    <button onclick="checkAnswer('extra-ex-q94', true)">Submit</button> <span id="extra-ex-q94-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>95.</strong> A: <input type="text" id="extra-ex-q95" data-answer="Why did the lights go out?" size="30"> B: The lights went out because of a problem with the electricity.</p>
+                    <button onclick="checkAnswer('extra-ex-q95', true)">Submit</button> <span id="extra-ex-q95-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>96.</strong> A: <input type="text" id="extra-ex-q96" data-answer="What did you dream about?" size="30"> B: I dreamed about flying.</p>
+                    <button onclick="checkAnswer('extra-ex-q96', true)">Submit</button> <span id="extra-ex-q96-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>97.</strong> A: <input type="text" id="extra-ex-q97" data-answer="Who saw the accident?" size="30"> B: An old lady saw the accident.</p>
+                    <button onclick="checkAnswer('extra-ex-q97', true)">Submit</button> <span id="extra-ex-q97-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>98.</strong> A: <input type="text" id="extra-ex-q98" data-answer="How long did the trip take?" size="30"> B: The trip took six hours by car.</p>
+                    <button onclick="checkAnswer('extra-ex-q98', true)">Submit</button> <span id="extra-ex-q98-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>99.</strong> A: <input type="text" id="extra-ex-q99" data-answer="When did you start learning English?" size="30"> B: I started learning English when I was 10.</p>
+                    <button onclick="checkAnswer('extra-ex-q99', true)">Submit</button> <span id="extra-ex-q99-feedback" class="feedback"></span>
+                </div>
+                <div class="exercise-item">
+                    <p><strong>100.</strong> A: <input type="text" id="extra-ex-q100" data-answer="Who ate the last piece of cake?" size="30"> B: My sister ate the last piece of cake.</p>
+                    <button onclick="checkAnswer('extra-ex-q100', true)">Submit</button> <span id="extra-ex-q100-feedback" class="feedback"></span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        function checkAnswer(inputId, checkPunctuation = false) {
+            const inputEl = document.getElementById(inputId);
+            const feedbackEl = document.getElementById(inputId + '-feedback');
+            
+            let userAnswer = inputEl.value.trim();
+            let correctAnswer = inputEl.dataset.answer;
+
+            if (!checkPunctuation) {
+                userAnswer = userAnswer.toLowerCase().replace(/[.?]/g, '');
+                correctAnswer = correctAnswer.toLowerCase().replace(/[.?]/g, '');
+            } else {
+                 userAnswer = userAnswer.toLowerCase();
+                 correctAnswer = correctAnswer.toLowerCase();
+            }
+
+            if (userAnswer === correctAnswer) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+                inputEl.style.border = '2px solid #27ae60';
+            } else {
+                feedbackEl.innerHTML = `Incorrect. Hint: The answer is <strong>"${inputEl.dataset.answer}"</strong>`;
+                feedbackEl.className = 'feedback incorrect';
+                inputEl.style.border = '2px solid #c0392b';
+            }
+        }
+
+        function checkRadio(radioName, correctAnswer) {
+            const feedbackEl = document.getElementById(radioName + '-feedback');
+            const radios = document.getElementsByName(radioName);
+            let userAnswer = '';
+            for (const radio of radios) {
+                if (radio.checked) {
+                    userAnswer = radio.value;
+                    break;
+                }
+            }
+
+            if (userAnswer === '') {
+                feedbackEl.textContent = 'Please select an answer.';
+                feedbackEl.className = 'feedback incorrect';
+                return;
+            }
+
+            if (userAnswer === correctAnswer) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. The correct answer is '${correctAnswer}'.`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+        
+        function checkSelect(selectId) {
+            const selectEl = document.getElementById(selectId);
+            const feedbackEl = document.getElementById(selectId + '-feedback');
+            const userAnswer = selectEl.value;
+            const correctAnswer = selectEl.dataset.answer;
+
+            if(userAnswer === ''){
+                 feedbackEl.textContent = 'Please select an answer.';
+                 feedbackEl.className = 'feedback incorrect';
+                 return;
+            }
+
+            if (userAnswer === correctAnswer) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. The correct answer is '${correctAnswer}'.`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+        
+        function checkMultiple(idArray) {
+            idArray.forEach(id => checkAnswer(id, true));
+        }
+
+        function splitSentences() {
+            const textArea = document.getElementById('sample-text');
+            const outputDiv = document.getElementById('sentence-output');
+            const text = textArea.value;
+
+            outputDiv.innerHTML = ''; // Clear previous results
+
+            const sentences = text.split('.').filter(sentence => sentence.trim() !== '');
+
+            sentences.forEach(s => {
+                const p = document.createElement('p');
+                p.textContent = s.trim() + '.';
+                outputDiv.appendChild(p);
+            });
+        }
+
+    </script>
+</body>
+</html>
