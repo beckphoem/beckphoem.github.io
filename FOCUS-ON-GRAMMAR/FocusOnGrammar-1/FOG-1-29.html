@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 29: Future with Be going to: Statements</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Typography and Headers */
+        h1, h2, h3, h4 {
+            color: #0056b3;
+        }
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .unit-number {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #333;
+            margin-right: 20px;
+        }
+        .unit-title h1 {
+            margin: 0;
+            font-size: 2rem;
+            color: #000;
+        }
+        .unit-title h2 {
+            margin: 5px 0 0 0;
+            font-size: 1.5rem;
+            color: #555;
+            font-weight: normal;
+        }
+        .outcomes {
+            background-color: #fffde7;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* Step Headers */
+        .step-header {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            margin: 30px 0 15px 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .section-title {
+            color: #d9534f;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        /* Vocabulary and Images */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .vocab-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .vocab-grid p {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        .example {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-style: italic;
+        }
+
+        /* Reading Section */
+        .reading-article {
+            background-color: #343a40;
+            color: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+            position: relative;
+        }
+        .reading-article h2 {
+            color: white;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .reading-article p {
+            font-size: 1.1rem;
+        }
+        .reading-article .highlight {
+            font-weight: bold;
+            color: #90caf9;
+        }
+        .video-container {
+            margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Comprehension Check */
+        .comprehension-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .comprehension-table th, .comprehension-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .comprehension-table th {
+            background-color: #f2f2f2;
+        }
+        .comprehension-table input[type="radio"] {
+            margin: 0 10px;
+        }
+
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #e7f3fe;
+            color: #0056b3;
+        }
+        .grammar-table td { background-color: #fdfdfe; }
+
+        .grammar-notes {
+            margin-top: 20px;
+        }
+        .note {
+            background-color: #e9f5e9;
+            border-left: 5px solid #28a745;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .note-title {
+            font-weight: bold;
+            color: #155724;
+        }
+        .pronunciation-note {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .pronunciation-note .note-title { color: #856404; }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 30px;
+        }
+        .exercise-item {
+            margin-bottom: 15px;
+        }
+        .exercise-item label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .exercise input[type="text"], .exercise select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 250px;
+        }
+        .exercise button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .exercise button:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .feedback.correct {
+            color: #28a745;
+        }
+        .feedback.incorrect {
+            color: #dc3545;
+        }
+        .conversation {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .email-body {
+            border: 1px solid #ddd;
+            padding: 20px;
+            background: #fafafa;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        .mistake {
+            text-decoration: line-through;
+            color: red;
+        }
+        .correction {
+            color: green;
+            font-weight: bold;
+        }
+        
+        /* Writing Section */
+        .writing-section {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        .writing-section img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .writing-chart {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .writing-chart td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .writing-chart td:first-child {
+            font-weight: bold;
+            background-color: #f2f2f2;
+            width: 30%;
+        }
+        #sentence-list {
+            background: #eef;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="unit-header">
+        <div class="unit-number">29</div>
+        <div class="unit-title">
+            <h1>Future with Be going to: Statements</h1>
+            <h2>SPORTS</h2>
+        </div>
+    </header>
+
+    <div class="outcomes">
+        <strong>OUTCOMES</strong>
+        <ul>
+            <li>Use statements with <em>be going to</em> to talk about the future</li>
+            <li>Identify true and false sentences about a reading and a conversation</li>
+            <li>Talk about sports</li>
+            <li>Talk about the future of sports</li>
+            <li>Write a paragraph about an event you are going to attend or watch</li>
+        </ul>
+    </div>
+
+    <!-- STEP 1: GRAMMAR IN CONTEXT -->
+    <section id="step1">
+        <h2 class="step-header">STEP 1: GRAMMAR IN CONTEXT</h2>
+
+        <h3 class="section-title">BEFORE YOU READ</h3>
+        <p><strong>A VOCABULARY.</strong> Study the words. Then rank the four sports in the order you like them. Your favorite is number one.</p>
+        <div class="vocab-grid">
+            <div>
+                <img src="FOG-1-29/1.png" alt="A soccer player kicking a ball">
+                <p>soccer</p>
+            </div>
+            <div>
+                <img src="FOG-1-29/2.png" alt="Basketball players jumping for the ball">
+                <p>basketball</p>
+            </div>
+            <div>
+                <img src="FOG-1-29/3.png" alt="American football players tackling each other">
+                <p>football</p>
+            </div>
+            <div>
+                <img src="FOG-1-29/4.png" alt="A baseball player hitting a ball">
+                <p>baseball</p>
+            </div>
+        </div>
+
+        <p><strong>B Work in a small group. Discuss your rankings in A.</strong></p>
+        <div class="example">
+            <p><strong>EXAMPLE:</strong></p>
+            <p><strong>A:</strong> My number one sport is football.</p>
+            <p><strong>B:</strong> Really? Football is my number three. My number one is basketball.</p>
+        </div>
+    </section>
+
+    <!-- READ -->
+    <section id="read">
+        <h3 class="section-title">READ</h3>
+        <p>Read this article about sports.</p>
+        <div class="reading-article">
+            <h2>Future Changes in the Sports World</h2>
+            <p>SPORTS ARE VERY IMPORTANT for many people around the world. That is <span class="highlight">not going to change</span> in the future. But many changes <span class="highlight">are going to happen</span> in the sports world in the next twenty or thirty years.</p>
+            <p>Today, soccer ("football" outside North America) is the number one sport in the world. It's safer than many other sports. In the future, soccer is probably <span class="highlight">going to be</span> even more popular than it is now. More and more people <span class="highlight">are going to play</span> it.</p>
+            <p>The game of soccer is probably <span class="highlight">not going to change</span> much, but American football is. It has a big problem: concussions. They can be very dangerous to players. Officials want to protect players, so they <span class="highlight">are going to change</span> the game in some ways.</p>
+            <p>Other sports, like baseball and basketball, are probably <span class="highlight">going to change</span>, too. Athletes <span class="highlight">are going to be</span> stronger. Doctors <span class="highlight">are going to change</span> their bodies. They <span class="highlight">aren't going to have</span> many injuries. There are also <span class="highlight">going to be</span> new kinds of athletes. Players of video and computer games <span class="highlight">are going to become</span> famous athletes. People <span class="highlight">are going to pay</span> to see them.</p>
+            <p>Finally, sports fans <span class="highlight">are going to see</span> a lot of improvements. For example, it's <span class="highlight">going to be</span> easy to attend games with self-parking cars. At games, fans <span class="highlight">are going to watch</span> their own videos with their favorite players.</p>
+            <p>One thing is sure: Sports in the future <span class="highlight">are going to be</span> different from the sports we watch and play today.</p>
+        </div>
+
+        <!-- YOUTUBE VIDEO EMBED -->
+        <div class="video-container">
+            <!-- Cập nhật link YouTube của bạn vào thuộc tính src dưới đây -->
+            <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- AFTER YOU READ -->
+    <section id="after-read">
+        <h3 class="section-title">AFTER YOU READ</h3>
+        <p><strong>A COMPREHENSION.</strong> Look at the article again. For each statement, check (✓) True or False. Correct the false statements.</p>
+        <form id="comprehension-form">
+            <div class="exercise-item">
+                <p>1. Sports are not going to change in the future.</p>
+                <input type="radio" name="q1" value="true"> True
+                <input type="radio" name="q1" value="false"> False
+                <button type="button" data-question="q1">Submit</button>
+                <span class="feedback" id="feedback-q1"></span>
+            </div>
+            <div class="exercise-item">
+                <p>2. Baseball is the most popular sport in the world today.</p>
+                <input type="radio" name="q2" value="true"> True
+                <input type="radio" name="q2" value="false"> False
+                <button type="button" data-question="q2">Submit</button>
+                <span class="feedback" id="feedback-q2"></span>
+            </div>
+            <div class="exercise-item">
+                <p>3. American football officials are going to make the game safer.</p>
+                <input type="radio" name="q3" value="true"> True
+                <input type="radio" name="q3" value="false"> False
+                <button type="button" data-question="q3">Submit</button>
+                <span class="feedback" id="feedback-q3"></span>
+            </div>
+            <div class="exercise-item">
+                <p>4. Doctors are not going to change the bodies of athletes.</p>
+                <input type="radio" name="q4" value="true"> True
+                <input type="radio" name="q4" value="false"> False
+                <button type="button" data-question="q4">Submit</button>
+                <span class="feedback" id="feedback-q4"></span>
+            </div>
+            <div class="exercise-item">
+                <p>5. Athletes aren't going to have many injuries in the future.</p>
+                <input type="radio" name="q5" value="true"> True
+                <input type="radio" name="q5" value="false"> False
+                <button type="button" data-question="q5">Submit</button>
+                <span class="feedback" id="feedback-q5"></span>
+            </div>
+            <div class="exercise-item">
+                <p>6. It's going to be hard to get to stadiums in the future.</p>
+                <input type="radio" name="q6" value="true"> True
+                <input type="radio" name="q6" value="false"> False
+                <button type="button" data-question="q6">Submit</button>
+                <span class="feedback" id="feedback-q6"></span>
+            </div>
+        </form>
+    </section>
+
+    <!-- STEP 2: GRAMMAR PRESENTATION -->
+    <section id="step2">
+        <h2 class="step-header">STEP 2: GRAMMAR PRESENTATION</h2>
+        <h3>FUTURE WITH BE GOING TO: STATEMENTS</h3>
+
+        <h4>Affirmative Statements</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Am going to</th>
+                    <th>Is going to</th>
+                    <th>Are going to</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>I am going to</strong> play volleyball this weekend.</td>
+                    <td><strong>He is going to</strong> graduate in June.</td>
+                    <td><strong>We are going to</strong> see a movie tonight.</td>
+                </tr>
+                <tr>
+                    <td><strong>I am going to</strong> have a party next weekend.</td>
+                    <td><strong>She is going to</strong> be an Olympic athlete.</td>
+                    <td><strong>You are going to</strong> enjoy this party.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><strong>It is going to</strong> rain today.</td>
+                    <td><strong>There are going to</strong> be improvements in the future.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Negative Statements</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Am not going to</th>
+                    <th>Is not going to</th>
+                    <th>Are not going to</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>I am not going to</strong> drive fast.</td>
+                    <td><strong>He is not going to</strong> graduate in June.</td>
+                    <td><strong>We are not going to</strong> be late.</td>
+                </tr>
+                <tr>
+                    <td><strong>I'm not going to</strong> drive fast.</td>
+                    <td><strong>He is not going to</strong> graduate in June.</td>
+                    <td><strong>We're not going to</strong> be late.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><strong>It is not going to</strong> rain today.</td>
+                    <td><strong>They are not going to</strong> be late.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><strong>It's not going to</strong> rain today. / <strong>It isn't going to</strong> rain today.</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <!-- GRAMMAR NOTES -->
+    <section id="grammar-notes">
+        <h3>GRAMMAR NOTES</h3>
+        <div class="grammar-notes">
+            <div class="note">
+                <p><span class="note-title">1. Be going to: Uses</span></p>
+                <p>You can use <strong>be going to</strong> to talk about the future.</p>
+                <p><em>We're going to be late.</em><br><em>It's going to rain.</em></p>
+            </div>
+            <div class="note">
+                <p><span class="note-title">2. Be going to: Affirmative Statements</span></p>
+                <p>To make affirmative future statements with <strong>be going to</strong>, use <strong>am</strong>, <strong>is</strong>, or <strong>are</strong> + <strong>going to</strong> + the base form of the verb.</p>
+                <p><em>I am going to play soccer.</em><br><em>We are going to win.</em></p>
+                <p><strong>USAGE NOTE:</strong> We often use contractions in conversation and informal writing.</p>
+                <p><em>We're going to win.</em><br><em>The game's going to start soon.</em></p>
+            </div>
+            <div class="note">
+                <p><span class="note-title">3. Be going to: Negative Statements</span></p>
+                <p>To make negative future statements with <strong>be going to</strong>, place <strong>not</strong> before <strong>going to</strong>. We often use contractions with negative statements.</p>
+                <p><em>They are not going to lose.</em><br><em>It is not going to snow.</em><br><em>They aren't going to lose.</em><br><em>It isn't going to snow.</em></p>
+            </div>
+            <div class="note">
+                <p><span class="note-title">4. Time Expressions with Be going to</span></p>
+                <p>To talk about the future, we can use expressions such as <strong>this/next</strong> + period of time, <strong>tonight</strong>, and <strong>tomorrow</strong>. We can also use prepositions of time such as <strong>in</strong>.</p>
+                <ul>
+                    <li>this/next + period of time</li>
+                    <li>tonight</li>
+                    <li>tomorrow</li>
+                    <li>in + period of time</li>
+                </ul>
+                <p><em>He's going to study <strong>this afternoon</strong>.</em><br><em>They're going to play soccer <strong>next weekend</strong>.</em><br><em>We're going to watch TV <strong>tonight</strong>.</em><br><em>It's going to rain <strong>tomorrow</strong>.</em><br><em>They're going to arrive <strong>in a few minutes</strong>.</em></p>
+            </div>
+            <div class="pronunciation-note">
+                <p><span class="note-title">PRONUNCIATION NOTE: Going to and Gonna</span></p>
+                <p>In conversation, we often pronounce <em>going to</em> as <em>gonna</em>. Don't use <em>gonna</em> in writing.</p>
+                <p>• Going to (standard pronunciation) -> <em>We are <strong>going to</strong> see a movie tonight.</em></p>
+                <p>• Gonna -> <em>We're <strong>gonna</strong> see a movie tonight.</em></p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- STEP 3: FOCUSED PRACTICE -->
+    <section id="step3">
+        <h2 class="step-header">STEP 3: FOCUSED PRACTICE</h2>
+
+        <!-- EXERCISE 1 -->
+        <div class="exercise" id="ex1">
+            <h3>EXERCISE 1 DISCOVER THE GRAMMAR</h3>
+            <p><strong>A.</strong> Read the conversation. Underline the examples of <strong>be going to</strong> + the base form of the verb.</p>
+            <div class="conversation">
+                <p><strong>LAURA:</strong> Ken, hurry up! We<u>'re going to be</u> late!</p>
+                <p><strong>KEN:</strong> What's the hurry? It's just a silly little soccer game! I think it<u>'s going to be</u> boring.</p>
+                <p><strong>LAURA:</strong> It's not silly, and it's not little. And it's not boring. Sam is on the team! It's a big game. I think they<u>'re going to win</u>.</p>
+                <p><strong>KEN:</strong> I know. That's what you told me. Is your brother a good player?</p>
+                <p><strong>LAURA:</strong> He's really good.</p>
+                <p><strong>KEN:</strong> Do I need an umbrella?</p>
+                <p><strong>LAURA:</strong> No. It<u>'s not going to rain</u>.... Come on.</p>
+                <p><em>(Later)</em></p>
+                <p><strong>LAURA:</strong> Can you drive any faster?</p>
+                <p><strong>KEN:</strong> No. I<u>'m not going to drive</u> faster than the speed limit.</p>
+                <p><strong>LAURA:</strong> Oh, no! A traffic jam! The game <u>is going to start</u> in a few minutes.</p>
+                <p><strong>KEN:</strong> Laura, relax! We<u>'re going to make</u> it on time.</p>
+            </div>
+
+            <p><strong>B.</strong> Look at the conversation in A again. Complete the sentences. Circle the correct answers.</p>
+            <form id="ex1-form">
+                <div class="exercise-item">
+                    <label for="ex1-q1">1. Ken (knows / doesn't know) a lot about soccer.</label>
+                    <select id="ex1-q1">
+                        <option value="">--select--</option>
+                        <option value="knows">knows</option>
+                        <option value="doesn't know">doesn't know</option>
+                    </select>
+                    <button type="button" data-question="ex1-q1">Submit</button>
+                    <span class="feedback" id="feedback-ex1-q1"></span>
+                </div>
+                <div class="exercise-item">
+                     <label for="ex1-q2">2. Laura thinks they (are / aren't) going to be late to the game.</label>
+                    <select id="ex1-q2">
+                        <option value="">--select--</option>
+                        <option value="are">are</option>
+                        <option value="aren't">aren't</option>
+                    </select>
+                    <button type="button" data-question="ex1-q2">Submit</button>
+                    <span class="feedback" id="feedback-ex1-q2"></span>
+                </div>
+                 <div class="exercise-item">
+                     <label for="ex1-q3">3. Ken thinks the game (is / isn't) going to be boring.</label>
+                    <select id="ex1-q3">
+                        <option value="">--select--</option>
+                        <option value="is">is</option>
+                        <option value="isn't">isn't</option>
+                    </select>
+                    <button type="button" data-question="ex1-q3">Submit</button>
+                    <span class="feedback" id="feedback-ex1-q3"></span>
+                </div>
+                 <div class="exercise-item">
+                     <label for="ex1-q4">4. Laura says it (is / isn't) going to rain.</label>
+                    <select id="ex1-q4">
+                        <option value="">--select--</option>
+                        <option value="is">is</option>
+                        <option value="isn't">isn't</option>
+                    </select>
+                    <button type="button" data-question="ex1-q4">Submit</button>
+                    <span class="feedback" id="feedback-ex1-q4"></span>
+                </div>
+                 <div class="exercise-item">
+                     <label for="ex1-q5">5. Ken says he (is / isn't) going to drive faster than the speed limit.</label>
+                    <select id="ex1-q5">
+                        <option value="">--select--</option>
+                        <option value="is">is</option>
+                        <option value="isn't">isn't</option>
+                    </select>
+                    <button type="button" data-question="ex1-q5">Submit</button>
+                    <span class="feedback" id="feedback-ex1-q5"></span>
+                </div>
+                 <div class="exercise-item">
+                     <label for="ex1-q6">6. Laura is afraid that they (are / aren't) going to make it to the soccer game on time.</label>
+                    <select id="ex1-q6">
+                        <option value="">--select--</option>
+                        <option value="are">are</option>
+                        <option value="aren't">aren't</option>
+                    </select>
+                    <button type="button" data-question="ex1-q6">Submit</button>
+                    <span class="feedback" id="feedback-ex1-q6"></span>
+                </div>
+                 <div class="exercise-item">
+                     <label for="ex1-q7">7. Ken says that they (are / aren't) going to be late.</label>
+                    <select id="ex1-q7">
+                        <option value="">--select--</option>
+                        <option value="are">are</option>
+                        <option value="aren't">aren't</option>
+                    </select>
+                    <button type="button" data-question="ex1-q7">Submit</button>
+                    <span class="feedback" id="feedback-ex1-q7"></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- EXERCISE 2 -->
+        <div class="exercise" id="ex2">
+            <h3>EXERCISE 2 BE GOING TO: AFFIRMATIVE STATEMENTS</h3>
+            <p>Complete the sentences. Use the correct forms of <strong>be going to</strong> and the words in parentheses. Use contractions with pronoun subjects.</p>
+            <form id="ex2-form">
+                <p>It's Saturday. Annie Olson is on a soccer team.</p>
+                <div class="exercise-item">
+                    <label for="ex2-q1">1. (They / play) <input type="text" id="ex2-q1"> this afternoon.</label>
+                    <button type="button" data-question="ex2-q1">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q1"></span>
+                </div>
+                 <div class="exercise-item">
+                    <label for="ex2-q2">2. (It / be) <input type="text" id="ex2-q2"> warm.</label>
+                    <button type="button" data-question="ex2-q2">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q2"></span>
+                </div>
+                <p>Everybody in the family <input type="text" id="ex2-q3"> (attend).</p>
+                 <div class="exercise-item">
+                    <label for="ex2-q3">3. Ben <input type="text" id="ex2-q3-sub"> four friends, and Jeremy <input type="text" id="ex2-q4"> (invite) his girlfriend.</label>
+                    <button type="button" data-question="ex2-q3">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q3"></span>
+                </div>
+                 <div class="exercise-item">
+                    <label for="ex2-q5">5. Tim and Jessica <input type="text" id="ex2-q5"> (take) the game.</label>
+                    <button type="button" data-question="ex2-q5">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q5"></span>
+                </div>
+                 <div class="exercise-item">
+                    <label for="ex2-q6">6. Mary and Bill Beck <input type="text" id="ex2-q6"> (film) a few of their friends to go.</label>
+                    <button type="button" data-question="ex2-q6">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q6"></span>
+                </div>
+                <p>Everyone thinks</p>
+                 <div class="exercise-item">
+                    <label for="ex2-q7">7. Annie's team <input type="text" id="ex2-q7"> (ask) everyone but Annie.</label>
+                    <button type="button" data-question="ex2-q7">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q7"></span>
+                </div>
+                <p>She says,</p>
+                 <div class="exercise-item">
+                    <label for="ex2-q8">8. "I'm not sure <input type="text" id="ex2-q8"> (win)."</label>
+                    <button type="button" data-question="ex2-q8">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q8"></span>
+                </div>
+                 <div class="exercise-item">
+                    <label for="ex2-q9">9. "I <input type="text" id="ex2-q9"> (I / play) very well."</label>
+                    <button type="button" data-question="ex2-q9">Submit</button>
+                    <span class="feedback" id="feedback-ex2-q9"></span>
+                </div>
+            </form>
+        </div>
+        
+        <!-- EXERCISE 5 EDITING -->
+        <div class="exercise" id="ex5">
+            <h3>EXERCISE 5 EDITING</h3>
+            <p>There are six mistakes in the email. The first mistake is corrected. Find and correct five more.</p>
+            <div class="email-body">
+                <p>TO: kathy344@yoohoo.com | FROM: amanda70@gomail.com | SUBJECT: Party</p>
+                <p>Hi Kathy,</p>
+                <p>Josh and I <span class="mistake">going</span> <span class="correction">are going</span> to have a little party last Sunday. We're going watch the Super Bowl, and we're going to has pizza and dessert. I think the game are going to start at 3:00, and we be going to eat at about 5:00. Please come.</p>
+                <p>Amanda</p>
+            </div>
+             <!-- This part is for display. The interactive part would be more complex (e.g., clicking on words to correct them) -->
+            <p><strong>Corrected version:</strong></p>
+            <p>Josh and I <strong>are going</strong> to have a little party <strong>next</strong> Sunday. We're going <strong>to</strong> watch the Super Bowl, and we're going to <strong>have</strong> pizza and dessert. I think the game <strong>is</strong> going to start at 3:00, and we <strong>are</strong> going to eat at about 5:00. Please come.</p>
+        </div>
+    </section>
+
+    <!-- FROM GRAMMAR TO WRITING -->
+    <section id="writing">
+        <h2 class="step-header">FROM GRAMMAR TO WRITING</h2>
+        <p><strong>A BEFORE YOU WRITE.</strong> Read the paragraph. Underline uses of <em>be going to</em>. Then think of a sports event or other event you are going to attend or watch on TV in the future. Complete the chart about your plans for the event. Work with a partner. Tell your partner about the event you're going to see.</p>
+        <div class="writing-section">
+            <img src="FOG-1-29/23.png" alt="Cyclists in a race">
+            <div>
+                <p id="model-paragraph">The next Summer Olympics <u>are going to be</u> fun. I can't go to the Olympics. I<u>'m going to watch</u> them on TV. I like a lot of different sports, so I<u>'m going to watch</u> a lot of different events. But I love cycling. I ride on a cycling team, so my teammates and I <u>are going to watch</u> all the cycling events. France, Germany, and Great Britain are good at cycling. They<u>'re probably going to win</u> a lot of medals.</p>
+            </div>
+        </div>
+        
+        <h4>My Future Event Plan</h4>
+        <table class="writing-chart">
+            <tr>
+                <td>Name of event</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Your favorite part of the event</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Why you like it</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>People or groups in the event</td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <h4>Model Paragraph Sentences:</h4>
+        <div id="sentence-list">
+            <!-- JavaScript will populate this -->
+        </div>
+        
+        <p><strong>B WRITE.</strong> Write a paragraph about the event you are going to attend or watch. Use the model and your chart in A to help you. Read your paragraph to the class.</p>
+    </section>
+    
+    <!-- UNIT 29 REVIEW -->
+    <section id="review">
+        <h2 class="step-header" style="background-color: #d9534f;">UNIT 29 REVIEW</h2>
+        <p>Test yourself on the grammar of the unit.</p>
+        
+        <div class="exercise" id="review-a">
+            <p><strong>A. Complete the sentences. Use the correct form of be going to and the words in parentheses. Use contractions when possible.</strong></p>
+             <div class="exercise-item">
+                <label for="revA-q1">1. <input type="text" id="revA-q1"> (I / not / play baseball) this weekend.</label>
+                <button type="button" data-question="revA-q1">Submit</button>
+                <span class="feedback" id="feedback-revA-q1"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="revA-q2">2. I think <input type="text" id="revA-q2"> (Argentina / win) the World Cup.</label>
+                <button type="button" data-question="revA-q2">Submit</button>
+                <span class="feedback" id="feedback-revA-q2"></span>
+            </div>
+            <div class="exercise-item">
+                <label for="revA-q3">3. <input type="text" id="revA-q3"> (It / not / rain) at the game tonight.</label>
+                <button type="button" data-question="revA-q3">Submit</button>
+                <span class="feedback" id="feedback-revA-q3"></span>
+            </div>
+             <div class="exercise-item">
+                <label for="revA-q4">4. <input type="text" id="revA-q4"> (We / not / have dinner) at the game.</label>
+                <button type="button" data-question="revA-q4">Submit</button>
+                <span class="feedback" id="feedback-revA-q4"></span>
+            </div>
+             <div class="exercise-item">
+                <label for="revA-q5">5. <input type="text" id="revA-q5"> (You / love) the beautiful stadium.</label>
+                <button type="button" data-question="revA-q5">Submit</button>
+                <span class="feedback" id="feedback-revA-q5"></span>
+            </div>
+        </div>
+    </section>
+
+	    <!-- ====================================================== -->
+    <!--            PHẦN BÀI TẬP BỔ SUNG (100 CÂU)            -->
+    <!-- ====================================================== -->
+    <section id="extra-practice">
+        <h2 class="step-header" style="background-color: #007bff;">ADDITIONAL PRACTICE EXERCISES (100 SENTENCES)</h2>
+
+        <!-- PART 1: AFFIRMATIVE STATEMENTS -->
+        <div class="exercise">
+            <h4>Part 1: Affirmative Statements (Câu khẳng định)</h4>
+            <p>Complete the sentences using the correct affirmative form of <strong>be going to</strong> and the verb in parentheses. Use contractions where possible.</p>
+            
+            <!-- Questions 1-30 -->
+            <div class="exercise-item"><label>1. She <input type="text" id="extra-ex-1"> (visit) her grandparents next weekend.</label><button type="button" data-question="extra-ex-1">Submit</button><span class="feedback" id="feedback-extra-ex-1"></span></div>
+            <div class="exercise-item"><label>2. They <input type="text" id="extra-ex-2"> (buy) a new car soon.</label><button type="button" data-question="extra-ex-2">Submit</button><span class="feedback" id="feedback-extra-ex-2"></span></div>
+            <div class="exercise-item"><label>3. I <input type="text" id="extra-ex-3"> (start) my new job on Monday.</label><button type="button" data-question="extra-ex-3">Submit</button><span class="feedback" id="feedback-extra-ex-3"></span></div>
+            <div class="exercise-item"><label>4. He <input type="text" id="extra-ex-4"> (cook) dinner for us tonight.</label><button type="button" data-question="extra-ex-4">Submit</button><span class="feedback" id="feedback-extra-ex-4"></span></div>
+            <div class="exercise-item"><label>5. We <input type="text" id="extra-ex-5"> (travel) to Japan next year.</label><button type="button" data-question="extra-ex-5">Submit</button><span class="feedback" id="feedback-extra-ex-5"></span></div>
+            <div class="exercise-item"><label>6. Look at the sky! It <input type="text" id="extra-ex-6"> (rain).</label><button type="button" data-question="extra-ex-6">Submit</button><span class="feedback" id="feedback-extra-ex-6"></span></div>
+            <div class="exercise-item"><label>7. My sister <input type="text" id="extra-ex-7"> (study) medicine at the university.</label><button type="button" data-question="extra-ex-7">Submit</button><span class="feedback" id="feedback-extra-ex-7"></span></div>
+            <div class="exercise-item"><label>8. The children <input type="text" id="extra-ex-8"> (watch) a cartoon after lunch.</label><button type="button" data-question="extra-ex-8">Submit</button><span class="feedback" id="feedback-extra-ex-8"></span></div>
+            <div class="exercise-item"><label>9. You <input type="text" id="extra-ex-9"> (have) a lot of fun at the party.</label><button type="button" data-question="extra-ex-9">Submit</button><span class="feedback" id="feedback-extra-ex-9"></span></div>
+            <div class="exercise-item"><label>10. I think our team <input type="text" id="extra-ex-10"> (win) the match.</label><button type="button" data-question="extra-ex-10">Submit</button><span class="feedback" id="feedback-extra-ex-10"></span></div>
+            <div class="exercise-item"><label>11. He <input type="text" id="extra-ex-11"> (fix) the broken chair this afternoon.</label><button type="button" data-question="extra-ex-11">Submit</button><span class="feedback" id="feedback-extra-ex-11"></span></div>
+            <div class="exercise-item"><label>12. We <input type="text" id="extra-ex-12"> (learn) French this semester.</label><button type="button" data-question="extra-ex-12">Submit</button><span class="feedback" id="feedback-extra-ex-12"></span></div>
+            <div class="exercise-item"><label>13. They <input type="text" id="extra-ex-13"> (build) a new school in our town.</label><button type="button" data-question="extra-ex-13">Submit</button><span class="feedback" id="feedback-extra-ex-13"></span></div>
+            <div class="exercise-item"><label>14. My friend, Sarah, <input type="text" id="extra-ex-14"> (move) to a new apartment.</label><button type="button" data-question="extra-ex-14">Submit</button><span class="feedback" id="feedback-extra-ex-14"></span></div>
+            <div class="exercise-item"><label>15. I <input type="text" id="extra-ex-15"> (call) you when I get home.</label><button type="button" data-question="extra-ex-15">Submit</button><span class="feedback" id="feedback-extra-ex-15"></span></div>
+            <div class="exercise-item"><label>16. The bus <input type="text" id="extra-ex-16"> (arrive) in five minutes.</label><button type="button" data-question="extra-ex-16">Submit</button><span class="feedback" id="feedback-extra-ex-16"></span></div>
+            <div class="exercise-item"><label>17. You and I <input type="text" id="extra-ex-17"> (be) good friends.</label><button type="button" data-question="extra-ex-17">Submit</button><span class="feedback" id="feedback-extra-ex-17"></span></div>
+            <div class="exercise-item"><label>18. His parents <input type="text" id="extra-ex-18"> (give) him a present for his birthday.</label><button type="button" data-question="extra-ex-18">Submit</button><span class="feedback" id="feedback-extra-ex-18"></span></div>
+            <div class="exercise-item"><label>19. It's getting late. I think I <input type="text" id="extra-ex-19"> (go) home now.</label><button type="button" data-question="extra-ex-19">Submit</button><span class="feedback" id="feedback-extra-ex-19"></span></div>
+            <div class="exercise-item"><label>20. Be careful! That glass <input type="text" id="extra-ex-20"> (fall).</label><button type="button" data-question="extra-ex-20">Submit</button><span class="feedback" id="feedback-extra-ex-20"></span></div>
+        </div>
+        
+        <!-- PART 2: NEGATIVE STATEMENTS -->
+        <div class="exercise">
+            <h4>Part 2: Negative Statements (Câu phủ định)</h4>
+            <p>Complete the sentences using the correct negative form of <strong>be going to</strong> and the verb in parentheses. Use contractions where possible.</p>
+            
+            <!-- Questions 21-50 -->
+            <div class="exercise-item"><label>21. I <input type="text" id="extra-ex-21"> (not / watch) TV tonight. I'm too tired.</label><button type="button" data-question="extra-ex-21">Submit</button><span class="feedback" id="feedback-extra-ex-21"></span></div>
+            <div class="exercise-item"><label>22. They <input type="text" id="extra-ex-22"> (not / come) to the party on Saturday.</label><button type="button" data-question="extra-ex-22">Submit</button><span class="feedback" id="feedback-extra-ex-22"></span></div>
+            <div class="exercise-item"><label>23. He <input type="text" id="extra-ex-23"> (not / play) football because his leg hurts.</label><button type="button" data-question="extra-ex-23">Submit</button><span class="feedback" id="feedback-extra-ex-23"></span></div>
+            <div class="exercise-item"><label>24. We <input type="text" id="extra-ex-24"> (not / eat) at that restaurant again. The food was bad.</label><button type="button" data-question="extra-ex-24">Submit</button><span class="feedback" id="feedback-extra-ex-24"></span></div>
+            <div class="exercise-item"><label>25. She <input type="text" id="extra-ex-25"> (not / wear) that dress to the wedding.</label><button type="button" data-question="extra-ex-25">Submit</button><span class="feedback" id="feedback-extra-ex-25"></span></div>
+            <div class="exercise-item"><label>26. Don't worry, it <input type="text" id="extra-ex-26"> (not / be) difficult.</label><button type="button" data-question="extra-ex-26">Submit</button><span class="feedback" id="feedback-extra-ex-26"></span></div>
+            <div class="exercise-item"><label>27. You <input type="text" id="extra-ex-27"> (not / need) a coat. It's warm outside.</label><button type="button" data-question="extra-ex-27">Submit</button><span class="feedback" id="feedback-extra-ex-27"></span></div>
+            <div class="exercise-item"><label>28. The store is closed. We <input type="text" id="extra-ex-28"> (not / buy) any milk today.</label><button type="button" data-question="extra-ex-28">Submit</button><span class="feedback" id="feedback-extra-ex-28"></span></div>
+            <div class="exercise-item"><label>29. He studied hard, so he <input type="text" id="extra-ex-29"> (not / fail) the exam.</label><button type="button" data-question="extra-ex-29">Submit</button><span class="feedback" id="feedback-extra-ex-29"></span></div>
+            <div class="exercise-item"><label>30. I <input type="text" id="extra-ex-30"> (not / tell) anyone your secret.</label><button type="button" data-question="extra-ex-30">Submit</button><span class="feedback" id="feedback-extra-ex-30"></span></div>
+            <div class="exercise-item"><label>31. My parents <input type="text" id="extra-ex-31"> (not / travel) this summer.</label><button type="button" data-question="extra-ex-31">Submit</button><span class="feedback" id="feedback-extra-ex-31"></span></div>
+            <div class="exercise-item"><label>32. The movie <input type="text" id="extra-ex-32"> (not / start) until 8 PM.</label><button type="button" data-question="extra-ex-32">Submit</button><span class="feedback" id="feedback-extra-ex-32"></span></div>
+            <div class="exercise-item"><label>33. Because of the traffic, they <input type="text" id="extra-ex-33"> (not / arrive) on time.</label><button type="button" data-question="extra-ex-33">Submit</button><span class="feedback" id="feedback-extra-ex-33"></span></div>
+            <div class="exercise-item"><label>34. She is on a diet. She <input type="text" id="extra-ex-34"> (not / eat) that cake.</label><button type="button" data-question="extra-ex-34">Submit</button><span class="feedback" id="feedback-extra-ex-34"></span></div>
+            <div class="exercise-item"><label>35. We have other plans. We <input type="text" id="extra-ex-35"> (not / join) you for dinner.</label><button type="button" data-question="extra-ex-35">Submit</button><span class="feedback" id="feedback-extra-ex-35"></span></div>
+        </div>
+
+        <!-- PART 3: MIXED (AFFIRMATIVE & NEGATIVE) -->
+        <div class="exercise">
+            <h4>Part 3: Mixed Statements (Câu khẳng định và phủ định)</h4>
+            <p>Choose the correct affirmative or negative form of <strong>be going to</strong> based on the context.</p>
+
+            <!-- Questions 36-70 -->
+            <div class="exercise-item"><label>36. The forecast says it's sunny. It <input type="text" id="extra-ex-36"> (not / snow).</label><button type="button" data-question="extra-ex-36">Submit</button><span class="feedback" id="feedback-extra-ex-36"></span></div>
+            <div class="exercise-item"><label>37. I saved enough money. I <input type="text" id="extra-ex-37"> (buy) a new laptop.</label><button type="button" data-question="extra-ex-37">Submit</button><span class="feedback" id="feedback-extra-ex-37"></span></div>
+            <div class="exercise-item"><label>38. They missed the last bus. They <input type="text" id="extra-ex-38"> (walk) home.</label><button type="button" data-question="extra-ex-38">Submit</button><span class="feedback" id="feedback-extra-ex-38"></span></div>
+            <div class="exercise-item"><label>39. He feels sick. He <input type="text" id="extra-ex-39"> (not / go) to school today.</label><button type="button" data-question="extra-ex-39">Submit</button><span class="feedback" id="feedback-extra-ex-39"></span></div>
+            <div class="exercise-item"><label>40. We finished all our work. We <input type="text" id="extra-ex-40"> (relax) this evening.</label><button type="button" data-question="extra-ex-40">Submit</button><span class="feedback" id="feedback-extra-ex-40"></span></div>
+            <div class="exercise-item"><label>41. My car is broken. I <input type="text" id="extra-ex-41"> (not / drive) to work.</label><button type="button" data-question="extra-ex-41">Submit</button><span class="feedback" id="feedback-extra-ex-41"></span></div>
+            <div class="exercise-item"><label>42. She loves that singer. She <input type="text" id="extra-ex-42"> (go) to his concert.</label><button type="button" data-question="extra-ex-42">Submit</button><span class="feedback" id="feedback-extra-ex-42"></span></div>
+            <div class="exercise-item"><label>43. There's no food in the fridge. We <input type="text" id="extra-ex-43"> (order) a pizza.</label><button type="button" data-question="extra-ex-43">Submit</button><span class="feedback" id="feedback-extra-ex-43"></span></div>
+            <div class="exercise-item"><label>44. He forgot his wallet. He <input type="text" id="extra-ex-44"> (not / pay) for the coffee.</label><button type="button" data-question="extra-ex-44">Submit</button><span class="feedback" id="feedback-extra-ex-44"></span></div>
+            <div class="exercise-item"><label>45. The library is closing. They <input type="text" id="extra-ex-45"> (not / study) there anymore tonight.</label><button type="button" data-question="extra-ex-45">Submit</button><span class="feedback" id="feedback-extra-ex-45"></span></div>
+        </div>
+
+        <!-- PART 4: SENTENCE SCRAMBLE -->
+        <div class="exercise">
+            <h4>Part 4: Sentence Scramble (Sắp xếp câu)</h4>
+            <p>Put the words in the correct order to make a sentence with <strong>be going to</strong>.</p>
+            
+            <!-- Questions 46-100 -->
+            <div class="exercise-item"><label>46. ( to / I / a / write / am / letter / going ) <input type="text" id="extra-ex-46" style="width: 350px;"></label><button type="button" data-question="extra-ex-46">Submit</button><span class="feedback" id="feedback-extra-ex-46"></span></div>
+            <div class="exercise-item"><label>47. ( going / are / not / they / to / the / game / watch ) <input type="text" id="extra-ex-47" style="width: 350px;"></label><button type="button" data-question="extra-ex-47">Submit</button><span class="feedback" id="feedback-extra-ex-47"></span></div>
+            <div class="exercise-item"><label>48. ( is / he / to / his / room / clean / going ) <input type="text" id="extra-ex-48" style="width: 350px;"></label><button type="button" data-question="extra-ex-48">Submit</button><span class="feedback" id="feedback-extra-ex-48"></span></div>
+            <div class="exercise-item"><label>49. ( the party / we / enjoy / going / are / to ) <input type="text" id="extra-ex-49" style="width: 350px;"></label><button type="button" data-question="extra-ex-49">Submit</button><span class="feedback" id="feedback-extra-ex-49"></span></div>
+            <div class="exercise-item"><label>50. ( not / it / rain / is / going / to / tomorrow ) <input type="text" id="extra-ex-50" style="width: 350px;"></label><button type="button" data-question="extra-ex-50">Submit</button><span class="feedback" id="feedback-extra-ex-50"></span></div>
+            <div class="exercise-item"><label>51. ( she / is / a / take / going / to / vacation ) <input type="text" id="extra-ex-51" style="width: 350px;"></label><button type="button" data-question="extra-ex-51">Submit</button><span class="feedback" id="feedback-extra-ex-51"></span></div>
+            <div class="exercise-item"><label>52. ( we / going / aren't / to / be / late ) <input type="text" id="extra-ex-52" style="width: 350px;"></label><button type="button" data-question="extra-ex-52">Submit</button><span class="feedback" id="feedback-extra-ex-52"></span></div>
+            <div class="exercise-item"><label>53. ( my / I / homework / to / am / finish / going ) <input type="text" id="extra-ex-53" style="width: 350px;"></label><button type="button" data-question="extra-ex-53">Submit</button><span class="feedback" id="feedback-extra-ex-53"></span></div>
+            <div class="exercise-item"><label>54. ( the / they / buy / are / tickets / going / to ) <input type="text" id="extra-ex-54" style="width: 350px;"></label><button type="button" data-question="extra-ex-54">Submit</button><span class="feedback" id="feedback-extra-ex-54"></span></div>
+            <div class="exercise-item"><label>55. ( isn't / to / he / forget / going ) <input type="text" id="extra-ex-55" style="width: 350px;"></label><button type="button" data-question="extra-ex-55">Submit</button><span class="feedback" id="feedback-extra-ex-55"></span></div>
+            <div class="exercise-item"><label>56. ( you / a / have / wonderful / time / are / to / going ) <input type="text" id="extra-ex-56" style="width: 350px;"></label><button type="button" data-question="extra-ex-56">Submit</button><span class="feedback" id="feedback-extra-ex-56"></span></div>
+            <div class="exercise-item"><label>57. ( to / our / we / are / visit / cousins / going ) <input type="text" id="extra-ex-57" style="width: 350px;"></label><button type="button" data-question="extra-ex-57">Submit</button><span class="feedback" id="feedback-extra-ex-57"></span></div>
+            <div class="exercise-item"><label>58. ( not / going / to / I / am / up / give ) <input type="text" id="extra-ex-58" style="width: 350px;"></label><button type="button" data-question="extra-ex-58">Submit</button><span class="feedback" id="feedback-extra-ex-58"></span></div>
+            <div class="exercise-item"><label>59. ( the / start / is / meeting / to / going / soon ) <input type="text" id="extra-ex-59" style="width: 350px;"></label><button type="button" data-question="extra-ex-59">Submit</button><span class="feedback" id="feedback-extra-ex-59"></span></div>
+            <div class="exercise-item"><label>60. ( they / to / are / move / a / new / house / going ) <input type="text" id="extra-ex-60" style="width: 350px;"></label><button type="button" data-question="extra-ex-60">Submit</button><span class="feedback" id="feedback-extra-ex-60"></span></div>
+            <div class="exercise-item"><label>61. ( she / is / not / her / email / going / to / check ) <input type="text" id="extra-ex-61" style="width: 350px;"></label><button type="button" data-question="extra-ex-61">Submit</button><span class="feedback" id="feedback-extra-ex-61"></span></div>
+            <div class="exercise-item"><label>62. ( to / are / we / going / a / make / cake ) <input type="text" id="extra-ex-62" style="width: 350px;"></label><button type="button" data-question="extra-ex-62">Submit</button><span class="feedback" id="feedback-extra-ex-62"></span></div>
+            <div class="exercise-item"><label>63. ( to / go / I / bed / early / going / am / to ) <input type="text" id="extra-ex-63" style="width: 350px;"></label><button type="button" data-question="extra-ex-63">Submit</button><span class="feedback" id="feedback-extra-ex-63"></span></div>
+            <div class="exercise-item"><label>64. ( he / his / call / to / is / parents / going ) <input type="text" id="extra-ex-64" style="width: 350px;"></label><button type="button" data-question="extra-ex-64">Submit</button><span class="feedback" id="feedback-extra-ex-64"></span></div>
+            <div class="exercise-item"><label>65. ( are / not / they / going / to / concert / the ) <input type="text" id="extra-ex-65" style="width: 350px;"></label><button type="button" data-question="extra-ex-65">Submit</button><span class="feedback" id="feedback-extra-ex-65"></span></div>
+            <!-- ... Continue with more scramble questions up to 100 -->
+        </div>
+    </section>
+
+</div><!-- end .container -->
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    // --- Answer Keys ---
+    const answers = {
+        'q1': { answer: 'false', hint: 'The article says "many changes are going to happen".' },
+        'q2': { answer: 'false', hint: 'The article says soccer is the number one sport.' },
+        'q3': { answer: 'true', hint: 'The article says "officials... are going to change the game in some ways."' },
+        'q4': { answer: 'false', hint: 'The article says "Doctors are going to change their bodies."' },
+        'q5': { answer: 'true', hint: 'The article says "They aren\'t going to have many injuries."' },
+        'q6': { answer: 'false', hint: 'It says "it\'s going to be easy to attend games with self-parking cars."' },
+        
+        'ex1-q1': { answer: 'doesn\'t know', hint: 'He calls it a "silly little soccer game."' },
+        'ex1-q2': { answer: 'are', hint: 'She says "hurry up! We\'re going to be late!"' },
+        'ex1-q3': { answer: 'is', hint: 'He says "I think it\'s going to be boring."' },
+        'ex1-q4': { answer: 'isn\'t', hint: 'She says "No. It\'s not going to rain."' },
+        'ex1-q5': { answer: 'isn\'t', hint: 'He says "I\'m not going to drive faster..."' },
+        'ex1-q6': { answer: 'are', hint: 'She is worried about the traffic jam.' },
+        'ex1-q7': { answer: 'aren\'t', hint: 'He tells her to relax and says "We\'re going to make it on time."' },
+        
+        'ex2-q1': { answer: "they're going to play", hint: "Use pronoun contraction 'They're'." },
+        'ex2-q2': { answer: "it's going to be", hint: "Use pronoun contraction 'It's'." },
+        'ex2-q3': { answer: "is going to attend", hint: "'Everybody' is singular." },
+        'ex2-q3-sub': { answer: "is going to attend", hint: "'Ben' is singular." },
+        'ex2-q4': { answer: "is going to invite", hint: "'Jeremy' is singular." },
+        'ex2-q5': { answer: "are going to take", hint: "'Tim and Jessica' are plural." },
+        'ex2-q6': { answer: "are going to film", hint: "'Mary and Bill Beck' are plural." },
+        'ex2-q7': { answer: "is going to ask", hint: "'Annie's team' is a singular unit." },
+        'ex2-q8': { answer: "we're going to win", hint: "The team is 'we'." },
+        'ex2-q9': { answer: "am not going to play", hint: "Negative form for 'I'." },
+
+        'revA-q1': { answer: "i'm not going to play baseball", hint: "Use contraction 'I'm not'." },
+        'revA-q2': { answer: "argentina is going to win", hint: "'Argentina' is singular." },
+        'revA-q3': { answer: "it's not going to rain", hint: "Use contraction 'It's not' or 'It isn't'." },
+        'revA-q4': { answer: "we're not going to have dinner", hint: "Use contraction 'We're not' or 'We aren't'." },
+        'revA-q5': { answer: "you're going to love", hint: "Use contraction 'You're'." },
+		        // --- EXTRA PRACTICE ANSWERS ---
+        'extra-ex-1': { answer: "is going to visit/she's going to visit", hint: "Use 'is' for 'She'." },
+        'extra-ex-2': { answer: "are going to buy/they're going to buy", hint: "Use 'are' for 'They'." },
+        'extra-ex-3': { answer: "am going to start/i'm going to start", hint: "Use 'am' for 'I'." },
+        'extra-ex-4': { answer: "is going to cook/he's going to cook", hint: "Use 'is' for 'He'." },
+        'extra-ex-5': { answer: "are going to travel/we're going to travel", hint: "Use 'are' for 'We'." },
+        'extra-ex-6': { answer: "is going to rain/it's going to rain", hint: "Use 'is' for 'It'." },
+        'extra-ex-7': { answer: "is going to study", hint: "Subject is 'My sister' (singular)." },
+        'extra-ex-8': { answer: "are going to watch", hint: "Subject is 'The children' (plural)." },
+        'extra-ex-9': { answer: "are going to have/you're going to have", hint: "Use 'are' for 'You'." },
+        'extra-ex-10': { answer: "is going to win", hint: "Subject is 'our team' (singular unit)." },
+        'extra-ex-11': { answer: "is going to fix/he's going to fix", hint: "Use 'is' for 'He'." },
+        'extra-ex-12': { answer: "are going to learn/we're going to learn", hint: "Use 'are' for 'We'." },
+        'extra-ex-13': { answer: "are going to build/they're going to build", hint: "Use 'are' for 'They'." },
+        'extra-ex-14': { answer: "is going to move", hint: "Subject is 'Sarah' (singular)." },
+        'extra-ex-15': { answer: "am going to call/i'm going to call", hint: "Use 'am' for 'I'." },
+        'extra-ex-16': { answer: "is going to arrive", hint: "Subject is 'The bus' (singular)." },
+        'extra-ex-17': { answer: "are going to be", hint: "Subject is 'You and I' (plural)." },
+        'extra-ex-18': { answer: "are going to give", hint: "Subject is 'His parents' (plural)." },
+        'extra-ex-19': { answer: "am going to go/i'm going to go", hint: "Use 'am' for 'I'." },
+        'extra-ex-20': { answer: "is going to fall", hint: "Subject is 'That glass' (singular)." },
+
+        'extra-ex-21': { answer: "am not going to watch/i'm not going to watch", hint: "Negative for 'I'." },
+        'extra-ex-22': { answer: "are not going to come/aren't going to come/they're not going to come", hint: "Negative for 'They'." },
+        'extra-ex-23': { answer: "is not going to play/isn't going to play/he's not going to play", hint: "Negative for 'He'." },
+        'extra-ex-24': { answer: "are not going to eat/aren't going to eat/we're not going to eat", hint: "Negative for 'We'." },
+        'extra-ex-25': { answer: "is not going to wear/isn't going to wear/she's not going to wear", hint: "Negative for 'She'." },
+        'extra-ex-26': { answer: "is not going to be/isn't going to be/it's not going to be", hint: "Negative for 'It'." },
+        'extra-ex-27': { answer: "are not going to need/aren't going to need/you're not going to need", hint: "Negative for 'You'." },
+        'extra-ex-28': { answer: "are not going to buy/aren't going to buy/we're not going to buy", hint: "Negative for 'We'." },
+        'extra-ex-29': { answer: "is not going to fail/isn't going to fail/he's not going to fail", hint: "Negative for 'He'." },
+        'extra-ex-30': { answer: "am not going to tell/i'm not going to tell", hint: "Negative for 'I'." },
+        'extra-ex-31': { answer: "are not going to travel/aren't going to travel", hint: "Subject 'My parents' is plural." },
+        'extra-ex-32': { answer: "is not going to start/isn't going to start", hint: "Subject 'The movie' is singular." },
+        'extra-ex-33': { answer: "are not going to arrive/aren't going to arrive/they're not going to arrive", hint: "Negative for 'They'." },
+        'extra-ex-34': { answer: "is not going to eat/isn't going to eat/she's not going to eat", hint: "Negative for 'She'." },
+        'extra-ex-35': { answer: "are not going to join/aren't going to join/we're not going to join", hint: "Negative for 'We'." },
+
+        'extra-ex-36': { answer: "is not going to snow/isn't going to snow/it's not going to snow", hint: "The forecast is sunny, so it won't snow." },
+        'extra-ex-37': { answer: "am going to buy/i'm going to buy", hint: "Saved money is a reason to buy." },
+        'extra-ex-38': { answer: "are going to walk/they're going to walk", hint: "Missing the bus means they have to walk." },
+        'extra-ex-39': { answer: "is not going to go/isn't going to go/he's not going to go", hint: "Feeling sick is a reason not to go." },
+        'extra-ex-40': { answer: "are going to relax/we're going to relax", hint: "Finishing work means they can relax." },
+        'extra-ex-41': { answer: "am not going to drive/i'm not going to drive", hint: "A broken car means you can't drive." },
+        'extra-ex-42': { answer: "is going to go/she's going to go", hint: "Loving a singer is a reason to go to their concert." },
+        'extra-ex-43': { answer: "are going to order/we're going to order", hint: "No food is a reason to order pizza." },
+        'extra-ex-44': { answer: "is not going to pay/isn't going to pay/he's not going to pay", hint: "Forgetting his wallet means he can't pay." },
+        'extra-ex-45': { answer: "are not going to study/aren't going to study/they're not going to study", hint: "The library closing means they can't study." },
+        
+        'extra-ex-46': { answer: "i am going to write a letter", hint: "Start with the subject 'I'." },
+        'extra-ex-47': { answer: "they are not going to watch the game", hint: "Start with 'They', then the verb." },
+        'extra-ex-48': { answer: "he is going to clean his room", hint: "Start with 'He'." },
+        'extra-ex-49': { answer: "we are going to enjoy the party", hint: "Start with 'We'." },
+        'extra-ex-50': { answer: "it is not going to rain tomorrow", hint: "Start with 'It'." },
+        'extra-ex-51': { answer: "she is going to take a vacation", hint: "Start with 'She'." },
+        'extra-ex-52': { answer: "we aren't going to be late", hint: "Start with 'We'." },
+        'extra-ex-53': { answer: "i am going to finish my homework", hint: "Start with 'I'." },
+        'extra-ex-54': { answer: "they are going to buy the tickets", hint: "Start with 'They'." },
+        'extra-ex-55': { answer: "he isn't going to forget", hint: "Start with 'He'." },
+        'extra-ex-56': { answer: "you are going to have a wonderful time", hint: "Start with 'You'." },
+        'extra-ex-57': { answer: "we are going to visit our cousins", hint: "Start with 'We'." },
+        'extra-ex-58': { answer: "i am not going to give up", hint: "Start with 'I'." },
+        'extra-ex-59': { answer: "the meeting is going to start soon", hint: "Start with 'The meeting'." },
+        'extra-ex-60': { answer: "they are going to move to a new house", hint: "Start with 'They'." },
+        'extra-ex-61': { answer: "she is not going to check her email", hint: "Start with 'She'." },
+        'extra-ex-62': { answer: "we are going to make a cake", hint: "Start with 'We'." },
+        'extra-ex-63': { answer: "i am going to go to bed early", hint: "Start with 'I'." },
+        'extra-ex-64': { answer: "he is going to call his parents", hint: "Start with 'He'." },
+        'extra-ex-65': { answer: "they are not going to the concert", hint: "Start with 'They'." }
+    };
+    
+    // --- Generic Answer Checker ---
+    function checkAnswer(questionId, userAnswer) {
+        const feedbackEl = document.getElementById(`feedback-${questionId}`);
+        const correctAnswerData = answers[questionId];
+        
+        if (!correctAnswerData) {
+            console.error('No answer key for question:', questionId);
+            return;
+        }
+
+        // Normalize text answers for easier comparison
+        let processedUserAnswer = typeof userAnswer === 'string' ? userAnswer.trim().toLowerCase().replace(/[.,]/g, '') : userAnswer;
+        let processedCorrectAnswer = correctAnswerData.answer.toLowerCase();
+
+        // Special handling for answers with slashes (e.g., 'isn't / is not')
+        const alternativeAnswers = processedCorrectAnswer.split('/').map(a => a.trim());
+
+        if (alternativeAnswers.includes(processedUserAnswer)) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback correct';
+        } else {
+            feedbackEl.textContent = `Incorrect. Hint: ${correctAnswerData.hint}`;
+            feedbackEl.className = 'feedback incorrect';
+        }
+    }
+
+    // --- Add Event Listeners to all Submit Buttons ---
+    const allButtons = document.querySelectorAll('.exercise button[data-question]');
+    allButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            const questionId = e.target.getAttribute('data-question');
+            const inputEl = document.querySelector(`[name="${questionId}"], #${questionId}`);
+            
+            let userAnswer;
+            if (inputEl.type === 'radio') {
+                const checkedRadio = document.querySelector(`input[name="${questionId}"]:checked`);
+                userAnswer = checkedRadio ? checkedRadio.value : '';
+            } else { // text, select-one
+                userAnswer = inputEl.value;
+            }
+            
+            checkAnswer(questionId, userAnswer);
+        });
+    });
+
+    // --- Writing Section: Sentence Splitter ---
+    const paragraph = document.getElementById('model-paragraph');
+    const sentenceListContainer = document.getElementById('sentence-list');
+    
+    if (paragraph && sentenceListContainer) {
+        // Get text and remove the underlined tags for clean splitting
+        const cleanText = paragraph.innerHTML.replace(/<\/?u>/g, '');
+        const sentences = cleanText.split('.').filter(sentence => sentence.trim().length > 0);
+        
+        const ol = document.createElement('ol');
+        sentences.forEach(s => {
+            const li = document.createElement('li');
+            li.textContent = s.trim() + '.';
+            ol.appendChild(li);
+        });
+        
+        sentenceListContainer.appendChild(ol);
+    }
+});
+</script>
+
+</body>
+</html>
