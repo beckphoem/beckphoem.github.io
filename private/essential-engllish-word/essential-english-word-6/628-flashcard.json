@@ -1,0 +1,182 @@
+[
+	{
+	  "question": "adjoining",
+	  "classes": "adj",
+	  "answer": "Nối liền, kế bên.",
+	  "ipa": "/əˈdʒɔɪ.nɪŋ/",
+	  "example": "`Ơ` `joining` (adjoining) là để **nối liền** hai cái này.",
+	  "english-definition": "(of a building, room, or piece of land) next to or joined with.",
+	  "images": "eew-6-28/1.png"
+	},
+	{
+	  "question": "allege",
+	  "classes": "v",
+	  "answer": "Cho là, viện cớ là.",
+	  "ipa": "/əˈledʒ/",
+	  "example": "`Ơ` `lét` (allege) go mà không **cho là** có bằng chứng.",
+	  "english-definition": "To claim or assert that someone has done something illegal or wrong, typically without proof.",
+	  "images": "eew-6-28/2.png"
+	},
+	{
+	  "question": "arch",
+	  "classes": "n",
+	  "answer": "Mái vòm, hình cung.",
+	  "ipa": "/ɑːrtʃ/",
+	  "example": "`Á` (arch) cái **mái vòm** đẹp quá.",
+	  "english-definition": "A curved symmetrical structure spanning an opening and typically supporting the weight of a bridge, roof, or wall above it.",
+	  "images": "eew-6-28/3.png"
+	},
+	{
+	  "question": "assemble",
+	  "classes": "v",
+	  "answer": "Tụ tập, tập hợp.",
+	  "ipa": "/əˈsem.bəl/",
+	  "example": "`Ơ` `xem` `bồ` (assemble) đang **tụ tập** làm gì kìa.",
+	  "english-definition": "To gather together in one place for a common purpose.",
+	  "images": "eew-6-28/4.png"
+	},
+	{
+	  "question": "casualty",
+	  "classes": "n",
+	  "answer": "Người bị thương, người chết, thương vong.",
+	  "ipa": "/ˈkæʒ.u.əl.ti/",
+	  "example": "`Ca` `rua` `lì` (casualty) nên mới có **thương vong**.",
+	  "english-definition": "A person killed or injured in a war or accident.",
+	  "images": "eew-6-28/5.png"
+	},
+	{
+	  "question": "erect",
+	  "classes": "v",
+	  "answer": "Dựng lên, xây dựng.",
+	  "ipa": "/ɪˈrekt/",
+	  "example": "`Í` `réc` (erect) một tiếng là **dựng lên** được cả cái cột.",
+	  "english-definition": "To construct (a building, wall, or other upright structure).",
+	  "images": "eew-6-28/6.png"
+	},
+	{
+	  "question": "foul",
+	  "classes": "adj",
+	  "answer": "Hôi thối, bẩn thỉu; (tâm trạng) tồi tệ, cáu kỉnh.",
+	  "ipa": "/faʊl/",
+	  "example": "`Phau` (foul) câu mà nghe **hôi thối** thế.",
+	  "english-definition": "Offensive to the senses, especially through having a disgusting smell or taste or being dirty.",
+	  "images": "eew-6-28/7.png"
+	},
+	{
+	  "question": "hectare",
+	  "classes": "n",
+	  "answer": "Hecta (đơn vị đo diện tích).",
+	  "ipa": "/ˈhek.teər/",
+	  "example": "`Hét` `ta` (hectare) lên vì có cả **hecta** đất.",
+	  "english-definition": "A unit of square measure equal to 100 ares (2.471 acres or 10,000 square meters).",
+	  "images": "eew-6-28/8.png"
+	},
+	{
+	  "question": "heighten",
+	  "classes": "v",
+	  "answer": "Tăng cường, làm cao lên.",
+	  "ipa": "/ˈhaɪ.tən/",
+	  "example": "`Hai` `tân` (heighten) binh mới làm **tăng** thêm sức mạnh.",
+	  "english-definition": "To make or become more intense.",
+	  "images": "eew-6-28/9.png"
+	},
+	{
+	  "question": "hospitality",
+	  "classes": "n",
+	  "answer": "Lòng hiếu khách.",
+	  "ipa": "/ˌhɒs.pɪˈtæl.ə.ti/",
+	  "example": "`Hót` `đi` `bồ` `tala` `ty` (hospitality) để thể hiện **lòng hiếu khách**.",
+	  "english-definition": "The friendly and generous reception and entertainment of guests, visitors, or strangers.",
+	  "images": "eew-6-28/10.png"
+	},
+	{
+	  "question": "mansion",
+	  "classes": "n",
+	  "answer": "Lâu đài, biệt thự lớn.",
+	  "ipa": "/ˈmæn.ʃən/",
+	  "example": "`Men` `sần` (mansion) sùi sống trong **biệt thự**.",
+	  "english-definition": "A large impressive house.",
+	  "images": "eew-6-28/11.png"
+	},
+	{
+	  "question": "outnumber",
+	  "classes": "v",
+	  "answer": "Đông hơn, nhiều hơn về số lượng.",
+	  "ipa": "/ˌaʊtˈnʌm.bər/",
+	  "example": "`Áo` `nằm` `bơ` (outnumber) vơ vì quân ta **đông hơn** địch.",
+	  "english-definition": "To be greater in number than someone or something.",
+	  "images": "eew-6-28/12.png"
+	},
+	{
+	  "question": "overjoyed",
+	  "classes": "adj",
+	  "answer": "Vui mừng khôn xiết.",
+	  "ipa": "/ˌoʊ.vərˈdʒɔɪd/",
+	  "example": "`Âu` `vờ` `choi` (overjoyed) để che giấu sự **vui mừng khôn xiết**.",
+	  "english-definition": "Extremely happy.",
+	  "images": "eew-6-28/13.png"
+	},
+	{
+	  "question": "pasture",
+	  "classes": "n",
+	  "answer": "Đồng cỏ, bãi chăn thả.",
+	  "ipa": "/ˈpæs.tʃər/",
+	  "example": "`Bát` `chơ` (pasture) vơ giữa **đồng cỏ**.",
+	  "english-definition": "Land covered with grass and other low plants suitable for grazing animals, especially cattle or sheep.",
+	  "images": "eew-6-28/14.png"
+	},
+	{
+	  "question": "petition",
+	  "classes": "n",
+	  "answer": "Đơn kiến nghị, đơn thỉnh cầu.",
+	  "ipa": "/pəˈtɪʃ.ən/",
+	  "example": "`Bị` `thí` `sần` (petition) vì ký vào **đơn kiến nghị**.",
+	  "english-definition": "A formal written request, typically one signed by many people, appealing to authority with respect to a particular cause.",
+	  "images": "eew-6-28/15.png"
+	},
+	{
+	  "question": "renovate",
+	  "classes": "v",
+	  "answer": "Cải tạo, đổi mới.",
+	  "ipa": "/ˈren.ə.veɪt/",
+	  "example": "`Ren` `nó` `vét` (renovate) sạch để **cải tạo** lại.",
+	  "english-definition": "To restore (something old, especially a building) to a good state of repair.",
+	  "images": "eew-6-28/16.png"
+	},
+	{
+	  "question": "revise",
+	  "classes": "v",
+	  "answer": "Xem lại, sửa lại.",
+	  "ipa": "/rɪˈvaɪz/",
+	  "example": "`Đi` `vài` (revise) vòng để **xem lại**, sửa lại.",
+	  "english-definition": "To re-examine and make alterations to (written or printed matter).",
+	  "images": "eew-6-28/17.png"
+	},
+	{
+	  "question": "slab",
+	  "classes": "n",
+	  "answer": "Phiến, tấm (đá, gỗ...).",
+	  "ipa": "/slæb/",
+	  "example": "`Sờ` `láp` (slab) top trên **phiến đá**.",
+	  "english-definition": "A large, thick, flat piece of stone, concrete, or wood, typically rectangular.",
+	  "images": "eew-6-28/18.png"
+	},
+	{
+	  "question": "terrace",
+	  "classes": "n",
+	  "answer": "Sân thượng, thềm.",
+	  "ipa": "/ˈter.əs/",
+	  "example": "`Té` `rớt` (terrace) từ **sân thượng**.",
+	  "english-definition": "A paved area beside a building; a patio or veranda.",
+	  "images": "eew-6-28/19.png"
+	},
+	{
+	  "question": "turf",
+	  "classes": "n",
+	  "answer": "Lớp đất có cỏ, cỏ.",
+	  "ipa": "/tɜːrf/",
+	  "example": "`Tớp` (turf) một miếng **cỏ**.",
+	  "english-definition": "Grass and the surface layer of earth held together by its roots.",
+	  "images": "eew-6-28/20.png"
+	}
+]
