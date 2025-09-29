@@ -1,0 +1,182 @@
+[
+	{
+	  "question": "analogous",
+	  "classes": "adj",
+	  "answer": "Tương tự, giống nhau.",
+	  "ipa": "/əˈnæl.ə.ɡəs/",
+	  "example": "`A` `ná` `lơ` `gớt` (analogous) vì chúng nó **tương tự** nhau quá.",
+	  "english-definition": "Comparable in certain respects, typically in a way which makes clearer the nature of the things compared.",
+	  "images": "eew-6-29/1.png"
+	},
+	{
+	  "question": "binoculars",
+	  "classes": "n",
+	  "answer": "Ống nhòm.",
+	  "ipa": "/bɪˈnɒk.jə.ləz/",
+	  "example": "`Bị` `nó` `cứ` `lơ` (binoculars) vì nó mải nhìn qua **ống nhòm**.",
+	  "english-definition": "An optical instrument with a lens for each eye, used for viewing distant objects.",
+	  "images": "eew-6-29/2.png"
+	},
+	{
+	  "question": "bulk",
+	  "classes": "n",
+	  "answer": "Phần lớn, số lượng lớn, kích thước lớn.",
+	  "ipa": "/bʌlk/",
+	  "example": "`Bụi` (bulk) bám vào **phần lớn** hàng hóa.",
+	  "english-definition": "The mass or size of something large.",
+	  "images": "eew-6-29/3.png"
+	},
+	{
+	  "question": "comprise",
+	  "classes": "v",
+	  "answer": "Bao gồm, gồm có.",
+	  "ipa": "/kəmˈpraɪz/",
+	  "example": "`Cơm` `rai` (comprise) **bao gồm** nhiều món lắm.",
+	  "english-definition": "To consist of; be made up of.",
+	  "images": "eew-6-29/4.png"
+	},
+	{
+	  "question": "depict",
+	  "classes": "v",
+	  "answer": "Miêu tả, mô tả.",
+	  "ipa": "/dɪˈpɪkt/",
+	  "example": "`Đi` `bích` (depict) là cách **miêu tả** thế bài.",
+	  "english-definition": "To represent by or as if by a picture.",
+	  "images": "eew-6-29/5.png"
+	},
+	{
+	  "question": "dual",
+	  "classes": "adj",
+	  "answer": "Kép, đôi, hai.",
+	  "ipa": "/dʒuː.əl/",
+	  "example": "Cả làng `đua` `ồ` (dual) lên vì lợi ích **kép**.",
+	  "english-definition": "Consisting of two parts, elements, or aspects.",
+	  "images": "eew-6-29/6.png"
+	},
+	{
+	  "question": "Fahrenheit",
+	  "classes": "n",
+	  "answer": "Độ F (đơn vị đo nhiệt độ).",
+	  "ipa": "/ˈfær.ən.haɪt/",
+	  "example": "`Phe` `rần` `hai` (Fahrenheit) bên vì cãi nhau về **độ F**.",
+	  "english-definition": "Of or denoting a scale of temperature on which water freezes at 32° and boils at 212° under standard conditions.",
+	  "images": "eew-6-29/7.png"
+	},
+	{
+	  "question": "fulfill",
+	  "classes": "v",
+	  "answer": "Hoàn thành, thực hiện, đáp ứng.",
+	  "ipa": "/fʊlˈfɪl/",
+	  "example": "`Fun` `feel` (fulfill) khi **hoàn thành** nhiệm vụ.",
+	  "english-definition": "To bring to completion or reality; achieve or realize (something desired, promised, or predicted).",
+	  "images": "eew-6-29/8.png"
+	},
+	{
+	  "question": "grove",
+	  "classes": "n",
+	  "answer": "Lùm cây, khu rừng nhỏ.",
+	  "ipa": "/ɡroʊv/",
+	  "example": "`Gờ` `rô` (grove) lên trong **lùm cây**.",
+	  "english-definition": "A small wood, orchard, or group of trees.",
+	  "images": "eew-6-29/9.png"
+	},
+	{
+	  "question": "ore",
+	  "classes": "n",
+	  "answer": "Quặng.",
+	  "ipa": "/ɔːr/",
+	  "example": "`O` `rê` (ore) lên vì đào được **quặng** vàng.",
+	  "english-definition": "A naturally occurring solid material from which a metal or valuable mineral can be profitably extracted.",
+	  "images": "eew-6-29/10.png"
+	},
+	{
+	  "question": "outback",
+	  "classes": "n",
+	  "answer": "Vùng xa xôi hẻo lánh (đặc biệt ở Úc).",
+	  "ipa": "/ˈaʊt.bæk/",
+	  "example": "`Áo` `bách` (outback) khoa mặc đi tới **vùng xa xôi hẻo lánh**.",
+	  "english-definition": "The remote and usually uninhabited inland regions of Australia.",
+	  "images": "eew-6-29/11.png"
+	},
+	{
+	  "question": "outweigh",
+	  "classes": "v",
+	  "answer": "Nặng hơn, có giá trị hoặc tầm quan trọng lớn hơn.",
+	  "ipa": "/ˌaʊtˈweɪ/",
+	  "example": "`Ao` `quây` (outweigh) có giá trị **lớn hơn** cả căn nhà.",
+	  "english-definition": "To be heavier, greater, or more significant than.",
+	  "images": "eew-6-29/12.png"
+	},
+	{
+	  "question": "paradox",
+	  "classes": "n",
+	  "answer": "Nghịch lý.",
+	  "ipa": "/ˈpær.ə.dɒks/",
+	  "example": "`Ba` `ra` `đốc` (paradox) tờ hỏi về cái **nghịch lý** này.",
+	  "english-definition": "A seemingly absurd or self-contradictory statement or proposition that when investigated or explained may prove to be well founded or true.",
+	  "images": "eew-6-29/13.png"
+	},
+	{
+	  "question": "pier",
+	  "classes": "n",
+	  "answer": "Bến tàu, cầu tàu.",
+	  "ipa": "/pɪər/",
+	  "example": "Uống `bia` (pier) ở **bến tàu** thì thật tuyệt.",
+	  "english-definition": "A raised structure, including bridge supports and walkways, typically supported by widely spread piles or columns, extending from land out over water.",
+	  "images": "eew-6-29/14.png"
+	},
+	{
+	  "question": "shortcut",
+	  "classes": "n",
+	  "answer": "Đường tắt.",
+	  "ipa": "/ˈʃɔːt.kʌt/",
+	  "example": "`Sót` `cắt` (shortcut) mất một đoạn vì đi **đường tắt**.",
+	  "english-definition": "A shorter alternative route.",
+	  "images": "eew-6-29/15.png"
+	},
+	{
+	  "question": "tariff",
+	  "classes": "n",
+	  "answer": "Thuế quan, thuế nhập khẩu/xuất khẩu.",
+	  "ipa": "/ˈtær.ɪf/",
+	  "example": "`Ta` `rít` (tariff) một hơi khi thấy hóa đơn **thuế quan**.",
+	  "english-definition": "A tax or duty to be paid on a particular class of imports or exports.",
+	  "images": "eew-6-29/16.png"
+	},
+	{
+	  "question": "thermometer",
+	  "classes": "n",
+	  "answer": "Nhiệt kế.",
+	  "ipa": "/θəˈmɒm.ɪ.tər/",
+	  "example": "`Thơ` `mẹ` `tớ` (thermometer) nóng như cái **nhiệt kế**.",
+	  "english-definition": "An instrument for measuring and indicating temperature.",
+	  "images": "eew-6-29/17.png"
+	},
+	{
+	  "question": "tilt",
+	  "classes": "v",
+	  "answer": "Nghiêng, làm cho nghiêng.",
+	  "ipa": "/tɪlt/",
+	  "example": "`Tin` `lật` (tilt) làm chiếc xe **nghiêng** đi.",
+	  "english-definition": "To move or cause to move into a sloping position.",
+	  "images": "eew-6-29/18.png"
+	},
+	{
+	  "question": "vice versa",
+	  "classes": "adv",
+	  "answer": "Ngược lại.",
+	  "ipa": "/ˌvaɪs ˈvɜː.sə/",
+	  "example": "`Vai` `xơ` `vá` `xơ` (vice versa) làm đi làm lại và **ngược lại**.",
+	  "english-definition": "With the main items in the preceding statement the other way around.",
+	  "images": "eew-6-29/19.png"
+	},
+	{
+	  "question": "whereabouts",
+	  "classes": "n",
+	  "answer": "Tung tích, chỗ ở.",
+	  "ipa": "/ˈweə.rə.baʊts/",
+	  "example": "`Que` `ở` `bãi` (whereabouts) không rõ **tung tích**.",
+	  "english-definition": "The place where someone or something is.",
+	  "images": "eew-6-29/20.png"
+	}
+]
