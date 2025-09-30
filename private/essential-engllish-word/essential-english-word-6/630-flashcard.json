@@ -1,0 +1,182 @@
+[
+	{
+	  "question": "amber",
+	  "classes": "n",
+	  "answer": "Hổ phách.",
+	  "ipa": "/ˈæm.bər/",
+	  "example": "`Am` `bờ` (amber) sông có rất nhiều **hổ phách**.",
+	  "english-definition": "A hard translucent fossilized resin produced by extinct coniferous trees of the Tertiary period, typically yellowish in colour.",
+	  "images": "eew-6-30/1.png"
+	},
+	{
+	  "question": "charcoal",
+	  "classes": "n",
+	  "answer": "Than củi, than gỗ.",
+	  "ipa": "/ˈtʃɑː.kəʊl/",
+	  "example": "`Cha` `cô` (charcoal) bán **than củi**.",
+	  "english-definition": "A porous black solid, consisting of an amorphous form of carbon, obtained as a residue when wood, bone, or other organic matter is heated in the absence of air.",
+	  "images": "eew-6-30/2.png"
+	},
+	{
+	  "question": "columnist",
+	  "classes": "n",
+	  "answer": "Người phụ trách một chuyên mục trên báo, nhà báo chuyên mục.",
+	  "ipa": "/ˈkɒl.əm.nɪst/",
+	  "example": "`Có` `lắm` `nít` (columnist) muốn làm **nhà báo chuyên mục**.",
+	  "english-definition": "A journalist contributing regularly to a newspaper or magazine.",
+	  "images": "eew-6-30/3.png"
+	},
+	{
+	  "question": "courteous",
+	  "classes": "adj",
+	  "answer": "Lịch sự, nhã nhặn.",
+	  "ipa": "/ˈkɜː.ti.əs/",
+	  "example": "`Cơ` `tới` `ớt` (courteous) cũng phải **lịch sự** khi nói chuyện với nhau.",
+	  "english-definition": "Polite, respectful, or considerate in manner.",
+	  "images": "eew-6-30/4.png"
+	},
+	{
+	  "question": "credentials",
+	  "classes": "n",
+	  "answer": "Giấy tờ chứng thực, bằng cấp, tư cách.",
+	  "ipa": "/krəˈden.ʃəlz/",
+	  "example": "`Cờ` `đe` `sờ` (credentials) vào **giấy tờ chứng thực** của tôi à?",
+	  "english-definition": "A qualification, achievement, personal quality, or aspect of a person's background, typically when used to indicate that they are suitable for something.",
+	  "images": "eew-6-30/5.png"
+	},
+	{
+	  "question": "cricket",
+	  "classes": "n",
+	  "answer": "Con dế.",
+	  "ipa": "/ˈkrɪk.ɪt/",
+	  "example": "Tiếng cờ `rít` `kịt` (cricket) như tiếng **con dế** kêu.",
+	  "english-definition": "An insect related to the grasshoppers but with shorter legs. The male produces a characteristic musical chirping sound.",
+	  "images": "eew-6-30/6.png"
+	},
+	{
+	  "question": "delta",
+	  "classes": "n",
+	  "answer": "Đồng bằng, châu thổ.",
+	  "ipa": "/ˈdel.tə/",
+	  "example": "`Đeo` `tạ` (delta) đi khắp **đồng bằng** sông Cửu Long.",
+	  "english-definition": "A triangular tract of sediment deposited at the mouth of a river, typically where it diverges into several outlets.",
+	  "images": "eew-6-30/7.png"
+	},
+	{
+	  "question": "detergent",
+	  "classes": "n",
+	  "answer": "Chất tẩy rửa, bột giặt.",
+	  "ipa": "/dɪˈtɜː.dʒənt/",
+	  "example": "`Đi` `tơ` `dần` (detergent) vì mua nhiều **chất tẩy rửa**.",
+	  "english-definition": "A chemical substance in the form of a powder or a liquid for removing dirt from clothes, dishes, etc.",
+	  "images": "eew-6-30/8.png"
+	},
+	{
+	  "question": "euphemism",
+	  "classes": "n",
+	  "answer": "Lời nói giảm nói tránh, uyển ngữ.",
+	  "ipa": "/ˈjuː.fə.mɪ.zəm/",
+	  "example": "`Du` `phê` `mì` `dầm` (euphemism) là một **lời nói giảm nói tránh** cho việc ăn uống không lành mạnh.",
+	  "english-definition": "A mild or indirect word or expression substituted for one considered to be too harsh or blunt when referring to something unpleasant or embarrassing.",
+	  "images": "eew-6-30/9.png"
+	},
+	{
+	  "question": "expire",
+	  "classes": "v",
+	  "answer": "Hết hạn, mãn hạn.",
+	  "ipa": "/ɪkˈspaɪər/",
+	  "example": "`Ích` `xài` `ơ` (expire), vì thuốc này đã **hết hạn** rồi.",
+	  "english-definition": "(of a document, authorization, or agreement) cease to be valid, typically after a fixed period of time.",
+	  "images": "eew-6-30/10.png"
+	},
+	{
+	  "question": "granite",
+	  "classes": "n",
+	  "answer": "Đá hoa cương.",
+	  "ipa": "/ˈɡræn.ɪt/",
+	  "example": "`Gờ` `ra` `nít` (granite) lại bằng **đá hoa cương**.",
+	  "english-definition": "A very hard, granular, crystalline, igneous rock consisting mainly of quartz, mica, and feldspar and often used as a building stone.",
+	  "images": "eew-6-30/11.png"
+	},
+	{
+	  "question": "gravel",
+	  "classes": "n",
+	  "answer": "Sỏi.",
+	  "ipa": "/ˈɡræv.əl/",
+	  "example": "`Gờ` `ráp` `vồ` (gravel) lên vì con đường trải đầy **sỏi**.",
+	  "english-definition": "A loose aggregation of small water-worn or pounded stones.",
+	  "images": "eew-6-30/12.png"
+	},
+	{
+	  "question": "haunt",
+	  "classes": "v",
+	  "answer": "Ám ảnh.",
+	  "ipa": "/hɔːnt/",
+	  "example": "`Hòn` `đá` (haunt) này bị **ám ảnh** bởi một linh hồn.",
+	  "english-definition": "(of a ghost) manifest itself at (a place) regularly.",
+	  "images": "eew-6-30/13.png"
+	},
+	{
+	  "question": "liberal",
+	  "classes": "adj",
+	  "answer": "Phóng khoáng, rộng rãi, tự do.",
+	  "ipa": "/ˈlɪb.ər.əl/",
+	  "example": "`Lí` `bồ` `ruồi` (liberal) có thái độ rất **phóng khoáng** trong các mối quan hệ.",
+	  "english-definition": "Willing to respect or accept behaviour or opinions different from one's own; open to new ideas.",
+	  "images": "eew-6-30/14.png"
+	},
+	{
+	  "question": "maze",
+	  "classes": "n",
+	  "answer": "Mê cung.",
+	  "ipa": "/meɪz/",
+	  "example": "Lạc vào **mê cung** nên `mê` (maze) luôn không ra được.",
+	  "english-definition": "A network of paths and hedges designed as a puzzle through which one has to find a way.",
+	  "images": "eew-6-30/15.png"
+	},
+	{
+	  "question": "moss",
+	  "classes": "n",
+	  "answer": "Rêu.",
+	  "ipa": "/mɒs/",
+	  "example": "Phải `mót` (moss) từng đồng để mua **rêu** về trang trí.",
+	  "english-definition": "A small flowerless green plant which lacks true roots, growing in low carpets or rounded cushions in damp habitats and reproducing by means of spores released from stalked capsules.",
+	  "images": "eew-6-30/16.png"
+	},
+	{
+	  "question": "pebble",
+	  "classes": "n",
+	  "answer": "Đá cuội, sỏi nhỏ.",
+	  "ipa": "/ˈpeb.əl/",
+	  "example": "`Bé` `bồ` (pebble) của tôi thích nhặt **đá cuội** ở bờ biển.",
+	  "english-definition": "A small stone made smooth and round by the action of water or sand.",
+	  "images": "eew-6-30/17.png"
+	},
+	{
+	  "question": "peck",
+	  "classes": "v",
+	  "answer": "Mổ, đớp.",
+	  "ipa": "/pek/",
+	  "example": "Con chim `béc` (peck) một phát là cái **mổ** của nó.",
+	  "english-definition": "(of a bird) strike or bite something with its beak.",
+	  "images": "eew-6-30/18.png"
+	},
+	{
+	  "question": "reservoir",
+	  "classes": "n",
+	  "answer": "Hồ chứa nước, bể chứa.",
+	  "ipa": "/ˈrez.ə.vwɑːr/",
+	  "example": "`Re` `xơ` `vòi` (reservoir) nước ở **hồ chứa** nước.",
+	  "english-definition": "A large natural or artificial lake used as a source of water supply.",
+	  "images": "eew-6-30/19.png"
+	},
+	{
+	  "question": "streak",
+	  "classes": "n",
+	  "answer": "Vệt, đường sọc.",
+	  "ipa": "/striːk/",
+	  "example": "Sờ vào vết `trích` (streak) máu, để lại một **vệt** dài.",
+	  "english-definition": "A long, thin line or mark of a different substance or colour from its surroundings.",
+	  "images": "eew-6-30/20.png"
+	}
+]
