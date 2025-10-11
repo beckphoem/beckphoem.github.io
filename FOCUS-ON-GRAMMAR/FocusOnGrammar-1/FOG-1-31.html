@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 1: Present of Be: Statements</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #4A90E2;
+        }
+
+        h1 {
+            border-bottom: 2px solid #4A90E2;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            background-color: #5D9C59;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Reading Section */
+        .reading-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .article-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .article-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .pop-culture-box {
+            background-color: #FF6B6B;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .youtube-video {
+            margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .youtube-video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-top: 25px;
+            padding: 15px;
+            border-left: 4px solid #4A90E2;
+            background-color: #eaf2fa;
+        }
+        
+        .exercise-item {
+            margin-bottom: 15px;
+        }
+
+        .exercise-item p {
+            margin: 0 0 5px 0;
+        }
+
+        input[type="text"], select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+            width: 150px;
+        }
+        
+        button {
+            padding: 8px 15px;
+            border: none;
+            background-color: #4A90E2;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #357ABD;
+        }
+
+        .feedback {
+            font-weight: bold;
+            display: inline;
+            margin-left: 10px;
+        }
+
+        .feedback.correct {
+            color: #28a745;
+        }
+
+        .feedback.incorrect {
+            color: #dc3545;
+        }
+
+        .hint {
+            display: none;
+            color: #6c757d;
+            font-style: italic;
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+        
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .grammar-table th {
+            background-color: #FDD835;
+            color: #333;
+        }
+        
+        .grammar-notes ol {
+            list-style-type: none;
+            counter-reset: grammar-counter;
+            padding-left: 0;
+        }
+        
+        .grammar-notes li {
+            counter-increment: grammar-counter;
+            margin-bottom: 15px;
+            padding-left: 45px;
+            position: relative;
+        }
+
+        .grammar-notes li::before {
+            content: counter(grammar-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: #5D9C59;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+        }
+        
+        .grammar-notes li p {
+            margin: 0;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        /* Editing Exercise */
+        .editing-box {
+            background-color: #FFFDE7;
+            border: 1px solid #FBC02D;
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.8;
+            border-radius: 5px;
+        }
+        
+        .editing-box .correction {
+            color: #4A90E2;
+            font-weight: bold;
+        }
+        
+        .editing-box .mistake {
+            text-decoration: line-through;
+            color: #dc3545;
+        }
+
+        /* Writing Section */
+        #sentence-output {
+            margin-top: 15px;
+            border-left: 3px solid #FDD835;
+            padding-left: 15px;
+        }
+        
+        #sentence-output p {
+            background-color: #f9f9f9;
+            padding: 8px;
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNIT 1: Present of Be: Statements</h1>
+        <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+        <h3>Before You Read</h3>
+        <p>GROUPS: Name a young and famous person. Tell your group one thing about this person.</p>
+        <p><em>EXAMPLE: Lionel Messi. He is a great soccer player.</em></p>
+
+        <h3>Read</h3>
+        <p>Read the article about the people in the photos.</p>
+
+        <div class="reading-section">
+            <div class="pop-culture-box">
+                POP Culture News
+            </div>
+            <div class="article-content">
+                <div>
+                    <h2>Famous Couples</h2>
+                    <p>They're young. They're rich. They're talented and famous. Who <strong>are</strong> they? Where <strong>are</strong> they from? What do they do?</p>
+                </div>
+
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <img src="FOG-1-31/1.png" alt="Carrie Underwood and Mike Fisher" style="width: 300px;">
+                    <div>
+                        <p>The woman on the left <strong>is</strong> Carrie Underwood. She <strong>is</strong> from the United States. She's from the state of Oklahoma. Carrie <strong>is</strong> an American country singer. She <strong>isn't</strong> just a singer. She's also a pianist and a songwriter.</p>
+                        <p>Carrie <strong>is</strong> married to Mike Fisher. He <strong>is</strong> also talented and famous. He <strong>isn't</strong> from the United States, and he <strong>isn't</strong> a singer. He's an athlete from Ottawa, Canada. Now he's an ice hockey player for the Nashville Predators. Carrie Underwood and Mike Fisher have homes in the United States and Canada.</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                     <div>
+                        <p>Who <strong>are</strong> the people in the second photo? They're Gisele Bündchen and Tom Brady. Gisele <strong>is</strong> a supermodel. She's from Brazil, but she <strong>is</strong> famous all over the world. Her husband <strong>is</strong> Tom Brady. He <strong>is</strong> an American football player. He's from California. He plays quarterback for the New England Patriots.</p>
+                        <p>The lives of these famous people <strong>are</strong> exciting. Their lives <strong>aren't</strong> easy. They <strong>are</strong> always very busy.</p>
+                        <p>It's wonderful to be young and famous. Many young people want to be rich and famous. It takes talent, hard work, and good luck.</p>
+                    </div>
+                    <img src="FOG-1-31/2.png" alt="Gisele Bündchen and Tom Brady" style="width: 300px;">
+                </div>
+            </div>
+            
+            <div class="youtube-video">
+                <!-- THAY ĐỔI "YOUR_YOUTUBE_VIDEO_ID" BẰNG ID VIDEO CỦA BẠN -->
+                <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <h3>After You Read</h3>
+        
+        <div class="exercise">
+            <h4>B | Vocabulary</h4>
+            <p>Complete the sentences with the words from the box.</p>
+            <p><em>[ athlete, busy, exciting, famous, husband, talented ]</em></p>
+
+            <div class="exercise-item">
+                <p>1. Mike Fisher is Carrie Underwood's <input type="text" id="b1" placeholder="Type here...">.</p>
+                <button onclick="checkAnswer('b1', 'husband')">Submit</button>
+                <div id="feedback-b1" class="feedback"></div>
+                <div id="hint-b1" class="hint">Correct answer: husband</div>
+            </div>
+
+            <div class="exercise-item">
+                <p>2. Carrie Underwood plays piano, sings, and writes music. She is very <input type="text" id="b2" placeholder="Type here...">.</p>
+                <button onclick="checkAnswer('b2', 'talented')">Submit</button>
+                <div id="feedback-b2" class="feedback"></div>
+                <div id="hint-b2" class="hint">Correct answer: talented</div>
+            </div>
+
+            <div class="exercise-item">
+                <p>3. People know Gisele Bündchen all over the world. She is very <input type="text" id="b3" placeholder="Type here...">.</p>
+                <button onclick="checkAnswer('b3', 'famous')">Submit</button>
+                <div id="feedback-b3" class="feedback"></div>
+                <div id="hint-b3" class="hint">Correct answer: famous</div>
+            </div>
+            
+            <div class="exercise-item">
+                <p>4. Tom Brady is a great <input type="text" id="b4" placeholder="Type here...">. He's a football player for the New England Patriots.</p>
+                <button onclick="checkAnswer('b4', 'athlete')">Submit</button>
+                <div id="feedback-b4" class="feedback"></div>
+                <div id="hint-b4" class="hint">Correct answer: athlete</div>
+            </div>
+
+            <div class="exercise-item">
+                <p>5. Brady works hard. He is <input type="text" id="b5" placeholder="Type here..."> all the time.</p>
+                <button onclick="checkAnswer('b5', 'busy')">Submit</button>
+                <div id="feedback-b5" class="feedback"></div>
+                <div id="hint-b5" class="hint">Correct answer: busy</div>
+            </div>
+
+            <div class="exercise-item">
+                <p>6. Bündchen goes to many parties and travels to many interesting places. She has a(n) <input type="text" id="b6" placeholder="Type here..."> life.</p>
+                <button onclick="checkAnswer('b6', 'exciting')">Submit</button>
+                <div id="feedback-b6" class="feedback"></div>
+                <div id="hint-b6" class="hint">Correct answer: exciting</div>
+            </div>
+        </div>
+
+        <div class="exercise">
+            <h4>C | Comprehension</h4>
+            <p>Complete the sentences. Circle the correct letter.</p>
+
+            <div class="exercise-item">
+                <p>1. Carrie Underwood is married to ____. <br> &nbsp;&nbsp;&nbsp;&nbsp; a. Tom Brady &nbsp;&nbsp;&nbsp;&nbsp; b. Mike Fisher</p>
+                <select id="c1">
+                    <option value="">Select an answer</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                </select>
+                <button onclick="checkAnswer('c1', 'b')">Submit</button>
+                <div id="feedback-c1" class="feedback"></div>
+                <div id="hint-c1" class="hint">Correct answer: b. Mike Fisher</div>
+            </div>
+            
+            <div class="exercise-item">
+                <p>2. Underwood is a singer and ____. <br> &nbsp;&nbsp;&nbsp;&nbsp; a. an athlete &nbsp;&nbsp;&nbsp;&nbsp; b. a pianist</p>
+                <select id="c2">
+                    <option value="">Select an answer</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                </select>
+                <button onclick="checkAnswer('c2', 'b')">Submit</button>
+                <div id="feedback-c2" class="feedback"></div>
+                <div id="hint-c2" class="hint">Correct answer: b. a pianist</div>
+            </div>
+
+            <div class="exercise-item">
+                <p>3. Underwood's husband is an ____. <br> &nbsp;&nbsp;&nbsp;&nbsp; a. ice hockey player &nbsp;&nbsp;&nbsp;&nbsp; b. actor</p>
+                <select id="c3">
+                    <option value="">Select an answer</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                </select>
+                <button onclick="checkAnswer('c3', 'a')">Submit</button>
+                <div id="feedback-c3" class="feedback"></div>
+                <div id="hint-c3" class="hint">Correct answer: a. ice hockey player</div>
+            </div>
+            
+             <div class="exercise-item">
+                <p>6. Bündchen is from ____. <br> &nbsp;&nbsp;&nbsp;&nbsp; a. Canada &nbsp;&nbsp;&nbsp;&nbsp; b. Brazil</p>
+                <select id="c6">
+                    <option value="">Select an answer</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                </select>
+                <button onclick="checkAnswer('c6', 'b')">Submit</button>
+                <div id="feedback-c6" class="feedback"></div>
+                <div id="hint-c6" class="hint">Correct answer: b. Brazil</div>
+            </div>
+
+             <div class="exercise-item">
+                <p>8. To be rich and famous takes ____. <br> &nbsp;&nbsp;&nbsp;&nbsp; a. time and money &nbsp;&nbsp;&nbsp;&nbsp; b. hard work and good luck</p>
+                <select id="c8">
+                    <option value="">Select an answer</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                </select>
+                <button onclick="checkAnswer('c8', 'b')">Submit</button>
+                <div id="feedback-c8" class="feedback"></div>
+                <div id="hint-c8" class="hint">Correct answer: b. hard work and good luck</div>
+            </div>
+        </div>
+
+        <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+        <h3>PRESENT OF BE: STATEMENTS</h3>
+
+        <h4>Affirmative Statements</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Singular</th>
+                    <th colspan="2">Plural</th>
+                </tr>
+                <tr>
+                    <th>Subject</th>
+                    <th>Be</th>
+                    <th>Subject</th>
+                    <th>Be</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I</td>
+                    <td><strong>am</strong></td>
+                    <td>Masami and I<br>We</td>
+                    <td rowspan="4" style="vertical-align: middle;"><strong>are</strong></td>
+                </tr>
+                <tr>
+                    <td>You</td>
+                    <td><strong>are</strong></td>
+                    <td>You and Josh<br>You</td>
+                </tr>
+                <tr>
+                    <td>Mike<br>He</td>
+                    <td rowspan="3" style="vertical-align: middle;"><strong>is</strong></td>
+                    <td>Ivona and Juan<br>They</td>
+                </tr>
+                 <tr>
+                    <td>Carrie<br>She</td>
+                    <td>Seoul and London<br>They</td>
+                </tr>
+                 <tr>
+                    <td>Hockey<br>It</td>
+                    <td colspan="2"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Contractions</h4>
+        <table class="grammar-table">
+             <tbody>
+                <tr>
+                    <td>I am &rarr; <strong>I'm</strong></td>
+                    <td>we are &rarr; <strong>we're</strong></td>
+                </tr>
+                <tr>
+                    <td>you are &rarr; <strong>you're</strong></td>
+                    <td>you are &rarr; <strong>you're</strong></td>
+                </tr>
+                 <tr>
+                    <td>he is &rarr; <strong>he's</strong></td>
+                    <td>they are &rarr; <strong>they're</strong></td>
+                </tr>
+                 <tr>
+                    <td>she is &rarr; <strong>she's</strong></td>
+                    <td></td>
+                </tr>
+                 <tr>
+                    <td>it is &rarr; <strong>it's</strong></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Negative Statements</h4>
+        <table class="grammar-table">
+             <thead>
+                <tr>
+                    <th>Singular</th>
+                    <th>Plural</th>
+                </tr>
+                 <tr>
+                    <th>Subject + Be / Not</th>
+                    <th>Subject + Be / Not</th>
+                </tr>
+            </thead>
+             <tbody>
+                <tr>
+                    <td>I <strong>am not</strong><br>I<strong>'m not</strong></td>
+                    <td>We <strong>are not</strong><br>We<strong>'re not</strong> or We <strong>aren't</strong></td>
+                </tr>
+                <tr>
+                    <td>You <strong>are not</strong><br>You<strong>'re not</strong> or You <strong>aren't</strong></td>
+                     <td>You <strong>are not</strong><br>You<strong>'re not</strong> or You <strong>aren't</strong></td>
+                </tr>
+                 <tr>
+                    <td>He <strong>is not</strong><br>He<strong>'s not</strong> or He <strong>isn't</strong></td>
+                    <td rowspan="3" style="vertical-align: middle;">They <strong>are not</strong><br>They<strong>'re not</strong> or They <strong>aren't</strong></td>
+                </tr>
+                 <tr>
+                    <td>She <strong>is not</strong><br>She<strong>'s not</strong> or She <strong>isn't</strong></td>
+                </tr>
+                 <tr>
+                    <td>It <strong>is not</strong><br>It<strong>'s not</strong> or It <strong>isn't</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>GRAMMAR NOTES</h3>
+        <div class="grammar-notes">
+            <ol>
+                <li>
+                    The <strong>present of be</strong> has three forms: <strong>am, is, are</strong>.
+                    <p>&bull; I <strong>am</strong> a student.<br>&bull; He <strong>is</strong> from Brazil.<br>&bull; They <strong>are</strong> famous.</p>
+                </li>
+                <li>
+                    Use the correct form of <strong>be + not</strong> to make a <strong>negative statement</strong>.
+                    <p>&bull; I <strong>am not</strong> from Turkey.<br>&bull; It <strong>is not</strong> from Canada.<br>&bull; We <strong>are not</strong> famous.</p>
+                </li>
+                 <li>
+                    Use <strong>contractions</strong> (short forms) in speaking and informal writing.
+                    <p>&bull; <strong>I'm</strong> from Mexico.<br>&bull; <strong>I'm not</strong> from Ecuador.<br>&bull; There are two <strong>negative contractions</strong> for <em>is not</em> and <em>are not</em>.<br>&bull; <strong>It's not</strong> difficult. OR It <strong>isn't</strong> difficult.<br>&bull; <strong>We're not</strong> single. OR We <strong>aren't</strong> single.</p>
+                </li>
+                 <li>
+                    All <strong>sentences</strong> have a <strong>subject</strong> and a <strong>verb</strong>.
+                    <p>BE CAREFUL! You cannot make a sentence without a subject. You cannot make a sentence without a verb.<br>
+                    NOT: <del>Is from Brazil.</del><br>
+                    NOT: <del>Gisele from Brazil.</del>
+                    </p>
+                </li>
+                 <li>
+                    The <strong>subject</strong> is a noun or a pronoun. Subject pronouns (<em>I, you, he, she, it, we, you, they</em>) replace subject nouns.
+                    <p>SUBJECT NOUN: <strong>Mike Fisher</strong> is from Canada.<br>
+                    SUBJECT PRONOUN: <strong>He</strong> is from Canada.<br>
+                    BE CAREFUL! You cannot put a subject pronoun right after a subject noun.<br>
+                    NOT: <del>Fisher he is from England.</del>
+                    </p>
+                </li>
+            </ol>
+        </div>
+
+        <h2>UNIT 1 REVIEW</h2>
+        
+        <div class="exercise">
+            <h4>A | Complete the sentences. Use am, is, or are.</h4>
+            <div class="exercise-item">
+                <p>1. My brother and I <input type="text" id="r_a1"> baseball fans.</p>
+                <button onclick="checkAnswer('r_a1', 'are')">Submit</button>
+                <div id="feedback-r_a1" class="feedback"></div>
+                <div id="hint-r_a1" class="hint">Correct answer: are</div>
+            </div>
+            <div class="exercise-item">
+                <p>2. Our favorite sport <input type="text" id="r_a2"> baseball.</p>
+                <button onclick="checkAnswer('r_a2', 'is')">Submit</button>
+                <div id="feedback-r_a2" class="feedback"></div>
+                <div id="hint-r_a2" class="hint">Correct answer: is</div>
+            </div>
+            <div class="exercise-item">
+                <p>3. I <input type="text" id="r_a3"> a good baseball player.</p>
+                <button onclick="checkAnswer('r_a3', 'am')">Submit</button>
+                <div id="feedback-r_a3" class="feedback"></div>
+                <div id="hint-r_a3" class="hint">Correct answer: am</div>
+            </div>
+            <div class="exercise-item">
+                <p>4. My brother <input type="text" id="r_a4"> a good baseball player too.</p>
+                <button onclick="checkAnswer('r_a4', 'is')">Submit</button>
+                <div id="feedback-r_a4" class="feedback"></div>
+                <div id="hint-r_a4" class="hint">Correct answer: is</div>
+            </div>
+            <div class="exercise-item">
+                <p>5. We <input type="text" id="r_a5"> athletes.</p>
+                <button onclick="checkAnswer('r_a5', 'are')">Submit</button>
+                <div id="feedback-r_a5" class="feedback"></div>
+                <div id="hint-r_a5" class="hint">Correct answer: are</div>
+            </div>
+        </div>
+
+        <div class="exercise">
+            <h4>D | Correct the paragraph. There are six mistakes.</h4>
+            <p><strong>Original Paragraph:</strong></p>
+            <div class="editing-box">
+                My father and mother are from India, but they're in Canada now. My parents are doctors. My father a sports doctor, and my mother she is a foot doctor. My parents and I love sports. My father are a soccer fan, and my mother a baseball fan. I'm a soccer fan. My father and I am fans of Lionel Messi and Nuno Gomes. My sister no is good at sports. She's not a sports fan. She loves movies.
+            </div>
+            <br>
+            <p><strong>Your Correction:</strong></p>
+            <div class="editing-box">
+                My father and mother are from India, but they're in Canada now. My parents are doctors. My father <input type="text" id="r_d1" style="width: 30px;" value="a"> sports doctor, and my mother <input type="text" id="r_d2" style="width: 50px;" value="she is"> a foot doctor. My parents and I love sports. My father <input type="text" id="r_d3" style="width: 30px;" value="are"> a soccer fan, and my mother a baseball fan. I'm a soccer fan. My father and I <input type="text" id="r_d4" style="width: 30px;" value="am"> fans of Lionel Messi and Nuno Gomes. My sister <input type="text" id="r_d5" style="width: 50px;" value="no is"> good at sports. She's not a sports fan. She loves movies.
+            </div>
+             <div class="exercise-item">
+                 <button onclick="checkAllEditing()">Check All Mistakes</button>
+                 <div id="feedback-r_d" class="feedback"></div>
+             </div>
+        </div>
+        
+        <div class="exercise">
+            <h4>Writing | Sentence Splitter</h4>
+            <p><strong>Sample Paragraph:</strong></p>
+            <p id="writing-sample">My father and mother are from India, but they're in Canada now. My parents are doctors. My father is a sports doctor, and my mother is a foot doctor. My parents and I love sports. My father is a soccer fan, and my mother is a baseball fan. I'm a soccer fan. My father and I are fans of Lionel Messi and Nuno Gomes. My sister is not good at sports. She's not a sports fan. She loves movies.</p>
+            <button onclick="splitSentences()">Split into Sentences</button>
+            <div id="sentence-output"></div>
+        </div>
+        
+    </div>
+
+    <script>
+        function checkAnswer(inputId, correctAnswer) {
+            const userAnswer = document.getElementById(inputId).value.trim().toLowerCase();
+            const feedbackEl = document.getElementById('feedback-' + inputId);
+            const hintEl = document.getElementById('hint-' + inputId);
+            
+            // Handle multiple possible answers (e.g., "we're not" vs "we aren't")
+            const correctAnswers = Array.isArray(correctAnswer) ? correctAnswer.map(a => a.toLowerCase()) : [correctAnswer.toLowerCase()];
+
+            if (correctAnswers.includes(userAnswer)) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+                hintEl.style.display = 'none';
+            } else {
+                feedbackEl.textContent = 'Incorrect. Try again.';
+                feedbackEl.className = 'feedback incorrect';
+                hintEl.style.display = 'block';
+            }
+        }
+        
+        function checkAllEditing() {
+            let allCorrect = true;
+            const corrections = {
+                'r_d1': 'is',
+                'r_d2': 'is', // or just remove "she"
+                'r_d3': 'is',
+                'r_d4': 'are',
+                'r_d5': 'is not'
+            };
+            
+            const feedbackEl = document.getElementById('feedback-r_d');
+
+            for (const id in corrections) {
+                const inputEl = document.getElementById(id);
+                const userAnswer = inputEl.value.trim().toLowerCase().replace(/\s+/g, ' '); // Normalize space
+                
+                if (userAnswer !== corrections[id]) {
+                    allCorrect = false;
+                    inputEl.style.border = '2px solid #dc3545';
+                } else {
+                    inputEl.style.border = '2px solid #28a745';
+                }
+            }
+
+            // A special check for r_d2 where removing 'she' is also correct.
+            const r_d2_el = document.getElementById('r_d2');
+            if (r_d2_el.value.trim().toLowerCase() === 'is') {
+                r_d2_el.style.border = '2px solid #28a745';
+            }
+            
+            if (allCorrect) {
+                 feedbackEl.textContent = 'All corrections are right!';
+                 feedbackEl.className = 'feedback correct';
+            } else {
+                 feedbackEl.textContent = 'Some mistakes found. Check the red boxes.';
+                 feedbackEl.className = 'feedback incorrect';
+            }
+        }
+
+        function splitSentences() {
+            const paragraphText = document.getElementById('writing-sample').innerText;
+            const outputContainer = document.getElementById('sentence-output');
+            
+            // A simple split by period, then filter out empty strings.
+            const sentences = paragraphText.split('.').filter(sentence => sentence.trim().length > 0);
+            
+            outputContainer.innerHTML = ''; // Clear previous output
+            
+            sentences.forEach(sentence => {
+                const p = document.createElement('p');
+                p.textContent = sentence.trim() + '.';
+                outputContainer.appendChild(p);
+            });
+        }
+    </script>
+
+<!-- ===================================================================== -->
+<!-- ==================== SECTION BÀI TẬP BỔ SUNG ==================== -->
+<!-- ===================================================================== -->
+
+<div class="container" id="extra-practice-section">
+    <h2>ADDITIONAL PRACTICE: Present of Be</h2>
+    <p>Complete the sentences with the correct form of the verb <strong>be</strong> (am, is, are, am not, is not, are not). You can use contractions for negative forms (e.g., isn't, aren't).</p>
+
+    <style>
+        /* CSS dành riêng cho phần bài tập bổ sung để tránh xung đột */
+        #extra-practice-section .exercise-item-extra {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        #extra-practice-section .exercise-item-extra p {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        #extra-practice-section .exercise-item-extra p input {
+            margin: 0 5px;
+        }
+
+        #extra-practice-section .feedback-extra {
+            font-weight: bold;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        #extra-practice-section .feedback-extra.correct {
+            color: #28a745;
+        }
+
+        #extra-practice-section .feedback-extra.incorrect {
+            color: #dc3545;
+        }
+
+        #extra-practice-section .hint-extra {
+            display: none;
+            color: #6c757d;
+            font-style: italic;
+            font-size: 0.9em;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+    </style>
+
+    <!-- Column Wrapper -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
+        
+        <!-- Column 1 -->
+        <div>
+            <!-- List 1-50 -->
+            <div class="exercise-item-extra"><p>1. She <input type="text" id="ex1"> a talented musician.</p><button onclick="checkAnswerExtra('ex1', 'is')">Submit</button><span id="feedback-ex1" class="feedback-extra"></span><div id="hint-ex1" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>2. I <input type="text" id="ex2"> very happy today.</p><button onclick="checkAnswerExtra('ex2', 'am')">Submit</button><span id="feedback-ex2" class="feedback-extra"></span><div id="hint-ex2" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>3. They <input type="text" id="ex3"> from Argentina.</p><button onclick="checkAnswerExtra('ex3', 'are')">Submit</button><span id="feedback-ex3" class="feedback-extra"></span><div id="hint-ex3" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>4. This book <input type="text" id="ex4"> not interesting. (negative)</p><button onclick="checkAnswerExtra('ex4', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex4" class="feedback-extra"></span><div id="hint-ex4" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>5. We <input type="text" id="ex5"> cousins.</p><button onclick="checkAnswerExtra('ex5', 'are')">Submit</button><span id="feedback-ex5" class="feedback-extra"></span><div id="hint-ex5" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>6. My cat <input type="text" id="ex6"> black and white.</p><button onclick="checkAnswerExtra('ex6', 'is')">Submit</button><span id="feedback-ex6" class="feedback-extra"></span><div id="hint-ex6" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>7. You <input type="text" id="ex7"> a great student.</p><button onclick="checkAnswerExtra('ex7', 'are')">Submit</button><span id="feedback-ex7" class="feedback-extra"></span><div id="hint-ex7" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>8. He <input type="text" id="ex8"> at home right now.</p><button onclick="checkAnswerExtra('ex8', 'is')">Submit</button><span id="feedback-ex8" class="feedback-extra"></span><div id="hint-ex8" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>9. I <input type="text" id="ex9"> not tired. (negative)</p><button onclick="checkAnswerExtra('ex9', 'am not')">Submit</button><span id="feedback-ex9" class="feedback-extra"></span><div id="hint-ex9" class="hint-extra">Correct answer: am not</div></div>
+            <div class="exercise-item-extra"><p>10. The flowers in the garden <input type="text" id="ex10"> beautiful.</p><button onclick="checkAnswerExtra('ex10', 'are')">Submit</button><span id="feedback-ex10" class="feedback-extra"></span><div id="hint-ex10" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>11. It <input type="text" id="ex11"> a sunny day.</p><button onclick="checkAnswerExtra('ex11', 'is')">Submit</button><span id="feedback-ex11" class="feedback-extra"></span><div id="hint-ex11" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>12. My parents <input type="text" id="ex12"> not here. (negative)</p><button onclick="checkAnswerExtra('ex12', ['are not', 'aren\'t'])">Submit</button><span id="feedback-ex12" class="feedback-extra"></span><div id="hint-ex12" class="hint-extra">Correct answer: are not / aren't</div></div>
+            <div class="exercise-item-extra"><p>13. This <input type="text" id="ex13"> my favorite song.</p><button onclick="checkAnswerExtra('ex13', 'is')">Submit</button><span id="feedback-ex13" class="feedback-extra"></span><div id="hint-ex13" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>14. You and I <input type="text" id="ex14"> good friends.</p><button onclick="checkAnswerExtra('ex14', 'are')">Submit</button><span id="feedback-ex14" class="feedback-extra"></span><div id="hint-ex14" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>15. The children <input type="text" id="ex15"> at the park.</p><button onclick="checkAnswerExtra('ex15', 'are')">Submit</button><span id="feedback-ex15" class="feedback-extra"></span><div id="hint-ex15" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>16. English <input type="text" id="ex16"> an easy language.</p><button onclick="checkAnswerExtra('ex16', 'is')">Submit</button><span id="feedback-ex16" class="feedback-extra"></span><div id="hint-ex16" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>17. She <input type="text" id="ex17"> not a doctor. (negative)</p><button onclick="checkAnswerExtra('ex17', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex17" class="feedback-extra"></span><div id="hint-ex17" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>18. I <input type="text" id="ex18"> from Canada.</p><button onclick="checkAnswerExtra('ex18', 'am')">Submit</button><span id="feedback-ex18" class="feedback-extra"></span><div id="hint-ex18" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>19. The computers <input type="text" id="ex19"> new.</p><button onclick="checkAnswerExtra('ex19', 'are')">Submit</button><span id="feedback-ex19" class="feedback-extra"></span><div id="hint-ex19" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>20. My brother <input type="text" id="ex20"> a police officer.</p><button onclick="checkAnswerExtra('ex20', 'is')">Submit</button><span id="feedback-ex20" class="feedback-extra"></span><div id="hint-ex20" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>21. The food <input type="text" id="ex21"> delicious.</p><button onclick="checkAnswerExtra('ex21', 'is')">Submit</button><span id="feedback-ex21" class="feedback-extra"></span><div id="hint-ex21" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>22. We <input type="text" id="ex22"> students at this school.</p><button onclick="checkAnswerExtra('ex22', 'are')">Submit</button><span id="feedback-ex22" class="feedback-extra"></span><div id="hint-ex22" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>23. It <input type="text" id="ex23"> cold today.</p><button onclick="checkAnswerExtra('ex23', 'is')">Submit</button><span id="feedback-ex23" class="feedback-extra"></span><div id="hint-ex23" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>24. These shoes <input type="text" id="ex24"> not comfortable. (negative)</p><button onclick="checkAnswerExtra('ex24', ['are not', 'aren\'t'])">Submit</button><span id="feedback-ex24" class="feedback-extra"></span><div id="hint-ex24" class="hint-extra">Correct answer: are not / aren't</div></div>
+            <div class="exercise-item-extra"><p>25. I <input type="text" id="ex25"> ready for the trip.</p><button onclick="checkAnswerExtra('ex25', 'am')">Submit</button><span id="feedback-ex25" class="feedback-extra"></span><div id="hint-ex25" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>26. Her name <input type="text" id="ex26"> Maria.</p><button onclick="checkAnswerExtra('ex26', 'is')">Submit</button><span id="feedback-ex26" class="feedback-extra"></span><div id="hint-ex26" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>27. They <input type="text" id="ex27"> doctors.</p><button onclick="checkAnswerExtra('ex27', 'are')">Submit</button><span id="feedback-ex27" class="feedback-extra"></span><div id="hint-ex27" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>28. The movie <input type="text" id="ex28"> not very good. (negative)</p><button onclick="checkAnswerExtra('ex28', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex28" class="feedback-extra"></span><div id="hint-ex28" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>29. He and she <input type="text" id="ex29"> siblings.</p><button onclick="checkAnswerExtra('ex29', 'are')">Submit</button><span id="feedback-ex29" class="feedback-extra"></span><div id="hint-ex29" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>30. I <input type="text" id="ex30"> twenty years old.</p><button onclick="checkAnswerExtra('ex30', 'am')">Submit</button><span id="feedback-ex30" class="feedback-extra"></span><div id="hint-ex30" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>31. The coffee <input type="text" id="ex31"> too hot.</p><button onclick="checkAnswerExtra('ex31', 'is')">Submit</button><span id="feedback-ex31" class="feedback-extra"></span><div id="hint-ex31" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>32. You <input type="text" id="ex32"> my best friend.</p><button onclick="checkAnswerExtra('ex32', 'are')">Submit</button><span id="feedback-ex32" class="feedback-extra"></span><div id="hint-ex32" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>33. The players on the team <input type="text" id="ex33"> very talented.</p><button onclick="checkAnswerExtra('ex33', 'are')">Submit</button><span id="feedback-ex33" class="feedback-extra"></span><div id="hint-ex33" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>34. It <input type="text" id="ex34"> not raining now. (negative)</p><button onclick="checkAnswerExtra('ex34', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex34" class="feedback-extra"></span><div id="hint-ex34" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>35. My dog's name <input type="text" id="ex35"> Max.</p><button onclick="checkAnswerExtra('ex35', 'is')">Submit</button><span id="feedback-ex35" class="feedback-extra"></span><div id="hint-ex35" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>36. I <input type="text" id="ex36"> not sure about the answer. (negative)</p><button onclick="checkAnswerExtra('ex36', 'am not')">Submit</button><span id="feedback-ex36" class="feedback-extra"></span><div id="hint-ex36" class="hint-extra">Correct answer: am not</div></div>
+            <div class="exercise-item-extra"><p>37. We <input type="text" id="ex37"> on vacation.</p><button onclick="checkAnswerExtra('ex37', 'are')">Submit</button><span id="feedback-ex37" class="feedback-extra"></span><div id="hint-ex37" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>38. The library <input type="text" id="ex38"> open on Sundays.</p><button onclick="checkAnswerExtra('ex38', 'is')">Submit</button><span id="feedback-ex38" class="feedback-extra"></span><div id="hint-ex38" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>39. Those pictures <input type="text" id="ex39"> beautiful.</p><button onclick="checkAnswerExtra('ex39', 'are')">Submit</button><span id="feedback-ex39" class="feedback-extra"></span><div id="hint-ex39" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>40. He <input type="text" id="ex40"> a famous actor.</p><button onclick="checkAnswerExtra('ex40', 'is')">Submit</button><span id="feedback-ex40" class="feedback-extra"></span><div id="hint-ex40" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>41. My grandparents <input type="text" id="ex41"> from Italy.</p><button onclick="checkAnswerExtra('ex41', 'are')">Submit</button><span id="feedback-ex41" class="feedback-extra"></span><div id="hint-ex41" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>42. The test <input type="text" id="ex42"> not difficult. (negative)</p><button onclick="checkAnswerExtra('ex42', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex42" class="feedback-extra"></span><div id="hint-ex42" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>43. I <input type="text" id="ex43"> interested in history.</p><button onclick="checkAnswerExtra('ex43', 'am')">Submit</button><span id="feedback-ex43" class="feedback-extra"></span><div id="hint-ex43" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>44. You <input type="text" id="ex44"> late for the meeting.</p><button onclick="checkAnswerExtra('ex44', 'are')">Submit</button><span id="feedback-ex44" class="feedback-extra"></span><div id="hint-ex44" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>45. That car <input type="text" id="ex45"> very expensive.</p><button onclick="checkAnswerExtra('ex45', 'is')">Submit</button><span id="feedback-ex45" class="feedback-extra"></span><div id="hint-ex45" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>46. Our neighbors <input type="text" id="ex46"> very friendly.</p><button onclick="checkAnswerExtra('ex46', 'are')">Submit</button><span id="feedback-ex46" class="feedback-extra"></span><div id="hint-ex46" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>47. She <input type="text" id="ex47"> my teacher.</p><button onclick="checkAnswerExtra('ex47', 'is')">Submit</button><span id="feedback-ex47" class="feedback-extra"></span><div id="hint-ex47" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>48. The windows <input type="text" id="ex48"> not clean. (negative)</p><button onclick="checkAnswerExtra('ex48', ['are not', 'aren\'t'])">Submit</button><span id="feedback-ex48" class="feedback-extra"></span><div id="hint-ex48" class="hint-extra">Correct answer: are not / aren't</div></div>
+            <div class="exercise-item-extra"><p>49. It <input type="text" id="ex49"> 10 o'clock.</p><button onclick="checkAnswerExtra('ex49', 'is')">Submit</button><span id="feedback-ex49" class="feedback-extra"></span><div id="hint-ex49" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>50. I <input type="text" id="ex50"> a fan of rock music.</p><button onclick="checkAnswerExtra('ex50', 'am')">Submit</button><span id="feedback-ex50" class="feedback-extra"></span><div id="hint-ex50" class="hint-extra">Correct answer: am</div></div>
+        </div>
+
+        <!-- Column 2 -->
+        <div>
+            <!-- List 51-100 -->
+            <div class="exercise-item-extra"><p>51. My sister's children <input type="text" id="ex51"> very noisy.</p><button onclick="checkAnswerExtra('ex51', 'are')">Submit</button><span id="feedback-ex51" class="feedback-extra"></span><div id="hint-ex51" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>52. He <input type="text" id="ex52"> not from Brazil. (negative)</p><button onclick="checkAnswerExtra('ex52', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex52" class="feedback-extra"></span><div id="hint-ex52" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>53. The news <input type="text" id="ex53"> on TV now.</p><button onclick="checkAnswerExtra('ex53', 'is')">Submit</button><span id="feedback-ex53" class="feedback-extra"></span><div id="hint-ex53" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>54. We <input type="text" id="ex54"> ready to order.</p><button onclick="checkAnswerExtra('ex54', 'are')">Submit</button><span id="feedback-ex54" class="feedback-extra"></span><div id="hint-ex54" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>55. That house <input type="text" id="ex55"> very old.</p><button onclick="checkAnswerExtra('ex55', 'is')">Submit</button><span id="feedback-ex55" class="feedback-extra"></span><div id="hint-ex55" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>56. The water in the pool <input type="text" id="ex56"> cold.</p><button onclick="checkAnswerExtra('ex56', 'is')">Submit</button><span id="feedback-ex56" class="feedback-extra"></span><div id="hint-ex56" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>57. You <input type="text" id="ex57"> not allowed here. (negative)</p><button onclick="checkAnswerExtra('ex57', ['are not', 'aren\'t'])">Submit</button><span id="feedback-ex57" class="feedback-extra"></span><div id="hint-ex57" class="hint-extra">Correct answer: are not / aren't</div></div>
+            <div class="exercise-item-extra"><p>58. I <input type="text" id="ex58"> the first person in line.</p><button onclick="checkAnswerExtra('ex58', 'am')">Submit</button><span id="feedback-ex58" class="feedback-extra"></span><div id="hint-ex58" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>59. Her eyes <input type="text" id="ex59"> blue.</p><button onclick="checkAnswerExtra('ex59', 'are')">Submit</button><span id="feedback-ex59" class="feedback-extra"></span><div id="hint-ex59" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>60. This puzzle <input type="text" id="ex60"> difficult.</p><button onclick="checkAnswerExtra('ex60', 'is')">Submit</button><span id="feedback-ex60" class="feedback-extra"></span><div id="hint-ex60" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>61. My friends and I <input type="text" id="ex61"> going to the cinema.</p><button onclick="checkAnswerExtra('ex61', 'are')">Submit</button><span id="feedback-ex61" class="feedback-extra"></span><div id="hint-ex61" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>62. She <input type="text" id="ex62"> good at mathematics.</p><button onclick="checkAnswerExtra('ex62', 'is')">Submit</button><span id="feedback-ex62" class="feedback-extra"></span><div id="hint-ex62" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>63. The cat <input type="text" id="ex63"> under the table.</p><button onclick="checkAnswerExtra('ex63', 'is')">Submit</button><span id="feedback-ex63" class="feedback-extra"></span><div id="hint-ex63" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>64. I <input type="text" id="ex64"> not from a big city. (negative)</p><button onclick="checkAnswerExtra('ex64', 'am not')">Submit</button><span id="feedback-ex64" class="feedback-extra"></span><div id="hint-ex64" class="hint-extra">Correct answer: am not</div></div>
+            <div class="exercise-item-extra"><p>65. The players <input type="text" id="ex65"> tired after the game.</p><button onclick="checkAnswerExtra('ex65', 'are')">Submit</button><span id="feedback-ex65" class="feedback-extra"></span><div id="hint-ex65" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>66. It <input type="text" id="ex66"> my birthday today.</p><button onclick="checkAnswerExtra('ex66', 'is')">Submit</button><span id="feedback-ex66" class="feedback-extra"></span><div id="hint-ex66" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>67. These questions <input type="text" id="ex67"> easy to answer.</p><button onclick="checkAnswerExtra('ex67', 'are')">Submit</button><span id="feedback-ex67" class="feedback-extra"></span><div id="hint-ex67" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>68. His brother <input type="text" id="ex68"> taller than him.</p><button onclick="checkAnswerExtra('ex68', 'is')">Submit</button><span id="feedback-ex68" class="feedback-extra"></span><div id="hint-ex68" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>69. They <input type="text" id="ex69"> not at the library. (negative)</p><button onclick="checkAnswerExtra('ex69', ['are not', 'aren\'t'])">Submit</button><span id="feedback-ex69" class="feedback-extra"></span><div id="hint-ex69" class="hint-extra">Correct answer: are not / aren't</div></div>
+            <div class="exercise-item-extra"><p>70. This soup <input type="text" id="ex70"> a little salty.</p><button onclick="checkAnswerExtra('ex70', 'is')">Submit</button><span id="feedback-ex70" class="feedback-extra"></span><div id="hint-ex70" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>71. I <input type="text" id="ex71"> thirsty.</p><button onclick="checkAnswerExtra('ex71', 'am')">Submit</button><span id="feedback-ex71" class="feedback-extra"></span><div id="hint-ex71" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>72. We <input type="text" id="ex72"> from different countries.</p><button onclick="checkAnswerExtra('ex72', 'are')">Submit</button><span id="feedback-ex72" class="feedback-extra"></span><div id="hint-ex72" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>73. The sky <input type="text" id="ex73"> full of stars tonight.</p><button onclick="checkAnswerExtra('ex73', 'is')">Submit</button><span id="feedback-ex73" class="feedback-extra"></span><div id="hint-ex73" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>74. Your bag <input type="text" id="ex74"> on the chair.</p><button onclick="checkAnswerExtra('ex74', 'is')">Submit</button><span id="feedback-ex74" class="feedback-extra"></span><div id="hint-ex74" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>75. The birds <input type="text" id="ex75"> singing in the trees.</p><button onclick="checkAnswerExtra('ex75', 'are')">Submit</button><span id="feedback-ex75" class="feedback-extra"></span><div id="hint-ex75" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>76. My dad <input type="text" id="ex76"> an engineer.</p><button onclick="checkAnswerExtra('ex76', 'is')">Submit</button><span id="feedback-ex76" class="feedback-extra"></span><div id="hint-ex76" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>77. I <input type="text" id="ex77"> not a good singer. (negative)</p><button onclick="checkAnswerExtra('ex77', 'am not')">Submit</button><span id="feedback-ex77" class="feedback-extra"></span><div id="hint-ex77" class="hint-extra">Correct answer: am not</div></div>
+            <div class="exercise-item-extra"><p>78. The homework <input type="text" id="ex78"> due tomorrow.</p><button onclick="checkAnswerExtra('ex78', 'is')">Submit</button><span id="feedback-ex78" class="feedback-extra"></span><div id="hint-ex78" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>79. You <input type="text" id="ex79"> right about that.</p><button onclick="checkAnswerExtra('ex79', 'are')">Submit</button><span id="feedback-ex79" class="feedback-extra"></span><div id="hint-ex79" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>80. It <input type="text" id="ex80"> a long way from here.</p><button onclick="checkAnswerExtra('ex80', 'is')">Submit</button><span id="feedback-ex80" class="feedback-extra"></span><div id="hint-ex80" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>81. My keys <input type="text" id="ex81"> not in my pocket. (negative)</p><button onclick="checkAnswerExtra('ex81', ['are not', 'aren\'t'])">Submit</button><span id="feedback-ex81" class="feedback-extra"></span><div id="hint-ex81" class="hint-extra">Correct answer: are not / aren't</div></div>
+            <div class="exercise-item-extra"><p>82. She <input type="text" id="ex82"> wearing a red dress.</p><button onclick="checkAnswerExtra('ex82', 'is')">Submit</button><span id="feedback-ex82" class="feedback-extra"></span><div id="hint-ex82" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>83. These mangoes <input type="text" id="ex83"> sweet.</p><button onclick="checkAnswerExtra('ex83', 'are')">Submit</button><span id="feedback-ex83" class="feedback-extra"></span><div id="hint-ex83" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>84. The manager <input type="text" id="ex84"> busy at the moment.</p><button onclick="checkAnswerExtra('ex84', 'is')">Submit</button><span id="feedback-ex84" class="feedback-extra"></span><div id="hint-ex84" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>85. We <input type="text" id="ex85"> excited about the concert.</p><button onclick="checkAnswerExtra('ex85', 'are')">Submit</button><span id="feedback-ex85" class="feedback-extra"></span><div id="hint-ex85" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>86. I <input type="text" id="ex86"> a bit nervous.</p><button onclick="checkAnswerExtra('ex86', 'am')">Submit</button><span id="feedback-ex86" class="feedback-extra"></span><div id="hint-ex86" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>87. The office <input type="text" id="ex87"> on the third floor.</p><button onclick="checkAnswerExtra('ex87', 'is')">Submit</button><span id="feedback-ex87" class="feedback-extra"></span><div id="hint-ex87" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>88. He <input type="text" id="ex88"> not my boss. (negative)</p><button onclick="checkAnswerExtra('ex88', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex88" class="feedback-extra"></span><div id="hint-ex88" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>89. The people in this town <input type="text" id="ex89"> very kind.</p><button onclick="checkAnswerExtra('ex89', 'are')">Submit</button><span id="feedback-ex89" class="feedback-extra"></span><div id="hint-ex89" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>90. It <input type="text" id="ex90"> important to be on time.</p><button onclick="checkAnswerExtra('ex90', 'is')">Submit</button><span id="feedback-ex90" class="feedback-extra"></span><div id="hint-ex90" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>91. I <input type="text" id="ex91"> the owner of this dog.</p><button onclick="checkAnswerExtra('ex91', 'am')">Submit</button><span id="feedback-ex91" class="feedback-extra"></span><div id="hint-ex91" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>92. They <input type="text" id="ex92"> married.</p><button onclick="checkAnswerExtra('ex92', 'are')">Submit</button><span id="feedback-ex92" class="feedback-extra"></span><div id="hint-ex92" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>93. My phone <input type="text" id="ex93"> on the charger.</p><button onclick="checkAnswerExtra('ex93', 'is')">Submit</button><span id="feedback-ex93" class="feedback-extra"></span><div id="hint-ex93" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>94. You and your sister <input type="text" id="ex94"> very similar.</p><button onclick="checkAnswerExtra('ex94', 'are')">Submit</button><span id="feedback-ex94" class="feedback-extra"></span><div id="hint-ex94" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>95. The tickets for the show <input type="text" id="ex95"> sold out.</p><button onclick="checkAnswerExtra('ex95', 'are')">Submit</button><span id="feedback-ex95" class="feedback-extra"></span><div id="hint-ex95" class="hint-extra">Correct answer: are</div></div>
+            <div class="exercise-item-extra"><p>96. This jacket <input type="text" id="ex96"> not waterproof. (negative)</p><button onclick="checkAnswerExtra('ex96', ['is not', 'isn\'t'])">Submit</button><span id="feedback-ex96" class="feedback-extra"></span><div id="hint-ex96" class="hint-extra">Correct answer: is not / isn't</div></div>
+            <div class="exercise-item-extra"><p>97. I <input type="text" id="ex97"> grateful for your help.</p><button onclick="checkAnswerExtra('ex97', 'am')">Submit</button><span id="feedback-ex97" class="feedback-extra"></span><div id="hint-ex97" class="hint-extra">Correct answer: am</div></div>
+            <div class="exercise-item-extra"><p>98. Winter in my country <input type="text" id="ex98"> very cold.</p><button onclick="checkAnswerExtra('ex98', 'is')">Submit</button><span id="feedback-ex98" class="feedback-extra"></span><div id="hint-ex98" class="hint-extra">Correct answer: is</div></div>
+            <div class="exercise-item-extra"><p>99. We <input type="text" id="ex99"> not lost. (negative)</p><button onclick="checkAnswerExtra('ex99', ['are not', 'aren\'t'])">Submit</button><span id="feedback-ex99" class="feedback-extra"></span><div id="hint-ex99" class="hint-extra">Correct answer: are not / aren't</div></div>
+            <div class="exercise-item-extra"><p>100. That story <input type="text" id="ex100"> true.</p><button onclick="checkAnswerExtra('ex100', 'is')">Submit</button><span id="feedback-ex100" class="feedback-extra"></span><div id="hint-ex100" class="hint-extra">Correct answer: is</div></div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ===================================================================== -->
+<!-- ================= SCRIPT CHO BÀI TẬP BỔ SUNG ==================== -->
+<!-- ===================================================================== -->
+<script>
+    // Hàm này được đặt tên là 'checkAnswerExtra' để tránh xung đột với bất kỳ hàm nào khác có tên là 'checkAnswer'.
+    function checkAnswerExtra(inputId, correctAnswer) {
+        // Lấy giá trị người dùng nhập, loại bỏ khoảng trắng và chuyển thành chữ thường
+        const userAnswer = document.getElementById(inputId).value.trim().toLowerCase();
+        
+        // Lấy các element để hiển thị phản hồi và gợi ý
+        const feedbackEl = document.getElementById('feedback-' + inputId);
+        const hintEl = document.getElementById('hint-' + inputId);
+
+        // Tạo một mảng các câu trả lời đúng. 
+        // Điều này hữu ích cho các trường hợp có nhiều đáp án đúng (ví dụ: 'is not' và 'isn't').
+        const correctAnswers = Array.isArray(correctAnswer) 
+            ? correctAnswer.map(a => a.toLowerCase()) 
+            : [correctAnswer.toLowerCase()];
+
+        // Kiểm tra xem câu trả lời của người dùng có nằm trong mảng các câu trả lời đúng không
+        if (correctAnswers.includes(userAnswer)) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback-extra correct'; // Sử dụng class riêng
+            hintEl.style.display = 'none'; // Ẩn gợi ý nếu đúng
+        } else {
+            feedbackEl.textContent = 'Incorrect. Try again.';
+            feedbackEl.className = 'feedback-extra incorrect'; // Sử dụng class riêng
+            hintEl.style.display = 'block'; // Hiển thị gợi ý nếu sai
+        }
+    }
+</script>
+
+</body>
+</html>
