@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 30: Future with Be going to</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        /* Headers and Titles */
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid #f9a602;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .unit-number {
+            font-size: 6em;
+            font-weight: bold;
+            color: #4a4a4a;
+            margin-right: 20px;
+        }
+        .unit-title h1 {
+            margin: 0;
+            color: #f9a602;
+            font-size: 2.5em;
+        }
+        .unit-title h2 {
+            margin: 0;
+            color: #555;
+            font-weight: 300;
+        }
+        .outcomes {
+            background-color: #fff9e6;
+            border-left: 5px solid #f9a602;
+            padding: 15px;
+            margin-bottom: 25px;
+            font-size: 0.9em;
+        }
+        .outcomes h3 {
+            margin-top: 0;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* Section Headers */
+        .step-header {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        h3.section-title {
+            color: #d9534f;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            margin-top: 30px;
+        }
+        h4.exercise-title {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-left: 4px solid #5bc0de;
+            margin-top: 25px;
+        }
+
+        /* Images and Layouts */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-grid img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 20px;
+        }
+        .exercise-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .exercise-item label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 200px;
+            margin: 0 5px;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+        .feedback {
+            margin-top: 5px;
+            padding: 5px;
+            border-radius: 3px;
+            font-weight: bold;
+            display: none; /* Hidden by default */
+        }
+        .correct {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border: 1px solid #d6e9c6;
+            display: block;
+        }
+        .incorrect {
+            color: #a94442;
+            background-color: #f2dede;
+            border: 1px solid #ebccd1;
+            display: block;
+        }
+
+        /* Reading Section */
+        .conversation {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .conversation p {
+            margin: 5px 0;
+        }
+        .speaker {
+            font-weight: bold;
+            color: #0275d8;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Grammar Presentation */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4a4a4a;
+            color: white;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .grammar-note {
+            background: #eef7ff;
+            border-left: 5px solid #5bc0de;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .be-careful {
+            background: #fcf8e3;
+            border-left: 5px solid #f0ad4e;
+            padding: 15px;
+        }
+        .not-example {
+            color: #d9534f;
+            text-decoration: line-through;
+        }
+        
+        /* Writing Section */
+        .writing-prompt {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        #sentence-breakdown {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9f7ef;
+            border-radius: 5px;
+        }
+        #sentence-breakdown p {
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header class="unit-header">
+        <div class="unit-number">30</div>
+        <div class="unit-title">
+            <h1>Future with Be going to: Questions</h1>
+            <h2>CAREER PLANS AND GOALS</h2>
+        </div>
+    </header>
+
+    <div class="outcomes">
+        <h3>OUTCOMES</h3>
+        <ul>
+            <li>Ask and answer questions with <em>be going to</em></li>
+            <li>Ask and answer questions about a reading</li>
+            <li>Answer questions about a conversation</li>
+            <li>Discuss pictures and talk about possible events in the future</li>
+            <li>Talk about your plans for the future</li>
+            <li>Write an email to your friend with questions about the future</li>
+        </ul>
+    </div>
+
+    <div class="step-header">STEP 1: GRAMMAR IN CONTEXT</div>
+
+    <section id="before-you-read">
+        <h3 class="section-title">BEFORE YOU READ</h3>
+        <h4>A VOCABULARY: Study the words. Match the words and phrases.</h4>
+        
+        <div class="image-grid">
+            <div>
+                <img src="FOG-1-30/1.png" alt="A news anchor in a studio">
+                <p><strong>the news</strong></p>
+            </div>
+            <div>
+                <img src="FOG-1-30/2.png" alt="A person receiving a promotion">
+                <p><strong>a promotion</strong></p>
+            </div>
+             <div>
+                <img src="FOG-1-30/3.png" alt="A woman on a business trip">
+                <p><strong>a business trip</strong></p>
+            </div>
+        </div>
+
+        <div class="exercise">
+            <div class="exercise-item">
+                <label for="match1">1. information about things happening now</label>
+                <select id="match1">
+                    <option value="">-- select --</option>
+                    <option value="a">a. a business trip</option>
+                    <option value="b">b. a promotion</option>
+                    <option value="c">c. the news</option>
+                </select>
+                <button onclick="checkAnswer('match1', 'c', 'feedback1', 'Correct answer is c. the news')">Submit</button>
+                <div id="feedback1" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                <label for="match2">2. a higher level job</label>
+                <select id="match2">
+                    <option value="">-- select --</option>
+                    <option value="a">a. a business trip</option>
+                    <option value="b">b. a promotion</option>
+                    <option value="c">c. the news</option>
+                </select>
+                <button onclick="checkAnswer('match2', 'b', 'feedback2', 'Correct answer is b. a promotion')">Submit</button>
+                <div id="feedback2" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                <label for="match3">3. travel for work</label>
+                <select id="match3">
+                    <option value="">-- select --</option>
+                    <option value="a">a. a business trip</option>
+                    <option value="b">b. a promotion</option>
+                    <option value="c">c. the news</option>
+                </select>
+                <button onclick="checkAnswer('match3', 'a', 'feedback3', 'Correct answer is a. a business trip')">Submit</button>
+                <div id="feedback3" class="feedback"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="read">
+        <h3 class="section-title">READ</h3>
+        <h4>Read this conversation.</h4>
+        <img src="FOG-1-30/4.png" alt="A family having dinner" style="width:100%; border-radius: 8px; margin-bottom: 20px;">
+        
+        <div class="conversation">
+            <h4>A Job Offer</h4>
+            <p><span class="speaker">TIM:</span> How was your day?</p>
+            <p><span class="speaker">JESSICA:</span> Actually, I had an interesting call from Dan Evans, the TV producer.</p>
+            <p><span class="speaker">TIM:</span> Oh?</p>
+            <p><span class="speaker">JESSICA:</span> He's planning a TV news show, and he wants me in it.</p>
+            <p><span class="speaker">JEREMY:</span> Cool! What are you going to do in the show?</p>
+            <p><span class="speaker">JESSICA:</span> I'm going to present the news.</p>
+            <p><span class="speaker">JEREMY:</span> Are you going to accept the job offer?</p>
+            <p><span class="speaker">JESSICA:</span> I don't know yet.</p>
+            <p><span class="speaker">JEREMY:</span> Is it going to be a big promotion?</p>
+            <p><span class="speaker">JESSICA:</span> Uh-huh.</p>
+            <p><span class="speaker">JEREMY:</span> What about the salary? Are we going to be rich?</p>
+            <p><span class="speaker">JESSICA:</span> We didn't talk about money. But I'm sure it's going to be a raise from my present job.</p>
+            <p><span class="speaker">TIM:</span> Are you going to be away a lot? Are you going to have a lot of business trips?</p>
+            <p><span class="speaker">JESSICA:</span> I think so.</p>
+            <p><span class="speaker">ANNIE:</span> Don't take the job, Mom. I want you to stay home.</p>
+            <p><span class="speaker">BEN:</span> Yeah. You always help me with my homework. Who's going to help me with my homework? How are you going to drive me to soccer practice?</p>
+            <p><span class="speaker">TIM:</span> Hey, guys, I'm still going to be here. I can do those things.</p>
+            <p><span class="speaker">JESSICA:</span> Listen, kids, don't worry. This is all very new. The TV show isn't going to start for a long time.</p>
+        </div>
+
+        <div class="video-container">
+            <iframe
+                src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_HERE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <section id="after-you-read">
+        <h3 class="section-title">AFTER YOU READ</h3>
+        <h4>A COMPREHENSION: Look at the conversation again. For each statement, check True or False.</h4>
+        <div class="exercise">
+             <div class="exercise-item">
+                <span>1. Dan Evans has an idea for a movie.</span>
+                <input type="radio" name="q1" value="true"> True
+                <input type="radio" name="q1" value="false"> False
+                <button onclick="checkRadio('q1', 'false', 'feedback_comp1', 'Hint: He is planning a TV news show.')">Submit</button>
+                <div id="feedback_comp1" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                <span>2. Dan wants Jessica to work on a news show.</span>
+                <input type="radio" name="q2" value="true"> True
+                <input type="radio" name="q2" value="false"> False
+                <button onclick="checkRadio('q2', 'true', 'feedback_comp2', 'Hint: He wants her in his TV news show.')">Submit</button>
+                <div id="feedback_comp2" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                <span>3. Jessica's new job is going to start right away.</span>
+                <input type="radio" name="q3" value="true"> True
+                <input type="radio" name="q3" value="false"> False
+                <button onclick="checkRadio('q3', 'false', 'feedback_comp3', 'Hint: The show isn\'t going to start for a long time.')">Submit</button>
+                <div id="feedback_comp3" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                <span>4. Jessica is going to get a promotion.</span>
+                <input type="radio" name="q4" value="true"> True
+                <input type="radio" name="q4" value="false"> False
+                <button onclick="checkRadio('q4', 'true', 'feedback_comp4', 'Hint: Jeremy asks if it is a big promotion and she says Uh-huh.')">Submit</button>
+                <div id="feedback_comp4" class="feedback"></div>
+            </div>
+             <div class="exercise-item">
+                <span>5. Jeremy is unhappy about Jessica's new job.</span>
+                <input type="radio" name="q5" value="true"> True
+                <input type="radio" name="q5" value="false"> False
+                <button onclick="checkRadio('q5', 'false', 'feedback_comp5', 'Hint: He says "Cool!" and asks a lot of questions. Annie and Ben are unhappy.')">Submit</button>
+                <div id="feedback_comp5" class="feedback"></div>
+            </div>
+             <div class="exercise-item">
+                <span>6. Jessica helps Ben with homework.</span>
+                <input type="radio" name="q6" value="true"> True
+                <input type="radio" name="q6" value="false"> False
+                <button onclick="checkRadio('q6', 'true', 'feedback_comp6', 'Hint: Ben says "You always help me with my homework."')">Submit</button>
+                <div id="feedback_comp6" class="feedback"></div>
+            </div>
+             <div class="exercise-item">
+                <span>7. Tim drives Ben to soccer practice.</span>
+                <input type="radio" name="q7" value="true"> True
+                <input type="radio" name="q7" value="false"> False
+                <button onclick="checkRadio('q7', 'false', 'feedback_comp7', 'Hint: Ben asks Jessica how she is going to drive him. Tim says he can do it.')">Submit</button>
+                <div id="feedback_comp7" class="feedback"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="step-header">STEP 2: GRAMMAR PRESENTATION</div>
+    
+    <section id="grammar-presentation">
+        <h3>FUTURE WITH BE GOING TO: QUESTIONS</h3>
+        
+        <h4>Yes/No Questions</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Be</th>
+                    <th>Subject</th>
+                    <th>Going to + Base Form</th>
+                    <th>Short Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Am</td>
+                    <td>I</td>
+                    <td>going to get the job?</td>
+                    <td>Yes, you are. / No, you're not. or No, you aren't.</td>
+                </tr>
+                <tr>
+                    <td>Is</td>
+                    <td>the program</td>
+                    <td>going to start soon?</td>
+                    <td>Yes, it is. / No, it's not. or No, it isn't.</td>
+                </tr>
+                 <tr>
+                    <td>Are</td>
+                    <td>we</td>
+                    <td>going to move?</td>
+                    <td>Yes, we are. / No, we're not. or No, we aren't.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Wh- Questions</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Wh- Question Word</th>
+                    <th>Be</th>
+                    <th>Subject</th>
+                    <th>Going to + Base Form</th>
+                    <th>Short Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>When</td>
+                    <td>are</td>
+                    <td>you</td>
+                    <td>going to start?</td>
+                    <td>Next Monday.</td>
+                </tr>
+                <tr>
+                    <td>How</td>
+                    <td>are</td>
+                    <td>they</td>
+                    <td>going to get there?</td>
+                    <td>By bus.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Wh- Questions About the Subject</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Wh- Question Word</th>
+                    <th>Be</th>
+                    <th>Going to + Base Form</th>
+                    <th>Short Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Who</td>
+                    <td>is</td>
+                    <td>going to help us?</td>
+                    <td>I am.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="grammar-note">
+            <h4>GRAMMAR NOTES</h4>
+            <p><strong>1 Be going to: Yes/No Questions</strong></p>
+            <p>To make <strong>yes/no</strong> questions with <em>be going to</em>, put <strong>am</strong>, <strong>is</strong>, or <strong>are</strong> before the subject.</p>
+            <ul>
+                <li><strong>Am I going to</strong> have a big part?</li>
+                <li><strong>Is he going to</strong> change jobs?</li>
+                <li><strong>Are they going to</strong> buy a house?</li>
+            </ul>
+            <p>We usually use contractions in negative short answers.</p>
+            <p>A: Is he going to change jobs?<br>B: No, <strong>he's not.</strong> or No, <strong>he isn't.</strong></p>
+            <div class="be-careful">
+                <p><strong>BE CAREFUL!</strong> Do not use contractions with affirmative short answers.</p>
+                <p>A: Are they going to play soccer this weekend?<br>B: Yes, they are.<br><span class="not-example">NOT Yes, they're.</span></p>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <p><strong>2 Be going to: Wh- Questions</strong></p>
+            <p>To form most <strong>wh- questions</strong> with <em>be going to</em>, use a <strong>wh- question word + be + subject + going to + the base form</strong> of the verb.</p>
+            <p>A: <strong>When is it going to begin?</strong><br>B: Next year.</p>
+            <p>To form a <strong>wh- question about the subject</strong>, use <strong>who</strong> or <strong>what + is + going to + the base form</strong> of the verb.</p>
+            <p>A: <strong>Who is going to be</strong> the producer?<br>B: Dan Evans is.</p>
+            <p>We usually use <strong>short answers</strong> for wh- questions with be going to. We can also use long answers.</p>
+            <p>A: What are you going to do this summer?<br>B: <strong>Study Chinese.</strong><br>or<br>B: <strong>I'm going to study Chinese.</strong></p>
+        </div>
+    </section>
+
+    <div class="step-header">STEP 3: FOCUSED PRACTICE</div>
+
+    <section id="exercise-2">
+        <h4 class="exercise-title">EXERCISE 2: YES/NO QUESTIONS AND SHORT ANSWERS</h4>
+        <p>Complete the conversations. Use the correct forms of the verbs in parentheses.</p>
+        <div class="exercise">
+            <div class="exercise-item">
+                1. A: <input type="text" id="ex2_1a" placeholder="(be)"> you <input type="text" id="ex2_1b" placeholder="(work)"> next year?
+                <button onclick="checkMultiple(['ex2_1a', 'ex2_1b'], ['Are', 'going to work'], 'feedback_ex2_1', 'Correct: Are you going to work')">Submit</button>
+                <br>
+                B: No, <input type="text" id="ex2_1c">. I'm going to study full-time.
+                <button onclick="checkAnswer('ex2_1c', 'I\'m not', 'feedback_ex2_1', 'Correct: I\'m not')">Submit</button>
+                <div id="feedback_ex2_1" class="feedback"></div>
+            </div>
+             <div class="exercise-item">
+                2. A: <input type="text" id="ex2_2a"> she <input type="text" id="ex2_2b" placeholder="(graduate)"> in June?
+                <button onclick="checkMultiple(['ex2_2a', 'ex2_2b'], ['Is', 'going to graduate'], 'feedback_ex2_2', 'Correct: Is she going to graduate')">Submit</button>
+                <br>
+                B: No, <input type="text" id="ex2_2c">. She's going to graduate next January.
+                <button onclick="checkAnswer('ex2_2c', 'she isn\'t', 'feedback_ex2_2', 'Correct: she isn\'t / she\'s not')">Submit</button>
+                <div id="feedback_ex2_2" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                3. A: <input type="text" id="ex2_3a"> he <input type="text" id="ex2_3b" placeholder="(get)"> a promotion?
+                <button onclick="checkMultiple(['ex2_3a', 'ex2_3b'], ['Is', 'going to get'], 'feedback_ex2_3', 'Correct: Is he going to get')">Submit</button>
+                <br>
+                B: Yes, <input type="text" id="ex2_3c">. He's going to be the head chef.
+                <button onclick="checkAnswer('ex2_3c', 'he is', 'feedback_ex2_3', 'Correct: he is')">Submit</button>
+                <div id="feedback_ex2_3" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                4. A: <input type="text" id="ex2_4a"> she <input type="text" id="ex2_4b" placeholder="(be)"> a teacher?
+                <button onclick="checkMultiple(['ex2_4a', 'ex2_4b'], ['Is', 'going to be'], 'feedback_ex2_4', 'Correct: Is she going to be')">Submit</button>
+                <br>
+                B: Yes, <input type="text" id="ex2_4c">. She's going to start next September.
+                <button onclick="checkAnswer('ex2_4c', 'she is', 'feedback_ex2_4', 'Correct: she is')">Submit</button>
+                <div id="feedback_ex2_4" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                5. A: <input type="text" id="ex2_5a"> you <input type="text" id="ex2_5b" placeholder="(ask)"> for a raise?
+                <button onclick="checkMultiple(['ex2_5a', 'ex2_5b'], ['Are', 'going to ask'], 'feedback_ex2_5', 'Correct: Are you going to ask')">Submit</button>
+                <br>
+                B: No, <input type="text" id="ex2_5c">. I just started this job last month.
+                <button onclick="checkAnswer('ex2_5c', 'I\'m not', 'feedback_ex2_5', 'Correct: I\'m not')">Submit</button>
+                <div id="feedback_ex2_5" class="feedback"></div>
+            </div>
+            <div class="exercise-item">
+                6. A: <input type="text" id="ex2_6a"> they <input type="text" id="ex2_6b" placeholder="(start)"> their own business?
+                <button onclick="checkMultiple(['ex2_6a', 'ex2_6b'], ['Are', 'going to start'], 'feedback_ex2_6', 'Correct: Are they going to start')">Submit</button>
+                <br>
+                B: Yes, <input type="text" id="ex2_6c">. They're going to start an online hat business.
+                <button onclick="checkAnswer('ex2_6c', 'they are', 'feedback_ex2_6', 'Correct: they are')">Submit</button>
+                <div id="feedback_ex2_6" class="feedback"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="writing-section">
+        <h3 class="section-title">FROM GRAMMAR TO WRITING</h3>
+        <h4>A. Read a message from his friend. Underline questions with be going to.</h4>
+        <div class="writing-prompt">
+            <p>Hi Gabriel,</p>
+            <p>Congratulations! I hear that you're going to be a manager at Goodbuys. I'm so happy for you. <u>When are you going to begin?</u> <u>Are you going to work evenings?</u> <u>Are you going to take business trips?</u> <u>Are you going to live in this area?</u></p>
+            <p>Please tell me all about you and your new job.</p>
+            <p>Gustavo</p>
+        </div>
+
+        <h4>Đoạn văn mẫu (Sample text)</h4>
+        <p>Đây là đoạn văn mẫu từ bài tập. Nhấn nút để xem từng câu được tách ra.</p>
+        <button onclick="breakdownSentences()">Tách câu</button>
+        <div id="sentence-breakdown"></div>
+    </section>
+
+    <section id="review-section">
+        <h3 class="section-title">UNIT 30 REVIEW</h3>
+        
+        <h4>C. Correct the conversation. There are five mistakes.</h4>
+        <div class="conversation">
+            <p>A: I got a new job. I'm going to be a producer.</p>
+            <p>B: <span style="color:red; text-decoration: underline;">Is you going to work</span> full-time? -> <strong>Are you going to work</strong></p>
+            <p>A: Yes, <span style="color:red; text-decoration: underline;">I'm</span>. -> <strong>I am</strong></p>
+            <p>B: <span style="color:red; text-decoration: underline;">When you are going to</span> start? -> <strong>When are you going to</strong></p>
+            <p>A: Next month.</p>
+            <p>B: Are you going <span style="color:red; text-decoration: underline;">take</span> a vacation? -> <strong>to take</strong></p>
+            <p>A: Yes, I'm going to go to Toronto next week.</p>
+            <p>B: <span style="color:red; text-decoration: underline;">Who you going to stay with?</span> -> <strong>Who are you going to stay with?</strong></p>
+            <p>A: My aunt.</p>
+        </div>
+        <div class="grammar-note">
+            <p><strong>Corrected Mistakes:</strong></p>
+            <ol>
+                <li><strong>Is you going to work</strong> should be <strong>Are you going to work</strong>.</li>
+                <li><strong>Yes, I'm</strong> should be <strong>Yes, I am</strong> (No contractions in affirmative short answers).</li>
+                <li><strong>When you are going to start?</strong> should be <strong>When are you going to start?</strong> (Word order for Wh- questions).</li>
+                <li><strong>Are you going take</strong> should be <strong>Are you going to take</strong>.</li>
+                <li><strong>Who you going to stay with?</strong> should be <strong>Who are you going to stay with?</strong></li>
+            </ol>
+        </div>
+    </section>
+
+</div>
+
+<script>
+    function checkAnswer(inputId, correctAnswer, feedbackId, hint) {
+        const userInput = document.getElementById(inputId).value.trim().toLowerCase();
+        const feedbackEl = document.getElementById(feedbackId);
+        
+        // Handle multiple possible correct answers (e.g., "isn't" vs "is not")
+        let correct = false;
+        if (Array.isArray(correctAnswer)) {
+            if (correctAnswer.map(ans => ans.toLowerCase()).includes(userInput)) {
+                correct = true;
+            }
+        } else {
+            if (userInput === correctAnswer.toLowerCase()) {
+                correct = true;
+            }
+        }
+
+        if (correct) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback correct';
+        } else {
+            feedbackEl.textContent = 'Incorrect. ' + hint;
+            feedbackEl.className = 'feedback incorrect';
+        }
+    }
+
+    function checkRadio(radioName, correctValue, feedbackId, hint) {
+        const radios = document.getElementsByName(radioName);
+        const feedbackEl = document.getElementById(feedbackId);
+        let selectedValue = null;
+        for (const radio of radios) {
+            if (radio.checked) {
+                selectedValue = radio.value;
+                break;
+            }
+        }
+
+        if (selectedValue === correctValue) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback correct';
+        } else {
+            feedbackEl.textContent = 'Incorrect. ' + hint;
+            feedbackEl.className = 'feedback incorrect';
+        }
+    }
+    
+    function checkMultiple(inputIdArray, correctAnswerArray, feedbackId, hint) {
+        const feedbackEl = document.getElementById(feedbackId);
+        let allCorrect = true;
+        for(let i = 0; i < inputIdArray.length; i++) {
+            const userInput = document.getElementById(inputIdArray[i]).value.trim().toLowerCase();
+            const correctAnswer = correctAnswerArray[i].toLowerCase();
+            if(userInput !== correctAnswer) {
+                allCorrect = false;
+                break;
+            }
+        }
+
+        if (allCorrect) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback correct';
+        } else {
+            feedbackEl.textContent = 'Incorrect. ' + hint;
+            feedbackEl.className = 'feedback incorrect';
+        }
+    }
+
+    function breakdownSentences() {
+        const text = "Congratulations! I hear that you're going to be a manager at Goodbuys. I'm so happy for you. When are you going to begin? Are you going to work evenings? Are you going to take business trips? Are you going to live in this area? Please tell me all about you and your new job.";
+        
+        // Use a regular expression to split by sentence-ending punctuation
+        const sentences = text.match(/[^.!?]+[.!?]+/g);
+
+        const container = document.getElementById('sentence-breakdown');
+        container.innerHTML = '<h4>Từng câu trong đoạn văn:</h4>'; // Clear previous content and add a title
+
+        if (sentences) {
+            sentences.forEach((sentence, index) => {
+                const p = document.createElement('p');
+                p.textContent = `${index + 1}. ${sentence.trim()}`;
+                container.appendChild(p);
+            });
+        }
+    }
+</script>
+
+<div class="container">
+
+<!-- ====================================================================== -->
+<!-- =================== SECTION BÀI TẬP BỔ SUNG ==================== -->
+<!-- ====================================================================== -->
+
+<section id="additional-practice" style="margin-top: 50px; padding-top: 30px; border-top: 5px solid #d9534f;">
+
+    <header style="text-align: center; margin-bottom: 30px;">
+        <h2 style="font-size: 2.5em; color: #d9534f;">Additional Practice Exercises</h2>
+        <p style="font-size: 1.1em; color: #555;">Test your knowledge of "be going to" with 100 more questions.</p>
+    </header>
+
+    <style>
+        /* Styles specific to this additional practice section */
+        .ap-exercise-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-left: 4px solid #f9a602;
+            border-radius: 5px;
+            background-color: #fcfcfc;
+        }
+        .ap-exercise-item label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        .ap-exercise-item input[type="text"] {
+            width: 250px;
+        }
+        .ap-exercise-item button {
+             background-color: #0275d8;
+        }
+        .ap-exercise-item button:hover {
+             background-color: #025aa5;
+        }
+        h4.ap-title {
+            background-color: #e9ecef;
+            padding: 12px;
+            border-radius: 5px;
+            color: #495057;
+            margin-top: 40px;
+            border-bottom: 3px solid #ced4da;
+        }
+    </style>
+
+    <!-- EXERCISE A: Yes/No Questions -->
+    <h4 class="ap-title">Exercise A: Complete the Yes/No Questions</h4>
+    <div class="exercise">
+        <!-- Questions 1-25 -->
+        <div class="ap-exercise-item">
+            <label>1. ______ you going to call your mom later?</label>
+            <input type="text" id="ap_q1"><button onclick="checkAnswer_AP('ap_q1', 'Are', 'ap_feedback1', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback1" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>2. ______ he going to finish his homework tonight?</label>
+            <input type="text" id="ap_q2"><button onclick="checkAnswer_AP('ap_q2', 'Is', 'ap_feedback2', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback2" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>3. ______ they going to visit the museum tomorrow?</label>
+            <input type="text" id="ap_q3"><button onclick="checkAnswer_AP('ap_q3', 'Are', 'ap_feedback3', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback3" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>4. ______ she going to apply for the new job?</label>
+            <input type="text" id="ap_q4"><button onclick="checkAnswer_AP('ap_q4', 'Is', 'ap_feedback4', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback4" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>5. ______ we going to have pizza for dinner?</label>
+            <input type="text" id="ap_q5"><button onclick="checkAnswer_AP('ap_q5', 'Are', 'ap_feedback5', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback5" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>6. ______ it going to rain this afternoon?</label>
+            <input type="text" id="ap_q6"><button onclick="checkAnswer_AP('ap_q6', 'Is', 'ap_feedback6', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback6" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>7. ______ I going to need a ticket for the event?</label>
+            <input type="text" id="ap_q7"><button onclick="checkAnswer_AP('ap_q7', 'Am', 'ap_feedback7', 'Correct: Am')">Submit</button>
+            <div id="ap_feedback7" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>8. ______ your brother going to come with us?</label>
+            <input type="text" id="ap_q8"><button onclick="checkAnswer_AP('ap_q8', 'Is', 'ap_feedback8', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback8" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>9. ______ Maria and John going to get married?</label>
+            <input type="text" id="ap_q9"><button onclick="checkAnswer_AP('ap_q9', 'Are', 'ap_feedback9', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback9" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>10. ______ the train going to be on time?</label>
+            <input type="text" id="ap_q10"><button onclick="checkAnswer_AP('ap_q10', 'Is', 'ap_feedback10', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback10" class="feedback"></div>
+        </div>
+        <!-- ... add 15 more similar questions for this section -->
+        <div class="ap-exercise-item">
+            <label>11. ______ you going to watch the new movie?</label>
+            <input type="text" id="ap_q11"><button onclick="checkAnswer_AP('ap_q11', 'Are', 'ap_feedback11', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback11" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>12. ______ she going to cook dinner for everyone?</label>
+            <input type="text" id="ap_q12"><button onclick="checkAnswer_AP('ap_q12', 'Is', 'ap_feedback12', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback12" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>13. ______ the children going to play outside?</label>
+            <input type="text" id="ap_q13"><button onclick="checkAnswer_AP('ap_q13', 'Are', 'ap_feedback13', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback13" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>14. ______ Robert going to fix the car himself?</label>
+            <input type="text" id="ap_q14"><button onclick="checkAnswer_AP('ap_q14', 'Is', 'ap_feedback14', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback14" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>15. ______ we going to learn French next year?</label>
+            <input type="text" id="ap_q15"><button onclick="checkAnswer_AP('ap_q15', 'Are', 'ap_feedback15', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback15" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>16. ______ the shop going to close early today?</label>
+            <input type="text" id="ap_q16"><button onclick="checkAnswer_AP('ap_q16', 'Is', 'ap_feedback16', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback16" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>17. ______ you going to be at the meeting?</label>
+            <input type="text" id="ap_q17"><button onclick="checkAnswer_AP('ap_q17', 'Are', 'ap_feedback17', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback17" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>18. ______ your parents going to travel to Spain?</label>
+            <input type="text" id="ap_q18"><button onclick="checkAnswer_AP('ap_q18', 'Are', 'ap_feedback18', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback18" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>19. ______ the dog going to eat its food?</label>
+            <input type="text" id="ap_q19"><button onclick="checkAnswer_AP('ap_q19', 'Is', 'ap_feedback19', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback19" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>20. ______ I going to see you tomorrow?</label>
+            <input type="text" id="ap_q20"><button onclick="checkAnswer_AP('ap_q20', 'Am', 'ap_feedback20', 'Correct: Am')">Submit</button>
+            <div id="ap_feedback20" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>21. ______ it going to be cold tonight?</label>
+            <input type="text" id="ap_q21"><button onclick="checkAnswer_AP('ap_q21', 'Is', 'ap_feedback21', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback21" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>22. ______ they going to buy a house?</label>
+            <input type="text" id="ap_q22"><button onclick="checkAnswer_AP('ap_q22', 'Are', 'ap_feedback22', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback22" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>23. ______ he going to be a doctor?</label>
+            <input type="text" id="ap_q23"><button onclick="checkAnswer_AP('ap_q23', 'Is', 'ap_feedback23', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback23" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>24. ______ you going to help me with this?</label>
+            <input type="text" id="ap_q24"><button onclick="checkAnswer_AP('ap_q24', 'Are', 'ap_feedback24', 'Correct: Are')">Submit</button>
+            <div id="ap_feedback24" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>25. ______ she going to take a vacation soon?</label>
+            <input type="text" id="ap_q25"><button onclick="checkAnswer_AP('ap_q25', 'Is', 'ap_feedback25', 'Correct: Is')">Submit</button>
+            <div id="ap_feedback25" class="feedback"></div>
+        </div>
+    </div>
+
+    <!-- EXERCISE B: Complete the Wh- Questions -->
+    <h4 class="ap-title">Exercise B: Complete the Wh- Questions</h4>
+    <div class="exercise">
+        <!-- Questions 26-50 -->
+        <div class="ap-exercise-item">
+            <label>26. ______ are you going to do this weekend?</label>
+            <input type="text" id="ap_q26"><button onclick="checkAnswer_AP('ap_q26', 'What', 'ap_feedback26', 'Correct: What')">Submit</button>
+            <div id="ap_feedback26" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>27. ______ is she going to travel for her holiday?</label>
+            <input type="text" id="ap_q27"><button onclick="checkAnswer_AP('ap_q27', 'Where', 'ap_feedback27', 'Correct: Where')">Submit</button>
+            <div id="ap_feedback27" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>28. ______ are they going to start the project?</label>
+            <input type="text" id="ap_q28"><button onclick="checkAnswer_AP('ap_q28', 'When', 'ap_feedback28', 'Correct: When')">Submit</button>
+            <div id="ap_feedback28" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>29. ______ is going to help us move the furniture?</label>
+            <input type="text" id="ap_q29"><button onclick="checkAnswer_AP('ap_q29', 'Who', 'ap_feedback29', 'Correct: Who')">Submit</button>
+            <div id="ap_feedback29" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>30. ______ are you going to the party with?</label>
+            <input type="text" id="ap_q30"><button onclick="checkAnswer_AP('ap_q30', 'Who', 'ap_feedback30', 'Correct: Who')">Submit</button>
+            <div id="ap_feedback30" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>31. ______ is he going to buy for her birthday?</label>
+            <input type="text" id="ap_q31"><button onclick="checkAnswer_AP('ap_q31', 'What', 'ap_feedback31', 'Correct: What')">Submit</button>
+            <div id="ap_feedback31" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>32. ______ are we going to get there?</label>
+            <input type="text" id="ap_q32"><button onclick="checkAnswer_AP('ap_q32', 'How', 'ap_feedback32', 'Correct: How')">Submit</button>
+            <div id="ap_feedback32" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>33. ______ is the concert going to begin?</label>
+            <input type="text" id="ap_q33"><button onclick="checkAnswer_AP('ap_q33', 'When', 'ap_feedback33', 'Correct: When')">Submit</button>
+            <div id="ap_feedback33" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>34. ______ are you going to leave? Because it's getting late.</label>
+            <input type="text" id="ap_q34"><button onclick="checkAnswer_AP('ap_q34', 'Why', 'ap_feedback34', 'Correct: Why')">Submit</button>
+            <div id="ap_feedback34" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>35. ______ is going to be the new manager?</label>
+            <input type="text" id="ap_q35"><button onclick="checkAnswer_AP('ap_q35', 'Who', 'ap_feedback35', 'Correct: Who')">Submit</button>
+            <div id="ap_feedback35" class="feedback"></div>
+        </div>
+        <!-- ... add 15 more similar questions -->
+        <div class="ap-exercise-item">
+            <label>36. ______ are you going to wear to the wedding?</label>
+            <input type="text" id="ap_q36"><button onclick="checkAnswer_AP('ap_q36', 'What', 'ap_feedback36', 'Correct: What')">Submit</button>
+            <div id="ap_feedback36" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>37. ______ is she going to study at university?</label>
+            <input type="text" id="ap_q37"><button onclick="checkAnswer_AP('ap_q37', 'What', 'ap_feedback37', 'Correct: What')">Submit</button>
+            <div id="ap_feedback37" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>38. ______ are they going to build on that empty lot?</label>
+            <input type="text" id="ap_q38"><button onclick="checkAnswer_AP('ap_q38', 'What', 'ap_feedback38', 'Correct: What')">Submit</button>
+            <div id="ap_feedback38" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>39. ______ long are you going to stay in Paris?</label>
+            <input type="text" id="ap_q39"><button onclick="checkAnswer_AP('ap_q39', 'How', 'ap_feedback39', 'Correct: How')">Submit</button>
+            <div id="ap_feedback39" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>40. ______ is he going to tell his parents?</label>
+            <input type="text" id="ap_q40"><button onclick="checkAnswer_AP('ap_q40', 'What', 'ap_feedback40', 'Correct: What')">Submit</button>
+            <div id="ap_feedback40" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>41. ______ are you going to sit?</label>
+            <input type="text" id="ap_q41"><button onclick="checkAnswer_AP('ap_q41', 'Where', 'ap_feedback41', 'Correct: Where')">Submit</button>
+            <div id="ap_feedback41" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>42. ______ is going to win the game?</label>
+            <input type="text" id="ap_q42"><button onclick="checkAnswer_AP('ap_q42', 'Who', 'ap_feedback42', 'Correct: Who')">Submit</button>
+            <div id="ap_feedback42" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>43. ______ are you learning Spanish?</label>
+            <input type="text" id="ap_q43"><button onclick="checkAnswer_AP('ap_q43', 'Why', 'ap_feedback43', 'Correct: Why')">Submit</button>
+            <div id="ap_feedback43" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>44. ______ many people are going to come?</label>
+            <input type="text" id="ap_q44"><button onclick="checkAnswer_AP('ap_q44', 'How', 'ap_feedback44', 'Correct: How')">Submit</button>
+            <div id="ap_feedback44" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>45. ______ are we going to eat tonight?</label>
+            <input type="text" id="ap_q45"><button onclick="checkAnswer_AP('ap_q45', 'What', 'ap_feedback45', 'Correct: What')">Submit</button>
+            <div id="ap_feedback45" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>46. ______ is the meeting going to be?</label>
+            <input type="text" id="ap_q46"><button onclick="checkAnswer_AP('ap_q46', 'Where', 'ap_feedback46', 'Correct: Where')">Submit</button>
+            <div id="ap_feedback46" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>47. ______ time is she going to arrive?</label>
+            <input type="text" id="ap_q47"><button onclick="checkAnswer_AP('ap_q47', 'What', 'ap_feedback47', 'Correct: What')">Submit</button>
+            <div id="ap_feedback47" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>48. ______ are you going to solve this problem?</label>
+            <input type="text" id="ap_q48"><button onclick="checkAnswer_AP('ap_q48', 'How', 'ap_feedback48', 'Correct: How')">Submit</button>
+            <div id="ap_feedback48" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>49. ______ is he going to spend all that money?</label>
+            <input type="text" id="ap_q49"><button onclick="checkAnswer_AP('ap_q49', 'How', 'ap_feedback49', 'Correct: How')">Submit</button>
+            <div id="ap_feedback49" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>50. ______ is going to make the decision?</label>
+            <input type="text" id="ap_q50"><button onclick="checkAnswer_AP('ap_q50', 'Who', 'ap_feedback50', 'Correct: Who')">Submit</button>
+            <div id="ap_feedback50" class="feedback"></div>
+        </div>
+    </div>
+
+    <!-- EXERCISE C: Write the Full Question -->
+    <h4 class="ap-title">Exercise C: Write the Full Question Using the Prompts</h4>
+    <div class="exercise">
+        <!-- Questions 51-75 -->
+        <div class="ap-exercise-item">
+            <label>51. (What / you / going to do / tomorrow?)</label>
+            <input type="text" id="ap_q51"><button onclick="checkAnswer_AP('ap_q51', 'What are you going to do tomorrow?', 'ap_feedback51', 'Correct: What are you going to do tomorrow?')">Submit</button>
+            <div id="ap_feedback51" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>52. (he / going to be / late?)</label>
+            <input type="text" id="ap_q52"><button onclick="checkAnswer_AP('ap_q52', 'Is he going to be late?', 'ap_feedback52', 'Correct: Is he going to be late?')">Submit</button>
+            <div id="ap_feedback52" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>53. (Where / they / going to go / on vacation?)</label>
+            <input type="text" id="ap_q53"><button onclick="checkAnswer_AP('ap_q53', 'Where are they going to go on vacation?', 'ap_feedback53', 'Correct: Where are they going to go on vacation?')">Submit</button>
+            <div id="ap_feedback53" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>54. (she / going to accept / the offer?)</label>
+            <input type="text" id="ap_q54"><button onclick="checkAnswer_AP('ap_q54', 'Is she going to accept the offer?', 'ap_feedback54', 'Correct: Is she going to accept the offer?')">Submit</button>
+            <div id="ap_feedback54" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>55. (When / the store / going to open?)</label>
+            <input type="text" id="ap_q55"><button onclick="checkAnswer_AP('ap_q55', 'When is the store going to open?', 'ap_feedback55', 'Correct: When is the store going to open?')">Submit</button>
+            <div id="ap_feedback55" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>56. (Who / you / going to invite / to the party?)</label>
+            <input type="text" id="ap_q56"><button onclick="checkAnswer_AP('ap_q56', 'Who are you going to invite to the party?', 'ap_feedback56', 'Correct: Who are you going to invite to the party?')">Submit</button>
+            <div id="ap_feedback56" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>57. (we / going to need / an umbrella?)</label>
+            <input type="text" id="ap_q57"><button onclick="checkAnswer_AP('ap_q57', 'Are we going to need an umbrella?', 'ap_feedback57', 'Correct: Are we going to need an umbrella?')">Submit</button>
+            <div id="ap_feedback57" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>58. (How / he / going to travel / to London?)</label>
+            <input type="text" id="ap_q58"><button onclick="checkAnswer_AP('ap_q58', 'How is he going to travel to London?', 'ap_feedback58', 'Correct: How is he going to travel to London?')">Submit</button>
+            <div id="ap_feedback58" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>59. (Why / she / going to leave / so early?)</label>
+            <input type="text" id="ap_q59"><button onclick="checkAnswer_AP('ap_q59', 'Why is she going to leave so early?', 'ap_feedback59', 'Correct: Why is she going to leave so early?')">Submit</button>
+            <div id="ap_feedback59" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>60. (your friends / going to come / over?)</label>
+            <input type="text" id="ap_q60"><button onclick="checkAnswer_AP('ap_q60', 'Are your friends going to come over?', 'ap_feedback60', 'Correct: Are your friends going to come over?')">Submit</button>
+            <div id="ap_feedback60" class="feedback"></div>
+        </div>
+        <!-- ... add 15 more similar questions -->
+        <div class="ap-exercise-item">
+            <label>61. (What time / the game / going to start?)</label>
+            <input type="text" id="ap_q61"><button onclick="checkAnswer_AP('ap_q61', 'What time is the game going to start?', 'ap_feedback61', 'Correct: What time is the game going to start?')">Submit</button>
+            <div id="ap_feedback61" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>62. (you / going to buy / that dress?)</label>
+            <input type="text" id="ap_q62"><button onclick="checkAnswer_AP('ap_q62', 'Are you going to buy that dress?', 'ap_feedback62', 'Correct: Are you going to buy that dress?')">Submit</button>
+            <div id="ap_feedback62" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>63. (Who / going to be / the speaker?)</label>
+            <input type="text" id="ap_q63"><button onclick="checkAnswer_AP('ap_q63', 'Who is going to be the speaker?', 'ap_feedback63', 'Correct: Who is going to be the speaker?')">Submit</button>
+            <div id="ap_feedback63" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>64. (it / going to be / a sunny day?)</label>
+            <input type="text" id="ap_q64"><button onclick="checkAnswer_AP('ap_q64', 'Is it going to be a sunny day?', 'ap_feedback64', 'Correct: Is it going to be a sunny day?')">Submit</button>
+            <div id="ap_feedback64" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>65. (How much / it / going to cost?)</label>
+            <input type="text" id="ap_q65"><button onclick="checkAnswer_AP('ap_q65', 'How much is it going to cost?', 'ap_feedback65', 'Correct: How much is it going to cost?')">Submit</button>
+            <div id="ap_feedback65" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>66. (What / we / going to have / for lunch?)</label>
+            <input type="text" id="ap_q66"><button onclick="checkAnswer_AP('ap_q66', 'What are we going to have for lunch?', 'ap_feedback66', 'Correct: What are we going to have for lunch?')">Submit</button>
+            <div id="ap_feedback66" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>67. (they / going to sell / their car?)</label>
+            <input type="text" id="ap_q67"><button onclick="checkAnswer_AP('ap_q67', 'Are they going to sell their car?', 'ap_feedback67', 'Correct: Are they going to sell their car?')">Submit</button>
+            <div id="ap_feedback67" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>68. (Where / you / going to put / this table?)</label>
+            <input type="text" id="ap_q68"><button onclick="checkAnswer_AP('ap_q68', 'Where are you going to put this table?', 'ap_feedback68', 'Correct: Where are you going to put this table?')">Submit</button>
+            <div id="ap_feedback68" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>69. (she / going to change / her mind?)</label>
+            <input type="text" id="ap_q69"><button onclick="checkAnswer_AP('ap_q69', 'Is she going to change her mind?', 'ap_feedback69', 'Correct: Is she going to change her mind?')">Submit</button>
+            <div id="ap_feedback69" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>70. (Which movie / you / going to watch?)</label>
+            <input type="text" id="ap_q70"><button onclick="checkAnswer_AP('ap_q70', 'Which movie are you going to watch?', 'ap_feedback70', 'Correct: Which movie are you going to watch?')">Submit</button>
+            <div id="ap_feedback70" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>71. (he / going to ask / for help?)</label>
+            <input type="text" id="ap_q71"><button onclick="checkAnswer_AP('ap_q71', 'Is he going to ask for help?', 'ap_feedback71', 'Correct: Is he going to ask for help?')">Submit</button>
+            <div id="ap_feedback71" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>72. (What / Sarah / going to cook?)</label>
+            <input type="text" id="ap_q72"><button onclick="checkAnswer_AP('ap_q72', 'What is Sarah going to cook?', 'ap_feedback72', 'Correct: What is Sarah going to cook?')">Submit</button>
+            <div id="ap_feedback72" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>73. (they / going to be / ready on time?)</label>
+            <input type="text" id="ap_q73"><button onclick="checkAnswer_AP('ap_q73', 'Are they going to be ready on time?', 'ap_feedback73', 'Correct: Are they going to be ready on time?')">Submit</button>
+            <div id="ap_feedback73" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>74. (When / I / going to receive / the package?)</label>
+            <input type="text" id="ap_q74"><button onclick="checkAnswer_AP('ap_q74', 'When am I going to receive the package?', 'ap_feedback74', 'Correct: When am I going to receive the package?')">Submit</button>
+            <div id="ap_feedback74" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>75. (How / we / going to finish / this project?)</label>
+            <input type="text" id="ap_q75"><button onclick="checkAnswer_AP('ap_q75', 'How are we going to finish this project?', 'ap_feedback75', 'Correct: How are we going to finish this project?')">Submit</button>
+            <div id="ap_feedback75" class="feedback"></div>
+        </div>
+    </div>
+    
+    <!-- EXERCISE D: Complete the Conversations with Short Answers -->
+    <h4 class="ap-title">Exercise D: Complete the Conversations with Short Answers</h4>
+    <div class="exercise">
+        <!-- Questions 76-100 -->
+        <div class="ap-exercise-item">
+            <label>76. A: Is he going to the concert? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q76"><button onclick="checkAnswer_AP('ap_q76', 'he is', 'ap_feedback76', 'Correct: he is')">Submit</button>
+            <div id="ap_feedback76" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>77. A: Are you going to be busy tomorrow? B: No, ______ ______.</label>
+            <input type="text" id="ap_q77"><button onclick="checkAnswer_AP('ap_q77', ['I\'m not', 'I am not'], 'ap_feedback77', 'Correct: I\'m not')">Submit</button>
+            <div id="ap_feedback77" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>78. A: Are they going to move? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q78"><button onclick="checkAnswer_AP('ap_q78', 'they are', 'ap_feedback78', 'Correct: they are')">Submit</button>
+            <div id="ap_feedback78" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>79. A: Is she going to join the team? B: No, ______ ______.</label>
+            <input type="text" id="ap_q79"><button onclick="checkAnswer_AP('ap_q79', ['she isn\'t', 'she is not', 'she\'s not'], 'ap_feedback79', 'Correct: she isn\'t / she\'s not')">Submit</button>
+            <div id="ap_feedback79" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>80. A: Is it going to snow? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q80"><button onclick="checkAnswer_AP('ap_q80', 'it is', 'ap_feedback80', 'Correct: it is')">Submit</button>
+            <div id="ap_feedback80" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>81. A: Are we going to win? B: No, ______ ______.</label>
+            <input type="text" id="ap_q81"><button onclick="checkAnswer_AP('ap_q81', ['we aren\'t', 'we are not', 'we\'re not'], 'ap_feedback81', 'Correct: we aren\'t / we\'re not')">Submit</button>
+            <div id="ap_feedback81" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>82. A: Am I going to get the job? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q82"><button onclick="checkAnswer_AP('ap_q82', 'you are', 'ap_feedback82', 'Correct: you are')">Submit</button>
+            <div id="ap_feedback82" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>83. A: Is Tom going to call you? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q83"><button onclick="checkAnswer_AP('ap_q83', 'he is', 'ap_feedback83', 'Correct: he is')">Submit</button>
+            <div id="ap_feedback83" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>84. A: Are the shops going to be open? B: No, ______ ______.</label>
+            <input type="text" id="ap_q84"><button onclick="checkAnswer_AP('ap_q84', ['they aren\'t', 'they are not', 'they\'re not'], 'ap_feedback84', 'Correct: they aren\'t / they\'re not')">Submit</button>
+            <div id="ap_feedback84" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>85. A: Are you and Maria going to study together? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q85"><button onclick="checkAnswer_AP('ap_q85', 'we are', 'ap_feedback85', 'Correct: we are')">Submit</button>
+            <div id="ap_feedback85" class="feedback"></div>
+        </div>
+        <!-- ... add 15 more similar questions -->
+        <div class="ap-exercise-item">
+            <label>86. A: Is your dad going to retire this year? B: No, ______ ______.</label>
+            <input type="text" id="ap_q86"><button onclick="checkAnswer_AP('ap_q86', ['he isn\'t', 'he is not', 'he\'s not'], 'ap_feedback86', 'Correct: he isn\'t / he\'s not')">Submit</button>
+            <div id="ap_feedback86" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>87. A: Are the tickets going to be expensive? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q87"><button onclick="checkAnswer_AP('ap_q87', 'they are', 'ap_feedback87', 'Correct: they are')">Submit</button>
+            <div id="ap_feedback87" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>88. A: Are you going to clean your room? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q88"><button onclick="checkAnswer_AP('ap_q88', 'I am', 'ap_feedback88', 'Correct: I am')">Submit</button>
+            <div id="ap_feedback88" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>89. A: Is the computer going to work now? B: No, ______ ______.</label>
+            <input type="text" id="ap_q89"><button onclick="checkAnswer_AP('ap_q89', ['it isn\'t', 'it is not', 'it\'s not'], 'ap_feedback89', 'Correct: it isn\'t / it\'s not')">Submit</button>
+            <div id="ap_feedback89" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>90. A: Are we going to see a movie? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q90"><button onclick="checkAnswer_AP('ap_q90', 'we are', 'ap_feedback90', 'Correct: we are')">Submit</button>
+            <div id="ap_feedback90" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>91. A: Is your sister going to visit? B: No, ______ ______.</label>
+            <input type="text" id="ap_q91"><button onclick="checkAnswer_AP('ap_q91', ['she isn\'t', 'she is not', 'she\'s not'], 'ap_feedback91', 'Correct: she isn\'t / she\'s not')">Submit</button>
+            <div id="ap_feedback91" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>92. A: Am I going to pass the test? B: No, ______ ______.</label>
+            <input type="text" id="ap_q92"><button onclick="checkAnswer_AP('ap_q92', ['you aren\'t', 'you are not', 'you\'re not'], 'ap_feedback92', 'Correct: you aren\'t / you\'re not')">Submit</button>
+            <div id="ap_feedback92" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>93. A: Is he going to buy the red shirt? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q93"><button onclick="checkAnswer_AP('ap_q93', 'he is', 'ap_feedback93', 'Correct: he is')">Submit</button>
+            <div id="ap_feedback93" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>94. A: Are you going to eat that? B: No, ______ ______.</label>
+            <input type="text" id="ap_q94"><button onclick="checkAnswer_AP('ap_q94', ['I\'m not', 'I am not'], 'ap_feedback94', 'Correct: I\'m not')">Submit</button>
+            <div id="ap_feedback94" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>95. A: Are they going to be on time? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q95"><button onclick="checkAnswer_AP('ap_q95', 'they are', 'ap_feedback95', 'Correct: they are')">Submit</button>
+            <div id="ap_feedback95" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>96. A: Is the baby going to sleep soon? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q96"><button onclick="checkAnswer_AP('ap_q96', 'it is', 'ap_feedback96', 'Correct: it is')">Submit</button>
+            <div id="ap_feedback96" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>97. A: Are you going to tell her the truth? B: No, ______ ______.</label>
+            <input type="text" id="ap_q97"><button onclick="checkAnswer_AP('ap_q97', ['I\'m not', 'I am not'], 'ap_feedback97', 'Correct: I\'m not')">Submit</button>
+            <div id="ap_feedback97" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>98. A: Are we going to be friends? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q98"><button onclick="checkAnswer_AP('ap_q98', 'we are', 'ap_feedback98', 'Correct: we are')">Submit</button>
+            <div id="ap_feedback98" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>99. A: Is David going to quit his job? B: No, ______ ______.</label>
+            <input type="text" id="ap_q99"><button onclick="checkAnswer_AP('ap_q99', ['he isn\'t', 'he is not', 'he\'s not'], 'ap_feedback99', 'Correct: he isn\'t / he\'s not')">Submit</button>
+            <div id="ap_feedback99" class="feedback"></div>
+        </div>
+        <div class="ap-exercise-item">
+            <label>100. A: Is your team going to practice today? B: Yes, ______ ______.</label>
+            <input type="text" id="ap_q100"><button onclick="checkAnswer_AP('ap_q100', 'it is', 'ap_feedback100', 'Correct: it is')">Submit</button>
+            <div id="ap_feedback100" class="feedback"></div>
+        </div>
+    </div>
+
+</section>
+
+</div>
+
+<!-- ====================================================================== -->
+<!-- =========== SCRIPT RIÊNG CHO CÁC BÀI TẬP BỔ SUNG ================== -->
+<!-- ====================================================================== -->
+<script>
+    /**
+     * This script block is ONLY for the Additional Practice section.
+     * Function names and element IDs are prefixed to avoid conflicts with the main unit script.
+     */
+    
+    function checkAnswer_AP(inputId, correctAnswer, feedbackId, hint) {
+        // Remove question mark and convert to lower case for more flexible checking
+        const userInput = document.getElementById(inputId).value.trim().replace(/\?$/, '').toLowerCase();
+        const feedbackEl = document.getElementById(feedbackId);
+        
+        let isCorrect = false;
+
+        if (Array.isArray(correctAnswer)) {
+            // If correctAnswer is an array of possibilities (e.g., ['I'm not', 'I am not'])
+            const possibleAnswers = correctAnswer.map(ans => ans.toLowerCase().replace(/\?$/, ''));
+            if (possibleAnswers.includes(userInput)) {
+                isCorrect = true;
+            }
+        } else {
+            // If correctAnswer is a single string
+            const singleCorrectAnswer = correctAnswer.toLowerCase().replace(/\?$/, '');
+            if (userInput === singleCorrectAnswer) {
+                isCorrect = true;
+            }
+        }
+
+        if (isCorrect) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback correct';
+        } else {
+            feedbackEl.textContent = 'Incorrect. ' + hint;
+            feedbackEl.className = 'feedback incorrect';
+        }
+    }
+</script>
+
+
+</body>
+</html>
