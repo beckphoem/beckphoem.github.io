@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2: Present of Be</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            text-align: center;
+            border-bottom: 3px solid #5a8c49;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        
+        h1 .unit-number {
+            font-size: 0.8em;
+            color: #d9534f;
+            display: block;
+        }
+
+        h2 {
+            background-color: #5a8c49;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            border-left: 5px solid #f0ad4e;
+            padding-left: 10px;
+            color: #34495e;
+        }
+
+        strong {
+            color: #3498db;
+        }
+
+        p, li {
+            font-size: 1.1em;
+        }
+
+        /* Images */
+        img.page-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 1em;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        table thead tr {
+            background-color: #5a8c49;
+            color: #ffffff;
+            text-align: left;
+        }
+        
+        table th, table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        table tbody tr:nth-of-type(even) {
+            background-color: #f9eec8;
+        }
+
+        table tbody tr:last-of-type {
+            border-bottom: 2px solid #5a8c49;
+        }
+        
+        /* Grammar Notes */
+        .grammar-notes {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .grammar-notes li {
+            background: #eaf2f8;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            border-radius: 5px;
+            counter-increment: note-counter;
+            position: relative;
+            padding-left: 55px;
+        }
+        .grammar-notes li::before {
+            content: counter(note-counter);
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #d9534f;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .grammar-notes .example {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px dashed #ccc;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        .exercise-question {
+            margin-bottom: 15px;
+        }
+
+        .exercise-question p {
+            margin: 0 0 10px 0;
+        }
+
+        input[type="text"], select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            margin-right: 10px;
+            width: calc(100% - 120px);
+        }
+        
+        .mcq-option {
+            margin-right: 15px;
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        .feedback {
+            display: none;
+            margin-left: 10px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .feedback.correct {
+            color: #3c763d;
+            background-color: #dff0d8;
+        }
+        .feedback.incorrect {
+            color: #a94442;
+            background-color: #f2dede;
+        }
+
+        .hint {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9em;
+        }
+        
+        /* Dialogue styles */
+        .dialogue p { margin: 5px 0; }
+        .dialogue strong { color: #d9534f; }
+        
+        /* Video container */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>
+            <span class="unit-number">UNIT 2</span>
+            Present of Be: Yes / No Questions and Wh- Questions
+        </h1>
+
+        <!-- ==================== STEP 1 ==================== -->
+        <section id="step1">
+            <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+            <h3>Before You Read</h3>
+            <p><strong>A |</strong> Talk to four students. Write their names in the chart. Ask them the question, "Are you always on time for _______?" Write Yes or No for each response.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Are you always on time for these things?</th>
+                        <th>School</th>
+                        <th>Work</th>
+                        <th>Dates</th>
+                        <th>Parties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Student's name</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Read</h3>
+            <p>It's the first day of an English class. Read the conversation.</p>
+            <div class="dialogue">
+                <h4>ARRIVING IN CLASS</h4>
+                <p><strong>LIDA KOZLOV:</strong> Excuse me. Where's room 2?</p>
+                <p><strong>ALEX BROWN:</strong> It's right here, next to the office.</p>
+                <p><strong>LIDA:</strong> Thanks. Uh . . . <strong>are we late for class?</strong></p>
+                <p><strong>ALEX:</strong> No, we're right on time.</p>
+                <p><strong>LIDA:</strong> Whew! That's good. I hate to be late on the first day. <strong>Is the teacher here?</strong></p>
+                <p><strong>ALEX:</strong> Yes, he is.</p>
+                <p><strong>LIDA:</strong> <strong>How is he? Is he a good teacher?</strong></p>
+                <p><strong>ALEX:</strong> I think he's very good. My name is Alex, by the way. <strong>What's your name?</strong></p>
+                <p><strong>LIDA:</strong> Lida.</p>
+                <p><strong>ALEX:</strong> Nice to meet you. <strong>Are you new here?</strong></p>
+                <p><strong>LIDA:</strong> Yes, I am.</p>
+                <p><strong>ALEX:</strong> Nice jacket.</p>
+                <p><strong>LIDA:</strong> Thanks. It's from Italy.</p>
+                <p><strong>ALEX:</strong> Oh, <strong>are you from Italy?</strong></p>
+                <p><strong>LIDA:</strong> No, I'm from Moscow. Hey, your English is so good! . . . <strong>Where are you from?</strong></p>
+                <p><strong>ALEX:</strong> I'm from Michigan.</p>
+                <p><strong>LIDA:</strong> Michigan? But that's in the United States. <strong>Are you in the right class?</strong></p>
+                <p><strong>ALEX:</strong> Yes, I am.</p>
+                <p><strong>LIDA:</strong> <strong>Why are you here? Who are you?</strong></p>
+                <p><strong>ALEX:</strong> I'm not a new student. I'm a new teacher. I'm your new teacher.</p>
+                <p><strong>LIDA:</strong> Oh . . . !</p>
+            </div>
+            
+            <!-- YouTube Video Placeholder -->
+            <h4>Video: Conversation Practice</h4>
+            <div class="video-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <img src="FOG-1-32/2.png" alt="Lida and Alex talking in the hallway" class="page-image">
+
+            <h3>After You Read</h3>
+            <div class="exercise">
+                <h4>B | Vocabulary</h4>
+                <p>Complete the sentences with the words from the box. Remember to start sentences with a capital letter.</p>
+                <div style="text-align: center; font-weight: bold; margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px;">
+                    by the way &nbsp;&nbsp;|&nbsp;&nbsp; excuse me &nbsp;&nbsp;|&nbsp;&nbsp; on time &nbsp;&nbsp;|&nbsp;&nbsp; right &nbsp;&nbsp;|&nbsp;&nbsp; room
+                </div>
+
+                <div class="exercise-question">
+                    <p>1. <input type="text" id="vocab1" placeholder="Type here...">, where's the elevator?</p>
+                    <button onclick="checkAnswer('vocab1', 'Excuse me', 'feedback-vocab1', 'Gợi ý: Dùng để thu hút sự chú ý của ai đó một cách lịch sự.')">Submit</button>
+                    <span class="feedback" id="feedback-vocab1"></span>
+                </div>
+                <div class="exercise-question">
+                    <p>2. Your class is in <input type="text" id="vocab2" placeholder="Type here..."> 102 next to the stairs.</p>
+                    <button onclick="checkAnswer('vocab2', 'room', 'feedback-vocab2', 'Gợi ý: Từ này có nghĩa là "phòng".')">Submit</button>
+                    <span class="feedback" id="feedback-vocab2"></span>
+                </div>
+                <div class="exercise-question">
+                    <p>3. Room 202 is <input type="text" id="vocab3" placeholder="Type here..."> over there, near the elevator.</p>
+                    <button onclick="checkAnswer('vocab3', 'right', 'feedback-vocab3', 'Gợi ý: Từ này có nghĩa là "ngay".')">Submit</button>
+                    <span class="feedback" id="feedback-vocab3"></span>
+                </div>
+                 <div class="exercise-question">
+                    <p>4. We're <input type="text" id="vocab4" placeholder="Type here...">. We're not late or early.</p>
+                    <button onclick="checkAnswer('vocab4', 'on time', 'feedback-vocab4', 'Gợi ý: Cụm từ này có nghĩa là "đúng giờ".')">Submit</button>
+                    <span class="feedback" id="feedback-vocab4"></span>
+                </div>
+                 <div class="exercise-question">
+                    <p>5. Thanks for the coffee. <input type="text" id="vocab5" placeholder="Type here...">, is the computer lab nearby?</p>
+                    <button onclick="checkAnswer('vocab5', 'By the way', 'feedback-vocab5', 'Gợi ý: Dùng để chuyển chủ đề, có nghĩa là "nhân tiện".')">Submit</button>
+                    <span class="feedback" id="feedback-vocab5"></span>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <h4>C | Comprehension</h4>
+                <p>Read the questions. Circle the correct letter.</p>
+                <div class="exercise-question">
+                    <p>1. Are Lida and Alex on time for class?</p>
+                    <label class="mcq-option"><input type="radio" name="comp1" value="a"> a. Yes, they are.</label>
+                    <label class="mcq-option"><input type="radio" name="comp1" value="b"> b. No, they're late.</label>
+                    <label class="mcq-option"><input type="radio" name="comp1" value="c"> c. They're early for class.</label>
+                    <button onclick="checkMCQ('comp1', 'a', 'feedback-comp1')">Submit</button>
+                    <span class="feedback" id="feedback-comp1"></span>
+                </div>
+                <div class="exercise-question">
+                    <p>2. Where is Lida from?</p>
+                    <label class="mcq-option"><input type="radio" name="comp2" value="a"> a. Italy</label>
+                    <label class="mcq-option"><input type="radio" name="comp2" value="b"> b. Michigan</label>
+                    <label class="mcq-option"><input type="radio" name="comp2" value="c"> c. Russia</label>
+                    <button onclick="checkMCQ('comp2', 'c', 'feedback-comp2')">Submit</button>
+                    <span class="feedback" id="feedback-comp2"></span>
+                </div>
+                <div class="exercise-question">
+                    <p>3. Where is Michigan?</p>
+                    <label class="mcq-option"><input type="radio" name="comp3" value="a"> a. in the United States</label>
+                    <label class="mcq-option"><input type="radio" name="comp3" value="b"> b. in Mexico</label>
+                    <label class="mcq-option"><input type="radio" name="comp3" value="c"> c. in Italy</label>
+                    <button onclick="checkMCQ('comp3', 'a', 'feedback-comp3')">Submit</button>
+                    <span class="feedback" id="feedback-comp3"></span>
+                </div>
+                <div class="exercise-question">
+                    <p>4. Are Lida and Alex students?</p>
+                    <label class="mcq-option"><input type="radio" name="comp4" value="a"> a. He is, but she isn't.</label>
+                    <label class="mcq-option"><input type="radio" name="comp4" value="b"> b. She is, but he isn't.</label>
+                    <label class="mcq-option"><input type="radio" name="comp4" value="c"> c. Yes, they are.</label>
+                    <button onclick="checkMCQ('comp4', 'b', 'feedback-comp4')">Submit</button>
+                    <span class="feedback" id="feedback-comp4"></span>
+                </div>
+                <div class="exercise-question">
+                    <p>5. What's the teacher's name?</p>
+                    <label class="mcq-option"><input type="radio" name="comp5" value="a"> a. Lida Kozlov</label>
+                    <label class="mcq-option"><input type="radio" name="comp5" value="b"> b. Alex Brown</label>
+                    <label class="mcq-option"><input type="radio" name="comp5" value="c"> c. Alex Kozlov</label>
+                    <button onclick="checkMCQ('comp5', 'b', 'feedback-comp5')">Submit</button>
+                    <span class="feedback" id="feedback-comp5"></span>
+                </div>
+                 <div class="exercise-question">
+                    <p>6. What do you know is true? Alex is ___.</p>
+                    <label class="mcq-option"><input type="radio" name="comp6" value="a"> a. not in the right class</label>
+                    <label class="mcq-option"><input type="radio" name="comp6" value="b"> b. a good teacher</label>
+                    <label class="mcq-option"><input type="radio" name="comp6" value="c"> c. Lida's teacher</label>
+                    <button onclick="checkMCQ('comp6', 'c', 'feedback-comp6')">Submit</button>
+                    <span class="feedback" id="feedback-comp6"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== STEP 2 ==================== -->
+        <section id="step2">
+            <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+            <h3>PRESENT OF BE: YES / NO QUESTIONS AND WH- QUESTIONS</h3>
+
+            <h4>Yes / No Questions & Short Answers (Singular)</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Be</th>
+                        <th>Subject</th>
+                        <th></th>
+                        <th>Yes</th>
+                        <th>No</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Am</td>
+                        <td>I</td>
+                        <td rowspan="3">in room 2?</td>
+                        <td rowspan="3">Yes,</td>
+                        <td>you are.</td>
+                        <td rowspan="3">No,</td>
+                        <td>you're not. / you aren't.</td>
+                    </tr>
+                    <tr>
+                        <td>Are</td>
+                        <td>you</td>
+                        <td>I am.</td>
+                        <td>I'm not.</td>
+                    </tr>
+                     <tr>
+                        <td>Is</td>
+                        <td>he / she / it</td>
+                        <td>he is. / she is. / it is.</td>
+                        <td>he's not. / he isn't.<br>she's not. / she isn't.<br>it's not. / it isn't.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>Yes / No Questions & Short Answers (Plural)</h4>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Be</th>
+                        <th>Subject</th>
+                        <th></th>
+                        <th>Yes</th>
+                        <th>No</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Are</td>
+                        <td>we</td>
+                        <td rowspan="3">on time?</td>
+                        <td rowspan="3">Yes,</td>
+                        <td>you are.</td>
+                        <td rowspan="3">No,</td>
+                        <td>you're not. / you aren't.</td>
+                    </tr>
+                    <tr>
+                        <td>you</td>
+                        <td>we are.</td>
+                        <td>we're not. / we aren't.</td>
+                    </tr>
+                     <tr>
+                        <td>they</td>
+                        <td>they are.</td>
+                        <td>they're not. / they aren't.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Wh- Questions</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Wh-Word</th>
+                        <th>Be</th>
+                        <th>Subject</th>
+                        <th></th>
+                        <th>Short Answers</th>
+                        <th>Long Answers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Where</td>
+                        <td rowspan="2">are</td>
+                        <td rowspan="2">you</td>
+                        <td>from?</td>
+                        <td>Michigan.</td>
+                        <td>I'm from Michigan.</td>
+                    </tr>
+                     <tr>
+                        <td>Why</td>
+                        <td>here?</td>
+                        <td>I'm the teacher.</td>
+                        <td>I'm here because I'm the teacher.</td>
+                    </tr>
+                     <tr>
+                        <td>What</td>
+                        <td rowspan="3">is</td>
+                        <td>your name?</td>
+                        <td></td>
+                        <td>Alex.</td>
+                        <td>My name is Alex.</td>
+                    </tr>
+                    <tr>
+                        <td>How</td>
+                        <td>he?</td>
+                        <td></td>
+                        <td>Good.</td>
+                        <td>He's a good teacher.</td>
+                    </tr>
+                    <tr>
+                        <td>Who</td>
+                        <td>she?</td>
+                        <td></td>
+                        <td>A student.</td>
+                        <td>She's a student.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>GRAMMAR NOTES</h3>
+            <ol class="grammar-notes">
+                <li>
+                    <strong>Yes / no questions</strong> usually have a yes or no answer.
+                    <div class="example">A: Is he a student? <br> B: <strong>Yes,</strong> he is. OR <strong>No,</strong> he isn't.</div>
+                </li>
+                 <li>
+                    <strong>Wh- questions</strong> ask for information.
+                    <div class="example">A: Who is he? <br> B: He's the teacher.</div>
+                </li>
+                 <li>
+                    Use <strong>am, is,</strong> or <strong>are</strong> before a subject in <strong>yes / no questions</strong>.
+                    <div class="example">BE - SUBJECT<br>• <strong>Am I</strong> in English 2?<br>• <strong>Is she</strong> a student?<br>• <strong>Are we</strong> late?</div>
+                </li>
+                 <li>
+                    We usually answer <strong>yes / no questions</strong> with short answers, but we can also give long answers.<br><strong>BE CAREFUL!</strong> Do not use contractions in short answers with yes.
+                    <div class="example">A: Are you a new student?<br>B: Yes. OR Yes, I am. OR Yes, I am a new student.<br>NOT: Yes, I'm.</div>
+                </li>
+                 <li>
+                    <strong>Wh- questions</strong> ask about the following: <br>
+                    <strong>Who</strong> → people | <strong>What</strong> → things | <strong>Where</strong> → places | <strong>When</strong> → time | <strong>How</strong> → in what way <br>
+                    <strong>Why</strong> asks for a reason. We can give short or long answers. In long answers, use <strong>because</strong> before the reason.
+                    <div class="example">• Who are they? <br> • What is in your bag? <br> • A: Why are you late? <br> B: My bus was late. OR I'm late <strong>because</strong> my bus was late.</div>
+                </li>
+                 <li>
+                    Use a <strong>wh- word</strong> before <strong>is</strong> or <strong>are</strong> in wh- questions.
+                    <div class="example">WH- WORD - BE <br> • <strong>What is</strong> your name? <br> • <strong>Where are</strong> the books?</div>
+                </li>
+                 <li>
+                    You can use <strong>contractions</strong> (short forms) with wh- words in speaking and informal writing. We usually don't write the contraction with <strong>are</strong>.
+                    <div class="example">• <strong>Where's</strong> the library? <br> • <strong>When's</strong> the class trip? <br> SPOKEN ONLY: Where're the kids?</div>
+                </li>
+                 <li>
+                    We usually give short answers to <strong>wh- questions</strong>. We can also give long answers.
+                    <div class="example">A: Where are you from? <br> B: Mexico. OR <strong>I'm from Mexico.</strong></div>
+                </li>
+                <li>
+                    When we do not know the answer to a question, we say, "I don't know."
+                    <div class="example">A: Is the men's room nearby? <br> B: <strong>I don't know.</strong></div>
+                </li>
+                 <li>
+                    When someone asks a <strong>yes / no question</strong> that we think is true, we say, "Yes, I think so." If we think it is not true, we can say, "No, I don't think so."
+                    <div class="example">A: Is she in the library? <br> B: <strong>Yes, I think so.</strong> OR <strong>No, I don't think so.</strong></div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- ==================== WRITING SECTION ==================== -->
+        <section id="writing">
+            <h2>WRITING PRACTICE</h2>
+            <h3>Sample Paragraph</h3>
+            <p>Dưới đây là một đoạn văn mẫu sử dụng các cấu trúc câu hỏi và câu trả lời đã học. Hãy đọc kỹ.</p>
+            <div id="sample-paragraph" class="exercise">
+                My name is Carlos. I am a new student in this city. My first day of school is today. I am a little nervous. Is my teacher nice? Are the other students friendly? My classroom is in room 204. Where is that? Oh, it's right here. The class is full. I hope I am on time.
+            </div>
+
+            <h3>Sentence Analysis</h3>
+            <p>Nhấn nút bên dưới để tách đoạn văn trên thành các câu riêng lẻ để dễ phân tích hơn.</p>
+            <button onclick="splitSentences()">Tách thành câu</button>
+            <ol id="sentence-list" style="margin-top: 15px;"></ol>
+        </section>
+
+    </div><!-- .container -->
+
+    <script>
+        // Function to check fill-in-the-blank answers
+        function checkAnswer(inputId, correctAnswer, feedbackId, hint) {
+            const userAnswer = document.getElementById(inputId).value.trim();
+            const feedbackEl = document.getElementById(feedbackId);
+            
+            // Normalize answers: case-insensitive and remove final period if any
+            const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\.$/, '');
+            const normalizedCorrectAnswer = correctAnswer.toLowerCase().replace(/\.$/, '');
+
+            if (normalizedUserAnswer === normalizedCorrectAnswer) {
+                feedbackEl.textContent = "Correct!";
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. ${hint}`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'inline-block';
+        }
+
+        // Function to check multiple choice questions
+        function checkMCQ(questionName, correctAnswer, feedbackId) {
+            const feedbackEl = document.getElementById(feedbackId);
+            const selectedOption = document.querySelector(`input[name="${questionName}"]:checked`);
+
+            if (selectedOption) {
+                if (selectedOption.value === correctAnswer) {
+                    feedbackEl.textContent = "Correct!";
+                    feedbackEl.className = 'feedback correct';
+                } else {
+                    feedbackEl.textContent = `Incorrect. The correct answer is '${correctAnswer}'.`;
+                    feedbackEl.className = 'feedback incorrect';
+                }
+            } else {
+                feedbackEl.textContent = "Please select an answer.";
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'inline-block';
+        }
+
+        // Function for the writing section
+        function splitSentences() {
+            const paragraph = document.getElementById('sample-paragraph').innerText;
+            const sentenceList = document.getElementById('sentence-list');
+            
+            // Clear previous list
+            sentenceList.innerHTML = '';
+
+            // Split by period, question mark, exclamation mark, then filter out empty strings
+            const sentences = paragraph.split(/[.?!]/).filter(sentence => sentence.trim() !== '');
+
+            sentences.forEach(sentence => {
+                const li = document.createElement('li');
+                li.textContent = sentence.trim();
+                sentenceList.appendChild(li);
+            });
+        }
+    </script>
+
+	<!-- ==================== ADDITIONAL PRACTICE SECTION ==================== -->
+<section id="additional-practice" class="container">
+    <h2>Additional Practice Exercises (100 Questions)</h2>
+    <p>Test your knowledge of "Present of Be" with these exercises. Each question has a submit button for instant feedback.</p>
+    
+    <!-- JavaScript will automatically populate this div with 100 exercises -->
+    <div id="additional-exercise-container"></div>
+</section>
+
+<style>
+    /* Scoped styles for the additional practice section to avoid conflicts */
+    #additional-practice {
+        background-color: #e8f4f8;
+        margin-top: 40px;
+        border-top: 5px solid #007bff;
+    }
+
+    #additional-practice h2 {
+        background-color: #007bff;
+    }
+
+    .ap-exercise-question {
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #cce5ff;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .ap-exercise-question p {
+        margin: 0 0 10px 0;
+        font-size: 1.1em;
+    }
+    
+    .ap-exercise-question .prompt {
+        font-style: italic;
+        color: #555;
+        background-color: #f0f0f0;
+        padding: 5px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+    .ap-exercise-question input[type="text"] {
+        width: calc(100% - 130px);
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+    }
+
+    .ap-exercise-question button {
+        padding: 10px 18px;
+        background-color: #007bff;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+    }
+
+    .ap-exercise-question button:hover {
+        background-color: #0056b3;
+    }
+    
+    .ap-mcq-option {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .ap-feedback {
+        display: none;
+        margin-top: 10px;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    .ap-feedback.correct {
+        color: #155724;
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+    }
+
+    .ap-feedback.incorrect {
+        color: #721c24;
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+    }
+
+</style>
+
+<!-- SCRIPT RIÊNG CHO PHẦN BÀI TẬP BỔ SUNG -->
+<script>
+    // Data for 100 questions
+    const additionalQuestionsData = [
+        // Category 1: Fill in with Am / Is / Are (25 questions)
+        { type: 'fill-in', question: '____ you a doctor?', answer: 'Are', hint: 'Use the correct form of "be" for the subject "you".' },
+        { type: 'fill-in', question: '____ he from Mexico?', answer: 'Is', hint: 'Use the correct form of "be" for the subject "he".' },
+        { type: 'fill-in', question: '____ I in the right room?', answer: 'Am', hint: 'Use the correct form of "be" for the subject "I".' },
+        { type: 'fill-in', question: '____ they new students?', answer: 'Are', hint: 'Use the correct form of "be" for the plural subject "they".' },
+        { type: 'fill-in', question: '____ she your sister?', answer: 'Is', hint: 'Use the correct form of "be" for the subject "she".' },
+        { type: 'fill-in', question: '____ it cold outside?', answer: 'Is', hint: 'Use the correct form of "be" for the subject "it".' },
+        { type: 'fill-in', question: '____ we late for the movie?', answer: 'Are', hint: 'Use the correct form of "be" for the subject "we".' },
+        { type: 'fill-in', question: '____ this your pen?', answer: 'Is', hint: '"This" is a singular subject.' },
+        { type: 'fill-in', question: '____ Maria and Juan classmates?', answer: 'Are', hint: '"Maria and Juan" is a plural subject (they).' },
+        { type: 'fill-in', question: '____ the coffee hot?', answer: 'Is', hint: '"The coffee" is a singular subject (it).' },
+        { type: 'fill-in', question: '____ you and your family from Italy?', answer: 'Are', hint: '"You and your family" is a plural subject.' },
+        { type: 'fill-in', question: '____ I next in line?', answer: 'Am', hint: 'Use the correct form of "be" for the subject "I".' },
+        { type: 'fill-in', question: '____ the library open on Sundays?', answer: 'Is', hint: '"The library" is a singular subject.' },
+        { type: 'fill-in', question: '____ these your keys?', answer: 'Are', hint: '"These" is a plural subject.' },
+        { type: 'fill-in', question: '____ your last name Smith?', answer: 'Is', hint: '"Your last name" is a singular subject.' },
+        { type: 'fill-in', question: '____ we ready to go?', answer: 'Are', hint: 'Use the correct form of "be" for "we".' },
+        { type: 'fill-in', question: '____ he a good cook?', answer: 'Is', hint: 'Use the correct form of "be" for "he".' },
+        { type: 'fill-in', question: '____ they at home now?', answer: 'Are', hint: 'Use the correct form of "be" for "they".' },
+        { type: 'fill-in', question: '____ your car new?', answer: 'Is', hint: '"Your car" is singular.' },
+        { type: 'fill-in', question: '____ the children in the garden?', answer: 'Are', hint: '"The children" is a plural noun.' },
+        { type: 'fill-in', question: '____ I on the correct bus?', answer: 'Am', hint: 'What form of "be" goes with "I"?' },
+        { type: 'fill-in', question: '____ that your house?', answer: 'Is', hint: '"That" is a singular subject.' },
+        { type: 'fill-in', question: '____ you tired?', answer: 'Are', hint: 'Use the correct form of "be" for "you".' },
+        { type: 'fill-in', question: '____ the test difficult?', answer: 'Is', hint: '"The test" is singular.' },
+        { type: 'fill-in', question: '____ his parents from Korea?', answer: 'Are', hint: '"His parents" is plural.' },
+
+        // Category 2: Fill in with a Wh-word (20 questions)
+        { type: 'fill-in', question: '____ is your name?', answer: 'What', hint: 'This question asks for information (a name).' },
+        { type: 'fill-in', question: '____ are you from?', answer: 'Where', hint: 'This question asks about a place.' },
+        { type: 'fill-in', question: '____ is your birthday?', answer: 'When', hint: 'This question asks about a time or date.' },
+        { type: 'fill-in', question: '____ are you late?', answer: 'Why', hint: 'This question asks for a reason.' },
+        { type: 'fill-in', question: '____ is that girl?', answer: 'Who', hint: 'This question asks about a person.' },
+        { type: 'fill-in', question: '____ old are you?', answer: 'How', hint: 'This question asks about age.' },
+        { type: 'fill-in', question: '____ is in your bag?', answer: 'What', hint: 'This question asks about things.' },
+        { type: 'fill-in', question: '____ is the train station?', answer: 'Where', hint: 'This question asks for a location.' },
+        { type: 'fill-in', question: '____ is the meeting?', answer: 'When', hint: 'This question asks about the time of an event.' },
+        { type: 'fill-in', question: '____ are you crying?', answer: 'Why', hint: 'This question asks for a reason for an emotion.' },
+        { type: 'fill-in', question: '____ is your favorite actor?', answer: 'Who', hint: 'This question asks to identify a person.' },
+        { type: 'fill-in', question: '____ is your class?', answer: 'How', hint: 'This question asks about the quality of something.' },
+        { type: 'fill-in', question: '____ color is your car?', answer: 'What', hint: 'This question asks for specific information.' },
+        { type: 'fill-in', question: '____ are the keys?', answer: 'Where', hint: 'This question asks for the location of an object.' },
+        { type: 'fill-in', question: '____ are they here?', answer: 'Why', hint: 'This question is asking for their purpose or reason.' },
+        { type: 'fill-in', question: '____ is the next holiday?', answer: 'When', hint: 'This question asks about a future date.' },
+        { type: 'fill-in', question: '____ is the CEO of this company?', answer: 'Who', hint: 'This asks to identify the person in a role.' },
+        { type:- 'fill-in', question: '____ is the matter?', answer: 'What', hint: 'This is a common phrase to ask about a problem.' },
+        { type: 'fill-in', question: '____ are you today?', answer: 'How', hint: 'This question asks about well-being.' },
+        { type: 'fill-in', question: '____ is your phone number?', answer: 'What', hint: 'This question asks for specific information.' },
+        
+        // Category 3: Word Order (25 questions)
+        { type: 'reorder', prompt: '(is / your / name / what)', answer: "What is your name?", hint: 'Wh- questions start with the Wh-word, followed by "be", then the subject.' },
+        { type: 'reorder', prompt: '(from / you / where / are)', answer: "Where are you from?", hint: 'Start with "Where".' },
+        { type: 'reorder', prompt: '(late / she / is)', answer: "Is she late?", hint: 'Yes/No questions start with the verb "be".' },
+        { type: 'reorder', prompt: '(they / students / are)', answer: "Are they students?", hint: 'Start with "Are".' },
+        { type: 'reorder', prompt: '(teacher / who / your / is)', answer: "Who is your teacher?", hint: 'Start with "Who".' },
+        { type: 'reorder', prompt: '(in / I / the right class / am)', answer: "Am I in the right class?", hint: 'Start the Yes/No question with "Am".' },
+        { type: 'reorder', prompt: '(is / he / how)', answer: "How is he?", hint: 'Start with the question word "How".' },
+        { type: 'reorder', prompt: '(we / are / on time)', answer: "Are we on time?", hint: 'This is a Yes/No question.' },
+        { type: 'reorder', prompt: '(your / is / this / book)', answer: "Is this your book?", hint: 'Start with "Is".' },
+        { type: 'reorder', prompt: '(are / why / you / here)', answer: "Why are you here?", hint: 'Wh-word + be + subject.' },
+        { type: 'reorder', prompt: '(the / where / bathroom / is)', answer: "Where is the bathroom?", hint: 'Start with "Where".' },
+        { type: 'reorder', prompt: '(is / it / what / time)', answer: "What time is it?", hint: '"What time" goes together at the start.' },
+        { type: 'reorder', prompt: '(class / when / is / your)', answer: "When is your class?", hint: 'Start with "When".' },
+        { type: 'reorder', prompt: '(they / from / are / China)', answer: "Are they from China?", hint: 'This is a Yes/No question.' },
+        { type: 'reorder', prompt: '(your / is / how / family)', answer: "How is your family?", hint: 'Start with "How".' },
+        { type: 'reorder', prompt: '(a / he / good / is / doctor)', answer: "Is he a good doctor?", hint: 'Start with "Is".' },
+        { type: 'reorder', prompt: '(favorite / what / your / food / is)', answer: "What is your favorite food?", hint: 'Start with "What".' },
+        { type: 'reorder', prompt: '(we / in / are / the same team)', answer: "Are we in the same team?", hint: 'Yes/No questions start with the verb "be".' },
+        { type: 'reorder', prompt: '(is / hungry / she / why)', answer: "Why is she hungry?", hint: 'Wh-word + be + subject.' },
+        { type: 'reorder', prompt: '(ready / you / are / for the test)', answer: "Are you ready for the test?", hint: 'Start with "Are".' },
+        { type: 'reorder', prompt: '(is / brother / who / that boy / your)', answer: "Who is that boy?", hint: 'This question asks about a person.'},
+        { type: 'reorder', prompt: '(is / the / what / problem)', answer: "What is the problem?", hint: 'Start with "What".'},
+        { type: 'reorder', prompt: '(is / English / difficult)', answer: "Is English difficult?", hint: 'Start with "Is".'},
+        { type: 'reorder', prompt: '(where / from / are / your parents)', answer: "Where are your parents from?", hint: 'Start with "Where".'},
+        { type: 'reorder', prompt: '(am / I / talking / too loud)', answer: "Am I talking too loud?", hint: 'Start with "Am".'},
+
+        // Category 4: Short Answers (30 questions)
+        { type: 'short-answer', question: 'Is he a student? (Yes)', answer: "Yes, he is.", hint: 'Use the pronoun "he" and the positive form.' },
+        { type: 'short-answer', question: 'Are they from Canada? (No)', answer: "No, they aren't.", hint: 'Use the pronoun "they" and the negative contraction.' },
+        { type: 'short-answer', question: 'Am I late? (No)', answer: "No, you aren't.", hint: 'The answer to "Am I...?" is "Yes, you are." or "No, you aren\'t."' },
+        { type: 'short-answer', question: 'Is she your teacher? (Yes)', answer: "Yes, she is.", hint: 'Use "she" in the answer.' },
+        { type: 'short-answer', question: 'Are you hungry? (Yes)', answer: "Yes, I am.", hint: 'The answer to "Are you...?" is "Yes, I am." or "No, I\'m not."' },
+        { type: 'short-answer', question: 'Is it raining? (No)', answer: "No, it isn't.", hint: 'Use "it" and the negative contraction.' },
+        { type: 'short-answer', question: 'Are we in the right place? (Yes)', answer: "Yes, we are.", hint: 'Use "we" in the answer.' },
+        { type: 'short-answer', question: 'Is the store open? (No)', answer: "No, it isn't.", hint: '"The store" is "it".' },
+        { type: 'short-answer', question: 'Are the tickets expensive? (Yes)', answer: "Yes, they are.", hint: '"The tickets" is plural ("they").' },
+        { type: 'short-answer', question: 'Am I on your team? (Yes)', answer: "Yes, you are.", hint: 'The answer to "Am I...?" is about "you".' },
+        { type: 'short-answer', question: 'Is he happy? (No)', answer: "No, he isn't.", hint: 'Use "he" and the negative form.'},
+        { type: 'short-answer', question: 'Are you from Spain? (No)', answer: "No, I'm not.", hint: 'Answer for yourself with "I".'},
+        { type: 'short-answer', question: 'Is your name David? (Yes)', answer: "Yes, it is.", hint: '"Your name" is a thing ("it").'},
+        { type: 'short-answer', question: 'Are they married? (Yes)', answer: "Yes, they are.", hint: 'Use "they".'},
+        { type: 'short-answer', question: 'Is this seat free? (No)', answer: "No, it isn't.", hint: '"This seat" is "it".'},
+        { type: 'short-answer', question: 'Are the exams hard? (No)', answer: "No, they aren't.", hint: '"The exams" is plural ("they").' },
+        { type: 'short-answer', question: 'Is she a nurse? (Yes)', answer: "Yes, she is.", hint: 'Use "she".' },
+        { type: 'short-answer', question: 'Are you brothers? (Yes)', answer: "Yes, we are.", hint: 'If the question is to a group, they answer with "we".' },
+        { type: 'short-answer', question: 'Is the movie good? (No)', answer: "No, it isn't.", hint: '"The movie" is "it".' },
+        { type: 'short-answer', question: 'Am I doing this correctly? (Yes)', answer: "Yes, you are.", hint: 'The answer to "Am I...?" is "Yes, you are."' },
+        { type: 'short-answer', question: 'Is he tired? (Yes)', answer: 'Yes, he is.', hint: 'Use the positive form with "he".' },
+        { type: 'short-answer', question: 'Are we lost? (No)', answer: "No, we aren't.", hint: 'Use the negative contraction with "we".' },
+        { type: 'short-answer', question: 'Is the dog friendly? (Yes)', answer: 'Yes, it is.', hint: '"The dog" is "it".' },
+        { type: 'short-answer', question: 'Are your shoes new? (No)', answer: "No, they aren't.", hint: '"Your shoes" is plural ("they").' },
+        { type: 'short-answer', question: 'Is the water cold? (Yes)', answer: 'Yes, it is.', hint: '"The water" is "it".' },
+        { type: 'short-answer', question: 'Are you busy right now? (No)', answer: "No, I'm not.", hint: 'Answer about yourself.' },
+        { type: 'short-answer', question: 'Is he at the meeting? (No)', answer: "No, he isn't.", hint: 'Use "he" and the negative form.' },
+        { type: 'short-answer', question: 'Are the lights on? (Yes)', answer: 'Yes, they are.', hint: '"The lights" is plural ("they").' },
+        { type: 'short-answer', question: 'Is this the final question? (Yes)', answer: 'Yes, it is.', hint: '"This" is "it".' },
+        { type: 'short-answer', question: 'Are they on vacation? (No)', answer: "No, they aren't.", hint: 'Use "they" and the negative contraction.' },
+    ];
+
+    // Function to generate the HTML for all exercises
+    function ap_generateExercises() {
+        const container = document.getElementById('additional-exercise-container');
+        let htmlContent = '';
+
+        additionalQuestionsData.forEach((q, index) => {
+            let questionHtml = '';
+            const questionNumber = index + 1;
+
+            if (q.type === 'fill-in') {
+                questionHtml = `
+                    <p>${questionNumber}. ${q.question.replace('____', `<input type="text" id="ap-input-${index}" placeholder="Answer...">`)}</p>
+                    <button onclick="ap_checkFillIn(${index})">Submit</button>
+                `;
+            } else if (q.type === 'reorder') {
+                questionHtml = `
+                    <p>${questionNumber}. Reorder the words to make a question.</p>
+                    <p class="prompt">${q.prompt}</p>
+                    <input type="text" id="ap-input-${index}" placeholder="Type the correct question...">
+                    <button onclick="ap_checkFillIn(${index})">Submit</button>
+                `;
+            } else if (q.type === 'short-answer') {
+                 questionHtml = `
+                    <p>${questionNumber}. Write the correct short answer.</p>
+                    <p class="prompt">Q: ${q.question}</p>
+                    <input type="text" id="ap-input-${index}" placeholder="A: Type the short answer...">
+                    <button onclick="ap_checkFillIn(${index})">Submit</button>
+                `;
+            }
+
+            htmlContent += `
+                <div class="ap-exercise-question">
+                    ${questionHtml}
+                    <div class="ap-feedback" id="ap-feedback-${index}"></div>
+                </div>
+            `;
+        });
+
+        container.innerHTML = htmlContent;
+    }
+    
+    // Function to check fill-in-the-blank, reorder, and short-answer questions
+    function ap_checkFillIn(questionIndex) {
+        const questionData = additionalQuestionsData[questionIndex];
+        const userInput = document.getElementById(`ap-input-${questionIndex}`).value.trim();
+        const feedbackEl = document.getElementById(`ap-feedback-${questionIndex}`);
+
+        // Normalize answers: case-insensitive, remove final punctuation
+        const normalizedUserAnswer = userInput.toLowerCase().replace(/[.?]$/, '');
+        const normalizedCorrectAnswer = questionData.answer.toLowerCase().replace(/[.?]$/, '');
+
+        if (normalizedUserAnswer === normalizedCorrectAnswer) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'ap-feedback correct';
+        } else {
+            feedbackEl.innerHTML = `Incorrect. <span class="hint">Hint: ${questionData.hint}</span>`;
+            feedbackEl.className = 'ap-feedback incorrect';
+        }
+        feedbackEl.style.display = 'block';
+    }
+
+
+    // Run the generator function when the page content is loaded
+    document.addEventListener('DOMContentLoaded', ap_generateExercises);
+
+</script>
+
+</body>
+</html>
