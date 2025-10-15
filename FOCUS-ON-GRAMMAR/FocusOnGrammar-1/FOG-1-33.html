@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 3: Past of Be</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #1a237e;
+        }
+        h1 {
+            border-bottom: 3px solid #f9a825;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            background-color: #1a237e;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #c62828;
+            border-left: 4px solid #c62828;
+            padding-left: 10px;
+        }
+
+        /* Image Styling */
+        .content-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Exercise Styling */
+        .exercise-block {
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #e8eaf6;
+            border: 1px solid #c5cae9;
+            border-radius: 8px;
+        }
+        .question-item {
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+        .question-item input[type="text"],
+        .question-item select {
+            padding: 8px;
+            border: 1px solid #9fa8da;
+            border-radius: 4px;
+            flex-grow: 1;
+            min-width: 150px;
+        }
+        .question-item button {
+            padding: 8px 15px;
+            background-color: #3949ab;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .question-item button:hover {
+            background-color: #283593;
+        }
+        .feedback {
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .feedback .correct {
+            color: #2e7d32;
+        }
+        .feedback .incorrect {
+            color: #d32f2f;
+        }
+
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95em;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #b0bec5;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #546e7a;
+            color: white;
+        }
+        .grammar-table tr:nth-child(even) {
+            background-color: #eceff1;
+        }
+        .grammar-notes ol {
+            list-style-type: none;
+            counter-reset: note-counter;
+            padding-left: 0;
+        }
+        .grammar-notes li {
+            counter-increment: note-counter;
+            margin-bottom: 15px;
+            padding: 10px 10px 10px 50px;
+            position: relative;
+            background: #f1f8e9;
+            border-left: 5px solid #689f38;
+        }
+        .grammar-notes li::before {
+            content: counter(note-counter);
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #689f38;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        
+        /* Video and Writing Section */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .writing-section p {
+            background: #fffde7;
+            border-left: 4px solid #fbc02d;
+            padding: 10px;
+        }
+        #sentence-output p {
+            margin-bottom: 8px;
+            padding: 5px;
+            border: 1px dashed #ccc;
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNIT 3: Past of Be: Statements, Yes / No Questions, Wh- Questions</h1>
+
+        <!-- ==================== STEP 1: GRAMMAR IN CONTEXT ==================== -->
+        <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+        <h3>Before You Read</h3>
+        <p><strong>A |</strong> Look at the pictures on this page. Guess the story.</p>
+        <p><strong>B |</strong> Discuss the questions.</p>
+        <ol>
+            <li>What was your first job?</li>
+            <li>Was it easy? Was it hard?</li>
+        </ol>
+
+        <h3>Read</h3>
+        <p>Read the story about Hugo Rubio's first job.</p>
+        <img src="FOG-1-33/1.png" alt="Comic strip page 1" class="content-image">
+        <img src="FOG-1-33/2.png" alt="Comic strip page 2" class="content-image">
+
+        <div class="video-container">
+            <!-- CẬP NHẬT LINK YOUTUBE TẠI ĐÂY -->
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3>After You Read</h3>
+        
+        <div class="exercise-block">
+            <h4>B | Vocabulary</h4>
+            <p>Complete the sentences with the words from the box.</p>
+            <p><strong>Words:</strong> a big deal, boring, busy, make money, still</p>
+
+            <div class="question-item">
+                <span>1. I'm sorry. I don't have the report. I was very</span>
+                <input type="text" id="vocab1">
+                <span>last week.</span>
+                <button onclick="checkAnswer('vocab1', 'busy', 'feedback1')">Submit</button>
+                <span id="feedback1" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>2. I can't study full time. I need to work and</span>
+                <input type="text" id="vocab2">
+                <span>.</span>
+                <button onclick="checkAnswer('vocab2', 'make money', 'feedback2')">Submit</button>
+                <span id="feedback2" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>3. I can work late today. It's not</span>
+                <input type="text" id="vocab3">
+                <span>.</span>
+                <button onclick="checkAnswer('vocab3', 'a big deal', 'feedback3')">Submit</button>
+                <span id="feedback3" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>4. It's 11:00 P.M. Is he</span>
+                <input type="text" id="vocab4">
+                <span>at work?</span>
+                <button onclick="checkAnswer('vocab4', 'still', 'feedback4')">Submit</button>
+                <span id="feedback4" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>5. Every day I do the same thing. My job is</span>
+                <input type="text" id="vocab5">
+                <span>.</span>
+                <button onclick="checkAnswer('vocab5', 'boring', 'feedback5')">Submit</button>
+                <span id="feedback5" class="feedback"></span>
+            </div>
+        </div>
+
+        <div class="exercise-block">
+            <h4>C | Comprehension</h4>
+            <p>Answer the questions.</p>
+            <div class="question-item">
+                <span>1. What was Hugo's first job?</span>
+                <input type="text" id="comp1">
+                <button onclick="checkAnswer('comp1', 'He was a lifeguard', 'feedback_comp1')">Submit</button>
+                <span id="feedback_comp1" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>2. How old was he?</span>
+                <input type="text" id="comp2">
+                <button onclick="checkAnswer('comp2', 'He was 16 years old', 'feedback_comp2')">Submit</button>
+                <span id="feedback_comp2" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>3. Was he a hero?</span>
+                <input type="text" id="comp3">
+                <button onclick="checkAnswer('comp3', 'Yes, he was', 'feedback_comp3')">Submit</button>
+                <span id="feedback_comp3" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>4. Was the job fun? Why or why not?</span>
+                <input type="text" id="comp4">
+                <button onclick="checkAnswer('comp4', 'No, it was long and boring at first', 'feedback_comp4')">Submit</button>
+                <span id="feedback_comp4" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>5. Was Hugo happy to be in the news?</span>
+                <input type="text" id="comp5">
+                <button onclick="checkAnswer('comp5', 'Yes, he was', 'feedback_comp5')">Submit</button>
+                <span id="feedback_comp5" class="feedback"></span>
+            </div>
+        </div>
+
+        <!-- ==================== STEP 2: GRAMMAR PRESENTATION ==================== -->
+        <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+        <p>Phần này trình bày chính xác các bảng ngữ pháp và ghi chú như trong sách.</p>
+        <img src="FOG-1-33/3.png" alt="Grammar presentation page 1" class="content-image">
+        <img src="FOG-1-33/4.png" alt="Grammar presentation page 2" class="content-image">
+        
+        <!-- ==================== STEP 3: FOCUSED PRACTICE ==================== -->
+        <h2>STEP 3: FOCUSED PRACTICE</h2>
+        
+        <h3>EXERCISE 1: Discover the Grammar</h3>
+        <p>Read about the first jobs of famous people. Then underline was, wasn't, were, and weren't.</p>
+        <img src="FOG-1-33/5.png" alt="Practice exercise image" class="content-image">
+        
+        <div class="exercise-block">
+            <h3>EXERCISE 2: Questions and Answers</h3>
+            <p>Complete the conversation. Use was, wasn't, were, or weren't.</p>
+            <p>A: <input type="text" id="ex2_1" style="width: 50px;"> you at work yesterday?</p>
+            <p>B: No, I <input type="text" id="ex2_2" style="width: 50px;">. I <input type="text" id="ex2_3" style="width: 50px;"> at a job interview.</p>
+            <p>A: Oh? How <input type="text" id="ex2_4" style="width: 50px;"> the interview?</p>
+            <p>B: Good, I think.</p>
+            <p>A: <input type="text" id="ex2_5" style="width: 50px;"> the questions hard?</p>
+            <p>B: Well, some <input type="text" id="ex2_6" style="width: 50px;"> hard, but I <input type="text" id="ex2_7" style="width: 50px;"> prepared.</p>
+            <p>A: Well, that sounds good. Good luck.</p>
+            <p>B: Thanks. It sounds like a good job. How <input type="text" id="ex2_8" style="width: 50px;"> school?</p>
+            <p>A: It <input type="text" id="ex2_9" style="width: 50px;"> fun. I really like my classmates.</p>
+            <p>B: <input type="text" id="ex2_10" style="width: 50px;"> you on time?</p>
+            <p>A: Yes, but my teacher <input type="text" id="ex2_11" style="width: 50px;"> there. She was away. We had a substitute.</p>
+            <button onclick="checkAllEx2()">Submit All</button>
+            <span id="feedback_ex2" class="feedback"></span>
+        </div>
+
+        <div class="exercise-block">
+            <h3>EXERCISE 3: Affirmative and Negative Statements</h3>
+            <p>Complete the sentences. Change the statements from the present to the past.</p>
+            <div class="question-item">
+                <span>1. They are busy now. Last month <input type="text" id="ex3_1">.</span>
+                <button onclick="checkAnswer('ex3_1', 'they were busy', 'feedback_ex3_1')">Submit</button>
+                <span id="feedback_ex3_1" class="feedback"></span>
+            </div>
+             <div class="question-item">
+                <span>2. It's not sunny today. <input type="text" id="ex3_2"> yesterday either.</span>
+                <button onclick="checkAnswer('ex3_2', 'It wasn\'t sunny', 'feedback_ex3_2')">Submit</button>
+                <span id="feedback_ex3_2" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>3. My uncle, Jun, is in Seoul now. <input type="text" id="ex3_3"> last year too.</span>
+                <button onclick="checkAnswer('ex3_3', 'He was in Seoul', 'feedback_ex3_3')">Submit</button>
+                <span id="feedback_ex3_3" class="feedback"></span>
+            </div>
+        </div>
+
+        <!-- ==================== UNIT 3 REVIEW ==================== -->
+        <h2>UNIT 3 REVIEW</h2>
+        <img src="FOG-1-33/6.png" alt="Unit Review Page" class="content-image">
+        
+        <div class="exercise-block">
+            <h3>A | Complete the questions. Use was or were.</h3>
+            <div class="question-item">
+                <span>1. When</span> <input type="text" id="revA1" style="width: 50px;"> <span>your interview?</span>
+                <button onclick="checkAnswer('revA1', 'was', 'feedback_revA1')">Submit</button>
+                <span id="feedback_revA1" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>2. Where</span> <input type="text" id="revA2" style="width: 50px;"> <span>your interview?</span>
+                <button onclick="checkAnswer('revA2', 'was', 'feedback_revA2')">Submit</button>
+                <span id="feedback_revA2" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>3.</span> <input type="text" id="revA3" style="width: 50px;"> <span>you nervous?</span>
+                <button onclick="checkAnswer('revA3', 'Were', 'feedback_revA3')">Submit</button>
+                <span id="feedback_revA3" class="feedback"></span>
+            </div>
+             <div class="question-item">
+                <span>4. How</span> <input type="text" id="revA4" style="width: 50px;"> <span>the questions?</span>
+                <button onclick="checkAnswer('revA4', 'were', 'feedback_revA4')">Submit</button>
+                <span id="feedback_revA4" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>5.</span> <input type="text" id="revA5" style="width: 50px;"> <span>she at a job interview too?</span>
+                <button onclick="checkAnswer('revA5', 'Was', 'feedback_revA5')">Submit</button>
+                <span id="feedback_revA5" class="feedback"></span>
+            </div>
+        </div>
+        
+        <div class="exercise-block">
+            <h3>B | Match the questions and answers.</h3>
+            <div class="question-item">
+                <span>1. How was the weather?</span>
+                <select id="revB1">
+                    <option value="">--</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                </select>
+                <button onclick="checkAnswer('revB1', 'c', 'feedback_revB1')">Submit</button>
+                <span id="feedback_revB1" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>2. Who was there?</span>
+                <select id="revB2">
+                    <option value="">--</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                </select>
+                <button onclick="checkAnswer('revB2', 'b', 'feedback_revB2')">Submit</button>
+                <span id="feedback_revB2" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>3. Were they home all evening?</span>
+                <select id="revB3">
+                    <option value="">--</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                </select>
+                <button onclick="checkAnswer('revB3', 'd', 'feedback_revB3')">Submit</button>
+                <span id="feedback_revB3" class="feedback"></span>
+            </div>
+            <div class="question-item">
+                <span>4. Were you late last week?</span>
+                <select id="revB4">
+                    <option value="">--</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                </select>
+                <button onclick="checkAnswer('revB4', 'a', 'feedback_revB4')">Submit</button>
+                <span id="feedback_revB4" class="feedback"></span>
+            </div>
+        </div>
+
+        <!-- ==================== WRITING SECTION ==================== -->
+        <h2>Writing Section</h2>
+        <div class="writing-section">
+            <h3>Đoạn văn mẫu (từ bài tập D)</h3>
+            <p id="original-paragraph">John is at a job interview yesterday. It were for a job at a bank. The questions no were easy, but John's answers were good. He was happy. It a good day for John.</p>
+            
+            <h3>Đoạn văn đã sửa lỗi</h3>
+            <p>John <strong>was</strong> at a job interview yesterday. It <strong>was</strong> for a job at a bank. The questions <strong>were not</strong> easy, but John's answers were good. He was happy. It <strong>was</strong> a good day for John.</p>
+
+            <h3>Tách câu từ đoạn văn đã sửa</h3>
+            <button onclick="splitParagraph()">Tách thành từng câu</button>
+            <div id="sentence-output" style="margin-top: 15px;"></div>
+        </div>
+
+
+    </div>
+
+    <script>
+        function checkAnswer(inputId, correctAnswer, feedbackId) {
+            const userInput = document.getElementById(inputId).value.trim();
+            const feedbackElement = document.getElementById(feedbackId);
+
+            // Xử lý các câu trả lời có thể chấp nhận (ví dụ: was not và wasn't)
+            const correctAnswers = correctAnswer.toLowerCase().split('|');
+            const normalizedUserInput = userInput.toLowerCase().replace(/\s+/g, ' '); // Chuẩn hóa khoảng trắng
+
+            let isCorrect = false;
+            for (let answer of correctAnswers) {
+                if (normalizedUserInput === answer.trim()) {
+                    isCorrect = true;
+                    break;
+                }
+            }
+
+            if (isCorrect) {
+                feedbackElement.innerHTML = `<span class="correct">✔ Chính xác!</span>`;
+            } else {
+                // Hiển thị gợi ý là câu trả lời đầu tiên trong danh sách
+                feedbackElement.innerHTML = `<span class="incorrect">❌ Chưa đúng. Gợi ý: "${correctAnswers[0]}"</span>`;
+            }
+        }
+
+        // Hàm đặc biệt cho bài tập 2
+        function checkAllEx2() {
+            const answers = {
+                'ex2_1': 'Were', 'ex2_2': 'wasn\'t|was not', 'ex2_3': 'was', 'ex2_4': 'was',
+                'ex2_5': 'Were', 'ex2_6': 'were', 'ex2_7': 'was', 'ex2_8': 'was',
+                'ex2_9': 'was', 'ex2_10': 'Were', 'ex2_11': 'wasn\'t|was not'
+            };
+            
+            let allCorrect = true;
+            for (const id in answers) {
+                const userInput = document.getElementById(id).value.trim().toLowerCase();
+                const correctOptions = answers[id].toLowerCase().split('|');
+                if (!correctOptions.includes(userInput)) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+            
+            const feedbackElement = document.getElementById('feedback_ex2');
+            if (allCorrect) {
+                feedbackElement.innerHTML = `<span class="correct">✔ Tuyệt vời! Tất cả đều đúng.</span>`;
+            } else {
+                feedbackElement.innerHTML = `<span class="incorrect">❌ Vẫn còn lỗi sai. Hãy kiểm tra lại nhé!</span>`;
+            }
+        }
+
+        // Hàm cho phần Writing
+        function splitParagraph() {
+            const paragraphText = "John was at a job interview yesterday. It was for a job at a bank. The questions were not easy, but John's answers were good. He was happy. It was a good day for John.";
+            const sentences = paragraphText.match(/[^.!?]+[.!?]+/g); // Tách câu hiệu quả hơn
+            const outputDiv = document.getElementById('sentence-output');
+            
+            outputDiv.innerHTML = ''; // Xóa nội dung cũ
+
+            if (sentences) {
+                sentences.forEach((sentence, index) => {
+                    const p = document.createElement('p');
+                    p.textContent = `${index + 1}. ${sentence.trim()}`;
+                    outputDiv.appendChild(p);
+                });
+            }
+        }
+    </script>
+
+<!-- ==================== ADDITIONAL PRACTICE SECTION ==================== -->
+<section id="additional-practice" class="container" style="margin-top: 40px;">
+    <h2>Additional Practice Exercises (100 Sentences)</h2>
+    <p>Complete the sentences using the correct form of the past of "be": <strong>was, wasn't, were, weren't</strong>.</p>
+    
+    <!-- Container cho các bài tập sẽ được tạo tự động bởi JavaScript -->
+    <div id="additional-exercises-container"></div>
+</section>
+
+<!-- Script riêng cho phần bài tập bổ sung -->
+<script>
+    // --- Data for 100 exercises ---
+    const additionalExercisesData = [
+        // Affirmative Statements (was/were)
+        { id: 1, sentence: "I ___ at home all day yesterday.", answer: "was" },
+        { id: 2, sentence: "She ___ very happy with her test results.", answer: "was" },
+        { id: 3, sentence: "The weather ___ beautiful last weekend.", answer: "was" },
+        { id: 4, sentence: "He ___ a student at that university ten years ago.", answer: "was" },
+        { id: 5, sentence: "My first car ___ red.", answer: "was" },
+        { id: 6, sentence: "You ___ right about the movie. It was great!", answer: "were" },
+        { id: 7, sentence: "We ___ in Paris for our vacation last summer.", answer: "were" },
+        { id: 8, sentence: "They ___ the best players on the team.", answer: "were" },
+        { id: 9, sentence: "The keys ___ on the table this morning.", answer: "were" },
+        { id: 10, sentence: "My parents ___ very proud of me.", answer: "were" },
+        { id: 11, sentence: "It ___ cold and rainy on Monday.", answer: "was" },
+        { id: 12, sentence: "The concert ___ amazing.", answer: "was" },
+        { id: 13, sentence: "Chris and I ___ classmates in high school.", answer: "were" },
+        { id: 14, sentence: "The children ___ quiet during the nap.", answer: "were" },
+        { id: 15, sentence: "The meeting ___ very long.", answer: "was" },
+        { id: 16, sentence: "I ___ sure I locked the door.", answer: "was" },
+        { id: 17, sentence: "You ___ very busy when I called.", answer: "were" },
+        { id: 18, sentence: "The books ___ heavy.", answer: "were" },
+        { id: 19, sentence: "My sister ___ sick last week.", answer: "was" },
+        { id: 20, sentence: "The questions on the exam ___ difficult.", answer: "were" },
+        { id: 21, sentence: "His name ___ Mark.", answer: "was" },
+        { id: 22, sentence: "The flowers in the garden ___ beautiful.", answer: "were" },
+        { id: 23, sentence: "We ___ late for the train.", answer: "were" },
+        { id: 24, sentence: "The coffee ___ too hot to drink.", answer: "was" },
+        { id: 25, sentence: "My grandparents ___ born in Italy.", answer: "were" },
+
+        // Negative Statements (wasn't/weren't)
+        { id: 26, sentence: "He ___ at school today because he was sick.", answer: "wasn't|was not" },
+        { id: 27, sentence: "They ___ happy with the hotel room.", answer: "weren't|were not" },
+        { id: 28, sentence: "I ___ ready for the presentation.", answer: "wasn't|was not" },
+        { id: 29, sentence: "You ___ at the party on Saturday night.", answer: "weren't|were not" },
+        { id: 30, sentence: "The store ___ open when we arrived.", answer: "wasn't|was not" },
+        { id: 31, sentence: "We ___ tired after the short walk.", answer: "weren't|were not" },
+        { id: 32, sentence: "It ___ sunny yesterday; it was cloudy.", answer: "wasn't|was not" },
+        { id: 33, sentence: "The movie ___ very interesting. In fact, it was boring.", answer: "wasn't|was not" },
+        { id: 34, sentence: "My friends ___ sure about the address.", answer: "weren't|were not" },
+        { id: 35, sentence: "She ___ a doctor; she was a nurse.", answer: "wasn't|was not" },
+        { id: 36, sentence: "The windows ___ clean.", answer: "weren't|were not" },
+        { id: 37, sentence: "I ___ born in this city.", answer: "wasn't|was not" },
+        { id: 38, sentence: "You ___ listening to me.", answer: "weren't|were not" },
+        { id: 39, sentence: "The food at the restaurant ___ very good.", answer: "wasn't|was not" },
+        { id: 40, sentence: "The exercises ___ easy at all.", answer: "weren't|were not" },
+        { id: 41, sentence: "He ___ at work last Friday.", answer: "wasn't|was not" },
+        { id: 42, sentence: "We ___ invited to the wedding.", answer: "weren't|were not" },
+        { id: 43, sentence: "Her emails ___ very clear.", answer: "weren't|were not" },
+        { id: 44, sentence: "This laptop ___ expensive.", answer: "wasn't|was not" },
+        { id: 45, sentence: "The dogs ___ in the backyard.", answer: "weren't|were not" },
+        { id: 46, sentence: "I ___ a good student in elementary school.", answer: "wasn't|was not" },
+        { id: 47, sentence: "The streets ___ busy early in the morning.", answer: "weren't|were not" },
+        { id: 48, sentence: "It ___ my fault.", answer: "wasn't|was not" },
+        { id: 49, sentence: "They ___ from Canada; they were from the US.", answer: "weren't|were not" },
+        { id: 50, sentence: "Maria ___ at the meeting.", answer: "wasn't|was not" },
+
+        // Yes/No Questions
+        { id: 51, sentence: "___ you at the library yesterday?", answer: "Were" },
+        { id: 52, sentence: "___ he tired after the game?", answer: "Was" },
+        { id: 53, sentence: "___ they on time for the appointment?", answer: "Were" },
+        { id: 54, sentence: "___ it a good book?", answer: "Was" },
+        { id: 55, sentence: "___ she your teacher last year?", answer: "Was" },
+        { id: 56, sentence: "___ we in the right classroom?", answer: "Were" },
+        { id: 57, sentence: "___ the shops open on Sunday?", answer: "Were" },
+        { id: 58, sentence: "___ I helpful?", answer: "Was" },
+        { id: 59, sentence: "___ your flight delayed?", answer: "Was" },
+        { id: 60, sentence: "___ the children good at the party?", answer: "Were" },
+        { id: 61, sentence: "___ he famous a long time ago?", answer: "Was" },
+        { id: 62, sentence: "___ you and your brother at the concert?", answer: "Were" },
+        { id: 63, sentence: "___ it hot in the room?", answer: "Was" },
+        { id: 64, sentence: "___ the emails in your spam folder?", answer: "Were" },
+        { id: 65, sentence: "___ I talking too loud?", answer: "Was" },
+        { id: 66, sentence: "___ she nervous before the interview?", answer: "Was" },
+        { id: 67, sentence: "___ your parents happy with the gift?", answer: "Were" },
+        { id: 68, sentence: "___ the exam hard?", answer: "Was" },
+        { id: 69, sentence: "___ you cold without a jacket?", answer: "Were" },
+        { id: 70, sentence: "___ your sister at home when you called?", answer: "Was" },
+        { id: 71, sentence: "___ there many people at the beach?", answer: "Were" },
+        { id: 72, sentence: "___ the sound on the TV too loud?", answer: "Was" },
+        { id: 73, sentence: "___ they your neighbors?", answer: "Were" },
+        { id: 74, sentence: "___ the cake delicious?", answer: "Was" },
+        { id: 75, sentence: "___ we supposed to be here?", answer: "Were" },
+
+        // Wh- Questions
+        { id: 76, sentence: "Where ___ you last night?", answer: "were" },
+        { id: 77, sentence: "Why ___ she so upset?", answer: "was" },
+        { id: 78, sentence: "How ___ your vacation?", answer: "was" },
+        { id: 79, sentence: "Who ___ the first president of the United States?", answer: "was" },
+        { id: 80, sentence: "When ___ they here?", answer: "were" },
+        { id: 81, sentence: "What ___ the problem?", answer: "was" },
+        { id: 82, sentence: "How old ___ you in 2010?", answer: "were" },
+        { id: 83, sentence: "Where ___ my glasses? I can't find them now.", answer: "were" },
+        { id: 84, sentence: "Why ___ the children so noisy?", answer: "were" },
+        { id: 85, sentence: "What ___ his reason for being late?", answer: "was" },
+        { id: 86, sentence: "Who ___ those people at the door?", answer: "were" },
+        { id: 87, sentence: "How long ___ the movie?", answer: "was" },
+        { id: 88, sentence: "Why ___ the office closed yesterday?", answer: "was" },
+        { id: 89, sentence: "What ___ your favorite subjects in school?", answer: "were" },
+        { id: 90, sentence: "When ___ your birthday?", answer: "was" },
+        
+        // Mixed Review
+        { id: 91, sentence: "The students ___ very quiet, so the teacher ___ happy.", answer: "were|was" },
+        { id: 92, sentence: "It ___ a sunny day, but we ___ inside all afternoon.", answer: "was|were" },
+        { id: 93, sentence: "___ you sure the information ___ correct?", answer: "Were|was" },
+        { id: 94, sentence: "My brother ___ sick, so my parents ___ worried.", answer: "was|were" },
+        { id: 95, sentence: "The cars ___ new, but the price ___ not high.", answer: "were|was" },
+        { id: 96, sentence: "I ___ hungry, but the restaurants ___ all closed.", answer: "was|weren't" },
+        { id: 97, sentence: "They ___ not at home. Where ___ they?", answer: "weren't|were" },
+        { id: 98, sentence: "___ the movie good? No, it ___.", answer: "Was|wasn't" },
+        { id: 99, sentence: "Why ___ you late? The traffic ___ terrible.", answer: "were|was" },
+        { id: 100, sentence: "She ___ there, but her friends ___.", answer: "was|weren't" }
+    ];
+
+    /**
+     * Generates the HTML for all additional exercises and injects it into the page.
+     */
+    function generateAdditionalExercises() {
+        const container = document.getElementById('additional-exercises-container');
+        if (!container) return;
+
+        let htmlContent = '';
+        additionalExercisesData.forEach(exercise => {
+            // Special handling for mixed review with two blanks
+            if (exercise.sentence.includes('___') && exercise.sentence.split('___').length > 2) {
+                 const parts = exercise.sentence.split('___');
+                 htmlContent += `
+                    <div class="exercise-block">
+                        <div class="question-item">
+                            <span>${exercise.id}. ${parts[0]}</span>
+                            <input type="text" id="add_ex_input_${exercise.id}_1" style="width: 70px;">
+                            <span>${parts[1]}</span>
+                            <input type="text" id="add_ex_input_${exercise.id}_2" style="width: 70px;">
+                            <span>${parts[2]}</span>
+                            <button onclick="checkAddExAnswer(${exercise.id})">Submit</button>
+                            <span id="add_ex_feedback_${exercise.id}" class="feedback"></span>
+                        </div>
+                    </div>`;
+            } else {
+                const parts = exercise.sentence.split('___');
+                const beforeText = parts[0];
+                const afterText = parts[1] || ''; // Handle cases with no text after the blank
+
+                htmlContent += `
+                    <div class="exercise-block">
+                        <div class="question-item">
+                            <span>${exercise.id}. ${beforeText}</span>
+                            <input type="text" id="add_ex_input_${exercise.id}" style="width: 80px;">
+                            <span>${afterText}</span>
+                            <button onclick="checkAddExAnswer(${exercise.id})">Submit</button>
+                            <span id="add_ex_feedback_${exercise.id}" class="feedback"></span>
+                        </div>
+                    </div>`;
+            }
+        });
+        container.innerHTML = htmlContent;
+    }
+
+    /**
+     * Checks the answer for a specific additional exercise.
+     * @param {number} questionId - The ID of the question to check.
+     */
+    function checkAddExAnswer(questionId) {
+        const exercise = additionalExercisesData.find(ex => ex.id === questionId);
+        const feedbackElement = document.getElementById(`add_ex_feedback_${questionId}`);
+        if (!exercise || !feedbackElement) return;
+        
+        let userInput;
+        let isCorrect = false;
+
+        // Check if it's a mixed question with two inputs
+        if (exercise.answer.includes('|')) {
+            const correctAnswers = exercise.answer.split('|');
+            // This logic handles questions with two blanks specifically
+            if (document.getElementById(`add_ex_input_${questionId}_1`)) {
+                 const userInput1 = document.getElementById(`add_ex_input_${questionId}_1`).value.trim().toLowerCase();
+                 const userInput2 = document.getElementById(`add_ex_input_${questionId}_2`).value.trim().toLowerCase();
+                 if (userInput1 === correctAnswers[0].toLowerCase() && userInput2 === correctAnswers[1].toLowerCase()) {
+                     isCorrect = true;
+                 }
+                 userInput = `${userInput1} / ${userInput2}`; // For display if needed
+            } else { // Handles single-blank questions with alternate correct answers (e.g., wasn't/was not)
+                 userInput = document.getElementById(`add_ex_input_${questionId}`).value.trim().toLowerCase();
+                 isCorrect = correctAnswers.map(a => a.toLowerCase()).includes(userInput);
+            }
+        } else { // Standard single-answer question
+            userInput = document.getElementById(`add_ex_input_${questionId}`).value.trim().toLowerCase();
+            isCorrect = (userInput === exercise.answer.toLowerCase());
+        }
+
+        if (isCorrect) {
+            feedbackElement.innerHTML = `<span class="correct">✔ Chính xác!</span>`;
+        } else {
+            // Display the first correct answer as a hint
+            const hint = exercise.answer.replace(/\|/g, ' / ');
+            feedbackElement.innerHTML = `<span class="incorrect">❌ Chưa đúng. Gợi ý: "${hint}"</span>`;
+        }
+    }
+
+    // Generate the exercises when the page content has loaded
+    document.addEventListener('DOMContentLoaded', generateAdditionalExercises);
+
+</script>
+</body>
+</html>
