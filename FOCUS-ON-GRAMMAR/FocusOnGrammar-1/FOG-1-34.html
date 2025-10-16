@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 4: Count Nouns and Proper Nouns</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 900px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        h1 {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        h2 {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-left: 5px solid #0056b3;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.4em;
+        }
+        .step-header {
+            background-color: #5a8d5a;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .reading-article {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        .reading-article img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .reading-article .text-content {
+            flex: 1;
+        }
+        strong {
+            color: #b71c1c;
+        }
+        .video-container {
+            margin-top: 25px;
+            text-align: center;
+        }
+        iframe {
+            max-width: 100%;
+            border: 3px solid #ddd;
+            border-radius: 8px;
+        }
+        .exercise {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .exercise-question {
+            margin-bottom: 15px;
+        }
+        .exercise-question p {
+            margin: 0 0 10px 0;
+        }
+        input[type="text"], textarea {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+        textarea {
+            width: 95%;
+            height: 100px;
+            resize: vertical;
+        }
+        button.submit-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        button.submit-btn:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            display: none;
+            margin-top: 5px;
+            padding: 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .feedback.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .feedback.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .hint {
+            display: none;
+            margin-top: 5px;
+            padding: 8px;
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+            border-radius: 4px;
+            font-style: italic;
+        }
+
+        /* Grammar Presentation Styles */
+        .grammar-presentation {
+            background-color: #eef;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .grammar-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .grammar-note {
+            display: flex;
+            align-items: flex-start;
+            background-color: #fffde7;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .grammar-note .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ffc107;
+            margin-right: 15px;
+        }
+        .grammar-note .content {
+            flex: 1;
+        }
+        .grammar-note ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .proper-noun-box {
+            background-color: #e3f2fd;
+            border: 1px solid #90caf9;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .warning {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+        
+        /* Writing Section */
+        #sentence-output {
+            list-style-type: decimal;
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        #sentence-output li {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-bottom: 1px dashed #ccc;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNIT 4: Count Nouns and Proper Nouns</h1>
+        <h2>PHOTOGRAPHS AND PHOTOGRAPHERS</h2>
+
+        <div class="step-header">STEP 1: GRAMMAR IN CONTEXT</div>
+        
+        <h3>Before You Read</h3>
+        <p><strong>PAIRS:</strong> Where do you keep your photos? Talk about a photo you have.</p>
+        <p><em>EXAMPLE: This is a photo of my sister. She's a nurse. She's 23 years old.</em></p>
+
+        <h3>Read</h3>
+        <p>Read the article about Henri Cartier-Bresson and one of his photographs.</p>
+
+        <div class="reading-article">
+             <div class="text-content">
+                <h3>A PHOTOGRAPHER AND A PHOTO</h3>
+                <p>Henri Cartier-Bresson was a <strong>photographer</strong> and an <strong>artist</strong>. He was born in France in 1908. He died in 2004. At that time he was almost 96 years old. Cartier-Bresson traveled the world. He was in West Africa, the <strong>United States</strong>, <strong>India</strong>, <strong>China</strong>, <strong>Egypt</strong>, and <strong>Russia</strong>. His <strong>photos</strong> are from all over the world.</p>
+                <p>Cartier-Bresson is famous for “street” photography. Street <strong>photographs</strong> are about <strong>people</strong> in the <strong>street</strong> or other public <strong>places</strong> such as <strong>parks</strong> and <strong>beaches</strong>. They are sometimes about a special <strong>moment</strong> in <strong>time</strong>.</p>
+                <p>Look at this <strong>photo</strong> by Cartier-Bresson. Do you like it? It's a <strong>photo</strong> of a <strong>woman</strong> and a <strong>man</strong> on the <strong>holiday</strong> of Easter. They are both wearing fine <strong>clothes</strong>. The <strong>woman</strong> is wearing a big <strong>hat</strong> with many <strong>flowers</strong>. The <strong>man</strong> is wearing a <strong>suit</strong>. The <strong>man</strong> is looking at the <strong>woman</strong>. They are in <strong>Harlem</strong>, in <strong>New York City</strong>. It's 1947. <strong>People</strong> say Cartier-Bresson's <strong>photos</strong> are striking and beautiful. What do you think? Is it true for this <strong>photo</strong>?</p>
+             </div>
+             <img src="FOG-1-34/1.png" alt="Photo by Henri Cartier-Bresson in Harlem, 1947. A woman in a floral hat is in the foreground.">
+        </div>
+        
+        <div class="video-container">
+            <h3>More About Henri Cartier-Bresson</h3>
+            <p><em>(Link video YouTube sẽ được cập nhật tại đây.)</em></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Pj2EV_m3YJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="step-header">STEP 2: GRAMMAR PRESENTATION</div>
+        <h3>SINGULAR AND PLURAL COUNT NOUNS; PROPER NOUNS</h3>
+        
+        <div class="grammar-presentation">
+            <h4>Singular and Plural Nouns</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Singular Nouns</th>
+                        <th>Plural Nouns</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>He is <strong>a photographer</strong>.</td>
+                        <td>They are <strong>photographers</strong>.</td>
+                    </tr>
+                    <tr>
+                        <td>He is <strong>an artist</strong>.</td>
+                        <td>They are <strong>artists</strong>.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Irregular Plural Nouns</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Singular</th>
+                        <th>Plural</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>man</td><td>men</td></tr>
+                    <tr><td>woman</td><td>women</td></tr>
+                    <tr><td>child</td><td>children</td></tr>
+                    <tr><td>foot</td><td>feet</td></tr>
+                    <tr><td>tooth</td><td>teeth</td></tr>
+                    <tr><td>person</td><td>people</td></tr>
+                </tbody>
+            </table>
+
+            <h4>Proper Nouns</h4>
+            <div class="proper-noun-box">
+                <p><strong>Harlem</strong> is in <strong>New York City</strong>.</p>
+                <p>The poet <strong>Maya Angelou</strong> has a home in <strong>Harlem</strong>.</p>
+            </div>
+        </div>
+
+        <h3>GRAMMAR NOTES</h3>
+        
+        <div class="grammar-note">
+            <div class="number">1</div>
+            <div class="content">
+                <p><strong>Nouns</strong> are names of people, places, and things.</p>
+                <ul>
+                    <li>a <strong>student</strong>, <strong>Jung Eun</strong></li>
+                    <li>a <strong>country</strong>, <strong>Korea</strong></li>
+                    <li>a <strong>camera</strong>, a <strong>photograph</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <div class="number">2</div>
+            <div class="content">
+                <p><strong>Count nouns</strong> are easy to count. They have a singular and plural form.</p>
+                <ul>
+                    <li><strong>one photo</strong>, <strong>two photos</strong>, <strong>three photos</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <div class="number">3</div>
+            <div class="content">
+                <p>Use <strong>a</strong> before singular count nouns that begin with a <strong>consonant sound</strong> like /n/, /b/, /h/.</p>
+                <ul>
+                    <li>She's <strong>a nurse</strong>.</li>
+                    <li>He's <strong>a baker</strong>.</li>
+                    <li>It's <strong>a house</strong>.</li>
+                </ul>
+                 <p class="warning">BE CAREFUL! Use <strong>a</strong> before a <strong>u</strong> that sounds like "yew."</p>
+                 <ul><li>This is <strong>a unit</strong> about nouns.</li></ul>
+
+                <p>Use <strong>an</strong> before singular count nouns that begin with a <strong>vowel sound</strong>.</p>
+                <ul>
+                    <li>She's <strong>an artist</strong>.</li>
+                    <li>He's <strong>an engineer</strong>.</li>
+                    <li>It's <strong>an umbrella</strong>.</li>
+                </ul>
+                <p class="warning">BE CAREFUL! Use <strong>an</strong> before an <strong>h</strong> that is silent.</p>
+                <ul><li>It's <strong>an hour</strong> too early. (Hour sounds like our.)</li></ul>
+            </div>
+        </div>
+        
+        <div class="grammar-note">
+            <div class="number">4</div>
+            <div class="content">
+                <p>To form the <strong>plural</strong> of most count nouns, add <strong>-s</strong> or <strong>-es</strong>.</p>
+                 <ul>
+                    <li>one <strong>friend</strong> &rarr; three <strong>friends</strong></li>
+                    <li>one <strong>class</strong> &rarr; three <strong>classes</strong></li>
+                </ul>
+                <p>Some nouns have irregular plural endings.</p>
+                <ul>
+                    <li>one <strong>man</strong> &rarr; two <strong>men</strong></li>
+                    <li>one <strong>tooth</strong> &rarr; two <strong>teeth</strong></li>
+                </ul>
+                <p>Some nouns such as <em>clothes, glasses, jeans, scissors</em> are always plural.</p>
+                <ul><li>My <strong>jeans are</strong> blue.</li></ul>
+                <p class="warning">Do not put <em>a</em> or <em>an</em> before plural nouns.</p>
+                <ul><li>They are <strong>photos</strong> of friends. <br>Not: <del>They are a photos of friends.</del></li></ul>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <div class="number">5</div>
+            <div class="content">
+                <p>Names of specific people and places are <strong>proper nouns</strong>. Write these with a capital letter.</p>
+                <ul>
+                    <li><strong>Paris</strong> is in <strong>France</strong>.</li>
+                    <li><strong>Harlem</strong> is in <strong>New York City</strong>.</li>
+                </ul>
+                <p class="warning">Do not put <em>a</em> or <em>an</em> before proper nouns.</p>
+                <ul><li>Not: <del>A Paris is in a France.</del></li></ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="step-header">STEP 3: FOCUSED PRACTICE</div>
+
+        <h2>EXERCISE 3: A or An</h2>
+        <p>Complete the sentences with <strong>a</strong> or <strong>an</strong>. Write <strong>Ø</strong> if you don't need a or an.</p>
+        
+        <div class="exercise">
+            <div class="exercise-question">
+                <p>1. Henri Cartier-Bresson was <input type="text" id="ex3-q1" size="3"> photographer.</p>
+                <button class="submit-btn" onclick="checkAnswer('ex3-q1', 'a', 'feedback-3-1', 'hint-3-1')">Submit</button>
+                <div id="feedback-3-1" class="feedback"></div>
+                <div id="hint-3-1" class="hint">Hint: "Photographer" starts with a consonant sound.</div>
+            </div>
+            <div class="exercise-question">
+                <p>2. Cartier-Bresson and Ansel Adams were <input type="text" id="ex3-q2" size="3"> photographers.</p>
+                <button class="submit-btn" onclick="checkAnswer('ex3-q2', 'Ø', 'feedback-3-2', 'hint-3-2')">Submit</button>
+                <div id="feedback-3-2" class="feedback"></div>
+                <div id="hint-3-2" class="hint">Hint: "Photographers" is plural. We don't use 'a' or 'an' with plural nouns. Use the symbol Ø for "nothing".</div>
+            </div>
+            <div class="exercise-question">
+                <p>3. Cartier-Bresson was <input type="text" id="ex3-q3" size="3"> artist too.</p>
+                <button class="submit-btn" onclick="checkAnswer('ex3-q3', 'an', 'feedback-3-3', 'hint-3-3')">Submit</button>
+                <div id="feedback-3-3" class="feedback"></div>
+                <div id="hint-3-3" class="hint">Hint: "Artist" starts with a vowel sound.</div>
+            </div>
+            <div class="exercise-question">
+                <p>4. All good photographers are <input type="text" id="ex3-q4" size="3"> artists.</p>
+                <button class="submit-btn" onclick="checkAnswer('ex3-q4', 'Ø', 'feedback-3-4', 'hint-3-4')">Submit</button>
+                <div id="feedback-3-4" class="feedback"></div>
+                <div id="hint-3-4" class="hint">Hint: "Artists" is a plural noun. Use Ø.</div>
+            </div>
+             <div class="exercise-question">
+                <p>5. Adams was <input type="text" id="ex3-q5" size="3"> pianist before he was <input type="text" id="ex3-q5b" size="3"> photographer.</p>
+                <button class="submit-btn" onclick="checkDoubleAnswer('ex3-q5', 'a', 'ex3-q5b', 'a', 'feedback-3-5', 'hint-3-5')">Submit</button>
+                <div id="feedback-3-5" class="feedback"></div>
+                <div id="hint-3-5" class="hint">Hint: Both "pianist" and "photographer" start with consonant sounds.</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Writing Task: Sample Paragraph Analysis</h2>
+        <p>This is a sample paragraph. After reading, click the button to see how it can be broken down into individual sentences.</p>
+        
+        <div id="sample-paragraph" style="background-color: #f8f9fa; padding: 15px; border-left: 3px solid #6c757d; border-radius: 5px;">
+            Melanie Einzig is an artist and a photographer. She was born in Minnesota, but lives in New York. Einzig captures moments in time. Her photographs are striking. They are in museum in San Francisco, Chicago, and Princeton.
+        </div>
+        
+        <button onclick="splitSentences()" style="margin-top: 15px; background-color: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Tách thành câu</button>
+        
+        <ol id="sentence-output" style="margin-top: 20px;"></ol>
+    </div>
+
+<script>
+    function checkAnswer(inputId, correctAnswer, feedbackId, hintId) {
+        const inputElement = document.getElementById(inputId);
+        const userAnswer = inputElement.value.trim();
+        const feedbackElement = document.getElementById(feedbackId);
+        const hintElement = document.getElementById(hintId);
+
+        if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+            feedbackElement.textContent = 'Correct! Great job!';
+            feedbackElement.className = 'feedback correct';
+            hintElement.style.display = 'none';
+        } else {
+            feedbackElement.textContent = 'Incorrect. Try again.';
+            feedbackElement.className = 'feedback incorrect';
+            hintElement.style.display = 'block';
+        }
+        feedbackElement.style.display = 'block';
+    }
+
+    function checkDoubleAnswer(inputId1, correctAnswer1, inputId2, correctAnswer2, feedbackId, hintId) {
+        const userAnswer1 = document.getElementById(inputId1).value.trim();
+        const userAnswer2 = document.getElementById(inputId2).value.trim();
+        const feedbackElement = document.getElementById(feedbackId);
+        const hintElement = document.getElementById(hintId);
+
+        if (userAnswer1.toLowerCase() === correctAnswer1.toLowerCase() && userAnswer2.toLowerCase() === correctAnswer2.toLowerCase()) {
+            feedbackElement.textContent = 'Correct! Great job!';
+            feedbackElement.className = 'feedback correct';
+            hintElement.style.display = 'none';
+        } else {
+            feedbackElement.textContent = 'Incorrect. Check both answers and try again.';
+            feedbackElement.className = 'feedback incorrect';
+            hintElement.style.display = 'block';
+        }
+        feedbackElement.style.display = 'block';
+    }
+    
+    // WRITING SCRIPT
+    function splitSentences() {
+        const paragraphText = document.getElementById('sample-paragraph').textContent;
+        const sentenceOutput = document.getElementById('sentence-output');
+        
+        // Clear previous output
+        sentenceOutput.innerHTML = '';
+        
+        // Split text into sentences. This regex handles '.', '!', '?' as delimiters.
+        // It also filters out any empty strings that might result from the split.
+        const sentences = paragraphText.match(/[^.!?]+[.!?]+/g) || [];
+        
+        if (sentences.length > 0) {
+            sentences.forEach(sentence => {
+                const li = document.createElement('li');
+                li.textContent = sentence.trim();
+                sentenceOutput.appendChild(li);
+            });
+        } else {
+             sentenceOutput.innerHTML = '<li>Could not find any sentences to split.</li>';
+        }
+    }
+
+</script>
+
+
+    <div class="container">
+        <div class="step-header" style="background-color: #d9534f;">ADDITIONAL PRACTICE EXERCISES</div>
+        
+        <h2>Part 1: Complete with 'a' or 'an'</h2>
+        <div class="exercise">
+            <div class="exercise-question-ext"><p>1. She is reading <input type="text" id="ext-ex-1" size="3"> interesting book.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-1', 'an', 'ext-feedback-1', 'ext-hint-1')">Submit</button><div id="ext-feedback-1" class="feedback"></div><div id="ext-hint-1" class="hint">Hint: "interesting" starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>2. He is <input type="text" id="ext-ex-2" size="3"> honest man.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-2', 'an', 'ext-feedback-2', 'ext-hint-2')">Submit</button><div id="ext-feedback-2" class="feedback"></div><div id="ext-hint-2" class="hint">Hint: The 'h' in "honest" is silent, so it starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>3. I have <input type="text" id="ext-ex-3" size="3"> big family.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-3', 'a', 'ext-feedback-3', 'ext-hint-3')">Submit</button><div id="ext-feedback-3" class="feedback"></div><div id="ext-hint-3" class="hint">Hint: "big" starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>4. It takes about <input type="text" id="ext-ex-4" size="3"> hour to get there.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-4', 'an', 'ext-feedback-4', 'ext-hint-4')">Submit</button><div id="ext-feedback-4" class="feedback"></div><div id="ext-hint-4" class="hint">Hint: The 'h' in "hour" is silent.</div></div>
+            <div class="exercise-question-ext"><p>5. She works in <input type="text" id="ext-ex-5" size="3"> office.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-5', 'an', 'ext-feedback-5', 'ext-hint-5')">Submit</button><div id="ext-feedback-5" class="feedback"></div><div id="ext-hint-5" class="hint">Hint: "office" starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>6. It is <input type="text" id="ext-ex-6" size="3"> universal truth.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-6', 'a', 'ext-feedback-6', 'ext-hint-6')">Submit</button><div id="ext-feedback-6" class="feedback"></div><div id="ext-hint-6" class="hint">Hint: "universal" starts with a 'y' sound, which is a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>7. Can I have <input type="text" id="ext-ex-7" size="3"> glass of water?</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-7', 'a', 'ext-feedback-7', 'ext-hint-7')">Submit</button><div id="ext-feedback-7" class="feedback"></div><div id="ext-hint-7" class="hint">Hint: "glass" starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>8. He is <input type="text" id="ext-ex-8" size="3"> artist.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-8', 'an', 'ext-feedback-8', 'ext-hint-8')">Submit</button><div id="ext-feedback-8" class="feedback"></div><div id="ext-hint-8" class="hint">Hint: "artist" starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>9. My mom is <input type="text" id="ext-ex-9" size="3"> English teacher.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-9', 'an', 'ext-feedback-9', 'ext-hint-9')">Submit</button><div id="ext-feedback-9" class="feedback"></div><div id="ext-hint-9" class="hint">Hint: "English" starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>10. I bought <input type="text" id="ext-ex-10" size="3"> umbrella yesterday.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-10', 'an', 'ext-feedback-10', 'ext-hint-10')">Submit</button><div id="ext-feedback-10" class="feedback"></div><div id="ext-hint-10" class="hint">Hint: "umbrella" starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>11. He saw <input type="text" id="ext-ex-11" size="3"> unicorn in his dream.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-11', 'a', 'ext-feedback-11', 'ext-hint-11')">Submit</button><div id="ext-feedback-11" class="feedback"></div><div id="ext-hint-11" class="hint">Hint: 'unicorn' starts with a 'y' sound.</div></div>
+            <div class="exercise-question-ext"><p>12. This is <input type="text" id="ext-ex-12" size="3"> wonderful idea.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-12', 'a', 'ext-feedback-12', 'ext-hint-12')">Submit</button><div id="ext-feedback-12" class="feedback"></div><div id="ext-hint-12" class="hint">Hint: Starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>13. I need to make <input type="text" id="ext-ex-13" size="3"> important phone call.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-13', 'an', 'ext-feedback-13', 'ext-hint-13')">Submit</button><div id="ext-feedback-13" class="feedback"></div><div id="ext-hint-13" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>14. She is wearing <input type="text" id="ext-ex-14" size="3"> expensive dress.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-14', 'an', 'ext-feedback-14', 'ext-hint-14')">Submit</button><div id="ext-feedback-14" class="feedback"></div><div id="ext-hint-14" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>15. He is studying at <input type="text" id="ext-ex-15" size="3"> European university.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-15', 'a', 'ext-feedback-15', 'ext-hint-15')">Submit</button><div id="ext-feedback-15" class="feedback"></div><div id="ext-hint-15" class="hint">Hint: 'European' starts with a 'y' sound.</div></div>
+            <div class="exercise-question-ext"><p>16. Would you like <input type="text" id="ext-ex-16" size="3"> apple?</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-16', 'an', 'ext-feedback-16', 'ext-hint-16')">Submit</button><div id="ext-feedback-16" class="feedback"></div><div id="ext-hint-16" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>17. This is <input type="text" id="ext-ex-17" size="3"> easy question.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-17', 'an', 'ext-feedback-17', 'ext-hint-17')">Submit</button><div id="ext-feedback-17" class="feedback"></div><div id="ext-hint-17" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>18. I saw <input type="text" id="ext-ex-18" size="3"> eagle flying high.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-18', 'an', 'ext-feedback-18', 'ext-hint-18')">Submit</button><div id="ext-feedback-18" class="feedback"></div><div id="ext-hint-18" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>19. My brother is <input type="text" id="ext-ex-19" size="3"> computer programmer.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-19', 'a', 'ext-feedback-19', 'ext-hint-19')">Submit</button><div id="ext-feedback-19" class="feedback"></div><div id="ext-hint-19" class="hint">Hint: Starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>20. We live in <input type="text" id="ext-ex-20" size="3"> small apartment.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-20', 'a', 'ext-feedback-20', 'ext-hint-20')">Submit</button><div id="ext-feedback-20" class="feedback"></div><div id="ext-hint-20" class="hint">Hint: Starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>21. He drives <input type="text" id="ext-ex-21" size="3"> old car.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-21', 'an', 'ext-feedback-21', 'ext-hint-21')">Submit</button><div id="ext-feedback-21" class="feedback"></div><div id="ext-hint-21" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>22. She told me <input type="text" id="ext-ex-22" size="3"> funny story.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-22', 'a', 'ext-feedback-22', 'ext-hint-22')">Submit</button><div id="ext-feedback-22" class="feedback"></div><div id="ext-hint-22" class="hint">Hint: Starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>23. It's <input type="text" id="ext-ex-23" size="3"> beautiful day.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-23', 'a', 'ext-feedback-23', 'ext-hint-23')">Submit</button><div id="ext-feedback-23" class="feedback"></div><div id="ext-hint-23" class="hint">Hint: Starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>24. There is <input type="text" id="ext-ex-24" size="3"> orange on the table.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-24', 'an', 'ext-feedback-24', 'ext-hint-24')">Submit</button><div id="ext-feedback-24" class="feedback"></div><div id="ext-hint-24" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>25. He is <input type="text" id="ext-ex-25" size="3"> heir to the throne.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-25', 'an', 'ext-feedback-25', 'ext-hint-25')">Submit</button><div id="ext-feedback-25" class="feedback"></div><div id="ext-hint-25" class="hint">Hint: The 'h' in 'heir' is silent.</div></div>
+            <div class="exercise-question-ext"><p>26. She is wearing <input type="text" id="ext-ex-26" size="3"> uniform.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-26', 'a', 'ext-feedback-26', 'ext-hint-26')">Submit</button><div id="ext-feedback-26" class="feedback"></div><div id="ext-hint-26" class="hint">Hint: 'uniform' starts with a 'y' sound.</div></div>
+            <div class="exercise-question-ext"><p>27. That is <input type="text" id="ext-ex-27" size="3"> huge building.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-27', 'a', 'ext-feedback-27', 'ext-hint-27')">Submit</button><div id="ext-feedback-27" class="feedback"></div><div id="ext-hint-27" class="hint">Hint: The 'h' is pronounced in 'huge'.</div></div>
+            <div class="exercise-question-ext"><p>28. I have <input type="text" id="ext-ex-28" size="3"> idea.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-28', 'an', 'ext-feedback-28', 'ext-hint-28')">Submit</button><div id="ext-feedback-28" class="feedback"></div><div id="ext-hint-28" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>29. He is <input type="text" id="ext-ex-29" size="3"> FBI agent.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-29', 'an', 'ext-feedback-29', 'ext-hint-29')">Submit</button><div id="ext-feedback-29" class="feedback"></div><div id="ext-hint-29" class="hint">Hint: The letter 'F' is pronounced 'ef', which starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>30. This is <input type="text" id="ext-ex-30" size="3"> historic occasion.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-30', 'a', 'ext-feedback-30', 'ext-hint-30')">Submit</button><div id="ext-feedback-30" class="feedback"></div><div id="ext-hint-30" class="hint">Hint: In most dialects, the 'h' in 'historic' is pronounced. 'A' is correct.</div></div>
+            <div class="exercise-question-ext"><p>31. Can I ask you <input type="text" id="ext-ex-31" size="3"> question?</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-31', 'a', 'ext-feedback-31', 'ext-hint-31')">Submit</button><div id="ext-feedback-31" class="feedback"></div><div id="ext-hint-31" class="hint">Hint: Starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>32. She wants to be <input type="text" id="ext-ex-32" size="3"> astronaut.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-32', 'an', 'ext-feedback-32', 'ext-hint-32')">Submit</button><div id="ext-feedback-32" class="feedback"></div><div id="ext-hint-32" class="hint">Hint: Starts with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>33. He is carrying <input type="text" id="ext-ex-33" size="3"> heavy bag.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-33', 'a', 'ext-feedback-33', 'ext-hint-33')">Submit</button><div id="ext-feedback-33" class="feedback"></div><div id="ext-hint-33" class="hint">Hint: Starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>34. It was <input type="text" id="ext-ex-34" size="3"> honor to meet him.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-34', 'an', 'ext-feedback-34', 'ext-hint-34')">Submit</button><div id="ext-feedback-34" class="feedback"></div><div id="ext-hint-34" class="hint">Hint: The 'h' in 'honor' is silent.</div></div>
+            <div class="exercise-question-ext"><p>35. We need <input type="text" id="ext-ex-35" size="3"> new plan.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-35', 'a', 'ext-feedback-35', 'ext-hint-35')">Submit</button><div id="ext-feedback-35" class="feedback"></div><div id="ext-hint-35" class="hint">Hint: Starts with a consonant sound.</div></div>
+        </div>
+
+        <h2>Part 2: Complete with 'a', 'an', or 'Ø' (no article)</h2>
+        <div class="exercise">
+            <div class="exercise-question-ext"><p>36. I like to listen to <input type="text" id="ext-ex-36" size="3"> music.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-36', 'Ø', 'ext-feedback-36', 'ext-hint-36')">Submit</button><div id="ext-feedback-36" class="feedback"></div><div id="ext-hint-36" class="hint">Hint: "Music" is an uncountable noun. We don't use 'a' or 'an'. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>37. They are <input type="text" id="ext-ex-37" size="3"> engineers.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-37', 'Ø', 'ext-feedback-37', 'ext-hint-37')">Submit</button><div id="ext-feedback-37" class="feedback"></div><div id="ext-hint-37" class="hint">Hint: "Engineers" is a plural noun. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>38. My father is <input type="text" id="ext-ex-38" size="3"> pilot.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-38', 'a', 'ext-feedback-38', 'ext-hint-38')">Submit</button><div id="ext-feedback-38" class="feedback"></div><div id="ext-hint-38" class="hint">Hint: "Pilot" is a singular countable noun starting with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>39. She was born in <input type="text" id="ext-ex-39" size="3"> Italy.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-39', 'Ø', 'ext-feedback-39', 'ext-hint-39')">Submit</button><div id="ext-feedback-39" class="feedback"></div><div id="ext-hint-39" class="hint">Hint: "Italy" is a proper noun (name of a country). Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>40. I saw <input type="text" id="ext-ex-40" size="3"> beautiful painting at the museum.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-40', 'a', 'ext-feedback-40', 'ext-hint-40')">Submit</button><div id="ext-feedback-40" class="feedback"></div><div id="ext-hint-40" class="hint">Hint: "beautiful painting" is a singular countable noun phrase. "beautiful" starts with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>41. We need <input type="text" id="ext-ex-41" size="3"> information.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-41', 'Ø', 'ext-feedback-41', 'ext-hint-41')">Submit</button><div id="ext-feedback-41" class="feedback"></div><div id="ext-hint-41" class="hint">Hint: "Information" is an uncountable noun. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>42. He is wearing <input type="text" id="ext-ex-42" size="3"> new shoes.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-42', 'Ø', 'ext-feedback-42', 'ext-hint-42')">Submit</button><div id="ext-feedback-42" class="feedback"></div><div id="ext-hint-42" class="hint">Hint: "shoes" is plural. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>43. <input type="text" id="ext-ex-43" size="3"> Water is essential for life.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-43', 'Ø', 'ext-feedback-43', 'ext-hint-43')">Submit</button><div id="ext-feedback-43" class="feedback"></div><div id="ext-hint-43" class="hint">Hint: "Water" used in a general sense is uncountable. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>44. She gave me <input type="text" id="ext-ex-44" size="3"> good advice.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-44', 'Ø', 'ext-feedback-44', 'ext-hint-44')">Submit</button><div id="ext-feedback-44" class="feedback"></div><div id="ext-hint-44" class="hint">Hint: "Advice" is uncountable. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>45. <input type="text" id="ext-ex-45" size="3"> Paris is a beautiful city.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-45', 'Ø', 'ext-feedback-45', 'ext-hint-45')">Submit</button><div id="ext-feedback-45" class="feedback"></div><div id="ext-hint-45" class="hint">Hint: "Paris" is a proper noun. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>46. I need to buy <input type="text" id="ext-ex-46" size="3"> new computer.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-46', 'a', 'ext-feedback-46', 'ext-hint-46')">Submit</button><div id="ext-feedback-46" class="feedback"></div><div id="ext-hint-46" class="hint">Hint: "computer" is a singular countable noun.</div></div>
+            <div class="exercise-question-ext"><p>47. She has <input type="text" id="ext-ex-47" size="3"> long hair.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-47', 'Ø', 'ext-feedback-47', 'ext-hint-47')">Submit</button><div id="ext-feedback-47" class="feedback"></div><div id="ext-hint-47" class="hint">Hint: "hair" is usually treated as uncountable. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>48. He has <input type="text" id="ext-ex-48" size="3"> appointment at 3 PM.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-48', 'an', 'ext-feedback-48', 'ext-hint-48')">Submit</button><div id="ext-feedback-48" class="feedback"></div><div id="ext-hint-48" class="hint">Hint: Singular noun starting with a vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>49. They are looking for <input type="text" id="ext-ex-49" size="3"> new apartment.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-49', 'a', 'ext-feedback-49', 'ext-hint-49')">Submit</button><div id="ext-feedback-49" class="feedback"></div><div id="ext-hint-49" class="hint">Hint: Singular noun starting with a consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>50. I love <input type="text" id="ext-ex-50" size="3"> coffee in the morning.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-50', 'Ø', 'ext-feedback-50', 'ext-hint-50')">Submit</button><div id="ext-feedback-50" class="feedback"></div><div id="ext-hint-50" class="hint">Hint: "Coffee" in a general sense is uncountable. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>51. My favorite subject is <input type="text" id="ext-ex-51" size="3"> history.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-51', 'Ø', 'ext-feedback-51', 'ext-hint-51')">Submit</button><div id="ext-feedback-51" class="feedback"></div><div id="ext-hint-51" class="hint">Hint: School subjects don't take an article. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>52. He speaks <input type="text" id="ext-ex-52" size="3"> German.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-52', 'Ø', 'ext-feedback-52', 'ext-hint-52')">Submit</button><div id="ext-feedback-52" class="feedback"></div><div id="ext-hint-52" class="hint">Hint: Languages don't take an article. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>53. I ate <input type="text" id="ext-ex-53" size="3"> egg for breakfast.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-53', 'an', 'ext-feedback-53', 'ext-hint-53')">Submit</button><div id="ext-feedback-53" class="feedback"></div><div id="ext-hint-53" class="hint">Hint: Singular, countable, vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>54. <input type="text" id="ext-ex-54" size="3"> People are waiting outside.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-54', 'Ø', 'ext-feedback-54', 'ext-hint-54')">Submit</button><div id="ext-feedback-54" class="feedback"></div><div id="ext-hint-54" class="hint">Hint: "People" is a plural noun. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>55. She is afraid of <input type="text" id="ext-ex-55" size="3"> dogs.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-55', 'Ø', 'ext-feedback-55', 'ext-hint-55')">Submit</button><div id="ext-feedback-55" class="feedback"></div><div id="ext-hint-55" class="hint">Hint: "dogs" refers to dogs in general (plural). Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>56. There is <input type="text" id="ext-ex-56" size="3"> interesting movie on TV tonight.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-56', 'an', 'ext-feedback-56', 'ext-hint-56')">Submit</button><div id="ext-feedback-56" class="feedback"></div><div id="ext-hint-56" class="hint">Hint: Singular, countable, vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>57. He writes <input type="text" id="ext-ex-57" size="3"> poems in his free time.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-57', 'Ø', 'ext-feedback-57', 'ext-hint-57')">Submit</button><div id="ext-feedback-57" class="feedback"></div><div id="ext-hint-57" class="hint">Hint: "poems" is plural. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>58. My friend is from <input type="text" id="ext-ex-58" size="3"> Canada.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-58', 'Ø', 'ext-feedback-58', 'ext-hint-58')">Submit</button><div id="ext-feedback-58" class="feedback"></div><div id="ext-hint-58" class="hint">Hint: "Canada" is a proper noun. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>59. She wants to be <input type="text" id="ext-ex-59" size="3"> famous actress.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-59', 'a', 'ext-feedback-59', 'ext-hint-59')">Submit</button><div id="ext-feedback-59" class="feedback"></div><div id="ext-hint-59" class="hint">Hint: Singular profession, consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>60. They play <input type="text" id="ext-ex-60" size="3"> soccer on weekends.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-60', 'Ø', 'ext-feedback-60', 'ext-hint-60')">Submit</button><div id="ext-feedback-60" class="feedback"></div><div id="ext-hint-60" class="hint">Hint: Names of sports do not take an article. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>61. He is <input type="text" id="ext-ex-61" size="3"> man of honor.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-61', 'a', 'ext-feedback-61', 'ext-hint-61')">Submit</button><div id="ext-feedback-61" class="feedback"></div><div id="ext-hint-61" class="hint">Hint: Singular noun, consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>62. She is studying <input type="text" id="ext-ex-62" size="3"> economics.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-62', 'Ø', 'ext-feedback-62', 'ext-hint-62')">Submit</button><div id="ext-feedback-62" class="feedback"></div><div id="ext-hint-62" class="hint">Hint: Field of study. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>63. I need <input type="text" id="ext-ex-63" size="3"> new pair of jeans.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-63', 'a', 'ext-feedback-63', 'ext-hint-63')">Submit</button><div id="ext-feedback-63" class="feedback"></div><div id="ext-hint-63" class="hint">Hint: We are talking about one 'pair', which is singular.</div></div>
+            <div class="exercise-question-ext"><p>64. He gave her <input type="text" id="ext-ex-64" size="3"> useful tip.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-64', 'a', 'ext-feedback-64', 'ext-hint-64')">Submit</button><div id="ext-feedback-64" class="feedback"></div><div id="ext-hint-64" class="hint">Hint: 'useful' starts with a 'y' sound.</div></div>
+            <div class="exercise-question-ext"><p>65. <input type="text" id="ext-ex-65" size="3"> Health is very important.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-65', 'Ø', 'ext-feedback-65', 'ext-hint-65')">Submit</button><div id="ext-feedback-65" class="feedback"></div><div id="ext-hint-65" class="hint">Hint: Abstract nouns used in a general sense are uncountable. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>66. He lives on <input type="text" id="ext-ex-66" size="3"> Elm Street.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-66', 'Ø', 'ext-feedback-66', 'ext-hint-66')">Submit</button><div id="ext-feedback-66" class="feedback"></div><div id="ext-hint-66" class="hint">Hint: Street names are proper nouns. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>67. I met <input type="text" id="ext-ex-67" size="3"> nice people on my trip.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-67', 'Ø', 'ext-feedback-67', 'ext-hint-67')">Submit</button><div id="ext-feedback-67" class="feedback"></div><div id="ext-hint-67" class="hint">Hint: "people" is plural. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>68. She has <input type="text" id="ext-ex-68" size="3"> unusual name.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-68', 'an', 'ext-feedback-68', 'ext-hint-68')">Submit</button><div id="ext-feedback-68" class="feedback"></div><div id="ext-hint-68" class="hint">Hint: Singular, countable, vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>69. He is eating <input type="text" id="ext-ex-69" size="3"> bowl of soup.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-69', 'a', 'ext-feedback-69', 'ext-hint-69')">Submit</button><div id="ext-feedback-69" class="feedback"></div><div id="ext-hint-69" class="hint">Hint: We are counting the bowl, which is singular.</div></div>
+            <div class="exercise-question-ext"><p>70. <input type="text" id="ext-ex-70" size="3"> Lions are wild animals.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-70', 'Ø', 'ext-feedback-70', 'ext-hint-70')">Submit</button><div id="ext-feedback-70" class="feedback"></div><div id="ext-hint-70" class="hint">Hint: Plural noun used in a general sense. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>71. Do you have <input type="text" id="ext-ex-71" size="3"> pen I can borrow?</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-71', 'a', 'ext-feedback-71', 'ext-hint-71')">Submit</button><div id="ext-feedback-71" class="feedback"></div><div id="ext-hint-71" class="hint">Hint: Singular, countable, consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>72. She got <input type="text" id="ext-ex-72" size="3"> perfect score on the test.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-72', 'a', 'ext-feedback-72', 'ext-hint-72')">Submit</button><div id="ext-feedback-72" class="feedback"></div><div id="ext-hint-72" class="hint">Hint: Singular noun phrase, consonant sound.</div></div>
+            <div class="exercise-question-ext"><p>73. He is <input type="text" id="ext-ex-73" size="3"> expert in his field.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-73', 'an', 'ext-feedback-73', 'ext-hint-73')">Submit</button><div id="ext-feedback-73" class="feedback"></div><div id="ext-hint-73" class="hint">Hint: Singular noun, vowel sound.</div></div>
+            <div class="exercise-question-ext"><p>74. I need <input type="text" id="ext-ex-74" size="3"> help with my homework.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-74', 'Ø', 'ext-feedback-74', 'ext-hint-74')">Submit</button><div id="ext-feedback-74" class="feedback"></div><div id="ext-hint-74" class="hint">Hint: "Help" is uncountable in this context. Use Ø.</div></div>
+            <div class="exercise-question-ext"><p>75. She speaks with <input type="text" id="ext-ex-75" size="3"> soft voice.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-75', 'a', 'ext-feedback-75', 'ext-hint-75')">Submit</button><div id="ext-feedback-75" class="feedback"></div><div id="ext-hint-75" class="hint">Hint: Singular noun phrase, consonant sound.</div></div>
+        </div>
+
+        <h2>Part 3: Write the Correct Plural Form</h2>
+        <div class="exercise">
+            <div class="exercise-question-ext"><p>76. There are three <input type="text" id="ext-ex-76" size="10" placeholder="woman"> in the photo.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-76', 'women', 'ext-feedback-76', 'ext-hint-76')">Submit</button><div id="ext-feedback-76" class="feedback"></div><div id="ext-hint-76" class="hint">Hint: This is an irregular plural.</div></div>
+            <div class="exercise-question-ext"><p>77. I have two <input type="text" id="ext-ex-77" size="10" placeholder="child">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-77', 'children', 'ext-feedback-77', 'ext-hint-77')">Submit</button><div id="ext-feedback-77" class="feedback"></div><div id="ext-hint-77" class="hint">Hint: The plural of 'child' is irregular.</div></div>
+            <div class="exercise-question-ext"><p>78. These <input type="text" id="ext-ex-78" size="10" placeholder="box"> are very heavy.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-78', 'boxes', 'ext-feedback-78', 'ext-hint-78')">Submit</button><div id="ext-feedback-78" class="feedback"></div><div id="ext-hint-78" class="hint">Hint: Nouns ending in 'x' usually add '-es' to form the plural.</div></div>
+            <div class="exercise-question-ext"><p>79. Many <input type="text" id="ext-ex-79" size="10" placeholder="person"> live in New York City.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-79', 'people', 'ext-feedback-79', 'ext-hint-79')">Submit</button><div id="ext-feedback-79" class="feedback"></div><div id="ext-hint-79" class="hint">Hint: The most common plural for 'person' is an irregular word.</div></div>
+            <div class="exercise-question-ext"><p>80. My <input type="text" id="ext-ex-80" size="10" placeholder="foot"> are tired after the long walk.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-80', 'feet', 'ext-feedback-80', 'ext-hint-80')">Submit</button><div id="ext-feedback-80" class="feedback"></div><div id="ext-hint-80" class="hint">Hint: Another irregular plural.</div></div>
+            <div class="exercise-question-ext"><p>81. The police officer caught the two <input type="text" id="ext-ex-81" size="10" placeholder="thief">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-81', 'thieves', 'ext-feedback-81', 'ext-hint-81')">Submit</button><div id="ext-feedback-81" class="feedback"></div><div id="ext-hint-81" class="hint">Hint: For nouns ending in -f or -fe, change f to v and add -es.</div></div>
+            <div class="exercise-question-ext"><p>82. She bought some fresh <input type="text" id="ext-ex-82" size="10" placeholder="tomato">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-82', 'tomatoes', 'ext-feedback-82', 'ext-hint-82')">Submit</button><div id="ext-feedback-82" class="feedback"></div><div id="ext-hint-82" class="hint">Hint: Nouns ending in -o often add -es.</div></div>
+            <div class="exercise-question-ext"><p>83. The baby has two new <input type="text" id="ext-ex-83" size="10" placeholder="tooth">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-83', 'teeth', 'ext-feedback-83', 'ext-hint-83')">Submit</button><div id="ext-feedback-83" class="feedback"></div><div id="ext-hint-83" class="hint">Hint: Irregular plural.</div></div>
+            <div class="exercise-question-ext"><p>84. Our <input type="text" id="ext-ex-84" size="10" placeholder="life"> are very different now.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-84', 'lives', 'ext-feedback-84', 'ext-hint-84')">Submit</button><div id="ext-feedback-84" class="feedback"></div><div id="ext-hint-84" class="hint">Hint: Change -fe to -ves.</div></div>
+            <div class="exercise-question-ext"><p>85. The farmer has many <input type="text" id="ext-ex-85" size="10" placeholder="sheep">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-85', 'sheep', 'ext-feedback-85', 'ext-hint-85')">Submit</button><div id="ext-feedback-85" class="feedback"></div><div id="ext-hint-85" class="hint">Hint: This noun is the same in singular and plural.</div></div>
+            <div class="exercise-question-ext"><p>86. There are several <input type="text" id="ext-ex-86" size="10" placeholder="church"> in this town.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-86', 'churches', 'ext-feedback-86', 'ext-hint-86')">Submit</button><div id="ext-feedback-86" class="feedback"></div><div id="ext-hint-86" class="hint">Hint: Nouns ending in -ch add -es.</div></div>
+            <div class="exercise-question-ext"><p>87. The cat is chasing the <input type="text" id="ext-ex-87" size="10" placeholder="mouse">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-87', 'mice', 'ext-feedback-87', 'ext-hint-87')">Submit</button><div id="ext-feedback-87" class="feedback"></div><div id="ext-hint-87" class="hint">Hint: Irregular plural.</div></div>
+            <div class="exercise-question-ext"><p>88. Please put the <input type="text" id="ext-ex-88" size="10" placeholder="knife"> on the table.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-88', 'knives', 'ext-feedback-88', 'ext-hint-88')">Submit</button><div id="ext-feedback-88" class="feedback"></div><div id="ext-hint-88" class="hint">Hint: Change -fe to -ves.</div></div>
+            <div class="exercise-question-ext"><p>89. The company has offices in many <input type="text" id="ext-ex-89" size="10" placeholder="city">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-89', 'cities', 'ext-feedback-89', 'ext-hint-89')">Submit</button><div id="ext-feedback-89" class="feedback"></div><div id="ext-hint-89" class="hint">Hint: For nouns ending in consonant + y, change y to i and add -es.</div></div>
+            <div class="exercise-question-ext"><p>90. I have three <input type="text" id="ext-ex-90" size="10" placeholder="watch">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-90', 'watches', 'ext-feedback-90', 'ext-hint-90')">Submit</button><div id="ext-feedback-90" class="feedback"></div><div id="ext-hint-90" class="hint">Hint: Nouns ending in -ch add -es.</div></div>
+            <div class="exercise-question-ext"><p>91. The students are in their <input type="text" id="ext-ex-91" size="10" placeholder="class">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-91', 'classes', 'ext-feedback-91', 'ext-hint-91')">Submit</button><div id="ext-feedback-91" class="feedback"></div><div id="ext-hint-91" class="hint">Hint: Nouns ending in -s add -es.</div></div>
+            <div class="exercise-question-ext"><p>92. There are many interesting <input type="text" id="ext-ex-92" size="10" placeholder="story"> in this book.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-92', 'stories', 'ext-feedback-92', 'ext-hint-92')">Submit</button><div id="ext-feedback-92" class="feedback"></div><div id="ext-hint-92" class="hint">Hint: Change -y to -ies.</div></div>
+            <div class="exercise-question-ext"><p>93. The autumn <input type="text" id="ext-ex-93" size="10" placeholder="leaf"> are beautiful.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-93', 'leaves', 'ext-feedback-93', 'ext-hint-93')">Submit</button><div id="ext-feedback-93" class="feedback"></div><div id="ext-hint-93" class="hint">Hint: Change -f to -ves.</div></div>
+            <div class="exercise-question-ext"><p>94. We saw some <input type="text" id="ext-ex-94" size="10" placeholder="fish"> in the river.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-94', 'fish', 'ext-feedback-94', 'ext-hint-94')">Submit</button><div id="ext-feedback-94" class="feedback"></div><div id="ext-hint-94" class="hint">Hint: The plural of 'fish' is usually 'fish'.</div></div>
+            <div class="exercise-question-ext"><p>95. The family bought two <input type="text" id="ext-ex-95" size="10" placeholder="puppy">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-95', 'puppies', 'ext-feedback-95', 'ext-hint-95')">Submit</button><div id="ext-feedback-95" class="feedback"></div><div id="ext-hint-95" class="hint">Hint: Change -y to -ies.</div></div>
+            <div class="exercise-question-ext"><p>96. He washed all the <input type="text" id="ext-ex-96" size="10" placeholder="dish">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-96', 'dishes', 'ext-feedback-96', 'ext-hint-96')">Submit</button><div id="ext-feedback-96" class="feedback"></div><div id="ext-hint-96" class="hint">Hint: Nouns ending in -sh add -es.</div></div>
+            <div class="exercise-question-ext"><p>97. There were two <input type="text" id="ext-ex-97" size="10" placeholder="man"> talking outside.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-97', 'men', 'ext-feedback-97', 'ext-hint-97')">Submit</button><div id="ext-feedback-97" class="feedback"></div><div id="ext-hint-97" class="hint">Hint: Irregular plural.</div></div>
+            <div class="exercise-question-ext"><p>98. The shelves are full of <input type="text" id="ext-ex-98" size="10" placeholder="book">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-98', 'books', 'ext-feedback-98', 'ext-hint-98')">Submit</button><div id="ext-feedback-98" class="feedback"></div><div id="ext-hint-98" class="hint">Hint: This is a regular plural. Just add -s.</div></div>
+            <div class="exercise-question-ext"><p>99. The library has many <input type="text" id="ext-ex-99" size="10" placeholder="photo"> of the old city.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-99', 'photos', 'ext-feedback-99', 'ext-hint-99')">Submit</button><div id="ext-feedback-99" class="feedback"></div><div id="ext-hint-99" class="hint">Hint: Words ending in -o that are shortened (like photograph) usually just add -s.</div></div>
+            <div class="exercise-question-ext"><p>100. Geese are bigger than <input type="text" id="ext-ex-100" size="10" placeholder="duck">.</p><button class="submit-btn" onclick="checkExtendedAnswer('ext-ex-100', 'ducks', 'ext-feedback-100', 'ext-hint-100')">Submit</button><div id="ext-feedback-100" class="feedback"></div><div id="ext-hint-100" class="hint">Hint: Regular plural.</div></div>
+        </div>
+    </div>
+
+<!-- ===================================================================== -->
+<!-- ============= SCRIPT RIÊNG CHO BÀI TẬP BỔ SUNG ==================== -->
+<!-- ===================================================================== -->
+<script>
+    /**
+     * Function này dành riêng cho 100 bài tập bổ sung.
+     * Nó sử dụng tên và ID tiền tố 'ext-' để tránh xung đột với các bài tập ban đầu.
+     * @param {string} inputId - ID của trường input.
+     * @param {string} correctAnswer - Đáp án đúng.
+     * @param {string} feedbackId - ID của div feedback.
+     * @param {string} hintId - ID của div hint.
+     */
+    function checkExtendedAnswer(inputId, correctAnswer, feedbackId, hintId) {
+        const inputElement = document.getElementById(inputId);
+        // Dùng .toLowerCase() để không phân biệt chữ hoa/thường
+        const userAnswer = inputElement.value.trim().toLowerCase();
+        const feedbackElement = document.getElementById(feedbackId);
+        const hintElement = document.getElementById(hintId);
+
+        // Chuẩn hóa đáp án đúng sang chữ thường để so sánh
+        const normalizedCorrectAnswer = correctAnswer.toLowerCase();
+
+        if (userAnswer === normalizedCorrectAnswer) {
+            feedbackElement.textContent = 'Correct! Excellent!';
+            feedbackElement.className = 'feedback correct';
+            hintElement.style.display = 'none';
+        } else {
+            feedbackElement.textContent = 'Not quite. Please try again.';
+            feedbackElement.className = 'feedback incorrect';
+            hintElement.style.display = 'block';
+        }
+        feedbackElement.style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
