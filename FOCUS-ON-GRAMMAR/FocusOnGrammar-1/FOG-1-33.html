@@ -974,33 +974,52 @@
 <!-- ====================================================== -->
 <!-- SCRIPT FOR ADDITIONAL PRACTICE                         -->
 <!-- ====================================================== -->
+<!-- ====================================================== -->
+<!-- SCRIPT FOR ADDITIONAL PRACTICE (FIXED)                 -->
+<!-- ====================================================== -->
 <script>
     function checkExtraAnswer(button, correctAnswers, hint) {
-        // Find all input fields within the parent .question-item div
         const parentDiv = button.closest('.question-item');
         const inputs = parentDiv.querySelectorAll('input[type="text"]');
         const feedback = parentDiv.querySelector('.feedback');
         
         let allCorrect = true;
-        let userAnswers = [];
 
+        // This function works for both single and multiple input fields.
         inputs.forEach((input, index) => {
             const userAnswer = input.value.trim().toLowerCase();
-            userAnswers.push(input.value.trim()); // keep original case for display if needed
-            const correctAnswer = correctAnswers[index].toLowerCase();
+            
+            // Determine the possible correct answers FOR THIS SPECIFIC INPUT.
+            let possibleAnswersForThisInput = [];
 
-            if (userAnswer !== correctAnswer) {
-                // Special check for was not / were not
-                if (!((correctAnswer === "wasn't" && userAnswer === "was not") ||
-                      (correctAnswer === "weren't" && userAnswer === "were not") ||
-                      (correctAnswer === "was not" && userAnswer === "wasn't") ||
-                      (correctAnswer === "were not" && userAnswer === "weren't"))) {
-                    allCorrect = false;
+            if (inputs.length === 1) {
+                // If there's only one input, all items in `correctAnswers` are valid options for it.
+                // e.g., ['wasn\'t', 'was not']
+                possibleAnswersForThisInput = correctAnswers.map(ans => ans.toLowerCase());
+            } else {
+                // If there are multiple inputs, map them one-to-one.
+                // e.g., for ['Were', 'wasn\'t'], input[0] maps to 'Were', input[1] maps to 'wasn\'t'
+                const primaryAnswer = correctAnswers[index].toLowerCase();
+                possibleAnswersForThisInput.push(primaryAnswer);
+                // Also add the alternative form (contracted/full)
+                if (primaryAnswer === "wasn't") {
+                    possibleAnswersForThisInput.push("was not");
+                } else if (primaryAnswer === "was not") {
+                    possibleAnswersForThisInput.push("wasn't");
+                } else if (primaryAnswer === "weren't") {
+                    possibleAnswersForThisInput.push("were not");
+                } else if (primaryAnswer === "were not") {
+                    possibleAnswersForThisInput.push("weren't");
                 }
+            }
+            
+            // Now, check if the user's answer is one of the valid options.
+            if (!possibleAnswersForThisInput.includes(userAnswer)) {
+                allCorrect = false; // If any input is wrong, the whole question is wrong.
             }
         });
 
-        if (allCorrect && userAnswers.length === correctAnswers.length) {
+        if (allCorrect) {
             feedback.textContent = 'Correct!';
             feedback.className = 'feedback correct';
             inputs.forEach(input => input.disabled = true);
