@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 6: Prepositions of Place</title>
+    <style>
+        /* --- General Styling --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 6px;
+        }
+
+        /* --- Typography --- */
+        h1, h2, h3, h4 {
+            color: #0056b3;
+            margin-bottom: 0.5em;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #fff;
+            background-color: #28a745;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            color: #dc3545;
+            border-left: 4px solid #dc3545;
+            padding-left: 10px;
+        }
+
+        h4 {
+            font-size: 1.2em;
+            color: #17a2b8;
+            font-weight: bold;
+        }
+        
+        .outcomes {
+            background-color: #e9f5ff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        /* --- Grammar Section Styling --- */
+        .grammar-presentation, .grammar-notes {
+            margin-top: 25px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .grammar-notes h4 {
+            color: #28a745;
+            margin-top: 0;
+        }
+        .grammar-presentation .example-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            align-items: center;
+        }
+        .example-grid div {
+            text-align: center;
+        }
+        .example-grid img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .grammar-notes code {
+            background-color: #e8e8e8;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .be-careful {
+            background-color: #fffbe6;
+            border: 1px solid #ffc107;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+
+        /* --- Exercise Styling --- */
+        .exercise-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .exercise-item p, .exercise-item label {
+            margin-bottom: 8px;
+        }
+        .exercise-item input[type="text"], .exercise-item select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 150px;
+            margin: 0 5px;
+        }
+        .exercise-item button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .exercise-item button:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            display: none;
+            margin-left: 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .feedback.correct {
+            color: #155724;
+            background-color: #d4edda;
+        }
+        .feedback.incorrect {
+            color: #721c24;
+            background-color: #f8d7da;
+        }
+        .word-box {
+            background-color: #e9ecef;
+            padding: 10px;
+            border: 1px dashed #ced4da;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .word-box span {
+            background-color: #fff;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        /* --- Reading Section --- */
+        .reading-text {
+            column-count: 2;
+            column-gap: 30px;
+        }
+        @media (max-width: 768px) {
+            .reading-text {
+                column-count: 1;
+            }
+        }
+        .reading-text p {
+            margin-top: 0;
+        }
+        .youtube-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            margin: 30px 0;
+        }
+        .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* --- Writing Section --- */
+        #writing-sample {
+            background: #f1f8ff;
+            padding: 15px;
+            border-left: 4px solid #0366d6;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+        #sentence-analysis-output {
+            margin-top: 15px;
+            padding-left: 15px;
+            border-left: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="FOG-2-6/1.png" alt="Unit 6 Banner">
+        
+        <div class="outcomes">
+            <h4>OUTCOMES</h4>
+            <ul>
+                <li>Describe locations with prepositions of place</li>
+                <li>Recognize important details in a short article</li>
+                <li>Locate places on a map from recorded descriptions</li>
+                <li>Give directions to help others find places</li>
+                <li>Write a short invitation to a party or an event</li>
+            </ul>
+        </div>
+
+        <!-- =================================================================== -->
+        <!-- STEP 1: GRAMMAR IN CONTEXT                                          -->
+        <!-- =================================================================== -->
+        <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+        <h3>BEFORE YOU READ</h3>
+        <p>Work with a partner. Answer the questions.</p>
+        <ol>
+            <li>What's your favorite museum?</li>
+            <li>Where is it?</li>
+            <li>Why do you like it?</li>
+        </ol>
+
+        <h3>READ</h3>
+        <p>Read this article about the American Museum of Natural History.</p>
+        
+        <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+            <div style="flex: 3;">
+                 <img src="FOG-2-6/2.png" alt="Dinosaur skeleton" style="max-width: 100%;">
+            </div>
+            <div style="flex: 1;">
+                 <img src="FOG-2-6/3.png" alt="Butterfly" style="max-width: 100%;">
+            </div>
+        </div>
+
+        <div class="reading-text">
+            <h4>The American Museum of Natural History</h4>
+            <p>Two teens are <b>in front of</b> the four-foot-long (one-meter-long) jaw of a dinosaur. A little boy is <b>next to</b> a 94-foot (29-meter) whale. Three young women are <b>near</b> the Star of India—a very big, blue gem. I’m <b>in</b> a room with butterflies <b>in front of</b> me, <b>in back of</b> me, and <b>above</b> me. Butterflies are everywhere. Where are we? We’re all <b>at</b> the American Museum of Natural History. This awesome museum is located <b>in</b> New York City <b>on</b> Central Park West <b>between</b> 77th Street and 81st Street. It’s home to an amazing collection.</p>
+            <p>Do you like to study animals and plants? Are you interested in dinosaurs and butterflies? Do you want to find out more about beautiful gems or the stars <b>in</b> the sky? If you do, this museum is for you. It’s huge. There are four floors and a lower level. The 94-foot (29-meter) whale and the blue sapphire are <b>on</b> the first floor. The dinosaur skeleton is <b>on</b> the fourth floor. There are free tours and a free app with a GPS. For a special visit, you can spend a night <b>at</b> the museum and sleep <b>under</b> the whale.</p>
+            <p>So the next time you’re <b>in</b> New York City, visit the American Museum of Natural History. Go to AMNH.org and read about the different sections, but choose only one or two parts to see. Save the rest for other visits.</p>
+        </div>
+
+        <div class="youtube-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3>AFTER YOU READ</h3>
+        <h4>A VOCABULARY</h4>
+        <p>Complete the sentences with the words from the box.</p>
+        <div class="word-box">
+            <span>app</span> <span>dinosaur</span> <span>huge</span> <span>interested</span> <span>located</span> <span>tour</span>
+        </div>
+        
+        <div class="exercise-item">
+            1. The museum is <input type="text" id="vocab1"> on Central Park West across the street from Central Park.
+            <button onclick="checkAnswer('vocab1', 'located', 'feedback-vocab1', 'Which word means situated in a particular place?')">Submit</button>
+            <span class="feedback" id="feedback-vocab1"></span>
+        </div>
+        <div class="exercise-item">
+            2. Blue whales are <input type="text" id="vocab2">. Some blue whales are 100 feet (30 meters) long and weigh 200 tons (181 metric tons).
+            <button onclick="checkAnswer('vocab2', 'huge', 'feedback-vocab2', 'Which word means very big?')">Submit</button>
+            <span class="feedback" id="feedback-vocab2"></span>
+        </div>
+        <div class="exercise-item">
+            3. She is <input type="text" id="vocab3"> in the Star of India because she works at a jewelry store.
+            <button onclick="checkAnswer('vocab3', 'interested', 'feedback-vocab3', 'Which word describes having a feeling of curiosity or concern?')">Submit</button>
+            <span class="feedback" id="feedback-vocab3"></span>
+        </div>
+        <div class="exercise-item">
+            4. The <input type="text" id="vocab4"> was one hour. The guide was very good.
+            <button onclick="checkAnswer('vocab4', 'tour', 'feedback-vocab4', 'What is a journey for pleasure in which several different places are visited?')">Submit</button>
+            <span class="feedback" id="feedback-vocab4"></span>
+        </div>
+        <div class="exercise-item">
+            5. You can download a(n) <input type="text" id="vocab5"> for the American Museum of Natural History.
+            <button onclick="checkAnswer('vocab5', 'app', 'feedback-vocab5', 'What is a short word for a computer program on a phone?')">Submit</button>
+            <span class="feedback" id="feedback-vocab5"></span>
+        </div>
+        <div class="exercise-item">
+            6. The <input type="text" id="vocab6"> lived between 230 and 65 million years ago.
+            <button onclick="checkAnswer('vocab6', 'dinosaur', 'feedback-vocab6', 'What kind of ancient animal has a skeleton in the museum?')">Submit</button>
+            <span class="feedback" id="feedback-vocab6"></span>
+        </div>
+
+        <h4>B COMPREHENSION</h4>
+        <p>Answer the questions.</p>
+         <div class="exercise-item">
+            1. In what city is the American Museum of Natural History? <input type="text" id="comp1">
+            <button onclick="checkAnswer('comp1', 'New York City', 'feedback-comp1', 'The text says "This awesome museum is located in..."')">Submit</button>
+            <span class="feedback" id="feedback-comp1"></span>
+        </div>
+         <div class="exercise-item">
+            2. Between what streets is the museum? <input type="text" id="comp2">
+            <button onclick="checkAnswer('comp2', '77th Street and 81st Street', 'feedback-comp2', 'Look for the word "between" in the first paragraph.')">Submit</button>
+            <span class="feedback" id="feedback-comp2"></span>
+        </div>
+         <div class="exercise-item">
+            3. Where is the Star of India? <input type="text" id="comp3">
+            <button onclick="checkAnswer('comp3', 'on the first floor', 'feedback-comp3', 'The text says the whale and the blue sapphire are on which floor?')">Submit</button>
+            <span class="feedback" id="feedback-comp3"></span>
+        </div>
+         <div class="exercise-item">
+            4. Where is the big dinosaur? <input type="text" id="comp4">
+            <button onclick="checkAnswer('comp4', 'on the fourth floor', 'feedback-comp4', 'Read the second paragraph carefully.')">Submit</button>
+            <span class="feedback" id="feedback-comp4"></span>
+        </div>
+         <div class="exercise-item">
+            5. What two things can you find on the first floor? <input type="text" id="comp5">
+            <button onclick="checkAnswer('comp5', 'The whale and the blue sapphire', 'feedback-comp5', 'The second paragraph lists two items on the first floor.')">Submit</button>
+            <span class="feedback" id="feedback-comp5"></span>
+        </div>
+        
+        <h4>C DISCUSSION</h4>
+        <p>Work with a partner. Say three false things about the American Museum of Natural History. Your partner corrects you.</p>
+
+        <!-- =================================================================== -->
+        <!-- STEP 2: GRAMMAR PRESENTATION                                        -->
+        <!-- =================================================================== -->
+        <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+        <h3>PREPOSITIONS OF PLACE</h3>
+        <img src="FOG-2-6/4.png" alt="Grammar examples">
+        
+        <div class="grammar-notes">
+            <h4>1 Prepositions of Place</h4>
+            <p>Prepositions of place tell <b>where something is</b>. Below are some common <b>one-word prepositions</b>.</p>
+            <ul>
+                <li><b>at:</b> Two students are <code>at</code> the door.</li>
+                <li><b>behind:</b> Ali is <code>behind</code> Olga.</li>
+                <li><b>between:</b> Our classroom is <code>between</code> room 205 and 209.</li>
+                <li><b>in:</b> We're <code>in</code> room 207.</li>
+                <li><b>inside:</b> Our jackets are <code>inside</code> the closet.</li>
+                <li><b>near:</b> Our school is <code>near</code> the museum.</li>
+                <li><b>on:</b> The paintings are <code>on</code> the second floor.</li>
+                <li><b>outside:</b> My friend is <code>outside</code> the museum.</li>
+                <li><b>over:</b> The sign <code>over</code> the door says, "Exit."</li>
+                <li><b>under:</b> A book bag is <code>under</code> the bench.</li>
+            </ul>
+        </div>
+        <div class="grammar-notes">
+            <h4>2 Prepositions of Place with Two or More Words</h4>
+            <p>Some prepositions of place have two or more words.</p>
+            <ul>
+                <li><b>across from:</b> The museum is <code>across from</code> a park.</li>
+                <li><b>in back of:</b> A garden is <code>in back of</code> the art museum.</li>
+                <li><b>in front of:</b> A fountain is <code>in front of</code> the art museum.</li>
+                <li><b>next to:</b> A bookstore is <code>next to</code> the art museum.</li>
+            </ul>
+        </div>
+        <div class="grammar-notes">
+            <h4>3 Common Prepositional Phrases</h4>
+            <p>Prepositional phrases have three or more words.</p>
+            <ul>
+                <li><b>on the right:</b> My father is <code>on the right</code>.</li>
+                <li><b>on the left:</b> My uncle is <code>on the left</code>.</li>
+                <li><b>in the middle:</b> I am <code>in the middle</code>.</li>
+                <li><b>in the world:</b> The Star of India is the biggest sapphire <code>in the world</code>.</li>
+                <li><b>on the corner of:</b> An art store is <code>on the corner of</code> Main Street and Mott Avenue.</li>
+            </ul>
+        </div>
+        <div class="grammar-notes">
+            <h4>4 Prepositions of Place Before Work, Home, and School</h4>
+            <ul>
+                <li>Use <code>at</code> before work. <em>(I'm <code>at</code> work now.)</em></li>
+                <li>Use <code>at</code> or no preposition before home. <em>(I'm <code>at</code> home. or I'm <code>home</code>.)</em></li>
+                <li>Use <code>at</code> or <code>in</code> before school. <em>(I'm <code>at</code> school. or I'm <code>in</code> school.)</em></li>
+            </ul>
+            <div class="be-careful"><b>BE CAREFUL!</b> We can say "I'm in school," and "I'm at school," but <code>in</code> and <code>at</code> can mean something very different. <code>In</code> means inside. <code>At</code> means at that location.</div>
+        </div>
+        <div class="grammar-notes">
+            <h4>5 Prepositions in Addresses</h4>
+            <p>For prepositions in <b>addresses</b>, use <code>in</code>, <code>on</code>, and <code>at</code>.</p>
+            <ul>
+                <li>Use <code>in</code> before a country, a state, a province, or a city. <em>(He's <code>in</code> Canada. He's <code>in</code> Vancouver.)</em></li>
+                <li>Use <code>on</code> before a street, an avenue, a road, or the floor of a building. <em>(My apartment is <code>on</code> Tenth Avenue. It's <code>on</code> the third floor.)</em></li>
+                <li>Use <code>at</code> for the number of the building. <em>(We're <code>at</code> 78 Main Street.)</em></li>
+            </ul>
+            <div class="be-careful">
+                <b>BE CAREFUL!</b> Use <b>ordinal numbers</b> (first, second, third) with streets and avenues and the floors of a building. Do not use cardinal numbers (one, two, three). <br>
+                <b>Correct:</b> It's on Seventh Street. It's on the fourth floor. <br>
+                <b>Incorrect:</b> <del>It's on Seven Street.</del> <del>It's on the four floor.</del>
+            </div>
+        </div>
+
+        <!-- =================================================================== -->
+        <!-- STEP 3: FOCUSED PRACTICE                                            -->
+        <!-- =================================================================== -->
+        <h2>STEP 3: FOCUSED PRACTICE</h2>
+
+        <h3>EXERCISE 1: DISCOVER THE GRAMMAR</h3>
+        <p>Read about these museums. Underline the prepositions of place. Then match the descriptions with the photos below.</p>
+        
+        <div class="exercise-item">
+            <p>1. The National Anthropology Museum of Mexico is <u>in</u> a park <u>in</u> Mexico City. It has things from the Olmec, Maya, and Aztec cultures. Before you enter the museum, you walk <u>under</u> a huge concrete umbrella.</p>
+            <label for="ex1-1">Photo:</label>
+            <select id="ex1-1">
+                <option value="">--Select--</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>
+            </select>
+            <button onclick="checkAnswer('ex1-1', 'C', 'feedback-ex1-1', 'Look for the photo with a large, unique umbrella-like structure at the entrance.')">Submit</button>
+            <span class="feedback" id="feedback-ex1-1"></span>
+        </div>
+        <div class="exercise-item">
+            <p>2. This red brick museum is <u>in</u> Amsterdam, Holland. It's the Rijksmuseum and it's located <u>at</u> Museumstraat 1. <u>In front of</u> the museum, you can see a beautiful canal. The museum has a collection of Dutch and other European art.</p>
+            <label for="ex1-2">Photo:</label>
+            <select id="ex1-2">
+                <option value="">--Select--</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>
+            </select>
+            <button onclick="checkAnswer('ex1-2', 'B', 'feedback-ex1-2', 'Find the red brick building with water (a canal) in front of it.')">Submit</button>
+            <span class="feedback" id="feedback-ex1-2"></span>
+        </div>
+        <div class="exercise-item">
+            <p>3. The State Hermitage was a palace, but now it is a museum. This green and white section of the museum is <u>on</u> the bank of the Neva River. It is <u>in</u> St. Petersburg <u>in</u> Russia.</p>
+            <label for="ex1-3">Photo:</label>
+            <select id="ex1-3">
+                <option value="">--Select--</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>
+            </select>
+            <button onclick="checkAnswer('ex1-3', 'A', 'feedback-ex1-3', 'Look for the large, ornate, green and white building that looks like a palace.')">Submit</button>
+            <span class="feedback" id="feedback-ex1-3"></span>
+        </div>
+        <div class="exercise-item">
+            <p>4. The Guggenheim Museum Bilbao is <u>in</u> Bilbao, Spain. The architect was Frank Gehry. The curves of the building catch the light. It is located <u>on</u> the bank of the Nervión River. <u>Inside</u> the museum, there is a huge area with views of Bilbao's water and the hills of the Basque country.</p>
+            <label for="ex1-4">Photo:</label>
+            <select id="ex1-4">
+                <option value="">--Select--</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>
+            </select>
+            <button onclick="checkAnswer('ex1-4', 'D', 'feedback-ex1-4', 'Identify the modern, curvy, metallic building.')">Submit</button>
+            <span class="feedback" id="feedback-ex1-4"></span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            <div><img src="FOG-2-6/5.png" alt="Photo A"><p style="text-align:center;"><b>A</b></p></div>
+            <div><img src="FOG-2-6/6.png" alt="Photo B"><p style="text-align:center;"><b>B</b></p></div>
+            <div><img src="FOG-2-6/7.png" alt="Photo C"><p style="text-align:center;"><b>C</b></p></div>
+            <div><img src="FOG-2-6/8.png" alt="Photo D"><p style="text-align:center;"><b>D</b></p></div>
+        </div>
+        
+        <h3>EXERCISE 2: PREPOSITIONS FOR PLACES ON A MAP</h3>
+        <p>Look at the map. Complete the sentences with the words from the box. You can use some words more than once.</p>
+        <img src="FOG-2-6/9.png" alt="City Map">
+        <div class="word-box">
+            <span>at</span> <span>between</span> <span>next to</span> <span>on</span> <span>on the corner of</span> <span>under</span>
+        </div>
+
+        <div class="exercise-item">
+            1. Tiny Toys is <input type="text" id="ex2-1"> Third Avenue.
+            <button onclick="checkAnswer('ex2-1', 'on', 'feedback-ex2-1', 'What preposition is used for a street or avenue?')">Submit</button>
+            <span class="feedback" id="feedback-ex2-1"></span>
+        </div>
+        <div class="exercise-item">
+            2. Paul's Hair Salon is <input type="text" id="ex2-2"> Sam's Shoes.
+            <button onclick="checkAnswer('ex2-2', 'next to', 'feedback-ex2-2', 'Look at the relationship between the hair salon and the shoe store.')">Submit</button>
+            <span class="feedback" id="feedback-ex2-2"></span>
+        </div>
+        <div class="exercise-item">
+            3. Da Vinci's Bakery is <input type="text" id="ex2-3" style="width:200px"> Third Avenue and Fifth Street.
+            <button onclick="checkAnswer('ex2-3', 'on the corner of', 'feedback-ex2-3', 'The bakery is at the intersection of two streets.')">Submit</button>
+            <span class="feedback" id="feedback-ex2-3"></span>
+        </div>
+         <div class="exercise-item">
+            4. Café Z is <input type="text" id="ex2-4"> DJ Drugstore and Tiny Toys.
+            <button onclick="checkAnswer('ex2-4', 'between', 'feedback-ex2-4', 'The cafe is in the middle of two other stores.')">Submit</button>
+            <span class="feedback" id="feedback-ex2-4"></span>
+        </div>
+         <div class="exercise-item">
+            5. Paul lives <input type="text" id="ex2-5"> 25 Second Avenue.
+            <button onclick="checkAnswer('ex2-5', 'at', 'feedback-ex2-5', 'What preposition is used for a specific building number?')">Submit</button>
+            <span class="feedback" id="feedback-ex2-5"></span>
+        </div>
+         <div class="exercise-item">
+            6. His apartment is <input type="text" id="ex2-6"> the fourth floor.
+            <button onclick="checkAnswer('ex2-6', 'on', 'feedback-ex2-6', 'What preposition is used for floors in a building?')">Submit</button>
+            <span class="feedback" id="feedback-ex2-6"></span>
+        </div>
+         <div class="exercise-item">
+            7. Café Z and DJ Drugstore are <input type="text" id="ex2-7"> Joe's Gym.
+            <button onclick="checkAnswer('ex2-7', 'next to', 'feedback-ex2-7', 'They are right beside the gym building.')">Submit</button>
+            <span class="feedback" id="feedback-ex2-7"></span>
+        </div>
+         <div class="exercise-item">
+            8. Fred's Flowers is <input type="text" id="ex2-8" style="width:200px"> Second Avenue and Fifth Street.
+            <button onclick="checkAnswer('ex2-8', 'on the corner of', 'feedback-ex2-8', 'The flower shop is at the intersection.')">Submit</button>
+            <span class="feedback" id="feedback-ex2-8"></span>
+        </div>
+         <div class="exercise-item">
+            9. Star Restaurant is <input type="text" id="ex2-9"> Fred's Flowers and Paul's Hair Salon.
+            <button onclick="checkAnswer('ex2-9', 'between', 'feedback-ex2-9', 'The restaurant is in the middle of these two places.')">Submit</button>
+            <span class="feedback" id="feedback-ex2-9"></span>
+        </div>
+         <div class="exercise-item">
+            10. Harvest Bank is <input type="text" id="ex2-10"> 15 Second Avenue.
+            <button onclick="checkAnswer('ex2-10', 'at', 'feedback-ex2-10', 'Use this preposition for a building number.')">Submit</button>
+            <span class="feedback" id="feedback-ex2-10"></span>
+        </div>
+        
+        <!-- =================================================================== -->
+        <!-- WRITING SECTION (as per request)                                    -->
+        <!-- =================================================================== -->
+        <h2>WRITING PRACTICE</h2>
+        <h3>Writing an Invitation</h3>
+        <p>One of the unit outcomes is to "Write a short invitation to a party or an event". Below is a sample invitation to visit the museum from the article. After the sample, you can analyze its structure.</p>
+        
+        <h4>Sample Invitation</h4>
+        <div id="writing-sample">
+            <p>Hi Alex,</p>
+            <p>I hope you're doing well. I'm writing to invite you to the American Museum of Natural History this Saturday. We could meet at the main entrance on Central Park West at 10:00 AM. They have an amazing dinosaur skeleton on the fourth floor and a huge whale on the first floor. It's located between 77th and 81st streets, so it's easy to find. Let me know if you can make it!</p>
+            <p>Best,<br>Sarah</p>
+        </div>
+
+        <button id="analyze-btn">Analyze Sentences</button>
+        <div id="sentence-analysis-output"></div>
+
+    </div>
+
+    <script>
+        function normalizeAnswer(answer) {
+            // Remove punctuation, extra spaces, and convert to lower case
+            return answer.trim().toLowerCase().replace(/[.,!?;]/g, '');
+        }
+
+        function checkAnswer(inputId, correctAnswer, feedbackId, hint) {
+            const inputElement = document.getElementById(inputId);
+            const feedbackElement = document.getElementById(feedbackId);
+            const userAnswer = inputElement.value;
+            
+            // For select elements, we don't need to normalize. For text, we do.
+            const processedUserAnswer = (inputElement.tagName.toLowerCase() === 'select') ? userAnswer : normalizeAnswer(userAnswer);
+            const processedCorrectAnswer = normalizeAnswer(correctAnswer);
+
+            if (processedUserAnswer === processedCorrectAnswer) {
+                feedbackElement.textContent = 'Correct! ✅';
+                feedbackElement.className = 'feedback correct';
+                inputElement.style.borderColor = 'green';
+            } else {
+                feedbackElement.textContent = `Incorrect. ❌ Hint: ${hint}`;
+                feedbackElement.className = 'feedback incorrect';
+                 inputElement.style.borderColor = 'red';
+            }
+            feedbackElement.style.display = 'inline-block';
+        }
+
+        // --- Writing Section Script ---
+        document.getElementById('analyze-btn').addEventListener('click', function() {
+            const sampleParagraph = "I hope you're doing well. I'm writing to invite you to the American Museum of Natural History this Saturday. We could meet at the main entrance on Central Park West at 10:00 AM. They have an amazing dinosaur skeleton on the fourth floor and a huge whale on the first floor. It's located between 77th and 81st streets, so it's easy to find. Let me know if you can make it!";
+            
+            // Split by period, question mark, and exclamation mark.
+            const sentences = sampleParagraph.split(/(?<=[.?!])\s+/).filter(s => s.trim() !== '');
+            
+            let outputHtml = '<h4>Sentence Breakdown:</h4>';
+            sentences.forEach((sentence, index) => {
+                outputHtml += `<p><strong>Sentence ${index + 1}:</strong> ${sentence.trim()}</p>`;
+            });
+            
+            document.getElementById('sentence-analysis-output').innerHTML = outputHtml;
+        });
+
+    </script>
+
+	<!-- =================================================================== -->
+<!-- SECTION BÀI TẬP BỔ SUNG (100 CÂU)                                    -->
+<!-- =================================================================== -->
+<section id="additional-practice" class="container">
+    <h2>Additional Practice Exercises (100)</h2>
+    <p>Complete the sentences with the correct preposition of place. For sentences that do not need a preposition, write <strong>0</strong>.</p>
+    <style>
+        #additional-practice {
+            margin-top: 40px;
+            border-top: 3px solid #0056b3;
+        }
+        .extra-exercise-item {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background-color: #fdfdfd;
+        }
+        .extra-exercise-item p {
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+        }
+        .extra-exercise-item input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .extra-exercise-item button {
+            padding: 8px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .extra-exercise-item button:hover {
+            background-color: #218838;
+        }
+        .correct-sentence {
+            display: none;
+            margin-top: 12px;
+            padding: 12px;
+            background: #e7f4e7;
+            border-left: 4px solid #28a745;
+            border-radius: 4px;
+        }
+        .correct-sentence strong {
+            color: #0056b3;
+        }
+        .correct-sentence em {
+            color: #555;
+            font-size: 0.95em;
+        }
+    </style>
+
+    <div id="extra-exercise-container">
+        <!-- The 100 exercises will be generated here by JavaScript -->
+    </div>
+
+</section>
+
+<!-- SCRIPT RIÊNG CHO 100 BÀI TẬP -->
+<script>
+    // Data for 100 exercises
+    const extraExercisesData = [
+        // --- Basic One-Word Prepositions ---
+        { p1: "The cat is sleeping", p2: "the bed.", ans: "on", hint: "What is the surface the cat is on?", vi: "Con mèo đang ngủ trên giường." },
+        { p1: "My shoes are", p2: "the closet.", ans: "in", hint: "Contained within a space.", vi: "Giày của tôi ở trong tủ quần áo." },
+        { p1: "He is waiting for you", p2: "the bus stop.", ans: "at", hint: "Used for a specific point or location.", vi: "Anh ấy đang đợi bạn ở trạm xe buýt." },
+        { p1: "The ball rolled", p2: "the car.", ans: "under", hint: "Directly below something.", vi: "Quả bóng lăn dưới gầm xe." },
+        { p1: "The library is", p2: "the park.", ans: "near", hint: "Close to; not far away.", vi: "Thư viện ở gần công viên." },
+        { p1: "Please stand", p2: "the line.", ans: "in", hint: "Part of a queue.", vi: "Vui lòng đứng vào hàng." },
+        { p1: "The picture is hanging", p2: "the fireplace.", ans: "over", hint: "Directly above something.", vi: "Bức tranh đang treo phía trên lò sưởi." },
+        { p1: "The children are playing", p2: "the yard.", ans: "in", hint: "Inside an area with boundaries.", vi: "Bọn trẻ đang chơi trong sân." },
+        { p1: "She hid the gift", p2: "her bed.", ans: "under", hint: "In a position lower than something.", vi: "Cô ấy giấu món quà dưới gầm giường của mình." },
+        { p1: "The school is located", p2: "the post office and the bank.", ans: "between", hint: "In the space separating two things.", vi: "Ngôi trường nằm giữa bưu điện và ngân hàng." },
+        { p1: "I saw him sitting", p2: "a bench.", ans: "on", hint: "On the surface of the bench.", vi: "Tôi thấy anh ấy ngồi trên một chiếc ghế dài." },
+        { p1: "There's a beautiful garden", p2: "the house.", ans: "behind", hint: "At the back of something.", vi: "Có một khu vườn xinh đẹp ở phía sau ngôi nhà." },
+        { p1: "We are", p2: "the classroom now.", ans: "in", hint: "Contained within a room.", vi: "Bây giờ chúng tôi đang ở trong lớp học." },
+        { p1: "My keys are", p2: "my pocket.", ans: "in", hint: "Contained within something.", vi: "Chìa khóa của tôi ở trong túi." },
+        { p1: "The plane is flying", p2: "the clouds.", ans: "above", hint: "Higher than something else. 'Over' is also possible but 'above' is common.", vi: "Máy bay đang bay trên những đám mây." },
+
+        // --- Multi-Word Prepositions ---
+        { p1: "The restaurant is", p2: "the cinema.", ans: "next to", hint: "Immediately at the side of.", vi: "Nhà hàng ở ngay cạnh rạp chiếu phim." },
+        { p1: "There is a large statue", p2: "the museum entrance.", ans: "in front of", hint: "Positioned before something.", vi: "Có một bức tượng lớn ở phía trước lối vào bảo tàng." },
+        { p1: "The parking lot is", p2: "the building.", ans: "in back of", hint: "At the rear of something.", vi: "Bãi đậu xe ở phía sau tòa nhà." },
+        { p1: "The bank is", p2: "the supermarket.", ans: "across from", hint: "On the opposite side of a street.", vi: "Ngân hàng ở đối diện siêu thị." },
+        { p1: "Our house is", p2: "a big park.", ans: "next to", hint: "Beside something.", vi: "Nhà của chúng tôi ở cạnh một công viên lớn." },
+        { p1: "Don't park your car", p2: "the fire hydrant.", ans: "in front of", hint: "Blocking something from the front.", vi: "Đừng đỗ xe của bạn trước vòi cứu hỏa." },
+        { p1: "The cafe is", p2: "the bookstore.", ans: "across from", hint: "On the other side of the road.", vi: "Quán cà phê ở đối diện hiệu sách." },
+        { p1: "There is a small garden", p2: "our school.", ans: "in back of", hint: "At the rear area.", vi: "Có một khu vườn nhỏ ở phía sau trường của chúng tôi." },
+        { p1: "The man standing", p2: "me is very tall.", ans: "in front of", hint: "Where is he in the line relative to you?", vi: "Người đàn ông đứng trước mặt tôi rất cao." },
+        { p1: "The pharmacy is", p2: "the hospital.", ans: "next to", hint: "They are side-by-side.", vi: "Hiệu thuốc ở cạnh bệnh viện." },
+        
+        // --- Common Phrases ---
+        { p1: "In the photo, my sister is", p2: "the left.", ans: "on", hint: "This is a fixed phrase for directions.", vi: "Trong ảnh, em gái tôi ở bên trái." },
+        { p1: "The coffee shop is", p2: "the corner of Pine Street and Oak Avenue.", ans: "on", hint: "What preposition is used for corners?", vi: "Quán cà phê ở góc đường Pine và đại lộ Oak." },
+        { p1: "He sits", p2: "the middle of the classroom.", ans: "in", hint: "A fixed phrase for a central position.", vi: "Cậu ấy ngồi ở giữa lớp học." },
+        { p1: "My father is standing", p2: "the right in this picture.", ans: "on", hint: "This is a fixed phrase.", vi: "Bố tôi đang đứng ở bên phải trong bức ảnh này." },
+        { p1: "There is an ATM", p2: "the corner.", ans: "on", hint: "Fixed phrase for a street corner.", vi: "Có một máy ATM ở góc đường." },
+        { p1: "The Eiffel Tower is one of the most famous landmarks", p2: "the world.", ans: "in", hint: "Fixed phrase for 'in the whole world'.", vi: "Tháp Eiffel là một trong những địa danh nổi tiếng nhất trên thế giới." },
+        { p1: "My friends are", p2: "the front row.", ans: "in", hint: "Preposition used for rows.", vi: "Bạn bè của tôi ở hàng ghế đầu." },
+        { p1: "Please write your name", p2: "the top of the page.", ans: "at", hint: "Fixed phrase for the top/bottom of a page.", vi: "Vui lòng viết tên của bạn ở đầu trang." },
+
+        // --- Work, Home, School ---
+        { p1: "My mother is", p2: "work right now.", ans: "at", hint: "Which preposition do we use for the general location of 'work'?", vi: "Mẹ tôi hiện đang ở chỗ làm." },
+        { p1: "I'm so tired. I'm going", p2: "home.", ans: "0", hint: "Do we need a preposition here? Type 0 if not.", vi: "Tôi mệt quá. Tôi đang về nhà." },
+        { p1: "She is studying hard", p2: "school.", ans: "at", hint: "Refers to the general location. 'in' is also possible but 'at' is common.", vi: "Cô ấy đang học rất chăm chỉ ở trường." },
+        { p1: "Is your brother", p2: "home?", ans: "at", hint: "Refers to being at the location. '0' is also possible.", vi: "Anh trai của bạn có ở nhà không?" },
+        { p1: "He left his phone", p2: "work.", ans: "at", hint: "General location.", vi: "Anh ấy đã để quên điện thoại ở chỗ làm." },
+        { p1: "The students are", p2: "school until 3 PM.", ans: "at", hint: "At the location of the school.", vi: "Các học sinh ở trường cho đến 3 giờ chiều." },
+        { p1: "Let's stay", p2: "home and watch a movie.", ans: "0", hint: "After 'stay', no preposition is needed. Type 0.", vi: "Hãy ở nhà và xem phim." },
+        { p1: "I'll be", p2: "work all day tomorrow.", ans: "at", hint: "Preposition for the place of employment.", vi: "Ngày mai tôi sẽ ở chỗ làm cả ngày." },
+        { p1: "They arrived", p2: "home very late.", ans: "0", hint: "The verb 'arrive' doesn't need a preposition before 'home'. Type 0.", vi: "Họ về đến nhà rất muộn." },
+
+        // --- Addresses (in, on, at) ---
+        { p1: "She lives", p2: "a small apartment in Paris.", ans: "in", hint: "Contained within a city or apartment.", vi: "Cô ấy sống trong một căn hộ nhỏ ở Paris." },
+        { p1: "The museum is", p2: "Fifth Avenue.", ans: "on", hint: "What preposition is used for streets and avenues?", vi: "Bảo tàng nằm trên Đại lộ số Năm." },
+        { p1: "They live", p2: "123 Main Street.", ans: "at", hint: "What preposition is used for a specific building number?", vi: "Họ sống ở số 123 đường Main." },
+        { p1: "My office is", p2: "the third floor.", ans: "on", hint: "What preposition is used for floors in a building?", vi: "Văn phòng của tôi ở trên tầng ba." },
+        { p1: "He was born", p2: "Canada.", ans: "in", hint: "Preposition for countries.", vi: "Anh ấy sinh ra ở Canada." },
+        { p1: "The store is located", p2: "Grove Street.", ans: "on", hint: "Used for a street name.", vi: "Cửa hàng nằm trên đường Grove." },
+        { p1: "We met", p2: "75 Park Avenue.", ans: "at", hint: "Used for a full address with a number.", vi: "Chúng tôi đã gặp nhau ở số 75 Đại lộ Park." },
+        { p1: "I live", p2: "Tokyo.", ans: "in", hint: "Preposition for cities.", vi: "Tôi sống ở Tokyo." },
+        { p1: "Their apartment is", p2: "the top floor.", ans: "on", hint: "Used for floors.", vi: "Căn hộ của họ ở trên tầng cao nhất." },
+        { p1: "The meeting is", p2: "Room 205.", ans: "in", hint: "Contained within a room.", vi: "Cuộc họp diễn ra ở phòng 205." },
+        { p1: "The new cafe is", p2: "Hillside Road.", ans: "on", hint: "For street/road names.", vi: "Quán cà phê mới ở trên đường Hillside." },
+        { p1: "Please deliver the package", p2: "45 River Lane.", ans: "to", hint: "Tricky! 'Deliver to' is a common verb phrase. But if it was 'The house is...', the answer would be 'at'. Let's stick with the unit's focus: AT.", ans: "at", vi: "Vui lòng giao gói hàng tại số 45 đường River." },
+        { p1: "He is studying", p2: "London this year.", ans: "in", hint: "Preposition for a city.", vi: "Anh ấy đang học ở London năm nay." },
+        { p1: "I work in a building", p2: "Broadway.", ans: "on", hint: "Name of a famous street.", vi: "Tôi làm việc trong một tòa nhà trên đường Broadway." },
+        { p1: "The restaurant is", p2: "900 Beacon Street.", ans: "at", hint: "A specific address number.", vi: "Nhà hàng ở số 900 đường Beacon." },
+
+        // --- Mixed Review 1 ---
+        { p1: "There's a spider", p2: "the ceiling.", ans: "on", hint: "On the surface of the ceiling.", vi: "Có một con nhện trên trần nhà." },
+        { p1: "The children are hiding", p2: "the door.", ans: "behind", hint: "Out of sight, at the back of the door.", vi: "Bọn trẻ đang trốn sau cánh cửa." },
+        { p1: "My apartment is", p2: "the second floor.", ans: "on", hint: "Preposition for floors.", vi: "Căn hộ của tôi ở tầng hai." },
+        { p1: "He lives", p2: "Mexico City.", ans: "in", hint: "Preposition for a city.", vi: "Anh ấy sống ở thành phố Mexico." },
+        { p1: "Let's meet", p2: "the cinema at 7 PM.", ans: "at", hint: "A specific point or location.", vi: "Hãy gặp nhau ở rạp chiếu phim lúc 7 giờ tối." },
+        { p1: "The grocery store is", p2: "the bank.", ans: "next to", hint: "They are side-by-side.", vi: "Cửa hàng tạp hóa ở cạnh ngân hàng." },
+        { p1: "Is your father still", p2: "work?", ans: "at", hint: "General location of employment.", vi: "Bố của bạn vẫn đang ở chỗ làm à?" },
+        { p1: "The hotel is", p2: "the river.", ans: "on", hint: "When something is on the bank of a river.", vi: "Khách sạn nằm trên bờ sông." },
+        { p1: "I found my wallet", p2: "the sofa cushions.", ans: "between", hint: "In the space separating two things.", vi: "Tôi tìm thấy ví của mình ở giữa những chiếc đệm sofa." },
+        { p1: "There is a fence", p2: "the house.", ans: "around", hint: "Surrounding something. (This is a new one, but logical)", vi: "Có một hàng rào xung quanh ngôi nhà." },
+
+        // --- Mixed Review 2 ---
+        { p1: "The notice is pinned", p2: "the notice board.", ans: "on", hint: "On the surface.", vi: "Thông báo được ghim trên bảng thông báo." },
+        { p1: "The airport is far", p2: "the city center.", ans: "from", hint: "A phrase indicating distance. (New, logical extension)", vi: "Sân bay ở xa trung tâm thành phố." },
+        { p1: "She put the flowers", p2: "a vase.", ans: "in", hint: "Contained within.", vi: "Cô ấy cắm hoa vào một chiếc bình." },
+        { p1: "Who is that person sitting", p2: "you?", ans: "next to", hint: "Beside you.", vi: "Người ngồi cạnh bạn là ai vậy?" },
+        { p1: "He is waiting", p2: "the corner for his friend.", ans: "on", hint: "Fixed phrase for a street corner.", vi: "Anh ấy đang đợi bạn ở góc đường." },
+        { p1: "They are having a picnic", p2: "a large tree.", ans: "under", hint: "Below the branches.", vi: "Họ đang đi dã ngoại dưới một gốc cây lớn." },
+        { p1: "My desk is", p2: "the window.", ans: "near", hint: "Close to the window.", vi: "Bàn làm việc của tôi ở gần cửa sổ." },
+        { p1: "The book you want is", p2: "the top shelf.", ans: "on", hint: "On the surface of the shelf.", vi: "Cuốn sách bạn muốn ở trên kệ trên cùng." },
+        { p1: "The kids are", p2: "home from school now.", ans: "0", hint: "No preposition needed after 'are' in this context. Type 0.", vi: "Bọn trẻ bây giờ đã đi học về nhà." },
+        { p1: "The coffee shop is", p2: "the library.", ans: "across from", hint: "On the opposite side of the street.", vi: "Quán cà phê ở đối diện thư viện." },
+
+        // --- Mixed Review 3 (Final Stretch) ---
+        { p1: "Look! There is a bird", p2: "the roof.", ans: "on", hint: "On top of the roof.", vi: "Nhìn kìa! Có một con chim trên mái nhà." },
+        { p1: "The post office is", p2: "the fire station.", ans: "between", hint: "No, look at the imaginary map... let's say it's side-by-side.", ans: "next to", vi: "Bưu điện ở cạnh trạm cứu hỏa." },
+        { p1: "I live", p2: "an apartment building on a busy street.", ans: "in", hint: "Contained within the building.", vi: "Tôi sống trong một tòa nhà chung cư trên một con phố sầm uất." },
+        { p1: "His signature is", p2: "the bottom of the document.", ans: "at", hint: "Fixed phrase for top/bottom of a page.", vi: "Chữ ký của ông ấy ở cuối tài liệu." },
+        { p1: "The car is parked", p2: "the garage.", ans: "in", hint: "Inside the garage.", vi: "Chiếc xe được đỗ trong ga-ra." },
+        { p1: "The village is located", p2: "the mountains.", ans: "in", hint: "Surrounded by mountains.", vi: "Ngôi làng nằm trong vùng núi." },
+        { p1: "There's a bridge", p2: "the river.", ans: "over", hint: "Crossing from one side to the other, above the water.", vi: "Có một cây cầu bắc qua sông." },
+        { p1: "The pharmacy is", p2: "24 King Street.", ans: "at", hint: "Specific address number.", vi: "Hiệu thuốc ở số 24 đường King." },
+        { p1: "I will be", p2: "home all evening.", ans: "0", hint: "No preposition needed here. Type 0.", vi: "Tôi sẽ ở nhà cả buổi tối." },
+        { p1: "The sun disappeared", p2: "the horizon.", ans: "below", hint: "Another word for under. (New, logical)", vi: "Mặt trời đã lặn xuống dưới đường chân trời." },
+        { p1: "She works", p2: "a hospital in the city center.", ans: "at", hint: "General location of work.", vi: "Cô ấy làm việc tại một bệnh viện ở trung tâm thành phố." },
+        { p1: "My house is the one", p2: "the right.", ans: "on", hint: "Fixed phrase.", vi: "Nhà của tôi là căn ở bên phải." },
+        { p1: "The meeting will take place", p2: "the conference room.", ans: "in", hint: "Inside a room.", vi: "Cuộc họp sẽ diễn ra trong phòng hội nghị." },
+        { p1: "I left my glasses", p2: "my desk at work.", ans: "on", hint: "On the surface of the desk.", vi: "Tôi đã để quên kính trên bàn làm việc ở cơ quan." },
+        { p1: "The hotel provides a beautiful view", p2: "the ocean.", ans: "of", hint: "This is a common collocation 'view of'. Not from the unit, but good practice!", vi: "Khách sạn có tầm nhìn tuyệt đẹp ra đại dương." }
+    ];
+
+    // Function to generate the HTML for the exercises
+    function renderExtraExercises() {
+        const container = document.getElementById('extra-exercise-container');
+        let allExercisesHTML = '';
+
+        extraExercisesData.forEach((exercise, index) => {
+            const questionNumber = index + 1;
+            // The parameters for the onclick function are carefully escaped
+            const p1_escaped = exercise.p1.replace(/'/g, "\\'");
+            const p2_escaped = exercise.p2.replace(/'/g, "\\'");
+            const vi_escaped = exercise.vi.replace(/'/g, "\\'");
+            const hint_escaped = exercise.hint.replace(/'/g, "\\'");
+
+            allExercisesHTML += `
+                <div class="extra-exercise-item">
+                    <p>${questionNumber}. ${exercise.p1} <input type="text" id="extra-input-${questionNumber}" placeholder="Answer" size="12"> ${exercise.p2}</p>
+                    <button onclick="checkExtraAnswer(${questionNumber}, '${exercise.ans}', '${p1_escaped}', '${p2_escaped}', '${vi_escaped}', '${hint_escaped}')">Submit</button>
+                    <span class="feedback" id="extra-feedback-${questionNumber}"></span>
+                    <div class="correct-sentence" id="extra-result-${questionNumber}"></div>
+                </div>
+            `;
+        });
+        
+        container.innerHTML = allExercisesHTML;
+    }
+
+
+    // The single function to check all 100 answers
+    function checkExtraAnswer(questionIndex, correctAnswer, sentencePart1, sentencePart2, vietnameseTranslation, hint) {
+        const inputElement = document.getElementById(`extra-input-${questionIndex}`);
+        const feedbackElement = document.getElementById(`extra-feedback-${questionIndex}`);
+        const resultElement = document.getElementById(`extra-result-${questionIndex}`);
+
+        const userAnswer = inputElement.value.trim();
+        const normalizedUserAnswer = userAnswer.toLowerCase();
+        const normalizedCorrectAnswer = correctAnswer.toLowerCase();
+        
+        if (normalizedUserAnswer === normalizedCorrectAnswer) {
+            feedbackElement.textContent = 'Correct! ✅';
+            feedbackElement.className = 'feedback correct';
+            inputElement.style.borderColor = 'green';
+            
+            let fullSentenceHTML;
+            if (correctAnswer === '0') {
+                // If the answer is '0' (no preposition), don't show any word in its place.
+                fullSentenceHTML = `${sentencePart1} ${sentencePart2}`;
+            } else {
+                // Otherwise, show the correct preposition in bold.
+                fullSentenceHTML = `${sentencePart1} <strong>${correctAnswer}</strong> ${sentencePart2}`;
+            }
+            
+            resultElement.innerHTML = `
+                ${fullSentenceHTML}<br>
+                <em>${vietnameseTranslation}</em>
+            `;
+            resultElement.style.display = 'block';
+
+        } else {
+            feedbackElement.textContent = `Incorrect. ❌ Hint: ${hint}`;
+            feedbackElement.className = 'feedback incorrect';
+            inputElement.style.borderColor = 'red';
+            resultElement.style.display = 'none'; // Hide result if incorrect
+        }
+        feedbackElement.style.display = 'inline-block';
+    }
+
+    // Call the function to build the exercises when the page loads
+    document.addEventListener('DOMContentLoaded', renderExtraExercises);
+
+</script>
+
+</body>
+</html>
