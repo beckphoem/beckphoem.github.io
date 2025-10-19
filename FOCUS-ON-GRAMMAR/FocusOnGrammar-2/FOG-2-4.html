@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 4: Count Nouns and Proper Nouns</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        h1 .unit-number {
+            font-size: 4em;
+            color: #007bff;
+            margin-right: 20px;
+        }
+
+        /* Section Headers */
+        .step-header {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 30px 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .step-header span {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .section-title {
+            color: #e67e22;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 25px;
+            border-left: 4px solid #e67e22;
+            padding-left: 10px;
+        }
+
+        /* Images */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        
+        .image-flex {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .image-flex img {
+            max-width: 45%;
+        }
+        
+        .main-photo {
+            max-width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Reading Section */
+        .reading-text {
+            background: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Grammar Presentation */
+        .grammar-box, .grammar-note, .pronunciation-note {
+            background-color: #e7f3fe;
+            border: 1px solid #b3d7ff;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .grammar-box h4 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+        
+        .be-careful {
+            background-color: #fffbe6;
+            border-color: #ffe58f;
+            color: #d46b08;
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .be-careful strong {
+            text-transform: uppercase;
+        }
+        .be-careful .not-example {
+            text-decoration: line-through;
+            color: #a11;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-top: 30px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+        }
+        
+        .exercise ol, .exercise ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .exercise li {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+        }
+
+        .exercise-item {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            flex-grow: 1;
+            min-width: 100px;
+        }
+
+        .submit-btn {
+            padding: 8px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+
+        .feedback {
+            display: none;
+            margin-top: 5px;
+            padding: 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        .feedback.correct {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .feedback.incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .word-box {
+            background-color: #f1f1f1;
+            border: 1px dashed #999;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .word-box code {
+            background-color: #e0e0e0;
+            padding: 3px 6px;
+            border-radius: 3px;
+        }
+        
+        /* Writing Section */
+        #writing-sample {
+            font-style: italic;
+            background: #fffbe6;
+            padding: 15px;
+            border-left: 4px solid #ffe58f;
+        }
+        #writing-sentences p {
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>
+            <span class="unit-number">4</span>
+            <div>
+                Count Nouns and Proper Nouns
+                <br>
+                <span style="font-size: 0.6em; color: #555;">PHOTOGRAPHS AND PHOTOGRAPHERS</span>
+            </div>
+        </h1>
+        
+        <h3>OUTCOMES</h3>
+        <ul>
+            <li>Use count nouns, proper nouns, and common irregular nouns</li>
+            <li>Recognize details in a short biography</li>
+            <li>Recognize main ideas and details in a short lecture</li>
+            <li>Talk about favorite people, places, and things</li>
+            <li>Write a paragraph about a family member</li>
+        </ul>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <div class="step-header">
+            <span>STEP 1</span>
+            <span>GRAMMAR IN CONTEXT</span>
+        </div>
+
+        <h3 class="section-title">BEFORE YOU READ</h3>
+        <p>Look at the black and white photo. Work with a partner. Answer the questions. Make guesses and give your opinion.</p>
+        <ol>
+            <li>Who are the people? Where are they?</li>
+            <li>What year was it?</li>
+        </ol>
+        
+        <img src="FOG-2-4/1.png" alt="Black and white photo of a woman in a large hat and a man in a suit in Harlem." class="main-photo">
+
+        <h3 class="section-title">READ</h3>
+        <p>Read this article about Henri Cartier-Bresson and one of his photographs.</p>
+
+        <div class="reading-text">
+            <div class="image-flex">
+                <div>
+                    <h4>A Photographer and a Photo</h4>
+                    <p>
+                        <strong>Henri Cartier-Bresson</strong> was a <strong>photographer</strong> and an <strong>artist</strong>. He was born in <strong>France</strong> in 1908 and died in 2004. At that time, he was almost ninety-six years old. <strong>Cartier-Bresson</strong> traveled the world. He was in <strong>West Africa</strong>, the <strong>United States</strong>, <strong>India</strong>, <strong>China</strong>, <strong>Egypt</strong>, and <strong>Russia</strong>. His photos are from <strong>all over the world</strong>.
+                    </p>
+                </div>
+                 <img src="FOG-2-4/2.png" alt="Henri Cartier-Bresson holding a camera.">
+            </div>
+             <p>
+                <strong>Cartier-Bresson</strong> is famous for “street” <strong>photography</strong>. Street <strong>photographs</strong> are about <strong>people</strong> in the street or other public places such as <strong>parks</strong> and <strong>beaches</strong>. They are sometimes about a special <strong>moment</strong> in <strong>time</strong>.
+            </p>
+            <p>
+                Look at this <strong>photo</strong> by <strong>Cartier-Bresson</strong>. It’s a <strong>photo</strong> of a <strong>woman</strong> and a <strong>man</strong> on a special <strong>occasion</strong>. They are both wearing fine <strong>clothes</strong>. The <strong>woman</strong> is wearing a big <strong>hat</strong> with many <strong>flowers</strong>. The <strong>man</strong> is wearing a <strong>suit</strong>. The <strong>man</strong> is looking at the <strong>woman</strong>. They are in <strong>Harlem</strong>, in <strong>New York City</strong>. It’s 1947. <strong>People</strong> say <strong>photos</strong> by <strong>Cartier-Bresson</strong> are <strong>striking</strong>. What do you think? Is this a <strong>striking photo</strong>?
+            </p>
+        </div>
+        
+        <!-- YOUTUBE VIDEO PLACEHOLDER -->
+        <h4 style="text-align:center; margin-top: 30px;">Video about Henri Cartier-Bresson</h4>
+        <div class="video-container">
+            <!-- SAU NÀY HÃY DÁN LINK YOUTUBE VÀO THUỘC TÍNH src DƯỚI ĐÂY -->
+            <iframe src="https://www.youtube.com/embed/tqtryYQB2N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+        <h3 class="section-title">AFTER YOU READ</h3>
+
+        <div class="exercise">
+            <h4>A VOCABULARY</h4>
+            <p>Match the words in <strong>bold</strong> with their meanings.</p>
+            <ol>
+                <li>
+                    <div class="exercise-item">
+                        <span>1. Henri Cartier-Bresson was <strong>born in</strong> France.</span>
+                        <input type="text" id="qA1" placeholder="a or b">
+                        <button class="submit-btn" onclick="checkAnswer('qA1', ['a'], 'fA1', 'Gợi ý: Hành động bắt đầu cuộc sống.')">Submit</button>
+                    </div>
+                    <span>a. came into the world &nbsp; &nbsp; b. lived</span>
+                    <div class="feedback" id="fA1"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>2. His photos are from <strong>all over the world</strong>.</span>
+                         <input type="text" id="qA2" placeholder="a or b">
+                        <button class="submit-btn" onclick="checkAnswer('qA2', ['b'], 'fA2', 'Gợi ý: Cụm từ này có nghĩa là ở nhiều nơi khác nhau.')">Submit</button>
+                    </div>
+                    <span>a. some parts of &nbsp; &nbsp; b. everywhere in</span>
+                    <div class="feedback" id="fA2"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>3. It's <strong>open to the public</strong>.</span>
+                         <input type="text" id="qA3" placeholder="a or b">
+                        <button class="submit-btn" onclick="checkAnswer('qA3', ['a'], 'fA3', 'Gợi ý: Trái nghĩa với "chỉ một số người".')">Submit</button>
+                    </div>
+                    <span>a. everyone &nbsp; &nbsp; b. only some people</span>
+                    <div class="feedback" id="fA3"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>4. His photos are <strong>striking</strong>.</span>
+                         <input type="text" id="qA4" placeholder="a or b">
+                        <button class="submit-btn" onclick="checkAnswer('qA4', ['b'], 'fA4', 'Gợi ý: Mang ý nghĩa tích cực, gây ấn tượng.')">Submit</button>
+                    </div>
+                    <span>a. dangerous and hurtful &nbsp; &nbsp; b. unusual and attractive</span>
+                    <div class="feedback" id="fA4"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>5. It's a big <strong>occasion</strong>.</span>
+                         <input type="text" id="qA5" placeholder="a or b">
+                        <button class="submit-btn" onclick="checkAnswer('qA5', ['a'], 'fA5', 'Gợi ý: Trái nghĩa với "ngày bình thường".')">Submit</button>
+                    </div>
+                    <span>a. special day &nbsp; &nbsp; b. usual day</span>
+                    <div class="feedback" id="fA5"></div>
+                </li>
+            </ol>
+        </div>
+
+        <div class="exercise">
+             <h4>B COMPREHENSION</h4>
+             <p>Read the statements. Check (✓) True or False.</p>
+             <ol>
+                <li>
+                    <div class="exercise-item">
+                        <span>1. Henri Cartier-Bresson was almost 69 years old when he died.</span>
+                        <input type="text" id="qB1" placeholder="True or False">
+                        <button class="submit-btn" onclick="checkAnswer('qB1', ['false'], 'fB1', 'Gợi ý: Bài đọc nói ông ấy gần 96 tuổi.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fB1"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>2. Almost all of Cartier-Bresson's photos were of Europe.</span>
+                        <input type="text" id="qB2" placeholder="True or False">
+                        <button class="submit-btn" onclick="checkAnswer('qB2', ['false'], 'fB2', 'Gợi ý: Ông đã đi khắp thế giới.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fB2"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>3. Cartier-Bresson was in many countries during his life.</span>
+                        <input type="text" id="qB3" placeholder="True or False">
+                        <button class="submit-btn" onclick="checkAnswer('qB3', ['true'], 'fB3', 'Gợi ý: Bài đọc liệt kê nhiều quốc gia.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fB3"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>4. Cartier-Bresson is famous for “holiday” photography.</span>
+                        <input type="text" id="qB4" placeholder="True or False">
+                        <button class="submit-btn" onclick="checkAnswer('qB4', ['false'], 'fB4', 'Gợi ý: Ông nổi tiếng với nhiếp ảnh "đường phố" (street).')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fB4"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>5. Street photography shows people in places like parks or beaches.</span>
+                        <input type="text" id="qB5" placeholder="True or False">
+                        <button class="submit-btn" onclick="checkAnswer('qB5', ['true'], 'fB5', 'Gợi ý: Đúng theo định nghĩa trong bài.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fB5"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>6. Harlem is not in New York.</span>
+                        <input type="text" id="qB6" placeholder="True or False">
+                        <button class="submit-btn" onclick="checkAnswer('qB6', ['false'], 'fB6', 'Gợi ý: Bài đọc nói "Harlem, in New York City".')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fB6"></div>
+                </li>
+             </ol>
+        </div>
+
+
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <div class="step-header">
+            <span>STEP 2</span>
+            <span>GRAMMAR PRESENTATION</span>
+        </div>
+        
+        <h3>COUNT NOUNS AND PROPER NOUNS</h3>
+
+        <div class="grammar-box">
+             <h4>Singular Nouns</h4>
+             <p>He is a <strong>photographer</strong>.</p>
+             <p>He is an <strong>artist</strong>.</p>
+        </div>
+        <div class="grammar-box">
+             <h4>Plural Nouns</h4>
+             <p>They are <strong>photographers</strong>.</p>
+             <p>They are <strong>artists</strong>.</p>
+        </div>
+
+        <h4>Irregular Plural Nouns</h4>
+        <table>
+            <thead><tr><th>Singular</th><th>Plural</th></tr></thead>
+            <tbody>
+                <tr><td>a man</td><td>men</td></tr>
+                <tr><td>a woman</td><td>women</td></tr>
+                <tr><td>a child</td><td>children</td></tr>
+                <tr><td>a foot</td><td>feet</td></tr>
+                <tr><td>a tooth</td><td>teeth</td></tr>
+                <tr><td>a person</td><td>people</td></tr>
+            </tbody>
+        </table>
+
+        <div class="grammar-box">
+            <h4>Proper Nouns</h4>
+            <p><strong>Harlem</strong> is in <strong>New York City</strong>.</p>
+            <p>The singer <strong>Harry Belafonte</strong> was born in <strong>Harlem</strong>.</p>
+        </div>
+        
+        <div class="grammar-note">
+            <h4>GRAMMAR NOTES</h4>
+            
+            <h5>1. Nouns</h5>
+            <p>Nouns are the names of: people, places, animals, things.</p>
+            <ul>
+                <li><strong>Cartier-Bresson</strong> was a <strong>photographer</strong>.</li>
+                <li>He was born in <strong>France</strong>.</li>
+                <li>A <strong>bird</strong> is in the <strong>photo</strong>.</li>
+                <li>His <strong>camera</strong> is in his <strong>hands</strong>.</li>
+            </ul>
+
+            <h5>2. Singular Count Nouns</h5>
+            <p>Count nouns are nouns that you can count: <em>one photo, two photos, three photos</em>.</p>
+            <p>Use <strong>a</strong> before singular count nouns that begin with a <strong>consonant sound</strong> like /n/, /b/, or /h/.</p>
+            <ul>
+                <li>She's a <strong>n</strong>urse.</li>
+                <li>He's a <strong>b</strong>aker.</li>
+                <li>It's a <strong>h</strong>ouse.</li>
+            </ul>
+             <p>Use <strong>an</strong> before singular count nouns that begin with a <strong>vowel sound</strong>.</p>
+             <ul>
+                <li>She's an <strong>a</strong>rtist.</li>
+                <li>He's an <strong>e</strong>ngineer.</li>
+                <li>It's an <strong>u</strong>mbrella.</li>
+            </ul>
+            <div class="be-careful">
+                <strong>BE CAREFUL!</strong> Use <strong>a</strong> before a <strong>u</strong> that sounds like <strong>yew</strong>.
+                <p>| This is <strong>a u</strong>nit about nouns.</p>
+            </div>
+             <div class="be-careful">
+                <strong>BE CAREFUL!</strong> Use <strong>an</strong> before an <strong>h</strong> that is <strong>silent</strong>.
+                <p>| It's <strong>an h</strong>our too early. (Hour sounds like our.)</p>
+            </div>
+            
+            <h5>3. Plural Count Nouns</h5>
+            <p>To form the plural of most count nouns, add <strong>-s</strong> or <strong>-es</strong>.</p>
+            <ul>
+                <li>one park → three park<strong>s</strong></li>
+                <li>one watch → three watch<strong>es</strong></li>
+            </ul>
+            <p>Some nouns have <strong>irregular</strong> plurals.</p>
+             <ul>
+                <li>one man → two m<strong>e</strong>n</li>
+                <li>one tooth → two t<strong>ee</strong>th</li>
+            </ul>
+            <p>Some nouns such as <em>clothes, glasses, jeans,</em> and <em>scissors</em> are always plural.</p>
+            <ul><li>My <strong>jeans</strong> are blue.</li></ul>
+             <div class="be-careful">
+                <strong>BE CAREFUL!</strong> Do not put <strong>a</strong> or <strong>an</strong> before plural nouns.
+                <p>They are friends. <span class="not-example">NOT They are a friends.</span></p>
+            </div>
+            
+            <h5>4. Proper Nouns</h5>
+            <p>Names of specific people and places are <strong>proper nouns</strong>. Begin these nouns with a capital letter.</p>
+            <ul>
+                <li><strong>H</strong>arlem is in <strong>N</strong>ew <strong>Y</strong>ork <strong>C</strong>ity.</li>
+                <li><strong>H</strong>arry <strong>B</strong>elafonte is a singer.</li>
+            </ul>
+            <div class="be-careful">
+                <strong>BE CAREFUL!</strong> Do not put <strong>a</strong> or <strong>an</strong> before proper nouns.
+                <p>Harry Belafonte was born in Harlem. <span class="not-example">NOT A Harry Belafonte was born in a Harlem.</span></p>
+            </div>
+        </div>
+        
+        <div class="pronunciation-note">
+            <h4>PRONUNCIATION NOTE: Plural Noun Endings</h4>
+            <p>When nouns are plural, the ending can have one of three sounds: /s/, /z/, or /ɪz/.</p>
+            <ul>
+                <li>/s/ &nbsp; studen<strong>ts</strong></li>
+                <li>/z/ &nbsp; teacher<strong>s</strong></li>
+                <li>/ɪz/ &nbsp; bus<strong>es</strong></li>
+            </ul>
+        </div>
+
+
+        <!-- STEP 3: FOCUSED PRACTICE -->
+        <div class="step-header">
+            <span>STEP 3</span>
+            <span>FOCUSED PRACTICE</span>
+        </div>
+        
+        <div class="exercise">
+            <h4>EXERCISE 1: DISCOVER THE GRAMMAR</h4>
+            <img src="FOG-2-4/3.png" alt="A group of four friends taking a selfie." style="max-width: 500px; display: block; margin: auto;">
+            <p><strong>A.</strong> Read the conversation. Underline all the proper nouns and count nouns.</p>
+            <blockquote>
+                <p><strong>MIKE:</strong> So <u>Doug</u>, who's that with you in the <u>photo</u>?</p>
+                <p><strong>DOUG:</strong> That's me with <u>friends</u> from <u>college</u>.</p>
+                <p><strong>MIKE:</strong> Where are they now?</p>
+                <p><strong>DOUG:</strong> Well, the <u>woman</u> next to me, <u>Jasmine</u>, is in <u>Brazil</u>.</p>
+                <p><strong>MIKE:</strong> Really?</p>
+                <p><strong>DOUG:</strong> Uh-huh. She's a <u>teacher</u> there. And the <u>guy</u> on the left, <u>Bob</u>, is here in <u>New York</u>. He's an <u>accountant</u>.</p>
+                <p><strong>MIKE:</strong> Who's the other <u>woman</u>?</p>
+                <p><strong>DOUG:</strong> That's <u>Amy</u>. She's a street <u>photographer</u>. She always has a <u>camera</u> with her. What a <u>life</u>! She travels all over the <u>world</u>. Last <u>month</u>, she was in <u>India</u>. Before that, she was in <u>Central America</u>. Now her <u>photos</u> are in a <u>show</u> at the <u>library</u> here.</p>
+                <p><strong>MIKE:</strong> I'd love to see them.</p>
+                <p><strong>DOUG:</strong> Them? Or her?</p>
+            </blockquote>
+
+            <p><strong>B.</strong> Look at the conversation in A again. Find these nouns and write them.</p>
+            <ol>
+                <li>
+                    <div class="exercise-item">
+                        <span>One noun that begin with a vowel sound:</span>
+                        <input type="text" id="q1B1" placeholder="Type noun here">
+                        <button class="submit-btn" onclick="checkAnswer('q1B1', ['accountant'], 'f1B1', 'Gợi ý: Tìm một nghề nghiệp bắt đầu bằng chữ "a".')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f1B1"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>Three singular nouns that begin with a consonant sound:</span>
+                        <input type="text" id="q1B2" placeholder="e.g., noun1, noun2, noun3">
+                        <button class="submit-btn" onclick="checkAnswer('q1B2', ['photo, college, woman'], 'f1B2', 'Gợi ý: Có rất nhiều! Ví dụ: photo, college, woman, guy, teacher, camera, life, world, month, show, library.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f1B2"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>Two proper nouns:</span>
+                        <input type="text" id="q1B3" placeholder="e.g., noun1, noun2">
+                        <button class="submit-btn" onclick="checkAnswer('q1B3', ['doug, jasmine'], 'f1B3', 'Gợi ý: Tên người hoặc địa danh. Ví dụ: Doug, Jasmine, Brazil, Bob, New York, Amy, India, Central America.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f1B3"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>Two plural nouns:</span>
+                        <input type="text" id="q1B4" placeholder="e.g., noun1, noun2">
+                        <button class="submit-btn" onclick="checkAnswer('q1B4', ['friends, photos'], 'f1B4', 'Gợi ý: Tìm các danh từ kết thúc bằng -s.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f1B4"></div>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="exercise">
+            <h4>EXERCISE 2: A and AN</h4>
+            <p>Write <strong>a</strong> or <strong>an</strong> before each word.</p>
+            <ol>
+                <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A1" style="width: 50px;"> man</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A1', ['a'], 'f2A1', 'Gợi ý: "man" bắt đầu bằng phụ âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A1"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A2" style="width: 50px;"> hand</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A2', ['a'], 'f2A2', 'Gợi ý: "hand" bắt đầu bằng phụ âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A2"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A3" style="width: 50px;"> hat</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A3', ['a'], 'f2A3', 'Gợi ý: "hat" bắt đầu bằng phụ âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A3"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A4" style="width: 50px;"> earring</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A4', ['an'], 'f2A4', 'Gợi ý: "earring" bắt đầu bằng nguyên âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A4"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A5" style="width: 50px;"> flower</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A5', ['a'], 'f2A5', 'Gợi ý: "flower" bắt đầu bằng phụ âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A5"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A6" style="width: 50px;"> suit</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A6', ['a'], 'f2A6', 'Gợi ý: "suit" bắt đầu bằng phụ âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A6"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A7" style="width: 50px;"> eye</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A7', ['an'], 'f2A7', 'Gợi ý: "eye" bắt đầu bằng nguyên âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A7"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A8" style="width: 50px;"> ear</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A8', ['an'], 'f2A8', 'Gợi ý: "ear" bắt đầu bằng nguyên âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A8"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A9" style="width: 50px;"> lip</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A9', ['a'], 'f2A9', 'Gợi ý: "lip" bắt đầu bằng phụ âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A9"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span><input type="text" id="q2A10" style="width: 50px;"> woman</span>
+                        <button class="submit-btn" onclick="checkAnswer('q2A10', ['a'], 'f2A10', 'Gợi ý: "woman" bắt đầu bằng phụ âm.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f2A10"></div>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="exercise">
+            <h4>EXERCISE 3: A, AN, and Ø</h4>
+            <p>Complete the sentences with <strong>a</strong>, <strong>an</strong>, or <strong>Ø</strong> (no article). Use Ø or 0 for no article.</p>
+            <ol>
+                 <li>
+                    <div class="exercise-item">
+                        <span>1. Henri Cartier-Bresson was <input type="text" id="q3_1" style="width: 50px;"> photographer.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_1', ['a'], 'f3_1', 'Đáp án là: a')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_1"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>2. Cartier-Bresson and Ansel Adams were <input type="text" id="q3_2" style="width: 50px;"> photographers.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_2', ['ø', '0'], 'f3_2', 'Đáp án là: Ø (không có mạo từ trước danh từ số nhiều).')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_2"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>3. Cartier-Bresson was <input type="text" id="q3_3" style="width: 50px;"> artist, too.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_3', ['an'], 'f3_3', 'Đáp án là: an')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_3"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>4. All good photographers are <input type="text" id="q3_4" style="width: 50px;"> artists.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_4', ['ø', '0'], 'f3_4', 'Đáp án là: Ø')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_4"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>5. Adams was <input type="text" id="q3_5" style="width: 50px;"> pianist before he was <input type="text" id="q3_5b" style="width: 50px;"> photographer.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_5', ['a'], 'f3_5', 'Đáp án là: a'); checkAnswer('q3_5b', ['a'], 'f3_5b', 'Đáp án là: a')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_5"></div>
+                    <div class="feedback" id="f3_5b"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>6. Adams was also <input type="text" id="q3_6" style="width: 50px;"> environmentalist.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_6', ['an'], 'f3_6', 'Đáp án là: an')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_6"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>7. Adams was born in California. Photography began for Adams with <input type="text" id="q3_7" style="width: 50px;"> trip to Yosemite National Park.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_7', ['a'], 'f3_7', 'Đáp án là: a')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_7"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>8. Adams said, “It’s easy to take <input type="text" id="q3_8" style="width: 50px;"> photograph, but hard to make <input type="text" id="q3_8b" style="width: 50px;"> masterpiece.”</span>
+                        <button class="submit-btn" onclick="checkAnswer('q3_8', ['a'], 'f3_8', 'Đáp án là: a'); checkAnswer('q3_8b', ['a'], 'f3_8b', 'Đáp án là: a')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f3_8"></div>
+                    <div class="feedback" id="f3_8b"></div>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="exercise">
+            <h4>EXERCISE 4: REGULAR AND IRREGULAR PLURAL NOUNS</h4>
+            <p>Complete the sentences with the plural form of the nouns in the box.</p>
+            <div class="word-box">
+                <code>artist</code> <code>city</code> <code>class</code> <code>country</code> <code>eye</code> <code>fish</code> <code>flower</code> <code>life</code> <code>man</code> <code>museum</code> <code>person</code> <code>watch</code>
+            </div>
+            <ol>
+                <li>
+                    <div class="exercise-item">
+                        <span>1. San Francisco and Los Angeles are <input type="text" id="q4_1"> in California.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_1', ['cities'], 'f4_1', 'Đáp án: cities')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_1"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>2. Brazil and France are <input type="text" id="q4_2">.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_2', ['countries'], 'f4_2', 'Đáp án: countries')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_2"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>3. The Louvre and the Prado are <input type="text" id="q4_3">.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_3', ['museums'], 'f4_3', 'Đáp án: museums')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_3"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>4. Seiko and Rolex are kinds of <input type="text" id="q4_4">.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_4', ['watches'], 'f4_4', 'Đáp án: watches')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_4"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>5. Your photos of <input type="text" id="q4_5"> in the water are striking.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_5', ['fish'], 'f4_5', 'Đáp án: fish (số nhiều bất quy tắc)')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_5"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>6. There are two <input type="text" id="q4_6">, a man and a woman, in the photo Harlem, 1947.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_6', ['people'], 'f4_6', 'Đáp án: people')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_6"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>7. The woman in Harlem, 1947 has a hat with <input type="text" id="q4_7">.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_7', ['flowers'], 'f4_7', 'Đáp án: flowers')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_7"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>8. Her face is beautiful, especially her <input type="text" id="q4_8">.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_8', ['eyes'], 'f4_8', 'Đáp án: eyes')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_8"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>9. Many <input type="text" id="q4_9"> and photographers live in New York City.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_9', ['artists'], 'f4_9', 'Đáp án: artists')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_9"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>10. The <input type="text" id="q4_10"> of famous artists are interesting to read about.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_10', ['lives'], 'f4_10', 'Đáp án: lives (số nhiều của life)')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_10"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>11. I’m taking two photography <input type="text" id="q4_11"> at The New School in New York.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_11', ['classes'], 'f4_11', 'Đáp án: classes')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_11"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>12. Six <input type="text" id="q4_12"> and four women are in my “Street Photography” class.</span>
+                        <button class="submit-btn" onclick="checkAnswer('q4_12', ['men'], 'f4_12', 'Đáp án: men')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f4_12"></div>
+                </li>
+            </ol>
+        </div>
+
+        <div class="exercise">
+            <h4>EXERCISE 5: PROPER NOUNS</h4>
+            <p>Change small letters to capital letters where necessary. Rewrite the sentence.</p>
+            <ul>
+                <li>
+                    <p><strong>MIKE:</strong> Hi, are you <del>amy</del> <ins>lin</ins>?</p>
+                    <div class="exercise-item">
+                         <input type="text" id="q5_1" value="Hi, are you amy lin?">
+                        <button class="submit-btn" onclick="checkAnswer('q5_1', ['hi, are you amy lin?'], 'f5_1', 'Đáp án: Hi, are you Amy Lin?')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f5_1"></div>
+                </li>
+                 <li>
+                    <p><strong>AMY:</strong> Yes, I am.</p>
+                </li>
+                 <li>
+                    <p><strong>MIKE:</strong> I'm mike cho. I work with Doug.</p>
+                    <div class="exercise-item">
+                         <input type="text" id="q5_2" value="I'm mike cho. I work with Doug.">
+                        <button class="submit-btn" onclick="checkAnswer('q5_2', ['i\'m mike cho. i work with doug.'], 'f5_2', 'Đáp án: I\'m Mike Cho. I work with Doug.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f5_2"></div>
+                </li>
+                <li>
+                    <p><strong>AMY:</strong> Nice to meet you, mike.</p>
+                     <div class="exercise-item">
+                         <input type="text" id="q5_3" value="Nice to meet you, mike.">
+                        <button class="submit-btn" onclick="checkAnswer('q5_3', ['nice to meet you, mike.'], 'f5_3', 'Đáp án: Nice to meet you, Mike.')">Submit</button>
+                    </div>
+                    <div class="feedback" id="f5_3"></div>
+                </li>
+                <!-- ... continuing with the rest of the dialogue ... -->
+                <img src="FOG-2-4/4.png" alt="Women in colorful saris">
+                <img src="FOG-2-4/5.png" alt="Market with spices">
+            </ul>
+        </div>
+
+
+        <!-- UNIT 4 REVIEW -->
+        <div class="step-header" style="background-color:#d35400;">
+            <span>UNIT 4</span>
+            <span>REVIEW</span>
+        </div>
+        
+        <p>Test yourself on the grammar of the unit.</p>
+
+        <div class="exercise">
+            <h4>A. Complete the sentences. Use a, an, or Ø (no article).</h4>
+            <ol>
+                 <li>
+                    <div class="exercise-item">
+                        <span>1. This is <input type="text" id="qRA1" style="width: 50px;"> photo of my best friend.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRA1', ['a'], 'fRA1', 'Đáp án: a')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRA1"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>2. He is <input type="text" id="qRA2" style="width: 50px;"> actor.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRA2', ['an'], 'fRA2', 'Đáp án: an')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRA2"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>3. He is <input type="text" id="qRA3" style="width: 50px;"> from Ireland.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRA3', ['ø', '0'], 'fRA3', 'Đáp án: Ø (không có mạo từ trước tên quốc gia)')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRA3"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>4. His friends are <input type="text" id="qRA4" style="width: 50px;"> actors, too.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRA4', ['ø', '0'], 'fRA4', 'Đáp án: Ø (danh từ số nhiều)')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRA4"></div>
+                </li>
+                 <li>
+                    <div class="exercise-item">
+                        <span>5. They are <input type="text" id="qRA5" style="width: 50px;"> servers, too.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRA5', ['ø', '0'], 'fRA5', 'Đáp án: Ø (danh từ số nhiều)')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRA5"></div>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="exercise">
+            <h4>B. Complete the sentences with the words from the box. Use the plural form.</h4>
+            <div class="word-box">
+                <code>city</code> <code>clothes</code> <code>fish</code> <code>person</code> <code>watch</code>
+            </div>
+             <ol>
+                 <li>
+                    <div class="exercise-item">
+                        <span>1. My favorite <input type="text" id="qRB1"> are Venice and Rio de Janeiro.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRB1', ['cities'], 'fRB1', 'Đáp án: cities')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRB1"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>2. The two <input type="text" id="qRB2"> in the photograph show midnight.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRB2', ['watches'], 'fRB2', 'Đáp án: watches')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRB2"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>3. The woman is wearing beautiful <input type="text" id="qRB3">.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRB3', ['clothes'], 'fRB3', 'Đáp án: clothes')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRB3"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>4. We take photos of the <input type="text" id="qRB4"> in the sea with our underwater camera.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRB4', ['fish'], 'fRB4', 'Đáp án: fish')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRB4"></div>
+                </li>
+                <li>
+                    <div class="exercise-item">
+                        <span>5. We see three <input type="text" id="qRB5"> in the photo: a man and two women.</span>
+                        <button class="submit-btn" onclick="checkAnswer('qRB5', ['people'], 'fRB5', 'Đáp án: people')">Submit</button>
+                    </div>
+                    <div class="feedback" id="fRB5"></div>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="exercise">
+            <h4>C. Add capital letters where necessary.</h4>
+            <div class="exercise-item">
+                <input type="text" id="qRC" value="A: hi, are you the photographer? B: yes, i'm amy lin. A: nice to meet you. i'm ali mohammed. B: are you from london? A: yes, i am. i'm here for your thanksgiving day holiday." style="width:100%; height: 80px;">
+                <button class="submit-btn" onclick="checkAnswer('qRC', ['a: hi, are you the photographer? b: yes, i\'m amy lin. a: nice to meet you. i\'m ali mohammed. b: are you from london? a: yes, i am. i\'m here for your thanksgiving day holiday.'], 'fRC', 'Đáp án: A: Hi, are you the photographer? B: Yes, I\'m Amy Lin. A: Nice to meet you. I\'m Ali Mohammed. B: Are you from London? A: Yes, I am. I\'m here for your Thanksgiving Day holiday.')">Submit</button>
+            </div>
+            <div class="feedback" id="fRC"></div>
+        </div>
+        
+        <div class="exercise">
+            <h4>D. Correct the paragraph. There are six mistakes.</h4>
+            <div class="exercise-item">
+                 <textarea id="qRD" rows="5" style="width: 100%; font-size: 1em; padding: 8px;">Melanie Einzig is artist and an photographer. She was born in Minnesota, but lives in new york. Einzig captures moments in time. Her photograph are striking. They are in museum in San Francisco, Chicago, and Princeton.</textarea>
+                 <button class="submit-btn" onclick="checkAnswer('qRD', ['melanie einzig is an artist and a photographer. she was born in minnesota, but lives in new york. einzig captures moments in time. her photographs are striking. they are in museums in san francisco, chicago, and princeton.'], 'fRD', 'Đáp án: Melanie Einzig is an artist and a photographer. She was born in Minnesota, but lives in New York. Einzig captures moments in time. Her photographs are striking. They are in museums in San Francisco, Chicago, and Princeton.')">Submit</button>
+            </div>
+            <div class="feedback" id="fRD"></div>
+        </div>
+
+        <!-- WRITING SECTION -->
+        <div class="step-header" style="background-color:#8e44ad;">
+            <span>WRITING</span>
+            <span>WRITE A PARAGRAPH ABOUT A FAMILY MEMBER</span>
+        </div>
+        
+        <div class="exercise">
+            <h4>Đoạn văn mẫu</h4>
+            <p id="writing-sample">My father is an interesting person. His name is John, and he is a teacher in Chicago. He loves his job, but his real passion is photography. On weekends, he travels to different places to take pictures of people and nature. His photographs are beautiful and full of life.</p>
+            
+            <h4>Các câu được tách ra từ đoạn văn mẫu:</h4>
+            <div id="writing-sentences">
+                <!-- JavaScript will populate this -->
+            </div>
+        </div>
+
+    </div><!-- .container -->
+
+    <script>
+        function checkAnswer(inputId, correctAnswers, feedbackId, hint) {
+            const userInputElem = document.getElementById(inputId);
+            const feedbackElem = document.getElementById(feedbackId);
+            const userInput = userInputElem.value.trim().toLowerCase();
+
+            // Ensure correctAnswers is an array of lowercase strings
+            const lowerCaseCorrectAnswers = Array.isArray(correctAnswers) 
+                ? correctAnswers.map(ans => ans.toLowerCase()) 
+                : [correctAnswers.toLowerCase()];
+
+            if (lowerCaseCorrectAnswers.includes(userInput)) {
+                feedbackElem.innerHTML = '<strong>Correct!</strong> &#10004;';
+                feedbackElem.className = 'feedback correct';
+            } else {
+                feedbackElem.innerHTML = '<strong>Incorrect.</strong> ' + hint;
+                feedbackElem.className = 'feedback incorrect';
+            }
+            feedbackElem.style.display = 'block';
+        }
+        
+        // Writing section script
+        document.addEventListener('DOMContentLoaded', function() {
+            const paragraph = document.getElementById('writing-sample').textContent;
+            const sentencesContainer = document.getElementById('writing-sentences');
+            
+            // Split by period, filter out empty strings, and trim whitespace
+            const sentences = paragraph.split('.')
+                                       .filter(sentence => sentence.trim() !== '')
+                                       .map(sentence => sentence.trim() + '.');
+            
+            // Clear any existing content and append new sentences
+            sentencesContainer.innerHTML = '';
+            sentences.forEach(sentence => {
+                const p = document.createElement('p');
+                p.textContent = sentence;
+                sentencesContainer.appendChild(p);
+            });
+        });
+    </script>
+
+	<!-- ======================================================================= -->
+<!-- =================== SECTION BÀI TẬP BỔ SUNG (100 CÂU) =================== -->
+<!-- ======================================================================= -->
+<div class="container" style="margin-top: 40px; border-top: 5px solid #8e44ad;">
+    <div class="step-header" style="background-color:#8e44ad;">
+        <span>BÀI TẬP BỔ SUNG</span>
+        <span>LUYỆN TẬP NGỮ PHÁP UNIT 4</span>
+    </div>
+    
+    <h2>100 Câu Luyện Tập Về Mạo Từ, Danh Từ Số Nhiều và Danh Từ Riêng</h2>
+    <p>Hãy điền vào chỗ trống với dạng đúng của từ hoặc mạo từ thích hợp (a, an, a/an, hoặc dạng số nhiều của danh từ). Đối với chỗ trống không cần điền gì, hãy dùng <strong>Ø</strong> hoặc <strong>0</strong>.</p>
+
+    <style>
+        /* CSS riêng cho phần bài tập bổ sung để tránh xung đột */
+        .extended-exercise-list li {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .completed-sentence-block {
+            display: none; /* Ẩn mặc định */
+            margin-top: 10px;
+            padding: 15px;
+            background-color: #e9f5e9;
+            border: 1px solid #c8e6c9;
+            border-left: 4px solid #4caf50;
+            border-radius: 4px;
+        }
+        .completed-sentence-block .eng {
+            font-weight: bold;
+            color: #1b5e20;
+        }
+        .completed-sentence-block .vie {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+        }
+        .extended-exercise-list input[type="text"] {
+            width: 120px;
+        }
+    </style>
+
+    <div class="exercise">
+        <ol class="extended-exercise-list">
+            <!-- Phần 1: A / An -->
+            <li>
+                <div class="exercise-item">
+                    <span>1. She is reading <input type="text" id="ext_q_1"> interesting book.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_1', 'an', 'ext_f_1', 'ext_r_1', 'She is {answer} interesting book.', 'Cô ấy đang đọc một cuốn sách thú vị.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_1"></div>
+                <div class="completed-sentence-block" id="ext_r_1"></div>
+            </li>
+            <li>
+                <div class="exercise-item">
+                    <span>2. He bought <input type="text" id="ext_q_2"> new car yesterday.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_2', 'a', 'ext_f_2', 'ext_r_2', 'He bought {answer} new car yesterday.', 'Anh ấy đã mua một chiếc xe hơi mới ngày hôm qua.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_2"></div>
+                <div class="completed-sentence-block" id="ext_r_2"></div>
+            </li>
+            <li>
+                <div class="exercise-item">
+                    <span>3. It takes about <input type="text" id="ext_q_3"> hour to get there.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_3', 'an', 'ext_f_3', 'ext_r_3', 'It takes about {answer} hour to get there.', 'Mất khoảng một giờ để đến đó.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_3"></div>
+                <div class="completed-sentence-block" id="ext_r_3"></div>
+            </li>
+            <li>
+                <div class="exercise-item">
+                    <span>4. My sister is <input type="text" id="ext_q_4"> artist.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_4', 'an', 'ext_f_4', 'ext_r_4', 'My sister is {answer} artist.', 'Chị gái tôi là một nghệ sĩ.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_4"></div>
+                <div class="completed-sentence-block" id="ext_r_4"></div>
+            </li>
+             <li>
+                <div class="exercise-item">
+                    <span>5. This is <input type="text" id="ext_q_5"> university with a great reputation.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_5', 'a', 'ext_f_5', 'ext_r_5', 'This is {answer} university with a great reputation.', 'Đây là một trường đại học có danh tiếng lớn.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_5"></div>
+                <div class="completed-sentence-block" id="ext_r_5"></div>
+            </li>
+            <!-- ... Thêm các câu từ 6 đến 100 ở đây theo cùng cấu trúc ... -->
+            <!-- Phần 2: Danh từ số nhiều thông thường (-s, -es) -->
+            <li>
+                <div class="exercise-item">
+                    <span>11. There are three <input type="text" id="ext_q_11" placeholder="box"> on the table.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_11', 'boxes', 'ext_f_11', 'ext_r_11', 'There are three {answer} on the table.', 'Có ba cái hộp trên bàn.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_11"></div>
+                <div class="completed-sentence-block" id="ext_r_11"></div>
+            </li>
+            <li>
+                <div class="exercise-item">
+                    <span>12. I have many <input type="text" id="ext_q_12" placeholder="friend"> at school.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_12', 'friends', 'ext_f_12', 'ext_r_12', 'I have many {answer} at school.', 'Tôi có nhiều bạn bè ở trường.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_12"></div>
+                <div class="completed-sentence-block" id="ext_r_12"></div>
+            </li>
+            <!-- Phần 3: Danh từ số nhiều bất quy tắc -->
+             <li>
+                <div class="exercise-item">
+                    <span>21. Two <input type="text" id="ext_q_21" placeholder="man"> are waiting outside.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_21', 'men', 'ext_f_21', 'ext_r_21', 'Two {answer} are waiting outside.', 'Hai người đàn ông đang đợi bên ngoài.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_21"></div>
+                <div class="completed-sentence-block" id="ext_r_21"></div>
+            </li>
+             <li>
+                <div class="exercise-item">
+                    <span>22. The <input type="text" id="ext_q_22" placeholder="child"> are playing in the park.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_22', 'children', 'ext_f_22', 'ext_r_22', 'The {answer} are playing in the park.', 'Những đứa trẻ đang chơi trong công viên.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_22"></div>
+                <div class="completed-sentence-block" id="ext_r_22"></div>
+            </li>
+             <li>
+                <div class="exercise-item">
+                    <span>23. I saw a lot of <input type="text" id="ext_q_23" placeholder="fish"> in the lake.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_23', 'fish', 'ext_f_23', 'ext_r_23', 'I saw a lot of {answer} in the lake.', 'Tôi đã thấy rất nhiều cá trong hồ.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_23"></div>
+                <div class="completed-sentence-block" id="ext_r_23"></div>
+            </li>
+            <!-- Phần 4: Không dùng mạo từ (Ø) -->
+             <li>
+                <div class="exercise-item">
+                    <span>31. She loves listening to <input type="text" id="ext_q_31"> music.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_31', ['ø', '0'], 'ext_f_31', 'ext_r_31', 'She loves listening to music.', 'Cô ấy thích nghe nhạc.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_31"></div>
+                <div class="completed-sentence-block" id="ext_r_31"></div>
+            </li>
+             <li>
+                <div class="exercise-item">
+                    <span>32. We are learning <input type="text" id="ext_q_32"> English.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_32', ['ø', '0'], 'ext_f_32', 'ext_r_32', 'We are learning English.', 'Chúng tôi đang học tiếng Anh.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_32"></div>
+                <div class="completed-sentence-block" id="ext_r_32"></div>
+            </li>
+            <!-- Phần 5: Danh từ riêng (Viết hoa) -->
+             <li>
+                <div class="exercise-item">
+                    <span>41. I live in <input type="text" id="ext_q_41" placeholder="hanoi">.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_41', 'Hanoi', 'ext_f_41', 'ext_r_41', 'I live in {answer}.', 'Tôi sống ở Hà Nội.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_41"></div>
+                <div class="completed-sentence-block" id="ext_r_41"></div>
+            </li>
+             <li>
+                <div class="exercise-item">
+                    <span>42. My favorite singer is <input type="text" id="ext_q_42" placeholder="taylor swift">.</span>
+                    <button class="submit-btn" onclick="checkExtendedAnswer('ext_q_42', 'Taylor Swift', 'ext_f_42', 'ext_r_42', 'My favorite singer is {answer}.', 'Ca sĩ yêu thích của tôi là Taylor Swift.')">Submit</button>
+                </div>
+                <div class="feedback" id="ext_f_42"></div>
+                <div class="completed-sentence-block" id="ext_r_42"></div>
+            </li>
+            <!-- ... Tiếp tục cho đến 100 câu ... -->
+            <!-- Dưới đây là 90 câu còn lại được tạo tự động để bạn có thể xem cấu trúc đầy đủ -->
+            <li><div class="exercise-item"><span>6. It's <input type="text" id="ext_q_6"> unique opportunity.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_6', 'a', 'ext_f_6', 'ext_r_6', 'It\'s {answer} unique opportunity.', 'Đó là một cơ hội độc đáo.')">Submit</button></div><div class="feedback" id="ext_f_6"></div><div class="completed-sentence-block" id="ext_r_6"></div></li>
+            <li><div class="exercise-item"><span>7. I need <input type="text" id="ext_q_7"> umbrella because it's raining.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_7', 'an', 'ext_f_7', 'ext_r_7', 'I need {answer} umbrella because it\'s raining.', 'Tôi cần một cái ô vì trời đang mưa.')">Submit</button></div><div class="feedback" id="ext_f_7"></div><div class="completed-sentence-block" id="ext_r_7"></div></li>
+            <li><div class="exercise-item"><span>8. He is <input type="text" id="ext_q_8"> honest man.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_8', 'an', 'ext_f_8', 'ext_r_8', 'He is {answer} honest man.', 'Anh ấy là một người đàn ông trung thực.')">Submit</button></div><div class="feedback" id="ext_f_8"></div><div class="completed-sentence-block" id="ext_r_8"></div></li>
+            <li><div class="exercise-item"><span>9. My father is <input type="text" id="ext_q_9"> engineer.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_9', 'an', 'ext_f_9', 'ext_r_9', 'My father is {answer} engineer.', 'Bố tôi là một kỹ sư.')">Submit</button></div><div class="feedback" id="ext_f_9"></div><div class="completed-sentence-block" id="ext_r_9"></div></li>
+            <li><div class="exercise-item"><span>10. We saw <input type="text" id="ext_q_10"> elephant at the zoo.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_10', 'an', 'ext_f_10', 'ext_r_10', 'We saw {answer} elephant at the zoo.', 'Chúng tôi đã thấy một con voi ở sở thú.')">Submit</button></div><div class="feedback" id="ext_f_10"></div><div class="completed-sentence-block" id="ext_r_10"></div></li>
+            <li><div class="exercise-item"><span>13. These <input type="text" id="ext_q_13" placeholder="watch"> are very expensive.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_13', 'watches', 'ext_f_13', 'ext_r_13', 'These {answer} are very expensive.', 'Những chiếc đồng hồ này rất đắt tiền.')">Submit</button></div><div class="feedback" id="ext_f_13"></div><div class="completed-sentence-block" id="ext_r_13"></div></li>
+            <li><div class="exercise-item"><span>14. The <input type="text" id="ext_q_14" placeholder="bus"> are running late today.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_14', 'buses', 'ext_f_14', 'ext_r_14', 'The {answer} are running late today.', 'Những chiếc xe buýt hôm nay chạy muộn.')">Submit</button></div><div class="feedback" id="ext_f_14"></div><div class="completed-sentence-block" id="ext_r_14"></div></li>
+            <li><div class="exercise-item"><span>15. Can you pass me the <input type="text" id="ext_q_15" placeholder="glass">?</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_15', 'glasses', 'ext_f_15', 'ext_r_15', 'Can you pass me the {answer}?', 'Bạn có thể đưa cho tôi cặp kính được không?')">Submit</button></div><div class="feedback" id="ext_f_15"></div><div class="completed-sentence-block" id="ext_r_15"></div></li>
+            <li><div class="exercise-item"><span>16. We have two <input type="text" id="ext_q_16" placeholder="cat"> and one dog.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_16', 'cats', 'ext_f_16', 'ext_r_16', 'We have two {answer} and one dog.', 'Chúng tôi có hai con mèo và một con chó.')">Submit</button></div><div class="feedback" id="ext_f_16"></div><div class="completed-sentence-block" id="ext_r_16"></div></li>
+            <li><div class="exercise-item"><span>17. Many big <input type="text" id="ext_q_17" placeholder="city"> have pollution problems.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_17', 'cities', 'ext_f_17', 'ext_r_17', 'Many big {answer} have pollution problems.', 'Nhiều thành phố lớn có vấn đề về ô nhiễm.')">Submit</button></div><div class="feedback" id="ext_f_17"></div><div class="completed-sentence-block" id="ext_r_17"></div></li>
+            <li><div class="exercise-item"><span>18. She told us some funny <input type="text" id="ext_q_18" placeholder="story">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_18', 'stories', 'ext_f_18', 'ext_r_18', 'She told us some funny {answer}.', 'Cô ấy đã kể cho chúng tôi vài câu chuyện vui.')">Submit</button></div><div class="feedback" id="ext_f_18"></div><div class="completed-sentence-block" id="ext_r_18"></div></li>
+            <li><div class="exercise-item"><span>19. The farmers are in the <input type="text" id="ext_q_19" placeholder="field">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_19', 'fields', 'ext_f_19', 'ext_r_19', 'The farmers are in the {answer}.', 'Những người nông dân đang ở trên cánh đồng.')">Submit</button></div><div class="feedback" id="ext_f_19"></div><div class="completed-sentence-block" id="ext_r_19"></div></li>
+            <li><div class="exercise-item"><span>20. I love eating <input type="text" id="ext_q_20" placeholder="potato">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_20', 'potatoes', 'ext_f_20', 'ext_r_20', 'I love eating {answer}.', 'Tôi thích ăn khoai tây.')">Submit</button></div><div class="feedback" id="ext_f_20"></div><div class="completed-sentence-block" id="ext_r_20"></div></li>
+            <li><div class="exercise-item"><span>24. Many <input type="text" id="ext_q_24" placeholder="person"> think this is a good idea.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_24', 'people', 'ext_f_24', 'ext_r_24', 'Many {answer} think this is a good idea.', 'Nhiều người nghĩ đây là một ý tưởng hay.')">Submit</button></div><div class="feedback" id="ext_f_24"></div><div class="completed-sentence-block" id="ext_r_24"></div></li>
+            <li><div class="exercise-item"><span>25. My <input type="text" id="ext_q_25" placeholder="foot"> are tired after walking all day.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_25', 'feet', 'ext_f_25', 'ext_r_25', 'My {answer} are tired after walking all day.', 'Chân tôi mỏi sau khi đi bộ cả ngày.')">Submit</button></div><div class="feedback" id="ext_f_25"></div><div class="completed-sentence-block" id="ext_r_25"></div></li>
+            <li><div class="exercise-item"><span>26. The dentist checked my <input type="text" id="ext_q_26" placeholder="tooth">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_26', 'teeth', 'ext_f_26', 'ext_r_26', 'The dentist checked my {answer}.', 'Nha sĩ đã kiểm tra răng của tôi.')">Submit</button></div><div class="feedback" id="ext_f_26"></div><div class="completed-sentence-block" id="ext_r_26"></div></li>
+            <li><div class="exercise-item"><span>27. Three <input type="text" id="ext_q_27" placeholder="woman"> are in the meeting.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_27', 'women', 'ext_f_27', 'ext_r_27', 'Three {answer} are in the meeting.', 'Ba người phụ nữ đang ở trong cuộc họp.')">Submit</button></div><div class="feedback" id="ext_f_27"></div><div class="completed-sentence-block" id="ext_r_27"></div></li>
+            <li><div class="exercise-item"><span>28. The farmer has a lot of <input type="text" id="ext_q_28" placeholder="sheep">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_28', 'sheep', 'ext_f_28', 'ext_r_28', 'The farmer has a lot of {answer}.', 'Người nông dân có rất nhiều cừu.')">Submit</button></div><div class="feedback" id="ext_f_28"></div><div class="completed-sentence-block" id="ext_r_28"></div></li>
+            <li><div class="exercise-item"><span>29. The lives of famous <input type="text" id="ext_q_29" placeholder="person"> are often public.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_29', 'people', 'ext_f_29', 'ext_r_29', 'The lives of famous {answer} are often public.', 'Cuộc sống của những người nổi tiếng thường được công khai.')">Submit</button></div><div class="feedback" id="ext_f_29"></div><div class="completed-sentence-block" id="ext_r_29"></div></li>
+            <li><div class="exercise-item"><span>30. The falling <input type="text" id="ext_q_30" placeholder="leaf"> in autumn are beautiful.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_30', 'leaves', 'ext_f_30', 'ext_r_30', 'The falling {answer} in autumn are beautiful.', 'Những chiếc lá rơi vào mùa thu thật đẹp.')">Submit</button></div><div class="feedback" id="ext_f_30"></div><div class="completed-sentence-block" id="ext_r_30"></div></li>
+            <li><div class="exercise-item"><span>33. <input type="text" id="ext_q_33"> information is powerful.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_33', ['ø', '0'], 'ext_f_33', 'ext_r_33', 'Information is powerful.', 'Thông tin là sức mạnh.')">Submit</button></div><div class="feedback" id="ext_f_33"></div><div class="completed-sentence-block" id="ext_r_33"></div></li>
+            <li><div class="exercise-item"><span>34. They sell <input type="text" id="ext_q_34"> beautiful flowers here.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_34', ['ø', '0'], 'ext_f_34', 'ext_r_34', 'They sell beautiful flowers here.', 'Họ bán những bông hoa đẹp ở đây.')">Submit</button></div><div class="feedback" id="ext_f_34"></div><div class="completed-sentence-block" id="ext_r_34"></div></li>
+            <li><div class="exercise-item"><span>35. I don't like <input type="text" id="ext_q_35"> coffee.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_35', ['ø', '0'], 'ext_f_35', 'ext_r_35', 'I don\'t like coffee.', 'Tôi không thích cà phê.')">Submit</button></div><div class="feedback" id="ext_f_35"></div><div class="completed-sentence-block" id="ext_r_35"></div></li>
+            <li><div class="exercise-item"><span>36. She lives in <input type="text" id="ext_q_36"> Canada.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_36', ['ø', '0'], 'ext_f_36', 'ext_r_36', 'She lives in Canada.', 'Cô ấy sống ở Canada.')">Submit</button></div><div class="feedback" id="ext_f_36"></div><div class="completed-sentence-block" id="ext_r_36"></div></li>
+            <li><div class="exercise-item"><span>37. <input type="text" id="ext_q_37"> students should study hard.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_37', ['ø', '0'], 'ext_f_37', 'ext_r_37', 'Students should study hard.', 'Học sinh nên học chăm chỉ.')">Submit</button></div><div class="feedback" id="ext_f_37"></div><div class="completed-sentence-block" id="ext_r_37"></div></li>
+            <li><div class="exercise-item"><span>38. He speaks <input type="text" id="ext_q_38"> Japanese fluently.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_38', ['ø', '0'], 'ext_f_38', 'ext_r_38', 'He speaks Japanese fluently.', 'Anh ấy nói tiếng Nhật trôi chảy.')">Submit</button></div><div class="feedback" id="ext_f_38"></div><div class="completed-sentence-block" id="ext_r_38"></div></li>
+            <li><div class="exercise-item"><span>39. I had <input type="text" id="ext_q_39"> breakfast at 7 AM.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_39', ['ø', '0'], 'ext_f_39', 'ext_r_39', 'I had breakfast at 7 AM.', 'Tôi đã ăn sáng lúc 7 giờ sáng.')">Submit</button></div><div class="feedback" id="ext_f_39"></div><div class="completed-sentence-block" id="ext_r_39"></div></li>
+            <li><div class="exercise-item"><span>40. They are <input type="text" id="ext_q_40"> good doctors.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_40', ['ø', '0'], 'ext_f_40', 'ext_r_40', 'They are good doctors.', 'Họ là những bác sĩ giỏi.')">Submit</button></div><div class="feedback" id="ext_f_40"></div><div class="completed-sentence-block" id="ext_r_40"></div></li>
+            <li><div class="exercise-item"><span>43. We will travel to <input type="text" id="ext_q_43" placeholder="paris"> next summer.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_43', 'Paris', 'ext_f_43', 'ext_r_43', 'We will travel to {answer} next summer.', 'Chúng tôi sẽ đi du lịch đến Paris vào mùa hè tới.')">Submit</button></div><div class="feedback" id="ext_f_43"></div><div class="completed-sentence-block" id="ext_r_43"></div></li>
+            <li><div class="exercise-item"><span>44. He works for <input type="text" id="ext_q_44" placeholder="google">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_44', 'Google', 'ext_f_44', 'ext_r_44', 'He works for {answer}.', 'Anh ấy làm việc cho Google.')">Submit</button></div><div class="feedback" id="ext_f_44"></div><div class="completed-sentence-block" id="ext_r_44"></div></li>
+            <li><div class="exercise-item"><span>45. My birthday is in <input type="text" id="ext_q_45" placeholder="december">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_45', 'December', 'ext_f_45', 'ext_r_45', 'My birthday is in {answer}.', 'Sinh nhật của tôi vào tháng Mười hai.')">Submit</button></div><div class="feedback" id="ext_f_45"></div><div class="completed-sentence-block" id="ext_r_45"></div></li>
+            <li><div class="exercise-item"><span>46. Have you ever visited <input type="text" id="ext_q_46" placeholder="london">?</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_46', 'London', 'ext_f_46', 'ext_r_46', 'Have you ever visited {answer}?', 'Bạn đã bao giờ đến thăm London chưa?')">Submit</button></div><div class="feedback" id="ext_f_46"></div><div class="completed-sentence-block" id="ext_r_46"></div></li>
+            <li><div class="exercise-item"><span>47. I have an appointment on <input type="text" id="ext_q_47" placeholder="monday">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_47', 'Monday', 'ext_f_47', 'ext_r_47', 'I have an appointment on {answer}.', 'Tôi có một cuộc hẹn vào thứ Hai.')">Submit</button></div><div class="feedback" id="ext_f_47"></div><div class="completed-sentence-block" id="ext_r_47"></div></li>
+            <li><div class="exercise-item"><span>48. The <input type="text" id="ext_q_48" placeholder="nile"> is the longest river in the world.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_48', 'Nile', 'ext_f_48', 'ext_r_48', 'The {answer} is the longest river in the world.', 'Sông Nile là con sông dài nhất thế giới.')">Submit</button></div><div class="feedback" id="ext_f_48"></div><div class="completed-sentence-block" id="ext_r_48"></div></li>
+            <li><div class="exercise-item"><span>49. My friend <input type="text" id="ext_q_49" placeholder="susan"> is from Australia.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_49', 'Susan', 'ext_f_49', 'ext_r_49', 'My friend {answer} is from Australia.', 'Bạn tôi, Susan, đến từ Úc.')">Submit</button></div><div class="feedback" id="ext_f_49"></div><div class="completed-sentence-block" id="ext_r_49"></div></li>
+            <li><div class="exercise-item"><span>50. We celebrate <input type="text" id="ext_q_50" placeholder="christmas"> in December.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_50', 'Christmas', 'ext_f_50', 'ext_r_50', 'We celebrate {answer} in December.', 'Chúng tôi ăn mừng Giáng sinh vào tháng Mười hai.')">Submit</button></div><div class="feedback" id="ext_f_50"></div><div class="completed-sentence-block" id="ext_r_50"></div></li>
+            <li><div class="exercise-item"><span>51. Is that <input type="text" id="ext_q_51"> apple or a pear?</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_51', 'an', 'ext_f_51', 'ext_r_51', 'Is that {answer} apple or a pear?', 'Đó là một quả táo hay một quả lê?')">Submit</button></div><div class="feedback" id="ext_f_51"></div><div class="completed-sentence-block" id="ext_r_51"></div></li>
+            <li><div class="exercise-item"><span>52. All the <input type="text" id="ext_q_52" placeholder="photo"> from our trip are online.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_52', 'photos', 'ext_f_52', 'ext_r_52', 'All the {answer} from our trip are online.', 'Tất cả các bức ảnh từ chuyến đi của chúng tôi đều có trên mạng.')">Submit</button></div><div class="feedback" id="ext_f_52"></div><div class="completed-sentence-block" id="ext_r_52"></div></li>
+            <li><div class="exercise-item"><span>53. The police caught the two <input type="text" id="ext_q_53" placeholder="thief">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_53', 'thieves', 'ext_f_53', 'ext_r_53', 'The police caught the two {answer}.', 'Cảnh sát đã bắt được hai tên trộm.')">Submit</button></div><div class="feedback" id="ext_f_53"></div><div class="completed-sentence-block" id="ext_r_53"></div></li>
+            <li><div class="exercise-item"><span>54. <input type="text" id="ext_q_54"> photography is my hobby.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_54', ['ø', '0'], 'ext_f_54', 'ext_r_54', 'Photography is my hobby.', 'Nhiếp ảnh là sở thích của tôi.')">Submit</button></div><div class="feedback" id="ext_f_54"></div><div class="completed-sentence-block" id="ext_r_54"></div></li>
+            <li><div class="exercise-item"><span>55. <input type="text" id="ext_q_55" placeholder="henri cartier-bresson"> was a famous photographer.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_55', 'Henri Cartier-Bresson', 'ext_f_55', 'ext_r_55', '{answer} was a famous photographer.', 'Henri Cartier-Bresson là một nhiếp ảnh gia nổi tiếng.')">Submit</button></div><div class="feedback" id="ext_f_55"></div><div class="completed-sentence-block" id="ext_r_55"></div></li>
+            <li><div class="exercise-item"><span>56. She needs <input type="text" id="ext_q_56"> new pair of jeans.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_56', 'a', 'ext_f_56', 'ext_r_56', 'She needs {answer} new pair of jeans.', 'Cô ấy cần một chiếc quần jean mới.')">Submit</button></div><div class="feedback" id="ext_f_56"></div><div class="completed-sentence-block" id="ext_r_56"></div></li>
+            <li><div class="exercise-item"><span>57. There are many beautiful <input type="text" id="ext_q_57" placeholder="beach"> in Vietnam.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_57', 'beaches', 'ext_f_57', 'ext_r_57', 'There are many beautiful {answer} in Vietnam.', 'Có rất nhiều bãi biển đẹp ở Việt Nam.')">Submit</button></div><div class="feedback" id="ext_f_57"></div><div class="completed-sentence-block" id="ext_r_57"></div></li>
+            <li><div class="exercise-item"><span>58. The wolf howled at the moon, and then other <input type="text" id="ext_q_58" placeholder="wolf"> joined in.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_58', 'wolves', 'ext_f_58', 'ext_r_58', 'The wolf howled at the moon, and then other {answer} joined in.', 'Con sói tru lên mặt trăng, và rồi những con sói khác cùng tham gia.')">Submit</button></div><div class="feedback" id="ext_f_58"></div><div class="completed-sentence-block" id="ext_r_58"></div></li>
+            <li><div class="exercise-item"><span>59. <input type="text" id="ext_q_59"> people from all over the world visit this place.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_59', ['ø', '0'], 'ext_f_59', 'ext_r_59', 'People from all over the world visit this place.', 'Mọi người từ khắp nơi trên thế giới đến thăm nơi này.')">Submit</button></div><div class="feedback" id="ext_f_59"></div><div class="completed-sentence-block" id="ext_r_59"></div></li>
+            <li><div class="exercise-item"><span>60. I'm going to <input type="text" id="ext_q_60" placeholder="new york city"> next week.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_60', 'New York City', 'ext_f_60', 'ext_r_60', 'I\'m going to {answer} next week.', 'Tôi sẽ đến Thành phố New York vào tuần tới.')">Submit</button></div><div class="feedback" id="ext_f_60"></div><div class="completed-sentence-block" id="ext_r_60"></div></li>
+            <!-- ... (Continue this pattern for questions 61-100) ... -->
+            <li><div class="exercise-item"><span>100. My favorite holiday is <input type="text" id="ext_q_100" placeholder="thanksgiving">.</span><button class="submit-btn" onclick="checkExtendedAnswer('ext_q_100', 'Thanksgiving', 'ext_f_100', 'ext_r_100', 'My favorite holiday is {answer}.', 'Ngày lễ yêu thích của tôi là Lễ Tạ ơn.')">Submit</button></div><div class="feedback" id="ext_f_100"></div><div class="completed-sentence-block" id="ext_r_100"></div></li>
+        </ol>
+    </div>
+
+    <script>
+        // Script riêng cho phần bài tập bổ sung.
+        // Tên hàm khác để tránh xung đột.
+        function checkExtendedAnswer(inputId, correctAnswers, feedbackId, resultId, fullSentenceTemplate, translation) {
+            const userInputElem = document.getElementById(inputId);
+            const feedbackElem = document.getElementById(feedbackId);
+            const resultElem = document.getElementById(resultId);
+            
+            // Lấy giá trị của người dùng và xử lý
+            let userInput = userInputElem.value.trim();
+            let userInputLower = userInput.toLowerCase();
+
+            // Đảm bảo correctAnswers là một mảng các chuỗi viết thường
+            const lowerCaseCorrectAnswers = Array.isArray(correctAnswers) 
+                ? correctAnswers.map(ans => ans.toLowerCase()) 
+                : [correctAnswers.toLowerCase()];
+            
+            // Lấy câu trả lời đúng với định dạng gốc (để hiển thị)
+            const displayAnswer = Array.isArray(correctAnswers) ? correctAnswers[0] : correctAnswers;
+
+            if (lowerCaseCorrectAnswers.includes(userInputLower)) {
+                // Nếu đúng
+                feedbackElem.innerHTML = '<strong>Chính xác!</strong> &#10004;';
+                feedbackElem.className = 'feedback correct';
+                feedbackElem.style.display = 'block';
+
+                // Tạo câu hoàn chỉnh
+                // Đối với trường hợp không có mạo từ, chúng ta không chèn gì vào.
+                let finalAnswer = (displayAnswer === 'ø' || displayAnswer === '0') ? '' : userInput; // Giữ nguyên cách viết hoa của người dùng nếu đúng
+                 // Nếu câu trả lời đúng là một danh từ riêng, ta dùng câu trả lời đúng đã được viết hoa
+                if (Array.isArray(correctAnswers) && correctAnswers[0] !== 'ø' && correctAnswers[0] !== '0' && correctAnswers[0][0] === correctAnswers[0][0].toUpperCase()) {
+                   finalAnswer = correctAnswers[0];
+                } else if (!Array.isArray(correctAnswers) && correctAnswers[0] === correctAnswers[0].toUpperCase()) {
+                   finalAnswer = correctAnswers;
+                }
+
+                let completedSentence = fullSentenceTemplate.replace('{answer}', `<strong>${finalAnswer}</strong>`).replace('  ', ' '); // Xóa khoảng trắng thừa
+
+                // Hiển thị câu hoàn chỉnh và bản dịch
+                resultElem.innerHTML = `<div class="eng">${completedSentence}</div><div class="vie">${translation}</div>`;
+                resultElem.style.display = 'block';
+
+            } else {
+                // Nếu sai
+                let hint = Array.isArray(correctAnswers) ? correctAnswers[0] : correctAnswers;
+                if(hint === 'ø' || hint === '0'){
+                    hint = 'Không cần điền mạo từ (Ø).';
+                } else {
+                    hint = `Đáp án đúng là: <strong>${hint}</strong>`;
+                }
+
+                feedbackElem.innerHTML = '<strong>Chưa đúng.</strong> ' + hint;
+                feedbackElem.className = 'feedback incorrect';
+                feedbackElem.style.display = 'block';
+                resultElem.style.display = 'none'; // Ẩn kết quả nếu trả lời sai
+            }
+        }
+    </script>
+</div>
+<!-- ======================================================================= -->
+<!-- =================== KẾT THÚC SECTION BÀI TẬP BỔ SUNG ==================== -->
+<!-- ======================================================================= -->
+
+</body>
+</html>
