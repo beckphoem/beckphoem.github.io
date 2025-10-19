@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 5: Descriptive Adjectives</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5em;
+            display: flex;
+            align-items: center;
+        }
+        h1 span {
+            font-size: 4em;
+            color: #005A9C;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        .unit-title-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .unit-title-text .main-title {
+            font-size: 1em;
+            color: #000;
+        }
+        .unit-subtitle {
+            font-size: 0.6em;
+            color: #555;
+            font-weight: normal;
+        }
+        .step-header {
+            background-color: #008037;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .section-header {
+            color: #D9534F;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+
+        /* Outcomes Box */
+        .outcomes {
+            background-color: #FFF8E1;
+            border-left: 5px solid #FFC107;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+        .outcomes h4 {
+            margin-top: 0;
+            color: #c77b0e;
+        }
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+        .outcomes li {
+            margin-bottom: 5px;
+        }
+
+        /* Reading Section */
+        .reading-section {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        .reading-text {
+            flex: 2;
+        }
+        .reading-image {
+            flex: 1;
+            text-align: center;
+        }
+        .reading-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .reading-image p {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+        .reading-passage {
+            font-size: 1.1em;
+        }
+        .reading-passage h2 {
+             margin-top: 0;
+             font-size: 2em;
+        }
+        .reading-passage .footnote {
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 15px;
+        }
+        .highlight {
+            background-color: #e7f3fe;
+            padding: 1px 3px;
+            border-radius: 3px;
+            font-weight: bold;
+            color: #0b5a9e;
+        }
+        #youtube-placeholder {
+            background-color: #e0e0e0;
+            border: 2px dashed #ccc;
+            padding: 40px 20px;
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        #youtube-placeholder p {
+            margin: 0;
+            color: #666;
+        }
+
+        /* Exercises */
+        .exercise {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .exercise-header {
+            font-weight: bold;
+            color: #E67E22;
+            margin-bottom: 10px;
+        }
+        .exercise ol, .exercise ul {
+            padding-left: 25px;
+        }
+        .exercise li {
+            margin-bottom: 15px;
+        }
+        .exercise input[type="text"], .exercise select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            width: 150px;
+        }
+        .exercise button {
+            padding: 8px 15px;
+            background-color: #3498DB;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .exercise button:hover {
+            background-color: #2980B9;
+        }
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .feedback.correct {
+            color: #27AE60;
+        }
+        .feedback.incorrect {
+            color: #C0392B;
+        }
+        .word-box {
+            background-color: #e9e9e9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            border-radius: 4px;
+        }
+        .word-box span {
+            font-family: monospace;
+            background: #fff;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        /* Grammar Presentation */
+        .grammar-presentation {
+            background: #E8F5E9;
+            border-left: 5px solid #4CAF50;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .grammar-note-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2E7D32;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #A5D6A7;
+            padding: 10px;
+            text-align: center;
+        }
+        .grammar-table th {
+            background-color: #C8E6C9;
+        }
+        .grammar-example {
+            margin: 10px 0;
+            padding-left: 15px;
+            border-left: 3px solid #ccc;
+        }
+        .grammar-example .correct {
+            color: #388E3C;
+        }
+        .grammar-example .incorrect {
+            color: #D32F2F;
+            text-decoration: line-through;
+        }
+        .be-careful {
+            background-color: #FFEBEE;
+            border: 1px solid #E57373;
+            color: #C62828;
+            padding: 5px 10px;
+            font-size: 0.9em;
+            display: inline-block;
+            border-radius: 4px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        
+        /* Writing Section */
+        #writing-output {
+            margin-top: 15px;
+            background: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #writing-output ol {
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>
+                <span>5</span>
+                <div class="unit-title-text">
+                    <span class="main-title">Descriptive Adjectives</span>
+                    <span class="unit-subtitle">INTERESTING AND UNUSUAL PLACES</span>
+                </div>
+            </h1>
+            <div class="outcomes">
+                <h4>OUTCOMES</h4>
+                <ul>
+                    <li>Use adjectives to describe nouns</li>
+                    <li>Recognize details in a conversation about an interesting place</li>
+                    <li>Describe interesting places, using adjectives</li>
+                    <li>Write a paragraph about an interesting place</li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <!-- ======================= STEP 1: GRAMMAR IN CONTEXT ======================= -->
+            <section id="step-1">
+                <div class="step-header">STEP 1 &nbsp;&nbsp; GRAMMAR IN CONTEXT</div>
+                
+                <h3 class="section-header">BEFORE YOU READ</h3>
+                <p>Look at the photo of the rock formations. Work with a partner. Answer the questions.</p>
+                <ol>
+                    <li>What words describe the rock formations?
+                        <br>
+                        <em>beautiful &nbsp; &nbsp; dangerous &nbsp; &nbsp; exciting &nbsp; &nbsp; relaxing &nbsp; &nbsp; scary &nbsp; &nbsp; unusual &nbsp; &nbsp; usual</em>
+                    </li>
+                    <li>Are there unusual rock formations in your country? Where?</li>
+                </ol>
+
+                <h3 class="section-header">READ</h3>
+                <p>Read this article about an interesting place.</p>
+                
+                <div class="reading-section">
+                    <div class="reading-text">
+                        <div class="reading-passage">
+                            <h2>Cappadocia, a Place of Mystery</h2>
+                            <p>This place is like another world, but it is here on Earth. What is this place? It’s Cappadocia, in Turkey. Why is it so <span class="highlight">different</span>? What’s so <span class="highlight">unusual</span> about it? <span class="highlight">Beautiful</span> <span class="highlight">underground</span> cities and formations of rock make it a very <span class="highlight">special</span> place.</p>
+                            <p>Cappadocia has a <span class="highlight">long</span> history. Many people lived in the <span class="highlight">underground</span> cities to be <span class="highlight">safe</span> from enemies.¹ These cities were <span class="highlight">big</span>.</p>
+                        </div>
+                    </div>
+                     <div class="reading-image">
+                        <img src="FOG-2-5/1.png" alt="Underground cities in Cappadocia">
+                        <p>Underground cities</p>
+                    </div>
+                </div>
+                <div class="reading-image">
+                    <img src="FOG-2-5/2.png" alt="Rock formations in Cappadocia">
+                    <p>Rock formations</p>
+                </div>
+                 <div class="reading-passage">
+                    <p>One city, Derinkuyu, had room for more than 30,000 people.</p>
+                    <p>Today only a few people live in <span class="highlight">cave</span> homes in these cities. But many people from all over the world visit them. From above, Cappadocia looks like another world.</p>
+                    <p>The climate in Cappadocia changes. The weather is <span class="highlight">comfortable</span> during the <span class="highlight">long</span>, <span class="highlight">dry</span> summers, but <span class="highlight">cold</span> and <span class="highlight">snowy</span> in the winters. In the <span class="highlight">late</span> spring and fall, the weather is usually <span class="highlight">great</span>.</p>
+                    <p><span class="highlight">Awesome</span> <span class="highlight">underground</span> cities, <span class="highlight">beautiful</span> formations, and an <span class="highlight">interesting</span> history—these things make Cappadocia a <span class="highlight">special</span> place to see.</p>
+                    <p class="footnote">¹ enemies: people who want to hurt you</p>
+                </div>
+
+                <div id="youtube-placeholder">
+                    <p><strong>VIDEO VỀ CAPPADOCIA</strong><br>Dán mã nhúng video YouTube của bạn vào đây.</p>
+                    <!-- VÍ DỤ: <iframe width="100%" height="315" src="YOUTUBE_LINK_HERE" ...></iframe> -->
+                </div>
+
+
+                <h3 class="section-header">AFTER YOU READ</h3>
+                
+                <div class="exercise">
+                    <p class="exercise-header">A VOCABULARY</p>
+                    <p>Complete the sentences with the words from the box.</p>
+                    <div class="word-box">
+                        <span>climate</span> <span>comfortable</span> <span>dry</span> <span>safe</span> <span>unusual</span>
+                    </div>
+                    <ol>
+                        <li>Be careful. It is not <input type="text" id="a1"> to walk there. <button onclick="checkAnswer('a1', 'safe', 'f1', 'Hint: You need to be careful in places that are not...')">Submit</button><span class="feedback" id="f1"></span></li>
+                        <li>Bring water. It is hot and <input type="text" id="a2"> there. <button onclick="checkAnswer('a2', 'dry', 'f2', 'Hint: When it\'s hot, the air often has no water. It is...')">Submit</button><span class="feedback" id="f2"></span></li>
+                        <li>My shoes are <input type="text" id="a3">. I can walk in them for hours. <button onclick="checkAnswer('a3', 'comfortable', 'f3', 'Hint: If you can wear them for hours without pain, they are...')">Submit</button><span class="feedback" id="f3"></span></li>
+                        <li>I bought a(n) <input type="text" id="a4"> bowl. It’s very different from other bowls. <button onclick="checkAnswer('a4', 'unusual', 'f4', 'Hint: If something is very different, it is not normal or...')">Submit</button><span class="feedback" id="f4"></span></li>
+                        <li>The <input type="text" id="a5"> changes each season. <button onclick="checkAnswer('a5', 'climate', 'f5', 'Hint: What word describes the weather over a long time?')">Submit</button><span class="feedback" id="f5"></span></li>
+                    </ol>
+                </div>
+                
+                <div class="exercise">
+                    <p class="exercise-header">B COMPREHENSION</p>
+                    <p>Circle the correct words to complete the sentences.</p>
+                    <ol>
+                        <li>Cappadocia has amazing formations of 
+                            <select id="b1">
+                                <option value="">...</option>
+                                <option value="rock">rock</option>
+                                <option value="snow">snow</option>
+                            </select> / 
+                            <select style="display:none;">
+                                <option value="snow">snow</option>
+                            </select>. 
+                            <button onclick="checkSelect('b1', 'rock', 'f6', 'Hint: Look at the pictures and the text.')">Submit</button><span class="feedback" id="f6"></span>
+                        </li>
+                        <li>Underground cities were 
+                            <select id="b2">
+                                <option value="">...</option>
+                                <option value="dangerous">dangerous</option>
+                                <option value="safe">safe</option>
+                            </select> places to stay.
+                            <button onclick="checkSelect('b2', 'safe', 'f7', 'Hint: People lived there to hide from enemies.')">Submit</button><span class="feedback" id="f7"></span>
+                        </li>
+                         <li>Cave homes were 
+                            <select id="b3">
+                                <option value="">...</option>
+                                <option value="unusual">unusual</option>
+                                <option value="usual">usual</option>
+                            </select> in Cappadocia long ago.
+                            <button onclick="checkSelect('b3', 'unusual', 'f8', 'Hint: Not many places have cave homes.')">Submit</button><span class="feedback" id="f8"></span>
+                        </li>
+                         <li>Cappadocia has a 
+                            <select id="b4">
+                                <option value="">...</option>
+                                <option value="short">short</option>
+                                <option value="long">long</option>
+                            </select> history.
+                            <button onclick="checkSelect('b4', 'long', 'f9', 'Hint: The text mentions many people lived there long ago.')">Submit</button><span class="feedback" id="f9"></span>
+                        </li>
+                         <li>Cappadocia is 
+                            <select id="b5">
+                                <option value="">...</option>
+                                <option value="dry">dry</option>
+                                <option value="wet">wet</option>
+                            </select> in the summer.
+                            <button onclick="checkSelect('b5', 'dry', 'f10', 'Hint: The text describes the summers as long and...')">Submit</button><span class="feedback" id="f10"></span>
+                        </li>
+                    </ol>
+                </div>
+                
+                <div class="exercise">
+                     <p class="exercise-header">C DISCUSSION</p>
+                     <p>Work with a partner. Compare your answers in B. Then tell your partner three things about Cappadocia.</p>
+                </div>
+
+            </section>
+
+            <!-- ======================= STEP 2: GRAMMAR PRESENTATION ======================= -->
+            <section id="step-2">
+                <div class="step-header">STEP 2 &nbsp;&nbsp; GRAMMAR PRESENTATION</div>
+                
+                <h3>DESCRIPTIVE ADJECTIVES</h3>
+                <div style="display: flex; gap: 20px;">
+                    <div style="flex: 1;">
+                        <strong>Adjective After Be</strong>
+                        <table class="grammar-table">
+                            <thead><tr><th>Noun</th><th>Be</th><th>Adjective</th></tr></thead>
+                            <tbody>
+                                <tr><td>The room</td><td>is</td><td>small.</td></tr>
+                                <tr><td>The rooms</td><td>are</td><td>small.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="flex: 1;">
+                        <strong>Adjective Before Noun</strong>
+                        <table class="grammar-table">
+                             <thead><tr><th></th><th>Adjective</th><th>Noun</th></tr></thead>
+                             <tbody>
+                                <tr><td>It is a</td><td>small</td><td>room.</td></tr>
+                                <tr><td>They are</td><td>small</td><td>rooms.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="grammar-presentation">
+                    <p class="grammar-note-title">1 Adjectives: Meaning and Placement</p>
+                    <p>Adjectives describe nouns.</p>
+                    <p>Adjectives can come <strong>before a noun</strong>.</p>
+                    <div class="grammar-example">
+                        <p>Cappadocia is <span style="text-decoration: underline;">beautiful</span>.</p>
+                        <p><span class="correct">It's a <span style="text-decoration: underline;">big</span> room.</span></p>
+                        <p><span class="incorrect">NOT It's a room big.</span></p>
+                    </div>
+                    <p>Adjectives can also come <strong>after the verb <em>be</em></strong>.</p>
+                     <div class="grammar-example">
+                        <p>The room is <span style="text-decoration: underline;">big</span>.</p>
+                    </div>
+                    <p>When two adjectives come after <em>be</em>, we use <strong>and</strong> or <strong>but</strong> to connect them. <strong>And</strong> adds information. <strong>But</strong> shows a contrast or a surprise.</p>
+                     <div class="grammar-example">
+                        <p>I am hungry <strong>and</strong> tired.</p>
+                        <p>He was happy <strong>but</strong> tired.</p>
+                    </div>
+                    <p><span class="be-careful">BE CAREFUL</span> Do not add <em>-s</em> to adjectives. They have the <strong>same form</strong> before singular and plural nouns.</p>
+                     <div class="grammar-example">
+                        <p><span class="correct">It was a <strong>hot</strong> summer.</span></p>
+                        <p><span class="correct">They were <strong>hot</strong> summers.</span></p>
+                        <p><span class="incorrect">NOT They were hots summers.</span></p>
+                    </div>
+                    <p>A <strong>noun</strong> can also describe a noun. Like adjectives, these modifying nouns have the <strong>same form</strong> before singular and plural nouns.</p>
+                     <div class="grammar-example">
+                        <p>Our <strong>hotel</strong> room was big. (singular)</p>
+                        <p>Our <strong>hotel</strong> rooms were big. (plural)</p>
+                    </div>
+
+                    <p class="grammar-note-title" style="margin-top: 25px;">2 A or An Before an Adjective</p>
+                    <p>When an adjective comes before a singular count noun, use <strong>a</strong> or <strong>an</strong> before the adjective.</p>
+                    <p>Use <strong>a</strong> before the adjective if it begins with a <strong>consonant sound</strong>.</p>
+                    <div class="grammar-example">
+                        <p>It's <strong>a</strong> beautiful place.</p>
+                        <p>It's <strong>a</strong> modern hotel.</p>
+                    </div>
+                    <p>Use <strong>an</strong> before the adjective if it begins with a <strong>vowel sound</strong>.</p>
+                    <div class="grammar-example">
+                        <p>It's <strong>an</strong> unusual place.</p>
+                        <p>It's <strong>an</strong> old city.</p>
+                    </div>
+
+                    <p class="grammar-note-title" style="margin-top: 25px;">3 Adjective Endings</p>
+                    <p>Some adjectives end in <em>-ing</em>, <em>-ed</em>, or <em>-ly</em>. Don't confuse them with verbs or adverbs.</p>
+                     <div class="grammar-example">
+                        <p>It's interest<strong>ing</strong>.</p>
+                        <p>We're tir<strong>ed</strong>.</p>
+                        <p>They're friend<strong>ly</strong>.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ======================= STEP 3: FOCUSED PRACTICE ======================= -->
+            <section id="step-3">
+                 <div class="step-header">STEP 3 &nbsp;&nbsp; FOCUSED PRACTICE</div>
+
+                <div class="exercise">
+                    <p class="exercise-header">EXERCISE 1 DISCOVER THE GRAMMAR</p>
+                    <p><strong>A</strong> Maria is visiting Turkey. Read her travel blog about her hotel in Cappadocia. Underline the adjectives.</p>
+                    <div style="display: flex; gap: 20px; align-items: center;">
+                        <div style="flex: 1;">
+                            <img src="FOG-2-5/3.png" alt="Hotel room in Cappadocia" style="width: 100%; border-radius: 5px;">
+                        </div>
+                        <div style="flex: 2; background: #f0f0f0; padding: 15px; border-radius: 5px;">
+                            <p>This area is <u>magical</u>. Where am I? I'm at Gamirasu Cave Hotel in the <u>center</u> of Cappadocia. The hotel is in a <u>small</u>, <u>traditional</u> village. It's in a cave. In the past, it was a home. Now it's a hotel. My room is <u>fun</u>. It's <u>old</u>, but has a <u>modern</u> bathroom. The rooms are not <u>expensive</u>. The price of the room includes a <u>delicious</u> breakfast and dinner. The service is <u>good</u> too—the people are <u>helpful</u> and <u>friendly</u>. Also, it's <u>easy</u> to visit all of Cappadocia from the hotel. It was a <u>great</u> choice.</p>
+                        </div>
+                    </div>
+                    
+                    <p style="margin-top: 20px;"><strong>B</strong> How does Maria describe each of the following?</p>
+                    <ol>
+                        <li>the village: <input type="text" id="c1" value="small">, <input type="text" id="c2"> <button onclick="checkAnswer('c2', 'traditional', 'f11', 'Hint: The blog says it\'s a small, ___ village.')">Submit</button><span class="feedback" id="f11"></span></li>
+                        <li>the bathroom: <input type="text" id="c3"> <button onclick="checkAnswer('c3', 'modern', 'f12', 'Hint: The room is old, but the bathroom is...')">Submit</button><span class="feedback" id="f12"></span></li>
+                        <li>the price of the rooms: <input type="text" id="c4"> <button onclick="checkAnswer('c4', 'not expensive', 'f13', 'Hint: Maria says the rooms are ...')">Submit</button><span class="feedback" id="f13"></span></li>
+                        <li>the breakfast and dinner: <input type="text" id="c5"> <button onclick="checkAnswer('c5', 'delicious', 'f14', 'Hint: What kind of breakfast and dinner are included?')">Submit</button><span class="feedback" id="f14"></span></li>
+                        <li>people: <input type="text" id="c6">, <input type="text" id="c7"> <button onclick="checkAnswers(['c6', 'c7'], ['helpful', 'friendly'], 'f15', 'Hint: The service is good, and the people are ___ and ___.')">Submit</button><span class="feedback" id="f15"></span></li>
+                        <li>the choice of hotel: <input type="text" id="c8"> <button onclick="checkAnswer('c8', 'great', 'f16', 'Hint: At the end, she says, \'It was a ___ choice.\'')">Submit</button><span class="feedback" id="f16"></span></li>
+                    </ol>
+                </div>
+
+                 <div class="exercise">
+                    <p class="exercise-header">EXERCISE 2 PLACEMENT OF ADJECTIVES</p>
+                    <p>Complete the telephone conversation. Put the words in parentheses in the correct order. Use a capital letter at the start of a sentence.</p>
+                    <p><strong>LISA:</strong> Where are you?</p>
+                    <p><strong>BEN:</strong> <em style="color: #005A9C;">We're at an outdoor market</em> in Cappadocia.<br>1. (market / at / we're / outdoor / an)</p>
+                    
+                    <p><strong>LISA:</strong> Are they for sale?</p>
+                    <p><strong>BEN:</strong> Yes, they are. <input type="text" id="d2" style="width: 300px;"> <button onclick="checkSentence('d2', 'Are they awesome carpets?', 'f17', 'Hint: Start with the verb for a question.')">Submit</button><span class="feedback" id="f17"></span><br>2. (the / awesome / carpets / are)</p>
+
+                    <p><strong>LISA:</strong> How's the weather?</p>
+                    <p><strong>BEN:</strong> <input type="text" id="d3" style="width: 300px;"> <button onclick="checkSentence('d3', 'Are the prices reasonable?', 'f18', 'Hint: Another question. Verb first.')">Submit</button><span class="feedback" id="f18"></span> <br>3. (reasonable / prices / the / are)</p>
+
+                    <p><strong>BEN:</strong> <input type="text" id="d4" style="width: 300px;"> <button onclick="checkSentence('d4', 'It\'s warm and sunny.', 'f19', 'Hint: Subject (It\'s) + adjectives.')">Submit</button><span class="feedback" id="f19"></span></p>
+                    <p>4. (warm / it's / and / sunny)</p>
+
+                    <p><strong>LISA:</strong> You're lucky. <input type="text" id="d5" style="width: 300px;"> here.<br>5. (cold / windy / and / it's)</p>
+                    <p>How are you and Al? <button onclick="checkSentence('d5', 'It\'s cold and windy', 'f20', 'Hint: Same structure as the previous sentence.')">Submit</button><span class="feedback" id="f20"></span></p>
+                    
+                    <p><strong>BEN:</strong> <input type="text" id="d6" style="width: 300px;"> <button onclick="checkSentence('d6', 'But we\'re happy and tired.', 'f21', 'Hint: Start with the connecting word \'But\'.')">Submit</button><span class="feedback" id="f21"></span><br>6. (tired / happy / we're / but)</p>
+                 </div>
+
+                 <!-- ======================= UNIT 5 REVIEW ======================= -->
+                 <section id="unit-review">
+                    <h2 style="color: #D9534F; text-align: center; margin-top: 40px;">UNIT 5 REVIEW</h2>
+                    <p style="text-align: center;">Test yourself on the grammar of the unit.</p>
+
+                    <div class="exercise">
+                        <p class="exercise-header">A Complete the sentences. Add a, an, or Ø (= no article).</p>
+                        <ol>
+                            <li>San Francisco is <input type="text" id="rA1" style="width: 50px;"> big city. <button onclick="checkAnswer('rA1', 'a', 'rfA1', 'Hint: \'big\' starts with a consonant sound.')">Submit</button><span class="feedback" id="rfA1"></span></li>
+                            <li>We like to visit <input type="text" id="rA2" style="width: 50px;" placeholder="Ø"> cities. <button onclick="checkAnswer('rA2', ['ø', ''], 'rfA2', 'Hint: \'cities\' is a plural noun.')">Submit</button><span class="feedback" id="rfA2"></span></li>
+                            <li>Miami has <input type="text" id="rA3" style="width: 50px;" placeholder="Ø"> hot, humid summers. <button onclick="checkAnswer('rA3', ['ø', ''], 'rfA3', 'Hint: \'summers\' is plural.')">Submit</button><span class="feedback" id="rfA3"></span></li>
+                            <li>It is <input type="text" id="rA4" style="width: 50px;"> interesting place. <button onclick="checkAnswer('rA4', 'an', 'rfA4', 'Hint: \'interesting\' starts with a vowel sound.')">Submit</button><span class="feedback" id="rfA4"></span></li>
+                            <li>The Grand Canyon has <input type="text" id="rA5" style="width: 50px;" placeholder="Ø"> beautiful rock formations. <button onclick="checkAnswer('rA5', ['ø', ''], 'rfA5', 'Hint: \'formations\' is plural.')">Submit</button><span class="feedback" id="rfA5"></span></li>
+                        </ol>
+                    </div>
+
+                    <div class="exercise">
+                        <p class="exercise-header">B Circle the correct words to complete each sentence.</p>
+                        <ol>
+                            <li>We are at <select id="rB1"><option value="">...</option><option value="a hotel small">a hotel small</option><option value="a small hotel">a small hotel</option></select>. <button onclick="checkSelect('rB1', 'a small hotel', 'rfB1', 'Hint: Adjective comes before the noun.')">Submit</button><span class="feedback" id="rfB1"></span></li>
+                            <li>The hotel has <select id="rB2"><option value="">...</option><option value="an interesting garden">an interesting garden</option><option value="a interesting garden">a interesting garden</option></select>. <button onclick="checkSelect('rB2', 'an interesting garden', 'rfB2', 'Hint: \'interesting\' starts with a vowel sound.')">Submit</button><span class="feedback" id="rfB2"></span></li>
+                            <li>Our hotel room is <select id="rB3"><option value="">...</option><option value="big and comfortable">big and comfortable</option><option value="a big and comfortable">a big and comfortable</option></select>. <button onclick="checkSelect('rB3', 'big and comfortable', 'rfB3', 'Hint: Adjectives after \'be\' don\'t need \'a\'.')">Submit</button><span class="feedback" id="rfB3"></span></li>
+                            <li>The people here are <select id="rB4"><option value="">...</option><option value="kinds and helpful">kinds and helpful</option><option value="kind and helpful">kind and helpful</option></select>. <button onclick="checkSelect('rB4', 'kind and helpful', 'rfB4', 'Hint: Adjectives do not take a plural -s.')">Submit</button><span class="feedback" id="rfB4"></span></li>
+                            <li>It was a <select id="rB5"><option value="">...</option><option value="great choice">great choice</option><option value="choice great">choice great</option></select>. <button onclick="checkSelect('rB5', 'great choice', 'rfB5', 'Hint: Adjective comes before the noun.')">Submit</button><span class="feedback" id="rfB5"></span></li>
+                        </ol>
+                    </div>
+
+                     <div class="exercise">
+                        <p class="exercise-header">C Put the words in parentheses in the correct order.</p>
+                        <ol>
+                            <li>(museum / I'm / the / at / new) <input type="text" id="rC1" style="width: 300px;">. <button onclick="checkSentence('rC1', 'I\'m at the new museum.', 'rfC1', 'Hint: Adjective (new) before noun (museum).')">Submit</button><span class="feedback" id="rfC1"></span></li>
+                            <li>(things / interesting / It has) <input type="text" id="rC2" style="width: 300px;"> to see. <button onclick="checkSentence('rC2', 'It has interesting things', 'rfC2', 'Hint: Subject + verb + adjective + noun.')">Submit</button><span class="feedback" id="rfC2"></span></li>
+                            <li>(bowls / unusual / It has) <input type="text" id="rC3" style="width: 300px;"> from long ago. <button onclick="checkSentence('rC3', 'It has unusual bowls', 'rfC3', 'Hint: Same structure as the previous sentence.')">Submit</button><span class="feedback" id="rfC3"></span></li>
+                            <li>(has / It / carpets / beautiful) <input type="text" id="rC4" style="width: 300px;"> too. <button onclick="checkSentence('rC4', 'It has beautiful carpets,', 'rfC4', 'Hint: Watch the punctuation.')">Submit</button><span class="feedback" id="rfC4"></span></li>
+                            <li>(place / is / The museum / a / great) <input type="text" id="rC5" style="width: 300px;">. <button onclick="checkSentence('rC5', 'The museum is a great place.', 'rfC5', 'Hint: Subject + verb + article + adjective + noun.')">Submit</button><span class="feedback" id="rfC5"></span></li>
+                        </ol>
+                    </div>
+
+                    <div class="exercise">
+                        <p class="exercise-header">D Correct the paragraph. There are five mistakes.</p>
+                        <p>The Grand Canyon National Park in Arizona is an awesome place to visit. Almost five million people visit the park every year. It is a beautiful park. The weather is good in the late spring and summer, but the park is crowded during those months. There are seven different places to stay in the park. I like El Tovar. It is an old hotel with a great view.</p>
+                        <p><em>(This is the corrected version. The original mistakes might be: 1. a awesome -> an awesome, 2. a park beautiful -> a beautiful park, 3. the weather are -> the weather is, 4. the park crowded is -> the park is crowded, 5. a old hotel -> an old hotel)</em></p>
+                    </div>
+                 </section>
+            </section>
+            
+            <!-- ======================= WRITING SECTION ======================= -->
+            <section id="writing">
+                <div class="step-header">WRITING</div>
+                 <h3 class="section-header">SAMPLE PARAGRAPH</h3>
+                 <div class="exercise">
+                    <p id="sample-paragraph">
+                        One of my favorite places is Ha Long Bay in Vietnam. It is a very beautiful place. There are thousands of big, green islands in the blue water. The weather is often warm and sunny. It is a popular place for tourists, but it is also very peaceful and relaxing. I think Ha Long Bay is one of the most unusual places in the world.
+                    </p>
+                    <button id="split-button">Tách thành từng câu</button>
+                    <div id="writing-output"></div>
+                 </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        function normalizeAnswer(answer) {
+            return answer.trim().toLowerCase().replace(/[.,?']/g, "");
+        }
+
+        // For single input fields
+        function checkAnswer(inputId, correctAnswer, feedbackId, hint) {
+            const userAnswer = document.getElementById(inputId).value;
+            const feedbackEl = document.getElementById(feedbackId);
+            
+            const isCorrect = Array.isArray(correctAnswer) 
+                ? correctAnswer.includes(normalizeAnswer(userAnswer))
+                : normalizeAnswer(userAnswer) === normalizeAnswer(correctAnswer);
+
+            if (isCorrect) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. ${hint}`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+        
+        // For multiple input fields where order doesn't matter (e.g., helpful, friendly)
+        function checkAnswers(inputIdArray, correctAnswerArray, feedbackId, hint) {
+            const userAnswers = inputIdArray.map(id => normalizeAnswer(document.getElementById(id).value)).sort();
+            const correctAnswers = correctAnswerArray.map(ans => normalizeAnswer(ans)).sort();
+            const feedbackEl = document.getElementById(feedbackId);
+
+            if (JSON.stringify(userAnswers) === JSON.stringify(correctAnswers)) {
+                 feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. ${hint}`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+
+        // For sentence unscrambling
+        function checkSentence(inputId, correctAnswer, feedbackId, hint) {
+             const userAnswer = document.getElementById(inputId).value;
+             const feedbackEl = document.getElementById(feedbackId);
+             if (normalizeAnswer(userAnswer) === normalizeAnswer(correctAnswer)) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+             } else {
+                feedbackEl.textContent = `Incorrect. ${hint}`;
+                feedbackEl.className = 'feedback incorrect';
+             }
+        }
+        
+        // For select dropdowns
+        function checkSelect(selectId, correctAnswer, feedbackId, hint) {
+            const userSelection = document.getElementById(selectId).value;
+            const feedbackEl = document.getElementById(feedbackId);
+            if (userSelection === correctAnswer) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. ${hint}`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+        
+        // Writing Section Script
+        document.getElementById('split-button').addEventListener('click', function() {
+            const paragraphText = document.getElementById('sample-paragraph').innerText;
+            const outputDiv = document.getElementById('writing-output');
+            
+            // Split by period, then filter out any empty strings that might result
+            const sentences = paragraphText.split('.').filter(sentence => sentence.trim().length > 0);
+            
+            let html = '<ol>';
+            sentences.forEach(sentence => {
+                html += `<li>${sentence.trim()}.</li>`;
+            });
+            html += '</ol>';
+            
+            outputDiv.innerHTML = html;
+        });
+
+    </script>
+	
+	<!-- ======================= SECTION BÀI TẬP BỔ SUNG = ======================= -->
+<section id="extra-exercises-section" class = "container">
+    <div class="step-header" style="background-color: #5D3FD3; margin-top: 50px;">BÀI TẬP BỔ SUNG (100 CÂU)</div>
+    
+    <style>
+        #extra-exercises-section .exercise {
+            background: #fdfaff;
+            border: 1px solid #dcd0ff;
+        }
+        #extra-exercises-section .exercise-header {
+            color: #5D3FD3;
+            font-size: 1.2em;
+        }
+        #extra-exercises-section li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        #extra-exercises-section li:last-child {
+            border-bottom: none;
+        }
+        #extra-exercises-section input[type="text"] {
+            width: 250px;
+        }
+        #extra-exercises-section .result-sentence {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #E8F5E9;
+            border-left: 4px solid #4CAF50;
+            border-radius: 4px;
+        }
+        #extra-exercises-section .result-sentence h4 {
+            margin: 0 0 5px 0;
+            color: #2E7D32;
+            font-size: 1em;
+        }
+        #extra-exercises-section .result-sentence p {
+            margin: 0;
+            font-weight: bold;
+        }
+        #extra-exercises-section .result-sentence em {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+    
+    <div class="exercise">
+        <p class="exercise-header">Hoàn thành các câu sau</p>
+        <ol>
+            <!-- Bắt đầu 100 câu bài tập -->
+            
+            <!-- Type 1: Fill in the blank (Adjective) -->
+            <li>This is a very <input type="text" id="ext_q1"> story. (interest / interesting)
+                <button onclick="checkExtraAnswer(1, 'ext_q1', 'interesting', 'This is a very interesting story.', 'Đây là một câu chuyện rất thú vị.', 'Hint: The story causes the feeling, so use the -ing form.')">Submit</button>
+                <span class="feedback" id="ext_f1"></span><div class="result-sentence" id="ext_r1"></div>
+            </li>
+            <li>She wore a <input type="text" id="ext_q2"> dress to the party. (beautiful / beautifully)
+                <button onclick="checkExtraAnswer(2, 'ext_q2', 'beautiful', 'She wore a beautiful dress to the party.', 'Cô ấy đã mặc một chiếc váy đẹp đến bữa tiệc.', 'Hint: We need an adjective to describe the noun \'dress\'.')">Submit</button>
+                <span class="feedback" id="ext_f2"></span><div class="result-sentence" id="ext_r2"></div>
+            </li>
+            <li>The students were <input type="text" id="ext_q3"> after the long exam. (tired / tiring)
+                <button onclick="checkExtraAnswer(3, 'ext_q3', 'tired', 'The students were tired after the long exam.', 'Các học sinh đã mệt mỏi sau kỳ thi dài.', 'Hint: The students feel this way, so use the -ed form.')">Submit</button>
+                <span class="feedback" id="ext_f3"></span><div class="result-sentence" id="ext_r3"></div>
+            </li>
+            <li>Cappadocia has many <input type="text" id="ext_q4"> rock formations. (unusual / usually)
+                <button onclick="checkExtraAnswer(4, 'ext_q4', 'unusual', 'Cappadocia has many unusual rock formations.', 'Cappadocia có nhiều khối đá lạ thường.', 'Hint: We need an adjective here, not an adverb.')">Submit</button>
+                <span class="feedback" id="ext_f4"></span><div class="result-sentence" id="ext_r4"></div>
+            </li>
+            
+            <!-- Type 2: a / an / ø -->
+            <li>He is <input type="text" id="ext_q5" style="width:50px;"> honest man.
+                <button onclick="checkExtraAnswer(5, 'ext_q5', 'an', 'He is an honest man.', 'Anh ấy là một người đàn ông trung thực.', 'Hint: \'Honest\' starts with a vowel sound.')">Submit</button>
+                <span class="feedback" id="ext_f5"></span><div class="result-sentence" id="ext_r5"></div>
+            </li>
+            <li>They have <input type="text" id="ext_q6" style="width:50px;" placeholder="ø"> nice furniture.
+                <button onclick="checkExtraAnswer(6, 'ext_q6', ['', 'ø'], 'They have nice furniture.', 'Họ có đồ nội thất đẹp.', 'Hint: \'Furniture\' is an uncountable noun.')">Submit</button>
+                <span class="feedback" id="ext_f6"></span><div class="result-sentence" id="ext_r6"></div>
+            </li>
+            <li>It was <input type="text" id="ext_q7" style="width:50px;"> cold day.
+                <button onclick="checkExtraAnswer(7, 'ext_q7', 'a', 'It was a cold day.', 'Đó là một ngày lạnh.', 'Hint: \'Cold\' starts with a consonant sound.')">Submit</button>
+                <span class="feedback" id="ext_f7"></span><div class="result-sentence" id="ext_r7"></div>
+            </li>
+            <li>We saw <input type="text" id="ext_q8" style="width:50px;" placeholder="ø"> interesting movies last night.
+                <button onclick="checkExtraAnswer(8, 'ext_q8', ['', 'ø'], 'We saw interesting movies last night.', 'Chúng tôi đã xem những bộ phim thú vị tối qua.', 'Hint: \'Movies\' is a plural noun.')">Submit</button>
+                <span class="feedback" id="ext_f8"></span><div class="result-sentence" id="ext_r8"></div>
+            </li>
+            <li>She wants to be <input type="text" id="ext_q9" style="width:50px;"> famous artist.
+                <button onclick="checkExtraAnswer(9, 'ext_q9', 'a', 'She wants to be a famous artist.', 'Cô ấy muốn trở thành một nghệ sĩ nổi tiếng.', 'Hint: \'Famous\' starts with a consonant sound.')">Submit</button>
+                <span class="feedback" id="ext_f9"></span><div class="result-sentence" id="ext_r9"></div>
+            </li>
+            <li>My cat is <input type="text" id="ext_q10" style="width:50px;"> very friendly animal.
+                <button onclick="checkExtraAnswer(10, 'ext_q10', 'a', 'My cat is a very friendly animal.', 'Con mèo của tôi là một con vật rất thân thiện.', 'Hint: The noun \'animal\' is singular and countable.')">Submit</button>
+                <span class="feedback" id="ext_f10"></span><div class="result-sentence" id="ext_r10"></div>
+            </li>
+
+            <!-- Type 3: Unscramble -->
+            <li>(is / city / big / a / Tokyo) <input type="text" id="ext_q11">
+                <button onclick="checkExtraUnscramble(11, 'ext_q11', 'Tokyo is a big city.', 'Tokyo is a big city.', 'Tokyo là một thành phố lớn.', 'Hint: Subject + be + article + adjective + noun.')">Submit</button>
+                <span class="feedback" id="ext_f11"></span><div class="result-sentence" id="ext_r11"></div>
+            </li>
+            <li>(car / has / new / a / He / blue) <input type="text" id="ext_q12">
+                <button onclick="checkExtraUnscramble(12, 'ext_q12', 'He has a new blue car.', 'He has a new blue car.', 'Anh ấy có một chiếc xe hơi màu xanh mới.', 'Hint: Adjectives come before the noun.')">Submit</button>
+                <span class="feedback" id="ext_f12"></span><div class="result-sentence" id="ext_r12"></div>
+            </li>
+            <li>(the food / delicious / was / and / fresh) <input type="text" id="ext_q13">
+                <button onclick="checkExtraUnscramble(13, 'ext_q13', 'The food was fresh and delicious.', 'The food was fresh and delicious.', 'Thức ăn tươi và ngon.', 'Hint: Adjectives after \'be\' are connected with \'and\'.')">Submit</button>
+                <span class="feedback" id="ext_f13"></span><div class="result-sentence" id="ext_r13"></div>
+            </li>
+             <li>(an / That / was / movie / exciting) <input type="text" id="ext_q14">
+                <button onclick="checkExtraUnscramble(14, 'ext_q14', 'That was an exciting movie.', 'That was an exciting movie.', 'Đó là một bộ phim hấp dẫn.', 'Hint: Use \'an\' before a vowel sound.')">Submit</button>
+                <span class="feedback" id="ext_f14"></span><div class="result-sentence" id="ext_r14"></div>
+            </li>
+            <li>(but / The hotel / expensive / was / comfortable / was) <input type="text" id="ext_q15">
+                <button onclick="checkExtraUnscramble(15, 'ext_q15', 'The hotel was expensive but comfortable.', 'The hotel was expensive but comfortable.', 'Khách sạn đó đắt tiền nhưng thoải mái.', 'Hint: Use \'but\' to show contrast.')">Submit</button>
+                <span class="feedback" id="ext_f15"></span><div class="result-sentence" id="ext_r15"></div>
+            </li>
+
+            <!-- Type 4: More variety -->
+            <li>Be careful, the floor is <input type="text" id="ext_q16">. (wet / wetly)
+                <button onclick="checkExtraAnswer(16, 'ext_q16', 'wet', 'Be careful, the floor is wet.', 'Cẩn thận, sàn nhà bị ướt.', 'Hint: Use the adjective form after \'is\'.')">Submit</button>
+                <span class="feedback" id="ext_f16"></span><div class="result-sentence" id="ext_r16"></div>
+            </li>
+            <li>I bought some <input type="text" id="ext_q17"> vegetables at the market. (fresh / freshs)
+                <button onclick="checkExtraAnswer(17, 'ext_q17', 'fresh', 'I bought some fresh vegetables at the market.', 'Tôi đã mua một ít rau tươi ở chợ.', 'Hint: Adjectives do not have a plural form.')">Submit</button>
+                <span class="feedback" id="ext_f17"></span><div class="result-sentence" id="ext_r17"></div>
+            </li>
+             <li>The journey was long and <input type="text" id="ext_q18">. (tiring / tired)
+                <button onclick="checkExtraAnswer(18, 'ext_q18', 'tiring', 'The journey was long and tiring.', 'Chuyến đi dài và mệt mỏi.', 'Hint: The journey causes the feeling of being tired.')">Submit</button>
+                <span class="feedback" id="ext_f18"></span><div class="result-sentence" id="ext_r18"></div>
+            </li>
+            <li>She has <input type="text" id="ext_q19" style="width:50px;"> long, dark hair.
+                <button onclick="checkExtraAnswer(19, 'ext_q19', ['', 'ø'], 'She has long, dark hair.', 'Cô ấy có mái tóc dài, đen.', 'Hint: \'Hair\' is usually uncountable.')">Submit</button>
+                <span class="feedback" id="ext_f19"></span><div class="result-sentence" id="ext_r19"></div>
+            </li>
+            <li>(old / an / building / It's) <input type="text" id="ext_q20">
+                <button onclick="checkExtraUnscramble(20, 'ext_q20', 'It\'s an old building.', 'It\'s an old building.', 'Đó là một tòa nhà cũ.', 'Hint: an + adjective (vowel sound) + noun.')">Submit</button>
+                <span class="feedback" id="ext_f20"></span><div class="result-sentence" id="ext_r20"></div>
+            </li>
+
+            <!-- Questions 21-100 -->
+            <li>The tea is too <input type="text" id="ext_q21">. (hot / hots)
+                <button onclick="checkExtraAnswer(21, 'ext_q21', 'hot', 'The tea is too hot.', 'Trà này nóng quá.', 'Hint: Adjectives don\'t take an -s.')">Submit</button>
+                <span class="feedback" id="ext_f21"></span><div class="result-sentence" id="ext_r21"></div>
+            </li>
+            <li>That is <input type="text" id="ext_q22" style="width:50px;"> huge museum.
+                <button onclick="checkExtraAnswer(22, 'ext_q22', 'a', 'That is a huge museum.', 'Đó là một bảo tàng khổng lồ.', 'Hint: \'Huge\' starts with a consonant sound.')">Submit</button>
+                <span class="feedback" id="ext_f22"></span><div class="result-sentence" id="ext_r22"></div>
+            </li>
+            <li>I am <input type="text" id="ext_q23"> in history. (interested / interesting)
+                <button onclick="checkExtraAnswer(23, 'ext_q23', 'interested', 'I am interested in history.', 'Tôi quan tâm đến lịch sử.', 'Hint: You feel this way, so use the -ed form.')">Submit</button>
+                <span class="feedback" id="ext_f23"></span><div class="result-sentence" id="ext_r23"></div>
+            </li>
+            <li>(a / has / He / job / new) <input type="text" id="ext_q24">
+                <button onclick="checkExtraUnscramble(24, 'ext_q24', 'He has a new job.', 'He has a new job.', 'Anh ấy có một công việc mới.', 'Hint: article + adjective + noun.')">Submit</button>
+                <span class="feedback" id="ext_f24"></span><div class="result-sentence" id="ext_r24"></div>
+            </li>
+            <li>The weather is warm but <input type="text" id="ext_q25">. (wind / windy)
+                <button onclick="checkExtraAnswer(25, 'ext_q25', 'windy', 'The weather is warm but windy.', 'Thời tiết ấm nhưng có gió.', 'Hint: We need the adjective form.')">Submit</button>
+                <span class="feedback" id="ext_f25"></span><div class="result-sentence" id="ext_r25"></div>
+            </li>
+             <li>This is an <input type="text" id="ext_q26"> book. (excellent/excellents)
+                <button onclick="checkExtraAnswer(26, 'ext_q26', 'excellent', 'This is an excellent book.', 'Đây là một quyển sách xuất sắc.', 'Hint: Adjectives don’t take plural forms.')">Submit</button>
+                <span class="feedback" id="ext_f26"></span><div class="result-sentence" id="ext_r26"></div>
+            </li>
+            <li>They live in a <input type="text" id="ext_q27"> house. (modern/modernly)
+                <button onclick="checkExtraAnswer(27, 'ext_q27', 'modern', 'They live in a modern house.', 'Họ sống trong một ngôi nhà hiện đại.', 'Hint: An adjective is needed to describe the house.')">Submit</button>
+                <span class="feedback" id="ext_f27"></span><div class="result-sentence" id="ext_r27"></div>
+            </li>
+            <li>The children are very <input type="text" id="ext_q28">. (happy/happily)
+                <button onclick="checkExtraAnswer(28, 'ext_q28', 'happy', 'The children are very happy.', 'Bọn trẻ rất vui vẻ.', 'Hint: Use an adjective after the verb \'be\'.')">Submit</button>
+                <span class="feedback" id="ext_f28"></span><div class="result-sentence" id="ext_r28"></div>
+            </li>
+            <li>We need <input type="text" id="ext_q29" style="width:50px;" placeholder="ø"> fresh milk.
+                <button onclick="checkExtraAnswer(29, 'ext_q29', ['', 'ø'], 'We need fresh milk.', 'Chúng tôi cần sữa tươi.', 'Hint: \'Milk\' is an uncountable noun.')">Submit</button>
+                <span class="feedback" id="ext_f29"></span><div class="result-sentence" id="ext_r29"></div>
+            </li>
+            <li>(the test / difficult / was / but / fair) <input type="text" id="ext_q30">
+                <button onclick="checkExtraUnscramble(30, 'ext_q30', 'The test was difficult but fair.', 'The test was difficult but fair.', 'Bài kiểm tra khó nhưng công bằng.', 'Hint: Use \'but\' to connect contrasting adjectives.')">Submit</button>
+                <span class="feedback" id="ext_f30"></span><div class="result-sentence" id="ext_r30"></div>
+            </li>
+            <li>I was <input type="text" id="ext_q31"> by the news. (surprised/surprising)
+                <button onclick="checkExtraAnswer(31, 'ext_q31', 'surprised', 'I was surprised by the news.', 'Tôi đã ngạc nhiên trước tin tức đó.', 'Hint: Describe your feeling with the -ed form.')">Submit</button>
+                <span class="feedback" id="ext_f31"></span><div class="result-sentence" id="ext_r31"></div>
+            </li>
+            <li>The news was very <input type="text" id="ext_q32">. (surprised/surprising)
+                <button onclick="checkExtraAnswer(32, 'ext_q32', 'surprising', 'The news was very surprising.', 'Tin tức đó rất đáng ngạc nhiên.', 'Hint: The news caused the feeling, so use the -ing form.')">Submit</button>
+                <span class="feedback" id="ext_f32"></span><div class="result-sentence" id="ext_r32"></div>
+            </li>
+            <li>This is <input type="text" id="ext_q33" style="width:50px;"> easy exercise.
+                <button onclick="checkExtraAnswer(33, 'ext_q33', 'an', 'This is an easy exercise.', 'Đây là một bài tập dễ.', 'Hint: \'Easy\' starts with a vowel sound.')">Submit</button>
+                <span class="feedback" id="ext_f33"></span><div class="result-sentence" id="ext_r33"></div>
+            </li>
+            <li>She is wearing <input type="text" id="ext_q34"> shoes. (comfortable/comfortables)
+                <button onclick="checkExtraAnswer(34, 'ext_q34', 'comfortable', 'She is wearing comfortable shoes.', 'Cô ấy đang đi đôi giày thoải mái.', 'Hint: Adjectives do not have a plural form.')">Submit</button>
+                <span class="feedback" id="ext_f34"></span><div class="result-sentence" id="ext_r34"></div>
+            </li>
+            <li>(small / It's / a / quiet / town) <input type="text" id="ext_q35">
+                <button onclick="checkExtraUnscramble(35, 'ext_q35', 'It\'s a small, quiet town.', 'It\'s a small, quiet town.', 'Đó là một thị trấn nhỏ và yên tĩnh.', 'Hint: Adjectives come before the noun.')">Submit</button>
+                <span class="feedback" id="ext_f35"></span><div class="result-sentence" id="ext_r35"></div>
+            </li>
+            <li>The problem is very <input type="text" id="ext_q36">. (complicated/complicating)
+                <button onclick="checkExtraAnswer(36, 'ext_q36', 'complicated', 'The problem is very complicated.', 'Vấn đề rất phức tạp.', 'Hint: Describe the state of the problem.')">Submit</button>
+                <span class="feedback" id="ext_f36"></span><div class="result-sentence" id="ext_r36"></div>
+            </li>
+            <li>They sell <input type="text" id="ext_q37" style="width:50px;" placeholder="ø"> delicious food here.
+                <button onclick="checkExtraAnswer(37, 'ext_q37', ['', 'ø'], 'They sell delicious food here.', 'Họ bán đồ ăn ngon ở đây.', 'Hint: \'Food\' is often used as an uncountable noun.')">Submit</button>
+                <span class="feedback" id="ext_f37"></span><div class="result-sentence" id="ext_r37"></div>
+            </li>
+            <li>He told us a <input type="text" id="ext_q38"> story. (funny/funnily)
+                <button onclick="checkExtraAnswer(38, 'ext_q38', 'funny', 'He told us a funny story.', 'Anh ấy kể cho chúng tôi một câu chuyện hài hước.', 'Hint: Use the adjective to describe \'story\'.')">Submit</button>
+                <span class="feedback" id="ext_f38"></span><div class="result-sentence" id="ext_r38"></div>
+            </li>
+            <li>(is / My room / clean / tidy / and) <input type="text" id="ext_q39">
+                <button onclick="checkExtraUnscramble(39, 'ext_q39', 'My room is clean and tidy.', 'My room is clean and tidy.', 'Phòng của tôi sạch sẽ và gọn gàng.', 'Hint: Connect adjectives after \'be\' with \'and\'.')">Submit</button>
+                <span class="feedback" id="ext_f39"></span><div class="result-sentence" id="ext_r39"></div>
+            </li>
+            <li>The soup tastes <input type="text" id="ext_q40">. (wonderful/wonderfully)
+                <button onclick="checkExtraAnswer(40, 'ext_q40', 'wonderful', 'The soup tastes wonderful.', 'Món súp có vị tuyệt vời.', 'Hint: After verbs like \'taste\', \'feel\', \'smell\', use an adjective.')">Submit</button>
+                <span class="feedback" id="ext_f40"></span><div class="result-sentence" id="ext_r40"></div>
+            </li>
+            <li>It was <input type="text" id="ext_q41" style="width:50px;"> amazing performance.
+                <button onclick="checkExtraAnswer(41, 'ext_q41', 'an', 'It was an amazing performance.', 'Đó là một màn trình diễn tuyệt vời.', 'Hint: \'Amazing\' starts with a vowel sound.')">Submit</button>
+                <span class="feedback" id="ext_f41"></span><div class="result-sentence" id="ext_r41"></div>
+            </li>
+            <li>She has a very <input type="text" id="ext_q42"> voice. (loud/loudly)
+                <button onclick="checkExtraAnswer(42, 'ext_q42', 'loud', 'She has a very loud voice.', 'Cô ấy có một giọng nói rất to.', 'Hint: Adjective before the noun \'voice\'.')">Submit</button>
+                <span class="feedback" id="ext_f42"></span><div class="result-sentence" id="ext_r42"></div>
+            </li>
+            <li>I feel <input type="text" id="ext_q43"> today. (relaxed/relaxing)
+                <button onclick="checkExtraAnswer(43, 'ext_q43', 'relaxed', 'I feel relaxed today.', 'Hôm nay tôi cảm thấy thư giãn.', 'Hint: Describe your feeling with the -ed form.')">Submit</button>
+                <span class="feedback" id="ext_f43"></span><div class="result-sentence" id="ext_r43"></div>
+            </li>
+            <li>(is / a / Paris / romantic / city) <input type="text" id="ext_q44">
+                <button onclick="checkExtraUnscramble(44, 'ext_q44', 'Paris is a romantic city.', 'Paris is a romantic city.', 'Paris là một thành phố lãng mạn.', 'Hint: Subject + be + article + adjective + noun.')">Submit</button>
+                <span class="feedback" id="ext_f44"></span><div class="result-sentence" id="ext_r44"></div>
+            </li>
+            <li>The music is too <input type="text" id="ext_q45">. (loud/loudly)
+                <button onclick="checkExtraAnswer(45, 'ext_q45', 'loud', 'The music is too loud.', 'Nhạc to quá.', 'Hint: Adjective after the verb \'be\'.')">Submit</button>
+                <span class="feedback" id="ext_f45"></span><div class="result-sentence" id="ext_r45"></div>
+            </li>
+            <li>She bought <input type="text" id="ext_q46" style="width:50px;"> expensive jewelry.
+                <button onclick="checkExtraAnswer(46, 'ext_q46', ['', 'ø'], 'She bought expensive jewelry.', 'Cô ấy đã mua đồ trang sức đắt tiền.', 'Hint: \'Jewelry\' is uncountable.')">Submit</button>
+                <span class="feedback" id="ext_q46"></span><div class="result-sentence" id="ext_r46"></div>
+            </li>
+            <li>This is a very <input type="text" id="ext_q47"> situation. (confused/confusing)
+                <button onclick="checkExtraAnswer(47, 'ext_q47', 'confusing', 'This is a very confusing situation.', 'Đây là một tình huống rất khó hiểu.', 'Hint: The situation causes confusion.')">Submit</button>
+                <span class="feedback" id="ext_f47"></span><div class="result-sentence" id="ext_r47"></div>
+            </li>
+            <li>I am <input type="text" id="ext_q48"> about the instructions. (confused/confusing)
+                <button onclick="checkExtraAnswer(48, 'ext_q48', 'confused', 'I am confused about the instructions.', 'Tôi bị bối rối về phần hướng dẫn.', 'Hint: You feel confused.')">Submit</button>
+                <span class="feedback" id="ext_f48"></span><div class="result-sentence" id="ext_r48"></div>
+            </li>
+            <li>(people / are / friendly / The / and / kind) <input type="text" id="ext_q49">
+                <button onclick="checkExtraUnscramble(49, 'ext_q49', 'The people are friendly and kind.', 'The people are friendly and kind.', 'Mọi người thân thiện và tốt bụng.', 'Hint: Subject + be + adjective + and + adjective.')">Submit</button>
+                <span class="feedback" id="ext_f49"></span><div class="result-sentence" id="ext_r49"></div>
+            </li>
+            <li>He drives a <input type="text" id="ext_q50"> car. (fast/fastly)
+                <button onclick="checkExtraAnswer(50, 'ext_q50', 'fast', 'He drives a fast car.', 'Anh ấy lái một chiếc xe nhanh.', 'Hint: \'Fast\' is both an adjective and an adverb. Here it describes \'car\'.')">Submit</button>
+                <span class="feedback" id="ext_f50"></span><div class="result-sentence" id="ext_r50"></div>
+            </li>
+            
+            <!-- Questions 51-100 -->
+            <!-- Chèn 50 câu còn lại theo cấu trúc tương tự ở đây -->
+            <li>The mountains are <input type="text" id="ext_q51"> in the winter. (snowy/snow)
+                <button onclick="checkExtraAnswer(51, 'ext_q51', 'snowy', 'The mountains are snowy in the winter.', 'Những ngọn núi có tuyết vào mùa đông.', 'Hint: Use the adjective form to describe the mountains.')">Submit</button>
+                <span class="feedback" id="ext_f51"></span><div class="result-sentence" id="ext_r51"></div>
+            </li>
+            <li>It's <input type="text" id="ext_q52" style="width:50px;"> very hot day.
+                <button onclick="checkExtraAnswer(52, 'ext_q52', 'a', 'It\'s a very hot day.', 'Đó là một ngày rất nóng.', 'Hint: Consonant sound for \'very\'.')">Submit</button>
+                <span class="feedback" id="ext_f52"></span><div class="result-sentence" id="ext_r52"></div>
+            </li>
+            <li>The movie was long and <input type="text" id="ext_q53">. (bored/boring)
+                <button onclick="checkExtraAnswer(53, 'ext_q53', 'boring', 'The movie was long and boring.', 'Bộ phim dài và nhàm chán.', 'Hint: The movie caused the feeling.')">Submit</button>
+                <span class="feedback" id="ext_f53"></span><div class="result-sentence" id="ext_r53"></div>
+            </li>
+            <li>(red / a / She / has / nice / dress) <input type="text" id="ext_q54">
+                <button onclick="checkExtraUnscramble(54, 'ext_q54', 'She has a nice red dress.', 'She has a nice red dress.', 'Cô ấy có một chiếc váy đỏ đẹp.', 'Hint: Place adjectives before the noun.')">Submit</button>
+                <span class="feedback" id="ext_f54"></span><div class="result-sentence" id="ext_r54"></div>
+            </li>
+            <li>This coffee is strong but <input type="text" id="ext_q55">. (delicious/deliciously)
+                <button onclick="checkExtraAnswer(55, 'ext_q55', 'delicious', 'This coffee is strong but delicious.', 'Cà phê này đậm nhưng ngon.', 'Hint: Adjective after \'is\'.')">Submit</button>
+                <span class="feedback" id="ext_f55"></span><div class="result-sentence" id="ext_r55"></div>
+            </li>
+            <li>He gave me some <input type="text" id="ext_q56"> advice. (useful/usefully)
+                <button onclick="checkExtraAnswer(56, 'ext_q56', 'useful', 'He gave me some useful advice.', 'Anh ấy đã cho tôi một vài lời khuyên hữu ích.', 'Hint: Adjective describes the noun \'advice\'.')">Submit</button>
+                <span class="feedback" id="ext_f56"></span><div class="result-sentence" id="ext_r56"></div>
+            </li>
+            <li>The sky is <input type="text" id="ext_q57"> and clear. (blue/blues)
+                <button onclick="checkExtraAnswer(57, 'ext_q57', 'blue', 'The sky is blue and clear.', 'Bầu trời trong xanh và quang đãng.', 'Hint: Adjectives don\'t have plural forms.')">Submit</button>
+                <span class="feedback" id="ext_f57"></span><div class="result-sentence" id="ext_r57"></div>
+            </li>
+            <li>That was <input type="text" id="ext_q58" style="width:50px;"> unusual sound.
+                <button onclick="checkExtraAnswer(58, 'ext_q58', 'an', 'That was an unusual sound.', 'Đó là một âm thanh lạ.', 'Hint: Vowel sound for \'unusual\'.')">Submit</button>
+                <span class="feedback" id="ext_f58"></span><div class="result-sentence" id="ext_r58"></div>
+            </li>
+            <li>(My friends / supportive / always / are) <input type="text" id="ext_q59">
+                <button onclick="checkExtraUnscramble(59, 'ext_q59', 'My friends are always supportive.', 'My friends are always supportive.', 'Bạn bè tôi luôn ủng hộ.', 'Hint: Adverb of frequency comes after \'be\'.')">Submit</button>
+                <span class="feedback" id="ext_f59"></span><div class="result-sentence" id="ext_r59"></div>
+            </li>
+            <li>The book is cheap but <input type="text" id="ext_q60">. (good/well)
+                <button onclick="checkExtraAnswer(60, 'ext_q60', 'good', 'The book is cheap but good.', 'Quyển sách rẻ nhưng hay.', 'Hint: We need an adjective here, not an adverb.')">Submit</button>
+                <span class="feedback" id="ext_f60"></span><div class="result-sentence" id="ext_r60"></div>
+            </li>
+            <li>I am <input type="text" id="ext_q61"> with my results. (satisfied/satisfying)
+                <button onclick="checkExtraAnswer(61, 'ext_q61', 'satisfied', 'I am satisfied with my results.', 'Tôi hài lòng với kết quả của mình.', 'Hint: You feel this way.')">Submit</button>
+                <span class="feedback" id="ext_f61"></span><div class="result-sentence" id="ext_r61"></div>
+            </li>
+            <li>He is <input type="text" id="ext_q62" style="width:50px;"> kind person.
+                <button onclick="checkExtraAnswer(62, 'ext_q62', 'a', 'He is a kind person.', 'Anh ấy là một người tốt bụng.', 'Hint: Consonant sound.')">Submit</button>
+                <span class="feedback" id="ext_f62"></span><div class="result-sentence" id="ext_r62"></div>
+            </li>
+            <li>The children were playing with a <input type="text" id="ext_q63"> ball. (big red/red big)
+                <button onclick="checkExtraAnswer(63, 'ext_q63', 'big red', 'The children were playing with a big red ball.', 'Bọn trẻ đang chơi với một quả bóng to màu đỏ.', 'Hint: Opinion/size adjective usually comes before color adjective.')">Submit</button>
+                <span class="feedback" id="ext_f63"></span><div class="result-sentence" id="ext_r63"></div>
+            </li>
+            <li>(dark / The room / and / cold / was) <input type="text" id="ext_q64">
+                <button onclick="checkExtraUnscramble(64, 'ext_q64', 'The room was dark and cold.', 'The room was dark and cold.', 'Căn phòng tối và lạnh.', 'Hint: Connect adjectives with \'and\'.')">Submit</button>
+                <span class="feedback" id="ext_f64"></span><div class="result-sentence" id="ext_r64"></div>
+            </li>
+            <li>We ate at a <input type="text" id="ext_q65"> restaurant. (fantastic/fantastically)
+                <button onclick="checkExtraAnswer(65, 'ext_q65', 'fantastic', 'We ate at a fantastic restaurant.', 'Chúng tôi đã ăn ở một nhà hàng tuyệt vời.', 'Hint: Adjective before noun.')">Submit</button>
+                <span class="feedback" id="ext_f65"></span><div class="result-sentence" id="ext_r65"></div>
+            </li>
+             <li>They need <input type="text" id="ext_q66" style="width:50px;" placeholder="ø"> important information.
+                <button onclick="checkExtraAnswer(66, 'ext_q66', ['', 'ø'], 'They need important information.', 'Họ cần thông tin quan trọng.', 'Hint: \'Information\' is uncountable.')">Submit</button>
+                <span class="feedback" id="ext_f66"></span><div class="result-sentence" id="ext_r66"></div>
+            </li>
+            <li>The work is <input type="text" id="ext_q67">. (challenged/challenging)
+                <button onclick="checkExtraAnswer(67, 'ext_q67', 'challenging', 'The work is challenging.', 'Công việc này đầy thử thách.', 'Hint: The work causes the challenge.')">Submit</button>
+                <span class="feedback" id="ext_f67"></span><div class="result-sentence" id="ext_r67"></div>
+            </li>
+            <li>It was a <input type="text" id="ext_q68"> decision. (difficult/difficulty)
+                <button onclick="checkExtraAnswer(68, 'ext_q68', 'difficult', 'It was a difficult decision.', 'Đó là một quyết định khó khăn.', 'Hint: Adjective before noun.')">Submit</button>
+                <span class="feedback" id="ext_f68"></span><div class="result-sentence" id="ext_r68"></div>
+            </li>
+            <li>(is / My dog / loyal / very / and / friendly) <input type="text" id="ext_q69">
+                <button onclick="checkExtraUnscramble(69, 'ext_q69', 'My dog is very loyal and friendly.', 'My dog is very loyal and friendly.', 'Con chó của tôi rất trung thành và thân thiện.', 'Hint: Adverb \'very\' modifies the adjectives.')">Submit</button>
+                <span class="feedback" id="ext_f69"></span><div class="result-sentence" id="ext_r69"></div>
+            </li>
+            <li>That's <input type="text" id="ext_q70" style="width:50px;"> really great idea.
+                <button onclick="checkExtraAnswer(70, 'ext_q70', 'a', 'That\'s a really great idea.', 'Đó là một ý tưởng thật sự tuyệt vời.', 'Hint: \'a\' before the adverb+adjective combo.')">Submit</button>
+                <span class="feedback" id="ext_f70"></span><div class="result-sentence" id="ext_r70"></div>
+            </li>
+            <li>He is a <input type="text" id="ext_q71"> student. (careful/carefully)
+                <button onclick="checkExtraAnswer(71, 'ext_q71', 'careful', 'He is a careful student.', 'Cậu ấy là một học sinh cẩn thận.', 'Hint: Adjective describes student.')">Submit</button>
+                <span class="feedback" id="ext_f71"></span><div class="result-sentence" id="ext_r71"></div>
+            </li>
+            <li>The sauce is a bit <input type="text" id="ext_q72">. (spicy/spice)
+                <button onclick="checkExtraAnswer(72, 'ext_q72', 'spicy', 'The sauce is a bit spicy.', 'Nước sốt này hơi cay.', 'Hint: We need the adjective form.')">Submit</button>
+                <span class="feedback" id="ext_f72"></span><div class="result-sentence" id="ext_r72"></div>
+            </li>
+            <li>This is <input type="text" id="ext_q73" style="width:50px;"> beautiful music.
+                <button onclick="checkExtraAnswer(73, 'ext_q73', ['', 'ø'], 'This is beautiful music.', 'Đây là bản nhạc hay.', 'Hint: \'Music\' is uncountable.')">Submit</button>
+                <span class="feedback" id="ext_f73"></span><div class="result-sentence" id="ext_r73"></div>
+            </li>
+            <li>(Her stories / always / are / interesting) <input type="text" id="ext_q74">
+                <button onclick="checkExtraUnscramble(74, 'ext_q74', 'Her stories are always interesting.', 'Her stories are always interesting.', 'Những câu chuyện của cô ấy luôn thú vị.', 'Hint: Subject + be + adverb + adjective.')">Submit</button>
+                <span class="feedback" id="ext_f74"></span><div class="result-sentence" id="ext_r74"></div>
+            </li>
+            <li>The movie ending was <input type="text" id="ext_q75">. (disappointing/disappointed)
+                <button onclick="checkExtraAnswer(75, 'ext_q75', 'disappointing', 'The movie ending was disappointing.', 'Cái kết của bộ phim thật đáng thất vọng.', 'Hint: The ending caused the feeling.')">Submit</button>
+                <span class="feedback" id="ext_f75"></span><div class="result-sentence" id="ext_r75"></div>
+            </li>
+            <li>This chair isn't very <input type="text" id="ext_q76">. (comfortable/comfort)
+                <button onclick="checkExtraAnswer(76, 'ext_q76', 'comfortable', 'This chair isn\'t very comfortable.', 'Cái ghế này không được thoải mái lắm.', 'Hint: Adjective after \'be\'.')">Submit</button>
+                <span class="feedback" id="ext_f76"></span><div class="result-sentence" id="ext_r76"></div>
+            </li>
+            <li>(is / a / It / long / story / complicated) <input type="text" id="ext_q77">
+                <button onclick="checkExtraUnscramble(77, 'ext_q77', 'It is a long, complicated story.', 'It is a long, complicated story.', 'Đó là một câu chuyện dài và phức tạp.', 'Hint: Adjectives come before the noun.')">Submit</button>
+                <span class="feedback" id="ext_f77"></span><div class="result-sentence" id="ext_r77"></div>
+            </li>
+            <li>I need to buy a <input type="text" id="ext_q78"> computer. (new/news)
+                <button onclick="checkExtraAnswer(78, 'ext_q78', 'new', 'I need to buy a new computer.', 'Tôi cần mua một cái máy tính mới.', 'Hint: Adjective before noun.')">Submit</button>
+                <span class="feedback" id="ext_f78"></span><div class="result-sentence" id="ext_r78"></div>
+            </li>
+            <li>The Grand Canyon has <input type="text" id="ext_q79"> views. (amazing/amazed)
+                <button onclick="checkExtraAnswer(79, 'ext_q79', 'amazing', 'The Grand Canyon has amazing views.', 'Grand Canyon có những quang cảnh đáng kinh ngạc.', 'Hint: The views cause the feeling of amazement.')">Submit</button>
+                <span class="feedback" id="ext_f79"></span><div class="result-sentence" id="ext_r79"></div>
+            </li>
+            <li>He is a very <input type="text" id="ext_q80"> person. (generous/generously)
+                <button onclick="checkExtraAnswer(80, 'ext_q80', 'generous', 'He is a very generous person.', 'Anh ấy là một người rất hào phóng.', 'Hint: Adjective describes person.')">Submit</button>
+                <span class="feedback" id="ext_f80"></span><div class="result-sentence" id="ext_r80"></div>
+            </li>
+             <li>The questions were <input type="text" id="ext_q81">. (easy/easily)
+                <button onclick="checkExtraAnswer(81, 'ext_q81', 'easy', 'The questions were easy.', 'Các câu hỏi rất dễ.', 'Hint: Adjective after \'be\'.')">Submit</button>
+                <span class="feedback" id="ext_f81"></span><div class="result-sentence" id="ext_r81"></div>
+            </li>
+            <li>It was <input type="text" id="ext_q82" style="width:50px;"> honor to meet him.
+                <button onclick="checkExtraAnswer(82, 'ext_q82', 'an', 'It was an honor to meet him.', 'Thật là một vinh dự khi được gặp ông ấy.', 'Hint: \'Honor\' starts with a vowel sound.')">Submit</button>
+                <span class="feedback" id="ext_f82"></span><div class="result-sentence" id="ext_r82"></div>
+            </li>
+            <li>The documentary was very <input type="text" id="ext_q83">. (informative/information)
+                <button onclick="checkExtraAnswer(83, 'ext_q83', 'informative', 'The documentary was very informative.', 'Bộ phim tài liệu rất nhiều thông tin.', 'Hint: We need the adjective form.')">Submit</button>
+                <span class="feedback" id="ext_f83"></span><div class="result-sentence" id="ext_r83"></div>
+            </li>
+            <li>(a / What / beautiful / day!) <input type="text" id="ext_q84">
+                <button onclick="checkExtraUnscramble(84, 'ext_q84', 'What a beautiful day!', 'What a beautiful day!', 'Thật là một ngày đẹp trời!', 'Hint: This is an exclamation.')">Submit</button>
+                <span class="feedback" id="ext_f84"></span><div class="result-sentence" id="ext_r84"></div>
+            </li>
+            <li>She is a <input type="text" id="ext_q85"> teacher. (patient/patiently)
+                <button onclick="checkExtraAnswer(85, 'ext_q85', 'patient', 'She is a patient teacher.', 'Cô ấy là một giáo viên kiên nhẫn.', 'Hint: Adjective describes teacher.')">Submit</button>
+                <span class="feedback" id="ext_f85"></span><div class="result-sentence" id="ext_r85"></div>
+            </li>
+            <li>They built a <input type="text" id="ext_q86"> sandcastle. (huge/huges)
+                <button onclick="checkExtraAnswer(86, 'ext_q86', 'huge', 'They built a huge sandcastle.', 'Họ đã xây một lâu đài cát khổng lồ.', 'Hint: Adjectives don\'t have plural forms.')">Submit</button>
+                <span class="feedback" id="ext_f86"></span><div class="result-sentence" id="ext_r86"></div>
+            </li>
+            <li>The city is old but <input type="text" id="ext_q87">. (vibrant/vibrantly)
+                <button onclick="checkExtraAnswer(87, 'ext_q87', 'vibrant', 'The city is old but vibrant.', 'Thành phố cổ kính nhưng sôi động.', 'Hint: Adjective after \'is\'.')">Submit</button>
+                <span class="feedback" id="ext_f87"></span><div class="result-sentence" id="ext_r87"></div>
+            </li>
+            <li>He has <input type="text" id="ext_q88" style="width:50px;"> good sense of humor.
+                <button onclick="checkExtraAnswer(88, 'ext_q88', 'a', 'He has a good sense of humor.', 'Anh ấy có khiếu hài hước.', 'Hint: \'a\' refers to \'sense\'.')">Submit</button>
+                <span class="feedback" id="ext_f88"></span><div class="result-sentence" id="ext_r88"></div>
+            </li>
+            <li>(is / The puppy / playful / small / and) <input type="text" id="ext_q89">
+                <button onclick="checkExtraUnscramble(89, 'ext_q89', 'The puppy is small and playful.', 'The puppy is small and playful.', 'Chú cún con nhỏ và tinh nghịch.', 'Hint: Connect adjectives with \'and\'.')">Submit</button>
+                <span class="feedback" id="ext_f89"></span><div class="result-sentence" id="ext_r89"></div>
+            </li>
+            <li>The instructions are not <input type="text" id="ext_q90">. (clear/clearly)
+                <button onclick="checkExtraAnswer(90, 'ext_q90', 'clear', 'The instructions are not clear.', 'Phần hướng dẫn không rõ ràng.', 'Hint: Adjective after \'be\'.')">Submit</button>
+                <span class="feedback" id="ext_f90"></span><div class="result-sentence" id="ext_r90"></div>
+            </li>
+            <li>We had <input type="text" id="ext_q91" style="width:50px;" placeholder="ø"> wonderful weather.
+                <button onclick="checkExtraAnswer(91, 'ext_q91', ['', 'ø'], 'We had wonderful weather.', 'Chúng tôi đã có thời tiết tuyệt vời.', 'Hint: \'Weather\' is uncountable.')">Submit</button>
+                <span class="feedback" id="ext_f91"></span><div class="result-sentence" id="ext_r91"></div>
+            </li>
+            <li>The experience was <input type="text" id="ext_q92">. (unforgettable/unforgettably)
+                <button onclick="checkExtraAnswer(92, 'ext_q92', 'unforgettable', 'The experience was unforgettable.', 'Trải nghiệm đó thật khó quên.', 'Hint: Adjective describes the experience.')">Submit</button>
+                <span class="feedback" id="ext_f92"></span><div class="result-sentence" id="ext_r92"></div>
+            </li>
+            <li>This is a very <input type="text" id="ext_q93"> issue. (sensitive/sensitively)
+                <button onclick="checkExtraAnswer(93, 'ext_q93', 'sensitive', 'This is a very sensitive issue.', 'Đây là một vấn đề rất nhạy cảm.', 'Hint: Adjective before noun.')">Submit</button>
+                <span class="feedback" id="ext_f93"></span><div class="result-sentence" id="ext_r93"></div>
+            </li>
+            <li>(Her English / is / and / fluent / natural) <input type="text" id="ext_q94">
+                <button onclick="checkExtraUnscramble(94, 'ext_q94', 'Her English is fluent and natural.', 'Her English is fluent and natural.', 'Tiếng Anh của cô ấy trôi chảy và tự nhiên.', 'Hint: Connect adjectives with \'and\'.')">Submit</button>
+                <span class="feedback" id="ext_f94"></span><div class="result-sentence" id="ext_r94"></div>
+            </li>
+            <li>The air feels <input type="text" id="ext_q95"> and cool. (fresh/freshly)
+                <button onclick="checkExtraAnswer(95, 'ext_q95', 'fresh', 'The air feels fresh and cool.', 'Không khí có cảm giác trong lành và mát mẻ.', 'Hint: Adjective after linking verb \'feels\'.')">Submit</button>
+                <span class="feedback" id="ext_f95"></span><div class="result-sentence" id="ext_r95"></div>
+            </li>
+            <li>It's <input type="text" id="ext_q96" style="width:50px;"> powerful computer.
+                <button onclick="checkExtraAnswer(96, 'ext_q96', 'a', 'It\'s a powerful computer.', 'Nó là một cái máy tính mạnh mẽ.', 'Hint: Consonant sound.')">Submit</button>
+                <span class="feedback" id="ext_f96"></span><div class="result-sentence" id="ext_r96"></div>
+            </li>
+            <li>I am <input type="text" id="ext_q97"> about the future. (optimistic/optimistically)
+                <button onclick="checkExtraAnswer(97, 'ext_q97', 'optimistic', 'I am optimistic about the future.', 'Tôi lạc quan về tương lai.', 'Hint: Adjective describes how you are.')">Submit</button>
+                <span class="feedback" id="ext_f97"></span><div class="result-sentence" id="ext_r97"></div>
+            </li>
+            <li>(is / The river / deep / dangerous / and) <input type="text" id="ext_q98">
+                <button onclick="checkExtraUnscramble(98, 'ext_q98', 'The river is deep and dangerous.', 'The river is deep and dangerous.', 'Con sông này sâu và nguy hiểm.', 'Hint: Connect adjectives with \'and\'.')">Submit</button>
+                <span class="feedback" id="ext_f98"></span><div class="result-sentence" id="ext_r98"></div>
+            </li>
+            <li>He gave a very <input type="text" id="ext_q99"> speech. (emotional/emotionally)
+                <button onclick="checkExtraAnswer(99, 'ext_q99', 'emotional', 'He gave a very emotional speech.', 'Anh ấy đã có một bài phát biểu rất xúc động.', 'Hint: Adjective before noun.')">Submit</button>
+                <span class="feedback" id="ext_f99"></span><div class="result-sentence" id="ext_r99"></div>
+            </li>
+            <li>That's <input type="text" id="ext_q100"> creative solution.
+                <button onclick="checkExtraAnswer(100, 'ext_q100', 'a', 'That\'s a creative solution.', 'Đó là một giải pháp sáng tạo.', 'Hint: Singular noun \'solution\' needs an article.')">Submit</button>
+                <span class="feedback" id="ext_f100"></span><div class="result-sentence" id="ext_r100"></div>
+            </li>
+            <!-- Kết thúc 100 câu -->
+
+        </ol>
+    </div>
+</section>
+
+<script>
+    // --- SCRIPT DÀNH RIÊNG CHO BÀI TẬP BỔ SUNG ---
+
+    function normalizeExtraAnswer(answer) {
+        if (typeof answer !== 'string') return '';
+        // Loại bỏ dấu câu cuối cùng và chuyển sang chữ thường
+        return answer.trim().toLowerCase().replace(/[.!?]$/, '');
+    }
+
+    function checkExtraAnswer(qNum, inputId, correctAnswer, fullSentence, translation, hint) {
+        const userAnswer = document.getElementById(inputId).value;
+        const feedbackEl = document.getElementById('ext_f' + qNum);
+        const resultEl = document.getElementById('ext_r' + qNum);
+
+        const isCorrect = Array.isArray(correctAnswer) 
+            ? correctAnswer.map(normalizeExtraAnswer).includes(normalizeExtraAnswer(userAnswer))
+            : normalizeExtraAnswer(userAnswer) === normalizeExtraAnswer(correctAnswer);
+
+        if (isCorrect) {
+            feedbackEl.textContent = 'Chính xác!';
+            feedbackEl.className = 'feedback correct';
+            resultEl.innerHTML = `<h4>Câu hoàn chỉnh:</h4><p>${fullSentence}</p><em><strong>Dịch:</strong> ${translation}</em>`;
+            resultEl.style.display = 'block';
+        } else {
+            feedbackEl.textContent = `Chưa đúng. ${hint}`;
+            feedbackEl.className = 'feedback incorrect';
+            resultEl.style.display = 'none';
+        }
+    }
+    
+    function checkExtraUnscramble(qNum, inputId, correctAnswer, fullSentence, translation, hint) {
+         // Chức năng này tương tự checkExtraAnswer nhưng tên riêng cho dễ phân biệt
+         checkExtraAnswer(qNum, inputId, correctAnswer, fullSentence, translation, hint);
+    }
+
+</script>
+
+
+</body>
+</html>
