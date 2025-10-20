@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 7: Imperatives; Suggestions with Let's, Why don't we...?</title>
+    <style>
+        /* --- GENERAL STYLES --- */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* --- HEADINGS AND STRUCTURE --- */
+        .unit-header {
+            display: flex;
+            align-items: flex-start;
+            border-bottom: 4px solid #003366;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .unit-number {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #003366;
+            margin-right: 20px;
+            line-height: 1;
+        }
+        .unit-title-box {
+            flex-grow: 1;
+        }
+        .unit-title {
+            font-size: 2.2rem;
+            color: #003366;
+            margin: 0;
+        }
+        .unit-subtitle {
+            font-size: 1.5rem;
+            color: #555;
+            margin: 0;
+        }
+        .outcomes-box {
+            background-color: #fff9e6;
+            border: 1px solid #f9a600;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .outcomes-box h3 {
+            margin: 0 0 10px 0;
+            color: #d98e00;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+        .outcomes-box ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 0.9rem;
+        }
+
+        .step-header {
+            background-color: #669933;
+            color: white;
+            padding: 10px 20px;
+            margin: 30px -20px 20px -20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .step-header span {
+            background-color: white;
+            color: #669933;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 15px;
+        }
+        
+        h3.section-title {
+            color: #d9534f;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+        }
+        h4.exercise-title {
+            font-weight: bold;
+            color: #003366;
+        }
+
+        /* --- READING SECTION --- */
+        .reading-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .reading-image {
+            flex: 1 1 300px;
+        }
+        .reading-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .reading-text {
+            flex: 2 1 400px;
+        }
+        .reading-text p {
+            text-align: justify;
+        }
+        .footnote {
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .conversation-box {
+            background-color: #eef7ff;
+            border-left: 4px solid #337ab7;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        .conversation-box p { margin: 5px 0; }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-top: 20px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* --- EXERCISES --- */
+        .exercise {
+            margin-bottom: 25px;
+            padding: 15px;
+            background: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .exercise ol, .exercise ul {
+            padding-left: 20px;
+        }
+        .exercise li {
+            margin-bottom: 15px;
+        }
+        .exercise input[type="text"], .exercise select {
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+        .exercise .blank {
+            display: inline-block;
+            width: 120px;
+            border-bottom: 1px solid #333;
+        }
+        .submit-btn {
+            padding: 6px 12px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .submit-btn:hover {
+            background-color: #4cae4c;
+        }
+        .feedback {
+            display: none;
+            margin-top: 5px;
+            padding: 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .feedback.correct {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border: 1px solid #d6e9c6;
+        }
+        .feedback.incorrect {
+            color: #a94442;
+            background-color: #f2dede;
+            border: 1px solid #ebccd1;
+        }
+        .hint {
+            font-style: italic;
+            color: #555;
+            font-weight: normal;
+        }
+        
+        /* --- GRAMMAR PRESENTATION --- */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: #003366;
+            color: white;
+        }
+        .grammar-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .grammar-note {
+            background-color: #e7f3fe;
+            border-left: 5px solid #2e6da4;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .grammar-note h4 {
+            margin-top: 0;
+            color: #2e6da4;
+        }
+        .example {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+        
+        /* --- WRITING SECTION --- */
+        .writing-sample {
+            background-color: #fef9e7;
+            padding: 15px;
+            border: 1px solid #fbe5a2;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        #sentence-list {
+            list-style-type: decimal;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ======================= UNIT HEADER ======================= -->
+        <header class="unit-header">
+            <div class="unit-number">7</div>
+            <div class="unit-title-box">
+                <h1 class="unit-title">Imperatives; Suggestions with Let's, Why don't we...?</h1>
+                <h2 class="unit-subtitle">LONG LIFE</h2>
+                <div class="outcomes-box">
+                    <h3>OUTCOMES</h3>
+                    <ul>
+                        <li>Make offers and suggestions</li>
+                        <li>Give and respond to advice and requests</li>
+                        <li>Recognize the advice given in a short article</li>
+                        <li>Recognize important details in a radio ad</li>
+                        <li>Talk about what to do and where to go, and make arrangements to meet</li>
+                        <li>Give advice about everyday problems</li>
+                        <li>Write an ad for a place to stay</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- ======================= STEP 1: GRAMMAR IN CONTEXT ======================= -->
+        <section id="step1">
+            <div class="step-header"><span>STEP 1</span> GRAMMAR IN CONTEXT</div>
+            
+            <h3 class="section-title">BEFORE YOU READ</h3>
+            <p>Work with a partner. Answer the questions.</p>
+            <ol>
+                <li>Who is the oldest person you know? How old is he or she?</li>
+                <li>What do you think is important for a long life?</li>
+            </ol>
+
+            <h3 class="section-title">READ</h3>
+            <p>Read this article. Then read the conversation between Joe and Mary.</p>
+            
+            <div class="reading-section">
+                <div class="reading-image">
+                    <img src="FOG-2-7/1.png" alt="A beautiful Greek island coastline with text 'Secrets to a Long Life'">
+                </div>
+                <div class="reading-text">
+                    <p>
+                        <b>Y</b>iannis Karimalis was forty years old. He was a bridge painter in the United States. He was sick. His doctor said, "I'm sorry. You have stomach cancer.<sup>1</sup> It is very bad." Yiannis moved back to his hometown on the island of Ikaria in Greece.
+                    </p>
+                    <p>
+                        Yiannis is over eighty and is still alive today. His doctor is dead.
+                    </p>
+                    <p>
+                        Many people on the island of Ikaria live long lives. What are their secrets?
+                    </p>
+                    <p class="footnote"><sup>1</sup><b>cancer:</b> a serious disease in which cells in the body divide uncontrollably</p>
+                </div>
+            </div>
+            <div>
+                <p>Scientist Dan Buettner studies the lifestyle<sup>2</sup> of older people in different parts of the world. As a result of his studies in Ikaria, he offers this advice:</p>
+                <ul>
+                    <li><b>Eat</b> a lot of green vegetables, fresh fruit, olive oil, fish, and Greek honey.</li>
+                    <li><b>Drink</b> herbal tea and goat milk.</li>
+                    <li><b>Don't worry.</b></li>
+                    <li><b>Take</b> naps.</li>
+                    <li><b>Walk. Don't use</b> a car, a bus, or a train.</li>
+                    <li><b>Call</b> friends often.</li>
+                    <li><b>Pray.</b></li>
+                </ul>
+                <p class="footnote"><sup>2</sup><b>lifestyle:</b> the way you live</p>
+            </div>
+
+            <div class="conversation-box">
+                <h4>Conversation:</h4>
+                <p><b>JOE:</b> Interesting article. But I don't have time to nap or think about the food I eat.</p>
+                <p><b>MARY:</b> Come on, Joe, these suggestions are easy to follow. <b>Let's try</b> some of them.</p>
+                <p><b>JOE:</b> I have a better idea. <b>Let's move</b> to Ikaria!</p>
+                <p><b>MARY:</b> Um, <b>why don't we just take</b> a trip to Greece?</p>
+                <p><b>JOE:</b> Stop right there. I'm looking up flights to Ikaria.</p>
+            </div>
+            
+            <!-- YouTube Video Placeholder -->
+            <h4 style="margin-top: 30px;">Related Video</h4>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/NfTQSgCvoRQ" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <h3 class="section-title" style="margin-top: 30px;">AFTER YOU READ</h3>
+            
+            <div class="exercise">
+                <h4 class="exercise-title">A VOCABULARY</h4>
+                <p>Complete the sentences with the words from the box.</p>
+                <p style="text-align: center; background-color: #f0f0f0; padding: 10px; border-radius: 4px;">
+                    <strong>advice &nbsp; &nbsp; dead &nbsp; &nbsp; island &nbsp; &nbsp; nap &nbsp; &nbsp; pray &nbsp; &nbsp; secret</strong>
+                </p>
+                <ol>
+                    <li>You look very tired. Why don't you take a(n) <input type="text" id="vocab1" size="8">? 
+                        <button class="submit-btn" onclick="checkAnswer('vocab1', 'nap', 'feedback1', 'A short sleep during the day.')">Nộp bài</button>
+                        <div class="feedback" id="feedback1"></div>
+                    </li>
+                    <li>Don't tell him. It's a(n) <input type="text" id="vocab2" size="8">.
+                        <button class="submit-btn" onclick="checkAnswer('vocab2', 'secret', 'feedback2', 'Something that is not known by others.')">Nộp bài</button>
+                        <div class="feedback" id="feedback2"></div>
+                    </li>
+                    <li>The plant is <input type="text" id="vocab3" size="8">. Throw it away.
+                        <button class="submit-btn" onclick="checkAnswer('vocab3', 'dead', 'feedback3', 'Not alive.')">Nộp bài</button>
+                        <div class="feedback" id="feedback3"></div>
+                    </li>
+                    <li>The doctor's <input type="text" id="vocab4" size="8"> to Mark was, "Walk more. Eat less."
+                        <button class="submit-btn" onclick="checkAnswer('vocab4', 'advice', 'feedback4', 'A suggestion about what to do.')">Nộp bài</button>
+                        <div class="feedback" id="feedback4"></div>
+                    </li>
+                    <li>Some people <input type="text" id="vocab5" size="8"> in a church, mosque, or temple, but you can do it anywhere.
+                        <button class="submit-btn" onclick="checkAnswer('vocab5', 'pray', 'feedback5', 'To speak to a god.')">Nộp bài</button>
+                        <div class="feedback" id="feedback5"></div>
+                    </li>
+                    <li>Why don't we visit a Greek <input type="text" id="vocab6" size="8"> on our next vacation?
+                        <button class="submit-btn" onclick="checkAnswer('vocab6', 'island', 'feedback6', 'Land surrounded by water.')">Nộp bài</button>
+                        <div class="feedback" id="feedback6"></div>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="exercise">
+                <h4 class="exercise-title">B COMPREHENSION</h4>
+                <p>What advice does Dan Buettner give in "Secrets of a Long Life"? Read the statements. Check (✓) True, False, or No Information.</p>
+                <!-- This part is non-interactive to replicate the book, but answers can be shown -->
+                <table style="width:100%;">
+                    <thead><tr><th>Statement</th><th>True</th><th>False</th><th>No Information</th></tr></thead>
+                    <tbody>
+                        <tr><td>1. Don't eat oil.</td><td align="center">☐</td><td align="center">✓</td><td align="center">☐</td></tr>
+                        <tr><td>2. Don't sleep during the day.</td><td align="center">☐</td><td align="center">✓</td><td align="center">☐</td></tr>
+                        <tr><td>3. Don't listen to your doctor.</td><td align="center">☐</td><td align="center">☐</td><td align="center">✓</td></tr>
+                        <tr><td>4. Take walks.</td><td align="center">✓</td><td align="center">☐</td><td align="center">☐</td></tr>
+                        <tr><td>5. Drink juice.</td><td align="center">☐</td><td align="center">☐</td><td align="center">✓</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="section-title">WRITING</h3>
+            <p>Dựa trên các lời khuyên trong bài, hãy viết một đoạn văn ngắn đưa ra lời khuyên cho một người bạn muốn sống khỏe mạnh hơn. Dưới đây là một đoạn văn mẫu.</p>
+            <div class="writing-sample">
+                <h4>Sample Paragraph</h4>
+                <p id="sample-paragraph">If you want to live a healthier life, listen to this advice. First, change your diet. Eat more green vegetables and fruit. Don't eat too much sugar. Second, get more exercise. Walk to work instead of taking the bus. Finally, take care of your mind. Don't worry about small problems. Call your friends often and try to relax.</p>
+            </div>
+            <button class="submit-btn" onclick="splitSentences()">Tách thành từng câu</button>
+            <div class="exercise" style="margin-top:15px;">
+                <h4>Sentences:</h4>
+                <ol id="sentence-list"></ol>
+            </div>
+
+        </section>
+
+        <!-- ======================= STEP 2: GRAMMAR PRESENTATION ======================= -->
+        <section id="step2">
+            <div class="step-header"><span>STEP 2</span> GRAMMAR PRESENTATION</div>
+            
+            <h4>THE IMPERATIVE</h4>
+            <table class="grammar-table">
+                <thead><tr><th colspan="2">Affirmative Statements</th><th colspan="2">Negative Statements</th></tr></thead>
+                <tbody>
+                    <tr><td>Base Form of Verb</td><td></td><td>Don't</td><td>Base Form of Verb</td></tr>
+                    <tr><td><b>Walk</b></td><td>to work.</td><td><b>Don't</b></td><td><b>take</b> a bus.</td></tr>
+                </tbody>
+            </table>
+
+            <h4>SUGGESTIONS</h4>
+            <table class="grammar-table">
+                <thead><tr><th colspan="2">Affirmative Statements</th><th colspan="2">Negative Statements</th></tr></thead>
+                <tbody>
+                    <tr><td>Let's</td><td>Base Form of Verb</td><td>Let's</td><td>not</td><td>Base Form of Verb</td></tr>
+                    <tr><td><b>Let's</b></td><td><b>use</b> olive oil.</td><td><b>Let's</b></td><td><b>not</b></td><td><b>use</b> butter.</td></tr>
+                </tbody>
+            </table>
+            <table class="grammar-table">
+                <thead><tr><th colspan="2">Suggestions for You and Another Person</th><th colspan="2">Suggestions for Another Person</th></tr></thead>
+                <tbody>
+                    <tr><td>Why don't we</td><td>Base Form of Verb</td><td>Why don't you</td><td>Base Form of Verb</td></tr>
+                    <tr><td><b>Why don't we</b></td><td><b>go</b> on a bike tour?</td><td><b>Why don't you</b></td><td><b>get</b> the cameras?</td></tr>
+                </tbody>
+            </table>
+
+            <h4>RESPONSES TO SUGGESTIONS</h4>
+            <table class="grammar-table">
+                 <thead><tr><th>Agree</th><th>Disagree</th></tr></thead>
+                 <tbody>
+                    <tr>
+                        <td>That's a good idea. OR Good idea.<br>That sounds good to me. OR Sounds good to me.</td>
+                        <td>Why don't we ... instead?<br>Sorry, I can't. I need to ...</td>
+                    </tr>
+                 </tbody>
+            </table>
+
+            <div class="grammar-note">
+                <h4>1. Imperatives: Uses</h4>
+                <p>We use the <b>imperative</b> to give <b>directions, orders, advice, warnings,</b> and <b>requests.</b></p>
+                <ul>
+                    <li>give directions and instructions: <b>Turn</b> right.</li>
+                    <li>give orders: <b>Stand</b> there.</li>
+                    <li>give advice: <b>Use</b> olive oil. <b>Don't use</b> butter.</li>
+                    <li>give warnings: <b>Be careful!</b> It's hot.</li>
+                    <li>make polite requests: <b>Please call</b> before noon.</li>
+                </ul>
+            </div>
+            <div class="grammar-note">
+                <h4>2. Affirmative and Negative Forms</h4>
+                <p>The imperative uses the <b>base form of the verb.</b></p>
+                <div class="example"><b>Take</b> the train.</div>
+                <p>To make a negative imperative statement, use <b>don't + base form</b> of the verb.</p>
+                <div class="example"><b>Don't worry.</b><br><b>Don't be</b> late.</div>
+            </div>
+            <div class="grammar-note">
+                <h4>3. The Subject of an Imperative Statement</h4>
+                <p>In an imperative statement, the subject is always <b>you</b>, but we usually don't say it or write it. The subject can be singular or plural.</p>
+                <div class="example"><b>Be careful.</b> (one person)<br><b>Be careful.</b> (two or more people)</div>
+            </div>
+            <div class="grammar-note">
+                <h4>4. Please with Imperatives</h4>
+                <p>Use <b>please</b> to make orders, warnings, and requests more polite. <b>Please</b> can come at the <b>beginning</b> or the <b>end</b> of the sentence.</p>
+                <div class="example"><b>Please</b> stand there.<br><b>Please</b> be careful.<br><b>Please</b> come at the beginning or the end of the sentence.<br>Call before noon, <b>please</b>.</div>
+            </div>
+            <div class="grammar-note">
+                <h4>5. Suggestions with Let's and Let's not</h4>
+                <p>Use <b>Let's</b> or <b>Let's not + base form</b> for suggestions that include you and another person.</p>
+                <div class="example"><b>Let's go.</b><br><b>Let's not eat</b> there.</div>
+            </div>
+            <div class="grammar-note">
+                <h4>6. Suggestions with Why don't we...? and Why don't you...?</h4>
+                <p>Use <b>Why don't we + base form</b> to make a suggestion for you and another person.</p>
+                <div class="example"><b>Why don't we go</b> to the gym?</div>
+                <p>Use <b>Why don't you</b> to make a suggestion or give advice to another person.</p>
+                <div class="example"><b>Why don't you look</b> on the Internet?</div>
+            </div>
+        </section>
+
+        <!-- ======================= STEP 3: FOCUSED PRACTICE ======================= -->
+        <section id="step3">
+            <div class="step-header"><span>STEP 3</span> FOCUSED PRACTICE</div>
+            
+            <div class="exercise">
+                <h4 class="exercise-title">EXERCISE 1: DISCOVER THE GRAMMAR</h4>
+                <p><b>A.</b> Match each sentence with its purpose.</p>
+                <ol>
+                    <li>Take the number 4 bus to the gym. <select id="match1"><option value="">--</option><option value="d">d</option><option value="a">a</option><option value="c">c</option></select>
+                    </li>
+                    <li>Be careful. Don't take more than two pills a day. <select id="match2"><option value="">--</option><option value="c">c</option><option value="e">e</option><option value="f">f</option></select>
+                    </li>
+                    <li>Please don't use your phone in the doctor's office. <select id="match3"><option value="">--</option><option value="b">b</option><option value="d">d</option><option value="a">a</option></select>
+                    </li>
+                    <li>Stop! <select id="match4"><option value="">--</option><option value="e">e</option><option value="c">c</option><option value="f">f</option></select>
+                    </li>
+                    <li>Why don't we get goat milk for a change? <select id="match5"><option value="">--</option><option value="f">f</option><option value="b">b</option><option value="d">d</option></select>
+                    </li>
+                    <li>Why don't you eat honey? It's good for a sore throat. <select id="match6"><option value="">--</option><option value="a">a</option><option value="e">e</option><option value="c">c</option></select>
+                    </li>
+                </ol>
+                <ul style="list-style-type: none; padding-left:0;">
+                    <li><b>a.</b> Advice for someone</li>
+                    <li><b>b.</b> Polite request</li>
+                    <li><b>c.</b> Warning</li>
+                    <li><b>d.</b> Directions</li>
+                    <li><b>e.</b> Order</li>
+                    <li><b>f.</b> Suggestion for you and me</li>
+                </ul>
+                <button class="submit-btn" onclick="checkMatching()">Kiểm tra đáp án</button>
+                <div class="feedback" id="feedbackMatch"></div>
+            </div>
+
+            <div class="exercise">
+                <h4 class="exercise-title">EXERCISE 2: IMPERATIVES AND SUGGESTIONS</h4>
+                <p>Complete the conversations. Circle the correct words.</p>
+                <ol>
+                    <li><b>A:</b> Let's 
+                        <select id="ex2-1"><option>to buy</option><option selected>buy</option></select> chicken. <br>
+                        <b>B:</b> I don't like chicken. And I'm tired of cooking. Why don't we 
+                        <select id="ex2-2"><option selected>eat</option><option>eats</option></select> out today?
+                        <button class="submit-btn" onclick="checkMultipleSelects(['ex2-1', 'ex2-2'], ['buy', 'eat'], 'feedbackEx2-1')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx2-1"></div>
+                    </li>
+                    <li><b>A:</b> Please 
+                        <select id="ex2-3"><option>not get</option><option selected>don't get</option></select> more broccoli. It isn't good.<br>
+                        <b>B:</b> OK. How about kale?
+                        <button class="submit-btn" onclick="checkSelect('ex2-3', 'don\'t get', 'feedbackEx2-2')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx2-2"></div>
+                    </li>
+                    <li><b>A:</b> Let's 
+                        <select id="ex2-4"><option selected>not take</option><option>no take</option></select> the train to school. Let's walk. The weather is great.<br>
+                        <b>B:</b> But it's late. Let's 
+                        <select id="ex2-5"><option selected>walk</option><option>to walk</option></select> after school.
+                        <button class="submit-btn" onclick="checkMultipleSelects(['ex2-4', 'ex2-5'], ['not take', 'walk'], 'feedbackEx2-3')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx2-3"></div>
+                    </li>
+                     <li><b>A:</b> Let's 
+                        <select id="ex2-6"><option selected>call</option><option>calls</option></select> Roberto and 
+                        <select id="ex2-7"><option selected>invite</option><option>to invite</option></select> him to dinner.<br>
+                        <b>B:</b> Good idea. What's his number?
+                        <button class="submit-btn" onclick="checkMultipleSelects(['ex2-6', 'ex2-7'], ['call', 'invite'], 'feedbackEx2-4')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx2-4"></div>
+                    </li>
+                    <li><b>A:</b> Why don't you 
+                        <select id="ex2-8"><option selected>take</option><option>takes</option></select> some time off? You look tired.<br>
+                        <b>B:</b> Don't 
+                        <select id="ex2-9"><option selected>worry</option><option>be worry</option></select>. I'm fine.
+                        <button class="submit-btn" onclick="checkMultipleSelects(['ex2-8', 'ex2-9'], ['take', 'worry'], 'feedbackEx2-5')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx2-5"></div>
+                    </li>
+                </ol>
+            </div>
+            
+            <div class="exercise">
+                <h4 class="exercise-title">EXERCISE 3: AFFIRMATIVE AND NEGATIVE STATEMENTS</h4>
+                <p>Complete the sentences. Use the affirmative or negative imperative forms of the verbs in parentheses.</p>
+                <ol>
+                    <li>The bread is still hot. Wait a few minutes. <input type="text" id="ex3-1" size="8"> (eat) it now.
+                        <button class="submit-btn" onclick="checkAnswer('ex3-1', 'Don\'t eat', 'feedbackEx3-1', 'Use the negative imperative.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx3-1"></div>
+                    </li>
+                    <li>It's cold here. Please <input type="text" id="ex3-2" size="8"> (close) the window.
+                        <button class="submit-btn" onclick="checkAnswer('ex3-2', 'close', 'feedbackEx3-2', 'Use the affirmative imperative.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx3-2"></div>
+                    </li>
+                    <li>It's a secret. Please <input type="text" id="ex3-3" size="10"> (tell) your brother about my plan.
+                        <button class="submit-btn" onclick="checkAnswer('ex3-3', 'don\'t tell', 'feedbackEx3-3', 'Use the negative imperative.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx3-3"></div>
+                    </li>
+                    <li>For information about Dan Buettner, <input type="text" id="ex3-4" size="8"> (check) the Internet.
+                        <button class="submit-btn" onclick="checkAnswer('ex3-4', 'check', 'feedbackEx3-4', 'Use the affirmative imperative.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx3-4"></div>
+                    </li>
+                    <li>Let's <input type="text" id="ex3-5" size="8"> (walk) to the store. It's not far and we need the exercise.
+                        <button class="submit-btn" onclick="checkAnswer('ex3-5', 'walk', 'feedbackEx3-5', 'Use the base form after "Let\'s".')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx3-5"></div>
+                    </li>
+                    <li>Let's <input type="text" id="ex3-6" size="8"> (buy) those doughnuts. They're not very healthy.
+                        <button class="submit-btn" onclick="checkAnswer('ex3-6', 'not buy', 'feedbackEx3-6', 'Use "not" + base form for negative suggestions with "Let\'s".')">Nộp bài</button>
+                        <div class="feedback" id="feedbackEx3-6"></div>
+                    </li>
+                </ol>
+            </div>
+            
+            <div class="exercise">
+                <h4 class="exercise-title">EXERCISE 4: IMPERATIVES FOR DIRECTIONS</h4>
+                <p><b>A.</b> Joe is giving Mary directions to Olivia's gym. Read their conversation. Then look at the map and put an X on the gym.</p>
+                <div class="conversation-box">
+                    <p><b>MARY:</b> Excuse me.... Where's Olivia's Gym?</p>
+                    <p><b>JOE:</b> Um, sure.... The gym is on Second Avenue between 70th and 71st Street. We're on Third Avenue at 73rd Street. <b>Walk down</b> Third Avenue to 71st Street. That's two blocks from here. <b>Turn left</b> at 71st Street. <b>Walk one block</b> to Second Avenue. Then <b>turn right</b> on Second Avenue. It's right there, on your right.</p>
+                </div>
+                <img src="FOG-2-7/2.png" alt="City map" style="width:100%; max-width:600px; margin-top:15px;">
+                <p><em>(The gym is the building on Second Avenue, between 70th and 71st, with an "Apple" sign.)</em></p>
+                
+                <p><b>B.</b> Look at the map again. You are at the drugstore. Complete the directions to the library.</p>
+                <p>Walk down 71st Street to <input type="text" id="dir1" size="15">. <input type="text" id="dir2" size="15"> on Third Avenue. The library is on your left, next to the <input type="text" id="dir3" size="15">.
+                <button class="submit-btn" onclick="checkDirections()">Nộp bài</button>
+                <div class="feedback" id="feedbackDir"></div>
+                </p>
+            </div>
+        </section>
+        
+        <!-- ======================= UNIT 7 REVIEW ======================= -->
+        <section id="review">
+            <div class="step-header">UNIT 7 REVIEW</div>
+            
+            <div class="exercise">
+                <h4>A. Complete the sentences. Circle the correct words.</h4>
+                <ol>
+                    <li>
+                        <select id="revA1"><option selected>Let's get</option><option>Let's not get</option></select> ice cream. It's on sale this week.
+                        <button class="submit-btn" onclick="checkSelect('revA1', 'Let\'s get', 'feedbackRevA1')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevA1"></div>
+                    </li>
+                    <li>
+                        <select id="revA2"><option selected>Why don't we</option><option>Let's not</option></select> invite Bob? He's really nice.
+                        <button class="submit-btn" onclick="checkSelect('revA2', 'Why don\'t we', 'feedbackRevA2')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevA2"></div>
+                    </li>
+                    <li>
+                        Please <select id="revA3"><option>buy</option><option selected>Don't buy</option></select> peppers. I don't like them.
+                        <button class="submit-btn" onclick="checkSelect('revA3', 'Don\'t buy', 'feedbackRevA3')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevA3"></div>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="exercise">
+                <h4>B. Complete the instructions with the imperative forms of the verbs in parentheses. Use the affirmative or negative.</h4>
+                <ol>
+                    <li><input type="text" id="revB1" size="8"> (wear) comfortable clothes to yoga class. We want you to feel good.
+                        <button class="submit-btn" onclick="checkAnswer('revB1', 'Wear', 'feedbackRevB1', 'Affirmative command.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevB1"></div>
+                    </li>
+                    <li><input type="text" id="revB2" size="12"> (wear) heavy clothes. It's warm in the classroom.
+                        <button class="submit-btn" onclick="checkAnswer('revB2', 'Don\'t wear', 'feedbackRevB2', 'Negative command.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevB2"></div>
+                    </li>
+                     <li><input type="text" id="revB3" size="8"> (bring) a mat and water.
+                        <button class="submit-btn" onclick="checkAnswer('revB3', 'Bring', 'feedbackRevB3', 'Affirmative command.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevB3"></div>
+                    </li>
+                </ol>
+            </div>
+            
+             <div class="exercise">
+                <h4>C. Complete the conversations with Let's, don't we, or don't you.</h4>
+                <ol>
+                    <li><b>A:</b> <input type="text" id="revC1" size="8"> go to the gym. <b>B:</b> Good idea.
+                        <button class="submit-btn" onclick="checkAnswer('revC1', 'Let\'s', 'feedbackRevC1', 'This is a suggestion for "us".')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevC1"></div>
+                    </li>
+                    <li><b>A:</b> Why <input type="text" id="revC2" size="8"> take a trip together? <b>B:</b> OK. Where do you want to go?
+                        <button class="submit-btn" onclick="checkAnswer('revC2', 'don\'t we', 'feedbackRevC2', 'The key words are "Why" and "together".')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevC2"></div>
+                    </li>
+                    <li><b>A:</b> I'm hungry. <b>B:</b> Why <input type="text" id="revC3" size="8"> eat a sandwich?
+                        <button class="submit-btn" onclick="checkAnswer('revC3', 'don\'t you', 'feedbackRevC3', 'B is making a suggestion for A.')">Nộp bài</button>
+                        <div class="feedback" id="feedbackRevC3"></div>
+                    </li>
+                </ol>
+            </div>
+
+        </section>
+
+    </div><!-- .container -->
+
+    <script>
+        // ======================= JAVASCRIPT FUNCTIONS =======================
+        
+        /**
+         * Checks a text input answer.
+         * @param {string} inputId - The ID of the input element.
+         * @param {string} correctAnswer - The correct answer.
+         * @param {string} feedbackId - The ID of the feedback div.
+         * @param {string} hint - The hint to show on incorrect answer.
+         */
+        function checkAnswer(inputId, correctAnswer, feedbackId, hint) {
+            const userInput = document.getElementById(inputId).value.trim();
+            const feedbackEl = document.getElementById(feedbackId);
+            
+            if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+                feedbackEl.innerHTML = 'Chính xác!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Không đúng. <span class="hint">Gợi ý: ${hint} Đáp án đúng là "<strong>${correctAnswer}</strong>".</span>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+
+        /**
+         * Checks a select/dropdown answer.
+         * @param {string} selectId - The ID of the select element.
+         * @param {string} correctAnswer - The correct value.
+         * @param {string} feedbackId - The ID of the feedback div.
+         */
+        function checkSelect(selectId, correctAnswer, feedbackId) {
+            const userChoice = document.getElementById(selectId).value;
+            const feedbackEl = document.getElementById(feedbackId);
+            
+            if (userChoice === correctAnswer) {
+                feedbackEl.innerHTML = 'Chính xác!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Không đúng. Đáp án đúng là "<strong>${correctAnswer}</strong>".`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+
+        /**
+         * Checks multiple select elements in a single question.
+         * @param {Array<string>} selectIds - Array of select element IDs.
+         * @param {Array<string>} correctAnswers - Array of correct values.
+         * @param {string} feedbackId - The ID of the feedback div.
+         */
+        function checkMultipleSelects(selectIds, correctAnswers, feedbackId) {
+            let allCorrect = true;
+            for (let i = 0; i < selectIds.length; i++) {
+                const userChoice = document.getElementById(selectIds[i]).value;
+                if (userChoice !== correctAnswers[i]) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+            
+            const feedbackEl = document.getElementById(feedbackId);
+            if (allCorrect) {
+                feedbackEl.innerHTML = 'Chính xác!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Không đúng. Đáp án đúng là "<strong>${correctAnswers.join(' / ')}</strong>".`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+        
+        /**
+         * Special function for the matching exercise.
+         */
+        function checkMatching() {
+            const correct = {
+                'match1': 'd', 'match2': 'c', 'match3': 'b',
+                'match4': 'e', 'match5': 'f', 'match6': 'a'
+            };
+            let allCorrect = true;
+            for (const id in correct) {
+                if (document.getElementById(id).value !== correct[id]) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+            const feedbackEl = document.getElementById('feedbackMatch');
+            if (allCorrect) {
+                feedbackEl.innerHTML = 'Tuyệt vời, tất cả đều đúng!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Chưa đúng. Hãy thử lại! Đáp án đúng: 1-d, 2-c, 3-b, 4-e, 5-f, 6-a.`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+
+        /**
+         * Special function for the directions exercise.
+         */
+        function checkDirections() {
+            const answers = {
+                'dir1': 'Third Avenue',
+                'dir2': 'Turn right',
+                'dir3': 'bakery'
+            };
+            let allCorrect = true;
+            for (const id in answers) {
+                if (document.getElementById(id).value.trim().toLowerCase() !== answers[id].toLowerCase()) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+            const feedbackEl = document.getElementById('feedbackDir');
+             if (allCorrect) {
+                feedbackEl.innerHTML = 'Chính xác!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Chưa đúng. Đáp án đúng: Walk down 71st Street to <strong>Third Avenue</strong>. <strong>Turn right</strong> on Third Avenue. The library is on your left, next to the <strong>bakery</strong>.`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'block';
+        }
+
+        /**
+         * Splits the sample paragraph into sentences for the Writing section.
+         */
+        function splitSentences() {
+            const paragraph = document.getElementById('sample-paragraph').innerText;
+            const sentenceList = document.getElementById('sentence-list');
+            
+            // Clear previous list
+            sentenceList.innerHTML = '';
+
+            // Split by period, question mark, or exclamation mark, and filter out empty strings
+            const sentences = paragraph.split(/[.?!]/).filter(sentence => sentence.trim().length > 0);
+
+            // Create and append list items
+            sentences.forEach(sentence => {
+                const li = document.createElement('li');
+                li.textContent = sentence.trim() + '.'; // Add the period back for display
+                sentenceList.appendChild(li);
+            });
+        }
+    </script>
+
+    <!-- ======================= ADDITIONAL PRACTICE SECTION ======================= -->
+<section id="additional-practice" class="container">
+    <div class="step-header"><span>STEP 4</span> ADDITIONAL PRACTICE</div>
+    <p>Hoàn thành các câu sau đây bằng cách sử dụng dạng đúng của động từ hoặc cụm từ gợi ý. Sử dụng: Mệnh lệnh (Affirmative/Negative), <strong>Let's / Let's not</strong>, hoặc <strong>Why don't we / Why don't you</strong>.</p>
+
+    <style>
+        /* Styles for the additional practice section */
+        #additional-practice .practice-item {
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            background-color: #fdfdfd;
+        }
+        #additional-practice .practice-item p {
+            margin: 0 0 10px 0;
+            font-size: 1.05em;
+        }
+        #additional-practice input[type="text"] {
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            font-family: inherit;
+            font-size: 1em;
+        }
+        #additional-practice .complete-sentence {
+            display: none;
+            margin-top: 10px;
+            padding: 12px;
+            background-color: #e8f5e9; /* Light green */
+            border-left: 4px solid #4CAF50; /* Green */
+            border-radius: 4px;
+        }
+        #additional-practice .complete-sentence .eng {
+            font-weight: bold;
+            color: #1b5e20;
+        }
+        #additional-practice .complete-sentence .vie {
+            font-style: italic;
+            color: #333;
+            margin-top: 5px;
+        }
+    </style>
+
+    <div class="exercise-list">
+        <!-- The 100 exercises will be generated here -->
+        <!-- This is a placeholder for the generated content -->
+    </div>
+
+</section>
+
+<script>
+    // ================= SEPARATE SCRIPT FOR ADDITIONAL PRACTICE =================
+    
+    // Data for 100 questions
+    const practiceQuestions = [
+        // Affirmative Imperatives (1-20)
+        { q: "(Be) ______ careful with that glass.", a: "Be", s: "Be careful with that glass.", t: "Hãy cẩn thận với cái ly đó.", h: "Sử dụng dạng nguyên mẫu của động từ 'to be' cho câu mệnh lệnh." },
+        { q: "(Listen) ______ to the teacher.", a: "Listen", s: "Listen to the teacher.", t: "Hãy lắng nghe giáo viên.", h: "Sử dụng dạng mệnh lệnh khẳng định." },
+        { q: "Please (close) ______ the door.", a: "close", s: "Please close the door.", t: "Làm ơn đóng cửa lại.", h: "Đây là một yêu cầu lịch sự." },
+        { q: "(Help) ______ me with this heavy box.", a: "Help", s: "Help me with this heavy box.", t: "Giúp tôi với cái hộp nặng này.", h: "Sử dụng dạng mệnh lệnh khẳng định." },
+        { q: "(Turn) ______ right at the next corner.", a: "Turn", s: "Turn right at the next corner.", t: "Hãy rẽ phải ở góc tiếp theo.", h: "Đây là một chỉ dẫn." },
+        { q: "(Take) ______ one pill after every meal.", a: "Take", s: "Take one pill after every meal.", t: "Hãy uống một viên sau mỗi bữa ăn.", h: "Đây là một lời khuyên y tế." },
+        { q: "(Try) ______ this cake. It's delicious.", a: "Try", s: "Try this cake. It's delicious.", t: "Hãy thử chiếc bánh này. Nó ngon lắm.", h: "Sử dụng dạng mệnh lệnh khẳng định." },
+        { q: "(Wait) ______ here until I come back.", a: "Wait", s: "Wait here until I come back.", t: "Hãy đợi ở đây cho đến khi tôi quay lại.", h: "Đây là một mệnh lệnh." },
+        { q: "(Read) ______ the instructions before you start.", a: "Read", s: "Read the instructions before you start.", t: "Hãy đọc hướng dẫn trước khi bạn bắt đầu.", h: "Đây là một chỉ dẫn." },
+        { q: "(Show) ______ me your ticket, please.", a: "Show", s: "Show me your ticket, please.", t: "Làm ơn cho tôi xem vé của bạn.", h: "Đây là một yêu cầu lịch sự." },
+        { q: "(Sit) ______ down and relax.", a: "Sit", s: "Sit down and relax.", t: "Hãy ngồi xuống và thư giãn.", h: "Sử dụng dạng mệnh lệnh khẳng định." },
+        { q: "(Write) ______ your name at the top of the page.", a: "Write", s: "Write your name at the top of the page.", t: "Hãy viết tên bạn ở đầu trang.", h: "Đây là một chỉ dẫn." },
+        { q: "Please (speak) ______ more slowly.", a: "speak", s: "Please speak more slowly.", t: "Làm ơn nói chậm lại.", h: "Đây là một yêu cầu lịch sự." },
+        { q: "(Come) ______ in and have a seat.", a: "Come", s: "Come in and have a seat.", t: "Hãy vào đi và ngồi xuống.", h: "Sử dụng dạng mệnh lệnh khẳng định." },
+        { q: "(Finish) ______ your homework before you play.", a: "Finish", s: "Finish your homework before you play.", t: "Hãy làm xong bài tập về nhà trước khi đi chơi.", h: "Đây là một mệnh lệnh." },
+        { q: "(Follow) ______ me. I know the way.", a: "Follow", s: "Follow me. I know the way.", t: "Hãy đi theo tôi. Tôi biết đường.", h: "Sử dụng dạng mệnh lệnh khẳng định." },
+        { q: "(Put) ______ the books on the shelf.", a: "Put", s: "Put the books on the shelf.", t: "Hãy đặt những cuốn sách lên kệ.", h: "Đây là một chỉ dẫn." },
+        { q: "(Call) ______ me when you arrive.", a: "Call", s: "Call me when you arrive.", t: "Hãy gọi cho tôi khi bạn đến nơi.", h: "Đây là một yêu cầu." },
+        { q: "You look tired. (Get) ______ some rest.", a: "Get", s: "You look tired. Get some rest.", t: "Bạn trông mệt mỏi. Hãy nghỉ ngơi một chút đi.", h: "Đây là một lời khuyên." },
+        { q: "(Answer) ______ the phone, please.", a: "Answer", s: "Answer the phone, please.", t: "Làm ơn nghe điện thoại đi.", h: "Đây là một yêu cầu lịch sự." },
+
+        // Negative Imperatives (21-40)
+        { q: "(not / talk) ______ during the movie.", a: "Don't talk", s: "Don't talk during the movie.", t: "Đừng nói chuyện trong lúc xem phim.", h: "Sử dụng 'Don't' + động từ nguyên mẫu." },
+        { q: "(not / forget) ______ to buy milk.", a: "Don't forget", s: "Don't forget to buy milk.", t: "Đừng quên mua sữa nhé.", h: "Sử dụng dạng mệnh lệnh phủ định." },
+        { q: "(not / be) ______ late for the meeting.", a: "Don't be", s: "Don't be late for the meeting.", t: "Đừng đến trễ cuộc họp.", h: "Sử dụng 'Don't be' cho câu mệnh lệnh phủ định với 'to be'." },
+        { q: "(not / worry) ______, everything will be fine.", a: "Don't worry", s: "Don't worry, everything will be fine.", t: "Đừng lo lắng, mọi chuyện sẽ ổn thôi.", h: "Sử dụng dạng mệnh lệnh phủ định." },
+        { q: "Please (not / make) ______ so much noise.", a: "don't make", s: "Please don't make so much noise.", t: "Làm ơn đừng làm ồn như vậy.", h: "Đây là một yêu cầu lịch sự phủ định." },
+        { q: "(not / touch) ______ that wire. It's dangerous.", a: "Don't touch", s: "Don't touch that wire. It's dangerous.", t: "Đừng chạm vào sợi dây đó. Nó nguy hiểm.", h: "Đây là một lời cảnh báo." },
+        { q: "(not / eat) ______ too much candy.", a: "Don't eat", s: "Don't eat too much candy.", t: "Đừng ăn quá nhiều kẹo.", h: "Đây là một lời khuyên." },
+        { q: "(not / open) ______ the window. It's cold outside.", a: "Don't open", s: "Don't open the window. It's cold outside.", t: "Đừng mở cửa sổ. Bên ngoài trời lạnh.", h: "Sử dụng dạng mệnh lệnh phủ định." },
+        { q: "(not / give) ______ up. You can do it.", a: "Don't give", s: "Don't give up. You can do it.", t: "Đừng bỏ cuộc. Bạn có thể làm được.", h: "Đây là một lời động viên." },
+        { q: "Please (not / use) ______ your phone in class.", a: "don't use", s: "Please don't use your phone in class.", t: "Làm ơn đừng sử dụng điện thoại trong lớp học.", h: "Đây là một yêu cầu lịch sự phủ định." },
+        { q: "(not / cross) ______ the street without looking.", a: "Don't cross", s: "Don't cross the street without looking.", t: "Đừng băng qua đường mà không nhìn.", h: "Đây là một lời cảnh báo." },
+        { q: "(not / hesitate) ______ to ask for help.", a: "Don't hesitate", s: "Don't hesitate to ask for help.", t: "Đừng ngần ngại nhờ giúp đỡ.", h: "Đây là một lời khuyên." },
+        { q: "(not / leave) ______ your bag here.", a: "Don't leave", s: "Don't leave your bag here.", t: "Đừng để túi của bạn ở đây.", h: "Sử dụng dạng mệnh lệnh phủ định." },
+        { q: "(not / drive) ______ too fast.", a: "Don't drive", s: "Don't drive too fast.", t: "Đừng lái xe quá nhanh.", h: "Đây là một lời cảnh báo." },
+        { q: "(not / be) ______ afraid of the dog. It's friendly.", a: "Don't be", s: "Don't be afraid of the dog. It's friendly.", t: "Đừng sợ con chó. Nó thân thiện.", h: "Sử dụng 'Don't be'." },
+        { q: "Please (not / feed) ______ the animals.", a: "don't feed", s: "Please don't feed the animals.", t: "Làm ơn đừng cho động vật ăn.", h: "Đây là một quy định." },
+        { q: "(not / tell) ______ anyone this secret.", a: "Don't tell", s: "Don't tell anyone this secret.", t: "Đừng nói cho ai bí mật này.", h: "Sử dụng dạng mệnh lệnh phủ định." },
+        { q: "(not / waste) ______ your time on this.", a: "Don't waste", s: "Don't waste your time on this.", t: "Đừng lãng phí thời gian của bạn vào việc này.", h: "Đây là một lời khuyên." },
+        { q: "(not / play) ______ with matches.", a: "Don't play", s: "Don't play with matches.", t: "Đừng chơi với diêm.", h: "Đây là một lời cảnh báo." },
+        { q: "(not / wait) ______ for me. I might be late.", a: "Don't wait", s: "Don't wait for me. I might be late.", t: "Đừng đợi tôi. Tôi có thể sẽ đến muộn.", h: "Sử dụng dạng mệnh lệnh phủ định." },
+
+        // Let's / Let's not (41-60)
+        { q: "It's a beautiful day. (Let's) ______ go to the park.", a: "Let's", s: "It's a beautiful day. Let's go to the park.", t: "Hôm nay là một ngày đẹp trời. Chúng ta hãy đến công viên đi.", h: "Đề nghị cùng nhau làm gì đó." },
+        { q: "I'm hungry. (Let's) ______ order a pizza.", a: "Let's", s: "I'm hungry. Let's order a pizza.", t: "Tôi đói rồi. Chúng ta hãy gọi pizza đi.", h: "Sử dụng 'Let's' cho một gợi ý." },
+        { q: "It's too expensive. (Let's not) ______ buy it.", a: "Let's not", s: "It's too expensive. Let's not buy it.", t: "Nó đắt quá. Chúng ta đừng mua nó.", h: "Đề nghị không làm gì đó." },
+        { q: "(Let's) ______ watch a movie tonight.", a: "Let's", s: "Let's watch a movie tonight.", t: "Chúng ta hãy xem phim tối nay đi.", h: "Sử dụng 'Let's'." },
+        { q: "We're tired. (Let's not) ______ go out.", a: "Let's not", s: "We're tired. Let's not go out.", t: "Chúng ta mệt rồi. Chúng ta đừng đi ra ngoài.", h: "Sử dụng 'Let's not'." },
+        { q: "(Let's) ______ start the meeting now.", a: "Let's", s: "Let's start the meeting now.", t: "Chúng ta hãy bắt đầu cuộc họp ngay bây giờ.", h: "Sử dụng 'Let's'." },
+        { q: "(Let's not) ______ argue about this anymore.", a: "Let's not", s: "Let's not argue about this anymore.", t: "Chúng ta đừng tranh cãi về chuyện này nữa.", h: "Đề nghị dừng một hành động." },
+        { q: "The weather is great. (Let's) ______ have a picnic.", a: "Let's", s: "The weather is great. Let's have a picnic.", t: "Thời tiết thật tuyệt. Chúng ta hãy đi dã ngoại đi.", h: "Sử dụng 'Let's'." },
+        { q: "(Let's) ______ take a break. We've been working for hours.", a: "Let's", s: "Let's take a break. We've been working for hours.", t: "Chúng ta hãy nghỉ giải lao đi. Chúng ta đã làm việc hàng giờ rồi.", h: "Sử dụng 'Let's'." },
+        { q: "I don't like this restaurant. (Let's) ______ go somewhere else.", a: "Let's", s: "I don't like this restaurant. Let's go somewhere else.", t: "Tôi không thích nhà hàng này. Chúng ta hãy đi nơi khác đi.", h: "Sử dụng 'Let's'." },
+        { q: "(Let's not) ______ be late for the train.", a: "Let's not", s: "Let's not be late for the train.", t: "Chúng ta đừng trễ chuyến tàu.", h: "Sử dụng 'Let's not'." },
+        { q: "(Let's) ______ try to solve this problem together.", a: "Let's", s: "Let's try to solve this problem together.", t: "Chúng ta hãy cùng nhau cố gắng giải quyết vấn đề này.", h: "Sử dụng 'Let's'." },
+        { q: "It's raining. (Let's) ______ stay home.", a: "Let's", s: "It's raining. Let's stay home.", t: "Trời đang mưa. Chúng ta hãy ở nhà đi.", h: "Sử dụng 'Let's'." },
+        { q: "(Let's not) ______ forget to thank them.", a: "Let's not", s: "Let's not forget to thank them.", t: "Chúng ta đừng quên cảm ơn họ.", h: "Sử dụng 'Let's not'." },
+        { q: "(Let's) ______ celebrate your success!", a: "Let's", s: "Let's celebrate your success!", t: "Chúng ta hãy ăn mừng thành công của bạn!", h: "Sử dụng 'Let's'." },
+        { q: "This music is too loud. (Let's) ______ turn it down.", a: "Let's", s: "This music is too loud. Let's turn it down.", t: "Nhạc này to quá. Chúng ta hãy vặn nhỏ lại đi.", h: "Sử dụng 'Let's'." },
+        { q: "(Let's not) ______ waste any more time.", a: "Let's not", s: "Let's not waste any more time.", t: "Chúng ta đừng lãng phí thêm chút thời gian nào nữa.", h: "Sử dụng 'Let's not'." },
+        { q: "(Let's) ______ plan our trip for next summer.", a: "Let's", s: "Let's plan our trip for next summer.", t: "Chúng ta hãy lên kế hoạch cho chuyến đi mùa hè tới.", h: "Sử dụng 'Let's'." },
+        { q: "The show is about to start. (Let's) ______ find our seats.", a: "Let's", s: "The show is about to start. Let's find our seats.", t: "Chương trình sắp bắt đầu rồi. Chúng ta hãy tìm chỗ ngồi đi.", h: "Sử dụng 'Let's'." },
+        { q: "(Let's not) ______ make a decision right now. Let's think about it.", a: "Let's not", s: "Let's not make a decision right now. Let's think about it.", t: "Chúng ta đừng quyết định ngay bây giờ. Hãy suy nghĩ về nó đã.", h: "Sử dụng 'Let's not'." },
+
+        // Why don't you...? (61-80)
+        { q: "You look sick. (Why don't you) ______ see a doctor?", a: "Why don't you", s: "You look sick. Why don't you see a doctor?", t: "Bạn trông ốm đấy. Sao bạn không đi khám bác sĩ đi?", h: "Đưa ra lời khuyên cho người khác." },
+        { q: "You're stressed. (Why don't you) ______ take a vacation?", a: "Why don't you", s: "You're stressed. Why don't you take a vacation?", t: "Bạn đang bị căng thẳng. Sao bạn không đi nghỉ mát đi?", h: "Sử dụng 'Why don't you' để đưa ra gợi ý." },
+        { q: "I can't solve this problem. - (Why don't you) ______ ask your teacher?", a: "Why don't you", s: "Why don't you ask your teacher?", t: "Sao bạn không hỏi giáo viên của bạn?", h: "Đưa ra lời khuyên." },
+        { q: "You seem bored. (Why don't you) ______ read a book?", a: "Why don't you", s: "You seem bored. Why don't you read a book?", t: "Bạn có vẻ chán. Sao bạn không đọc một cuốn sách đi?", h: "Sử dụng 'Why don't you' để đưa ra gợi ý." },
+        { q: "(Why don't you) ______ call her and apologize?", a: "Why don't you", s: "Why don't you call her and apologize?", t: "Sao bạn không gọi cho cô ấy và xin lỗi?", h: "Đưa ra lời khuyên." },
+        { q: "It's cold. (Why don't you) ______ wear a coat?", a: "Why don't you", s: "It's cold. Why don't you wear a coat?", t: "Trời lạnh đấy. Sao bạn không mặc áo khoác vào?", h: "Đưa ra lời khuyên." },
+        { q: "You need a job. (Why don't you) ______ look online?", a: "Why don't you", s: "You need a job. Why don't you look online?", t: "Bạn cần một công việc. Sao bạn không tìm trên mạng?", h: "Đưa ra gợi ý." },
+        { q: "(Why don't you) ______ try that new restaurant downtown?", a: "Why don't you", s: "Why don't you try that new restaurant downtown?", t: "Sao bạn không thử nhà hàng mới ở trung tâm thành phố?", h: "Đưa ra gợi ý." },
+        { q: "You haven't seen your parents in a while. (Why don't you) ______ visit them this weekend?", a: "Why don't you", s: "Why don't you visit them this weekend?", t: "Sao bạn không về thăm họ vào cuối tuần này?", h: "Đưa ra gợi ý." },
+        { q: "(Why don't you) ______ join a gym to get more exercise?", a: "Why don't you", s: "Why don't you join a gym to get more exercise?", t: "Sao bạn không tham gia phòng tập gym để tập thể dục nhiều hơn?", h: "Đưa ra lời khuyên." },
+        { q: "If you're tired, (why don't you) ______ go to bed early?", a: "why don't you", s: "If you're tired, why don't you go to bed early?", t: "Nếu bạn mệt, sao bạn không đi ngủ sớm?", h: "Đưa ra lời khuyên." },
+        { q: "(Why don't you) ______ tell me what's wrong?", a: "Why don't you", s: "Why don't you tell me what's wrong?", t: "Sao bạn không nói cho tôi biết có chuyện gì?", h: "Đưa ra gợi ý." },
+        { q: "You want to learn English. (Why don't you) ______ take a class?", a: "Why don't you", s: "You want to learn English. Why don't you take a class?", t: "Bạn muốn học tiếng Anh. Sao bạn không tham gia một lớp học?", h: "Đưa ra gợi ý." },
+        { q: "(Why don't you) ______ apply for that scholarship?", a: "Why don't you", s: "Why don't you apply for that scholarship?", t: "Sao bạn không nộp đơn xin học bổng đó?", h: "Đưa ra lời khuyên." },
+        { q: "The car is dirty. (Why don't you) ______ wash it?", a: "Why don't you", s: "The car is dirty. Why don't you wash it?", t: "Chiếc xe bẩn rồi. Sao bạn không rửa nó đi?", h: "Đưa ra gợi ý." },
+        { q: "I have a headache. - (Why don't you) ______ take some aspirin?", a: "Why don't you", s: "Why don't you take some aspirin?", t: "Sao bạn không uống một ít aspirin?", h: "Đưa ra lời khuyên." },
+        { q: "(Why don't you) ______ check the weather forecast before you go?", a: "Why don't you", s: "Why don't you check the weather forecast before you go?", t: "Sao bạn không kiểm tra dự báo thời tiết trước khi đi?", h: "Đưa ra gợi ý." },
+        { q: "You need a new phone. (Why don't you) ______ wait for the sales?", a: "Why don't you", s: "You need a new phone. Why don't you wait for the sales?", t: "Bạn cần một chiếc điện thoại mới. Sao bạn không chờ đợt giảm giá?", h: "Đưa ra lời khuyên." },
+        { q: "(Why don't you) ______ relax and listen to some music?", a: "Why don't you", s: "Why don't you relax and listen to some music?", t: "Sao bạn không thư giãn và nghe một chút nhạc?", h: "Đưa ra gợi ý." },
+        { q: "You're always late. (Why don't you) ______ set an alarm?", a: "Why don't you", s: "You're always late. Why don't you set an alarm?", t: "Bạn luôn luôn trễ. Sao bạn không đặt báo thức?", h: "Đưa ra lời khuyên." },
+
+        // Why don't we...? (81-100)
+        { q: "We have some free time. (Why don't we) ______ go for a walk?", a: "Why don't we", s: "We have some free time. Why don't we go for a walk?", t: "Chúng ta có chút thời gian rảnh. Sao chúng ta không đi dạo nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "It's getting late. (Why don't we) ______ go home?", a: "Why don't we", s: "It's getting late. Why don't we go home?", t: "Trễ rồi đấy. Sao chúng ta không về nhà nhỉ?", h: "Sử dụng 'Why don't we' để gợi ý." },
+        { q: "This room is a mess. (Why don't we) ______ clean it up together?", a: "Why don't we", s: "This room is a mess. Why don't we clean it up together?", t: "Căn phòng này bừa bộn quá. Sao chúng ta không cùng nhau dọn dẹp nó nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "(Why don't we) ______ invite them over for dinner?", a: "Why don't we", s: "Why don't we invite them over for dinner?", t: "Sao chúng ta không mời họ đến ăn tối nhỉ?", h: "Sử dụng 'Why don't we'." },
+        { q: "We need to talk. (Why don't we) ______ meet for coffee tomorrow?", a: "Why don't we", s: "We need to talk. Why don't we meet for coffee tomorrow?", t: "Chúng ta cần nói chuyện. Sao chúng ta không gặp nhau uống cà phê vào ngày mai nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "The final exam is next week. (Why don't we) ______ study together?", a: "Why don't we", s: "The final exam is next week. Why don't we study together?", t: "Kỳ thi cuối kỳ vào tuần tới. Sao chúng ta không học nhóm nhỉ?", h: "Sử dụng 'Why don't we'." },
+        { q: "(Why don't we) ______ take a taxi? It's faster.", a: "Why don't we", s: "Why don't we take a taxi? It's faster.", t: "Sao chúng ta không đi taxi nhỉ? Sẽ nhanh hơn đấy.", h: "Gợi ý cho cả nhóm." },
+        { q: "It's a long weekend. (Why don't we) ______ take a short trip?", a: "Why don't we", s: "It's a long weekend. Why don't we take a short trip?", t: "Kỳ nghỉ cuối tuần dài đấy. Sao chúng ta không đi một chuyến du lịch ngắn ngày nhỉ?", h: "Sử dụng 'Why don't we'." },
+        { q: "(Why don't we) ______ try cooking a new recipe tonight?", a: "Why don't we", s: "Why don't we try cooking a new recipe tonight?", t: "Sao chúng ta không thử nấu một công thức mới tối nay nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "We haven't seen that movie yet. (Why don't we) ______ go to the cinema?", a: "Why don't we", s: "We haven't seen that movie yet. Why don't we go to the cinema?", t: "Chúng ta vẫn chưa xem bộ phim đó. Sao chúng ta không ra rạp chiếu phim nhỉ?", h: "Sử dụng 'Why don't we'." },
+        { q: "The project deadline is approaching. (Why don't we) ______ divide the work?", a: "Why don't we", s: "The project deadline is approaching. Why don't we divide the work?", t: "Hạn chót của dự án đang đến gần. Sao chúng ta không phân chia công việc nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "(Why don't we) ______ have lunch at that new cafe?", a: "Why don't we", s: "Why don't we have lunch at that new cafe?", t: "Sao chúng ta không ăn trưa ở quán cà phê mới đó nhỉ?", h: "Sử dụng 'Why don't we'." },
+        { q: "We both love music. (Why don't we) ______ go to a concert?", a: "Why don't we", s: "We both love music. Why don't we go to a concert?", t: "Cả hai chúng ta đều yêu âm nhạc. Sao chúng ta không đi xem hòa nhạc nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "(Why don't we) ______ play a board game?", a: "Why don't we", s: "Why don't we play a board game?", t: "Sao chúng ta không chơi một ván cờ bàn nhỉ?", h: "Sử dụng 'Why don't we'." },
+        { q: "It's sunny. (Why don't we) ______ go to the beach?", a: "Why don't we", s: "It's sunny. Why don't we go to the beach?", t: "Trời nắng. Sao chúng ta không ra bãi biển nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "(Why don't we) ______ ask for directions? We're lost.", a: "Why don't we", s: "Why don't we ask for directions? We're lost.", t: "Sao chúng ta không hỏi đường nhỉ? Chúng ta bị lạc rồi.", h: "Sử dụng 'Why don't we'." },
+        { q: "We need a gift for Maria. (Why don't we) ______ go shopping together?", a: "Why don't we", s: "We need a gift for Maria. Why don't we go shopping together?", t: "Chúng ta cần một món quà cho Maria. Sao chúng ta không đi mua sắm cùng nhau nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "(Why don't we) ______ start a book club?", a: "Why don't we", s: "Why don't we start a book club?", t: "Sao chúng ta không thành lập một câu lạc bộ sách nhỉ?", h: "Sử dụng 'Why don't we'." },
+        { q: "There's a good documentary on TV. (Why don't we) ______ watch it?", a: "Why don't we", s: "There's a good documentary on TV. Why don't we watch it?", t: "Có một bộ phim tài liệu hay trên TV. Sao chúng ta không xem nó nhỉ?", h: "Gợi ý cho cả nhóm." },
+        { q: "Everyone is here. (Why don't we) ______ start the party?", a: "Why don't we", s: "Everyone is here. Why don't we start the party?", t: "Mọi người đều ở đây rồi. Sao chúng ta không bắt đầu bữa tiệc nhỉ?", h: "Sử dụng 'Why don't we'." },
+    ];
+
+    /**
+     * Generates the HTML for all practice questions and inserts it into the page.
+     */
+    function generatePracticeQuestions() {
+        const container = document.querySelector('#additional-practice .exercise-list');
+        let html = '';
+        practiceQuestions.forEach((item, index) => {
+            const questionNumber = index + 1;
+            html += `
+                <div class="practice-item">
+                    <p>${questionNumber}. ${item.q.replace('______', `<input type="text" id="add-q${questionNumber}" size="15">`)}</p>
+                    <button class="submit-btn" onclick="checkAdditionalAnswer(
+                        ${questionNumber}, 
+                        '${item.a.replace(/'/g, "\\'")}', 
+                        '${item.s.replace(/'/g, "\\'")}', 
+                        '${item.t.replace(/'/g, "\\'")}', 
+                        '${item.h.replace(/'/g, "\\'")}'
+                    )">Kiểm tra</button>
+                    <div class="feedback" id="add-feedback${questionNumber}"></div>
+                    <div class="complete-sentence" id="add-complete${questionNumber}" style="display:none;"></div>
+                </div>
+            `;
+        });
+        container.innerHTML = html;
+    }
+
+    /**
+     * Checks the answer for a single additional practice question.
+     * @param {number} questionNumber - The number of the question (1-100).
+     * @param {string} correctAnswer - The correct answer string.
+     * @param {string} fullSentence - The complete correct sentence.
+     * @param {string} translation - The Vietnamese translation.
+     * @param {string} hint - The hint to show on incorrect answer.
+     */
+    function checkAdditionalAnswer(questionNumber, correctAnswer, fullSentence, translation, hint) {
+        const inputId = `add-q${questionNumber}`;
+        const feedbackId = `add-feedback${questionNumber}`;
+        const completeId = `add-complete${questionNumber}`;
+
+        const inputEl = document.getElementById(inputId);
+        const feedbackEl = document.getElementById(feedbackId);
+        const completeEl = document.getElementById(completeId);
+
+        const userInput = inputEl.value.trim();
+
+        if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+            feedbackEl.innerHTML = 'Chính xác!';
+            feedbackEl.className = 'feedback correct';
+            
+            completeEl.innerHTML = `
+                <div class="eng">${fullSentence}</div>
+                <div class="vie">${translation}</div>
+            `;
+            completeEl.style.display = 'block';
+
+        } else {
+            feedbackEl.innerHTML = `Không đúng. <span class="hint">Gợi ý: ${hint} Đáp án đúng là "<strong>${correctAnswer}</strong>".</span>`;
+            feedbackEl.className = 'feedback incorrect';
+            completeEl.style.display = 'none';
+        }
+        feedbackEl.style.display = 'block';
+    }
+
+    // Generate the questions when the script loads.
+    document.addEventListener('DOMContentLoaded', generatePracticeQuestions);
+
+</script>
+
+</body>
+</html>
