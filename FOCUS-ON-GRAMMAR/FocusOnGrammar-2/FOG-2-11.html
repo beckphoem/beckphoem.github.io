@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 11: There is / There are</title>
+    <style>
+        :root {
+            --primary-color: #f39c12; /* Orange/Yellow from the book */
+            --secondary-color: #2c3e50; /* Dark blue/grey */
+            --accent-color: #5cb85c; /* Green for headers */
+            --light-gray: #f4f4f4;
+            --dark-gray: #333;
+            --correct-color: #28a745;
+            --incorrect-color: #dc3545;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3, h4 {
+            color: var(--secondary-color);
+        }
+
+        .unit-header {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(to right, #f7b733, #f5d061);
+            color: var(--secondary-color);
+            padding: 10px 20px;
+            border-left: 10px solid var(--secondary-color);
+        }
+        .unit-number {
+            font-size: 5rem;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        .unit-title h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .unit-title h2 {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: normal;
+        }
+
+        .outcomes {
+            background-color: var(--light-gray);
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+        }
+        .outcomes h4 {
+            margin-top: 0;
+            color: var(--secondary-color);
+        }
+        .outcomes ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .step-header {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 10px 15px;
+            margin: 30px 0 15px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            color: var(--accent-color);
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--light-gray);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .reading-text p:first-of-type::first-letter {
+            font-size: 4em;
+            font-weight: bold;
+            float: left;
+            line-height: 0.8;
+            margin-right: 8px;
+            color: var(--primary-color);
+        }
+        
+        .reading-text p {
+            clear: both;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            margin: 20px 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .grammar-table th {
+            background-color: var(--light-gray);
+        }
+        .grammar-note {
+            background-color: #e8f5e9; /* Light green */
+            padding: 15px;
+            border-left: 5px solid var(--accent-color);
+            margin: 15px 0;
+        }
+        .usage-note {
+            background-color: #e3f2fd; /* Light blue */
+            padding: 10px;
+            border-left: 5px solid #2196f3;
+            margin: 10px 0;
+            font-style: italic;
+        }
+        .not-example {
+            color: var(--incorrect-color);
+            text-decoration: line-through;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-bottom: 30px;
+        }
+        .exercise-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+        .exercise-item p {
+            margin: 0 0 10px 0;
+        }
+        .exercise-item input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .exercise-item button {
+            padding: 5px 10px;
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .exercise-item button:hover {
+            background-color: #4a9d4a;
+        }
+        
+        .feedback {
+            font-size: 0.9em;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+        .feedback.correct {
+            color: var(--correct-color);
+        }
+        .feedback.incorrect {
+            color: var(--incorrect-color);
+        }
+        .hint {
+            font-weight: normal;
+            font-style: italic;
+            color: #555;
+        }
+        .input-correct {
+            border: 2px solid var(--correct-color) !important;
+        }
+        .input-incorrect {
+            border: 2px solid var(--incorrect-color) !important;
+        }
+
+        .directory-img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        
+        #sentence-output ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+            background-color: var(--light-gray);
+            padding: 15px;
+            border-radius: 5px;
+        }
+        #sentence-output li {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-bottom: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="unit-header">
+            <div class="unit-number">11</div>
+            <div class="unit-title">
+                <h1>There is / There are</h1>
+                <h2>PLACES TO SHOP</h2>
+            </div>
+        </header>
+        <div class="outcomes">
+            <h4>OUTCOMES</h4>
+            <ul>
+                <li>Use <i>there is/are</i> to introduce people or things</li>
+                <li>Use <i>there is/are</i> to tell the location of people or things or the time of events</li>
+                <li>Recognize details in a short article about a shopping place</li>
+                <li>Recognize details about a place in a conversation</li>
+                <li>Talk about a place in your town</li>
+                <li>Write a paragraph about a place to shop</li>
+            </ul>
+        </div>
+
+        <!-- ====================================================== -->
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <!-- ====================================================== -->
+        <section id="step1">
+            <h2 class="step-header">STEP 1: GRAMMAR IN CONTEXT</h2>
+            
+            <div class="section">
+                <h3 class="section-title">BEFORE YOU READ</h3>
+                <p>Work with a partner. Discuss the questions.</p>
+                <ol>
+                    <li>Do you like shopping malls? Why or why not?</li>
+                    <li>Where is the nearest mall? Do you go there? Why or why not?</li>
+                </ol>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">READ</h3>
+                <p>Read this page from a guidebook about the Dubai Mall.</p>
+                <div class="image-container">
+                    <img src="FOG-2-11/1.png" alt="Inside the Dubai Mall">
+                </div>
+                <div class="reading-text">
+                    <p>
+                        For a wonderful time, join the 750,000 weekly shoppers at the Dubai Mall. <b>There are</b> more than 1,200 stores including "Candylicious," the world's largest candy store. But the mall has a lot more than just the stores. <b>There's</b> a luxury hotel, twenty-two cinema screens, and 120 restaurants and cafés.
+                    </p>
+                    <p>
+                        <b>Are there</b> things for kids to do? Yes, lots. <b>There's</b> an aquarium, an underground zoo, and an ice rink¹ on the first level. And on the second level, <b>there's</b> the Sega indoor theme park.
+                    </p>
+                    <p>
+                        What about parking? <b>There are</b> 14,000 parking spaces. And it's easy to find your car. Your parking ticket includes a computer system to help you locate² your car.
+                    </p>
+                    <p>
+                        So make your plans now. <b>There isn't</b> a better place to shop.
+                    </p>
+                    <hr>
+                    <p><small>1 ice rink: a place where people can skate on ice</small></p>
+                    <p><small>2 locate: find</small></p>
+                </div>
+                
+                <h3 class="section-title">READ AND WATCH</h3>
+                <p>Watch this video to get a better sense of the Dubai Mall.</p>
+                <div class="video-container">
+                    <!-- SAU KHI CÓ LINK, HÃY THAY THẾ "YOUR_YOUTUBE_VIDEO_ID" BẰNG ID CỦA VIDEO -->
+                    <!-- VÍ DỤ: https://www.youtube.com/watch?v=ABCDEFG -->
+                    <!-- ID LÀ: ABCDEFG -->
+                    <iframe src="https://www.youtube.com/embed/350b3inRWWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">AFTER YOU READ</h3>
+                
+                <h4>A. VOCABULARY</h4>
+                <p>Complete the sentences with the words from the box.</p>
+                <div style="padding:10px; background-color: var(--light-gray); border-radius: 5px; text-align: center; margin-bottom: 15px;">
+                    <strong>aquarium &nbsp;&nbsp; including &nbsp;&nbsp; indoor &nbsp;&nbsp; join &nbsp;&nbsp; luxury &nbsp;&nbsp; parking spaces</strong>
+                </div>
+
+                <div class="exercise-item">
+                    <span>1. He drives a(n) <input type="text" id="vocab1" data-answer="luxury"> car with leather seats and a great stereo system.</span>
+                    <button onclick="checkAnswer('vocab1')">Submit</button>
+                    <div id="feedback-vocab1" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>2. There are <input type="text" id="vocab2" data-answer="parking spaces"> for only a few cars, so you may need to leave your car at home.</span>
+                    <button onclick="checkAnswer('vocab2')">Submit</button>
+                    <div id="feedback-vocab2" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>3. There's a(n) <input type="text" id="vocab3" data-answer="indoor"> garage, so your car stays cool when it is hot outside.</span>
+                    <button onclick="checkAnswer('vocab3')">Submit</button>
+                    <div id="feedback-vocab3" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>4. There are hundreds of different fish in the <input type="text" id="vocab4" data-answer="aquarium">.</span>
+                    <button onclick="checkAnswer('vocab4')">Submit</button>
+                    <div id="feedback-vocab4" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>5. Please <input type="text" id="vocab5" data-answer="join"> us for a tour of the new shopping center.</span>
+                    <button onclick="checkAnswer('vocab5')">Submit</button>
+                    <div id="feedback-vocab5" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>6. The total bill comes to a thousand dollars <input type="text" id="vocab6" data-answer="including"> tax.</span>
+                    <button onclick="checkAnswer('vocab6')">Submit</button>
+                    <div id="feedback-vocab6" class="feedback"></div>
+                </div>
+
+                <h4>B. COMPREHENSION</h4>
+                <p>Complete the sentences. Circle the correct words.</p>
+                
+                <div class="exercise-item" id="comp1" data-answer="sweet">
+                    <p>1. Candylicious is a huge store for 
+                        <label><input type="radio" name="comp1" value="sweet"> sweet</label> / 
+                        <label><input type="radio" name="comp1" value="spicy"> spicy</label> treats.
+                    </p>
+                    <button onclick="checkRadio('comp1')">Submit</button>
+                    <div id="feedback-comp1" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="comp2" data-answer="restaurants">
+                    <p>2. There aren't any 
+                        <label><input type="radio" name="comp2" value="restaurants"> restaurants</label> / 
+                        <label><input type="radio" name="comp2" value="museums"> museums</label> at the Dubai Mall.
+                    </p>
+                    <button onclick="checkRadio('comp2')">Submit</button>
+                    <div id="feedback-comp2" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="comp3" data-answer="are">
+                    <p>3. There 
+                        <label><input type="radio" name="comp3" value="are"> are</label> / 
+                        <label><input type="radio" name="comp3" value="aren't"> aren't</label> activities for children at the Dubai Mall.
+                    </p>
+                    <button onclick="checkRadio('comp3')">Submit</button>
+                    <div id="feedback-comp3" class="feedback"></div>
+                </div>
+                 <div class="exercise-item" id="comp4" data-answer="car-locating system">
+                    <p>4. There's a
+                        <label><input type="radio" name="comp4" value="car-locating system"> car-locating system</label> / 
+                        <label><input type="radio" name="comp4" value="car wash"> car wash</label> at the Dubai Mall.
+                    </p>
+                    <button onclick="checkRadio('comp4')">Submit</button>
+                    <div id="feedback-comp4" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="comp5" data-answer="hotel">
+                    <p>5. There's a
+                        <label><input type="radio" name="comp5" value="hotel"> hotel</label> / 
+                        <label><input type="radio" name="comp5" value="an apartment building"> an apartment building</label> at the Dubai Mall.
+                    </p>
+                    <button onclick="checkRadio('comp5')">Submit</button>
+                    <div id="feedback-comp5" class="feedback"></div>
+                </div>
+                 <div class="exercise-item" id="comp6" data-answer="750,000">
+                    <p>6. Every week, there are more than
+                        <label><input type="radio" name="comp6" value="7,500"> 7,500</label> / 
+                        <label><input type="radio" name="comp6" value="750,000"> 750,000</label> shoppers at the Dubai Mall.
+                    </p>
+                    <button onclick="checkRadio('comp6')">Submit</button>
+                    <div id="feedback-comp6" class="feedback"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- STEP 2: GRAMMAR PRESENTATION -->
+        <!-- ====================================================== -->
+        <section id="step2">
+            <h2 class="step-header">STEP 2: GRAMMAR PRESENTATION</h2>
+            <h3>THERE IS / THERE ARE</h3>
+            
+            <h4>Affirmative Statements</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr><th>There</th><th>Be</th><th>Subject</th><th>Place/Time</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>There</td><td>is</td><td>a restaurant</td><td>on this level.</td></tr>
+                    <tr><td>There</td><td>is</td><td>a movie</td><td>at 6:30.</td></tr>
+                    <tr><td>There</td><td>are</td><td>two restaurants</td><td>near the entrance.</td></tr>
+                    <tr><td>There</td><td>are</td><td>shows</td><td>at 7:00 and 9:00.</td></tr>
+                </tbody>
+            </table>
+            
+            <h4>Negative Statements</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr><th>There</th><th>Be + not</th><th>Subject</th><th>Place/Time</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>There</td><td>isn't</td><td>a restaurant</td><td>on the second level.</td></tr>
+                    <tr><td>There</td><td>aren't</td><td>any movies</td><td>at 8:00.</td></tr>
+                </tbody>
+            </table>
+
+            <h4>Yes/No Questions</h4>
+            <table class="grammar-table">
+                <thead>
+                    <tr><th>Be</th><th>There</th><th>Subject</th><th>Place</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Is</td><td>there</td><td>a pizza place</td><td>on Second Street?</td></tr>
+                    <tr><td>Are</td><td>there</td><td>any banks</td><td>nearby?</td></tr>
+                </tbody>
+            </table>
+            
+            <h4>Contractions</h4>
+            <div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
+                <p>there is ➔ <b>there's</b></p>
+                <p>there is not ➔ <b>there isn't</b></p>
+                <p>there are not ➔ <b>there aren't</b></p>
+            </div>
+
+            <h3 style="margin-top: 30px;">GRAMMAR NOTES</h3>
+            
+            <div class="grammar-note">
+                <b>1. There is / There are</b>
+                <p><i>There is</i> and <i>There are</i> introduce people or things into a conversation or a piece of writing.</p>
+                <ul>
+                    <li>We use <b>there is</b> to tell about the existence of: a person, a thing.
+                        <br><i>Example: <b>There is a salesperson</b> near the door. <b>There is a shoe store</b> at the mall.</i>
+                    </li>
+                    <li>We use <b>there are</b> to tell about the existence of: people, things.
+                        <br><i>Example: <b>There are two women</b> in the store. <b>There are restaurants</b> on the third level.</i>
+                    </li>
+                </ul>
+                <div class="usage-note">
+                    We often use <b>there are</b> to tell about the number of people or things that exist.<br>
+                    <i>Example: <b>There are 14,000 parking spaces</b> at the mall.</i>
+                </div>
+                <div class="usage-note">
+                    It is very common to use the contraction <b>there's</b> with singular nouns. However, we almost never use the contraction <span class="not-example">there're</span> with plural nouns.<br>
+                    <i>Example: <b>There's a salesperson</b> near the door.</i><br>
+                    <span class="not-example">NOT: There're two women in the store.</span>
+                </div>
+            </div>
+
+            <div class="grammar-note">
+                <b>2. There is / There are for Location or Time</b>
+                <p>We often use <i>there is</i> or <i>there are</i> to tell the <b>location</b> of people or things or the <b>time</b> of events.</p>
+                <ul>
+                    <li>location: <i>There's an aquarium <b>on the first floor</b>.</i></li>
+                    <li>time: <i>There are concerts <b>on Friday and Saturday nights</b>.</i></li>
+                </ul>
+            </div>
+            
+            <div class="grammar-note">
+                <b>3. Negative Forms</b>
+                <p>In the negative, use <b>isn't</b> and <b>aren't</b>.</p>
+                <p><i><b>There isn't</b> a school in the mall.</i></p>
+                <p><i><b>There aren't</b> any malls near our home.</i></p>
+                <div class="usage-note">
+                    We don't often use the full forms <i>there is not</i> or <i>there are not</i>.
+                </div>
+            </div>
+            
+             <div class="grammar-note">
+                <b>4. Yes/No Questions</b>
+                <p>Begin yes/no questions with <b>Is there</b> or <b>Are there</b>.</p>
+                <p><i><b>Is there</b> a mall nearby?</i></p>
+            </div>
+
+            <div class="grammar-note">
+                <b>5. Agreement</b>
+                <p>When two nouns follow <i>there is</i> or <i>there are</i>, the verb usually agrees with the <b>first noun</b>.</p>
+                <p><i><b>There's a shoe store</b> and two hair salons.</i></p>
+                <p><i><b>There are two hair salons</b> and a shoe store.</i></p>
+            </div>
+
+            <div class="grammar-note">
+                <b>6. There is and It is...; There are and They are</b>
+                <p>We often use <b>there is</b> or <b>there are</b> the first time we introduce people or things. We use <b>he, she, it,</b> or <b>they</b> to tell more about the people or things.</p>
+                <p><i><b>There's a Thai restaurant</b> across the street. <b>It's</b> next to the shoe store.</i></p>
+                <p><i><b>There are three little girls</b> in the dress store. <b>They're</b> excited about all the beautiful dresses.</i></p>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- STEP 3: FOCUSED PRACTICE -->
+        <!-- ====================================================== -->
+        <section id="step3">
+            <h2 class="step-header">STEP 3: FOCUSED PRACTICE</h2>
+
+            <div class="exercise">
+                <h4>EXERCISE 1: DISCOVER THE GRAMMAR</h4>
+                <p>Look at the mall directory. Write T (True) or F (False) for each statement.</p>
+                <img src="FOG-2-11/2.png" alt="Burlington Mall Directory" class="directory-img">
+                
+                <div class="exercise-item" id="ex1a-1" data-answer="T">
+                    <p>1. There's a flower shop on the first level. ( 
+                        <label><input type="radio" name="ex1a_1" value="T"> T</label> / 
+                        <label><input type="radio" name="ex1a_1" value="F"> F</label> )
+                    </p>
+                    <button onclick="checkRadio('ex1a-1')">Submit</button>
+                    <div id="feedback-ex1a-1" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="ex1a-2" data-answer="F">
+                    <p>2. There's a café on the second level. ( 
+                        <label><input type="radio" name="ex1a_2" value="T"> T</label> / 
+                        <label><input type="radio" name="ex1a_2" value="F"> F</label> )
+                    </p>
+                    <button onclick="checkRadio('ex1a-2')">Submit</button>
+                    <div id="feedback-ex1a-2" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="ex1a-3" data-answer="F">
+                    <p>3. There aren't any toy stores. ( 
+                        <label><input type="radio" name="ex1a_3" value="T"> T</label> / 
+                        <label><input type="radio" name="ex1a_3" value="F"> F</label> )
+                    </p>
+                    <button onclick="checkRadio('ex1a-3')">Submit</button>
+                    <div id="feedback-ex1a-3" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="ex1a-4" data-answer="T">
+                    <p>4. There are five places to eat. ( 
+                        <label><input type="radio" name="ex1a_4" value="T"> T</label> / 
+                        <label><input type="radio" name="ex1a_4" value="F"> F</label> )
+                    </p>
+                    <button onclick="checkRadio('ex1a-4')">Submit</button>
+                    <div id="feedback-ex1a-4" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="ex1a-5" data-answer="F">
+                    <p>5. There isn't a restroom on the second level. ( 
+                        <label><input type="radio" name="ex1a_5" value="T"> T</label> / 
+                        <label><input type="radio" name="ex1a_5" value="F"> F</label> )
+                    </p>
+                    <button onclick="checkRadio('ex1a-5')">Submit</button>
+                    <div id="feedback-ex1a-5" class="feedback"></div>
+                </div>
+                <div class="exercise-item" id="ex1a-6" data-answer="T">
+                    <p>6. There's a bookstore and an electronics store on the second level. ( 
+                        <label><input type="radio" name="ex1a_6" value="T"> T</label> / 
+                        <label><input type="radio" name="ex1a_6" value="F"> F</label> )
+                    </p>
+                    <button onclick="checkRadio('ex1a-6')">Submit</button>
+                    <div id="feedback-ex1a-6" class="feedback"></div>
+                </div>
+            </div>
+
+            <div class="exercise">
+                 <h4>EXERCISE 2: THERE IS / THERE ARE</h4>
+                 <p>Complete the sentences about the Burlington Mall with <i>There is</i> or <i>There are</i>.</p>
+                 <div class="exercise-item">
+                    <span>1. <input type="text" id="ex2-1" data-answer="There are"> two women's clothes stores at the mall.</span>
+                    <button onclick="checkAnswer('ex2-1')">Submit</button>
+                    <div id="feedback-ex2-1" class="feedback"></div>
+                </div>
+                 <div class="exercise-item">
+                    <span>2. <input type="text" id="ex2-2" data-answer="There is"> a good electronics store on the first level.</span>
+                    <button onclick="checkAnswer('ex2-2')">Submit</button>
+                    <div id="feedback-ex2-2" class="feedback"></div>
+                </div>
+                 <div class="exercise-item">
+                    <span>3. <input type="text" id="ex2-3" data-answer="There is"> a shoe store next to the art supply store.</span>
+                    <button onclick="checkAnswer('ex2-3')">Submit</button>
+                    <div id="feedback-ex2-3" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>4. <input type="text" id="ex2-4" data-answer="There are"> a lot of places to eat at the mall.</span>
+                    <button onclick="checkAnswer('ex2-4')">Submit</button>
+                    <div id="feedback-ex2-4" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>5. <input type="text" id="ex2-5" data-answer="There are"> restrooms on the first and the third levels.</span>
+                    <button onclick="checkAnswer('ex2-5')">Submit</button>
+                    <div id="feedback-ex2-5" class="feedback"></div>
+                </div>
+                <div class="exercise-item">
+                    <span>6. <input type="text" id="ex2-6" data-answer="There is"> a cosmetics store at the mall.</span>
+                    <button onclick="checkAnswer('ex2-6')">Submit</button>
+                    <div id="feedback-ex2-6" class="feedback"></div>
+                </div>
+            </div>
+
+            <!-- WRITING PRACTICE SECTION -->
+            <div class="section">
+                <h3 class="section-title">WRITING PRACTICE</h3>
+                <p>Đây là một đoạn văn mẫu về một địa điểm mua sắm. Sau khi đọc, hãy nhấn nút bên dưới để xem cách các câu được tách ra.</p>
+                <h4>My Favorite Bookstore</h4>
+                <div id="sample-paragraph" style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #eee;">
+                    There is a wonderful little bookstore in my neighborhood called "The Reading Nook." It's not a big store, but it's full of interesting books. There are shelves packed with novels, history books, and even a special section for local authors. There's a cozy armchair in the corner where you can sit and read. The owner, Mr. Harrison, is very friendly. He's always ready with a good book recommendation. There aren't any loud noises or crowds, so it's a perfect place to relax. I love going there on Saturday afternoons.
+                </div>
+                <button onclick="splitSentences()" style="margin-top:10px; padding: 10px 15px; background-color: var(--primary-color); color: white; border: none; cursor: pointer;">Tách thành câu</button>
+                <div id="sentence-output" style="margin-top: 15px;"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        /**
+         * Checks the answer for a text input field.
+         * @param {string} inputId The ID of the input element.
+         */
+        function checkAnswer(inputId) {
+            const inputEl = document.getElementById(inputId);
+            const feedbackEl = document.getElementById('feedback-' + inputId);
+            
+            // For answers that are "Ø", we use "0" as the data-answer.
+            const userAnswer = inputEl.value.trim();
+            const correctAnswer = inputEl.dataset.answer;
+
+            // Case-insensitive comparison
+            if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                inputEl.className = 'input-correct';
+                feedbackEl.className = 'feedback correct';
+                feedbackEl.innerHTML = 'Correct!';
+            } else {
+                inputEl.className = 'input-incorrect';
+                feedbackEl.className = 'feedback incorrect';
+                feedbackEl.innerHTML = `Incorrect. <span class="hint">Correct answer: ${correctAnswer}</span>`;
+            }
+        }
+
+        /**
+         * Checks the answer for a group of radio buttons.
+         * @param {string} containerId The ID of the container div for the radio group.
+         */
+        function checkRadio(containerId) {
+            const containerEl = document.getElementById(containerId);
+            const feedbackEl = document.getElementById('feedback-' + containerId);
+            const groupName = containerEl.getElementsByTagName('input')[0].name;
+
+            const selectedRadio = document.querySelector(`input[name="${groupName}"]:checked`);
+            const correctAnswer = containerEl.dataset.answer;
+
+            if (!selectedRadio) {
+                feedbackEl.className = 'feedback incorrect';
+                feedbackEl.innerHTML = 'Please select an answer.';
+                return;
+            }
+
+            if (selectedRadio.value === correctAnswer) {
+                feedbackEl.className = 'feedback correct';
+                feedbackEl.innerHTML = 'Correct!';
+            } else {
+                feedbackEl.className = 'feedback incorrect';
+                feedbackEl.innerHTML = `Incorrect. <span class="hint">The correct answer is "${correctAnswer}".</span>`;
+            }
+        }
+        
+        /**
+         * Splits the sample paragraph into sentences and displays them.
+         */
+        function splitSentences() {
+            const paragraph = document.getElementById('sample-paragraph').innerText;
+            const outputDiv = document.getElementById('sentence-output');
+
+            // Regex to split sentences while keeping the punctuation
+            const sentences = paragraph.match(/[^.!?]+[.!?]+/g) || [];
+
+            if (sentences.length > 0) {
+                let html = '<ol>';
+                sentences.forEach(sentence => {
+                    html += `<li>${sentence.trim()}</li>`;
+                });
+                html += '</ol>';
+                outputDiv.innerHTML = html;
+            } else {
+                outputDiv.innerHTML = '<p>Could not split the text into sentences.</p>';
+            }
+        }
+    </script>
+
+	<!-- ====================================================== -->
+<!-- SECTION: ADDITIONAL PRACTICE EXERCISES (100 aI) -->
+<!-- ====================================================== -->
+<section id="additional-practice" class="container">
+    <h2 class="step-header">ADDITIONAL PRACTICE EXERCISES</h2>
+    <p>Hoàn thành các câu sau. Sử dụng: <strong>There's, There is, There are, There isn't, There aren't, Is there, Are there</strong>. Sau khi trả lời đúng, câu hoàn chỉnh và bản dịch sẽ hiện ra.</p>
+
+    <div id="practice-container">
+        <!-- Các câu hỏi sẽ được tạo và chèn vào đây bởi JavaScript -->
+    </div>
+</section>
+
+<!-- SCRIPT VÀ CSS RIÊNG CHO PHẦN BÀI TẬP THÊM -->
+<style>
+    #additional-practice {
+        margin-top: 40px;
+        border-top: 5px solid var(--primary-color);
+        padding-top: 20px;
+    }
+    .practice-item {
+        margin-bottom: 18px;
+        padding: 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        background-color: #fdfdfd;
+        transition: box-shadow 0.3s;
+    }
+    .practice-item:focus-within {
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .practice-item p {
+        margin: 0 0 10px 0;
+        font-size: 1.1em;
+    }
+    .practice-item input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 150px;
+        font-size: 1em;
+    }
+    .practice-item button {
+        padding: 8px 15px;
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 10px;
+        transition: background-color 0.3s;
+    }
+    .practice-item button:hover {
+        background-color: #3f5875;
+    }
+    .practice-result {
+        display: none; /* Ẩn mặc định */
+        margin-top: 12px;
+        padding: 12px;
+        background-color: #e8f5e9; /* Light green for success */
+        border-left: 4px solid var(--correct-color);
+        border-radius: 4px;
+    }
+    .practice-result .full-sentence {
+        font-weight: bold;
+        color: #2e7d32;
+    }
+    .practice-result .translation {
+        font-style: italic;
+        color: #555;
+        margin-top: 5px;
+        font-size: 0.95em;
+    }
+</style>
+
+<script>
+    // Dữ liệu cho 100 câu hỏi
+    const practiceQuestionsData = [
+        { q: "______ a big spider in the bathroom.", a: "There is", trans: "Có một con nhện lớn trong phòng tắm." },
+        { q: "______ many clouds in the sky today.", a: "There are", trans: "Hôm nay có nhiều mây trên trời." },
+        { q: "______ any sugar left for my coffee?", a: "Is there", trans: "Còn chút đường nào cho cà phê của tôi không?" },
+        { q: "No, ______ any sugar left.", a: "there isn't", trans: "Không, không còn chút đường nào cả." },
+        { q: "______ a lot of beautiful flowers in the park.", a: "There are", trans: "Có rất nhiều hoa đẹp trong công viên." },
+        { q: "______ a problem with the computer.", a: "There's", trans: "Có một vấn đề với máy tính." },
+        { q: "Excuse me, ______ a post office near here?", a: "is there", trans: "Xin lỗi, có bưu điện nào gần đây không?" },
+        { q: "______ any good seats available for the movie.", a: "There aren't", trans: "Không còn ghế tốt nào cho bộ phim." },
+        { q: "______ a message for me?", a: "Is there", trans: "Có tin nhắn nào cho tôi không?" },
+        { q: "______ three new students in our class.", a: "There are", trans: "Có ba học sinh mới trong lớp chúng ta." },
+        { q: "______ a swimming pool in your new house?", a: "Is there", trans: "Có hồ bơi trong nhà mới của bạn không?" },
+        { q: "______ no time to waste.", a: "There is", trans: "Không có thời gian để lãng phí." },
+        { q: "Look! ______ a rainbow!", a: "There's", trans: "Nhìn kìa! Có một cái cầu vồng!" },
+        { q: "______ any cookies in the jar. I ate them all.", a: "There aren't", trans: "Không còn cái bánh quy nào trong lọ. Tôi đã ăn hết rồi." },
+        { q: "______ a great restaurant just around the corner.", a: "There's", trans: "Có một nhà hàng tuyệt vời ngay góc đường." },
+        { q: "______ several mistakes in your essay.", a: "There are", trans: "Có vài lỗi trong bài luận của bạn." },
+        { q: "How many days ______ in February?", a: "are there", trans: "Có bao nhiêu ngày trong tháng Hai?" },
+        { q: "______ a dog barking outside.", a: "There's", trans: "Có một con chó đang sủa bên ngoài." },
+        { q: "Why ______ so many people here?", a: "are there", trans: "Tại sao lại có nhiều người ở đây vậy?" },
+        { q: "______ any reason to be angry.", a: "There isn't", trans: "Không có lý do gì để tức giận cả." },
+        { q: "______ four seasons in a year.", a: "There are", trans: "Có bốn mùa trong một năm." },
+        { q: "I'm hungry. ______ anything to eat?", a: "Is there", trans: "Tôi đói. Có gì để ăn không?" },
+        { q: "______ a small cat sleeping on the sofa.", a: "There is", trans: "Có một con mèo nhỏ đang ngủ trên ghế sofa." },
+        { q: "______ any direct flights to Paris from this airport.", a: "There aren't", trans: "Không có chuyến bay thẳng nào đến Paris từ sân bay này." },
+        { q: "______ a book and two pens on my desk.", a: "There is", trans: "Có một quyển sách và hai cây bút trên bàn của tôi." },
+        { q: "______ two pens and a book on my desk.", a: "There are", trans: "Có hai cây bút và một quyển sách trên bàn của tôi." },
+        { q: "______ a chance we might see him.", a: "There's", trans: "Có khả năng chúng ta có thể gặp anh ấy." },
+        { q: "______ enough chairs for everyone?", a: "Are there", trans: "Có đủ ghế cho mọi người không?" },
+        { q: "No, ______ enough chairs.", a: "there aren't", trans: "Không, không có đủ ghế." },
+        { q: "______ a hole in my sock.", a: "There's", trans: "Có một cái lỗ trong chiếc tất của tôi." },
+        { q: "______ about 20 people at the meeting.", a: "There are", trans: "Có khoảng 20 người trong cuộc họp." },
+        { q: "______ a better way to do this?", a: "Is there", trans: "Có cách nào tốt hơn để làm việc này không?" },
+        { q: "______ a lot of noise coming from next door.", a: "There is", trans: "Có rất nhiều tiếng ồn phát ra từ nhà bên cạnh." },
+        { q: "______ any hotels in this village.", a: "There aren't", trans: "Không có khách sạn nào trong ngôi làng này." },
+        { q: "______ a strange smell in the kitchen.", a: "There's", trans: "Có một mùi lạ trong nhà bếp." },
+        { q: "______ any museums in your town?", a: "Are there", trans: "Có bảo tàng nào trong thị trấn của bạn không?" },
+        { q: "Yes, ______ two museums.", a: "there are", trans: "Có, có hai bảo tàng." },
+        { q: "______ no doubt about it.", a: "There is", trans: "Không còn nghi ngờ gì về điều đó." },
+        { q: "______ a pen I can borrow?", a: "Is there", trans: "Có cây bút nào tôi có thể mượn không?" },
+        { q: "I'm sorry, ______ any pens here.", a: "there aren't", trans: "Tôi xin lỗi, không có cây bút nào ở đây cả." },
+        { q: "______ a few things I need to tell you.", a: "There are", trans: "Có một vài điều tôi cần nói với bạn." },
+        { q: "______ any milk in the bottle.", a: "There isn't", trans: "Không có sữa trong chai." },
+        { q: "______ a good movie on TV tonight.", a: "There is", trans: "Tối nay có một bộ phim hay trên TV." },
+        { q: "______ seven days in a week.", a: "There are", trans: "Có bảy ngày trong một tuần." },
+        { q: "______ a police station nearby?", a: "Is there", trans: "Có đồn cảnh sát nào gần đây không?" },
+        { q: "______ only one apple left.", a: "There's", trans: "Chỉ còn lại một quả táo." },
+        { q: "______ any public holidays next month.", a: "There aren't", trans: "Tháng tới không có ngày lễ nào cả." },
+        { q: "______ a beautiful park in the city center.", a: "There is", trans: "Có một công viên đẹp ở trung tâm thành phố." },
+        { q: "______ any good reasons for your behavior.", a: "There aren't", trans: "Không có lý do chính đáng nào cho hành vi của bạn." },
+        { q: "______ a fly in my soup!", a: "There's", trans: "Có một con ruồi trong bát súp của tôi!" },
+        { q: "______ some letters for you on the table.", a: "There are", trans: "Có một vài lá thư cho bạn ở trên bàn." },
+        { q: "______ a shortcut to the station?", a: "Is there", trans: "Có đường tắt nào đến nhà ga không?" },
+        { q: "______ any more questions?", a: "Are there", trans: "Còn câu hỏi nào nữa không?" },
+        { q: "No, ______ any more questions.", a: "there aren't", trans: "Không, không còn câu hỏi nào nữa." },
+        { q: "______ a notice on the board about the trip.", a: "There's", trans: "Có một thông báo trên bảng về chuyến đi." },
+        { q: "I think ______ someone at the door.", a: "there is", trans: "Tôi nghĩ có ai đó ở ngoài cửa." },
+        { q: "______ many different types of animals in the zoo.", a: "There are", trans: "Có nhiều loại động vật khác nhau trong sở thú." },
+        { q: "______ any ice cream in the freezer.", a: "There isn't", trans: "Không có kem trong tủ đông." },
+        { q: "______ a lot of traffic on the roads this morning.", a: "There is", trans: "Sáng nay có rất nhiều xe cộ trên đường." },
+        { q: "______ some children playing in the yard.", a: "There are", trans: "Có một vài đứa trẻ đang chơi trong sân." },
+        { q: "______ a cheap hotel where we can stay?", a: "Is there", trans: "Có khách sạn rẻ nào mà chúng ta có thể ở không?" },
+        { q: "______ any shops open at this time.", a: "There aren't", trans: "Không có cửa hàng nào mở cửa vào giờ này." },
+        { q: "______ a big tree in front of my house.", a: "There's", trans: "Có một cái cây lớn ở trước nhà tôi." },
+        { q: "______ 24 hours in a day.", a: "There are", trans: "Có 24 giờ trong một ngày." },
+        { q: "______ a bank on this street?", a: "Is there", trans: "Có ngân hàng nào trên con phố này không?" },
+        { q: "Yes, ______ one at the end of the street.", a: "there is", trans: "Có, có một cái ở cuối phố." },
+        { q: "______ any empty seats on the bus.", a: "There aren't", trans: "Không còn ghế trống nào trên xe buýt." },
+        { q: "______ a lot of work to do today.", a: "There is", trans: "Hôm nay có rất nhiều việc phải làm." },
+        { q: "______ two windows in this room.", a: "There are", trans: "Có hai cái cửa sổ trong căn phòng này." },
+        { q: "______ anything interesting on the news?", a: "Is there", trans: "Có gì thú vị trên tin tức không?" },
+        { q: "______ no one in the office.", a: "There is", trans: "Không có ai trong văn phòng." },
+        { q: "______ some nice cafés near the university.", a: "There are", trans: "Có một vài quán cà phê xinh xắn gần trường đại học." },
+        { q: "______ any salt in this food.", a: "There isn't", trans: "Không có muối trong món ăn này." },
+        { q: "______ a long queue at the bus stop.", a: "There's", trans: "Có một hàng dài ở trạm xe buýt." },
+        { q: "______ any good books in this library?", a: "Are there", trans: "Có cuốn sách hay nào trong thư viện này không?" },
+        { q: "I'm afraid ______ any solutions to this problem.", a: "there aren't", trans: "Tôi e rằng không có giải pháp nào cho vấn đề này." },
+        { q: "______ a stain on your shirt.", a: "There's", trans: "Có một vết bẩn trên áo của bạn." },
+        { q: "______ some people who don't like cheese.", a: "There are", trans: "Có một số người không thích phô mai." },
+        { q: "______ a hospital in this area?", a: "Is there", trans: "Có bệnh viện nào trong khu vực này không?" },
+        { q: "______ any batteries for the remote control.", a: "There aren't", trans: "Không có pin cho điều khiển từ xa." },
+        { q: "______ a possibility of rain tomorrow.", a: "There is", trans: "Có khả năng ngày mai trời sẽ mưa." },
+        { q: "______ 50 states in the USA.", a: "There are", trans: "Có 50 tiểu bang ở Hoa Kỳ." },
+        { q: "How many players ______ on a soccer team?", a: "are there", trans: "Có bao nhiêu cầu thủ trong một đội bóng đá?" },
+        { q: "______ a light on in the house.", a: "There's", trans: "Có một ngọn đèn đang bật trong nhà." },
+        { q: "______ any parks in the city where you can walk your dog.", a: "There aren't", trans: "Không có công viên nào trong thành phố nơi bạn có thể dắt chó đi dạo." },
+        { q: "______ any time for a break.", a: "There isn't", trans: "Không có thời gian để nghỉ giải lao." },
+        { q: "______ too many cars on the road.", a: "There are", trans: "Có quá nhiều ô tô trên đường." },
+        { q: "______ an ATM nearby? I need some cash.", a: "Is there", trans: "Có máy ATM nào gần đây không? Tôi cần một ít tiền mặt." },
+        { q: "______ some delicious cakes in the bakery.", a: "There are", trans: "Có một số loại bánh ngon trong tiệm bánh." },
+        { q: "______ a clock on the wall.", a: "There's", trans: "Có một chiếc đồng hồ trên tường." },
+        { q: "______ any good restaurants open late at night.", a: "There aren't", trans: "Không có nhà hàng tốt nào mở cửa muộn vào ban đêm." },
+        { q: "______ a meeting at 3 PM.", a: "There is", trans: "Có một cuộc họp lúc 3 giờ chiều." },
+        { q: "______ many options to choose from.", a: "There are", trans: "Có nhiều lựa chọn để chọn." },
+        { q: "______ a reason for everything.", a: "There's", trans: "Mọi thứ đều có lý do của nó." },
+        { q: "______ any easy answers.", a: "There aren't", trans: "Không có câu trả lời nào dễ dàng cả." },
+        { q: "______ a good connection here for my phone?", a: "Is there", trans: "Ở đây có kết nối tốt cho điện thoại của tôi không?" },
+        { q: "______ many stars visible tonight.", a: "There are", trans: "Tối nay có thể nhìn thấy nhiều ngôi sao." },
+        { q: "______ any hope for our team to win.", a: "There isn't", trans: "Không có hy vọng nào cho đội của chúng ta chiến thắng." },
+        { q: "______ a call for you a minute ago.", a: "There was", trans: "Có một cuộc gọi cho bạn một phút trước." } // Bonus past tense
+    ];
+
+    /**
+     * Checks the answer for the additional practice questions.
+     * @param {number} qNumber The question number (1-100).
+     */
+    function checkPracticeAnswer(qNumber) {
+        const inputEl = document.getElementById(`practice-q${qNumber}`);
+        const feedbackEl = document.getElementById(`feedback-practice-q${qNumber}`);
+        const resultEl = document.getElementById(`result-practice-q${qNumber}`);
+
+        const userAnswer = inputEl.value.trim();
+        const correctAnswer = inputEl.dataset.answer;
+
+        if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+            inputEl.className = 'input-correct';
+            feedbackEl.className = 'feedback correct';
+            feedbackEl.textContent = 'Correct!';
+            
+            // Display the full sentence and translation
+            resultEl.innerHTML = `
+                <div class="full-sentence">${inputEl.dataset.fullSentence}</div>
+                <div class="translation">Dịch: ${inputEl.dataset.translation}</div>
+            `;
+            resultEl.style.display = 'block';
+
+        } else {
+            inputEl.className = 'input-incorrect';
+            feedbackEl.className = 'feedback incorrect';
+            feedbackEl.innerHTML = `Incorrect. <span class="hint">Hint: ${correctAnswer}</span>`;
+            
+            // Hide the result div if the answer is wrong
+            resultEl.style.display = 'none';
+        }
+    }
+
+    /**
+     * Generates and injects the HTML for all practice questions.
+     */
+    function generatePracticeQuestions() {
+        const container = document.getElementById('practice-container');
+        let html = '';
+
+        practiceQuestionsData.forEach((item, index) => {
+            const qNumber = index + 1;
+            const parts = item.q.split('______');
+            const fullSentence = `${parts[0]}<strong>${item.a}</strong>${parts[1]}`;
+
+            html += `
+                <div class="practice-item">
+                    <p>${qNumber}. ${parts[0]}<input type="text" id="practice-q${qNumber}"
+                        data-answer="${item.a}"
+                        data-full-sentence="${fullSentence}"
+                        data-translation="${item.trans}">${parts[1]}</p>
+                    <button onclick="checkPracticeAnswer(${qNumber})">Submit</button>
+                    <div id="feedback-practice-q${qNumber}" class="feedback"></div>
+                    <div id="result-practice-q${qNumber}" class="practice-result"></div>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+    }
+
+    // Call the function to build the exercise list when the page loads
+    document.addEventListener('DOMContentLoaded', generatePracticeQuestions);
+</script>
+
+</body>
+</html>
