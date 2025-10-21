@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 9: Simple Present - Yes/No Questions and Short Answers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        h1 {
+            color: #fff;
+            background-color: #555;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        h2 {
+            background-color: #1a7431;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            border-bottom: 2px solid #f2a900;
+            padding-bottom: 5px;
+            color: #d9534f;
+            margin-top: 25px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .exercise-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 4px solid #1a7431;
+            background-color: #f9f9f9;
+        }
+        .question-line {
+            margin-bottom: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .question-line label {
+            margin-right: 10px;
+        }
+        input[type="text"], input[type="radio"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #f2a900;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #d49500;
+        }
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+            font-size: 0.9em;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        .correct {
+            color: #1a7431;
+            background-color: #dff0d8;
+        }
+        .incorrect {
+            color: #a94442;
+            background-color: #f2dede;
+        }
+        .hint {
+            font-size: 0.9em;
+            color: #31708f;
+            margin-left: 10px;
+            display: inline-block;
+        }
+        .hidden {
+            display: none;
+        }
+        .word-box {
+            background-color: #e7e7e7;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .word-box span {
+            font-weight: bold;
+            margin: 0 10px;
+            font-family: monospace;
+        }
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .grammar-table th {
+            background-color: #f2f2f2;
+        }
+        .grammar-notes {
+            background-color: #e7f3fe;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .youtube-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            margin-top: 20px;
+        }
+        .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #sentence-output {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+        #sentence-output li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNIT 9: Simple Present: Yes/No Questions and Short Answers</h1>
+        <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+        
+        <h3>BEFORE YOU READ</h3>
+        <p><strong>1. Do you live alone or do you have a roommate?</strong></p>
+        <p><strong>2. Imagine you are looking for a roommate. What do you want to know about the person?</strong></p>
+
+        <h3>READ</h3>
+        <p>Colleges often use questionnaires to help students find the right roommate. Read this roommate questionnaire.</p>
+        <img src="FOG-2-9/1.png" alt="Roommate Questionnaire">
+
+        <div class="youtube-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3>AFTER YOU READ</h3>
+
+        <h4>A VOCABULARY</h4>
+        <div class="word-box">
+            <span>bother</span>
+            <span>easygoing</span>
+            <span>messy</span>
+            <span>outgoing</span>
+            <span>private</span>
+            <span>stay up</span>
+        </div>
+        <div class="exercise-item">
+            <div class="question-line">
+                <label for="exA1">1. Is her room always so</label>
+                <input type="text" id="exA1" size="10">
+                <label>? She needs to put things away.</label>
+                <button onclick="checkAnswer('exA1', 'messy')">Submit</button>
+                <span id="feedback-exA1" class="feedback hidden"></span>
+            </div>
+
+            <div class="question-line">
+                <label for="exA2">2. Does that smell</label>
+                <input type="text" id="exA2" size="10">
+                <label>you? I feel a little sick from it.</label>
+                <button onclick="checkAnswer('exA2', 'bother')">Submit</button>
+                <span id="feedback-exA2" class="feedback hidden"></span>
+            </div>
+
+            <div class="question-line">
+                <label for="exA3">3. Do you usually</label>
+                <input type="text" id="exA3" size="10">
+                <label>late? Your lights are always on after midnight.</label>
+                <button onclick="checkAnswer('exA3', 'stay up')">Submit</button>
+                <span id="feedback-exA3" class="feedback hidden"></span>
+            </div>
+
+            <div class="question-line">
+                <label for="exA4">4. Nothing upsets your brother. Is your sister</label>
+                <input type="text" id="exA4" size="10">
+                <label>, too?</label>
+                <button onclick="checkAnswer('exA4', 'easygoing')">Submit</button>
+                <span id="feedback-exA4" class="feedback hidden"></span>
+            </div>
+
+            <div class="question-line">
+                <label for="exA5">5. Is your friend's daughter always</label>
+                <input type="text" id="exA5" size="10">
+                <label>? She wasn't afraid to talk to anyone at the party.</label>
+                <button onclick="checkAnswer('exA5', 'outgoing')">Submit</button>
+                <span id="feedback-exA5" class="feedback hidden"></span>
+            </div>
+            
+            <div class="question-line">
+                <label for="exA6">6. My parents don't say much about themselves. Are your parents</label>
+                <input type="text" id="exA6" size="10">
+                <label>people, too?</label>
+                <button onclick="checkAnswer('exA6', 'private')">Submit</button>
+                <span id="feedback-exA6" class="feedback hidden"></span>
+            </div>
+        </div>
+
+        <h4>B COMPREHENSION</h4>
+        <div class="exercise-item">
+            <p><strong>1. Do Dan and Jon wake up late?</strong></p>
+            <input type="radio" name="comp1" value="a" id="c1a"> <label for="c1a">a. Yes, they do.</label><br>
+            <input type="radio" name="comp1" value="b" id="c1b"> <label for="c1b">b. No, they don't.</label><br>
+            <button onclick="checkRadio('comp1', 'b')">Submit</button>
+            <span id="feedback-comp1" class="feedback hidden"></span>
+        </div>
+        <div class="exercise-item">
+            <p><strong>2. Are Dan and Jon neat?</strong></p>
+            <input type="radio" name="comp2" value="a" id="c2a"> <label for="c2a">a. Yes, they are.</label><br>
+            <input type="radio" name="comp2" value="b" id="c2b"> <label for="c2b">b. No, they aren't.</label><br>
+            <button onclick="checkRadio('comp2', 'a')">Submit</button>
+            <span id="feedback-comp2" class="feedback hidden"></span>
+        </div>
+         <div class="exercise-item">
+            <p><strong>3. Is Dan quiet?</strong></p>
+            <input type="radio" name="comp3" value="a" id="c3a"> <label for="c3a">a. Yes, he is.</label><br>
+            <input type="radio" name="comp3" value="b" id="c3b"> <label for="c3b">b. No, he isn't.</label><br>
+            <button onclick="checkRadio('comp3', 'b')">Submit</button>
+            <span id="feedback-comp3" class="feedback hidden"></span>
+        </div>
+        <div class="exercise-item">
+            <p><strong>4. Are Dan and Jon outgoing?</strong></p>
+            <input type="radio" name="comp4" value="a" id="c4a"> <label for="c4a">a. Dan is, but Jon isn't.</label><br>
+            <input type="radio" name="comp4" value="b" id="c4b"> <label for="c4b">b. Dan isn't, but Jon is.</label><br>
+            <button onclick="checkRadio('comp4', 'a')">Submit</button>
+            <span id="feedback-comp4" class="feedback hidden"></span>
+        </div>
+        <div class="exercise-item">
+            <p><strong>5. Is Dan a private person?</strong></p>
+            <input type="radio" name="comp5" value="a" id="c5a"> <label for="c5a">a. Yes, he is.</label><br>
+            <input type="radio" name="comp5" value="b" id="c5b"> <label for="c5b">b. No, he isn't.</label><br>
+            <button onclick="checkRadio('comp5', 'a')">Submit</button>
+            <span id="feedback-comp5" class="feedback hidden"></span>
+        </div>
+         <div class="exercise-item">
+            <p><strong>6. Is Jon easygoing?</strong></p>
+            <input type="radio" name="comp6" value="a" id="c6a"> <label for="c6a">a. Yes, he is.</label><br>
+            <input type="radio" name="comp6" value="b" id="c6b"> <label for="c6b">b. No, he isn't.</label><br>
+            <button onclick="checkRadio('comp6', 'a')">Submit</button>
+            <span id="feedback-comp6" class="feedback hidden"></span>
+        </div>
+        <div class="exercise-item">
+            <p><strong>7. Do Dan and Jon dislike loud music?</strong></p>
+            <input type="radio" name="comp7" value="a" id="c7a"> <label for="c7a">a. Yes, they do.</label><br>
+            <input type="radio" name="comp7" value="b" id="c7b"> <label for="c7b">b. No, they don't.</label><br>
+            <button onclick="checkRadio('comp7', 'b')">Submit</button>
+            <span id="feedback-comp7" class="feedback hidden"></span>
+        </div>
+        <div class="exercise-item">
+            <p><strong>8. Does Dan study and listen to music at the same time?</strong></p>
+            <input type="radio" name="comp8" value="a" id="c8a"> <label for="c8a">a. Yes, he does.</label><br>
+            <input type="radio" name="comp8" value="b" id="c8b"> <label for="c8b">b. No, he doesn't.</label><br>
+            <button onclick="checkRadio('comp8', 'a')">Submit</button>
+            <span id="feedback-comp8" class="feedback hidden"></span>
+        </div>
+
+        <h4>C DISCUSSION</h4>
+        <p>Work with a partner. Compare your answers in B. Then discuss: <strong>Are Dan and Jon a good match? Give reasons for your answer.</strong></p>
+
+
+        <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+        <h3>SIMPLE PRESENT: YES/NO QUESTIONS AND SHORT ANSWERS</h3>
+
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th colspan="3">Yes/No Questions</th>
+                </tr>
+                <tr>
+                    <th>Do/Does</th>
+                    <th>Subject</th>
+                    <th>Base Form of Verb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Do</td>
+                    <td>I</td>
+                    <td rowspan="4">work?</td>
+                </tr>
+                <tr>
+                    <td>you</td>
+                </tr>
+                <tr>
+                    <td>we / they</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Does</td>
+                    <td>he / she</td>
+                </tr>
+                 <tr>
+                    <td>it</td>
+                    <td>work?</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Short Answers</th>
+                </tr>
+                <tr>
+                    <th>Affirmative</th>
+                    <th>Negative</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yes, I / you / we / they <strong>do</strong>.</td>
+                    <td>No, I / you / we / they <strong>don't</strong>.</td>
+                </tr>
+                <tr>
+                    <td>Yes, he / she / it <strong>does</strong>.</td>
+                    <td>No, he / she / it <strong>doesn't</strong>.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="grammar-notes">
+            <h4>GRAMMAR NOTES</h4>
+            <p><strong>1. Simple Present: Form of Yes/No Questions</strong></p>
+            <p>For <strong>yes/no questions</strong> in the simple present, use <strong>do</strong> or <strong>does</strong> before the subject. Use the base form of the verb after the subject.</p>
+            <p><em>Example:</em> <strong>Do</strong> you <strong>need</strong> a roommate? / <strong>Does</strong> he <strong>have</strong> a roommate?</p>
+            <p><strong>BE CAREFUL!</strong> Do not use <em>do</em> or <em>does</em> for yes/no questions with <strong>be</strong>.</p>
+            <p><strong>Are</strong> you from Ecuador? (NOT: <del>Do you be from Ecuador?</del>)</p>
+
+            <p><strong>2. Simple Present: Answers to Yes/No Questions</strong></p>
+            <p>We usually use <strong>short answers</strong> in conversation, but we can also use long answers.</p>
+            <p>A: Do you need a roommate?<br>
+            B: <strong>Yes, I do.</strong> (short answer)<br>
+            OR<br>
+            B: <strong>Yes, I need a roommate.</strong> (long answer)</p>
+        </div>
+
+
+        <h2>WRITING</h2>
+        <h3>Sample Paragraph</h3>
+        <p id="sample-paragraph">My roommate is named Alex. He is from California. We are both students at the local university. Alex is studying engineering, and I am studying art. We have different majors, but we have many things in common. For example, we both love to play soccer and watch movies on weekends. He is very neat, but sometimes I am a little messy. It works out well because he helps me stay organized.</p>
+
+        <h3>Sentence Splitter</h3>
+        <p>Click the button to split the sample paragraph into individual sentences.</p>
+        <button onclick="splitSentences()">Split Sentences</button>
+        <ol id="sentence-output"></ol>
+
+    </div>
+
+    <script>
+        function checkAnswer(inputId, correctAnswer, alternatives = []) {
+            const feedbackEl = document.getElementById('feedback-' + inputId);
+            const inputEl = document.getElementById(inputId);
+            const userAnswer = inputEl.value.trim().toLowerCase();
+            
+            const allCorrectAnswers = [correctAnswer.toLowerCase(), ...alternatives.map(a => a.toLowerCase())];
+
+            if (allCorrectAnswers.includes(userAnswer)) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Incorrect. <span class="hint">Correct answer: <strong>${correctAnswer}</strong></span>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+
+        function checkRadio(radioName, correctAnswer) {
+            const feedbackEl = document.getElementById('feedback-' + radioName);
+            const radioButtons = document.getElementsByName(radioName);
+            let userAnswer = '';
+            for (const radio of radioButtons) {
+                if (radio.checked) {
+                    userAnswer = radio.value;
+                    break;
+                }
+            }
+
+            if (userAnswer === '') {
+                feedbackEl.textContent = 'Please select an answer.';
+                feedbackEl.className = 'feedback incorrect';
+                return;
+            }
+
+            if (userAnswer === correctAnswer) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.innerHTML = `Incorrect. <span class="hint">The correct choice is <strong>${correctAnswer.toUpperCase()}</strong>.</span>`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+        }
+
+        // Writing section script
+        function splitSentences() {
+            const paragraph = document.getElementById('sample-paragraph').textContent;
+            const outputList = document.getElementById('sentence-output');
+            
+            // Clear previous results
+            outputList.innerHTML = '';
+            
+            // Split by period, then filter out empty strings and trim whitespace
+            const sentences = paragraph.split('.')
+                                       .map(sentence => sentence.trim())
+                                       .filter(sentence => sentence.length > 0);
+
+            // Create and append list items
+            sentences.forEach(sentence => {
+                const listItem = document.createElement('li');
+                listItem.textContent = sentence + '.';
+                outputList.appendChild(listItem);
+            });
+        }
+    </script>
+
+	<!-- ===================================================================== -->
+<!-- =================== SECTION BÀI TẬP MỞ RỘNG ===================== -->
+<!-- ===================================================================== -->
+<div class="container" id="extended-practice-section">
+    <h2>Extended Practice (100 Questions)</h2>
+    <p>Complete the questions and short answers with the correct form of <strong>Do, Does, Am, Is, Are</strong>. Then, complete the short answers.</p>
+    <div id="extended-exercises-container">
+        <!-- 100 câu hỏi sẽ được JavaScript chèn vào đây -->
+    </div>
+</div>
+
+<style>
+    /* Thêm một vài style dành riêng cho phần bài tập mở rộng */
+    .extended-exercise-item {
+        margin-bottom: 25px;
+        padding: 15px;
+        border-left: 4px solid #f2a900; /* Màu khác để phân biệt */
+        background-color: #fdfdfd;
+        border-radius: 4px;
+    }
+    .full-sentence-container {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #e7f3fe;
+        border: 1px solid #bce8f1;
+        border-radius: 4px;
+    }
+    .full-sentence-container p {
+        margin: 0;
+        padding: 0;
+    }
+    .full-sentence-container .vietnamese-translation {
+        font-style: italic;
+        color: #555;
+        margin-top: 5px;
+        font-size: 0.9em;
+    }
+    .extended-exercise-item input[type="text"] {
+        width: 60px; /* Kích thước phù hợp cho các từ ngắn */
+    }
+</style>
+
+<script>
+    // SCRIPT RIÊNG CHO PHẦN BÀI TẬP MỞ RỘNG
+    // Dữ liệu cho 100 câu hỏi
+    const practiceQuestions = [
+        { id: 'ep1', type: 'fill', parts: ['___', 'you like coffee?'], answers: ['Do'], full: 'Do you like coffee?', trans: 'Bạn có thích cà phê không?' },
+        { id: 'ep2', type: 'fill', parts: ['___', 'he play soccer?'], answers: ['Does'], full: 'Does he play soccer?', trans: 'Anh ấy có chơi bóng đá không?' },
+        { id: 'ep3', type: 'fill', parts: ['___', 'they live in this city?'], answers: ['Do'], full: 'Do they live in this city?', trans: 'Họ có sống ở thành phố này không?' },
+        { id: 'ep4', type: 'fill', parts: ['___', 'she work on weekends?'], answers: ['Does'], full: 'Does she work on weekends?', trans: 'Cô ấy có làm việc vào cuối tuần không?' },
+        { id: 'ep5', type: 'fill', parts: ['___', 'I need a new pen?'], answers: ['Do'], full: 'Do I need a new pen?', trans: 'Tôi có cần một cây bút mới không?' },
+        { id: 'ep6', type: 'fill', parts: ['___', 'the cat sleep all day?'], answers: ['Does'], full: 'Does the cat sleep all day?', trans: 'Con mèo có ngủ cả ngày không?' },
+        { id: 'ep7', type: 'fill', parts: ['___', 'we have a meeting today?'], answers: ['Do'], full: 'Do we have a meeting today?', trans: 'Chúng ta có cuộc họp hôm nay không?' },
+        { id: 'ep8', type: 'fill', parts: ['A: ', '___', 'she know the answer? B: Yes, she ', '___', '.'], answers: ['Does', 'does'], full: 'A: Does she know the answer? B: Yes, she does.', trans: 'A: Cô ấy có biết câu trả lời không? B: Có, cô ấy biết.' },
+        { id: 'ep9', type: 'fill', parts: ['A: ', '___', 'you understand? B: No, I ', '___', '.'], answers: ['Do', 'don\'t'], full: 'A: Do you understand? B: No, I don\'t.', trans: 'A: Bạn có hiểu không? B: Không, tôi không hiểu.' },
+        { id: 'ep10', type: 'fill', parts: ['___', 'your parents speak French?'], answers: ['Do'], full: 'Do your parents speak French?', trans: 'Bố mẹ bạn có nói tiếng Pháp không?' },
+        { id: 'ep11', type: 'fill', parts: ['___', 'your brother have a car?'], answers: ['Does'], full: 'Does your brother have a car?', trans: 'Anh trai bạn có xe hơi không?' },
+        { id: 'ep12', type: 'fill', parts: ['___', 'you busy?'], answers: ['Are'], full: 'Are you busy?', trans: 'Bạn có bận không?' },
+        { id: 'ep13', type: 'fill', parts: ['___', 'he a doctor?'], answers: ['Is'], full: 'Is he a doctor?', trans: 'Anh ấy có phải là bác sĩ không?' },
+        { id: 'ep14', type: 'fill', parts: ['___', 'they from Canada?'], answers: ['Are'], full: 'Are they from Canada?', trans: 'Họ đến từ Canada phải không?' },
+        { id: 'ep15', type: 'fill', parts: ['___', 'I late?'], answers: ['Am'], full: 'Am I late?', trans: 'Tôi có bị trễ không?' },
+        { id: 'ep16', type: 'fill', parts: ['___', 'it cold outside?'], answers: ['Is'], full: 'Is it cold outside?', trans: 'Ngoài trời có lạnh không?' },
+        { id: 'ep17', type: 'fill', parts: ['A: ', '___', 'she your sister? B: No, she ', '___', '.'], answers: ['Is', 'isn\'t'], full: 'A: Is she your sister? B: No, she isn\'t.', trans: 'A: Cô ấy có phải là chị của bạn không? B: Không, không phải.' },
+        { id: 'ep18', type: 'fill', parts: ['A: ', '___', 'we in the right place? B: Yes, we ', '___', '.'], answers: ['Are', 'are'], full: 'A: Are we in the right place? B: Yes, we are.', trans: 'A: Chúng ta có ở đúng nơi không? B: Có, đúng vậy.' },
+        { id: 'ep19', type: 'fill', parts: ['___', 'Maria and Juan friends?'], answers: ['Are'], full: 'Are Maria and Juan friends?', trans: 'Maria và Juan có phải là bạn không?' },
+        { id: 'ep20', type: 'fill', parts: ['___', 'the computer work?'], answers: ['Does'], full: 'Does the computer work?', trans: 'Máy tính có hoạt động không?' },
+        { id: 'ep21', type: 'fill', parts: ['___', 'you want some water?'], answers: ['Do'], full: 'Do you want some water?', trans: 'Bạn có muốn uống chút nước không?' },
+        { id: 'ep22', type: 'fill', parts: ['___', 'the children play outside often?'], answers: ['Do'], full: 'Do the children play outside often?', trans: 'Bọn trẻ có thường xuyên chơi ngoài trời không?' },
+        { id: 'ep23', type: 'fill', parts: ['___', 'this bus go downtown?'], answers: ['Does'], full: 'Does this bus go downtown?', trans: 'Chuyến xe buýt này có đi vào trung tâm thành phố không?' },
+        { id: 'ep24', type: 'fill', parts: ['___', 'I look okay in this dress?'], answers: ['Do'], full: 'Do I look okay in this dress?', trans: 'Tôi trông có ổn trong chiếc váy này không?' },
+        { id: 'ep25', type: 'fill', parts: ['___', 'the movie interesting?'], answers: ['Is'], full: 'Is the movie interesting?', trans: 'Bộ phim có thú vị không?' },
+        { id: 'ep26', type: 'fill', parts: ['___', 'your dog friendly?'], answers: ['Is'], full: 'Is your dog friendly?', trans: 'Con chó của bạn có thân thiện không?' },
+        { id: 'ep27', type: 'fill', parts: ['___', 'the students ready for the test?'], answers: ['Are'], full: 'Are the students ready for the test?', trans: 'Các sinh viên đã sẵn sàng cho bài kiểm tra chưa?' },
+        { id: 'ep28', type: 'fill', parts: ['A: ', '___', 'your father cook? B: No, he ', '___', '.'], answers: ['Does', 'doesn\'t'], full: 'A: Does your father cook? B: No, he doesn\'t.', trans: 'A: Bố của bạn có nấu ăn không? B: Không, ông ấy không.' },
+        { id: 'ep29', type: 'fill', parts: ['___', 'you have any siblings?'], answers: ['Do'], full: 'Do you have any siblings?', trans: 'Bạn có anh chị em nào không?' },
+        { id: 'ep30', type: 'fill', parts: ['___', 'he feel better today?'], answers: ['Does'], full: 'Does he feel better today?', trans: 'Hôm nay anh ấy có cảm thấy khỏe hơn không?' },
+        { id: 'ep31', type: 'fill', parts: ['___', 'we need to leave now?'], answers: ['Do'], full: 'Do we need to leave now?', trans: 'Chúng ta có cần phải rời đi ngay bây giờ không?' },
+        { id: 'ep32', type: 'fill', parts: ['___', 'the store open on Sundays?'], answers: ['Does'], full: 'Does the store open on Sundays?', trans: 'Cửa hàng có mở cửa vào Chủ nhật không?' },
+        { id: 'ep33', type: 'fill', parts: ['___', 'I pronouncing this word correctly?'], answers: ['Am'], full: 'Am I pronouncing this word correctly?', trans: 'Tôi có đang phát âm từ này đúng không?' },
+        { id: 'ep34', type: 'fill', parts: ['___', 'your friends coming to the party?'], answers: ['Are'], full: 'Are your friends coming to the party?', trans: 'Bạn bè của bạn có đến bữa tiệc không?' },
+        { id: 'ep35', type: 'fill', parts: ['___', 'that your final answer?'], answers: ['Is'], full: 'Is that your final answer?', trans: 'Đó có phải là câu trả lời cuối cùng của bạn không?' },
+        { id: 'ep36', type: 'fill', parts: ['___', 'you believe in ghosts?'], answers: ['Do'], full: 'Do you believe in ghosts?', trans: 'Bạn có tin vào ma không?' },
+        { id: 'ep37', type: 'fill', parts: ['___', 'a square have four sides?'], answers: ['Does'], full: 'Does a square have four sides?', trans: 'Hình vuông có bốn cạnh phải không?' },
+        { id: 'ep38', type: 'fill', parts: ['___', 'we have enough time?'], answers: ['Do'], full: 'Do we have enough time?', trans: 'Chúng ta có đủ thời gian không?' },
+        { id: 'ep39', type: 'fill', parts: ['___', 'the baby cry a lot?'], answers: ['Does'], full: 'Does the baby cry a lot?', trans: 'Em bé có khóc nhiều không?' },
+        { id: 'ep40', type: 'fill', parts: ['___', 'these shoes comfortable?'], answers: ['Are'], full: 'Are these shoes comfortable?', trans: 'Đôi giày này có thoải mái không?' },
+        { id: 'ep41', type: 'fill', parts: ['A: ', '___', 'he tired? B: Yes, he ', '___', '.'], answers: ['Is', 'is'], full: 'A: Is he tired? B: Yes, he is.', trans: 'A: Anh ấy có mệt không? B: Có, anh ấy mệt.' },
+        { id: 'ep42', type: 'fill', parts: ['___', 'you know how to swim?'], answers: ['Do'], full: 'Do you know how to swim?', trans: 'Bạn có biết bơi không?' },
+        { id: 'ep43', type: 'fill', parts: ['___', 'she study every night?'], answers: ['Does'], full: 'Does she study every night?', trans: 'Cô ấy có học bài mỗi tối không?' },
+        { id: 'ep44', type: 'fill', parts: ['___', 'I your best friend?'], answers: ['Am'], full: 'Am I your best friend?', trans: 'Tôi có phải là bạn thân nhất của bạn không?' },
+        { id: 'ep45', type: 'fill', parts: ['___', 'the kitchen clean?'], answers: ['Is'], full: 'Is the kitchen clean?', trans: 'Nhà bếp có sạch không?' },
+        { id: 'ep46', type: 'fill', parts: ['___', 'people in your country drink tea?'], answers: ['Do'], full: 'Do people in your country drink tea?', trans: 'Người dân ở nước bạn có uống trà không?' },
+        { id: 'ep47', type: 'fill', parts: ['___', 'a pilot fly airplanes?'], answers: ['Does'], full: 'Does a pilot fly airplanes?', trans: 'Phi công có lái máy bay không?' },
+        { id: 'ep48', type: 'fill', parts: ['___', 'you and your brother look alike?'], answers: ['Do'], full: 'Do you and your brother look alike?', trans: 'Bạn và anh trai bạn có trông giống nhau không?' },
+        { id: 'ep49', type: 'fill', parts: ['___', 'this information correct?'], answers: ['Is'], full: 'Is this information correct?', trans: 'Thông tin này có chính xác không?' },
+        { id: 'ep50', type: 'fill', parts: ['A: ', '___', 'the kids happy? B: Yes, they ', '___', '.'], answers: ['Are', 'are'], full: 'A: Are the kids happy? B: Yes, they are.', trans: 'A: Bọn trẻ có vui không? B: Có, chúng vui.' },
+        { id: 'ep51', type: 'fill', parts: ['___', 'it rain a lot here?'], answers: ['Does'], full: 'Does it rain a lot here?', trans: 'Ở đây có mưa nhiều không?' },
+        { id: 'ep52', type: 'fill', parts: ['___', 'you take the bus to work?'], answers: ['Do'], full: 'Do you take the bus to work?', trans: 'Bạn có đi xe buýt đến chỗ làm không?' },
+        { id: 'ep53', type: 'fill', parts: ['___', 'I supposed to be here?'], answers: ['Am'], full: 'Am I supposed to be here?', trans: 'Tôi có phải là nên ở đây không?' },
+        { id: 'ep54', type: 'fill', parts: ['___', 'the library open now?'], answers: ['Is'], full: 'Is the library open now?', trans: 'Thư viện bây giờ có mở cửa không?' },
+        { id: 'ep55', type: 'fill', parts: ['___', 'your classmates friendly?'], answers: ['Are'], full: 'Are your classmates friendly?', trans: 'Bạn cùng lớp của bạn có thân thiện không?' },
+        { id: 'ep56', type: 'fill', parts: ['___', 'Michael have a pet?'], answers: ['Does'], full: 'Does Michael have a pet?', trans: 'Michael có nuôi thú cưng không?' },
+        { id: 'ep57', type: 'fill', parts: ['___', 'you ever feel lonely?'], answers: ['Do'], full: 'Do you ever feel lonely?', trans: 'Bạn có bao giờ cảm thấy cô đơn không?' },
+        { id: 'ep58', type: 'fill', parts: ['A: ', '___', 'this taste good? B: No, it ', '___', '.'], answers: ['Does', 'doesn\'t'], full: 'A: Does this taste good? B: No, it doesn\'t.', trans: 'A: Cái này có ngon không? B: Không, không ngon.' },
+        { id: 'ep59', type: 'fill', parts: ['___', 'we need to buy milk?'], answers: ['Do'], full: 'Do we need to buy milk?', trans: 'Chúng ta có cần mua sữa không?' },
+        { id: 'ep60', type: 'fill', parts: ['___', 'I doing this right?'], answers: ['Am'], full: 'Am I doing this right?', trans: 'Tôi có đang làm đúng không?' },
+        { id: 'ep61', type: 'fill', parts: ['___', 'the game about to start?'], answers: ['Is'], full: 'Is the game about to start?', trans: 'Trận đấu sắp bắt đầu phải không?' },
+        { id: 'ep62', type: 'fill', parts: ['___', 'the flowers beautiful?'], answers: ['Are'], full: 'Are the flowers beautiful?', trans: 'Những bông hoa có đẹp không?' },
+        { id: 'ep63', type: 'fill', parts: ['___', 'she want to be a singer?'], answers: ['Does'], full: 'Does she want to be a singer?', trans: 'Cô ấy có muốn trở thành ca sĩ không?' },
+        { id: 'ep64', type: 'fill', parts: ['___', 'you watch TV in the morning?'], answers: ['Do'], full: 'Do you watch TV in the morning?', trans: 'Bạn có xem TV vào buổi sáng không?' },
+        { id: 'ep65', type: 'fill', parts: ['___', 'penguins live in the Arctic?'], answers: ['Do'], full: 'Do penguins live in the Arctic?', trans: 'Chim cánh cụt có sống ở Bắc Cực không?' },
+        { id: 'ep66', type: 'fill', parts: ['A: ', '___', 'you cold? B: No, I\'m ', '___', '.'], answers: ['Are', 'not'], full: 'A: Are you cold? B: No, I\'m not.', trans: 'A: Bạn có lạnh không? B: Không, tôi không.' },
+        { id: 'ep67', type: 'fill', parts: ['___', 'the sun rise in the east?'], answers: ['Does'], full: 'Does the sun rise in the east?', trans: 'Mặt trời có mọc ở phía Đông không?' },
+        { id: 'ep68', type: 'fill', parts: ['___', 'you have your passport with you?'], answers: ['Do'], full: 'Do you have your passport with you?', trans: 'Bạn có mang theo hộ chiếu không?' },
+        { id: 'ep69', type: 'fill', parts: ['___', 'this train stop at Central Station?'], answers: ['Does'], full: 'Does this train stop at Central Station?', trans: 'Chuyến tàu này có dừng ở Ga Trung tâm không?' },
+        { id: 'ep70', type: 'fill', parts: ['A: ', '___', 'they need help? B: Yes, they ', '___', '.'], answers: ['Do', 'do'], full: 'A: Do they need help? B: Yes, they do.', trans: 'A: Họ có cần giúp đỡ không? B: Có, họ cần.' },
+        { id: 'ep71', type: 'fill', parts: ['___', 'I in trouble?'], answers: ['Am'], full: 'Am I in trouble?', trans: 'Tôi có đang gặp rắc rối không?' },
+        { id: 'ep72', type: 'fill', parts: ['___', 'the coffee hot enough?'], answers: ['Is'], full: 'Is the coffee hot enough?', trans: 'Cà phê có đủ nóng không?' },
+        { id: 'ep73', type: 'fill', parts: ['___', 'these your keys?'], answers: ['Are'], full: 'Are these your keys?', trans: 'Đây có phải là chìa khóa của bạn không?' },
+        { id: 'ep74', type: 'fill', parts: ['___', 'your son go to this school?'], answers: ['Does'], full: 'Does your son go to this school?', trans: 'Con trai bạn có học ở trường này không?' },
+        { id: 'ep75', type: 'fill', parts: ['___', 'we follow the rules?'], answers: ['Do'], full: 'Do we follow the rules?', trans: 'Chúng ta có tuân thủ các quy tắc không?' },
+        { id: 'ep76', type: 'fill', parts: ['___', 'she listen to pop music?'], answers: ['Does'], full: 'Does she listen to pop music?', trans: 'Cô ấy có nghe nhạc pop không?' },
+        { id: 'ep77', type: 'fill', parts: ['___', 'you prefer tea or coffee?'], answers: ['Do'], full: 'Do you prefer tea or coffee?', trans: 'Bạn thích trà hay cà phê hơn?' },
+        { id: 'ep78', type: 'fill', parts: ['___', 'a vegetarian eat meat?'], answers: ['Does'], full: 'Does a vegetarian eat meat?', trans: 'Người ăn chay có ăn thịt không?' },
+        { id: 'ep79', type: 'fill', parts: ['___', 'the tickets expensive?'], answers: ['Are'], full: 'Are the tickets expensive?', trans: 'Vé có đắt không?' },
+        { id: 'ep80', type: 'fill', parts: ['___', 'I the only one here?'], answers: ['Am'], full: 'Am I the only one here?', trans: 'Tôi có phải là người duy nhất ở đây không?' },
+        { id: 'ep81', type: 'fill', parts: ['A: ', '___', 'he good at math? B: No, he ', '___', '.'], answers: ['Is', 'isn\'t'], full: 'A: Is he good at math? B: No, he isn\'t.', trans: 'A: Anh ấy có giỏi toán không? B: Không, không giỏi.' },
+        { id: 'ep82', type: 'fill', parts: ['___', 'you remember my name?'], answers: ['Do'], full: 'Do you remember my name?', trans: 'Bạn có nhớ tên tôi không?' },
+        { id: 'ep83', type: 'fill', parts: ['___', 'it make any sense?'], answers: ['Does'], full: 'Does it make any sense?', trans: 'Nó có hợp lý không?' },
+        { id: 'ep84', type: 'fill', parts: ['___', 'the banks close at 5 PM?'], answers: ['Do'], full: 'Do the banks close at 5 PM?', trans: 'Các ngân hàng có đóng cửa lúc 5 giờ chiều không?' },
+        { id: 'ep85', type: 'fill', parts: ['___', 'this road go to the airport?'], answers: ['Does'], full: 'Does this road go to the airport?', trans: 'Con đường này có dẫn đến sân bay không?' },
+        { id: 'ep86', type: 'fill', parts: ['___', 'all of these books yours?'], answers: ['Are'], full: 'Are all of these books yours?', trans: 'Tất cả những cuốn sách này là của bạn phải không?' },
+        { id: 'ep87', type: 'fill', parts: ['___', 'that painting famous?'], answers: ['Is'], full: 'Is that painting famous?', trans: 'Bức tranh đó có nổi tiếng không?' },
+        { id: 'ep88', type: 'fill', parts: ['___', 'we need an invitation?'], answers: ['Do'], full: 'Do we need an invitation?', trans: 'Chúng ta có cần giấy mời không?' },
+        { id: 'ep89', type: 'fill', parts: ['___', 'your teacher give a lot of homework?'], answers: ['Does'], full: 'Does your teacher give a lot of homework?', trans: 'Giáo viên của bạn có giao nhiều bài tập về nhà không?' },
+        { id: 'ep90', type: 'fill', parts: ['___', 'I have to finish this today?'], answers: ['Do'], full: 'Do I have to finish this today?', trans: 'Tôi có phải hoàn thành cái này hôm nay không?' },
+        { id: 'ep91', type: 'fill', parts: ['___', 'Sarah work in a hospital?'], answers: ['Does'], full: 'Does Sarah work in a hospital?', trans: 'Sarah có làm việc trong bệnh viện không?' },
+        { id: 'ep92', type: 'fill', parts: ['___', 'you and your family on vacation?'], answers: ['Are'], full: 'Are you and your family on vacation?', trans: 'Bạn và gia đình đang đi nghỉ phải không?' },
+        { id: 'ep93', type: 'fill', parts: ['___', 'the exam difficult?'], answers: ['Is'], full: 'Is the exam difficult?', trans: 'Bài kiểm tra có khó không?' },
+        { id: 'ep94', type: 'fill', parts: ['___', 'I talking too fast?'], answers: ['Am'], full: 'Am I talking too fast?', trans: 'Tôi có đang nói quá nhanh không?' },
+        { id: 'ep95', type: 'fill', parts: ['A: ', '___', 'they from Spain? B: Yes, they ', '___', '.'], answers: ['Are', 'are'], full: 'A: Are they from Spain? B: Yes, they are.', trans: 'A: Họ đến từ Tây Ban Nha phải không? B: Vâng, đúng vậy.' },
+        { id: 'ep96', type: 'fill', parts: ['___', 'this machine require batteries?'], answers: ['Does'], full: 'Does this machine require batteries?', trans: 'Cái máy này có cần pin không?' },
+        { id: 'ep97', type: 'fill', parts: ['___', 'you have a favorite movie?'], answers: ['Do'], full: 'Do you have a favorite movie?', trans: 'Bạn có bộ phim yêu thích nào không?' },
+        { id: 'ep98', type: 'fill', parts: ['___', 'the water warm enough to swim?'], answers: ['Is'], full: 'Is the water warm enough to swim?', trans: 'Nước có đủ ấm để bơi không?' },
+        { id: 'ep99', type: 'fill', parts: ['___', 'the children asleep?'], answers: ['Are'], full: 'Are the children asleep?', trans: 'Bọn trẻ đã ngủ chưa?' },
+        { id: 'ep100', type: 'fill', parts: ['___', 'it usually snow here in winter?'], answers: ['Does'], full: 'Does it usually snow here in winter?', trans: 'Trời có thường có tuyết ở đây vào mùa đông không?' }
+    ];
+
+    // Hàm tạo HTML cho các bài tập
+    document.addEventListener('DOMContentLoaded', () => {
+        const container = document.getElementById('extended-exercises-container');
+        if (!container) return;
+
+        let exercisesHTML = '';
+        practiceQuestions.forEach((q, index) => {
+            let questionHTML = '';
+            let inputIndex = 0;
+            q.parts.forEach(part => {
+                if (part === '___') {
+                    questionHTML += `<input type="text" id="${q.id}-input-${inputIndex}" class="ep-input" size="5">`;
+                    inputIndex++;
+                } else {
+                    questionHTML += `<span>${part}</span>`;
+                }
+            });
+
+            exercisesHTML += `
+                <div class="extended-exercise-item" id="${q.id}">
+                    <div class="question-line">
+                        <label><strong>${index + 1}.</strong> ${questionHTML}</label>
+                    </div>
+                    <button onclick="checkExtendedAnswer('${q.id}')">Submit</button>
+                    <span id="feedback-${q.id}" class="feedback hidden"></span>
+                    <div id="solution-${q.id}" class="full-sentence-container hidden">
+                        <p>${q.full}</p>
+                        <p class="vietnamese-translation">${q.trans}</p>
+                    </div>
+                </div>
+            `;
+        });
+        container.innerHTML = exercisesHTML;
+    });
+
+    // Hàm kiểm tra đáp án
+    function checkExtendedAnswer(questionId) {
+        const questionData = practiceQuestions.find(q => q.id === questionId);
+        const feedbackEl = document.getElementById(`feedback-${questionId}`);
+        const solutionEl = document.getElementById(`solution-${questionId}`);
+        
+        let allCorrect = true;
+        for (let i = 0; i < questionData.answers.length; i++) {
+            const inputEl = document.getElementById(`${questionId}-input-${i}`);
+            // Chuẩn hóa câu trả lời (xóa dấu chấm, khoảng trắng, chuyển thành chữ thường)
+            const userAnswer = inputEl.value.trim().replace(/\.$/, '').toLowerCase();
+            const correctAnswer = questionData.answers[i].toLowerCase();
+            
+            // Đặc biệt xử lý "don't" và "is not" / "isn't"
+            const correctAlternatives = {
+                "don't": ["do not"],
+                "doesn't": ["does not"],
+                "isn't": ["is not"],
+                "aren't": ["are not"],
+                "i'm not": ["am not"],
+            };
+
+            let isThisInputCorrect = (userAnswer === correctAnswer);
+            if (!isThisInputCorrect && correctAlternatives[correctAnswer]) {
+                if(correctAlternatives[correctAnswer].includes(userAnswer)) {
+                    isThisInputCorrect = true;
+                }
+            }
+             if (!isThisInputCorrect && correctAnswer === "not" && userAnswer === "i'm not") { // trường hợp đặc biệt câu 66
+                isThisInputCorrect = true;
+            }
+
+
+            if (!isThisInputCorrect) {
+                allCorrect = false;
+                break;
+            }
+        }
+
+        if (allCorrect) {
+            feedbackEl.textContent = 'Correct!';
+            feedbackEl.className = 'feedback correct';
+            solutionEl.className = 'full-sentence-container'; // Hiển thị câu hoàn chỉnh
+        } else {
+            feedbackEl.innerHTML = `Incorrect. <span class="hint">Please try again. Correct answer is: <strong>${questionData.answers.join(', ')}</strong></span>`;
+            feedbackEl.className = 'feedback incorrect';
+            solutionEl.className = 'full-sentence-container hidden'; // Ẩn nếu sai
+        }
+    }
+</script>
+
+</body>
+</html>
