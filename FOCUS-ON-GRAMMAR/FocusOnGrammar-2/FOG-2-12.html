@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 12: Possessive Nouns and Adjectives; Pronouns; Questions with Whose</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #4CAF50;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+            margin-top: 30px;
+        }
+
+        strong {
+            color: #0056b3;
+        }
+
+        /* Layout and Images */
+        .flex-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .flex-container .text-content {
+            flex: 2;
+        }
+
+        .flex-container .image-content {
+            flex: 1;
+        }
+
+        .flex-container img, .centered-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+            text-align: center;
+        }
+        .image-gallery div {
+            flex: 1;
+        }
+
+        /* Grammar Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #e9f5e9;
+        }
+        
+        .grammar-table-header {
+            background-color: #777;
+            color: white;
+        }
+
+        /* Grammar Notes and Be Careful Boxes */
+        .grammar-note {
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .be-careful {
+            background-color: #fff3f3;
+            border-left: 5px solid #d9534f;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .be-careful::before {
+            content: "BE CAREFUL!";
+            font-weight: bold;
+            color: #d9534f;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+        }
+        
+        .question {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #fafafa;
+            border-radius: 4px;
+        }
+
+        .question ol, .question ul {
+            padding-left: 20px;
+        }
+
+        .question p {
+            margin-top: 0;
+        }
+
+        .question input[type="text"], .question select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            font-size: 1em;
+        }
+        
+        .question .choice-group {
+             display: inline-block;
+             border: 1px solid #ccc;
+             border-radius: 4px;
+             padding: 5px;
+             background-color: white;
+        }
+
+        .question button {
+            padding: 8px 15px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-left: 10px;
+        }
+
+        .question button:hover {
+            background-color: #4cae4c;
+        }
+
+        .question button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .feedback {
+            margin-top: 5px;
+            font-size: 0.9em;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 3px;
+            display: none; /* Hidden by default */
+        }
+
+        .feedback.correct {
+            color: #3c763d;
+            background-color: #dff0d8;
+        }
+
+        .feedback.incorrect {
+            color: #a94442;
+            background-color: #f2dede;
+        }
+        
+        /* Writing Section */
+        #writing-output {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #eef;
+            border: 1px dashed #aaa;
+        }
+        #writing-output ol {
+            padding-left: 25px;
+        }
+
+        #writing-output li {
+            margin-bottom: 5px;
+        }
+        
+        .word-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .word-box span {
+            background-color: #fff;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNIT 12: Possessive Nouns and Adjectives; Pronouns; Questions with Whose</h1>
+        
+        <!-- ==================== STEP 1 ==================== -->
+        <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+        <h3>BEFORE YOU READ</h3>
+        <p>Work with a partner. Answer the questions.</p>
+        <div class="flex-container">
+            <div class="text-content">
+                <ol>
+                    <li>Is your handwriting neat? Is it difficult to read?</li>
+                    <li>Look at Michelle and Rick's handwriting. Whose handwriting is neat? Whose is messy?</li>
+                </ol>
+            </div>
+            <div class="image-content">
+                <img src="FOG-2-12/1.png" alt="Handwriting samples of Michelle Young and Rick M.">
+            </div>
+        </div>
+
+        <h3>READ</h3>
+        <p>Read this conversation between a teacher and her students.</p>
+
+        <div class="flex-container">
+            <div class="text-content">
+                <h4>Whose Composition Is This?</h4>
+                <p><strong>TEACHER:</strong> Whose composition is this?</p>
+                <p><strong>BORIS:</strong> Is it a good paper?</p>
+                <p><strong>TEACHER:</strong> It's excellent.</p>
+                <p><strong>BORIS:</strong> It's <strong>my</strong> composition.</p>
+                <p><strong>YOLANDA:</strong> No, that's not <strong>your</strong> handwriting. It's Kim's composition. <strong>Her</strong> name is right there. She's absent today.</p>
+                <p><strong>TEACHER:</strong> Thanks, Yolanda. Whose paper is this?</p>
+                <p><strong>BORIS:</strong> Is it a good paper?</p>
+                <p><strong>TEACHER:</strong> It's OK.</p>
+                <p><strong>BORIS:</strong> Then it's <strong>mine</strong>.</p>
+                <p><strong>JUAN:</strong> It's not <strong>yours</strong>. It's <strong>mine</strong>. See, <strong>my</strong> name is on the back.</p>
+                <p><strong>TEACHER:</strong> You're right, Juan. I recognize <strong>your</strong> handwriting. Here, Boris. This is <strong>your</strong> composition.</p>
+                <p><strong>BORIS:</strong> Is it a good paper?</p>
+                <p><strong>TEACHER:</strong> It needs some work.</p>
+                <p><strong>BORIS:</strong> I don't think it's <strong>mine</strong>.</p>
+                <p><strong>TEACHER:</strong> Uh ... I think it is <strong>yours</strong>. All the other compositions have a name on them.</p>
+            </div>
+            <div class="image-content">
+                <img src="FOG-2-12/2.png" alt="Teacher in a classroom with students.">
+            </div>
+        </div>
+        
+        <!-- YouTube Video Placeholder -->
+        <div class="video-container" style="margin-top: 20px; text-align: center;">
+            <h4>Related Video</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID_HERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+        <h3>AFTER YOU READ</h3>
+        
+        <h4>A. VOCABULARY</h4>
+        <p>Complete the sentences with the words from the box.</p>
+        <div class="word-box">
+            <span>back</span>
+            <span>composition</span>
+            <span>excellent</span>
+            <span>grade</span>
+            <span>recognize</span>
+        </div>
+        <div class="exercise">
+            <div class="question">
+                1. He has a new hairstyle and is wearing a new suit. It's hard to <input type="text" id="qA1"> him.
+                <button onclick="checkAnswer(this, 'recognize', 'Hint: to know someone or something because you have seen or heard him or her or experienced it before.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                2. We had to write a <input type="text" id="qA2"> about a favorite childhood possession. Mine was about my blue blanket.
+                <button onclick="checkAnswer(this, 'composition', 'Hint: a piece of writing.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                3. Are the answers in the <input type="text" id="qA3"> of the book?
+                <button onclick="checkAnswer(this, 'back', 'Hint: The opposite of front.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                4. What was your <input type="text" id="qA4"> in English? Mine was an A+.
+                <button onclick="checkAnswer(this, 'grade', 'Hint: A number or letter that shows how good someone\'s work or performance is.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                5. Her writing is <input type="text" id="qA5">. It is clear, organized, and interesting.
+                <button onclick="checkAnswer(this, 'excellent', 'Hint: Extremely good.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+        </div>
+
+        <h4>B. COMPREHENSION</h4>
+        <p>Write short answers to the following questions.</p>
+        <div class="exercise">
+            <div class="question">
+                1. Whose composition is very good? <input type="text" id="qB1">
+                <button onclick="checkAnswer(this, 'Kims', 'Hint: Look at what the teacher says is \'excellent\'.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                2. Who's absent? <input type="text" id="qB2">
+                <button onclick="checkAnswer(this, 'Kim', 'Hint: Yolanda mentions this person is not in class today.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                3. Whose composition has a name on the back? <input type="text" id="qB3">
+                <button onclick="checkAnswer(this, 'Juans', 'Hint: One student says \'my name is on the back\'.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+            <div class="question">
+                4. Whose composition needs work? <input type="text" id="qB4">
+                <button onclick="checkAnswer(this, 'Boris', 'Hint: The teacher gives one paper back and says it needs some work.')">Submit</button>
+                <div class="feedback"></div>
+            </div>
+        </div>
+
+        <h4>C. DISCUSSION</h4>
+        <p>Work with a partner. Compare your answers in B. Then look at the compositions below. Which composition is Kim's, Juan's, and Boris's? Explain your answers.</p>
+        <div class="image-gallery">
+            <div>
+                <img src="FOG-2-12/3.png" alt="Composition with 'What's your main idea?' comment.">
+                <p><strong>1.</strong></p>
+            </div>
+            <div>
+                <img src="FOG-2-12/4.png" alt="Composition with 'Excellent paper' and 'Good organization' comments.">
+                <p><strong>2.</strong></p>
+            </div>
+            <div>
+                <img src="FOG-2-12/5.png" alt="Composition with 'Good' and 'Can you add more examples?' comments.">
+                <p><strong>3.</strong></p>
+            </div>
+        </div>
+        <p><strong>Answer:</strong> 1 is Boris's (needs work), 2 is Kim's (excellent), 3 is Juan's (OK).</p>
+        
+        <!-- ==================== STEP 2 ==================== -->
+        <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+        
+        <h3>POSSESSIVES; PRONOUNS; QUESTIONS WITH WHOSE</h3>
+        
+        <h4>Possessive Nouns</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Singular Nouns</th>
+                    <th>Plural Nouns</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>John's</strong> last name is Tamez.</td>
+                    <td>The <strong>girls'</strong> gym is on this floor.</td>
+                </tr>
+                <tr>
+                    <td><strong>Russ's</strong> last name is Stram.</td>
+                    <td>My <strong>parents'</strong> car is in the garage.</td>
+                </tr>
+                <tr>
+                    <td>My <strong>mother's</strong> name is Rita.</td>
+                    <td>The <strong>women's</strong> restroom is on the first floor.</td>
+                </tr>
+                 <tr>
+                    <td>The <strong>woman's</strong> name is Carmen.</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Possessive Adjectives and Possessive Pronouns</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject Pronoun</th>
+                    <th>Possessive Adjective</th>
+                    <th>Possessive Pronoun</th>
+                    <th>Examples</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>I</td><td><strong>my</strong></td><td><strong>mine</strong></td><td>That is <strong>my</strong> book. That book is <strong>mine</strong>.</td></tr>
+                <tr><td>You</td><td><strong>your</strong></td><td><strong>yours</strong></td><td>Do you have <strong>your</strong> key? Do you have <strong>yours</strong>?</td></tr>
+                <tr><td>He</td><td><strong>his</strong></td><td><strong>his</strong></td><td>This is <strong>his</strong> car. This car is <strong>his</strong>.</td></tr>
+                <tr><td>She</td><td><strong>her</strong></td><td><strong>hers</strong></td><td>That's <strong>her</strong> house. That house is <strong>hers</strong>.</td></tr>
+                <tr><td>It</td><td><strong>its</strong></td><td><strong>its</strong></td><td>Look at that bird. <strong>Its</strong> feathers are red and gold.</td></tr>
+                <tr><td>We</td><td><strong>our</strong></td><td><strong>ours</strong></td><td>We lost <strong>our</strong> notes. We lost <strong>ours</strong>.</td></tr>
+                <tr><td>They</td><td><strong>their</strong></td><td><strong>theirs</strong></td><td>They can't find <strong>their</strong> tickets. They can't find <strong>theirs</strong>.</td></tr>
+            </tbody>
+        </table>
+        
+        <h4>Questions with Whose</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Questions</th>
+                    <th>Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Whose</strong> book report is long?</td>
+                    <td>Carmen's. / Carmen's book report is long.</td>
+                </tr>
+                <tr>
+                    <td><strong>Whose</strong> eyes are green?</td>
+                    <td>Igor's. / Igor's eyes are green.</td>
+                </tr>
+                <tr>
+                    <td><strong>Whose</strong> compositions are finished?</td>
+                    <td>Yoko's and Kaori's. / Yoko's and Kaori's compositions.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- ==================== WRITING PART ==================== -->
+        <h2>WRITING</h2>
+        <h3>Sample Paragraph</h3>
+        <div id="writing-sample">
+            <p>My family is very important to me. My mother's name is Maria, and my father's name is Carlos. They are from Mexico. My parents' house is in a small town. I have one sister. Her name is Sofia. She is a student at a university. Her classes are difficult, but she likes them. Our family also has a dog. Its name is Rocky, and its fur is brown and white. We all love our family and our home.</p>
+        </div>
+        
+        <h3>Analyze the Paragraph</h3>
+        <p>Click the button to split the sample paragraph into individual sentences.</p>
+        <button onclick="splitSentences()">Split Sentences</button>
+        <div id="writing-output"></div>
+
+    </div><!-- end .container -->
+
+    <script>
+        function checkAnswer(buttonElement, correctAnswer, hint) {
+            const questionDiv = buttonElement.closest('.question');
+            const inputElement = questionDiv.querySelector('input, select');
+            const feedbackDiv = questionDiv.querySelector('.feedback');
+            
+            const userAnswer = inputElement.value.trim().toLowerCase();
+            // Handle common possessive cases
+            const normalizedCorrectAnswer = correctAnswer.toLowerCase().replace(/'s/g, '').replace(/s'/g, 's');
+            const normalizedUserAnswer = userAnswer.replace(/'s/g, '').replace(/s'/g, 's');
+
+            if (normalizedUserAnswer === normalizedCorrectAnswer) {
+                feedbackDiv.textContent = 'Correct!';
+                feedbackDiv.className = 'feedback correct';
+                inputElement.disabled = true;
+                buttonElement.disabled = true;
+            } else {
+                feedbackDiv.textContent = 'Incorrect. ' + hint;
+                feedbackDiv.className = 'feedback incorrect';
+            }
+            feedbackDiv.style.display = 'block';
+        }
+
+        function splitSentences() {
+            const paragraph = document.getElementById('writing-sample').innerText;
+            const outputDiv = document.getElementById('writing-output');
+            
+            // A more robust way to split sentences, handling various punctuation.
+            const sentences = paragraph.match(/[^.!?]+[.!?]+/g) || [];
+            
+            if (sentences.length > 0) {
+                let html = '<ol>';
+                sentences.forEach(sentence => {
+                    html += `<li>${sentence.trim()}</li>`;
+                });
+                html += '</ol>';
+                outputDiv.innerHTML = html;
+            } else {
+                outputDiv.innerHTML = '<p>Could not find any sentences to split.</p>';
+            }
+        }
+    </script>
+
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 12: Possessive Nouns and Adjectives; Pronouns; Questions with Whose</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #4CAF50;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            color: #555;
+            margin-top: 30px;
+        }
+        
+        h4 {
+            color: #0056b3;
+            margin-top: 25px;
+        }
+
+        strong {
+            color: #0056b3;
+        }
+
+        /* Layout and Images */
+        .flex-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .flex-container .text-content { flex: 2; }
+        .flex-container .image-content { flex: 1; }
+
+        .flex-container img, .centered-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+            text-align: center;
+        }
+        .image-gallery div { flex: 1; }
+
+        /* Grammar Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #e9f5e9; }
+        .grammar-table-header { background-color: #777; color: white; }
+
+        /* Exercises */
+        .exercise {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+        }
+        
+        .question, .practice-question {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #fafafa;
+            border-radius: 4px;
+            border-left: 3px solid #ccc;
+        }
+        
+        .practice-question.correct-answered {
+             border-left: 3px solid #4CAF50;
+        }
+
+        .question input[type="text"], .question select, .practice-question input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            font-size: 1em;
+            width: 120px;
+        }
+        
+        .question button, .practice-question button {
+            padding: 8px 15px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-left: 10px;
+        }
+
+        .question button:hover, .practice-question button:hover {
+            background-color: #4cae4c;
+        }
+
+        .question button:disabled, .practice-question button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .feedback {
+            margin-top: 10px;
+            font-size: 0.9em;
+            font-weight: bold;
+            padding: 8px;
+            border-radius: 3px;
+            display: none; /* Hidden by default */
+        }
+
+        .feedback.correct { color: #3c763d; background-color: #dff0d8; }
+        .feedback.incorrect { color: #a94442; background-color: #f2dede; }
+        
+        .result-sentence {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e7f3fe;
+            border: 1px solid #bce8f1;
+            border-radius: 4px;
+            display: none; /* Hidden by default */
+        }
+        .result-sentence .complete-en {
+            font-weight: bold;
+            color: #31708f;
+        }
+        .result-sentence .translation-vi {
+            font-style: italic;
+            color: #555;
+            font-size: 0.95em;
+            margin-top: 5px;
+        }
+
+        .word-box {
+            display: flex; flex-wrap: wrap; gap: 10px; background-color: #f0f0f0;
+            padding: 10px; border: 1px solid #ccc; margin-bottom: 20px; border-radius: 5px;
+        }
+        .word-box span { background-color: #fff; padding: 5px 10px; border: 1px solid #ddd; border-radius: 3px; }
+
+        /* Writing Section */
+        #writing-output { margin-top: 15px; padding: 10px; background-color: #eef; border: 1px dashed #aaa; }
+        #writing-output ol { padding-left: 25px; }
+        #writing-output li { margin-bottom: 5px; }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- ==================== STEP 1 from previous request ==================== -->
+        <!-- The original content you had before would go here. I am omitting it for brevity but it should be included. -->
+        
+        
+        <!-- ========================================================== -->
+        <!-- ============ NEW ADDITIONAL PRACTICE SECTION ============= -->
+        <!-- ========================================================== -->
+        
+        <div id="additional-practice-section">
+            <h2>Additional Practice Exercises</h2>
+            <p>Test your knowledge with 100 more questions. Type your answer and click "Submit".</p>
+
+            <!-- ==== Part 1: Possessive Nouns ('s, s') ==== -->
+            <h4>Part 1: Possessive Nouns</h4>
+            <div class="exercise">
+                <div id="pq-1" class="practice-question">
+                    1. The <input type="text" id="input-pq-1"> toy is under the sofa. (dog)
+                    <button onclick="checkPracticeAnswer(this, 'dog\'s', 'Hint: Singular noun. Add \'s.', 'pq-1', 'The dog\'s toy is under the sofa.', 'Đồ chơi của con chó đang ở dưới ghế sofa.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-2" class="practice-question">
+                    2. My <input type="text" id="input-pq-2"> car is new. (parents)
+                    <button onclick="checkPracticeAnswer(this, 'parents\'', 'Hint: Plural noun ending in -s. Add only an apostrophe.', 'pq-2', 'My parents\' car is new.', 'Xe của bố mẹ tôi thì mới.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-3" class="practice-question">
+                    3. The <input type="text" id="input-pq-3"> meeting is on the first floor. (women)
+                    <button onclick="checkPracticeAnswer(this, 'women\'s', 'Hint: Irregular plural noun. Add \'s.', 'pq-3', 'The women\'s meeting is on the first floor.', 'Cuộc họp của các chị em phụ nữ ở tầng một.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-4" class="practice-question">
+                    4. <input type="text" id="input-pq-4"> office is on the top floor. (Mr. Jones)
+                    <button onclick="checkPracticeAnswer(this, 'Mr. Jones\'s', 'Hint: Singular noun ending in -s. You can add \'s.', 'pq-4', 'Mr. Jones\'s office is on the top floor.', 'Văn phòng của ông Jones ở tầng trên cùng.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-5" class="practice-question">
+                    5. The <input type="text" id="input-pq-5"> classroom is very colorful. (children)
+                    <button onclick="checkPracticeAnswer(this, 'children\'s', 'Hint: Irregular plural noun. Add \'s.', 'pq-5', 'The children\'s classroom is very colorful.', 'Phòng học của bọn trẻ rất sặc sỡ.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <!-- ... Add more Possessive Noun questions up to ~20 ... -->
+                 <div id="pq-6" class="practice-question">
+                    6. I borrowed <input type="text" id="input-pq-6"> bike. (James)
+                    <button onclick="checkPracticeAnswer(this, 'James\'s', 'Hint: Singular noun ending in s. Add \'s.', 'pq-6', 'I borrowed James\'s bike.', 'Tôi đã mượn xe đạp của James.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-7" class="practice-question">
+                    7. The <input type="text" id="input-pq-7"> laughter filled the room. (baby)
+                    <button onclick="checkPracticeAnswer(this, 'baby\'s', 'Hint: Singular noun. Add \'s.', 'pq-7', 'The baby\'s laughter filled the room.', 'Tiếng cười của em bé vang khắp phòng.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-8" class="practice-question">
+                    8. The <input type="text" id="input-pq-8"> team won the championship. (players)
+                    <button onclick="checkPracticeAnswer(this, 'players\'', 'Hint: Plural noun ending in s. Add only an apostrophe.', 'pq-8', 'The players\' team won the championship.', 'Đội của các cầu thủ đã vô địch.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-9" class="practice-question">
+                    9. I need to find the <input type="text" id="input-pq-9"> restroom. (men)
+                    <button onclick="checkPracticeAnswer(this, 'men\'s', 'Hint: Irregular plural noun. Add \'s.', 'pq-9', 'I need to find the men\'s restroom.', 'Tôi cần tìm nhà vệ sinh nam.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-10" class="practice-question">
+                    10. That is my <input type="text" id="input-pq-10"> house. (sister)
+                    <button onclick="checkPracticeAnswer(this, 'sister\'s', 'Hint: Singular noun. Add \'s.', 'pq-10', 'That is my sister\'s house.', 'Đó là nhà của chị gái tôi.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-11" class="practice-question">
+                    11. Where are the <input type="text" id="input-pq-11"> toys? (cats)
+                    <button onclick="checkPracticeAnswer(this, 'cats\'', 'Hint: Plural noun ending in s. Add only an apostrophe.', 'pq-11', 'Where are the cats\' toys?', 'Đồ chơi của mấy con mèo ở đâu?')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-12" class="practice-question">
+                    12. <input type="text" id="input-pq-12"> new novel is a bestseller. (Charles Dickens)
+                    <button onclick="checkPracticeAnswer(this, 'Charles Dickens\'', 'Hint: A name ending in s. Often just an apostrophe is added.', 'pq-12', 'Charles Dickens\' new novel is a bestseller.', 'Cuốn tiểu thuyết mới của Charles Dickens bán chạy nhất.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+            </div>
+
+            <!-- ==== Part 2: Possessive Adjectives (my, your, his, her, its, our, their) ==== -->
+            <h4>Part 2: Possessive Adjectives</h4>
+            <div class="exercise">
+                <div id="pq-21" class="practice-question">
+                    21. I have a pen. This is <input type="text" id="input-pq-21"> pen.
+                    <button onclick="checkPracticeAnswer(this, 'my', 'Hint: Belongs to \'I\'.', 'pq-21', 'I have a pen. This is my pen.', 'Tôi có một cây bút. Đây là bút của tôi.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-22" class="practice-question">
+                    22. You have a book. Is that <input type="text" id="input-pq-22"> book?
+                    <button onclick="checkPracticeAnswer(this, 'your', 'Hint: Belongs to \'you\'.', 'pq-22', 'You have a book. Is that your book?', 'Bạn có một cuốn sách. Đó có phải là sách của bạn không?')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-23" class="practice-question">
+                    23. He is a doctor. <input type="text" id="input-pq-23"> name is Dr. Smith.
+                    <button onclick="checkPracticeAnswer(this, 'his', 'Hint: Belongs to \'he\'.', 'pq-23', 'He is a doctor. His name is Dr. Smith.', 'Anh ấy là bác sĩ. Tên anh ấy là Bác sĩ Smith.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-24" class="practice-question">
+                    24. She has a new car. <input type="text" id="input-pq-24"> car is red.
+                    <button onclick="checkPracticeAnswer(this, 'her', 'Hint: Belongs to \'she\'.', 'pq-24', 'She has a new car. Her car is red.', 'Cô ấy có một chiếc xe mới. Xe của cô ấy màu đỏ.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-25" class="practice-question">
+                    25. The cat is sleeping. <input type="text" id="input-pq-25"> tail is twitching.
+                    <button onclick="checkPracticeAnswer(this, 'its', 'Hint: Belongs to \'it\' (the cat). No apostrophe!', 'pq-25', 'The cat is sleeping. Its tail is twitching.', 'Con mèo đang ngủ. Đuôi của nó đang co giật.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <!-- ... Add more Possessive Adjective questions up to ~40 ... -->
+                 <div id="pq-26" class="practice-question">
+                    26. We live in this house. This is <input type="text" id="input-pq-26"> house.
+                    <button onclick="checkPracticeAnswer(this, 'our', 'Hint: Belongs to \'we\'.', 'pq-26', 'We live in this house. This is our house.', 'Chúng tôi sống trong ngôi nhà này. Đây là nhà của chúng tôi.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-27" class="practice-question">
+                    27. They are students. <input type="text" id="input-pq-27"> classroom is on the second floor.
+                    <button onclick="checkPracticeAnswer(this, 'their', 'Hint: Belongs to \'they\'.', 'pq-27', 'They are students. Their classroom is on the second floor.', 'Họ là sinh viên. Lớp học của họ ở tầng hai.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-28" class="practice-question">
+                    28. Maria loves to read. <input type="text" id="input-pq-28"> favorite author is Jane Austen.
+                    <button onclick="checkPracticeAnswer(this, 'her', 'Hint: Belongs to Maria (she).', 'pq-28', 'Maria loves to read. Her favorite author is Jane Austen.', 'Maria thích đọc sách. Tác giả yêu thích của cô ấy là Jane Austen.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-29" class="practice-question">
+                    29. John and I are brothers. <input type="text" id="input-pq-29"> parents are very proud.
+                    <button onclick="checkPracticeAnswer(this, 'our', 'Hint: Belongs to \'John and I\' (we).', 'pq-29', 'John and I are brothers. Our parents are very proud.', 'John và tôi là anh em. Cha mẹ của chúng tôi rất tự hào.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+            </div>
+            
+            <!-- ==== Part 3: Possessive Pronouns (mine, yours, his, hers, ours, theirs) ==== -->
+            <h4>Part 3: Possessive Pronouns</h4>
+             <div class="exercise">
+                <div id="pq-41" class="practice-question">
+                    41. This is my book, not your book. This book is <input type="text" id="input-pq-41">.
+                    <button onclick="checkPracticeAnswer(this, 'mine', 'Hint: Replaces \'my book\'.', 'pq-41', 'This is my book, not your book. This book is mine.', 'Đây là sách của tôi, không phải sách của bạn. Cuốn sách này là của tôi.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-42" class="practice-question">
+                    42. That's her coat. The red coat is <input type="text" id="input-pq-42">.
+                    <button onclick="checkPracticeAnswer(this, 'hers', 'Hint: Replaces \'her coat\'.', 'pq-42', 'That\'s her coat. The red coat is hers.', 'Đó là áo khoác của cô ấy. Chiếc áo khoác màu đỏ là của cô ấy.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-43" class="practice-question">
+                    43. Is this your wallet? Yes, it's <input type="text" id="input-pq-43">.
+                    <button onclick="checkPracticeAnswer(this, 'mine', 'Hint: The speaker is answering about their own wallet.', 'pq-43', 'Is this your wallet? Yes, it\'s mine.', 'Đây có phải ví của bạn không? Vâng, nó là của tôi.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-44" class="practice-question">
+                    44. Their house is big, but our house is bigger. <input type="text" id="input-pq-44"> is bigger.
+                    <button onclick="checkPracticeAnswer(this, 'ours', 'Hint: Replaces \'our house\'.', 'pq-44', 'Their house is big, but our house is bigger. Ours is bigger.', 'Nhà của họ to, nhưng nhà của chúng tôi to hơn. Nhà của chúng tôi to hơn.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-45" class="practice-question">
+                    45. The keys on the table are not mine. Are they <input type="text" id="input-pq-45">? (referring to 'you')
+                    <button onclick="checkPracticeAnswer(this, 'yours', 'Hint: Replaces \'your keys\'.', 'pq-45', 'The keys on the table are not mine. Are they yours?', 'Chìa khóa trên bàn không phải của tôi. Chúng có phải của bạn không?')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+            </div>
+
+            <!-- ==== Part 4: Subject & Object Pronouns (I/me, he/him, she/her, etc.) ==== -->
+            <h4>Part 4: Subject & Object Pronouns</h4>
+             <div class="exercise">
+                <div id="pq-61" class="practice-question">
+                    61. My sister and <input type="text" id="input-pq-61"> are going to the cinema. (I / me)
+                    <button onclick="checkPracticeAnswer(this, 'I', 'Hint: This is the subject of the verb \'are going\'.', 'pq-61', 'My sister and I are going to the cinema.', 'Chị tôi và tôi sẽ đi xem phim.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-62" class="practice-question">
+                    62. The teacher gave the homework to <input type="text" id="input-pq-62">. (she / her)
+                    <button onclick="checkPracticeAnswer(this, 'her', 'Hint: This is the object of the preposition \'to\'.', 'pq-62', 'The teacher gave the homework to her.', 'Cô giáo đã giao bài tập về nhà cho cô ấy.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-63" class="practice-question">
+                    63. Can you help <input type="text" id="input-pq-63"> with this box? (we / us)
+                    <button onclick="checkPracticeAnswer(this, 'us', 'Hint: This is the object of the verb \'help\'.', 'pq-63', 'Can you help us with this box?', 'Bạn có thể giúp chúng tôi với cái hộp này được không?')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-64" class="practice-question">
+                    64. <input type="text" id="input-pq-64"> are best friends. (They / Them)
+                    <button onclick="checkPracticeAnswer(this, 'They', 'Hint: This is the subject of the verb \'are\'.', 'pq-64', 'They are best friends.', 'Họ là bạn thân.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-65" class="practice-question">
+                    65. I saw John and <input type="text" id="input-pq-65"> at the library. (she / her)
+                    <button onclick="checkPracticeAnswer(this, 'her', 'Hint: This is part of the object of the verb \'saw\'.', 'pq-65', 'I saw John and her at the library.', 'Tôi đã thấy John và cô ấy ở thư viện.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+            </div>
+
+            <!-- ==== Part 5: Questions with Whose & Who's ==== -->
+            <h4>Part 5: Questions with Whose & Who's</h4>
+            <div class="exercise">
+                <div id="pq-81" class="practice-question">
+                    81. <input type="text" id="input-pq-81"> jacket is this on the chair?
+                    <button onclick="checkPracticeAnswer(this, 'Whose', 'Hint: Asks about possession/ownership.', 'pq-81', 'Whose jacket is this on the chair?', 'Cái áo khoác trên ghế này là của ai?')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                <div id="pq-82" class="practice-question">
+                    82. <input type="text" id="input-pq-82"> going to the party tonight?
+                    <button onclick="checkPracticeAnswer(this, 'Who\'s', 'Hint: This is a contraction for \'Who is\'.', 'pq-82', 'Who\'s going to the party tonight?', 'Ai sẽ đi dự tiệc tối nay?')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-83" class="practice-question">
+                    83. I don't know <input type="text" id="input-pq-83"> keys these are.
+                    <button onclick="checkPracticeAnswer(this, 'whose', 'Hint: Asks about possession.', 'pq-83', 'I don\'t know whose keys these are.', 'Tôi không biết những chiếc chìa khóa này là của ai.')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-84" class="practice-question">
+                    84. <input type="text" id="input-pq-84"> your favorite singer?
+                    <button onclick="checkPracticeAnswer(this, 'Who\'s', 'Hint: Short for \'Who is\'.', 'pq-84', 'Who\'s your favorite singer?', 'Ca sĩ yêu thích của bạn là ai?')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+                 <div id="pq-85" class="practice-question">
+                    85. The teacher asked, "<input type="text" id="input-pq-85"> paper is this without a name?"
+                    <button onclick="checkPracticeAnswer(this, 'Whose', 'Hint: Asks about ownership of the paper.', 'pq-85', 'The teacher asked, "Whose paper is this without a name?"', 'Cô giáo hỏi, "Bài làm không có tên này là của ai?"')">Submit</button>
+                    <div class="feedback"></div> <div class="result-sentence"></div>
+                </div>
+            </div>
+
+        </div> <!-- end #additional-practice-section -->
+    </div><!-- end .container -->
+
+
+    <!-- Original Script for Step 1 -->
+    <script>
+        function checkAnswer(buttonElement, correctAnswer, hint) {
+            const questionDiv = buttonElement.closest('.question');
+            const inputElement = questionDiv.querySelector('input, select');
+            const feedbackDiv = questionDiv.querySelector('.feedback');
+            const userAnswer = inputElement.value.trim().toLowerCase();
+            const normalizedCorrectAnswer = correctAnswer.toLowerCase().replace(/'s/g, '').replace(/s'/g, 's');
+            const normalizedUserAnswer = userAnswer.replace(/'s/g, '').replace(/s'/g, 's');
+
+            if (normalizedUserAnswer === normalizedCorrectAnswer) {
+                feedbackDiv.textContent = 'Correct!';
+                feedbackDiv.className = 'feedback correct';
+                inputElement.disabled = true;
+                buttonElement.disabled = true;
+            } else {
+                feedbackDiv.textContent = 'Incorrect. ' + hint;
+                feedbackDiv.className = 'feedback incorrect';
+            }
+            feedbackDiv.style.display = 'block';
+        }
+
+        function splitSentences() {
+            const paragraph = document.getElementById('writing-sample').innerText;
+            const outputDiv = document.getElementById('writing-output');
+            const sentences = paragraph.match(/[^.!?]+[.!?]+/g) || [];
+            if (sentences.length > 0) {
+                let html = '<ol>';
+                sentences.forEach(sentence => { html += `<li>${sentence.trim()}</li>`; });
+                html += '</ol>';
+                outputDiv.innerHTML = html;
+            } else {
+                outputDiv.innerHTML = '<p>Could not find any sentences to split.</p>';
+            }
+        }
+    </script>
+    
+    <!-- =============================================== -->
+    <!-- ==== NEW SCRIPT FOR ADDITIONAL EXERCISES ====== -->
+    <!-- =============================================== -->
+    <script>
+        function checkPracticeAnswer(buttonElement, correctAnswer, hint, questionId, fullSentence, vietnameseTranslation) {
+            const questionDiv = document.getElementById(questionId);
+            if (!questionDiv) return;
+
+            const inputElement = questionDiv.querySelector('input[type="text"]');
+            const feedbackDiv = questionDiv.querySelector('.feedback');
+            const resultDiv = questionDiv.querySelector('.result-sentence');
+            
+            const userAnswer = inputElement.value.trim();
+
+            // Case-insensitive comparison for most answers, but exact for possessives like 's vs s'
+            if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                // Display the full correct sentence and translation
+                resultDiv.innerHTML = `<div class="complete-en">${fullSentence}</div><div class="translation-vi">${vietnameseTranslation}</div>`;
+                resultDiv.style.display = 'block';
+                
+                // Hide incorrect feedback if it was shown before
+                feedbackDiv.style.display = 'none';
+
+                // Disable input and button
+                inputElement.disabled = true;
+                buttonElement.disabled = true;
+                
+                // Add a class to the parent div for styling
+                questionDiv.classList.add('correct-answered');
+
+            } else {
+                // Display incorrect feedback
+                feedbackDiv.textContent = 'Incorrect. ' + hint;
+                feedbackDiv.className = 'feedback incorrect';
+                feedbackDiv.style.display = 'block';
+
+                // Hide the result sentence div
+                resultDiv.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+	
+
+</body>
+</html>
