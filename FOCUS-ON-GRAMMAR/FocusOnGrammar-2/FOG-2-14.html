@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 14: Permission: Can or May / Special Diets</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: #0056b3;
+        }
+        h1 {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            font-size: 2.5em;
+        }
+        h2 {
+            background-color: #4CAF50; /* Green from the book */
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #d9534f; /* Red/Orange from the book */
+            border-left: 4px solid #d9534f;
+            padding-left: 10px;
+        }
+
+        /* Images */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        /* Interactive Exercises */
+        .exercise-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fdfdfd;
+        }
+        .exercise-item p, .exercise-item label {
+            margin: 0 0 10px 0;
+        }
+        input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+            min-width: 200px;
+        }
+        .submit-btn {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+            display: none;
+        }
+        .correct {
+            color: #28a745;
+        }
+        .incorrect {
+            color: #dc3545;
+        }
+
+        /* Grammar Presentation */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+        }
+        td:first-child {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .grammar-note {
+            background-color: #e7f3fe;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .be-careful {
+            background-color: #fff3cd;
+            border-left-color: #ffc107;
+        }
+        .usage-note {
+            background-color: #d4edda;
+            border-left-color: #28a745;
+        }
+        .grammar-note p { margin: 0; }
+        .grammar-note code {
+            background-color: rgba(0,0,0,0.05);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        /* Comprehension Table */
+        .comprehension-table th, .comprehension-table td {
+            text-align: center;
+        }
+        .comprehension-table td { background-color: white; }
+        .comprehension-table .food-header {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            white-space: nowrap;
+        }
+        .correct-cell {
+             background-color: #d4edda !important;
+        }
+        .incorrect-cell {
+             background-color: #f8d7da !important;
+        }
+
+        /* Youtube Video */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Writing/Sentence Splitter */
+        #sentence-output {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+        #sentence-output li {
+            margin-bottom: 8px;
+            padding: 5px;
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>UNIT 14: Permission: Can or May / SPECIAL DIETS</h1>
+
+        <!-- ====================================================== -->
+        <!-- STEP 1: GRAMMAR IN CONTEXT                             -->
+        <!-- ====================================================== -->
+        <section id="grammar-in-context">
+            <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+            <h3>BEFORE YOU READ</h3>
+            <p>Work with a partner. Answer the questions.</p>
+            <ol>
+                <li>Are there any foods that you don’t eat? What foods?</li>
+                <li>Why don’t you eat them?</li>
+            </ol>
+
+            <h3>READ</h3>
+            <p>Read this article about vegetarians and vegans.</p>
+
+            <img src="FOG-2-14/1.png" alt="A woman making a smoothie in a kitchen with lots of fruit.">
+            
+            <article>
+                <h4>Vegetarians and Vegans</h4>
+                <p>What do Confucius, Leonardo da Vinci, Leo Tolstoy, and Mahatma Gandhi have in common? They were all vegetarians. Vegetarians don’t eat meat. Vegans don’t eat meat, fish, eggs, and dairy products.</p>
+                <p>Are you thinking, “I could never be a vegan”? Well, there are many nutritious meals you can prepare and eat while following a vegan diet. Here is a menu for one day.</p>
+            </article>
+
+            <!-- YOUTUBE VIDEO SECTION -->
+            
+            <article>
+                <p>For breakfast, you <strong>can have</strong> oatmeal with fruit. You <strong>can’t use</strong> regular milk in your cereal, but you <strong>can substitute</strong> soy milk for regular milk. For lunch, you <strong>can have</strong> a hummus and avocado sandwich and a salad. Cut up lettuce, carrots, and tomatoes. Add nuts and a dairy-free dressing. If you’re thirsty, you <strong>can make</strong> a fruit smoothie. Put water or soy milk in a blender.<sup>1</sup> Then add bananas and strawberries. For dinner, you <strong>can prepare</strong> spinach lasagna. You <strong>may use</strong> tofu instead of cheese and soy milk instead of cream. Then follow any spinach lasagna recipe.</p>
+                <p>Most of us know why vegetarians don’t eat meat—for health reasons, or because they don’t want to kill an animal in order to eat it. But why <strong>can’t vegans eat</strong> dairy products or eggs? Vegans say when farmers get milk, they hurt the cows. When farmers get eggs, they hurt the hens. Vegans believe that all animals feel pain, pleasure, and love. So they believe it’s wrong to eat animals or do anything to hurt them.</p>
+                <p><small><sup>1</sup><em>blender: a machine that mixes food to make liquid</em></small></p>
+            </article>
+
+			            <h4>Related Video</h4>
+            <div class="video-container">
+                <!-- TODO: THAY THẾ BẰNG LINK VIDEO YOUTUBE CỦA BẠN -->
+                <iframe src="https://www.youtube.com/embed/TFHXRa_JNc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <img src="FOG-2-14/2.png" alt="Continuation of the textbook page with exercises." style="max-width: 50%; display: block; margin: 20px auto;">
+
+            <h3>AFTER YOU READ</h3>
+            
+            <h4>A. VOCABULARY</h4>
+            <p>Complete the sentences with the words from the box.</p>
+            <code>dairy | in common | nutritious | recipe | substitute</code>
+
+            <div class="exercise-item">
+                <p>1. Schools are trying to give children <input type="text" id="vocab1"> lunches. They want children to stay healthy and learn good eating habits.</p>
+                <button class="submit-btn" onclick="checkAnswer('vocab1', 'nutritious')">Submit</button>
+                <span id="feedback-vocab1" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p>2. He can't eat anything with milk in it. <input type="text" id="vocab2"> products upset his stomach.</p>
+                <button class="submit-btn" onclick="checkAnswer('vocab2', 'Dairy')">Submit</button>
+                <span id="feedback-vocab2" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p>3. Can I have your mother's <input type="text" id="vocab3"> for lasagna, or is it a secret?</p>
+                <button class="submit-btn" onclick="checkAnswer('vocab3', 'recipe')">Submit</button>
+                <span id="feedback-vocab3" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p>4. We don't have any sugar at home. We can <input type="text" id="vocab4"> maple syrup for sugar.</p>
+                <button class="submit-btn" onclick="checkAnswer('vocab4', 'substitute')">Submit</button>
+                <span id="feedback-vocab4" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p>5. My best friend and I love the same sports, music, and movies. We have a lot <input type="text" id="vocab5">.</p>
+                <button class="submit-btn" onclick="checkAnswer('vocab5', 'in common')">Submit</button>
+                <span id="feedback-vocab5" class="feedback"></span>
+            </div>
+
+            <h4>B. COMPREHENSION</h4>
+            <p>In the chart below, check the foods that a vegan and a vegetarian can (✓) and can't (✗) eat.</p>
+            <table class="comprehension-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="food-header">apple</th>
+                        <th class="food-header">cheese</th>
+                        <th class="food-header">chicken</th>
+                        <th class="food-header">chocolate</th>
+                        <th class="food-header">eggs</th>
+                        <th class="food-header">fish</th>
+                        <th class="food-header">french fries</th>
+                        <th class="food-header">hamburger</th>
+                        <th class="food-header">hummus</th>
+                        <th class="food-header">ice cream</th>
+                        <th class="food-header">oatmeal</th>
+                        <th class="food-header">soy milk</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Vegan</strong></td>
+                        <td><input type="checkbox" id="check-vegan-apple"></td>
+                        <td><input type="checkbox" id="check-vegan-cheese"></td>
+                        <td><input type="checkbox" id="check-vegan-chicken"></td>
+                        <td><input type="checkbox" id="check-vegan-chocolate"></td>
+                        <td><input type="checkbox" id="check-vegan-eggs"></td>
+                        <td><input type="checkbox" id="check-vegan-fish"></td>
+                        <td><input type="checkbox" id="check-vegan-french-fries"></td>
+                        <td><input type="checkbox" id="check-vegan-hamburger"></td>
+                        <td><input type="checkbox" id="check-vegan-hummus"></td>
+                        <td><input type="checkbox" id="check-vegan-ice-cream"></td>
+                        <td><input type="checkbox" id="check-vegan-oatmeal"></td>
+                        <td><input type="checkbox" id="check-vegan-soy-milk"></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vegetarian</strong></td>
+                        <td><input type="checkbox" id="check-vegetarian-apple"></td>
+                        <td><input type="checkbox" id="check-vegetarian-cheese"></td>
+                        <td><input type="checkbox" id="check-vegetarian-chicken"></td>
+                        <td><input type="checkbox" id="check-vegetarian-chocolate"></td>
+                        <td><input type="checkbox" id="check-vegetarian-eggs"></td>
+                        <td><input type="checkbox" id="check-vegetarian-fish"></td>
+                        <td><input type="checkbox" id="check-vegetarian-french-fries"></td>
+                        <td><input type="checkbox" id="check-vegetarian-hamburger"></td>
+                        <td><input type="checkbox" id="check-vegetarian-hummus"></td>
+                        <td><input type="checkbox" id="check-vegetarian-ice-cream"></td>
+                        <td><input type="checkbox" id="check-vegetarian-oatmeal"></td>
+                        <td><input type="checkbox" id="check-vegetarian-soy-milk"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="submit-btn" onclick="checkComprehensionTable()">Check Answers</button>
+
+            <h4>C. DISCUSSION</h4>
+            <p>Work with a partner. Compare your answers in B. Explain your answers.</p>
+        </section>
+
+
+        <!-- ====================================================== -->
+        <!-- STEP 2: GRAMMAR PRESENTATION                           -->
+        <!-- ====================================================== -->
+        <section id="grammar-presentation">
+            <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+            <img src="FOG-2-14/3.png" alt="Grammar presentation for Can and May.">
+            <h3>CAN OR MAY FOR PERMISSION</h3>
+
+            <h4>Statements</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Can/Can't May/May not</th>
+                        <th>Base Form of Verb</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>You</td>
+                        <td>can<br>can't</td>
+                        <td>use</td>
+                        <td>soy.</td>
+                    </tr>
+                    <tr>
+                        <td>He</td>
+                        <td>may<br>may not</td>
+                        <td>eat</td>
+                        <td>eggs.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Yes/No Questions</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Can/May</th>
+                        <th>Subject</th>
+                        <th>Base Form of Verb</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Can<br>May</td>
+                        <td>I</td>
+                        <td>have</td>
+                        <td>the recipe?</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Answers</h4>
+            <div class="grammar-note">
+                <p>Yes, you can.<br>
+                   Yes, you may.<br>
+                   Sure.<br>
+                   Of course.<br>
+                   I'm sorry. It's not possible.</p>
+            </div>
+
+            <h3>GRAMMAR NOTES</h3>
+            <div class="grammar-note">
+                <h4>1. Can and May: Meaning and Form</h4>
+                <p>Use <code>can</code> or <code>may</code> to give permission. ("It's OK to...")</p>
+                <p><code>Can</code> and <code>may</code> come <strong>before the verb</strong>. The verb is always in the base form.</p>
+                <p>When you don't give permission, use <code>can't</code> or <code>may not</code>.</p>
+                <hr>
+                <p><em>You <strong>can see</strong> the doctor now.</em></p>
+                <p><em>You <strong>may eat</strong> nuts.</em></p>
+                <p><em>She <strong>can't borrow</strong> my cookbook. I need it.</em></p>
+                <p><em>You <strong>may not see</strong> the doctor without an appointment.</em></p>
+            </div>
+
+            <div class="grammar-note be-careful">
+                <p><strong>BE CAREFUL!</strong> There is no contraction for <em>may not</em>.</p>
+                <p>NOT: <del>You mayn't see the doctor without an appointment.</del></p>
+            </div>
+
+            <div class="grammar-note usage-note">
+                <p><strong>USAGE NOTE:</strong> <code>Can</code> is much more common than <code>may</code>. We use <code>may</code> in formal situations.</p>
+                <p><em>You <strong>can eat</strong> your ice cream now. (mother to child)</em></p>
+                <p><em>You <strong>may see</strong> the doctor now. (nurse to patient)</em></p>
+            </div>
+
+            <div class="grammar-note">
+                <h4>2. Can and May: Yes/No Questions and Answers</h4>
+                <p>Use <code>Can I</code> or <code>May I</code> to ask for permission. <code>May</code> is more formal than <code>can</code>.</p>
+                <p>• Can I ...<br>• May I ...</p>
+                <hr>
+                <p><em><strong>Can I</strong> come in? (less formal)</em></p>
+                <p><em><strong>May I</strong> come in? (more formal)</em></p>
+            </div>
+
+             <div class="grammar-note usage-note">
+                <p><strong>USAGE NOTE:</strong> We often answer yes/no questions with a short affirmative response or a short apology and a reason.</p>
+                <p><em><strong>Yes, you can.</strong> or <strong>Yes, you may.</strong></em></p>
+                <p><em><strong>No, I'm sorry.</strong> The doctor is not ready for you.</em></p>
+            </div>
+
+            <div class="grammar-note usage-note">
+                <p><strong>USAGE NOTE:</strong> We often use <code>Can I</code> or <code>May I</code> + <code>help</code> to offer help to someone.</p>
+                <p>When we answer, we usually thank someone or say <em>No thanks</em> and give a reason.</p>
+                 <hr>
+                <p><em><strong>Can I help you?</strong> or <strong>May I help you?</strong></em></p>
+                <p><em><strong>Yes, please.</strong> I'm looking for a vegan cookbook.<br>or<br><strong>No thanks.</strong> I don't need anything right now.</em></p>
+            </div>
+
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- STEP 3: FOCUSED PRACTICE & REVIEW                      -->
+        <!-- ====================================================== -->
+        <section id="focused-practice">
+            <h2>STEP 3: FOCUSED PRACTICE & UNIT REVIEW</h2>
+            <img src="FOG-2-14/4.png" alt="Exercise page 1" style="max-width: 80%; display:block; margin:auto;">
+            <img src="FOG-2-14/5.png" alt="Exercise page 2" style="max-width: 80%; display:block; margin:auto;">
+            <img src="FOG-2-14/6.png" alt="Review page" style="max-width: 80%; display:block; margin:auto;">
+            
+            <h3>UNIT 14 REVIEW</h3>
+
+            <h4>A. Complete the paragraph with the correct forms of the words in parentheses.</h4>
+            <div class="exercise-item">
+                <p id="writing-sample-paragraph">
+                    It's a great diet. You (1. may / eat) <input type="text" id="reviewA1"> whatever you like. You just (2. not / can / eat) <input type="text" id="reviewA2"> a lot. For example, for breakfast you (3. can / have) <input type="text" id="reviewA3"> a slice of toast, an egg, and an orange. You can put jelly on the toast, but you (4. not / may / use) <input type="text" id="reviewA4"> butter. You (5. may / drink) <input type="text" id="reviewA5"> coffee, tea, or milk.
+                </p>
+                <button class="submit-btn" onclick="checkAnswer('reviewA1', 'may eat')">Check 1</button>
+                <button class="submit-btn" onclick="checkAnswer('reviewA2', 'can not eat')">Check 2</button>
+                <button class="submit-btn" onclick="checkAnswer('reviewA3', 'can have')">Check 3</button>
+                <button class="submit-btn" onclick="checkAnswer('reviewA4', 'may not use')">Check 4</button>
+                <button class="submit-btn" onclick="checkAnswer('reviewA5', 'may drink')">Check 5</button>
+                <span id="feedback-reviewA1" class="feedback"></span>
+                <span id="feedback-reviewA2" class="feedback"></span>
+                <span id="feedback-reviewA3" class="feedback"></span>
+                <span id="feedback-reviewA4" class="feedback"></span>
+                <span id="feedback-reviewA5" class="feedback"></span>
+            </div>
+
+            <h4>Writing: Sentence Splitter</h4>
+            <p>This script takes the model paragraph from exercise A and splits it into individual sentences.</p>
+            <p id="source-paragraph">It's a great diet. You may eat whatever you like. You just can not eat a lot. For example, for breakfast you can have a slice of toast, an egg, and an orange. You can put jelly on the toast, but you may not use butter. You may drink coffee, tea, or milk.</p>
+            <button class="submit-btn" onclick="splitSentences()">Split into Sentences</button>
+            <ol id="sentence-output"></ol>
+
+
+            <h4>B. Write these questions to a doctor. Use <em>can</em> and the words in parentheses.</h4>
+            <div class="exercise-item">
+                <p>1. (When / I / return to work)</p>
+                <input type="text" id="reviewB1" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewB1', 'When can I return to work?')">Submit</button>
+                <span id="feedback-reviewB1" class="feedback"></span>
+            </div>
+            <div class="exercise-item">
+                <p>2. (When / I / take a shower)</p>
+                <input type="text" id="reviewB2" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewB2', 'When can I take a shower?')">Submit</button>
+                <span id="feedback-reviewB2" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p>3. (I / go / to the gym)</p>
+                <input type="text" id="reviewB3" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewB3', 'Can I go to the gym?')">Submit</button>
+                <span id="feedback-reviewB3" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p>4. (I / ride / my bike)</p>
+                <input type="text" id="reviewB4" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewB4', 'Can I ride my bike?')">Submit</button>
+                <span id="feedback-reviewB4" class="feedback"></span>
+            </div>
+
+            <h4>C. Ask questions about what students can and cannot do during a test.</h4>
+             <div class="exercise-item">
+                <p>1. (can / eat / during the test / we)</p>
+                <input type="text" id="reviewC1" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewC1', 'Can we eat during the test?')">Submit</button>
+                <span id="feedback-reviewC1" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p>2. (a pencil / may / use / I)</p>
+                <input type="text" id="reviewC2" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewC2', 'May I use a pencil?')">Submit</button>
+                <span id="feedback-reviewC2" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p>3. (I / can / during the test / make calls)</p>
+                <input type="text" id="reviewC3" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewC3', 'Can I make calls during the test?')">Submit</button>
+                <span id="feedback-reviewC3" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p>4. (can / drink water / we)</p>
+                <input type="text" id="reviewC4" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewC4', 'Can we drink water?')">Submit</button>
+                <span id="feedback-reviewC4" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p>5. (use / a black pen / I / may)</p>
+                <input type="text" id="reviewC5" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewC5', 'May I use a black pen?')">Submit</button>
+                <span id="feedback-reviewC5" class="feedback"></span>
+            </div>
+             <div class="exercise-item">
+                <p>6. (can / a dictionary / we / use)</p>
+                <input type="text" id="reviewC6" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewC6', 'Can we use a dictionary?')">Submit</button>
+                <span id="feedback-reviewC6" class="feedback"></span>
+            </div>
+
+            <h4>D. Correct the conversation. There are five mistakes.</h4>
+            <div class="exercise-item">
+                <p>A: <del>May I sees a menu.</del></p>
+                Corrected: <input type="text" id="reviewD1" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewD1', 'May I see a menu?')">Submit</button>
+                <span id="feedback-reviewD1" class="feedback"></span>
+                <p>B: Sure. Here you go.</p>
+            </div>
+            <div class="exercise-item">
+                <p>A: <del>And can we to have some water?</del></p>
+                Corrected: <input type="text" id="reviewD2" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewD2', 'And can we have some water?')">Submit</button>
+                <span id="feedback-reviewD2" class="feedback"></span>
+                <p>B: I'll be right back with the water. ... Ready?</p>
+            </div>
+            <div class="exercise-item">
+                <p>A: <del>May I has the chicken?</del></p>
+                Corrected: <input type="text" id="reviewD3" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewD3', 'May I have the chicken?')">Submit</button>
+                <span id="feedback-reviewD3" class="feedback"></span>
+                <p>B: Of course. A very good choice.</p>
+            </div>
+            <div class="exercise-item">
+                <p>A: <del>And can you brings me a small salad?</del></p>
+                Corrected: <input type="text" id="reviewD4" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewD4', 'And can you bring me a small salad?')">Submit</button>
+                <span id="feedback-reviewD4" class="feedback"></span>
+                <p>B: Certainly. And <del>may I gets you anything else?</del></p>
+                 Corrected: <input type="text" id="reviewD5" size="40">
+                <button class="submit-btn" onclick="checkAnswer('reviewD5', 'may I get you anything else?')">Submit</button>
+                <span id="feedback-reviewD5" class="feedback"></span>
+            </div>
+
+        </section>
+    </div>
+
+    <script>
+        function checkAnswer(inputId, correctAnswer) {
+            // Hide all other feedbacks
+            document.querySelectorAll('.feedback').forEach(el => el.style.display = 'none');
+
+            const userInputEl = document.getElementById(inputId);
+            const feedbackEl = document.getElementById('feedback-' + inputId);
+            
+            // Normalize inputs for better comparison
+            // Remove punctuation for sentence answers
+            const userInput = userInputEl.value.trim().toLowerCase().replace(/[?.]/g, '');
+            const normalizedCorrectAnswer = correctAnswer.toLowerCase().replace(/[?.]/g, '');
+
+            if (userInput === normalizedCorrectAnswer) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+            } else {
+                feedbackEl.textContent = `Incorrect. The correct answer is: "${correctAnswer}"`;
+                feedbackEl.className = 'feedback incorrect';
+            }
+            feedbackEl.style.display = 'inline';
+        }
+
+        function checkComprehensionTable() {
+            const answers = {
+                // Vegan: can eat plant-based, cannot eat animal products (meat, dairy, eggs)
+                'vegan-apple': true, 'vegan-cheese': false, 'vegan-chicken': false, 'vegan-chocolate': true, // Depends, but generally yes for dark
+                'vegan-eggs': false, 'vegan-fish': false, 'vegan-french-fries': true, 'vegan-hamburger': false, 'vegan-hummus': true,
+                'vegan-ice-cream': false, 'vegan-oatmeal': true, 'vegan-soy-milk': true,
+                // Vegetarian: can eat plant-based, dairy, eggs; cannot eat meat/fish
+                'vegetarian-apple': true, 'vegetarian-cheese': true, 'vegetarian-chicken': false, 'vegetarian-chocolate': true,
+                'vegetarian-eggs': true, 'vegetarian-fish': false, 'vegetarian-french-fries': true, 'vegetarian-hamburger': false, 'vegetarian-hummus': true,
+                'vegetarian-ice-cream': true, 'vegetarian-oatmeal': true, 'vegetarian-soy-milk': true,
+            };
+
+            for (const id in answers) {
+                const checkbox = document.getElementById('check-' + id);
+                const cell = checkbox.parentElement;
+                
+                // reset classes
+                cell.classList.remove('correct-cell', 'incorrect-cell');
+                
+                if (checkbox.checked === answers[id]) {
+                    cell.classList.add('correct-cell');
+                } else {
+                    cell.classList.add('incorrect-cell');
+                }
+            }
+        }
+
+        function splitSentences() {
+            const paragraph = document.getElementById('source-paragraph').innerText;
+            const outputList = document.getElementById('sentence-output');
+            
+            // Clear previous results
+            outputList.innerHTML = '';
+            
+            // Split sentences based on period, question mark, or exclamation mark followed by a space or end of string.
+            const sentences = paragraph.match(/[^.!?]+[.!?]+/g) || [];
+            
+            sentences.forEach(sentence => {
+                const listItem = document.createElement('li');
+                listItem.textContent = sentence.trim();
+                outputList.appendChild(listItem);
+            });
+        }
+    </script>
+
+	<!-- ====================================================== -->
+<!-- SECTION BÀI TẬP MỞ RỘNG (100 CÂU)                     -->
+<!-- ====================================================== -->
+<section id="extended-practice" class = "container">
+    <h2>UNIT 14: EXTENDED PRACTICE (100 Questions)</h2>
+    <p>Complete the sentences using <strong>can, can't, may, may not</strong>. For sentences where no word is needed, write <strong>0</strong>.</p>
+    
+    <div id="extended-exercise-container">
+        <!-- Các câu hỏi sẽ được tạo tự động bởi JavaScript -->
+    </div>
+</section>
+
+<style>
+    /* CSS riêng cho phần bài tập mở rộng */
+    #extended-practice {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 3px solid #0056b3;
+    }
+    .exercise-item-ext {
+        margin-bottom: 25px;
+        padding: 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+    .exercise-item-ext p {
+        font-size: 1.1em;
+        margin: 0 0 10px 0;
+    }
+    .exercise-item-ext input[type="text"] {
+        width: 150px;
+        margin: 0 5px;
+    }
+    .feedback-ext {
+        margin-top: 10px;
+        padding: 12px;
+        border-radius: 5px;
+        display: none; /* Ẩn theo mặc định */
+        border-left: 5px solid;
+    }
+    .feedback-ext.correct-feedback {
+        background-color: #d4edda;
+        border-color: #28a745;
+        display: block;
+    }
+    .feedback-ext.incorrect-feedback {
+        background-color: #f8d7da;
+        border-color: #dc3545;
+        display: block;
+    }
+    .completed-sentence {
+        font-weight: bold;
+        margin-top: 8px;
+        color: #0056b3;
+    }
+    .translation {
+        font-style: italic;
+        color: #555;
+    }
+</style>
+
+<script>
+    // SCRIPT RIÊNG CHO PHẦN BÀI TẬP MỞ RỘNG
+    // Dữ liệu cho 100 câu hỏi
+    const extendedQuestionsData = [
+        { id: 1, question: "You ___ use my phone if you need to make a call.", answer: "can", translation: "Bạn có thể dùng điện thoại của tôi nếu bạn cần gọi điện." },
+        { id: 2, question: "I'm sorry, but you ___ park here. It's a no-parking zone.", answer: "can't", translation: "Tôi xin lỗi, nhưng bạn không thể đậu xe ở đây. Đây là khu vực cấm đậu xe." },
+        { id: 3, question: "(Formal) ___ I have your attention, please?", answer: "May", translation: "(Trang trọng) Xin vui lòng cho tôi sự chú ý được không ạ?" },
+        { id: 4, question: "The library rules state that you ___ not eat or drink inside.", answer: "may not", translation: "Nội quy thư viện nêu rõ rằng bạn không được phép ăn uống ở bên trong." },
+        { id: 5, question: "___ we take a break now? We've been working for hours.", answer: "Can", translation: "Chúng ta có thể nghỉ giải lao bây giờ được không? Chúng ta đã làm việc nhiều giờ rồi." },
+        { id: 6, question: "He ___ go to the party because he is sick.", answer: "can't", translation: "Anh ấy không thể đến bữa tiệc vì anh ấy bị ốm." },
+        { id: 7, question: "The children ___ play in the garden, but they must be careful.", answer: "can", translation: "Bọn trẻ có thể chơi trong vườn, nhưng chúng phải cẩn thận." },
+        { id: 8, question: "(To a child) You ___ have one more cookie before bed.", answer: "can", translation: "(Nói với một đứa trẻ) Con có thể ăn thêm một cái bánh quy nữa trước khi đi ngủ." },
+        { id: 9, question: "(Nurse to patient) You ___ take this medicine with food.", answer: "may", translation: "(Y tá nói với bệnh nhân) Ông/Bà có thể uống thuốc này cùng với thức ăn." },
+        { id: 10, question: "Passengers ___ use electronic devices during takeoff and landing.", answer: "may not", translation: "Hành khách không được phép sử dụng các thiết bị điện tử trong quá trình cất cánh và hạ cánh." },
+        { id: 11, question: "___ I help you with those bags?", answer: "Can", translation: "Tôi có thể giúp bạn xách những cái túi đó không?" },
+        { id: 12, question: "You ___ enter the building without an ID card.", answer: "can't", translation: "Bạn không thể vào tòa nhà nếu không có thẻ căn cước." },
+        { id: 13, question: "She swims very well, but I ___.", answer: "can't", translation: "Cô ấy bơi rất giỏi, nhưng tôi thì không." },
+        { id: 14, question: "If you finish your homework, you ___ watch TV.", answer: "can", translation: "Nếu con làm xong bài tập về nhà, con có thể xem TV." },
+        { id: 15, question: "___ I possibly borrow your car for the weekend?", answer: "Can", translation: "Tôi có thể mượn xe của bạn vào cuối tuần được không?" },
+        { id: 16, question: "He speaks French, and she ___ too.", answer: "can", translation: "Anh ấy nói tiếng Pháp, và cô ấy cũng vậy." },
+        { id: 17, question: "(Formal) Visitors ___ take photographs in this area.", answer: "may not", translation: "(Trang trọng) Khách tham quan không được phép chụp ảnh ở khu vực này." },
+        { id: 18, question: "Why ___ I go out with my friends tonight?", answer: "can't", translation: "Tại sao tối nay con không thể đi chơi với bạn bè?" },
+        { id: 19, question: "You ___ ask for help if you don't understand.", answer: "can", translation: "Bạn có thể nhờ giúp đỡ nếu bạn không hiểu." },
+        { id: 20, question: "___ I speak to the manager, please?", answer: "May", translation: "Làm ơn cho tôi nói chuyện với quản lý được không ạ?" },
+        { id: 21, question: "We ___ see the mountains from our window on a clear day.", answer: "can", translation: "Chúng tôi có thể nhìn thấy những ngọn núi từ cửa sổ vào một ngày trời trong." },
+        { id: 22, question: "You ___ leave until the exam is over.", answer: "can't", translation: "Bạn không thể rời đi cho đến khi bài kiểm tra kết thúc." },
+        { id: 23, question: "___ you pass me the salt, please?", answer: "Can", translation: "Bạn có thể vui lòng đưa cho tôi lọ muối được không?" },
+        { id: 24, question: "I'm not busy. How ___ I help you?", answer: "can", translation: "Tôi không bận. Tôi có thể giúp gì cho bạn?" },
+        { id: 25, question: "A: Can John play the piano? B: Yes, he ___.", answer: "can", translation: "A: John có biết chơi piano không? B: Có, anh ấy có thể." },
+        { id: 26, question: "You ___ be loud in the hospital.", answer: "can't", translation: "Bạn không được làm ồn trong bệnh viện." },
+        { id: 27, question: "The doctor said I ___ return to work next Monday.", answer: "can", translation: "Bác sĩ nói tôi có thể trở lại làm việc vào thứ Hai tới." },
+        { id: 28, question: "(Formal) The meeting is over. You ___ all leave now.", answer: "may", translation: "(Trang trọng) Cuộc họp đã kết thúc. Tất cả quý vị có thể ra về." },
+        { id: 29, question: "It's too dark. I ___ see anything.", answer: "can't", translation: "Trời tối quá. Tôi không thể nhìn thấy gì cả." },
+        { id: 30, question: "Where ___ we find a good vegan restaurant around here?", answer: "can", translation: "Chúng ta có thể tìm một nhà hàng thuần chay ngon ở quanh đây ở đâu?" },
+        { id: 31, question: "This is a secret. You ___ tell anyone.", answer: "can't", translation: "Đây là một bí mật. Bạn không được nói với bất kỳ ai." },
+        { id: 32, question: "My brother can cook well, but I can ___ too.", answer: "0", translation: "Anh trai tôi nấu ăn ngon, và tôi cũng vậy." },
+        { id: 33, question: "___ I have a glass of water, please?", answer: "Can", translation: "Làm ơn cho tôi một ly nước được không?" },
+        { id: 34, question: "Employees ___ use the company car for personal reasons.", answer: "may not", translation: "Nhân viên không được phép sử dụng xe của công ty vì lý do cá nhân." },
+        { id: 35, question: "You ___ pay by credit card or cash.", answer: "can", translation: "Bạn có thể thanh toán bằng thẻ tín dụng hoặc tiền mặt." },
+        { id: 36, question: "I ___ believe you did that! It's amazing!", answer: "can't", translation: "Tôi không thể tin được là bạn đã làm điều đó! Thật tuyệt vời!" },
+        { id: 37, question: "When ___ we expect the delivery?", answer: "can", translation: "Khi nào chúng tôi có thể nhận hàng?" },
+        { id: 38, question: "(Teacher) You ___ begin the test now.", answer: "may", translation: "(Giáo viên) Các em có thể bắt đầu bài kiểm tra bây giờ." },
+        { id: 39, question: "Sorry, I ___ hear you. The music is too loud.", answer: "can't", translation: "Xin lỗi, tôi không thể nghe thấy bạn. Nhạc to quá." },
+        { id: 40, question: "___ we discuss this matter in private?", answer: "Can", translation: "Chúng ta có thể thảo luận vấn đề này một cách riêng tư được không?" },
+        { id: 41, question: "You ___ find all the information you need on our website.", answer: "can", translation: "Bạn có thể tìm thấy mọi thông tin bạn cần trên trang web của chúng tôi." },
+        { id: 42, question: "What sports ___ you play?", answer: "can", translation: "Bạn có thể chơi những môn thể thao nào?" },
+        { id: 43, question: "She is only 5 years old, so she ___ read yet.", answer: "can't", translation: "Cô bé mới 5 tuổi, vì vậy cô bé chưa thể đọc được." },
+        { id: 44, question: "All students ___ submit their assignments by Friday.", answer: "must", translation: "Tất cả học sinh phải nộp bài tập của mình trước thứ Sáu." }, // Trick question - must is more appropriate, but 'can' could be accepted contextually. Let's use may for permission.
+        { id: 44, question: "All students ___ submit their assignments by Friday. (permission to do so)", answer: "may", translation: "Tất cả học sinh có thể nộp bài tập của mình trước thứ Sáu. (được phép làm vậy)" },
+        { id: 45, question: "___ I be excused for a moment?", answer: "May", translation: "Tôi có thể xin phép ra ngoài một lát được không ạ?" },
+        { id: 46, question: "You ___ smoke in this building.", answer: "can't", translation: "Bạn không được hút thuốc trong tòa nhà này." },
+        { id: 47, question: "I can run fast. ___ you?", answer: "Can", translation: "Tôi có thể chạy nhanh. Bạn thì sao?" },
+        { id: 48, question: "From this hill, you ___ see the entire city.", answer: "can", translation: "Từ ngọn đồi này, bạn có thể nhìn thấy toàn bộ thành phố." },
+        { id: 49, question: "You ___ not proceed without a valid ticket.", answer: "may not", translation: "Bạn không được phép đi tiếp nếu không có vé hợp lệ." },
+        { id: 50, question: "The baby is sleeping. You ___ make any noise.", answer: "can't", translation: "Em bé đang ngủ. Bạn không được làm ồn." },
+        // Add more questions 51-100
+        { id: 51, question: "If you feel tired, you ___ rest for a while.", answer: "can", translation: "Nếu bạn cảm thấy mệt, bạn có thể nghỉ ngơi một lát." },
+        { id: 52, question: "A: Can they speak Japanese? B: No, they ___.", answer: "can't", translation: "A: Họ có thể nói tiếng Nhật không? B: Không, họ không thể." },
+        { id: 53, question: "___ I suggest an alternative solution?", answer: "May", translation: "Tôi có thể đề xuất một giải pháp thay thế được không?" },
+        { id: 54, question: "You ___ wear casual clothes to the office on Fridays.", answer: "can", translation: "Bạn có thể mặc trang phục thường ngày đến văn phòng vào thứ Sáu." },
+        { id: 55, question: "We ___ afford a new car right now.", answer: "can't", translation: "Chúng tôi không đủ khả năng mua một chiếc xe mới ngay bây giờ." },
+        { id: 56, question: "How many languages ___ she speak?", answer: "can", translation: "Cô ấy có thể nói được bao nhiêu ngôn ngữ?" },
+        { id: 57, question: "You ___ touch the exhibits in the museum.", answer: "may not", translation: "Bạn không được chạm vào các vật trưng bày trong bảo tàng." },
+        { id: 58, question: "___ I use your computer for a minute?", answer: "Can", translation: "Tôi có thể dùng máy tính của bạn một phút được không?" },
+        { id: 59, question: "I'm sorry, I ___ help you with that problem.", answer: "can't", translation: "Xin lỗi, tôi không thể giúp bạn với vấn đề đó." },
+        { id: 60, question: "He can play guitar, and I ___ too.", answer: "can", translation: "Anh ấy có thể chơi guitar, và tôi cũng có thể." },
+        { id: 61, question: "Customers ___ use the restroom at the back of the store.", answer: "may", translation: "Khách hàng có thể sử dụng nhà vệ sinh ở phía sau cửa hàng." },
+        { id: 62, question: "My dog ___ do amazing tricks.", answer: "can", translation: "Con chó của tôi có thể thực hiện những trò tuyệt vời." },
+        { id: 63, question: "You ___ bring food from outside into the cinema.", answer: "can't", translation: "Bạn không thể mang thức ăn từ bên ngoài vào rạp chiếu phim." },
+        { id: 64, question: "___ we have the bill, please?", answer: "Can", translation: "Làm ơn cho chúng tôi hóa đơn được không?" },
+        { id: 65, question: "A fish ___ survive out of water.", answer: "can't", translation: "Một con cá không thể sống sót khi ra khỏi nước." },
+        { id: 66, question: "You ___ start the engine now.", answer: "can", translation: "Bây giờ bạn có thể khởi động động cơ." },
+        { id: 67, question: "I'm sure we ___ find a solution together.", answer: "can", translation: "Tôi chắc chắn rằng chúng ta có thể cùng nhau tìm ra giải pháp." },
+        { id: 68, question: "She wanted to come, but she ___. Her parents said no.", answer: "couldn't", translation: "Cô ấy muốn đến, nhưng không thể. Bố mẹ cô ấy không cho." }, // slight change to past tense
+        { id: 68, question: "She wants to come, but she ___. Her parents say no.", answer: "can't", translation: "Cô ấy muốn đến, nhưng không thể. Bố mẹ cô ấy không cho." },
+        { id: 69, question: "(Formal) Sir, you ___ not enter this restricted area.", answer: "may not", translation: "(Trang trọng) Thưa ông, ông không được vào khu vực hạn chế này." },
+        { id: 70, question: "___ you see the sign over there?", answer: "Can", translation: "Bạn có thấy tấm biển ở đằng kia không?" },
+        { id: 71, question: "I can lift this box. ___ you?", answer: "Can", translation: "Tôi có thể nhấc cái hộp này. Bạn thì sao?" },
+        { id: 72, question: "He can see without his glasses, but not very well.", answer: "0", translation: "Anh ấy có thể nhìn mà không cần kính, nhưng không rõ lắm." },
+        { id: 73, question: "You ___ access this file without the password.", answer: "can't", translation: "Bạn không thể truy cập tệp này nếu không có mật khẩu." },
+        { id: 74, question: "___ I have a menu, please?", answer: "May", translation: "Làm ơn cho tôi xem thực đơn được không ạ?" },
+        { id: 75, question: "We ___ go to the beach tomorrow if the weather is good.", answer: "can", translation: "Chúng ta có thể đi biển vào ngày mai nếu thời tiết đẹp." },
+        { id: 76, question: "The noise is unbearable! I ___ concentrate.", answer: "can't", translation: "Tiếng ồn không thể chịu nổi! Tôi không thể tập trung." },
+        { id: 77, question: "What ___ I do for you today?", answer: "can", translation: "Hôm nay tôi có thể làm gì cho bạn?" },
+        { id: 78, question: "Members ___ bring one guest to the club.", answer: "may", translation: "Hội viên có thể mời một khách đến câu lạc bộ." },
+        { id: 79, question: "It's a free country. You ___ say what you think.", answer: "can", translation: "Đây là một đất nước tự do. Bạn có thể nói những gì bạn nghĩ." },
+        { id: 80, question: "You ___ not interrupt the speaker.", answer: "may not", translation: "Bạn không được ngắt lời người nói." },
+        { id: 81, question: "A: Can we finish this by 5 PM? B: Yes, I think we ___.", answer: "can", translation: "A: Chúng ta có thể hoàn thành việc này trước 5 giờ chiều không? B: Có, tôi nghĩ chúng ta có thể." },
+        { id: 82, question: "You ___ get a discount if you show your student ID.", answer: "can", translation: "Bạn có thể được giảm giá nếu bạn xuất trình thẻ sinh viên." },
+        { id: 83, question: "He is on a diet, so he ___ eat any sugar.", answer: "can't", translation: "Anh ấy đang ăn kiêng, vì vậy anh ấy không thể ăn bất kỳ loại đường nào." },
+        { id: 84, question: "___ I sit here, or is this seat taken?", answer: "Can", translation: "Tôi có thể ngồi đây không, hay ghế này đã có người ngồi?" },
+        { id: 85, question: "The application ___ be downloaded from our website.", answer: "can", translation: "Ứng dụng có thể được tải xuống từ trang web của chúng tôi." },
+        { id: 86, question: "I understand the theory, but I ___ apply it in practice.", answer: "can't", translation: "Tôi hiểu lý thuyết, nhưng tôi không thể áp dụng nó vào thực tế." },
+        { id: 87, question: "___ I offer you something to drink?", answer: "May", translation: "Tôi có thể mời bạn một chút đồ uống được không ạ?" },
+        { id: 88, question: "We ___ go now, or we will be late.", answer: "should", translation: "Chúng ta nên đi ngay, nếu không chúng ta sẽ bị muộn." }, // Trick. Let's change.
+        { id: 88, question: "The doors are open. We ___ go in now.", answer: "can", translation: "Cửa đã mở. Bây giờ chúng ta có thể vào trong." },
+        { id: 89, question: "You ___ talk on the phone while driving.", answer: "can't", translation: "Bạn không được nói chuyện điện thoại khi đang lái xe." },
+        { id: 90, question: "How soon ___ you be ready?", answer: "can", translation: "Bạn có thể sẵn sàng trong bao lâu nữa?" },
+        { id: 91, question: "You ___ take a photo with the artist after the show.", answer: "can", translation: "Bạn có thể chụp ảnh với nghệ sĩ sau buổi biểu diễn." },
+        { id: 92, question: "He's very strong. He ___ lift 100 kilograms.", answer: "can", translation: "Anh ấy rất khỏe. Anh ấy có thể nâng 100 kilogam." },
+        { id: 93, question: "My computer is broken, so I ___ check my email.", answer: "can't", translation: "Máy tính của tôi bị hỏng, vì vậy tôi không thể kiểm tra email của mình." },
+        { id: 94, question: "Excuse me, ___ I get past?", answer: "can", translation: "Xin lỗi, tôi có thể đi qua được không?" },
+        { id: 95, question: "This pen doesn't work. ___ I use yours?", answer: "Can", translation: "Cây bút này không hoạt động. Tôi có thể dùng của bạn không?" },
+        { id: 96, question: "As per company policy, you ___ not share your password.", answer: "may not", translation: "Theo chính sách của công ty, bạn không được chia sẻ mật khẩu của mình." },
+        { id: 97, question: "Birds ___ fly, but pigs can't.", answer: "can", translation: "Chim có thể bay, nhưng lợn thì không." },
+        { id: 98, question: "I've lost my keys. I ___ find them anywhere.", answer: "can't", translation: "Tôi đã làm mất chìa khóa. Tôi không thể tìm thấy chúng ở đâu cả." },
+        { id: 99, question: "He can drive, but he ___ ride a motorcycle.", answer: "can't", translation: "Anh ấy có thể lái ô tô, nhưng anh ấy không thể đi xe máy." },
+        { id: 100, question: "The show is about to start. ___ I have your ticket, please?", answer: "May", translation: "Buổi biểu diễn sắp bắt đầu. Xin vui lòng cho tôi xem vé của quý khách được không ạ?" }
+    ];
+
+    // Hàm tạo các câu hỏi trong HTML
+    function generateExtendedExercises() {
+        const container = document.getElementById('extended-exercise-container');
+        let htmlContent = '';
+        extendedQuestionsData.forEach(q => {
+            htmlContent += `
+                <div class="exercise-item-ext">
+                    <p>${q.id}. ${q.question.replace('___', `<input type="text" id="ext-q-${q.id}" onkeydown="if(event.key==='Enter'){checkExtendedAnswer(${q.id});}">`)}</p>
+                    <button class="submit-btn" onclick="checkExtendedAnswer(${q.id})">Submit</button>
+                    <div id="feedback-ext-${q.id}" class="feedback-ext"></div>
+                </div>
+            `;
+        });
+        container.innerHTML = htmlContent;
+    }
+
+    // Hàm kiểm tra đáp án cho bài tập mở rộng
+    function checkExtendedAnswer(questionId) {
+        const questionData = extendedQuestionsData.find(q => q.id === questionId);
+        if (!questionData) return;
+
+        const inputEl = document.getElementById(`ext-q-${questionId}`);
+        const feedbackEl = document.getElementById(`feedback-ext-${questionId}`);
+        const userInput = inputEl.value.trim().toLowerCase();
+        const correctAnswer = questionData.answer.toLowerCase();
+
+        // Xóa các class cũ
+        feedbackEl.classList.remove('correct-feedback', 'incorrect-feedback');
+        feedbackEl.innerHTML = ''; // Xóa nội dung cũ
+
+        if (userInput === correctAnswer) {
+            feedbackEl.classList.add('correct-feedback');
+            
+            // Tạo câu hoàn chỉnh
+            // Xử lý trường hợp đáp án là "0" (không điền gì)
+            const filledAnswer = (questionData.answer === '0') ? '' : questionData.answer;
+            const completedSentence = questionData.question.replace('___', `<strong>${filledAnswer}</strong>`);
+
+            feedbackEl.innerHTML = `
+                <p><strong>Correct!</strong></p>
+                <p class="completed-sentence">${completedSentence}</p>
+                <p class="translation">(Dịch: ${questionData.translation})</p>
+            `;
+        } else {
+            feedbackEl.classList.add('incorrect-feedback');
+            feedbackEl.innerHTML = `
+                <p><strong>Incorrect.</strong> Please try again.</p>
+                <p>Hint: The correct answer is "<strong>${questionData.answer}</strong>".</p>
+            `;
+        }
+    }
+
+    // Tự động tạo bài tập khi trang được tải
+    document.addEventListener('DOMContentLoaded', generateExtendedExercises);
+
+</script>
+</body>
+</html>
