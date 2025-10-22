@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 13: Animals and Their Abilities</title>
+    <style>
+        :root {
+            --primary-color: #005a87;
+            --secondary-color: #5a8a36;
+            --accent-color: #f29100;
+            --light-gray: #f4f4f4;
+            --dark-gray: #333;
+            --border-color: #ddd;
+            --correct-color: #28a745;
+            --incorrect-color: #dc3545;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        h1, h2, h3, h4 {
+            color: var(--primary-color);
+        }
+        
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .unit-number {
+            font-size: 6rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-right: 20px;
+            line-height: 1;
+        }
+
+        .unit-title h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--dark-gray);
+        }
+        
+        .unit-title h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            font-weight: normal;
+        }
+
+        .outcomes {
+            background-color: var(--light-gray);
+            border-left: 5px solid var(--accent-color);
+            padding: 15px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .step-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            margin: 30px -20px 20px -20px;
+            border-radius: 5px;
+        }
+        
+        .section-header {
+            font-weight: bold;
+            color: #d9534f;
+            margin-top: 25px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+        }
+
+        .reading-section {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .reading-text {
+            flex: 2;
+        }
+
+        .reading-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .reading-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .youtube-embed {
+            margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .youtube-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        .grammar-table th, .grammar-table td {
+            border: 1px solid var(--border-color);
+            padding: 10px;
+            text-align: left;
+        }
+
+        .grammar-table th {
+            background-color: var(--light-gray);
+            font-weight: bold;
+        }
+        
+        .grammar-note {
+            border: 1px solid var(--secondary-color);
+            background-color: #f5fff0;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .grammar-note-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+        .grammar-note-body {
+            padding: 15px;
+        }
+        .grammar-note-body p { margin: 0 0 10px 0; }
+        .grammar-note-body .example {
+            font-style: italic;
+            border-left: 3px solid var(--accent-color);
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        .pronunciation-note {
+            border: 1px solid #ccc;
+            background-color: #fafafa;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .exercise {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+        }
+
+        .exercise-item {
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .exercise-item label, .exercise-item .question-text {
+            margin-right: 5px;
+        }
+
+        .exercise-item input[type="text"], .exercise-item select, .exercise-item textarea {
+            padding: 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        
+        .exercise-item textarea {
+            width: 95%;
+            min-height: 150px;
+            font-family: inherit;
+        }
+
+        .exercise-item button {
+            padding: 8px 15px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .exercise-item button:hover {
+            background-color: #004a70;
+        }
+
+        .feedback {
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .feedback.correct {
+            color: var(--correct-color);
+        }
+
+        .feedback.incorrect {
+            color: var(--incorrect-color);
+        }
+        
+        .hint {
+            display: block;
+            font-size: 0.85em;
+            color: #666;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .word-box {
+            background-color: var(--light-gray);
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .word-box code {
+            margin: 0 5px;
+            font-size: 1.1em;
+            color: var(--primary-color);
+        }
+        
+        .writing-section button {
+             padding: 10px 18px;
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 10px 0;
+        }
+        .writing-section button:hover {
+            background-color: #4a732b;
+        }
+        #sentence-output ul {
+            list-style-type: decimal;
+        }
+        #sentence-output li {
+            padding: 5px;
+            border-bottom: 1px dashed #eee;
+        }
+
+        b, strong {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="unit-header">
+            <div class="unit-number">13</div>
+            <div class="unit-title">
+                <h1>Ability: <em>Can</em> or <em>Could</em></h1>
+                <h2>ANIMALS AND THEIR ABILITIES</h2>
+            </div>
+        </header>
+
+        <section class="outcomes">
+            <strong>OUTCOMES</strong>
+            <ul>
+                <li>Express ability in the present and past</li>
+                <li>Make true and false statements about information in a short article</li>
+                <li>Recognize main ideas and details in a conversation and a lecture</li>
+                <li>Discuss abilities of various animals</li>
+                <li>Write a paragraph about a pet</li>
+            </ul>
+        </section>
+
+        <h2 class="step-header">STEP 1: GRAMMAR IN CONTEXT</h2>
+
+        <h3 class="section-header">BEFORE YOU READ</h3>
+        <p>Work with a partner. Answer the questions.</p>
+        <ol>
+            <li>Do you have a pet, for example a dog, a cat, or a bird? Do you know someone who has a pet? What kind? What special things can the pet do?</li>
+            <li>Look at the photo. What do you know about parrots?</li>
+        </ol>
+
+        <h3 class="section-header">READ</h3>
+        <p>Read this article about an amazing parrot.</p>
+
+        <div class="reading-section">
+            <div class="reading-text">
+                <h3>A Genius Parrot</h3>
+                <p>Everyone knows parrots <b>can</b> talk. By “talk,” we mean they <b>can</b> repeat words. Most parrots <b>can’t</b> really express ideas. N’kisi is different. N’kisi is an African grey parrot. He <b>can</b> say almost 1,000 words. He <b>can use</b> basic grammar. He <b>can talk</b> about the present, past, and future. When he doesn’t know a form, he <b>can invent</b> one. For example, he used the word “flied,” not “flew,” for the past tense of the verb “fly.”</p>
+                <p>N’kisi lives in New York City with his owner, Aimee Morgana. He <b>couldn’t talk</b> much at first. At first, he <b>could</b> only <b>say</b> a few words. But Aimee was a great teacher, and N’kisi was a good student. Now N’kisi talks to anyone near him.</p>
+                <p>Donald Broom, a professor of Veterinary Medicine at the University of Cambridge, is not surprised. He says that parrots <b>can think</b> at high levels. In that way, they are like apes and chimpanzees.</p>
+                <p>Les Rance of the Parrot Society says, “Most African greys are intelligent. They <b>can learn</b> to do easy puzzles. They <b>can say</b> ‘good night’ when you turn the lights off at night. They <b>can say</b> ‘good-bye’ when you put a coat on. But N’kisi <b>can do</b> many more things. N’kisi is an amazing bird. He’s not just smart. He’s a genius.”</p>
+            </div>
+            <div class="reading-image">
+                <img src="FOG-2-13/1.png" alt="An African Grey Parrot perched on a surface.">
+                 <img src="FOG-2-13/2.png" alt="An African Grey Parrot perched on a branch.">
+            </div>
+        </div>
+        
+        <div class="youtube-embed">
+            <iframe src="https://www.youtube.com/embed/dREEP2zQcUo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+        <h3 class="section-header">AFTER YOU READ</h3>
+
+        <h4>A VOCABULARY</h4>
+        <p>Complete the sentences with the words from the box. Use the correct form.</p>
+        <div class="word-box">
+            <code>genius</code> <code>intelligent</code> <code>invent</code> <code>professor</code> <code>surprised</code>
+        </div>
+        <div class="exercise">
+            <div class="exercise-item">
+                <span>1. Monkeys and dolphins are very </span>
+                <input type="text" id="vocab1" size="12">
+                <span> animals. They can learn many things.</span>
+                <button onclick="checkAnswer('vocab1', 'intelligent', 'feedback-vocab1')">Kiểm tra</button>
+                <div class="feedback" id="feedback-vocab1"></div>
+            </div>
+            <div class="exercise-item">
+                <span>2. Many people are </span>
+                <input type="text" id="vocab2" size="12">
+                <span> by the abilities of African grey parrots. They can do all sorts of amazing things.</span>
+                <button onclick="checkAnswer('vocab2', 'surprised', 'feedback-vocab2')">Kiểm tra</button>
+                <div class="feedback" id="feedback-vocab2"></div>
+            </div>
+            <div class="exercise-item">
+                <span>3. Mozart was a(n) </span>
+                <input type="text" id="vocab3" size="10">
+                <span>. He could write great music at the age of six.</span>
+                <button onclick="checkAnswer('vocab3', 'genius', 'feedback-vocab3')">Kiểm tra</button>
+                <div class="feedback" id="feedback-vocab3"></div>
+            </div>
+            <div class="exercise-item">
+                <span>4. He's a very good </span>
+                <input type="text" id="vocab4" size="12">
+                <span>. You can learn a lot in his class.</span>
+                <button onclick="checkAnswer('vocab4', 'professor', 'feedback-vocab4')">Kiểm tra</button>
+                <div class="feedback" id="feedback-vocab4"></div>
+            </div>
+            <div class="exercise-item">
+                <span>5. We need to </span>
+                <input type="text" id="vocab5" size="10">
+                <span> a way you can learn languages while you sleep.</span>
+                <button onclick="checkAnswer('vocab5', 'invent', 'feedback-vocab5')">Kiểm tra</button>
+                <div class="feedback" id="feedback-vocab5"></div>
+            </div>
+        </div>
+
+        <h4>B COMPREHENSION</h4>
+        <p>Read the statements. Check (✓) True, False, or No Information.</p>
+        <div class="exercise">
+            <table class="grammar-table">
+                <thead>
+                    <tr>
+                        <th>Statement</th>
+                        <th>True</th>
+                        <th>False</th>
+                        <th>No Information</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. N'kisi can say more than 1,100 words.</td>
+                        <td><input type="radio" name="comp1" value="T"></td>
+                        <td><input type="radio" name="comp1" value="F"></td>
+                        <td><input type="radio" name="comp1" value="NI"></td>
+                        <td>
+                            <button onclick="checkRadio('comp1', 'F', 'feedback-comp1')">Kiểm tra</button>
+                            <span class="feedback" id="feedback-comp1"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2. N'kisi can't use basic grammar.</td>
+                        <td><input type="radio" name="comp2" value="T"></td>
+                        <td><input type="radio" name="comp2" value="F"></td>
+                        <td><input type="radio" name="comp2" value="NI"></td>
+                        <td>
+                            <button onclick="checkRadio('comp2', 'F', 'feedback-comp2')">Kiểm tra</button>
+                            <span class="feedback" id="feedback-comp2"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3. N'kisi can talk about the past and the future.</td>
+                        <td><input type="radio" name="comp3" value="T"></td>
+                        <td><input type="radio" name="comp3" value="F"></td>
+                        <td><input type="radio" name="comp3" value="NI"></td>
+                        <td>
+                            <button onclick="checkRadio('comp3', 'T', 'feedback-comp3')">Kiểm tra</button>
+                            <span class="feedback" id="feedback-comp3"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4. N'kisi can understand Italian.</td>
+                        <td><input type="radio" name="comp4" value="T"></td>
+                        <td><input type="radio" name="comp4" value="F"></td>
+                        <td><input type="radio" name="comp4" value="NI"></td>
+                        <td>
+                            <button onclick="checkRadio('comp4', 'NI', 'feedback-comp4')">Kiểm tra</button>
+                            <span class="feedback" id="feedback-comp4"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5. Parrots can't think at high levels.</td>
+                        <td><input type="radio" name="comp5" value="T"></td>
+                        <td><input type="radio" name="comp5" value="F"></td>
+                        <td><input type="radio" name="comp5" value="NI"></td>
+                        <td>
+                            <button onclick="checkRadio('comp5', 'F', 'feedback-comp5')">Kiểm tra</button>
+                            <span class="feedback" id="feedback-comp5"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6. N'kisi could only say a few words at first.</td>
+                        <td><input type="radio" name="comp6" value="T"></td>
+                        <td><input type="radio" name="comp6" value="F"></td>
+                        <td><input type="radio" name="comp6" value="NI"></td>
+                        <td>
+                            <button onclick="checkRadio('comp6', 'T', 'feedback-comp6')">Kiểm tra</button>
+                            <span class="feedback" id="feedback-comp6"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h4>C DISCUSSION</h4>
+        <p>Work with a partner. Say two things N'kisi can do. Say two things most African grey parrots can do.</p>
+        
+
+        <h2 class="step-header">STEP 2: GRAMMAR PRESENTATION</h2>
+        <h3>CAN / CAN'T FOR ABILITY AND POSSIBILITY; COULD FOR PAST ABILITY</h3>
+        
+        <h4>Affirmative Statements</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Can / Could</th>
+                    <th>Base Form of Verb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I<br>You*<br>He<br>We</td>
+                    <td><strong>can</strong><br><strong>could</strong></td>
+                    <td>talk.</td>
+                </tr>
+            </tbody>
+        </table>
+        <small>*You can be singular or plural.</small>
+
+        <h4>Negative Statements</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Can't / Couldn't</th>
+                    <th>Base Form of Verb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>She<br>It<br>They</td>
+                    <td><strong>can't / cannot</strong><br><strong>couldn't / could not</strong></td>
+                    <td>talk.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Yes/No Questions</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Can / Could</th>
+                    <th>Subject</th>
+                    <th>Base Form of Verb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Can</strong><br><strong>Could</strong></td>
+                    <td>you</td>
+                    <td>understand?</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>Short Answers</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Affirmative</th>
+                    <th>Negative</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yes, I <strong>can</strong>. <br> Yes, we <strong>could</strong>.</td>
+                    <td>No, I <strong>can't</strong>. <br> No, we <strong>couldn't</strong>.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="grammar-note">
+            <div class="grammar-note-header">1 Can: Meaning and Form</div>
+            <div class="grammar-note-body">
+                <p><strong>Can</strong> expresses present <strong>ability</strong> or <strong>possibility</strong>.</p>
+                <p><strong>Can</strong> comes before the verb. The verb is always in the base form.</p>
+                <div class="example">
+                    He <strong>can say</strong> 950 words. (ability)<br>
+                    We <strong>can teach</strong> your bird to talk. (possibility)
+                </div>
+            </div>
+        </div>
+        
+        <div class="grammar-note">
+            <div class="grammar-note-header">2 Can: Negative</div>
+            <div class="grammar-note-body">
+                <p>The negative of <strong>can</strong> is <strong>can't</strong>.</p>
+                <div class="example">
+                    I <strong>can't</strong> understand you.
+                </div>
+                <p><strong>USAGE NOTE:</strong> <strong>Cannot</strong> is a form of the negative. It is not very common.</p>
+                <div class="example">
+                    I <strong>cannot</strong> understand you.
+                </div>
+            </div>
+        </div>
+        
+        <div class="grammar-note">
+            <div class="grammar-note-header">3 Can: Yes/No Questions and Answers</div>
+            <div class="grammar-note-body">
+                <p>Change the order of the subject and <strong>can</strong> to turn a statement into a <strong>yes/no question</strong>.</p>
+                <div class="example">
+                    He <strong>can</strong> speak about the past. <br>
+                    <strong>Can</strong> he speak about the past?
+                </div>
+                <p>Use <strong>short answers</strong> for a yes/no question with <strong>can</strong>.</p>
+                 <div class="example">
+                    Yes, he <strong>can</strong>.
+                </div>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <div class="grammar-note-header">4 Could: Meaning and Forms</div>
+            <div class="grammar-note-body">
+                <p><strong>Could</strong> expresses <strong>past ability</strong>.</p>
+                <div class="example">
+                    I <strong>could run</strong> fast in high school.
+                </div>
+                <p><strong>Could not</strong> is the full negative form. The more common form is the contraction, <strong>couldn't</strong>.</p>
+                <div class="example">
+                    I <strong>could not</strong> drive five years ago.<br>
+                    I <strong>couldn't</strong> drive five years ago.
+                </div>
+            </div>
+        </div>
+
+        <div class="grammar-note">
+            <div class="grammar-note-header">5 Could: Yes/No Questions and Answers</div>
+            <div class="grammar-note-body">
+                <p>Change the order of the subject and <strong>could</strong> to turn a statement into a <strong>yes/no question</strong>.</p>
+                <div class="example">
+                    You <strong>could</strong> speak English last year. <br>
+                    <strong>Could</strong> you speak English last year?
+                </div>
+                <p>Use <strong>short answers</strong> for a yes/no question with <strong>could</strong>.</p>
+                 <div class="example">
+                    No, I <strong>couldn't</strong>.
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="step-header">STEP 3: FOCUSED PRACTICE</h2>
+
+        <h3 class="section-header">EXERCISE 2: CAN AND CAN'T</h3>
+        <p>Complete the sentences with <em>can</em> or <em>can't</em> and the verbs in parentheses.</p>
+        <div class="exercise">
+            <div class="exercise-item">
+                <span>1. Many parrots </span>
+                <input type="text" id="ex2-1a" size="10">
+                <span> (learn) to speak. My parrot </span>
+                <input type="text" id="ex2-1b" size="8">
+                <span>, "You're a genius." (say)</span>
+                <button onclick="checkMultiple(['ex2-1a', 'ex2-1b'], ['can learn', 'can say'], 'feedback-ex2-1')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex2-1"></div>
+            </div>
+            <div class="exercise-item">
+                <span>2. My dog </span>
+                <input type="text" id="ex2-2a" size="8">
+                <span> (sit), but he </span>
+                <input type="text" id="ex2-2b" size="12">
+                <span> me my shoes. (bring) I'm trying to teach him to bring things to me.</span>
+                <button onclick="checkMultiple(['ex2-2a', 'ex2-2b'], ['can sit', 'can\'t bring'], 'feedback-ex2-2')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex2-2"></div>
+            </div>
+            <div class="exercise-item">
+                <span>3. My cat </span>
+                <input type="text" id="ex2-3" size="12">
+                <span> mice. (catch) He's very good at that. Her cat </span>
+                <input type="text" id="ex2-3b" size="12">
+                <span> mice. (catch) He just sits and watches them.</span>
+                <button onclick="checkMultiple(['ex2-3', 'ex2-3b'], ['can catch', 'can\'t catch'], 'feedback-ex2-3')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex2-3"></div>
+            </div>
+             <div class="exercise-item">
+                <span>4. Her dog </span>
+                <input type="text" id="ex2-4" size="15">
+                <span> Spanish and English. (understand) She speaks to her dog in English, and her husband speaks to the dog in Spanish.</span>
+                <button onclick="checkAnswer('ex2-4', 'can understand', 'feedback-ex2-4')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex2-4"></div>
+            </div>
+             <div class="exercise-item">
+                <span>5. Dolphins </span>
+                <input type="text" id="ex2-5" size="10">
+                <span> people in trouble. (help) They are smart and show feelings.</span>
+                <button onclick="checkAnswer('ex2-5', 'can help', 'feedback-ex2-5')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex2-5"></div>
+            </div>
+        </div>
+
+        <h3 class="section-header">EXERCISE 3: YES/NO QUESTIONS AND ANSWERS</h3>
+        <p>Use <em>can</em> and the words in parentheses to write yes/no questions. Then guess the answer.</p>
+        <div class="exercise">
+             <div class="exercise-item">
+                <span>1. (an elephant / swim) </span>
+                <input type="text" id="ex3-1q" size="25">
+                <span>? </span>
+                <input type="text" id="ex3-1a" size="15">
+                <button onclick="checkMultiple(['ex3-1q', 'ex3-1a'], ['Can an elephant swim', 'Yes, it can.'], 'feedback-ex3-1')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex3-1"></div>
+            </div>
+             <div class="exercise-item">
+                <span>2. (elephants / jump) </span>
+                <input type="text" id="ex3-2q" size="25">
+                <span>? </span>
+                <input type="text" id="ex3-2a" size="15">
+                <button onclick="checkMultiple(['ex3-2q', 'ex3-2a'], ['Can elephants jump', 'No, they can\'t.'], 'feedback-ex3-2')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex3-2"></div>
+            </div>
+            <div class="exercise-item">
+                <span>3. (a bear / climb a tree) </span>
+                <input type="text" id="ex3-3q" size="25">
+                <span>? </span>
+                <input type="text" id="ex3-3a" size="15">
+                <button onclick="checkMultiple(['ex3-3q', 'ex3-3a'], ['Can a bear climb a tree', 'Yes, it can.'], 'feedback-ex3-3')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex3-3"></div>
+            </div>
+             <div class="exercise-item">
+                <span>4. (a chimpanzee / use tools) </span>
+                <input type="text" id="ex3-4q" size="25">
+                <span>? </span>
+                <input type="text" id="ex3-4a" size="15">
+                <button onclick="checkMultiple(['ex3-4q', 'ex3-4a'], ['Can a chimpanzee use tools', 'Yes, it can.'], 'feedback-ex3-4')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex3-4"></div>
+            </div>
+             <div class="exercise-item">
+                <span>5. (chimpanzees / invent games) </span>
+                <input type="text" id="ex3-5q" size="25">
+                <span>? </span>
+                <input type="text" id="ex3-5a" size="15">
+                <button onclick="checkMultiple(['ex3-5q', 'ex3-5a'], ['Can chimpanzees invent games', 'Yes, they can.'], 'feedback-ex3-5')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex3-5"></div>
+            </div>
+             <div class="exercise-item">
+                <span>6. (a penguin / fly) </span>
+                <input type="text" id="ex3-6q" size="25">
+                <span>? </span>
+                <input type="text" id="ex3-6a" size="15">
+                <button onclick="checkMultiple(['ex3-6q', 'ex3-6a'], ['Can a penguin fly', 'No, it can\'t.'], 'feedback-ex3-6')">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex3-6"></div>
+            </div>
+        </div>
+        
+        <h3 class="section-header">EXERCISE 6: EDITING</h3>
+        <p>Read the conversation. There are seven mistakes. The first mistake is already corrected. Find and correct six more. Add <em>can</em> to fix one mistake.</p>
+        <div class="exercise">
+            <p><strong>Original Text:</strong></p>
+            <p style="background-color: #f8f8f8; padding: 10px; border-left: 3px solid #ccc;">
+                MARICEL: Can you <del>coming</del> to my party? It's next Saturday night. You can to meet my new dog.<br><br>
+                BELLA: Yes, I'd love to. How I get to your home?<br><br>
+                MARICEL: You can to take the train or a taxi.<br><br>
+                BELLA: Can you meet me at the train station?<br><br>
+                MARICEL: I'm sorry. I can't. I no can drive. Maybe Bob can meets you. He has a car, and he can to drive.
+            </p>
+            <div class="exercise-item" style="flex-direction: column; align-items: flex-start;">
+                <label for="ex6-edit"><strong>Your Corrected Version:</strong></label>
+                <textarea id="ex6-edit" rows="8"></textarea>
+                <button onclick="checkAnswer('ex6-edit', 'MARICEL: Can you come to my party? It\'s next Saturday night. You can meet my new dog.\n\nBELLA: Yes, I\'d love to. How can I get to your home?\n\nMARICEL: You can take the train or a taxi.\n\nBELLA: Can you meet me at the train station?\n\nMARICEL: I\'m sorry. I can\'t. I can\'t drive. Maybe Bob can meet you. He has a car, and he can drive.', 'feedback-ex6-edit', true)">Kiểm tra</button>
+                <div class="feedback" id="feedback-ex6-edit"></div>
+            </div>
+        </div>
+
+        <h2 class="step-header">WRITING PRACTICE</h2>
+        <h3 class="section-header">SAMPLE PARAGRAPH & SCRIPT</h3>
+        <p>Below is a sample paragraph about a pet. You can use the button to split it into individual sentences.</p>
+        <div class="writing-section exercise">
+            <h4>My Clever Cat, Leo</h4>
+            <p id="sample-paragraph">
+                I have a very special pet cat named Leo. He is an orange tabby, and he is extremely intelligent. Leo can do many amazing tricks. For example, he can open doors by himself if they are not locked. He learned this by watching me. He could not do this when he was a kitten, but now he is an expert. He can also play fetch like a dog. I can throw his favorite toy mouse, and he will always bring it back. Leo can't speak English, of course, but I am sure he understands everything I say.
+            </p>
+            <button onclick="splitParagraph()">Tách thành từng câu</button>
+            <div id="sentence-output"></div>
+        </div>
+    </div>
+
+    <script>
+        function normalizeString(str) {
+            // Remove punctuation, extra spaces, and convert to lowercase.
+            // Keeps apostrophes for contractions like can't.
+            return str.trim().toLowerCase().replace(/[.,?!]/g, '').replace(/\s+/g, ' ');
+        }
+    
+        function checkAnswer(inputId, correctAnswer, feedbackId, isTextarea = false) {
+            const inputEl = document.getElementById(inputId);
+            const feedbackEl = document.getElementById(feedbackId);
+            let userValue = normalizeString(inputEl.value);
+            
+            let correct = false;
+            if (Array.isArray(correctAnswer)) {
+                // If there are multiple possible correct answers
+                correct = correctAnswer.some(ans => normalizeString(ans) === userValue);
+            } else {
+                correct = (normalizeString(correctAnswer) === userValue);
+            }
+
+            if (correct) {
+                feedbackEl.textContent = "Chính xác!";
+                feedbackEl.className = 'feedback correct';
+                feedbackEl.innerHTML += ' ✔️';
+            } else {
+                feedbackEl.textContent = "Không chính xác. ";
+                feedbackEl.className = 'feedback incorrect';
+                let hint = Array.isArray(correctAnswer) ? correctAnswer.join(' / ') : correctAnswer;
+                if(isTextarea){
+                    feedbackEl.innerHTML += 'Hãy kiểm tra lại các lỗi ngữ pháp như "to + verb" sau "can", dạng của động từ, và các câu phủ định. Đáp án đúng ở dưới đây:<br><pre style="white-space: pre-wrap; font-family: inherit; font-size: 0.9em;">' + hint + '</pre>';
+                } else {
+                    feedbackEl.innerHTML += `<span class="hint">Gợi ý: Đáp án đúng là "${hint}".</span>`;
+                }
+            }
+        }
+        
+        function checkMultiple(inputIdArray, correctAnswerArray, feedbackId) {
+            const feedbackEl = document.getElementById(feedbackId);
+            let allCorrect = true;
+            
+            for(let i = 0; i < inputIdArray.length; i++) {
+                const inputEl = document.getElementById(inputIdArray[i]);
+                let userValue = normalizeString(inputEl.value);
+                let correctValue = normalizeString(correctAnswerArray[i]);
+                
+                if (userValue !== correctValue) {
+                    allCorrect = false;
+                    break;
+                }
+            }
+
+            if (allCorrect) {
+                feedbackEl.textContent = "Chính xác!";
+                feedbackEl.className = 'feedback correct';
+                feedbackEl.innerHTML += ' ✔️';
+            } else {
+                feedbackEl.textContent = "Không chính xác. ";
+                feedbackEl.className = 'feedback incorrect';
+                let hint = correctAnswerArray.join(' / ');
+                feedbackEl.innerHTML += `<span class="hint">Gợi ý: Đáp án đúng là "${hint}".</span>`;
+            }
+        }
+
+        function checkRadio(questionName, correctAnswer, feedbackId) {
+            const feedbackEl = document.getElementById(feedbackId);
+            const radios = document.getElementsByName(questionName);
+            let userAnswer = '';
+            for (const radio of radios) {
+                if (radio.checked) {
+                    userAnswer = radio.value;
+                    break;
+                }
+            }
+
+            if (userAnswer === '') {
+                feedbackEl.textContent = "Vui lòng chọn một đáp án.";
+                feedbackEl.className = 'feedback incorrect';
+                return;
+            }
+
+            if (userAnswer === correctAnswer) {
+                feedbackEl.textContent = "Chính xác!";
+                feedbackEl.className = 'feedback correct';
+                feedbackEl.innerHTML += ' ✔️';
+            } else {
+                feedbackEl.textContent = "Không chính xác. ";
+                feedbackEl.className = 'feedback incorrect';
+                let correctText = '';
+                if(correctAnswer === 'T') correctText = 'True';
+                else if(correctAnswer === 'F') correctText = 'False';
+                else correctText = 'No Information';
+                feedbackEl.innerHTML += `<span class="hint">Đáp án đúng là "${correctText}".</span>`;
+            }
+        }
+
+        function splitParagraph() {
+            const paragraphText = document.getElementById('sample-paragraph').innerText;
+            const outputEl = document.getElementById('sentence-output');
+            
+            // Split by period, question mark, or exclamation mark, and filter out empty strings
+            const sentences = paragraphText.split(/[.?!]/).filter(sentence => sentence.trim().length > 0);
+            
+            let html = '<h4>Các câu đã tách:</h4><ul>';
+            sentences.forEach(sentence => {
+                html += `<li>${sentence.trim()}.</li>`;
+            });
+            html += '</ul>';
+            
+            outputEl.innerHTML = html;
+        }
+
+    </script>
+
+	<!-- ========== PHẦN BÀI TẬP BỔ SUNG ========== -->
+<section id="additional-practice-section" class = "container">
+    <h2 class="step-header">BÀI TẬP BỔ SUNG (100 CÂU)</h2>
+    <div class="exercise">
+        <p>Hoàn thành các câu sau với <strong>can, can't, could, couldn't</strong> hoặc dạng đúng của động từ trong ngoặc. Nhấn "Kiểm tra" sau mỗi câu.</p>
+        
+        <!-- Generated Practice Items -->
+        <div class="practice-item">
+            <span class="question-text">1. A fish ______ breathe on land.</span>
+            <input type="text" id="ex-add-1" size="10">
+            <button onclick="checkExtraAnswer('ex-add-1', ['can\'t', 'cannot'], 'feedback-add-1', 'result-add-1', 'A fish {answer} breathe on land.', 'Một con cá không thể thở trên cạn.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-1"></div>
+            <div class="full-sentence-result" id="result-add-1"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">2. When I was five, I ______ read, but now I can.</span>
+            <input type="text" id="ex-add-2" size="10">
+            <button onclick="checkExtraAnswer('ex-add-2', ['couldn\'t', 'could not'], 'feedback-add-2', 'result-add-2', 'When I was five, I {answer} read, but now I can.', 'Khi tôi năm tuổi, tôi không thể đọc, nhưng bây giờ tôi có thể.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-2"></div>
+            <div class="full-sentence-result" id="result-add-2"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">3. ______ you please pass the salt?</span>
+            <input type="text" id="ex-add-3" size="10">
+            <button onclick="checkExtraAnswer('ex-add-3', 'Can', 'feedback-add-3', 'result-add-3', '{answer} you please pass the salt?', 'Bạn có thể vui lòng đưa lọ muối được không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-3"></div>
+            <div class="full-sentence-result" id="result-add-3"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">4. Birds ______ fly, but penguins ______.</span>
+            <input type="text" id="ex-add-4a" size="5"> / <input type="text" id="ex-add-4b" size="5">
+            <button onclick="checkMultipleExtra(['ex-add-4a', 'ex-add-4b'], [['can'], ['can\'t', 'cannot']], 'feedback-add-4', 'result-add-4', 'Birds {answer1} fly, but penguins {answer2}.', 'Chim có thể bay, nhưng chim cánh cụt thì không.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-4"></div>
+            <div class="full-sentence-result" id="result-add-4"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">5. My grandfather ______ walk without a cane last year, but his health has improved.</span>
+            <input type="text" id="ex-add-5" size="10">
+            <button onclick="checkExtraAnswer('ex-add-5', ['couldn\'t', 'could not'], 'feedback-add-5', 'result-add-5', 'My grandfather {answer} walk without a cane last year, but his health has improved.', 'Năm ngoái ông tôi không thể đi lại nếu không có gậy, nhưng sức khỏe của ông đã cải thiện.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-5"></div>
+            <div class="full-sentence-result" id="result-add-5"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">6. He is very strong. He ______ lift that heavy box.</span>
+            <input type="text" id="ex-add-6" size="10">
+            <button onclick="checkExtraAnswer('ex-add-6', 'can', 'feedback-add-6', 'result-add-6', 'He is very strong. He {answer} lift that heavy box.', 'Anh ấy rất khỏe. Anh ấy có thể nâng cái hộp nặng đó.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-6"></div>
+            <div class="full-sentence-result" id="result-add-6"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">7. I'm sorry, I ______ hear you. The music is too loud.</span>
+            <input type="text" id="ex-add-7" size="10">
+            <button onclick="checkExtraAnswer('ex-add-7', ['can\'t', 'cannot'], 'feedback-add-7', 'result-add-7', 'I\'m sorry, I {answer} hear you. The music is too loud.', 'Xin lỗi, tôi không thể nghe thấy bạn. Nhạc quá lớn.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-7"></div>
+            <div class="full-sentence-result" id="result-add-7"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">8. She ______ speak three languages when she was only ten.</span>
+            <input type="text" id="ex-add-8" size="10">
+            <button onclick="checkExtraAnswer('ex-add-8', 'could', 'feedback-add-8', 'result-add-8', 'She {answer} speak three languages when she was only ten.', 'Cô ấy có thể nói ba thứ tiếng khi chỉ mới mười tuổi.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-8"></div>
+            <div class="full-sentence-result" id="result-add-8"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">9. You ______ smoke in here. It's a non-smoking area.</span>
+            <input type="text" id="ex-add-9" size="10">
+            <button onclick="checkExtraAnswer('ex-add-9', ['can\'t', 'cannot'], 'feedback-add-9', 'result-add-9', 'You {answer} smoke in here. It\'s a non-smoking area.', 'Bạn không thể hút thuốc ở đây. Đây là khu vực không hút thuốc.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-9"></div>
+            <div class="full-sentence-result" id="result-add-9"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">10. Before the internet, people ______ find information so quickly.</span>
+            <input type="text" id="ex-add-10" size="10">
+            <button onclick="checkExtraAnswer('ex-add-10', ['couldn\'t', 'could not'], 'feedback-add-10', 'result-add-10', 'Before the internet, people {answer} find information so quickly.', 'Trước khi có internet, mọi người không thể tìm kiếm thông tin nhanh như vậy.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-10"></div>
+            <div class="full-sentence-result" id="result-add-10"></div>
+        </div>
+        <!-- Thêm 90 câu nữa ở đây -->
+        <div class="practice-item">
+            <span class="question-text">11. A dog ______ use a computer.</span>
+            <input type="text" id="ex-add-11" size="10">
+            <button onclick="checkExtraAnswer('ex-add-11', ['can\'t', 'cannot'], 'feedback-add-11', 'result-add-11', 'A dog {answer} use a computer.', 'Một con chó không thể sử dụng máy tính.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-11"></div>
+            <div class="full-sentence-result" id="result-add-11"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">12. Mozart ______ compose music at the age of five.</span>
+            <input type="text" id="ex-add-12" size="10">
+            <button onclick="checkExtraAnswer('ex-add-12', 'could', 'feedback-add-12', 'result-add-12', 'Mozart {answer} compose music at the age of five.', 'Mozart có thể sáng tác nhạc lúc năm tuổi.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-12"></div>
+            <div class="full-sentence-result" id="result-add-12"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">13. ______ you swim when you were a child?</span>
+            <input type="text" id="ex-add-13" size="10">
+            <button onclick="checkExtraAnswer('ex-add-13', 'Could', 'feedback-add-13', 'result-add-13', '{answer} you swim when you were a child?', 'Bạn có thể bơi khi còn nhỏ không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-13"></div>
+            <div class="full-sentence-result" id="result-add-13"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">14. I've finished my homework. ______ I go out to play?</span>
+            <input type="text" id="ex-add-14" size="10">
+            <button onclick="checkExtraAnswer('ex-add-14', 'Can', 'feedback-add-14', 'result-add-14', 'I\'ve finished my homework. {answer} I go out to play?', 'Con đã làm xong bài tập về nhà. Con có thể ra ngoài chơi không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-14"></div>
+            <div class="full-sentence-result" id="result-add-14"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">15. My phone was broken, so I ______ call you yesterday.</span>
+            <input type="text" id="ex-add-15" size="10">
+            <button onclick="checkExtraAnswer('ex-add-15', ['couldn\'t', 'could not'], 'feedback-add-15', 'result-add-15', 'My phone was broken, so I {answer} call you yesterday.', 'Điện thoại của tôi bị hỏng, vì vậy tôi đã không thể gọi cho bạn ngày hôm qua.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-15"></div>
+            <div class="full-sentence-result" id="result-add-15"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">16. She ______ find her keys anywhere.</span>
+            <input type="text" id="ex-add-16" size="10">
+            <button onclick="checkExtraAnswer('ex-add-16', ['can\'t', 'cannot'], 'feedback-add-16', 'result-add-16', 'She {answer} find her keys anywhere.', 'Cô ấy không thể tìm thấy chìa khóa của mình ở đâu cả.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-16"></div>
+            <div class="full-sentence-result" id="result-add-16"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">17. We ______ see the stars clearly from the countryside last night.</span>
+            <input type="text" id="ex-add-17" size="10">
+            <button onclick="checkExtraAnswer('ex-add-17', 'could', 'feedback-add-17', 'result-add-17', 'We {answer} see the stars clearly from the countryside last night.', 'Chúng tôi có thể nhìn thấy các vì sao rõ ràng từ vùng nông thôn đêm qua.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-17"></div>
+            <div class="full-sentence-result" id="result-add-17"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">18. My little brother ______ tie his shoes yet.</span>
+            <input type="text" id="ex-add-18" size="10">
+            <button onclick="checkExtraAnswer('ex-add-18', ['can\'t', 'cannot'], 'feedback-add-18', 'result-add-18', 'My little brother {answer} tie his shoes yet.', 'Em trai tôi vẫn chưa thể tự buộc dây giày.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-18"></div>
+            <div class="full-sentence-result" id="result-add-18"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">19. I was so tired I ______ barely keep my eyes open.</span>
+            <input type="text" id="ex-add-19" size="10">
+            <button onclick="checkExtraAnswer('ex-add-19', 'could', 'feedback-add-19', 'result-add-19', 'I was so tired I {answer} barely keep my eyes open.', 'Tôi mệt đến nỗi gần như không thể mở mắt được.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-19"></div>
+            <div class="full-sentence-result" id="result-add-19"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">20. You ______ always ask for help if you don't understand.</span>
+            <input type="text" id="ex-add-20" size="10">
+            <button onclick="checkExtraAnswer('ex-add-20', 'can', 'feedback-add-20', 'result-add-20', 'You {answer} always ask for help if you don\'t understand.', 'Bạn luôn có thể nhờ giúp đỡ nếu bạn không hiểu.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-20"></div>
+            <div class="full-sentence-result" id="result-add-20"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">21. It was too foggy, so the pilot ______ land the plane safely.</span>
+            <input type="text" id="ex-add-21" size="10">
+            <button onclick="checkExtraAnswer('ex-add-21', ['couldn\'t', 'could not'], 'feedback-add-21', 'result-add-21', 'It was too foggy, so the pilot {answer} land the plane safely.', 'Trời quá nhiều sương mù, vì vậy phi công không thể hạ cánh máy bay an toàn.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-21"></div>
+            <div class="full-sentence-result" id="result-add-21"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">22. ______ you solve this math problem for me?</span>
+            <input type="text" id="ex-add-22" size="10">
+            <button onclick="checkExtraAnswer('ex-add-22', 'Can', 'feedback-add-22', 'result-add-22', '{answer} you solve this math problem for me?', 'Bạn có thể giải bài toán này giúp tôi được không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-22"></div>
+            <div class="full-sentence-result" id="result-add-22"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">23. Even though he practiced a lot, he still ______ win the race.</span>
+            <input type="text" id="ex-add-23" size="10">
+            <button onclick="checkExtraAnswer('ex-add-23', ['couldn\'t', 'could not'], 'feedback-add-23', 'result-add-23', 'Even though he practiced a lot, he still {answer} win the race.', 'Dù đã luyện tập rất nhiều, anh ấy vẫn không thể chiến thắng cuộc đua.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-23"></div>
+            <div class="full-sentence-result" id="result-add-23"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">24. She ______ sing beautifully before she had the surgery on her throat.</span>
+            <input type="text" id="ex-add-24" size="10">
+            <button onclick="checkExtraAnswer('ex-add-24', 'could', 'feedback-add-24', 'result-add-24', 'She {answer} sing beautifully before she had the surgery on her throat.', 'Cô ấy có thể hát rất hay trước khi phẫu thuật cổ họng.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-24"></div>
+            <div class="full-sentence-result" id="result-add-24"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">25. A human ______ run as fast as a cheetah.</span>
+            <input type="text" id="ex-add-25" size="10">
+            <button onclick="checkExtraAnswer('ex-add-25', ['can\'t', 'cannot'], 'feedback-add-25', 'result-add-25', 'A human {answer} run as fast as a cheetah.', 'Con người không thể chạy nhanh bằng báo Gêpa.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-25"></div>
+            <div class="full-sentence-result" id="result-add-25"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">26. He ______ play the guitar very well now.</span>
+            <input type="text" id="ex-add-26" size="10">
+            <button onclick="checkExtraAnswer('ex-add-26', 'can', 'feedback-add-26', 'result-add-26', 'He {answer} play the guitar very well now.', 'Bây giờ anh ấy có thể chơi guitar rất giỏi.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-26"></div>
+            <div class="full-sentence-result" id="result-add-26"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">27. We ______ go to the party because we were sick.</span>
+            <input type="text" id="ex-add-27" size="10">
+            <button onclick="checkExtraAnswer('ex-add-27', ['couldn\'t', 'could not'], 'feedback-add-27', 'result-add-27', 'We {answer} go to the party because we were sick.', 'Chúng tôi đã không thể đến bữa tiệc vì chúng tôi bị ốm.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-27"></div>
+            <div class="full-sentence-result" id="result-add-27"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">28. Look! I ______ stand on one leg.</span>
+            <input type="text" id="ex-add-28" size="10">
+            <button onclick="checkExtraAnswer('ex-add-28', 'can', 'feedback-add-28', 'result-add-28', 'Look! I {answer} stand on one leg.', 'Nhìn này! Tôi có thể đứng bằng một chân.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-28"></div>
+            <div class="full-sentence-result" id="result-add-28"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">29. When he was a baby, he ______ talk.</span>
+            <input type="text" id="ex-add-29" size="10">
+            <button onclick="checkExtraAnswer('ex-add-29', ['couldn\'t', 'could not'], 'feedback-add-29', 'result-add-29', 'When he was a baby, he {answer} talk.', 'Khi còn là một đứa bé, cậu ấy không thể nói chuyện.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-29"></div>
+            <div class="full-sentence-result" id="result-add-29"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">30. This computer is old. It ______ run modern software.</span>
+            <input type="text" id="ex-add-30" size="10">
+            <button onclick="checkExtraAnswer('ex-add-30', ['can\'t', 'cannot'], 'feedback-add-30', 'result-add-30', 'This computer is old. It {answer} run modern software.', 'Cái máy tính này đã cũ. Nó không thể chạy các phần mềm hiện đại.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-30"></div>
+            <div class="full-sentence-result" id="result-add-30"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">31. Can you ______ (speak) louder, please?</span>
+            <input type="text" id="ex-add-31" size="10">
+            <button onclick="checkExtraAnswer('ex-add-31', 'speak', 'feedback-add-31', 'result-add-31', 'Can you {answer} louder, please?', 'Bạn có thể nói to hơn được không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-31"></div>
+            <div class="full-sentence-result" id="result-add-31"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">32. She tried her best, but she ______ finish the marathon.</span>
+            <input type="text" id="ex-add-32" size="10">
+            <button onclick="checkExtraAnswer('ex-add-32', ['couldn\'t', 'could not'], 'feedback-add-32', 'result-add-32', 'She tried her best, but she {answer} finish the marathon.', 'Cô ấy đã cố hết sức, nhưng không thể hoàn thành cuộc thi marathon.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-32"></div>
+            <div class="full-sentence-result" id="result-add-32"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">33. If you finish your work early, you ______ go home.</span>
+            <input type="text" id="ex-add-33" size="10">
+            <button onclick="checkExtraAnswer('ex-add-33', 'can', 'feedback-add-33', 'result-add-33', 'If you finish your work early, you {answer} go home.', 'Nếu bạn hoàn thành công việc sớm, bạn có thể về nhà.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-33"></div>
+            <div class="full-sentence-result" id="result-add-33"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">34. He ______ remember where he put his glasses.</span>
+            <input type="text" id="ex-add-34" size="10">
+            <button onclick="checkExtraAnswer('ex-add-34', ['can\'t', 'cannot'], 'feedback-add-34', 'result-add-34', 'He {answer} remember where he put his glasses.', 'Anh ấy không thể nhớ mình đã để kính ở đâu.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-34"></div>
+            <div class="full-sentence-result" id="result-add-34"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">35. I ______ believe my eyes! You're finally here!</span>
+            <input type="text" id="ex-add-35" size="10">
+            <button onclick="checkExtraAnswer('ex-add-35', ['can\'t', 'cannot'], 'feedback-add-35', 'result-add-35', 'I {answer} believe my eyes! You\'re finally here!', 'Tôi không thể tin vào mắt mình! Cuối cùng bạn cũng ở đây!')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-35"></div>
+            <div class="full-sentence-result" id="result-add-35"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">36. A chameleon ______ change its color.</span>
+            <input type="text" id="ex-add-36" size="10">
+            <button onclick="checkExtraAnswer('ex-add-36', 'can', 'feedback-add-36', 'result-add-36', 'A chameleon {answer} change its color.', 'Tắc kè hoa có thể thay đổi màu sắc của nó.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-36"></div>
+            <div class="full-sentence-result" id="result-add-36"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">37. We ______ afford to buy a new car right now.</span>
+            <input type="text" id="ex-add-37" size="10">
+            <button onclick="checkExtraAnswer('ex-add-37', ['can\'t', 'cannot'], 'feedback-add-37', 'result-add-37', 'We {answer} afford to buy a new car right now.', 'Chúng tôi không đủ khả năng mua một chiếc xe hơi mới ngay bây giờ.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-37"></div>
+            <div class="full-sentence-result" id="result-add-37"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">38. My sister ______ ride a bike until she was ten.</span>
+            <input type="text" id="ex-add-38" size="10">
+            <button onclick="checkExtraAnswer('ex-add-38', ['couldn\'t', 'could not'], 'feedback-add-38', 'result-add-38', 'My sister {answer} ride a bike until she was ten.', 'Chị tôi không thể đi xe đạp cho đến khi mười tuổi.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-38"></div>
+            <div class="full-sentence-result" id="result-add-38"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">39. ______ I borrow your pen for a moment?</span>
+            <input type="text" id="ex-add-39" size="10">
+            <button onclick="checkExtraAnswer('ex-add-39', 'Can', 'feedback-add-39', 'result-add-39', '{answer} I borrow your pen for a moment?', 'Tôi có thể mượn bút của bạn một lát được không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-39"></div>
+            <div class="full-sentence-result" id="result-add-39"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">40. He worked all night, but he ______ complete the project.</span>
+            <input type="text" id="ex-add-40" size="10">
+            <button onclick="checkExtraAnswer('ex-add-40', ['couldn\'t', 'could not'], 'feedback-add-40', 'result-add-40', 'He worked all night, but he {answer} complete the project.', 'Anh ấy đã làm việc cả đêm nhưng không thể hoàn thành dự án.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-40"></div>
+            <div class="full-sentence-result" id="result-add-40"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">41. You ______ see the ocean from my window.</span>
+            <input type="text" id="ex-add-41" size="10">
+            <button onclick="checkExtraAnswer('ex-add-41', 'can', 'feedback-add-41', 'result-add-41', 'You {answer} see the ocean from my window.', 'Bạn có thể nhìn thấy đại dương từ cửa sổ nhà tôi.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-41"></div>
+            <div class="full-sentence-result" id="result-add-41"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">42. I searched everywhere but I ______ find my wallet.</span>
+            <input type="text" id="ex-add-42" size="10">
+            <button onclick="checkExtraAnswer('ex-add-42', ['couldn\'t', 'could not'], 'feedback-add-42', 'result-add-42', 'I searched everywhere but I {answer} find my wallet.', 'Tôi đã tìm khắp nơi nhưng không thể tìm thấy ví của mình.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-42"></div>
+            <div class="full-sentence-result" id="result-add-42"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">43. After weeks of practice, he ______ finally play the song perfectly.</span>
+            <input type="text" id="ex-add-43" size="10">
+            <button onclick="checkExtraAnswer('ex-add-43', 'could', 'feedback-add-43', 'result-add-43', 'After weeks of practice, he {answer} finally play the song perfectly.', 'Sau nhiều tuần luyện tập, cuối cùng anh ấy cũng có thể chơi bản nhạc một cách hoàn hảo.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-43"></div>
+            <div class="full-sentence-result" id="result-add-43"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">44. A turtle ______ move very fast.</span>
+            <input type="text" id="ex-add-44" size="10">
+            <button onclick="checkExtraAnswer('ex-add-44', ['can\'t', 'cannot'], 'feedback-add-44', 'result-add-44', 'A turtle {answer} move very fast.', 'Một con rùa không thể di chuyển rất nhanh.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-44"></div>
+            <div class="full-sentence-result" id="result-add-44"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">45. This box is empty. You ______ carry it easily.</span>
+            <input type="text" id="ex-add-45" size="10">
+            <button onclick="checkExtraAnswer('ex-add-45', 'can', 'feedback-add-45', 'result-add-45', 'This box is empty. You {answer} carry it easily.', 'Cái hộp này rỗng. Bạn có thể mang nó một cách dễ dàng.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-45"></div>
+            <div class="full-sentence-result" id="result-add-45"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">46. Because of the storm, we ______ see anything outside.</span>
+            <input type="text" id="ex-add-46" size="10">
+            <button onclick="checkExtraAnswer('ex-add-46', ['couldn\'t', 'could not'], 'feedback-add-46', 'result-add-46', 'Because of the storm, we {answer} see anything outside.', 'Vì cơn bão, chúng tôi không thể nhìn thấy gì bên ngoài.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-46"></div>
+            <div class="full-sentence-result" id="result-add-46"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">47. My parents said I ______ watch TV after I finish my homework.</span>
+            <input type="text" id="ex-add-47" size="10">
+            <button onclick="checkExtraAnswer('ex-add-47', 'can', 'feedback-add-47', 'result-add-47', 'My parents said I {answer} watch TV after I finish my homework.', 'Bố mẹ tôi nói tôi có thể xem TV sau khi làm xong bài tập về nhà.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-47"></div>
+            <div class="full-sentence-result" id="result-add-47"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">48. He ______ understand what she was saying because he didn't speak French.</span>
+            <input type="text" id="ex-add-48" size="10">
+            <button onclick="checkExtraAnswer('ex-add-48', ['couldn\'t', 'could not'], 'feedback-add-48', 'result-add-48', 'He {answer} understand what she was saying because he didn\'t speak French.', 'Anh ấy không thể hiểu những gì cô ấy đang nói vì anh ấy không nói tiếng Pháp.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-48"></div>
+            <div class="full-sentence-result" id="result-add-48"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">49. She is a great photographer. She ______ take amazing pictures.</span>
+            <input type="text" id="ex-add-49" size="10">
+            <button onclick="checkExtraAnswer('ex-add-49', 'can', 'feedback-add-49', 'result-add-49', 'She is a great photographer. She {answer} take amazing pictures.', 'Cô ấy là một nhiếp ảnh gia tuyệt vời. Cô ấy có thể chụp những bức ảnh đáng kinh ngạc.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-49"></div>
+            <div class="full-sentence-result" id="result-add-49"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">50. I ______ help you now, I'm very busy.</span>
+            <input type="text" id="ex-add-50" size="10">
+            <button onclick="checkExtraAnswer('ex-add-50', ['can\'t', 'cannot'], 'feedback-add-50', 'result-add-50', 'I {answer} help you now, I\'m very busy.', 'Tôi không thể giúp bạn bây giờ, tôi rất bận.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-50"></div>
+            <div class="full-sentence-result" id="result-add-50"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">51. The door was locked, so we ______ get in.</span>
+            <input type="text" id="ex-add-51" size="10">
+            <button onclick="checkExtraAnswer('ex-add-51', ['couldn\'t', 'could not'], 'feedback-add-51', 'result-add-51', 'The door was locked, so we {answer} get in.', 'Cửa đã bị khóa, vì vậy chúng tôi không thể vào trong.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-51"></div>
+            <div class="full-sentence-result" id="result-add-51"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">52. A spider ______ spin a web.</span>
+            <input type="text" id="ex-add-52" size="10">
+            <button onclick="checkExtraAnswer('ex-add-52', 'can', 'feedback-add-52', 'result-add-52', 'A spider {answer} spin a web.', 'Một con nhện có thể giăng tơ.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-52"></div>
+            <div class="full-sentence-result" id="result-add-52"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">53. I'm afraid I ______ make it to your party on Saturday.</span>
+            <input type="text" id="ex-add-53" size="10">
+            <button onclick="checkExtraAnswer('ex-add-53', ['can\'t', 'cannot'], 'feedback-add-53', 'result-add-53', 'I\'m afraid I {answer} make it to your party on Saturday.', 'Tôi e là tôi không thể đến dự tiệc của bạn vào thứ Bảy.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-53"></div>
+            <div class="full-sentence-result" id="result-add-53"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">54. After the operation, she ______ walk again.</span>
+            <input type="text" id="ex-add-54" size="10">
+            <button onclick="checkExtraAnswer('ex-add-54', 'could', 'feedback-add-54', 'result-add-54', 'After the operation, she {answer} walk again.', 'Sau cuộc phẫu thuật, cô ấy đã có thể đi lại được.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-54"></div>
+            <div class="full-sentence-result" id="result-add-54"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">55. You ______ leave your bike here. It's not allowed.</span>
+            <input type="text" id="ex-add-55" size="10">
+            <button onclick="checkExtraAnswer('ex-add-55', ['can\'t', 'cannot'], 'feedback-add-55', 'result-add-55', 'You {answer} leave your bike here. It\'s not allowed.', 'Bạn không thể để xe đạp ở đây. Điều đó không được phép.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-55"></div>
+            <div class="full-sentence-result" id="result-add-55"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">56. He has a key, so he ______ unlock the door.</span>
+            <input type="text" id="ex-add-56" size="10">
+            <button onclick="checkExtraAnswer('ex-add-56', 'can', 'feedback-add-56', 'result-add-56', 'He has a key, so he {answer} unlock the door.', 'Anh ấy có chìa khóa, vì vậy anh ấy có thể mở khóa cửa.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-56"></div>
+            <div class="full-sentence-result" id="result-add-56"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">57. I ______ run a marathon last year, but I'm training to do one this year.</span>
+            <input type="text" id="ex-add-57" size="10">
+            <button onclick="checkExtraAnswer('ex-add-57', ['couldn\'t', 'could not'], 'feedback-add-57', 'result-add-57', 'I {answer} run a marathon last year, but I\'m training to do one this year.', 'Năm ngoái tôi không thể chạy marathon, nhưng tôi đang luyện tập để chạy một cuộc năm nay.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-57"></div>
+            <div class="full-sentence-result" id="result-add-57"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">58. The baby ______ talk yet, but she ______ smile a lot.</span>
+             <input type="text" id="ex-add-58a" size="5"> / <input type="text" id="ex-add-58b" size="5">
+            <button onclick="checkMultipleExtra(['ex-add-58a', 'ex-add-58b'], [['can\'t', 'cannot'], ['can']], 'feedback-add-58', 'result-add-58', 'The baby {answer1} talk yet, but she {answer2} smile a lot.', 'Em bé chưa thể nói, nhưng bé có thể cười rất nhiều.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-58"></div>
+            <div class="full-sentence-result" id="result-add-58"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">59. When the car broke down, we ______ fix it ourselves.</span>
+            <input type="text" id="ex-add-59" size="10">
+            <button onclick="checkExtraAnswer('ex-add-59', ['couldn\'t', 'could not'], 'feedback-add-59', 'result-add-59', 'When the car broke down, we {answer} fix it ourselves.', 'Khi xe bị hỏng, chúng tôi không thể tự sửa nó.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-59"></div>
+            <div class="full-sentence-result" id="result-add-59"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">60. She is so talented. Is there anything she ______ do?</span>
+            <input type="text" id="ex-add-60" size="10">
+            <button onclick="checkExtraAnswer('ex-add-60', ['can\'t', 'cannot'], 'feedback-add-60', 'result-add-60', 'She is so talented. Is there anything she {answer} do?', 'Cô ấy thật tài năng. Có điều gì mà cô ấy không thể làm không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-60"></div>
+            <div class="full-sentence-result" id="result-add-60"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">61. I ______ wait to see you next week!</span>
+            <input type="text" id="ex-add-61" size="10">
+            <button onclick="checkExtraAnswer('ex-add-61', ['can\'t', 'cannot'], 'feedback-add-61', 'result-add-61', 'I {answer} wait to see you next week!', 'Tôi không thể chờ để gặp bạn vào tuần tới!')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-61"></div>
+            <div class="full-sentence-result" id="result-add-61"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">62. He ______ swim across the river when he was younger and stronger.</span>
+            <input type="text" id="ex-add-62" size="10">
+            <button onclick="checkExtraAnswer('ex-add-62', 'could', 'feedback-add-62', 'result-add-62', 'He {answer} swim across the river when he was younger and stronger.', 'Anh ấy có thể bơi qua sông khi còn trẻ và khỏe hơn.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-62"></div>
+            <div class="full-sentence-result" id="result-add-62"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">63. You ______ buy stamps at the post office.</span>
+            <input type="text" id="ex-add-63" size="10">
+            <button onclick="checkExtraAnswer('ex-add-63', 'can', 'feedback-add-63', 'result-add-63', 'You {answer} buy stamps at the post office.', 'Bạn có thể mua tem ở bưu điện.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-63"></div>
+            <div class="full-sentence-result" id="result-add-63"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">64. I'm sorry, you ______ park here.</span>
+            <input type="text" id="ex-add-64" size="10">
+            <button onclick="checkExtraAnswer('ex-add-64', ['can\'t', 'cannot'], 'feedback-add-64', 'result-add-64', 'I\'m sorry, you {answer} park here.', 'Xin lỗi, bạn không thể đỗ xe ở đây.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-64"></div>
+            <div class="full-sentence-result" id="result-add-64"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">65. He was an amazing artist; he ______ paint beautiful portraits.</span>
+            <input type="text" id="ex-add-65" size="10">
+            <button onclick="checkExtraAnswer('ex-add-65', 'could', 'feedback-add-65', 'result-add-65', 'He was an amazing artist; he {answer} paint beautiful portraits.', 'Ông là một nghệ sĩ tuyệt vời; ông có thể vẽ những bức chân dung tuyệt đẹp.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-65"></div>
+            <div class="full-sentence-result" id="result-add-65"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">66. A snake ______ walk.</span>
+            <input type="text" id="ex-add-66" size="10">
+            <button onclick="checkExtraAnswer('ex-add-66', ['can\'t', 'cannot'], 'feedback-add-66', 'result-add-66', 'A snake {answer} walk.', 'Một con rắn không thể đi bộ.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-66"></div>
+            <div class="full-sentence-result" id="result-add-66"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">67. ______ you tell me the time, please?</span>
+            <input type="text" id="ex-add-67" size="10">
+            <button onclick="checkExtraAnswer('ex-add-67', ['Can', 'Could'], 'feedback-add-67', 'result-add-67', '{answer} you tell me the time, please?', 'Bạn có thể cho tôi biết mấy giờ rồi được không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-67"></div>
+            <div class="full-sentence-result" id="result-add-67"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">68. I ______ find my keys yesterday, but they are on the table now.</span>
+            <input type="text" id="ex-add-68" size="10">
+            <button onclick="checkExtraAnswer('ex-add-68', ['couldn\'t', 'could not'], 'feedback-add-68', 'result-add-68', 'I {answer} find my keys yesterday, but they are on the table now.', 'Hôm qua tôi không thể tìm thấy chìa khóa, nhưng bây giờ chúng đang ở trên bàn.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-68"></div>
+            <div class="full-sentence-result" id="result-add-68"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">69. It's a secret. You ______ tell anyone.</span>
+            <input type="text" id="ex-add-69" size="10">
+            <button onclick="checkExtraAnswer('ex-add-69', ['can\'t', 'cannot'], 'feedback-add-69', 'result-add-69', 'It\'s a secret. You {answer} tell anyone.', 'Đó là một bí mật. Bạn không thể nói cho ai biết.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-69"></div>
+            <div class="full-sentence-result" id="result-add-69"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">70. She ______ see without her glasses.</span>
+            <input type="text" id="ex-add-70" size="10">
+            <button onclick="checkExtraAnswer('ex-add-70', ['can\'t', 'cannot'], 'feedback-add-70', 'result-add-70', 'She {answer} see without her glasses.', 'Cô ấy không thể nhìn thấy nếu không có kính.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-70"></div>
+            <div class="full-sentence-result" id="result-add-70"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">71. He ______ speak English fluently after living in London for a year.</span>
+            <input type="text" id="ex-add-71" size="10">
+            <button onclick="checkExtraAnswer('ex-add-71', 'could', 'feedback-add-71', 'result-add-71', 'He {answer} speak English fluently after living in London for a year.', 'Anh ấy có thể nói tiếng Anh trôi chảy sau khi sống ở London một năm.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-71"></div>
+            <div class="full-sentence-result" id="result-add-71"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">72. You ______ come with us if you want to.</span>
+            <input type="text" id="ex-add-72" size="10">
+            <button onclick="checkExtraAnswer('ex-add-72', 'can', 'feedback-add-72', 'result-add-72', 'You {answer} come with us if you want to.', 'Bạn có thể đi cùng chúng tôi nếu bạn muốn.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-72"></div>
+            <div class="full-sentence-result" id="result-add-72"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">73. We ______ have a picnic because it was raining.</span>
+            <input type="text" id="ex-add-73" size="10">
+            <button onclick="checkExtraAnswer('ex-add-73', ['couldn\'t', 'could not'], 'feedback-add-73', 'result-add-73', 'We {answer} have a picnic because it was raining.', 'Chúng tôi không thể đi dã ngoại vì trời đang mưa.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-73"></div>
+            <div class="full-sentence-result" id="result-add-73"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">74. It ______ be dangerous to swim in that river.</span>
+            <input type="text" id="ex-add-74" size="10">
+            <button onclick="checkExtraAnswer('ex-add-74', 'can', 'feedback-add-74', 'result-add-74', 'It {answer} be dangerous to swim in that river.', 'Bơi ở con sông đó có thể nguy hiểm.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-74"></div>
+            <div class="full-sentence-result" id="result-add-74"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">75. The ancient Romans ______ build impressive structures that still stand today.</span>
+            <input type="text" id="ex-add-75" size="10">
+            <button onclick="checkExtraAnswer('ex-add-75', 'could', 'feedback-add-75', 'result-add-75', 'The ancient Romans {answer} build impressive structures that still stand today.', 'Người La Mã cổ đại có thể xây dựng những công trình ấn tượng mà ngày nay vẫn còn tồn tại.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-75"></div>
+            <div class="full-sentence-result" id="result-add-75"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">76. You ______ just leave your things here. Someone might steal them.</span>
+            <input type="text" id="ex-add-76" size="10">
+            <button onclick="checkExtraAnswer('ex-add-76', ['can\'t', 'cannot'], 'feedback-add-76', 'result-add-76', 'You {answer} just leave your things here. Someone might steal them.', 'Bạn không thể cứ để đồ của mình ở đây. Ai đó có thể lấy cắp chúng.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-76"></div>
+            <div class="full-sentence-result" id="result-add-76"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">77. The test was so hard that I ______ answer all the questions.</span>
+            <input type="text" id="ex-add-77" size="10">
+            <button onclick="checkExtraAnswer('ex-add-77', ['couldn\'t', 'could not'], 'feedback-add-77', 'result-add-77', 'The test was so hard that I {answer} answer all the questions.', 'Bài kiểm tra khó đến nỗi tôi không thể trả lời hết các câu hỏi.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-77"></div>
+            <div class="full-sentence-result" id="result-add-77"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">78. He ______ cook at all a few years ago, but now he's a great chef.</span>
+            <input type="text" id="ex-add-78" size="10">
+            <button onclick="checkExtraAnswer('ex-add-78', ['couldn\'t', 'could not'], 'feedback-add-78', 'result-add-78', 'He {answer} cook at all a few years ago, but now he\'s a great chef.', 'Vài năm trước anh ấy không thể nấu ăn chút nào, nhưng bây giờ anh ấy là một đầu bếp tuyệt vời.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-78"></div>
+            <div class="full-sentence-result" id="result-add-78"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">79. I couldn't ______ (find) my glasses this morning.</span>
+            <input type="text" id="ex-add-79" size="10">
+            <button onclick="checkExtraAnswer('ex-add-79', 'find', 'feedback-add-79', 'result-add-79', 'I couldn\'t {answer} my glasses this morning.', 'Sáng nay tôi không thể tìm thấy kính của mình.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-79"></div>
+            <div class="full-sentence-result" id="result-add-79"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">80. Can you ______ (help) me with this bag? It's too heavy.</span>
+            <input type="text" id="ex-add-80" size="10">
+            <button onclick="checkExtraAnswer('ex-add-80', 'help', 'feedback-add-80', 'result-add-80', 'Can you {answer} me with this bag? It\'s too heavy.', 'Bạn có thể giúp tôi với cái túi này không? Nó nặng quá.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-80"></div>
+            <div class="full-sentence-result" id="result-add-80"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">81. We ______ go on vacation last summer.</span>
+            <input type="text" id="ex-add-81" size="10">
+            <button onclick="checkExtraAnswer('ex-add-81', ['couldn\'t', 'could not'], 'feedback-add-81', 'result-add-81', 'We {answer} go on vacation last summer.', 'Chúng tôi đã không thể đi nghỉ hè năm ngoái.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-81"></div>
+            <div class="full-sentence-result" id="result-add-81"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">82. The doctor says I ______ go back to work yet.</span>
+            <input type="text" id="ex-add-82" size="10">
+            <button onclick="checkExtraAnswer('ex-add-82', ['can\'t', 'cannot'], 'feedback-add-82', 'result-add-82', 'The doctor says I {answer} go back to work yet.', 'Bác sĩ nói tôi vẫn chưa thể quay lại làm việc.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-82"></div>
+            <div class="full-sentence-result" id="result-add-82"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">83. From the top of the mountain, you ______ see the whole city.</span>
+            <input type="text" id="ex-add-83" size="10">
+            <button onclick="checkExtraAnswer('ex-add-83', 'can', 'feedback-add-83', 'result-add-83', 'From the top of the mountain, you {answer} see the whole city.', 'Từ trên đỉnh núi, bạn có thể nhìn thấy toàn bộ thành phố.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-83"></div>
+            <div class="full-sentence-result" id="result-add-83"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">84. The police ______ catch the thief because he was too fast.</span>
+            <input type="text" id="ex-add-84" size="10">
+            <button onclick="checkExtraAnswer('ex-add-84', ['couldn\'t', 'could not'], 'feedback-add-84', 'result-add-84', 'The police {answer} catch the thief because he was too fast.', 'Cảnh sát không thể bắt được tên trộm vì hắn quá nhanh.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-84"></div>
+            <div class="full-sentence-result" id="result-add-84"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">85. My computer crashed and I ______ save my work.</span>
+            <input type="text" id="ex-add-85" size="10">
+            <button onclick="checkExtraAnswer('ex-add-85', ['couldn\'t', 'could not'], 'feedback-add-85', 'result-add-85', 'My computer crashed and I {answer} save my work.', 'Máy tính của tôi bị sập và tôi không thể lưu công việc của mình.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-85"></div>
+            <div class="full-sentence-result" id="result-add-85"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">86. I'm free this afternoon, so I ______ meet you then.</span>
+            <input type="text" id="ex-add-86" size="10">
+            <button onclick="checkExtraAnswer('ex-add-86', 'can', 'feedback-add-86', 'result-add-86', 'I\'m free this afternoon, so I {answer} meet you then.', 'Chiều nay tôi rảnh, vì vậy tôi có thể gặp bạn lúc đó.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-86"></div>
+            <div class="full-sentence-result" id="result-add-86"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">87. A baby ______ walk when it is first born.</span>
+            <input type="text" id="ex-add-87" size="10">
+            <button onclick="checkExtraAnswer('ex-add-87', ['can\'t', 'cannot'], 'feedback-add-87', 'result-add-87', 'A baby {answer} walk when it is first born.', 'Một đứa trẻ sơ sinh không thể đi bộ khi mới chào đời.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-87"></div>
+            <div class="full-sentence-result" id="result-add-87"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">88. I ______ smell gas when I entered the kitchen.</span>
+            <input type="text" id="ex-add-88" size="10">
+            <button onclick="checkExtraAnswer('ex-add-88', 'could', 'feedback-add-88', 'result-add-88', 'I {answer} smell gas when I entered the kitchen.', 'Tôi có thể ngửi thấy mùi gas khi tôi bước vào bếp.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-88"></div>
+            <div class="full-sentence-result" id="result-add-88"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">89. You ______ be serious! That's impossible.</span>
+            <input type="text" id="ex-add-89" size="10">
+            <button onclick="checkExtraAnswer('ex-add-89', ['can\'t', 'cannot'], 'feedback-add-89', 'result-add-89', 'You {answer} be serious! That\'s impossible.', 'Bạn không thể nghiêm túc được! Điều đó là không thể.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-89"></div>
+            <div class="full-sentence-result" id="result-add-89"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">90. You ______ always find something interesting to read in this library.</span>
+            <input type="text" id="ex-add-90" size="10">
+            <button onclick="checkExtraAnswer('ex-add-90', 'can', 'feedback-add-90', 'result-add-90', 'You {answer} always find something interesting to read in this library.', 'Bạn luôn có thể tìm thấy thứ gì đó thú vị để đọc trong thư viện này.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-90"></div>
+            <div class="full-sentence-result" id="result-add-90"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">91. I ______ remember her name, even though I've met her before.</span>
+            <input type="text" id="ex-add-91" size="10">
+            <button onclick="checkExtraAnswer('ex-add-91', ['can\'t', 'cannot'], 'feedback-add-91', 'result-add-91', 'I {answer} remember her name, even though I\'ve met her before.', 'Tôi không thể nhớ tên cô ấy, mặc dù tôi đã gặp cô ấy trước đây.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-91"></div>
+            <div class="full-sentence-result" id="result-add-91"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">92. In the past, people ______ travel long distances easily.</span>
+            <input type="text" id="ex-add-92" size="10">
+            <button onclick="checkExtraAnswer('ex-add-92', ['couldn\'t', 'could not'], 'feedback-add-92', 'result-add-92', 'In the past, people {answer} travel long distances easily.', 'Trong quá khứ, mọi người không thể đi lại xa một cách dễ dàng.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-92"></div>
+            <div class="full-sentence-result" id="result-add-92"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">93. My car is broken, so I ______ drive to work today.</span>
+            <input type="text" id="ex-add-93" size="10">
+            <button onclick="checkExtraAnswer('ex-add-93', ['can\'t', 'cannot'], 'feedback-add-93', 'result-add-93', 'My car is broken, so I {answer} drive to work today.', 'Xe của tôi bị hỏng, vì vậy tôi không thể lái xe đi làm hôm nay.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-93"></div>
+            <div class="full-sentence-result" id="result-add-93"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">94. ______ you help me for a second?</span>
+            <input type="text" id="ex-add-94" size="10">
+            <button onclick="checkExtraAnswer('ex-add-94', 'Can', 'feedback-add-94', 'result-add-94', '{answer} you help me for a second?', 'Bạn có thể giúp tôi một chút được không?')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-94"></div>
+            <div class="full-sentence-result" id="result-add-94"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">95. He was so weak he ______ even lift his head.</span>
+            <input type="text" id="ex-add-95" size="10">
+            <button onclick="checkExtraAnswer('ex-add-95', ['couldn\'t', 'could not'], 'feedback-add-95', 'result-add-95', 'He was so weak he {answer} even lift his head.', 'Anh ấy yếu đến mức thậm chí không thể ngẩng đầu lên.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-95"></div>
+            <div class="full-sentence-result" id="result-add-95"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">96. I ______ go to the concert. I already have plans.</span>
+            <input type="text" id="ex-add-96" size="10">
+            <button onclick="checkExtraAnswer('ex-add-96', ['can\'t', 'cannot'], 'feedback-add-96', 'result-add-96', 'I {answer} go to the concert. I already have plans.', 'Tôi không thể đi xem buổi hòa nhạc. Tôi đã có kế hoạch khác rồi.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-96"></div>
+            <div class="full-sentence-result" id="result-add-96"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">97. It was amazing. I ______ see the whole landscape from the airplane window.</span>
+            <input type="text" id="ex-add-97" size="10">
+            <button onclick="checkExtraAnswer('ex-add-97', 'could', 'feedback-add-97', 'result-add-97', 'It was amazing. I {answer} see the whole landscape from the airplane window.', 'Thật tuyệt vời. Tôi có thể nhìn thấy toàn bộ phong cảnh từ cửa sổ máy bay.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-97"></div>
+            <div class="full-sentence-result" id="result-add-97"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">98. We ______ get tickets for the show because they were all sold out.</span>
+            <input type="text" id="ex-add-98" size="10">
+            <button onclick="checkExtraAnswer('ex-add-98', ['couldn\'t', 'could not'], 'feedback-add-98', 'result-add-98', 'We {answer} get tickets for the show because they were all sold out.', 'Chúng tôi không thể mua được vé xem buổi biểu diễn vì chúng đã được bán hết.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-98"></div>
+            <div class="full-sentence-result" id="result-add-98"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">99. I'm not a good singer. I ______ sing at all.</span>
+            <input type="text" id="ex-add-99" size="10">
+            <button onclick="checkExtraAnswer('ex-add-99', ['can\'t', 'cannot'], 'feedback-add-99', 'result-add-99', 'I\'m not a good singer. I {answer} sing at all.', 'Tôi không phải là một ca sĩ giỏi. Tôi không thể hát chút nào.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-99"></div>
+            <div class="full-sentence-result" id="result-add-99"></div>
+        </div>
+        <div class="practice-item">
+            <span class="question-text">100. She ______ run much faster a few years ago.</span>
+            <input type="text" id="ex-add-100" size="10">
+            <button onclick="checkExtraAnswer('ex-add-100', 'could', 'feedback-add-100', 'result-add-100', 'She {answer} run much faster a few years ago.', 'Cô ấy có thể chạy nhanh hơn nhiều vào vài năm trước.')">Kiểm tra</button>
+            <div class="feedback" id="feedback-add-100"></div>
+            <div class="full-sentence-result" id="result-add-100"></div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========== SCRIPT VÀ STYLE CHO PHẦN BỔ SUNG ========== -->
+<style>
+    #additional-practice-section {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 3px solid var(--accent-color, #f29100);
+    }
+
+    .practice-item {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .practice-item .question-text {
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    .practice-item input[type="text"] {
+        margin-right: 5px;
+    }
+
+    .full-sentence-result {
+        display: none; /* Ẩn mặc định */
+        margin-top: 10px;
+        padding: 12px;
+        background-color: #eaf7ff;
+        border-left: 4px solid var(--primary-color, #005a87);
+        border-radius: 4px;
+        animation: fadeIn 0.5s;
+    }
+
+    .full-sentence-result .completed-sentence {
+        font-weight: bold;
+        color: var(--dark-gray, #333);
+    }
+
+    .full-sentence-result .translation {
+        font-style: italic;
+        color: #555;
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+
+<script>
+    // Hàm normalizeString để chuẩn hóa chuỗi người dùng nhập và đáp án
+    function normalizeExtraString(str) {
+        if (typeof str !== 'string') return '';
+        return str.trim().toLowerCase().replace(/[.,?!]/g, '').replace(/\s+/g, ' ');
+    }
+
+    // Hàm kiểm tra cho một ô input
+    function checkExtraAnswer(inputId, correctAnswer, feedbackId, resultId, fullSentence, translation) {
+        const inputEl = document.getElementById(inputId);
+        const feedbackEl = document.getElementById(feedbackId);
+        const resultEl = document.getElementById(resultId);
+        
+        const userValue = normalizeExtraString(inputEl.value);
+
+        let isCorrect = false;
+        if (Array.isArray(correctAnswer)) {
+            // Nếu đáp án đúng là một mảng (vd: ["can't", "cannot"])
+            isCorrect = correctAnswer.some(ans => normalizeExtraString(ans) === userValue);
+        } else {
+            // Nếu đáp án đúng là một chuỗi
+            isCorrect = (normalizeExtraString(correctAnswer) === userValue);
+        }
+
+        if (isCorrect) {
+            feedbackEl.innerHTML = 'Chính xác! ✔️';
+            feedbackEl.className = 'feedback correct';
+
+            // Hiển thị câu hoàn chỉnh và bản dịch
+            const displayAnswer = Array.isArray(correctAnswer) ? correctAnswer[0] : correctAnswer; // Lấy đáp án đầu tiên để hiển thị
+            const completedSentenceHTML = fullSentence.replace('{answer}', `<span style="color: var(--correct-color, #28a745);">${displayAnswer}</span>`);
+            resultEl.innerHTML = `<div class="completed-sentence">${completedSentenceHTML}.</div><div class="translation">${translation}</div>`;
+            resultEl.style.display = 'block';
+        } else {
+            feedbackEl.innerHTML = `Không chính xác. <span class="hint">Gợi ý: ${Array.isArray(correctAnswer) ? correctAnswer.join(' / ') : correctAnswer}</span>`;
+            feedbackEl.className = 'feedback incorrect';
+            resultEl.style.display = 'none'; // Ẩn kết quả nếu sai
+        }
+    }
+
+    // Hàm kiểm tra cho nhiều ô input trong cùng một câu
+    function checkMultipleExtra(inputIdArray, correctAnswerArrays, feedbackId, resultId, fullSentence, translation) {
+        const feedbackEl = document.getElementById(feedbackId);
+        const resultEl = document.getElementById(resultId);
+        let allCorrect = true;
+        let userAnswers = [];
+
+        for (let i = 0; i < inputIdArray.length; i++) {
+            const inputEl = document.getElementById(inputIdArray[i]);
+            const userValue = normalizeExtraString(inputEl.value);
+            const correctOptions = correctAnswerArrays[i];
+            userAnswers.push(inputEl.value.trim()); // Lưu lại câu trả lời gốc của người dùng
+            
+            if (!correctOptions.map(normalizeExtraString).includes(userValue)) {
+                allCorrect = false;
+            }
+        }
+
+        if (allCorrect) {
+            feedbackEl.innerHTML = 'Chính xác! ✔️';
+            feedbackEl.className = 'feedback correct';
+
+            let completedSentenceHTML = fullSentence;
+            for (let i = 0; i < userAnswers.length; i++) {
+                completedSentenceHTML = completedSentenceHTML.replace(`{answer${i+1}}`, `<span style="color: var(--correct-color, #28a745);">${userAnswers[i]}</span>`);
+            }
+
+            resultEl.innerHTML = `<div class="completed-sentence">${completedSentenceHTML}.</div><div class="translation">${translation}</div>`;
+            resultEl.style.display = 'block';
+        } else {
+            const hint = correctAnswerArrays.map(arr => arr.join(' / ')).join(' ... ');
+            feedbackEl.innerHTML = `Không chính xác. <span class="hint">Gợi ý: ${hint}</span>`;
+            feedbackEl.className = 'feedback incorrect';
+            resultEl.style.display = 'none';
+        }
+    }
+</script>
+<!-- ========== KẾT THÚC PHẦN BỔ SUNG ========== -->
+
+</body>
+</html>
