@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 15: Present Progressive</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        h1 .unit-number {
+            font-size: 4rem;
+            color: #ddd;
+            float: left;
+            margin-right: 20px;
+            line-height: 1;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #fff;
+            background-color: #5a8a5a;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 1.4rem;
+            color: #e67e22;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        strong {
+            color: #34495e;
+        }
+
+        /* Image Styles */
+        img.content-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .img-inline {
+            max-width: 280px;
+            float: left;
+            margin: 0 20px 10px 0;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Section Specific Styles */
+        .outcomes ul {
+            list-style-type: '▸';
+            padding-left: 20px;
+        }
+        .outcomes li {
+            padding-left: 10px;
+            margin-bottom: 5px;
+        }
+        .reading-section {
+            background-color: #fdfdfd;
+            border: 1px solid #eaeaea;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Grammar Presentation */
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .grammar-table th {
+            background-color: #ecf0f1;
+        }
+        .grammar-note {
+            background: #eef5ee;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .grammar-note .be-careful, .grammar-note .usage-note {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .be-careful {
+            background: #fff1f1;
+            border: 1px solid #e74c3c;
+        }
+        .usage-note {
+            background: #eaf2f8;
+            border: 1px solid #3498db;
+        }
+        .example {
+            font-style: italic;
+            color: #555;
+            margin-left: 20px;
+        }
+        .not-correct {
+            text-decoration: line-through;
+            color: #e74c3c;
+        }
+
+        /* Interactive Exercises */
+        .exercise {
+            margin-top: 25px;
+        }
+        .exercise-question {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .exercise-question input[type="text"], .exercise-question select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            min-width: 120px;
+        }
+        .exercise-question button {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .exercise-question button:hover {
+            background-color: #2980b9;
+        }
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .feedback.correct {
+            color: #27ae60;
+        }
+        .feedback.incorrect {
+            color: #c0392b;
+        }
+        .word-box {
+            background-color: #ecf0f1;
+            border: 1px dashed #bdc3c7;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            word-spacing: 10px;
+            text-align: center;
+        }
+        .circled-option {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .circled-option:hover {
+            background-color: #f0e68c;
+        }
+        .selected-option {
+            background-color: #bdc3c7;
+            color: #fff;
+        }
+
+        /* Writing Section */
+        #writing-output p {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+		   .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+        }
+
+		  .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1><span class="unit-number">15</span> Present Progressive: Affirmative and Negative Statements <br><small>PEOPLE WATCHING</small></h1>
+            <div class="outcomes">
+                <h3>OUTCOMES</h3>
+                <ul>
+                    <li>Use the present progressive for events happening now and for extended periods of time</li>
+                    <li>Identify details in an online article</li>
+                    <li>Recognize where people are based on a conversation</li>
+                    <li>Describe what people are wearing and doing</li>
+                    <li>Write a paragraph about what is happening now</li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- STEP 1: GRAMMAR IN CONTEXT -->
+        <section class="step-section">
+            <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+
+            <h3>BEFORE YOU READ</h3>
+            <p>Work with a partner. Answer the questions.</p>
+            <ol>
+                <li>Do you like to watch people? Why or why not?</li>
+                <li>When you watch people, what questions do you ask yourself about them?</li>
+                <li>Where is a good place to go to observe people? Why?</li>
+            </ol>
+
+            <h3>READ</h3>
+            <p>Read this article about people watching.</p>
+            
+            <div class="reading-section clearfix">
+                <h4>People Watching</h4>
+                
+                <p>You're waiting for a train or a plane, and you're bored. What can you do? You can look at the people around you. I'm at Los Angeles International Airport, and <strong>I'm doing</strong> that now.</p>
+                
+                <img src="FOG-2-15/1.png" alt="Businessman working on laptop at airport" class="content-img img-inline">
+                
+                <p>Across from me, I can see two businessmen. They<strong>'re wearing</strong> suits and ties. One man <strong>is working</strong> on his laptop. The other man <strong>is reading</strong> a report. Both men <strong>are not looking</strong> around. They<strong>'re working</strong> hard. They<strong>'re not traveling</strong> for fun. They<strong>'re traveling</strong> for business.</p>
+
+                <img src="FOG-2-15/2.png" alt="Mother and daughter taking a selfie at airport" class="content-img img-inline">
+
+                <p>I can also see a mother and her little girl. The little girl is about three years old, and she<strong>'s sitting</strong> on her mother's lap. I'm not certain they're mother and daughter, but I think so. They look alike. They<strong>'re</strong> both <strong>wearing</strong> jeans. They<strong>'re having</strong> fun. The mother <strong>is taking</strong> a selfie,<sup>1</sup> and they<strong>'re</strong> both <strong>making</strong> funny faces.</p>
+                <p><small><sup>1</sup> selfie: a picture you take of yourself</small></p>
+
+                
+
+                <img src="FOG-2-15/3.png" alt="Woman in business suit on the phone at airport" class="content-img img-inline">
+                
+                <p>A woman in her thirties <strong>is standing</strong> in front of the departure and arrival signs. She<strong>'s wearing</strong> a business suit, but she <strong>isn't working</strong> now. She<strong>'s talking</strong> to someone on the phone. She<strong>'s smiling</strong>. She <strong>isn't speaking</strong> English. I think she<strong>'s speaking</strong> Korean. Maybe she<strong>'s talking</strong> to her mother. Maybe she<strong>'s talking</strong> to a friend.</p>
+                
+                <p>It's fun to look at other people. For some people, it's a way to relax. For others, such as writers and artists, it's a way to get ideas.</p>
+                <p>Writers, artists, photographers, psychologists, and detectives are people watchers. What about you?</p>
+
+				<div class="video-container">
+                <!-- TODO: THAY THẾ BẰNG LINK VIDEO YOUTUBE CỦA BẠN -->
+                <iframe src="https://www.youtube.com/embed/GpQU83ey6TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+
+            <h3>AFTER YOU READ</h3>
+            <h4>A VOCABULARY</h4>
+            <p>Complete the sentences with the words from the box.</p>
+            <div class="word-box">
+                bored &nbsp;&nbsp; departure &nbsp;&nbsp; detective &nbsp;&nbsp; psychologist &nbsp;&nbsp; suit
+            </div>
+            <div class="exercise">
+                <div class="exercise-question">
+                    1. The <input type="text" data-answer="detective"> is trying to find the murderer. He's questioning the family and neighbors.
+                    <button class="submit-btn">Submit</button> <span class="feedback"></span>
+                </div>
+                <div class="exercise-question">
+                    2. Most lawyers and bankers wear a <input type="text" data-answer="suit"> to work.
+                    <button class="submit-btn">Submit</button> <span class="feedback"></span>
+                </div>
+                <div class="exercise-question">
+                    3. My son is always angry and is having problems at school. A <input type="text" data-answer="psychologist"> is helping him.
+                    <button class="submit-btn">Submit</button> <span class="feedback"></span>
+                </div>
+                <div class="exercise-question">
+                    4. We need to check in at the airport two hours before our <input type="text" data-answer="departure">.
+                    <button class="submit-btn">Submit</button> <span class="feedback"></span>
+                </div>
+                <div class="exercise-question">
+                    5. Children are rarely <input type="text" data-answer="bored"> on planes. They always have a lot to do and to look at.
+                    <button class="submit-btn">Submit</button> <span class="feedback"></span>
+                </div>
+            </div>
+
+            <h4>B COMPREHENSION</h4>
+            <p>Complete the sentences. Circle the correct answers.</p>
+            <div class="exercise">
+                 <div class="exercise-question" data-answer="isn't">
+                    1. The author of the article <span class="circled-option">is</span> / <span class="circled-option">isn't</span> looking at people at a train station.
+                    <button class="submit-btn">Submit</button><span class="feedback"></span>
+                </div>
+                <div class="exercise-question" data-answer="aren't">
+                    2. The businessmen <span class="circled-option">are</span> / <span class="circled-option">aren't</span> resting before their flight.
+                    <button class="submit-btn">Submit</button><span class="feedback"></span>
+                </div>
+                <div class="exercise-question" data-answer="is">
+                    3. The little girl <span class="circled-option">is</span> / <span class="circled-option">isn't</span> smiling.
+                    <button class="submit-btn">Submit</button><span class="feedback"></span>
+                </div>
+                <div class="exercise-question" data-answer="is">
+                    4. The woman in her thirties <span class="circled-option">is</span> / <span class="circled-option">isn't</span> enjoying her phone conversation.
+                    <button class="submit-btn">Submit</button><span class="feedback"></span>
+                </div>
+                <div class="exercise-question" data-answer="isn't">
+                    5. The woman in her thirties <span class="circled-option">is</span> / <span class="circled-option">isn't</span> speaking English.
+                    <button class="submit-btn">Submit</button><span class="feedback"></span>
+                </div>
+            </div>
+            
+            <h4>C DISCUSSION</h4>
+            <p>Work with a partner. Look at the reading again. Take turns. Tell your partner three things about the people in the reading.</p>
+        </section>
+
+        <!-- WRITING SECTION -->
+        <section class="step-section">
+            <h2>WRITING PRACTICE</h2>
+            <h3>Sample Paragraph</h3>
+            <p id="writing-sample">I'm in my psychology class. This semester we're studying child psychology. Today's class is almost over. Julia and Maria are closing their books. Our teacher is returning a test. Bob has a smile on his face. He always gets a good grade. Ryan isn't smiling. Maybe his grade is low. Shoko is texting under the table. Jon isn't listening to the teacher. He's thinking about lunch. I can hear his stomach. It's making noises.</p>
+            
+            <button onclick="splitSentences()">Tách đoạn văn thành câu</button>
+            
+            <h3>Sentences:</h3>
+            <div id="writing-output"></div>
+        </section>
+
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Handler for text input and button questions
+    const submitButtons = document.querySelectorAll('.submit-btn');
+    submitButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const questionDiv = this.parentElement;
+            const feedbackSpan = questionDiv.querySelector('.feedback');
+            
+            let userAnswer, correctAnswer;
+            
+            // Check for text input
+            const input = questionDiv.querySelector('input[type="text"]');
+            if (input) {
+                userAnswer = input.value.trim().toLowerCase();
+                correctAnswer = input.dataset.answer.toLowerCase();
+            }
+            
+            // Check for circled options
+            const circledOptions = questionDiv.querySelectorAll('.circled-option');
+            if (circledOptions.length > 0) {
+                const selected = questionDiv.querySelector('.selected-option');
+                userAnswer = selected ? selected.textContent.trim().toLowerCase() : '';
+                correctAnswer = questionDiv.dataset.answer.toLowerCase();
+            }
+
+            // Provide feedback
+            if (userAnswer === correctAnswer) {
+                feedbackSpan.textContent = 'Đúng rồi!';
+                feedbackSpan.className = 'feedback correct';
+            } else {
+                feedbackSpan.textContent = `Sai rồi. Gợi ý: Đáp án là "${correctAnswer}".`;
+                feedbackSpan.className = 'feedback incorrect';
+            }
+        });
+    });
+
+    // Handler for "circling" text options
+    const circledOptionContainers = document.querySelectorAll('.exercise-question[data-answer]');
+    circledOptionContainers.forEach(container => {
+        const options = container.querySelectorAll('.circled-option');
+        options.forEach(option => {
+            option.addEventListener('click', function() {
+                // Remove 'selected' from siblings
+                options.forEach(sib => sib.classList.remove('selected-option'));
+                // Add 'selected' to clicked option
+                this.classList.add('selected-option');
+            });
+        });
+    });
+});
+
+// Function for the Writing section
+function splitSentences() {
+    const paragraph = document.getElementById('writing-sample').innerText;
+    const outputDiv = document.getElementById('writing-output');
+    
+    // Regex to split by sentences, keeping punctuation. Filters out empty strings.
+    const sentences = paragraph.match(/[^.!?]+[.!?]+/g) || [];
+    
+    outputDiv.innerHTML = ''; // Clear previous results
+    
+    if (sentences.length > 0) {
+        sentences.forEach((sentence, index) => {
+            const p = document.createElement('p');
+            p.textContent = `${index + 1}. ${sentence.trim()}`;
+            outputDiv.appendChild(p);
+        });
+    } else {
+        outputDiv.innerHTML = '<p>Không tìm thấy câu nào để tách.</p>';
+    }
+}
+</script>
+
+
+<!-- ===================================================================== -->
+<!-- =================== SECTION BÀI TẬP BỔ SUNG ==================== -->
+<!-- ===================================================================== -->
+
+<div class="container">
+    <section id="extended-practice-section">
+        <h2>STEP 4: EXTENDED PRACTICE (100 SENTENCES)</h2>
+        <p>Complete the sentences with the correct present progressive form (affirmative or negative) of the verbs in parentheses.</p>
+        
+        <style>
+            /* Styles specific to the extended practice section to avoid conflicts */
+            #extended-practice-section .exercise-item {
+                background-color: #f9f9f9;
+                border-left: 4px solid #3498db;
+                padding: 15px;
+                margin-bottom: 12px;
+                border-radius: 4px;
+            }
+            #extended-practice-section input[type="text"] {
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                margin: 0 5px;
+                width: 150px;
+            }
+            #extended-practice-section button {
+                padding: 8px 15px;
+                background-color: #2ecc71;
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 4px;
+                transition: background-color 0.3s;
+            }
+            #extended-practice-section button:hover {
+                background-color: #27ae60;
+            }
+            #extended-practice-section .feedback-span {
+                margin-left: 10px;
+                font-weight: bold;
+            }
+            #extended-practice-section .feedback-span.correct {
+                color: #27ae60;
+            }
+            #extended-practice-section .feedback-span.incorrect {
+                color: #e74c3c;
+            }
+            #extended-practice-section .result-container {
+                display: none; /* Hidden by default */
+                margin-top: 10px;
+                padding: 10px;
+                background-color: #e8f6f3;
+                border: 1px solid #d0e9e2;
+                border-radius: 4px;
+            }
+            #extended-practice-section .full-sentence {
+                font-weight: bold;
+                color: #16a085;
+            }
+            #extended-practice-section .translation {
+                font-style: italic;
+                color: #555;
+                margin-top: 5px;
+            }
+        </style>
+
+        <div id="extended-exercises-container">
+            <!-- 100 Sentences will be injected here by JavaScript -->
+        </div>
+
+    </section>
+</div>
+
+<script>
+// Use a separate scope to avoid conflicts
+(function() {
+    // Wait for the DOM to be fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        // Data for 100 sentences
+        const sentencesData = [
+            { q: "1. She ___ (read) a book right now.", a: "is reading", s: "She is reading a book right now.", t: "Cô ấy đang đọc một cuốn sách ngay bây giờ." },
+            { q: "2. They ___ (play) soccer in the park.", a: "are playing", s: "They are playing soccer in the park.", t: "Họ đang chơi bóng đá trong công viên." },
+            { q: "3. I ___ (do) my homework at the moment.", a: "am doing", s: "I am doing my homework at the moment.", t: "Tôi đang làm bài tập về nhà vào lúc này." },
+            { q: "4. The chef ___ (cook) dinner in the kitchen.", a: "is cooking", s: "The chef is cooking dinner in the kitchen.", t: "Đầu bếp đang nấu bữa tối trong bếp." },
+            { q: "5. We ___ (watch) a movie tonight.", a: "are watching", s: "We are watching a movie tonight.", t: "Chúng tôi đang xem một bộ phim tối nay." },
+            { q: "6. He ___ (not / sleep); he's studying.", a: "isn't sleeping", s: "He isn't sleeping; he's studying.", t: "Anh ấy không đang ngủ; anh ấy đang học bài." },
+            { q: "7. Why ___ you ___ (laugh)?", a: "are you laughing", s: "Why are you laughing?", t: "Tại sao bạn lại đang cười vậy?" },
+            { q: "8. The children ___ (make) a lot of noise.", a: "are making", s: "The children are making a lot of noise.", t: "Bọn trẻ đang làm ồn rất nhiều." },
+            { q: "9. My phone ___ (not / work) properly.", a: "isn't working", s: "My phone isn't working properly.", t: "Điện thoại của tôi đang không hoạt động bình thường." },
+            { q: "10. The sun ___ (shine) brightly today.", a: "is shining", s: "The sun is shining brightly today.", t: "Hôm nay mặt trời đang chiếu sáng rực rỡ." },
+            { q: "11. I ___ (listen) to music.", a: "am listening", s: "I am listening to music.", t: "Tôi đang nghe nhạc." },
+            { q: "12. You ___ (not / pay) attention to me.", a: "aren't paying", s: "You aren't paying attention to me.", t: "Bạn không đang chú ý đến tôi." },
+            { q: "13. The cat ___ (sit) on the roof.", a: "is sitting", s: "The cat is sitting on the roof.", t: "Con mèo đang ngồi trên mái nhà." },
+            { q: "14. What ___ he ___ (eat)?", a: "is he eating", s: "What is he eating?", t: "Anh ấy đang ăn gì vậy?" },
+            { q: "15. We ___ (plan) our summer vacation.", a: "are planning", s: "We are planning our summer vacation.", t: "Chúng tôi đang lên kế hoạch cho kỳ nghỉ hè." },
+            { q: "16. It ___ (rain) outside.", a: "is raining", s: "It is raining outside.", t: "Ngoài trời đang mưa." },
+            { q: "17. The students ___ (take) a test.", a: "are taking", s: "The students are taking a test.", t: "Các học sinh đang làm bài kiểm tra." },
+            { q: "18. She ___ (wear) a beautiful blue dress.", a: "is wearing", s: "She is wearing a beautiful blue dress.", t: "Cô ấy đang mặc một chiếc váy màu xanh xinh đẹp." },
+            { q: "19. My parents ___ (travel) in Europe this month.", a: "are traveling", s: "My parents are traveling in Europe this month.", t: "Bố mẹ tôi đang đi du lịch ở châu Âu trong tháng này." },
+            { q: "20. The baby ___ (cry) because he is hungry.", a: "is crying", s: "The baby is crying because he is hungry.", t: "Em bé đang khóc vì đói." },
+            { q: "21. He ___ (wait) for the bus.", a: "is waiting", s: "He is waiting for the bus.", t: "Anh ấy đang chờ xe buýt." },
+            { q: "22. They ___ (not / build) a new house.", a: "aren't building", s: "They aren't building a new house.", t: "Họ không đang xây một ngôi nhà mới." },
+            { q: "23. I ___ (think) about my future.", a: "am thinking", s: "I am thinking about my future.", t: "Tôi đang suy nghĩ về tương lai của mình." },
+            { q: "24. The dog ___ (run) in the garden.", a: "is running", s: "The dog is running in the garden.", t: "Con chó đang chạy trong vườn." },
+            { q: "25. My sister ___ (learn) to drive.", a: "is learning", s: "My sister is learning to drive.", t: "Chị gái tôi đang học lái xe." },
+            { q: "26. We ___ (have) a great time at the party.", a: "are having", s: "We are having a great time at the party.", t: "Chúng tôi đang có một khoảng thời gian tuyệt vời tại bữa tiệc." },
+            { q: "27. He ___ (talk) on the phone.", a: "is talking", s: "He is talking on the phone.", t: "Anh ấy đang nói chuyện điện thoại." },
+            { q: "28. The birds ___ (sing) in the trees.", a: "are singing", s: "The birds are singing in the trees.", t: "Những chú chim đang hót trên cây." },
+            { q: "29. You ___ (drive) too fast!", a: "are driving", s: "You are driving too fast!", t: "Bạn đang lái xe quá nhanh đấy!" },
+            { q: "30. I ___ (not / feel) well today.", a: "am not feeling", s: "I am not feeling well today.", t: "Hôm nay tôi đang cảm thấy không khỏe." },
+            { q: "31. My brother ___ (study) for his exams.", a: "is studying", s: "My brother is studying for his exams.", t: "Anh trai tôi đang ôn thi." },
+            { q: "32. They ___ (swim) in the pool.", a: "are swimming", s: "They are swimming in the pool.", t: "Họ đang bơi trong hồ bơi." },
+            { q: "33. What ___ you ___ (write)?", a: "are you writing", s: "What are you writing?", t: "Bạn đang viết gì vậy?" },
+            { q: "34. The company ___ (grow) very quickly.", a: "is growing", s: "The company is growing very quickly.", t: "Công ty đang phát triển rất nhanh." },
+            { q: "35. She ___ (not / listen) to the teacher.", a: "isn't listening", s: "She isn't listening to the teacher.", t: "Cô ấy không đang lắng nghe giáo viên." },
+            { q: "36. It ___ (get) dark outside.", a: "is getting", s: "It is getting dark outside.", t: "Ngoài trời đang tối dần." },
+            { q: "37. We ___ (try) to solve this problem.", a: "are trying", s: "We are trying to solve this problem.", t: "Chúng tôi đang cố gắng giải quyết vấn đề này." },
+            { q: "38. The kids ___ (draw) pictures.", a: "are drawing", s: "The kids are drawing pictures.", t: "Bọn trẻ đang vẽ tranh." },
+            { q: "39. He ___ (fix) his car.", a: "is fixing", s: "He is fixing his car.", t: "Anh ấy đang sửa xe của mình." },
+            { q: "40. I ___ (look) for my keys.", a: "am looking", s: "I am looking for my keys.", t: "Tôi đang tìm chìa khóa của mình." },
+            { q: "41. They ___ (dance) at the club.", a: "are dancing", s: "They are dancing at the club.", t: "Họ đang khiêu vũ ở câu lạc bộ." },
+            { q: "42. The wind ___ (blow) hard.", a: "is blowing", s: "The wind is blowing hard.", t: "Gió đang thổi mạnh." },
+            { q: "43. Why ___ she ___ (wear) a coat? It's hot.", a: "is she wearing", s: "Why is she wearing a coat? It's hot.", t: "Tại sao cô ấy lại đang mặc áo khoác? Trời nóng mà." },
+            { q: "44. My team ___ (not / win) the game.", a: "isn't winning", s: "My team isn't winning the game.", t: "Đội của tôi không đang chiến thắng trận đấu." },
+            { q: "45. The train ___ (arrive) at the station.", a: "is arriving", s: "The train is arriving at the station.", t: "Tàu đang đến ga." },
+            { q: "46. He ___ (stand) over there.", a: "is standing", s: "He is standing over there.", t: "Anh ấy đang đứng ở đằng kia." },
+            { q: "47. I ___ (drink) coffee.", a: "am drinking", s: "I am drinking coffee.", t: "Tôi đang uống cà phê." },
+            { q: "48. The two cats ___ (fight).", a: "are fighting", s: "The two cats are fighting.", t: "Hai con mèo đang đánh nhau." },
+            { q: "49. You ___ (make) a mistake.", a: "are making", s: "You are making a mistake.", t: "Bạn đang mắc một sai lầm." },
+            { q: "50. She ___ (wash) her hair.", a: "is washing", s: "She is washing her hair.", t: "Cô ấy đang gội đầu." },
+            { q: "51. I ___ (not / joke). I'm serious.", a: "am not joking", s: "I am not joking. I'm serious.", t: "Tôi không đang đùa đâu. Tôi đang nghiêm túc." },
+            { q: "52. The musicians ___ (play) a beautiful song.", a: "are playing", s: "The musicians are playing a beautiful song.", t: "Các nhạc công đang chơi một bài hát tuyệt đẹp." },
+            { q: "53. He ___ (lie) on the sofa.", a: "is lying", s: "He is lying on the sofa.", t: "Anh ấy đang nằm trên ghế sofa." },
+            { q: "54. The population of the world ___ (increase).", a: "is increasing", s: "The population of the world is increasing.", t: "Dân số thế giới đang tăng lên." },
+            { q: "55. She ___ (work) as a consultant this year.", a: "is working", s: "She is working as a consultant this year.", t: "Năm nay cô ấy đang làm việc với tư cách là một nhà tư vấn." },
+            { q: "56. Why ___ they ___ (shout) at each other?", a: "are they shouting", s: "Why are they shouting at each other?", t: "Tại sao họ lại đang la hét vào nhau vậy?" },
+            { q: "57. The economy ___ (not / improve) these days.", a: "isn't improving", s: "The economy isn't improving these days.", t: "Nền kinh tế dạo này không đang cải thiện." },
+            { q: "58. My friend ___ (stay) with me for a few days.", a: "is staying", s: "My friend is staying with me for a few days.", t: "Bạn tôi đang ở với tôi vài ngày." },
+            { q: "59. The kids ___ (hide) behind the tree.", a: "are hiding", s: "The kids are hiding behind the tree.", t: "Bọn trẻ đang trốn sau cái cây." },
+            { q: "60. I ___ (begin) to understand the problem.", a: "am beginning", s: "I am beginning to understand the problem.", t: "Tôi đang bắt đầu hiểu vấn đề." },
+            { q: "61. He ___ (text) his girlfriend.", a: "is texting", s: "He is texting his girlfriend.", t: "Anh ấy đang nhắn tin cho bạn gái." },
+            { q: "62. The airplane ___ (fly) at a high altitude.", a: "is flying", s: "The airplane is flying at a high altitude.", t: "Máy bay đang bay ở độ cao lớn." },
+            { q: "63. We ___ (enjoy) the concert very much.", a: "are enjoying", s: "We are enjoying the concert very much.", t: "Chúng tôi đang rất tận hưởng buổi hòa nhạc." },
+            { q: "64. The artist ___ (paint) a portrait.", a: "is painting", s: "The artist is painting a portrait.", t: "Người họa sĩ đang vẽ một bức chân dung." },
+            { q: "65. They ___ (not / speak) English at home.", a: "aren't speaking", s: "They aren't speaking English at home.", t: "Họ không đang nói tiếng Anh ở nhà." },
+            { q: "66. My grandmother ___ (tell) us a story.", a: "is telling", s: "My grandmother is telling us a story.", t: "Bà tôi đang kể cho chúng tôi nghe một câu chuyện." },
+            { q: "67. Look! It ___ (snow).", a: "is snowing", s: "Look! It is snowing.", t: "Nhìn kìa! Tuyết đang rơi." },
+            { q: "68. Who ___ (use) my computer?", a: "is using", s: "Who is using my computer?", t: "Ai đang dùng máy tính của tôi vậy?" },
+            { q: "69. The gardeners ___ (cut) the grass.", a: "are cutting", s: "The gardeners are cutting the grass.", t: "Những người làm vườn đang cắt cỏ." },
+            { q: "70. I ___ (not / wear) a jacket because it's warm.", a: "am not wearing", s: "I am not wearing a jacket because it's warm.", t: "Tôi không đang mặc áo khoác vì trời ấm." },
+            { q: "71. She ___ (carry) a heavy bag.", a: "is carrying", s: "She is carrying a heavy bag.", t: "Cô ấy đang mang một cái túi nặng." },
+            { q: "72. My father ___ (clean) the garage.", a: "is cleaning", s: "My father is cleaning the garage.", t: "Bố tôi đang dọn dẹp nhà để xe." },
+            { q: "73. The students ___ (discuss) the lesson.", a: "are discussing", s: "The students are discussing the lesson.", t: "Các học sinh đang thảo luận về bài học." },
+            { q: "74. The baby ___ (smile) at me.", a: "is smiling", s: "The baby is smiling at me.", t: "Em bé đang cười với tôi." },
+            { q: "75. We ___ (prepare) for the presentation.", a: "are preparing", s: "We are preparing for the presentation.", t: "Chúng tôi đang chuẩn bị cho bài thuyết trình." },
+            { q: "76. What ___ those people ___ (look) at?", a: "are those people looking", s: "What are those people looking at?", t: "Những người kia đang nhìn gì vậy?" },
+            { q: "77. He ___ (not / feel) motivated to work today.", a: "isn't feeling", s: "He isn't feeling motivated to work today.", t: "Anh ấy không đang cảm thấy có động lực làm việc hôm nay." },
+            { q: "78. The company ___ (lose) money this quarter.", a: "is losing", s: "The company is losing money this quarter.", t: "Công ty đang thua lỗ trong quý này." },
+            { q: "79. I ___ (try) to call my parents.", a: "am trying", s: "I am trying to call my parents.", t: "Tôi đang cố gắng gọi cho bố mẹ." },
+            { q: "80. She ___ (teach) her son how to ride a bike.", a: "is teaching", s: "She is teaching her son how to ride a bike.", t: "Cô ấy đang dạy con trai cách đi xe đạp." },
+            { q: "81. They ___ (renovate) their apartment.", a: "are renovating", s: "They are renovating their apartment.", t: "Họ đang cải tạo lại căn hộ của mình." },
+            { q: "82. The earth ___ (revolve) around the sun.", a: "0", s: "The earth revolves around the sun.", t: "Trái đất quay quanh mặt trời. (Lưu ý: Đây là sự thật hiển nhiên, dùng thì hiện tại đơn. Đáp án '0' cho bài tập này.)" },
+            { q: "83. My head ___ (hurt).", a: "is hurting", s: "My head is hurting.", t: "Đầu tôi đang đau." },
+            { q: "84. The engineers ___ (design) a new bridge.", a: "are designing", s: "The engineers are designing a new bridge.", t: "Các kỹ sư đang thiết kế một cây cầu mới." },
+            { q: "85. I ___ (not / listen) to the radio. Turn it off.", a: "am not listening", s: "I am not listening to the radio. Turn it off.", t: "Tôi không đang nghe radio đâu. Tắt nó đi." },
+            { q: "86. She ___ (get) ready for the party.", a: "is getting", s: "She is getting ready for the party.", t: "Cô ấy đang chuẩn bị cho bữa tiệc." },
+            { q: "87. The river ___ (flow) very fast today.", a: "is flowing", s: "The river is flowing very fast today.", t: "Hôm nay dòng sông đang chảy rất xiết." },
+            { q: "88. The police ___ (investigate) the crime.", a: "are investigating", s: "The police are investigating the crime.", t: "Cảnh sát đang điều tra vụ án." },
+            { q: "89. He ___ (become) more and more impatient.", a: "is becoming", s: "He is becoming more and more impatient.", t: "Anh ấy đang ngày càng trở nên thiếu kiên nhẫn." },
+            { q: "90. I ___ (sit) in a cafe and drinking tea.", a: "am sitting", s: "I am sitting in a cafe and drinking tea.", t: "Tôi đang ngồi trong quán cà phê và uống trà." },
+            { q: "91. They ___ (not / study) French this semester.", a: "aren't studying", s: "They aren't studying French this semester.", t: "Họ không đang học tiếng Pháp trong học kỳ này." },
+            { q: "92. The price of fuel ___ (go) up again.", a: "is going", s: "The price of fuel is going up again.", t: "Giá nhiên liệu lại đang tăng lên." },
+            { q: "93. Someone ___ (knock) at the door.", a: "is knocking", s: "Someone is knocking at the door.", t: "Có ai đó đang gõ cửa." },
+            { q: "94. We ___ (not / go) on vacation this year.", a: "aren't going", s: "We aren't going on vacation this year.", t: "Chúng tôi không đi nghỉ mát năm nay." },
+            { q: "95. Look! That man ___ (try) to open your car door.", a: "is trying", s: "Look! That man is trying to open your car door.", t: "Nhìn kìa! Người đàn ông đó đang cố mở cửa xe của bạn." },
+            { q: "96. My English ___ (improve) slowly.", a: "is improving", s: "My English is improving slowly.", t: "Tiếng Anh của tôi đang cải thiện một cách chậm rãi." },
+            { q: "97. It ___ (get) colder. You should wear a jacket.", a: "is getting", s: "It is getting colder. You should wear a jacket.", t: "Trời đang lạnh dần. Bạn nên mặc áo khoác." },
+            { q: "98. She ___ (shop) for new clothes.", a: "is shopping", s: "She is shopping for new clothes.", t: "Cô ấy đang đi mua sắm quần áo mới." },
+            { q: "99. He ___ (write) an email to his boss.", a: "is writing", s: "He is writing an email to his boss.", t: "Anh ấy đang viết một email cho sếp của mình." },
+            { q: "100. They ___ (have) lunch at that new restaurant.", a: "are having", s: "They are having lunch at that new restaurant.", t: "Họ đang ăn trưa tại nhà hàng mới đó." },
+        ];
+        
+        const container = document.getElementById('extended-exercises-container');
+        
+        // Generate HTML for each sentence
+        sentencesData.forEach(item => {
+            const exerciseDiv = document.createElement('div');
+            exerciseDiv.className = 'exercise-item';
+            // Store full sentence and translation in data attributes
+            exerciseDiv.dataset.fullSentence = item.s;
+            exerciseDiv.dataset.translation = item.t;
+            
+            // This regex helps to replace the first occurrence of ___
+            const questionHTML = item.q.replace(/___/, `<input type="text" class="user-answer" data-answer="${item.a}">`);
+
+            exerciseDiv.innerHTML = `
+                <p>${questionHTML}</p>
+                <button class="extended-submit-btn">Submit</button>
+                <span class="feedback-span"></span>
+                <div class="result-container">
+                    <p class="full-sentence"></p>
+                    <p class="translation"></p>
+                </div>
+            `;
+            container.appendChild(exerciseDiv);
+        });
+
+        // Add event listener to the container using event delegation
+        container.addEventListener('click', function(event) {
+            // Check if a submit button was clicked
+            if (event.target && event.target.matches('.extended-submit-btn')) {
+                const button = event.target;
+                const exerciseItem = button.closest('.exercise-item');
+                const input = exerciseItem.querySelector('.user-answer');
+                const feedbackSpan = exerciseItem.querySelector('.feedback-span');
+                const resultContainer = exerciseItem.querySelector('.result-container');
+
+                const userAnswer = input.value.trim().toLowerCase();
+                const correctAnswer = input.dataset.answer.toLowerCase();
+
+                // Clear previous results
+                resultContainer.style.display = 'none';
+                resultContainer.querySelector('.full-sentence').textContent = '';
+                resultContainer.querySelector('.translation').textContent = '';
+                
+                if (!userAnswer) {
+                    feedbackSpan.textContent = "Vui lòng nhập câu trả lời.";
+                    feedbackSpan.className = 'feedback-span incorrect';
+                    return;
+                }
+
+                if (userAnswer === correctAnswer) {
+                    feedbackSpan.textContent = 'Chính xác!';
+                    feedbackSpan.className = 'feedback-span correct';
+                    
+                    // Populate and show the result container
+                    resultContainer.querySelector('.full-sentence').textContent = exerciseItem.dataset.fullSentence;
+                    resultContainer.querySelector('.translation').textContent = exerciseItem.dataset.translation;
+                    resultContainer.style.display = 'block';
+                } else {
+                    feedbackSpan.textContent = `Sai rồi. Gợi ý: Đáp án đúng là "${input.dataset.answer}".`;
+                    feedbackSpan.className = 'feedback-span incorrect';
+                }
+            }
+        });
+    });
+})(); // End of the isolated scope
+</script>
+
+<!-- ================= END OF EXTENDED PRACTICE SECTION ================= -->
+
+</body>
+</html>

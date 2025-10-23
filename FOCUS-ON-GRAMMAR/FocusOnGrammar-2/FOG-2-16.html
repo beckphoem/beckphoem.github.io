@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 16: Present Progressive - Yes/No and Wh- Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+
+        h1 {
+            color: #fff;
+            background-color: #f39c12;
+            padding: 15px;
+            margin: -25px -25px 20px -25px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        h1 span.unit-number {
+            display: block;
+            font-size: 0.5em;
+            font-weight: normal;
+        }
+
+        h2 {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            border-bottom: 2px solid #27ae60;
+            padding-bottom: 5px;
+            color: #2c3e50;
+        }
+        
+        h4 {
+            background-color: #ecf0f1;
+            padding: 8px;
+            border-left: 5px solid #f39c12;
+        }
+
+        .outcomes {
+            background-color: #fffbe6;
+            border: 1px solid #f39c12;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .conversation {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .conversation p {
+            margin: 5px 0;
+        }
+
+        .conversation .speaker {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        
+        .reading-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .reading-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .reading-image {
+            flex: 1;
+            min-width: 300px;
+            max-width: 450px;
+        }
+
+        .reading-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .vocabulary-box {
+            background-color: #e8f5e9;
+            border: 1px solid #27ae60;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-weight: bold;
+            text-align: center;
+            word-spacing: 15px;
+        }
+        
+        .exercise-block {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #ecf0f1;
+            border-radius: 5px;
+        }
+        
+        .question-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #fafafa;
+            border-radius: 5px;
+        }
+
+        .question-item input[type="text"] {
+            width: 70%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-left: 5px;
+            font-size: 1em;
+        }
+
+        .question-item button {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .question-item button:hover {
+            background-color: #2980b9;
+        }
+        
+        .question-item button:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .feedback {
+            display: none;
+            margin-top: 5px;
+            padding: 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .correct-feedback {
+            color: #27ae60;
+            background-color: #e8f5e9;
+        }
+
+        .incorrect-feedback {
+            color: #c0392b;
+            background-color: #fbe9e7;
+        }
+        
+        .grammar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        .grammar-table th, .grammar-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .grammar-table th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .grammar-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .grammar-notes {
+            background-color: #fdf5e6;
+            border-left: 5px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .note-title {
+            font-weight: bold;
+            color: #d35400;
+        }
+        
+        .example {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-left: 20px;
+        }
+        
+        #youtube-player {
+            margin-top: 20px;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>
+            UNIT 16
+            <span class="unit-number">Present Progressive: Yes/No and Wh- Questions | MOVIES</span>
+        </h1>
+        
+        <div class="outcomes">
+            <h4>OUTCOMES</h4>
+            <ul>
+                <li>Ask and answer questions about situations that are happening now</li>
+                <li>Answer questions about details in a conversation</li>
+                <li>Recognize where people are and what they are doing based on a conversation</li>
+                <li>Ask and answer questions about a movie</li>
+                <li>Write a short composition that describes what is happening now</li>
+            </ul>
+        </div>
+
+        <h2>STEP 1: GRAMMAR IN CONTEXT</h2>
+        
+        <h3>BEFORE YOU READ</h3>
+        <p>Work with a partner. Answer the questions.</p>
+        <ol>
+            <li>What kinds of movies do you like?
+                <br> a. action &nbsp; b. animation &nbsp; c. comedy &nbsp; d. drama &nbsp; e. horror &nbsp; f. science fiction &nbsp; g. other
+            </li>
+            <li>Look at the picture on the laptop computer. What kind of movie is this? What do you know about this movie?</li>
+        </ol>
+
+        <h3>READ</h3>
+        <p>Ann has a cold. Her co-worker Don is calling her on the phone to see how she is. Read their conversation.</p>
+        
+        <div class="reading-content">
+            <div class="reading-text">
+                <h4>A Very Funny Movie</h4>
+                <div class="conversation">
+                    <p><span class="speaker">ANN:</span> Hello.</p>
+                    <p><span class="speaker">DON:</span> Hi, Ann. How are you feeling today? Any better?</p>
+                    <p><span class="speaker">ANN:</span> Uh-huh. I'm coughing less.</p>
+                    <p><span class="speaker">DON:</span> Good. Is the fever going down?</p>
+                    <p><span class="speaker">ANN:</span> Yes, it is. I'm just resting and watching movies.</p>
+                    <p><span class="speaker">DON:</span> Oh? What are you watching?</p>
+                    <p><span class="speaker">ANN:</span> My Big Fat Greek Wedding.</p>
+                    <p><span class="speaker">DON:</span> I remember that movie. It was really funny. What's happening now?</p>
+                    <p><span class="speaker">ANN:</span> In this scene, Toula's parents and Ian's parents are meeting for the first time.</p>
+                    <p><span class="speaker">DON:</span> Where are you watching it? On your computer?</p>
+                    <p><span class="speaker">ANN:</span> Yes.</p>
+                    <p><span class="speaker">DON:</span> It's amazing. It's still funny after so many years.</p>
+                    <p><span class="speaker">ANN:</span> I know. But, tell me, what's going on at work?</p>
+                    <p><span class="speaker">DON:</span> We're working on ten things at the same time.</p>
+                    <p><span class="speaker">ANN:</span> Is Mr. Brooks going crazy?¹ Who's doing my work?</p>
+                    <p><span class="speaker">DON:</span> Mr. Brooks is impossible, and I'm doing your work. But not tomorrow.</p>
+                    <p><span class="speaker">ANN:</span> Why? Are you taking the day off?</p>
+                    <p><span class="speaker">DON:</span> Yes, I am. I'm catching your cold. I guess I need some good movies.</p>
+                </div>
+                <small>¹ going crazy: feeling upset because there are too many things to do</small>
+            </div>
+            <div class="reading-image">
+                <img src="FOG-2-16/1.png" alt="Scene from a movie on a laptop screen">
+            </div>
+        </div>
+        
+        <!-- YouTube Video Placeholder -->
+        <div id="youtube-placeholder">
+            <h4>Watch a clip from the movie:</h4>
+            <iframe id="youtube-player" 
+                src="https://www.youtube.com/embed/YOUR_YOUTUBE_VIDEO_ID" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <p style="text-align:center; font-style:italic;">(To use this, replace 'YOUR_YOUTUBE_VIDEO_ID' in the HTML code with a real YouTube video ID, e.g., 'O2mecmDFE-Q')</p>
+        </div>
+
+
+        <h3>AFTER YOU READ</h3>
+        <h4>A VOCABULARY</h4>
+        <p>Complete the sentences with the words from the box.</p>
+        <div class="vocabulary-box">
+            catching a cold &nbsp;&nbsp;&nbsp; coughing &nbsp;&nbsp;&nbsp; fever &nbsp;&nbsp;&nbsp; scene &nbsp;&nbsp;&nbsp; still
+        </div>
+        
+        <div class="exercise-block">
+            <div class="question-item">
+                <span>1. A: Why are you watching that <input type="text" id="v1"> again?</span>
+                <button onclick="checkAnswer(this)" data-correct="scene">Submit</button>
+                <br><span>B: It's my favorite part of the movie.</span>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>scene</strong></div>
+            </div>
+            <div class="question-item">
+                <span>2. A: Why are you staying home?</span>
+                <br><span>B: I feel terrible. I think I'm <input type="text" id="v2">.</span>
+                <button onclick="checkAnswer(this)" data-correct="catching a cold">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>catching a cold</strong></div>
+            </div>
+            <div class="question-item">
+                <span>3. A: Why is he so hot? Does he have a <input type="text" id="v3">?</span>
+                <button onclick="checkAnswer(this)" data-correct="fever">Submit</button>
+                <br><span>B: Yes, he does.</span>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>fever</strong></div>
+            </div>
+             <div class="question-item">
+                <span>4. A: Do you <input type="text" id="v4"> like to go to the movies?</span>
+                <button onclick="checkAnswer(this)" data-correct="still">Submit</button>
+                <br><span>B: Yes, I do. Now the movie theater in my area has big, comfortable chairs.</span>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>still</strong></div>
+            </div>
+             <div class="question-item">
+                <span>5. A: He's <input type="text" id="v5"> and sneezing because he's allergic to those flowers. He isn't sick.</span>
+                <button onclick="checkAnswer(this)" data-correct="coughing">Submit</button>
+                <br><span>B: Oh. Let's put the flowers in another room.</span>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>coughing</strong></div>
+            </div>
+        </div>
+
+        <h4>B COMPREHENSION</h4>
+        <p>Match each question with its answer.</p>
+        <div class="exercise-block">
+            <div class="question-item">
+                <span>1. Why is Ann staying home? <input type="text" placeholder="a-f" size="3" id="c1"></span>
+                <button onclick="checkAnswer(this)" data-correct="c">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Ann is staying home because she's getting sick. Đáp án là: <strong>c</strong></div>
+            </div>
+             <div class="question-item">
+                <span>2. Is she feeling better today? <input type="text" placeholder="a-f" size="3" id="c2"></span>
+                <button onclick="checkAnswer(this)" data-correct="a">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. She says "Uh-huh" and "I'm coughing less". Đáp án là: <strong>a</strong></div>
+            </div>
+             <div class="question-item">
+                <span>3. What kind of movie is Ann watching? <input type="text" placeholder="a-f" size="3" id="c3"></span>
+                <button onclick="checkAnswer(this)" data-correct="d">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. "My Big Fat Greek Wedding" is a comedy. Đáp án là: <strong>d</strong></div>
+            </div>
+             <div class="question-item">
+                <span>4. What's happening in the movie? <input type="text" placeholder="a-f" size="3" id="c4"></span>
+                <button onclick="checkAnswer(this)" data-correct="f">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Ann says "Toula's parents and Ian's parents are meeting". Đáp án là: <strong>f</strong></div>
+            </div>
+             <div class="question-item">
+                <span>5. Is Mr. Brooks doing Ann's work? <input type="text" placeholder="a-f" size="3" id="c5"></span>
+                <button onclick="checkAnswer(this)" data-correct="b">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Don is doing Ann's work. Đáp án là: <strong>b</strong></div>
+            </div>
+             <div class="question-item">
+                <span>6. What's happening to Don? <input type="text" placeholder="a-f" size="3" id="c6"></span>
+                <button onclick="checkAnswer(this)" data-correct="e">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. He says "I'm catching your cold". Đáp án là: <strong>e</strong></div>
+            </div>
+            <div style="margin-top:20px; padding:10px; background:#eee;">
+                a. Yes, she is. &nbsp; b. No, Don is. &nbsp; c. He's getting sick. &nbsp; d. A comedy. &nbsp; e. She has a cold. &nbsp; f. Toula's and Ian's parents are meeting.
+            </div>
+        </div>
+
+        <h4>C DISCUSSION</h4>
+        <p>Work with a partner. Compare your answers. Then look at the reading. What does Don ask Ann? What does Ann ask Don?</p>
+
+        <h2>STEP 2: GRAMMAR PRESENTATION</h2>
+        
+        <h3>PRESENT PROGRESSIVE: YES/NO QUESTIONS AND WH- QUESTIONS</h3>
+
+        <h4>Yes/No Questions</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Be</th>
+                    <th>Subject</th>
+                    <th>Base Form of Verb + -ing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Am</td>
+                    <td>I</td>
+                    <td rowspan="4" style="vertical-align: middle;">resting?</td>
+                </tr>
+                <tr>
+                    <td>Are</td>
+                    <td>you</td>
+                </tr>
+                <tr>
+                    <td>Is</td>
+                    <td>he / she / it</td>
+                </tr>
+                <tr>
+                    <td>Are</td>
+                    <td>we / you / they</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>Short Answers</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th colspan="2">Affirmative</th>
+                    <th colspan="2">Negative</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yes,</td>
+                    <td>
+                        you are.<br>
+                        I am.<br>
+                        he / she / it is.<br>
+                        we / you / they are.
+                    </td>
+                    <td>No,</td>
+                    <td>
+                        you're not. / you aren't.<br>
+                        I'm not.<br>
+                        he's / she's / it's not. / he isn't...<br>
+                        we're / you're / they're not. / we aren't...
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Wh- Questions</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Wh- Word</th>
+                    <th>Be</th>
+                    <th>Subject</th>
+                    <th>Base Form of Verb + -ing</th>
+                    <th></th>
+                    <th>Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Why</td>
+                    <td>is</td>
+                    <td>she</td>
+                    <td>staying</td>
+                    <td>home?</td>
+                    <td>She's sick.</td>
+                </tr>
+                <tr>
+                    <td>What</td>
+                    <td>are</td>
+                    <td>you</td>
+                    <td>watching?</td>
+                    <td></td>
+                    <td>My Big Fat Greek Wedding.</td>
+                </tr>
+                <tr>
+                    <td>Where</td>
+                    <td>are</td>
+                    <td>they</td>
+                    <td>showing</td>
+                    <td>the movie?</td>
+                    <td>At the Cineplex.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h4>Wh- Questions About the Subject</h4>
+        <table class="grammar-table">
+            <thead>
+                <tr>
+                    <th>Wh- Word</th>
+                    <th>Be</th>
+                    <th>Base Form of Verb + -ing</th>
+                    <th></th>
+                    <th>Answers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Who</td>
+                    <td>is</td>
+                    <td>staying</td>
+                    <td>home?</td>
+                    <td>Ann is.</td>
+                </tr>
+                <tr>
+                    <td>What</td>
+                    <td>is</td>
+                    <td>happening?</td>
+                    <td></td>
+                    <td>They're singing.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3>GRAMMAR NOTES</h3>
+        <div class="grammar-notes">
+            <p><span class="note-title">1. Present Progressive: Yes/No Questions</span></p>
+            <p>Yes/no questions in the present progressive ask if something is happening now or nowadays.</p>
+            <p>To form a yes/no question, reverse the subject and the verb <em>be</em>.</p>
+            <p class="example">He is singing. ➔ Is he singing?</p>
+        </div>
+        <div class="grammar-notes">
+            <p><span class="note-title">2. Present Progressive: Wh- Questions</span></p>
+            <p>Wh- questions in the present progressive ask for information about something happening now or nowadays.</p>
+            <p>Wh- questions in the present progressive begin with a wh- word and use <strong>yes/no question word order</strong>.</p>
+            <p class="example">Where is he working?<br>What are they doing?<br>Who are you meeting?</p>
+        </div>
+        <div class="grammar-notes">
+            <p><span class="note-title">3. Present Progressive: Questions About the Subject</span></p>
+            <p>Questions about the subject use <strong>statement word order</strong>—noun + verb. They often begin with <em>Who</em> or <em>What</em>.</p>
+            <p class="example">A: Who is resting?<br>B: Ann is resting.</p>
+            <p>(Both the question and the answer have the same word order.)</p>
+        </div>
+
+        <h2>STEP 3: FOCUSED PRACTICE</h2>
+
+        <h3>EXERCISE 1: DISCOVER THE GRAMMAR</h3>
+        <p>Read the questions in the chart. Then answer the questions.</p>
+        <table class="grammar-table">
+            <thead><tr><th>Column A</th><th>Column B</th><th>Column C</th></tr></thead>
+            <tbody>
+                <tr>
+                    <td>What's happening now?</td>
+                    <td>How are you feeling today?</td>
+                    <td>Is the fever going down?</td>
+                </tr>
+                <tr>
+                    <td>What's going on at work?</td>
+                    <td>What are you watching?</td>
+                    <td>Is Mr. Brooks going crazy?</td>
+                </tr>
+                <tr>
+                    <td>Who's doing my work?</td>
+                    <td>Where are you watching it?</td>
+                    <td>Are you getting sick?</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="exercise-block">
+            <div class="question-item">
+                <span>1. Which column has yes/no questions? <input type="text" placeholder="A, B, or C" size="5"></span>
+                <button onclick="checkAnswer(this)" data-correct="Column C|C">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Gợi ý: Yes/No questions start with a form of 'be'. Đáp án là: <strong>Column C</strong></div>
+            </div>
+            <div class="question-item">
+                <span>2. Which column has questions about the subject? <input type="text" placeholder="A, B, or C" size="5"></span>
+                <button onclick="checkAnswer(this)" data-correct="Column A|A">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Gợi ý: These use statement word order (Who/What + is + verb-ing). Đáp án là: <strong>Column A</strong></div>
+            </div>
+            <div class="question-item">
+                <span>3. Which column has other wh- questions? <input type="text" placeholder="A, B, or C" size="5"></span>
+                <button onclick="checkAnswer(this)" data-correct="Column B|B">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Gợi ý: These use yes/no question word order after the wh- word. Đáp án là: <strong>Column B</strong></div>
+            </div>
+        </div>
+        
+        <h3>EXERCISE 2: YES/NO QUESTIONS</h3>
+        <h4>A Change each statement to a yes/no question.</h4>
+        <div class="exercise-block">
+            <div class="question-item">
+                <p>1. She is buying the tickets online.</p>
+                A: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Is she buying the tickets online?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Is she buying the tickets online?</strong></div>
+            </div>
+             <div class="question-item">
+                <p>2. They are sitting in the first row.</p>
+                A: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Are they sitting in the first row?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Are they sitting in the first row?</strong></div>
+            </div>
+             <div class="question-item">
+                <p>3. They are watching a horror movie.</p>
+                A: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Are they watching a horror movie?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Are they watching a horror movie?</strong></div>
+            </div>
+             <div class="question-item">
+                <p>4. My hat is blocking your view.</p>
+                A: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Is my hat blocking your view?|Is your hat blocking my view?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Is my hat blocking your view?</strong></div>
+            </div>
+             <div class="question-item">
+                <p>5. You are enjoying the movie.</p>
+                A: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Are you enjoying the movie?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Are you enjoying the movie?</strong></div>
+            </div>
+        </div>
+        
+        <h4>B Write the answer to each question. Choose the correct answer from the box.</h4>
+        <div class="vocabulary-box">
+             Yes, I am. Are you? &nbsp;|&nbsp; No. They're in the fifth row. &nbsp;|&nbsp; No, it isn't. I can see the screen. &nbsp;|&nbsp; Yes, she is. She always gets tickets online. &nbsp;|&nbsp; Yes. It's very scary.
+        </div>
+        <div class="exercise-block">
+             <div class="question-item">
+                <p>1. A: Is she buying the tickets online?</p>
+                B: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Yes, she is. She always gets tickets online.">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Yes, she is. She always gets tickets online.</strong></div>
+            </div>
+            <div class="question-item">
+                <p>2. A: Are they sitting in the first row?</p>
+                B: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="No. They're in the fifth row.">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>No. They're in the fifth row.</strong></div>
+            </div>
+            <div class="question-item">
+                <p>3. A: Are they watching a horror movie?</p>
+                B: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Yes. It's very scary.">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Yes. It's very scary.</strong></div>
+            </div>
+            <div class="question-item">
+                <p>4. A: Is my hat blocking your view?</p>
+                B: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="No, it isn't. I can see the screen.">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>No, it isn't. I can see the screen.</strong></div>
+            </div>
+            <div class="question-item">
+                <p>5. A: Are you enjoying the movie?</p>
+                B: <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Yes, I am. Are you?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Yes, I am. Are you?</strong></div>
+            </div>
+        </div>
+
+        <h3>EXERCISE 3: WH- QUESTIONS</h3>
+        <p>Write questions with the correct forms of the words in parentheses. Use the present progressive.</p>
+        <div class="exercise-block">
+            <div class="question-item">
+                <p>1. A: (What / you / do) <input type="text" style="width: 70%;"></p>
+                <button onclick="checkAnswer(this)" data-correct="What are you doing?">Submit</button>
+                <p>B: I'm getting something to eat.</p>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>What are you doing?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>2. A: (What / he / buy) <input type="text" style="width: 70%;"></p>
+                <button onclick="checkAnswer(this)" data-correct="What is he buying?|What's he buying?">Submit</button>
+                <p>B: Popcorn. He always eats popcorn at the movies.</p>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>What is he buying? / What's he buying?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>3. A: (Where / they / sit) <input type="text" style="width: 70%;"></p>
+                <button onclick="checkAnswer(this)" data-correct="Where are they sitting?">Submit</button>
+                <p>B: In the fifth row in the center.</p>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Where are they sitting?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>4. A: (Why / she / put her coat on that seat) <input type="text" style="width: 55%;"></p>
+                <button onclick="checkAnswer(this)" data-correct="Why is she putting her coat on that seat?|Why's she putting her coat on that seat?">Submit</button>
+                <p>B: She's saving the seat for her friend.</p>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Why is she putting her coat on that seat?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>5. A: (Who / he / wait for) <input type="text" style="width: 70%;"></p>
+                <button onclick="checkAnswer(this)" data-correct="Who is he waiting for?|Who's he waiting for?">Submit</button>
+                <p>B: His roommate. They're meeting in front of the movie theater.</p>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is he waiting for? / Who's he waiting for?</strong></div>
+            </div>
+        </div>
+        
+        <h3>EXERCISE 4: WH- QUESTIONS ABOUT THE SUBJECT</h3>
+        <p>The following sentences describe scenes from famous movies. Write questions about the underlined words.</p>
+        <div class="exercise-block">
+            <div class="question-item">
+                <p>1. <u>Jack and Rose</u> are standing on the top deck of the <i>Titanic</i>.</p>
+                <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Who is standing on the top deck of the Titanic?|Who's standing on the top deck of the Titanic?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is standing on the top deck of the Titanic?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>2. <u>Jon and Sara</u> are drinking frozen hot chocolate at Serendipity.</p>
+                <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Who is drinking frozen hot chocolate at Serendipity?|Who's drinking frozen hot chocolate at Serendipity?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is drinking frozen hot chocolate at Serendipity?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>3. <u>E.T.</u> is phoning home.</p>
+                <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Who is phoning home?|Who's phoning home?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is phoning home?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>4. <u>Elsa</u> is dancing on the ice and singing, "Let It Go."</p>
+                <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Who is dancing on the ice and singing, Let It Go?|Who's dancing on the ice and singing, Let It Go?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is dancing on the ice and singing, "Let It Go"?</strong></div>
+            </div>
+            <div class="question-item">
+                <p>5. <u>Michael Corleone</u> is saying, "Keep your friends close, but your enemies closer."</p>
+                <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Who is saying, Keep your friends close, but your enemies closer.?|Who's saying, Keep your friends close, but your enemies closer.?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is saying, "Keep your friends close, but your enemies closer."?</strong></div>
+            </div>
+             <div class="question-item">
+                <p>6. <u>Gru and people in the park</u> are exercising to the song, "Happy."</p>
+                <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Who is exercising to the song, Happy?|Who's exercising to the song, Happy?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is exercising to the song, "Happy"?</strong></div>
+            </div>
+             <div class="question-item">
+                <p>7. <u>Dr. Serizawa</u> is saying, "Let them fight."</p>
+                <input type="text" style="width: 80%;">
+                <button onclick="checkAnswer(this)" data-correct="Who is saying, Let them fight.?|Who's saying, Let them fight.?">Submit</button>
+                <div class="feedback correct-feedback">Chính xác!</div>
+                <div class="feedback incorrect-feedback">Không đúng. Đáp án là: <strong>Who is saying, "Let them fight."?</strong></div>
+            </div>
+        </div>
+
+        <!-- WRITING SECTION (BONUS) -->
+        <h2>WRITING</h2>
+        <h3>Sample Paragraph</h3>
+        <p>This is a sample text based on the unit's theme. The task is to describe a scene happening right now.</p>
+        <div id="writing-sample" style="background: #f9f9f9; border: 1px solid #ddd; padding: 15px; border-radius: 5px;">
+            <p>I am sitting in a crowded movie theater right now. My friends are laughing at the funny movie on the screen. The man in front of me is eating his popcorn very loudly. A woman next to him is checking her phone, and the bright screen is bothering me. I hope she stops soon because the best part of the movie is starting.</p>
+        </div>
+
+        <h3>Sentence Splitter</h3>
+        <p>Click the button below to see the paragraph broken down into individual sentences.</p>
+        <button onclick="splitSentences()">Split into Sentences</button>
+        <div id="sentence-output" style="margin-top: 15px;"></div>
+    </div>
+
+    <script>
+        function normalizeAnswer(answer) {
+            // Remove punctuation at the end, trim whitespace, and handle multiple spaces
+            return answer.trim().replace(/[.?!]$/, '').replace(/\s\s+/g, ' ');
+        }
+
+        function checkAnswer(button) {
+            const questionItem = button.closest('.question-item');
+            const input = questionItem.querySelector('input');
+            const correctFeedback = questionItem.querySelector('.correct-feedback');
+            const incorrectFeedback = questionItem.querySelector('.incorrect-feedback');
+            
+            const userAnswer = normalizeAnswer(input.value);
+            const correctAnswers = button.dataset.correct.split('|').map(ans => normalizeAnswer(ans));
+
+            let isCorrect = false;
+            for (const correctAnswer of correctAnswers) {
+                // For case-sensitive check, use ===
+                // For case-insensitive, use toLowerCase() on both
+                if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                    isCorrect = true;
+                    break;
+                }
+            }
+
+            if (isCorrect) {
+                correctFeedback.style.display = 'block';
+                incorrectFeedback.style.display = 'none';
+                input.style.border = '2px solid #27ae60';
+            } else {
+                incorrectFeedback.style.display = 'block';
+                correctFeedback.style.display = 'none';
+                input.style.border = '2px solid #c0392b';
+            }
+            
+            button.disabled = true;
+        }
+
+        // Writing section script
+        function splitSentences() {
+            const paragraph = document.getElementById('writing-sample').querySelector('p').innerText;
+            const outputDiv = document.getElementById('sentence-output');
+            
+            // Split by period, question mark, or exclamation mark, followed by a space or end of string
+            const sentences = paragraph.match(/[^.!?]+[.!?]+/g);
+            
+            outputDiv.innerHTML = ''; // Clear previous output
+            
+            if (sentences) {
+                const ol = document.createElement('ol');
+                sentences.forEach(sentence => {
+                    const li = document.createElement('li');
+                    li.textContent = sentence.trim();
+                    ol.appendChild(li);
+                });
+                outputDiv.appendChild(ol);
+            } else {
+                outputDiv.textContent = "Could not find any sentences to split.";
+            }
+        }
+    </script>
+
+	<!-- ===================================================================== -->
+<!-- ============= SECTION BÀI TẬP BỔ SUNG (100 CÂU) =================== -->
+<!-- ===================================================================== -->
+<section class="container" id="additional-practice">
+    <h2>ADDITIONAL PRACTICE EXERCISES (100 Questions)</h2>
+    <p>Complete the questions using the Present Progressive form of the verbs in parentheses. Type your answer and click "Submit".</p>
+
+    <style>
+        #additional-practice {
+            margin-top: 40px;
+            border-top: 5px solid #3498db;
+            background-color: #fafdff;
+        }
+
+        .bonus-question-item {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .bonus-question-item .prompt {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        
+        .bonus-question-item .prompt code {
+            font-family: Consolas, Monaco, monospace;
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        .bonus-question-item input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .bonus-question-item button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .bonus-question-item button:hover {
+            background-color: #2980b9;
+        }
+        
+        .bonus-question-item button:disabled {
+             background-color: #bdc3c7;
+             cursor: not-allowed;
+        }
+
+        .bonus-feedback {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #fbe9e7;
+            border: 1px solid #ffab91;
+            color: #c0392b;
+        }
+
+        .bonus-result {
+            display: none;
+            margin-top: 10px;
+            padding: 15px;
+            background-color: #e8f5e9;
+            border: 1px solid #a5d6a7;
+            border-radius: 4px;
+        }
+
+        .bonus-result h4 {
+            color: #27ae60;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .bonus-result .complete-sentence {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .bonus-result .translation {
+            font-style: italic;
+            color: #555;
+            margin-top: 5px;
+        }
+    </style>
+
+    <div id="bonus-exercises-container">
+        <!-- Các câu hỏi sẽ được tạo bởi JavaScript -->
+    </div>
+
+    <script>
+        const bonusQuestions = [
+            // Yes/No Questions (1-35)
+            { prompt: "(you / listen / to me)", correct: "Are you listening to me", translation: "Bạn có đang lắng nghe tôi không?" },
+            { prompt: "(it / rain / outside)", correct: "Is it raining outside", translation: "Ngoài trời có đang mưa không?" },
+            { prompt: "(he / sleep / right now)", correct: "Is he sleeping right now", translation: "Có phải anh ấy đang ngủ ngay bây giờ không?" },
+            { prompt: "(they / watch / a movie)", correct: "Are they watching a movie", translation: "Họ đang xem phim phải không?" },
+            { prompt: "(she / cook / dinner)", correct: "Is she cooking dinner", translation: "Cô ấy đang nấu bữa tối à?" },
+            { prompt: "(we / go / in the right direction)", correct: "Are we going in the right direction", translation: "Chúng ta có đang đi đúng hướng không?" },
+            { prompt: "(your phone / ring)", correct: "Is your phone ringing", translation: "Điện thoại của bạn đang reo à?" },
+            { prompt: "(the children / play / in the garden)", correct: "Are the children playing in the garden", translation: "Bọn trẻ đang chơi trong vườn phải không?" },
+            { prompt: "(I / talk / too fast)", correct: "Am I talking too fast", translation: "Tôi có đang nói quá nhanh không?" },
+            { prompt: "(your computer / work / properly)", correct: "Is your computer working properly", translation: "Máy tính của bạn có đang hoạt động bình thường không?" },
+            { prompt: "(the baby / cry)", correct: "Is the baby crying", translation: "Em bé đang khóc à?" },
+            { prompt: "(the students / pay / attention)", correct: "Are the students paying attention", translation: "Các học sinh có đang chú ý không?" },
+            { prompt: "(he / wear / his new shoes)", correct: "Is he wearing his new shoes", translation: "Anh ấy có đang đi đôi giày mới không?" },
+            { prompt: "(you / feel / better today)", correct: "Are you feeling better today", translation: "Hôm nay bạn có cảm thấy khỏe hơn không?" },
+            { prompt: "(this bus / go / downtown)", correct: "Is this bus going downtown", translation: "Chuyến xe buýt này có đi vào trung tâm thành phố không?" },
+            { prompt: "(they / plan / a surprise party)", correct: "Are they planning a surprise party", translation: "Có phải họ đang lên kế hoạch cho một bữa tiệc bất ngờ không?" },
+            { prompt: "(she / wait / for someone)", correct: "Is she waiting for someone", translation: "Cô ấy đang đợi ai đó phải không?" },
+            { prompt: "(I / dream)", correct: "Am I dreaming", translation: "Tôi đang mơ phải không?" },
+            { prompt: "(the water / boil / yet)", correct: "Is the water boiling yet", translation: "Nước đã sôi chưa?" },
+            { prompt: "(your parents / travel / this month)", correct: "Are your parents traveling this month", translation: "Bố mẹ bạn có đi du lịch trong tháng này không?" },
+            { prompt: "(the dog / bark / at the mailman)", correct: "Is the dog barking at the mailman", translation: "Con chó đang sủa người đưa thư à?" },
+            { prompt: "(we / make / progress)", correct: "Are we making progress", translation: "Chúng ta có đang tiến bộ không?" },
+            { prompt: "(he / try / his best)", correct: "Is he trying his best", translation: "Anh ấy có đang cố gắng hết sức không?" },
+            { prompt: "(you / joke)", correct: "Are you joking", translation: "Bạn đang đùa đấy à?" },
+            { prompt: "(the sun / shine)", correct: "Is the sun shining", translation: "Mặt trời có đang chiếu sáng không?" },
+            { prompt: "(they / build / a new house)", correct: "Are they building a new house", translation: "Họ đang xây một ngôi nhà mới phải không?" },
+            { prompt: "(she / take / a photo)", correct: "Is she taking a photo", translation: "Cô ấy đang chụp ảnh à?" },
+            { prompt: "(the printer / make / a strange noise)", correct: "Is the printer making a strange noise", translation: "Cái máy in đang tạo ra tiếng động lạ phải không?" },
+            { prompt: "(I / do / this correctly)", correct: "Am I doing this correctly", translation: "Tôi có đang làm cái này đúng cách không?" },
+            { prompt: "(your team / win / the game)", correct: "Is your team winning the game", translation: "Đội của bạn đang thắng trận đấu à?" },
+            { prompt: "(he / study / for the exam)", correct: "Is he studying for the exam", translation: "Anh ấy đang ôn thi phải không?" },
+            { prompt: "(the guests / arrive / now)", correct: "Are the guests arriving now", translation: "Các vị khách đang đến bây giờ à?" },
+            { prompt: "(she / write / an email)", correct: "Is she writing an email", translation: "Cô ấy đang viết email phải không?" },
+            { prompt: "(you / still / work / on that project)", correct: "Are you still working on that project", translation: "Bạn vẫn đang làm dự án đó à?" },
+            { prompt: "(the flowers / bloom)", correct: "Are the flowers blooming", translation: "Những bông hoa đang nở phải không?" },
+
+            // Wh- Questions (36-75)
+            { prompt: "(What / you / read)", correct: "What are you reading", translation: "Bạn đang đọc gì vậy?" },
+            { prompt: "(Where / she / go)", correct: "Where is she going|Where's she going", translation: "Cô ấy đang đi đâu vậy?" },
+            { prompt: "(Why / he / laugh)", correct: "Why is he laughing|Why's he laughing", translation: "Tại sao anh ấy lại cười?" },
+            { prompt: "(Who / you / wait for)", correct: "Who are you waiting for", translation: "Bạn đang đợi ai vậy?" },
+            { prompt: "(What / they / talk about)", correct: "What are they talking about", translation: "Họ đang nói về chuyện gì vậy?" },
+            { prompt: "(How / you / feel)", correct: "How are you feeling", translation: "Bạn đang cảm thấy thế nào?" },
+            { prompt: "(When / we / leave)", correct: "When are we leaving", translation: "Khi nào chúng ta sẽ rời đi?" },
+            { prompt: "(What / she / wear)", correct: "What is she wearing|What's she wearing", translation: "Cô ấy đang mặc gì vậy?" },
+            { prompt: "(Where / the kids / hide)", correct: "Where are the kids hiding", translation: "Bọn trẻ đang trốn ở đâu?" },
+            { prompt: "(Why / the baby / cry)", correct: "Why is the baby crying|Why's the baby crying", translation: "Tại sao em bé lại khóc?" },
+            { prompt: "(What / he / cook)", correct: "What is he cooking|What's he cooking", translation: "Anh ấy đang nấu món gì vậy?" },
+            { prompt: "(How much / you / pay for that)", correct: "How much are you paying for that", translation: "Bạn đang trả bao nhiêu cho cái đó vậy?" },
+            { prompt: "(Which movie / they / watch)", correct: "Which movie are they watching", translation: "Họ đang xem bộ phim nào vậy?" },
+            { prompt: "(Where / I / put / my keys)", correct: "Where am I putting my keys", translation: "Tôi đang để chìa khóa của mình ở đâu nhỉ?" },
+            { prompt: "(Why / it / get / so dark)", correct: "Why is it getting so dark|Why's it getting so dark", translation: "Tại sao trời lại tối nhanh vậy?" },
+            { prompt: "(Who / she / talk to)", correct: "Who is she talking to|Who's she talking to", translation: "Cô ấy đang nói chuyện với ai vậy?" },
+            { prompt: "(What kind of music / you / listen to)", correct: "What kind of music are you listening to", translation: "Bạn đang nghe thể loại nhạc nào vậy?" },
+            { prompt: "(Where / your parents / stay)", correct: "Where are your parents staying", translation: "Bố mẹ bạn đang ở đâu?" },
+            { prompt: "(How / he / manage / to do that)", correct: "How is he managing to do that|How's he managing to do that", translation: "Làm thế nào mà anh ấy xoay sở để làm được điều đó?" },
+            { prompt: "(Why / you / look / at me like that)", correct: "Why are you looking at me like that", translation: "Tại sao bạn lại nhìn tôi như vậy?" },
+            { prompt: "(What / the teacher / explain)", correct: "What is the teacher explaining|What's the teacher explaining", translation: "Giáo viên đang giải thích điều gì vậy?" },
+            { prompt: "(Where / we / meet / tonight)", correct: "Where are we meeting tonight", translation: "Tối nay chúng ta sẽ gặp nhau ở đâu?" },
+            { prompt: "(How long / they / plan / to stay)", correct: "How long are they planning to stay", translation: "Họ dự định ở lại bao lâu?" },
+            { prompt: "(What / you / do / this weekend)", correct: "What are you doing this weekend", translation: "Bạn đang làm gì vào cuối tuần này?" },
+            { prompt: "(Why / she / run / so fast)", correct: "Why is she running so fast|Why's she running so fast", translation: "Tại sao cô ấy lại chạy nhanh như vậy?" },
+            { prompt: "(Which path / we / take)", correct: "Which path are we taking", translation: "Chúng ta đang đi con đường nào?" },
+            { prompt: "(Who / he / call)", correct: "Who is he calling|Who's he calling", translation: "Anh ấy đang gọi cho ai vậy?" },
+            { prompt: "(What / I / miss)", correct: "What am I missing", translation: "Tôi đang bỏ lỡ điều gì vậy?" },
+            { prompt: "(Where / you / buy / those shoes)", correct: "Where are you buying those shoes", translation: "Bạn đang mua đôi giày đó ở đâu vậy?" },
+            { prompt: "(Why / they / shout)", correct: "Why are they shouting", translation: "Tại sao họ lại la hét?" },
+            { prompt: "(What temperature / the oven / preheat / to)", correct: "What temperature is the oven preheating to", translation: "Lò đang làm nóng trước đến nhiệt độ nào?" },
+            { prompt: "(How / the team / perform)", correct: "How is the team performing|How's the team performing", translation: "Đội đang thi đấu như thế nào?" },
+            { prompt: "(What excuse / he / make / this time)", correct: "What excuse is he making this time|What excuse's he making this time", translation: "Lần này anh ta đang viện cớ gì vậy?" },
+            { prompt: "(Where / she / get / her hair done)", correct: "Where is she getting her hair done|Where's she getting her hair done", translation: "Cô ấy đang làm tóc ở đâu vậy?" },
+            { prompt: "(Why / you / pack / your bags)", correct: "Why are you packing your bags", translation: "Tại sao bạn lại đóng gói hành lý của mình?" },
+            { prompt: "(What book / she / recommend)", correct: "What book is she recommending|What book's she recommending", translation: "Cô ấy đang giới thiệu cuốn sách nào vậy?" },
+            { prompt: "(How many people / you / invite)", correct: "How many people are you inviting", translation: "Bạn đang mời bao nhiêu người?" },
+            { prompt: "(What / we / celebrate)", correct: "What are we celebrating", translation: "Chúng ta đang ăn mừng điều gì vậy?" },
+            { prompt: "(Where / they / film / that scene)", correct: "Where are they filming that scene", translation: "Họ đang quay cảnh đó ở đâu?" },
+            { prompt: "(Why / the dog / wag / its tail)", correct: "Why is the dog wagging its tail|Why's the dog wagging its tail", translation: "Tại sao con chó lại vẫy đuôi?" },
+            
+            // Wh- Questions about the Subject (76-100)
+            { prompt: "(Who / drive / that car)", correct: "Who is driving that car|Who's driving that car", translation: "Ai đang lái chiếc xe đó?" },
+            { prompt: "(What / happen / outside)", correct: "What is happening outside|What's happening outside", translation: "Chuyện gì đang xảy ra bên ngoài vậy?" },
+            { prompt: "(Who / make / that noise)", correct: "Who is making that noise|Who's making that noise", translation: "Ai đang gây ra tiếng ồn đó?" },
+            { prompt: "(What / cause / this delay)", correct: "What is causing this delay|What's causing this delay", translation: "Điều gì đang gây ra sự chậm trễ này?" },
+            { prompt: "(Who / sit / in my chair)", correct: "Who is sitting in my chair|Who's sitting in my chair", translation: "Ai đang ngồi trên ghế của tôi?" },
+            { prompt: "(What / smell / so good)", correct: "What is smelling so good|What's smelling so good", translation: "Cái gì có mùi thơm thế nhỉ?" },
+            { prompt: "(Who / sing / that song)", correct: "Who is singing that song|Who's singing that song", translation: "Ai đang hát bài hát đó?" },
+            { prompt: "(What / block / the road)", correct: "What is blocking the road|What's blocking the road", translation: "Cái gì đang chặn đường vậy?" },
+            { prompt: "(Who / knock / at the door)", correct: "Who is knocking at the door|Who's knocking at the door", translation: "Ai đang gõ cửa vậy?" },
+            { prompt: "(What / grow / in the garden)", correct: "What is growing in the garden|What's growing in the garden", translation: "Cái gì đang mọc trong vườn vậy?" },
+            { prompt: "(Who / lead / the team)", correct: "Who is leading the team|Who's leading the team", translation: "Ai đang dẫn dắt đội?" },
+            { prompt: "(What / come / out of the chimney)", correct: "What is coming out of the chimney|What's coming out of the chimney", translation: "Cái gì đang bay ra từ ống khói vậy?" },
+            { prompt: "(Who / wear / a red hat)", correct: "Who is wearing a red hat|Who's wearing a red hat", translation: "Ai đang đội một chiếc mũ đỏ?" },
+            { prompt: "(What / make / that strange sound)", correct: "What is making that strange sound|What's making that strange sound", translation: "Cái gì đang tạo ra âm thanh kỳ lạ đó vậy?" },
+            { prompt: "(Who / use / my computer)", correct: "Who is using my computer|Who's using my computer", translation: "Ai đang dùng máy tính của tôi?" },
+            { prompt: "(What / shine / so brightly)", correct: "What is shining so brightly|What's shining so brightly", translation: "Cái gì đang chiếu sáng rực rỡ vậy?" },
+            { prompt: "(Who / pay / for dinner)", correct: "Who is paying for dinner|Who's paying for dinner", translation: "Ai đang trả tiền cho bữa tối vậy?" },
+            { prompt: "(What / change / in the new plan)", correct: "What is changing in the new plan|What's changing in the new plan", translation: "Điều gì đang thay đổi trong kế hoạch mới?" },
+            { prompt: "(Who / talk / so loudly)", correct: "Who is talking so loudly|Who's talking so loudly", translation: "Ai đang nói chuyện to thế?" },
+            { prompt: "(What / fall / from the tree)", correct: "What is falling from the tree|What's falling from the tree", translation: "Cái gì đang rơi từ trên cây xuống vậy?" },
+            { prompt: "(Who / win / the race)", correct: "Who is winning the race|Who's winning the race", translation: "Ai đang chiến thắng cuộc đua?" },
+            { prompt: "(What / motivate / them)", correct: "What is motivating them|What's motivating them", translation: "Điều gì đang thúc đẩy họ?" },
+            { prompt: "(Who / organize / this event)", correct: "Who is organizing this event|Who's organizing this event", translation: "Ai đang tổ chức sự kiện này?" },
+            { prompt: "(What / go / on here)", correct: "What is going on here|What's going on here", translation: "Chuyện gì đang diễn ra ở đây vậy?" },
+            { prompt: "(Who / stand / over there)", correct: "Who is standing over there|Who's standing over there", translation: "Ai đang đứng ở đằng kia vậy?" },
+        ];
+
+        function generateBonusQuestions() {
+            const container = document.getElementById('bonus-exercises-container');
+            bonusQuestions.forEach((q, index) => {
+                const item = document.createElement('div');
+                item.className = 'bonus-question-item';
+                item.innerHTML = `
+                    <p class="prompt">${index + 1}. <code>${q.prompt}</code></p>
+                    <input type="text" id="bonus-input-${index}" placeholder="Type your answer here...">
+                    <button onclick="checkBonusAnswer(this)" 
+                            data-correct="${q.correct}" 
+                            data-translation="${q.translation}"
+                            data-index="${index}">Submit</button>
+                    <div class="bonus-feedback" id="bonus-feedback-${index}"></div>
+                    <div class="bonus-result" id="bonus-result-${index}"></div>
+                `;
+                container.appendChild(item);
+            });
+        }
+        
+        function normalizeBonusAnswer(answer) {
+             return answer.trim().replace(/\?$/, '').replace(/\s\s+/g, ' ').toLowerCase();
+        }
+
+        function checkBonusAnswer(button) {
+            const index = button.dataset.index;
+            const input = document.getElementById(`bonus-input-${index}`);
+            const feedbackDiv = document.getElementById(`bonus-feedback-${index}`);
+            const resultDiv = document.getElementById(`bonus-result-${index}`);
+
+            const userAnswer = normalizeBonusAnswer(input.value);
+            const correctAnswers = button.dataset.correct.split('|').map(ans => normalizeBonusAnswer(ans));
+            const translation = button.dataset.translation;
+
+            let isCorrect = correctAnswers.some(correct => userAnswer === correct);
+
+            if (isCorrect) {
+                const displayAnswer = button.dataset.correct.split('|')[0] + '?';
+                resultDiv.innerHTML = `
+                    <h4>Chính xác!</h4>
+                    <p class="complete-sentence"><strong>Câu hoàn chỉnh:</strong> ${displayAnswer}</p>
+                    <p class="translation"><strong>Bản dịch:</strong> ${translation}</p>
+                `;
+                resultDiv.style.display = 'block';
+                feedbackDiv.style.display = 'none';
+                input.style.border = '2px solid #27ae60';
+                button.disabled = true;
+                input.disabled = true;
+
+            } else {
+                const hint = button.dataset.correct.split('|')[0] + '?';
+                feedbackDiv.innerHTML = `<strong>Không đúng.</strong> Gợi ý đáp án đúng là: <strong>${hint}</strong>`;
+                feedbackDiv.style.display = 'block';
+                resultDiv.style.display = 'none';
+                input.style.border = '2px solid #c0392b';
+            }
+        }
+        
+        // Generate the questions when the page loads
+        document.addEventListener('DOMContentLoaded', generateBonusQuestions);
+    </script>
+</section>
+
+	
+
+</body>
+</html>

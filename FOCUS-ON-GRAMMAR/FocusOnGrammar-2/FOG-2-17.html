@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 17: Simple Present and Present Progressive</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Headers */
+        h1, h2, h3, h4 {
+            color: #0056b3;
+        }
+
+        .unit-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        .unit-number {
+            font-size: 6em;
+            font-weight: bold;
+            color: #ccc;
+            margin-right: 20px;
+        }
+
+        .unit-title-box {
+            flex-grow: 1;
+        }
+
+        .unit-title-box h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #000;
+        }
+
+        .outcomes {
+            background-color: #e7f3ff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .outcomes ul {
+            list-style-type: '• ';
+            padding-left: 20px;
+            margin: 0;
+        }
+        
+        /* Section Steps */
+        .step-header {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* Reading Section */
+        .reading-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        .reading-text {
+            flex: 2;
+            min-width: 300px;
+        }
+        .reading-aside {
+            flex: 1;
+            min-width: 250px;
+            font-size: 1.1em;
+        }
+        .reading-title {
+            font-size: 3em;
+            font-weight: bold;
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .reading-title span {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+        }
+        .reading-footnotes {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 15px;
+        }
+        .reading-img-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .reading-img-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        #youtube-placeholder {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: #e0e0e0;
+            border: 2px dashed #999;
+            text-align: center;
+        }
+        .youtube-video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+        }
+        .youtube-video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Exercises */
+        .exercise {
+            margin-top: 25px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .exercise-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .question ol, .question ul {
+            padding-left: 20px;
+            list-style-position: inside;
+        }
+        .question input[type="text"], .question input[type="email"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin: 0 5px;
+            min-width: 100px;
+        }
+        .question button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .question button:hover {
+            background-color: #0056b3;
+        }
+        .feedback {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+            font-style: italic;
+        }
+
+        /* Grammar Presentation */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        td ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .grammar-note {
+            background-color: #f0f8ff;
+            border: 1px solid #b0e0e6;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .be-careful {
+            background-color: #fff0f0;
+            border: 1px solid #ffcccc;
+            color: #d8000c;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .usage-note {
+            background-color: #f0f0ff;
+            border: 1px solid #ccccff;
+            color: #4b0082;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        /* Editing Exercise */
+        #editing-text {
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            padding: 20px;
+            line-height: 2;
+            font-size: 1.1em;
+            border-radius: 5px;
+            position: relative;
+        }
+        #editing-text .mistake {
+            text-decoration: line-through;
+            color: red;
+        }
+        .correction {
+            position: relative;
+            display: inline-block;
+        }
+        .correction input {
+            width: 100px;
+        }
+
+        /* Writing Section */
+        #writing-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fef9e7;
+            border-left: 5px solid #f1c40f;
+        }
+        #sample-paragraph {
+            font-style: italic;
+            color: #555;
+        }
+        #sentence-output p {
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="unit-header">
+            <div class="unit-number">17</div>
+            <div class="unit-title-box">
+                <h1>Simple Present and Present Progressive; Non-Action Verbs</h1>
+                <h2>SMARTPHONES</h2>
+            </div>
+        </header>
+
+        <div class="outcomes">
+            <strong>OUTCOMES</strong>
+            <ul>
+                <li>Use the simple present and the present progressive</li>
+                <li>Describe opinions, experiences, and preferences with non-action verbs</li>
+                <li>Recognize details in a short article about smartphones</li>
+                <li>Recognize details of short phone messages</li>
+                <li>Discuss reasons for people's actions</li>
+                <li>Discuss the ways you prefer to communicate</li>
+                <li>Write a description of a picture</li>
+            </ul>
+        </div>
+
+        <!-- ==================== STEP 1 ==================== -->
+        <div class="step">
+            <div class="step-header">STEP 1: GRAMMAR IN CONTEXT</div>
+
+            <h3>BEFORE YOU READ</h3>
+            <p>Work with a partner. Answer the questions.</p>
+            <ol>
+                <li>
+                    How do you use your phone? Circle your answers.
+                    <ul>
+                        <li>a. to email</li>
+                        <li>b. to get directions</li>
+                        <li>c. to listen to music</li>
+                        <li>d. to make phone calls</li>
+                        <li>e. to network with friends</li>
+                        <li>f. to search the Internet</li>
+                        <li>g. to take photos</li>
+                        <li>h. to text</li>
+                    </ul>
+                </li>
+                <li>What three ways do you use your phone the most?</li>
+            </ol>
+
+            <h3>READ</h3>
+            <p>Read this article about smartphones.</p>
+            
+            <div class="reading-section">
+                <div class="reading-text">
+                    <div class="reading-title"><span>SMARTPHONE</span>MANIA</div>
+                    <p>
+                        <strong>S</strong>martphones <strong>are</strong> everywhere. People <strong>under twenty</strong><sup>1</sup> <strong>don’t know</strong> a world without them. They <strong>come</strong> with many features. They <strong>come</strong> in different colors and sizes. Some smartphones <strong>are waterproof</strong> and <strong>shockproof</strong>.<sup>2</sup>
+                    </p>
+                    <p>
+                        People <strong>use</strong> their smartphones for a lot more than talking. Xavier <strong>uses</strong> his phone all the time, but rarely <strong>makes</strong> phone calls. He <strong>texts</strong> and <strong>plays</strong> games. Right now, he<strong>’s running late</strong>,<sup>3</sup> so he<strong>’s texting</strong> his friend.
+                    </p>
+                    <p>
+                        It’s easy to understand the popularity of these phones. People <strong>want</strong> to connect with others, and at the same time, they <strong>want</strong> to be <strong>mobile</strong>.<sup>4</sup> Smartphones <strong>make</strong> it possible to do both. Smartphones <strong>are</strong> big business, and the technology <strong>is</strong> constantly <strong>improving</strong>.
+                    </p>
+                    <div class="reading-footnotes">
+                        <sup>1</sup> <strong>under twenty:</strong> less than twenty years old<br>
+                        <sup>2</sup> <strong>waterproof and shockproof:</strong> don’t break when they fall in water and fall on the ground<br>
+                        <sup>3</sup> <strong>running late:</strong> not on time<br>
+                        <sup>4</sup> <strong>mobile:</strong> able to move around
+                    </div>
+                </div>
+                <div class="reading-aside">
+                    <p>What about in the future? Nobody <strong>knows</strong>, but here <strong>are</strong> the wishes of two people.</p>
+                    <div class="reading-img-container"><img src="FOG-2-17/1.png" alt="Two phones showing messages" style="max-width: 250px;"></div>
+                    <p>Emily <strong>says</strong>, “I often <strong>forget</strong> to charge my phone. I <strong>want</strong> a phone with endless power.”</p>
+                    <p>Robert <strong>says</strong>, “I <strong>want</strong> my phone to teach me a foreign language while I <strong>sleep</strong>.”</p>
+                    <p>Well, Emily may get her wish a lot sooner than Robert. But, of course, with the speed at which things <strong>are changing</strong> these days, you never <strong>know</strong> what the future will bring.</p>
+                </div>
+            </div>
+
+            <div id="youtube-placeholder">
+                <h4>Video bổ sung</h4>
+                <p>Xem video dưới đây để hiểu thêm về chủ đề.</p>
+                <div class="youtube-video-container">
+                    <!-- THAY THẾ 'YOUR_YOUTUBE_VIDEO_ID' BẰNG ID VIDEO CỦA BẠN -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/J1xBKvVWfXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+            <h3>AFTER YOU READ</h3>
+            <div class="exercise">
+                <div class="exercise-title">A VOCABULARY Match the words in bold with their meanings.</div>
+                <div class="question">
+                    1. I <strong>connect</strong> with Hiro once or twice a week. (a. dance / b. make contact)
+                    <input type="text" id="vocab1" size="2">
+                    <button onclick="checkAnswer('vocab1', 'b', 'feedback1')">Submit</button>
+                    <span class="feedback" id="feedback1"></span>
+                </div>
+                <div class="question">
+                    2. That watch is <strong>waterproof</strong>. You can swim with it on. (a. not hurt by water / b. dry)
+                    <input type="text" id="vocab2" size="2">
+                    <button onclick="checkAnswer('vocab2', 'a', 'feedback2')">Submit</button>
+                    <span class="feedback" id="feedback2"></span>
+                </div>
+                <div class="question">
+                    3. That new computer comes with a lot of <strong>features</strong>. (a. parts that do many things / b. memory)
+                    <input type="text" id="vocab3" size="2">
+                    <button onclick="checkAnswer('vocab3', 'a', 'feedback3')">Submit</button>
+                    <span class="feedback" id="feedback3"></span>
+                </div>
+                <div class="question">
+                    4. He calls her <strong>constantly</strong>. Is he in love? (a. from time to time / b. all the time)
+                    <input type="text" id="vocab4" size="2">
+                    <button onclick="checkAnswer('vocab4', 'b', 'feedback4')">Submit</button>
+                    <span class="feedback" id="feedback4"></span>
+                </div>
+                <div class="question">
+                    5. Your work is <strong>improving</strong>. (a. getting better / b. getting worse)
+                    <input type="text" id="vocab5" size="2">
+                    <button onclick="checkAnswer('vocab5', 'a', 'feedback5')">Submit</button>
+                    <span class="feedback" id="feedback5"></span>
+                </div>
+            </div>
+
+            <div class="exercise">
+                <div class="exercise-title">B COMPREHENSION Complete the sentences. Circle the correct answers.</div>
+                 <div class="question">
+                    1. Fifteen years ago, almost no one had a ______. (a. personal computer / b. cell phone / c. smartphone)
+                    <input type="text" id="comp1" size="2">
+                    <button onclick="checkAnswer('comp1', 'c', 'feedback-comp1')">Submit</button>
+                    <span class="feedback" id="feedback-comp1"></span>
+                </div>
+                <div class="question">
+                    2. Xavier is texting a friend because he is ______. (a. late / b. playing a game / c. tweeting)
+                    <input type="text" id="comp2" size="2">
+                    <button onclick="checkAnswer('comp2', 'a', 'feedback-comp2')">Submit</button>
+                    <span class="feedback" id="feedback-comp2"></span>
+                </div>
+                <div class="question">
+                    3. People want to get phone calls, but they don't want to ______. (a. stay home to get calls / b. be mobile / c. make phone calls)
+                    <input type="text" id="comp3" size="2">
+                    <button onclick="checkAnswer('comp3', 'b', 'feedback-comp3')">Submit</button>
+                    <span class="feedback" id="feedback-comp3"></span>
+                </div>
+                <div class="question">
+                    4. Emily wants her phone to have ______. (a. a beeper / b. power all the time / c. an alarm)
+                    <input type="text" id="comp4" size="2">
+                    <button onclick="checkAnswer('comp4', 'b', 'feedback-comp4')">Submit</button>
+                    <span class="feedback" id="feedback-comp4"></span>
+                </div>
+                <div class="question">
+                    5. Robert wants to learn a language when he is ______. (a. at school / b. at work / c. asleep)
+                    <input type="text" id="comp5" size="2">
+                    <button onclick="checkAnswer('comp5', 'c', 'feedback-comp5')">Submit</button>
+                    <span class="feedback" id="feedback-comp5"></span>
+                </div>
+            </div>
+
+            <div class="exercise">
+                 <div class="exercise-title">C DISCUSSION</div>
+                 <p>Work with a partner. Compare your answers in B. Then discuss the following question: What is the main reason smartphones are popular?</p>
+            </div>
+        </div>
+
+        <!-- ==================== STEP 2 ==================== -->
+        <div class="step">
+            <div class="step-header">STEP 2: GRAMMAR PRESENTATION</div>
+
+            <h3>SIMPLE PRESENT AND PRESENT PROGRESSIVE</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>The Simple Present</th>
+                        <th>The Present Progressive</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I <strong>work</strong>.</td>
+                        <td>I<strong>'m working</strong> now.</td>
+                    </tr>
+                    <tr>
+                        <td>He <strong>works</strong> on Mondays.</td>
+                        <td>He<strong>'s working</strong> now.</td>
+                    </tr>
+                    <tr>
+                        <td>She <strong>doesn't work</strong> with me.</td>
+                        <td>She <strong>isn't working</strong> with him.</td>
+                    </tr>
+                    <tr>
+                        <td>They <strong>don't work</strong> with us.</td>
+                        <td>They <strong>aren't working</strong> with us.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Does</strong> he <strong>work</strong> with you?</td>
+                        <td><strong>Is</strong> he <strong>working</strong> with us?</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Do</strong> you <strong>work</strong> for a phone company?</td>
+                        <td><strong>Are</strong> you <strong>working</strong> now?</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>NON-ACTION (STATIVE) VERBS</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>State of Being</th>
+                        <th>Emotion</th>
+                        <th>Sense / Appearance</th>
+                        <th>Need / Preference</th>
+                        <th>Mental Action</th>
+                        <th>Possession</th>
+                        <th>Measurement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>be</td>
+                        <td>love, hate, like, dislike</td>
+                        <td>hear, see, feel, taste, smell, sound, look</td>
+                        <td>want, need, prefer</td>
+                        <td>agree, disagree, guess, understand, know, believe, think, mean, worry</td>
+                        <td>have, own, belong</td>
+                        <td>cost, weigh, owe</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>GRAMMAR NOTES</h3>
+            <div class="grammar-note">
+                <strong>1. Simple Present</strong>
+                <p>Remember to use the <strong>simple present</strong> to tell or ask about <strong>habits, customs, routines, and facts.</strong></p>
+                <p><em>I <strong>charge</strong> my phone every evening.</em></p>
+                <p><em><strong>Do</strong> you <strong>charge</strong> your phone in the morning?</em></p>
+            </div>
+            <div class="grammar-note">
+                <strong>2. Present Progressive</strong>
+                <p>Remember to use the <strong>present progressive</strong> to tell or ask about an action happening <strong>right now</strong> or <strong>these days.</strong></p>
+                <p><em>He<strong>'s checking</strong> email now.</em></p>
+                <p><em>Jon <strong>is teaching</strong> computer science this year.</em></p>
+            </div>
+             <div class="grammar-note">
+                <strong>3. Non-action Verbs</strong>
+                <p>Some verbs do not describe actions. These verbs are called <strong>non-action</strong> or <strong>stative verbs</strong>.</p>
+                <p>Non-action verbs do the following:</p>
+                <ul>
+                    <li>express emotion</li>
+                    <li>describe sense or appearance</li>
+                    <li>express a need or preference</li>
+                    <li>describe a thought</li>
+                    <li>show possession</li>
+                    <li>give a measurement</li>
+                    <li>express a state</li>
+                </ul>
+                <p><em>We <strong>like</strong> that computer.</em></p>
+                <p><em>The music <strong>sounds</strong> relaxing.</em></p>
+                <p><em>I <strong>prefer</strong> email.</em></p>
+                <p><em>It <strong>belongs</strong> to me.</em></p>
+                
+                <div class="be-careful">
+                    <strong>BE CAREFUL!</strong> We usually do not use non-action verbs in the present progressive (<em>-ing</em>) form.
+                    <p>NOT <del>I'm owning a smartphone.</del> It <del>is costing</del> a lot.</p>
+                </div>
+                <div class="usage-note">
+                    <strong>USAGE NOTE</strong> Some non-action verbs can also have an active meaning. When they have an active meaning, they can use the present progressive.
+                    <p>I <strong>have</strong> a new phone. I<strong>'m having</strong> trouble with it.</p>
+                    <p>I<strong>'m thinking</strong> about my phone. I <strong>think</strong> I need to return it.</p>
+                    <p>I<strong>'m tasting</strong> the soup. It <strong>tastes</strong> delicious.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== STEP 3 ==================== -->
+        <div class="step">
+            <div class="step-header">STEP 3: FOCUSED PRACTICE</div>
+
+            <div class="exercise">
+                <div class="exercise-title">EXERCISE 2: SIMPLE PRESENT; NON-ACTION VERBS; PRESENT PROGRESSIVE</div>
+                <p><strong>A GRAMMAR NOTES 1–3</strong> Complete the conversation. Use the simple present or present progressive forms of the verbs in parentheses. Use contractions when possible.</p>
+                <p><strong>ELI:</strong> What 
+                    <input type="text" id="ex2-1a" size="3"> 
+                    you 
+                    <input type="text" id="ex2-1b" size="5">? (do) 
+                    <button onclick="checkAnswer('ex2-1a', 'are', 'feedback-ex2-1a'); checkAnswer('ex2-1b', 'doing', 'feedback-ex2-1b')">Submit</button> 
+                    <span class="feedback" id="feedback-ex2-1a"></span> <span class="feedback" id="feedback-ex2-1b"></span>
+                </p>
+                <p><strong>MONA:</strong> I 
+                    <input type="text" id="ex2-2" size="5"> (check) Instagram. Look! That's Joy Lin from high school. She 
+                    <input type="text" id="ex2-3" size="4"> (have) three kids now. The twins 
+                    <input type="text" id="ex2-4" size="8"> (wear) pirate costumes, and the older girl 
+                    <input type="text" id="ex2-5" size="8"> (wear) a princess dress. The boy 
+                    <input type="text" id="ex2-6" size="5"> (look) like Joy, doesn't he?
+                    <button onclick="checkAnswer('ex2-2', 'check', 'feedback-ex2-2'); checkAnswer('ex2-3', 'has', 'feedback-ex2-3'); checkAnswer('ex2-4', 'are wearing', 'feedback-ex2-4'); checkAnswer('ex2-5', 'is wearing', 'feedback-ex2-5'); checkAnswer('ex2-6', 'looks', 'feedback-ex2-6')">Submit</button> 
+                    <span class="feedback" id="feedback-ex2-2"></span> <span class="feedback" id="feedback-ex2-3"></span> <span class="feedback" id="feedback-ex2-4"></span> <span class="feedback" id="feedback-ex2-5"></span> <span class="feedback" id="feedback-ex2-6"></span>
+                </p>
+                <p><strong>ELIA:</strong> Yes, I 
+                    <input type="text" id="ex2-7" size="5"> (think) they all look like Joy.
+                    <button onclick="checkAnswer('ex2-7', 'think', 'feedback-ex2-7')">Submit</button>
+                    <span class="feedback" id="feedback-ex2-7"></span>
+                </p>
+                <p><strong>MONA:</strong> 
+                    <input type="text" id="ex2-8a" size="3"> you 
+                    <input type="text" id="ex2-8b" size="4"> (use) social media a lot?
+                    <button onclick="checkAnswer('ex2-8a', 'do', 'feedback-ex2-8a'); checkAnswer('ex2-8b', 'use', 'feedback-ex2-8b')">Submit</button>
+                    <span class="feedback" id="feedback-ex2-8a"></span> <span class="feedback" id="feedback-ex2-8b"></span>
+                </p>
+                 <p><strong>ELI:</strong> No, not really. I 
+                    <input type="text" id="ex2-9" size="6"> (prefer) to text or email friends. I 
+                    <input type="text" id="ex2-10" size="7"> (believe) it's more personal. Also, I 
+                    <input type="text" id="ex2-11" size="5"> (worry) about my privacy. 
+                    <input type="text" id="ex2-12a" size="3"> you 
+                    <input type="text" id="ex2-12b" size="5"> (worry) about your privacy?
+                     <button onclick="checkAnswer('ex2-9', 'prefer', 'feedback-ex2-9'); checkAnswer('ex2-10', 'believe', 'feedback-ex2-10'); checkAnswer('ex2-11', 'worry', 'feedback-ex2-11'); checkAnswer('ex2-12a', 'do', 'feedback-ex2-12a'); checkAnswer('ex2-12b', 'worry', 'feedback-ex2-12b')">Submit</button>
+                    <span class="feedback" id="feedback-ex2-9"></span> <span class="feedback" id="feedback-ex2-10"></span> <span class="feedback" id="feedback-ex2-11"></span> <span class="feedback" id="feedback-ex2-12a"></span> <span class="feedback" id="feedback-ex2-12b"></span>
+                </p>
+                 <p><strong>MONA:</strong> Sometimes, but I 
+                    <input type="text" id="ex2-13" size="4"> (love) to connect with my friends on social media.
+                    <button onclick="checkAnswer('ex2-13', 'love', 'feedback-ex2-13')">Submit</button>
+                    <span class="feedback" id="feedback-ex2-13"></span>
+                </p>
+            </div>
+            
+            <div class="exercise">
+                <div class="exercise-title">EXERCISE 5: EDITING</div>
+                <p>Correct the paragraph. There are six mistakes. The first mistake is already corrected. Find and correct five more.</p>
+                <div id="editing-text">
+                    I <span class="mistake">hates</span> <strong>hate</strong> cell phones. My boss 
+                    <span class="correction">
+                        <input type="text" id="edit1" placeholder="thinking">
+                        <button onclick="checkAnswer('edit1', 'thinks', 'feedback-edit1')">Submit</button>
+                        <span class="feedback" id="feedback-edit1"></span>
+                    </span>
+                    he can call me anytime, even on weekends. I'm dislike email for the same reason. People in my company work all the time. There's no "off" time. Look at John over there. It's his lunchtime, but he 
+                    <span class="correction">
+                        <input type="text" id="edit2" placeholder="answering calls">
+                        <button onclick="checkAnswer('edit2', 'is answering calls', 'feedback-edit2')">Submit</button>
+                        <span class="feedback" id="feedback-edit2"></span>
+                    </span>
+                    and checking email. He 
+                    <span class="correction">
+                        <input type="text" id="edit3" placeholder="never is get">
+                        <button onclick="checkAnswer('edit3', 'never gets', 'feedback-edit3')">Submit</button>
+                        <span class="feedback" id="feedback-edit3"></span>
+                    </span>
+                     time to relax. This wasn't possible in my parents' day. I don't think it's right. Technology 
+                    <span class="correction">
+                        <input type="text" id="edit4" placeholder="great">
+                        <button onclick="checkAnswer('edit4', 'is great', 'feedback-edit4')">Submit</button>
+                        <span class="feedback" id="feedback-edit4"></span>
+                    </span>
+                     in some ways, but it's 
+                    <span class="correction">
+                        <input type="text" id="edit5" placeholder="awful">
+                        <button onclick="checkAnswer('edit5', 'awful', 'feedback-edit5')">Submit</button>
+                        <span class="feedback" id="feedback-edit5"></span>
+                    </span>
+                     in other ways.
+                    <br><em>(Gợi ý: lỗi số 2 "I'm dislike" -> "I dislike", lỗi cuối cùng "it's awful" là đúng ngữ pháp, hãy tìm lỗi khác trong câu trước đó).</em>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== WRITING ==================== -->
+        <div id="writing-section">
+            <h3>WRITING</h3>
+            <h4>Đoạn văn mẫu</h4>
+            <p id="sample-paragraph">
+                Smartphones have changed the world in many ways. First, they allow us to stay connected with friends and family no matter where we are. We can send messages, make video calls, and share photos instantly. Second, smartphones are powerful tools for information and learning. You can search for any information on the internet within seconds. Finally, they offer endless entertainment, from games to movies and music. It is hard to imagine modern life without them.
+            </p>
+            <h4>Các câu đã được tách:</h4>
+            <div id="sentence-output"></div>
+        </div>
+    </div>
+
+    <script>
+        function checkAnswer(inputId, correctAnswer, feedbackId) {
+            const inputElement = document.getElementById(inputId);
+            const feedbackElement = document.getElementById(feedbackId);
+            const userAnswer = inputElement.value.trim().toLowerCase();
+            const correct = correctAnswer.toLowerCase();
+
+            // Handle multiple possible correct answers, e.g., "isn't" vs "is not"
+            const correctAnswers = correct.split('|');
+
+            if (correctAnswers.includes(userAnswer)) {
+                feedbackElement.textContent = "Correct!";
+                feedbackElement.className = "feedback correct";
+                inputElement.style.border = "1px solid green";
+            } else {
+                feedbackElement.textContent = `Hint: The correct answer is "${correctAnswers.join(' or ')}".`;
+                feedbackElement.className = "feedback incorrect";
+                inputElement.style.border = "1px solid red";
+            }
+        }
+        
+        // Script for the Writing section
+        document.addEventListener('DOMContentLoaded', function() {
+            const paragraph = document.getElementById('sample-paragraph').textContent;
+            const outputDiv = document.getElementById('sentence-output');
+            
+            // Split by period, question mark, or exclamation mark, and then filter out empty strings
+            const sentences = paragraph.split(/[.?!]/).filter(sentence => sentence.trim().length > 0);
+            
+            sentences.forEach(sentence => {
+                const p = document.createElement('p');
+                p.textContent = sentence.trim() + '.'; // Add the period back for display
+                outputDiv.appendChild(p);
+            });
+        });
+
+    </script>
+
+	<!-- ==================== ADDITIONAL PRACTICE SECTION ==================== -->
+<section id="extra-exercises-section" class="container">
+    <div class="step-header" style="background-color: #dc3545;">BÀI TẬP THỰC HÀNH THÊM</div>
+    
+    <style>
+        /* CSS for this section only */
+        #extra-exercises-section {
+            margin-top: 40px;
+            border-top: 5px solid #dc3545;
+        }
+        .practice-question {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #fcfcfc;
+        }
+        .practice-question p {
+            font-size: 1.1em;
+            margin: 0 0 10px 0;
+        }
+        .practice-question input[type="text"] {
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 0 5px;
+            font-size: 1em;
+        }
+        .practice-question button {
+            padding: 6px 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .practice-question button:hover {
+            background-color: #0056b3;
+        }
+        .practice-result {
+            margin-top: 10px;
+            padding: 12px;
+            background-color: #e7f3ff;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        .practice-result .sentence {
+            font-weight: bold;
+            color: #333;
+        }
+        .practice-result .translation {
+            font-style: italic;
+            color: #555;
+            font-size: 0.95em;
+        }
+    </style>
+
+    <div id="practice-container">
+        <!-- Questions will be generated by JavaScript -->
+    </div>
+
+    <script>
+        // Data for 100 practice questions
+        // Format: [ "Sentence part 1", "(verb)", "Sentence part 2", "correctAnswer1|correctAnswer2", "Full sentence template", "Vietnamese translation" ]
+        // The template uses '{ans}' as a placeholder for the answer.
+        const practiceQuestionsData = [
+            // Simple Present
+            ["He often", "(visit)", "his grandparents on weekends.", "visits", "He often {ans} his grandparents on weekends.", "Anh ấy thường đến thăm ông bà vào cuối tuần."],
+            ["Water", "(boil)", "at 100 degrees Celsius.", "boils", "Water {ans} at 100 degrees Celsius.", "Nước sôi ở 100 độ C."],
+            ["They", "(not / live)", "in this city anymore.", "don't live|do not live", "They {ans} in this city anymore.", "Họ không còn sống ở thành phố này nữa."],
+            ["My dog", "(bark)", "when a stranger comes.", "barks", "My dog {ans} when a stranger comes.", "Con chó của tôi sủa khi có người lạ đến."],
+            ["", "(you / speak)", "English fluently?", "Do you speak", "{ans} English fluently?", "Bạn có nói tiếng Anh trôi chảy không?"],
+            ["The sun", "(rise)", "in the east.", "rises", "The sun {ans} in the east.", "Mặt trời mọc ở hướng đông."],
+            ["She", "(not / like)", "spicy food at all.", "doesn't like|does not like", "She {ans} spicy food at all.", "Cô ấy hoàn toàn không thích đồ ăn cay."],
+            ["Nurses", "(look after)", "patients in hospitals.", "look after", "Nurses {ans} patients in hospitals.", "Y tá chăm sóc bệnh nhân trong bệnh viện."],
+            ["", "(he / have)", "any siblings?", "Does he have", "{ans} any siblings?", "Anh ấy có anh chị em nào không?"],
+            ["I always", "(brush)", "my teeth before going to bed.", "brush", "I always {ans} my teeth before going to bed.", "Tôi luôn đánh răng trước khi đi ngủ."],
+            // Present Progressive
+            ["Be quiet! The baby", "(sleep)", ".", "is sleeping", "Be quiet! The baby {ans}.", "Hãy im lặng! Em bé đang ngủ."],
+            ["Look! It", "(rain)", "heavily outside.", "is raining", "Look! It {ans} heavily outside.", "Nhìn kìa! Bên ngoài trời đang mưa to."],
+            ["I", "(not / work)", "right now; I'm on a break.", "am not working|'m not working", "I {ans} right now; I'm on a break.", "Tôi không đang làm việc bây giờ; tôi đang nghỉ giải lao."],
+            ["What", "(you / do)", "at the moment?", "are you doing", "What {ans} at the moment?", "Bạn đang làm gì vào lúc này?"],
+            ["They", "(build)", "a new bridge over the river.", "are building", "They {ans} a new bridge over the river.", "Họ đang xây một cây cầu mới bắc qua sông."],
+            ["She", "(learn)", "to play the guitar this year.", "is learning", "She {ans} to play the guitar this year.", "Cô ấy đang học chơi guitar trong năm nay."],
+            ["Why", "(he / wear)", "a suit today? He usually wears jeans.", "is he wearing", "Why {ans} a suit today? He usually wears jeans.", "Tại sao hôm nay anh ấy lại mặc vest? Anh ấy thường mặc quần jean."],
+            ["We", "(plan)", "our summer vacation.", "are planning", "We {ans} our summer vacation.", "Chúng tôi đang lên kế hoạch cho kỳ nghỉ hè của mình."],
+            ["The kids", "(not / watch)", "TV; they are playing outside.", "are not watching|aren't watching", "The kids {ans} TV; they are playing outside.", "Bọn trẻ không đang xem TV; chúng đang chơi ở ngoài."],
+            ["My computer", "(run)", "very slowly today.", "is running", "My computer {ans} very slowly today.", "Máy tính của tôi hôm nay chạy rất chậm."],
+            // Non-Action Verbs
+            ["I", "(not / understand)", "this math problem. Can you help me?", "don't understand|do not understand", "I {ans} this math problem. Can you help me?", "Tôi không hiểu bài toán này. Bạn giúp tôi được không?"],
+            ["This soup", "(taste)", "a little salty.", "tastes", "This soup {ans} a little salty.", "Món súp này có vị hơi mặn."],
+            ["She", "(seem)", "very happy with her new job.", "seems", "She {ans} very happy with her new job.", "Cô ấy có vẻ rất vui với công việc mới của mình."],
+            ["He", "(own)", "a beautiful house by the lake.", "owns", "He {ans} a beautiful house by the lake.", "Anh ấy sở hữu một ngôi nhà đẹp bên hồ."],
+            ["We", "(believe)", "that honesty is the best policy.", "believe", "We {ans} that honesty is the best policy.", "Chúng tôi tin rằng trung thực là chính sách tốt nhất."],
+            ["This perfume", "(smell)", "wonderful.", "smells", "This perfume {ans} wonderful.", "Loại nước hoa này có mùi thật tuyệt."],
+            ["I", "(prefer)", "coffee to tea in the morning.", "prefer", "I {ans} coffee to tea in the morning.", "Tôi thích cà phê hơn trà vào buổi sáng."],
+            ["", "(you / know)", "the way to the train station?", "Do you know", "{ans} the way to the train station?", "Bạn có biết đường đến ga xe lửa không?"],
+            ["The new phone", "(cost)", "a lot of money.", "costs", "The new phone {ans} a lot of money.", "Chiếc điện thoại mới tốn rất nhiều tiền."],
+            ["This box", "(contain)", "old photographs.", "contains", "This box {ans} old photographs.", "Chiếc hộp này chứa những bức ảnh cũ."],
+            // Mixed Practice
+            ["Sarah usually", "(walk)", "to school, but today she", "(take)", "the bus because it's raining.", "walks, is taking", "Sarah usually {ans} to school, but today she {ans} the bus because it's raining.", "Sarah thường đi bộ đến trường, nhưng hôm nay cô ấy đi xe buýt vì trời đang mưa."],
+            ["I", "(read)", "a very interesting book at the moment.", "am reading|'m reading", "I {ans} a very interesting book at the moment.", "Hiện tại tôi đang đọc một cuốn sách rất thú vị."],
+            ["My father", "(not / watch)", "TV on weekdays.", "doesn't watch|does not watch", "My father {ans} TV on weekdays.", "Bố tôi không xem TV vào các ngày trong tuần."],
+            ["What", "(that music / play)", "so loudly?", "is that music playing", "What {ans} so loudly?", "Thứ nhạc gì đang phát to thế?"],
+            ["She", "(have)", "two cats and a dog.", "has", "She {ans} two cats and a dog.", "Cô ấy có hai con mèo và một con chó."],
+            ["Be careful! You", "(drive)", "too fast.", "are driving", "Be careful! You {ans} too fast.", "Cẩn thận! Bạn đang lái xe quá nhanh."],
+            ["The Earth", "(revolve)", "around the Sun.", "revolves", "The Earth {ans} around the Sun.", "Trái Đất quay quanh Mặt Trời."],
+            ["I", "(think)", "you are right.", "think", "I {ans} you are right.", "Tôi nghĩ bạn đúng."],
+            ["He", "(have)", "a shower right now.", "is having|'s having", "He {ans} a shower right now.", "Anh ấy đang tắm ngay bây giờ."],
+            ["Why", "(you / look)", "at me like that?", "are you looking", "Why {ans} at me like that?", "Tại sao bạn lại nhìn tôi như vậy?"],
+            ["It", "(depend)", "on the weather whether we go out.", "depends", "It {ans} on the weather whether we go out.", "Việc chúng ta có đi chơi hay không còn tùy thuộc vào thời tiết."],
+            ["I", "(not / remember)", "his name.", "don't remember|do not remember", "I {ans} his name.", "Tôi không nhớ tên anh ấy."],
+            ["The company's profits", "(increase)", "this quarter.", "are increasing", "The company's profits {ans} this quarter.", "Lợi nhuận của công ty đang tăng trong quý này."],
+
+            // More questions (57 more to reach 100)
+            ["My mom", "(cook)", "dinner in the kitchen now.", "is cooking", "My mom {ans} dinner in the kitchen now.", "Mẹ tôi đang nấu bữa tối trong bếp."],
+            ["He always", "(forget)", "to lock the door.", "forgets", "He always {ans} to lock the door.", "Anh ấy luôn quên khóa cửa."],
+            ["This bag", "(belong)", "to me.", "belongs", "This bag {ans} to me.", "Cái túi này thuộc về tôi."],
+            ["Listen! Someone", "(knock)", "at the door.", "is knocking", "Listen! Someone {ans} at the door.", "Nghe này! Ai đó đang gõ cửa."],
+            ["I", "(need)", "some help with my homework.", "need", "I {ans} some help with my homework.", "Tôi cần giúp đỡ với bài tập về nhà."],
+            ["The population of the world", "(grow)", "very fast.", "is growing", "The population of the world {ans} very fast.", "Dân số thế giới đang tăng rất nhanh."],
+            ["She", "(want)", "to be a doctor when she grows up.", "wants", "She {ans} to be a doctor when she grows up.", "Cô ấy muốn trở thành bác sĩ khi lớn lên."],
+            ["What", "(you / think)", "about? You seem distracted.", "are you thinking", "What {ans} about? You seem distracted.", "Bạn đang nghĩ gì vậy? Trông bạn có vẻ mất tập trung."],
+            ["This flower", "(smell)", "so sweet. Here, smell it.", "smells", "This flower {ans} so sweet. Here, smell it.", "Bông hoa này có mùi thật ngọt. Đây, ngửi nó đi."],
+            ["The chef", "(taste)", "the sauce to see if it needs more salt.", "is tasting", "The chef {ans} the sauce to see if it needs more salt.", "Đầu bếp đang nếm nước sốt để xem nó có cần thêm muối không."],
+            ["It rarely", "(snow)", "in this part of the country.", "snows", "It rarely {ans} in this part of the country.", "Trời hiếm khi có tuyết ở vùng này của đất nước."],
+            ["We", "(not / go)", "to the cinema very often.", "don't go|do not go", "We {ans} to the cinema very often.", "Chúng tôi không đi xem phim thường xuyên lắm."],
+            ["The phone", "(ring)", ". Can you answer it?", "is ringing", "The phone {ans}. Can you answer it?", "Điện thoại đang reo. Bạn có thể trả lời được không?"],
+            ["I", "(promise)", "I won't tell anyone your secret.", "promise", "I {ans} I won't tell anyone your secret.", "Tôi hứa sẽ không nói bí mật của bạn cho ai."],
+            ["He", "(not / feel)", "well today, so he stayed home.", "doesn't feel|does not feel", "He {ans} well today, so he stayed home.", "Anh ấy không cảm thấy khỏe hôm nay, vì vậy anh ấy đã ở nhà."],
+            ["How often", "(you / go)", "to the gym?", "do you go", "How often {ans} to the gym?", "Bạn có thường đến phòng tập gym không?"],
+            ["I", "(look)", "for my keys. Have you seen them?", "am looking|'m looking", "I {ans} for my keys. Have you seen them?", "Tôi đang tìm chìa khóa. Bạn có thấy chúng không?"],
+            ["She", "(appear)", "to be tired.", "appears", "She {ans} to be tired.", "Cô ấy có vẻ mệt mỏi."],
+            ["My brother", "(study)", "engineering at university.", "studies", "My brother {ans} engineering at university.", "Anh trai tôi học ngành kỹ thuật ở trường đại học."],
+            ["They", "(have)", "a party next Saturday.", "are having", "They {ans} a party next Saturday.", "Họ sẽ có một bữa tiệc vào thứ Bảy tới."],
+            ["The river", "(flow)", "very fast after the rain.", "is flowing", "The river {ans} very fast after the rain.", "Dòng sông đang chảy rất xiết sau cơn mưa."],
+            ["He", "(hate)", "waking up early in the morning.", "hates", "He {ans} waking up early in the morning.", "Anh ấy ghét việc thức dậy sớm vào buổi sáng."],
+
+            // More questions
+            ["I", "(see)", "a bird in that tree. It's beautiful.", "see", "I {ans} a bird in that tree. It's beautiful.", "Tôi thấy một con chim trên cái cây kia. Nó thật đẹp."],
+            ["I", "(see)", "my doctor tomorrow morning.", "am seeing|'m seeing", "I {ans} my doctor tomorrow morning.", "Tôi sẽ gặp bác sĩ của tôi vào sáng mai."],
+            ["The children", "(play)", "in the garden at the moment.", "are playing", "The children {ans} in the garden at the moment.", "Bọn trẻ đang chơi trong vườn vào lúc này."],
+            ["The train to London", "(leave)", "every hour.", "leaves", "The train to London {ans} every hour.", "Chuyến tàu đến London khởi hành mỗi giờ."],
+            ["You", "(make)", "a lot of noise. Can you be quieter?", "are making", "You {ans} a lot of noise. Can you be quieter?", "Bạn đang làm ồn quá. Bạn có thể yên tĩnh hơn được không?"],
+            ["What", "(this word / mean)", "?", "does this word mean", "What {ans}?", "Từ này có nghĩa là gì?"],
+            ["She", "(always / complain)", "about her work.", "is always complaining", "She {ans} about her work.", "Cô ấy lúc nào cũng phàn nàn về công việc của mình."],
+            ["My English", "(get)", "better and better.", "is getting", "My English {ans} better and better.", "Tiếng Anh của tôi đang ngày càng tốt hơn."],
+            ["The movie", "(start)", "at 8 PM.", "starts", "The movie {ans} at 8 PM.", "Bộ phim bắt đầu lúc 8 giờ tối."],
+            ["He", "(weigh)", "70 kilograms.", "weighs", "He {ans} 70 kilograms.", "Anh ấy nặng 70 kg."],
+            ["The butcher", "(weigh)", "the meat on the scales.", "is weighing", "The butcher {ans} the meat on the scales.", "Người bán thịt đang cân thịt trên cân."],
+            ["I", "(doubt)", "he will come on time.", "doubt", "I {ans} he will come on time.", "Tôi nghi ngờ anh ấy sẽ đến đúng giờ."],
+            ["This room", "(need)", "a good cleaning.", "needs", "This room {ans} a good cleaning.", "Căn phòng này cần được dọn dẹp kỹ lưỡng."],
+            ["Turn down the music. I", "(try)", "to study.", "am trying|'m trying", "Turn down the music. I {ans} to study.", "Vặn nhỏ nhạc xuống. Tôi đang cố gắng học bài."],
+            ["We", "(live)", "with our parents until we find our own apartment.", "are living", "We {ans} with our parents until we find our own apartment.", "Chúng tôi đang sống với bố mẹ cho đến khi tìm được căn hộ riêng."],
+            ["He never", "(listen)", "to my advice.", "listens", "He never {ans} to my advice.", "Anh ấy không bao giờ nghe lời khuyên của tôi."],
+            ["The new intern", "(not / know)", "how to use the printer.", "doesn't know|does not know", "The new intern {ans} how to use the printer.", "Thực tập sinh mới không biết cách sử dụng máy in."],
+            ["Why", "(the baby / cry)", "? Is she hungry?", "is the baby crying", "Why {ans}? Is she hungry?", "Tại sao em bé khóc vậy? Con bé đói à?"],
+            ["My sister", "(work)", "as a waitress this summer.", "is working", "My sister {ans} as a waitress this summer.", "Chị gái tôi đang làm bồi bàn vào mùa hè này."],
+            ["It", "(get)", "dark. We should go home.", "is getting", "It {ans} dark. We should go home.", "Trời đang tối dần. Chúng ta nên về nhà."],
+            ["What time", "(the banks / close)", "here?", "do the banks close", "What time {ans} here?", "Mấy giờ các ngân hàng ở đây đóng cửa?"],
+            ["He", "(owe)", "me a lot of money.", "owes", "He {ans} me a lot of money.", "Anh ấy nợ tôi rất nhiều tiền."],
+            ["You", "(look)", "great in that dress!", "look", "You {ans} great in that dress!", "Bạn trông thật tuyệt trong chiếc váy đó!"],
+            ["The sun", "(shine)", "brightly today.", "is shining", "The sun {ans} brightly today.", "Hôm nay trời nắng đẹp."],
+            ["She", "(not / believe)", "what he is saying.", "doesn't believe|does not believe", "She {ans} what he is saying.", "Cô ấy không tin những gì anh ta đang nói."],
+            ["Hurry up! Everybody", "(wait)", "for you.", "is waiting", "Hurry up! Everybody {ans} for you.", "Nhanh lên! Mọi người đang đợi bạn đó."],
+            ["He", "(take)", "a photo of his family.", "is taking", "He {ans} a photo of his family.", "Anh ấy đang chụp một bức ảnh gia đình."],
+            ["Some people", "(prefer)", "to travel by train than by plane.", "prefer", "Some people {ans} to travel by train than by plane.", "Một số người thích đi du lịch bằng tàu hỏa hơn là máy bay."],
+            ["My hands are dirty because I", "(repair)", "my bike.", "am repairing|'ve been repairing", "My hands are dirty because I {ans} my bike.", "Tay tôi bị bẩn vì tôi đang sửa xe đạp của mình."],
+            ["This jacket", "(not / fit)", "me anymore.", "doesn't fit|does not fit", "This jacket {ans} me anymore.", "Cái áo khoác này không còn vừa với tôi nữa."]
+        ];
+        
+        // Function to generate the HTML for the questions
+        function generatePracticeQuestions() {
+            const container = document.getElementById('practice-container');
+            let html = '';
+            practiceQuestionsData.forEach((data, index) => {
+                const qNum = index + 1;
+                // Splitting combined answers into a single input field
+                const parts = data[3].split(', ');
+                let inputHtml = '';
+                if (parts.length > 1) {
+                    inputHtml = `<input type="text" id="practice-q${qNum}a" size="8">, ${data[2]} she <input type="text" id="practice-q${qNum}b" size="8"> ${data[4]}`;
+                } else {
+                    inputHtml = `<input type="text" id="practice-q${qNum}" size="15"> ${data[2]}`;
+                }
+                
+                // Using single input for simplicity in generation
+                html += `
+                    <div class="practice-question" id="pq-container-${qNum}">
+                        <p>${qNum}. ${data[0]} 
+                           <input type="text" id="practice-q${qNum}" size="20" placeholder="${data[1]}">
+                           ${data[2]}
+                        </p>
+                        <button onclick="checkPracticeAnswer(
+                            ${qNum}, 
+                            '${data[3]}', 
+                            '${data[4]}', 
+                            '${data[5]}'
+                        )">Submit</button>
+                        <span class="feedback" id="practice-feedback${qNum}"></span>
+                        <div class="practice-result" id="practice-result${qNum}" style="display:none;"></div>
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        // Function to check answers for the new section
+        function checkPracticeAnswer(qNum, correctAnswer, sentenceTemplate, translation) {
+            const inputEl = document.getElementById(`practice-q${qNum}`);
+            const feedbackEl = document.getElementById(`practice-feedback${qNum}`);
+            const resultEl = document.getElementById(`practice-result${qNum}`);
+            
+            const userAnswer = inputEl.value.trim().toLowerCase();
+            const correctAnswers = correctAnswer.toLowerCase().split('|');
+
+            if (correctAnswers.includes(userAnswer)) {
+                feedbackEl.textContent = 'Correct!';
+                feedbackEl.className = 'feedback correct';
+                inputEl.style.border = '1px solid green';
+                
+                const fullSentence = sentenceTemplate.replace('{ans}', `<strong>${inputEl.value.trim()}</strong>`);
+                
+                resultEl.innerHTML = `
+                    <div class="sentence">${fullSentence}</div>
+                    <div class="translation">${translation}</div>
+                `;
+                resultEl.style.display = 'block';
+            } else {
+                feedbackEl.textContent = `Incorrect. Hint: The answer is "${correctAnswers.join(' or ')}".`;
+                feedbackEl.className = 'feedback incorrect';
+                inputEl.style.border = '1px solid red';
+                resultEl.style.display = 'none';
+            }
+        }
+        
+        // Generate the questions when the page loads
+        document.addEventListener('DOMContentLoaded', generatePracticeQuestions);
+    </script>
+</section>
+<!-- ==================== END OF ADDITIONAL PRACTICE SECTION ==================== -->
+</body>
+</html>
